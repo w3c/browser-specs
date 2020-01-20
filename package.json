@@ -1,0 +1,12 @@
+{
+  "name": "browser-specs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3c/browser-specs.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "node lint.js",
+    "lint-fix": "node lint.js --fix"
+  }
+}

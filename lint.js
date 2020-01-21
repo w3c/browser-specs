@@ -2,19 +2,23 @@
 
 const fs = require("fs").promises;
 
+const isString = obj =>
+  Object.prototype.toString.call(obj) === "[object String]";
+
 // Lint by normalizing specs.json and comparing it to the original,
 // fixing it in place if |fix| is true.
 async function lint(fix = false) {
   const specsBuffer = await fs.readFile("./specs.json");
-  let specs = JSON.parse(specsBuffer);
+  const specs = JSON.parse(specsBuffer);
 
-  const fixed = specs.map(spec => {
-    const url = new URL(spec.url).toString();
-    return { url };
-  });
-  fixed.sort((a, b) => {
-    a.url.localeCompare(b.url);
-  });
+  const sorted = specs
+    .map(spec => isString(spec) ? { url: spec } : spec)
+    .map(spec => Object.assign({}, spec, { url: new URL(spec.url).toString() }));
+  sorted.sort((a, b) => a.url.localeCompare(b.url));
+
+  // Prefer URL-only format when we only have a URL
+  const fixed = sorted
+    .map(spec => (Object.keys(spec).length > 1) ? spec : spec.url);
 
   const fixedBuffer = Buffer.from(JSON.stringify(fixed, null, "  ") + "\n");
   if (!specsBuffer.equals(fixedBuffer)) {

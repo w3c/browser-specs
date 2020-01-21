@@ -2,9 +2,6 @@
 
 const fs = require("fs").promises;
 
-const isString = obj =>
-  Object.prototype.toString.call(obj) === "[object String]";
-
 // Lint by normalizing specs.json and comparing it to the original,
 // fixing it in place if |fix| is true.
 async function lint(fix = false) {
@@ -12,7 +9,7 @@ async function lint(fix = false) {
   const specs = JSON.parse(specsBuffer);
 
   const sorted = specs
-    .map(spec => isString(spec) ? { url: spec } : spec)
+    .map(spec => (typeof spec === "string") ? { url: spec } : spec)
     .map(spec => Object.assign({}, spec, { url: new URL(spec.url).toString() }));
   sorted.sort((a, b) => a.url.localeCompare(b.url));
 

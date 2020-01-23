@@ -8,5 +8,8 @@
   "scripts": {
     "lint": "node lint.js",
     "lint-fix": "node lint.js --fix"
+  },
+  "devDependencies": {
+    "ajv": "^6.11.0"
   }
 }

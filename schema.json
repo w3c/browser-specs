@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "oneOf": [
+      {
+        "type": "string",
+        "format": "uri"
+      },
+      {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["url"],
+        "additionalProperties": false
+      }
+    ]
+  }
+}

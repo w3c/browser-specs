@@ -54,11 +54,12 @@ const clarifyErrors = errors => {
 };
 
 
-// Lint by normalizing specs.json and comparing it to the original,
-// fixing it in place if |fix| is true.
-async function lint(fix = false) {
-  const specsBuffer = await fs.readFile("./specs.json");
-  const specs = JSON.parse(specsBuffer);
+// Lint specs list defined as a JSON string
+function lintStr(specsStr) {
+  const specs = JSON.parse(specsStr);
+
+  // Normalize end of lines, different across platforms, for comparison
+  specsStr = specsStr.replace(/\r\n/g, "\n");
 
   const isSchemaValid = ajv.validateSchema(schema);
   if (!isSchemaValid) {
@@ -85,12 +86,22 @@ async function lint(fix = false) {
   const fixed = sorted
     .map(spec => (Object.keys(spec).length > 1) ? spec : spec.url);
 
-  const fixedBuffer = Buffer.from(JSON.stringify(fixed, null, "  ") + "\n");
-  if (!specsBuffer.equals(fixedBuffer)) {
+  const linted = JSON.stringify(fixed, null, 2) + "\n";
+  return (linted !== specsStr) ? linted : null;
+}
+
+
+// Lint by normalizing specs.json and comparing it to the original,
+// fixing it in place if |fix| is true.
+async function lint(fix = false) {
+  const specs = await fs.readFile("./specs.json", "utf8");
+  const linted = lintStr(specs);
+  if (linted) {
     if (fix) {
       console.log("specs.json has lint issues, updating in place");
-      await fs.writeFile("./specs.json", fixedBuffer);
-    } else {
+      await fs.writeFile("./specs.json", linted, "utf8");
+    }
+    else {
       console.log("specs.json has lint issues, run with --fix");
     }
     return false;
@@ -100,12 +111,21 @@ async function lint(fix = false) {
   return true;
 }
 
-lint(process.argv.includes("--fix")).then(
-  ok => {
-    process.exit(ok ? 0 : 1);
-  },
-  reason => {
-    console.error(reason);
-    process.exit(1);
-  }
-);
+
+if (require.main === module) {
+  // Code used as command-line interface (CLI), run linting process
+  lint(process.argv.includes("--fix")).then(
+    ok => {
+      process.exit(ok ? 0 : 1);
+    },
+    reason => {
+      console.error(reason);
+      process.exit(1);
+    }
+  );
+}
+else {
+  // Code imported to another JS module, export lint functions
+  module.exports.lintStr = lintStr;
+  module.exports.lint = lint;
+}

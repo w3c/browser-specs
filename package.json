@@ -7,6 +7,11 @@
   "main": "index.js",
   "scripts": {
     "lint": "node lint.js",
-    "lint-fix": "node lint.js --fix"
+    "lint-fix": "node lint.js --fix",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "ajv": "^6.11.0",
+    "mocha": "^7.0.0"
   }
 }

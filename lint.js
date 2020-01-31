@@ -7,9 +7,9 @@ const ajv = new Ajv();
 
 // When an entry is invalid, the schema validator returns one error for each
 // "oneOf" option and one error on overall "oneOf" problem. This is confusing
-// for humans. the following function improves the error being returned.
+// for humans. The following function improves the error being returned.
 const clarifyErrors = errors => {
-  if (!errors || (errors.length < 2)) {
+  if (!errors || errors.length < 2) {
     return errors;
   }
 
@@ -23,8 +23,8 @@ const clarifyErrors = errors => {
   }
 
   // Otherwise, if second error is a type error for second oneOf choice,
-  // it means the itme is actually a string that represents an invalid URL,
-  // which the first error should capture
+  // it means the item is actually a string that represents an invalid URL,
+  // which the first error should capture.
   if (errors[1].schemaPath === "#/items/oneOf/1/type") {
     return [errors[0]];
   }

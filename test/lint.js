@@ -34,6 +34,20 @@ describe("Linter", () => {
       assert.equal(lintStr(toStr(specs)), toStr(["https://example.org/"]));
     });
 
+    it("drops duplicate URLs", () => {
+      const specs = ["https://example.org/", "https://example.org/"];
+      assert.equal(
+        lintStr(toStr(specs)),
+        toStr(["https://example.org/"]));
+    });
+
+    it("drops duplicate URLs defined as string and object", () => {
+      const specs = [{ "url": "https://example.org/" }, "https://example.org/"];
+      assert.equal(
+        lintStr(toStr(specs)),
+        toStr(["https://example.org/"]));
+    });
+
     it("throws if specs is not an array", () => {
       const specs = 0;
       assert.throws(

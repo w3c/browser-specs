@@ -76,7 +76,7 @@ function computeShortname(url) {
     // Handle SVG drafts
     const svg = url.match(/\/svgwg\.org\/specs\/(?:svg-)?([^\/]+)\//);
     if (svg) {
-      return "svg-" + svgSpec[1];
+      return "svg-" + svg[1];
     }
 
     // Return shortname when one was given

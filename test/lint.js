@@ -8,30 +8,47 @@ describe("Linter", () => {
     }
 
     it("passes if specs contains a valid URL", () => {
-      const specs = ["https://example.org/"];
+      const specs = ["https://www.w3.org/TR/spec/"];
       assert.equal(lintStr(toStr(specs)), null);
     });
 
     it("passes if specs contains multiple sorted URLs", () => {
-      const specs = ["https://example.com/", "https://example.org/"];
+      const specs = [
+        "https://www.w3.org/TR/spec1/",
+        "https://www.w3.org/TR/spec2/"
+      ];
       assert.equal(lintStr(toStr(specs)), null);
     });
 
     it("sorts URLs", () => {
-      const specs = ["https://example.org/", "https://example.com/"];
+      const specs = [
+        "https://www.w3.org/TR/spec2/",
+        "https://www.w3.org/TR/spec1/"
+      ];
       assert.equal(
         lintStr(toStr(specs)),
-        toStr(["https://example.com/", "https://example.org/"]));
+        toStr([
+          "https://www.w3.org/TR/spec1/",
+          "https://www.w3.org/TR/spec2/"
+        ]));
     });
 
     it("lints a URL", () => {
-      const specs = ["https://example.org"];
-      assert.equal(lintStr(toStr(specs)), toStr(["https://example.org/"]));
+      const specs = [
+        { "url": "https://example.org", "shortname": "test" }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        { "url": "https://example.org/", "shortname": "test" }
+      ]));
     });
 
     it("lints an object with only a URL to a URL", () => {
-      const specs = [{ "url": "https://example.org/" }];
-      assert.equal(lintStr(toStr(specs)), toStr(["https://example.org/"]));
+      const specs = [
+        { "url": "https://www.w3.org/TR/spec/" }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec/"
+      ]));
     });
 
     it("throws if specs is not an array", () => {
@@ -81,6 +98,13 @@ describe("Linter", () => {
       assert.throws(
         () => lintStr(toStr(specs)),
         /^specs\[0\] should not have additional property 'invalid'$/);
+    });
+
+    it("throws when no shortname can be derived from a URL", () => {
+      const specs = ["https://example.org/"];
+      assert.throws(
+        () => lintStr(toStr(specs)),
+        /^Cannot extract meaningful shortname from/);
     });
   });
 });

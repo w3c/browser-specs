@@ -2,6 +2,7 @@
 
 const fs = require("fs").promises;
 const schema = require("./schema.json");
+const computeShortname = require("./src/compute-shortname.js");
 const Ajv = require("ajv");
 const ajv = new Ajv();
 
@@ -85,6 +86,11 @@ function lintStr(specsStr) {
   // Prefer URL-only format when we only have a URL
   const fixed = sorted
     .map(spec => (Object.keys(spec).length > 1) ? spec : spec.url);
+
+  // Make sure that we can generate shortnames for all specifications or that
+  // the specification already defines one. An exception will be thrown if not.
+  fixed.forEach(spec => computeShortname(
+    (typeof spec === "string") ? spec : spec.shortname || spec.url));
 
   const linted = JSON.stringify(fixed, null, 2) + "\n";
   return (linted !== specsStr) ? linted : null;

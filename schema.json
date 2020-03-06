@@ -14,11 +14,11 @@
             "type": "string",
             "format": "uri"
           },
-          "shortname": {
+          "name": {
             "type": "string",
             "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
           },
-          "familyname": {
+          "shortname": {
             "type": "string",
             "pattern": "^[\\w\\-]+$"
           },

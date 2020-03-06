@@ -35,10 +35,10 @@ describe("Linter", () => {
 
     it("lints a URL", () => {
       const specs = [
-        { "url": "https://example.org", "shortname": "test" }
+        { "url": "https://example.org", "name": "test" }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
-        { "url": "https://example.org/", "shortname": "test" }
+        { "url": "https://example.org/", "name": "test" }
       ]));
     });
 
@@ -100,11 +100,11 @@ describe("Linter", () => {
         /^specs\[0\] should not have additional property 'invalid'$/);
     });
 
-    it("throws when no shortname can be derived from a URL", () => {
+    it("throws when no name can be derived from a URL", () => {
       const specs = ["https://example.org/"];
       assert.throws(
         () => lintStr(toStr(specs)),
-        /^Cannot extract meaningful shortname from/);
+        /^Cannot extract meaningful name from/);
     });
   });
 });

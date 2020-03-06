@@ -1,6 +1,6 @@
 /**
  * Module that exports a function that takes a URL as input and computes a
- * meaninful shortname, family name and level for it, when appropriate.
+ * meaningful shortname, family name and level for it, when appropriate.
  *
  * The function returns an object with a "shortname" property. The shortname
  * matches the /TR/ shortname for specs published there. It includes the spec
@@ -56,12 +56,15 @@ function computeShortname(url) {
     }
 
     // Handle extension specs defined in the same repo as the main spec
+    // (e.g. generate a "gamepad-extensions" shortname for
+    // https://w3c.github.io/gamepad/extensions.html")
     const ext = url.match(/\/.*\.github\.io\/([^\/]+)\/(extensions?)\.html$/);
     if (ext) {
       return ext[1] + '-' + ext[2];
     }
 
-    // Handle draft specs on GitHub
+    // Handle draft specs on GitHub, excluding the "webappsec-" prefix for
+    // specifications developed by the Web Application Security Working Group
     const github = url.match(/\/.*\.github\.io\/(?:webappsec-)?([^\/]+)\//);
     if (github) {
         return github[1];
@@ -90,7 +93,10 @@ function computeShortname(url) {
   // Parse the URL to extract the shortname
   const shortname = parseUrl(url);
 
-  // Make sure shortname looks legit
+  // Make sure shortname looks legit, in other words that it is composed of
+  // basic Latin characters (a-z letters, digits, underscore and "-"), and that
+  // it only contains a dot for fractional levels at the end of the name
+  // (e.g. "blah-1.2" is good but "blah.blah" and "blah-3.1-blah" are not)
   if (!shortname.match(/^[\w\-]+((?<=\-\d+)\.\d+)?$/)) {
     throw `Shortname contains unexpected characters: ${shortname} (extracted from ${url})`;
   }

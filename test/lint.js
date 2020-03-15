@@ -52,17 +52,23 @@ describe("Linter", () => {
     });
 
     it("drops duplicate URLs", () => {
-      const specs = ["https://example.org/", "https://example.org/"];
+      const specs = [
+        "https://www.w3.org/TR/duplicate/",
+        "https://www.w3.org/TR/duplicate/"
+      ];
       assert.equal(
         lintStr(toStr(specs)),
-        toStr(["https://example.org/"]));
+        toStr(["https://www.w3.org/TR/duplicate/"]));
     });
 
     it("drops duplicate URLs defined as string and object", () => {
-      const specs = [{ "url": "https://example.org/" }, "https://example.org/"];
+      const specs = [
+        { "url": "https://www.w3.org/TR/duplicate/" },
+        "https://www.w3.org/TR/duplicate/"
+      ];
       assert.equal(
         lintStr(toStr(specs)),
-        toStr(["https://example.org/"]));
+        toStr(["https://www.w3.org/TR/duplicate/"]));
     });
 
     it("throws if specs is not an array", () => {

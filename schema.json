@@ -13,6 +13,19 @@
           "url": {
             "type": "string",
             "format": "uri"
+          },
+          "name": {
+            "type": "string",
+            "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+          },
+          "shortname": {
+            "type": "string",
+            "pattern": "^[\\w\\-]+$"
+          },
+          "level": {
+            "type": "number",
+            "multipleOf": 0.1,
+            "minimum": 1
           }
         },
         "required": ["url"],

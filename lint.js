@@ -54,6 +54,13 @@ const clarifyErrors = errors => {
 };
 
 
+function compareSpecs(a, b) {
+  const aurl = (typeof a === "string") ? a : a.url;
+  const burl = (typeof b === "string") ? b : b.url;
+  return aurl.localeCompare(burl);
+}
+
+
 // Lint specs list defined as a JSON string
 function lintStr(specsStr) {
   const specs = JSON.parse(specsStr);
@@ -76,14 +83,11 @@ function lintStr(specsStr) {
   const sorted = specs.map(spec => (typeof spec === "string") ?
       new URL(spec).toString() :
       Object.assign({}, spec, { url: new URL(spec.url).toString() }));
-  sorted.sort((a, b) => {
-    const aurl = (typeof a === "string") ? a : a.url;
-    const burl = (typeof b === "string") ? b : b.url;
-    return aurl.localeCompare(burl);
-  });
+  sorted.sort(compareSpecs);
 
-  // Prefer URL-only format when we only have a URL
+  // Drop duplicates and prefer URL-only format when we only have a URL
   const fixed = sorted
+    .filter((spec, idx) => !sorted.find((s, i) => i < idx && compareSpecs(s, spec) === 0))
     .map(spec => (Object.keys(spec).length > 1) ? spec : spec.url);
 
   const linted = JSON.stringify(fixed, null, 2) + "\n";

@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "name": {
+        "type": "string",
+        "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+      },
+      "shortname": {
+        "type": "string",
+        "pattern": "^[\\w\\-]+$"
+      },
+      "level": {
+        "type": "number",
+        "minimum": 1
+      },
+      "delta": {
+        "type": "boolean"
+      },
+      "previousLevel": {
+        "type": "string",
+        "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+      },
+      "nextLevel": {
+        "type": "string",
+        "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+      }
+    },
+    "required": ["url", "name", "shortname"],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}

@@ -20,6 +20,14 @@ describe("Linter", () => {
       assert.equal(lintStr(toStr(specs)), null);
     });
 
+    it("passes if specs contains a URL with a delta spec", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/",
+        "https://www.w3.org/TR/spec-2/ delta"
+      ];
+      assert.equal(lintStr(toStr(specs)), null);
+    });
+
     it("sorts URLs", () => {
       const specs = [
         "https://www.w3.org/TR/spec2/",
@@ -48,6 +56,17 @@ describe("Linter", () => {
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec/"
+      ]));
+    });
+
+    it("lints an object with only a URL and a delta flag to a string", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/",
+        { "url": "https://www.w3.org/TR/spec-2/", delta: true }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec-1/",
+        "https://www.w3.org/TR/spec-2/ delta"
       ]));
     });
 
@@ -93,10 +112,10 @@ describe("Linter", () => {
     });
 
     it("throws if specs contains an invalid URL", () => {
-      const specs = ["invalid"];
+      const specs = ["https://?"];
       assert.throws(
         () => lintStr(toStr(specs)),
-        /^specs\[0\] should match format "uri"$/);
+        /^TypeError (.*) Invalid URL/);
     });
 
     it("throws if specs contains an object without URL", () => {
@@ -125,6 +144,13 @@ describe("Linter", () => {
       assert.throws(
         () => lintStr(toStr(specs)),
         /^Cannot extract meaningful name from/);
+    });
+
+    it("throws when a delta spec does not have a full previous level", () => {
+      const specs = ["https://www.w3.org/TR/spec/ delta"];
+      assert.throws(
+        () => lintStr(toStr(specs)),
+        /^Delta spec\(s\) found without full previous level/);
     });
   });
 });

@@ -1,8 +1,9 @@
 "use strict";
 
 const fs = require("fs").promises;
-const schema = require("./schema.json");
+const schema = require("./specs-schema.json");
 const computeShortname = require("./src/compute-shortname.js");
+const computePrevNext = require("./src/compute-prevnext.js");
 const Ajv = require("ajv");
 const ajv = new Ajv();
 
@@ -56,9 +57,38 @@ const clarifyErrors = errors => {
 
 
 function compareSpecs(a, b) {
-  const aurl = (typeof a === "string") ? a : a.url;
-  const burl = (typeof b === "string") ? b : b.url;
-  return aurl.localeCompare(burl);
+  return a.url.localeCompare(b.url);
+}
+
+
+// Shorten definition of spec to more human-readable version
+function shortenDefinition(spec) {
+  if (typeof spec === "string") {
+    return spec;
+  }
+  if (Object.keys(spec).length === 1) {
+    return spec.url;
+  }
+  else if (Object.keys(spec).length === 2 && spec.hasOwnProperty("delta")) {
+    if (spec.delta) {
+      return `${spec.url} delta`;
+    }
+    else {
+      return spec.url;
+    }
+  }
+  else if (spec.hasOwnProperty("delta") && !spec.delta) {
+    const short = {};
+    for (const property of spec) {
+      if (property !== "delta") {
+        short[property] = spec[property];
+      }
+    }
+    return short;
+  }
+  else {
+    return spec;
+  }
 }
 
 
@@ -81,20 +111,38 @@ function lintStr(specsStr) {
     });
   }
 
-  const sorted = specs.map(spec => (typeof spec === "string") ?
-      new URL(spec).toString() :
-      Object.assign({}, spec, { url: new URL(spec.url).toString() }));
-  sorted.sort(compareSpecs);
-
-  // Drop duplicates and prefer URL-only format when we only have a URL
-  const fixed = sorted
-    .filter((spec, idx) => !sorted.find((s, i) => i < idx && compareSpecs(s, spec) === 0))
-    .map(spec => (Object.keys(spec).length > 1) ? spec : spec.url);
+  // Convert entries to spec objects, drop duplicates, and sort per URL
+  const sorted = specs
+    .map(spec => (typeof spec === "string") ?
+      {
+        url: new URL(spec.split(" ")[0]).toString(),
+        delta: spec.split(' ')[1] === "delta"
+      } :
+      Object.assign({}, spec, { url: new URL(spec.url).toString() }))
+    .filter((spec, idx, list) =>
+      !list.find((s, i) => i < idx && compareSpecs(s, spec) === 0))
+    .sort(compareSpecs);
 
   // Make sure that we can generate names for all specifications or that
   // the specification already defines one. An exception will be thrown if not.
-  fixed.forEach(spec => computeShortname(
-    (typeof spec === "string") ? spec : spec.name || spec.url));
+  // Also generate previous/next links and make sure that we do not end up with
+  // a delta spec for which we do not have a previous "full" spec.
+  // (Note the code considers that a delta spec of a delta spec is an error too.
+  // That case could perhaps happen in practice and the "previousLevel" chain
+  // can easily be followed to find the previous level that contains the "full"
+  // spec. Still, it seems good to choke on it as long as that's not needed)
+  const deltaWithoutFull = sorted
+    .map(s => Object.assign({}, s, computeShortname(s.name || s.url)))
+    .map((s, _, list) => Object.assign({}, s, computePrevNext(s, list)))
+    .filter((s, _, list) =>
+      s.delta && !list.find(p => !p.delta && p.name === s.previousLevel));
+  if (deltaWithoutFull.length > 0) {
+    throw "Delta spec(s) found without full previous level: " +
+      deltaWithoutFull.map(s => s.url).join(" ");
+  }
+
+  // Prefer URL-only format when we only have a URL
+  const fixed = sorted.map(shortenDefinition);
 
   const linted = JSON.stringify(fixed, null, 2) + "\n";
   return (linted !== specsStr) ? linted : null;

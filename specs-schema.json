@@ -5,7 +5,7 @@
     "oneOf": [
       {
         "type": "string",
-        "format": "uri"
+        "pattern": "^https://[^\\s]+(\\sdelta)?$"
       },
       {
         "type": "object",
@@ -24,8 +24,10 @@
           },
           "level": {
             "type": "number",
-            "multipleOf": 0.1,
             "minimum": 1
+          },
+          "delta": {
+            "type": "boolean"
           }
         },
         "required": ["url"],

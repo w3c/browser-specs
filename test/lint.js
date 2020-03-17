@@ -62,7 +62,7 @@ describe("Linter", () => {
     it("lints an object with only a URL and a delta flag to a string", () => {
       const specs = [
         "https://www.w3.org/TR/spec-1/",
-        { "url": "https://www.w3.org/TR/spec-2/", delta: true }
+        { "url": "https://www.w3.org/TR/spec-2/", levelComposition: "delta" }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec-1/",

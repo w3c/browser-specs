@@ -36,7 +36,8 @@ describe("List of specs", () => {
   });
 
   it("has previous links for all delta specs", () => {
-    const wrong = specs.filter(s => s.delta && !s.previousLevel);
+    const wrong = specs.filter(s =>
+      s.levelComposition === "delta" && !s.previousLevel);
     assert.deepStrictEqual(wrong, []);
   });
 

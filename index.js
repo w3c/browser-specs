@@ -9,7 +9,7 @@ const specs = require("./specs.json")
   .map(spec => {
     if (typeof spec === "string") {
       if (spec.split(" ")[1] === "delta") {
-        return { url: spec.split(" ")[0], delta: true };
+        return { url: spec.split(" ")[0], levelComposition: "delta" };
       }
       else {
         return { url: spec };
@@ -23,7 +23,7 @@ const specs = require("./specs.json")
   // Complete information and output result starting with the URL, names,
   // level, and additional info
   .map(spec => Object.assign(
-    { "url": spec.url },
+    { url: spec.url, levelComposition: spec.levelComposition || "full" },
     computeShortname(spec.name || spec.url),
     spec))
 

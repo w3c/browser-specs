@@ -69,18 +69,18 @@ function shortenDefinition(spec) {
   if (Object.keys(spec).length === 1) {
     return spec.url;
   }
-  else if (Object.keys(spec).length === 2 && spec.hasOwnProperty("delta")) {
-    if (spec.delta) {
+  else if (Object.keys(spec).length === 2 && spec.levelComposition) {
+    if (spec.levelComposition === "delta") {
       return `${spec.url} delta`;
     }
     else {
       return spec.url;
     }
   }
-  else if (spec.hasOwnProperty("delta") && !spec.delta) {
+  else if (spec.levelComposition === "full") {
     const short = {};
     for (const property of spec) {
-      if (property !== "delta") {
+      if (property !== "levelComposition") {
         short[property] = spec[property];
       }
     }
@@ -116,7 +116,7 @@ function lintStr(specsStr) {
     .map(spec => (typeof spec === "string") ?
       {
         url: new URL(spec.split(" ")[0]).toString(),
-        delta: spec.split(' ')[1] === "delta"
+        levelComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full"
       } :
       Object.assign({}, spec, { url: new URL(spec.url).toString() }))
     .filter((spec, idx, list) =>
@@ -135,7 +135,8 @@ function lintStr(specsStr) {
     .map(s => Object.assign({}, s, computeShortname(s.name || s.url)))
     .map((s, _, list) => Object.assign({}, s, computePrevNext(s, list)))
     .filter((s, _, list) =>
-      s.delta && !list.find(p => !p.delta && p.name === s.previousLevel));
+      s.levelComposition === "delta" &&
+      !list.find(p => p.levelComposition === "full" && p.name === s.previousLevel));
   if (deltaWithoutFull.length > 0) {
     throw "Delta spec(s) found without full previous level: " +
       deltaWithoutFull.map(s => s.url).join(" ");

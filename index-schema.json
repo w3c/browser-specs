@@ -20,8 +20,9 @@
         "type": "number",
         "minimum": 1
       },
-      "delta": {
-        "type": "boolean"
+      "levelComposition": {
+        "type": "string",
+        "enum": ["full", "delta"]
       },
       "previousLevel": {
         "type": "string",

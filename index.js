@@ -1,9 +1,33 @@
 "use strict";
 
 const computeShortname = require("./src/compute-shortname.js");
+const computePrevNext = require("./src/compute-prevnext.js");
 
 const specs = require("./specs.json")
-  .map(spec => (typeof spec === "string") ? { url: spec } : spec)
-  .map(spec => Object.assign({ "url": spec.url }, computeShortname(spec.name || spec.url), spec));
+  // Turn all specs into objects
+  // (and handle syntactic sugar notation for "delta" flag)
+  .map(spec => {
+    if (typeof spec === "string") {
+      if (spec.split(" ")[1] === "delta") {
+        return { url: spec.split(" ")[0], levelComposition: "delta" };
+      }
+      else {
+        return { url: spec };
+      }
+    }
+    else {
+      return spec;
+    }
+  })
+
+  // Complete information and output result starting with the URL, names,
+  // level, and additional info
+  .map(spec => Object.assign(
+    { url: spec.url, levelComposition: spec.levelComposition || "full" },
+    computeShortname(spec.name || spec.url),
+    spec))
+
+  // Complete information with previous/next level links
+  .map((spec, _, list) => Object.assign(spec, computePrevNext(spec, list)));
 
 module.exports = { specs };

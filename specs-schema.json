@@ -5,7 +5,7 @@
     "oneOf": [
       {
         "type": "string",
-        "pattern": "^https://[^\\s]+(\\sdelta)?$"
+        "pattern": "^https://[^\\s]+(\\s(delta|current))?$"
       },
       {
         "type": "object",
@@ -29,6 +29,9 @@
           "levelComposition": {
             "type": "string",
             "enum": ["full", "delta"]
+          },
+          "forceCurrent": {
+            "type": "boolean"
           }
         },
         "required": ["url"],

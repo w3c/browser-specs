@@ -24,6 +24,10 @@
         "type": "string",
         "enum": ["full", "delta"]
       },
+      "currentLevel": {
+        "type": "string",
+        "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+      },
       "previousLevel": {
         "type": "string",
         "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
@@ -33,7 +37,7 @@
         "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
       }
     },
-    "required": ["url", "name", "shortname"],
+    "required": ["url", "name", "shortname", "currentLevel"],
     "additionalProperties": false
   },
   "minItems": 1

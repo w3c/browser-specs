@@ -28,6 +28,14 @@ describe("Linter", () => {
       assert.equal(lintStr(toStr(specs)), null);
     });
 
+    it("passes if specs contains a URL with a spec flagged as current", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/ current",
+        "https://www.w3.org/TR/spec-2/"
+      ];
+      assert.equal(lintStr(toStr(specs)), null);
+    });
+
     it("sorts URLs", () => {
       const specs = [
         "https://www.w3.org/TR/spec2/",
@@ -67,6 +75,55 @@ describe("Linter", () => {
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec-1/",
         "https://www.w3.org/TR/spec-2/ delta"
+      ]));
+    });
+
+    it("lints an object with only a URL and a current flag to a string", () => {
+      const specs = [
+        { "url": "https://www.w3.org/TR/spec-1/", "forceCurrent": true },
+        "https://www.w3.org/TR/spec-2/"
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec-1/ current",
+        "https://www.w3.org/TR/spec-2/"
+      ]));
+    });
+
+    it("lints an object with a useless current flag", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec/ current"
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec/"
+      ]));
+    });
+
+    it("lints an object with a useless current flag (delta version)", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/ current",
+        "https://www.w3.org/TR/spec-2/ delta"
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec-1/",
+        "https://www.w3.org/TR/spec-2/ delta",
+      ]));
+    });
+
+    it("lints an object with a 'full' flag", () => {
+      const specs = [
+        { "url": "https://www.w3.org/TR/spec/", "levelComposition": "full" }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec/"
+      ]));
+    });
+
+    it("lints an object with a current flag set to false", () => {
+      const specs = [
+        { "url": "https://www.w3.org/TR/spec/", "forceCurrent": false }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec/"
       ]));
     });
 
@@ -151,6 +208,28 @@ describe("Linter", () => {
       assert.throws(
         () => lintStr(toStr(specs)),
         /^Delta spec\(s\) found without full previous level/);
+    });
+
+    it("throws when a delta spec is flagged as current", () => {
+      const specs = [
+        { url: "https://www.w3.org/TR/spec-1/" },
+        { url: "https://www.w3.org/TR/spec-2/",
+          levelComposition: "delta", forceCurrent: true }
+      ];
+      assert.throws(
+        () => lintStr(toStr(specs)),
+        /^Delta spec\(s\) found that are also flagged as current/);
+    });
+
+    it("throws when multiple levels are defined as current", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/ current",
+        "https://www.w3.org/TR/spec-2/ current",
+        "https://www.w3.org/TR/spec-3/",
+      ];
+      assert.throws(
+        () => lintStr(toStr(specs)),
+        /^Too many current specs for shortname\(s\)/);
     });
   });
 });

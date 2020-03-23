@@ -63,31 +63,26 @@ function compareSpecs(a, b) {
 
 // Shorten definition of spec to more human-readable version
 function shortenDefinition(spec) {
-  if (typeof spec === "string") {
-    return spec;
-  }
-  if (Object.keys(spec).length === 1) {
-    return spec.url;
-  }
-  else if (Object.keys(spec).length === 2 && spec.levelComposition) {
-    if (spec.levelComposition === "delta") {
-      return `${spec.url} delta`;
-    }
-    else {
-      return spec.url;
+  const short = {};
+  for (const property of Object.keys(spec)) {
+    if (!((property === "levelComposition" && spec[property] === "full") ||
+        (property === "forceCurrent" && !spec[property]))) {
+      short[property] = spec[property];
     }
   }
-  else if (spec.levelComposition === "full") {
-    const short = {};
-    for (const property of spec) {
-      if (property !== "levelComposition") {
-        short[property] = spec[property];
-      }
-    }
-    return short;
+  if (Object.keys(short).length === 1) {
+    return short.url;
+  }
+  else if (Object.keys(short).length === 2 &&
+      spec.levelComposition === "delta") {
+    return `${spec.url} delta`;
+  }
+  else if (Object.keys(short).length === 2 &&
+      spec.forceCurrent) {
+    return `${spec.url} current`;
   }
   else {
-    return spec;
+    return short;
   }
 }
 
@@ -101,7 +96,7 @@ function lintStr(specsStr) {
 
   const isSchemaValid = ajv.validateSchema(schema);
   if (!isSchemaValid) {
-    throw "The schema.json file must be a valid JSON Schema file";
+    throw "The specs-schema.json file must be a valid JSON Schema file";
   }
 
   var isValid = ajv.validate(schema, specs, { format: "full" });
@@ -116,7 +111,8 @@ function lintStr(specsStr) {
     .map(spec => (typeof spec === "string") ?
       {
         url: new URL(spec.split(" ")[0]).toString(),
-        levelComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full"
+        levelComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
+        forceCurrent: (spec.split(' ')[1] === "current")
       } :
       Object.assign({}, spec, { url: new URL(spec.url).toString() }))
     .filter((spec, idx, list) =>
@@ -125,25 +121,57 @@ function lintStr(specsStr) {
 
   // Make sure that we can generate names for all specifications or that
   // the specification already defines one. An exception will be thrown if not.
-  // Also generate previous/next links and make sure that we do not end up with
-  // a delta spec for which we do not have a previous "full" spec.
+  // Generate links between levels to test list consistency
+  const linkedList = sorted
+    .map(s => Object.assign({}, s, computeShortname(s.name || s.url)))
+    .map((s, _, list) => Object.assign({}, s, computePrevNext(s, list)));
+
+  // Make sure that we do not end up with a delta spec for which we do not have
+  // a previous "full" spec.
   // (Note the code considers that a delta spec of a delta spec is an error too.
   // That case could perhaps happen in practice and the "previousLevel" chain
   // can easily be followed to find the previous level that contains the "full"
   // spec. Still, it seems good to choke on it as long as that's not needed)
-  const deltaWithoutFull = sorted
-    .map(s => Object.assign({}, s, computeShortname(s.name || s.url)))
-    .map((s, _, list) => Object.assign({}, s, computePrevNext(s, list)))
-    .filter((s, _, list) =>
-      s.levelComposition === "delta" &&
-      !list.find(p => p.levelComposition === "full" && p.name === s.previousLevel));
+  const deltaWithoutFull = linkedList.filter((s, _, list) =>
+    s.levelComposition === "delta" &&
+    !list.find(p => p.levelComposition !== "delta" && p.name === s.previousLevel));
   if (deltaWithoutFull.length > 0) {
     throw "Delta spec(s) found without full previous level: " +
       deltaWithoutFull.map(s => s.url).join(" ");
   }
 
-  // Prefer URL-only format when we only have a URL
-  const fixed = sorted.map(shortenDefinition);
+  // Make sure that there are no delta specs flagged as "current"
+  const deltaCurrent = linkedList.filter(s =>
+    s.forceCurrent && s.levelComposition === "delta");
+  if (deltaCurrent.length > 0) {
+    throw "Delta spec(s) found that are also flagged as current: " +
+      deltaCurrent.map(s => s.url).join(" ");
+  }
+
+  // Make sure that there is only one spec flagged as "current" per shortname
+  const problematicCurrent = linkedList
+    .filter(s => s.forceCurrent)
+    .filter(s => s !== linkedList.find(p =>
+      p.shortname === s.shortname && p.forceCurrent));
+  if (problematicCurrent.length > 0) {
+    throw "Too many current specs for shortname(s): " +
+      problematicCurrent.map(s => s.shortname).join(" ");
+  }
+
+  // Drop useless forceCurrent flag and shorten definition when possible
+  const fixed = sorted
+    .map(spec => {
+      const linked = linkedList.find(p => p.url === spec.url);
+      const next = linked.nextLevel ?
+        linkedList.find(p => p.name === linked.nextLevel) :
+        null;
+      const isLastLevel = !next || next.levelComposition === "delta";
+      if (spec.forceCurrent && isLastLevel) {
+        spec.forceCurrent = false;
+      }
+      return spec;
+    })
+    .map(shortenDefinition);
 
   const linted = JSON.stringify(fixed, null, 2) + "\n";
   return (linted !== specsStr) ? linted : null;

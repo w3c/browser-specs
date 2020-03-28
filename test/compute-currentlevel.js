@@ -49,6 +49,14 @@ describe("compute-currentlevel module", () => {
       spec.name);
   });
 
+  it("gets back to the latest level when spec is a delta spec", () => {
+    const spec = getSpec({ level: 1 });
+    const delta = getSpec({ level: 2, levelComposition: "delta" });
+    assert.equal(
+      getCurrentName(delta, [spec, delta]),
+      spec.name);
+  });
+
   it("returns the spec name if it is flagged as current", () => {
     const spec = getSpec({ level: 1, forceCurrent: true });
     const last = getSpec({ level: 2 });

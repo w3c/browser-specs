@@ -25,10 +25,10 @@ module.exports = function (spec, list) {
   }
 
   const current = list.reduce((candidate, curr) => {
-    if (curr.shortname === candidate.shortname &&
-        (curr.forceCurrent ||
-          (curr.levelComposition !== "delta" && !candidate.forceCurrent &&
-            (curr.level || 0) > (candidate.level || 0)))) {
+    if (curr.shortname === candidate.shortname && !candidate.forceCurrent &&
+      curr.levelComposition !== "delta" &&
+        (curr.forceCurrent || candidate.levelComposition === "delta" ||
+          (curr.level || 0) > (candidate.level || 0))) {
       return curr;
     }
     else {

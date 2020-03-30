@@ -31,10 +31,38 @@ const specs = require("./specs.json")
     computeShortname(spec.name || spec.url),
     spec))
 
-  // Complete information with currentLevel property
+  // Complete information with currentLevel property and drop forceCurrent flags
+  // that no longer need to be exposed
   .map((spec, _, list) => Object.assign(spec, computeCurrentLevel(spec, list)))
+  .map(spec => { delete spec.forceCurrent; return spec; })
 
   // Complete information with previous/next level links
   .map((spec, _, list) => Object.assign(spec, computePrevNext(spec, list)));
 
-module.exports = { specs };
+
+if (require.main === module) {
+  // Code used as command-line interface (CLI), output info about known specs.
+  // If a parameter was provided, use it to find the right spec(s):
+  // - if it's an integer, return the spec at that index in the list
+  // - if parameter is full or delta, return specs with same level composition
+  // - return specs that have the same URL, name or shortname otherwise
+  // Otherwise, return the whole list
+  const id = process.argv[2];
+  if (id) {
+    const res = id.match(/^\d+$/) ?
+      [specs[parseInt(id, 10)]] :
+      specs.filter(s =>
+        s.url === id ||
+        s.name === id ||
+        s.shortname === id ||
+        s.levelComposition === id);
+    console.log(JSON.stringify(res.length === 1 ? res[0] : res, null, 2));
+  }
+  else {
+    console.log(JSON.stringify(specs, null, 2));
+  }
+}
+else {
+  // Code referenced from another JS module, export
+  module.exports = { specs };
+}

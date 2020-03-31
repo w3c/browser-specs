@@ -107,7 +107,7 @@ function lintStr(specsStr) {
 
   const isSchemaValid = ajv.validateSchema(schema);
   if (!isSchemaValid) {
-    throw "The schemas/specs.json file must be a valid JSON Schema file";
+    throw "The schema/specs.json file must be a valid JSON Schema file";
   }
 
   const isValid = validate(specs, { format: "full" });

@@ -6,6 +6,7 @@
   },
   "main": "index.js",
   "scripts": {
+    "fetch-info": "node src/fetch-info.js > specs-info.json",
     "lint": "node lint.js",
     "lint-fix": "node lint.js --fix",
     "test": "mocha"

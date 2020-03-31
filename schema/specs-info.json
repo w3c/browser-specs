@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/specs-info.json",
+
+  "type": "object",
+  "propertyNames": {
+    "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "edUrl": { "$ref": "dfns.json#/dfns/url" },
+      "trUrl": { "$ref": "dfns.json#/dfns/url" },
+      "title": { "$ref": "dfns.json#/dfns/title" },
+      "source": { "$ref": "dfns.json#/dfns/source" }
+    },
+    "required": ["title", "source"],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}

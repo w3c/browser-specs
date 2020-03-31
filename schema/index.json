@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/index.json",
+
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "url": { "$ref": "dfns.json#/dfns/url" },
+      "name": { "$ref": "dfns.json#/dfns/name" },
+      "shortname": { "$ref": "dfns.json#/dfns/shortname" },
+      "level": { "$ref": "dfns.json#/dfns/level" },
+      "levelComposition": { "$ref": "dfns.json#/dfns/levelComposition" },
+      "currentLevel": { "$ref": "dfns.json#/dfns/name" },
+      "previousLevel": { "$ref": "dfns.json#/dfns/name" },
+      "nextLevel": { "$ref": "dfns.json#/dfns/name" },
+      "edUrl": { "$ref": "dfns.json#/dfns/url" },
+      "trUrl": { "$ref": "dfns.json#/dfns/url" },
+      "title": { "$ref": "dfns.json#/dfns/title" },
+      "source": { "$ref": "dfns.json#/dfns/source" }
+    },
+    "required": ["url", "name", "shortname", "currentLevel", "title", "source"],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}

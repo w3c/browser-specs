@@ -6,7 +6,8 @@
 const assert = require("assert");
 const source = require("../specs.json");
 const { specs } = require("../index.js");
-const schema = require("../index-schema.json");
+const schema = require("../schema/index.json");
+const dfnsSchema = require("../schema/dfns.json");
 const Ajv = require("ajv");
 const ajv = new Ajv();
 
@@ -17,7 +18,8 @@ describe("List of specs", () => {
   });
   
   it("respects the JSON schema", () => {
-    const isValid = ajv.validate(schema, specs, { format: "full" });
+    const validate = ajv.addSchema(dfnsSchema).compile(schema);
+    const isValid = validate(specs, { format: "full" });
     assert.ok(isValid);
   });
 

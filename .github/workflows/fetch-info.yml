@@ -1,0 +1,30 @@
+on:
+  schedule:
+    - cron: '10 */6 * * *'
+  push:
+    branches:
+    - master
+name: Fetch additional spec info from external sources
+jobs:
+  fetch:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Setup environment
+      run: |
+        echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
+        npm ci
+    - name: Fetch info
+      run: npm run fetch-info
+    - name: Commit updates
+      run: |
+        git config user.name "fetch-info bot"
+        git config user.email "<>"
+        git commit -m "[data] Update spec info" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.5.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

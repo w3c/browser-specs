@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/dfns.json",
+
+  "dfns": {
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+
+    "name": {
+      "type": "string",
+      "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+    },
+
+    "shortname": {
+      "type": "string",
+      "pattern": "^[\\w\\-]+$"
+    },
+
+    "level": {
+      "type": "number",
+      "minimum": 1
+    },
+
+    "levelComposition": {
+      "type": "string",
+      "enum": ["full", "delta"]
+    },
+
+    "forceCurrent": {
+      "type": "boolean"
+    },
+
+    "title": {
+      "type": "string"
+    },
+
+    "source": {
+      "type": "string",
+      "enum": ["w3c", "specref", "spec"]
+    }
+  }
+}

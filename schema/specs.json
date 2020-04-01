@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/specs.json",
+
+  "type": "array",
+  "items": {
+    "oneOf": [
+      {
+        "type": "string",
+        "pattern": "^https://[^\\s]+(\\s(delta|current))?$"
+      },
+      {
+        "type": "object",
+        "properties": {
+          "url": { "$ref": "definitions.json#/proptype/url" },
+          "name": { "$ref": "definitions.json#/proptype/name" },
+          "shortname": { "$ref": "definitions.json#/proptype/shortname" },
+          "level": { "$ref": "definitions.json#/proptype/level" },
+          "levelComposition": { "$ref": "definitions.json#/proptype/levelComposition" },
+          "forceCurrent": { "type": "boolean" }
+        },
+        "required": ["url"],
+        "additionalProperties": false
+      }
+    ]
+  },
+  "minItems": 1
+}

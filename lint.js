@@ -1,17 +1,28 @@
 "use strict";
 
 const fs = require("fs").promises;
-const schema = require("./specs-schema.json");
 const computeShortname = require("./src/compute-shortname.js");
 const computePrevNext = require("./src/compute-prevnext.js");
+
+const schema = require("./schema/specs.json");
+const dfnsSchema = require("./schema/definitions.json");
 const Ajv = require("ajv");
 const ajv = new Ajv();
+const validate = ajv.addSchema(dfnsSchema).compile(schema);
 
 // When an entry is invalid, the schema validator returns one error for each
 // "oneOf" option and one error on overall "oneOf" problem. This is confusing
 // for humans. The following function improves the error being returned.
 const clarifyErrors = errors => {
-  if (!errors || errors.length < 2) {
+  if (!errors) {
+    return errors;
+  }
+
+  // Update dataPath to drop misleading "[object Object]"
+  errors.forEach(err =>
+    err.dataPath = err.dataPath.replace(/^\[object Object\]/, ''));
+
+  if (errors.length < 2) {
     return errors;
   }
 
@@ -96,12 +107,12 @@ function lintStr(specsStr) {
 
   const isSchemaValid = ajv.validateSchema(schema);
   if (!isSchemaValid) {
-    throw "The specs-schema.json file must be a valid JSON Schema file";
+    throw "The schema/specs.json file must be a valid JSON Schema file";
   }
 
-  var isValid = ajv.validate(schema, specs, { format: "full" });
+  const isValid = validate(specs, { format: "full" });
   if (!isValid) {
-    throw ajv.errorsText(clarifyErrors(ajv.errors), {
+    throw ajv.errorsText(clarifyErrors(validate.errors), {
       dataVar: "specs", separator: "\n"
     });
   }

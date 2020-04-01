@@ -4,6 +4,16 @@ const computeShortname = require("./src/compute-shortname.js");
 const computePrevNext = require("./src/compute-prevnext.js");
 const computeCurrentLevel = require("./src/compute-currentlevel.js");
 
+// Retrieve generated spec info (if file was properly generated)
+const specInfo = (function () {
+  try {
+    return require("./specs-info.json");
+  }
+  catch (err) {
+    return {};
+  }
+})();
+
 const specs = require("./specs.json")
   // Turn all specs into objects
   // (and handle syntactic sugar notation for delta/current flags)
@@ -37,7 +47,10 @@ const specs = require("./specs.json")
   .map(spec => { delete spec.forceCurrent; return spec; })
 
   // Complete information with previous/next level links
-  .map((spec, _, list) => Object.assign(spec, computePrevNext(spec, list)));
+  .map((spec, _, list) => Object.assign(spec, computePrevNext(spec, list)))
+
+  // Complete information with title and link to TR/ED URLs, when known
+  .map(spec => Object.assign(spec, specInfo[spec.name]));
 
 
 if (require.main === module) {
@@ -55,7 +68,11 @@ if (require.main === module) {
         s.url === id ||
         s.name === id ||
         s.shortname === id ||
-        s.levelComposition === id);
+        s.levelComposition === id ||
+        s.title === id ||
+        s.trUrl === id ||
+        s.edUrl === id ||
+        s.source === id);
     console.log(JSON.stringify(res.length === 1 ? res[0] : res, null, 2));
   }
   else {

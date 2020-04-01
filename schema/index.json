@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/index.json",
+
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "url": { "$ref": "definitions.json#/proptype/url" },
+      "name": { "$ref": "definitions.json#/proptype/name" },
+      "shortname": { "$ref": "definitions.json#/proptype/shortname" },
+      "level": { "$ref": "definitions.json#/proptype/level" },
+      "levelComposition": { "$ref": "definitions.json#/proptype/levelComposition" },
+      "currentLevel": { "$ref": "definitions.json#/proptype/name" },
+      "previousLevel": { "$ref": "definitions.json#/proptype/name" },
+      "nextLevel": { "$ref": "definitions.json#/proptype/name" },
+      "edUrl": { "$ref": "definitions.json#/proptype/url" },
+      "trUrl": { "$ref": "definitions.json#/proptype/url" },
+      "title": { "$ref": "definitions.json#/proptype/title" },
+      "source": { "$ref": "definitions.json#/proptype/source" }
+    },
+    "required": ["url", "name", "shortname", "currentLevel", "title", "source"],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}

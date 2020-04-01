@@ -80,11 +80,13 @@
   "https://wicg.github.io/webusb/",
   {
     "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/",
-    "name": "webgl1"
+    "name": "webgl1",
+    "shortname": "webgl1"
   },
   {
     "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/",
-    "name": "webgl2"
+    "name": "webgl2",
+    "shortname": "webgl2"
   },
   "https://www.w3.org/TR/accelerometer/",
   "https://www.w3.org/TR/ambient-light/",

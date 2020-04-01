@@ -12,11 +12,11 @@
       {
         "type": "object",
         "properties": {
-          "url": { "$ref": "dfns.json#/dfns/url" },
-          "name": { "$ref": "dfns.json#/dfns/name" },
-          "shortname": { "$ref": "dfns.json#/dfns/shortname" },
-          "level": { "$ref": "dfns.json#/dfns/level" },
-          "levelComposition": { "$ref": "dfns.json#/dfns/levelComposition" },
+          "url": { "$ref": "definitions.json#/proptype/url" },
+          "name": { "$ref": "definitions.json#/proptype/name" },
+          "shortname": { "$ref": "definitions.json#/proptype/shortname" },
+          "level": { "$ref": "definitions.json#/proptype/level" },
+          "levelComposition": { "$ref": "definitions.json#/proptype/levelComposition" },
           "forceCurrent": { "type": "boolean" }
         },
         "required": ["url"],

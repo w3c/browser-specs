@@ -9,7 +9,8 @@
     "fetch-info": "node src/fetch-info.js > specs-info.json",
     "lint": "node lint.js",
     "lint-fix": "node lint.js --fix",
-    "test": "mocha"
+    "test": "mocha",
+    "test-pr": "mocha --exclude test/fetch-info-w3c.js"
   },
   "devDependencies": {
     "ajv": "^6.11.0",

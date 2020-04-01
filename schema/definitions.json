@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/dfns.json",
+  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/definitions.json",
 
-  "dfns": {
+  "proptype": {
     "url": {
       "type": "string",
       "format": "uri"

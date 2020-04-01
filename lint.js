@@ -5,7 +5,7 @@ const computeShortname = require("./src/compute-shortname.js");
 const computePrevNext = require("./src/compute-prevnext.js");
 
 const schema = require("./schema/specs.json");
-const dfnsSchema = require("./schema/dfns.json");
+const dfnsSchema = require("./schema/definitions.json");
 const Ajv = require("ajv");
 const ajv = new Ajv();
 const validate = ajv.addSchema(dfnsSchema).compile(schema);

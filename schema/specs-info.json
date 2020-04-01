@@ -9,10 +9,10 @@
   "additionalProperties": {
     "type": "object",
     "properties": {
-      "edUrl": { "$ref": "dfns.json#/dfns/url" },
-      "trUrl": { "$ref": "dfns.json#/dfns/url" },
-      "title": { "$ref": "dfns.json#/dfns/title" },
-      "source": { "$ref": "dfns.json#/dfns/source" }
+      "edUrl": { "$ref": "definitions.json#/proptype/url" },
+      "trUrl": { "$ref": "definitions.json#/proptype/url" },
+      "title": { "$ref": "definitions.json#/proptype/title" },
+      "source": { "$ref": "definitions.json#/proptype/source" }
     },
     "required": ["title", "source"],
     "additionalProperties": false

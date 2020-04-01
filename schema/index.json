@@ -6,18 +6,18 @@
   "items": {
     "type": "object",
     "properties": {
-      "url": { "$ref": "dfns.json#/dfns/url" },
-      "name": { "$ref": "dfns.json#/dfns/name" },
-      "shortname": { "$ref": "dfns.json#/dfns/shortname" },
-      "level": { "$ref": "dfns.json#/dfns/level" },
-      "levelComposition": { "$ref": "dfns.json#/dfns/levelComposition" },
-      "currentLevel": { "$ref": "dfns.json#/dfns/name" },
-      "previousLevel": { "$ref": "dfns.json#/dfns/name" },
-      "nextLevel": { "$ref": "dfns.json#/dfns/name" },
-      "edUrl": { "$ref": "dfns.json#/dfns/url" },
-      "trUrl": { "$ref": "dfns.json#/dfns/url" },
-      "title": { "$ref": "dfns.json#/dfns/title" },
-      "source": { "$ref": "dfns.json#/dfns/source" }
+      "url": { "$ref": "definitions.json#/proptype/url" },
+      "name": { "$ref": "definitions.json#/proptype/name" },
+      "shortname": { "$ref": "definitions.json#/proptype/shortname" },
+      "level": { "$ref": "definitions.json#/proptype/level" },
+      "levelComposition": { "$ref": "definitions.json#/proptype/levelComposition" },
+      "currentLevel": { "$ref": "definitions.json#/proptype/name" },
+      "previousLevel": { "$ref": "definitions.json#/proptype/name" },
+      "nextLevel": { "$ref": "definitions.json#/proptype/name" },
+      "edUrl": { "$ref": "definitions.json#/proptype/url" },
+      "trUrl": { "$ref": "definitions.json#/proptype/url" },
+      "title": { "$ref": "definitions.json#/proptype/title" },
+      "source": { "$ref": "definitions.json#/proptype/source" }
     },
     "required": ["url", "name", "shortname", "currentLevel", "title", "source"],
     "additionalProperties": false

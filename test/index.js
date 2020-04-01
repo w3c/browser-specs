@@ -7,7 +7,7 @@ const assert = require("assert");
 const source = require("../specs.json");
 const { specs } = require("../index.js");
 const schema = require("../schema/index.json");
-const dfnsSchema = require("../schema/dfns.json");
+const dfnsSchema = require("../schema/definitions.json");
 const Ajv = require("ajv");
 const ajv = new Ajv();
 

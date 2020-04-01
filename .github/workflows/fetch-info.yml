@@ -4,7 +4,7 @@ on:
   push:
     branches:
     - master
-name: Fetch additional spec info from external sources
+name: Fetch spec info
 jobs:
   fetch:
     runs-on: ubuntu-18.04

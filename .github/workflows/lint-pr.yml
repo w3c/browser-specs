@@ -1,5 +1,5 @@
 on: pull_request
-name: lint
+name: Test and lint (PR version, no secret)
 jobs:
   lint:
     runs-on: ubuntu-18.04

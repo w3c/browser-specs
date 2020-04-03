@@ -194,16 +194,6 @@
     "title": "Accessible Name and Description Computation 1.2",
     "source": "spec"
   },
-  "compression": {
-    "edUrl": "https://wicg.github.io/compression/",
-    "title": "Compression Streams",
-    "source": "spec"
-  },
-  "contact-api": {
-    "edUrl": "https://wicg.github.io/contact-api/spec/",
-    "title": "Contact Picker API",
-    "source": "spec"
-  },
   "contentEditable": {
     "edUrl": "https://w3c.github.io/contentEditable/",
     "title": "ContentEditable",
@@ -269,9 +259,19 @@
     "title": "Badging API",
     "source": "specref"
   },
+  "compression": {
+    "edUrl": "https://wicg.github.io/compression/",
+    "title": "Compression Streams",
+    "source": "spec"
+  },
   "construct-stylesheets": {
     "edUrl": "https://wicg.github.io/construct-stylesheets/",
     "title": "Constructable Stylesheet Objects",
+    "source": "spec"
+  },
+  "contact-api": {
+    "edUrl": "https://wicg.github.io/contact-api/spec/",
+    "title": "Contact Picker API",
     "source": "spec"
   },
   "cookie-store": {

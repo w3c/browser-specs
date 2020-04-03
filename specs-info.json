@@ -129,6 +129,11 @@
     "title": "Fullscreen API Standard",
     "source": "specref"
   },
+  "gpuweb": {
+    "edUrl": "https://gpuweb.github.io/gpuweb/",
+    "title": "WebGPU",
+    "source": "spec"
+  },
   "html": {
     "edUrl": "https://html.spec.whatwg.org/multipage/",
     "title": "HTML Standard",
@@ -143,6 +148,11 @@
     "edUrl": "https://infra.spec.whatwg.org/",
     "title": "Infra Standard",
     "source": "specref"
+  },
+  "mathml-core": {
+    "edUrl": "https://mathml-refresh.github.io/mathml-core/",
+    "title": "MathML Core",
+    "source": "spec"
   },
   "mimesniff": {
     "edUrl": "https://mimesniff.spec.whatwg.org/",
@@ -184,6 +194,16 @@
     "title": "Accessible Name and Description Computation 1.2",
     "source": "spec"
   },
+  "compression": {
+    "edUrl": "https://wicg.github.io/compression/",
+    "title": "Compression Streams",
+    "source": "spec"
+  },
+  "contact-api": {
+    "edUrl": "https://wicg.github.io/contact-api/spec/",
+    "title": "Contact Picker API",
+    "source": "spec"
+  },
   "contentEditable": {
     "edUrl": "https://w3c.github.io/contentEditable/",
     "title": "ContentEditable",
@@ -222,6 +242,11 @@
   "feature-policy": {
     "edUrl": "https://w3c.github.io/webappsec-feature-policy/",
     "title": "Feature Policy",
+    "source": "specref"
+  },
+  "trusted-types": {
+    "edUrl": "https://wicg.github.io/trusted-types/dist/spec/",
+    "title": "Trusted Types Spec WIP",
     "source": "specref"
   },
   "web-bluetooth": {
@@ -289,6 +314,16 @@
     "title": "Geolocation Sensor",
     "source": "specref"
   },
+  "get-installed-related-apps": {
+    "edUrl": "https://wicg.github.io/get-installed-related-apps/spec/",
+    "title": "Get Installed Related Apps API",
+    "source": "spec"
+  },
+  "import-maps": {
+    "edUrl": "https://wicg.github.io/import-maps/",
+    "title": "Import Maps",
+    "source": "spec"
+  },
   "InputDeviceCapabilities": {
     "edUrl": "https://wicg.github.io/InputDeviceCapabilities/",
     "title": "Input Device Capabilities",
@@ -349,10 +384,25 @@
     "title": "Relinquishing Permissions",
     "source": "specref"
   },
+  "portals": {
+    "edUrl": "https://wicg.github.io/portals/",
+    "title": "Portals",
+    "source": "spec"
+  },
   "priority-hints": {
     "edUrl": "https://wicg.github.io/priority-hints/",
     "title": "Priority Hints",
     "source": "specref"
+  },
+  "ScrollToTextFragment": {
+    "edUrl": "https://wicg.github.io/ScrollToTextFragment/",
+    "title": "Text Fragments",
+    "source": "spec"
+  },
+  "serial": {
+    "edUrl": "https://wicg.github.io/serial/",
+    "title": "Serial API",
+    "source": "spec"
   },
   "shape-detection-api": {
     "edUrl": "https://wicg.github.io/shape-detection-api/",

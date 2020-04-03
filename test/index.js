@@ -1,11 +1,11 @@
 /**
- * Make sure that the list of specs exposed by index.js looks consistent and
+ * Make sure that the list of specs exposed in index.json looks consistent and
  * includes the right info.
  */
 
 const assert = require("assert");
 const source = require("../specs.json");
-const { specs } = require("../index.js");
+const specs = require("../index.json");
 const schema = require("../schema/index.json");
 const dfnsSchema = require("../schema/definitions.json");
 const Ajv = require("ajv");
@@ -21,10 +21,6 @@ describe("List of specs", () => {
     const validate = ajv.addSchema(dfnsSchema).compile(schema);
     const isValid = validate(specs, { format: "full" });
     assert.ok(isValid);
-  });
-
-  it("contains as many specs as in the source", () => {
-    assert.equal(source.length, specs.length);
   });
 
   it("is an array of objects with url, name, and shortname properties", () => {

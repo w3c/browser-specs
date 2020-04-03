@@ -1,12 +1,16 @@
 {
   "name": "browser-specs",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/w3c/browser-specs.git"
   },
-  "main": "index.js",
+  "files": [
+    "index.json"
+  ],
+  "main": "index.json",
   "scripts": {
-    "fetch-info": "node src/fetch-info.js > specs-info.json",
+    "build": "node src/build-index.js > index.json",
     "lint": "node lint.js",
     "lint-fix": "node lint.js --fix",
     "test": "mocha",

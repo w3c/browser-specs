@@ -251,14 +251,4 @@ async function fetchInfo(specs, options) {
 }
 
 
-if (require.main === module) {
-  // Code used as command-line interface (CLI), fetch info about all specs
-  const { specs } = require("../index.js");
-  const { w3cApiKey } = require("../config.json");
-  fetchInfo(specs, { w3cApiKey })
-    .then(res => console.log(JSON.stringify(res, null, 2)));
-}
-else {
-  // Code referenced from another JS module, export fetch function
-  module.exports = fetchInfo;
-}
+module.exports = fetchInfo;

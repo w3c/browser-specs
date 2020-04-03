@@ -83,24 +83,4 @@ describe("fetch-info module (without W3C API key)", function () {
       assert.equal(info[spec.name].title, "TPAC 2019 - New Features");
     });
   });
-
-
-  describe("specs-info.json file", () => {
-    const schema = require("../schema/specs-info.json");
-    const dfnsSchema = require("../schema/definitions.json");
-    const info = require("../specs-info.json");
-    const Ajv = require("ajv");
-    const ajv = new Ajv();
-
-    it("has a valid JSON schema", () => {
-      const isSchemaValid = ajv.validateSchema(schema);
-      assert.ok(isSchemaValid);
-    });
-    
-    it("respects the JSON schema", () => {
-      const validate = ajv.addSchema(dfnsSchema).compile(schema);
-      const isValid = ajv.validate(info, { format: "full" });
-      assert.ok(isValid);
-    });
-  });
 });

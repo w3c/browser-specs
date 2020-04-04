@@ -20,7 +20,7 @@ const specs = require("../specs.json")
       const parts = spec.split(" ");
       const res = { url: parts[0] };
       if (parts[1] === "delta") {
-        res.levelComposition = "delta";
+        res.seriesComposition = "delta";
       }
       else if (parts[1] === "current") {
         res.forceCurrent = true;
@@ -35,13 +35,16 @@ const specs = require("../specs.json")
   // Complete information and output result starting with the URL, names,
   // level, and additional info
   .map(spec => Object.assign(
-    { url: spec.url, levelComposition: spec.levelComposition || "full" },
-    computeShortname(spec.name || spec.url),
+    { url: spec.url, seriesComposition: spec.seriesComposition || "full" },
+    computeShortname(spec.shortname || spec.url),
     spec))
 
-  // Complete information with currentLevel property and drop forceCurrent flags
-  // that no longer need to be exposed
-  .map((spec, _, list) => Object.assign(spec, computeCurrentLevel(spec, list)))
+  // Complete information with currentSpecification property and drop
+  // forceCurrent flags that no longer need to be exposed
+  .map((spec, _, list) => {
+    Object.assign(spec.series, computeCurrentLevel(spec, list));
+    return spec;
+  })
   .map(spec => { delete spec.forceCurrent; return spec; })
 
   // Complete information with previous/next level links
@@ -52,7 +55,7 @@ const specs = require("../specs.json")
 fetchInfo(specs, { w3cApiKey })
   .then(specInfo => {
     const index = specs
-      .map(spec => Object.assign(spec, specInfo[spec.name]));
+      .map(spec => Object.assign(spec, specInfo[spec.shortname]));
 
     // Return the resulting list
     console.log(JSON.stringify(index, null, 2));

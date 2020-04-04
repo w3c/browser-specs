@@ -1,11 +1,12 @@
 /**
  * Module that exports a function that takes a spec object and a list of specs
- * that contains it, and that returns an object with a "currentLevel" property
- * set to the "name" of the spec object that should be seen as the current level
- * for the set of specs with the same shortname in the list.
+ * that contains it, and that returns an object with a "currentSpecification"
+ * property set to the "shortname" of the spec object that should be seen as
+ * the current level for the set of specs with the same series' shortname in
+ * the list.
  *
- * Each spec in the list must have "name", "shortname" and "level" (if needed)
- * properties.
+ * Each spec in the list must have "shortname", "series" and "seriesVersion"
+ * (if needed) properties.
  *
  * By default, the current level is defined as the last level that is not a
  * delta spec, unless a level is explicitly flagged with a "forceCurrent"
@@ -15,8 +16,8 @@
 /**
  * Exports main function that takes a spec object and a list of specs (which
  * must contain the spec object itself) and returns an object with a
- * "currentLevel" property. Function always sets the property (value is the
- * name of the spec itself when it is the current level)
+ * "currentSpecification" property. Function always sets the property (value is
+ * the name of the spec itself when it is the current level)
  */
 module.exports = function (spec, list) {
   list = list || [];
@@ -25,10 +26,11 @@ module.exports = function (spec, list) {
   }
 
   const current = list.reduce((candidate, curr) => {
-    if (curr.shortname === candidate.shortname && !candidate.forceCurrent &&
-      curr.levelComposition !== "delta" &&
-        (curr.forceCurrent || candidate.levelComposition === "delta" ||
-          (curr.level || 0) > (candidate.level || 0))) {
+    if (curr.series.shortname === candidate.series.shortname &&
+      !candidate.forceCurrent &&
+      curr.seriesComposition !== "delta" &&
+        (curr.forceCurrent || candidate.seriesComposition === "delta" ||
+          (curr.seriesVersion || "0") > (candidate.seriesVersion || "0"))) {
       return curr;
     }
     else {
@@ -37,6 +39,6 @@ module.exports = function (spec, list) {
   }, spec);
   
   return {
-    currentLevel: current.name
+    currentSpecification: current.shortname
   };
 };

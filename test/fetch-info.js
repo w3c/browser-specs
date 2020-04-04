@@ -14,8 +14,8 @@ describe("fetch-info module (without W3C API key)", function () {
   this.slow(5000);
   this.timeout(30000);
 
-  function getW3CSpec(name) {
-    return { name, url: `https://www.w3.org/TR/${name}/` };
+  function getW3CSpec(shortname) {
+    return { shortname, url: `https://www.w3.org/TR/${shortname}/` };
   }
 
 
@@ -23,37 +23,37 @@ describe("fetch-info module (without W3C API key)", function () {
     it("works on a TR spec in the absence of W3C API key", async () => {
       const spec = getW3CSpec("presentation-api");
       const info = await fetchInfo([spec]);
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "specref");
-      assert.equal(info[spec.name].edUrl, "https://w3c.github.io/presentation-api/");
-      assert.equal(info[spec.name].title, "Presentation API");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "specref");
+      assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
+      assert.equal(info[spec.shortname].title, "Presentation API");
     });
 
     it("works on a WHATWG spec", async () => {
       const spec = {
         url: "https://dom.spec.whatwg.org/",
-        name: "dom"
+        shortname: "dom"
       };
       const info = await fetchInfo([spec]);
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "specref");
-      assert.equal(info[spec.name].edUrl, "https://dom.spec.whatwg.org/");
-      assert.equal(info[spec.name].title, "DOM Standard");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "specref");
+      assert.equal(info[spec.shortname].nightly.url, "https://dom.spec.whatwg.org/");
+      assert.equal(info[spec.shortname].title, "DOM Standard");
     });
 
     it("can operate on multiple specs at once", async () => {
       const spec = getW3CSpec("presentation-api");
       const other = getW3CSpec("hr-time-2");
       const info = await fetchInfo([spec, other]);
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "specref");
-      assert.equal(info[spec.name].edUrl, "https://w3c.github.io/presentation-api/");
-      assert.equal(info[spec.name].title, "Presentation API");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "specref");
+      assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
+      assert.equal(info[spec.shortname].title, "Presentation API");
 
-      assert.ok(info[other.name]);
-      assert.equal(info[other.name].source, "specref");
-      assert.equal(info[other.name].edUrl, "https://w3c.github.io/hr-time/");
-      assert.equal(info[other.name].title, "High Resolution Time Level 2");
+      assert.ok(info[other.shortname]);
+      assert.equal(info[other.shortname].source, "specref");
+      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/hr-time/");
+      assert.equal(info[other.shortname].title, "High Resolution Time Level 2");
     });
   });
 
@@ -62,25 +62,25 @@ describe("fetch-info module (without W3C API key)", function () {
     it("extracts spec info from a Bikeshed spec when needed", async () => {
       const spec = {
         url: "https://tabatkins.github.io/bikeshed/",
-        name: "bikeshed"
+        shortname: "bikeshed"
       };
       const info = await fetchInfo([spec]);
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "spec");
-      assert.equal(info[spec.name].edUrl, spec.url);
-      assert.equal(info[spec.name].title, "Bikeshed Documentation");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+      assert.equal(info[spec.shortname].nightly.url, spec.url);
+      assert.equal(info[spec.shortname].title, "Bikeshed Documentation");
     });
 
     it("extracts spec info from a Respec spec when needed", async () => {
       const spec = {
         url: "https://w3c.github.io/respec/examples/tpac_2019.html",
-        name: "respec"
+        shortname: "respec"
       };
       const info = await fetchInfo([spec]);
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "spec");
-      assert.equal(info[spec.name].edUrl, spec.url);
-      assert.equal(info[spec.name].title, "TPAC 2019 - New Features");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+      assert.equal(info[spec.shortname].nightly.url, spec.url);
+      assert.equal(info[spec.shortname].title, "TPAC 2019 - New Features");
     });
   });
 });

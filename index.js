@@ -21,12 +21,12 @@ function getSpecs(filter) {
       specs.filter(s =>
         s.url === filter ||
         s.name === filter ||
-        s.shortname === filter ||
-        s.levelComposition === filter ||
+        s.seriesComposition === filter ||
+        s.source === filter ||
         s.title === filter ||
-        s.trUrl === filter ||
-        s.edUrl === filter ||
-        s.source === filter);
+        (s.series && s.series.shortname === filter) ||
+        (s.release && s.release.url === filter) ||
+        (s.nightly && s.nightly.url === filter));
     return res;
   }
   else {

@@ -8,22 +8,30 @@
       "format": "uri"
     },
 
-    "name": {
+    "shortname": {
       "type": "string",
       "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
     },
 
-    "shortname": {
+    "series": {
+      "type": "object",
+      "properties": {
+        "shortname": {
+          "type": "string",
+          "pattern": "^[\\w\\-]+$"
+        },
+        "currentSpecification": { "$ref": "#/proptype/shortname" }
+      },
+      "required": ["shortname"],
+      "additionalProperties": false
+    },
+
+    "seriesVersion": {
       "type": "string",
-      "pattern": "^[\\w\\-]+$"
+      "pattern": "^\\d+(\\.\\d+){0,2}$"
     },
 
-    "level": {
-      "type": "number",
-      "minimum": 1
-    },
-
-    "levelComposition": {
+    "seriesComposition": {
       "type": "string",
       "enum": ["full", "delta"]
     },
@@ -39,6 +47,15 @@
     "source": {
       "type": "string",
       "enum": ["w3c", "specref", "spec"]
+    },
+
+    "release": {
+      "type": "object",
+      "properties": {
+        "url": { "$ref": "#/proptype/url" }
+      },
+      "required": ["url"],
+      "additionalProperties": false
     }
   }
 }

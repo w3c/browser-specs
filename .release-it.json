@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "after:init": ["npm test", "npm run lint"]
+  },
+  "git": {
+    "commitMessage": "v${version}",
+    "tagName": "v${version}",
+    "tagAnnotation": "v${version}",
+    "pushRepo": "git@github.com:w3c/browser-specs.git"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "v${version}"
+  }
+}

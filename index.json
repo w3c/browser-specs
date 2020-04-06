@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://compat.spec.whatwg.org/",
+    "levelComposition": "full",
+    "name": "compat",
+    "shortname": "compat",
+    "currentLevel": "compat",
+    "edUrl": "https://compat.spec.whatwg.org/",
+    "title": "Compatibility Standard",
+    "source": "specref"
+  }
+]

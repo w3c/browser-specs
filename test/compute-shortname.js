@@ -3,9 +3,9 @@ const computeInfo = require("../src/compute-shortname.js");
 
 describe("compute-shortname module", () => {
 
-  describe("name property", () => {
+  describe("shortname property", () => {
     function assertName(url, name) {
-      assert.equal(computeInfo(url).name, name);
+      assert.equal(computeInfo(url).shortname, name);
     }
 
     it("handles TR URLs", () => {
@@ -100,84 +100,84 @@ describe("compute-shortname module", () => {
   });
 
 
-  describe("shortname property", () => {
-    function assertShortname(url, shortname) {
-      assert.equal(computeInfo(url).shortname, shortname);
+  describe("series' shortname property", () => {
+    function assertSeries(url, shortname) {
+      assert.equal(computeInfo(url).series.shortname, shortname);
     }
 
     it("parses form 'shortname-X'", () => {
-      assertShortname("spec-4", "spec");
+      assertSeries("spec-4", "spec");
     });
 
     it("parses form 'shortname-XXX'", () => {
-      assertShortname("horizon-2050", "horizon");
+      assertSeries("horizon-2050", "horizon");
     });
 
     it("parses form 'shortname-X.Y'", () => {
-      assertShortname("pi-3.1", "pi");
+      assertSeries("pi-3.1", "pi");
     });
 
     it("parses form 'shortnameX'", () => {
-      assertShortname("loveu2", "loveu");
+      assertSeries("loveu2", "loveu");
     });
 
     it("parses form 'shortnameXY'", () => {
-      assertShortname("answer42", "answer");
+      assertSeries("answer42", "answer");
     });
 
     it("includes final digits when they do not seem to be a level", () => {
-      assertShortname("cors-rfc1918", "cors-rfc1918");
+      assertSeries("cors-rfc1918", "cors-rfc1918");
     });
 
     it("does not get lost with inner digits", () => {
-      assertShortname("my-2-cents", "my-2-cents");
+      assertSeries("my-2-cents", "my-2-cents");
     });
 
     it("automatically updates CSS specs with an old 'css3-' name", () => {
-      assertShortname("css3-conditional", "css-conditional");
+      assertSeries("css3-conditional", "css-conditional");
     });
   });
 
 
-  describe("level property", () => {
-    function assertLevel(url, level) {
-      assert.equal(computeInfo(url).level, level);
+  describe("seriesVersion property", () => {
+    function assertSeriesVersion(url, level) {
+      assert.equal(computeInfo(url).seriesVersion, level);
     }
-    function assertNoLevel(url) {
-      assert.equal(computeInfo(url).hasOwnProperty("level"), false,
-        "did not expect to see a level property");
+    function assertNoSeriesVersion(url) {
+      assert.equal(computeInfo(url).hasOwnProperty("seriesVersion"), false,
+        "did not expect to see a seriesVersion property");
     }
 
-    it("finds the right level for form 'shortname-X'", () => {
-      assertLevel("spec-4", 4);
+    it("finds the right series version for form 'shortname-X'", () => {
+      assertSeriesVersion("spec-4", "4");
     });
 
-    it("finds the right level for form 'shortname-XXX'", () => {
-      assertLevel("horizon-2050", 2050);
+    it("finds the right series version for form 'shortname-XXX'", () => {
+      assertSeriesVersion("horizon-2050", "2050");
     });
 
-    it("finds the right level for form 'shortname-X.Y'", () => {
-      assertLevel("pi-3.1", 3.1);
+    it("finds the right series version for form 'shortname-X.Y'", () => {
+      assertSeriesVersion("pi-3.1", "3.1");
     });
 
-    it("finds the right level for form 'shortnameX'", () => {
-      assertLevel("loveu2", 2);
+    it("finds the right series version for form 'shortnameX'", () => {
+      assertSeriesVersion("loveu2", "2");
     });
 
-    it("finds the right level for form 'shortnameXY'", () => {
-      assertLevel("answer42", 4.2);
+    it("finds the right series version for form 'shortnameXY'", () => {
+      assertSeriesVersion("answer42", "4.2");
     });
 
-    it("does not report any level when there are none", () => {
-      assertNoLevel("nolevel");
+    it("does not report any series version when there are none", () => {
+      assertNoSeriesVersion("nolevel");
     });
 
-    it("does not report a level when final digits do not seem to be one", () => {
-      assertNoLevel("cors-rfc1918");
+    it("does not report a series version when final digits do not seem to be one", () => {
+      assertNoSeriesVersion("cors-rfc1918");
     });
 
     it("does not get lost with inner digits", () => {
-      assertNoLevel("my-2-cents");
+      assertNoSeriesVersion("my-2-cents");
     });
   });
 });

@@ -1,14 +1,17 @@
 /**
  * Module that exports a function that takes an array of specifications objects
- * that each have at least a "url" and a "name" property. The function returns
- * an object indexed by specification "name" with additional information
+ * that each have at least a "url" and a "short" property. The function returns
+ * an object indexed by specification "shortname" with additional information
  * about the specification fetched from the W3C API, Specref, or from the spec
  * itself. Object returned for each specification contains the following
  * properties:
  *
- * - "edUrl": the URL of the Editor's Draft of the specification. Always set.
- * - "trUrl": the URL of the latest version of the specification published to
- * /TR/. Only set when the specification has been published there.
+ * - "nightly": an object that describes the nightly version. The object will
+ * feature the URL of the Editor's Draft for W3C specs, of the living document
+ * for WHATWG specifications, or of the published Khronos Group specification.
+ * - "release": an object that describes the published version. The object will
+ * feature the URL of the TR document for W3C specs when it exists, and is not
+ * present for specs that don't have release versions (WHATWG specs, CG drafts).
  * - "title": the title of the specification. Always set.
  * - "source": one of "w3c", "specref", "spec", depending on how the information
  * was determined.
@@ -18,9 +21,9 @@
  * published to /TR/, if the specification cannot be fetched, or if no W3C API
  * key was specified for a /TR/ URL.
  *
- * The function will start by querying the W3C API, using the given "name"
+ * The function will start by querying the W3C API, using the given "shortname"
  * properties. For specifications where this fails, the function will query
- * SpecRef, using the given "name" as well. If that too fails, the function
+ * SpecRef, using the given "shortname" as well. If that too fails, the function
  * assumes that the given "url" is the URL of the Editor's Draft, and will fetch
  * it to determine the title.
  *
@@ -56,7 +59,7 @@ async function fetchInfoFromW3CApi(specs, options) {
       return;
     }
 
-    const url = `https://api.w3.org/specifications/${spec.name}`;
+    const url = `https://api.w3.org/specifications/${spec.shortname}`;
     return new Promise((resolve, reject) => {
       const request = https.get(url, options, res => {
         if (res.statusCode === 404) {
@@ -86,9 +89,9 @@ async function fetchInfoFromW3CApi(specs, options) {
   const results = {};
   specs.forEach((spec, idx) => {
     if (info[idx]) {
-      results[spec.name] = {
-        trUrl: info[idx].shortlink,
-        edUrl: info[idx]["editor-draft"],
+      results[spec.shortname] = {
+        release: { url: info[idx].shortlink },
+        nightly: { url: info[idx]["editor-draft"] },
         title: info[idx].title
       };
     }
@@ -111,7 +114,7 @@ async function fetchInfoFromSpecref(specs, options) {
   const chunks = chunkArray(specs, 50);
   const chunksRes = await Promise.all(chunks.map(async chunk => {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
-      chunk.map(spec => spec.name).join(',');
+      chunk.map(spec => spec.shortname).join(',');
 
     return new Promise((resolve, reject) => {
       const request = https.get(specrefUrl, options, res => {
@@ -153,10 +156,10 @@ async function fetchInfoFromSpecref(specs, options) {
       }
     }
     Object.keys(chunkRes).forEach(name => {
-      if (specs.find(spec => spec.name === name)) {
+      if (specs.find(spec => spec.shortname === name)) {
         const info = chunkRes[resolveAlias(name)];
         results[name] = {
-          edUrl: info.edDraft || info.href,
+          nightly: { url: info.edDraft || info.href },
           title: info.title
         };
       }
@@ -172,7 +175,7 @@ async function fetchInfoFromSpecs(specs, options) {
     const html = await new Promise((resolve, reject) => {
       const request = https.get(spec.url, options, res => {
         if (res.statusCode !== 200) {
-          reject(`Could not fetch URL ${spec.url} for spec "${spec.name}", ` +
+          reject(`Could not fetch URL ${spec.url} for spec "${spec.shortname}", ` +
             `status code is ${res.statusCode}`);
           return;
         }
@@ -191,7 +194,7 @@ async function fetchInfoFromSpecs(specs, options) {
     const h1Match = html.match(/<h1[^>]*?>(.*?)<\/h1>/mis);
     if (h1Match) {
       return {
-        edUrl: spec.url,
+        nightly: { url: spec.url },
         title: h1Match[1].replace(/\n/g, '').trim()
       };
     }
@@ -201,27 +204,27 @@ async function fetchInfoFromSpecs(specs, options) {
     const titleMatch = html.match(/<title[^>]*?>(.*?)<\/title>/mis);
     if (titleMatch) {
       return {
-        edUrl: spec.url,
+        nightly: { url: spec.url },
         title: titleMatch[1].replace(/\n/g, '').trim()
       };
     }
 
-    throw `Could not find title in ${spec.url} for spec "${spec.name}"`;
+    throw `Could not find title in ${spec.url} for spec "${spec.shortname}"`;
   }));
 
   const results = {};
-  specs.forEach((spec, idx) => results[spec.name] = info[idx]);
+  specs.forEach((spec, idx) => results[spec.shortname] = info[idx]);
   return results;
 }
 
 
 /**
  * Main function that takes a list of specifications and returns an object
- * indexed by specification "name" that provides, for each specification, the
- * URL of the Editor's Draft, of the /TR/ version, and the title.
+ * indexed by specification "shortname" that provides, for each specification,
+ * the URL of the Editor's Draft, of the /TR/ version, and the title.
  */
 async function fetchInfo(specs, options) {
-  if (!specs || specs.find(spec => !spec.name || !spec.url)) {
+  if (!specs || specs.find(spec => !spec.shortname || !spec.url)) {
     throw "Invalid list of specifications passed as parameter";
   }
 
@@ -233,16 +236,16 @@ async function fetchInfo(specs, options) {
   const w3cInfo = await fetchInfoFromW3CApi(remainingSpecs, options);
 
   // Compute information from Specref for remaining specs
-  remainingSpecs = remainingSpecs.filter(spec => !w3cInfo[spec.name]);
+  remainingSpecs = remainingSpecs.filter(spec => !w3cInfo[spec.shortname]);
   const specrefInfo = await fetchInfoFromSpecref(remainingSpecs, options);
 
   // Extract information directly from the spec for remaining specs
-  remainingSpecs = remainingSpecs.filter(spec => !specrefInfo[spec.name]);
+  remainingSpecs = remainingSpecs.filter(spec => !specrefInfo[spec.shortname]);
   const specInfo = await fetchInfoFromSpecs(remainingSpecs, options);
 
   // Merge results
   const results = {};
-  specs.map(spec => spec.name).forEach(name => results[name] =
+  specs.map(spec => spec.shortname).forEach(name => results[name] =
     (w3cInfo[name] ? Object.assign(w3cInfo[name], { source: "w3c" }) : null) ||
     (specrefInfo[name] ? Object.assign(specrefInfo[name], { source: "specref" }) : null) ||
     (specInfo[name] ? Object.assign(specInfo[name], { source: "spec" }) : null));
@@ -251,14 +254,4 @@ async function fetchInfo(specs, options) {
 }
 
 
-if (require.main === module) {
-  // Code used as command-line interface (CLI), fetch info about all specs
-  const { specs } = require("../index.js");
-  const { w3cApiKey } = require("../config.json");
-  fetchInfo(specs, { w3cApiKey })
-    .then(res => console.log(JSON.stringify(res, null, 2)));
-}
-else {
-  // Code referenced from another JS module, export fetch function
-  module.exports = fetchInfo;
-}
+module.exports = fetchInfo;

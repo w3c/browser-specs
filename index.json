@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://compat.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "compat",
+    "series": {
+      "shortname": "compat",
+      "currentSpecification": "compat"
+    },
+    "nightly": {
+      "url": "https://compat.spec.whatwg.org/"
+    },
+    "title": "Compatibility Standard",
+    "source": "specref"
+  }
+]

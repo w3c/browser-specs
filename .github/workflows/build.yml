@@ -4,7 +4,7 @@ on:
   push:
     branches:
     - master
-name: Fetch spec info
+name: Update spec info
 jobs:
   fetch:
     runs-on: ubuntu-18.04
@@ -17,8 +17,8 @@ jobs:
       run: |
         echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
         npm ci
-    - name: Fetch info
-      run: npm run fetch-info
+    - name: Build new index file
+      run: npm run build
     - name: Commit updates
       run: |
         git config user.name "fetch-info bot"

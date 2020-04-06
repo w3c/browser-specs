@@ -90,13 +90,17 @@
   "https://wicg.github.io/webusb/",
   {
     "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/",
-    "name": "webgl1",
-    "shortname": "webgl1"
+    "shortname": "webgl1",
+    "series": {
+      "shortname": "webgl1"
+    }
   },
   {
     "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/",
-    "name": "webgl2",
-    "shortname": "webgl2"
+    "shortname": "webgl2",
+    "series": {
+      "shortname": "webgl2"
+    }
   },
   "https://www.w3.org/TR/accelerometer/",
   "https://www.w3.org/TR/ambient-light/",
@@ -192,20 +196,22 @@
   "https://www.w3.org/TR/CSS22/",
   {
     "url": "https://www.w3.org/TR/css3-conditional/",
-    "level": 3
+    "seriesVersion": "3"
   },
   {
     "url": "https://www.w3.org/TR/css3-exclusions/",
-    "level": 3
+    "seriesVersion": "3"
   },
   {
     "url": "https://www.w3.org/TR/css3-images/",
-    "level": 3
+    "seriesVersion": "3"
   },
   {
     "url": "https://www.w3.org/TR/css3-mediaqueries/",
-    "shortname": "mediaqueries",
-    "level": 3
+    "seriesVersion": "3",
+    "series": {
+      "shortname": "mediaqueries"
+    }
   },
   "https://www.w3.org/TR/cssom-1/",
   "https://www.w3.org/TR/cssom-view-1/",

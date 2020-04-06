@@ -51,10 +51,10 @@ describe("Linter", () => {
 
     it("lints a URL", () => {
       const specs = [
-        { "url": "https://example.org", "name": "test" }
+        { "url": "https://example.org", "shortname": "test" }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
-        { "url": "https://example.org/", "name": "test" }
+        { "url": "https://example.org/", "shortname": "test" }
       ]));
     });
 
@@ -70,7 +70,7 @@ describe("Linter", () => {
     it("lints an object with only a URL and a delta flag to a string", () => {
       const specs = [
         "https://www.w3.org/TR/spec-1/",
-        { "url": "https://www.w3.org/TR/spec-2/", levelComposition: "delta" }
+        { "url": "https://www.w3.org/TR/spec-2/", seriesComposition: "delta" }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec-1/",
@@ -111,7 +111,7 @@ describe("Linter", () => {
 
     it("lints an object with a 'full' flag", () => {
       const specs = [
-        { "url": "https://www.w3.org/TR/spec/", "levelComposition": "full" }
+        { "url": "https://www.w3.org/TR/spec/", "seriesComposition": "full" }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec/"
@@ -214,7 +214,7 @@ describe("Linter", () => {
       const specs = [
         { url: "https://www.w3.org/TR/spec-1/" },
         { url: "https://www.w3.org/TR/spec-2/",
-          levelComposition: "delta", forceCurrent: true }
+          seriesComposition: "delta", forceCurrent: true }
       ];
       assert.throws(
         () => lintStr(toStr(specs)),

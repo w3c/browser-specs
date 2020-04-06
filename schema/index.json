@@ -7,19 +7,21 @@
     "type": "object",
     "properties": {
       "url": { "$ref": "definitions.json#/proptype/url" },
-      "name": { "$ref": "definitions.json#/proptype/name" },
       "shortname": { "$ref": "definitions.json#/proptype/shortname" },
-      "level": { "$ref": "definitions.json#/proptype/level" },
-      "levelComposition": { "$ref": "definitions.json#/proptype/levelComposition" },
-      "currentLevel": { "$ref": "definitions.json#/proptype/name" },
-      "previousLevel": { "$ref": "definitions.json#/proptype/name" },
-      "nextLevel": { "$ref": "definitions.json#/proptype/name" },
-      "edUrl": { "$ref": "definitions.json#/proptype/url" },
-      "trUrl": { "$ref": "definitions.json#/proptype/url" },
+      "series": { "$ref": "definitions.json#/proptype/series" },
+      "seriesVersion": { "$ref": "definitions.json#/proptype/seriesVersion" },
+      "seriesComposition": { "$ref": "definitions.json#/proptype/seriesComposition" },
+      "previousInSeries": { "$ref": "definitions.json#/proptype/shortname" },
+      "nextInSeries": { "$ref": "definitions.json#/proptype/shortname" },
+      "nightly": { "$ref": "definitions.json#/proptype/release" },
+      "release": { "$ref": "definitions.json#/proptype/release" },
       "title": { "$ref": "definitions.json#/proptype/title" },
       "source": { "$ref": "definitions.json#/proptype/source" }
     },
-    "required": ["url", "name", "shortname", "currentLevel", "title", "source"],
+    "required": [
+      "url", "shortname", "series", "seriesComposition", "nightly",
+      "title", "source"
+    ],
     "additionalProperties": false
   },
   "minItems": 1

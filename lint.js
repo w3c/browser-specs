@@ -76,7 +76,7 @@ function compareSpecs(a, b) {
 function shortenDefinition(spec) {
   const short = {};
   for (const property of Object.keys(spec)) {
-    if (!((property === "levelComposition" && spec[property] === "full") ||
+    if (!((property === "seriesComposition" && spec[property] === "full") ||
         (property === "forceCurrent" && !spec[property]))) {
       short[property] = spec[property];
     }
@@ -85,7 +85,7 @@ function shortenDefinition(spec) {
     return short.url;
   }
   else if (Object.keys(short).length === 2 &&
-      spec.levelComposition === "delta") {
+      spec.seriesComposition === "delta") {
     return `${spec.url} delta`;
   }
   else if (Object.keys(short).length === 2 &&
@@ -122,7 +122,7 @@ function lintStr(specsStr) {
     .map(spec => (typeof spec === "string") ?
       {
         url: new URL(spec.split(" ")[0]).toString(),
-        levelComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
+        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
         forceCurrent: (spec.split(' ')[1] === "current")
       } :
       Object.assign({}, spec, { url: new URL(spec.url).toString() }))
@@ -134,18 +134,18 @@ function lintStr(specsStr) {
   // the specification already defines one. An exception will be thrown if not.
   // Generate links between levels to test list consistency
   const linkedList = sorted
-    .map(s => Object.assign({}, s, computeShortname(s.name || s.url)))
+    .map(s => Object.assign({}, s, computeShortname(s.shortname || s.url)))
     .map((s, _, list) => Object.assign({}, s, computePrevNext(s, list)));
 
   // Make sure that we do not end up with a delta spec for which we do not have
   // a previous "full" spec.
   // (Note the code considers that a delta spec of a delta spec is an error too.
-  // That case could perhaps happen in practice and the "previousLevel" chain
+  // That case could perhaps happen in practice and the "previousInSeries" chain
   // can easily be followed to find the previous level that contains the "full"
   // spec. Still, it seems good to choke on it as long as that's not needed)
   const deltaWithoutFull = linkedList.filter((s, _, list) =>
-    s.levelComposition === "delta" &&
-    !list.find(p => p.levelComposition !== "delta" && p.name === s.previousLevel));
+    s.seriesComposition === "delta" &&
+    !list.find(p => p.seriesComposition !== "delta" && p.shortname === s.previousInSeries));
   if (deltaWithoutFull.length > 0) {
     throw "Delta spec(s) found without full previous level: " +
       deltaWithoutFull.map(s => s.url).join(" ");
@@ -153,7 +153,7 @@ function lintStr(specsStr) {
 
   // Make sure that there are no delta specs flagged as "current"
   const deltaCurrent = linkedList.filter(s =>
-    s.forceCurrent && s.levelComposition === "delta");
+    s.forceCurrent && s.seriesComposition === "delta");
   if (deltaCurrent.length > 0) {
     throw "Delta spec(s) found that are also flagged as current: " +
       deltaCurrent.map(s => s.url).join(" ");
@@ -163,21 +163,21 @@ function lintStr(specsStr) {
   const problematicCurrent = linkedList
     .filter(s => s.forceCurrent)
     .filter(s => s !== linkedList.find(p =>
-      p.shortname === s.shortname && p.forceCurrent));
+      p.series.shortname === s.series.shortname && p.forceCurrent));
   if (problematicCurrent.length > 0) {
     throw "Too many current specs for shortname(s): " +
-      problematicCurrent.map(s => s.shortname).join(" ");
+      problematicCurrent.map(s => s.series.shortname).join(" ");
   }
 
   // Drop useless forceCurrent flag and shorten definition when possible
   const fixed = sorted
     .map(spec => {
       const linked = linkedList.find(p => p.url === spec.url);
-      const next = linked.nextLevel ?
-        linkedList.find(p => p.name === linked.nextLevel) :
+      const next = linked.nextInSeries ?
+        linkedList.find(p => p.shortname === linked.nextInSeries) :
         null;
-      const isLastLevel = !next || next.levelComposition === "delta";
-      if (spec.forceCurrent && isLastLevel) {
+      const isLast = !next || next.seriesComposition === "delta";
+      if (spec.forceCurrent && isLast) {
         spec.forceCurrent = false;
       }
       return spec;

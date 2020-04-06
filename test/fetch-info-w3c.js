@@ -24,8 +24,8 @@ describe("fetch-info module (with W3C API key)", function () {
   this.slow(5000);
   this.timeout(30000);
 
-  function getW3CSpec(name) {
-    return { name, url: `https://www.w3.org/TR/${name}/` };
+  function getW3CSpec(shortname) {
+    return { shortname, url: `https://www.w3.org/TR/${shortname}/` };
   }
 
   describe("W3C API key", () => {
@@ -39,28 +39,28 @@ describe("fetch-info module (with W3C API key)", function () {
     it("works on a TR spec", async () => {
       const spec = getW3CSpec("hr-time-2");
       const info = await fetchInfo([spec], { w3cApiKey });
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "w3c");
-      assert.equal(info[spec.name].trUrl, spec.url);
-      assert.equal(info[spec.name].edUrl, "https://w3c.github.io/hr-time/");
-      assert.equal(info[spec.name].title, "High Resolution Time Level 2");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "w3c");
+      assert.equal(info[spec.shortname].release.url, spec.url);
+      assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/hr-time/");
+      assert.equal(info[spec.shortname].title, "High Resolution Time Level 2");
     });
 
     it("can operate on multiple specs at once", async () => {
       const spec = getW3CSpec("hr-time-2");
       const other = getW3CSpec("presentation-api");
       const info = await fetchInfo([spec, other], { w3cApiKey });
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "w3c");
-      assert.equal(info[spec.name].trUrl, spec.url);
-      assert.equal(info[spec.name].edUrl, "https://w3c.github.io/hr-time/");
-      assert.equal(info[spec.name].title, "High Resolution Time Level 2");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "w3c");
+      assert.equal(info[spec.shortname].release.url, spec.url);
+      assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/hr-time/");
+      assert.equal(info[spec.shortname].title, "High Resolution Time Level 2");
 
-      assert.ok(info[other.name]);
-      assert.equal(info[other.name].source, "w3c");
-      assert.equal(info[other.name].trUrl, other.url);
-      assert.equal(info[other.name].edUrl, "https://w3c.github.io/presentation-api/");
-      assert.equal(info[other.name].title, "Presentation API");
+      assert.ok(info[other.shortname]);
+      assert.equal(info[other.shortname].source, "w3c");
+      assert.equal(info[other.shortname].release.url, other.url);
+      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
+      assert.equal(info[other.shortname].title, "Presentation API");
     });
 
     it("throws when W3C API key is invalid", async () => {
@@ -75,13 +75,13 @@ describe("fetch-info module (with W3C API key)", function () {
     it("works on a WHATWG spec", async () => {
       const spec = {
         url: "https://dom.spec.whatwg.org/",
-        name: "dom"
+        shortname: "dom"
       };
       const info = await fetchInfo([spec], { w3cApiKey });
-      assert.ok(info[spec.name]);
-      assert.equal(info[spec.name].source, "specref");
-      assert.equal(info[spec.name].edUrl, "https://dom.spec.whatwg.org/");
-      assert.equal(info[spec.name].title, "DOM Standard");
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "specref");
+      assert.equal(info[spec.shortname].nightly.url, "https://dom.spec.whatwg.org/");
+      assert.equal(info[spec.shortname].title, "DOM Standard");
     });
   });
 
@@ -91,28 +91,28 @@ describe("fetch-info module (with W3C API key)", function () {
       const w3c = getW3CSpec("presentation-api");
       const whatwg = {
         url: "https://html.spec.whatwg.org/multipage/",
-        name: "html"
+        shortname: "html"
       };
       const other = {
         url: "https://tabatkins.github.io/bikeshed/",
-        name: "bikeshed"
+        shortname: "bikeshed"
       };
       const info = await fetchInfo([w3c, whatwg, other], { w3cApiKey });
-      assert.ok(info[w3c.name]);
-      assert.equal(info[w3c.name].source, "w3c");
-      assert.equal(info[w3c.name].trUrl, w3c.url);
-      assert.equal(info[w3c.name].edUrl, "https://w3c.github.io/presentation-api/");
-      assert.equal(info[w3c.name].title, "Presentation API");
+      assert.ok(info[w3c.shortname]);
+      assert.equal(info[w3c.shortname].source, "w3c");
+      assert.equal(info[w3c.shortname].release.url, w3c.url);
+      assert.equal(info[w3c.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
+      assert.equal(info[w3c.shortname].title, "Presentation API");
 
-      assert.ok(info[whatwg.name]);
-      assert.equal(info[whatwg.name].source, "specref");
-      assert.equal(info[whatwg.name].edUrl, whatwg.url);
-      assert.equal(info[whatwg.name].title, "HTML Standard");
+      assert.ok(info[whatwg.shortname]);
+      assert.equal(info[whatwg.shortname].source, "specref");
+      assert.equal(info[whatwg.shortname].nightly.url, whatwg.url);
+      assert.equal(info[whatwg.shortname].title, "HTML Standard");
 
-      assert.ok(info[other.name]);
-      assert.equal(info[other.name].source, "spec");
-      assert.equal(info[other.name].edUrl, other.url);
-      assert.equal(info[other.name].title, "Bikeshed Documentation");      
+      assert.ok(info[other.shortname]);
+      assert.equal(info[other.shortname].source, "spec");
+      assert.equal(info[other.shortname].nightly.url, other.url);
+      assert.equal(info[other.shortname].title, "Bikeshed Documentation");      
     });
   });
 });

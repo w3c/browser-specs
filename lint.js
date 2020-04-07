@@ -140,12 +140,12 @@ function lintStr(specsStr) {
   // Make sure that we do not end up with a delta spec for which we do not have
   // a previous "full" spec.
   // (Note the code considers that a delta spec of a delta spec is an error too.
-  // That case could perhaps happen in practice and the "previousInSeries" chain
+  // That case could perhaps happen in practice and the "seriesPrevious" chain
   // can easily be followed to find the previous level that contains the "full"
   // spec. Still, it seems good to choke on it as long as that's not needed)
   const deltaWithoutFull = linkedList.filter((s, _, list) =>
     s.seriesComposition === "delta" &&
-    !list.find(p => p.seriesComposition !== "delta" && p.shortname === s.previousInSeries));
+    !list.find(p => p.seriesComposition !== "delta" && p.shortname === s.seriesPrevious));
   if (deltaWithoutFull.length > 0) {
     throw "Delta spec(s) found without full previous level: " +
       deltaWithoutFull.map(s => s.url).join(" ");
@@ -173,8 +173,8 @@ function lintStr(specsStr) {
   const fixed = sorted
     .map(spec => {
       const linked = linkedList.find(p => p.url === spec.url);
-      const next = linked.nextInSeries ?
-        linkedList.find(p => p.shortname === linked.nextInSeries) :
+      const next = linked.seriesNext ?
+        linkedList.find(p => p.shortname === linked.seriesNext) :
         null;
       const isLast = !next || next.seriesComposition === "delta";
       if (spec.forceCurrent && isLast) {

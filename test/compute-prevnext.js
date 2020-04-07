@@ -38,7 +38,7 @@ describe("compute-prevnext module", () => {
     const spec = getSpec("2");
     assert.deepStrictEqual(
       computePrevNext(spec, [prev]),
-      { previousInSeries: prev.shortname });
+      { seriesPrevious: prev.shortname });
   });
 
   it("sets next link if it exists", () => {
@@ -46,7 +46,7 @@ describe("compute-prevnext module", () => {
     const next = getSpec("2");
     assert.deepStrictEqual(
       computePrevNext(spec, [next]),
-      { nextInSeries: next.shortname });
+      { seriesNext: next.shortname });
   });
 
   it("sets previous/next links when both exist", () => {
@@ -55,7 +55,7 @@ describe("compute-prevnext module", () => {
     const next = getSpec("3");
     assert.deepStrictEqual(
       computePrevNext(spec, [next, prev, spec]),
-      { previousInSeries: prev.shortname, nextInSeries: next.shortname });
+      { seriesPrevious: prev.shortname, seriesNext: next.shortname });
   });
 
   it("sets previous/next links when level are version numbers", () => {
@@ -64,7 +64,7 @@ describe("compute-prevnext module", () => {
     const next = getSpec("1.3");
     assert.deepStrictEqual(
       computePrevNext(spec, [next, prev, spec]),
-      { previousInSeries: prev.shortname, nextInSeries: next.shortname });
+      { seriesPrevious: prev.shortname, seriesNext: next.shortname });
   });
 
   it("selects the right previous level when multiple exist", () => {
@@ -73,7 +73,7 @@ describe("compute-prevnext module", () => {
     const spec = getSpec("4");
     assert.deepStrictEqual(
       computePrevNext(spec, [spec, prev, old]),
-      { previousInSeries: prev.shortname });
+      { seriesPrevious: prev.shortname });
   });
 
   it("selects the right next level when multiple exist", () => {
@@ -82,7 +82,7 @@ describe("compute-prevnext module", () => {
     const last = getSpec("3");
     assert.deepStrictEqual(
       computePrevNext(spec, [spec, last, next]),
-      { nextInSeries: next.shortname });
+      { seriesNext: next.shortname });
   });
 
   it("considers absence of level to be level 0", () => {
@@ -90,7 +90,7 @@ describe("compute-prevnext module", () => {
     const next = getSpec("1");
     assert.deepStrictEqual(
       computePrevNext(spec, [next]),
-      { nextInSeries: next.shortname });
+      { seriesNext: next.shortname });
   });
 
   it("is not affected by presence of other specs", () => {
@@ -99,7 +99,7 @@ describe("compute-prevnext module", () => {
     const next = getSpec("5");
     assert.deepStrictEqual(
       computePrevNext(spec, [next, getOther("2"), spec, getOther("4"), prev]),
-      { previousInSeries: prev.shortname, nextInSeries: next.shortname });
+      { seriesPrevious: prev.shortname, seriesNext: next.shortname });
   });
 
   it("returns an empty object if list is empty", () => {

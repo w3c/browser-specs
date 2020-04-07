@@ -1,0 +1,4910 @@
+[
+  {
+    "url": "https://compat.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "compat",
+    "series": {
+      "shortname": "compat",
+      "currentSpecification": "compat"
+    },
+    "nightly": {
+      "url": "https://compat.spec.whatwg.org/"
+    },
+    "title": "Compatibility Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://console.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "console",
+    "series": {
+      "shortname": "console",
+      "currentSpecification": "console"
+    },
+    "nightly": {
+      "url": "https://console.spec.whatwg.org/"
+    },
+    "title": "Console Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://dom.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "dom",
+    "series": {
+      "shortname": "dom",
+      "currentSpecification": "dom"
+    },
+    "nightly": {
+      "url": "https://dom.spec.whatwg.org/"
+    },
+    "title": "DOM Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://drafts.css-houdini.org/box-tree-api-1/",
+    "seriesComposition": "full",
+    "shortname": "box-tree-api-1",
+    "series": {
+      "shortname": "box-tree-api",
+      "currentSpecification": "box-tree-api-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/box-tree-api-1/"
+    },
+    "title": "Box Tree API Level 1",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.css-houdini.org/css-typed-om-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-typed-om-2",
+    "series": {
+      "shortname": "css-typed-om",
+      "currentSpecification": "css-typed-om-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-typed-om-1",
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/css-typed-om-2/"
+    },
+    "title": "CSS Typed OM Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
+    "seriesComposition": "full",
+    "shortname": "font-metrics-api-1",
+    "series": {
+      "shortname": "font-metrics-api",
+      "currentSpecification": "font-metrics-api-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/font-metrics-api-1/"
+    },
+    "title": "Font Metrics API Level 1",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-animations-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-animations-2",
+    "series": {
+      "shortname": "css-animations",
+      "currentSpecification": "css-animations-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-animations-1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-animations-2/"
+    },
+    "title": "CSS Animations Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-backgrounds-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-backgrounds-4",
+    "series": {
+      "shortname": "css-backgrounds",
+      "currentSpecification": "css-backgrounds-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-backgrounds-3",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css4-background/"
+    },
+    "title": "CSS Backgrounds and Borders Module Level 4",
+    "source": "specref"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-env-1/",
+    "seriesComposition": "full",
+    "shortname": "css-env-1",
+    "series": {
+      "shortname": "css-env",
+      "currentSpecification": "css-env-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-env-1/"
+    },
+    "title": "CSS Environment Variables Module Level 1",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-extensions-1/",
+    "seriesComposition": "full",
+    "shortname": "css-extensions-1",
+    "series": {
+      "shortname": "css-extensions",
+      "currentSpecification": "css-extensions-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-extensions-1/"
+    },
+    "title": "CSS Extensions",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-forms-1/",
+    "seriesComposition": "full",
+    "shortname": "css-forms-1",
+    "series": {
+      "shortname": "css-forms",
+      "currentSpecification": "css-forms-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-forms-1/"
+    },
+    "title": "CSS Form Styling Module Level 1",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-gcpm-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-gcpm-4",
+    "series": {
+      "shortname": "css-gcpm",
+      "currentSpecification": "css-gcpm-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-gcpm-3",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-gcpm-4/"
+    },
+    "title": "CSS Generated Content for Paged Media Module Level 4",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-highlight-api-1/",
+    "seriesComposition": "full",
+    "shortname": "css-highlight-api-1",
+    "series": {
+      "shortname": "css-highlight-api",
+      "currentSpecification": "css-highlight-api-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-highlight-api-1/"
+    },
+    "title": "CSS Custom Highlight API Module Level 1",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-multicol-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-multicol-2",
+    "series": {
+      "shortname": "css-multicol",
+      "currentSpecification": "css-multicol-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-multicol-1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-multicol-2/"
+    },
+    "title": "CSS Multi-column Layout Module Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-nesting-1/",
+    "seriesComposition": "full",
+    "shortname": "css-nesting-1",
+    "series": {
+      "shortname": "css-nesting",
+      "currentSpecification": "css-nesting-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-nesting-1/"
+    },
+    "title": "CSS Nesting Module",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-page-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-page-4",
+    "series": {
+      "shortname": "css-page",
+      "currentSpecification": "css-page-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-page-3",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-page-4/"
+    },
+    "title": "Proposals for the future of CSS Paged Media",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-shapes-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-shapes-2",
+    "series": {
+      "shortname": "css-shapes",
+      "currentSpecification": "css-shapes-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-shapes-1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-shapes-2/"
+    },
+    "title": "CSS Shapes Module Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-size-adjust-1/",
+    "seriesComposition": "full",
+    "shortname": "css-size-adjust-1",
+    "series": {
+      "shortname": "css-size-adjust",
+      "currentSpecification": "css-size-adjust-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-size-adjust-1/"
+    },
+    "title": "CSS Mobile Text Size Adjustment Module Level 1",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-sizing-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-sizing-4",
+    "series": {
+      "shortname": "css-sizing",
+      "currentSpecification": "css-sizing-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-sizing-3",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-sizing-4/"
+    },
+    "title": "CSS Box Sizing Module Level 4",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-transitions-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-transitions-2",
+    "series": {
+      "shortname": "css-transitions",
+      "currentSpecification": "css-transitions-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-transitions-1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-transitions-2/"
+    },
+    "title": "CSS Transitions Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-tv/",
+    "seriesComposition": "full",
+    "shortname": "css-tv",
+    "series": {
+      "shortname": "css-tv",
+      "currentSpecification": "css-tv"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/css-tv/"
+    },
+    "title": "CSS TV Profile 1.0",
+    "source": "specref"
+  },
+  {
+    "url": "https://drafts.csswg.org/scroll-animations-1/",
+    "seriesComposition": "full",
+    "shortname": "scroll-animations-1",
+    "series": {
+      "shortname": "scroll-animations",
+      "currentSpecification": "scroll-animations-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/scroll-animations-1/"
+    },
+    "title": "Scroll-linked Animations",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.fxtf.org/compositing-2/",
+    "seriesComposition": "full",
+    "shortname": "compositing-2",
+    "series": {
+      "shortname": "compositing",
+      "currentSpecification": "compositing-2"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "compositing-1",
+    "nightly": {
+      "url": "https://drafts.fxtf.org/compositing-2/"
+    },
+    "title": "Compositing and Blending Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://drafts.fxtf.org/filter-effects-2/",
+    "seriesComposition": "delta",
+    "shortname": "filter-effects-2",
+    "series": {
+      "shortname": "filter-effects",
+      "currentSpecification": "filter-effects-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "filter-effects-1",
+    "nightly": {
+      "url": "https://drafts.fxtf.org/filter-effects-2/"
+    },
+    "title": "Filter Effects Module Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://fetch.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "fetch",
+    "series": {
+      "shortname": "fetch",
+      "currentSpecification": "fetch"
+    },
+    "nightly": {
+      "url": "https://fetch.spec.whatwg.org/"
+    },
+    "title": "Fetch Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://fullscreen.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "fullscreen",
+    "series": {
+      "shortname": "fullscreen",
+      "currentSpecification": "fullscreen"
+    },
+    "nightly": {
+      "url": "https://fullscreen.spec.whatwg.org/"
+    },
+    "title": "Fullscreen API Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://gpuweb.github.io/gpuweb/",
+    "seriesComposition": "full",
+    "shortname": "gpuweb",
+    "series": {
+      "shortname": "gpuweb",
+      "currentSpecification": "gpuweb"
+    },
+    "nightly": {
+      "url": "https://gpuweb.github.io/gpuweb/"
+    },
+    "title": "WebGPU",
+    "source": "spec"
+  },
+  {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "seriesComposition": "full",
+    "shortname": "html",
+    "series": {
+      "shortname": "html",
+      "currentSpecification": "html"
+    },
+    "nightly": {
+      "url": "https://html.spec.whatwg.org/multipage/"
+    },
+    "title": "HTML Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://immersive-web.github.io/hit-test/",
+    "seriesComposition": "full",
+    "shortname": "hit-test",
+    "series": {
+      "shortname": "hit-test",
+      "currentSpecification": "hit-test"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/hit-test/"
+    },
+    "title": "WebXR Hit Test Module",
+    "source": "spec"
+  },
+  {
+    "url": "https://infra.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "infra",
+    "series": {
+      "shortname": "infra",
+      "currentSpecification": "infra"
+    },
+    "nightly": {
+      "url": "https://infra.spec.whatwg.org/"
+    },
+    "title": "Infra Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://mathml-refresh.github.io/mathml-core/",
+    "seriesComposition": "full",
+    "shortname": "mathml-core",
+    "series": {
+      "shortname": "mathml-core",
+      "currentSpecification": "mathml-core"
+    },
+    "nightly": {
+      "url": "https://mathml-refresh.github.io/mathml-core/"
+    },
+    "title": "MathML Core",
+    "source": "spec"
+  },
+  {
+    "url": "https://mimesniff.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "mimesniff",
+    "series": {
+      "shortname": "mimesniff",
+      "currentSpecification": "mimesniff"
+    },
+    "nightly": {
+      "url": "https://mimesniff.spec.whatwg.org/"
+    },
+    "title": "MIME Sniffing Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://notifications.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "notifications",
+    "series": {
+      "shortname": "notifications",
+      "currentSpecification": "notifications"
+    },
+    "nightly": {
+      "url": "https://notifications.spec.whatwg.org/"
+    },
+    "title": "Notifications API Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://quirks.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "quirks",
+    "series": {
+      "shortname": "quirks",
+      "currentSpecification": "quirks"
+    },
+    "nightly": {
+      "url": "https://quirks.spec.whatwg.org/"
+    },
+    "title": "Quirks Mode Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://storage.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "storage",
+    "series": {
+      "shortname": "storage",
+      "currentSpecification": "storage"
+    },
+    "nightly": {
+      "url": "https://storage.spec.whatwg.org/"
+    },
+    "title": "Storage Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://streams.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "streams",
+    "series": {
+      "shortname": "streams",
+      "currentSpecification": "streams"
+    },
+    "nightly": {
+      "url": "https://streams.spec.whatwg.org/"
+    },
+    "title": "Streams Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://svgwg.org/specs/animations/",
+    "seriesComposition": "full",
+    "shortname": "svg-animations",
+    "series": {
+      "shortname": "svg-animations",
+      "currentSpecification": "svg-animations"
+    },
+    "nightly": {
+      "url": "https://svgwg.org/specs/animations/"
+    },
+    "title": "SVG Animations Level 2",
+    "source": "spec"
+  },
+  {
+    "url": "https://url.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "url",
+    "series": {
+      "shortname": "url",
+      "currentSpecification": "url"
+    },
+    "nightly": {
+      "url": "https://url.spec.whatwg.org/"
+    },
+    "title": "URL Standard",
+    "source": "specref"
+  },
+  {
+    "url": "https://w3c.github.io/accname/",
+    "seriesComposition": "full",
+    "shortname": "accname",
+    "series": {
+      "shortname": "accname",
+      "currentSpecification": "accname"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/accname/"
+    },
+    "title": "Accessible Name and Description Computation 1.2",
+    "source": "spec"
+  },
+  {
+    "url": "https://w3c.github.io/contentEditable/",
+    "seriesComposition": "full",
+    "shortname": "contentEditable",
+    "series": {
+      "shortname": "contentEditable",
+      "currentSpecification": "contentEditable"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/contentEditable/"
+    },
+    "title": "ContentEditable",
+    "source": "spec"
+  },
+  {
+    "url": "https://w3c.github.io/core-aam/",
+    "seriesComposition": "full",
+    "shortname": "core-aam",
+    "series": {
+      "shortname": "core-aam",
+      "currentSpecification": "core-aam"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/core-aam/"
+    },
+    "title": "Core Accessibility API Mappings 1.2",
+    "source": "spec"
+  },
+  {
+    "url": "https://w3c.github.io/gamepad/extensions.html",
+    "seriesComposition": "full",
+    "shortname": "gamepad-extensions",
+    "series": {
+      "shortname": "gamepad-extensions",
+      "currentSpecification": "gamepad-extensions"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/gamepad/extensions.html"
+    },
+    "title": "Gamepad Extensions",
+    "source": "spec"
+  },
+  {
+    "url": "https://w3c.github.io/media-playback-quality/",
+    "seriesComposition": "full",
+    "shortname": "media-playback-quality",
+    "series": {
+      "shortname": "media-playback-quality",
+      "currentSpecification": "media-playback-quality"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/media-playback-quality/"
+    },
+    "title": "Media Playback Quality",
+    "source": "specref"
+  },
+  {
+    "url": "https://w3c.github.io/reporting/",
+    "seriesComposition": "full",
+    "shortname": "reporting",
+    "series": {
+      "shortname": "reporting",
+      "currentSpecification": "reporting"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/reporting/"
+    },
+    "title": "Reporting API",
+    "source": "specref"
+  },
+  {
+    "url": "https://w3c.github.io/ServiceWorker/",
+    "seriesComposition": "full",
+    "shortname": "ServiceWorker",
+    "series": {
+      "shortname": "ServiceWorker",
+      "currentSpecification": "ServiceWorker"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/ServiceWorker/"
+    },
+    "title": "Service Workers Nightly",
+    "source": "spec"
+  },
+  {
+    "url": "https://w3c.github.io/web-nfc/",
+    "seriesComposition": "full",
+    "shortname": "web-nfc",
+    "series": {
+      "shortname": "web-nfc",
+      "currentSpecification": "web-nfc"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/web-nfc/"
+    },
+    "title": "Web NFC API",
+    "source": "specref"
+  },
+  {
+    "url": "https://w3c.github.io/webappsec-feature-policy/",
+    "seriesComposition": "full",
+    "shortname": "feature-policy",
+    "series": {
+      "shortname": "feature-policy",
+      "currentSpecification": "feature-policy"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-feature-policy/"
+    },
+    "title": "Feature Policy",
+    "source": "specref"
+  },
+  {
+    "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
+    "seriesComposition": "full",
+    "shortname": "trusted-types",
+    "series": {
+      "shortname": "trusted-types",
+      "currentSpecification": "trusted-types"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/trusted-types/dist/spec/"
+    },
+    "title": "Trusted Types Spec WIP",
+    "source": "specref"
+  },
+  {
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/",
+    "seriesComposition": "full",
+    "shortname": "web-bluetooth",
+    "series": {
+      "shortname": "web-bluetooth",
+      "currentSpecification": "web-bluetooth"
+    },
+    "nightly": {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/"
+    },
+    "title": "Web Bluetooth",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/background-fetch/",
+    "seriesComposition": "full",
+    "shortname": "background-fetch",
+    "series": {
+      "shortname": "background-fetch",
+      "currentSpecification": "background-fetch"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/background-fetch/"
+    },
+    "title": "Background Fetch",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/BackgroundSync/spec/",
+    "seriesComposition": "full",
+    "shortname": "BackgroundSync",
+    "series": {
+      "shortname": "BackgroundSync",
+      "currentSpecification": "BackgroundSync"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/BackgroundSync/spec/"
+    },
+    "title": "Web Background Synchronization",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/badging/",
+    "seriesComposition": "full",
+    "shortname": "badging",
+    "series": {
+      "shortname": "badging",
+      "currentSpecification": "badging"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/badging/"
+    },
+    "title": "Badging API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/compression/",
+    "seriesComposition": "full",
+    "shortname": "compression",
+    "series": {
+      "shortname": "compression",
+      "currentSpecification": "compression"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/compression/"
+    },
+    "title": "Compression Streams",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/construct-stylesheets/",
+    "seriesComposition": "full",
+    "shortname": "construct-stylesheets",
+    "series": {
+      "shortname": "construct-stylesheets",
+      "currentSpecification": "construct-stylesheets"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/construct-stylesheets/"
+    },
+    "title": "Constructable Stylesheet Objects",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/contact-api/spec/",
+    "seriesComposition": "full",
+    "shortname": "contact-api",
+    "series": {
+      "shortname": "contact-api",
+      "currentSpecification": "contact-api"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/contact-api/spec/"
+    },
+    "title": "Contact Picker API",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/cookie-store/",
+    "seriesComposition": "full",
+    "shortname": "cookie-store",
+    "series": {
+      "shortname": "cookie-store",
+      "currentSpecification": "cookie-store"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/cookie-store/"
+    },
+    "title": "Cookie Store API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/cors-rfc1918/",
+    "seriesComposition": "full",
+    "shortname": "cors-rfc1918",
+    "series": {
+      "shortname": "cors-rfc1918",
+      "currentSpecification": "cors-rfc1918"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/cors-rfc1918/"
+    },
+    "title": "CORS and RFC1918",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/CSS-Parser-API/",
+    "seriesComposition": "full",
+    "shortname": "CSS-Parser-API",
+    "series": {
+      "shortname": "CSS-Parser-API",
+      "currentSpecification": "CSS-Parser-API"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/CSS-Parser-API/"
+    },
+    "title": "CSS Parser API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/element-timing/",
+    "seriesComposition": "full",
+    "shortname": "element-timing",
+    "series": {
+      "shortname": "element-timing",
+      "currentSpecification": "element-timing"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/element-timing/"
+    },
+    "title": "Element Timing API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/entries-api/",
+    "seriesComposition": "full",
+    "shortname": "entries-api",
+    "series": {
+      "shortname": "entries-api",
+      "currentSpecification": "entries-api"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/entries-api/"
+    },
+    "title": "File and Directory Entries API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/event-timing/",
+    "seriesComposition": "full",
+    "shortname": "event-timing",
+    "series": {
+      "shortname": "event-timing",
+      "currentSpecification": "event-timing"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/event-timing/"
+    },
+    "title": "Event Timing API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/frame-timing/",
+    "seriesComposition": "full",
+    "shortname": "frame-timing",
+    "series": {
+      "shortname": "frame-timing",
+      "currentSpecification": "frame-timing"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/frame-timing/"
+    },
+    "title": "Frame Timing",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/geolocation-sensor/",
+    "seriesComposition": "full",
+    "shortname": "geolocation-sensor",
+    "series": {
+      "shortname": "geolocation-sensor",
+      "currentSpecification": "geolocation-sensor"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/geolocation-sensor/"
+    },
+    "title": "Geolocation Sensor",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/get-installed-related-apps/spec/",
+    "seriesComposition": "full",
+    "shortname": "get-installed-related-apps",
+    "series": {
+      "shortname": "get-installed-related-apps",
+      "currentSpecification": "get-installed-related-apps"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/get-installed-related-apps/spec/"
+    },
+    "title": "Get Installed Related Apps API",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/import-maps/",
+    "seriesComposition": "full",
+    "shortname": "import-maps",
+    "series": {
+      "shortname": "import-maps",
+      "currentSpecification": "import-maps"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/import-maps/"
+    },
+    "title": "Import Maps",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/InputDeviceCapabilities/",
+    "seriesComposition": "full",
+    "shortname": "InputDeviceCapabilities",
+    "series": {
+      "shortname": "InputDeviceCapabilities",
+      "currentSpecification": "InputDeviceCapabilities"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/InputDeviceCapabilities/"
+    },
+    "title": "Input Device Capabilities",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/js-self-profiling/",
+    "seriesComposition": "full",
+    "shortname": "js-self-profiling",
+    "series": {
+      "shortname": "js-self-profiling",
+      "currentSpecification": "js-self-profiling"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/js-self-profiling/"
+    },
+    "title": "JS Self-Profiling API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/keyboard-lock/",
+    "seriesComposition": "full",
+    "shortname": "keyboard-lock",
+    "series": {
+      "shortname": "keyboard-lock",
+      "currentSpecification": "keyboard-lock"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/keyboard-lock/"
+    },
+    "title": "Keyboard Lock",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/keyboard-map/",
+    "seriesComposition": "full",
+    "shortname": "keyboard-map",
+    "series": {
+      "shortname": "keyboard-map",
+      "currentSpecification": "keyboard-map"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/keyboard-map/"
+    },
+    "title": "Keyboard Map",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/largest-contentful-paint/",
+    "seriesComposition": "full",
+    "shortname": "largest-contentful-paint",
+    "series": {
+      "shortname": "largest-contentful-paint",
+      "currentSpecification": "largest-contentful-paint"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/largest-contentful-paint/"
+    },
+    "title": "Largest Contentful Paint",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/layout-instability/",
+    "seriesComposition": "full",
+    "shortname": "layout-instability",
+    "series": {
+      "shortname": "layout-instability",
+      "currentSpecification": "layout-instability"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/layout-instability/"
+    },
+    "title": "Layout Instability",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/native-file-system/",
+    "seriesComposition": "full",
+    "shortname": "native-file-system",
+    "series": {
+      "shortname": "native-file-system",
+      "currentSpecification": "native-file-system"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/native-file-system/"
+    },
+    "title": "Native File System",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/netinfo/",
+    "seriesComposition": "full",
+    "shortname": "netinfo",
+    "series": {
+      "shortname": "netinfo",
+      "currentSpecification": "netinfo"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/netinfo/"
+    },
+    "title": "Network Information API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/origin-policy/",
+    "seriesComposition": "full",
+    "shortname": "origin-policy",
+    "series": {
+      "shortname": "origin-policy",
+      "currentSpecification": "origin-policy"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/origin-policy/"
+    },
+    "title": "Origin Policy",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/page-lifecycle/",
+    "seriesComposition": "full",
+    "shortname": "page-lifecycle",
+    "series": {
+      "shortname": "page-lifecycle",
+      "currentSpecification": "page-lifecycle"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/page-lifecycle/"
+    },
+    "title": "Page Lifecycle",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/permissions-request/",
+    "seriesComposition": "full",
+    "shortname": "permissions-request",
+    "series": {
+      "shortname": "permissions-request",
+      "currentSpecification": "permissions-request"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/permissions-request/"
+    },
+    "title": "Requesting Permissions",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/permissions-revoke/",
+    "seriesComposition": "full",
+    "shortname": "permissions-revoke",
+    "series": {
+      "shortname": "permissions-revoke",
+      "currentSpecification": "permissions-revoke"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/permissions-revoke/"
+    },
+    "title": "Relinquishing Permissions",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/portals/",
+    "seriesComposition": "full",
+    "shortname": "portals",
+    "series": {
+      "shortname": "portals",
+      "currentSpecification": "portals"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/portals/"
+    },
+    "title": "Portals",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/priority-hints/",
+    "seriesComposition": "full",
+    "shortname": "priority-hints",
+    "series": {
+      "shortname": "priority-hints",
+      "currentSpecification": "priority-hints"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/priority-hints/"
+    },
+    "title": "Priority Hints",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/ScrollToTextFragment/",
+    "seriesComposition": "full",
+    "shortname": "ScrollToTextFragment",
+    "series": {
+      "shortname": "ScrollToTextFragment",
+      "currentSpecification": "ScrollToTextFragment"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/ScrollToTextFragment/"
+    },
+    "title": "Text Fragments",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/serial/",
+    "seriesComposition": "full",
+    "shortname": "serial",
+    "series": {
+      "shortname": "serial",
+      "currentSpecification": "serial"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/serial/"
+    },
+    "title": "Serial API",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/shape-detection-api/",
+    "seriesComposition": "full",
+    "shortname": "shape-detection-api",
+    "series": {
+      "shortname": "shape-detection-api",
+      "currentSpecification": "shape-detection-api"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/shape-detection-api/"
+    },
+    "title": "Accelerated Shape Detection in Images",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/speech-api/",
+    "seriesComposition": "full",
+    "shortname": "speech-api",
+    "series": {
+      "shortname": "speech-api",
+      "currentSpecification": "speech-api"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/speech-api/"
+    },
+    "title": "Web Speech API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/video-raf/",
+    "seriesComposition": "full",
+    "shortname": "video-raf",
+    "series": {
+      "shortname": "video-raf",
+      "currentSpecification": "video-raf"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/video-raf/"
+    },
+    "title": "HTMLVideoElement.requestAnimationFrame()",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/visual-viewport/",
+    "seriesComposition": "full",
+    "shortname": "visual-viewport",
+    "series": {
+      "shortname": "visual-viewport",
+      "currentSpecification": "visual-viewport"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/visual-viewport/"
+    },
+    "title": "Visual Viewport API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/web-locks/",
+    "seriesComposition": "full",
+    "shortname": "web-locks",
+    "series": {
+      "shortname": "web-locks",
+      "currentSpecification": "web-locks"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/web-locks/"
+    },
+    "title": "Web Locks API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/web-share-target/",
+    "seriesComposition": "full",
+    "shortname": "web-share-target",
+    "series": {
+      "shortname": "web-share-target",
+      "currentSpecification": "web-share-target"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/web-share-target/"
+    },
+    "title": "Web Share Target API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/web-transport/",
+    "seriesComposition": "full",
+    "shortname": "web-transport",
+    "series": {
+      "shortname": "web-transport",
+      "currentSpecification": "web-transport"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/web-transport/"
+    },
+    "title": "WebTransport",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/webusb/",
+    "seriesComposition": "full",
+    "shortname": "webusb",
+    "series": {
+      "shortname": "webusb",
+      "currentSpecification": "webusb"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/webusb/"
+    },
+    "title": "WebUSB API",
+    "source": "specref"
+  },
+  {
+    "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/",
+    "seriesComposition": "full",
+    "shortname": "webgl1",
+    "series": {
+      "shortname": "webgl1",
+      "currentSpecification": "webgl1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/"
+    },
+    "title": "WebGL Specification",
+    "source": "spec"
+  },
+  {
+    "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/",
+    "seriesComposition": "full",
+    "shortname": "webgl2",
+    "series": {
+      "shortname": "webgl2",
+      "currentSpecification": "webgl2"
+    },
+    "seriesVersion": "2",
+    "nightly": {
+      "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
+    },
+    "title": "WebGL 2.0 Specification",
+    "source": "spec"
+  },
+  {
+    "url": "https://www.w3.org/TR/accelerometer/",
+    "seriesComposition": "full",
+    "shortname": "accelerometer",
+    "series": {
+      "shortname": "accelerometer",
+      "currentSpecification": "accelerometer"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/accelerometer/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/accelerometer/"
+    },
+    "title": "Accelerometer",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/ambient-light/",
+    "seriesComposition": "full",
+    "shortname": "ambient-light",
+    "series": {
+      "shortname": "ambient-light",
+      "currentSpecification": "ambient-light"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/ambient-light/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/ambient-light/"
+    },
+    "title": "Ambient Light Sensor",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/appmanifest/",
+    "seriesComposition": "full",
+    "shortname": "appmanifest",
+    "series": {
+      "shortname": "appmanifest",
+      "currentSpecification": "appmanifest"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/appmanifest/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/manifest/"
+    },
+    "title": "Web App Manifest",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/audio-output/",
+    "seriesComposition": "full",
+    "shortname": "audio-output",
+    "series": {
+      "shortname": "audio-output",
+      "currentSpecification": "audio-output"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/audio-output/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-output/"
+    },
+    "title": "Audio Output Devices API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/battery-status/",
+    "seriesComposition": "full",
+    "shortname": "battery-status",
+    "series": {
+      "shortname": "battery-status",
+      "currentSpecification": "battery-status"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/battery-status/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/battery/"
+    },
+    "title": "Battery Status API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/beacon/",
+    "seriesComposition": "full",
+    "shortname": "beacon",
+    "series": {
+      "shortname": "beacon",
+      "currentSpecification": "beacon"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/beacon/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/beacon/"
+    },
+    "title": "Beacon",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/clear-site-data/",
+    "seriesComposition": "full",
+    "shortname": "clear-site-data",
+    "series": {
+      "shortname": "clear-site-data",
+      "currentSpecification": "clear-site-data"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/clear-site-data/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-clear-site-data/"
+    },
+    "title": "Clear Site Data",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/clipboard-apis/",
+    "seriesComposition": "full",
+    "shortname": "clipboard-apis",
+    "series": {
+      "shortname": "clipboard-apis",
+      "currentSpecification": "clipboard-apis"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/clipboard-apis/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/clipboard-apis/"
+    },
+    "title": "Clipboard API and events",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/compositing-1/",
+    "seriesComposition": "full",
+    "shortname": "compositing-1",
+    "series": {
+      "shortname": "compositing",
+      "currentSpecification": "compositing-2"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "compositing-2",
+    "release": {
+      "url": "http://www.w3.org/TR/compositing-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.fxtf.org/compositing-1/"
+    },
+    "title": "Compositing and Blending Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/credential-management-1/",
+    "seriesComposition": "full",
+    "shortname": "credential-management-1",
+    "series": {
+      "shortname": "credential-management",
+      "currentSpecification": "credential-management-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/credential-management-1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-credential-management/"
+    },
+    "title": "Credential Management Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/csp-embedded-enforcement/",
+    "seriesComposition": "full",
+    "shortname": "csp-embedded-enforcement",
+    "series": {
+      "shortname": "csp-embedded-enforcement",
+      "currentSpecification": "csp-embedded-enforcement"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/csp-embedded-enforcement/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-cspee/"
+    },
+    "title": "Content Security Policy: Embedded Enforcement",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/CSP3/",
+    "seriesComposition": "full",
+    "shortname": "CSP3",
+    "series": {
+      "shortname": "CSP",
+      "currentSpecification": "CSP3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/CSP3/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-csp/"
+    },
+    "title": "Content Security Policy Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-align-3/",
+    "seriesComposition": "full",
+    "shortname": "css-align-3",
+    "series": {
+      "shortname": "css-align",
+      "currentSpecification": "css-align-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-align-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-align/"
+    },
+    "title": "CSS Box Alignment Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-animation-worklet-1/",
+    "seriesComposition": "full",
+    "shortname": "css-animation-worklet-1",
+    "series": {
+      "shortname": "css-animation-worklet",
+      "currentSpecification": "css-animation-worklet-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-animation-worklet-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/css-animationworklet-1/"
+    },
+    "title": "CSS Animation Worklet API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-animations-1/",
+    "seriesComposition": "full",
+    "shortname": "css-animations-1",
+    "series": {
+      "shortname": "css-animations",
+      "currentSpecification": "css-animations-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-animations-2",
+    "release": {
+      "url": "https://www.w3.org/TR/css-animations-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-animations/"
+    },
+    "title": "CSS Animations Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-backgrounds-3/",
+    "seriesComposition": "full",
+    "shortname": "css-backgrounds-3",
+    "series": {
+      "shortname": "css-backgrounds",
+      "currentSpecification": "css-backgrounds-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-backgrounds-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-backgrounds-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-backgrounds/"
+    },
+    "title": "CSS Backgrounds and Borders Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-box-3/",
+    "seriesComposition": "full",
+    "shortname": "css-box-3",
+    "series": {
+      "shortname": "css-box",
+      "currentSpecification": "css-box-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-box-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-box-3/"
+    },
+    "title": "CSS Box Model Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-break-3/",
+    "seriesComposition": "full",
+    "shortname": "css-break-3",
+    "series": {
+      "shortname": "css-break",
+      "currentSpecification": "css-break-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-break-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-break-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-break/"
+    },
+    "title": "CSS Fragmentation Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-break-4/",
+    "seriesComposition": "full",
+    "shortname": "css-break-4",
+    "series": {
+      "shortname": "css-break",
+      "currentSpecification": "css-break-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-break-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-break-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-break-4/"
+    },
+    "title": "CSS Fragmentation Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-cascade-3/",
+    "seriesComposition": "full",
+    "shortname": "css-cascade-3",
+    "series": {
+      "shortname": "css-cascade",
+      "currentSpecification": "css-cascade-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-cascade-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-cascade-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-cascade-3/"
+    },
+    "title": "CSS Cascading and Inheritance Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-cascade-4/",
+    "seriesComposition": "full",
+    "shortname": "css-cascade-4",
+    "series": {
+      "shortname": "css-cascade",
+      "currentSpecification": "css-cascade-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-cascade-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-cascade-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-cascade/"
+    },
+    "title": "CSS Cascading and Inheritance Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-color-3/",
+    "seriesComposition": "full",
+    "shortname": "css-color-3",
+    "series": {
+      "shortname": "css-color",
+      "currentSpecification": "css-color-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-color-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-color-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-3/"
+    },
+    "title": "CSS Color Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-color-4/",
+    "seriesComposition": "full",
+    "shortname": "css-color-4",
+    "series": {
+      "shortname": "css-color",
+      "currentSpecification": "css-color-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-color-3",
+    "seriesNext": "css-color-5",
+    "release": {
+      "url": "https://www.w3.org/TR/css-color-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color/"
+    },
+    "title": "CSS Color Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-color-5/",
+    "seriesComposition": "delta",
+    "shortname": "css-color-5",
+    "series": {
+      "shortname": "css-color",
+      "currentSpecification": "css-color-4"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "css-color-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-color-5/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-5/"
+    },
+    "title": "CSS Color Module Level 5",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-color-adjust-1/",
+    "seriesComposition": "full",
+    "shortname": "css-color-adjust-1",
+    "series": {
+      "shortname": "css-color-adjust",
+      "currentSpecification": "css-color-adjust-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-color-adjust-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-adjust-1/"
+    },
+    "title": "CSS Color Adjust Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-conditional-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-conditional-4",
+    "series": {
+      "shortname": "css-conditional",
+      "currentSpecification": "css3-conditional"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css3-conditional",
+    "release": {
+      "url": "https://www.w3.org/TR/css-conditional-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-conditional-4/"
+    },
+    "title": "CSS Conditional Rules Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-contain-1/",
+    "seriesComposition": "full",
+    "shortname": "css-contain-1",
+    "series": {
+      "shortname": "css-contain",
+      "currentSpecification": "css-contain-2"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-contain-2",
+    "release": {
+      "url": "https://www.w3.org/TR/css-contain-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-contain/"
+    },
+    "title": "CSS Containment Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-contain-2/",
+    "seriesComposition": "full",
+    "shortname": "css-contain-2",
+    "series": {
+      "shortname": "css-contain",
+      "currentSpecification": "css-contain-2"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-contain-1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-contain-2/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-contain-2/"
+    },
+    "title": "CSS Containment Module Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-content-3/",
+    "seriesComposition": "full",
+    "shortname": "css-content-3",
+    "series": {
+      "shortname": "css-content",
+      "currentSpecification": "css-content-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-content-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-content-3/"
+    },
+    "title": "CSS Generated Content Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-counter-styles-3/",
+    "seriesComposition": "full",
+    "shortname": "css-counter-styles-3",
+    "series": {
+      "shortname": "css-counter-styles",
+      "currentSpecification": "css-counter-styles-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-counter-styles-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-counter-styles/"
+    },
+    "title": "CSS Counter Styles Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-device-adapt-1/",
+    "seriesComposition": "full",
+    "shortname": "css-device-adapt-1",
+    "series": {
+      "shortname": "css-device-adapt",
+      "currentSpecification": "css-device-adapt-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-device-adapt-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-device-adapt/"
+    },
+    "title": "CSS Device Adaptation Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-display-3/",
+    "seriesComposition": "full",
+    "shortname": "css-display-3",
+    "series": {
+      "shortname": "css-display",
+      "currentSpecification": "css-display-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-display-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-display/"
+    },
+    "title": "CSS Display Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-easing-1/",
+    "seriesComposition": "full",
+    "shortname": "css-easing-1",
+    "series": {
+      "shortname": "css-easing",
+      "currentSpecification": "css-easing-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-easing-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-easing/"
+    },
+    "title": "CSS Easing Functions Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-flexbox-1/",
+    "seriesComposition": "full",
+    "shortname": "css-flexbox-1",
+    "series": {
+      "shortname": "css-flexbox",
+      "currentSpecification": "css-flexbox-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-flexbox-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-flexbox-1/"
+    },
+    "title": "CSS Flexible Box Layout Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-font-loading-3/",
+    "seriesComposition": "full",
+    "shortname": "css-font-loading-3",
+    "series": {
+      "shortname": "css-font-loading",
+      "currentSpecification": "css-font-loading-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "http://www.w3.org/TR/css-font-loading-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-font-loading/"
+    },
+    "title": "CSS Font Loading Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-fonts-3/",
+    "seriesComposition": "full",
+    "shortname": "css-fonts-3",
+    "series": {
+      "shortname": "css-fonts",
+      "currentSpecification": "css-fonts-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-fonts-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-fonts-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-fonts/"
+    },
+    "title": "CSS Fonts Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-fonts-4/",
+    "seriesComposition": "full",
+    "shortname": "css-fonts-4",
+    "series": {
+      "shortname": "css-fonts",
+      "currentSpecification": "css-fonts-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-fonts-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-fonts-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-fonts-4/"
+    },
+    "title": "CSS Fonts Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-gcpm-3/",
+    "seriesComposition": "full",
+    "shortname": "css-gcpm-3",
+    "series": {
+      "shortname": "css-gcpm",
+      "currentSpecification": "css-gcpm-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-gcpm-4",
+    "release": {
+      "url": "http://www.w3.org/TR/css-gcpm-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-gcpm/"
+    },
+    "title": "CSS Generated Content for Paged Media Module",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-grid-1/",
+    "seriesComposition": "full",
+    "shortname": "css-grid-1",
+    "series": {
+      "shortname": "css-grid",
+      "currentSpecification": "css-grid-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-grid-2",
+    "release": {
+      "url": "https://www.w3.org/TR/css-grid-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-grid/"
+    },
+    "title": "CSS Grid Layout Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-grid-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-grid-2",
+    "series": {
+      "shortname": "css-grid",
+      "currentSpecification": "css-grid-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-grid-1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-grid-2/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-grid-2/"
+    },
+    "title": "CSS Grid Layout Module Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-images-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-images-4",
+    "series": {
+      "shortname": "css-images",
+      "currentSpecification": "css3-images"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css3-images",
+    "release": {
+      "url": "https://www.w3.org/TR/css-images-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-images-4/"
+    },
+    "title": "CSS Image Values and Replaced Content Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-inline-3/",
+    "seriesComposition": "full",
+    "shortname": "css-inline-3",
+    "series": {
+      "shortname": "css-inline",
+      "currentSpecification": "css-inline-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-inline-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-inline-3/"
+    },
+    "title": "CSS Inline Layout Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-layout-api-1/",
+    "seriesComposition": "full",
+    "shortname": "css-layout-api-1",
+    "series": {
+      "shortname": "css-layout-api",
+      "currentSpecification": "css-layout-api-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-layout-api-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/css-layout-api-1/"
+    },
+    "title": "CSS Layout API Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-line-grid-1/",
+    "seriesComposition": "full",
+    "shortname": "css-line-grid-1",
+    "series": {
+      "shortname": "css-line-grid",
+      "currentSpecification": "css-line-grid-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-line-grid-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-line-grid/"
+    },
+    "title": "CSS Line Grid Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-lists-3/",
+    "seriesComposition": "full",
+    "shortname": "css-lists-3",
+    "series": {
+      "shortname": "css-lists",
+      "currentSpecification": "css-lists-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-lists-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-lists-3/"
+    },
+    "title": "CSS Lists and Counters Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-logical-1/",
+    "seriesComposition": "full",
+    "shortname": "css-logical-1",
+    "series": {
+      "shortname": "css-logical",
+      "currentSpecification": "css-logical-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-logical-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-logical-1/"
+    },
+    "title": "CSS Logical Properties and Values Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-masking-1/",
+    "seriesComposition": "full",
+    "shortname": "css-masking-1",
+    "series": {
+      "shortname": "css-masking",
+      "currentSpecification": "css-masking-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-masking-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.fxtf.org/css-masking-1/"
+    },
+    "title": "CSS Masking Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-multicol-1/",
+    "seriesComposition": "full",
+    "shortname": "css-multicol-1",
+    "series": {
+      "shortname": "css-multicol",
+      "currentSpecification": "css-multicol-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-multicol-2",
+    "release": {
+      "url": "https://www.w3.org/TR/css-multicol-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-multicol/"
+    },
+    "title": "CSS Multi-column Layout Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-namespaces-3/",
+    "seriesComposition": "full",
+    "shortname": "css-namespaces-3",
+    "series": {
+      "shortname": "css-namespaces",
+      "currentSpecification": "css-namespaces-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "http://www.w3.org/TR/css-namespaces-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-namespaces/"
+    },
+    "title": "CSS Namespaces Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-nav-1/",
+    "seriesComposition": "full",
+    "shortname": "css-nav-1",
+    "series": {
+      "shortname": "css-nav",
+      "currentSpecification": "css-nav-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-nav-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-nav-1/"
+    },
+    "title": "CSS Spatial Navigation Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-overflow-3/",
+    "seriesComposition": "full",
+    "shortname": "css-overflow-3",
+    "series": {
+      "shortname": "css-overflow",
+      "currentSpecification": "css-overflow-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-overflow-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-overflow-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-overflow-3/"
+    },
+    "title": "CSS Overflow Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-overflow-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-overflow-4",
+    "series": {
+      "shortname": "css-overflow",
+      "currentSpecification": "css-overflow-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-overflow-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-overflow-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-overflow-4/"
+    },
+    "title": "CSS Overflow Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-overscroll-1/",
+    "seriesComposition": "full",
+    "shortname": "css-overscroll-1",
+    "series": {
+      "shortname": "css-overscroll",
+      "currentSpecification": "css-overscroll-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-overscroll-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-overscroll-1/"
+    },
+    "title": "CSS Overscroll Behavior Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-page-3/",
+    "seriesComposition": "full",
+    "shortname": "css-page-3",
+    "series": {
+      "shortname": "css-page",
+      "currentSpecification": "css-page-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-page-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-page-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-page-3/"
+    },
+    "title": "CSS Paged Media Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-page-floats-3/",
+    "seriesComposition": "full",
+    "shortname": "css-page-floats-3",
+    "series": {
+      "shortname": "css-page-floats",
+      "currentSpecification": "css-page-floats-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "http://www.w3.org/TR/css-page-floats-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-page-floats/"
+    },
+    "title": "CSS Page Floats",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-paint-api-1/",
+    "seriesComposition": "full",
+    "shortname": "css-paint-api-1",
+    "series": {
+      "shortname": "css-paint-api",
+      "currentSpecification": "css-paint-api-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-paint-api-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/css-paint-api-1/"
+    },
+    "title": "CSS Painting API Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-position-3/",
+    "seriesComposition": "full",
+    "shortname": "css-position-3",
+    "series": {
+      "shortname": "css-position",
+      "currentSpecification": "css-position-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "http://www.w3.org/TR/css-position-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-position/"
+    },
+    "title": "CSS Positioned Layout Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-properties-values-api-1/",
+    "seriesComposition": "full",
+    "shortname": "css-properties-values-api-1",
+    "series": {
+      "shortname": "css-properties-values-api",
+      "currentSpecification": "css-properties-values-api-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-properties-values-api-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/css-properties-values-api-1/"
+    },
+    "title": "CSS Properties and Values API Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-pseudo-4/",
+    "seriesComposition": "full",
+    "shortname": "css-pseudo-4",
+    "series": {
+      "shortname": "css-pseudo",
+      "currentSpecification": "css-pseudo-4"
+    },
+    "seriesVersion": "4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-pseudo-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-pseudo-4/"
+    },
+    "title": "CSS Pseudo-Elements Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-regions-1/",
+    "seriesComposition": "full",
+    "shortname": "css-regions-1",
+    "series": {
+      "shortname": "css-regions",
+      "currentSpecification": "css-regions-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-regions-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-regions/"
+    },
+    "title": "CSS Regions Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-rhythm-1/",
+    "seriesComposition": "full",
+    "shortname": "css-rhythm-1",
+    "series": {
+      "shortname": "css-rhythm",
+      "currentSpecification": "css-rhythm-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-rhythm-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-rhythm/"
+    },
+    "title": "CSS Rhythmic Sizing",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-round-display-1/",
+    "seriesComposition": "full",
+    "shortname": "css-round-display-1",
+    "series": {
+      "shortname": "css-round-display",
+      "currentSpecification": "css-round-display-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-round-display-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-round-display/"
+    },
+    "title": "CSS Round Display Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-ruby-1/",
+    "seriesComposition": "full",
+    "shortname": "css-ruby-1",
+    "series": {
+      "shortname": "css-ruby",
+      "currentSpecification": "css-ruby-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-ruby-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-ruby-1/"
+    },
+    "title": "CSS Ruby Layout Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-scoping-1/",
+    "seriesComposition": "full",
+    "shortname": "css-scoping-1",
+    "series": {
+      "shortname": "css-scoping",
+      "currentSpecification": "css-scoping-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-scoping-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-scoping/"
+    },
+    "title": "CSS Scoping Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-scroll-anchoring-1/",
+    "seriesComposition": "full",
+    "shortname": "css-scroll-anchoring-1",
+    "series": {
+      "shortname": "css-scroll-anchoring",
+      "currentSpecification": "css-scroll-anchoring-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-scroll-anchoring-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-scroll-anchoring/"
+    },
+    "title": "CSS Scroll Anchoring Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-scroll-snap-1/",
+    "seriesComposition": "full",
+    "shortname": "css-scroll-snap-1",
+    "series": {
+      "shortname": "css-scroll-snap",
+      "currentSpecification": "css-scroll-snap-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-scroll-snap-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-scroll-snap-1/"
+    },
+    "title": "CSS Scroll Snap Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-scrollbars-1/",
+    "seriesComposition": "full",
+    "shortname": "css-scrollbars-1",
+    "series": {
+      "shortname": "css-scrollbars",
+      "currentSpecification": "css-scrollbars-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-scrollbars-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-scrollbars/"
+    },
+    "title": "CSS Scrollbars Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-shadow-parts-1/",
+    "seriesComposition": "full",
+    "shortname": "css-shadow-parts-1",
+    "series": {
+      "shortname": "css-shadow-parts",
+      "currentSpecification": "css-shadow-parts-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-shadow-parts-1/"
+    },
+    "nightly": {
+      "url": "http://drafts.csswg.org/css-shadow-parts/"
+    },
+    "title": "CSS Shadow Parts",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-shapes-1/",
+    "seriesComposition": "full",
+    "shortname": "css-shapes-1",
+    "series": {
+      "shortname": "css-shapes",
+      "currentSpecification": "css-shapes-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-shapes-2",
+    "release": {
+      "url": "http://www.w3.org/TR/css-shapes-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-shapes/"
+    },
+    "title": "CSS Shapes Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-sizing-3/",
+    "seriesComposition": "full",
+    "shortname": "css-sizing-3",
+    "series": {
+      "shortname": "css-sizing",
+      "currentSpecification": "css-sizing-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-sizing-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-sizing-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-sizing-3/"
+    },
+    "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-speech-1/",
+    "seriesComposition": "full",
+    "shortname": "css-speech-1",
+    "series": {
+      "shortname": "css-speech",
+      "currentSpecification": "css-speech-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://www.w3.org/TR/css-speech-1/"
+    },
+    "title": "CSS Speech Module",
+    "source": "specref"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-style-attr/",
+    "seriesComposition": "full",
+    "shortname": "css-style-attr",
+    "series": {
+      "shortname": "css-style-attr",
+      "currentSpecification": "css-style-attr"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/css-style-attr/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-style-attr/"
+    },
+    "title": "CSS Style Attributes",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-syntax-3/",
+    "seriesComposition": "full",
+    "shortname": "css-syntax-3",
+    "series": {
+      "shortname": "css-syntax",
+      "currentSpecification": "css-syntax-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-syntax-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-syntax/"
+    },
+    "title": "CSS Syntax Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-tables-3/",
+    "seriesComposition": "full",
+    "shortname": "css-tables-3",
+    "series": {
+      "shortname": "css-tables",
+      "currentSpecification": "css-tables-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-tables-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-tables-3/"
+    },
+    "title": "CSS Table Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-text-3/",
+    "seriesComposition": "full",
+    "shortname": "css-text-3",
+    "series": {
+      "shortname": "css-text",
+      "currentSpecification": "css-text-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-text-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-text-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-text-3/"
+    },
+    "title": "CSS Text Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-text-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-text-4",
+    "series": {
+      "shortname": "css-text",
+      "currentSpecification": "css-text-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-text-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-text-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-text-4/"
+    },
+    "title": "CSS Text Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-text-decor-3/",
+    "seriesComposition": "full",
+    "shortname": "css-text-decor-3",
+    "series": {
+      "shortname": "css-text-decor",
+      "currentSpecification": "css-text-decor-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-text-decor-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-text-decor-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-text-decor-3/"
+    },
+    "title": "CSS Text Decoration Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-text-decor-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-text-decor-4",
+    "series": {
+      "shortname": "css-text-decor",
+      "currentSpecification": "css-text-decor-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-text-decor-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-text-decor-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-text-decor-4/"
+    },
+    "title": "CSS Text Decoration Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-transforms-1/",
+    "seriesComposition": "full",
+    "shortname": "css-transforms-1",
+    "series": {
+      "shortname": "css-transforms",
+      "currentSpecification": "css-transforms-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-transforms-2",
+    "release": {
+      "url": "https://www.w3.org/TR/css-transforms-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-transforms/"
+    },
+    "title": "CSS Transforms Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-transforms-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-transforms-2",
+    "series": {
+      "shortname": "css-transforms",
+      "currentSpecification": "css-transforms-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-transforms-1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-transforms-2/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-transforms-2/"
+    },
+    "title": "CSS Transforms Module Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-transitions-1/",
+    "seriesComposition": "full",
+    "shortname": "css-transitions-1",
+    "series": {
+      "shortname": "css-transitions",
+      "currentSpecification": "css-transitions-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-transitions-2",
+    "release": {
+      "url": "https://www.w3.org/TR/css-transitions-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-transitions/"
+    },
+    "title": "CSS Transitions",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-typed-om-1/",
+    "seriesComposition": "full",
+    "shortname": "css-typed-om-1",
+    "series": {
+      "shortname": "css-typed-om",
+      "currentSpecification": "css-typed-om-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-typed-om-2",
+    "release": {
+      "url": "https://www.w3.org/TR/css-typed-om-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/css-typed-om-1/"
+    },
+    "title": "CSS Typed OM Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-ui-3/",
+    "seriesComposition": "full",
+    "shortname": "css-ui-3",
+    "series": {
+      "shortname": "css-ui",
+      "currentSpecification": "css-ui-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-ui-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-ui-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-ui/"
+    },
+    "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-ui-4/",
+    "seriesComposition": "full",
+    "shortname": "css-ui-4",
+    "series": {
+      "shortname": "css-ui",
+      "currentSpecification": "css-ui-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-ui-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-ui-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-ui-4/"
+    },
+    "title": "CSS Basic User Interface Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-values-3/",
+    "seriesComposition": "full",
+    "shortname": "css-values-3",
+    "series": {
+      "shortname": "css-values",
+      "currentSpecification": "css-values-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-values-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-values-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-values-3/"
+    },
+    "title": "CSS Values and Units Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-values-4/",
+    "seriesComposition": "full",
+    "shortname": "css-values-4",
+    "series": {
+      "shortname": "css-values",
+      "currentSpecification": "css-values-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-values-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-values-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-values-4/"
+    },
+    "title": "CSS Values and Units Module Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-variables-1/",
+    "seriesComposition": "full",
+    "shortname": "css-variables-1",
+    "series": {
+      "shortname": "css-variables",
+      "currentSpecification": "css-variables-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-variables-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-variables/"
+    },
+    "title": "CSS Custom Properties for Cascading Variables Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-will-change-1/",
+    "seriesComposition": "full",
+    "shortname": "css-will-change-1",
+    "series": {
+      "shortname": "css-will-change",
+      "currentSpecification": "css-will-change-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/css-will-change-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-will-change/"
+    },
+    "title": "CSS Will Change Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-writing-modes-3/",
+    "seriesComposition": "full",
+    "shortname": "css-writing-modes-3",
+    "series": {
+      "shortname": "css-writing-modes",
+      "currentSpecification": "css-writing-modes-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-writing-modes-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-writing-modes-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-writing-modes-3/"
+    },
+    "title": "CSS Writing Modes Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-writing-modes-4/",
+    "seriesComposition": "full",
+    "shortname": "css-writing-modes-4",
+    "series": {
+      "shortname": "css-writing-modes",
+      "currentSpecification": "css-writing-modes-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-writing-modes-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-writing-modes-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-writing-modes-4/"
+    },
+    "title": "CSS Writing Modes Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/CSS2/",
+    "seriesComposition": "full",
+    "shortname": "CSS2",
+    "series": {
+      "shortname": "CSS",
+      "currentSpecification": "CSS22"
+    },
+    "seriesVersion": "2",
+    "seriesNext": "CSS22",
+    "release": {
+      "url": "http://www.w3.org/TR/CSS2/"
+    },
+    "nightly": {
+      "url": "http://dev.w3.org/csswg/css2/"
+    },
+    "title": "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/CSS22/",
+    "seriesComposition": "full",
+    "shortname": "CSS22",
+    "series": {
+      "shortname": "CSS",
+      "currentSpecification": "CSS22"
+    },
+    "seriesVersion": "2.2",
+    "seriesPrevious": "CSS2",
+    "release": {
+      "url": "http://www.w3.org/TR/CSS22/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css2/"
+    },
+    "title": "Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css3-conditional/",
+    "seriesComposition": "full",
+    "shortname": "css3-conditional",
+    "series": {
+      "shortname": "css-conditional",
+      "currentSpecification": "css3-conditional"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-conditional-4",
+    "release": {
+      "url": "http://www.w3.org/TR/css3-conditional/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-conditional-3/"
+    },
+    "title": "CSS Conditional Rules Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css3-exclusions/",
+    "seriesComposition": "full",
+    "shortname": "css3-exclusions",
+    "series": {
+      "shortname": "css-exclusions",
+      "currentSpecification": "css3-exclusions"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "http://www.w3.org/TR/css3-exclusions/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-exclusions/"
+    },
+    "title": "CSS Exclusions Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css3-images/",
+    "seriesComposition": "full",
+    "shortname": "css3-images",
+    "series": {
+      "shortname": "css-images",
+      "currentSpecification": "css3-images"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-images-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-images-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-images-3/"
+    },
+    "title": "CSS Image Values and Replaced Content Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css3-mediaqueries/",
+    "seriesComposition": "full",
+    "shortname": "css3-mediaqueries",
+    "series": {
+      "shortname": "mediaqueries",
+      "currentSpecification": "mediaqueries-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "mediaqueries-4",
+    "release": {
+      "url": "http://www.w3.org/TR/css3-mediaqueries/"
+    },
+    "nightly": {
+      "url": "http://dev.w3.org/csswg/css3-mediaqueries/"
+    },
+    "title": "Media Queries",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/cssom-1/",
+    "seriesComposition": "full",
+    "shortname": "cssom-1",
+    "series": {
+      "shortname": "cssom",
+      "currentSpecification": "cssom-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/cssom-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/cssom/"
+    },
+    "title": "CSS Object Model (CSSOM)",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/cssom-view-1/",
+    "seriesComposition": "full",
+    "shortname": "cssom-view-1",
+    "series": {
+      "shortname": "cssom-view",
+      "currentSpecification": "cssom-view-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/cssom-view-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/cssom-view/"
+    },
+    "title": "CSSOM View Module",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/device-memory-1/",
+    "seriesComposition": "full",
+    "shortname": "device-memory-1",
+    "series": {
+      "shortname": "device-memory",
+      "currentSpecification": "device-memory-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/device-memory-1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/device-memory/"
+    },
+    "title": "Device Memory",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/DOM-Parsing/",
+    "seriesComposition": "full",
+    "shortname": "DOM-Parsing",
+    "series": {
+      "shortname": "DOM-Parsing",
+      "currentSpecification": "DOM-Parsing"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/DOM-Parsing/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/DOM-Parsing/"
+    },
+    "title": "DOM Parsing and Serialization",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/encoding/",
+    "seriesComposition": "full",
+    "shortname": "encoding",
+    "series": {
+      "shortname": "encoding",
+      "currentSpecification": "encoding"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/encoding/"
+    },
+    "nightly": {
+      "url": "https://encoding.spec.whatwg.org/"
+    },
+    "title": "Encoding",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/encrypted-media/",
+    "seriesComposition": "full",
+    "shortname": "encrypted-media",
+    "series": {
+      "shortname": "encrypted-media",
+      "currentSpecification": "encrypted-media"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/encrypted-media/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/"
+    },
+    "title": "Encrypted Media Extensions",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/fetch-metadata/",
+    "seriesComposition": "full",
+    "shortname": "fetch-metadata",
+    "series": {
+      "shortname": "fetch-metadata",
+      "currentSpecification": "fetch-metadata"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/fetch-metadata/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-fetch-metadata/"
+    },
+    "title": "Fetch Metadata Request Headers",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/FileAPI/",
+    "seriesComposition": "full",
+    "shortname": "FileAPI",
+    "series": {
+      "shortname": "FileAPI",
+      "currentSpecification": "FileAPI"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/FileAPI/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/FileAPI/"
+    },
+    "title": "File API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/fill-stroke-3/",
+    "seriesComposition": "full",
+    "shortname": "fill-stroke-3",
+    "series": {
+      "shortname": "fill-stroke",
+      "currentSpecification": "fill-stroke-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/fill-stroke-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.fxtf.org/fill-stroke/"
+    },
+    "title": "CSS Fill and Stroke Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/filter-effects-1/",
+    "seriesComposition": "full",
+    "shortname": "filter-effects-1",
+    "series": {
+      "shortname": "filter-effects",
+      "currentSpecification": "filter-effects-1"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "filter-effects-2",
+    "release": {
+      "url": "https://www.w3.org/TR/filter-effects-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.fxtf.org/filter-effects-1/"
+    },
+    "title": "Filter Effects Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/gamepad/",
+    "seriesComposition": "full",
+    "shortname": "gamepad",
+    "series": {
+      "shortname": "gamepad",
+      "currentSpecification": "gamepad"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/gamepad/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/gamepad/"
+    },
+    "title": "Gamepad",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/generic-sensor/",
+    "seriesComposition": "full",
+    "shortname": "generic-sensor",
+    "series": {
+      "shortname": "generic-sensor",
+      "currentSpecification": "generic-sensor"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/generic-sensor/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/sensors/"
+    },
+    "title": "Generic Sensor API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/geolocation-API/",
+    "seriesComposition": "full",
+    "shortname": "geolocation-API",
+    "series": {
+      "shortname": "geolocation-API",
+      "currentSpecification": "geolocation-API"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/geolocation-API/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/geolocation-api/"
+    },
+    "title": "Geolocation API Specification 2nd Edition",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/geometry-1/",
+    "seriesComposition": "full",
+    "shortname": "geometry-1",
+    "series": {
+      "shortname": "geometry",
+      "currentSpecification": "geometry-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/geometry-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.fxtf.org/geometry/"
+    },
+    "title": "Geometry Interfaces Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/gyroscope/",
+    "seriesComposition": "full",
+    "shortname": "gyroscope",
+    "series": {
+      "shortname": "gyroscope",
+      "currentSpecification": "gyroscope"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/gyroscope/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/gyroscope/"
+    },
+    "title": "Gyroscope",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/hr-time-3/",
+    "seriesComposition": "full",
+    "shortname": "hr-time-3",
+    "series": {
+      "shortname": "hr-time",
+      "currentSpecification": "hr-time-3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/hr-time-3/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/hr-time/"
+    },
+    "title": "High Resolution Time Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/html-media-capture/",
+    "seriesComposition": "full",
+    "shortname": "html-media-capture",
+    "series": {
+      "shortname": "html-media-capture",
+      "currentSpecification": "html-media-capture"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/html-media-capture/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/html-media-capture/"
+    },
+    "title": "HTML Media Capture",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/image-capture/",
+    "seriesComposition": "full",
+    "shortname": "image-capture",
+    "series": {
+      "shortname": "image-capture",
+      "currentSpecification": "image-capture"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/image-capture/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-image/"
+    },
+    "title": "\"MediaStream Image Capture\"",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/IndexedDB-2/",
+    "seriesComposition": "full",
+    "shortname": "IndexedDB-2",
+    "series": {
+      "shortname": "IndexedDB",
+      "currentSpecification": "IndexedDB-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/IndexedDB-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/IndexedDB/"
+    },
+    "title": "Indexed Database API 2.0",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/input-events-2/",
+    "seriesComposition": "full",
+    "shortname": "input-events-2",
+    "series": {
+      "shortname": "input-events",
+      "currentSpecification": "input-events-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/input-events-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/input-events/"
+    },
+    "title": "Input Events Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/intersection-observer/",
+    "seriesComposition": "full",
+    "shortname": "intersection-observer",
+    "series": {
+      "shortname": "intersection-observer",
+      "currentSpecification": "intersection-observer"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/intersection-observer/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/IntersectionObserver/"
+    },
+    "title": "Intersection Observer",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/longtasks-1/",
+    "seriesComposition": "full",
+    "shortname": "longtasks-1",
+    "series": {
+      "shortname": "longtasks",
+      "currentSpecification": "longtasks-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/longtasks-1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/longtasks/"
+    },
+    "title": "Long Tasks API 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/magnetometer/",
+    "seriesComposition": "full",
+    "shortname": "magnetometer",
+    "series": {
+      "shortname": "magnetometer",
+      "currentSpecification": "magnetometer"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/magnetometer/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/magnetometer/"
+    },
+    "title": "Magnetometer",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/media-capabilities/",
+    "seriesComposition": "full",
+    "shortname": "media-capabilities",
+    "series": {
+      "shortname": "media-capabilities",
+      "currentSpecification": "media-capabilities"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/media-capabilities/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/media-capabilities/"
+    },
+    "title": "Media Capabilities",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/media-source/",
+    "seriesComposition": "full",
+    "shortname": "media-source",
+    "series": {
+      "shortname": "media-source",
+      "currentSpecification": "media-source"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/media-source/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/media-source/"
+    },
+    "title": "Media Source Extensions™",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mediacapture-depth/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-depth",
+    "series": {
+      "shortname": "mediacapture-depth",
+      "currentSpecification": "mediacapture-depth"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/mediacapture-depth/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-depth/"
+    },
+    "title": "Media Capture Depth Stream Extensions",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mediacapture-fromelement/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-fromelement",
+    "series": {
+      "shortname": "mediacapture-fromelement",
+      "currentSpecification": "mediacapture-fromelement"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/mediacapture-fromelement/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-fromelement/"
+    },
+    "title": "Media Capture from DOM Elements",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mediacapture-streams/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-streams",
+    "series": {
+      "shortname": "mediacapture-streams",
+      "currentSpecification": "mediacapture-streams"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/mediacapture-streams/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-main/"
+    },
+    "title": "Media Capture and Streams",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mediaqueries-4/",
+    "seriesComposition": "full",
+    "shortname": "mediaqueries-4",
+    "series": {
+      "shortname": "mediaqueries",
+      "currentSpecification": "mediaqueries-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css3-mediaqueries",
+    "seriesNext": "mediaqueries-5",
+    "release": {
+      "url": "https://www.w3.org/TR/mediaqueries-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/mediaqueries-4/"
+    },
+    "title": "Media Queries Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mediaqueries-5/",
+    "seriesComposition": "delta",
+    "shortname": "mediaqueries-5",
+    "series": {
+      "shortname": "mediaqueries",
+      "currentSpecification": "mediaqueries-4"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "mediaqueries-4",
+    "release": {
+      "url": "https://www.w3.org/TR/mediaqueries-5/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/mediaqueries-5/"
+    },
+    "title": "Media Queries Level 5",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mediasession/",
+    "seriesComposition": "full",
+    "shortname": "mediasession",
+    "series": {
+      "shortname": "mediasession",
+      "currentSpecification": "mediasession"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/mediasession/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediasession/"
+    },
+    "title": "Media Session Standard",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mediastream-recording/",
+    "seriesComposition": "full",
+    "shortname": "mediastream-recording",
+    "series": {
+      "shortname": "mediastream-recording",
+      "currentSpecification": "mediastream-recording"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/mediastream-recording/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-record/"
+    },
+    "title": "MediaStream Recording",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mixed-content/",
+    "seriesComposition": "full",
+    "shortname": "mixed-content",
+    "series": {
+      "shortname": "mixed-content",
+      "currentSpecification": "mixed-content"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/mixed-content/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-mixed-content/"
+    },
+    "title": "Mixed Content",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/motion-1/",
+    "seriesComposition": "full",
+    "shortname": "motion-1",
+    "series": {
+      "shortname": "motion",
+      "currentSpecification": "motion-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/motion-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.fxtf.org/motion-1/"
+    },
+    "title": "Motion Path Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/mst-content-hint/",
+    "seriesComposition": "full",
+    "shortname": "mst-content-hint",
+    "series": {
+      "shortname": "mst-content-hint",
+      "currentSpecification": "mst-content-hint"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/mst-content-hint/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mst-content-hint/"
+    },
+    "title": "MediaStreamTrack Content Hints",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/navigation-timing-2/",
+    "seriesComposition": "full",
+    "shortname": "navigation-timing-2",
+    "series": {
+      "shortname": "navigation-timing",
+      "currentSpecification": "navigation-timing-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/navigation-timing-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/navigation-timing/"
+    },
+    "title": "Navigation Timing Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/network-error-logging-1/",
+    "seriesComposition": "full",
+    "shortname": "network-error-logging-1",
+    "series": {
+      "shortname": "network-error-logging",
+      "currentSpecification": "network-error-logging-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/network-error-logging-1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/network-error-logging/"
+    },
+    "title": "Network Error Logging",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/orientation-event/",
+    "seriesComposition": "full",
+    "shortname": "orientation-event",
+    "series": {
+      "shortname": "orientation-event",
+      "currentSpecification": "orientation-event"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/orientation-event/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/deviceorientation/"
+    },
+    "title": "DeviceOrientation Event Specification",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/orientation-sensor/",
+    "seriesComposition": "full",
+    "shortname": "orientation-sensor",
+    "series": {
+      "shortname": "orientation-sensor",
+      "currentSpecification": "orientation-sensor"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/orientation-sensor/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/orientation-sensor/"
+    },
+    "title": "Orientation Sensor",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/page-visibility-2/",
+    "seriesComposition": "full",
+    "shortname": "page-visibility-2",
+    "series": {
+      "shortname": "page-visibility",
+      "currentSpecification": "page-visibility-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/page-visibility-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/page-visibility/"
+    },
+    "title": "Page Visibility Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/paint-timing/",
+    "seriesComposition": "full",
+    "shortname": "paint-timing",
+    "series": {
+      "shortname": "paint-timing",
+      "currentSpecification": "paint-timing"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/paint-timing/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/paint-timing/"
+    },
+    "title": "Paint Timing 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/payment-handler/",
+    "seriesComposition": "full",
+    "shortname": "payment-handler",
+    "series": {
+      "shortname": "payment-handler",
+      "currentSpecification": "payment-handler"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/payment-handler/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/payment-handler/"
+    },
+    "title": "Payment Handler API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/payment-method-basic-card/",
+    "seriesComposition": "full",
+    "shortname": "payment-method-basic-card",
+    "series": {
+      "shortname": "payment-method-basic-card",
+      "currentSpecification": "payment-method-basic-card"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/payment-method-basic-card/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/payment-method-basic-card/"
+    },
+    "title": "Payment Method: Basic Card",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/payment-method-id/",
+    "seriesComposition": "full",
+    "shortname": "payment-method-id",
+    "series": {
+      "shortname": "payment-method-id",
+      "currentSpecification": "payment-method-id"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/payment-method-id/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/payment-method-id/"
+    },
+    "title": "Payment Method Identifiers",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/payment-method-manifest/",
+    "seriesComposition": "full",
+    "shortname": "payment-method-manifest",
+    "series": {
+      "shortname": "payment-method-manifest",
+      "currentSpecification": "payment-method-manifest"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/payment-method-manifest/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/payment-method-manifest/"
+    },
+    "title": "Payment Method Manifest",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/payment-request/",
+    "seriesComposition": "full",
+    "shortname": "payment-request",
+    "series": {
+      "shortname": "payment-request",
+      "currentSpecification": "payment-request"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/payment-request/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/payment-request/"
+    },
+    "title": "Payment Request API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/performance-timeline-2/",
+    "seriesComposition": "full",
+    "shortname": "performance-timeline-2",
+    "series": {
+      "shortname": "performance-timeline",
+      "currentSpecification": "performance-timeline-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/performance-timeline-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/performance-timeline/"
+    },
+    "title": "Performance Timeline Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/permissions/",
+    "seriesComposition": "full",
+    "shortname": "permissions",
+    "series": {
+      "shortname": "permissions",
+      "currentSpecification": "permissions"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/permissions/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/permissions/"
+    },
+    "title": "Permissions",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/picture-in-picture/",
+    "seriesComposition": "full",
+    "shortname": "picture-in-picture",
+    "series": {
+      "shortname": "picture-in-picture",
+      "currentSpecification": "picture-in-picture"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/picture-in-picture/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/picture-in-picture/"
+    },
+    "title": "Picture-in-Picture",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/pointerevents3/",
+    "seriesComposition": "full",
+    "shortname": "pointerevents3",
+    "series": {
+      "shortname": "pointerevents",
+      "currentSpecification": "pointerevents3"
+    },
+    "seriesVersion": "3",
+    "release": {
+      "url": "https://www.w3.org/TR/pointerevents3/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/pointerevents/"
+    },
+    "title": "Pointer Events Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/pointerlock-2/",
+    "seriesComposition": "full",
+    "shortname": "pointerlock-2",
+    "series": {
+      "shortname": "pointerlock",
+      "currentSpecification": "pointerlock-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/pointerlock-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/pointerlock/"
+    },
+    "title": "Pointer Lock 2.0",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/preload/",
+    "seriesComposition": "full",
+    "shortname": "preload",
+    "series": {
+      "shortname": "preload",
+      "currentSpecification": "preload"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/preload/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/preload/"
+    },
+    "title": "Preload",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/presentation-api/",
+    "seriesComposition": "full",
+    "shortname": "presentation-api",
+    "series": {
+      "shortname": "presentation-api",
+      "currentSpecification": "presentation-api"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/presentation-api/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/presentation-api/"
+    },
+    "title": "Presentation API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/proximity/",
+    "seriesComposition": "full",
+    "shortname": "proximity",
+    "series": {
+      "shortname": "proximity",
+      "currentSpecification": "proximity"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/proximity/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/proximity/"
+    },
+    "title": "Proximity Sensor",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/push-api/",
+    "seriesComposition": "full",
+    "shortname": "push-api",
+    "series": {
+      "shortname": "push-api",
+      "currentSpecification": "push-api"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/push-api/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/push-api/"
+    },
+    "title": "Push API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/referrer-policy/",
+    "seriesComposition": "full",
+    "shortname": "referrer-policy",
+    "series": {
+      "shortname": "referrer-policy",
+      "currentSpecification": "referrer-policy"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/referrer-policy/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-referrer-policy/"
+    },
+    "title": "Referrer Policy",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/remote-playback/",
+    "seriesComposition": "full",
+    "shortname": "remote-playback",
+    "series": {
+      "shortname": "remote-playback",
+      "currentSpecification": "remote-playback"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/remote-playback/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/remote-playback/"
+    },
+    "title": "Remote Playback API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/requestidlecallback/",
+    "seriesComposition": "full",
+    "shortname": "requestidlecallback",
+    "series": {
+      "shortname": "requestidlecallback",
+      "currentSpecification": "requestidlecallback"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/requestidlecallback/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/requestidlecallback/"
+    },
+    "title": "Cooperative Scheduling of Background Tasks",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/resize-observer-1/",
+    "seriesComposition": "full",
+    "shortname": "resize-observer-1",
+    "series": {
+      "shortname": "resize-observer",
+      "currentSpecification": "resize-observer-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/resize-observer-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/resize-observer/"
+    },
+    "title": "Resize Observer",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/resource-hints/",
+    "seriesComposition": "full",
+    "shortname": "resource-hints",
+    "series": {
+      "shortname": "resource-hints",
+      "currentSpecification": "resource-hints"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/resource-hints/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/resource-hints/"
+    },
+    "title": "Resource Hints",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/resource-timing-2/",
+    "seriesComposition": "full",
+    "shortname": "resource-timing-2",
+    "series": {
+      "shortname": "resource-timing",
+      "currentSpecification": "resource-timing-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/resource-timing-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/resource-timing/"
+    },
+    "title": "Resource Timing Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/screen-capture/",
+    "seriesComposition": "full",
+    "shortname": "screen-capture",
+    "series": {
+      "shortname": "screen-capture",
+      "currentSpecification": "screen-capture"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/screen-capture/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-screen-share/"
+    },
+    "title": "Screen Capture",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/screen-orientation/",
+    "seriesComposition": "full",
+    "shortname": "screen-orientation",
+    "series": {
+      "shortname": "screen-orientation",
+      "currentSpecification": "screen-orientation"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/screen-orientation/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/screen-orientation/"
+    },
+    "title": "The Screen Orientation API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/secure-contexts/",
+    "seriesComposition": "full",
+    "shortname": "secure-contexts",
+    "series": {
+      "shortname": "secure-contexts",
+      "currentSpecification": "secure-contexts"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/secure-contexts/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-secure-contexts/"
+    },
+    "title": "Secure Contexts",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/selection-api/",
+    "seriesComposition": "full",
+    "shortname": "selection-api",
+    "series": {
+      "shortname": "selection-api",
+      "currentSpecification": "selection-api"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/selection-api/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/selection-api/"
+    },
+    "title": "Selection API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/selectors-3/",
+    "seriesComposition": "full",
+    "shortname": "selectors-3",
+    "series": {
+      "shortname": "selectors",
+      "currentSpecification": "selectors-4"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "selectors-4",
+    "release": {
+      "url": "https://www.w3.org/TR/selectors-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/selectors-3/"
+    },
+    "title": "Selectors Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/selectors-4/",
+    "seriesComposition": "full",
+    "shortname": "selectors-4",
+    "series": {
+      "shortname": "selectors",
+      "currentSpecification": "selectors-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "selectors-3",
+    "release": {
+      "url": "https://www.w3.org/TR/selectors-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/selectors/"
+    },
+    "title": "Selectors Level 4",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/selectors-nonelement-1/",
+    "seriesComposition": "full",
+    "shortname": "selectors-nonelement-1",
+    "series": {
+      "shortname": "selectors-nonelement",
+      "currentSpecification": "selectors-nonelement-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/selectors-nonelement-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/selectors-nonelement/"
+    },
+    "title": "Non-element Selectors Module Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/server-timing/",
+    "seriesComposition": "full",
+    "shortname": "server-timing",
+    "series": {
+      "shortname": "server-timing",
+      "currentSpecification": "server-timing"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/server-timing/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/server-timing/"
+    },
+    "title": "Server Timing",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/SRI/",
+    "seriesComposition": "full",
+    "shortname": "SRI",
+    "series": {
+      "shortname": "SRI",
+      "currentSpecification": "SRI"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/SRI/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/"
+    },
+    "title": "Subresource Integrity",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/svg-markers/",
+    "seriesComposition": "full",
+    "shortname": "svg-markers",
+    "series": {
+      "shortname": "svg-markers",
+      "currentSpecification": "svg-markers"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/svg-markers/"
+    },
+    "nightly": {
+      "url": "https://svgwg.org/specs/markers/"
+    },
+    "title": "SVG Markers",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/svg-strokes/",
+    "seriesComposition": "full",
+    "shortname": "svg-strokes",
+    "series": {
+      "shortname": "svg-strokes",
+      "currentSpecification": "svg-strokes"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/svg-strokes/"
+    },
+    "nightly": {
+      "url": "https://svgwg.org/specs/strokes/"
+    },
+    "title": "SVG Strokes",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/SVG2/",
+    "seriesComposition": "full",
+    "shortname": "SVG2",
+    "series": {
+      "shortname": "SVG",
+      "currentSpecification": "SVG2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/SVG2/"
+    },
+    "nightly": {
+      "url": "https://svgwg.org/svg2-draft/"
+    },
+    "title": "Scalable Vector Graphics (SVG) 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/timing-entrytypes-registry/",
+    "seriesComposition": "full",
+    "shortname": "timing-entrytypes-registry",
+    "series": {
+      "shortname": "timing-entrytypes-registry",
+      "currentSpecification": "timing-entrytypes-registry"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/timing-entrytypes-registry/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/timing-entrytypes-registry/"
+    },
+    "title": "Timing Entry Names Registry",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/touch-events/",
+    "seriesComposition": "full",
+    "shortname": "touch-events",
+    "series": {
+      "shortname": "touch-events",
+      "currentSpecification": "touch-events"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/touch-events/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/touch-events/"
+    },
+    "title": "Touch Events",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/trace-context/",
+    "seriesComposition": "full",
+    "shortname": "trace-context",
+    "series": {
+      "shortname": "trace-context",
+      "currentSpecification": "trace-context"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/trace-context-1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/trace-context/"
+    },
+    "title": "Trace Context - Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/uievents-code/",
+    "seriesComposition": "full",
+    "shortname": "uievents-code",
+    "series": {
+      "shortname": "uievents-code",
+      "currentSpecification": "uievents-code"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/uievents-code/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/uievents-code/"
+    },
+    "title": "UI Events KeyboardEvent code Values",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/uievents-key/",
+    "seriesComposition": "full",
+    "shortname": "uievents-key",
+    "series": {
+      "shortname": "uievents-key",
+      "currentSpecification": "uievents-key"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/uievents-key/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/uievents-key/"
+    },
+    "title": "UI Events KeyboardEvent key Values",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/uievents/",
+    "seriesComposition": "full",
+    "shortname": "uievents",
+    "series": {
+      "shortname": "uievents",
+      "currentSpecification": "uievents"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/uievents/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/uievents/"
+    },
+    "title": "UI Events",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/upgrade-insecure-requests/",
+    "seriesComposition": "full",
+    "shortname": "upgrade-insecure-requests",
+    "series": {
+      "shortname": "upgrade-insecure-requests",
+      "currentSpecification": "upgrade-insecure-requests"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/upgrade-insecure-requests/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-upgrade-insecure-requests/"
+    },
+    "title": "Upgrade Insecure Requests",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/user-timing-2/",
+    "seriesComposition": "full",
+    "shortname": "user-timing-2",
+    "series": {
+      "shortname": "user-timing",
+      "currentSpecification": "user-timing-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/user-timing-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/user-timing/"
+    },
+    "title": "User Timing Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/vibration/",
+    "seriesComposition": "full",
+    "shortname": "vibration",
+    "series": {
+      "shortname": "vibration",
+      "currentSpecification": "vibration"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/vibration/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vibration/"
+    },
+    "title": "Vibration API (Second Edition)",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/wai-aria-1.2/",
+    "seriesComposition": "full",
+    "shortname": "wai-aria-1.2",
+    "series": {
+      "shortname": "wai-aria",
+      "currentSpecification": "wai-aria-1.2"
+    },
+    "seriesVersion": "1.2",
+    "release": {
+      "url": "https://www.w3.org/TR/wai-aria-1.2/"
+    },
+    "nightly": {
+      "url": "https://rawgit.com/w3c/aria/master/"
+    },
+    "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/wake-lock/",
+    "seriesComposition": "full",
+    "shortname": "wake-lock",
+    "series": {
+      "shortname": "wake-lock",
+      "currentSpecification": "wake-lock"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/wake-lock/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wake-lock/"
+    },
+    "title": "Wake Lock API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/wasm-js-api-1/",
+    "seriesComposition": "full",
+    "shortname": "wasm-js-api-1",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/wasm-js-api-1/"
+    },
+    "nightly": {
+      "url": "https://webassembly.github.io/spec/js-api/"
+    },
+    "title": "WebAssembly JavaScript Interface",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/wasm-web-api-1/",
+    "seriesComposition": "full",
+    "shortname": "wasm-web-api-1",
+    "series": {
+      "shortname": "wasm-web-api",
+      "currentSpecification": "wasm-web-api-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/wasm-web-api-1/"
+    },
+    "nightly": {
+      "url": "https://webassembly.github.io/spec/web-api/"
+    },
+    "title": "WebAssembly Web API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/web-animations-1/",
+    "seriesComposition": "full",
+    "shortname": "web-animations-1",
+    "series": {
+      "shortname": "web-animations",
+      "currentSpecification": "web-animations-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/web-animations-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/web-animations-1/"
+    },
+    "title": "Web Animations",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/web-share/",
+    "seriesComposition": "full",
+    "shortname": "web-share",
+    "series": {
+      "shortname": "web-share",
+      "currentSpecification": "web-share"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/web-share/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/web-share/"
+    },
+    "title": "Web Share API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webaudio/",
+    "seriesComposition": "full",
+    "shortname": "webaudio",
+    "series": {
+      "shortname": "webaudio",
+      "currentSpecification": "webaudio"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webaudio/"
+    },
+    "nightly": {
+      "url": "https://webaudio.github.io/web-audio-api/"
+    },
+    "title": "Web Audio API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webauthn-2/",
+    "seriesComposition": "full",
+    "shortname": "webauthn-2",
+    "series": {
+      "shortname": "webauthn",
+      "currentSpecification": "webauthn-2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/webauthn-2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webauthn/"
+    },
+    "title": "Web Authentication:An API for accessing Public Key Credentials Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/WebCryptoAPI/",
+    "seriesComposition": "full",
+    "shortname": "WebCryptoAPI",
+    "series": {
+      "shortname": "WebCryptoAPI",
+      "currentSpecification": "WebCryptoAPI"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/WebCryptoAPI/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcrypto/Overview.html"
+    },
+    "title": "Web Cryptography API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webdriver1/",
+    "seriesComposition": "full",
+    "shortname": "webdriver1",
+    "series": {
+      "shortname": "webdriver",
+      "currentSpecification": "webdriver1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/webdriver1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webdriver/"
+    },
+    "title": "WebDriver",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/WebIDL-1/",
+    "seriesComposition": "full",
+    "shortname": "WebIDL-1",
+    "series": {
+      "shortname": "WebIDL",
+      "currentSpecification": "WebIDL-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/WebIDL-1/"
+    },
+    "nightly": {
+      "url": "https://heycam.github.io/webidl/"
+    },
+    "title": "WebIDL Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webmidi/",
+    "seriesComposition": "full",
+    "shortname": "webmidi",
+    "series": {
+      "shortname": "webmidi",
+      "currentSpecification": "webmidi"
+    },
+    "release": {
+      "url": "http://www.w3.org/TR/webmidi/"
+    },
+    "nightly": {
+      "url": "http://webaudio.github.io/web-midi-api/"
+    },
+    "title": "Web MIDI API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webrtc-identity/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-identity",
+    "series": {
+      "shortname": "webrtc-identity",
+      "currentSpecification": "webrtc-identity"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webrtc-identity/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-identity/identity.html"
+    },
+    "title": "Identity for WebRTC 1.0",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webrtc-priority/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-priority",
+    "series": {
+      "shortname": "webrtc-priority",
+      "currentSpecification": "webrtc-priority"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webrtc-priority/"
+    },
+    "nightly": {
+      "url": "http://w3c.github.io/webrtc-priority/"
+    },
+    "title": "WebRTC Priority Control API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webrtc-stats/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-stats",
+    "series": {
+      "shortname": "webrtc-stats",
+      "currentSpecification": "webrtc-stats"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webrtc-stats/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-stats/"
+    },
+    "title": "Identifiers for WebRTC's Statistics API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webrtc-svc/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-svc",
+    "series": {
+      "shortname": "webrtc-svc",
+      "currentSpecification": "webrtc-svc"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webrtc-svc/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-svc/"
+    },
+    "title": "Scalable Video Coding (SVC) Extension for WebRTC",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webrtc/",
+    "seriesComposition": "full",
+    "shortname": "webrtc",
+    "series": {
+      "shortname": "webrtc",
+      "currentSpecification": "webrtc"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webrtc/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-pc/"
+    },
+    "title": "WebRTC 1.0: Real-time Communication Between Browsers",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webvtt1/",
+    "seriesComposition": "full",
+    "shortname": "webvtt1",
+    "series": {
+      "shortname": "webvtt",
+      "currentSpecification": "webvtt1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/webvtt1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webvtt/"
+    },
+    "title": "WebVTT: The Web Video Text Tracks Format",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webxr-ar-module/",
+    "seriesComposition": "full",
+    "shortname": "webxr-ar-module",
+    "series": {
+      "shortname": "webxr-ar-module",
+      "currentSpecification": "webxr-ar-module"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webxr-ar-module-1/"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/webxr-ar-module/"
+    },
+    "title": "WebXR Augmented Reality Module - Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webxr-gamepads-module/",
+    "seriesComposition": "full",
+    "shortname": "webxr-gamepads-module",
+    "series": {
+      "shortname": "webxr-gamepads-module",
+      "currentSpecification": "webxr-gamepads-module"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webxr-gamepads-module-1/"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/webxr-gamepads-module/"
+    },
+    "title": "WebXR Gamepads Module - Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/webxr/",
+    "seriesComposition": "full",
+    "shortname": "webxr",
+    "series": {
+      "shortname": "webxr",
+      "currentSpecification": "webxr"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webxr/"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/webxr/"
+    },
+    "title": "WebXR Device API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/WOFF2/",
+    "seriesComposition": "full",
+    "shortname": "WOFF2",
+    "series": {
+      "shortname": "WOFF",
+      "currentSpecification": "WOFF2"
+    },
+    "seriesVersion": "2",
+    "release": {
+      "url": "https://www.w3.org/TR/WOFF2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/woff/woff2/"
+    },
+    "title": "WOFF File Format 2.0",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/worklets-1/",
+    "seriesComposition": "full",
+    "shortname": "worklets-1",
+    "series": {
+      "shortname": "worklets",
+      "currentSpecification": "worklets-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "http://www.w3.org/TR/worklets-1/"
+    },
+    "nightly": {
+      "url": "https://drafts.css-houdini.org/worklets/"
+    },
+    "title": "Worklets Level 1",
+    "source": "w3c"
+  },
+  {
+    "url": "https://xhr.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "xhr",
+    "series": {
+      "shortname": "xhr",
+      "currentSpecification": "xhr"
+    },
+    "nightly": {
+      "url": "https://xhr.spec.whatwg.org/"
+    },
+    "title": "XMLHttpRequest Standard",
+    "source": "specref"
+  }
+]

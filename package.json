@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "ajv": "^6.11.0",
+    "auto-changelog": "^1.16.4",
     "mocha": "^7.0.0",
     "release-it": "^13.5.1"
   }

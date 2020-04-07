@@ -59,4 +59,8 @@ fetchInfo(specs, { w3cApiKey })
 
     // Return the resulting list
     console.log(JSON.stringify(index, null, 2));
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
   });

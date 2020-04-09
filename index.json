@@ -1203,7 +1203,7 @@
     "nightly": {
       "url": "https://wicg.github.io/video-raf/"
     },
-    "title": "HTMLVideoElement.requestAnimationFrame()",
+    "title": "HTMLVideoElement.requestVideoFrameCallback()",
     "source": "spec"
   },
   {

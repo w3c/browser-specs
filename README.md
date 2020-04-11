@@ -1,21 +1,480 @@
 # Web browser specifications
 
-This repository contains a curated list of technical Web specifications that are directly implemented or that will be implemented by Web browsers.
+This repository contains a curated list of technical Web specifications that are
+directly implemented or that will be implemented by Web browsers (see [Spec
+selection criteria](#spec-selection-criteria)).
 
-This list is meant to be an up-to-date input source for projects that run analyses on browser technologies to create reports on test coverage, cross-references, WebIDL, quality, etc.
+This list is meant to be an up-to-date input source for projects that run
+analyses on browser technologies to create reports on test coverage,
+cross-references, WebIDL, quality, etc.
 
-## Format
 
-`specs.json` contains an array of items that are either:
-1. a string that represents a valid URL;
-2. an object with a `url` property (additional properties to be added over time as needed)
+## Table of Contents
 
-In most cases, a URL should be enough. As such, to keep the file readable by human beings, the string format should be preferred whenever possible. The object format should only be used when additional properties need to be specified.
+- [Installation and usage](#installation-and-usage)
+- [Spec object](#spec-object)
+  - [`url`](#url)
+  - [`shortname`](#shortname)
+  - [`title`](#title)
+  - [`series`](#series)
+    - [`series.shortname`](#seriesshortname)
+    - [`series.currentSpecification`](#seriescurrentspecification)
+  - [`seriesVersion`](#seriesversion)
+  - [`seriesComposition`](#seriescomposition)
+  - [`seriesPrevious`](#seriesprevious)
+  - [`seriesNext`](#seriesnext)
+  - [`release`](#release)
+    - [`release.url`](#releaseurl)
+  - [`nightly`](#nightly)
+    - [`nightly.url`](#nightlyurl)
+  - [`source`](#source)
+- [How to add/update/delete a spec](#how-to-addupdatedelete-a-spec)
+  - [Pre-requisites](#pre-requisites)
+  - [The actual list is in `specs.json`](#the-actual-list-is-in-specsjson)
+  - [Compact form preferred](#compact-form-preferred)
+  - [No `index.json` in the pull request](#no-indexjson-in-the-pull-request)
+  - [Lint before push](#lint-before-push)
+- [Spec selection criteria](#spec-selection-criteria)
+- [Versioning](#versioning)
+- [Development notes](#development-notes)
+  - [How to generate `index.json` manually](#how-to-generate-indexjson-manually)
+  - [Debugging tool](#debugging-tool)
+  - [Tests](#tests)
+  - [How to release a new version](#how-to-release-a-new-version)
 
-Tools that want to ingest the list are encouraged to use the `specs` array exported by the `index.js` file, which contains a normalized version of the list in `specs.json` where each entry is an object with a `url` property to ease processing.
 
-## Linting
+## Installation and usage
 
-Run `node lint` to identify potential linting issues (automatically done for pull requests).
+The list is distributed as an NPM package. To incorporate it to your project,
+run:
 
-Run `node lint --fix` to overwrite `specs.json` locally with the linted version.
+```bash
+npm install browser-specs
+```
+
+You can then retrieve the list from your Node.js program:
+
+```js
+const specs = require("browser-specs");
+console.log(JSON.stringify(specs, null, 2));
+```
+
+Alternatively, you can either retrieve the [latest
+release](https://github.com/w3c/browser-specs/releases/latest) or fetch
+[`index.json`](https://w3c.github.io/browser-specs/index.json).
+
+**Note:** If you choose to fetch the `index.json` file directly, keep in mind
+that it may contain (possibly incorrect) updates that have not yet been included
+in the NPM package and the latest GitHub release (see also #38).
+
+
+## Spec object
+
+Each specification in the list comes with the following properties:
+
+```json
+{
+  "url": "https://www.w3.org/TR/css-color-4/",
+  "shortname": "css-color-4",
+  "title": "CSS Color Module Level 4",
+  "series": {
+    "shortname": "css-color",
+    "currentSpecification": "css-color-4"
+  },
+  "seriesVersion": "4",
+  "seriesComposition": "full",
+  "seriesPrevious": "css-color-3",
+  "seriesNext": "css-color-5",
+  "release": {
+    "url": "https://www.w3.org/TR/css-color-4/"
+  },
+  "nightly": {
+    "url": "https://drafts.csswg.org/css-color/"
+  },
+  "source": "w3c"
+}
+```
+
+
+### `url`
+
+The versioned (but not dated) URL for the spec. For W3C specs published as
+TR documents, this is the TR URL. For WHATWG specs, this is the URL of the
+living standard. In other cases, this is the URL of the latest Editor's Draft.
+
+The `url` property is always set.
+
+
+### `shortname`
+
+A shortname that uniquely identifies the spec in the list. The value matches the
+"well-known" shortname of the spec, that usually appears in the versioned URL.
+For instance, for W3C specs published as TR documents, this is the TR shortname.
+For WHATWG specs, this is the shortname that appears at the beginning of the URL
+(e.g. `compat` for `https://compat.spec.whatwg.org/`). For specs developed on
+GitHub, this is usually the name of repository that holds the spec.
+
+The `shortname` property is always set.
+
+
+### `title`
+
+The title of the spec. The title is either retrieved from the
+[W3C API](https://w3c.github.io/w3c-api/) for W3C specs,
+[Specref](https://www.specref.org/) or from the spec itself. The
+[`source`](#source) property details the actual provenance.
+
+The `title` property is always set.
+
+
+### `series`
+
+An object that describes the series that the spec is part of. A series includes
+existing levels/versions of the spec. For instance, CSS Color Module Level 4
+belongs to the same series as CSS Color Module Level 3 and CSS Color Module
+Level 5.
+
+Please note that the list only contains specs that are deemed to be
+[of interest](#spec-selection-criteria). In particular, the list does not
+contain levels and versions that have been fully superseded, and may not contain
+early drafts of new levels and versions either.
+
+The `series` property is always set.
+
+
+#### `series.shortname`
+
+A shortname that uniquely identifies the series. In most cases, the shortname
+is the shortname of the spec without the level or version number. For instance,
+the series' shortname for `css-color-5` is `css-color`. When a specification is
+not versioned, the series' shortname is identical to the spec's shortname.
+
+The `shortname` property is always set.
+
+
+#### `series.currentSpecification`
+
+The shortname of the spec that should be regarded as the current level or
+version in the series. The current spec in a series is up to the group who
+develops the series. In most cases, the current spec is the latest level or
+version in the series that is a "full" spec (see
+[`seriesComposition`](#seriescomposition)).
+
+The `currentSpecification` property is always set.
+
+
+### `seriesVersion`
+
+The level or version of the spec, represented as an `x`, `x.y` or `x.y.z` string
+with `x`, `y` and `z` numbers, and `x` always greater than or equal to `1`. For
+instance, this property will have the value `1.2` (as a string, so enclosed
+in `"`) for the WAI-ARIA 1.2 spec.
+
+The `seriesVersion` property is only set for specs that have a level or version
+number.
+
+
+### `seriesComposition`
+
+Whether the spec is a standalone spec, or whether it is a delta spec over the
+previous level or version in the series. Possible values are `full` or `delta`.
+
+The `seriesComposition` property is always set.
+
+
+### `seriesPrevious`
+
+The `shortname` of the previous spec in the series.
+
+The `seriesPrevious` property is only set where there is a previous level or
+version.
+
+
+### `seriesNext`
+
+The `shortname` of the next spec in the series.
+
+The `seriesNext` property is only set where there is a next level or version.
+
+
+### `release`
+
+An object that represents the latest published snapshot of the spec, when it
+exists.
+
+The `release` property is only set for W3C specs published as TR documents.
+
+
+#### `release.url`
+
+The URL of the latest published snapshot of the spec. Matches the versioned
+URL (see [`url`](#url)).
+
+The `url` property is always set.
+
+
+### `nightly`
+
+An object that represents the latest Editor's Draft of the spec, or the living
+standard when the concept of Editor's Draft does not exist.
+
+The `nightly` property is always set.
+
+
+#### `nightly.url`
+
+The URL of the latest Editor's Draft or of the living standard.
+
+The URL is either retrieved from the [W3C API](https://w3c.github.io/w3c-api/)
+for W3C specs, or [Specref](https://www.specref.org/). The document at the
+versioned URL is considered to be the latest Editor's Draft if the spec does
+neither exist in the W3C API nor in Specref. The [`source`](#source) property
+details the actual provenance.
+
+The `url` property is always set.
+
+
+### `source`
+
+The provenance for the `title` and `nightly` property values. Can be one of:
+- `w3c`: information retrieved from the [W3C API](https://w3c.github.io/w3c-api/)
+- `specref`: information retrieved from [Specref](https://www.specref.org/)
+- `spec`: information retrieved from the spec itself
+
+The `source` property is always set.
+
+
+## How to add/update/delete a spec
+
+If you believe that a spec should be added, modified, or removed from the list,
+consider submitting a pull request, taking the considerations below into
+account. Alternatively, feel free to [raise an
+issue](https://github.com/w3c/browser-specs/issues/new).
+
+
+### Pre-requisites
+
+To prepare a pull request, please:
+- check the [Spec selection criteria](#spec-selection-criteria),
+- install [Node.js](https://nodejs.org/en/) if not already done,
+- fork this Git repository,
+- install dependencies through a call to `npm install`
+
+
+### The actual list is in `specs.json`
+
+In practice, the `index.json` file is automatically generated by processing the
+`specs.json` file, which thus contains the actual list. In other words, all
+proposed changes must be made against the `specs.json` file, **do not edit the
+`index.json` file directly**.
+
+The `specs.json` is essentially a sorted (A-Z order) list of URLs. In most
+cases, to propose a new spec, all you have to do is insert its versioned URL
+(see [`url`](#url)) at the right position in the list.
+
+In some cases, you may need to go beyond a simple URL because the spec does not
+follow usual rules and the code cannot compute the right information as a
+result. A spec entry in the list may also be an object with the following
+properties:
+
+- `url`: same as the [`url`](#url) property in `index.json`.
+- `shortname`: same as the [`shortname`](#shortname) property in `index.json`.
+- `series`: same as the [`series`](#series) property in `index.json`, but note
+  the `currentSpecification` property will be ignored.
+- `seriesVersion`: same as the [`seriesVersion`](#seriesversion) property in
+`index.json`.
+- `seriesComposition`: same as the [`seriesVersion`](#seriesversion) property in
+`index.json`. The property must only be set for delta spec (since full is the
+default).
+- `forceCurrent`: a boolean flag to tell the code that the spec should be seen
+as the current spec in the series. The property must only be set when value is
+`true`.
+
+You should **only** set these properties when they are required to generate the
+right info. For instance, some of these properties are needed for Media Queries
+Level 3, because the spec uses an old shortname format, leading to the following
+definition in `specs.json`, to specify the version of the spec and link it to
+other specs in the same series:
+
+```json
+{
+  "url": "https://www.w3.org/TR/css3-mediaqueries/",
+  "seriesVersion": "3",
+  "series": {
+    "shortname": "mediaqueries"
+  }
+}
+```
+
+The [linter](#lint-before-push) will enforce typical constraints on the
+properties, such as making sure that there is only one spec flagged as current
+in a series. It will also complain when a property is set whereas it does not
+seem needed.
+
+
+### Compact form preferred
+
+Some of the above properties can be specified with a keyword next to the URL of
+the spec, allowing to keep using a string instead of an object in most cases:
+- A delta spec can be defined by appending a `delta` keyword to the URL, instead
+of through the `seriesComposition`.
+- The `forceCurrent` flag can be set by appending a `current` keyword to the URL
+
+For instance, to flag the CSS Fragmentation Module Level 3 as the current spec
+in the series, and the CSS Grid Layout Module Level 2 as a delta spec, use the
+following compact definitions:
+
+```json
+[
+  "https://www.w3.org/TR/css-break-3/ current",
+  "https://www.w3.org/TR/css-grid-2/ delta"
+]
+```
+
+This compact form is preferred to keep the list (somewhat) human-readable. The
+[linter](#lint-before-push) automatically convert objects to the more compact
+string format whenever possible.
+
+
+### No `index.json` in the pull request
+
+The `index.json` file will be automatically generated once your pull request has
+been merged. Please do not include it in your pull request. You may still wish
+to [re-generate the file](#how-to-generate-indexjson-manually) if you want to
+check that the generated info will be correct, but please don't commit these
+changes.
+
+
+### Lint before push
+
+Before you push your changes and submit a pull request, please run the linter
+to identify potential linting issues:
+
+```bash
+npm run lint
+```
+
+If the linter reports errors that can be fixed (e.g. wrong spec order, or more
+compact form needed), run the following command to overwrite your local
+`specs.json` file with the linted version.
+
+```bash
+npm run lint-fix
+```
+
+**Note:** The linter cannot fix broken JSON and/or incorrect properties. Please
+fix these errors manually and run the linter again.
+
+
+## Spec selection criteria
+
+This repository contains a curated list of technical Web specifications that are
+deemed relevant for Web browsers. Roughly speaking, this list should match the
+list of specs that appear in projects such as [Web Platform
+Tests](https://github.com/web-platform-tests/wpt) or
+[MDN](https://developer.mozilla.org/).
+
+To try to make things more concrete, the following criteria are used to assess
+whether a spec should a priori appear in the list:
+
+1. The spec is stable or in development. Superseded and abandoned specs will not
+appear in the list. For instance, the list contains the HTML LS spec, but not
+HTML 4.01 or HTML 5).
+2. The spec is being developed by a well-known standardization group. Today,
+this means a W3C Working Group or Community Group, the WHATWG, or the Khronos
+Group.
+3. Web browsers expressed some level of support for the spec, e.g. through a
+public intent to implement.
+4. The spec sits at the application layer or is "close to it". For instance,
+IETF specs are essentially out of scope, at least for now.
+5. The spec defines normative content (terms, CSS, IDL), or it contains
+informative content that other specs often need to refer to (e.g. guidelines
+from horizontal activities such as accessibility, internationalization, privacy
+and security).
+
+There are and there will be exceptions to the rule. Besides, some of these
+criteria remain fuzzy and/or arbitrary, and we expect them to evolve over time,
+typically driven by needs expressed by projects that may want to use the list.
+
+
+## Versioning
+
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+with the following increment rules given a `major.minor.patch` version:
+- `major`: A property disappeared, its meaning has changed, or some other
+incompatible API change was made. When the `major` number gets incremented, code
+that parses the list likely needs to be updated.
+- `minor`: A new property was added, the list of specs changed (a new spec
+added, or a spec was removed). Code that parses the list should continue to work
+undisturbed, but please note that there is no guarantee that a spec that was
+present in the previous version will continue to appear in the new version.
+Situations where a spec gets dropped should remain scarce. If you believe that
+removal of a spec should rather trigger a `major` update, please
+[raise an issue](https://github.com/w3c/browser-specs/issues/new) and explain
+how it affects your project.
+- `patch`: Info about one or more specs changed. Minor updates were made to the
+code that don't affect the list.
+
+
+## Development notes
+
+### How to generate `index.json` manually
+
+To re-generate the `index.json` file locally, run:
+
+```bash
+npm run build
+```
+
+
+### Tests
+
+To run all tests or to test a given module locally, use one of:
+
+```bash
+npm test
+npm test test/compute-shortname
+```
+
+Tests are run automatically on pull requests.
+
+
+### Debugging tool
+
+The `index.js` module can be used as a command-line interface (CLI) to quickly
+look at a given spec in the `index.json` file. The command outputs the spec or
+list of specs that match the provided token as a formatted JSON string.
+
+For instance, to retrieve all specs, the Compatibility Standard spec, the
+CSS Media Queries Module Level 5 spec, all delta specs, and a spec identified by
+its URL, run:
+
+```bash
+node index.js
+node index.js compat
+node index.js mediaqueries-5
+node index.js delta
+node index.js https://w3c.github.io/presentation-api/
+```
+
+**Note:** The `index.js` CLI is not part of the released package, which only
+contains the actual list of specifications.
+
+
+### How to release a new version
+
+Provided that you have the appropriate admin rights and that a `GITHUB_TOKEN`
+environment variable is set to a [GitHub Personal
+Token](https://github.com/settings/tokens) with `repo` rights, you may release a
+new version through the following command, to be run from an up-to-date local
+`master` branch:
+
+```bash
+npm run release
+```
+
+The release command should take care of everything including incrementing the
+version number, updating the [changelog](CHANGELOG.md), creating a GitHub
+Release, and publishing a new NPM package. The command is interactive and will
+ask you to confirm the different steps. Please check the [versioning
+rules](#versioning) to select the right version part to increment!

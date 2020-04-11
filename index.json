@@ -1193,15 +1193,15 @@
     "source": "specref"
   },
   {
-    "url": "https://wicg.github.io/video-raf/",
+    "url": "https://wicg.github.io/video-rvfc/",
     "seriesComposition": "full",
-    "shortname": "video-raf",
+    "shortname": "video-rvfc",
     "series": {
-      "shortname": "video-raf",
-      "currentSpecification": "video-raf"
+      "shortname": "video-rvfc",
+      "currentSpecification": "video-rvfc"
     },
     "nightly": {
-      "url": "https://wicg.github.io/video-raf/"
+      "url": "https://wicg.github.io/video-rvfc/"
     },
     "title": "HTMLVideoElement.requestVideoFrameCallback()",
     "source": "spec"

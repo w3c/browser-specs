@@ -11,8 +11,8 @@
   "main": "index.json",
   "scripts": {
     "build": "node src/build-index.js > index.json",
-    "lint": "node lint.js",
-    "lint-fix": "node lint.js --fix",
+    "lint": "node src/lint.js",
+    "lint-fix": "node src/lint.js --fix",
     "test": "mocha",
     "test-pr": "mocha --exclude test/fetch-info-w3c.js",
     "release": "release-it"

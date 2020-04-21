@@ -4,7 +4,6 @@
  */
 
 const assert = require("assert");
-const source = require("../specs.json");
 const specs = require("../index.json");
 const schema = require("../schema/index.json");
 const dfnsSchema = require("../schema/definitions.json");

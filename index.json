@@ -1081,6 +1081,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/periodic-background-sync/",
+    "seriesComposition": "full",
+    "shortname": "periodic-background-sync",
+    "series": {
+      "shortname": "periodic-background-sync",
+      "currentSpecification": "periodic-background-sync"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/BackgroundSync/spec/PeriodicBackgroundSync-index.html"
+    },
+    "title": "Web Periodic Background Synchronization",
+    "source": "specref"
+  },
+  {
     "url": "https://wicg.github.io/permissions-request/",
     "seriesComposition": "full",
     "shortname": "permissions-request",

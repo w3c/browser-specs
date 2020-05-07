@@ -42,21 +42,6 @@
     "source": "specref"
   },
   {
-    "url": "https://drafts.css-houdini.org/box-tree-api-1/",
-    "seriesComposition": "full",
-    "shortname": "box-tree-api-1",
-    "series": {
-      "shortname": "box-tree-api",
-      "currentSpecification": "box-tree-api-1"
-    },
-    "seriesVersion": "1",
-    "nightly": {
-      "url": "https://drafts.css-houdini.org/box-tree-api-1/"
-    },
-    "title": "Box Tree API Level 1",
-    "source": "spec"
-  },
-  {
     "url": "https://drafts.css-houdini.org/css-typed-om-2/",
     "seriesComposition": "delta",
     "shortname": "css-typed-om-2",

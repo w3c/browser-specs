@@ -8,6 +8,7 @@
   "files": [
     "index.json"
   ],
+  "license": "CC0-1.0",
   "main": "index.json",
   "scripts": {
     "build": "node src/build-index.js > index.json",

@@ -4,10 +4,17 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## 0.1.0 - 2020-04-07
+## 1.0.0 - 2020-05-07
 
 ### Merged
 
+- Add CC0 license for the actual list of specs [`#43`](https://github.com/w3c/browser-specs/pull/43)
+- Add Web Periodic Background Synchronization [`#42`](https://github.com/w3c/browser-specs/pull/42)
+- Linter: separate tests from actual linting code [`#41`](https://github.com/w3c/browser-specs/pull/41)
+- Add documentation to README and CONTRIBUTING [`#39`](https://github.com/w3c/browser-specs/pull/39)
+- Update URL of requestVideoFrameCallback spec [`#40`](https://github.com/w3c/browser-specs/pull/40)
+- Add changelog and mechanism to update it on release [`#37`](https://github.com/w3c/browser-specs/pull/37)
+- Trap errors and fail properly when building index [`#36`](https://github.com/w3c/browser-specs/pull/36)
 - Rename xxxInSeries to seriesXxx [`#34`](https://github.com/w3c/browser-specs/pull/34)
 - Add code to manage releases [`#33`](https://github.com/w3c/browser-specs/pull/33)
 - Add first list of specs [`#26`](https://github.com/w3c/browser-specs/pull/26)
@@ -25,17 +32,26 @@ property values. Check the corresponding Git commit for details.
 - Allow specs to be represented by a simple string [`#3`](https://github.com/w3c/browser-specs/pull/3)
 - Add specs.json with a single spec and linting [`#2`](https://github.com/w3c/browser-specs/pull/2)
 
+### Fixed
+
+- Trap errors and fail properly when building index (#36) [`#35`](https://github.com/w3c/browser-specs/issues/35)
+
 ### Commits
 
 - [data] Update spec info [`6637d3e`](https://github.com/w3c/browser-specs/commit/6637d3e3dcb8c777acde21958bb81934e6f01815)
 - [data] Update spec info [`d5fb4f1`](https://github.com/w3c/browser-specs/commit/d5fb4f1851639b204fb966f9fd651efe04fa73c2)
 - Add tests for linter [`55acd74`](https://github.com/w3c/browser-specs/commit/55acd74fa1244c9645d0b6273b8a5d5c974b1cf4)
 - Add JSON Schema and schema validation to linting logic [`82aeffd`](https://github.com/w3c/browser-specs/commit/82aeffde8b5f517fe8a78e6aac887fee06b8f53f)
+- Add missing changelog template files [`33edde9`](https://github.com/w3c/browser-specs/commit/33edde9c3b42083cc5e017a67b1ef0b1b750be11)
+- [data] Update spec info [`88afc79`](https://github.com/w3c/browser-specs/commit/88afc79ed8ee3cb45851298b5b397a7b7947d5bc)
 - Fix linting tests on duplication to pass shortname generation [`7a437ab`](https://github.com/w3c/browser-specs/commit/7a437abfc36b95b16132db8f2425fa4e8cdbbdbc)
+- [data] Update spec info [`2f1b4aa`](https://github.com/w3c/browser-specs/commit/2f1b4aa90855057d6425d855178da0316d1c9abe)
 - Simplify string detection logic [`6f77ab1`](https://github.com/w3c/browser-specs/commit/6f77ab13508a5f6694f61c16b26c96e78014a250)
 - Add first README and w3c.json file [`0e905d2`](https://github.com/w3c/browser-specs/commit/0e905d2686622aaee262e1aff7cd2845d2d7d240)
 - Adjust workflow names [`7766efb`](https://github.com/w3c/browser-specs/commit/7766efb990464d599bcc30c060d6ef60b8403753)
 - Remove group field from w3c.json [`c62bb96`](https://github.com/w3c/browser-specs/commit/c62bb96b6280a3eb20e3a129a2afba7c215c1d79)
+- [data] Update spec info [`4898aef`](https://github.com/w3c/browser-specs/commit/4898aef62364194e5c8e3c777b7513d08782c249)
+- [data] Update spec info [`dd09395`](https://github.com/w3c/browser-specs/commit/dd09395d0c1ddbb0d0784271707d97a6f6a36278)
 - Ignore git commit exit code in fetch info workflow [`514687e`](https://github.com/w3c/browser-specs/commit/514687e0b0c6b51359235b6cffd8f8a9fc0640ba)
 
 ## Credits

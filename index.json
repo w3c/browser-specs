@@ -4521,7 +4521,7 @@
       "url": "https://www.w3.org/TR/wake-lock/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/wake-lock/"
+      "url": "https://w3c.github.io/screen-wake-lock/"
     },
     "title": "Wake Lock API",
     "source": "w3c"

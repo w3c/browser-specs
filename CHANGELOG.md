@@ -4,7 +4,26 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.1.0](https://github.com/w3c/browser-specs/compare/1.0.0...1.1.0) - 2020-05-20
+
+
+### Merged
+
+- Release process: update changelog before commit [`#46`](https://github.com/w3c/browser-specs/pull/46)
+- Drop Box Tree API Level 1 from the list [`#47`](https://github.com/w3c/browser-specs/pull/47)
+- Add CC0 license to package.json [`#45`](https://github.com/w3c/browser-specs/pull/45)
+
+
+### Commits
+
+- Changelog for v1.0.0 [`78fba3a`](https://github.com/w3c/browser-specs/commit/78fba3a5714c88724f9ce1e4e945848b737abb26)
+- [data] Update spec info [`f586e29`](https://github.com/w3c/browser-specs/commit/f586e29475da7f995016092b716a49a08bd8f563)
+- [data] Update spec info [`996cf28`](https://github.com/w3c/browser-specs/commit/996cf284001c455396dfd744568ff14bfa91b67f)
+- [data] Update spec info [`cd5a3cb`](https://github.com/w3c/browser-specs/commit/cd5a3cbbf5ae901b9bec3d58c0f092c6422000e1)
+- [data] Update spec info [`a9d92d3`](https://github.com/w3c/browser-specs/commit/a9d92d3d3934e165b86bf06b4de141d8461f3264)
+
 ## 1.0.0 - 2020-05-07
+
 
 ### Merged
 
@@ -53,6 +72,7 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`4898aef`](https://github.com/w3c/browser-specs/commit/4898aef62364194e5c8e3c777b7513d08782c249)
 - [data] Update spec info [`dd09395`](https://github.com/w3c/browser-specs/commit/dd09395d0c1ddbb0d0784271707d97a6f6a36278)
 - Ignore git commit exit code in fetch info workflow [`514687e`](https://github.com/w3c/browser-specs/commit/514687e0b0c6b51359235b6cffd8f8a9fc0640ba)
+
 
 ## Credits
 

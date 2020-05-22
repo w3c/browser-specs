@@ -682,9 +682,9 @@
       "currentSpecification": "trusted-types"
     },
     "nightly": {
-      "url": "https://wicg.github.io/trusted-types/dist/spec/"
+      "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/"
     },
-    "title": "Trusted Types Spec WIP",
+    "title": "Trusted Types",
     "source": "specref"
   },
   {

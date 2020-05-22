@@ -4,6 +4,15 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.1.1](https://github.com/w3c/browser-specs/compare/1.1.0...1.1.1) - 2020-05-22
+
+
+
+
+### Commits
+
+- [data] Update spec info [`f9f7d8f`](https://github.com/w3c/browser-specs/commit/f9f7d8fc23b82e21f8b8c8a0b0f6ec7aa35e9a20)
+
 ## [1.1.0](https://github.com/w3c/browser-specs/compare/1.0.0...1.1.0) - 2020-05-20
 
 

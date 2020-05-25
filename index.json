@@ -634,10 +634,10 @@
   {
     "url": "https://w3c.github.io/ServiceWorker/",
     "seriesComposition": "full",
-    "shortname": "ServiceWorker",
+    "shortname": "service-worker",
     "series": {
-      "shortname": "ServiceWorker",
-      "currentSpecification": "ServiceWorker"
+      "shortname": "service-worker",
+      "currentSpecification": "service-worker"
     },
     "nightly": {
       "url": "https://w3c.github.io/ServiceWorker/"

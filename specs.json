@@ -42,7 +42,13 @@
   "https://w3c.github.io/gamepad/extensions.html",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/reporting/",
-  "https://w3c.github.io/ServiceWorker/",
+  {
+    "url": "https://w3c.github.io/ServiceWorker/",
+    "shortname": "service-worker",
+    "series": {
+      "shortname": "service-worker"
+    }
+  },
   "https://w3c.github.io/web-nfc/",
   "https://w3c.github.io/webappsec-feature-policy/",
   "https://w3c.github.io/webappsec-trusted-types/dist/spec/",

@@ -44,9 +44,9 @@
   "https://w3c.github.io/reporting/",
   {
     "url": "https://w3c.github.io/ServiceWorker/",
-    "shortname": "service-worker",
+    "shortname": "service-workers",
     "series": {
-      "shortname": "service-worker"
+      "shortname": "service-workers"
     }
   },
   "https://w3c.github.io/web-nfc/",

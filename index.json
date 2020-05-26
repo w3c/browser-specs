@@ -634,16 +634,16 @@
   {
     "url": "https://w3c.github.io/ServiceWorker/",
     "seriesComposition": "full",
-    "shortname": "service-worker",
+    "shortname": "service-workers",
     "series": {
-      "shortname": "service-worker",
-      "currentSpecification": "service-worker"
+      "shortname": "service-workers",
+      "currentSpecification": "service-workers"
     },
     "nightly": {
       "url": "https://w3c.github.io/ServiceWorker/"
     },
-    "title": "Service Workers Nightly",
-    "source": "spec"
+    "title": "Service Workers 1",
+    "source": "specref"
   },
   {
     "url": "https://w3c.github.io/web-nfc/",

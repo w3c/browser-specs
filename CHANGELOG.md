@@ -4,6 +4,18 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.1.3](https://github.com/w3c/browser-specs/compare/1.1.2...1.1.3) - 2020-05-26
+
+
+### Merged
+
+- Use plural for Service Workers shortname [`#49`](https://github.com/w3c/browser-specs/pull/49)
+
+
+### Commits
+
+- [data] Update spec info [`f67d866`](https://github.com/w3c/browser-specs/commit/f67d86673e58f1a1fbe8404a9492d64402dff062)
+
 ## [1.1.2](https://github.com/w3c/browser-specs/compare/1.1.1...1.1.2) - 2020-05-26
 
 

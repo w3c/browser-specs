@@ -2539,7 +2539,7 @@
       "url": "https://www.w3.org/TR/css-shadow-parts-1/"
     },
     "nightly": {
-      "url": "http://drafts.csswg.org/css-shadow-parts/"
+      "url": "https://drafts.csswg.org/css-shadow-parts/"
     },
     "title": "CSS Shadow Parts",
     "source": "w3c"
@@ -2966,7 +2966,7 @@
       "url": "http://www.w3.org/TR/CSS2/"
     },
     "nightly": {
-      "url": "http://dev.w3.org/csswg/css2/"
+      "url": "https://drafts.csswg.org/css2/"
     },
     "title": "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification",
     "source": "w3c"
@@ -3060,7 +3060,7 @@
       "url": "http://www.w3.org/TR/css3-mediaqueries/"
     },
     "nightly": {
-      "url": "http://dev.w3.org/csswg/css3-mediaqueries/"
+      "url": "https://drafts.csswg.org/mediaqueries-3/"
     },
     "title": "Media Queries",
     "source": "w3c"
@@ -4504,7 +4504,7 @@
       "url": "https://www.w3.org/TR/wai-aria-1.2/"
     },
     "nightly": {
-      "url": "https://rawgit.com/w3c/aria/master/"
+      "url": "https://w3c.github.io/aria/"
     },
     "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
     "source": "w3c"
@@ -4697,7 +4697,7 @@
       "url": "http://www.w3.org/TR/webmidi/"
     },
     "nightly": {
-      "url": "http://webaudio.github.io/web-midi-api/"
+      "url": "https://webaudio.github.io/web-midi-api/"
     },
     "title": "Web MIDI API",
     "source": "w3c"
@@ -4731,7 +4731,7 @@
       "url": "https://www.w3.org/TR/webrtc-priority/"
     },
     "nightly": {
-      "url": "http://w3c.github.io/webrtc-priority/"
+      "url": "https://w3c.github.io/webrtc-priority/"
     },
     "title": "WebRTC Priority Control API",
     "source": "w3c"

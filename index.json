@@ -291,20 +291,6 @@
     "source": "spec"
   },
   {
-    "url": "https://drafts.csswg.org/css-tv/",
-    "seriesComposition": "full",
-    "shortname": "css-tv",
-    "series": {
-      "shortname": "css-tv",
-      "currentSpecification": "css-tv"
-    },
-    "nightly": {
-      "url": "https://www.w3.org/TR/css-tv/"
-    },
-    "title": "CSS TV Profile 1.0",
-    "source": "specref"
-  },
-  {
     "url": "https://drafts.csswg.org/scroll-animations-1/",
     "seriesComposition": "full",
     "shortname": "scroll-animations-1",
@@ -2592,7 +2578,7 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://www.w3.org/TR/css-speech-1/"
+      "url": "https://drafts.csswg.org/css-speech-1/"
     },
     "title": "CSS Speech Module",
     "source": "specref"

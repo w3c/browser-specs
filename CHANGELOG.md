@@ -4,6 +4,19 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.2.0](https://github.com/w3c/browser-specs/compare/1.1.3...1.2.0) - 2020-05-27
+
+
+### Merged
+
+- Drop CSS TV Profile 1.0 [`#57`](https://github.com/w3c/browser-specs/pull/57)
+
+
+### Commits
+
+- [data] Update spec info [`96ac4f5`](https://github.com/w3c/browser-specs/commit/96ac4f51ff9e07ac99ced932b212fdf8232f6bc0)
+- [data] Update spec info [`77ecc47`](https://github.com/w3c/browser-specs/commit/77ecc47cb88d95766c0383d0aca62d48d313b527)
+
 ## [1.1.3](https://github.com/w3c/browser-specs/compare/1.1.2...1.1.3) - 2020-05-26
 
 

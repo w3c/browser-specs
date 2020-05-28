@@ -2022,15 +2022,34 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/css-images-3/",
+    "seriesComposition": "full",
+    "shortname": "css-images-3",
+    "series": {
+      "shortname": "css-images",
+      "currentSpecification": "css-images-3"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-images-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-images-3/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-images-3/"
+    },
+    "title": "CSS Image Values and Replaced Content Module Level 3",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/css-images-4/",
     "seriesComposition": "delta",
     "shortname": "css-images-4",
     "series": {
       "shortname": "css-images",
-      "currentSpecification": "css3-images"
+      "currentSpecification": "css-images-3"
     },
     "seriesVersion": "4",
-    "seriesPrevious": "css3-images",
+    "seriesPrevious": "css-images-3",
     "release": {
       "url": "https://www.w3.org/TR/css-images-4/"
     },
@@ -2577,11 +2596,14 @@
       "currentSpecification": "css-speech-1"
     },
     "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-speech-1/"
+    },
     "nightly": {
       "url": "https://drafts.csswg.org/css-speech-1/"
     },
     "title": "CSS Speech Module",
-    "source": "specref"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-style-attr/",
@@ -3011,25 +3033,6 @@
       "url": "https://drafts.csswg.org/css-exclusions/"
     },
     "title": "CSS Exclusions Module Level 1",
-    "source": "w3c"
-  },
-  {
-    "url": "https://www.w3.org/TR/css3-images/",
-    "seriesComposition": "full",
-    "shortname": "css3-images",
-    "series": {
-      "shortname": "css-images",
-      "currentSpecification": "css3-images"
-    },
-    "seriesVersion": "3",
-    "seriesNext": "css-images-4",
-    "release": {
-      "url": "https://www.w3.org/TR/css-images-3/"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-images-3/"
-    },
-    "title": "CSS Image Values and Replaced Content Module Level 3",
     "source": "w3c"
   },
   {
@@ -4358,13 +4361,14 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/trace-context/",
+    "url": "https://www.w3.org/TR/trace-context-1/",
     "seriesComposition": "full",
-    "shortname": "trace-context",
+    "shortname": "trace-context-1",
     "series": {
       "shortname": "trace-context",
-      "currentSpecification": "trace-context"
+      "currentSpecification": "trace-context-1"
     },
+    "seriesVersion": "1",
     "release": {
       "url": "https://www.w3.org/TR/trace-context-1/"
     },

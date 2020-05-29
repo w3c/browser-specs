@@ -135,21 +135,6 @@
     "source": "spec"
   },
   {
-    "url": "https://drafts.csswg.org/css-forms-1/",
-    "seriesComposition": "full",
-    "shortname": "css-forms-1",
-    "series": {
-      "shortname": "css-forms",
-      "currentSpecification": "css-forms-1"
-    },
-    "seriesVersion": "1",
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-forms-1/"
-    },
-    "title": "CSS Form Styling Module Level 1",
-    "source": "spec"
-  },
-  {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
     "shortname": "css-gcpm-4",
@@ -730,6 +715,34 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/budget-api/",
+    "seriesComposition": "full",
+    "shortname": "budget-api",
+    "series": {
+      "shortname": "budget-api",
+      "currentSpecification": "budget-api"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/budget-api/"
+    },
+    "title": "Web Budget API",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/client-hints-infrastructure/",
+    "seriesComposition": "full",
+    "shortname": "client-hints-infrastructure",
+    "series": {
+      "shortname": "client-hints-infrastructure",
+      "currentSpecification": "client-hints-infrastructure"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/client-hints-infrastructure/"
+    },
+    "title": "Client Hints Infrastructure",
+    "source": "specref"
+  },
+  {
     "url": "https://wicg.github.io/compression/",
     "seriesComposition": "full",
     "shortname": "compression",
@@ -1164,6 +1177,34 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/shape-detection-api/text.html",
+    "seriesComposition": "full",
+    "shortname": "text-detection-api",
+    "series": {
+      "shortname": "text-detection-api",
+      "currentSpecification": "text-detection-api"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/shape-detection-api/text.html"
+    },
+    "title": "Accelerated Text Detection in Images",
+    "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/sms-one-time-codes/",
+    "seriesComposition": "full",
+    "shortname": "sms-one-time-codes",
+    "series": {
+      "shortname": "sms-one-time-codes",
+      "currentSpecification": "sms-one-time-codes"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/sms-one-time-codes/"
+    },
+    "title": "Origin-bound one-time codes delivered via SMS",
+    "source": "specref"
+  },
+  {
     "url": "https://wicg.github.io/speech-api/",
     "seriesComposition": "full",
     "shortname": "speech-api",
@@ -1368,7 +1409,7 @@
       "currentSpecification": "battery-status"
     },
     "release": {
-      "url": "http://www.w3.org/TR/battery-status/"
+      "url": "https://www.w3.org/TR/battery-status/"
     },
     "nightly": {
       "url": "https://w3c.github.io/battery/"
@@ -1438,7 +1479,7 @@
     "seriesVersion": "1",
     "seriesNext": "compositing-2",
     "release": {
-      "url": "http://www.w3.org/TR/compositing-1/"
+      "url": "https://www.w3.org/TR/compositing-1/"
     },
     "nightly": {
       "url": "https://drafts.fxtf.org/compositing-1/"
@@ -1846,7 +1887,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/css-device-adapt-1/"
+      "url": "https://www.w3.org/TR/css-device-adapt-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-device-adapt/"
@@ -1918,7 +1959,7 @@
     },
     "seriesVersion": "3",
     "release": {
-      "url": "http://www.w3.org/TR/css-font-loading-3/"
+      "url": "https://www.w3.org/TR/css-font-loading-3/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-font-loading/"
@@ -1975,7 +2016,7 @@
     "seriesVersion": "3",
     "seriesNext": "css-gcpm-4",
     "release": {
-      "url": "http://www.w3.org/TR/css-gcpm-3/"
+      "url": "https://www.w3.org/TR/css-gcpm-3/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-gcpm/"
@@ -2105,7 +2146,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/css-line-grid-1/"
+      "url": "https://www.w3.org/TR/css-line-grid-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-line-grid/"
@@ -2159,7 +2200,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/css-masking-1/"
+      "url": "https://www.w3.org/TR/css-masking-1/"
     },
     "nightly": {
       "url": "https://drafts.fxtf.org/css-masking-1/"
@@ -2196,7 +2237,7 @@
     },
     "seriesVersion": "3",
     "release": {
-      "url": "http://www.w3.org/TR/css-namespaces-3/"
+      "url": "https://www.w3.org/TR/css-namespaces-3/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-namespaces/"
@@ -2307,7 +2348,7 @@
     },
     "seriesVersion": "3",
     "release": {
-      "url": "http://www.w3.org/TR/css-page-floats-3/"
+      "url": "https://www.w3.org/TR/css-page-floats-3/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-page-floats/"
@@ -2397,7 +2438,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/css-regions-1/"
+      "url": "https://www.w3.org/TR/css-regions-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-regions/"
@@ -2469,7 +2510,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/css-scoping-1/"
+      "url": "https://www.w3.org/TR/css-scoping-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-scoping/"
@@ -2560,7 +2601,7 @@
     "seriesVersion": "1",
     "seriesNext": "css-shapes-2",
     "release": {
-      "url": "http://www.w3.org/TR/css-shapes-1/"
+      "url": "https://www.w3.org/TR/css-shapes-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-shapes/"
@@ -2614,7 +2655,7 @@
       "currentSpecification": "css-style-attr"
     },
     "release": {
-      "url": "http://www.w3.org/TR/css-style-attr/"
+      "url": "https://www.w3.org/TR/css-style-attr/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-style-attr/"
@@ -2896,7 +2937,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/css-variables-1/"
+      "url": "https://www.w3.org/TR/css-variables-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-variables/"
@@ -2914,7 +2955,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/css-will-change-1/"
+      "url": "https://www.w3.org/TR/css-will-change-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-will-change/"
@@ -2971,7 +3012,7 @@
     "seriesVersion": "2",
     "seriesNext": "CSS22",
     "release": {
-      "url": "http://www.w3.org/TR/CSS2/"
+      "url": "https://www.w3.org/TR/CSS2/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css2/"
@@ -2990,7 +3031,7 @@
     "seriesVersion": "2.2",
     "seriesPrevious": "CSS2",
     "release": {
-      "url": "http://www.w3.org/TR/CSS22/"
+      "url": "https://www.w3.org/TR/CSS22/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css2/"
@@ -3009,7 +3050,7 @@
     "seriesVersion": "3",
     "seriesNext": "css-conditional-4",
     "release": {
-      "url": "http://www.w3.org/TR/css3-conditional/"
+      "url": "https://www.w3.org/TR/css3-conditional/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-conditional-3/"
@@ -3027,7 +3068,7 @@
     },
     "seriesVersion": "3",
     "release": {
-      "url": "http://www.w3.org/TR/css3-exclusions/"
+      "url": "https://www.w3.org/TR/css3-exclusions/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-exclusions/"
@@ -3046,7 +3087,7 @@
     "seriesVersion": "3",
     "seriesNext": "mediaqueries-4",
     "release": {
-      "url": "http://www.w3.org/TR/css3-mediaqueries/"
+      "url": "https://www.w3.org/TR/css3-mediaqueries/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/mediaqueries-3/"
@@ -3064,7 +3105,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/cssom-1/"
+      "url": "https://www.w3.org/TR/cssom-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/cssom/"
@@ -3082,7 +3123,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/cssom-view-1/"
+      "url": "https://www.w3.org/TR/cssom-view-1/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/cssom-view/"
@@ -3117,7 +3158,7 @@
       "currentSpecification": "DOM-Parsing"
     },
     "release": {
-      "url": "http://www.w3.org/TR/DOM-Parsing/"
+      "url": "https://www.w3.org/TR/DOM-Parsing/"
     },
     "nightly": {
       "url": "https://w3c.github.io/DOM-Parsing/"
@@ -3366,6 +3407,23 @@
       "url": "https://w3c.github.io/mediacapture-image/"
     },
     "title": "\"MediaStream Image Capture\"",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/image-resource/",
+    "seriesComposition": "full",
+    "shortname": "image-resource",
+    "series": {
+      "shortname": "image-resource",
+      "currentSpecification": "image-resource"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/image-resource/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/image-resource/"
+    },
+    "title": "Image Resource",
     "source": "w3c"
   },
   {
@@ -4266,12 +4324,29 @@
       "currentSpecification": "SRI"
     },
     "release": {
-      "url": "http://www.w3.org/TR/SRI/"
+      "url": "https://www.w3.org/TR/SRI/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-subresource-integrity/"
     },
     "title": "Subresource Integrity",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/svg-integration/",
+    "seriesComposition": "full",
+    "shortname": "svg-integration",
+    "series": {
+      "shortname": "svg-integration",
+      "currentSpecification": "svg-integration"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/svg-integration/"
+    },
+    "nightly": {
+      "url": "https://svgwg.org/specs/integration/"
+    },
+    "title": "SVG Integration",
     "source": "w3c"
   },
   {
@@ -4283,12 +4358,29 @@
       "currentSpecification": "svg-markers"
     },
     "release": {
-      "url": "http://www.w3.org/TR/svg-markers/"
+      "url": "https://www.w3.org/TR/svg-markers/"
     },
     "nightly": {
       "url": "https://svgwg.org/specs/markers/"
     },
     "title": "SVG Markers",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/svg-paths/",
+    "seriesComposition": "full",
+    "shortname": "svg-paths",
+    "series": {
+      "shortname": "svg-paths",
+      "currentSpecification": "svg-paths"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/svg-paths/"
+    },
+    "nightly": {
+      "url": "https://svgwg.org/specs/paths/"
+    },
+    "title": "SVG Paths",
     "source": "w3c"
   },
   {
@@ -4300,7 +4392,7 @@
       "currentSpecification": "svg-strokes"
     },
     "release": {
-      "url": "http://www.w3.org/TR/svg-strokes/"
+      "url": "https://www.w3.org/TR/svg-strokes/"
     },
     "nightly": {
       "url": "https://svgwg.org/specs/strokes/"
@@ -4352,7 +4444,7 @@
       "currentSpecification": "touch-events"
     },
     "release": {
-      "url": "http://www.w3.org/TR/touch-events/"
+      "url": "https://www.w3.org/TR/touch-events/"
     },
     "nightly": {
       "url": "https://w3c.github.io/touch-events/"
@@ -4438,7 +4530,7 @@
       "currentSpecification": "upgrade-insecure-requests"
     },
     "release": {
-      "url": "http://www.w3.org/TR/upgrade-insecure-requests/"
+      "url": "https://www.w3.org/TR/upgrade-insecure-requests/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-upgrade-insecure-requests/"
@@ -4514,6 +4606,24 @@
       "url": "https://w3c.github.io/screen-wake-lock/"
     },
     "title": "Wake Lock API",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/wasm-core-1/",
+    "seriesComposition": "full",
+    "shortname": "wasm-core-1",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/wasm-core-1/"
+    },
+    "nightly": {
+      "url": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "title": "WebAssembly Core Specification",
     "source": "w3c"
   },
   {
@@ -4684,7 +4794,7 @@
       "currentSpecification": "webmidi"
     },
     "release": {
-      "url": "http://www.w3.org/TR/webmidi/"
+      "url": "https://www.w3.org/TR/webmidi/"
     },
     "nightly": {
       "url": "https://webaudio.github.io/web-midi-api/"
@@ -4874,7 +4984,7 @@
     },
     "seriesVersion": "1",
     "release": {
-      "url": "http://www.w3.org/TR/worklets-1/"
+      "url": "https://www.w3.org/TR/worklets-1/"
     },
     "nightly": {
       "url": "https://drafts.css-houdini.org/worklets/"

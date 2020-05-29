@@ -65,6 +65,14 @@ async function fetchInfoFromW3CApi(specs, options) {
         if (res.statusCode === 404) {
           resolve(null);
         }
+        if (res.statusCode === 301) {
+          const location = res.headers.location.startsWith('/specifications/') ?
+            res.headers.location.substring('/specifications/'.length) :
+            res.headers.location;
+          reject(`W3C API redirected to "${location}" ` +
+            `for "${spec.shortname}" (${spec.url}), update the shortname!`);
+          return;
+        }
         if (res.statusCode !== 200) {
           reject(`W3C API returned an error, status code is ${res.statusCode}`);
           return;
@@ -89,9 +97,25 @@ async function fetchInfoFromW3CApi(specs, options) {
   const results = {};
   specs.forEach((spec, idx) => {
     if (info[idx]) {
+      if (info[idx].shortlink &&
+          info[idx].shortlink.startsWith('http:')) {
+        console.warn(`[warning] force HTTPS for release of ` +
+          `"${spec.shortname}", W3C API returned "${info[idx].shortlink}"`);
+      }
+      if (info[idx]["editor-draft"] &&
+          info[idx]["editor-draft"].startsWith('http:')) {
+        console.warn(`[warning] force HTTPS for nightly of ` +
+          `"${spec.shortname}", W3C API returned "${info[idx]["editor-draft"]}"`);
+      }
+      const release = info[idx].shortlink ?
+        info[idx].shortlink.replace(/^http:/, 'https:') :
+        null;
+      const nightly = info[idx]["editor-draft"] ?
+        info[idx]["editor-draft"].replace(/^http:/, 'https:') :
+        null;
       results[spec.shortname] = {
-        release: { url: info[idx].shortlink },
-        nightly: { url: info[idx]["editor-draft"] },
+        release: { url: release },
+        nightly: { url: nightly },
         title: info[idx].title
       };
     }
@@ -158,8 +182,20 @@ async function fetchInfoFromSpecref(specs, options) {
     Object.keys(chunkRes).forEach(name => {
       if (specs.find(spec => spec.shortname === name)) {
         const info = chunkRes[resolveAlias(name)];
+        if (info.edDraft && info.edDraft.startsWith('http:')) {
+          console.warn(`[warning] force HTTPS for nightly of ` +
+            `"${spec.shortname}", Specref returned "${info.edDraft}"`);
+        }
+        if (info.href && info.href.startsWith('http:')) {
+          console.warn(`[warning] force HTTPS for nightly of ` +
+            `"${spec.shortname}", Specref returned "${info.href}"`);
+        }
+        const nightly = info.edDraft ?
+          info.edDraft.replace(/^http:/, 'https:') :
+          info.href ? info.href.replace(/^http:/, 'https:') :
+          null;
         results[name] = {
-          nightly: { url: info.edDraft || info.href },
+          nightly: { url: nightly },
           title: info.title
         };
       }

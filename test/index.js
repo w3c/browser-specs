@@ -28,6 +28,20 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("has unique shortnames", () => {
+    const wrong = specs.filter((spec, idx) =>
+      specs.findIndex(s => s.shortname === spec.shortname) !== idx);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("only contains HTTPS URLs", () => {
+    const wrong = specs.filter(s =>
+      !s.url.startsWith('https:') ||
+      (s.release && !s.release.url.startsWith('https:')) ||
+      (s.nightly && !s.nightly.url.startsWith('https:')));
+    assert.deepStrictEqual(wrong, []);
+  });
+
   it("has level info for specs that have a previous link", () => {
     const wrong = specs.filter(s => s.seriesPrevious && !s.seriesVersion);
     assert.deepStrictEqual(wrong, []);

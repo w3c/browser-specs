@@ -4,6 +4,21 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.3.0](https://github.com/w3c/browser-specs/compare/1.2.0...1.3.0) - 2020-05-29
+
+
+### Merged
+
+- Force HTTPS URLs, drop CSS Forms, add specs [`#64`](https://github.com/w3c/browser-specs/pull/64)
+- Update Background Sync URL [`#63`](https://github.com/w3c/browser-specs/pull/63)
+- Adjust a couple of TR URLs to match W3C API shortnames [`#59`](https://github.com/w3c/browser-specs/pull/59)
+
+
+### Commits
+
+- [data] Update spec info [`755e8e0`](https://github.com/w3c/browser-specs/commit/755e8e0d7ea054d51c9c95dea38e88d9a2834762)
+- [data] Update spec info [`e72aacd`](https://github.com/w3c/browser-specs/commit/e72aacdf5ecb18bb45266c93e615b367f14c09f1)
+
 ## [1.2.0](https://github.com/w3c/browser-specs/compare/1.1.3...1.2.0) - 2020-05-27
 
 

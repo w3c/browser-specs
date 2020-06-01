@@ -715,20 +715,6 @@
     "source": "specref"
   },
   {
-    "url": "https://wicg.github.io/budget-api/",
-    "seriesComposition": "full",
-    "shortname": "budget-api",
-    "series": {
-      "shortname": "budget-api",
-      "currentSpecification": "budget-api"
-    },
-    "nightly": {
-      "url": "https://wicg.github.io/budget-api/"
-    },
-    "title": "Web Budget API",
-    "source": "specref"
-  },
-  {
     "url": "https://wicg.github.io/client-hints-infrastructure/",
     "seriesComposition": "full",
     "shortname": "client-hints-infrastructure",

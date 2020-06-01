@@ -4,6 +4,18 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.4.0](https://github.com/w3c/browser-specs/compare/1.3.0...1.4.0) - 2020-06-01
+
+
+### Merged
+
+- Remove Web Budget API [`#65`](https://github.com/w3c/browser-specs/pull/65)
+
+
+### Commits
+
+- [data] Update spec info [`ac19924`](https://github.com/w3c/browser-specs/commit/ac1992412b905259f120fa5d13ede47d7e8edfe9)
+
 ## [1.3.0](https://github.com/w3c/browser-specs/compare/1.2.0...1.3.0) - 2020-05-29
 
 

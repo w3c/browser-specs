@@ -4,6 +4,22 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.5.0](https://github.com/w3c/browser-specs/compare/1.4.0...1.5.0) - 2020-06-03
+
+
+### Merged
+
+- Update CSS Parser API URL [`#67`](https://github.com/w3c/browser-specs/pull/67)
+- Update Input Device Capabilities URL [`#68`](https://github.com/w3c/browser-specs/pull/68)
+- Update Text Fragments URL (repo was renamed) [`#66`](https://github.com/w3c/browser-specs/pull/66)
+
+
+### Commits
+
+- [data] Update spec info [`16a3905`](https://github.com/w3c/browser-specs/commit/16a3905e2d98df603e939c5e3e0edb426f669822)
+- [data] Update spec info [`ed13572`](https://github.com/w3c/browser-specs/commit/ed1357219d9c19ab6b2dcf09dcb8809c1c6655b4)
+- [data] Update spec info [`cdffb66`](https://github.com/w3c/browser-specs/commit/cdffb66dea180ab007fc5cce7b47505fc52cb7b8)
+
 ## [1.4.0](https://github.com/w3c/browser-specs/compare/1.3.0...1.4.0) - 2020-06-01
 
 

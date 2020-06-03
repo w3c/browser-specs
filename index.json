@@ -911,18 +911,18 @@
     "source": "spec"
   },
   {
-    "url": "https://wicg.github.io/InputDeviceCapabilities/",
+    "url": "https://wicg.github.io/input-device-capabilities/",
     "seriesComposition": "full",
-    "shortname": "InputDeviceCapabilities",
+    "shortname": "input-device-capabilities",
     "series": {
-      "shortname": "InputDeviceCapabilities",
-      "currentSpecification": "InputDeviceCapabilities"
+      "shortname": "input-device-capabilities",
+      "currentSpecification": "input-device-capabilities"
     },
     "nightly": {
       "url": "https://wicg.github.io/InputDeviceCapabilities/"
     },
     "title": "Input Device Capabilities",
-    "source": "spec"
+    "source": "specref"
   },
   {
     "url": "https://wicg.github.io/js-self-profiling/",
@@ -1121,15 +1121,15 @@
     "source": "specref"
   },
   {
-    "url": "https://wicg.github.io/ScrollToTextFragment/",
+    "url": "https://wicg.github.io/scroll-to-text-fragment/",
     "seriesComposition": "full",
-    "shortname": "ScrollToTextFragment",
+    "shortname": "scroll-to-text-fragment",
     "series": {
-      "shortname": "ScrollToTextFragment",
-      "currentSpecification": "ScrollToTextFragment"
+      "shortname": "scroll-to-text-fragment",
+      "currentSpecification": "scroll-to-text-fragment"
     },
     "nightly": {
-      "url": "https://wicg.github.io/ScrollToTextFragment/"
+      "url": "https://wicg.github.io/scroll-to-text-fragment/"
     },
     "title": "Text Fragments",
     "source": "spec"

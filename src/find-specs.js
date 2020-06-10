@@ -6,6 +6,7 @@ const nonBrowserSpecWgs = ["Accessibility Guidelines Working Group", "Accessible
 const watchedBrowserCgs = ["Web Platform Incubator Community Group", "Web Assembly Community Group", "Immersive Web Community Group", "Audio Community Group", "Privacy Community Group", "GPU for the Web Community Group"];
 
 const canonicalizeGhUrl = url => (url.indexOf("github.io") > 0 && url.split("/").length === 4 ? url + '/' : url).replace('http:', 'https:');
+const canonicalizeTRUrl = url => url.replace('http:', 'https:');
 
 Promise.all(
   ["https://w3c.github.io/validate-repos/report.json",
@@ -44,7 +45,7 @@ Promise.all(
   console.log("TR specs from browser-producing WGs")
   console.log(
     [].concat(...Object.keys(specRepos).map(
-      r => specRepos[r].filter(s => s.recTrack && wgs.find(g => g.id === s.group)).map(s => s.url)))
+      r => specRepos[r].filter(s => s.recTrack && wgs.find(g => g.id === s.group)).map(s => canonicalizeTRUrl(s.url))))
       .filter(u  => !specs.find(s => s.release && s.release.url === u))
   );
 

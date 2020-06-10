@@ -1,3 +1,5 @@
+'use strict';
+
 const fetch = require("node-fetch");
 
 const specs = require("../index.json");
@@ -25,7 +27,7 @@ const watchedBrowserCgs = [
 ];
 
 function canonicalizeGhUrl(r) {
-  url = new URL(r.homepageUrl);
+  const url = new URL(r.homepageUrl);
   url.protocol = 'https:';
   if (url.pathname.lastIndexOf('/') === 0 && url.pathname.length > 1) {
       url.pathname += '/';

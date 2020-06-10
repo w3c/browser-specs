@@ -51,7 +51,7 @@ Promise.all(
 
   // WGs
   // * check repos with w3c.json/repo-type including rec-track
-  const wgRepos = [].concat(...wgs.map(g => g.repos.map(r => r.fullName)))
+  const wgRepos = wgs.map(g => g.repos.map(r => r.fullName)).flat()
         .map(fullName => repos.find(r => fullName === r.owner.login + '/' + r.name));
   const recTrackRepos = wgRepos.filter(r => r.w3c && r.w3c["repo-type"] && (r.w3c["repo-type"] === 'rec-track' || r.w3c["repo-type"].includes('rec-track')));
   // * look if those with homepage URLs have a match in the list of specs
@@ -75,14 +75,15 @@ Promise.all(
   // Look which of the specRepos on recTrack from a browser-producing WG have no match
   console.log("TR specs from browser-producing WGs")
   console.log(
-    [].concat(...Object.keys(specRepos).map(
-      r => specRepos[r].filter(s => s.recTrack && wgs.find(g => g.id === s.group)).map(s => canonicalizeTRUrl(s.url))))
+    Object.keys(specRepos).map(
+      r => specRepos[r].filter(s => s.recTrack && wgs.find(g => g.id === s.group)).map(s => canonicalizeTRUrl(s.url)))
+      .flat()
       .filter(u  => !specs.find(s => s.release && s.release.url === u))
   );
 
   // CGs
   //check repos with w3c.json/repo-type includes cg-report or with no w3c.json
-  const cgRepos = [].concat(...cgs.map(g => g.repos.map(r => r.fullName)))
+  const cgRepos = cgs.map(g => g.repos.map(r => r.fullName)).flat()
         .map(fullName => repos.find(r => fullName === r.owner.login + '/' + r.name));
   const cgSpecRepos = cgRepos.filter(r => !r.w3c || (r.w3c && r.w3c["repo-type"] && (r.w3c["repo-type"] === 'cg-report' || r.w3c["repo-type"].includes('cg-report'))));
   // * look if those with homepage URLs have a match in the list of specs

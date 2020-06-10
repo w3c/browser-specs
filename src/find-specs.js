@@ -41,8 +41,10 @@ function canonicalizeTRUrl(url) {
 
 const toGhUrl = repo => `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
-const isUnknownSpec = url => !specs.find(s => s.nightly.url === url || (s.release && s.release.url === url))
-const hasRepoType = type => r => r.w3c && r.w3c["repo-type"] && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type))
+const isUnknownSpec = url => !specs.find(s => s.nightly.url === url
+                                         || (s.release && s.release.url === url))
+const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
+      && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));
 const isOkUrl = u => fetch(u).then(({ok, url}) => {
   if (ok) return url;
 });
@@ -51,7 +53,8 @@ try {
 (async function() {
   const {groups, repos} = await fetch("https://w3c.github.io/validate-repos/report.json").then(r => r.json());
   const specRepos = await fetch("https://w3c.github.io/spec-dashboard/repo-map.json").then(r => r.json());
-  const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json()).then(d => d.workstreams.map(w => w.standards).flat());
+  const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json())
+        .then(d => d.workstreams.map(w => w.standards).flat());
 
   const wgs = Object.values(groups).filter(g => g.type === "working group" && !nonBrowserSpecWgs.includes(g.name));
   const cgs = Object.values(groups).filter(g => g.type === "community group" && watchedBrowserCgs.includes(g.name));

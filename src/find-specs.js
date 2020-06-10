@@ -47,7 +47,7 @@ const isUnknownSpec = url => !specs.find(s => s.nightly.url === url
                                          || (s.release && s.release.url === url))
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));
-const urlIfValid = u => fetch(u).then(({ok, url}) => {
+const urlIfExists = u => fetch(u).then(({ok, url}) => {
   if (ok) return url;
 });
 
@@ -78,7 +78,7 @@ try {
   const wgUrls = (await Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
                                  .map(toGhUrl)
                                  .filter(isUnknownSpec)
-                                    .map(urlIfValid))).filter(x => x);
+                                  .map(urlIfExists))).filter(x => x);
   console.log("Unadvertized URLs from a repo of a browser-spec producing WG with no matching URL in spec list")
   console.log(wgUrls);
 
@@ -107,7 +107,7 @@ try {
   const cgUrls = (await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
                                    .map(toGhUrl)
                                    .filter(isUnknownSpec)
-                                    .map(urlIfValid))).filter(x => x);
+                                   .map(urlIfExists))).filter(x => x);
   console.log("Unadvertized URLs from a repo of a browser-spec producing CG with no matching URL in spec list")
   console.log(cgUrls);
 
@@ -119,4 +119,5 @@ try {
 })();
 } catch(e) {
   console.error(e);
+  process.exit(1);
 }

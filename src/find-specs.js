@@ -62,8 +62,8 @@ Promise.all(
              );
   // * look if those without a homepage URL have a match with their generated URL
   Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
-              .map(r => `https://${r.owner.login}.github.io/${r.name}/`)
-              .filter(u => !specs.find(s => s.nightly.url.startsWith(u)))
+              .map(r => `https://${r.owner.login.toLowerCase()}.github.io/${r.name}/`)
+              .filter(u => !specs.find(s => s.nightly.url === u))
               .map(u => fetch(u).then(({status, url}) => {
                 if (status !== 404) return url;
               }))).then(urls => {

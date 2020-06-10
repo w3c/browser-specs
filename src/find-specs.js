@@ -112,7 +112,7 @@ try {
 
   const whatwgUrls = whatwgSpecs.map(s => s.href)
         .filter(isUnknownSpec);
-  console.log("URLs from WHATWG no matching URL in spec list")
+  console.log("URLs from WHATWG with no matching URL in spec list")
   console.log(whatwgUrls);
 })();
 } catch(e) {

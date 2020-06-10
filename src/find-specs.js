@@ -51,6 +51,7 @@ try {
 (async function() {
   const {groups, repos} = await fetch("https://w3c.github.io/validate-repos/report.json").then(r => r.json());
   const specRepos = await fetch("https://w3c.github.io/spec-dashboard/repo-map.json").then(r => r.json());
+  const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json()).then(d => d.workstreams.map(w => w.standards).flat());
 
   const wgs = Object.values(groups).filter(g => g.type === "working group" && !nonBrowserSpecWgs.includes(g.name));
   const cgs = Object.values(groups).filter(g => g.type === "community group" && watchedBrowserCgs.includes(g.name));
@@ -104,6 +105,12 @@ try {
                                    .map(isOkUrl));
   console.log("Unadvertized URLs from a repo of a browser-spec producing CG with no matching URL in spec list")
   console.log(cgUrls.filter(x => x));
+
+
+  const whatwgUrls = whatwgSpecs.map(s => s.href)
+        .filter(isUnknownSpec);
+  console.log("URLs from WHATWG no matching URL in spec list")
+  console.log(whatwgUrls);
 })();
 } catch(e) {
   console.error(e);

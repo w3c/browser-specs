@@ -2,11 +2,42 @@ const fetch = require("node-fetch");
 
 const specs = require("../index.json");
 
-const nonBrowserSpecWgs = ["Accessibility Guidelines Working Group", "Accessible Platform Architectures Working Group", "Automotive Working Group", "Dataset Exchange Working Group", "Decentralized Identifier Working Group", "Distributed Tracing Working Group", "Education and Outreach Working Group", "JSON-LD Working Group", "Publishing Working Group", "Verifiable Credentials Working Group", "Web of Things Working Group"];
-const watchedBrowserCgs = ["Web Platform Incubator Community Group", "Web Assembly Community Group", "Immersive Web Community Group", "Audio Community Group", "Privacy Community Group", "GPU for the Web Community Group"];
+const nonBrowserSpecWgs = [
+  "Accessibility Guidelines Working Group",
+  "Accessible Platform Architectures Working Group",
+  "Automotive Working Group",
+  "Dataset Exchange Working Group",
+  "Decentralized Identifier Working Group",
+  "Distributed Tracing Working Group",
+  "Education and Outreach Working Group",
+  "JSON-LD Working Group",
+  "Publishing Working Group",
+  "Verifiable Credentials Working Group",
+  "Web of Things Working Group"
+];
+const watchedBrowserCgs = [
+  "Web Platform Incubator Community Group",
+  "Web Assembly Community Group",
+  "Immersive Web Community Group",
+  "Audio Community Group",
+  "Privacy Community Group",
+  "GPU for the Web Community Group"
+];
 
-const canonicalizeGhUrl = url => (url.indexOf("github.io") > 0 && url.split("/").length === 4 ? url + '/' : url).replace('http:', 'https:');
-const canonicalizeTRUrl = url => url.replace('http:', 'https:');
+function canonicalizeGhUrl(url) {
+  url = new URL(url);
+  url.protocol = 'https:';
+  if (url.pathname.lastIndexOf('/') === 0) {
+      url.pathname += '/';
+  }
+  return url.toString();
+}
+
+function canonicalizeTRUrl(url) {
+  url = new URL(url);
+  url.protocol = 'https:';
+  return url.toString();
+}
 
 Promise.all(
   ["https://w3c.github.io/validate-repos/report.json",
@@ -19,7 +50,7 @@ Promise.all(
   const cgs = Object.values(groups).filter(g => g.type === "community group" && watchedBrowserCgs.includes(g.name));
 
   // WGs
-  // * check repos with w3c.json/repo-type includes rec-track
+  // * check repos with w3c.json/repo-type including rec-track
   const wgRepos = [].concat(...wgs.map(g => g.repos.map(r => r.fullName)))
         .map(fullName => repos.find(r => fullName === r.owner.login + '/' + r.name));
   const recTrackRepos = wgRepos.filter(r => r.w3c && r.w3c["repo-type"] && (r.w3c["repo-type"] === 'rec-track' || r.w3c["repo-type"].includes('rec-track')));
@@ -33,8 +64,8 @@ Promise.all(
   Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
               .map(r => `https://${r.owner.login}.github.io/${r.name}/`)
               .filter(u => !specs.find(s => s.nightly.url.startsWith(u)))
-              .map(u => fetch(u).then(({status, url}) => {
-                if (status !== 404) return url;
+              .map(u => fetch(u).then(({ok, url}) => {
+                if (ok) return url;
               }))).then(urls => {
                 console.log("Unadvertized URLs from a repo of a browser-spec producing WG with no matching URL in spec list")
                 console.log(urls.filter(x => x));

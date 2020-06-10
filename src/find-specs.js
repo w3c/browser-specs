@@ -24,10 +24,10 @@ const watchedBrowserCgs = [
   "GPU for the Web Community Group"
 ];
 
-function canonicalizeGhUrl(url) {
-  url = new URL(url);
+function canonicalizeGhUrl(r) {
+  url = new URL(r.homepageUrl);
   url.protocol = 'https:';
-  if (url.pathname.lastIndexOf('/') === 0) {
+  if (url.pathname.lastIndexOf('/') === 0 && url.pathname.length > 1) {
       url.pathname += '/';
   }
   return url.toString();
@@ -42,6 +42,11 @@ function canonicalizeTRUrl(url) {
 const toGhUrl = repo => `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isUnknownSpec = url => !specs.find(s => s.nightly.url === url || (s.release && s.release.url === url))
+const hasRepoType = type => r => r.w3c && r.w3c["repo-type"] && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type))
+const isOkUrl = u => fetch(u).then(({ok, url}) => {
+  if (ok) return url;
+});
+
 try {
 (async function() {
   const {groups, repos} = await fetch("https://w3c.github.io/validate-repos/report.json").then(r => r.json());
@@ -54,24 +59,22 @@ try {
   // * check repos with w3c.json/repo-type including rec-track
   const wgRepos = wgs.map(g => g.repos.map(r => r.fullName)).flat()
         .map(fullName => repos.find(matchRepoName(fullName)));
-  const recTrackRepos = wgRepos.filter(r => r.w3c && r.w3c["repo-type"] && (r.w3c["repo-type"] === 'rec-track' || r.w3c["repo-type"].includes('rec-track')));
+  const recTrackRepos = wgRepos.filter(hasRepoType('rec-track'));
 
   // * look if those with homepage URLs have a match in the list of specs
   console.log("URLs from a repo of a browser-spec producing WG with no matching URL in spec list")
   console.log(recTrackRepos.filter(r => r.homepageUrl)
-              .map(r => canonicalizeGhUrl(r.homepageUrl))
+              .map(canonicalizeGhUrl)
               .filter(isUnknownSpec)
              );
 
   // * look if those without a homepage URL have a match with their generated URL
-  const urls = await Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
+  const wgUrls = await Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
                                  .map(toGhUrl)
                                  .filter(isUnknownSpec)
-                                 .map(u => fetch(u).then(({ok, url}) => {
-                                   if (ok) return url;
-                                 })));
+                                 .map(isOkUrl));
   console.log("Unadvertized URLs from a repo of a browser-spec producing WG with no matching URL in spec list")
-  console.log(urls.filter(x => x));
+  console.log(wgUrls.filter(x => x));
 
   // Look which of the specRepos on recTrack from a browser-producing WG have no match
   console.log("TR specs from browser-producing WGs")
@@ -86,20 +89,19 @@ try {
   //check repos with w3c.json/repo-type includes cg-report or with no w3c.json
   const cgRepos = cgs.map(g => g.repos.map(r => r.fullName)).flat()
         .map(fullName => repos.find(matchRepoName(fullName)));
-  const cgSpecRepos = cgRepos.filter(r => !r.w3c || (r.w3c && r.w3c["repo-type"] && (r.w3c["repo-type"] === 'cg-report' || r.w3c["repo-type"].includes('cg-report'))));
+  const cgSpecRepos = cgRepos.filter(r => !r.w3c
+                                     || hasRepoType('cg-report')(r));
   // * look if those with homepage URLs have a match in the list of specs
   console.log("URLs from a repo of a browser-spec producing CG with no matching URL in spec list")
   console.log(cgSpecRepos.filter(r => r.homepageUrl)
-              .map(r => canonicalizeGhUrl(r.homepageUrl))
+              .map(canonicalizeGhUrl)
               .filter(isUnknownSpec)
              );
   // * look if those without a homepage URL have a match with their generated URL
   const cgUrls = await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
                                    .map(toGhUrl)
                                    .filter(isUnknownSpec)
-              .map(u => fetch(u).then(({ok, url}) => {
-                if (ok) return url;
-              })));
+                                   .map(isOkUrl));
   console.log("Unadvertized URLs from a repo of a browser-spec producing CG with no matching URL in spec list")
   console.log(cgUrls.filter(x => x));
 })();

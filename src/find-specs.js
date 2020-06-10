@@ -45,7 +45,7 @@ const isUnknownSpec = url => !specs.find(s => s.nightly.url === url
                                          || (s.release && s.release.url === url))
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));
-const isOkUrl = u => fetch(u).then(({ok, url}) => {
+const urlIfValid = u => fetch(u).then(({ok, url}) => {
   if (ok) return url;
 });
 
@@ -73,12 +73,12 @@ try {
              );
 
   // * look if those without a homepage URL have a match with their generated URL
-  const wgUrls = await Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
+  const wgUrls = (await Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
                                  .map(toGhUrl)
                                  .filter(isUnknownSpec)
-                                 .map(isOkUrl));
+                                    .map(urlIfValid))).filter(x => x);
   console.log("Unadvertized URLs from a repo of a browser-spec producing WG with no matching URL in spec list")
-  console.log(wgUrls.filter(x => x));
+  console.log(wgUrls);
 
   // Look which of the specRepos on recTrack from a browser-producing WG have no match
   console.log("TR specs from browser-producing WGs")
@@ -102,12 +102,12 @@ try {
               .filter(isUnknownSpec)
              );
   // * look if those without a homepage URL have a match with their generated URL
-  const cgUrls = await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
+  const cgUrls = (await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
                                    .map(toGhUrl)
                                    .filter(isUnknownSpec)
-                                   .map(isOkUrl));
+                                    .map(urlIfValid))).filter(x => x);
   console.log("Unadvertized URLs from a repo of a browser-spec producing CG with no matching URL in spec list")
-  console.log(cgUrls.filter(x => x));
+  console.log(cgUrls);
 
 
   const whatwgUrls = whatwgSpecs.map(s => s.href)

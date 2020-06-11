@@ -43,7 +43,7 @@ function canonicalizeTRUrl(url) {
 
 const toGhUrl = repo => `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
-const isUnknownSpec = url => !specs.find(s => s.nightly.url === url
+const isUnknownSpec = url => !specs.find(s => s.nightly.url.startsWith(url)
                                          || (s.release && s.release.url === url))
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));

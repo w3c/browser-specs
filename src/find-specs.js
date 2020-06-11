@@ -51,7 +51,6 @@ const urlIfExists = u => fetch(u).then(({ok, url}) => {
   if (ok) return url;
 });
 
-try {
 (async function() {
   const {groups, repos} = await fetch("https://w3c.github.io/validate-repos/report.json").then(r => r.json());
   const specRepos = await fetch("https://w3c.github.io/spec-dashboard/repo-map.json").then(r => r.json());
@@ -116,8 +115,7 @@ try {
         .filter(isUnknownSpec);
   console.log("URLs from WHATWG with no matching URL in spec list")
   console.log(whatwgUrls);
-})();
-} catch(e) {
+})().catch(e => {
   console.error(e);
   process.exit(1);
-}
+});

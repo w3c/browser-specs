@@ -86,4 +86,14 @@ describe("List of specs", () => {
     });
     assert.deepStrictEqual(wrong, []);
   });
+
+  it("uses the release URL as base URL when there is a release URL", () => {
+    const wrong = specs.filter(s => s.release && s.url !== s.release.url);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("uses the nightly URL as base URL when there is no release URL", () => {
+    const wrong = specs.filter(s => !s.release && s.url !== s.nightly.url);
+    assert.deepStrictEqual(wrong, []);
+  });
 });

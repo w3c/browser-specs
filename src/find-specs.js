@@ -3,8 +3,8 @@
 const fetch = require("node-fetch");
 
 const specs = require("../index.json");
-const ignored = require("./data/ignore.json");
-const monitoredRepos = require("./data/monitor-repos.json");
+const ignorable = require("./data/ignore.json");
+const temporarilyIgnorableRepos = require("./data/monitor-repos.json");
 
 const nonBrowserSpecWgs = [
   "Accessibility Guidelines Working Group",
@@ -45,8 +45,8 @@ function canonicalizeTRUrl(url) {
 
 const toGhUrl = repo => `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
-const isNotIgnorableRepo = fullName => !Object.keys(ignored.repos).includes(fullName) && !Object.keys(monitoredRepos).includes(fullName);
-const isNotIgnorableSpec = url => !Object.keys(ignored.specs).includes(url);
+const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
+const isRelevantSpec = url => !Object.keys(ignorable.specs).includes(url);
 const isUnknownSpec = url => !specs.find(s => s.nightly.url.startsWith(url)
                                          || (s.release && s.release.url === url))
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
@@ -67,7 +67,7 @@ const urlIfExists = u => fetch(u).then(({ok, url}) => {
   // WGs
   // * check repos with w3c.json/repo-type including rec-track
   const wgRepos = wgs.map(g => g.repos.map(r => r.fullName)).flat()
-        .filter(isNotIgnorableRepo)
+        .filter(isRelevantRepo)
         .map(fullName => repos.find(matchRepoName(fullName)));
   const recTrackRepos = wgRepos.filter(hasRepoType('rec-track'));
 
@@ -76,14 +76,14 @@ const urlIfExists = u => fetch(u).then(({ok, url}) => {
   console.log(recTrackRepos.filter(r => r.homepageUrl)
               .map(canonicalizeGhUrl)
               .filter(isUnknownSpec)
-              .filter(isNotIgnorableSpec)
+              .filter(isRelevantSpec)
              );
 
   // * look if those without a homepage URL have a match with their generated URL
   const wgUrls = (await Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
                                     .map(toGhUrl)
                                     .filter(isUnknownSpec)
-                                    .filter(isNotIgnorableSpec)
+                                    .filter(isRelevantSpec)
                                     .map(urlIfExists))).filter(x => x);
   console.log("Unadvertized URLs from a repo of a browser-spec producing WG with no matching URL in spec list")
   console.log(wgUrls);
@@ -95,13 +95,13 @@ const urlIfExists = u => fetch(u).then(({ok, url}) => {
       r => specRepos[r].filter(s => s.recTrack && wgs.find(g => g.id === s.group)).map(s => canonicalizeTRUrl(s.url)))
       .flat()
       .filter(isUnknownSpec)
-      .filter(isNotIgnorableSpec)
+      .filter(isRelevantSpec)
   );
 
   // CGs
   //check repos with w3c.json/repo-type includes cg-report or with no w3c.json
   const cgRepos = cgs.map(g => g.repos.map(r => r.fullName)).flat()
-        .filter(isNotIgnorableRepo)
+        .filter(isRelevantRepo)
         .map(fullName => repos.find(matchRepoName(fullName)));
 
   const cgSpecRepos = cgRepos.filter(r => !r.w3c
@@ -111,13 +111,13 @@ const urlIfExists = u => fetch(u).then(({ok, url}) => {
   console.log(cgSpecRepos.filter(r => r.homepageUrl)
               .map(canonicalizeGhUrl)
               .filter(isUnknownSpec)
-              .filter(isNotIgnorableSpec)
+              .filter(isRelevantSpec)
              );
   // * look if those without a homepage URL have a match with their generated URL
   const cgUrls = (await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
                                     .map(toGhUrl)
                                     .filter(isUnknownSpec)
-                                    .filter(isNotIgnorableSpec)
+                                    .filter(isRelevantSpec)
                                     .map(urlIfExists))).filter(x => x);
   console.log("Unadvertized URLs from a repo of a browser-spec producing CG with no matching URL in spec list")
   console.log(cgUrls);
@@ -125,7 +125,7 @@ const urlIfExists = u => fetch(u).then(({ok, url}) => {
 
   const whatwgUrls = whatwgSpecs.map(s => s.href)
         .filter(isUnknownSpec)
-        .filter(isNotIgnorableSpec);
+        .filter(isRelevantSpec);
   console.log("URLs from WHATWG with no matching URL in spec list")
   console.log(whatwgUrls);
 })().catch(e => {

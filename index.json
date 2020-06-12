@@ -519,18 +519,18 @@
     "source": "specref"
   },
   {
-    "url": "https://w3c.github.io/accname/",
+    "url": "https://w3c.github.io/badging/",
     "seriesComposition": "full",
-    "shortname": "accname",
+    "shortname": "badging",
     "series": {
-      "shortname": "accname",
-      "currentSpecification": "accname"
+      "shortname": "badging",
+      "currentSpecification": "badging"
     },
     "nightly": {
-      "url": "https://w3c.github.io/accname/"
+      "url": "https://w3c.github.io/badging/"
     },
-    "title": "Accessible Name and Description Computation 1.2",
-    "source": "spec"
+    "title": "Badging API",
+    "source": "specref"
   },
   {
     "url": "https://w3c.github.io/contentEditable/",
@@ -544,20 +544,6 @@
       "url": "https://w3c.github.io/contentEditable/"
     },
     "title": "ContentEditable",
-    "source": "spec"
-  },
-  {
-    "url": "https://w3c.github.io/core-aam/",
-    "seriesComposition": "full",
-    "shortname": "core-aam",
-    "series": {
-      "shortname": "core-aam",
-      "currentSpecification": "core-aam"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/core-aam/"
-    },
-    "title": "Core Accessibility API Mappings 1.2",
     "source": "spec"
   },
   {
@@ -586,20 +572,6 @@
       "url": "https://w3c.github.io/media-playback-quality/"
     },
     "title": "Media Playback Quality",
-    "source": "specref"
-  },
-  {
-    "url": "https://w3c.github.io/reporting/",
-    "seriesComposition": "full",
-    "shortname": "reporting",
-    "series": {
-      "shortname": "reporting",
-      "currentSpecification": "reporting"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/reporting/"
-    },
-    "title": "Reporting API",
     "source": "specref"
   },
   {
@@ -642,20 +614,6 @@
       "url": "https://w3c.github.io/web-share-target/"
     },
     "title": "Web Share Target API",
-    "source": "specref"
-  },
-  {
-    "url": "https://w3c.github.io/webappsec-feature-policy/",
-    "seriesComposition": "full",
-    "shortname": "feature-policy",
-    "series": {
-      "shortname": "feature-policy",
-      "currentSpecification": "feature-policy"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/webappsec-feature-policy/"
-    },
-    "title": "Feature Policy",
     "source": "specref"
   },
   {
@@ -727,20 +685,6 @@
     },
     "title": "Web Background Synchronization",
     "source": "spec"
-  },
-  {
-    "url": "https://wicg.github.io/badging/",
-    "seriesComposition": "full",
-    "shortname": "badging",
-    "series": {
-      "shortname": "badging",
-      "currentSpecification": "badging"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/badging/"
-    },
-    "title": "Badging API",
-    "source": "specref"
   },
   {
     "url": "https://wicg.github.io/client-hints-infrastructure/",
@@ -894,20 +838,6 @@
       "url": "https://wicg.github.io/frame-timing/"
     },
     "title": "Frame Timing",
-    "source": "specref"
-  },
-  {
-    "url": "https://wicg.github.io/geolocation-sensor/",
-    "seriesComposition": "full",
-    "shortname": "geolocation-sensor",
-    "series": {
-      "shortname": "geolocation-sensor",
-      "currentSpecification": "geolocation-sensor"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/geolocation-sensor/"
-    },
-    "title": "Geolocation Sensor",
     "source": "specref"
   },
   {
@@ -1350,6 +1280,24 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/accname-1.2/",
+    "seriesComposition": "full",
+    "shortname": "accname-1.2",
+    "series": {
+      "shortname": "accname",
+      "currentSpecification": "accname-1.2"
+    },
+    "seriesVersion": "1.2",
+    "release": {
+      "url": "https://www.w3.org/TR/accname-1.2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/accname/"
+    },
+    "title": "Accessible Name and Description Computation 1.2",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/ambient-light/",
     "seriesComposition": "full",
     "shortname": "ambient-light",
@@ -1488,6 +1436,24 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/core-aam-1.2/",
+    "seriesComposition": "full",
+    "shortname": "core-aam-1.2",
+    "series": {
+      "shortname": "core-aam",
+      "currentSpecification": "core-aam-1.2"
+    },
+    "seriesVersion": "1.2",
+    "release": {
+      "url": "https://www.w3.org/TR/core-aam-1.2/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/core-aam/"
+    },
+    "title": "Core Accessibility API Mappings 1.2",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/credential-management-1/",
     "seriesComposition": "full",
     "shortname": "credential-management-1",
@@ -1620,9 +1586,10 @@
     "shortname": "css-box-3",
     "series": {
       "shortname": "css-box",
-      "currentSpecification": "css-box-3"
+      "currentSpecification": "css-box-4"
     },
     "seriesVersion": "3",
+    "seriesNext": "css-box-4",
     "release": {
       "url": "https://www.w3.org/TR/css-box-3/"
     },
@@ -1630,6 +1597,25 @@
       "url": "https://drafts.csswg.org/css-box-3/"
     },
     "title": "CSS Box Model Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-box-4/",
+    "seriesComposition": "full",
+    "shortname": "css-box-4",
+    "series": {
+      "shortname": "css-box",
+      "currentSpecification": "css-box-4"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-box-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-box-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-box-4/"
+    },
+    "title": "CSS Box Model Module Level 4",
     "source": "w3c"
   },
   {
@@ -3201,6 +3187,24 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/feature-policy-1/",
+    "seriesComposition": "full",
+    "shortname": "feature-policy-1",
+    "series": {
+      "shortname": "feature-policy",
+      "currentSpecification": "feature-policy-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/feature-policy-1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-feature-policy/"
+    },
+    "title": "Feature Policy",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "seriesComposition": "full",
     "shortname": "fetch-metadata",
@@ -3320,6 +3324,23 @@
       "url": "https://w3c.github.io/geolocation-api/"
     },
     "title": "Geolocation API Specification 2nd Edition",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/geolocation-sensor/",
+    "seriesComposition": "full",
+    "shortname": "geolocation-sensor",
+    "series": {
+      "shortname": "geolocation-sensor",
+      "currentSpecification": "geolocation-sensor"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/geolocation-sensor/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/geolocation-sensor/"
+    },
+    "title": "Geolocation Sensor",
     "source": "w3c"
   },
   {
@@ -4105,6 +4126,24 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/reporting-1/",
+    "seriesComposition": "full",
+    "shortname": "reporting-1",
+    "series": {
+      "shortname": "reporting",
+      "currentSpecification": "reporting-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/reporting-1/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/reporting/"
+    },
+    "title": "Reporting API",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/requestidlecallback/",
     "seriesComposition": "full",
     "shortname": "requestidlecallback",
@@ -4544,9 +4583,10 @@
     "shortname": "user-timing-2",
     "series": {
       "shortname": "user-timing",
-      "currentSpecification": "user-timing-2"
+      "currentSpecification": "user-timing-3"
     },
     "seriesVersion": "2",
+    "seriesNext": "user-timing-3",
     "release": {
       "url": "https://www.w3.org/TR/user-timing-2/"
     },
@@ -4554,6 +4594,25 @@
       "url": "https://w3c.github.io/user-timing/"
     },
     "title": "User Timing Level 2",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/user-timing-3/",
+    "seriesComposition": "full",
+    "shortname": "user-timing-3",
+    "series": {
+      "shortname": "user-timing",
+      "currentSpecification": "user-timing-3"
+    },
+    "seriesVersion": "3",
+    "seriesPrevious": "user-timing-2",
+    "release": {
+      "url": "https://www.w3.org/TR/user-timing-3/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/user-timing/"
+    },
+    "title": "User Timing Level 3",
     "source": "w3c"
   },
   {
@@ -4750,21 +4809,21 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/webdriver1/",
+    "url": "https://www.w3.org/TR/webdriver2/",
     "seriesComposition": "full",
-    "shortname": "webdriver1",
+    "shortname": "webdriver2",
     "series": {
       "shortname": "webdriver",
-      "currentSpecification": "webdriver1"
+      "currentSpecification": "webdriver2"
     },
-    "seriesVersion": "1",
+    "seriesVersion": "2",
     "release": {
-      "url": "https://www.w3.org/TR/webdriver1/"
+      "url": "https://www.w3.org/TR/webdriver2/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webdriver/"
     },
-    "title": "WebDriver",
+    "title": "WebDriver - Level 2",
     "source": "w3c"
   },
   {
@@ -4906,13 +4965,14 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/webxr-ar-module/",
+    "url": "https://www.w3.org/TR/webxr-ar-module-1/",
     "seriesComposition": "full",
-    "shortname": "webxr-ar-module",
+    "shortname": "webxr-ar-module-1",
     "series": {
       "shortname": "webxr-ar-module",
-      "currentSpecification": "webxr-ar-module"
+      "currentSpecification": "webxr-ar-module-1"
     },
+    "seriesVersion": "1",
     "release": {
       "url": "https://www.w3.org/TR/webxr-ar-module-1/"
     },
@@ -4923,13 +4983,14 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/webxr-gamepads-module/",
+    "url": "https://www.w3.org/TR/webxr-gamepads-module-1/",
     "seriesComposition": "full",
-    "shortname": "webxr-gamepads-module",
+    "shortname": "webxr-gamepads-module-1",
     "series": {
       "shortname": "webxr-gamepads-module",
-      "currentSpecification": "webxr-gamepads-module"
+      "currentSpecification": "webxr-gamepads-module-1"
     },
+    "seriesVersion": "1",
     "release": {
       "url": "https://www.w3.org/TR/webxr-gamepads-module-1/"
     },

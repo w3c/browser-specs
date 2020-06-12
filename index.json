@@ -673,6 +673,20 @@
     "source": "specref"
   },
   {
+    "url": "https://w3c.github.io/webrtc-insertable-streams/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-insertable-streams",
+    "series": {
+      "shortname": "webrtc-insertable-streams",
+      "currentSpecification": "webrtc-insertable-streams"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-insertable-streams/"
+    },
+    "title": "WebRTC Insertable Media using Streams",
+    "source": "spec"
+  },
+  {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "seriesComposition": "full",
     "shortname": "web-bluetooth",

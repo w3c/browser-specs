@@ -4,6 +4,44 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.6.0](https://github.com/w3c/browser-specs/compare/1.5.1...1.6.0) - 2020-06-12
+
+
+### Merged
+
+- Adjust URLs based on findings in #70 and #72 [`#75`](https://github.com/w3c/browser-specs/pull/75)
+- Add more repos that can be ignored when looking for specs [`#74`](https://github.com/w3c/browser-specs/pull/74)
+- Add WebRTC Insertable Streams [`#73`](https://github.com/w3c/browser-specs/pull/73)
+- Add script to find list of specs potentially in scope [`#70`](https://github.com/w3c/browser-specs/pull/70)
+- Update URL of Web Share Target spec [`#69`](https://github.com/w3c/browser-specs/pull/69)
+
+
+### Commits
+
+- [data] Update spec info [`96e9796`](https://github.com/w3c/browser-specs/commit/96e97963fe0ef4c5d64c9a1cd3d77fc6c608d990)
+- Do not report specs that can be ignored, either permanently or temporarily [`7a528c7`](https://github.com/w3c/browser-specs/commit/7a528c7183dafd1e8fa0c1c5cbd7a2be0644a952)
+- Add comparison with data extracted from TR [`ad960ea`](https://github.com/w3c/browser-specs/commit/ad960ea1de8a48831c01e2c3b037ac9fc0482dd8)
+- Restructure code for greater readibility [`9183f2e`](https://github.com/w3c/browser-specs/commit/9183f2ea21c8d947ca47f9ea13dafef24ec63022)
+- Incorporate part of initial feedback [`50387c2`](https://github.com/w3c/browser-specs/commit/50387c231e56941f0c784e83f46357a0123752a7)
+- Improve readability somewhat more [`ddf9560`](https://github.com/w3c/browser-specs/commit/ddf956063508416ad459d6419d5cbb18e9e5f2a2)
+- [data] Update spec info [`baa5c63`](https://github.com/w3c/browser-specs/commit/baa5c6303b7cf32449684d8cf334f949aaa00838)
+- Fix a few variable names based on feedback [`f04b01e`](https://github.com/w3c/browser-specs/commit/f04b01eef901f750be624d42daded83efd8d399d)
+- [data] Update spec info [`2575b55`](https://github.com/w3c/browser-specs/commit/2575b551d4daa3fa97d1e6008ded5d55d39e17fe)
+- Incorporate more cosmetic improvements from feedback [`19ccf4a`](https://github.com/w3c/browser-specs/commit/19ccf4a42ec5ad1043ff88ef2fc87f0cdd18c833)
+- Add a few line returns [`43ad6c4`](https://github.com/w3c/browser-specs/commit/43ad6c44843a72086d50e82259653c3b8e051c16)
+- Use Array.flat for flattening arrays [`b662569`](https://github.com/w3c/browser-specs/commit/b66256918d0347b5db61de2713d10612b8c2b05a)
+- Bring more code improvements [`3b82070`](https://github.com/w3c/browser-specs/commit/3b820706e2ffad31fb3b0584cef7762eaec7e28a)
+- Add comparison with list of WHATWG workstreams specs [`35c1b5f`](https://github.com/w3c/browser-specs/commit/35c1b5f26c6a59d9136fbb13a3e085ec23ac0e08)
+- Fix async error handling [`2ebe48d`](https://github.com/w3c/browser-specs/commit/2ebe48dac0437c927832f61f77bf11448edee546)
+- Use strict mode [`aeef141`](https://github.com/w3c/browser-specs/commit/aeef1415af2cfb674b2a0447d773a53174a431b0)
+- Use lower case name to generate URLs from repos [`033eab6`](https://github.com/w3c/browser-specs/commit/033eab61753cb041313798d58cdcdce3f862f75e)
+- Use https version of TR URLs when comparing [`97c62b4`](https://github.com/w3c/browser-specs/commit/97c62b4e19e948f91d3a8f126895eebce90bf0a1)
+- [data] Update spec info [`b9dfc4b`](https://github.com/w3c/browser-specs/commit/b9dfc4b55ab833389c9911cc2da30ecd1dec8fff)
+- [data] Update spec info [`73ef513`](https://github.com/w3c/browser-specs/commit/73ef513d06017e8c642e2b11b408b858efdb004e)
+- Ignore URLs of hosts of multi-repo specs [`5099c27`](https://github.com/w3c/browser-specs/commit/5099c27f0f8e46ebb42037c584a1c294a6221f0c)
+- Fix typo [`6105899`](https://github.com/w3c/browser-specs/commit/6105899475c81e2ed4537a056a3ac3d7f19321c5)
+- [data] Update spec info [`94bceb5`](https://github.com/w3c/browser-specs/commit/94bceb5d9d9f051180ed800168c70163098f104c)
+
 ## [1.5.1](https://github.com/w3c/browser-specs/compare/1.5.0...1.5.1) - 2020-06-04
 
 

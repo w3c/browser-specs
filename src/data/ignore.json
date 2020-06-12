@@ -23,6 +23,51 @@
     },
     "WICG/open-ui": {
       "comment": "not targeted at browsers"
+    },
+    "privacycg/template": {
+      "comment": "not for spec"
+    },
+    "gpuweb/admin": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webxr-polyfill": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webvr": {
+      "comment": "legacy spec"
+    },
+    "immersive-web/immersive-web.github.io": {
+      "comment": "not for spec"
+    },
+    "gpuweb/cts": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webxr-reference": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webxr-samples": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webxr-input-profiles": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webvrrocks": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webvr-polyfill-dpdb": {
+      "comment": "not for spec"
+    },
+    "immersive-web/webvr-polyfill": {
+      "comment": "not for spec"
+    },
+    "immersive-web/homepage": {
+      "comment": "not for spec"
+    },
+    "immersive-web/immersiveweb.dev": {
+      "comment": "not for spec"
+    },
+    "immersive-web/cardboard-vr-display": {
+      "comment": "not for spec"
     }
   },
   "specs": {

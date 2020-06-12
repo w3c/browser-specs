@@ -1,0 +1,42 @@
+{
+  "WICG/datacue": {
+    "comment": "mostly TODOs",
+    "lastreviewed": "2020-06-11"
+  },
+  "privacycg/storage-partitioning/": {
+    "comment": "mostly TODOs",
+    "lastreviewed": "2020-06-11"
+  },
+  "w3c/system-wake-lock": {
+    "comment": "no spec yet",
+    "lastreviewed": "2020-06-11"
+  },
+  "WICG/audio-focus": {
+    "comment": "only an explainer",
+    "lastreviewed": "2020-06-11"
+  },
+  "WICG/file-handling": {
+    "comment": "only points to explainer",
+    "lastreviewed": "2020-06-11"
+  },
+  "WICG/first-party-sets": {
+    "comment": "no spec yet",
+    "lastreviewed": "2020-06-11"
+  },
+  "WICG/indexed-db-observers": {
+    "comment": "no spec yet (but 3 years old?)",
+    "lastreviewed": "2020-06-11"
+  },
+  "WICG/media-latency-hint": {
+    "comment": "empty spec",
+    "lastreviewed": "2020-06-11"
+  },
+  "WICG/sw-launch": {
+    "comment": "no spec yet",
+    "lastreviewed": "2020-06-11"
+  },
+  "WICG/virtual-scroller": {
+    "comment": "no spec yet",
+    "lastreviewed": "2020-06-11"
+  }
+}

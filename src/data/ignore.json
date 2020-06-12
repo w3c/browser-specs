@@ -1,0 +1,45 @@
+{
+  "repos": {
+    "w3c/adpt": {
+      "comment": "not targeted at browsers"
+    },
+    "w3c/imsc": {
+      "comment": "not targeted at browsers"
+    },
+    "w3c/tt-module-karaoke": {
+      "comment": "not targeted at browsers"
+    },
+    "w3c/tt-module-live":{
+      "comment": "not targeted at browsers"
+    },
+    "w3c/ttml1": {
+      "comment": "not targeted at browsers"
+    },
+    "w3c/ttml2": {
+      "comment": "not targeted at browsers"
+    },
+    "w3c/ttml3": {
+      "comment": "not targeted at browsers"
+    },
+    "WICG/open-ui": {
+      "comment": "not targeted at browsers"
+    }
+  },
+  "specs": {
+    "https://www.w3.org/TR/ttml-imsc1.2/": {
+      "comment": "not targeted at browsers"
+    },
+    "https://www.w3.org/TR/ttml2/": {
+      "comment": "not targeted at browsers"
+    },
+    "https://www.w3.org/TR/html53/": {
+      "comment": "about to be deprecated"
+    },
+    "https://www.w3.org/TR/microdata/": {
+      "comment": "about to be deprecated"
+    },
+    "https://www.w3.org/TR/dom/": {
+      "comment": "about to be deprecated"
+    }
+  }
+}

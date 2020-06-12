@@ -723,7 +723,7 @@
       "currentSpecification": "badging"
     },
     "nightly": {
-      "url": "https://wicg.github.io/badging/"
+      "url": "https://w3c.github.io/badging/"
     },
     "title": "Badging API",
     "source": "specref"

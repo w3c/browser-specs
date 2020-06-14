@@ -2,7 +2,7 @@ name: Report new specs
 
 on:
   schedule:
-    - cron: '0 0 0 * *'
+    - cron: '0 0 * * 1'
 jobs:
   find-specs:
     name: Find potential new specs

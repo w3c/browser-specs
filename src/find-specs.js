@@ -3,6 +3,8 @@ const core = require('@actions/core');
 
 const fetch = require("node-fetch");
 
+const computeShortname = require("./compute-shortname");
+
 const specs = require("../index.json");
 const ignorable = require("./data/ignore.json");
 const temporarilyIgnorableRepos = require("./data/monitor-repos.json");
@@ -48,8 +50,16 @@ const toGhUrl = repo => { return {repo: `${repo.owner.login}/${repo.name}`, spec
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
 const hasRelevantSpec = ({spec: url}) => !Object.keys(ignorable.specs).includes(url);
+const hasMoreRecentLevel = (s, url) => {
+  try {
+    const shortnameData = computeShortname(url);
+    return s.series.shortname === shortnameData.series.shortname && s.seriesVersion >= shortnameData.seriesVersion;
+  } catch (e) {
+    return false;
+  }
+};
 const hasUnknownSpec = ({spec: url}) => !specs.find(s => s.nightly.url.startsWith(url)
-                                         || (s.release && s.release.url === url))
+                                                    || (s.release && s.release.url === url) || hasMoreRecentLevel(s, url))
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));
 const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) => {

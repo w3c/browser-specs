@@ -68,6 +68,12 @@
     },
     "immersive-web/cardboard-vr-display": {
       "comment": "not for spec"
+    },
+    "w3c/webappsec-cowl": {
+      "comment": "no longer worked on"
+    },
+    "w3c/webappsec-uisecurity": {
+      "comment": "no longer worked on"
     }
   },
   "specs": {
@@ -85,6 +91,15 @@
     },
     "https://www.w3.org/TR/dom/": {
       "comment": "about to be deprecated"
+    },
+    "https://www.w3.org/TR/UISecurity/": {
+      "comment": "no longer worked on"
+    },
+    "https://www.w3.org/TR/COWL/": {
+      "comment": "no longer worked on"
+    },
+    "https://www.w3.org/TR/webpayments-http-messages/": {
+      "comment": "not intended for browsers"
     }
   }
 }

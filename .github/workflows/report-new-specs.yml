@@ -1,8 +1,6 @@
 name: Report new specs
 
 on:
-  push:
-    branches: auto-report-new-specs
   schedule:
     - cron: '0 0 * * 1'
 jobs:

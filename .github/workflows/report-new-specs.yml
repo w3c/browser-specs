@@ -1,0 +1,22 @@
+name: Report new specs
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+jobs:
+  find-specs:
+    name: Find potential new specs
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: npm install
+    - run: node src/find-specs.js # sets candidate_list env variable
+    - uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: .github/candidate-specs.md

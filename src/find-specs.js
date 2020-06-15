@@ -122,7 +122,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
   const candidate_list = candidates.sort((c1, c2) => c1.spec.localeCompare(c2.spec))
-        .map(c => `- [ ] ${c.spec} from ${c.repo}`).join("\n");
+        .map(c => `- [ ] ${c.spec} from [${c.repo}](https://github.com/${c.repo})`).join("\n");
   core.exportVariable("candidate_list", candidate_list);
   console.log(candidate_list);
 })().catch(e => {

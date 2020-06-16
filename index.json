@@ -729,6 +729,20 @@
     "source": "spec"
   },
   {
+    "url": "https://wicg.github.io/change-password-url/",
+    "seriesComposition": "full",
+    "shortname": "change-password-url",
+    "series": {
+      "shortname": "change-password-url",
+      "currentSpecification": "change-password-url"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/change-password-url/"
+    },
+    "title": "A Well-Known URL for Changing Passwords",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/client-hints-infrastructure/",
     "seriesComposition": "full",
     "shortname": "client-hints-infrastructure",
@@ -813,6 +827,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/crash-reporting/",
+    "seriesComposition": "full",
+    "shortname": "crash-reporting",
+    "series": {
+      "shortname": "crash-reporting",
+      "currentSpecification": "crash-reporting"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/crash-reporting/"
+    },
+    "title": "Crash Reporting",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/css-parser-api/",
     "seriesComposition": "full",
     "shortname": "css-parser-api",
@@ -825,6 +853,20 @@
     },
     "title": "CSS Parser API",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/deprecation-reporting/",
+    "seriesComposition": "full",
+    "shortname": "deprecation-reporting",
+    "series": {
+      "shortname": "deprecation-reporting",
+      "currentSpecification": "deprecation-reporting"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/deprecation-reporting/"
+    },
+    "title": "Deprecation Reporting",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/element-timing/",
@@ -923,6 +965,20 @@
     },
     "title": "Input Device Capabilities",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/intervention-reporting/",
+    "seriesComposition": "full",
+    "shortname": "intervention-reporting",
+    "series": {
+      "shortname": "intervention-reporting",
+      "currentSpecification": "intervention-reporting"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/intervention-reporting/"
+    },
+    "title": "Intervention Reporting",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/js-self-profiling/",
@@ -1205,6 +1261,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/ua-client-hints/",
+    "seriesComposition": "full",
+    "shortname": "ua-client-hints",
+    "series": {
+      "shortname": "ua-client-hints",
+      "currentSpecification": "ua-client-hints"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/ua-client-hints/"
+    },
+    "title": "User-Agent Client Hints",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/video-rvfc/",
     "seriesComposition": "full",
     "shortname": "video-rvfc",
@@ -1245,6 +1315,20 @@
     },
     "title": "Web Locks API",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/web-otp/",
+    "seriesComposition": "full",
+    "shortname": "web-otp",
+    "series": {
+      "shortname": "web-otp",
+      "currentSpecification": "web-otp"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/web-otp/"
+    },
+    "title": "Web OTP API",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/web-transport/",

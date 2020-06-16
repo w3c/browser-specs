@@ -41,7 +41,6 @@
   "https://w3c.github.io/contentEditable/",
   "https://w3c.github.io/gamepad/extensions.html",
   "https://w3c.github.io/media-playback-quality/",
-  "https://w3c.github.io/mediacapture-depth/",
   {
     "url": "https://w3c.github.io/ServiceWorker/",
     "shortname": "service-workers",

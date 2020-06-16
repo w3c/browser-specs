@@ -74,6 +74,8 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json())
         .then(d => d.workstreams.map(w => { return {...w.standards[0], id: w.id}; }));
 
+  const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
+
   const wgs = Object.values(groups).filter(g => g.type === "working group" && !nonBrowserSpecWgs.includes(g.name));
   const cgs = Object.values(groups).filter(g => g.type === "community group" && watchedBrowserCgs.includes(g.name));
 
@@ -131,8 +133,9 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   candidates = candidates.concat(whatwgSpecs.map(s => { return {repo: `whatwg/${s.id}`, spec: s.href};})
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
+  candidates = candidates.map(c => { return {...c, impl: { chrome: (chromeFeatures.find(f => f.standards.spec && f.standards.spec.startsWith(c.spec)) || {}).id}};});
   const candidate_list = candidates.sort((c1, c2) => c1.spec.localeCompare(c2.spec))
-        .map(c => `- [ ] ${c.spec} from [${c.repo}](https://github.com/${c.repo})`).join("\n");
+        .map(c => `- [ ] ${c.spec} from [${c.repo}](https://github.com/${c.repo})` + (c.impl.chrome ? ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` : '')).join("\n");
   core.exportVariable("candidate_list", candidate_list);
   console.log(candidate_list);
 })().catch(e => {

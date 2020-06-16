@@ -125,6 +125,12 @@
     "https://www.w3.org/TR/webpayments-http-messages/": {
       "comment": "not intended for browsers"
     },
+    "https://w3c.github.io/svgwg/": {
+      "comment": "not a spec; draft URLs on svgwg.org"
+    },
+    "https://w3c.github.io/editing/": {
+      "comment": "not a spec, but pointers to some"
+    },
     "https://privacycg.github.io/storage-partitioning/": {
       "comment": "not a spec, but pointers to spec work"
     },

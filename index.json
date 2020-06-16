@@ -617,23 +617,6 @@
     "source": "specref"
   },
   {
-    "url": "https://w3c.github.io/mediacapture-depth/",
-    "seriesComposition": "full",
-    "shortname": "mediacapture-depth",
-    "series": {
-      "shortname": "mediacapture-depth",
-      "currentSpecification": "mediacapture-depth"
-    },
-    "release": {
-      "url": "https://www.w3.org/TR/mediacapture-depth/"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-depth/"
-    },
-    "title": "Media Capture Depth Stream Extensions",
-    "source": "w3c"
-  },
-  {
     "url": "https://w3c.github.io/ServiceWorker/",
     "seriesComposition": "full",
     "shortname": "service-workers",

@@ -32,6 +32,8 @@
   "https://mathml-refresh.github.io/mathml-core/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",
+  "https://privacycg.github.io/private-click-measurement/",
+  "https://privacycg.github.io/storage-access/",
   "https://quirks.spec.whatwg.org/",
   "https://storage.spec.whatwg.org/",
   "https://streams.spec.whatwg.org/",

@@ -3404,6 +3404,42 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/graphics-aam-1.0/",
+    "seriesComposition": "full",
+    "shortname": "graphics-aam-1.0",
+    "series": {
+      "shortname": "graphics-aam",
+      "currentSpecification": "graphics-aam-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/graphics-aam-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/graphics-aam/"
+    },
+    "title": "Graphics Accessibility API Mappings",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/graphics-aria-1.0/",
+    "seriesComposition": "full",
+    "shortname": "graphics-aria-1.0",
+    "series": {
+      "shortname": "graphics-aria",
+      "currentSpecification": "graphics-aria-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/graphics-aria-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/graphics-aria/"
+    },
+    "title": "WAI-ARIA Graphics Module",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/gyroscope/",
     "seriesComposition": "full",
     "shortname": "gyroscope",
@@ -3436,6 +3472,41 @@
       "url": "https://w3c.github.io/hr-time/"
     },
     "title": "High Resolution Time Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/html-aam-1.0/",
+    "seriesComposition": "full",
+    "shortname": "html-aam-1.0",
+    "series": {
+      "shortname": "html-aam",
+      "currentSpecification": "html-aam-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/html-aam-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/html-aam/"
+    },
+    "title": "HTML Accessibility API Mappings 1.0",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/html-aria/",
+    "seriesComposition": "full",
+    "shortname": "html-aria",
+    "series": {
+      "shortname": "html-aria",
+      "currentSpecification": "html-aria"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/html-aria/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/html-aria/"
+    },
+    "title": "ARIA in HTML",
     "source": "w3c"
   },
   {
@@ -4411,6 +4482,24 @@
       "url": "https://w3c.github.io/webappsec-subresource-integrity/"
     },
     "title": "Subresource Integrity",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/svg-aam-1.0/",
+    "seriesComposition": "full",
+    "shortname": "svg-aam-1.0",
+    "series": {
+      "shortname": "svg-aam",
+      "currentSpecification": "svg-aam-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/svg-aam-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/svg-aam/"
+    },
+    "title": "SVG Accessibility API Mappings",
     "source": "w3c"
   },
   {

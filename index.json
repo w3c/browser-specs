@@ -379,6 +379,34 @@
     "source": "specref"
   },
   {
+    "url": "https://immersive-web.github.io/anchors/",
+    "seriesComposition": "full",
+    "shortname": "anchors",
+    "series": {
+      "shortname": "anchors",
+      "currentSpecification": "anchors"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/anchors/"
+    },
+    "title": "WebXR Anchors Module",
+    "source": "spec"
+  },
+  {
+    "url": "https://immersive-web.github.io/dom-overlays/",
+    "seriesComposition": "full",
+    "shortname": "dom-overlays",
+    "series": {
+      "shortname": "dom-overlays",
+      "currentSpecification": "dom-overlays"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/dom-overlays/"
+    },
+    "title": "WebXR DOM Overlays Module",
+    "source": "spec"
+  },
+  {
     "url": "https://immersive-web.github.io/hit-test/",
     "seriesComposition": "full",
     "shortname": "hit-test",
@@ -390,6 +418,20 @@
       "url": "https://immersive-web.github.io/hit-test/"
     },
     "title": "WebXR Hit Test Module",
+    "source": "spec"
+  },
+  {
+    "url": "https://immersive-web.github.io/layers/",
+    "seriesComposition": "full",
+    "shortname": "layers",
+    "series": {
+      "shortname": "layers",
+      "currentSpecification": "layers"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/layers/"
+    },
+    "title": "WebXR Layers API Level 1",
     "source": "spec"
   },
   {

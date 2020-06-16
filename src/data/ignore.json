@@ -78,9 +78,6 @@
     "w3c/dpub-aam": {
       "comment": "not targeting browsers but epub readers"
     },
-    "w3c/openscreenprotocol": {
-      "comment": "Protocol layer"
-    },
     "WICG/controls-list": {
       "comment": "aimed toward HTML LS  https://github.com/whatwg/html/pull/2426"
     },

@@ -38,5 +38,9 @@
   "WICG/virtual-scroller": {
     "comment": "no spec yet",
     "lastreviewed": "2020-06-11"
+  },
+  "w3c/openscreenprotocol": {
+    "comment": "At some point, the mapping between the API and the protocol could move to the API, but right now it is done in the protocol spec.",
+    "lastreviewed": "2020-06-16"
   }
 }

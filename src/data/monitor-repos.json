@@ -39,6 +39,10 @@
     "comment": "no spec yet",
     "lastreviewed": "2020-06-11"
   },
+  "w3c/webrtc-extensions": {
+    "comment": "a kitchen-sink delta spec for now - might lead to a new integrated webrtc NV spec",
+    "lastreviewed": "2020-06-16"
+  },
   "WICG/webmonetization": {
     "comment": "Early exploration phase; spec at https://webmonetization.org/specification.html",
     "lastreviewed": "2020-06-16"

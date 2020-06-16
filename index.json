@@ -491,6 +491,34 @@
     "source": "specref"
   },
   {
+    "url": "https://privacycg.github.io/private-click-measurement/",
+    "seriesComposition": "full",
+    "shortname": "private-click-measurement",
+    "series": {
+      "shortname": "private-click-measurement",
+      "currentSpecification": "private-click-measurement"
+    },
+    "nightly": {
+      "url": "https://privacycg.github.io/private-click-measurement/"
+    },
+    "title": "Private Click Measurement",
+    "source": "spec"
+  },
+  {
+    "url": "https://privacycg.github.io/storage-access/",
+    "seriesComposition": "full",
+    "shortname": "storage-access",
+    "series": {
+      "shortname": "storage-access",
+      "currentSpecification": "storage-access"
+    },
+    "nightly": {
+      "url": "https://privacycg.github.io/storage-access/"
+    },
+    "title": "The Storage Access API",
+    "source": "spec"
+  },
+  {
     "url": "https://quirks.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "quirks",

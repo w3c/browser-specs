@@ -75,6 +75,24 @@
     "w3c/webappsec-uisecurity": {
       "comment": "no longer worked on"
     },
+    "w3c/dpub-aam": {
+      "comment": "not targeting browsers but epub readers"
+    },
+    "WICG/controls-list": {
+      "comment": "aimed toward HTML LS  https://github.com/whatwg/html/pull/2426"
+    },
+    "WICG/cross-origin-embedder-policy": {
+      "comment": "aimed toward integration in other specs - see https://github.com/whatwg/html/pull/5454"
+    },
+    "WICG/inert": {
+      "comment": "aimed toward HTML LS https://github.com/whatwg/html/pull/4288"
+    },
+    "WICG/devtools-protocol": {
+      "comment": "browser devtool protocol"
+    },
+    "WICG/focus-visible": {
+      "comment": "Integrated in CSS Selectors 4"
+    },
     "w3c/webrtc-provisional-stats": {
       "comment": "pre-landing spec for proposals - actual stats gets integrated into webrtc-stats"
     }
@@ -106,6 +124,21 @@
     },
     "https://www.w3.org/TR/webpayments-http-messages/": {
       "comment": "not intended for browsers"
+    },
+    "https://svgwg.org/specs/transform/": {
+      "comment": "describe usage outside of browsers/SVG"
+    },
+    "https://webgpu.io/": {
+      "comment": "Not a spec"
+    },
+    "https://wicg.github.io/aom/spec/custom-element-semantics.html": {
+      "comment": "aimed toward HTML LS via https://whatpr.org/html/4658/custom-elements.html#native-accessibility-semantics-map"
+    },
+    "https://wicg.github.io/aom/spec/aria-reflection.html": {
+      "comment": "aimed toward HTML LS via  https://whatpr.org/html/3917/common-dom-interfaces.html#reflecting-content-attributes-in-idl-attributes:element"
+    },
+    "https://www.w3.org/TR/html-imports/": {
+      "comment": "deprecated e.g. in Chrome https://www.chromestatus.com/features/5144752345317376"
     }
   }
 }

@@ -74,6 +74,9 @@
     },
     "w3c/webappsec-uisecurity": {
       "comment": "no longer worked on"
+    },
+    "w3c/dpub-aam": {
+      "comment": "not targeting browsers but epub readers"
     }
   },
   "specs": {

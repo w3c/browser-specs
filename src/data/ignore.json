@@ -80,6 +80,9 @@
     }
   },
   "specs": {
+    "https://svgwg.org/specs/streaming/": {
+      "comment": "early proposal with no current active work"
+    },
     "https://www.w3.org/TR/ttml-imsc1.2/": {
       "comment": "not targeted at browsers"
     },

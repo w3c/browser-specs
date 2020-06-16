@@ -48,7 +48,7 @@
     "lastreviewed": "2020-06-16"
   },
   "WICG/container-queries": {
-    "comment": "Like candidate for ignoring - see archival discussion at https://github.com/WICG/container-queries/issues/14",
+    "comment": "Likely candidate for ignoring - see archival discussion at https://github.com/WICG/container-queries/issues/14",
     "lastreviewed": "2020-06-16"
   },
   "WICG/conversion-measurement-api": {

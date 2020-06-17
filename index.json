@@ -99,7 +99,7 @@
     "seriesVersion": "4",
     "seriesPrevious": "css-backgrounds-3",
     "nightly": {
-      "url": "https://drafts.csswg.org/css4-background/"
+      "url": "https://drafts.csswg.org/css-backgrounds-4/"
     },
     "title": "CSS Backgrounds and Borders Module Level 4",
     "source": "specref"

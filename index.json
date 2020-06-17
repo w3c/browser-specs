@@ -855,6 +855,20 @@
     "source": "spec"
   },
   {
+    "url": "https://wicg.github.io/content-index/spec/",
+    "seriesComposition": "full",
+    "shortname": "content-index",
+    "series": {
+      "shortname": "content-index",
+      "currentSpecification": "content-index"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/content-index/spec/"
+    },
+    "title": "Content Index",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/cookie-store/",
     "seriesComposition": "full",
     "shortname": "cookie-store",
@@ -909,6 +923,20 @@
     },
     "title": "CSS Parser API",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/custom-state-pseudo-class/",
+    "seriesComposition": "full",
+    "shortname": "custom-state-pseudo-class",
+    "series": {
+      "shortname": "custom-state-pseudo-class",
+      "currentSpecification": "custom-state-pseudo-class"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/custom-state-pseudo-class/"
+    },
+    "title": "Custom State Pseudo Class",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/deprecation-reporting/",
@@ -1037,6 +1065,20 @@
     "source": "spec"
   },
   {
+    "url": "https://wicg.github.io/is-input-pending/",
+    "seriesComposition": "full",
+    "shortname": "is-input-pending",
+    "series": {
+      "shortname": "is-input-pending",
+      "currentSpecification": "is-input-pending"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/is-input-pending/"
+    },
+    "title": "isInputPending",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/js-self-profiling/",
     "seriesComposition": "full",
     "shortname": "js-self-profiling",
@@ -1107,6 +1149,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/local-font-access/",
+    "seriesComposition": "full",
+    "shortname": "local-font-access",
+    "series": {
+      "shortname": "local-font-access",
+      "currentSpecification": "local-font-access"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/local-font-access/"
+    },
+    "title": "Local Font Access API",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/media-feeds/",
     "seriesComposition": "full",
     "shortname": "media-feeds",
@@ -1161,6 +1217,20 @@
     },
     "title": "Origin Policy",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/overscroll-scrollend-events/",
+    "seriesComposition": "full",
+    "shortname": "overscroll-scrollend-events",
+    "series": {
+      "shortname": "overscroll-scrollend-events",
+      "currentSpecification": "overscroll-scrollend-events"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/overscroll-scrollend-events/"
+    },
+    "title": "overscroll and scrollend events",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/page-lifecycle/",
@@ -1245,6 +1315,20 @@
     },
     "title": "Priority Hints",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/savedata/",
+    "seriesComposition": "full",
+    "shortname": "savedata",
+    "series": {
+      "shortname": "savedata",
+      "currentSpecification": "savedata"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/savedata/"
+    },
+    "title": "Save Data API",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/scroll-to-text-fragment/",
@@ -1412,6 +1496,34 @@
       "url": "https://wicg.github.io/web-transport/"
     },
     "title": "WebTransport",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/webhid/",
+    "seriesComposition": "full",
+    "shortname": "webhid",
+    "series": {
+      "shortname": "webhid",
+      "currentSpecification": "webhid"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/webhid/"
+    },
+    "title": "WebHID API",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/webpackage/loading.html",
+    "seriesComposition": "full",
+    "shortname": "webpackage",
+    "series": {
+      "shortname": "webpackage",
+      "currentSpecification": "webpackage"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/webpackage/loading.html"
+    },
+    "title": "Loading Signed Exchanges",
     "source": "spec"
   },
   {

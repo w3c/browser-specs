@@ -71,11 +71,11 @@
     "comment": "Seems dormant, but not clear signal to that effect",
     "lastreviewed": "2020-06-17"
   },
-  "wicg/input-for-workers": {
+  "WICG/input-for-workers": {
     "comment": "no clear implementation plans?",
     "lastreviewed": "2020-06-17"
   },
-  "wicg/purification": {
+  "WICG/purification": {
     "comment": "no clear implementation plans?",
     "lastreviewed": "2020-06-17"
   },

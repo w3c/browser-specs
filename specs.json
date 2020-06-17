@@ -44,13 +44,6 @@
   "https://w3c.github.io/gamepad/extensions.html",
   "https://w3c.github.io/mathml-aam/",
   "https://w3c.github.io/media-playback-quality/",
-  {
-    "url": "https://w3c.github.io/ServiceWorker/",
-    "shortname": "service-workers",
-    "series": {
-      "shortname": "service-workers"
-    }
-  },
   "https://w3c.github.io/web-nfc/",
   "https://w3c.github.io/web-share-target/",
   "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
@@ -311,6 +304,12 @@
   "https://www.w3.org/TR/selectors-4/",
   "https://www.w3.org/TR/selectors-nonelement-1/",
   "https://www.w3.org/TR/server-timing/",
+  {
+    "url": "https://www.w3.org/TR/service-workers-1/",
+    "nightly": {
+      "url": "https://w3c.github.io/ServiceWorker/"
+    }
+  },
   "https://www.w3.org/TR/SRI/",
   "https://www.w3.org/TR/svg-aam-1.0/",
   "https://www.w3.org/TR/svg-integration/",

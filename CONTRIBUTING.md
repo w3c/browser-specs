@@ -61,6 +61,10 @@ property in `index.json`.
 - `seriesComposition`: same as the [`seriesVersion`](README.md#seriesversion)
 property in `index.json`. The property must only be set for delta spec (since
 full is the default).
+- `nightly`: same as the [`nightly`](REAMDE.md#nightly) property in
+`index.json`. The property must only be set when the URL of the nightly spec
+returned by external sources would be wrong **and** when it cannot be fixed at
+the source.
 - `forceCurrent`: a boolean flag to tell the code that the spec should be seen
 as the current spec in the series. The property must only be set when value is
 `true`.

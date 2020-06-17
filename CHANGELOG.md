@@ -4,6 +4,18 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.8.1](https://github.com/w3c/browser-specs/compare/1.8.0...1.8.1) - 2020-06-17
+
+
+### Merged
+
+- Update CSS Sizing 4 to use TR URL [`#104`](https://github.com/w3c/browser-specs/pull/104)
+
+
+### Commits
+
+- [data] Update spec info [`ae2c7d8`](https://github.com/w3c/browser-specs/commit/ae2c7d8367074ee2452ec07de653063e424f576a)
+
 ## [1.8.0](https://github.com/w3c/browser-specs/compare/1.7.0...1.8.0) - 2020-06-17
 
 

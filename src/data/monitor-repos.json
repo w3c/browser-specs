@@ -78,6 +78,10 @@
   "wicg/purification": {
     "comment": "no clear implementation plans?",
     "lastreviewed": "2020-06-17"
+  },
+  "immersive-web/webxr-test-api": {
+    "comment": "Exposes IDL not expected to be used in a regular browsing context; might still be OK to include once we get clarity out of https://github.com/w3c/webdriver/issues/1534",
+    "lastreviewed": "2020-06-17"
   }
 }
- 
+

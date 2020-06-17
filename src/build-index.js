@@ -52,10 +52,17 @@ const specs = require("../specs.json")
 
 
 // Fetch additional spec info from external sources and complete the list
+// Note on the "assign" call:
+// - `{}` is needed to avoid overriding spec
+// - `spec` appears first to impose the order of properties computed above in
+// the resulting object
+// - `specInfo[spec.shortname]` is the info we retrieved from the source
+// - final `spec` ensures that properties defined in specs.json override info
+// from the source.
 fetchInfo(specs, { w3cApiKey })
   .then(specInfo => {
     const index = specs
-      .map(spec => Object.assign(spec, specInfo[spec.shortname]));
+      .map(spec => Object.assign({}, spec, specInfo[spec.shortname], spec));
 
     // Return the resulting list
     console.log(JSON.stringify(index, null, 2));

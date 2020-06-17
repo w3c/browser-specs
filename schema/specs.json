@@ -17,6 +17,7 @@
           "series": { "$ref": "definitions.json#/proptype/series" },
           "seriesVersion": { "$ref": "definitions.json#/proptype/seriesVersion" },
           "seriesComposition": { "$ref": "definitions.json#/proptype/seriesComposition" },
+          "nightly": { "$ref": "definitions.json#/proptype/release" },
           "forceCurrent": { "type": "boolean" }
         },
         "required": ["url"],

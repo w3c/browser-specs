@@ -659,20 +659,6 @@
     "source": "specref"
   },
   {
-    "url": "https://w3c.github.io/ServiceWorker/",
-    "seriesComposition": "full",
-    "shortname": "service-workers",
-    "series": {
-      "shortname": "service-workers",
-      "currentSpecification": "service-workers"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/ServiceWorker/"
-    },
-    "title": "Service Workers 1",
-    "source": "specref"
-  },
-  {
     "url": "https://w3c.github.io/web-nfc/",
     "seriesComposition": "full",
     "shortname": "web-nfc",
@@ -4633,6 +4619,24 @@
       "url": "https://w3c.github.io/server-timing/"
     },
     "title": "Server Timing",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/service-workers-1/",
+    "seriesComposition": "full",
+    "shortname": "service-workers-1",
+    "series": {
+      "shortname": "service-workers",
+      "currentSpecification": "service-workers-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://w3c.github.io/ServiceWorker/"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/service-workers-1/"
+    },
+    "title": "Service Workers 1",
     "source": "w3c"
   },
   {

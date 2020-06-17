@@ -244,22 +244,6 @@
     "source": "spec"
   },
   {
-    "url": "https://drafts.csswg.org/css-sizing-4/",
-    "seriesComposition": "delta",
-    "shortname": "css-sizing-4",
-    "series": {
-      "shortname": "css-sizing",
-      "currentSpecification": "css-sizing-3"
-    },
-    "seriesVersion": "4",
-    "seriesPrevious": "css-sizing-3",
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-sizing-4/"
-    },
-    "title": "CSS Box Sizing Module Level 4",
-    "source": "specref"
-  },
-  {
     "url": "https://drafts.csswg.org/css-transitions-2/",
     "seriesComposition": "delta",
     "shortname": "css-transitions-2",
@@ -2920,6 +2904,25 @@
       "url": "https://drafts.csswg.org/css-sizing-3/"
     },
     "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-sizing-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-sizing-4",
+    "series": {
+      "shortname": "css-sizing",
+      "currentSpecification": "css-sizing-3"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-sizing-3",
+    "release": {
+      "url": "https://www.w3.org/TR/css-sizing-4/"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-sizing-4/"
+    },
+    "title": "CSS Box Sizing Module Level 4",
     "source": "w3c"
   },
   {

@@ -1121,6 +1121,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/media-feeds/",
+    "seriesComposition": "full",
+    "shortname": "media-feeds",
+    "series": {
+      "shortname": "media-feeds",
+      "currentSpecification": "media-feeds"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/media-feeds/"
+    },
+    "title": "Media Feeds",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/native-file-system/",
     "seriesComposition": "full",
     "shortname": "native-file-system",

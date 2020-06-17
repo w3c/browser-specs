@@ -99,7 +99,7 @@
     "seriesVersion": "4",
     "seriesPrevious": "css-backgrounds-3",
     "nightly": {
-      "url": "https://drafts.csswg.org/css4-background/"
+      "url": "https://drafts.csswg.org/css-backgrounds-4/"
     },
     "title": "CSS Backgrounds and Borders Module Level 4",
     "source": "specref"
@@ -491,6 +491,34 @@
     "source": "specref"
   },
   {
+    "url": "https://privacycg.github.io/private-click-measurement/",
+    "seriesComposition": "full",
+    "shortname": "private-click-measurement",
+    "series": {
+      "shortname": "private-click-measurement",
+      "currentSpecification": "private-click-measurement"
+    },
+    "nightly": {
+      "url": "https://privacycg.github.io/private-click-measurement/"
+    },
+    "title": "Private Click Measurement",
+    "source": "spec"
+  },
+  {
+    "url": "https://privacycg.github.io/storage-access/",
+    "seriesComposition": "full",
+    "shortname": "storage-access",
+    "series": {
+      "shortname": "storage-access",
+      "currentSpecification": "storage-access"
+    },
+    "nightly": {
+      "url": "https://privacycg.github.io/storage-access/"
+    },
+    "title": "The Storage Access API",
+    "source": "spec"
+  },
+  {
     "url": "https://quirks.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "quirks",
@@ -603,6 +631,20 @@
     "source": "spec"
   },
   {
+    "url": "https://w3c.github.io/mathml-aam/",
+    "seriesComposition": "full",
+    "shortname": "mathml-aam",
+    "series": {
+      "shortname": "mathml-aam",
+      "currentSpecification": "mathml-aam"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mathml-aam/"
+    },
+    "title": "MathML Accessiblity API Mappings 1.0",
+    "source": "spec"
+  },
+  {
     "url": "https://w3c.github.io/media-playback-quality/",
     "seriesComposition": "full",
     "shortname": "media-playback-quality",
@@ -614,20 +656,6 @@
       "url": "https://w3c.github.io/media-playback-quality/"
     },
     "title": "Media Playback Quality",
-    "source": "specref"
-  },
-  {
-    "url": "https://w3c.github.io/ServiceWorker/",
-    "seriesComposition": "full",
-    "shortname": "service-workers",
-    "series": {
-      "shortname": "service-workers",
-      "currentSpecification": "service-workers"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/ServiceWorker/"
-    },
-    "title": "Service Workers 1",
     "source": "specref"
   },
   {
@@ -671,6 +699,34 @@
     },
     "title": "Trusted Types",
     "source": "specref"
+  },
+  {
+    "url": "https://w3c.github.io/webdriver-bidi/",
+    "seriesComposition": "full",
+    "shortname": "webdriver-bidi",
+    "series": {
+      "shortname": "webdriver-bidi",
+      "currentSpecification": "webdriver-bidi"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webdriver-bidi/"
+    },
+    "title": "WebDriver BiDi",
+    "source": "spec"
+  },
+  {
+    "url": "https://w3c.github.io/webrtc-ice/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-ice",
+    "series": {
+      "shortname": "webrtc-ice",
+      "currentSpecification": "webrtc-ice"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-ice/"
+    },
+    "title": "IceTransport Extensions for WebRTC",
+    "source": "spec"
   },
   {
     "url": "https://w3c.github.io/webrtc-insertable-streams/",
@@ -726,6 +782,20 @@
       "url": "https://wicg.github.io/background-sync/spec/"
     },
     "title": "Web Background Synchronization",
+    "source": "spec"
+  },
+  {
+    "url": "https://wicg.github.io/change-password-url/",
+    "seriesComposition": "full",
+    "shortname": "change-password-url",
+    "series": {
+      "shortname": "change-password-url",
+      "currentSpecification": "change-password-url"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/change-password-url/"
+    },
+    "title": "A Well-Known URL for Changing Passwords",
     "source": "spec"
   },
   {
@@ -813,6 +883,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/crash-reporting/",
+    "seriesComposition": "full",
+    "shortname": "crash-reporting",
+    "series": {
+      "shortname": "crash-reporting",
+      "currentSpecification": "crash-reporting"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/crash-reporting/"
+    },
+    "title": "Crash Reporting",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/css-parser-api/",
     "seriesComposition": "full",
     "shortname": "css-parser-api",
@@ -825,6 +909,20 @@
     },
     "title": "CSS Parser API",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/deprecation-reporting/",
+    "seriesComposition": "full",
+    "shortname": "deprecation-reporting",
+    "series": {
+      "shortname": "deprecation-reporting",
+      "currentSpecification": "deprecation-reporting"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/deprecation-reporting/"
+    },
+    "title": "Deprecation Reporting",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/element-timing/",
@@ -925,6 +1023,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/intervention-reporting/",
+    "seriesComposition": "full",
+    "shortname": "intervention-reporting",
+    "series": {
+      "shortname": "intervention-reporting",
+      "currentSpecification": "intervention-reporting"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/intervention-reporting/"
+    },
+    "title": "Intervention Reporting",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/js-self-profiling/",
     "seriesComposition": "full",
     "shortname": "js-self-profiling",
@@ -993,6 +1105,20 @@
     },
     "title": "Layout Instability",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/media-feeds/",
+    "seriesComposition": "full",
+    "shortname": "media-feeds",
+    "series": {
+      "shortname": "media-feeds",
+      "currentSpecification": "media-feeds"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/media-feeds/"
+    },
+    "title": "Media Feeds",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/native-file-system/",
@@ -1205,6 +1331,20 @@
     "source": "specref"
   },
   {
+    "url": "https://wicg.github.io/ua-client-hints/",
+    "seriesComposition": "full",
+    "shortname": "ua-client-hints",
+    "series": {
+      "shortname": "ua-client-hints",
+      "currentSpecification": "ua-client-hints"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/ua-client-hints/"
+    },
+    "title": "User-Agent Client Hints",
+    "source": "spec"
+  },
+  {
     "url": "https://wicg.github.io/video-rvfc/",
     "seriesComposition": "full",
     "shortname": "video-rvfc",
@@ -1245,6 +1385,20 @@
     },
     "title": "Web Locks API",
     "source": "specref"
+  },
+  {
+    "url": "https://wicg.github.io/web-otp/",
+    "seriesComposition": "full",
+    "shortname": "web-otp",
+    "series": {
+      "shortname": "web-otp",
+      "currentSpecification": "web-otp"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/web-otp/"
+    },
+    "title": "Web OTP API",
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/web-transport/",
@@ -3404,6 +3558,42 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/graphics-aam-1.0/",
+    "seriesComposition": "full",
+    "shortname": "graphics-aam-1.0",
+    "series": {
+      "shortname": "graphics-aam",
+      "currentSpecification": "graphics-aam-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/graphics-aam-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/graphics-aam/"
+    },
+    "title": "Graphics Accessibility API Mappings",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/graphics-aria-1.0/",
+    "seriesComposition": "full",
+    "shortname": "graphics-aria-1.0",
+    "series": {
+      "shortname": "graphics-aria",
+      "currentSpecification": "graphics-aria-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/graphics-aria-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/graphics-aria/"
+    },
+    "title": "WAI-ARIA Graphics Module",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/gyroscope/",
     "seriesComposition": "full",
     "shortname": "gyroscope",
@@ -3436,6 +3626,41 @@
       "url": "https://w3c.github.io/hr-time/"
     },
     "title": "High Resolution Time Level 3",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/html-aam-1.0/",
+    "seriesComposition": "full",
+    "shortname": "html-aam-1.0",
+    "series": {
+      "shortname": "html-aam",
+      "currentSpecification": "html-aam-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/html-aam-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/html-aam/"
+    },
+    "title": "HTML Accessibility API Mappings 1.0",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/html-aria/",
+    "seriesComposition": "full",
+    "shortname": "html-aria",
+    "series": {
+      "shortname": "html-aria",
+      "currentSpecification": "html-aria"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/html-aria/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/html-aria/"
+    },
+    "title": "ARIA in HTML",
     "source": "w3c"
   },
   {
@@ -4397,6 +4622,24 @@
     "source": "w3c"
   },
   {
+    "url": "https://www.w3.org/TR/service-workers-1/",
+    "seriesComposition": "full",
+    "shortname": "service-workers-1",
+    "series": {
+      "shortname": "service-workers",
+      "currentSpecification": "service-workers-1"
+    },
+    "seriesVersion": "1",
+    "nightly": {
+      "url": "https://w3c.github.io/ServiceWorker/"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/service-workers-1/"
+    },
+    "title": "Service Workers 1",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/SRI/",
     "seriesComposition": "full",
     "shortname": "SRI",
@@ -4411,6 +4654,24 @@
       "url": "https://w3c.github.io/webappsec-subresource-integrity/"
     },
     "title": "Subresource Integrity",
+    "source": "w3c"
+  },
+  {
+    "url": "https://www.w3.org/TR/svg-aam-1.0/",
+    "seriesComposition": "full",
+    "shortname": "svg-aam-1.0",
+    "series": {
+      "shortname": "svg-aam",
+      "currentSpecification": "svg-aam-1.0"
+    },
+    "seriesVersion": "1.0",
+    "release": {
+      "url": "https://www.w3.org/TR/svg-aam-1.0/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/svg-aam/"
+    },
+    "title": "SVG Accessibility API Mappings",
     "source": "w3c"
   },
   {

@@ -38,5 +38,50 @@
   "WICG/virtual-scroller": {
     "comment": "no spec yet",
     "lastreviewed": "2020-06-11"
+  },
+  "w3c/openscreenprotocol": {
+    "comment": "At some point, the mapping between the API and the protocol could move to the API, but right now it is done in the protocol spec.",
+    "lastreviewed": "2020-06-16"
+  },
+  "w3c/webrtc-extensions": {
+    "comment": "a kitchen-sink delta spec for now - might lead to a new integrated webrtc NV spec",
+    "lastreviewed": "2020-06-16"
+  },
+  "WICG/webmonetization": {
+    "comment": "Early exploration phase; spec at https://webmonetization.org/specification.html",
+    "lastreviewed": "2020-06-16"
+  },
+  "WICG/aom": {
+    "comment": "Specs at https://wicg.github.io/aom/spec/computed-accessibility-tree.html https://wicg.github.io/aom/spec/virtual-accessibility-nodes.html https://wicg.github.io/aom/spec/input-events.html in their very early stage of definition",
+    "lastreviewed": "2020-06-16"
+  },
+  "WICG/container-queries": {
+    "comment": "Likely candidate for ignoring - see archival discussion at https://github.com/WICG/container-queries/issues/14",
+    "lastreviewed": "2020-06-16"
+  },
+  "WICG/conversion-measurement-api": {
+    "comment": "spec still full of TODOs",
+    "lastreviewed": "2020-06-16"
+  },
+  "WICG/display-locking": {
+    "comment": "Currently redirects to CSS spec, but with change expected in July 2020?",
+    "lastreviewed": "2020-06-16"
+  },
+  "w3c/webappsec-suborigins": {
+    "comment": "Seems dormant, but not clear signal to that effect",
+    "lastreviewed": "2020-06-17"
+  },
+  "WICG/input-for-workers": {
+    "comment": "no clear implementation plans?",
+    "lastreviewed": "2020-06-17"
+  },
+  "WICG/purification": {
+    "comment": "no clear implementation plans?",
+    "lastreviewed": "2020-06-17"
+  },
+  "immersive-web/webxr-test-api": {
+    "comment": "Exposes IDL not expected to be used in a regular browsing context; might still be OK to include once we get clarity out of https://github.com/w3c/webdriver/issues/1534",
+    "lastreviewed": "2020-06-17"
   }
 }
+

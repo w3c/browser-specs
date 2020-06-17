@@ -4,6 +4,39 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.7.0](https://github.com/w3c/browser-specs/compare/1.6.0...1.7.0) - 2020-06-17
+
+
+### Merged
+
+- Ignore generated URLs that aren't specs [`#91`](https://github.com/w3c/browser-specs/pull/91)
+- Adding storage access and private click measurement as specs  [`#90`](https://github.com/w3c/browser-specs/pull/90)
+- Drop MediaStream Depth ED URL [`#92`](https://github.com/w3c/browser-specs/pull/92)
+- Add MediaStream Depth to list of specs [`#89`](https://github.com/w3c/browser-specs/pull/89)
+- Ignore specs not relevant to the scope of browser-specs  [`#82`](https://github.com/w3c/browser-specs/pull/82)
+- Move SVG Streaming to ignore list  [`#85`](https://github.com/w3c/browser-specs/pull/85)
+- Document status of a few WebRTC repos (incl addition of webrtc-ice) [`#88`](https://github.com/w3c/browser-specs/pull/88)
+- Add WICG specs with shipping implementations [`#86`](https://github.com/w3c/browser-specs/pull/86)
+- Add repositories for monitoring [`#83`](https://github.com/w3c/browser-specs/pull/83)
+- Add ARIA specs [`#84`](https://github.com/w3c/browser-specs/pull/84)
+- Link to Chrome status entry for found specs (if any) [`#80`](https://github.com/w3c/browser-specs/pull/80)
+- Add specs listed in the latest Immersive Web Working Group charter [`#81`](https://github.com/w3c/browser-specs/pull/81)
+- Annotate a few specs that are no longer worked on [`#79`](https://github.com/w3c/browser-specs/pull/79)
+- Ignore TR specs from older versions of a given series [`#78`](https://github.com/w3c/browser-specs/pull/78)
+- Report specs found as candidates as github issue [`#76`](https://github.com/w3c/browser-specs/pull/76)
+
+
+### Commits
+
+- [data] Update spec info [`667b343`](https://github.com/w3c/browser-specs/commit/667b343d3e958498eca4b0c0b6b0621ef5429ada)
+- [data] Update spec info [`f6e27bd`](https://github.com/w3c/browser-specs/commit/f6e27bdda266d527b07efde21f8f71779562e7d1)
+- [data] Update spec info [`cd65004`](https://github.com/w3c/browser-specs/commit/cd65004f64e540f28bb1973c6dd2bf8096fe5a36)
+- [data] Update spec info [`f6dc04c`](https://github.com/w3c/browser-specs/commit/f6dc04c722fdfab77d78e26c820e9f2dae89e546)
+- [data] Update spec info [`00a8676`](https://github.com/w3c/browser-specs/commit/00a8676229e2db7a1865bbfdb410dd9ee50b5f7b)
+- [data] Update spec info [`7faf125`](https://github.com/w3c/browser-specs/commit/7faf125d1547743c30f17678566fb128d53c78ec)
+- [data] Update spec info [`6f3a8b9`](https://github.com/w3c/browser-specs/commit/6f3a8b9589a6a4fbeecd5cf664054beedac45088)
+- [data] Update spec info [`8056507`](https://github.com/w3c/browser-specs/commit/8056507ace000384e371df6d75e50bf0bd00a9b8)
+
 ## [1.6.0](https://github.com/w3c/browser-specs/compare/1.5.1...1.6.0) - 2020-06-12
 
 

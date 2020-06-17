@@ -631,6 +631,20 @@
     "source": "spec"
   },
   {
+    "url": "https://w3c.github.io/mathml-aam/",
+    "seriesComposition": "full",
+    "shortname": "mathml-aam",
+    "series": {
+      "shortname": "mathml-aam",
+      "currentSpecification": "mathml-aam"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mathml-aam/"
+    },
+    "title": "MathML Accessiblity API Mappings 1.0",
+    "source": "spec"
+  },
+  {
     "url": "https://w3c.github.io/media-playback-quality/",
     "seriesComposition": "full",
     "shortname": "media-playback-quality",
@@ -699,6 +713,20 @@
     },
     "title": "Trusted Types",
     "source": "specref"
+  },
+  {
+    "url": "https://w3c.github.io/webdriver-bidi/",
+    "seriesComposition": "full",
+    "shortname": "webdriver-bidi",
+    "series": {
+      "shortname": "webdriver-bidi",
+      "currentSpecification": "webdriver-bidi"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webdriver-bidi/"
+    },
+    "title": "WebDriver BiDi",
+    "source": "spec"
   },
   {
     "url": "https://w3c.github.io/webrtc-ice/",

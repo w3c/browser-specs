@@ -8,7 +8,8 @@
       "currentSpecification": "compat"
     },
     "nightly": {
-      "url": "https://compat.spec.whatwg.org/"
+      "url": "https://compat.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/compat"
     },
     "title": "Compatibility Standard",
     "source": "specref"
@@ -22,7 +23,8 @@
       "currentSpecification": "console"
     },
     "nightly": {
-      "url": "https://console.spec.whatwg.org/"
+      "url": "https://console.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/console"
     },
     "title": "Console Standard",
     "source": "specref"
@@ -36,7 +38,8 @@
       "currentSpecification": "dom"
     },
     "nightly": {
-      "url": "https://dom.spec.whatwg.org/"
+      "url": "https://dom.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/dom"
     },
     "title": "DOM Standard",
     "source": "specref"
@@ -52,7 +55,8 @@
     "seriesVersion": "2",
     "seriesPrevious": "css-typed-om-1",
     "nightly": {
-      "url": "https://drafts.css-houdini.org/css-typed-om-2/"
+      "url": "https://drafts.css-houdini.org/css-typed-om-2/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "CSS Typed OM Level 2",
     "source": "spec"
@@ -67,7 +71,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.css-houdini.org/font-metrics-api-1/"
+      "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "Font Metrics API Level 1",
     "source": "spec"
@@ -83,7 +88,8 @@
     "seriesVersion": "2",
     "seriesPrevious": "css-animations-1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-animations-2/"
+      "url": "https://drafts.csswg.org/css-animations-2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Animations Level 2",
     "source": "spec"
@@ -99,7 +105,8 @@
     "seriesVersion": "4",
     "seriesPrevious": "css-backgrounds-3",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-backgrounds-4/"
+      "url": "https://drafts.csswg.org/css-backgrounds-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Backgrounds and Borders Module Level 4",
     "source": "specref"
@@ -114,7 +121,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-env-1/"
+      "url": "https://drafts.csswg.org/css-env-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Environment Variables Module Level 1",
     "source": "spec"
@@ -129,7 +137,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-extensions-1/"
+      "url": "https://drafts.csswg.org/css-extensions-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Extensions",
     "source": "spec"
@@ -145,7 +154,8 @@
     "seriesVersion": "4",
     "seriesPrevious": "css-gcpm-3",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-gcpm-4/"
+      "url": "https://drafts.csswg.org/css-gcpm-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Generated Content for Paged Media Module Level 4",
     "source": "spec"
@@ -160,7 +170,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-highlight-api-1/"
+      "url": "https://drafts.csswg.org/css-highlight-api-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Custom Highlight API Module Level 1",
     "source": "spec"
@@ -176,7 +187,8 @@
     "seriesVersion": "2",
     "seriesPrevious": "css-multicol-1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-multicol-2/"
+      "url": "https://drafts.csswg.org/css-multicol-2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Multi-column Layout Module Level 2",
     "source": "spec"
@@ -191,7 +203,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-nesting-1/"
+      "url": "https://drafts.csswg.org/css-nesting-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Nesting Module",
     "source": "spec"
@@ -207,7 +220,8 @@
     "seriesVersion": "4",
     "seriesPrevious": "css-page-3",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-page-4/"
+      "url": "https://drafts.csswg.org/css-page-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Proposals for the future of CSS Paged Media",
     "source": "spec"
@@ -223,7 +237,8 @@
     "seriesVersion": "2",
     "seriesPrevious": "css-shapes-1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-shapes-2/"
+      "url": "https://drafts.csswg.org/css-shapes-2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Shapes Module Level 2",
     "source": "spec"
@@ -238,7 +253,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-size-adjust-1/"
+      "url": "https://drafts.csswg.org/css-size-adjust-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Mobile Text Size Adjustment Module Level 1",
     "source": "spec"
@@ -254,7 +270,8 @@
     "seriesVersion": "2",
     "seriesPrevious": "css-transitions-1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-transitions-2/"
+      "url": "https://drafts.csswg.org/css-transitions-2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Transitions Level 2",
     "source": "spec"
@@ -269,7 +286,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.csswg.org/scroll-animations-1/"
+      "url": "https://drafts.csswg.org/scroll-animations-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Scroll-linked Animations",
     "source": "spec"
@@ -285,7 +303,8 @@
     "seriesVersion": "2",
     "seriesPrevious": "compositing-1",
     "nightly": {
-      "url": "https://drafts.fxtf.org/compositing-2/"
+      "url": "https://drafts.fxtf.org/compositing-2/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Compositing and Blending Level 2",
     "source": "spec"
@@ -301,7 +320,8 @@
     "seriesVersion": "2",
     "seriesPrevious": "filter-effects-1",
     "nightly": {
-      "url": "https://drafts.fxtf.org/filter-effects-2/"
+      "url": "https://drafts.fxtf.org/filter-effects-2/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Filter Effects Module Level 2",
     "source": "spec"
@@ -315,7 +335,8 @@
       "currentSpecification": "fetch"
     },
     "nightly": {
-      "url": "https://fetch.spec.whatwg.org/"
+      "url": "https://fetch.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/fetch"
     },
     "title": "Fetch Standard",
     "source": "specref"
@@ -329,7 +350,8 @@
       "currentSpecification": "fullscreen"
     },
     "nightly": {
-      "url": "https://fullscreen.spec.whatwg.org/"
+      "url": "https://fullscreen.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/fullscreen"
     },
     "title": "Fullscreen API Standard",
     "source": "specref"
@@ -343,7 +365,8 @@
       "currentSpecification": "gpuweb"
     },
     "nightly": {
-      "url": "https://gpuweb.github.io/gpuweb/"
+      "url": "https://gpuweb.github.io/gpuweb/",
+      "repository": "https://github.com/gpuweb/gpuweb"
     },
     "title": "WebGPU",
     "source": "spec"
@@ -357,7 +380,8 @@
       "currentSpecification": "html"
     },
     "nightly": {
-      "url": "https://html.spec.whatwg.org/multipage/"
+      "url": "https://html.spec.whatwg.org/multipage/",
+      "repository": "https://github.com/whatwg/html"
     },
     "title": "HTML Standard",
     "source": "specref"
@@ -371,7 +395,8 @@
       "currentSpecification": "anchors"
     },
     "nightly": {
-      "url": "https://immersive-web.github.io/anchors/"
+      "url": "https://immersive-web.github.io/anchors/",
+      "repository": "https://github.com/immersive-web/anchors"
     },
     "title": "WebXR Anchors Module",
     "source": "spec"
@@ -385,7 +410,8 @@
       "currentSpecification": "dom-overlays"
     },
     "nightly": {
-      "url": "https://immersive-web.github.io/dom-overlays/"
+      "url": "https://immersive-web.github.io/dom-overlays/",
+      "repository": "https://github.com/immersive-web/dom-overlays"
     },
     "title": "WebXR DOM Overlays Module",
     "source": "spec"
@@ -399,7 +425,8 @@
       "currentSpecification": "hit-test"
     },
     "nightly": {
-      "url": "https://immersive-web.github.io/hit-test/"
+      "url": "https://immersive-web.github.io/hit-test/",
+      "repository": "https://github.com/immersive-web/hit-test"
     },
     "title": "WebXR Hit Test Module",
     "source": "spec"
@@ -413,7 +440,8 @@
       "currentSpecification": "layers"
     },
     "nightly": {
-      "url": "https://immersive-web.github.io/layers/"
+      "url": "https://immersive-web.github.io/layers/",
+      "repository": "https://github.com/immersive-web/layers"
     },
     "title": "WebXR Layers API Level 1",
     "source": "spec"
@@ -427,7 +455,8 @@
       "currentSpecification": "infra"
     },
     "nightly": {
-      "url": "https://infra.spec.whatwg.org/"
+      "url": "https://infra.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/infra"
     },
     "title": "Infra Standard",
     "source": "specref"
@@ -441,7 +470,8 @@
       "currentSpecification": "mathml-core"
     },
     "nightly": {
-      "url": "https://mathml-refresh.github.io/mathml-core/"
+      "url": "https://mathml-refresh.github.io/mathml-core/",
+      "repository": "https://github.com/mathml-refresh/mathml-core"
     },
     "title": "MathML Core",
     "source": "spec"
@@ -455,7 +485,8 @@
       "currentSpecification": "mimesniff"
     },
     "nightly": {
-      "url": "https://mimesniff.spec.whatwg.org/"
+      "url": "https://mimesniff.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/mimesniff"
     },
     "title": "MIME Sniffing Standard",
     "source": "specref"
@@ -469,7 +500,8 @@
       "currentSpecification": "notifications"
     },
     "nightly": {
-      "url": "https://notifications.spec.whatwg.org/"
+      "url": "https://notifications.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/notifications"
     },
     "title": "Notifications API Standard",
     "source": "specref"
@@ -483,7 +515,8 @@
       "currentSpecification": "private-click-measurement"
     },
     "nightly": {
-      "url": "https://privacycg.github.io/private-click-measurement/"
+      "url": "https://privacycg.github.io/private-click-measurement/",
+      "repository": "https://github.com/privacycg/private-click-measurement"
     },
     "title": "Private Click Measurement",
     "source": "spec"
@@ -497,7 +530,8 @@
       "currentSpecification": "storage-access"
     },
     "nightly": {
-      "url": "https://privacycg.github.io/storage-access/"
+      "url": "https://privacycg.github.io/storage-access/",
+      "repository": "https://github.com/privacycg/storage-access"
     },
     "title": "The Storage Access API",
     "source": "spec"
@@ -511,7 +545,8 @@
       "currentSpecification": "quirks"
     },
     "nightly": {
-      "url": "https://quirks.spec.whatwg.org/"
+      "url": "https://quirks.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/quirks"
     },
     "title": "Quirks Mode Standard",
     "source": "specref"
@@ -525,7 +560,8 @@
       "currentSpecification": "storage"
     },
     "nightly": {
-      "url": "https://storage.spec.whatwg.org/"
+      "url": "https://storage.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/storage"
     },
     "title": "Storage Standard",
     "source": "specref"
@@ -539,7 +575,8 @@
       "currentSpecification": "streams"
     },
     "nightly": {
-      "url": "https://streams.spec.whatwg.org/"
+      "url": "https://streams.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/streams"
     },
     "title": "Streams Standard",
     "source": "specref"
@@ -553,7 +590,8 @@
       "currentSpecification": "svg-animations"
     },
     "nightly": {
-      "url": "https://svgwg.org/specs/animations/"
+      "url": "https://svgwg.org/specs/animations/",
+      "repository": "https://github.com/w3c/svgwg"
     },
     "title": "SVG Animations Level 2",
     "source": "spec"
@@ -567,7 +605,8 @@
       "currentSpecification": "url"
     },
     "nightly": {
-      "url": "https://url.spec.whatwg.org/"
+      "url": "https://url.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/url"
     },
     "title": "URL Standard",
     "source": "specref"
@@ -581,7 +620,8 @@
       "currentSpecification": "badging"
     },
     "nightly": {
-      "url": "https://w3c.github.io/badging/"
+      "url": "https://w3c.github.io/badging/",
+      "repository": "https://github.com/w3c/badging"
     },
     "title": "Badging API",
     "source": "specref"
@@ -595,7 +635,8 @@
       "currentSpecification": "contentEditable"
     },
     "nightly": {
-      "url": "https://w3c.github.io/contentEditable/"
+      "url": "https://w3c.github.io/contentEditable/",
+      "repository": "https://github.com/w3c/contentEditable"
     },
     "title": "ContentEditable",
     "source": "spec"
@@ -609,7 +650,8 @@
       "currentSpecification": "gamepad-extensions"
     },
     "nightly": {
-      "url": "https://w3c.github.io/gamepad/extensions.html"
+      "url": "https://w3c.github.io/gamepad/extensions.html",
+      "repository": "https://github.com/w3c/gamepad"
     },
     "title": "Gamepad Extensions",
     "source": "spec"
@@ -623,7 +665,8 @@
       "currentSpecification": "mathml-aam"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mathml-aam/"
+      "url": "https://w3c.github.io/mathml-aam/",
+      "repository": "https://github.com/w3c/mathml-aam"
     },
     "title": "MathML Accessiblity API Mappings 1.0",
     "source": "spec"
@@ -637,7 +680,8 @@
       "currentSpecification": "media-playback-quality"
     },
     "nightly": {
-      "url": "https://w3c.github.io/media-playback-quality/"
+      "url": "https://w3c.github.io/media-playback-quality/",
+      "repository": "https://github.com/w3c/media-playback-quality"
     },
     "title": "Media Playback Quality",
     "source": "specref"
@@ -651,7 +695,8 @@
       "currentSpecification": "web-nfc"
     },
     "nightly": {
-      "url": "https://w3c.github.io/web-nfc/"
+      "url": "https://w3c.github.io/web-nfc/",
+      "repository": "https://github.com/w3c/web-nfc"
     },
     "title": "Web NFC API",
     "source": "specref"
@@ -665,7 +710,8 @@
       "currentSpecification": "web-share-target"
     },
     "nightly": {
-      "url": "https://w3c.github.io/web-share-target/"
+      "url": "https://w3c.github.io/web-share-target/",
+      "repository": "https://github.com/w3c/web-share-target"
     },
     "title": "Web Share Target API",
     "source": "specref"
@@ -679,7 +725,8 @@
       "currentSpecification": "trusted-types"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/"
+      "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
+      "repository": "https://github.com/w3c/webappsec-trusted-types/"
     },
     "title": "Trusted Types",
     "source": "specref"
@@ -693,7 +740,8 @@
       "currentSpecification": "webdriver-bidi"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webdriver-bidi/"
+      "url": "https://w3c.github.io/webdriver-bidi/",
+      "repository": "https://github.com/w3c/webdriver-bidi"
     },
     "title": "WebDriver BiDi",
     "source": "spec"
@@ -707,7 +755,8 @@
       "currentSpecification": "webrtc-ice"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-ice/"
+      "url": "https://w3c.github.io/webrtc-ice/",
+      "repository": "https://github.com/w3c/webrtc-ice"
     },
     "title": "IceTransport Extensions for WebRTC",
     "source": "spec"
@@ -721,7 +770,8 @@
       "currentSpecification": "webrtc-insertable-streams"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-insertable-streams/"
+      "url": "https://w3c.github.io/webrtc-insertable-streams/",
+      "repository": "https://github.com/w3c/webrtc-insertable-streams"
     },
     "title": "WebRTC Insertable Media using Streams",
     "source": "spec"
@@ -735,7 +785,8 @@
       "currentSpecification": "web-bluetooth"
     },
     "nightly": {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/"
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/",
+      "repository": "https://github.com/webbluetoothcg/web-bluetooth"
     },
     "title": "Web Bluetooth",
     "source": "specref"
@@ -749,7 +800,8 @@
       "currentSpecification": "background-fetch"
     },
     "nightly": {
-      "url": "https://wicg.github.io/background-fetch/"
+      "url": "https://wicg.github.io/background-fetch/",
+      "repository": "https://github.com/wicg/background-fetch"
     },
     "title": "Background Fetch",
     "source": "specref"
@@ -763,7 +815,8 @@
       "currentSpecification": "background-sync"
     },
     "nightly": {
-      "url": "https://wicg.github.io/background-sync/spec/"
+      "url": "https://wicg.github.io/background-sync/spec/",
+      "repository": "https://github.com/wicg/background-sync"
     },
     "title": "Web Background Synchronization",
     "source": "spec"
@@ -777,7 +830,8 @@
       "currentSpecification": "change-password-url"
     },
     "nightly": {
-      "url": "https://wicg.github.io/change-password-url/"
+      "url": "https://wicg.github.io/change-password-url/",
+      "repository": "https://github.com/wicg/change-password-url"
     },
     "title": "A Well-Known URL for Changing Passwords",
     "source": "spec"
@@ -791,7 +845,8 @@
       "currentSpecification": "client-hints-infrastructure"
     },
     "nightly": {
-      "url": "https://wicg.github.io/client-hints-infrastructure/"
+      "url": "https://wicg.github.io/client-hints-infrastructure/",
+      "repository": "https://github.com/wicg/client-hints-infrastructure"
     },
     "title": "Client Hints Infrastructure",
     "source": "specref"
@@ -805,7 +860,8 @@
       "currentSpecification": "compression"
     },
     "nightly": {
-      "url": "https://wicg.github.io/compression/"
+      "url": "https://wicg.github.io/compression/",
+      "repository": "https://github.com/wicg/compression"
     },
     "title": "Compression Streams",
     "source": "spec"
@@ -819,7 +875,8 @@
       "currentSpecification": "construct-stylesheets"
     },
     "nightly": {
-      "url": "https://wicg.github.io/construct-stylesheets/"
+      "url": "https://wicg.github.io/construct-stylesheets/",
+      "repository": "https://github.com/wicg/construct-stylesheets"
     },
     "title": "Constructable Stylesheet Objects",
     "source": "spec"
@@ -833,7 +890,8 @@
       "currentSpecification": "contact-api"
     },
     "nightly": {
-      "url": "https://wicg.github.io/contact-api/spec/"
+      "url": "https://wicg.github.io/contact-api/spec/",
+      "repository": "https://github.com/wicg/contact-api"
     },
     "title": "Contact Picker API",
     "source": "spec"
@@ -847,7 +905,8 @@
       "currentSpecification": "content-index"
     },
     "nightly": {
-      "url": "https://wicg.github.io/content-index/spec/"
+      "url": "https://wicg.github.io/content-index/spec/",
+      "repository": "https://github.com/wicg/content-index"
     },
     "title": "Content Index",
     "source": "spec"
@@ -861,7 +920,8 @@
       "currentSpecification": "cookie-store"
     },
     "nightly": {
-      "url": "https://wicg.github.io/cookie-store/"
+      "url": "https://wicg.github.io/cookie-store/",
+      "repository": "https://github.com/wicg/cookie-store"
     },
     "title": "Cookie Store API",
     "source": "specref"
@@ -875,7 +935,8 @@
       "currentSpecification": "cors-rfc1918"
     },
     "nightly": {
-      "url": "https://wicg.github.io/cors-rfc1918/"
+      "url": "https://wicg.github.io/cors-rfc1918/",
+      "repository": "https://github.com/wicg/cors-rfc1918"
     },
     "title": "CORS and RFC1918",
     "source": "specref"
@@ -889,7 +950,8 @@
       "currentSpecification": "crash-reporting"
     },
     "nightly": {
-      "url": "https://wicg.github.io/crash-reporting/"
+      "url": "https://wicg.github.io/crash-reporting/",
+      "repository": "https://github.com/wicg/crash-reporting"
     },
     "title": "Crash Reporting",
     "source": "spec"
@@ -903,7 +965,8 @@
       "currentSpecification": "css-parser-api"
     },
     "nightly": {
-      "url": "https://wicg.github.io/css-parser-api/"
+      "url": "https://wicg.github.io/css-parser-api/",
+      "repository": "https://github.com/wicg/css-parser-api"
     },
     "title": "CSS Parser API",
     "source": "specref"
@@ -917,7 +980,8 @@
       "currentSpecification": "custom-state-pseudo-class"
     },
     "nightly": {
-      "url": "https://wicg.github.io/custom-state-pseudo-class/"
+      "url": "https://wicg.github.io/custom-state-pseudo-class/",
+      "repository": "https://github.com/wicg/custom-state-pseudo-class"
     },
     "title": "Custom State Pseudo Class",
     "source": "spec"
@@ -931,7 +995,8 @@
       "currentSpecification": "deprecation-reporting"
     },
     "nightly": {
-      "url": "https://wicg.github.io/deprecation-reporting/"
+      "url": "https://wicg.github.io/deprecation-reporting/",
+      "repository": "https://github.com/wicg/deprecation-reporting"
     },
     "title": "Deprecation Reporting",
     "source": "spec"
@@ -945,7 +1010,8 @@
       "currentSpecification": "element-timing"
     },
     "nightly": {
-      "url": "https://wicg.github.io/element-timing/"
+      "url": "https://wicg.github.io/element-timing/",
+      "repository": "https://github.com/wicg/element-timing"
     },
     "title": "Element Timing API",
     "source": "specref"
@@ -959,7 +1025,8 @@
       "currentSpecification": "entries-api"
     },
     "nightly": {
-      "url": "https://wicg.github.io/entries-api/"
+      "url": "https://wicg.github.io/entries-api/",
+      "repository": "https://github.com/wicg/entries-api"
     },
     "title": "File and Directory Entries API",
     "source": "specref"
@@ -973,7 +1040,8 @@
       "currentSpecification": "event-timing"
     },
     "nightly": {
-      "url": "https://wicg.github.io/event-timing/"
+      "url": "https://wicg.github.io/event-timing/",
+      "repository": "https://github.com/wicg/event-timing"
     },
     "title": "Event Timing API",
     "source": "specref"
@@ -987,7 +1055,8 @@
       "currentSpecification": "frame-timing"
     },
     "nightly": {
-      "url": "https://wicg.github.io/frame-timing/"
+      "url": "https://wicg.github.io/frame-timing/",
+      "repository": "https://github.com/w3c/frame-timing"
     },
     "title": "Frame Timing",
     "source": "specref"
@@ -1001,7 +1070,8 @@
       "currentSpecification": "get-installed-related-apps"
     },
     "nightly": {
-      "url": "https://wicg.github.io/get-installed-related-apps/spec/"
+      "url": "https://wicg.github.io/get-installed-related-apps/spec/",
+      "repository": "https://github.com/wicg/get-installed-related-apps"
     },
     "title": "Get Installed Related Apps API",
     "source": "spec"
@@ -1015,7 +1085,8 @@
       "currentSpecification": "import-maps"
     },
     "nightly": {
-      "url": "https://wicg.github.io/import-maps/"
+      "url": "https://wicg.github.io/import-maps/",
+      "repository": "https://github.com/wicg/import-maps"
     },
     "title": "Import Maps",
     "source": "spec"
@@ -1029,7 +1100,8 @@
       "currentSpecification": "input-device-capabilities"
     },
     "nightly": {
-      "url": "https://wicg.github.io/input-device-capabilities/"
+      "url": "https://wicg.github.io/input-device-capabilities/",
+      "repository": "https://github.com/wicg/input-device-capabilities"
     },
     "title": "Input Device Capabilities",
     "source": "specref"
@@ -1043,7 +1115,8 @@
       "currentSpecification": "intervention-reporting"
     },
     "nightly": {
-      "url": "https://wicg.github.io/intervention-reporting/"
+      "url": "https://wicg.github.io/intervention-reporting/",
+      "repository": "https://github.com/wicg/intervention-reporting"
     },
     "title": "Intervention Reporting",
     "source": "spec"
@@ -1057,7 +1130,8 @@
       "currentSpecification": "is-input-pending"
     },
     "nightly": {
-      "url": "https://wicg.github.io/is-input-pending/"
+      "url": "https://wicg.github.io/is-input-pending/",
+      "repository": "https://github.com/wicg/is-input-pending"
     },
     "title": "isInputPending",
     "source": "spec"
@@ -1071,7 +1145,8 @@
       "currentSpecification": "js-self-profiling"
     },
     "nightly": {
-      "url": "https://wicg.github.io/js-self-profiling/"
+      "url": "https://wicg.github.io/js-self-profiling/",
+      "repository": "https://github.com/wicg/js-self-profiling"
     },
     "title": "JS Self-Profiling API",
     "source": "specref"
@@ -1085,7 +1160,8 @@
       "currentSpecification": "keyboard-lock"
     },
     "nightly": {
-      "url": "https://wicg.github.io/keyboard-lock/"
+      "url": "https://wicg.github.io/keyboard-lock/",
+      "repository": "https://github.com/wicg/keyboard-lock"
     },
     "title": "Keyboard Lock",
     "source": "specref"
@@ -1099,7 +1175,8 @@
       "currentSpecification": "keyboard-map"
     },
     "nightly": {
-      "url": "https://wicg.github.io/keyboard-map/"
+      "url": "https://wicg.github.io/keyboard-map/",
+      "repository": "https://github.com/wicg/keyboard-map"
     },
     "title": "Keyboard Map",
     "source": "specref"
@@ -1113,7 +1190,8 @@
       "currentSpecification": "largest-contentful-paint"
     },
     "nightly": {
-      "url": "https://wicg.github.io/largest-contentful-paint/"
+      "url": "https://wicg.github.io/largest-contentful-paint/",
+      "repository": "https://github.com/wicg/largest-contentful-paint"
     },
     "title": "Largest Contentful Paint",
     "source": "specref"
@@ -1127,7 +1205,8 @@
       "currentSpecification": "layout-instability"
     },
     "nightly": {
-      "url": "https://wicg.github.io/layout-instability/"
+      "url": "https://wicg.github.io/layout-instability/",
+      "repository": "https://github.com/wicg/layout-instability"
     },
     "title": "Layout Instability",
     "source": "specref"
@@ -1141,7 +1220,8 @@
       "currentSpecification": "local-font-access"
     },
     "nightly": {
-      "url": "https://wicg.github.io/local-font-access/"
+      "url": "https://wicg.github.io/local-font-access/",
+      "repository": "https://github.com/wicg/local-font-access"
     },
     "title": "Local Font Access API",
     "source": "spec"
@@ -1155,7 +1235,8 @@
       "currentSpecification": "media-feeds"
     },
     "nightly": {
-      "url": "https://wicg.github.io/media-feeds/"
+      "url": "https://wicg.github.io/media-feeds/",
+      "repository": "https://github.com/wicg/media-feeds"
     },
     "title": "Media Feeds",
     "source": "spec"
@@ -1169,7 +1250,8 @@
       "currentSpecification": "native-file-system"
     },
     "nightly": {
-      "url": "https://wicg.github.io/native-file-system/"
+      "url": "https://wicg.github.io/native-file-system/",
+      "repository": "https://github.com/wicg/native-file-system"
     },
     "title": "Native File System",
     "source": "specref"
@@ -1183,7 +1265,8 @@
       "currentSpecification": "netinfo"
     },
     "nightly": {
-      "url": "https://wicg.github.io/netinfo/"
+      "url": "https://wicg.github.io/netinfo/",
+      "repository": "https://github.com/wicg/netinfo"
     },
     "title": "Network Information API",
     "source": "specref"
@@ -1197,7 +1280,8 @@
       "currentSpecification": "origin-policy"
     },
     "nightly": {
-      "url": "https://wicg.github.io/origin-policy/"
+      "url": "https://wicg.github.io/origin-policy/",
+      "repository": "https://github.com/wicg/origin-policy"
     },
     "title": "Origin Policy",
     "source": "specref"
@@ -1211,7 +1295,8 @@
       "currentSpecification": "overscroll-scrollend-events"
     },
     "nightly": {
-      "url": "https://wicg.github.io/overscroll-scrollend-events/"
+      "url": "https://wicg.github.io/overscroll-scrollend-events/",
+      "repository": "https://github.com/wicg/overscroll-scrollend-events"
     },
     "title": "overscroll and scrollend events",
     "source": "spec"
@@ -1225,7 +1310,8 @@
       "currentSpecification": "page-lifecycle"
     },
     "nightly": {
-      "url": "https://wicg.github.io/page-lifecycle/"
+      "url": "https://wicg.github.io/page-lifecycle/",
+      "repository": "https://github.com/wicg/page-lifecycle"
     },
     "title": "Page Lifecycle",
     "source": "specref"
@@ -1239,7 +1325,8 @@
       "currentSpecification": "periodic-background-sync"
     },
     "nightly": {
-      "url": "https://wicg.github.io/periodic-background-sync/"
+      "url": "https://wicg.github.io/periodic-background-sync/",
+      "repository": "https://github.com/wicg/periodic-background-sync"
     },
     "title": "Web Periodic Background Synchronization",
     "source": "specref"
@@ -1253,7 +1340,8 @@
       "currentSpecification": "permissions-request"
     },
     "nightly": {
-      "url": "https://wicg.github.io/permissions-request/"
+      "url": "https://wicg.github.io/permissions-request/",
+      "repository": "https://github.com/wicg/permissions-request"
     },
     "title": "Requesting Permissions",
     "source": "specref"
@@ -1267,7 +1355,8 @@
       "currentSpecification": "permissions-revoke"
     },
     "nightly": {
-      "url": "https://wicg.github.io/permissions-revoke/"
+      "url": "https://wicg.github.io/permissions-revoke/",
+      "repository": "https://github.com/wicg/permissions-revoke"
     },
     "title": "Relinquishing Permissions",
     "source": "specref"
@@ -1281,7 +1370,8 @@
       "currentSpecification": "portals"
     },
     "nightly": {
-      "url": "https://wicg.github.io/portals/"
+      "url": "https://wicg.github.io/portals/",
+      "repository": "https://github.com/wicg/portals"
     },
     "title": "Portals",
     "source": "spec"
@@ -1295,7 +1385,8 @@
       "currentSpecification": "priority-hints"
     },
     "nightly": {
-      "url": "https://wicg.github.io/priority-hints/"
+      "url": "https://wicg.github.io/priority-hints/",
+      "repository": "https://github.com/wicg/priority-hints"
     },
     "title": "Priority Hints",
     "source": "specref"
@@ -1309,7 +1400,8 @@
       "currentSpecification": "savedata"
     },
     "nightly": {
-      "url": "https://wicg.github.io/savedata/"
+      "url": "https://wicg.github.io/savedata/",
+      "repository": "https://github.com/wicg/savedata"
     },
     "title": "Save Data API",
     "source": "spec"
@@ -1323,7 +1415,8 @@
       "currentSpecification": "scroll-to-text-fragment"
     },
     "nightly": {
-      "url": "https://wicg.github.io/scroll-to-text-fragment/"
+      "url": "https://wicg.github.io/scroll-to-text-fragment/",
+      "repository": "https://github.com/wicg/scroll-to-text-fragment"
     },
     "title": "Text Fragments",
     "source": "spec"
@@ -1337,7 +1430,8 @@
       "currentSpecification": "serial"
     },
     "nightly": {
-      "url": "https://wicg.github.io/serial/"
+      "url": "https://wicg.github.io/serial/",
+      "repository": "https://github.com/wicg/serial"
     },
     "title": "Serial API",
     "source": "spec"
@@ -1351,7 +1445,8 @@
       "currentSpecification": "shape-detection-api"
     },
     "nightly": {
-      "url": "https://wicg.github.io/shape-detection-api/"
+      "url": "https://wicg.github.io/shape-detection-api/",
+      "repository": "https://github.com/wicg/shape-detection-api"
     },
     "title": "Accelerated Shape Detection in Images",
     "source": "specref"
@@ -1365,7 +1460,8 @@
       "currentSpecification": "text-detection-api"
     },
     "nightly": {
-      "url": "https://wicg.github.io/shape-detection-api/text.html"
+      "url": "https://wicg.github.io/shape-detection-api/text.html",
+      "repository": "https://github.com/wicg/shape-detection-api"
     },
     "title": "Accelerated Text Detection in Images",
     "source": "specref"
@@ -1379,7 +1475,8 @@
       "currentSpecification": "sms-one-time-codes"
     },
     "nightly": {
-      "url": "https://wicg.github.io/sms-one-time-codes/"
+      "url": "https://wicg.github.io/sms-one-time-codes/",
+      "repository": "https://github.com/wicg/sms-one-time-codes"
     },
     "title": "Origin-bound one-time codes delivered via SMS",
     "source": "specref"
@@ -1393,7 +1490,8 @@
       "currentSpecification": "speech-api"
     },
     "nightly": {
-      "url": "https://wicg.github.io/speech-api/"
+      "url": "https://wicg.github.io/speech-api/",
+      "repository": "https://github.com/wicg/speech-api"
     },
     "title": "Web Speech API",
     "source": "specref"
@@ -1407,7 +1505,8 @@
       "currentSpecification": "ua-client-hints"
     },
     "nightly": {
-      "url": "https://wicg.github.io/ua-client-hints/"
+      "url": "https://wicg.github.io/ua-client-hints/",
+      "repository": "https://github.com/wicg/ua-client-hints"
     },
     "title": "User-Agent Client Hints",
     "source": "spec"
@@ -1421,7 +1520,8 @@
       "currentSpecification": "video-rvfc"
     },
     "nightly": {
-      "url": "https://wicg.github.io/video-rvfc/"
+      "url": "https://wicg.github.io/video-rvfc/",
+      "repository": "https://github.com/wicg/video-rvfc"
     },
     "title": "HTMLVideoElement.requestVideoFrameCallback()",
     "source": "spec"
@@ -1435,7 +1535,8 @@
       "currentSpecification": "visual-viewport"
     },
     "nightly": {
-      "url": "https://wicg.github.io/visual-viewport/"
+      "url": "https://wicg.github.io/visual-viewport/",
+      "repository": "https://github.com/wicg/visual-viewport"
     },
     "title": "Visual Viewport API",
     "source": "specref"
@@ -1449,7 +1550,8 @@
       "currentSpecification": "web-locks"
     },
     "nightly": {
-      "url": "https://wicg.github.io/web-locks/"
+      "url": "https://wicg.github.io/web-locks/",
+      "repository": "https://github.com/wicg/web-locks"
     },
     "title": "Web Locks API",
     "source": "specref"
@@ -1463,7 +1565,8 @@
       "currentSpecification": "web-otp"
     },
     "nightly": {
-      "url": "https://wicg.github.io/web-otp/"
+      "url": "https://wicg.github.io/web-otp/",
+      "repository": "https://github.com/wicg/web-otp"
     },
     "title": "Web OTP API",
     "source": "spec"
@@ -1477,7 +1580,8 @@
       "currentSpecification": "web-transport"
     },
     "nightly": {
-      "url": "https://wicg.github.io/web-transport/"
+      "url": "https://wicg.github.io/web-transport/",
+      "repository": "https://github.com/wicg/web-transport"
     },
     "title": "WebTransport",
     "source": "spec"
@@ -1491,7 +1595,8 @@
       "currentSpecification": "webhid"
     },
     "nightly": {
-      "url": "https://wicg.github.io/webhid/"
+      "url": "https://wicg.github.io/webhid/",
+      "repository": "https://github.com/wicg/webhid"
     },
     "title": "WebHID API",
     "source": "spec"
@@ -1505,7 +1610,8 @@
       "currentSpecification": "webpackage"
     },
     "nightly": {
-      "url": "https://wicg.github.io/webpackage/loading.html"
+      "url": "https://wicg.github.io/webpackage/loading.html",
+      "repository": "https://github.com/wicg/webpackage"
     },
     "title": "Loading Signed Exchanges",
     "source": "spec"
@@ -1519,7 +1625,8 @@
       "currentSpecification": "webusb"
     },
     "nightly": {
-      "url": "https://wicg.github.io/webusb/"
+      "url": "https://wicg.github.io/webusb/",
+      "repository": "https://github.com/wicg/webusb"
     },
     "title": "WebUSB API",
     "source": "specref"
@@ -1534,7 +1641,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/"
+      "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/",
+      "repository": "https://github.com/KhronosGroup/WebGL"
     },
     "title": "WebGL Specification",
     "source": "spec"
@@ -1549,7 +1657,8 @@
     },
     "seriesVersion": "2",
     "nightly": {
-      "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
+      "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/",
+      "repository": "https://github.com/KhronosGroup/WebGL"
     },
     "title": "WebGL 2.0 Specification",
     "source": "spec"
@@ -1566,7 +1675,8 @@
       "url": "https://www.w3.org/TR/accelerometer/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/accelerometer/"
+      "url": "https://w3c.github.io/accelerometer/",
+      "repository": "https://github.com/w3c/accelerometer"
     },
     "title": "Accelerometer",
     "source": "w3c"
@@ -1584,7 +1694,8 @@
       "url": "https://www.w3.org/TR/accname-1.2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/accname/"
+      "url": "https://w3c.github.io/accname/",
+      "repository": "https://github.com/w3c/accname"
     },
     "title": "Accessible Name and Description Computation 1.2",
     "source": "w3c"
@@ -1601,7 +1712,8 @@
       "url": "https://www.w3.org/TR/ambient-light/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/ambient-light/"
+      "url": "https://w3c.github.io/ambient-light/",
+      "repository": "https://github.com/w3c/ambient-light"
     },
     "title": "Ambient Light Sensor",
     "source": "w3c"
@@ -1618,7 +1730,8 @@
       "url": "https://www.w3.org/TR/appmanifest/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/manifest/"
+      "url": "https://w3c.github.io/manifest/",
+      "repository": "https://github.com/w3c/manifest"
     },
     "title": "Web App Manifest",
     "source": "w3c"
@@ -1635,7 +1748,8 @@
       "url": "https://www.w3.org/TR/audio-output/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediacapture-output/"
+      "url": "https://w3c.github.io/mediacapture-output/",
+      "repository": "https://github.com/w3c/mediacapture-output"
     },
     "title": "Audio Output Devices API",
     "source": "w3c"
@@ -1652,7 +1766,8 @@
       "url": "https://www.w3.org/TR/battery-status/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/battery/"
+      "url": "https://w3c.github.io/battery/",
+      "repository": "https://github.com/w3c/battery"
     },
     "title": "Battery Status API",
     "source": "w3c"
@@ -1669,7 +1784,8 @@
       "url": "https://www.w3.org/TR/beacon/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/beacon/"
+      "url": "https://w3c.github.io/beacon/",
+      "repository": "https://github.com/w3c/beacon"
     },
     "title": "Beacon",
     "source": "w3c"
@@ -1686,7 +1802,8 @@
       "url": "https://www.w3.org/TR/clear-site-data/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-clear-site-data/"
+      "url": "https://w3c.github.io/webappsec-clear-site-data/",
+      "repository": "https://github.com/w3c/webappsec-clear-site-data"
     },
     "title": "Clear Site Data",
     "source": "w3c"
@@ -1703,7 +1820,8 @@
       "url": "https://www.w3.org/TR/clipboard-apis/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/clipboard-apis/"
+      "url": "https://w3c.github.io/clipboard-apis/",
+      "repository": "https://github.com/w3c/clipboard-apis"
     },
     "title": "Clipboard API and events",
     "source": "w3c"
@@ -1722,7 +1840,8 @@
       "url": "https://www.w3.org/TR/compositing-1/"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/compositing-1/"
+      "url": "https://drafts.fxtf.org/compositing-1/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Compositing and Blending Level 1",
     "source": "w3c"
@@ -1740,7 +1859,8 @@
       "url": "https://www.w3.org/TR/core-aam-1.2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/core-aam/"
+      "url": "https://w3c.github.io/core-aam/",
+      "repository": "https://github.com/w3c/core-aam"
     },
     "title": "Core Accessibility API Mappings 1.2",
     "source": "w3c"
@@ -1758,7 +1878,8 @@
       "url": "https://www.w3.org/TR/credential-management-1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-credential-management/"
+      "url": "https://w3c.github.io/webappsec-credential-management/",
+      "repository": "https://github.com/w3c/webappsec-credential-management"
     },
     "title": "Credential Management Level 1",
     "source": "w3c"
@@ -1775,7 +1896,8 @@
       "url": "https://www.w3.org/TR/csp-embedded-enforcement/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-cspee/"
+      "url": "https://w3c.github.io/webappsec-cspee/",
+      "repository": "https://github.com/w3c/webappsec-cspee"
     },
     "title": "Content Security Policy: Embedded Enforcement",
     "source": "w3c"
@@ -1793,7 +1915,8 @@
       "url": "https://www.w3.org/TR/CSP3/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-csp/"
+      "url": "https://w3c.github.io/webappsec-csp/",
+      "repository": "https://github.com/w3c/webappsec-csp"
     },
     "title": "Content Security Policy Level 3",
     "source": "w3c"
@@ -1811,7 +1934,8 @@
       "url": "https://www.w3.org/TR/css-align-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-align/"
+      "url": "https://drafts.csswg.org/css-align/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Box Alignment Module Level 3",
     "source": "w3c"
@@ -1829,7 +1953,8 @@
       "url": "https://www.w3.org/TR/css-animation-worklet-1/"
     },
     "nightly": {
-      "url": "https://drafts.css-houdini.org/css-animationworklet-1/"
+      "url": "https://drafts.css-houdini.org/css-animationworklet-1/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "CSS Animation Worklet API",
     "source": "w3c"
@@ -1848,7 +1973,8 @@
       "url": "https://www.w3.org/TR/css-animations-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-animations/"
+      "url": "https://drafts.csswg.org/css-animations/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Animations Level 1",
     "source": "w3c"
@@ -1867,7 +1993,8 @@
       "url": "https://www.w3.org/TR/css-backgrounds-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-backgrounds/"
+      "url": "https://drafts.csswg.org/css-backgrounds/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Backgrounds and Borders Module Level 3",
     "source": "w3c"
@@ -1886,7 +2013,8 @@
       "url": "https://www.w3.org/TR/css-box-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-box-3/"
+      "url": "https://drafts.csswg.org/css-box-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Box Model Module Level 3",
     "source": "w3c"
@@ -1905,7 +2033,8 @@
       "url": "https://www.w3.org/TR/css-box-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-box-4/"
+      "url": "https://drafts.csswg.org/css-box-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Box Model Module Level 4",
     "source": "w3c"
@@ -1924,7 +2053,8 @@
       "url": "https://www.w3.org/TR/css-break-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-break/"
+      "url": "https://drafts.csswg.org/css-break/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Fragmentation Module Level 3",
     "source": "w3c"
@@ -1943,7 +2073,8 @@
       "url": "https://www.w3.org/TR/css-break-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-break-4/"
+      "url": "https://drafts.csswg.org/css-break-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Fragmentation Module Level 4",
     "source": "w3c"
@@ -1962,7 +2093,8 @@
       "url": "https://www.w3.org/TR/css-cascade-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-cascade-3/"
+      "url": "https://drafts.csswg.org/css-cascade-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Cascading and Inheritance Level 3",
     "source": "w3c"
@@ -1981,7 +2113,8 @@
       "url": "https://www.w3.org/TR/css-cascade-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-cascade/"
+      "url": "https://drafts.csswg.org/css-cascade/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Cascading and Inheritance Level 4",
     "source": "w3c"
@@ -2000,7 +2133,8 @@
       "url": "https://www.w3.org/TR/css-color-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-color-3/"
+      "url": "https://drafts.csswg.org/css-color-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Color Module Level 3",
     "source": "w3c"
@@ -2020,7 +2154,8 @@
       "url": "https://www.w3.org/TR/css-color-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-color/"
+      "url": "https://drafts.csswg.org/css-color/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Color Module Level 4",
     "source": "w3c"
@@ -2039,7 +2174,8 @@
       "url": "https://www.w3.org/TR/css-color-5/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-color-5/"
+      "url": "https://drafts.csswg.org/css-color-5/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Color Module Level 5",
     "source": "w3c"
@@ -2057,7 +2193,8 @@
       "url": "https://www.w3.org/TR/css-color-adjust-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-color-adjust-1/"
+      "url": "https://drafts.csswg.org/css-color-adjust-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Color Adjust Module Level 1",
     "source": "w3c"
@@ -2076,7 +2213,8 @@
       "url": "https://www.w3.org/TR/css-conditional-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-conditional-4/"
+      "url": "https://drafts.csswg.org/css-conditional-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Conditional Rules Module Level 4",
     "source": "w3c"
@@ -2095,7 +2233,8 @@
       "url": "https://www.w3.org/TR/css-contain-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-contain/"
+      "url": "https://drafts.csswg.org/css-contain/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Containment Module Level 1",
     "source": "w3c"
@@ -2114,7 +2253,8 @@
       "url": "https://www.w3.org/TR/css-contain-2/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-contain-2/"
+      "url": "https://drafts.csswg.org/css-contain-2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Containment Module Level 2",
     "source": "w3c"
@@ -2132,7 +2272,8 @@
       "url": "https://www.w3.org/TR/css-content-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-content-3/"
+      "url": "https://drafts.csswg.org/css-content-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Generated Content Module Level 3",
     "source": "w3c"
@@ -2150,7 +2291,8 @@
       "url": "https://www.w3.org/TR/css-counter-styles-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-counter-styles/"
+      "url": "https://drafts.csswg.org/css-counter-styles/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Counter Styles Level 3",
     "source": "w3c"
@@ -2168,7 +2310,8 @@
       "url": "https://www.w3.org/TR/css-device-adapt-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-device-adapt/"
+      "url": "https://drafts.csswg.org/css-device-adapt/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Device Adaptation Module Level 1",
     "source": "w3c"
@@ -2186,7 +2329,8 @@
       "url": "https://www.w3.org/TR/css-display-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-display/"
+      "url": "https://drafts.csswg.org/css-display/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Display Module Level 3",
     "source": "w3c"
@@ -2204,7 +2348,8 @@
       "url": "https://www.w3.org/TR/css-easing-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-easing/"
+      "url": "https://drafts.csswg.org/css-easing/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Easing Functions Level 1",
     "source": "w3c"
@@ -2222,7 +2367,8 @@
       "url": "https://www.w3.org/TR/css-flexbox-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-flexbox-1/"
+      "url": "https://drafts.csswg.org/css-flexbox-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Flexible Box Layout Module Level 1",
     "source": "w3c"
@@ -2240,7 +2386,8 @@
       "url": "https://www.w3.org/TR/css-font-loading-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-font-loading/"
+      "url": "https://drafts.csswg.org/css-font-loading/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Font Loading Module Level 3",
     "source": "w3c"
@@ -2259,7 +2406,8 @@
       "url": "https://www.w3.org/TR/css-fonts-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-fonts/"
+      "url": "https://drafts.csswg.org/css-fonts/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Fonts Module Level 3",
     "source": "w3c"
@@ -2278,7 +2426,8 @@
       "url": "https://www.w3.org/TR/css-fonts-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-fonts-4/"
+      "url": "https://drafts.csswg.org/css-fonts-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Fonts Module Level 4",
     "source": "w3c"
@@ -2297,7 +2446,8 @@
       "url": "https://www.w3.org/TR/css-gcpm-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-gcpm/"
+      "url": "https://drafts.csswg.org/css-gcpm/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Generated Content for Paged Media Module",
     "source": "w3c"
@@ -2316,7 +2466,8 @@
       "url": "https://www.w3.org/TR/css-grid-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-grid/"
+      "url": "https://drafts.csswg.org/css-grid/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Grid Layout Module Level 1",
     "source": "w3c"
@@ -2335,7 +2486,8 @@
       "url": "https://www.w3.org/TR/css-grid-2/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-grid-2/"
+      "url": "https://drafts.csswg.org/css-grid-2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Grid Layout Module Level 2",
     "source": "w3c"
@@ -2354,7 +2506,8 @@
       "url": "https://www.w3.org/TR/css-images-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-images-3/"
+      "url": "https://drafts.csswg.org/css-images-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Image Values and Replaced Content Module Level 3",
     "source": "w3c"
@@ -2373,7 +2526,8 @@
       "url": "https://www.w3.org/TR/css-images-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-images-4/"
+      "url": "https://drafts.csswg.org/css-images-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Image Values and Replaced Content Module Level 4",
     "source": "w3c"
@@ -2391,7 +2545,8 @@
       "url": "https://www.w3.org/TR/css-inline-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-inline-3/"
+      "url": "https://drafts.csswg.org/css-inline-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Inline Layout Module Level 3",
     "source": "w3c"
@@ -2409,7 +2564,8 @@
       "url": "https://www.w3.org/TR/css-layout-api-1/"
     },
     "nightly": {
-      "url": "https://drafts.css-houdini.org/css-layout-api-1/"
+      "url": "https://drafts.css-houdini.org/css-layout-api-1/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "CSS Layout API Level 1",
     "source": "w3c"
@@ -2427,7 +2583,8 @@
       "url": "https://www.w3.org/TR/css-line-grid-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-line-grid/"
+      "url": "https://drafts.csswg.org/css-line-grid/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Line Grid Module Level 1",
     "source": "w3c"
@@ -2445,7 +2602,8 @@
       "url": "https://www.w3.org/TR/css-lists-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-lists-3/"
+      "url": "https://drafts.csswg.org/css-lists-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Lists and Counters Module Level 3",
     "source": "w3c"
@@ -2463,7 +2621,8 @@
       "url": "https://www.w3.org/TR/css-logical-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-logical-1/"
+      "url": "https://drafts.csswg.org/css-logical-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Logical Properties and Values Level 1",
     "source": "w3c"
@@ -2481,7 +2640,8 @@
       "url": "https://www.w3.org/TR/css-masking-1/"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/css-masking-1/"
+      "url": "https://drafts.fxtf.org/css-masking-1/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "CSS Masking Module Level 1",
     "source": "w3c"
@@ -2500,7 +2660,8 @@
       "url": "https://www.w3.org/TR/css-multicol-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-multicol/"
+      "url": "https://drafts.csswg.org/css-multicol/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Multi-column Layout Module Level 1",
     "source": "w3c"
@@ -2518,7 +2679,8 @@
       "url": "https://www.w3.org/TR/css-namespaces-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-namespaces/"
+      "url": "https://drafts.csswg.org/css-namespaces/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Namespaces Module Level 3",
     "source": "w3c"
@@ -2536,7 +2698,8 @@
       "url": "https://www.w3.org/TR/css-nav-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-nav-1/"
+      "url": "https://drafts.csswg.org/css-nav-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Spatial Navigation Level 1",
     "source": "w3c"
@@ -2555,7 +2718,8 @@
       "url": "https://www.w3.org/TR/css-overflow-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-overflow-3/"
+      "url": "https://drafts.csswg.org/css-overflow-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Overflow Module Level 3",
     "source": "w3c"
@@ -2574,7 +2738,8 @@
       "url": "https://www.w3.org/TR/css-overflow-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-overflow-4/"
+      "url": "https://drafts.csswg.org/css-overflow-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Overflow Module Level 4",
     "source": "w3c"
@@ -2592,7 +2757,8 @@
       "url": "https://www.w3.org/TR/css-overscroll-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-overscroll-1/"
+      "url": "https://drafts.csswg.org/css-overscroll-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Overscroll Behavior Module Level 1",
     "source": "w3c"
@@ -2611,7 +2777,8 @@
       "url": "https://www.w3.org/TR/css-page-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-page-3/"
+      "url": "https://drafts.csswg.org/css-page-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Paged Media Module Level 3",
     "source": "w3c"
@@ -2629,7 +2796,8 @@
       "url": "https://www.w3.org/TR/css-page-floats-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-page-floats/"
+      "url": "https://drafts.csswg.org/css-page-floats/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Page Floats",
     "source": "w3c"
@@ -2647,7 +2815,8 @@
       "url": "https://www.w3.org/TR/css-paint-api-1/"
     },
     "nightly": {
-      "url": "https://drafts.css-houdini.org/css-paint-api-1/"
+      "url": "https://drafts.css-houdini.org/css-paint-api-1/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "CSS Painting API Level 1",
     "source": "w3c"
@@ -2665,7 +2834,8 @@
       "url": "https://www.w3.org/TR/css-position-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-position/"
+      "url": "https://drafts.csswg.org/css-position/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Positioned Layout Module Level 3",
     "source": "w3c"
@@ -2683,7 +2853,8 @@
       "url": "https://www.w3.org/TR/css-properties-values-api-1/"
     },
     "nightly": {
-      "url": "https://drafts.css-houdini.org/css-properties-values-api-1/"
+      "url": "https://drafts.css-houdini.org/css-properties-values-api-1/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "CSS Properties and Values API Level 1",
     "source": "w3c"
@@ -2701,7 +2872,8 @@
       "url": "https://www.w3.org/TR/css-pseudo-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-pseudo-4/"
+      "url": "https://drafts.csswg.org/css-pseudo-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Pseudo-Elements Module Level 4",
     "source": "w3c"
@@ -2719,7 +2891,8 @@
       "url": "https://www.w3.org/TR/css-regions-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-regions/"
+      "url": "https://drafts.csswg.org/css-regions/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Regions Module Level 1",
     "source": "w3c"
@@ -2737,7 +2910,8 @@
       "url": "https://www.w3.org/TR/css-rhythm-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-rhythm/"
+      "url": "https://drafts.csswg.org/css-rhythm/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Rhythmic Sizing",
     "source": "w3c"
@@ -2755,7 +2929,8 @@
       "url": "https://www.w3.org/TR/css-round-display-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-round-display/"
+      "url": "https://drafts.csswg.org/css-round-display/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Round Display Level 1",
     "source": "w3c"
@@ -2773,7 +2948,8 @@
       "url": "https://www.w3.org/TR/css-ruby-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-ruby-1/"
+      "url": "https://drafts.csswg.org/css-ruby-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Ruby Layout Module Level 1",
     "source": "w3c"
@@ -2791,7 +2967,8 @@
       "url": "https://www.w3.org/TR/css-scoping-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-scoping/"
+      "url": "https://drafts.csswg.org/css-scoping/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Scoping Module Level 1",
     "source": "w3c"
@@ -2809,7 +2986,8 @@
       "url": "https://www.w3.org/TR/css-scroll-anchoring-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-scroll-anchoring/"
+      "url": "https://drafts.csswg.org/css-scroll-anchoring/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Scroll Anchoring Module Level 1",
     "source": "w3c"
@@ -2827,7 +3005,8 @@
       "url": "https://www.w3.org/TR/css-scroll-snap-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-scroll-snap-1/"
+      "url": "https://drafts.csswg.org/css-scroll-snap-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Scroll Snap Module Level 1",
     "source": "w3c"
@@ -2845,7 +3024,8 @@
       "url": "https://www.w3.org/TR/css-scrollbars-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-scrollbars/"
+      "url": "https://drafts.csswg.org/css-scrollbars/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Scrollbars Module Level 1",
     "source": "w3c"
@@ -2863,7 +3043,8 @@
       "url": "https://www.w3.org/TR/css-shadow-parts-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-shadow-parts/"
+      "url": "https://drafts.csswg.org/css-shadow-parts/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Shadow Parts",
     "source": "w3c"
@@ -2882,7 +3063,8 @@
       "url": "https://www.w3.org/TR/css-shapes-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-shapes/"
+      "url": "https://drafts.csswg.org/css-shapes/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Shapes Module Level 1",
     "source": "w3c"
@@ -2901,7 +3083,8 @@
       "url": "https://www.w3.org/TR/css-sizing-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-sizing-3/"
+      "url": "https://drafts.csswg.org/css-sizing-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
     "source": "w3c"
@@ -2920,7 +3103,8 @@
       "url": "https://www.w3.org/TR/css-sizing-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-sizing-4/"
+      "url": "https://drafts.csswg.org/css-sizing-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Box Sizing Module Level 4",
     "source": "w3c"
@@ -2938,7 +3122,8 @@
       "url": "https://www.w3.org/TR/css-speech-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-speech-1/"
+      "url": "https://drafts.csswg.org/css-speech-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Speech Module",
     "source": "w3c"
@@ -2955,7 +3140,8 @@
       "url": "https://www.w3.org/TR/css-style-attr/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-style-attr/"
+      "url": "https://drafts.csswg.org/css-style-attr/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Style Attributes",
     "source": "w3c"
@@ -2973,7 +3159,8 @@
       "url": "https://www.w3.org/TR/css-syntax-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-syntax/"
+      "url": "https://drafts.csswg.org/css-syntax/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Syntax Module Level 3",
     "source": "w3c"
@@ -2991,7 +3178,8 @@
       "url": "https://www.w3.org/TR/css-tables-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-tables-3/"
+      "url": "https://drafts.csswg.org/css-tables-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Table Module Level 3",
     "source": "w3c"
@@ -3010,7 +3198,8 @@
       "url": "https://www.w3.org/TR/css-text-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-text-3/"
+      "url": "https://drafts.csswg.org/css-text-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Text Module Level 3",
     "source": "w3c"
@@ -3029,7 +3218,8 @@
       "url": "https://www.w3.org/TR/css-text-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-text-4/"
+      "url": "https://drafts.csswg.org/css-text-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Text Module Level 4",
     "source": "w3c"
@@ -3048,7 +3238,8 @@
       "url": "https://www.w3.org/TR/css-text-decor-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-text-decor-3/"
+      "url": "https://drafts.csswg.org/css-text-decor-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Text Decoration Module Level 3",
     "source": "w3c"
@@ -3067,7 +3258,8 @@
       "url": "https://www.w3.org/TR/css-text-decor-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-text-decor-4/"
+      "url": "https://drafts.csswg.org/css-text-decor-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Text Decoration Module Level 4",
     "source": "w3c"
@@ -3086,7 +3278,8 @@
       "url": "https://www.w3.org/TR/css-transforms-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-transforms/"
+      "url": "https://drafts.csswg.org/css-transforms/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Transforms Module Level 1",
     "source": "w3c"
@@ -3105,7 +3298,8 @@
       "url": "https://www.w3.org/TR/css-transforms-2/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-transforms-2/"
+      "url": "https://drafts.csswg.org/css-transforms-2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Transforms Module Level 2",
     "source": "w3c"
@@ -3124,7 +3318,8 @@
       "url": "https://www.w3.org/TR/css-transitions-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-transitions/"
+      "url": "https://drafts.csswg.org/css-transitions/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Transitions",
     "source": "w3c"
@@ -3143,7 +3338,8 @@
       "url": "https://www.w3.org/TR/css-typed-om-1/"
     },
     "nightly": {
-      "url": "https://drafts.css-houdini.org/css-typed-om-1/"
+      "url": "https://drafts.css-houdini.org/css-typed-om-1/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "CSS Typed OM Level 1",
     "source": "w3c"
@@ -3162,7 +3358,8 @@
       "url": "https://www.w3.org/TR/css-ui-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-ui/"
+      "url": "https://drafts.csswg.org/css-ui/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
     "source": "w3c"
@@ -3181,7 +3378,8 @@
       "url": "https://www.w3.org/TR/css-ui-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-ui-4/"
+      "url": "https://drafts.csswg.org/css-ui-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Basic User Interface Module Level 4",
     "source": "w3c"
@@ -3200,7 +3398,8 @@
       "url": "https://www.w3.org/TR/css-values-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-values-3/"
+      "url": "https://drafts.csswg.org/css-values-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Values and Units Module Level 3",
     "source": "w3c"
@@ -3219,7 +3418,8 @@
       "url": "https://www.w3.org/TR/css-values-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-values-4/"
+      "url": "https://drafts.csswg.org/css-values-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Values and Units Module Level 4",
     "source": "w3c"
@@ -3237,7 +3437,8 @@
       "url": "https://www.w3.org/TR/css-variables-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-variables/"
+      "url": "https://drafts.csswg.org/css-variables/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Custom Properties for Cascading Variables Module Level 1",
     "source": "w3c"
@@ -3255,7 +3456,8 @@
       "url": "https://www.w3.org/TR/css-will-change-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-will-change/"
+      "url": "https://drafts.csswg.org/css-will-change/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Will Change Module Level 1",
     "source": "w3c"
@@ -3274,7 +3476,8 @@
       "url": "https://www.w3.org/TR/css-writing-modes-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-writing-modes-3/"
+      "url": "https://drafts.csswg.org/css-writing-modes-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Writing Modes Level 3",
     "source": "w3c"
@@ -3293,7 +3496,8 @@
       "url": "https://www.w3.org/TR/css-writing-modes-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-writing-modes-4/"
+      "url": "https://drafts.csswg.org/css-writing-modes-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Writing Modes Level 4",
     "source": "w3c"
@@ -3312,7 +3516,8 @@
       "url": "https://www.w3.org/TR/CSS2/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css2/"
+      "url": "https://drafts.csswg.org/css2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification",
     "source": "w3c"
@@ -3331,7 +3536,8 @@
       "url": "https://www.w3.org/TR/CSS22/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css2/"
+      "url": "https://drafts.csswg.org/css2/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification",
     "source": "w3c"
@@ -3350,7 +3556,8 @@
       "url": "https://www.w3.org/TR/css3-conditional/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-conditional-3/"
+      "url": "https://drafts.csswg.org/css-conditional-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Conditional Rules Module Level 3",
     "source": "w3c"
@@ -3368,7 +3575,8 @@
       "url": "https://www.w3.org/TR/css3-exclusions/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-exclusions/"
+      "url": "https://drafts.csswg.org/css-exclusions/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Exclusions Module Level 1",
     "source": "w3c"
@@ -3387,7 +3595,8 @@
       "url": "https://www.w3.org/TR/css3-mediaqueries/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/mediaqueries-3/"
+      "url": "https://drafts.csswg.org/mediaqueries-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Media Queries",
     "source": "w3c"
@@ -3405,7 +3614,8 @@
       "url": "https://www.w3.org/TR/cssom-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/cssom/"
+      "url": "https://drafts.csswg.org/cssom/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Object Model (CSSOM)",
     "source": "w3c"
@@ -3423,7 +3633,8 @@
       "url": "https://www.w3.org/TR/cssom-view-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/cssom-view/"
+      "url": "https://drafts.csswg.org/cssom-view/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSSOM View Module",
     "source": "w3c"
@@ -3441,7 +3652,8 @@
       "url": "https://www.w3.org/TR/device-memory-1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/device-memory/"
+      "url": "https://w3c.github.io/device-memory/",
+      "repository": "https://github.com/w3c/device-memory"
     },
     "title": "Device Memory",
     "source": "w3c"
@@ -3458,7 +3670,8 @@
       "url": "https://www.w3.org/TR/DOM-Parsing/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/DOM-Parsing/"
+      "url": "https://w3c.github.io/DOM-Parsing/",
+      "repository": "https://github.com/w3c/DOM-Parsing"
     },
     "title": "DOM Parsing and Serialization",
     "source": "w3c"
@@ -3475,7 +3688,8 @@
       "url": "https://www.w3.org/TR/encoding/"
     },
     "nightly": {
-      "url": "https://encoding.spec.whatwg.org/"
+      "url": "https://encoding.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/encoding"
     },
     "title": "Encoding",
     "source": "w3c"
@@ -3492,7 +3706,8 @@
       "url": "https://www.w3.org/TR/encrypted-media/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/encrypted-media/"
+      "url": "https://w3c.github.io/encrypted-media/",
+      "repository": "https://github.com/w3c/encrypted-media"
     },
     "title": "Encrypted Media Extensions",
     "source": "w3c"
@@ -3510,7 +3725,8 @@
       "url": "https://www.w3.org/TR/feature-policy-1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-feature-policy/"
+      "url": "https://w3c.github.io/webappsec-feature-policy/",
+      "repository": "https://github.com/w3c/webappsec-feature-policy"
     },
     "title": "Feature Policy",
     "source": "w3c"
@@ -3527,7 +3743,8 @@
       "url": "https://www.w3.org/TR/fetch-metadata/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-fetch-metadata/"
+      "url": "https://w3c.github.io/webappsec-fetch-metadata/",
+      "repository": "https://github.com/w3c/webappsec-fetch-metadata"
     },
     "title": "Fetch Metadata Request Headers",
     "source": "w3c"
@@ -3544,7 +3761,8 @@
       "url": "https://www.w3.org/TR/FileAPI/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/FileAPI/"
+      "url": "https://w3c.github.io/FileAPI/",
+      "repository": "https://github.com/w3c/FileAPI"
     },
     "title": "File API",
     "source": "w3c"
@@ -3562,7 +3780,8 @@
       "url": "https://www.w3.org/TR/fill-stroke-3/"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/fill-stroke/"
+      "url": "https://drafts.fxtf.org/fill-stroke/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "CSS Fill and Stroke Module Level 3",
     "source": "w3c"
@@ -3581,7 +3800,8 @@
       "url": "https://www.w3.org/TR/filter-effects-1/"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/filter-effects-1/"
+      "url": "https://drafts.fxtf.org/filter-effects-1/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Filter Effects Module Level 1",
     "source": "w3c"
@@ -3598,7 +3818,8 @@
       "url": "https://www.w3.org/TR/gamepad/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/gamepad/"
+      "url": "https://w3c.github.io/gamepad/",
+      "repository": "https://github.com/w3c/gamepad"
     },
     "title": "Gamepad",
     "source": "w3c"
@@ -3615,7 +3836,8 @@
       "url": "https://www.w3.org/TR/generic-sensor/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/sensors/"
+      "url": "https://w3c.github.io/sensors/",
+      "repository": "https://github.com/w3c/sensors"
     },
     "title": "Generic Sensor API",
     "source": "w3c"
@@ -3632,7 +3854,8 @@
       "url": "https://www.w3.org/TR/geolocation-API/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/geolocation-api/"
+      "url": "https://w3c.github.io/geolocation-api/",
+      "repository": "https://github.com/w3c/geolocation-api"
     },
     "title": "Geolocation API Specification 2nd Edition",
     "source": "w3c"
@@ -3649,7 +3872,8 @@
       "url": "https://www.w3.org/TR/geolocation-sensor/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/geolocation-sensor/"
+      "url": "https://w3c.github.io/geolocation-sensor/",
+      "repository": "https://github.com/w3c/geolocation-sensor"
     },
     "title": "Geolocation Sensor",
     "source": "w3c"
@@ -3667,7 +3891,8 @@
       "url": "https://www.w3.org/TR/geometry-1/"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/geometry/"
+      "url": "https://drafts.fxtf.org/geometry/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Geometry Interfaces Module Level 1",
     "source": "w3c"
@@ -3685,7 +3910,8 @@
       "url": "https://www.w3.org/TR/graphics-aam-1.0/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/graphics-aam/"
+      "url": "https://w3c.github.io/graphics-aam/",
+      "repository": "https://github.com/w3c/graphics-aam"
     },
     "title": "Graphics Accessibility API Mappings",
     "source": "w3c"
@@ -3703,7 +3929,8 @@
       "url": "https://www.w3.org/TR/graphics-aria-1.0/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/graphics-aria/"
+      "url": "https://w3c.github.io/graphics-aria/",
+      "repository": "https://github.com/w3c/graphics-aria"
     },
     "title": "WAI-ARIA Graphics Module",
     "source": "w3c"
@@ -3720,7 +3947,8 @@
       "url": "https://www.w3.org/TR/gyroscope/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/gyroscope/"
+      "url": "https://w3c.github.io/gyroscope/",
+      "repository": "https://github.com/w3c/gyroscope"
     },
     "title": "Gyroscope",
     "source": "w3c"
@@ -3738,7 +3966,8 @@
       "url": "https://www.w3.org/TR/hr-time-3/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/hr-time/"
+      "url": "https://w3c.github.io/hr-time/",
+      "repository": "https://github.com/w3c/hr-time"
     },
     "title": "High Resolution Time Level 3",
     "source": "w3c"
@@ -3756,7 +3985,8 @@
       "url": "https://www.w3.org/TR/html-aam-1.0/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/html-aam/"
+      "url": "https://w3c.github.io/html-aam/",
+      "repository": "https://github.com/w3c/html-aam"
     },
     "title": "HTML Accessibility API Mappings 1.0",
     "source": "w3c"
@@ -3773,7 +4003,8 @@
       "url": "https://www.w3.org/TR/html-aria/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/html-aria/"
+      "url": "https://w3c.github.io/html-aria/",
+      "repository": "https://github.com/w3c/html-aria"
     },
     "title": "ARIA in HTML",
     "source": "w3c"
@@ -3790,7 +4021,8 @@
       "url": "https://www.w3.org/TR/html-media-capture/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/html-media-capture/"
+      "url": "https://w3c.github.io/html-media-capture/",
+      "repository": "https://github.com/w3c/html-media-capture"
     },
     "title": "HTML Media Capture",
     "source": "w3c"
@@ -3807,7 +4039,8 @@
       "url": "https://www.w3.org/TR/image-capture/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediacapture-image/"
+      "url": "https://w3c.github.io/mediacapture-image/",
+      "repository": "https://github.com/w3c/mediacapture-image"
     },
     "title": "\"MediaStream Image Capture\"",
     "source": "w3c"
@@ -3824,7 +4057,8 @@
       "url": "https://www.w3.org/TR/image-resource/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/image-resource/"
+      "url": "https://w3c.github.io/image-resource/",
+      "repository": "https://github.com/w3c/image-resource"
     },
     "title": "Image Resource",
     "source": "w3c"
@@ -3842,7 +4076,8 @@
       "url": "https://www.w3.org/TR/IndexedDB-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/IndexedDB/"
+      "url": "https://w3c.github.io/IndexedDB/",
+      "repository": "https://github.com/w3c/IndexedDB"
     },
     "title": "Indexed Database API 2.0",
     "source": "w3c"
@@ -3860,7 +4095,8 @@
       "url": "https://www.w3.org/TR/input-events-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/input-events/"
+      "url": "https://w3c.github.io/input-events/",
+      "repository": "https://github.com/w3c/input-events"
     },
     "title": "Input Events Level 2",
     "source": "w3c"
@@ -3877,7 +4113,8 @@
       "url": "https://www.w3.org/TR/intersection-observer/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/IntersectionObserver/"
+      "url": "https://w3c.github.io/IntersectionObserver/",
+      "repository": "https://github.com/w3c/IntersectionObserver"
     },
     "title": "Intersection Observer",
     "source": "w3c"
@@ -3895,7 +4132,8 @@
       "url": "https://www.w3.org/TR/longtasks-1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/longtasks/"
+      "url": "https://w3c.github.io/longtasks/",
+      "repository": "https://github.com/w3c/longtasks"
     },
     "title": "Long Tasks API 1",
     "source": "w3c"
@@ -3912,7 +4150,8 @@
       "url": "https://www.w3.org/TR/magnetometer/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/magnetometer/"
+      "url": "https://w3c.github.io/magnetometer/",
+      "repository": "https://github.com/w3c/magnetometer"
     },
     "title": "Magnetometer",
     "source": "w3c"
@@ -3929,7 +4168,8 @@
       "url": "https://www.w3.org/TR/media-capabilities/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/media-capabilities/"
+      "url": "https://w3c.github.io/media-capabilities/",
+      "repository": "https://github.com/w3c/media-capabilities"
     },
     "title": "Media Capabilities",
     "source": "w3c"
@@ -3946,7 +4186,8 @@
       "url": "https://www.w3.org/TR/media-source/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/media-source/"
+      "url": "https://w3c.github.io/media-source/",
+      "repository": "https://github.com/w3c/media-source"
     },
     "title": "Media Source Extensions™",
     "source": "w3c"
@@ -3963,7 +4204,8 @@
       "url": "https://www.w3.org/TR/mediacapture-depth/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediacapture-depth/"
+      "url": "https://w3c.github.io/mediacapture-depth/",
+      "repository": "https://github.com/w3c/mediacapture-depth"
     },
     "title": "Media Capture Depth Stream Extensions",
     "source": "w3c"
@@ -3980,7 +4222,8 @@
       "url": "https://www.w3.org/TR/mediacapture-fromelement/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediacapture-fromelement/"
+      "url": "https://w3c.github.io/mediacapture-fromelement/",
+      "repository": "https://github.com/w3c/mediacapture-fromelement"
     },
     "title": "Media Capture from DOM Elements",
     "source": "w3c"
@@ -3997,7 +4240,8 @@
       "url": "https://www.w3.org/TR/mediacapture-streams/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediacapture-main/"
+      "url": "https://w3c.github.io/mediacapture-main/",
+      "repository": "https://github.com/w3c/mediacapture-main"
     },
     "title": "Media Capture and Streams",
     "source": "w3c"
@@ -4017,7 +4261,8 @@
       "url": "https://www.w3.org/TR/mediaqueries-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/mediaqueries-4/"
+      "url": "https://drafts.csswg.org/mediaqueries-4/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Media Queries Level 4",
     "source": "w3c"
@@ -4036,7 +4281,8 @@
       "url": "https://www.w3.org/TR/mediaqueries-5/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/mediaqueries-5/"
+      "url": "https://drafts.csswg.org/mediaqueries-5/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Media Queries Level 5",
     "source": "w3c"
@@ -4053,7 +4299,8 @@
       "url": "https://www.w3.org/TR/mediasession/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediasession/"
+      "url": "https://w3c.github.io/mediasession/",
+      "repository": "https://github.com/w3c/mediasession"
     },
     "title": "Media Session Standard",
     "source": "w3c"
@@ -4070,7 +4317,8 @@
       "url": "https://www.w3.org/TR/mediastream-recording/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediacapture-record/"
+      "url": "https://w3c.github.io/mediacapture-record/",
+      "repository": "https://github.com/w3c/mediacapture-record"
     },
     "title": "MediaStream Recording",
     "source": "w3c"
@@ -4087,7 +4335,8 @@
       "url": "https://www.w3.org/TR/mixed-content/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-mixed-content/"
+      "url": "https://w3c.github.io/webappsec-mixed-content/",
+      "repository": "https://github.com/w3c/webappsec-mixed-content"
     },
     "title": "Mixed Content",
     "source": "w3c"
@@ -4105,7 +4354,8 @@
       "url": "https://www.w3.org/TR/motion-1/"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/motion-1/"
+      "url": "https://drafts.fxtf.org/motion-1/",
+      "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Motion Path Module Level 1",
     "source": "w3c"
@@ -4122,7 +4372,8 @@
       "url": "https://www.w3.org/TR/mst-content-hint/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mst-content-hint/"
+      "url": "https://w3c.github.io/mst-content-hint/",
+      "repository": "https://github.com/w3c/mst-content-hint"
     },
     "title": "MediaStreamTrack Content Hints",
     "source": "w3c"
@@ -4140,7 +4391,8 @@
       "url": "https://www.w3.org/TR/navigation-timing-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/navigation-timing/"
+      "url": "https://w3c.github.io/navigation-timing/",
+      "repository": "https://github.com/w3c/navigation-timing"
     },
     "title": "Navigation Timing Level 2",
     "source": "w3c"
@@ -4158,7 +4410,8 @@
       "url": "https://www.w3.org/TR/network-error-logging-1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/network-error-logging/"
+      "url": "https://w3c.github.io/network-error-logging/",
+      "repository": "https://github.com/w3c/network-error-logging"
     },
     "title": "Network Error Logging",
     "source": "w3c"
@@ -4175,7 +4428,8 @@
       "url": "https://www.w3.org/TR/orientation-event/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/deviceorientation/"
+      "url": "https://w3c.github.io/deviceorientation/",
+      "repository": "https://github.com/w3c/deviceorientation"
     },
     "title": "DeviceOrientation Event Specification",
     "source": "w3c"
@@ -4192,7 +4446,8 @@
       "url": "https://www.w3.org/TR/orientation-sensor/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/orientation-sensor/"
+      "url": "https://w3c.github.io/orientation-sensor/",
+      "repository": "https://github.com/w3c/orientation-sensor"
     },
     "title": "Orientation Sensor",
     "source": "w3c"
@@ -4210,7 +4465,8 @@
       "url": "https://www.w3.org/TR/page-visibility-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/page-visibility/"
+      "url": "https://w3c.github.io/page-visibility/",
+      "repository": "https://github.com/w3c/page-visibility"
     },
     "title": "Page Visibility Level 2",
     "source": "w3c"
@@ -4227,7 +4483,8 @@
       "url": "https://www.w3.org/TR/paint-timing/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/paint-timing/"
+      "url": "https://w3c.github.io/paint-timing/",
+      "repository": "https://github.com/w3c/paint-timing"
     },
     "title": "Paint Timing 1",
     "source": "w3c"
@@ -4244,7 +4501,8 @@
       "url": "https://www.w3.org/TR/payment-handler/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/payment-handler/"
+      "url": "https://w3c.github.io/payment-handler/",
+      "repository": "https://github.com/w3c/payment-handler"
     },
     "title": "Payment Handler API",
     "source": "w3c"
@@ -4261,7 +4519,8 @@
       "url": "https://www.w3.org/TR/payment-method-basic-card/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/payment-method-basic-card/"
+      "url": "https://w3c.github.io/payment-method-basic-card/",
+      "repository": "https://github.com/w3c/payment-method-basic-card"
     },
     "title": "Payment Method: Basic Card",
     "source": "w3c"
@@ -4278,7 +4537,8 @@
       "url": "https://www.w3.org/TR/payment-method-id/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/payment-method-id/"
+      "url": "https://w3c.github.io/payment-method-id/",
+      "repository": "https://github.com/w3c/payment-method-id"
     },
     "title": "Payment Method Identifiers",
     "source": "w3c"
@@ -4295,7 +4555,8 @@
       "url": "https://www.w3.org/TR/payment-method-manifest/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/payment-method-manifest/"
+      "url": "https://w3c.github.io/payment-method-manifest/",
+      "repository": "https://github.com/w3c/payment-method-manifest"
     },
     "title": "Payment Method Manifest",
     "source": "w3c"
@@ -4312,7 +4573,8 @@
       "url": "https://www.w3.org/TR/payment-request/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/payment-request/"
+      "url": "https://w3c.github.io/payment-request/",
+      "repository": "https://github.com/w3c/payment-request"
     },
     "title": "Payment Request API",
     "source": "w3c"
@@ -4330,7 +4592,8 @@
       "url": "https://www.w3.org/TR/performance-timeline-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/performance-timeline/"
+      "url": "https://w3c.github.io/performance-timeline/",
+      "repository": "https://github.com/w3c/performance-timeline"
     },
     "title": "Performance Timeline Level 2",
     "source": "w3c"
@@ -4347,7 +4610,8 @@
       "url": "https://www.w3.org/TR/permissions/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/permissions/"
+      "url": "https://w3c.github.io/permissions/",
+      "repository": "https://github.com/w3c/permissions"
     },
     "title": "Permissions",
     "source": "w3c"
@@ -4364,7 +4628,8 @@
       "url": "https://www.w3.org/TR/picture-in-picture/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/picture-in-picture/"
+      "url": "https://w3c.github.io/picture-in-picture/",
+      "repository": "https://github.com/w3c/picture-in-picture"
     },
     "title": "Picture-in-Picture",
     "source": "w3c"
@@ -4382,7 +4647,8 @@
       "url": "https://www.w3.org/TR/pointerevents3/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/pointerevents/"
+      "url": "https://w3c.github.io/pointerevents/",
+      "repository": "https://github.com/w3c/pointerevents"
     },
     "title": "Pointer Events Level 3",
     "source": "w3c"
@@ -4400,7 +4666,8 @@
       "url": "https://www.w3.org/TR/pointerlock-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/pointerlock/"
+      "url": "https://w3c.github.io/pointerlock/",
+      "repository": "https://github.com/w3c/pointerlock"
     },
     "title": "Pointer Lock 2.0",
     "source": "w3c"
@@ -4417,7 +4684,8 @@
       "url": "https://www.w3.org/TR/preload/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/preload/"
+      "url": "https://w3c.github.io/preload/",
+      "repository": "https://github.com/w3c/preload"
     },
     "title": "Preload",
     "source": "w3c"
@@ -4434,7 +4702,8 @@
       "url": "https://www.w3.org/TR/presentation-api/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/presentation-api/"
+      "url": "https://w3c.github.io/presentation-api/",
+      "repository": "https://github.com/w3c/presentation-api"
     },
     "title": "Presentation API",
     "source": "w3c"
@@ -4451,7 +4720,8 @@
       "url": "https://www.w3.org/TR/proximity/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/proximity/"
+      "url": "https://w3c.github.io/proximity/",
+      "repository": "https://github.com/w3c/proximity"
     },
     "title": "Proximity Sensor",
     "source": "w3c"
@@ -4468,7 +4738,8 @@
       "url": "https://www.w3.org/TR/push-api/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/push-api/"
+      "url": "https://w3c.github.io/push-api/",
+      "repository": "https://github.com/w3c/push-api"
     },
     "title": "Push API",
     "source": "w3c"
@@ -4485,7 +4756,8 @@
       "url": "https://www.w3.org/TR/referrer-policy/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-referrer-policy/"
+      "url": "https://w3c.github.io/webappsec-referrer-policy/",
+      "repository": "https://github.com/w3c/webappsec-referrer-policy"
     },
     "title": "Referrer Policy",
     "source": "w3c"
@@ -4502,7 +4774,8 @@
       "url": "https://www.w3.org/TR/remote-playback/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/remote-playback/"
+      "url": "https://w3c.github.io/remote-playback/",
+      "repository": "https://github.com/w3c/remote-playback"
     },
     "title": "Remote Playback API",
     "source": "w3c"
@@ -4520,7 +4793,8 @@
       "url": "https://www.w3.org/TR/reporting-1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/reporting/"
+      "url": "https://w3c.github.io/reporting/",
+      "repository": "https://github.com/w3c/reporting"
     },
     "title": "Reporting API",
     "source": "w3c"
@@ -4537,7 +4811,8 @@
       "url": "https://www.w3.org/TR/requestidlecallback/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/requestidlecallback/"
+      "url": "https://w3c.github.io/requestidlecallback/",
+      "repository": "https://github.com/w3c/requestidlecallback"
     },
     "title": "Cooperative Scheduling of Background Tasks",
     "source": "w3c"
@@ -4555,7 +4830,8 @@
       "url": "https://www.w3.org/TR/resize-observer-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/resize-observer/"
+      "url": "https://drafts.csswg.org/resize-observer/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Resize Observer",
     "source": "w3c"
@@ -4572,7 +4848,8 @@
       "url": "https://www.w3.org/TR/resource-hints/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/resource-hints/"
+      "url": "https://w3c.github.io/resource-hints/",
+      "repository": "https://github.com/w3c/resource-hints"
     },
     "title": "Resource Hints",
     "source": "w3c"
@@ -4590,7 +4867,8 @@
       "url": "https://www.w3.org/TR/resource-timing-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/resource-timing/"
+      "url": "https://w3c.github.io/resource-timing/",
+      "repository": "https://github.com/w3c/resource-timing"
     },
     "title": "Resource Timing Level 2",
     "source": "w3c"
@@ -4607,7 +4885,8 @@
       "url": "https://www.w3.org/TR/screen-capture/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/mediacapture-screen-share/"
+      "url": "https://w3c.github.io/mediacapture-screen-share/",
+      "repository": "https://github.com/w3c/mediacapture-screen-share"
     },
     "title": "Screen Capture",
     "source": "w3c"
@@ -4624,7 +4903,8 @@
       "url": "https://www.w3.org/TR/screen-orientation/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/screen-orientation/"
+      "url": "https://w3c.github.io/screen-orientation/",
+      "repository": "https://github.com/w3c/screen-orientation"
     },
     "title": "The Screen Orientation API",
     "source": "w3c"
@@ -4641,7 +4921,8 @@
       "url": "https://www.w3.org/TR/secure-contexts/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-secure-contexts/"
+      "url": "https://w3c.github.io/webappsec-secure-contexts/",
+      "repository": "https://github.com/w3c/webappsec-secure-contexts"
     },
     "title": "Secure Contexts",
     "source": "w3c"
@@ -4658,7 +4939,8 @@
       "url": "https://www.w3.org/TR/selection-api/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/selection-api/"
+      "url": "https://w3c.github.io/selection-api/",
+      "repository": "https://github.com/w3c/selection-api"
     },
     "title": "Selection API",
     "source": "w3c"
@@ -4677,7 +4959,8 @@
       "url": "https://www.w3.org/TR/selectors-3/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/selectors-3/"
+      "url": "https://drafts.csswg.org/selectors-3/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Selectors Level 3",
     "source": "w3c"
@@ -4696,7 +4979,8 @@
       "url": "https://www.w3.org/TR/selectors-4/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/selectors/"
+      "url": "https://drafts.csswg.org/selectors/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Selectors Level 4",
     "source": "w3c"
@@ -4714,7 +4998,8 @@
       "url": "https://www.w3.org/TR/selectors-nonelement-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/selectors-nonelement/"
+      "url": "https://drafts.csswg.org/selectors-nonelement/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Non-element Selectors Module Level 1",
     "source": "w3c"
@@ -4731,7 +5016,8 @@
       "url": "https://www.w3.org/TR/server-timing/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/server-timing/"
+      "url": "https://w3c.github.io/server-timing/",
+      "repository": "https://github.com/w3c/server-timing"
     },
     "title": "Server Timing",
     "source": "w3c"
@@ -4746,7 +5032,8 @@
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://w3c.github.io/ServiceWorker/"
+      "url": "https://w3c.github.io/ServiceWorker/",
+      "repository": "https://github.com/w3c/ServiceWorker"
     },
     "release": {
       "url": "https://www.w3.org/TR/service-workers-1/"
@@ -4766,7 +5053,8 @@
       "url": "https://www.w3.org/TR/SRI/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-subresource-integrity/"
+      "url": "https://w3c.github.io/webappsec-subresource-integrity/",
+      "repository": "https://github.com/w3c/webappsec-subresource-integrity"
     },
     "title": "Subresource Integrity",
     "source": "w3c"
@@ -4784,7 +5072,8 @@
       "url": "https://www.w3.org/TR/svg-aam-1.0/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/svg-aam/"
+      "url": "https://w3c.github.io/svg-aam/",
+      "repository": "https://github.com/w3c/svg-aam"
     },
     "title": "SVG Accessibility API Mappings",
     "source": "w3c"
@@ -4801,7 +5090,8 @@
       "url": "https://www.w3.org/TR/svg-integration/"
     },
     "nightly": {
-      "url": "https://svgwg.org/specs/integration/"
+      "url": "https://svgwg.org/specs/integration/",
+      "repository": "https://github.com/w3c/svgwg"
     },
     "title": "SVG Integration",
     "source": "w3c"
@@ -4818,7 +5108,8 @@
       "url": "https://www.w3.org/TR/svg-markers/"
     },
     "nightly": {
-      "url": "https://svgwg.org/specs/markers/"
+      "url": "https://svgwg.org/specs/markers/",
+      "repository": "https://github.com/w3c/svgwg"
     },
     "title": "SVG Markers",
     "source": "w3c"
@@ -4835,7 +5126,8 @@
       "url": "https://www.w3.org/TR/svg-paths/"
     },
     "nightly": {
-      "url": "https://svgwg.org/specs/paths/"
+      "url": "https://svgwg.org/specs/paths/",
+      "repository": "https://github.com/w3c/svgwg"
     },
     "title": "SVG Paths",
     "source": "w3c"
@@ -4852,7 +5144,8 @@
       "url": "https://www.w3.org/TR/svg-strokes/"
     },
     "nightly": {
-      "url": "https://svgwg.org/specs/strokes/"
+      "url": "https://svgwg.org/specs/strokes/",
+      "repository": "https://github.com/w3c/svgwg"
     },
     "title": "SVG Strokes",
     "source": "w3c"
@@ -4870,7 +5163,8 @@
       "url": "https://www.w3.org/TR/SVG2/"
     },
     "nightly": {
-      "url": "https://svgwg.org/svg2-draft/"
+      "url": "https://svgwg.org/svg2-draft/",
+      "repository": "https://github.com/w3c/svgwg"
     },
     "title": "Scalable Vector Graphics (SVG) 2",
     "source": "w3c"
@@ -4887,7 +5181,8 @@
       "url": "https://www.w3.org/TR/timing-entrytypes-registry/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/timing-entrytypes-registry/"
+      "url": "https://w3c.github.io/timing-entrytypes-registry/",
+      "repository": "https://github.com/w3c/timing-entrytypes-registry"
     },
     "title": "Timing Entry Names Registry",
     "source": "w3c"
@@ -4904,7 +5199,8 @@
       "url": "https://www.w3.org/TR/touch-events/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/touch-events/"
+      "url": "https://w3c.github.io/touch-events/",
+      "repository": "https://github.com/w3c/touch-events"
     },
     "title": "Touch Events",
     "source": "w3c"
@@ -4922,7 +5218,8 @@
       "url": "https://www.w3.org/TR/trace-context-1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/trace-context/"
+      "url": "https://w3c.github.io/trace-context/",
+      "repository": "https://github.com/w3c/trace-context"
     },
     "title": "Trace Context - Level 1",
     "source": "w3c"
@@ -4939,7 +5236,8 @@
       "url": "https://www.w3.org/TR/uievents-code/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/uievents-code/"
+      "url": "https://w3c.github.io/uievents-code/",
+      "repository": "https://github.com/w3c/uievents-code"
     },
     "title": "UI Events KeyboardEvent code Values",
     "source": "w3c"
@@ -4956,7 +5254,8 @@
       "url": "https://www.w3.org/TR/uievents-key/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/uievents-key/"
+      "url": "https://w3c.github.io/uievents-key/",
+      "repository": "https://github.com/w3c/uievents-key"
     },
     "title": "UI Events KeyboardEvent key Values",
     "source": "w3c"
@@ -4973,7 +5272,8 @@
       "url": "https://www.w3.org/TR/uievents/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/uievents/"
+      "url": "https://w3c.github.io/uievents/",
+      "repository": "https://github.com/w3c/uievents"
     },
     "title": "UI Events",
     "source": "w3c"
@@ -4990,7 +5290,8 @@
       "url": "https://www.w3.org/TR/upgrade-insecure-requests/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-upgrade-insecure-requests/"
+      "url": "https://w3c.github.io/webappsec-upgrade-insecure-requests/",
+      "repository": "https://github.com/w3c/webappsec-upgrade-insecure-requests"
     },
     "title": "Upgrade Insecure Requests",
     "source": "w3c"
@@ -5009,7 +5310,8 @@
       "url": "https://www.w3.org/TR/user-timing-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/user-timing/"
+      "url": "https://w3c.github.io/user-timing/",
+      "repository": "https://github.com/w3c/user-timing"
     },
     "title": "User Timing Level 2",
     "source": "w3c"
@@ -5028,7 +5330,8 @@
       "url": "https://www.w3.org/TR/user-timing-3/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/user-timing/"
+      "url": "https://w3c.github.io/user-timing/",
+      "repository": "https://github.com/w3c/user-timing"
     },
     "title": "User Timing Level 3",
     "source": "w3c"
@@ -5045,7 +5348,8 @@
       "url": "https://www.w3.org/TR/vibration/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/vibration/"
+      "url": "https://w3c.github.io/vibration/",
+      "repository": "https://github.com/w3c/vibration"
     },
     "title": "Vibration API (Second Edition)",
     "source": "w3c"
@@ -5063,7 +5367,8 @@
       "url": "https://www.w3.org/TR/wai-aria-1.2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/aria/"
+      "url": "https://w3c.github.io/aria/",
+      "repository": "https://github.com/w3c/aria"
     },
     "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
     "source": "w3c"
@@ -5080,7 +5385,8 @@
       "url": "https://www.w3.org/TR/wake-lock/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/screen-wake-lock/"
+      "url": "https://w3c.github.io/screen-wake-lock/",
+      "repository": "https://github.com/w3c/screen-wake-lock"
     },
     "title": "Wake Lock API",
     "source": "w3c"
@@ -5098,7 +5404,8 @@
       "url": "https://www.w3.org/TR/wasm-core-1/"
     },
     "nightly": {
-      "url": "https://webassembly.github.io/spec/core/bikeshed/"
+      "url": "https://webassembly.github.io/spec/core/bikeshed/",
+      "repository": "https://github.com/webassembly/spec"
     },
     "title": "WebAssembly Core Specification",
     "source": "w3c"
@@ -5116,7 +5423,8 @@
       "url": "https://www.w3.org/TR/wasm-js-api-1/"
     },
     "nightly": {
-      "url": "https://webassembly.github.io/spec/js-api/"
+      "url": "https://webassembly.github.io/spec/js-api/",
+      "repository": "https://github.com/webassembly/spec"
     },
     "title": "WebAssembly JavaScript Interface",
     "source": "w3c"
@@ -5134,7 +5442,8 @@
       "url": "https://www.w3.org/TR/wasm-web-api-1/"
     },
     "nightly": {
-      "url": "https://webassembly.github.io/spec/web-api/"
+      "url": "https://webassembly.github.io/spec/web-api/",
+      "repository": "https://github.com/webassembly/spec"
     },
     "title": "WebAssembly Web API",
     "source": "w3c"
@@ -5152,7 +5461,8 @@
       "url": "https://www.w3.org/TR/web-animations-1/"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/web-animations-1/"
+      "url": "https://drafts.csswg.org/web-animations-1/",
+      "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "Web Animations",
     "source": "w3c"
@@ -5169,7 +5479,8 @@
       "url": "https://www.w3.org/TR/web-share/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/web-share/"
+      "url": "https://w3c.github.io/web-share/",
+      "repository": "https://github.com/w3c/web-share"
     },
     "title": "Web Share API",
     "source": "w3c"
@@ -5186,7 +5497,8 @@
       "url": "https://www.w3.org/TR/webaudio/"
     },
     "nightly": {
-      "url": "https://webaudio.github.io/web-audio-api/"
+      "url": "https://webaudio.github.io/web-audio-api/",
+      "repository": "https://github.com/webaudio/web-audio-api"
     },
     "title": "Web Audio API",
     "source": "w3c"
@@ -5204,7 +5516,8 @@
       "url": "https://www.w3.org/TR/webauthn-2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webauthn/"
+      "url": "https://w3c.github.io/webauthn/",
+      "repository": "https://github.com/w3c/webauthn"
     },
     "title": "Web Authentication:An API for accessing Public Key Credentials Level 2",
     "source": "w3c"
@@ -5221,7 +5534,8 @@
       "url": "https://www.w3.org/TR/WebCryptoAPI/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webcrypto/Overview.html"
+      "url": "https://w3c.github.io/webcrypto/Overview.html",
+      "repository": "https://github.com/w3c/webcrypto"
     },
     "title": "Web Cryptography API",
     "source": "w3c"
@@ -5239,7 +5553,8 @@
       "url": "https://www.w3.org/TR/webdriver2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webdriver/"
+      "url": "https://w3c.github.io/webdriver/",
+      "repository": "https://github.com/w3c/webdriver"
     },
     "title": "WebDriver - Level 2",
     "source": "w3c"
@@ -5257,7 +5572,8 @@
       "url": "https://www.w3.org/TR/WebIDL-1/"
     },
     "nightly": {
-      "url": "https://heycam.github.io/webidl/"
+      "url": "https://heycam.github.io/webidl/",
+      "repository": "https://github.com/heycam/webidl"
     },
     "title": "WebIDL Level 1",
     "source": "w3c"
@@ -5274,7 +5590,8 @@
       "url": "https://www.w3.org/TR/webmidi/"
     },
     "nightly": {
-      "url": "https://webaudio.github.io/web-midi-api/"
+      "url": "https://webaudio.github.io/web-midi-api/",
+      "repository": "https://github.com/webaudio/web-midi-api"
     },
     "title": "Web MIDI API",
     "source": "w3c"
@@ -5291,7 +5608,8 @@
       "url": "https://www.w3.org/TR/webrtc-identity/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-identity/identity.html"
+      "url": "https://w3c.github.io/webrtc-identity/identity.html",
+      "repository": "https://github.com/w3c/webrtc-identity"
     },
     "title": "Identity for WebRTC 1.0",
     "source": "w3c"
@@ -5308,7 +5626,8 @@
       "url": "https://www.w3.org/TR/webrtc-priority/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-priority/"
+      "url": "https://w3c.github.io/webrtc-priority/",
+      "repository": "https://github.com/w3c/webrtc-priority"
     },
     "title": "WebRTC Priority Control API",
     "source": "w3c"
@@ -5325,7 +5644,8 @@
       "url": "https://www.w3.org/TR/webrtc-stats/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-stats/"
+      "url": "https://w3c.github.io/webrtc-stats/",
+      "repository": "https://github.com/w3c/webrtc-stats"
     },
     "title": "Identifiers for WebRTC's Statistics API",
     "source": "w3c"
@@ -5342,7 +5662,8 @@
       "url": "https://www.w3.org/TR/webrtc-svc/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-svc/"
+      "url": "https://w3c.github.io/webrtc-svc/",
+      "repository": "https://github.com/w3c/webrtc-svc"
     },
     "title": "Scalable Video Coding (SVC) Extension for WebRTC",
     "source": "w3c"
@@ -5359,7 +5680,8 @@
       "url": "https://www.w3.org/TR/webrtc/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-pc/"
+      "url": "https://w3c.github.io/webrtc-pc/",
+      "repository": "https://github.com/w3c/webrtc-pc"
     },
     "title": "WebRTC 1.0: Real-time Communication Between Browsers",
     "source": "w3c"
@@ -5377,7 +5699,8 @@
       "url": "https://www.w3.org/TR/webvtt1/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webvtt/"
+      "url": "https://w3c.github.io/webvtt/",
+      "repository": "https://github.com/w3c/webvtt"
     },
     "title": "WebVTT: The Web Video Text Tracks Format",
     "source": "w3c"
@@ -5395,7 +5718,8 @@
       "url": "https://www.w3.org/TR/webxr-ar-module-1/"
     },
     "nightly": {
-      "url": "https://immersive-web.github.io/webxr-ar-module/"
+      "url": "https://immersive-web.github.io/webxr-ar-module/",
+      "repository": "https://github.com/immersive-web/webxr-ar-module"
     },
     "title": "WebXR Augmented Reality Module - Level 1",
     "source": "w3c"
@@ -5413,7 +5737,8 @@
       "url": "https://www.w3.org/TR/webxr-gamepads-module-1/"
     },
     "nightly": {
-      "url": "https://immersive-web.github.io/webxr-gamepads-module/"
+      "url": "https://immersive-web.github.io/webxr-gamepads-module/",
+      "repository": "https://github.com/immersive-web/webxr-gamepads-module"
     },
     "title": "WebXR Gamepads Module - Level 1",
     "source": "w3c"
@@ -5430,7 +5755,8 @@
       "url": "https://www.w3.org/TR/webxr/"
     },
     "nightly": {
-      "url": "https://immersive-web.github.io/webxr/"
+      "url": "https://immersive-web.github.io/webxr/",
+      "repository": "https://github.com/immersive-web/webxr"
     },
     "title": "WebXR Device API",
     "source": "w3c"
@@ -5448,7 +5774,8 @@
       "url": "https://www.w3.org/TR/WOFF2/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/woff/woff2/"
+      "url": "https://w3c.github.io/woff/woff2/",
+      "repository": "https://github.com/w3c/woff"
     },
     "title": "WOFF File Format 2.0",
     "source": "w3c"
@@ -5466,7 +5793,8 @@
       "url": "https://www.w3.org/TR/worklets-1/"
     },
     "nightly": {
-      "url": "https://drafts.css-houdini.org/worklets/"
+      "url": "https://drafts.css-houdini.org/worklets/",
+      "repository": "https://github.com/w3c/css-houdini-drafts"
     },
     "title": "Worklets Level 1",
     "source": "w3c"
@@ -5480,7 +5808,8 @@
       "currentSpecification": "xhr"
     },
     "nightly": {
-      "url": "https://xhr.spec.whatwg.org/"
+      "url": "https://xhr.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/xhr"
     },
     "title": "XMLHttpRequest Standard",
     "source": "specref"

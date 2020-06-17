@@ -86,4 +86,9 @@ describe("List of specs", () => {
     });
     assert.deepStrictEqual(wrong, []);
   });
+
+  it("contains repository URLs for all specs", () => {
+    const wrong = specs.filter(s => !s.nightly.repository);
+    assert.deepStrictEqual(wrong, []);
+  });
 });

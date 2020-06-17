@@ -9,6 +9,7 @@
 const computeShortname = require("./compute-shortname.js");
 const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
+const computeRepository = require("./compute-repository.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
 
@@ -62,7 +63,18 @@ const specs = require("../specs.json")
 fetchInfo(specs, { w3cApiKey })
   .then(specInfo => {
     const index = specs
-      .map(spec => Object.assign({}, spec, specInfo[spec.shortname], spec));
+      .map(spec => Object.assign({}, spec, specInfo[spec.shortname], spec))
+
+      // Complete the list of repositories
+      .map(spec => {
+        if (!spec.nightly.repository) {
+          const repository = computeRepository(spec.nightly.url);
+          if (repository) {
+            spec.nightly.repository = repository;
+          }
+        }
+        return spec;
+      });
 
     // Return the resulting list
     console.log(JSON.stringify(index, null, 2));

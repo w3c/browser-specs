@@ -13,7 +13,7 @@
       "seriesComposition": { "$ref": "definitions.json#/proptype/seriesComposition" },
       "seriesPrevious": { "$ref": "definitions.json#/proptype/shortname" },
       "seriesNext": { "$ref": "definitions.json#/proptype/shortname" },
-      "nightly": { "$ref": "definitions.json#/proptype/release" },
+      "nightly": { "$ref": "definitions.json#/proptype/nightly" },
       "release": { "$ref": "definitions.json#/proptype/release" },
       "title": { "$ref": "definitions.json#/proptype/title" },
       "source": { "$ref": "definitions.json#/proptype/source" }

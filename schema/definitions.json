@@ -56,6 +56,16 @@
       },
       "required": ["url"],
       "additionalProperties": false
+    },
+
+    "nightly": {
+      "type": "object",
+      "properties": {
+        "url": { "$ref": "#/proptype/url" },
+        "repository": { "$ref": "#/proptype/url" }
+      },
+      "required": ["url"],
+      "additionalProperties": false
     }
   }
 }

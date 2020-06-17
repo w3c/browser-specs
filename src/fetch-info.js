@@ -9,6 +9,8 @@
  * - "nightly": an object that describes the nightly version. The object will
  * feature the URL of the Editor's Draft for W3C specs, of the living document
  * for WHATWG specifications, or of the published Khronos Group specification.
+ * The object may also feature the URL of the repository that hosts the nightly
+ * version of the spec.
  * - "release": an object that describes the published version. The object will
  * feature the URL of the TR document for W3C specs when it exists, and is not
  * present for specs that don't have release versions (WHATWG specs, CG drafts).
@@ -198,6 +200,9 @@ async function fetchInfoFromSpecref(specs, options) {
           nightly: { url: nightly },
           title: info.title
         };
+        if (info.repository) {
+          results[name].nightly.repository = info.repository;
+        }
       }
     });
   });

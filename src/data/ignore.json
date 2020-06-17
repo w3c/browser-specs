@@ -95,6 +95,18 @@
     },
     "w3c/webrtc-provisional-stats": {
       "comment": "pre-landing spec for proposals - actual stats gets integrated into webrtc-stats"
+    },
+    "gpuweb/WSL" :{
+      "comment": "no longer under consideration"
+    },
+    "WICG/encrypted-media-encryption-scheme": {
+      "comment": "Merged back into main spec in the Media WG"
+    },
+    "WICG/hdcp-detection": {
+      "comment": "Merged back into main spec in the Media WG"
+    },
+    "WICG/media-source": {
+      "comment": "Merged back into main spec in the Media WG"
     }
   },
   "specs": {

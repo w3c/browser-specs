@@ -4,6 +4,31 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.8.0](https://github.com/w3c/browser-specs/compare/1.7.0...1.8.0) - 2020-06-17
+
+
+### Merged
+
+- Raise an issue for new specs only if the candidate list is not empty [`#103`](https://github.com/w3c/browser-specs/pull/103)
+- Mark kv-storage for monitoring [`#102`](https://github.com/w3c/browser-specs/pull/102)
+- Add WICG specs with ongoing development in browsers [`#87`](https://github.com/w3c/browser-specs/pull/87)
+- Allow nightly URL in specs.json, adjust Service Workers entry [`#101`](https://github.com/w3c/browser-specs/pull/101)
+- Fix case-typo in monitored repo names [`#100`](https://github.com/w3c/browser-specs/pull/100)
+- Mark a few more specs as to be monitored [`#98`](https://github.com/w3c/browser-specs/pull/98)
+- Add Media Feeds spec [`#99`](https://github.com/w3c/browser-specs/pull/99)
+- Put WebXR Test API as to be monitored [`#97`](https://github.com/w3c/browser-specs/pull/97)
+- Add Bidirectional Web Driver to list of specs [`#96`](https://github.com/w3c/browser-specs/pull/96)
+- Add mathml accessibility mappings [`#95`](https://github.com/w3c/browser-specs/pull/95)
+- Ignore more specs [`#93`](https://github.com/w3c/browser-specs/pull/93)
+
+
+### Commits
+
+- [data] Update spec info [`8150fa1`](https://github.com/w3c/browser-specs/commit/8150fa1acb7ec56120165452592d584ae8a25d14)
+- [data] Update spec info [`145ab4a`](https://github.com/w3c/browser-specs/commit/145ab4a3100f56e48806e55e32293c56d48bead5)
+- [data] Update spec info [`d0b56f8`](https://github.com/w3c/browser-specs/commit/d0b56f8f004d70ea43ec28a18801e56cb9c75053)
+- [data] Update spec info [`e1fa081`](https://github.com/w3c/browser-specs/commit/e1fa08125abaabcd3308c9c7c955d1d60dabdcfa)
+
 ## [1.7.0](https://github.com/w3c/browser-specs/compare/1.6.0...1.7.0) - 2020-06-17
 
 

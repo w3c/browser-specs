@@ -1,0 +1,28 @@
+name: Monitor specs
+
+on:
+  schedule:
+    - cron: '0 0 1 */2 *'
+jobs:
+  find-specs:
+    name: Update the list of monitored specs and highlights those that have changed
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: npm install
+    - run: node src/monitor-specs.js # sets review_list env variable
+    - uses: peter-evans/create-pull-request@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        title: Update review of monitored specs
+        commit-message: "Update review of monitored specs"
+        body: |
+          The following specs have been updated since the last review:
+          ${{env.review_list}}
+        assignees: tidoust, dontcallmedom
+        draft: true

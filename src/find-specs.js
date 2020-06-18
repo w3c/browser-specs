@@ -52,16 +52,21 @@ const toGhUrl = repo => { return {repo: `${repo.owner.login}/${repo.name}`, spec
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
 const hasRelevantSpec = ({spec: url}) => !Object.keys(ignorable.specs).includes(url);
-const hasMoreRecentLevel = (s, url) => {
+const hasMoreRecentLevel = (s, url, loose) => {
   try {
     const shortnameData = computeShortname(url);
-    return s.series.shortname === shortnameData.series.shortname && s.seriesVersion >= shortnameData.seriesVersion;
+    //console.log(s.series.shortname, shortnameData.series.shortname, s.seriesVersion, shortnameData.seriesVersion);
+    return s.series.shortname === shortnameData.series.shortname && (s.seriesVersion > shortnameData.seriesVersion || loose && s.seriesVersion === shortnameData.seriesVersion);
   } catch (e) {
     return false;
   }
 };
 const hasUnknownSpec = ({spec: url}) => !specs.find(s => s.nightly.url.startsWith(url)
-                                                    || (s.release && s.release.url === url) || hasMoreRecentLevel(s, url))
+                                                    || (s.release && s.release.url === url))
+      && !specs.find(s => hasMoreRecentLevel(s, url, true // Because CSS specs have editors draft with and without levels, we look loosely for more recent levels when checking with editors draft
+                                            ));
+const hasUnknownTrSpec = ({spec: url}) => !specs.find(s => s.release && s.release.url === url) && !specs.find(s => hasMoreRecentLevel(s,url));
+
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));
 const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) => {
@@ -107,7 +112,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
     Object.keys(specRepos).map(
       r => specRepos[r].filter(s => s.recTrack && wgs.find(g => g.id === s.group)).map(s => { return {repo: r, spec: canonicalizeTRUrl(s.url)};}))
       .flat()
-      .filter(hasUnknownSpec)
+      .filter(hasUnknownTrSpec)
       .filter(hasRelevantSpec)
   );
 

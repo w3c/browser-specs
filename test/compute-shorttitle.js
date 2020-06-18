@@ -19,6 +19,12 @@ describe("compute-shorttitle module", () => {
       "CSS Backgrounds and Borders 4");
   });
 
+  it("does not choke on levels that are not levels", () => {
+    assertTitle(
+      "CORS and RFC1918",
+      "CORS and RFC1918");
+  });
+
   it("finds abbreviation for WAI-ARIA title", () => {
     assertTitle(
       "Accessible Rich Internet Applications (WAI-ARIA) 1.2",

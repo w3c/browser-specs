@@ -20,10 +20,10 @@ module.exports = function (title) {
     return title;
   }
 
-  const level = title.match(/\d+(\.\d+)?$/);
+  const level = title.match(/\s(\d+(\.\d+)?)$/);
 
   const shortTitle = title
-    .replace(/\u00A0/g, ' ')            // Replace non-breaking spaces
+    .replace(/\s/g, ' ')                // Replace non-breaking spaces
     .replace(/ \d+(\.\d+)?$/, '')       // Drop level number for now
     .replace(/( -)? Level$/, '')        // Drop "Level"
     .replace(/ Module$/, '')            // Drop "Module" (now followed by level)
@@ -34,7 +34,7 @@ module.exports = function (title) {
     .replace(/^.*\(([^\)]+)\).*$/, '$1'); // Use abbr between parentheses
 
   if (level) {
-    return shortTitle + " " + level[0];
+    return shortTitle + " " + level[1];
   }
   else {
     return shortTitle;

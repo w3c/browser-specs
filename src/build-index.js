@@ -9,6 +9,7 @@
 const computeShortname = require("./compute-shortname.js");
 const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
+const computeRepository = require("./compute-repository.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
 
@@ -60,13 +61,10 @@ const specs = require("../specs.json")
 // - final `spec` ensures that properties defined in specs.json override info
 // from the source.
 fetchInfo(specs, { w3cApiKey })
-  .then(specInfo => {
-    const index = specs
-      .map(spec => Object.assign({}, spec, specInfo[spec.shortname], spec));
-
-    // Return the resulting list
-    console.log(JSON.stringify(index, null, 2));
-  })
+  .then(specInfo => specs.map(spec =>
+    Object.assign({}, spec, specInfo[spec.shortname], spec)))
+  .then(index => computeRepository(index))
+  .then(index => console.log(JSON.stringify(index, null, 2)))
   .catch(err => {
     console.error(err);
     process.exit(1);

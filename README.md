@@ -27,6 +27,7 @@ cross-references, WebIDL, quality, etc.
     - [`release.url`](#releaseurl)
   - [`nightly`](#nightly)
     - [`nightly.url`](#nightlyurl)
+    - [`nightly.repository`](#nightlyrepository)
   - [`source`](#source)
 - [How to add/update/delete a spec](#how-to-addupdatedelete-a-spec)
 - [Spec selection criteria](#spec-selection-criteria)
@@ -227,6 +228,17 @@ neither exist in the W3C API nor in Specref. The [`source`](#source) property
 details the actual provenance.
 
 The `url` property is always set.
+
+
+#### `nightly.repository`
+
+The URL of the repository that contains the source of the Editor's Draft or of
+the living standard.
+
+The URL is either retrieved from the [Specref](https://www.specref.org/) or
+computed from `nightly.url`.
+
+The `repository` property is always set.
 
 
 ### `source`

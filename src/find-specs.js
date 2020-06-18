@@ -52,11 +52,11 @@ const toGhUrl = repo => { return {repo: `${repo.owner.login}/${repo.name}`, spec
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
 const hasRelevantSpec = ({spec: url}) => !Object.keys(ignorable.specs).includes(url) && !Object.keys(temporarilyIgnorableSpecs).includes(url);
+// Set loose parameter when checking loosely if another version exists
 const hasMoreRecentLevel = (s, url, loose) => {
   try {
     const shortnameData = computeShortname(url);
-    //console.log(s.series.shortname, shortnameData.series.shortname, s.seriesVersion, shortnameData.seriesVersion);
-    return s.series.shortname === shortnameData.series.shortname && (s.seriesVersion > shortnameData.seriesVersion || loose && s.seriesVersion === shortnameData.seriesVersion);
+    return s.series.shortname === shortnameData.series.shortname && (s.seriesVersion > shortnameData.seriesVersion || loose && (s.seriesVersion === shortnameData.seriesVersion || !s.seriesVersion));
   } catch (e) {
     return false;
   }

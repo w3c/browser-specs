@@ -30,6 +30,8 @@ const watchedBrowserCgs = [
   "Privacy Community Group",
   "GPU for the Web Community Group"
 ];
+const cssMetaDir = ["shared", "indexes", "bin", ".github", "css-module", "css-module-bikeshed"];
+
 
 function canonicalizeGhUrl(r) {
   const url = new URL(r.homepageUrl);
@@ -73,6 +75,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   const specRepos = await fetch("https://w3c.github.io/spec-dashboard/repo-map.json").then(r => r.json());
   const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json())
         .then(d => d.workstreams.map(w => { return {...w.standards[0], id: w.id}; }));
+  const cssSpecs = await fetch("https://api.github.com/repos/w3c/csswg-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !cssMetaDir.includes(p.path)).map(p => p.path));
 
   const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
 
@@ -130,10 +133,19 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
                                                     .map(hasExistingSpec))
                                  ).filter(x => x));
 
+  // Check for new WHATWG streams
   candidates = candidates.concat(whatwgSpecs.map(s => { return {repo: `whatwg/${s.id}`, spec: s.href};})
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
+
+  // Check for new CSS specs
+  candidates = candidates.concat(cssSpecs.map(s => { return {repo: "w3c/csswg-drafts", spec: `https://drafts.csswg.org/${s}/`};})
+                                 .filter(hasUnknownSpec)
+                                 .filter(hasRelevantSpec));
+
+  // Add information from Chrome Feature status
   candidates = candidates.map(c => { return {...c, impl: { chrome: (chromeFeatures.find(f => f.standards.spec && f.standards.spec.startsWith(c.spec)) || {}).id}};});
+
   const candidate_list = candidates.sort((c1, c2) => c1.spec.localeCompare(c2.spec))
         .map(c => `- [ ] ${c.spec} from [${c.repo}](https://github.com/${c.repo})` + (c.impl.chrome ? ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` : '')).join("\n");
   core.exportVariable("candidate_list", candidate_list);

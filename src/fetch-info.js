@@ -200,9 +200,6 @@ async function fetchInfoFromSpecref(specs, options) {
           nightly: { url: nightly },
           title: info.title
         };
-        if (info.repository) {
-          results[name].nightly.repository = info.repository;
-        }
       }
     });
   });

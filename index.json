@@ -726,7 +726,7 @@
     },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
-      "repository": "https://github.com/w3c/webappsec-trusted-types/"
+      "repository": "https://github.com/w3c/webappsec-trusted-types"
     },
     "title": "Trusted Types",
     "source": "specref"
@@ -1056,7 +1056,7 @@
     },
     "nightly": {
       "url": "https://wicg.github.io/frame-timing/",
-      "repository": "https://github.com/w3c/frame-timing"
+      "repository": "https://github.com/wicg/frame-timing"
     },
     "title": "Frame Timing",
     "source": "specref"

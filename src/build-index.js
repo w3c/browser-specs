@@ -10,6 +10,7 @@ const computeShortname = require("./compute-shortname.js");
 const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
 const computeRepository = require("./compute-repository.js");
+const computeShortTitle = require("./compute-shorttitle.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
 
@@ -63,6 +64,10 @@ const specs = require("../specs.json")
 fetchInfo(specs, { w3cApiKey })
   .then(specInfo => specs.map(spec =>
     Object.assign({}, spec, specInfo[spec.shortname], spec)))
+  .then(index => index.map(spec => {
+    spec.shortTitle = spec.shortTitle || computeShortTitle(spec.title);
+    return spec;
+  }))
   .then(index => computeRepository(index))
   .then(index => console.log(JSON.stringify(index, null, 2)))
   .catch(err => {

@@ -16,11 +16,12 @@
       "nightly": { "$ref": "definitions.json#/proptype/nightly" },
       "release": { "$ref": "definitions.json#/proptype/release" },
       "title": { "$ref": "definitions.json#/proptype/title" },
+      "shortTitle": { "$ref": "definitions.json#/proptype/title" },
       "source": { "$ref": "definitions.json#/proptype/source" }
     },
     "required": [
       "url", "shortname", "series", "seriesComposition", "nightly",
-      "title", "source"
+      "title", "shortTitle", "source"
     ],
     "additionalProperties": false
   },

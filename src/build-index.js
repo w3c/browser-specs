@@ -61,24 +61,10 @@ const specs = require("../specs.json")
 // - final `spec` ensures that properties defined in specs.json override info
 // from the source.
 fetchInfo(specs, { w3cApiKey })
-  .then(specInfo => {
-    const index = specs
-      .map(spec => Object.assign({}, spec, specInfo[spec.shortname], spec))
-
-      // Complete the list of repositories
-      .map(spec => {
-        if (!spec.nightly.repository) {
-          const repository = computeRepository(spec.nightly.url);
-          if (repository) {
-            spec.nightly.repository = repository;
-          }
-        }
-        return spec;
-      });
-
-    // Return the resulting list
-    console.log(JSON.stringify(index, null, 2));
-  })
+  .then(specInfo => specs.map(spec =>
+    Object.assign({}, spec, specInfo[spec.shortname], spec)))
+  .then(index => computeRepository(index))
+  .then(index => console.log(JSON.stringify(index, null, 2)))
   .catch(err => {
     console.error(err);
     process.exit(1);

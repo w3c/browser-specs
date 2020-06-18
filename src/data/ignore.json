@@ -160,6 +160,45 @@
     },
     "https://www.w3.org/TR/html-imports/": {
       "comment": "deprecated e.g. in Chrome https://www.chromestatus.com/features/5144752345317376"
+    },
+    "https://drafts.csswg.org/css-2007/": {
+      "comment": "not a spec, but a collection"
+    },
+    "https://drafts.csswg.org/css-2010/": {
+      "comment": "not a spec, but a collection"
+    },
+    "https://drafts.csswg.org/css-2015/": {
+      "comment": "not a spec, but a collection"
+    },
+    "https://drafts.csswg.org/css-2017/": {
+      "comment": "not a spec, but a collection"
+    },
+    "https://drafts.csswg.org/css-2018/": {
+      "comment": "not a spec, but a collection"
+    },
+    "https://drafts.csswg.org/css-2020/": {
+      "comment": "not a spec, but a collection"
+    },
+    "https://drafts.csswg.org/css-egg-1/": {
+      "comment": "excentric gadgetry"
+    },
+    "https://drafts.csswg.org/css-mobile/": {
+      "comment": "marked as obsolete"
+    },
+    "https://drafts.csswg.org/css-preslev-1/": {
+      "comment": "marked as obsolete"
+    },
+    "https://drafts.csswg.org/css-print/": {
+      "comment": "marked as obsolete"
+    },
+    "https://drafts.csswg.org/css-tv/": {
+      "comment": "marked as obsolete"
+    },
+    "https://drafts.csswg.org/css3-tables-algorithms/": {
+      "comment": "marked as obsolete"
+    },
+    "https://drafts.csswg.org/css-template-1/": {
+      "comment": "repository for ideas that may migrate to other modules of CSS"
     }
   }
 }

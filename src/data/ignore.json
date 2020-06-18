@@ -119,6 +119,9 @@
     "https://www.w3.org/TR/ttml2/": {
       "comment": "not targeted at browsers"
     },
+    "https://www.w3.org/TR/html/": {
+      "comment": "Dup of HTML WHATWG"
+    },
     "https://www.w3.org/TR/html53/": {
       "comment": "about to be deprecated"
     },

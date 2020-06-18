@@ -4,6 +4,21 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.9.0](https://github.com/w3c/browser-specs/compare/1.8.1...1.9.0) - 2020-06-18
+
+
+### Merged
+
+- Make sure to detect TR versions of specs we're otherwise tracking [`#108`](https://github.com/w3c/browser-specs/pull/108)
+- Expose spec repository in nightly.repository [`#105`](https://github.com/w3c/browser-specs/pull/105)
+- Add CSS documents that can be ignored [`#107`](https://github.com/w3c/browser-specs/pull/107)
+- Look for CSS specs in the CSS repository [`#106`](https://github.com/w3c/browser-specs/pull/106)
+
+### Fixed
+
+- Make sure to detect TR versions of specs we're otherwise tracking (#108) [`#62`](https://github.com/w3c/browser-specs/issues/62)
+
+
 ## [1.8.1](https://github.com/w3c/browser-specs/compare/1.8.0...1.8.1) - 2020-06-17
 
 

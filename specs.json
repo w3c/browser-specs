@@ -352,7 +352,10 @@
   "https://www.w3.org/TR/webrtc-priority/",
   "https://www.w3.org/TR/webrtc-stats/",
   "https://www.w3.org/TR/webrtc-svc/",
-  "https://www.w3.org/TR/webrtc/",
+  {
+    "url": "https://www.w3.org/TR/webrtc/",
+    "shortTitle": "WebRTC 1.0"
+  },
   "https://www.w3.org/TR/webvtt1/",
   "https://www.w3.org/TR/webxr-ar-module-1/",
   "https://www.w3.org/TR/webxr-gamepads-module-1/",

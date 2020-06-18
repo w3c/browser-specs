@@ -7,7 +7,7 @@ const computeShortname = require("./compute-shortname");
 
 const specs = require("../index.json");
 const ignorable = require("./data/ignore.json");
-const temporarilyIgnorableRepos = require("./data/monitor-repos.json");
+const {repos: temporarilyIgnorableRepos, specs: temporarilyIgnorableSpecs} = require("./data/monitor.json");
 
 const nonBrowserSpecWgs = [
   "Accessibility Guidelines Working Group",
@@ -51,7 +51,7 @@ function canonicalizeTRUrl(url) {
 const toGhUrl = repo => { return {repo: `${repo.owner.login}/${repo.name}`, spec: `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`}; };
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
-const hasRelevantSpec = ({spec: url}) => !Object.keys(ignorable.specs).includes(url);
+const hasRelevantSpec = ({spec: url}) => !Object.keys(ignorable.specs).includes(url) && !Object.keys(temporarilyIgnorableSpecs).includes(url);
 const hasMoreRecentLevel = (s, url) => {
   try {
     const shortnameData = computeShortname(url);

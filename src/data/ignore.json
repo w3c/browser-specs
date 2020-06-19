@@ -113,6 +113,21 @@
     "https://svgwg.org/specs/streaming/": {
       "comment": "early proposal with no current active work"
     },
+    "https://svgwg.org/specs/color/": {
+      "comment": "overtaken by CSS Color 4"
+    },
+    "https://svgwg.org/specs/marker/": {
+      "comment": "overtaken by https://svgwg.org/specs/markers/"
+    },
+    "https://svgwg.org/specs/svg-native/": {
+      "comment": "meant for execution out of Web environment"
+    },
+    "https://svgwg.org/specs/svg-authoring/": {
+      "comment": "404; underlying doc not meant for browser implementation"
+    },
+    "https://svgwg.org/specs/animation-elements/": {
+      "comment": "see https://svgwg.org/specs/animation-elements/animation-elements.html"
+    },
     "https://www.w3.org/TR/ttml-imsc1.2/": {
       "comment": "not targeted at browsers"
     },

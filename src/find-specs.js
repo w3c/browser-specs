@@ -31,6 +31,7 @@ const watchedBrowserCgs = [
   "GPU for the Web Community Group"
 ];
 const cssMetaDir = ["shared", "indexes", "bin", ".github", "css-module", "css-module-bikeshed"];
+const svgMetaDir = ["template"];
 const fxtfMetaDir = [".github", "shared"];
 const houdiniMetaDir = [".github", "images"];
 
@@ -89,6 +90,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json())
         .then(d => d.workstreams.map(w => { return {...w.standards[0], id: w.id}; }));
   const cssSpecs = await fetch("https://api.github.com/repos/w3c/csswg-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !cssMetaDir.includes(p.path)).map(p => p.path));
+  const svgSpecs = await fetch("https://api.github.com/repos/w3c/svgwg/contents/specs").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !svgMetaDir.includes(p.name)).map(p => p.path));
   const fxtfSpecs = await fetch("https://api.github.com/repos/w3c/fxtf-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !fxtfMetaDir.includes(p.path)).map(p => p.path));
   const houdiniSpecs = await fetch("https://api.github.com/repos/w3c/css-houdini-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !houdiniMetaDir.includes(p.path)).map(p => p.path));
 
@@ -155,6 +157,11 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
 
   // Check for new CSS specs
   candidates = candidates.concat(cssSpecs.map(s => { return {repo: "w3c/csswg-drafts", spec: `https://drafts.csswg.org/${s}/`};})
+                                 .filter(hasUnknownSpec)
+                                 .filter(hasRelevantSpec));
+
+  // Check for new SVG specs
+  candidates = candidates.concat(svgSpecs.map(s => { return {repo: "w3c/svgwg", spec: `https://svgwg.org/${s}/`};})
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
 

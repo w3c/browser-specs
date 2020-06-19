@@ -3707,14 +3707,14 @@
     "shortTitle": "CSS Writing Modes 4"
   },
   {
-    "url": "https://www.w3.org/TR/CSS2/",
+    "url": "https://www.w3.org/TR/CSS21/",
     "seriesComposition": "full",
-    "shortname": "CSS2",
+    "shortname": "CSS21",
     "series": {
       "shortname": "CSS",
       "currentSpecification": "CSS22"
     },
-    "seriesVersion": "2",
+    "seriesVersion": "2.1",
     "seriesNext": "CSS22",
     "release": {
       "url": "https://www.w3.org/TR/CSS2/"
@@ -3736,7 +3736,7 @@
       "currentSpecification": "CSS22"
     },
     "seriesVersion": "2.2",
-    "seriesPrevious": "CSS2",
+    "seriesPrevious": "CSS21",
     "release": {
       "url": "https://www.w3.org/TR/CSS22/"
     },

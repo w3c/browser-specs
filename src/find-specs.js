@@ -31,7 +31,7 @@ const watchedBrowserCgs = [
   "GPU for the Web Community Group"
 ];
 const cssMetaDir = ["shared", "indexes", "bin", ".github", "css-module", "css-module-bikeshed"];
-
+const svgMetaDir = ["template"];
 
 function canonicalizeGhUrl(r) {
   const url = new URL(r.homepageUrl);
@@ -81,6 +81,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json())
         .then(d => d.workstreams.map(w => { return {...w.standards[0], id: w.id}; }));
   const cssSpecs = await fetch("https://api.github.com/repos/w3c/csswg-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !cssMetaDir.includes(p.path)).map(p => p.path));
+  const svgSpecs = await fetch("https://api.github.com/repos/w3c/svgwg/contents/specs").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !svgMetaDir.includes(p.name)).map(p => p.path));
 
   const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
 
@@ -147,6 +148,12 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   candidates = candidates.concat(cssSpecs.map(s => { return {repo: "w3c/csswg-drafts", spec: `https://drafts.csswg.org/${s}/`};})
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
+
+  // Check for new SVG specs
+  candidates = candidates.concat(svgSpecs.map(s => { return {repo: "w3c/svgwg", spec: `https://svgwg.org/${s}/`};})
+                                 .filter(hasUnknownSpec)
+                                 .filter(hasRelevantSpec));
+
 
   // Add information from Chrome Feature status
   candidates = candidates.map(c => { return {...c, impl: { chrome: (chromeFeatures.find(f => f.standards.spec && f.standards.spec.startsWith(c.spec)) || {}).id}};});

@@ -164,6 +164,15 @@
     "https://www.w3.org/TR/html-imports/": {
       "comment": "deprecated e.g. in Chrome https://www.chromestatus.com/features/5144752345317376"
     },
+    "https://drafts.fxtf.org/matrix/": {
+      "comment": "obsolete, replaced by https://www.w3.org/TR/geometry-1/"
+    },
+    "https://drafts.fxtf.org/custom/": {
+      "comment": "obsolete, replaced by http://dev.w3.org/fxtf/filters/"
+    },
+    "https://drafts.fxtf.org/web-anim/": {
+      "comment": "redirects to https://drafts.csswg.org/web-animations/"
+    },
     "https://drafts.csswg.org/css-2007/": {
       "comment": "not a spec, but a collection"
     },

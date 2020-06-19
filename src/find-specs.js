@@ -31,6 +31,7 @@ const watchedBrowserCgs = [
   "GPU for the Web Community Group"
 ];
 const cssMetaDir = ["shared", "indexes", "bin", ".github", "css-module", "css-module-bikeshed"];
+const fxtfMetaDir = [".github", "shared"];
 const houdiniMetaDir = [".github", "images"];
 
 function canonicalizeGhUrl(r) {
@@ -88,6 +89,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json())
         .then(d => d.workstreams.map(w => { return {...w.standards[0], id: w.id}; }));
   const cssSpecs = await fetch("https://api.github.com/repos/w3c/csswg-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !cssMetaDir.includes(p.path)).map(p => p.path));
+  const fxtfSpecs = await fetch("https://api.github.com/repos/w3c/fxtf-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !fxtfMetaDir.includes(p.path)).map(p => p.path));
   const houdiniSpecs = await fetch("https://api.github.com/repos/w3c/css-houdini-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !houdiniMetaDir.includes(p.path)).map(p => p.path));
 
   const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
@@ -156,11 +158,15 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
 
+  // Check for new FXTF specs
+  candidates = candidates.concat(fxtfSpecs.map(s => { return {repo: "w3c/fxtf-drafts", spec: `https://drafts.fxtf.org/${s}/`};})
+                                 .filter(hasUnknownSpec)
+                                 .filter(hasRelevantSpec));
+
   // Check for new Houdini specs
   candidates = candidates.concat(houdiniSpecs.map(s => { return {repo: "w3c/css-houdini-drafts", spec: `https://drafts.css-houdini.org/${s}/`};})
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
-
 
   // Add information from Chrome Feature status
   candidates = candidates.map(c => { return {...c, impl: { chrome: (chromeFeatures.find(f => f.standards.spec && f.standards.spec.startsWith(c.spec)) || {}).id}};});

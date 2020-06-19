@@ -8,16 +8,30 @@
   "https://drafts.csswg.org/css-backgrounds-4/ delta",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
-  "https://drafts.csswg.org/css-gcpm-4/ delta",
+  {
+    "url": "https://drafts.csswg.org/css-gcpm-4/",
+    "seriesComposition": "delta",
+    "shortTitle": "CSS GCPM 4"
+  },
   "https://drafts.csswg.org/css-highlight-api-1/",
-  "https://drafts.csswg.org/css-multicol-2/ delta",
+  {
+    "url": "https://drafts.csswg.org/css-multicol-2/",
+    "seriesComposition": "delta",
+    "shortTitle": "CSS Multicol 2"
+  },
   "https://drafts.csswg.org/css-nesting-1/",
   "https://drafts.csswg.org/css-page-4/ delta",
   "https://drafts.csswg.org/css-shapes-2/ delta",
-  "https://drafts.csswg.org/css-size-adjust-1/",
+  {
+    "url": "https://drafts.csswg.org/css-size-adjust-1/",
+    "shortTitle": "CSS Size Adjustment 1"
+  },
   "https://drafts.csswg.org/css-transitions-2/ delta",
   "https://drafts.csswg.org/scroll-animations-1/",
-  "https://drafts.fxtf.org/compositing-2/",
+  {
+    "url": "https://drafts.fxtf.org/compositing-2/",
+    "shortTitle": "Compositing 2"
+  },
   "https://drafts.fxtf.org/filter-effects-2/ delta",
   "https://fetch.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
@@ -51,7 +65,10 @@
   "https://w3c.github.io/webrtc-insertable-streams/",
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://wicg.github.io/background-fetch/",
-  "https://wicg.github.io/background-sync/spec/",
+  {
+    "url": "https://wicg.github.io/background-sync/spec/",
+    "shortTitle": "Background Sync"
+  },
   "https://wicg.github.io/change-password-url/",
   "https://wicg.github.io/client-hints-infrastructure/",
   "https://wicg.github.io/compression/",
@@ -98,7 +115,10 @@
     "url": "https://wicg.github.io/shape-detection-api/text.html",
     "shortname": "text-detection-api"
   },
-  "https://wicg.github.io/sms-one-time-codes/",
+  {
+    "url": "https://wicg.github.io/sms-one-time-codes/",
+    "shortTitle": "SMS One-Time Codes"
+  },
   "https://wicg.github.io/speech-api/",
   "https://wicg.github.io/ua-client-hints/",
   "https://wicg.github.io/video-rvfc/",
@@ -132,7 +152,10 @@
   "https://www.w3.org/TR/beacon/",
   "https://www.w3.org/TR/clear-site-data/",
   "https://www.w3.org/TR/clipboard-apis/",
-  "https://www.w3.org/TR/compositing-1/",
+  {
+    "url": "https://www.w3.org/TR/compositing-1/",
+    "shortTitle": "Compositing 1"
+  },
   "https://www.w3.org/TR/core-aam-1.2/",
   "https://www.w3.org/TR/credential-management-1/",
   "https://www.w3.org/TR/csp-embedded-enforcement/",
@@ -140,18 +163,31 @@
   "https://www.w3.org/TR/css-align-3/",
   "https://www.w3.org/TR/css-animation-worklet-1/",
   "https://www.w3.org/TR/css-animations-1/",
-  "https://www.w3.org/TR/css-backgrounds-3/",
+  {
+    "url": "https://www.w3.org/TR/css-backgrounds-3/",
+    "shortTitle": "CSS Backgrounds 3"
+  },
   "https://www.w3.org/TR/css-box-3/",
   "https://www.w3.org/TR/css-box-4/",
   "https://www.w3.org/TR/css-break-3/ current",
   "https://www.w3.org/TR/css-break-4/",
-  "https://www.w3.org/TR/css-cascade-3/",
-  "https://www.w3.org/TR/css-cascade-4/",
+  {
+    "url": "https://www.w3.org/TR/css-cascade-3/",
+    "shortTitle": "CSS Cascading 3"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-cascade-4/",
+    "shortTitle": "CSS Cascading 4"
+  },
   "https://www.w3.org/TR/css-color-3/",
   "https://www.w3.org/TR/css-color-4/",
   "https://www.w3.org/TR/css-color-5/ delta",
   "https://www.w3.org/TR/css-color-adjust-1/",
-  "https://www.w3.org/TR/css-conditional-4/ delta",
+  {
+    "url": "https://www.w3.org/TR/css-conditional-4/",
+    "seriesComposition": "delta",
+    "shortTitle": "CSS Conditional 4"
+  },
   "https://www.w3.org/TR/css-contain-1/",
   "https://www.w3.org/TR/css-contain-2/",
   "https://www.w3.org/TR/css-content-3/",
@@ -159,22 +195,43 @@
   "https://www.w3.org/TR/css-device-adapt-1/",
   "https://www.w3.org/TR/css-display-3/",
   "https://www.w3.org/TR/css-easing-1/",
-  "https://www.w3.org/TR/css-flexbox-1/",
+  {
+    "url": "https://www.w3.org/TR/css-flexbox-1/",
+    "shortTitle": "CSS Flexbox 1"
+  },
   "https://www.w3.org/TR/css-font-loading-3/",
   "https://www.w3.org/TR/css-fonts-3/",
   "https://www.w3.org/TR/css-fonts-4/",
-  "https://www.w3.org/TR/css-gcpm-3/",
+  {
+    "url": "https://www.w3.org/TR/css-gcpm-3/",
+    "shortTitle": "CSS GCPM 3"
+  },
   "https://www.w3.org/TR/css-grid-1/",
   "https://www.w3.org/TR/css-grid-2/ delta",
-  "https://www.w3.org/TR/css-images-3/",
-  "https://www.w3.org/TR/css-images-4/ delta",
+  {
+    "url": "https://www.w3.org/TR/css-images-3/",
+    "shortTitle": "CSS Images 3"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-images-4/",
+    "shortTitle": "CSS Images 4"
+  },
   "https://www.w3.org/TR/css-inline-3/",
   "https://www.w3.org/TR/css-layout-api-1/",
   "https://www.w3.org/TR/css-line-grid-1/",
-  "https://www.w3.org/TR/css-lists-3/",
-  "https://www.w3.org/TR/css-logical-1/",
+  {
+    "url": "https://www.w3.org/TR/css-lists-3/",
+    "shortTitle": "CSS Lists 3"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-logical-1/",
+    "shortTitle": "CSS Logical Properties 1"
+  },
   "https://www.w3.org/TR/css-masking-1/",
-  "https://www.w3.org/TR/css-multicol-1/",
+  {
+    "url": "https://www.w3.org/TR/css-multicol-1/",
+    "shortTitle": "CSS Multicol 1"
+  },
   "https://www.w3.org/TR/css-namespaces-3/",
   "https://www.w3.org/TR/css-nav-1/",
   "https://www.w3.org/TR/css-overflow-3/",
@@ -196,8 +253,15 @@
   "https://www.w3.org/TR/css-scrollbars-1/",
   "https://www.w3.org/TR/css-shadow-parts-1/",
   "https://www.w3.org/TR/css-shapes-1/",
-  "https://www.w3.org/TR/css-sizing-3/",
-  "https://www.w3.org/TR/css-sizing-4/ delta",
+  {
+    "url": "https://www.w3.org/TR/css-sizing-3/",
+    "shortTitle": "CSS Sizing 3"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-sizing-4/",
+    "seriesComposition": "delta",
+    "shortTitle": "CSS Sizing 4"
+  },
   "https://www.w3.org/TR/css-speech-1/",
   "https://www.w3.org/TR/css-style-attr/",
   "https://www.w3.org/TR/css-syntax-3/",
@@ -210,11 +274,26 @@
   "https://www.w3.org/TR/css-transforms-2/ delta",
   "https://www.w3.org/TR/css-transitions-1/",
   "https://www.w3.org/TR/css-typed-om-1/",
-  "https://www.w3.org/TR/css-ui-3/",
-  "https://www.w3.org/TR/css-ui-4/",
-  "https://www.w3.org/TR/css-values-3/",
-  "https://www.w3.org/TR/css-values-4/",
-  "https://www.w3.org/TR/css-variables-1/",
+  {
+    "url": "https://www.w3.org/TR/css-ui-3/",
+    "shortTitle": "CSS User Interface 3"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-ui-4/",
+    "shortTitle": "CSS User Interface 4"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-values-3/",
+    "shortTitle": "CSS Values 3"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-values-4/",
+    "shortTitle": "CSS Values 4"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-variables-1/",
+    "shortTitle": "CSS Variables 1"
+  },
   "https://www.w3.org/TR/css-will-change-1/",
   "https://www.w3.org/TR/css-writing-modes-3/",
   "https://www.w3.org/TR/css-writing-modes-4/",
@@ -222,7 +301,8 @@
   "https://www.w3.org/TR/CSS22/",
   {
     "url": "https://www.w3.org/TR/css3-conditional/",
-    "seriesVersion": "3"
+    "seriesVersion": "3",
+    "shortTitle": "CSS Conditional 3"
   },
   {
     "url": "https://www.w3.org/TR/css3-exclusions/",
@@ -242,7 +322,10 @@
   "https://www.w3.org/TR/encoding/",
   "https://www.w3.org/TR/encrypted-media/",
   "https://www.w3.org/TR/feature-policy-1/",
-  "https://www.w3.org/TR/fetch-metadata/",
+  {
+    "url": "https://www.w3.org/TR/fetch-metadata/",
+    "shortTitle": "Fetch Metadata"
+  },
   "https://www.w3.org/TR/FileAPI/",
   "https://www.w3.org/TR/fill-stroke-3/",
   "https://www.w3.org/TR/filter-effects-1/",
@@ -260,7 +343,10 @@
   "https://www.w3.org/TR/html-media-capture/",
   "https://www.w3.org/TR/image-capture/",
   "https://www.w3.org/TR/image-resource/",
-  "https://www.w3.org/TR/IndexedDB-2/",
+  {
+    "url": "https://www.w3.org/TR/IndexedDB-2/",
+    "shortTitle": "Indexed DB 2.0"
+  },
   "https://www.w3.org/TR/input-events-2/",
   "https://www.w3.org/TR/intersection-observer/",
   "https://www.w3.org/TR/longtasks-1/",
@@ -284,7 +370,10 @@
   "https://www.w3.org/TR/page-visibility-2/",
   "https://www.w3.org/TR/paint-timing/",
   "https://www.w3.org/TR/payment-handler/",
-  "https://www.w3.org/TR/payment-method-basic-card/",
+  {
+    "url": "https://www.w3.org/TR/payment-method-basic-card/",
+    "shortTitle": "Basic Card"
+  },
   "https://www.w3.org/TR/payment-method-id/",
   "https://www.w3.org/TR/payment-method-manifest/",
   "https://www.w3.org/TR/payment-request/",
@@ -318,7 +407,10 @@
       "url": "https://w3c.github.io/ServiceWorker/"
     }
   },
-  "https://www.w3.org/TR/SRI/",
+  {
+    "url": "https://www.w3.org/TR/SRI/",
+    "shortTitle": "SRI"
+  },
   "https://www.w3.org/TR/svg-aam-1.0/",
   "https://www.w3.org/TR/svg-integration/",
   "https://www.w3.org/TR/svg-markers/",
@@ -350,7 +442,10 @@
   "https://www.w3.org/TR/webmidi/",
   "https://www.w3.org/TR/webrtc-identity/",
   "https://www.w3.org/TR/webrtc-priority/",
-  "https://www.w3.org/TR/webrtc-stats/",
+  {
+    "url": "https://www.w3.org/TR/webrtc-stats/",
+    "shortTitle": "WebRTC Statistics"
+  },
   "https://www.w3.org/TR/webrtc-svc/",
   {
     "url": "https://www.w3.org/TR/webrtc/",
@@ -360,7 +455,10 @@
   "https://www.w3.org/TR/webxr-ar-module-1/",
   "https://www.w3.org/TR/webxr-gamepads-module-1/",
   "https://www.w3.org/TR/webxr/",
-  "https://www.w3.org/TR/WOFF2/",
+  {
+    "url": "https://www.w3.org/TR/WOFF2/",
+    "shortTitle": "WOFF 2.0"
+  },
   "https://www.w3.org/TR/worklets-1/",
   "https://xhr.spec.whatwg.org/"
 ]

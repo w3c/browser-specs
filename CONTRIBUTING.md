@@ -58,7 +58,7 @@ properties:
 but note the `currentSpecification` property will be ignored.
 - `seriesVersion`: same as the [`seriesVersion`](README.md#seriesversion)
 property in `index.json`.
-- `seriesComposition`: same as the [`seriesVersion`](README.md#seriesversion)
+- `seriesComposition`: same as the [`seriesComposition`](README.md#seriesComposition)
 property in `index.json`. The property must only be set for delta spec (since
 full is the default).
 - `nightly`: same as the [`nightly`](README.md#nightly) property in

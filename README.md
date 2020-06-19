@@ -74,6 +74,7 @@ Each specification in the list comes with the following properties:
   "url": "https://www.w3.org/TR/css-color-4/",
   "shortname": "css-color-4",
   "title": "CSS Color Module Level 4",
+  "shortTitle": "CSS Color 4",
   "series": {
     "shortname": "css-color",
     "currentSpecification": "css-color-4"
@@ -86,7 +87,8 @@ Each specification in the list comes with the following properties:
     "url": "https://www.w3.org/TR/css-color-4/"
   },
   "nightly": {
-    "url": "https://drafts.csswg.org/css-color/"
+    "url": "https://drafts.csswg.org/css-color/",
+    "repository": "https://github.com/w3c/csswg-drafts"
   },
   "source": "w3c"
 }

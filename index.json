@@ -161,14 +161,14 @@
       "currentSpecification": "css-gcpm-3"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS GCPM 4",
     "seriesPrevious": "css-gcpm-3",
     "nightly": {
       "url": "https://drafts.csswg.org/css-gcpm-4/",
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Generated Content for Paged Media Module Level 4",
-    "source": "spec",
-    "shortTitle": "CSS Generated Content for Paged Media 4"
+    "source": "spec"
   },
   {
     "url": "https://drafts.csswg.org/css-highlight-api-1/",
@@ -196,14 +196,14 @@
       "currentSpecification": "css-multicol-1"
     },
     "seriesVersion": "2",
+    "shortTitle": "CSS Multicol 2",
     "seriesPrevious": "css-multicol-1",
     "nightly": {
       "url": "https://drafts.csswg.org/css-multicol-2/",
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Multi-column Layout Module Level 2",
-    "source": "spec",
-    "shortTitle": "CSS Multi-column Layout 2"
+    "source": "spec"
   },
   {
     "url": "https://drafts.csswg.org/css-nesting-1/",
@@ -267,13 +267,13 @@
       "currentSpecification": "css-size-adjust-1"
     },
     "seriesVersion": "1",
+    "shortTitle": "CSS Size Adjustment 1",
     "nightly": {
       "url": "https://drafts.csswg.org/css-size-adjust-1/",
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Mobile Text Size Adjustment Module Level 1",
-    "source": "spec",
-    "shortTitle": "CSS Mobile Text Size Adjustment 1"
+    "source": "spec"
   },
   {
     "url": "https://drafts.csswg.org/css-transitions-2/",
@@ -319,14 +319,14 @@
       "currentSpecification": "compositing-2"
     },
     "seriesVersion": "2",
+    "shortTitle": "Compositing 2",
     "seriesPrevious": "compositing-1",
     "nightly": {
       "url": "https://drafts.fxtf.org/compositing-2/",
       "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Compositing and Blending Level 2",
-    "source": "spec",
-    "shortTitle": "Compositing and Blending 2"
+    "source": "spec"
   },
   {
     "url": "https://drafts.fxtf.org/filter-effects-2/",
@@ -866,13 +866,13 @@
       "shortname": "background-sync",
       "currentSpecification": "background-sync"
     },
+    "shortTitle": "Background Sync",
     "nightly": {
       "url": "https://wicg.github.io/background-sync/spec/",
       "repository": "https://github.com/WICG/background-sync"
     },
     "title": "Web Background Synchronization",
-    "source": "spec",
-    "shortTitle": "Web Background Synchronization"
+    "source": "spec"
   },
   {
     "url": "https://wicg.github.io/change-password-url/",
@@ -1570,13 +1570,13 @@
       "shortname": "sms-one-time-codes",
       "currentSpecification": "sms-one-time-codes"
     },
+    "shortTitle": "SMS One-Time Codes",
     "nightly": {
       "url": "https://wicg.github.io/sms-one-time-codes/",
       "repository": "https://github.com/WICG/sms-one-time-codes"
     },
     "title": "Origin-bound one-time codes delivered via SMS",
-    "source": "specref",
-    "shortTitle": "Origin-bound one-time codes delivered via SMS"
+    "source": "specref"
   },
   {
     "url": "https://wicg.github.io/speech-api/",
@@ -1953,6 +1953,7 @@
       "currentSpecification": "compositing-2"
     },
     "seriesVersion": "1",
+    "shortTitle": "Compositing 1",
     "seriesNext": "compositing-2",
     "release": {
       "url": "https://www.w3.org/TR/compositing-1/"
@@ -1962,8 +1963,7 @@
       "repository": "https://github.com/w3c/fxtf-drafts"
     },
     "title": "Compositing and Blending Level 1",
-    "source": "w3c",
-    "shortTitle": "Compositing and Blending 1"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/core-aam-1.2/",
@@ -2114,6 +2114,7 @@
       "currentSpecification": "css-backgrounds-3"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS Backgrounds 3",
     "seriesNext": "css-backgrounds-4",
     "release": {
       "url": "https://www.w3.org/TR/css-backgrounds-3/"
@@ -2123,8 +2124,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Backgrounds and Borders Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Backgrounds and Borders 3"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-box-3/",
@@ -2219,6 +2219,7 @@
       "currentSpecification": "css-cascade-4"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS Cascading 3",
     "seriesNext": "css-cascade-4",
     "release": {
       "url": "https://www.w3.org/TR/css-cascade-3/"
@@ -2228,8 +2229,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Cascading and Inheritance Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Cascading and Inheritance 3"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-cascade-4/",
@@ -2240,6 +2240,7 @@
       "currentSpecification": "css-cascade-4"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS Cascading 4",
     "seriesPrevious": "css-cascade-3",
     "release": {
       "url": "https://www.w3.org/TR/css-cascade-4/"
@@ -2249,8 +2250,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Cascading and Inheritance Level 4",
-    "source": "w3c",
-    "shortTitle": "CSS Cascading and Inheritance 4"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-color-3/",
@@ -2345,6 +2345,7 @@
       "currentSpecification": "css3-conditional"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS Conditional 4",
     "seriesPrevious": "css3-conditional",
     "release": {
       "url": "https://www.w3.org/TR/css-conditional-4/"
@@ -2354,8 +2355,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Conditional Rules Module Level 4",
-    "source": "w3c",
-    "shortTitle": "CSS Conditional Rules 4"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-contain-1/",
@@ -2508,6 +2508,7 @@
       "currentSpecification": "css-flexbox-1"
     },
     "seriesVersion": "1",
+    "shortTitle": "CSS Flexbox 1",
     "release": {
       "url": "https://www.w3.org/TR/css-flexbox-1/"
     },
@@ -2516,8 +2517,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Flexible Box Layout Module Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Flexible Box Layout 1"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-font-loading-3/",
@@ -2590,6 +2590,7 @@
       "currentSpecification": "css-gcpm-3"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS GCPM 3",
     "seriesNext": "css-gcpm-4",
     "release": {
       "url": "https://www.w3.org/TR/css-gcpm-3/"
@@ -2599,8 +2600,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Generated Content for Paged Media Module",
-    "source": "w3c",
-    "shortTitle": "CSS Generated Content for Paged Media"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-grid-1/",
@@ -2650,9 +2650,10 @@
     "shortname": "css-images-3",
     "series": {
       "shortname": "css-images",
-      "currentSpecification": "css-images-3"
+      "currentSpecification": "css-images-4"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS Images 3",
     "seriesNext": "css-images-4",
     "release": {
       "url": "https://www.w3.org/TR/css-images-3/"
@@ -2662,18 +2663,18 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Image Values and Replaced Content Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Image Values and Replaced Content 3"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-images-4/",
-    "seriesComposition": "delta",
+    "seriesComposition": "full",
     "shortname": "css-images-4",
     "series": {
       "shortname": "css-images",
-      "currentSpecification": "css-images-3"
+      "currentSpecification": "css-images-4"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS Images 4",
     "seriesPrevious": "css-images-3",
     "release": {
       "url": "https://www.w3.org/TR/css-images-4/"
@@ -2683,8 +2684,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Image Values and Replaced Content Module Level 4",
-    "source": "w3c",
-    "shortTitle": "CSS Image Values and Replaced Content 4"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-inline-3/",
@@ -2755,6 +2755,7 @@
       "currentSpecification": "css-lists-3"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS Lists 3",
     "release": {
       "url": "https://www.w3.org/TR/css-lists-3/"
     },
@@ -2763,8 +2764,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Lists and Counters Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Lists and Counters 3"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-logical-1/",
@@ -2775,6 +2775,7 @@
       "currentSpecification": "css-logical-1"
     },
     "seriesVersion": "1",
+    "shortTitle": "CSS Logical Properties 1",
     "release": {
       "url": "https://www.w3.org/TR/css-logical-1/"
     },
@@ -2783,8 +2784,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Logical Properties and Values Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Logical Properties and Values 1"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-masking-1/",
@@ -2815,6 +2815,7 @@
       "currentSpecification": "css-multicol-1"
     },
     "seriesVersion": "1",
+    "shortTitle": "CSS Multicol 1",
     "seriesNext": "css-multicol-2",
     "release": {
       "url": "https://www.w3.org/TR/css-multicol-1/"
@@ -2824,8 +2825,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Multi-column Layout Module Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Multi-column Layout 1"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-namespaces-3/",
@@ -3260,6 +3260,7 @@
       "currentSpecification": "css-sizing-3"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS Sizing 3",
     "seriesNext": "css-sizing-4",
     "release": {
       "url": "https://www.w3.org/TR/css-sizing-3/"
@@ -3269,8 +3270,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Intrinsic & Extrinsic Sizing Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Intrinsic & Extrinsic Sizing 3"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-sizing-4/",
@@ -3281,6 +3281,7 @@
       "currentSpecification": "css-sizing-3"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS Sizing 4",
     "seriesPrevious": "css-sizing-3",
     "release": {
       "url": "https://www.w3.org/TR/css-sizing-4/"
@@ -3290,8 +3291,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Box Sizing Module Level 4",
-    "source": "w3c",
-    "shortTitle": "CSS Box Sizing 4"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-speech-1/",
@@ -3549,6 +3549,7 @@
       "currentSpecification": "css-ui-4"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS User Interface 3",
     "seriesNext": "css-ui-4",
     "release": {
       "url": "https://www.w3.org/TR/css-ui-3/"
@@ -3558,8 +3559,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-    "source": "w3c",
-    "shortTitle": "CSS3 UI"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-ui-4/",
@@ -3570,6 +3570,7 @@
       "currentSpecification": "css-ui-4"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS User Interface 4",
     "seriesPrevious": "css-ui-3",
     "release": {
       "url": "https://www.w3.org/TR/css-ui-4/"
@@ -3579,8 +3580,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Basic User Interface Module Level 4",
-    "source": "w3c",
-    "shortTitle": "CSS Basic User Interface 4"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-values-3/",
@@ -3591,6 +3591,7 @@
       "currentSpecification": "css-values-4"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS Values 3",
     "seriesNext": "css-values-4",
     "release": {
       "url": "https://www.w3.org/TR/css-values-3/"
@@ -3600,8 +3601,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Values and Units Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Values and Units 3"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-values-4/",
@@ -3612,6 +3612,7 @@
       "currentSpecification": "css-values-4"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS Values 4",
     "seriesPrevious": "css-values-3",
     "release": {
       "url": "https://www.w3.org/TR/css-values-4/"
@@ -3621,8 +3622,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Values and Units Module Level 4",
-    "source": "w3c",
-    "shortTitle": "CSS Values and Units 4"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-variables-1/",
@@ -3633,6 +3633,7 @@
       "currentSpecification": "css-variables-1"
     },
     "seriesVersion": "1",
+    "shortTitle": "CSS Variables 1",
     "release": {
       "url": "https://www.w3.org/TR/css-variables-1/"
     },
@@ -3641,8 +3642,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Custom Properties for Cascading Variables Module Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Custom Properties for Cascading Variables 1"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css-will-change-1/",
@@ -3757,6 +3757,7 @@
       "currentSpecification": "css3-conditional"
     },
     "seriesVersion": "3",
+    "shortTitle": "CSS Conditional 3",
     "seriesNext": "css-conditional-4",
     "release": {
       "url": "https://www.w3.org/TR/css3-conditional/"
@@ -3766,8 +3767,7 @@
       "repository": "https://github.com/w3c/csswg-drafts"
     },
     "title": "CSS Conditional Rules Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Conditional Rules 3"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css3-exclusions/",
@@ -3955,6 +3955,7 @@
       "shortname": "fetch-metadata",
       "currentSpecification": "fetch-metadata"
     },
+    "shortTitle": "Fetch Metadata",
     "release": {
       "url": "https://www.w3.org/TR/fetch-metadata/"
     },
@@ -3963,8 +3964,7 @@
       "repository": "https://github.com/w3c/webappsec-fetch-metadata"
     },
     "title": "Fetch Metadata Request Headers",
-    "source": "w3c",
-    "shortTitle": "Fetch Metadata Request Headers"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/FileAPI/",
@@ -4306,6 +4306,7 @@
       "currentSpecification": "IndexedDB-2"
     },
     "seriesVersion": "2",
+    "shortTitle": "Indexed DB 2.0",
     "release": {
       "url": "https://www.w3.org/TR/IndexedDB-2/"
     },
@@ -4314,8 +4315,7 @@
       "repository": "https://github.com/w3c/IndexedDB"
     },
     "title": "Indexed Database API 2.0",
-    "source": "w3c",
-    "shortTitle": "Indexed Database API 2.0"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/input-events-2/",
@@ -4773,6 +4773,7 @@
       "shortname": "payment-method-basic-card",
       "currentSpecification": "payment-method-basic-card"
     },
+    "shortTitle": "Basic Card",
     "release": {
       "url": "https://www.w3.org/TR/payment-method-basic-card/"
     },
@@ -4781,8 +4782,7 @@
       "repository": "https://github.com/w3c/payment-method-basic-card"
     },
     "title": "Payment Method: Basic Card",
-    "source": "w3c",
-    "shortTitle": "Payment Method: Basic Card"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/payment-method-id/",
@@ -5336,6 +5336,7 @@
       "shortname": "SRI",
       "currentSpecification": "SRI"
     },
+    "shortTitle": "SRI",
     "release": {
       "url": "https://www.w3.org/TR/SRI/"
     },
@@ -5344,8 +5345,7 @@
       "repository": "https://github.com/w3c/webappsec-subresource-integrity"
     },
     "title": "Subresource Integrity",
-    "source": "w3c",
-    "shortTitle": "Subresource Integrity"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/svg-aam-1.0/",
@@ -5959,6 +5959,7 @@
       "shortname": "webrtc-stats",
       "currentSpecification": "webrtc-stats"
     },
+    "shortTitle": "WebRTC Statistics",
     "release": {
       "url": "https://www.w3.org/TR/webrtc-stats/"
     },
@@ -5967,8 +5968,7 @@
       "repository": "https://github.com/w3c/webrtc-stats"
     },
     "title": "Identifiers for WebRTC's Statistics API",
-    "source": "w3c",
-    "shortTitle": "Identifiers for WebRTC's Statistics API"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/webrtc-svc/",
@@ -6096,6 +6096,7 @@
       "currentSpecification": "WOFF2"
     },
     "seriesVersion": "2",
+    "shortTitle": "WOFF 2.0",
     "release": {
       "url": "https://www.w3.org/TR/WOFF2/"
     },
@@ -6104,8 +6105,7 @@
       "repository": "https://github.com/w3c/woff"
     },
     "title": "WOFF File Format 2.0",
-    "source": "w3c",
-    "shortTitle": "WOFF File Format 2.0"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/worklets-1/",

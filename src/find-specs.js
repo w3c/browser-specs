@@ -59,9 +59,9 @@ const hasMoreRecentLevel = (s, url, loose) => {
     return s.series.shortname === shortnameData.series.shortname
       && (s.seriesVersion > shortnameData.seriesVersion
           || loose && (s.seriesVersion === shortnameData.seriesVersion
-                       // case of CSS drafts whose known editors draft are version-less, but the directories in the repo use versions
+                       // case of CSS drafts whose known editors drafts are version-less, but the directories in the repo use versions
                        || !s.seriesVersion
-                       // Case of houndini drafts whose known editors draft are versionned, but the directories in the repo use version-less
+                       // Case of houdini drafts whose known editors drafts are versioned, but the directories in the repo use version-less
                        || (!shortnameData.seriesVersion && s.seriesVersion == 1)
                       ));
   } catch (e) {

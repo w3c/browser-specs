@@ -16,6 +16,7 @@ cross-references, WebIDL, quality, etc.
   - [`url`](#url)
   - [`shortname`](#shortname)
   - [`title`](#title)
+  - [`shortTitle`](#shorttitle)
   - [`series`](#series)
     - [`series.shortname`](#seriesshortname)
     - [`series.currentSpecification`](#seriescurrentspecification)
@@ -121,6 +122,16 @@ The title of the spec. The title is either retrieved from the
 [`source`](#source) property details the actual provenance.
 
 The `title` property is always set.
+
+
+### `shortTitle`
+
+The short title of the spec. In most cases, the short title is generated from
+`title` by dropping terms such as "Module", "Level", or "Standard". In some
+cases, the short title is set manually.
+
+The `shortTitle` property is always set. When there is no meaningful short
+title, the property is set to the actual (possibly long) title of the spec.
 
 
 ### `series`

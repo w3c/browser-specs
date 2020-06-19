@@ -109,6 +109,10 @@
     "https://drafts.csswg.org/css-forms-1/": {
       "comment": "Marked as not ready for implementation",
       "lastreviewed": "2020-06-18"
+    },
+    "https://drafts.css-houdini.org/box-tree-api/": {
+      "comment": "Marked as collection of ideas, no clear implementation plans yet",
+      "lastreviewed": "2020-06-19"
     }
   }
 }

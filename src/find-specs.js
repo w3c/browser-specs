@@ -32,6 +32,7 @@ const watchedBrowserCgs = [
 ];
 const cssMetaDir = ["shared", "indexes", "bin", ".github", "css-module", "css-module-bikeshed"];
 const fxtfMetaDir = [".github", "shared"];
+const houdiniMetaDir = [".github", "images"];
 
 function canonicalizeGhUrl(r) {
   const url = new URL(r.homepageUrl);
@@ -56,7 +57,14 @@ const hasRelevantSpec = ({spec: url}) => !Object.keys(ignorable.specs).includes(
 const hasMoreRecentLevel = (s, url, loose) => {
   try {
     const shortnameData = computeShortname(url);
-    return s.series.shortname === shortnameData.series.shortname && (s.seriesVersion > shortnameData.seriesVersion || loose && (s.seriesVersion === shortnameData.seriesVersion || !s.seriesVersion));
+    return s.series.shortname === shortnameData.series.shortname
+      && (s.seriesVersion > shortnameData.seriesVersion
+          || loose && (s.seriesVersion === shortnameData.seriesVersion
+                       // case of CSS drafts whose known editors drafts are version-less, but the directories in the repo use versions
+                       || !s.seriesVersion
+                       // Case of houdini drafts whose known editors drafts are versioned, but the directories in the repo use version-less
+                       || (!shortnameData.seriesVersion && s.seriesVersion == 1)
+                      ));
   } catch (e) {
     return false;
   }
@@ -82,6 +90,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
         .then(d => d.workstreams.map(w => { return {...w.standards[0], id: w.id}; }));
   const cssSpecs = await fetch("https://api.github.com/repos/w3c/csswg-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !cssMetaDir.includes(p.path)).map(p => p.path));
   const fxtfSpecs = await fetch("https://api.github.com/repos/w3c/fxtf-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !fxtfMetaDir.includes(p.path)).map(p => p.path));
+  const houdiniSpecs = await fetch("https://api.github.com/repos/w3c/css-houdini-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !houdiniMetaDir.includes(p.path)).map(p => p.path));
 
   const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
 
@@ -151,6 +160,11 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
 
   // Check for new FXTF specs
   candidates = candidates.concat(fxtfSpecs.map(s => { return {repo: "w3c/fxtf-drafts", spec: `https://drafts.fxtf.org/${s}/`};})
+                                 .filter(hasUnknownSpec)
+                                 .filter(hasRelevantSpec));
+
+  // Check for new Houdini specs
+  candidates = candidates.concat(houdiniSpecs.map(s => { return {repo: "w3c/css-houdini-drafts", spec: `https://drafts.css-houdini.org/${s}/`};})
                                  .filter(hasUnknownSpec)
                                  .filter(hasRelevantSpec));
 

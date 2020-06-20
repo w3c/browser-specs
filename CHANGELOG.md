@@ -4,6 +4,29 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.10.0](https://github.com/w3c/browser-specs/compare/1.9.0...1.10.0) - 2020-06-20
+
+
+### Merged
+
+- Add short titles to specs.json [`#120`](https://github.com/w3c/browser-specs/pull/120)
+- Add new properties to example in README, fix links in CONTRIBUTING [`#119`](https://github.com/w3c/browser-specs/pull/119)
+- Use CSS21 instead of CSS2 address [`#118`](https://github.com/w3c/browser-specs/pull/118)
+- Scan svgwg repository for new specs [`#117`](https://github.com/w3c/browser-specs/pull/117)
+- Monitor FXTF repository for new specs [`#116`](https://github.com/w3c/browser-specs/pull/116)
+- Scan for specs from Houdini repository [`#115`](https://github.com/w3c/browser-specs/pull/115)
+- Add shortTitle property [`#112`](https://github.com/w3c/browser-specs/pull/112)
+- Add script to assist in updating monitored specs [`#114`](https://github.com/w3c/browser-specs/pull/114)
+- Identify CSS specs that should be monitored [`#109`](https://github.com/w3c/browser-specs/pull/109)
+- Ignore /TR/html [`#111`](https://github.com/w3c/browser-specs/pull/111)
+- Account for comparison of level-less editors draft with level'd ones [`#110`](https://github.com/w3c/browser-specs/pull/110)
+
+
+### Commits
+
+- [data] Update spec info [`3928ef5`](https://github.com/w3c/browser-specs/commit/3928ef573a438ddb71bf61b1dcf475d6ab6f4fc3)
+- [data] Update spec info [`f33ac66`](https://github.com/w3c/browser-specs/commit/f33ac66ba1ff84b2c2e35172d8293d0f11b1c0b6)
+
 ## [1.9.0](https://github.com/w3c/browser-specs/compare/1.8.1...1.9.0) - 2020-06-18
 
 

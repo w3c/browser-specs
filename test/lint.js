@@ -36,6 +36,13 @@ describe("Linter", () => {
       assert.equal(lintStr(toStr(specs)), null);
     });
 
+    it("passes if specs contains a URL with a spec flagged as multipage", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/ multipage"
+      ];
+      assert.equal(lintStr(toStr(specs)), null);
+    });
+
     it("sorts URLs", () => {
       const specs = [
         "https://www.w3.org/TR/spec2/",
@@ -89,6 +96,15 @@ describe("Linter", () => {
       ]));
     });
 
+    it("lints an object with only a URL and a multipage flag to a string", () => {
+      const specs = [
+        { "url": "https://www.w3.org/TR/spec-1/", "multipage": true }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec-1/ multipage"
+      ]));
+    });
+
     it("lints an object with a useless current flag", () => {
       const specs = [
         "https://www.w3.org/TR/spec/ current"
@@ -121,6 +137,15 @@ describe("Linter", () => {
     it("lints an object with a current flag set to false", () => {
       const specs = [
         { "url": "https://www.w3.org/TR/spec/", "forceCurrent": false }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec/"
+      ]));
+    });
+
+    it("lints an object with a multipage flag set to false", () => {
+      const specs = [
+        { "url": "https://www.w3.org/TR/spec/", "multipage": false }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec/"

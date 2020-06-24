@@ -52,7 +52,11 @@
     "release": {
       "type": "object",
       "properties": {
-        "url": { "$ref": "#/proptype/url" }
+        "url": { "$ref": "#/proptype/url" },
+        "pages": {
+          "type": "array",
+          "items": { "$ref": "#/proptype/url" }
+        }
       },
       "required": ["url"],
       "additionalProperties": false
@@ -62,6 +66,10 @@
       "type": "object",
       "properties": {
         "url": { "$ref": "#/proptype/url" },
+        "pages": {
+          "type": "array",
+          "items": { "$ref": "#/proptype/url" }
+        },
         "repository": { "$ref": "#/proptype/url" }
       },
       "required": ["url"],

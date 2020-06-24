@@ -26,8 +26,10 @@ cross-references, WebIDL, quality, etc.
   - [`seriesNext`](#seriesnext)
   - [`release`](#release)
     - [`release.url`](#releaseurl)
+    - [`release.pages`](#releasepages)
   - [`nightly`](#nightly)
     - [`nightly.url`](#nightlyurl)
+    - [`nightly.pages`](#nightlypages)
     - [`nightly.repository`](#nightlyrepository)
   - [`source`](#source)
 - [How to add/update/delete a spec](#how-to-addupdatedelete-a-spec)
@@ -222,6 +224,13 @@ URL (see [`url`](#url)).
 The `url` property is always set.
 
 
+#### `release.pages`
+
+The list of absolute page URLs when the spec is a multipage spec.
+
+The `pages` property is only set for specs identified as multipage specs.
+
+
 ### `nightly`
 
 An object that represents the latest Editor's Draft of the spec, or the living
@@ -241,6 +250,13 @@ neither exist in the W3C API nor in Specref. The [`source`](#source) property
 details the actual provenance.
 
 The `url` property is always set.
+
+
+#### `nightly.pages`
+
+The list of absolute page URLs when the spec is a multipage spec.
+
+The `pages` property is only set for specs identified as multipage specs.
 
 
 #### `nightly.repository`

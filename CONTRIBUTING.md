@@ -71,6 +71,9 @@ automatically is not the expected one.
 - `forceCurrent`: a boolean flag to tell the code that the spec should be seen
 as the current spec in the series. The property must only be set when value is
 `true`.
+- `multipage`: a boolean flag to identify the spec as a multipage spec. This
+instructs the code to extract the list of pages from the index page and fill
+out the `release.pages` and `nightly.pages` properties in the list.
 
 You should **only** set these properties when they are required to generate the
 right info. For instance, some of these properties are needed for Media Queries

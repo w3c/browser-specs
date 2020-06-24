@@ -7,7 +7,7 @@
     "oneOf": [
       {
         "type": "string",
-        "pattern": "^https://[^\\s]+(\\s(delta|current))?$"
+        "pattern": "^https://[^\\s]+(\\s(delta|current|multipage))?$"
       },
       {
         "type": "object",
@@ -19,7 +19,8 @@
           "seriesComposition": { "$ref": "definitions.json#/proptype/seriesComposition" },
           "nightly": { "$ref": "definitions.json#/proptype/nightly" },
           "shortTitle": { "$ref": "definitions.json#/proptype/title" },
-          "forceCurrent": { "type": "boolean" }
+          "forceCurrent": { "type": "boolean" },
+          "multipage": { "type": "boolean" }
         },
         "required": ["url"],
         "additionalProperties": false

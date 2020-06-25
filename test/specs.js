@@ -80,7 +80,8 @@ function specs2objects(specs) {
       {
         url: new URL(spec.split(" ")[0]).toString(),
         seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
-        forceCurrent: (spec.split(' ')[1] === "current")
+        forceCurrent: (spec.split(' ')[1] === "current"),
+        multipage: (spec.split(' ')[1] === "multipage"),
       } :
       Object.assign({}, spec, { url: new URL(spec.url).toString() }))
     .filter((spec, idx, list) =>

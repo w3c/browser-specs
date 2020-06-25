@@ -11,6 +11,7 @@ const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
 const computeRepository = require("./compute-repository.js");
 const computeShortTitle = require("./compute-shorttitle.js");
+const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
 
@@ -26,6 +27,9 @@ const specs = require("../specs.json")
       }
       else if (parts[1] === "current") {
         res.forceCurrent = true;
+      }
+      else if (parts[1] === "multipage") {
+        res.multipage = true;
       }
       return res;
     }
@@ -64,12 +68,36 @@ const specs = require("../specs.json")
 fetchInfo(specs, { w3cApiKey })
   .then(specInfo => specs.map(spec =>
     Object.assign({}, spec, specInfo[spec.shortname], spec)))
+
+  // Complete with short title
   .then(index => index.map(spec => {
     spec.shortTitle = spec.shortTitle || computeShortTitle(spec.title);
     return spec;
   }))
+
+  // Complete with repository
   .then(index => computeRepository(index))
+
+  // Complete with list of pages for multipage specs
+  .then(index => Promise.all(
+    index.map(async spec => {
+      if (spec.multipage) {
+        if (spec.release) {
+          spec.release.pages = await extractPages(spec.release.url);
+        }
+        if (spec.nightly) {
+          spec.nightly.pages = await extractPages(spec.nightly.url);
+        }
+        delete spec.multipage;
+      }
+      return spec;
+    })
+  ))
+
+  // Output the result
   .then(index => console.log(JSON.stringify(index, null, 2)))
+
+  // Report any error along the way
   .catch(err => {
     console.error(err);
     process.exit(1);

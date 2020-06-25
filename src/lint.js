@@ -15,6 +15,7 @@ function shortenDefinition(spec) {
   const short = {};
   for (const property of Object.keys(spec)) {
     if (!((property === "seriesComposition" && spec[property] === "full") ||
+        (property === "multipage" && !spec[property]) ||
         (property === "forceCurrent" && !spec[property]))) {
       short[property] = spec[property];
     }
@@ -29,6 +30,10 @@ function shortenDefinition(spec) {
   else if (Object.keys(short).length === 2 &&
       spec.forceCurrent) {
     return `${spec.url} current`;
+  }
+  else if (Object.keys(short).length === 2 &&
+      spec.multipage) {
+    return `${spec.url} multipage`;
   }
   else {
     return short;
@@ -49,7 +54,8 @@ function lintStr(specsStr) {
       {
         url: new URL(spec.split(" ")[0]).toString(),
         seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
-        forceCurrent: (spec.split(' ')[1] === "current")
+        forceCurrent: (spec.split(' ')[1] === "current"),
+        multipage: (spec.split(' ')[1] === "multipage"),
       } :
       Object.assign({}, spec, { url: new URL(spec.url).toString() }))
     .filter((spec, idx, list) =>

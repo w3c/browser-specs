@@ -8,6 +8,11 @@
       "format": "uri"
     },
 
+    "filename": {
+      "type": "string",
+      "pattern": "^\\w+\\.html$"
+    },
+
     "shortname": {
       "type": "string",
       "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
@@ -53,6 +58,7 @@
       "type": "object",
       "properties": {
         "url": { "$ref": "#/proptype/url" },
+        "filename": { "$ref": "#/proptype/filename" },
         "pages": {
           "type": "array",
           "items": { "$ref": "#/proptype/url" }
@@ -66,6 +72,7 @@
       "type": "object",
       "properties": {
         "url": { "$ref": "#/proptype/url" },
+        "filename": { "$ref": "#/proptype/filename" },
         "pages": {
           "type": "array",
           "items": { "$ref": "#/proptype/url" }

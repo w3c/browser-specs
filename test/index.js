@@ -91,4 +91,14 @@ describe("List of specs", () => {
     const wrong = specs.filter(s => !s.nightly.repository);
     assert.deepStrictEqual(wrong, []);
   });
+
+  it("contains filenames for all nightly URLs", () => {
+    const wrong = specs.filter(s => !s.nightly.filename);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("contains filenames for all release URLs", () => {
+    const wrong = specs.filter(s => s.release && !s.release.filename);
+    assert.deepStrictEqual(wrong, []);
+  });
 });

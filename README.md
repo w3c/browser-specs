@@ -26,9 +26,11 @@ cross-references, WebIDL, quality, etc.
   - [`seriesNext`](#seriesnext)
   - [`release`](#release)
     - [`release.url`](#releaseurl)
+    - [`release.filename`](#releasefilename)
     - [`release.pages`](#releasepages)
   - [`nightly`](#nightly)
     - [`nightly.url`](#nightlyurl)
+    - [`nightly.filename`](#nightlyfilename)
     - [`nightly.pages`](#nightlypages)
     - [`nightly.repository`](#nightlyrepository)
   - [`source`](#source)
@@ -86,11 +88,13 @@ Each specification in the list comes with the following properties:
   "seriesPrevious": "css-color-3",
   "seriesNext": "css-color-5",
   "release": {
-    "url": "https://www.w3.org/TR/css-color-4/"
+    "url": "https://www.w3.org/TR/css-color-4/",
+    "filename": "Overview.html"
   },
   "nightly": {
     "url": "https://drafts.csswg.org/css-color/",
-    "repository": "https://github.com/w3c/csswg-drafts"
+    "repository": "https://github.com/w3c/csswg-drafts",
+    "filename": "Overview.html"
   },
   "source": "w3c"
 }
@@ -224,6 +228,17 @@ URL (see [`url`](#url)).
 The `url` property is always set.
 
 
+#### `release.filename`
+
+The filename of the resource that gets served when the default URL is fetched.
+For instance, the filename for `https://www.w3.org/TR/presentation-api/` is
+`Overview.html`, meaning that the specification could also be retrieved from
+`https://www.w3.org/TR/presentation-api/Overview.html`. The filename may be
+useful to distinguish links to self in a spec.
+
+The `filename` property is always set.
+
+
 #### `release.pages`
 
 The list of absolute page URLs when the spec is a multipage spec.
@@ -250,6 +265,17 @@ neither exist in the W3C API nor in Specref. The [`source`](#source) property
 details the actual provenance.
 
 The `url` property is always set.
+
+
+#### `nightly.filename`
+
+The filename of the resource that gets served when the default URL is fetched.
+For instance, the filename for `https://w3c.github.io/presentation-api/` is
+`index.html`, meaning that the specification could also be retrieved from
+`https://w3c.github.io/presentation-api/index.html`. The filename may be
+useful to distinguish links to self in a spec.
+
+The `filename` property is always set.
 
 
 #### `nightly.pages`

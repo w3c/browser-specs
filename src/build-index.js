@@ -11,6 +11,7 @@ const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
 const computeRepository = require("./compute-repository.js");
 const computeShortTitle = require("./compute-shorttitle.js");
+const determineFilename = require("./determine-filename.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
@@ -89,6 +90,17 @@ fetchInfo(specs, { w3cApiKey })
           spec.nightly.pages = await extractPages(spec.nightly.url);
         }
         delete spec.multipage;
+      }
+      return spec;
+    })
+  ))
+
+  // Complete with filename
+  .then(index => Promise.all(
+    index.map(async spec => {
+      spec.nightly.filename = await determineFilename(spec.nightly.url);
+      if (spec.release) {
+        spec.release.filename = await determineFilename(spec.release.url);
       }
       return spec;
     })

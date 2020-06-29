@@ -4,6 +4,23 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.11.0](https://github.com/w3c/browser-specs/compare/1.10.0...1.11.0) - 2020-06-29
+
+
+### Merged
+
+- Expose filename of the index page [`#124`](https://github.com/w3c/browser-specs/pull/124)
+- Expose list of pages for multipage specs [`#123`](https://github.com/w3c/browser-specs/pull/123)
+- Fix reference to envinronment variable in github action workflow [`#121`](https://github.com/w3c/browser-specs/pull/121)
+
+### Fixed
+
+- Expose filename of the index page (#124) [`#16`](https://github.com/w3c/browser-specs/issues/16)
+
+### Commits
+
+- [data] Update spec info [`d3db665`](https://github.com/w3c/browser-specs/commit/d3db6656eb18a51a963fd13a2e3fa8b771646ec6)
+
 ## [1.10.0](https://github.com/w3c/browser-specs/compare/1.9.0...1.10.0) - 2020-06-20
 
 

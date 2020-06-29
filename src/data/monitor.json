@@ -114,9 +114,21 @@
       "comment": "Marked as not ready for implementation",
       "lastreviewed": "2020-06-18"
     },
+    "https://drafts.csswg.org/css-page-template-1/": {
+      "comment": "Marked as not ready for implementation",
+      "lastreviewed": "2020-06-29"
+    },
+    "https://drafts.csswg.org/web-animations-css-integration/": {
+      "comment": "Seems dormant",
+      "lastreviewed": "2020-06-29"
+    },
     "https://drafts.css-houdini.org/box-tree-api/": {
       "comment": "Marked as collection of ideas, no clear implementation plans yet",
       "lastreviewed": "2020-06-19"
+    },
+    "https://immersive-web.github.io/lighting-estimation/": {
+      "comment": "Early proposal, no clear implementation plans",
+      "lastreviewed": "2020-06-29"
     }
   }
 }

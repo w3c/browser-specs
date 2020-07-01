@@ -19,8 +19,10 @@ const today = new Date().toJSON().slice(0, 10);
     Object.keys(monitorList.specs).map(s => {return {...monitorList.specs[s], url: s};}));
  for (let candidate of candidates) {
    await fetch(candidate.url).then(({headers}) => {
-     if (new Date(headers.get('Last-Modified')) > new Date(candidate.lastreviewed)) {
-       review_needed.push({...candidate, lastupdated: new Date(headers.get('Last-Modified')).toJSON()});
+     // The CSS drafts use a proprietary header to expose the real last modification date
+     const lastRevised = headers.get('Last-Revised') ? new Date(headers.get('Last-Revised') : new Date(headers.get('Last-Modified');
+     if (lastRevised > new Date(candidate.lastreviewed)) {
+       review_needed.push({...candidate, lastupdated: lastRevised.toJSON()});
      }
    });
  }

@@ -18,8 +18,8 @@ describe("extract-pages module", function () {
     assert.ok(pages.length > 20);
   });
 
-  it("extracts pages from the CSS 2.2 spec", async () => {
-    const url = "https://drafts.csswg.org/css2/";
+  it("extracts pages from the CSS 2.1 spec", async () => {
+    const url = "https://www.w3.org/TR/CSS21/";
     const pages = await extractPages(url);
     assert.ok(pages.length > 20);
   });

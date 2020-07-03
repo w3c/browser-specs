@@ -23,10 +23,4 @@ describe("determine-filename module", function () {
     const filename = await determineFilename(url);
     assert.equal(filename, "Overview.html");
   });
-
-  it("finds cover.html filenames", async () => {
-    const url = "https://drafts.csswg.org/css2/";
-    const filename = await determineFilename(url);
-    assert.equal(filename, "cover.html");
-  });
 });

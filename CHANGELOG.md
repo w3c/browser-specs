@@ -4,6 +4,27 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.11.1](https://github.com/w3c/browser-specs/compare/1.11.0...1.11.1) - 2020-07-06
+
+
+### Merged
+
+- CSS2 ED switched to Bikeshed, no longer multipage [`#129`](https://github.com/w3c/browser-specs/pull/129)
+- Hande Last-Revised header in spec monitor [`#128`](https://github.com/w3c/browser-specs/pull/128)
+- Update review of monitored specs [`#127`](https://github.com/w3c/browser-specs/pull/127)
+- Add 2 CSS spec and WebXR Lighting spec to monitor list [`#126`](https://github.com/w3c/browser-specs/pull/126)
+
+
+### Commits
+
+- [data] Update spec info [`c458316`](https://github.com/w3c/browser-specs/commit/c4583164f8296dfb4d972a79f5a237f01080bb8c)
+- [data] Update spec info [`5af448a`](https://github.com/w3c/browser-specs/commit/5af448a9576fff43074a5052b9f502eabc9a2385)
+- [data] Update spec info [`93fac7f`](https://github.com/w3c/browser-specs/commit/93fac7ff57ae1bc728f44262d70b799b09f32979)
+- [data] Update spec info [`4ebc010`](https://github.com/w3c/browser-specs/commit/4ebc01006f064d09f4d98715b75015a275a0178b)
+- [data] Update spec info [`e2e288f`](https://github.com/w3c/browser-specs/commit/e2e288f2b0f523a72b93a192d03c69acac210b9c)
+- [data] Update spec info [`d17befb`](https://github.com/w3c/browser-specs/commit/d17befb3abcb06b56d2810b222dea5fb211bd679)
+- [data] Update spec info [`f575b41`](https://github.com/w3c/browser-specs/commit/f575b41caa99ab1bd7fa1029d7d6e035aecd1912)
+
 ## [1.11.0](https://github.com/w3c/browser-specs/compare/1.10.0...1.11.0) - 2020-06-29
 
 

@@ -6,6 +6,8 @@
  * in the root folder, which must exist and contain a "w3cApiKey" key.
  */
 
+const fs = require("fs").promises;
+const path = require("path");
 const computeShortname = require("./compute-shortname.js");
 const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
@@ -15,6 +17,33 @@ const determineFilename = require("./determine-filename.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
+
+// If the index already exists, reuse the info it contains when info cannot
+// be refreshed due to some external (network) issue.
+const previousIndex = (function () {
+  try {
+    return require("../index.json");
+  }
+  catch (err) {
+    return [];
+  }
+})();
+
+// Use previous filename info when it cannot be determined (this usually means
+// that there was a transient network error)
+async function determineSpecFilename(spec, type) {
+  const filename = await determineFilename(spec[type].url);
+  if (filename) {
+    return filename;
+  }
+
+  const previous = previousIndex.find(s => s[type] && s.url === spec.url);
+  return previous ? previous[type].filename : null;
+}
+
+async function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 const specs = require("../specs.json")
   // Turn all specs into objects
@@ -98,16 +127,24 @@ fetchInfo(specs, { w3cApiKey })
   // Complete with filename
   .then(index => Promise.all(
     index.map(async spec => {
-      spec.nightly.filename = await determineFilename(spec.nightly.url);
+      spec.nightly.filename = await determineSpecFilename(spec, "nightly");
       if (spec.release) {
-        spec.release.filename = await determineFilename(spec.release.url);
+        spec.release.filename = await determineSpecFilename(spec, "release");
       }
+
+      // Sleep a bit as draft CSS WG server does not seem to like receiving too
+      // many requests in a row.
+      await sleep(50);
+
       return spec;
     })
   ))
 
-  // Output the result
-  .then(index => console.log(JSON.stringify(index, null, 2)))
+  // Output the result to index.json
+  .then(index => fs.writeFile(
+    path.resolve(__dirname, "..", "index.json"),
+    JSON.stringify(index, null, 2)
+  ))
 
   // Report any error along the way
   .catch(err => {

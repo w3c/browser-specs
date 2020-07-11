@@ -11,7 +11,7 @@
   "license": "CC0-1.0",
   "main": "index.json",
   "scripts": {
-    "build": "node src/build-index.js > index.json",
+    "build": "node src/build-index.js",
     "lint": "node src/lint.js",
     "lint-fix": "node src/lint.js --fix",
     "test": "mocha",

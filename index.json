@@ -4368,28 +4368,6 @@
     "shortTitle": "Encrypted Media Extensions"
   },
   {
-    "url": "https://www.w3.org/TR/feature-policy-1/",
-    "seriesComposition": "full",
-    "shortname": "feature-policy-1",
-    "series": {
-      "shortname": "feature-policy",
-      "currentSpecification": "feature-policy-1"
-    },
-    "seriesVersion": "1",
-    "release": {
-      "url": "https://www.w3.org/TR/feature-policy-1/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/webappsec-feature-policy/",
-      "repository": "https://github.com/w3c/webappsec-feature-policy",
-      "filename": "index.html"
-    },
-    "title": "Feature Policy",
-    "source": "w3c",
-    "shortTitle": "Feature Policy"
-  },
-  {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "seriesComposition": "full",
     "shortname": "fetch-metadata",
@@ -5396,6 +5374,28 @@
     "title": "Performance Timeline Level 2",
     "source": "w3c",
     "shortTitle": "Performance Timeline 2"
+  },
+  {
+    "url": "https://www.w3.org/TR/permissions-policy-1/",
+    "seriesComposition": "full",
+    "shortname": "permissions-policy-1",
+    "series": {
+      "shortname": "permissions-policy",
+      "currentSpecification": "permissions-policy-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/permissions-policy-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-feature-policy/",
+      "repository": "https://github.com/w3c/webappsec-feature-policy",
+      "filename": "index.html"
+    },
+    "title": "Feature Policy",
+    "source": "w3c",
+    "shortTitle": "Feature Policy"
   },
   {
     "url": "https://www.w3.org/TR/permissions/",

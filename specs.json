@@ -321,7 +321,6 @@
   "https://www.w3.org/TR/DOM-Parsing/",
   "https://www.w3.org/TR/encoding/",
   "https://www.w3.org/TR/encrypted-media/",
-  "https://www.w3.org/TR/feature-policy-1/",
   {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "shortTitle": "Fetch Metadata"
@@ -378,6 +377,7 @@
   "https://www.w3.org/TR/payment-method-manifest/",
   "https://www.w3.org/TR/payment-request/",
   "https://www.w3.org/TR/performance-timeline-2/",
+  "https://www.w3.org/TR/permissions-policy-1/",
   "https://www.w3.org/TR/permissions/",
   "https://www.w3.org/TR/picture-in-picture/",
   "https://www.w3.org/TR/pointerevents3/",

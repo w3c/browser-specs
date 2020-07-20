@@ -32,6 +32,10 @@
       "comment": "empty spec",
       "lastreviewed": "2020-07-01"
     },
+    "WICG/sanitizer-api": {
+      "comment": "Early proposal, no clear implementation plans",
+      "lastreviewed": "2020-07-18"
+    },
     "WICG/sw-launch": {
       "comment": "no spec yet",
       "lastreviewed": "2020-07-01"

@@ -84,6 +84,10 @@
       "comment": "Exposes IDL not expected to be used in a regular browsing context; might still be OK to include once we get clarity out of https://github.com/heycam/webidl/issues/896",
       "lastreviewed": "2020-07-01"
     },
+    "WICG/WebID": {
+      "comment": "Early exploration",
+      "lastreviewed": "2020-07-27"
+    },
     "WICG/kv-storage": {
       "comment": "Work on it suspended - this will probably be archived per https://github.com/WICG/admin/issues/121, but if it isn't, that may be because it is worth watching/monitoring; should check status on this at next review",
       "lastreviewed": "2020-07-01"

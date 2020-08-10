@@ -91,6 +91,14 @@
     "WICG/kv-storage": {
       "comment": "Work on it suspended - this will probably be archived per https://github.com/WICG/admin/issues/121, but if it isn't, that may be because it is worth watching/monitoring; should check status on this at next review",
       "lastreviewed": "2020-07-01"
+    },
+    "privacycg/first-party-sets": {
+      "comment": "Not a spec yet",
+      "lastreviewed": "2020-08-10"
+    },
+    "WICG/storage-buckets": {
+      "comment": "Not a spec yet",
+      "lastreviewed": "2020-08-10"
     }
   },
   "specs": {

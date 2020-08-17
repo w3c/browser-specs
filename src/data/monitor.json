@@ -99,6 +99,14 @@
     "WICG/storage-buckets": {
       "comment": "Not a spec yet",
       "lastreviewed": "2020-08-10"
+    },
+    "WICG/web-codecs": {
+      "comment": "Skeleton spec, no implementation yet",
+      "lastreviewed": "2020-08-17"
+    },
+    "w3c/merchantbg": {
+      "comment": "Not a spec, unclear future of the repo",
+      "lastreviewed": "2020-08-17"
     }
   },
   "specs": {

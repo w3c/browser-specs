@@ -836,6 +836,23 @@
     "shortTitle": "Media Playback Quality"
   },
   {
+    "url": "https://w3c.github.io/screen-fold/",
+    "seriesComposition": "full",
+    "shortname": "screen-fold",
+    "series": {
+      "shortname": "screen-fold",
+      "currentSpecification": "screen-fold"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/screen-fold/",
+      "repository": "https://github.com/w3c/screen-fold",
+      "filename": "index.html"
+    },
+    "title": "The Screen Fold API",
+    "source": "spec",
+    "shortTitle": "The Screen Fold API"
+  },
+  {
     "url": "https://w3c.github.io/web-nfc/",
     "seriesComposition": "full",
     "shortname": "web-nfc",

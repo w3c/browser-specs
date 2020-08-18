@@ -4,6 +4,24 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.13.0](https://github.com/w3c/browser-specs/compare/1.12.0...1.13.0) - 2020-08-18
+
+### Merged
+
+- Add Screen Fold to spec, monitor Web Codecs [`#143`](https://github.com/w3c/browser-specs/pull/143)
+- Mark two new repos as not ready for inclusion [`#141`](https://github.com/w3c/browser-specs/pull/141)
+- Mark WebID as to be monitored [`#137`](https://github.com/w3c/browser-specs/pull/137)
+
+### Fixed
+
+- Add Screen Fold to spec, monitor Web Codecs (#143) [`#142`](https://github.com/w3c/browser-specs/issues/142)
+- Mark two new repos as not ready for inclusion (#141) [`#140`](https://github.com/w3c/browser-specs/issues/140)
+
+### Commits
+
+- [data] Update spec info [`367a1e6`](https://github.com/w3c/browser-specs/commit/367a1e6108c7d1a2e5a9536c737654357d3ad2e0)
+- [data] Update spec info [`a658b91`](https://github.com/w3c/browser-specs/commit/a658b91af99b7eba28e925a3e718ae7b53e58927)
+
 ## [1.12.0](https://github.com/w3c/browser-specs/compare/1.11.1...1.12.0) - 2020-07-20
 
 ### Merged

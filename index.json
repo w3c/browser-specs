@@ -5406,13 +5406,13 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webappsec-feature-policy/",
-      "repository": "https://github.com/w3c/webappsec-feature-policy",
+      "url": "https://w3c.github.io/webappsec-permissions-policy/",
+      "repository": "https://github.com/w3c/webappsec-permissions-policy",
       "filename": "index.html"
     },
-    "title": "Feature Policy",
+    "title": "Permissions Policy",
     "source": "w3c",
-    "shortTitle": "Feature Policy"
+    "shortTitle": "Permissions Policy"
   },
   {
     "url": "https://www.w3.org/TR/permissions/",

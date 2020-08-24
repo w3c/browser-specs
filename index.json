@@ -564,6 +564,23 @@
     "shortTitle": "WebXR Layers API 1"
   },
   {
+    "url": "https://immersive-web.github.io/webxr-hand-input/",
+    "seriesComposition": "full",
+    "shortname": "webxr-hand-input",
+    "series": {
+      "shortname": "webxr-hand-input",
+      "currentSpecification": "webxr-hand-input"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/webxr-hand-input/",
+      "repository": "https://github.com/immersive-web/webxr-hand-input",
+      "filename": "index.html"
+    },
+    "title": "WebXR Hand Input Module - Level 1",
+    "source": "spec",
+    "shortTitle": "WebXR Hand Input 1"
+  },
+  {
     "url": "https://infra.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "infra",

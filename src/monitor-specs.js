@@ -20,7 +20,7 @@ const today = new Date().toJSON().slice(0, 10);
  for (let candidate of candidates) {
    await fetch(candidate.url).then(({headers}) => {
      // The CSS drafts use a proprietary header to expose the real last modification date
-     const lastRevised = headers.get('Last-Revised') ? new Date(headers.get('Last-Revised') : new Date(headers.get('Last-Modified');
+     const lastRevised = headers.get('Last-Revised') ? new Date(headers.get('Last-Revised')) : new Date(headers.get('Last-Modified'));
      if (lastRevised > new Date(candidate.lastreviewed)) {
        review_needed.push({...candidate, lastupdated: lastRevised.toJSON()});
      }

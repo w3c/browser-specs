@@ -141,9 +141,17 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
               .map(canonicalizeGhUrl)
               .filter(hasUnknownSpec)
               .filter(hasRelevantSpec)
-             );
+                                );
+  // * look if those without homepage URLs but marked as a cg-report
+  // have a match in the list of specs
+  candidates = candidates.concat(cgSpecRepos.filter(r => !r.homepageUrl && hasRepoType('cg-report')(r))
+                                 .map(toGhUrl)
+                                 .filter(hasUnknownSpec)
+                                 .filter(hasRelevantSpec)
+                                );
+
   // * look if those without a homepage URL have a match with their generated URL
-  candidates = candidates.concat((await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
+  candidates = candidates.concat((await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl && !hasRepoType('cg-report')(r))
                                                     .map(toGhUrl)
                                                     .filter(hasUnknownSpec)
                                                     .filter(hasRelevantSpec)

@@ -26,3 +26,5 @@ jobs:
           ${{env.review_list}}
         assignees: tidoust, dontcallmedom
         draft: true
+        branch: monitor-update
+        branch-suffix: timestamp

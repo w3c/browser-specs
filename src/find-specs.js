@@ -1,4 +1,6 @@
 'use strict';
+const fs = require("fs");
+
 const core = require('@actions/core');
 
 const fetch = require("node-fetch");
@@ -7,7 +9,9 @@ const computeShortname = require("./compute-shortname");
 
 const specs = require("../index.json");
 const ignorable = require("./data/ignore.json");
-const {repos: temporarilyIgnorableRepos, specs: temporarilyIgnorableSpecs} = require("./data/monitor.json");
+const monitorList = require("./data/monitor.json");
+
+const {repos: temporarilyIgnorableRepos, specs: temporarilyIgnorableSpecs} = monitorList;
 
 const nonBrowserSpecWgs = [
   "Accessibility Guidelines Working Group",
@@ -53,7 +57,7 @@ function canonicalizeTRUrl(url) {
 const toGhUrl = repo => { return {repo: `${repo.owner.login}/${repo.name}`, spec: `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`}; };
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
-const hasRelevantSpec = ({spec: url}) => !Object.keys(ignorable.specs).includes(url) && !Object.keys(temporarilyIgnorableSpecs).includes(url);
+const isInScope = ({spec: url}) => !Object.keys(ignorable.specs).includes(url) && !Object.keys(temporarilyIgnorableSpecs).includes(url);
 // Set loose parameter when checking loosely if another version exists
 const hasMoreRecentLevel = (s, url, loose) => {
   try {
@@ -70,7 +74,7 @@ const hasMoreRecentLevel = (s, url, loose) => {
     return false;
   }
 };
-const hasUnknownSpec = ({spec: url}) => !specs.find(s => s.nightly.url.startsWith(url)
+const hasUntrackedURL = ({spec: url}) => !specs.find(s => s.nightly.url.startsWith(url)
                                                     || (s.release && s.release.url === url))
       && !specs.find(s => hasMoreRecentLevel(s, url, true // Because CSS specs have editors draft with and without levels, we look loosely for more recent levels when checking with editors draft
                                             ));
@@ -78,7 +82,7 @@ const hasUnknownTrSpec = ({spec: url}) => !specs.find(s => s.release && s.releas
 
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));
-const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) => {
+const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}) => {
   if (ok) return {...candidate, spec: url};
 });
 
@@ -109,15 +113,15 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   // * look if those with homepage URLs have a match in the list of specs
   candidates = recTrackRepos.filter(r => r.homepageUrl)
     .map(canonicalizeGhUrl)
-    .filter(hasUnknownSpec)
-    .filter(hasRelevantSpec);
+    .filter(hasUntrackedURL)
+    .filter(isInScope);
 
   // * look if those without a homepage URL have a match with their generated URL
   candidates = candidates.concat((await Promise.all(recTrackRepos.filter(r => !r.homepageUrl)
                                     .map(toGhUrl)
-                                    .filter(hasUnknownSpec)
-                                    .filter(hasRelevantSpec)
-                                                    .map(hasExistingSpec))).filter(x => x));
+                                    .filter(hasUntrackedURL)
+                                    .filter(isInScope)
+                                                    .map(hasPublishedContent))).filter(x => x));
 
   // Look which of the specRepos on recTrack from a browser-producing WG have no match
   candidates = candidates.concat(
@@ -125,7 +129,7 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
       r => specRepos[r].filter(s => s.recTrack && wgs.find(g => g.id === s.group)).map(s => { return {repo: r, spec: canonicalizeTRUrl(s.url)};}))
       .flat()
       .filter(hasUnknownTrSpec)
-      .filter(hasRelevantSpec)
+      .filter(isInScope)
   );
 
   // CGs
@@ -139,49 +143,53 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
   // * look if those with homepage URLs have a match in the list of specs
   candidates = candidates.concat(cgSpecRepos.filter(r => r.homepageUrl)
               .map(canonicalizeGhUrl)
-              .filter(hasUnknownSpec)
-              .filter(hasRelevantSpec)
-                                );
-  // * look if those without homepage URLs but marked as a cg-report
-  // have a match in the list of specs
-  candidates = candidates.concat(cgSpecRepos.filter(r => !r.homepageUrl && hasRepoType('cg-report')(r))
-                                 .map(toGhUrl)
-                                 .filter(hasUnknownSpec)
-                                 .filter(hasRelevantSpec)
+              .filter(hasUntrackedURL)
+              .filter(isInScope)
                                 );
 
-  // * look if those without a homepage URL have a match with their generated URL
-  candidates = candidates.concat((await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl && !hasRepoType('cg-report')(r))
-                                                    .map(toGhUrl)
-                                                    .filter(hasUnknownSpec)
-                                                    .filter(hasRelevantSpec)
-                                                    .map(hasExistingSpec))
-                                 ).filter(x => x));
+  // for those without homepageUrl, check which have published content
+  const publishedCandidates = (await Promise.all(cgSpecRepos.filter(r => !r.homepageUrl)
+                                                .map(toGhUrl)
+                                                .filter(hasUntrackedURL)
+                                                .filter(isInScope)
+                                                 .map(hasPublishedContent)
+                                                )).filter(x => x);
+
+  candidates = candidates.concat(publishedCandidates);
+
+  // * look if those without homepage URLs but marked as a cg-report
+  // have a match in the list of specs
+  const monitorAdditions = cgSpecRepos.filter(r => !r.homepageUrl && hasRepoType('cg-report')(r) && !publishedCandidates.find(p => p.repo === `${repo.owner.login}/${repo.name}`))
+        .map(toGhUrl)
+        .filter(hasUntrackedURL)
+        .filter(isInScope)
+  // we remove the spec field since we haven't found a usable url
+        .map(c => Object.assign({}, {repo: c.repo}));
 
   // Check for new WHATWG streams
   candidates = candidates.concat(whatwgSpecs.map(s => { return {repo: `whatwg/${s.id}`, spec: s.href};})
-                                 .filter(hasUnknownSpec)
-                                 .filter(hasRelevantSpec));
+                                 .filter(hasUntrackedURL)
+                                 .filter(isInScope));
 
   // Check for new CSS specs
   candidates = candidates.concat(cssSpecs.map(s => { return {repo: "w3c/csswg-drafts", spec: `https://drafts.csswg.org/${s}/`};})
-                                 .filter(hasUnknownSpec)
-                                 .filter(hasRelevantSpec));
+                                 .filter(hasUntrackedURL)
+                                 .filter(isInScope));
 
   // Check for new SVG specs
   candidates = candidates.concat(svgSpecs.map(s => { return {repo: "w3c/svgwg", spec: `https://svgwg.org/${s}/`};})
-                                 .filter(hasUnknownSpec)
-                                 .filter(hasRelevantSpec));
+                                 .filter(hasUntrackedURL)
+                                 .filter(isInScope));
 
   // Check for new FXTF specs
   candidates = candidates.concat(fxtfSpecs.map(s => { return {repo: "w3c/fxtf-drafts", spec: `https://drafts.fxtf.org/${s}/`};})
-                                 .filter(hasUnknownSpec)
-                                 .filter(hasRelevantSpec));
+                                 .filter(hasUntrackedURL)
+                                 .filter(isInScope));
 
   // Check for new Houdini specs
   candidates = candidates.concat(houdiniSpecs.map(s => { return {repo: "w3c/css-houdini-drafts", spec: `https://drafts.css-houdini.org/${s}/`};})
-                                 .filter(hasUnknownSpec)
-                                 .filter(hasRelevantSpec));
+                                 .filter(hasUntrackedURL)
+                                 .filter(isInScope));
 
   // Add information from Chrome Feature status
   candidates = candidates.map(c => { return {...c, impl: { chrome: (chromeFeatures.find(f => f.standards.spec && f.standards.spec.startsWith(c.spec)) || {}).id}};});
@@ -190,6 +198,19 @@ const hasExistingSpec = (candidate) => fetch(candidate.spec).then(({ok, url}) =>
         .map(c => `- [ ] ${c.spec} from [${c.repo}](https://github.com/${c.repo})` + (c.impl.chrome ? ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` : '')).join("\n");
   core.exportVariable("candidate_list", candidate_list);
   console.log(candidate_list);
+  if (monitorAdditions.length) {
+    const today = new Date().toJSON().slice(0, 10);
+    const monitored = monitorAdditions.map(({repo}) => `- [ ] [${repo}](https://github.com/${repo})`).join("\n");
+    core.exportVariable("monitor_list", monitored);
+    monitorAdditions.forEach(({repo}) => {
+      monitorList.repos[repo] = {
+        lastreviewed: today,
+        comment: "no published content yet"
+      };
+    });
+    fs.writeFileSync("./src/data/monitor.json", JSON.stringify(monitorList, null, 2));
+    console.log(monitored);
+  }
 })().catch(e => {
   console.error(e);
   process.exit(1);

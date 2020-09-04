@@ -33,3 +33,5 @@ jobs:
           ${{env.monitor_list}}
         assignees: tidoust, dontcallmedom
         draft: true
+        branch: new-monitor
+        branch-suffix: timestamp

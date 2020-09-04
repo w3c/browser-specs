@@ -21,3 +21,15 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         filename: .github/candidate-specs.md
+    - uses: peter-evans/create-pull-request@v2
+      if: ${{ env.monitor_list }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        title: Identify new monitored repos
+        commit-message: "List new repos to be monitored"
+        body: |
+          The following repos have been identified as possibly relevant:
+          ${{env.monitor_list}}
+        assignees: tidoust, dontcallmedom
+        draft: true

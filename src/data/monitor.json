@@ -56,6 +56,10 @@
       "comment": "a kitchen-sink delta spec for now - might lead to a new integrated webrtc NV spec",
       "lastreviewed": "2020-07-01"
     },
+    "w3c/mediacapture-extensions": {
+      "comment": "no spec content yet",
+      "lastreviewed": "2020-09-07"
+    },
     "WICG/webmonetization": {
       "comment": "Early exploration phase; spec at https://webmonetization.org/specification.html",
       "lastreviewed": "2020-07-01"
@@ -111,6 +115,118 @@
     "w3c/merchantbg": {
       "comment": "Not a spec, unclear future of the repo",
       "lastreviewed": "2020-08-17"
+    },
+    "WICG/accessible-loading-and-searching-of-content": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/beforeinstallprompt": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/canvas-color-space": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/digital-goods": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/display-override": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/idle-detection": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/image-output": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/ink-enhancement": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/lang-client-hint": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/main-thread-scheduling": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/origin-isolation": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/performance-measure-memory": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/pwa-url-handler": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/raw-clipboard-access": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/request-post-animation-frame": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/sparrow": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/trust-token-api": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/turtledove": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/video-editing": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "WICG/window-controls-overlay": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "immersive-web/computer-vision": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "immersive-web/geo-alignment": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "immersive-web/navigation": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "immersive-web/performance-improvements": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "immersive-web/real-world-geometry": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "immersive-web/spatial-favicons": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "privacycg/is-logged-in": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
+    },
+    "privacycg/js-membranes": {
+      "lastreviewed": "2020-09-07",
+      "comment": "no published content yet"
     }
   },
   "specs": {

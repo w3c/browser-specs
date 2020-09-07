@@ -90,8 +90,14 @@
     "WICG/cross-origin-embedder-policy": {
       "comment": "aimed toward integration in other specs - see https://github.com/whatwg/html/pull/5454"
     },
+    "WICG/discourse-wicg-theme": {
+      "comment": "not a spec"
+    },
     "WICG/inert": {
       "comment": "aimed toward HTML LS https://github.com/whatwg/html/pull/4288"
+    },
+    "WICG/interventions": {
+      "comment": "not a spec"
     },
     "WICG/devtools-protocol": {
       "comment": "browser devtool protocol"

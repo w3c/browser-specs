@@ -159,7 +159,9 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
 
   // * look if those without homepage URLs but marked as a cg-report
   // have a match in the list of specs
-  const monitorAdditions = cgSpecRepos.filter(r => !r.homepageUrl && hasRepoType('cg-report')(r) && !publishedCandidates.find(p => p.repo === `${repo.owner.login}/${repo.name}`))
+  const monitorAdditions = cgSpecRepos
+        .filter(r => !r.homepageUrl && hasRepoType('cg-report')(r) &&
+            !publishedCandidates.find(p => p.repo === `${r.owner.login}/${r.name}`))
         .map(toGhUrl)
         .filter(hasUntrackedURL)
         .filter(isInScope)

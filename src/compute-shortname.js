@@ -56,6 +56,12 @@ function computeShortname(url) {
         return whatwg[1];
     }
 
+    // Handle Khronos extensions
+    const khronos = url.match(/https:\/\/www\.khronos\.org\/registry\/webgl\/extensions\/([^\/]+)\/$/);
+    if (khronos) {
+        return khronos[1];
+    }
+
     // Handle extension specs defined in the same repo as the main spec
     // (e.g. generate a "gamepad-extensions" name for
     // https://w3c.github.io/gamepad/extensions.html")

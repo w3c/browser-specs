@@ -610,9 +610,9 @@
       "repository": "https://github.com/mathml-refresh/mathml-core",
       "filename": "index.html"
     },
-    "title": "MathML Core",
-    "source": "spec",
-    "shortTitle": "MathML Core"
+    "title": "An interoperable subset of Mathematical Markup Language (MathML) suitable for browsers 1st Edition",
+    "source": "specref",
+    "shortTitle": "MathML"
   },
   {
     "url": "https://mimesniff.spec.whatwg.org/",

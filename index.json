@@ -904,6 +904,23 @@
     "shortTitle": "Web Share Target API"
   },
   {
+    "url": "https://w3c.github.io/webappsec-change-password-url/",
+    "seriesComposition": "full",
+    "shortname": "change-password-url",
+    "series": {
+      "shortname": "change-password-url",
+      "currentSpecification": "change-password-url"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-change-password-url/",
+      "repository": "https://github.com/w3c/webappsec-change-password-url",
+      "filename": "index.html"
+    },
+    "title": "A Well-Known URL for Changing Passwords",
+    "source": "spec",
+    "shortTitle": "A Well-Known URL for Changing Passwords"
+  },
+  {
     "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
     "seriesComposition": "full",
     "shortname": "trusted-types",
@@ -1021,23 +1038,6 @@
     },
     "title": "Web Background Synchronization",
     "source": "spec"
-  },
-  {
-    "url": "https://wicg.github.io/change-password-url/",
-    "seriesComposition": "full",
-    "shortname": "change-password-url",
-    "series": {
-      "shortname": "change-password-url",
-      "currentSpecification": "change-password-url"
-    },
-    "nightly": {
-      "url": "https://wicg.github.io/change-password-url/",
-      "repository": "https://github.com/WICG/change-password-url",
-      "filename": "index.html"
-    },
-    "title": "A Well-Known URL for Changing Passwords",
-    "source": "spec",
-    "shortTitle": "A Well-Known URL for Changing Passwords"
   },
   {
     "url": "https://wicg.github.io/client-hints-infrastructure/",

@@ -4,6 +4,19 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.14.2](https://github.com/w3c/browser-specs/compare/1.14.1...1.14.2) - 2020-09-22
+
+### Merged
+
+- Reflect transfor of change-password-url to w3c from wicg [`#160`](https://github.com/w3c/browser-specs/pull/160)
+
+### Commits
+
+- [data] Update spec info [`471d006`](https://github.com/w3c/browser-specs/commit/471d006d8213694d408f1a45bbb4145430418338)
+- List new repos to be monitored [`fe1c9b3`](https://github.com/w3c/browser-specs/commit/fe1c9b339a97486f8914878eebfc8c2c2b6a35e3)
+- [data] Update spec info [`55142ca`](https://github.com/w3c/browser-specs/commit/55142ca2139653d4c4499ee3f1c7fb5433a973ed)
+- Fix URL of change-password-url spec [`b0af648`](https://github.com/w3c/browser-specs/commit/b0af6482c5e88b08e6fa13d2af7386f75f457b6d)
+
 ## [1.14.1](https://github.com/w3c/browser-specs/compare/1.14.0...1.14.1) - 2020-09-16
 
 ### Merged

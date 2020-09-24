@@ -1,5 +1,9 @@
 {
   "repos": {
+    "WICG/responsive-image-client-hints": {
+      "comment": "still early draft",
+      "lastreviewed": "2020-09-24"
+    },
     "WICG/datacue": {
       "comment": "mostly TODOs",
       "lastreviewed": "2020-07-01"

@@ -4,6 +4,10 @@
       "comment": "Unofficial draft",
       "lastreviewed": "2020-09-28"
     },
+    "WICG/responsive-image-client-hints": {
+      "comment": "still early draft",
+      "lastreviewed": "2020-09-24"
+    },
     "WICG/datacue": {
       "comment": "mostly TODOs",
       "lastreviewed": "2020-07-01"
@@ -234,6 +238,10 @@
     },
     "immersive-web/depth-sensing": {
       "lastreviewed": "2020-09-21",
+      "comment": "no published content yet"
+    },
+    "WICG/canvas-formatted-text": {
+      "lastreviewed": "2020-09-28",
       "comment": "no published content yet"
     }
   },

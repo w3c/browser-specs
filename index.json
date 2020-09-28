@@ -126,6 +126,25 @@
     "shortTitle": "CSS Backgrounds and Borders 4"
   },
   {
+    "url": "https://drafts.csswg.org/css-cascade-5/",
+    "seriesComposition": "full",
+    "shortname": "css-cascade-5",
+    "series": {
+      "shortname": "css-cascade",
+      "currentSpecification": "css-cascade-4"
+    },
+    "seriesVersion": "5",
+    "shortTitle": "CSS Cascading 5",
+    "seriesPrevious": "css-cascade-4",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-cascade-5/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Cascading and Inheritance Level 5",
+    "source": "spec"
+  },
+  {
     "url": "https://drafts.csswg.org/css-env-1/",
     "seriesComposition": "full",
     "shortname": "css-env-1",
@@ -3212,6 +3231,7 @@
     "seriesVersion": "4",
     "shortTitle": "CSS Cascading 4",
     "seriesPrevious": "css-cascade-3",
+    "seriesNext": "css-cascade-5",
     "release": {
       "url": "https://www.w3.org/TR/css-cascade-4/",
       "filename": "Overview.html"

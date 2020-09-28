@@ -1,5 +1,9 @@
 {
   "repos": {
+    "w3c/merchant-validation": {
+      "comment": "Unofficial draft",
+      "lastreviewed": "2020-09-28"
+    },
     "WICG/datacue": {
       "comment": "mostly TODOs",
       "lastreviewed": "2020-07-01"

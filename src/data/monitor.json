@@ -235,6 +235,10 @@
     "immersive-web/depth-sensing": {
       "lastreviewed": "2020-09-21",
       "comment": "no published content yet"
+    },
+    "WICG/canvas-formatted-text": {
+      "lastreviewed": "2020-09-28",
+      "comment": "no published content yet"
     }
   },
   "specs": {

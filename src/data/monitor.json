@@ -1,5 +1,9 @@
 {
   "repos": {
+    "w3c/merchant-validation": {
+      "comment": "Unofficial draft",
+      "lastreviewed": "2020-09-28"
+    },
     "WICG/responsive-image-client-hints": {
       "comment": "still early draft",
       "lastreviewed": "2020-09-24"

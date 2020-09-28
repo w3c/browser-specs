@@ -4,6 +4,24 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.15.0](https://github.com/w3c/browser-specs/compare/1.14.2...1.15.0) - 2020-09-28
+
+### Merged
+
+- Rename filesystem api & add merchant validation to monitoring [`#164`](https://github.com/w3c/browser-specs/pull/164)
+- Add CSS Cascade 5 [`#161`](https://github.com/w3c/browser-specs/pull/161)
+
+### Commits
+
+- [data] Update spec info [`567b846`](https://github.com/w3c/browser-specs/commit/567b8469f03c83844cf3955324cb9fe124c5eb83)
+- Fix alphabetical order of WebGL extensions [`3466092`](https://github.com/w3c/browser-specs/commit/3466092bce7aad586525722f9a8f8ae1473cc3b7)
+- Extract list of WebGL extensions from Khronos listing [`90ec35b`](https://github.com/w3c/browser-specs/commit/90ec35b24ebcc1ff3d0538cc757c764aa2757e0a)
+- [data] Update spec info [`38dc5b7`](https://github.com/w3c/browser-specs/commit/38dc5b7898ee4676aba907a07e67f6c3d3f40a50)
+- [data] Update spec info [`7f42892`](https://github.com/w3c/browser-specs/commit/7f42892b715b6480b66a6fe1a363fbe4b2691112)
+- Add rule of shortname extraction for WebGL extensions [`51d6a1a`](https://github.com/w3c/browser-specs/commit/51d6a1a1ce29ffbecb4413e835655ae03ae71da8)
+- List new repos to be monitored [`fb07e7b`](https://github.com/w3c/browser-specs/commit/fb07e7bab2f2391176364a7f00cd944b6501d951)
+- [data] Update spec info [`65bb330`](https://github.com/w3c/browser-specs/commit/65bb330873c25149697854d38a0c6813390e9830)
+
 ## [1.14.2](https://github.com/w3c/browser-specs/compare/1.14.1...1.14.2) - 2020-09-22
 
 ### Merged

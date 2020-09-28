@@ -1297,6 +1297,23 @@
     "shortTitle": "Event Timing API"
   },
   {
+    "url": "https://wicg.github.io/file-system-access/",
+    "seriesComposition": "full",
+    "shortname": "file-system-access",
+    "series": {
+      "shortname": "file-system-access",
+      "currentSpecification": "file-system-access"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/file-system-access/",
+      "repository": "https://github.com/WICG/file-system-access",
+      "filename": "index.html"
+    },
+    "title": "File System Access",
+    "source": "specref",
+    "shortTitle": "File System Access"
+  },
+  {
     "url": "https://wicg.github.io/frame-timing/",
     "seriesComposition": "full",
     "shortname": "frame-timing",
@@ -1516,23 +1533,6 @@
     "title": "Media Feeds",
     "source": "spec",
     "shortTitle": "Media Feeds"
-  },
-  {
-    "url": "https://wicg.github.io/native-file-system/",
-    "seriesComposition": "full",
-    "shortname": "native-file-system",
-    "series": {
-      "shortname": "native-file-system",
-      "currentSpecification": "native-file-system"
-    },
-    "nightly": {
-      "url": "https://wicg.github.io/native-file-system/",
-      "repository": "https://github.com/WICG/native-file-system",
-      "filename": "index.html"
-    },
-    "title": "Native File System",
-    "source": "specref",
-    "shortTitle": "Native File System"
   },
   {
     "url": "https://wicg.github.io/netinfo/",

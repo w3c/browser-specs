@@ -239,6 +239,10 @@
     "WICG/canvas-formatted-text": {
       "lastreviewed": "2020-09-28",
       "comment": "no published content yet"
+    },
+    "w3c/merchant-validation": {
+      "lastreviewed": "2020-09-28",
+      "comment": "Marked as unofficial proposal"
     }
   },
   "specs": {

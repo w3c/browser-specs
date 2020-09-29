@@ -923,6 +923,23 @@
     "shortTitle": "Web Share Target API"
   },
   {
+    "url": "https://w3c.github.io/web-transport/",
+    "seriesComposition": "full",
+    "shortname": "web-transport",
+    "series": {
+      "shortname": "web-transport",
+      "currentSpecification": "web-transport"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/web-transport/",
+      "repository": "https://github.com/w3c/web-transport",
+      "filename": "index.html"
+    },
+    "title": "WebTransport",
+    "source": "spec",
+    "shortTitle": "WebTransport"
+  },
+  {
     "url": "https://w3c.github.io/webappsec-change-password-url/",
     "seriesComposition": "full",
     "shortname": "change-password-url",
@@ -1890,23 +1907,6 @@
     "title": "Web OTP API",
     "source": "spec",
     "shortTitle": "Web OTP API"
-  },
-  {
-    "url": "https://wicg.github.io/web-transport/",
-    "seriesComposition": "full",
-    "shortname": "web-transport",
-    "series": {
-      "shortname": "web-transport",
-      "currentSpecification": "web-transport"
-    },
-    "nightly": {
-      "url": "https://wicg.github.io/web-transport/",
-      "repository": "https://github.com/WICG/web-transport",
-      "filename": "index.html"
-    },
-    "title": "WebTransport",
-    "source": "spec",
-    "shortTitle": "WebTransport"
   },
   {
     "url": "https://wicg.github.io/webhid/",
@@ -6534,6 +6534,27 @@
     "shortTitle": "The Screen Orientation API"
   },
   {
+    "url": "https://www.w3.org/TR/screen-wake-lock/",
+    "seriesComposition": "full",
+    "shortname": "screen-wake-lock",
+    "series": {
+      "shortname": "screen-wake-lock",
+      "currentSpecification": "screen-wake-lock"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/screen-wake-lock/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/screen-wake-lock/",
+      "repository": "https://github.com/w3c/screen-wake-lock",
+      "filename": "index.html"
+    },
+    "title": "Wake Lock API",
+    "source": "w3c",
+    "shortTitle": "Wake Lock API"
+  },
+  {
     "url": "https://www.w3.org/TR/secure-contexts/",
     "seriesComposition": "full",
     "shortname": "secure-contexts",
@@ -7129,27 +7150,6 @@
     "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
     "source": "w3c",
     "shortTitle": "WAI-ARIA 1.2"
-  },
-  {
-    "url": "https://www.w3.org/TR/wake-lock/",
-    "seriesComposition": "full",
-    "shortname": "wake-lock",
-    "series": {
-      "shortname": "wake-lock",
-      "currentSpecification": "wake-lock"
-    },
-    "release": {
-      "url": "https://www.w3.org/TR/wake-lock/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/screen-wake-lock/",
-      "repository": "https://github.com/w3c/screen-wake-lock",
-      "filename": "index.html"
-    },
-    "title": "Wake Lock API",
-    "source": "w3c",
-    "shortTitle": "Wake Lock API"
   },
   {
     "url": "https://www.w3.org/TR/wasm-core-1/",

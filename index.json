@@ -6550,9 +6550,9 @@
       "repository": "https://github.com/w3c/screen-wake-lock",
       "filename": "index.html"
     },
-    "title": "Wake Lock API",
+    "title": "Screen Wake Lock API",
     "source": "w3c",
-    "shortTitle": "Wake Lock API"
+    "shortTitle": "Screen Wake Lock API"
   },
   {
     "url": "https://www.w3.org/TR/secure-contexts/",

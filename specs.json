@@ -65,12 +65,12 @@
   "https://w3c.github.io/screen-fold/",
   "https://w3c.github.io/web-nfc/",
   "https://w3c.github.io/web-share-target/",
-  "https://w3c.github.io/web-transport/",
   "https://w3c.github.io/webappsec-change-password-url/",
   "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
   "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
   "https://w3c.github.io/webrtc-insertable-streams/",
+  "https://w3c.github.io/webtransport/",
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://wicg.github.io/background-fetch/",
   {

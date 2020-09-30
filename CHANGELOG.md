@@ -4,6 +4,18 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.16.0](https://github.com/w3c/browser-specs/compare/1.15.0...1.16.0) - 2020-09-30
+
+### Merged
+
+- Reflect transfer of WebTransport repo to w3c org [`#166`](https://github.com/w3c/browser-specs/pull/166)
+
+### Commits
+
+- [data] Update spec info [`3566e5b`](https://github.com/w3c/browser-specs/commit/3566e5bbacd564e3a820150266588f1522c01294)
+- [data] Update spec info [`7bc9c49`](https://github.com/w3c/browser-specs/commit/7bc9c496e741e0fe657676012896a238b8238750)
+- Reflect change of shortname for Screen Wake Lock API [`c8eca55`](https://github.com/w3c/browser-specs/commit/c8eca55b6368a80b0d51314eaa35fd21ba64877c)
+
 ## [1.15.0](https://github.com/w3c/browser-specs/compare/1.14.2...1.15.0) - 2020-09-28
 
 ### Merged

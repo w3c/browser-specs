@@ -4,6 +4,13 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.17.0](https://github.com/w3c/browser-specs/compare/1.16.0...1.17.0) - 2020-10-01
+
+### Commits
+
+- [data] Update spec info [`e7b9d36`](https://github.com/w3c/browser-specs/commit/e7b9d369cfb78ec2fb9266095e2e9ab48a2a54c1)
+- Update URL of WebTransport spec [`e371dfe`](https://github.com/w3c/browser-specs/commit/e371dfef8d49e41f3f7c187dc620bf643b626a3e)
+
 ## [1.16.0](https://github.com/w3c/browser-specs/compare/1.15.0...1.16.0) - 2020-09-30
 
 ### Merged

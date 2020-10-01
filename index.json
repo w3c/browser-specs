@@ -629,9 +629,9 @@
       "repository": "https://github.com/mathml-refresh/mathml-core",
       "filename": "index.html"
     },
-    "title": "An interoperable subset of Mathematical Markup Language (MathML) suitable for browsers 1st Edition",
+    "title": "MathML Core",
     "source": "specref",
-    "shortTitle": "MathML"
+    "shortTitle": "MathML Core"
   },
   {
     "url": "https://mimesniff.spec.whatwg.org/",
@@ -923,23 +923,6 @@
     "shortTitle": "Web Share Target API"
   },
   {
-    "url": "https://w3c.github.io/web-transport/",
-    "seriesComposition": "full",
-    "shortname": "web-transport",
-    "series": {
-      "shortname": "web-transport",
-      "currentSpecification": "web-transport"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/web-transport/",
-      "repository": "https://github.com/w3c/web-transport",
-      "filename": "index.html"
-    },
-    "title": "WebTransport",
-    "source": "spec",
-    "shortTitle": "WebTransport"
-  },
-  {
     "url": "https://w3c.github.io/webappsec-change-password-url/",
     "seriesComposition": "full",
     "shortname": "change-password-url",
@@ -1023,6 +1006,23 @@
     "title": "WebRTC Insertable Media using Streams",
     "source": "specref",
     "shortTitle": "WebRTC Insertable Media using Streams"
+  },
+  {
+    "url": "https://w3c.github.io/webtransport/",
+    "seriesComposition": "full",
+    "shortname": "webtransport",
+    "series": {
+      "shortname": "webtransport",
+      "currentSpecification": "webtransport"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webtransport/",
+      "repository": "https://github.com/w3c/webtransport",
+      "filename": "index.html"
+    },
+    "title": "WebTransport",
+    "source": "spec",
+    "shortTitle": "WebTransport"
   },
   {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",

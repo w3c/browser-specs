@@ -25,7 +25,7 @@
     "release-it": "^13.5.1"
   },
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "jsdom": "^16.2.2",
     "node-fetch": "^2.6.1"
   }

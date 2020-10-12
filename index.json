@@ -872,6 +872,23 @@
     "shortTitle": "Media Playback Quality"
   },
   {
+    "url": "https://w3c.github.io/mediacapture-automation/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-automation",
+    "series": {
+      "shortname": "mediacapture-automation",
+      "currentSpecification": "mediacapture-automation"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-automation/",
+      "repository": "https://github.com/w3c/mediacapture-automation",
+      "filename": "index.html"
+    },
+    "title": "Media Capture Automation",
+    "source": "spec",
+    "shortTitle": "Media Capture Automation"
+  },
+  {
     "url": "https://w3c.github.io/screen-fold/",
     "seriesComposition": "full",
     "shortname": "screen-fold",

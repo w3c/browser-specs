@@ -4,6 +4,22 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.18.0](https://github.com/w3c/browser-specs/compare/1.17.0...1.18.0) - 2020-10-12
+
+### Merged
+
+- Add Media Capture Automation [`#172`](https://github.com/w3c/browser-specs/pull/172)
+- Bump @actions/core from 1.2.4 to 1.2.6 [`#170`](https://github.com/w3c/browser-specs/pull/170)
+
+### Fixed
+
+- Add Media Capture Automation (#172) [`#171`](https://github.com/w3c/browser-specs/issues/171)
+
+### Commits
+
+- [data] Update spec info [`ea0821a`](https://github.com/w3c/browser-specs/commit/ea0821a239f64f644f5c81f16ac37ac5a771594d)
+- [data] Update spec info [`9159abe`](https://github.com/w3c/browser-specs/commit/9159abe1b6a4a845182881abc7d011fef78a1587)
+
 ## [1.17.0](https://github.com/w3c/browser-specs/compare/1.16.0...1.17.0) - 2020-10-01
 
 ### Commits

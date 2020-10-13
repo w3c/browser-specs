@@ -3128,7 +3128,7 @@
     "shortname": "css-box-3",
     "series": {
       "shortname": "css-box",
-      "currentSpecification": "css-box-4"
+      "currentSpecification": "css-box-3"
     },
     "seriesVersion": "3",
     "seriesNext": "css-box-4",
@@ -3151,7 +3151,7 @@
     "shortname": "css-box-4",
     "series": {
       "shortname": "css-box",
-      "currentSpecification": "css-box-4"
+      "currentSpecification": "css-box-3"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-box-3",

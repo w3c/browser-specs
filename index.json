@@ -3391,7 +3391,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-contain/",
+      "url": "https://drafts.csswg.org/css-contain-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
@@ -3591,7 +3591,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-fonts/",
+      "url": "https://drafts.csswg.org/css-fonts-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
@@ -4691,7 +4691,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-ui/",
+      "url": "https://drafts.csswg.org/css-ui-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },

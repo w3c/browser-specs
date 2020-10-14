@@ -4,6 +4,17 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.18.1](https://github.com/w3c/browser-specs/compare/1.18.0...1.18.1) - 2020-10-14
+
+### Merged
+
+- Flag CSS Box 3 as current specification [`#175`](https://github.com/w3c/browser-specs/pull/175)
+
+### Commits
+
+- [data] Update spec info [`d803a7f`](https://github.com/w3c/browser-specs/commit/d803a7f984de405f295abe311f6a7623d3c5842a)
+- [data] Update spec info [`6a49bd4`](https://github.com/w3c/browser-specs/commit/6a49bd4e28e3770566dabca7abc83a28fbed4605)
+
 ## [1.18.0](https://github.com/w3c/browser-specs/compare/1.17.0...1.18.0) - 2020-10-12
 
 ### Merged

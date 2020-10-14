@@ -3128,7 +3128,7 @@
     "shortname": "css-box-3",
     "series": {
       "shortname": "css-box",
-      "currentSpecification": "css-box-4"
+      "currentSpecification": "css-box-3"
     },
     "seriesVersion": "3",
     "seriesNext": "css-box-4",
@@ -3151,7 +3151,7 @@
     "shortname": "css-box-4",
     "series": {
       "shortname": "css-box",
-      "currentSpecification": "css-box-4"
+      "currentSpecification": "css-box-3"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-box-3",
@@ -3391,7 +3391,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-contain/",
+      "url": "https://drafts.csswg.org/css-contain-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
@@ -3591,7 +3591,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-fonts/",
+      "url": "https://drafts.csswg.org/css-fonts-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
@@ -4691,7 +4691,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-ui/",
+      "url": "https://drafts.csswg.org/css-ui-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },

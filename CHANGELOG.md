@@ -4,6 +4,18 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.19.0](https://github.com/w3c/browser-specs/compare/1.18.1...1.19.0) - 2020-10-15
+
+### Merged
+
+- Drop superseded CSS Recommendations [`#174`](https://github.com/w3c/browser-specs/pull/174)
+- Flag User Timing 2 as current specification [`#177`](https://github.com/w3c/browser-specs/pull/177)
+
+### Commits
+
+- [data] Update spec info [`36fe6d9`](https://github.com/w3c/browser-specs/commit/36fe6d9cb34cd9c46bad936018fe3bd7912680d6)
+- [data] Update spec info [`04a44f6`](https://github.com/w3c/browser-specs/commit/04a44f6cb7187f62a032f6d970d5682ea4db5e14)
+
 ## [1.18.1](https://github.com/w3c/browser-specs/compare/1.18.0...1.18.1) - 2020-10-14
 
 ### Merged

@@ -3262,29 +3262,6 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/css-color-3/",
-    "seriesComposition": "full",
-    "shortname": "css-color-3",
-    "series": {
-      "shortname": "css-color",
-      "currentSpecification": "css-color-4"
-    },
-    "seriesVersion": "3",
-    "seriesNext": "css-color-4",
-    "release": {
-      "url": "https://www.w3.org/TR/css-color-3/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-color-3/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Color Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Color 3"
-  },
-  {
     "url": "https://www.w3.org/TR/css-color-4/",
     "seriesComposition": "full",
     "shortname": "css-color-4",
@@ -3293,7 +3270,6 @@
       "currentSpecification": "css-color-4"
     },
     "seriesVersion": "4",
-    "seriesPrevious": "css-color-3",
     "seriesNext": "css-color-5",
     "release": {
       "url": "https://www.w3.org/TR/css-color-4/",
@@ -3377,29 +3353,6 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/css-contain-1/",
-    "seriesComposition": "full",
-    "shortname": "css-contain-1",
-    "series": {
-      "shortname": "css-contain",
-      "currentSpecification": "css-contain-2"
-    },
-    "seriesVersion": "1",
-    "seriesNext": "css-contain-2",
-    "release": {
-      "url": "https://www.w3.org/TR/css-contain-1/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-contain-1/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Containment Module Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Containment 1"
-  },
-  {
     "url": "https://www.w3.org/TR/css-contain-2/",
     "seriesComposition": "full",
     "shortname": "css-contain-2",
@@ -3408,7 +3361,6 @@
       "currentSpecification": "css-contain-2"
     },
     "seriesVersion": "2",
-    "seriesPrevious": "css-contain-1",
     "release": {
       "url": "https://www.w3.org/TR/css-contain-2/",
       "filename": "Overview.html"
@@ -3577,29 +3529,6 @@
     "shortTitle": "CSS Font Loading 3"
   },
   {
-    "url": "https://www.w3.org/TR/css-fonts-3/",
-    "seriesComposition": "full",
-    "shortname": "css-fonts-3",
-    "series": {
-      "shortname": "css-fonts",
-      "currentSpecification": "css-fonts-4"
-    },
-    "seriesVersion": "3",
-    "seriesNext": "css-fonts-4",
-    "release": {
-      "url": "https://www.w3.org/TR/css-fonts-3/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-fonts-3/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Fonts Module Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Fonts 3"
-  },
-  {
     "url": "https://www.w3.org/TR/css-fonts-4/",
     "seriesComposition": "full",
     "shortname": "css-fonts-4",
@@ -3608,7 +3537,6 @@
       "currentSpecification": "css-fonts-4"
     },
     "seriesVersion": "4",
-    "seriesPrevious": "css-fonts-3",
     "release": {
       "url": "https://www.w3.org/TR/css-fonts-4/",
       "filename": "Overview.html"
@@ -4676,29 +4604,6 @@
     "shortTitle": "CSS Typed OM 1"
   },
   {
-    "url": "https://www.w3.org/TR/css-ui-3/",
-    "seriesComposition": "full",
-    "shortname": "css-ui-3",
-    "series": {
-      "shortname": "css-ui",
-      "currentSpecification": "css-ui-4"
-    },
-    "seriesVersion": "3",
-    "shortTitle": "CSS User Interface 3",
-    "seriesNext": "css-ui-4",
-    "release": {
-      "url": "https://www.w3.org/TR/css-ui-3/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-ui-3/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-    "source": "w3c"
-  },
-  {
     "url": "https://www.w3.org/TR/css-ui-4/",
     "seriesComposition": "full",
     "shortname": "css-ui-4",
@@ -4708,7 +4613,6 @@
     },
     "seriesVersion": "4",
     "shortTitle": "CSS User Interface 4",
-    "seriesPrevious": "css-ui-3",
     "release": {
       "url": "https://www.w3.org/TR/css-ui-4/",
       "filename": "Overview.html"
@@ -4812,29 +4716,6 @@
     "shortTitle": "CSS Will Change 1"
   },
   {
-    "url": "https://www.w3.org/TR/css-writing-modes-3/",
-    "seriesComposition": "full",
-    "shortname": "css-writing-modes-3",
-    "series": {
-      "shortname": "css-writing-modes",
-      "currentSpecification": "css-writing-modes-4"
-    },
-    "seriesVersion": "3",
-    "seriesNext": "css-writing-modes-4",
-    "release": {
-      "url": "https://www.w3.org/TR/css-writing-modes-3/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-writing-modes-3/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Writing Modes Level 3",
-    "source": "w3c",
-    "shortTitle": "CSS Writing Modes 3"
-  },
-  {
     "url": "https://www.w3.org/TR/css-writing-modes-4/",
     "seriesComposition": "full",
     "shortname": "css-writing-modes-4",
@@ -4843,7 +4724,6 @@
       "currentSpecification": "css-writing-modes-4"
     },
     "seriesVersion": "4",
-    "seriesPrevious": "css-writing-modes-3",
     "release": {
       "url": "https://www.w3.org/TR/css-writing-modes-4/",
       "filename": "Overview.html"
@@ -5005,29 +4885,6 @@
     "title": "CSS Exclusions Module Level 1",
     "source": "w3c",
     "shortTitle": "CSS Exclusions 1"
-  },
-  {
-    "url": "https://www.w3.org/TR/css3-mediaqueries/",
-    "seriesComposition": "full",
-    "shortname": "css3-mediaqueries",
-    "series": {
-      "shortname": "mediaqueries",
-      "currentSpecification": "mediaqueries-4"
-    },
-    "seriesVersion": "3",
-    "seriesNext": "mediaqueries-4",
-    "release": {
-      "url": "https://www.w3.org/TR/css3-mediaqueries/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/mediaqueries-3/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "Media Queries",
-    "source": "w3c",
-    "shortTitle": "Media Queries"
   },
   {
     "url": "https://www.w3.org/TR/cssom-1/",
@@ -5766,7 +5623,6 @@
       "currentSpecification": "mediaqueries-4"
     },
     "seriesVersion": "4",
-    "seriesPrevious": "css3-mediaqueries",
     "seriesNext": "mediaqueries-5",
     "release": {
       "url": "https://www.w3.org/TR/mediaqueries-4/",
@@ -6614,29 +6470,6 @@
     "shortTitle": "Selection API"
   },
   {
-    "url": "https://www.w3.org/TR/selectors-3/",
-    "seriesComposition": "full",
-    "shortname": "selectors-3",
-    "series": {
-      "shortname": "selectors",
-      "currentSpecification": "selectors-4"
-    },
-    "seriesVersion": "3",
-    "seriesNext": "selectors-4",
-    "release": {
-      "url": "https://www.w3.org/TR/selectors-3/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/selectors-3/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "Selectors Level 3",
-    "source": "w3c",
-    "shortTitle": "Selectors 3"
-  },
-  {
     "url": "https://www.w3.org/TR/selectors-4/",
     "seriesComposition": "full",
     "shortname": "selectors-4",
@@ -6645,7 +6478,6 @@
       "currentSpecification": "selectors-4"
     },
     "seriesVersion": "4",
-    "seriesPrevious": "selectors-3",
     "release": {
       "url": "https://www.w3.org/TR/selectors-4/",
       "filename": "Overview.html"

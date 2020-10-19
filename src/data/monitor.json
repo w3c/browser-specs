@@ -243,6 +243,10 @@
     "WICG/canvas-formatted-text": {
       "lastreviewed": "2020-09-28",
       "comment": "no published content yet"
+    },
+    "WICG/urlpattern": {
+      "lastreviewed": "2020-10-19",
+      "comment": "no published content yet"
     }
   },
   "specs": {

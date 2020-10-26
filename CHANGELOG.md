@@ -4,6 +4,24 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.20.0](https://github.com/w3c/browser-specs/compare/1.19.1...1.20.0) - 2020-10-26
+
+### Merged
+
+- Drop Worklets spec [`#179`](https://github.com/w3c/browser-specs/pull/179)
+- Update CSS Grid, CSS Highlight, WebXR Hand Input [`#181`](https://github.com/w3c/browser-specs/pull/181)
+
+### Fixed
+
+- Update CSS Grid, CSS Highlight, WebXR Hand Input (#181) [`#180`](https://github.com/w3c/browser-specs/issues/180)
+
+### Commits
+
+- [data] Update spec info [`9239dbf`](https://github.com/w3c/browser-specs/commit/9239dbfb7e5734f331787e07b5945c304e984c8f)
+- [data] Update spec info [`b9f8075`](https://github.com/w3c/browser-specs/commit/b9f8075e66e72979587eb236912a1151ed17b8fc)
+- [data] Update spec info [`f5f3a36`](https://github.com/w3c/browser-specs/commit/f5f3a36ecc274e43f8fda56b777c8c8ab96b6bdf)
+- [data] Update spec info [`6c7aa5d`](https://github.com/w3c/browser-specs/commit/6c7aa5d058ed17240291617ff93bf47038e1a594)
+
 ## [1.19.1](https://github.com/w3c/browser-specs/compare/1.19.0...1.19.1) - 2020-10-19
 
 ### Merged

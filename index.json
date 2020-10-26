@@ -200,22 +200,23 @@
     "source": "spec"
   },
   {
-    "url": "https://drafts.csswg.org/css-highlight-api-1/",
-    "seriesComposition": "full",
-    "shortname": "css-highlight-api-1",
+    "url": "https://drafts.csswg.org/css-grid-3/",
+    "seriesComposition": "delta",
+    "shortname": "css-grid-3",
     "series": {
-      "shortname": "css-highlight-api",
-      "currentSpecification": "css-highlight-api-1"
+      "shortname": "css-grid",
+      "currentSpecification": "css-grid-2"
     },
-    "seriesVersion": "1",
+    "seriesVersion": "3",
+    "seriesPrevious": "css-grid-2",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-highlight-api-1/",
+      "url": "https://drafts.csswg.org/css-grid-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "CSS Custom Highlight API Module Level 1",
-    "source": "specref",
-    "shortTitle": "CSS Custom Highlight API 1"
+    "title": "CSS Grid Layout Module Level 3",
+    "source": "spec",
+    "shortTitle": "CSS Grid Layout 3"
   },
   {
     "url": "https://drafts.csswg.org/css-multicol-2/",
@@ -582,23 +583,6 @@
     "title": "WebXR Layers API Level 1",
     "source": "spec",
     "shortTitle": "WebXR Layers API 1"
-  },
-  {
-    "url": "https://immersive-web.github.io/webxr-hand-input/",
-    "seriesComposition": "full",
-    "shortname": "webxr-hand-input",
-    "series": {
-      "shortname": "webxr-hand-input",
-      "currentSpecification": "webxr-hand-input"
-    },
-    "nightly": {
-      "url": "https://immersive-web.github.io/webxr-hand-input/",
-      "repository": "https://github.com/immersive-web/webxr-hand-input",
-      "filename": "index.html"
-    },
-    "title": "WebXR Hand Input Module - Level 1",
-    "source": "spec",
-    "shortTitle": "WebXR Hand Input 1"
   },
   {
     "url": "https://infra.spec.whatwg.org/",
@@ -3575,38 +3559,15 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/css-grid-1/",
-    "seriesComposition": "full",
-    "shortname": "css-grid-1",
-    "series": {
-      "shortname": "css-grid",
-      "currentSpecification": "css-grid-1"
-    },
-    "seriesVersion": "1",
-    "seriesNext": "css-grid-2",
-    "release": {
-      "url": "https://www.w3.org/TR/css-grid-1/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-grid/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Grid Layout Module Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Grid Layout 1"
-  },
-  {
     "url": "https://www.w3.org/TR/css-grid-2/",
-    "seriesComposition": "delta",
+    "seriesComposition": "full",
     "shortname": "css-grid-2",
     "series": {
       "shortname": "css-grid",
-      "currentSpecification": "css-grid-1"
+      "currentSpecification": "css-grid-2"
     },
     "seriesVersion": "2",
-    "seriesPrevious": "css-grid-1",
+    "seriesNext": "css-grid-3",
     "release": {
       "url": "https://www.w3.org/TR/css-grid-2/",
       "filename": "Overview.html"
@@ -3619,6 +3580,28 @@
     "title": "CSS Grid Layout Module Level 2",
     "source": "w3c",
     "shortTitle": "CSS Grid Layout 2"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-highlight-api-1/",
+    "seriesComposition": "full",
+    "shortname": "css-highlight-api-1",
+    "series": {
+      "shortname": "css-highlight-api",
+      "currentSpecification": "css-highlight-api-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/css-highlight-api-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-highlight-api-1/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Custom Highlight API Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Custom Highlight API 1"
   },
   {
     "url": "https://www.w3.org/TR/css-images-3/",
@@ -7409,6 +7392,28 @@
     "title": "WebXR Gamepads Module - Level 1",
     "source": "w3c",
     "shortTitle": "WebXR Gamepads 1"
+  },
+  {
+    "url": "https://www.w3.org/TR/webxr-hand-input-1/",
+    "seriesComposition": "full",
+    "shortname": "webxr-hand-input-1",
+    "series": {
+      "shortname": "webxr-hand-input",
+      "currentSpecification": "webxr-hand-input-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/webxr-hand-input-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/webxr-hand-input/",
+      "repository": "https://github.com/immersive-web/webxr-hand-input",
+      "filename": "index.html"
+    },
+    "title": "WebXR Hand Input Module - Level 1",
+    "source": "w3c",
+    "shortTitle": "WebXR Hand Input 1"
   },
   {
     "url": "https://www.w3.org/TR/webxr/",

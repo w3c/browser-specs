@@ -119,6 +119,9 @@
     },
     "WICG/media-source": {
       "comment": "Merged back into main spec in the Media WG"
+    },
+    "w3c/epub-specs": {
+      "comment": "not targeted at browsers"
     }
   },
   "specs": {

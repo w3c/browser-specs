@@ -17,7 +17,7 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS GCPM 4"
   },
-  "https://drafts.csswg.org/css-highlight-api-1/",
+  "https://drafts.csswg.org/css-grid-3/ delta",
   {
     "url": "https://drafts.csswg.org/css-multicol-2/",
     "seriesComposition": "delta",
@@ -45,7 +45,6 @@
   "https://immersive-web.github.io/dom-overlays/",
   "https://immersive-web.github.io/hit-test/",
   "https://immersive-web.github.io/layers/",
-  "https://immersive-web.github.io/webxr-hand-input/",
   "https://infra.spec.whatwg.org/",
   "https://mathml-refresh.github.io/mathml-core/",
   "https://mimesniff.spec.whatwg.org/",
@@ -253,8 +252,8 @@
     "url": "https://www.w3.org/TR/css-gcpm-3/",
     "shortTitle": "CSS GCPM 3"
   },
-  "https://www.w3.org/TR/css-grid-1/",
-  "https://www.w3.org/TR/css-grid-2/ delta",
+  "https://www.w3.org/TR/css-grid-2/",
+  "https://www.w3.org/TR/css-highlight-api-1/",
   {
     "url": "https://www.w3.org/TR/css-images-3/",
     "shortTitle": "CSS Images 3"
@@ -488,6 +487,7 @@
   "https://www.w3.org/TR/webvtt1/",
   "https://www.w3.org/TR/webxr-ar-module-1/",
   "https://www.w3.org/TR/webxr-gamepads-module-1/",
+  "https://www.w3.org/TR/webxr-hand-input-1/",
   "https://www.w3.org/TR/webxr/",
   {
     "url": "https://www.w3.org/TR/WOFF2/",

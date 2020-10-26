@@ -7459,28 +7459,6 @@
     "source": "w3c"
   },
   {
-    "url": "https://www.w3.org/TR/worklets-1/",
-    "seriesComposition": "full",
-    "shortname": "worklets-1",
-    "series": {
-      "shortname": "worklets",
-      "currentSpecification": "worklets-1"
-    },
-    "seriesVersion": "1",
-    "release": {
-      "url": "https://www.w3.org/TR/worklets-1/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.css-houdini.org/worklets/",
-      "repository": "https://github.com/w3c/css-houdini-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "Worklets Level 1",
-    "source": "w3c",
-    "shortTitle": "Worklets 1"
-  },
-  {
     "url": "https://xhr.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "xhr",

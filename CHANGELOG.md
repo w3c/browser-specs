@@ -4,6 +4,22 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.21.0](https://github.com/w3c/browser-specs/compare/1.20.0...1.21.0) - 2020-11-02
+
+### Merged
+
+- Ignore Worklets spec and discussion repo on memory copies [`#185`](https://github.com/w3c/browser-specs/pull/185)
+- List new repos to be monitored [`#184`](https://github.com/w3c/browser-specs/pull/184)
+
+### Fixed
+
+- Ignore Worklets spec and discussion repo on memory copies (#185) [`#183`](https://github.com/w3c/browser-specs/issues/183)
+
+### Commits
+
+- Add Web Codecs, Measure Memory, Idle Detection. Update review of monitored specs [`01ce4c8`](https://github.com/w3c/browser-specs/commit/01ce4c8aa3dcd77c8a8c617d436d926a854a44f9)
+- [data] Update spec info [`0ed5508`](https://github.com/w3c/browser-specs/commit/0ed550803b03cb6791da7921282a12c559b4f2f8)
+
 ## [1.20.0](https://github.com/w3c/browser-specs/compare/1.19.1...1.20.0) - 2020-10-26
 
 ### Merged

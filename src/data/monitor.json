@@ -44,10 +44,6 @@
       "comment": "no spec yet",
       "lastreviewed": "2020-11-01"
     },
-    "WICG/sanitizer-api": {
-      "comment": "Early proposal, no clear implementation plans",
-      "lastreviewed": "2020-11-01"
-    },
     "WICG/sw-launch": {
       "comment": "no spec yet",
       "lastreviewed": "2020-11-01"
@@ -116,10 +112,6 @@
       "comment": "Not a spec yet",
       "lastreviewed": "2020-11-01"
     },
-    "WICG/web-codecs": {
-      "comment": "Skeleton spec, no implementation yet",
-      "lastreviewed": "2020-11-01"
-    },
     "w3c/merchantbg": {
       "comment": "Not a spec, unclear future of the repo",
       "lastreviewed": "2020-11-01"
@@ -141,10 +133,6 @@
       "comment": "no published content yet"
     },
     "WICG/display-override": {
-      "lastreviewed": "2020-11-01",
-      "comment": "no published content yet"
-    },
-    "WICG/idle-detection": {
       "lastreviewed": "2020-11-01",
       "comment": "no published content yet"
     },

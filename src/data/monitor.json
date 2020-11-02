@@ -247,6 +247,10 @@
     "WICG/urlpattern": {
       "lastreviewed": "2020-10-19",
       "comment": "no published content yet"
+    },
+    "immersive-web/detached-elements": {
+      "lastreviewed": "2020-11-02",
+      "comment": "no published content yet"
     }
   },
   "specs": {

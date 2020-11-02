@@ -44,6 +44,10 @@
       "comment": "no spec yet",
       "lastreviewed": "2020-11-01"
     },
+    "WICG/sanitizer-api": {
+      "comment": "Early proposal, no clear implementation plans",
+      "lastreviewed": "2020-11-01"
+    },
     "WICG/sw-launch": {
       "comment": "no spec yet",
       "lastreviewed": "2020-11-01"
@@ -153,10 +157,6 @@
       "comment": "no published content yet"
     },
     "WICG/origin-isolation": {
-      "lastreviewed": "2020-11-01",
-      "comment": "no published content yet"
-    },
-    "WICG/performance-measure-memory": {
       "lastreviewed": "2020-11-01",
       "comment": "no published content yet"
     },

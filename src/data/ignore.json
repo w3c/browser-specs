@@ -122,6 +122,9 @@
     },
     "w3c/epub-specs": {
       "comment": "not targeted at browsers"
+    },
+    "WICG/reducing-memory-copies": {
+      "comment": "not for spec"
     }
   },
   "specs": {
@@ -244,6 +247,12 @@
     },
     "https://drafts.css-houdini.org/scroll-customization-api/": {
       "comment": "No activity since 2015; marked as no longer pursuing in https://www.chromestatus.com/features/5616710262456320"
+    },
+    "https://drafts.css-houdini.org/worklets/": {
+      "comment": "Worklets has moved to the HTML spec: https://html.spec.whatwg.org/multipage/worklets.html"
+    },
+    "https://www.w3.org/TR/worklets-1/": {
+      "comment": "Worklets has moved to the HTML spec: https://html.spec.whatwg.org/multipage/worklets.html"
     }
   }
 }

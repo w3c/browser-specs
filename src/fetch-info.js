@@ -129,9 +129,8 @@ async function fetchInfoFromW3CApi(specs, options) {
 
   // Fetch info on the series
   const seriesShortnames = [...new Set(
-    Object.values(results)
-      .map(spec => spec.series)
-      .map(series => series.shortname))];
+    Object.values(results).map(spec => spec.series.shortname)
+  )];
   const seriesInfo = await Promise.all(seriesShortnames.map(async shortname => {
     const url = `https://api.w3.org/specification-series/${shortname}`;
     return new Promise((resolve, reject) => {

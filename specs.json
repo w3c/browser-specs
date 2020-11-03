@@ -218,9 +218,9 @@
     "url": "https://www.w3.org/TR/css-backgrounds-3/",
     "shortTitle": "CSS Backgrounds 3"
   },
-  "https://www.w3.org/TR/css-box-3/ current",
+  "https://www.w3.org/TR/css-box-3/",
   "https://www.w3.org/TR/css-box-4/",
-  "https://www.w3.org/TR/css-break-3/ current",
+  "https://www.w3.org/TR/css-break-3/",
   "https://www.w3.org/TR/css-break-4/",
   {
     "url": "https://www.w3.org/TR/css-cascade-3/",
@@ -228,8 +228,7 @@
   },
   {
     "url": "https://www.w3.org/TR/css-cascade-4/",
-    "shortTitle": "CSS Cascading 4",
-    "forceCurrent": true
+    "shortTitle": "CSS Cascading 4"
   },
   "https://www.w3.org/TR/css-color-4/",
   "https://www.w3.org/TR/css-color-5/ delta",
@@ -461,7 +460,7 @@
   "https://www.w3.org/TR/uievents-key/",
   "https://www.w3.org/TR/uievents/",
   "https://www.w3.org/TR/upgrade-insecure-requests/",
-  "https://www.w3.org/TR/user-timing-2/ current",
+  "https://www.w3.org/TR/user-timing-2/",
   "https://www.w3.org/TR/user-timing-3/",
   "https://www.w3.org/TR/vibration/",
   "https://www.w3.org/TR/wai-aria-1.2/",

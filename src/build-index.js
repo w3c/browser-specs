@@ -96,8 +96,26 @@ const specs = require("../specs.json")
 // - final `spec` ensures that properties defined in specs.json override info
 // from the source.
 fetchInfo(specs, { w3cApiKey })
-  .then(specInfo => specs.map(spec =>
-    Object.assign({}, spec, specInfo[spec.shortname], spec)))
+  .then(specInfo => specs.map(spec => {
+    const res = Object.assign({}, spec, specInfo[spec.shortname], spec);
+
+    // Update the current specification based on the info returned by the
+    // W3C API, unless specs.json imposed a specific level.
+    // Note: the current specification returned by the W3C API may not be in the
+    // list, since we tend not to include previous levels for IDL specs (even
+    // if they are still "current"), in which case, we'll just ignore the info
+    // returned from the W3C API.
+    const currentSpecification = specInfo.__current ?
+      specInfo.__current[spec.series.shortname] : null;
+    if (currentSpecification &&
+        !spec.series.forceCurrent &&
+        (currentSpecification !== spec.series.currentSpecification) &&
+        specs.find(s => s.shortname === currentSpecification)) {
+      res.series.currentSpecification = currentSpecification;
+    }
+    delete res.series.forceCurrent;
+    return res;
+  }))
 
   // Complete with short title
   .then(index => index.map(spec => {

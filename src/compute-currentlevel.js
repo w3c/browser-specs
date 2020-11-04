@@ -39,6 +39,7 @@ module.exports = function (spec, list) {
   }, spec);
   
   return {
-    currentSpecification: current.shortname
+    currentSpecification: current.shortname,
+    forceCurrent: current.forceCurrent
   };
 };

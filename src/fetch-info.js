@@ -43,7 +43,6 @@
 
 const https = require("https");
 
-
 async function fetchInfoFromW3CApi(specs, options) {
   // Cannot query the W3C API if API key was not given
   if (!options || !options.w3cApiKey) {
@@ -87,7 +86,7 @@ async function fetchInfoFromW3CApi(specs, options) {
             resolve(JSON.parse(data));
           }
           catch (err) {
-            reject("Specref returned invalid JSON");
+            reject("W3C API returned invalid JSON");
           }
         });
       });
@@ -115,13 +114,58 @@ async function fetchInfoFromW3CApi(specs, options) {
       const nightly = info[idx]["editor-draft"] ?
         info[idx]["editor-draft"].replace(/^http:/, 'https:') :
         null;
+
+      const seriesUrl = info[idx]._links.series.href;
+      const seriesShortname = seriesUrl.substring(seriesUrl.lastIndexOf('/') + 1);
+
       results[spec.shortname] = {
+        series: { shortname: seriesShortname },
         release: { url: release },
         nightly: { url: nightly },
         title: info[idx].title
       };
     }
   });
+
+  // Fetch info on the series
+  const seriesShortnames = [...new Set(
+    Object.values(results).map(spec => spec.series.shortname)
+  )];
+  const seriesInfo = await Promise.all(seriesShortnames.map(async shortname => {
+    const url = `https://api.w3.org/specification-series/${shortname}`;
+    return new Promise((resolve, reject) => {
+      const request = https.get(url, options, res => {
+        if (res.statusCode === 404) {
+          resolve(null);
+        }
+        if (res.statusCode !== 200) {
+          reject(`W3C API returned an error, status code is ${res.statusCode}`);
+          return;
+        }
+        res.setEncoding("utf8");
+        let data = "";
+        res.on("data", chunk => data += chunk);
+        res.on("end", () => {
+          try {
+            resolve(JSON.parse(data));
+          }
+          catch (err) {
+            reject("W3C API returned invalid JSON");
+          }
+        });
+      });
+      request.on("error", err => reject(err));
+      request.end();
+    });
+  }));
+
+  results.__current = {};
+  seriesInfo.forEach(info => {
+    const currSpecUrl = info._links["current-specification"].href;
+    const currSpec = currSpecUrl.substring(currSpecUrl.lastIndexOf('/') + 1);
+    results.__current[info.shortname] = currSpec;
+  });
+
   return results;
 }
 
@@ -287,6 +331,9 @@ async function fetchInfo(specs, options) {
     (w3cInfo[name] ? Object.assign(w3cInfo[name], { source: "w3c" }) : null) ||
     (specrefInfo[name] ? Object.assign(specrefInfo[name], { source: "specref" }) : null) ||
     (specInfo[name] ? Object.assign(specInfo[name], { source: "spec" }) : null));
+
+  // Add current specification info from W3C API
+  results.__current = w3cInfo.__current;
 
   return results;
 }

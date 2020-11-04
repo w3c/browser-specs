@@ -44,6 +44,9 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.equal(info[spec.shortname].release.url, spec.url);
       assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/hr-time/");
       assert.equal(info[spec.shortname].title, "High Resolution Time Level 2");
+
+      assert.ok(info.__current);
+      assert.equal(info.__current["hr-time"], "hr-time-2");
     });
 
     it("can operate on multiple specs at once", async () => {
@@ -61,6 +64,10 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.equal(info[other.shortname].release.url, other.url);
       assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
       assert.equal(info[other.shortname].title, "Presentation API");
+
+      assert.ok(info.__current);
+      assert.equal(info.__current["hr-time"], "hr-time-2");
+      assert.equal(info.__current["presentation-api"], "presentation-api");
     });
 
     it("throws when W3C API key is invalid", async () => {

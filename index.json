@@ -354,7 +354,7 @@
     "shortname": "compositing-2",
     "series": {
       "shortname": "compositing",
-      "currentSpecification": "compositing-2"
+      "currentSpecification": "compositing-1"
     },
     "seriesVersion": "2",
     "shortTitle": "Compositing 2",
@@ -2964,7 +2964,7 @@
     "shortname": "compositing-1",
     "series": {
       "shortname": "compositing",
-      "currentSpecification": "compositing-2"
+      "currentSpecification": "compositing-1"
     },
     "seriesVersion": "1",
     "shortTitle": "Compositing 1",

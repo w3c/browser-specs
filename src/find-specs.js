@@ -16,13 +16,13 @@ const {repos: temporarilyIgnorableRepos, specs: temporarilyIgnorableSpecs} = mon
 const nonBrowserSpecWgs = [
   "Accessibility Guidelines Working Group",
   "Accessible Platform Architectures Working Group",
+  "Audiobooks Working Group",
   "Automotive Working Group",
   "Dataset Exchange Working Group",
   "Decentralized Identifier Working Group",
   "Distributed Tracing Working Group",
   "Education and Outreach Working Group",
   "JSON-LD Working Group",
-  "Publishing Working Group",
   "Verifiable Credentials Working Group",
   "Web of Things Working Group"
 ];

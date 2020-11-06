@@ -4,6 +4,22 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.21.1](https://github.com/w3c/browser-specs/compare/1.21.0...1.21.1) - 2020-11-06
+
+### Merged
+
+- Update Publishing Working Group to match its new name [`#187`](https://github.com/w3c/browser-specs/pull/187)
+- Get current specification from W3C API [`#186`](https://github.com/w3c/browser-specs/pull/186)
+
+### Fixed
+
+- Get current specification from W3C API (#186) [`#176`](https://github.com/w3c/browser-specs/issues/176)
+
+### Commits
+
+- [data] Update spec info [`d46b1a4`](https://github.com/w3c/browser-specs/commit/d46b1a4fe381797e6cb395f4a3824e65b1ca9f3a)
+- [data] Update spec info [`2f161c3`](https://github.com/w3c/browser-specs/commit/2f161c352aa9bd162521a58f3a7fd8d1dbeeb33d)
+
 ## [1.21.0](https://github.com/w3c/browser-specs/compare/1.20.0...1.21.0) - 2020-11-02
 
 ### Merged

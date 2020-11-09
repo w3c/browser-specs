@@ -4,6 +4,24 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.21.2](https://github.com/w3c/browser-specs/compare/1.21.1...1.21.2) - 2020-11-09
+
+### Merged
+
+- Add periodic check on base URL [`#192`](https://github.com/w3c/browser-specs/pull/192)
+- Mark mediacapture insertable streams as to be monitored [`#190`](https://github.com/w3c/browser-specs/pull/190)
+
+### Fixed
+
+- Mark mediacapture insertable streams as to be monitored (#190) [`#188`](https://github.com/w3c/browser-specs/issues/188)
+
+### Commits
+
+- [data] Update spec info [`2f9f81e`](https://github.com/w3c/browser-specs/commit/2f9f81e26083267ff6b116cca33a14d07370df1b)
+- List new repos to be monitored [`c453537`](https://github.com/w3c/browser-specs/commit/c4535375c07ba651a3072bfddc2a5284a5cfdefc)
+- Fix remaining links [`f3e2fe6`](https://github.com/w3c/browser-specs/commit/f3e2fe60eb01026ff7842aff7837975ad488d56b)
+- Fix relative link to find-specs script [`5d3edcc`](https://github.com/w3c/browser-specs/commit/5d3edcc2c8a9552d60f5d1993c196f71480711eb)
+
 ## [1.21.1](https://github.com/w3c/browser-specs/compare/1.21.0...1.21.1) - 2020-11-06
 
 ### Merged

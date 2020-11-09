@@ -1,0 +1,23 @@
+name: Check base URL
+
+on:
+  schedule:
+    - cron: '30 0 * * 1'
+jobs:
+  find-specs:
+    name: Check base URL
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - run: npm install
+    - run: node src/check-base-url.js # sets check_list env variable
+    - uses: JasonEtco/create-an-issue@v2
+      if: ${{ env.check_list }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: .github/incorrect-base-url.md

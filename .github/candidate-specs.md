@@ -3,7 +3,7 @@ title: New specs for review
 assignees: tidoust, dontcallmedom
 labels: enhancement
 ---
-[find-specs](src/find-specs.js) has identified the following candidates as potential new specs to consider:
+[find-specs](../blob/master/src/find-specs.js) has identified the following candidates as potential new specs to consider:
 
 {{ env.candidate_list }}
 

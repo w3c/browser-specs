@@ -239,6 +239,10 @@
     "immersive-web/detached-elements": {
       "lastreviewed": "2020-11-02",
       "comment": "no published content yet"
+    },
+    "immersive-web/occlusion": {
+      "lastreviewed": "2020-11-09",
+      "comment": "no published content yet"
     }
   },
   "specs": {

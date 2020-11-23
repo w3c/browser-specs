@@ -15,7 +15,7 @@ jobs:
         node-version: 12.x
     - run: npm install
     - run: node src/monitor-specs.js # sets review_list env variable
-    - uses: peter-evans/create-pull-request@v2
+    - uses: peter-evans/create-pull-request@v3
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:

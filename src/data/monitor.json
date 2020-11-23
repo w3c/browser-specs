@@ -247,6 +247,14 @@
     "immersive-web/occlusion": {
       "lastreviewed": "2020-11-09",
       "comment": "no published content yet"
+    },
+    "WICG/handwriting-recognition": {
+      "lastreviewed": "2020-11-23",
+      "comment": "no published content yet"
+    },
+    "WICG/manifest-incubations": {
+      "lastreviewed": "2020-11-23",
+      "comment": "no published content yet"
     }
   },
   "specs": {

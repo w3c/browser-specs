@@ -7183,9 +7183,9 @@
       "repository": "https://github.com/w3c/webauthn",
       "filename": "index.html"
     },
-    "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 2",
+    "title": "Web Authentication: An API for accessing Public Key Credentials: Level 2",
     "source": "w3c",
-    "shortTitle": "Web Authentication:An API for accessing Public Key CredentialsLevel 2"
+    "shortTitle": "Web Authentication: An API for accessing Public Key Credentials: 2"
   },
   {
     "url": "https://www.w3.org/TR/WebCryptoAPI/",

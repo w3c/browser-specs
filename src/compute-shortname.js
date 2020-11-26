@@ -56,6 +56,18 @@ function computeShortname(url) {
         return whatwg[1];
     }
 
+    // Handle ECMAScript
+    if (url === "https://tc39.es/ecma262/") {
+      return "ecmascript";
+    }
+
+    // Handle TC39 Proposals
+    const tc39 = url.match(/\/\/tc39\.es\/proposal-([^\/]+)\/$/);
+    if (tc39) {
+        return "tc39-" + tc39[1];
+    }
+
+
     // Handle Khronos extensions
     const khronos = url.match(/https:\/\/www\.khronos\.org\/registry\/webgl\/extensions\/([^\/]+)\/$/);
     if (khronos) {

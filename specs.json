@@ -55,6 +55,18 @@
   "https://storage.spec.whatwg.org/",
   "https://streams.spec.whatwg.org/",
   "https://svgwg.org/specs/animations/",
+  {
+    "url": "https://tc39.es/ecma262/",
+    "shortTitle": "ECMAScript"
+  },
+  "https://tc39.es/proposal-atomics-wait-async/",
+  "https://tc39.es/proposal-class-fields/",
+  "https://tc39.es/proposal-import-assertions/",
+  "https://tc39.es/proposal-private-methods/",
+  "https://tc39.es/proposal-regexp-match-indices/",
+  "https://tc39.es/proposal-relative-indexing-method/",
+  "https://tc39.es/proposal-static-class-features/",
+  "https://tc39.es/proposal-top-level-await/",
   "https://url.spec.whatwg.org/",
   "https://w3c.github.io/badging/",
   "https://w3c.github.io/contentEditable/",

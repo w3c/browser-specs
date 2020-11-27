@@ -4,6 +4,26 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.22.0](https://github.com/w3c/browser-specs/compare/1.21.2...1.22.0) - 2020-11-27
+
+### Merged
+
+- Add ECMA 262 and TC39 Stage 3 proposals to the list of specs  [`#196`](https://github.com/w3c/browser-specs/pull/196)
+- Bump version of create-pull-request GitHub action [`#194`](https://github.com/w3c/browser-specs/pull/194)
+- List new repos to be monitored [`#193`](https://github.com/w3c/browser-specs/pull/193)
+
+### Fixed
+
+- Add ECMA 262 and TC39 Stage 3 proposals to the list of specs  (#196) [`#139`](https://github.com/w3c/browser-specs/issues/139)
+
+### Commits
+
+- [data] Update spec info [`8637bb9`](https://github.com/w3c/browser-specs/commit/8637bb94cb85f2e3fb80ac3db07bc0a29069d0ac)
+- [data] Update spec info [`968316a`](https://github.com/w3c/browser-specs/commit/968316a7cd29898757113b957702f189076b0139)
+- [data] Update spec info [`4988c95`](https://github.com/w3c/browser-specs/commit/4988c9557ddf1dbab13371be6860dfe5c5ad7cdb)
+- [data] Update spec info [`b5689ca`](https://github.com/w3c/browser-specs/commit/b5689cad51bb8f03522ae08908befed046f75b89)
+- [data] Update spec info [`1063065`](https://github.com/w3c/browser-specs/commit/1063065ccf54ad52d4bf063edf49d6d4348277a8)
+
 ## [1.21.2](https://github.com/w3c/browser-specs/compare/1.21.1...1.21.2) - 2020-11-09
 
 ### Merged

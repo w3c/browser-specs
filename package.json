@@ -1,6 +1,6 @@
 {
   "name": "browser-specs",
-  "version": "1.21.2",
+  "version": "1.22.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/w3c/browser-specs.git"

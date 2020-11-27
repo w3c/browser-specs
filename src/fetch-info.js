@@ -42,6 +42,7 @@
  */
 
 const https = require("https");
+const {JSDOM} = require("jsdom");
 
 async function fetchInfoFromW3CApi(specs, options) {
   // Cannot query the W3C API if API key was not given
@@ -254,40 +255,33 @@ async function fetchInfoFromSpecref(specs, options) {
 
 async function fetchInfoFromSpecs(specs, options) {
   const info = await Promise.all(specs.map(async spec => {
-    const html = await new Promise((resolve, reject) => {
-      const request = https.get(spec.url, options, res => {
-        if (res.statusCode !== 200) {
-          reject(`Could not fetch URL ${spec.url} for spec "${spec.shortname}", ` +
-            `status code is ${res.statusCode}`);
-          return;
-        }
-        res.setEncoding("utf8");
-        let data = "";
-        res.on("data", chunk => data += chunk);
-        res.on("end", () => {
-          resolve(data);
-        });
-      });
-      request.on("error", err => reject(err));
-      request.end();
-    });
+    const dom = await JSDOM.fromURL(spec.url);
 
+    if (spec.url.startsWith("https://tc39.es/")) {
+      const h1ecma = [...dom.window.document.querySelectorAll("h1")][1];
+      if (h1ecma) {
+        return {
+          nightly: { url: spec.url },
+          title: h1ecma.textContent.replace(/\n/g, '').trim()
+        };
+      }
+    }
     // Extract first heading
-    const h1Match = html.match(/<h1[^>]*?>(.*?)<\/h1>/mis);
-    if (h1Match) {
+    const h1 = dom.window.document.querySelector("h1");
+    if (h1) {
       return {
         nightly: { url: spec.url },
-        title: h1Match[1].replace(/\n/g, '').trim()
+        title: h1.textContent.replace(/\n/g, '').trim()
       };
     }
 
     // Use the document's title if first heading could not be found
     // (that typically happens in Respec specs)
-    const titleMatch = html.match(/<title[^>]*?>(.*?)<\/title>/mis);
-    if (titleMatch) {
+    const title = dom.window.document.querySelector("title");
+    if (title) {
       return {
         nightly: { url: spec.url },
-        title: titleMatch[1].replace(/\n/g, '').trim()
+        title: title.textContent.replace(/\n/g, '').trim()
       };
     }
 

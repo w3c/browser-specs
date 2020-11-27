@@ -1,5 +1,11 @@
 {
   "repos": {
+    "tc39/proposal-regexp-legacy-features": {
+      "comment": "no proper spec, legacy"
+    },
+    "tc39/proposal-hashbang/": {
+      "comment": "not meant for browsers environments"
+    },
     "w3c/adpt": {
       "comment": "not targeted at browsers"
     },

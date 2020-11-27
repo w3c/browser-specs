@@ -755,6 +755,159 @@
     "shortTitle": "SVG Animations 2"
   },
   {
+    "url": "https://tc39.es/ecma262/",
+    "seriesComposition": "full",
+    "shortname": "ecmascript",
+    "series": {
+      "shortname": "ecmascript",
+      "currentSpecification": "ecmascript"
+    },
+    "shortTitle": "ECMAScript",
+    "nightly": {
+      "url": "https://tc39.es/ecma262/",
+      "repository": "https://github.com/tc39/ecma262",
+      "filename": "index.html"
+    },
+    "title": "ECMAScript Language Specification",
+    "source": "specref"
+  },
+  {
+    "url": "https://tc39.es/proposal-atomics-wait-async/",
+    "seriesComposition": "full",
+    "shortname": "tc39-atomics-wait-async",
+    "series": {
+      "shortname": "tc39-atomics-wait-async",
+      "currentSpecification": "tc39-atomics-wait-async"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-atomics-wait-async/",
+      "repository": "https://github.com/tc39/proposal-atomics-wait-async",
+      "filename": "index.html"
+    },
+    "title": "Atomics.waitAsync",
+    "source": "spec",
+    "shortTitle": "Atomics.waitAsync"
+  },
+  {
+    "url": "https://tc39.es/proposal-class-fields/",
+    "seriesComposition": "full",
+    "shortname": "tc39-class-fields",
+    "series": {
+      "shortname": "tc39-class-fields",
+      "currentSpecification": "tc39-class-fields"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-class-fields/",
+      "repository": "https://github.com/tc39/proposal-class-fields",
+      "filename": "index.html"
+    },
+    "title": "Public and private instance fields proposal",
+    "source": "spec",
+    "shortTitle": "Public and private instance fields proposal"
+  },
+  {
+    "url": "https://tc39.es/proposal-import-assertions/",
+    "seriesComposition": "full",
+    "shortname": "tc39-import-assertions",
+    "series": {
+      "shortname": "tc39-import-assertions",
+      "currentSpecification": "tc39-import-assertions"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-import-assertions/",
+      "repository": "https://github.com/tc39/proposal-import-assertions",
+      "filename": "index.html"
+    },
+    "title": "import assertions",
+    "source": "spec",
+    "shortTitle": "import assertions"
+  },
+  {
+    "url": "https://tc39.es/proposal-private-methods/",
+    "seriesComposition": "full",
+    "shortname": "tc39-private-methods",
+    "series": {
+      "shortname": "tc39-private-methods",
+      "currentSpecification": "tc39-private-methods"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-private-methods/",
+      "repository": "https://github.com/tc39/proposal-private-methods",
+      "filename": "index.html"
+    },
+    "title": "Private Methods and Accessors Proposal",
+    "source": "spec",
+    "shortTitle": "Private Methods and Accessors Proposal"
+  },
+  {
+    "url": "https://tc39.es/proposal-regexp-match-indices/",
+    "seriesComposition": "full",
+    "shortname": "tc39-regexp-match-indices",
+    "series": {
+      "shortname": "tc39-regexp-match-indices",
+      "currentSpecification": "tc39-regexp-match-indices"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-regexp-match-indices/",
+      "repository": "https://github.com/tc39/proposal-regexp-match-indices",
+      "filename": "index.html"
+    },
+    "title": "RegExp Match Indices",
+    "source": "spec",
+    "shortTitle": "RegExp Match Indices"
+  },
+  {
+    "url": "https://tc39.es/proposal-relative-indexing-method/",
+    "seriesComposition": "full",
+    "shortname": "tc39-relative-indexing-method",
+    "series": {
+      "shortname": "tc39-relative-indexing-method",
+      "currentSpecification": "tc39-relative-indexing-method"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-relative-indexing-method/",
+      "repository": "https://github.com/tc39/proposal-relative-indexing-method",
+      "filename": "index.html"
+    },
+    "title": "Relative Indexing Method",
+    "source": "spec",
+    "shortTitle": "Relative Indexing Method"
+  },
+  {
+    "url": "https://tc39.es/proposal-static-class-features/",
+    "seriesComposition": "full",
+    "shortname": "tc39-static-class-features",
+    "series": {
+      "shortname": "tc39-static-class-features",
+      "currentSpecification": "tc39-static-class-features"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-static-class-features/",
+      "repository": "https://github.com/tc39/proposal-static-class-features",
+      "filename": "index.html"
+    },
+    "title": "Static class features",
+    "source": "spec",
+    "shortTitle": "Static class features"
+  },
+  {
+    "url": "https://tc39.es/proposal-top-level-await/",
+    "seriesComposition": "full",
+    "shortname": "tc39-top-level-await",
+    "series": {
+      "shortname": "tc39-top-level-await",
+      "currentSpecification": "tc39-top-level-await"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-top-level-await/",
+      "repository": "https://github.com/tc39/proposal-top-level-await",
+      "filename": "index.html"
+    },
+    "title": "Top-Level Await",
+    "source": "spec",
+    "shortTitle": "Top-Level Await"
+  },
+  {
     "url": "https://url.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "url",

@@ -16,6 +16,10 @@ describe("compute-shortname module", () => {
       assertName("https://myspec.spec.whatwg.org/whatever/", "myspec");
     });
 
+    it("handles ECMAScript proposal URLs", () => {
+      assertName("https://tc39.es/proposal-smartidea/", "tc39-smartidea");
+    });
+
     it("handles URLs of drafts on GitHub", () => {
       assertName("https://wicg.github.io/whataspec/", "whataspec");
     });

@@ -29,6 +29,11 @@ function urlToGitHubRepository(url) {
     return { owner: "whatwg", name: whatwg[1] };
   }
 
+  const tc39 = url.match(/^https:\/\/tc39.es\/([^\/]*)\//);
+  if (tc39) {
+    return { owner: "tc39", name: tc39[1] };
+  }
+
   const csswg = url.match(/^https?:\/\/drafts.csswg.org\/([^\/]*)\/?/);
   if (csswg) {
     return { owner: "w3c", name: "csswg-drafts" };

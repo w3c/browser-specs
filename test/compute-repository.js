@@ -26,6 +26,12 @@ describe("compute-repository module", async () => {
       "https://github.com/whatwg/specname");
   });
 
+  it("handles TC39 URLs", async () => {
+    assert.equal(
+      await computeSingleRepo("https://tc39.es/js-ftw/"),
+      "https://github.com/tc39/js-ftw");
+  });
+
   it("handles CSS WG URLs", async () => {
     assert.equal(
       await computeSingleRepo("https://drafts.csswg.org/css-everything-42/"),

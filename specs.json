@@ -57,6 +57,7 @@
   "https://svgwg.org/specs/animations/",
   {
     "url": "https://tc39.es/ecma262/",
+    "shortname": "ecmascript",
     "shortTitle": "ECMAScript"
   },
   "https://tc39.es/proposal-atomics-wait-async/",

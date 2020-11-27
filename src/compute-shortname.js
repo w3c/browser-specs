@@ -56,11 +56,6 @@ function computeShortname(url) {
         return whatwg[1];
     }
 
-    // Handle ECMAScript
-    if (url === "https://tc39.es/ecma262/") {
-      return "ecmascript";
-    }
-
     // Handle TC39 Proposals
     const tc39 = url.match(/\/\/tc39\.es\/proposal-([^\/]+)\/$/);
     if (tc39) {

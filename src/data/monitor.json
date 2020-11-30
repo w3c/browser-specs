@@ -255,6 +255,10 @@
     "WICG/manifest-incubations": {
       "lastreviewed": "2020-11-23",
       "comment": "no published content yet"
+    },
+    "WICG/document-policy": {
+      "lastreviewed": "2020-11-30",
+      "comment": "no published content yet"
     }
   },
   "specs": {

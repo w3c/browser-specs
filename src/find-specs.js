@@ -202,7 +202,7 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
                                  .filter(isInScope));
 
   // Check for new TC39 Stage 3 proposals
-  candidates = candidates.concat(ecmaProposals.map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace('https://github.com/tc39/', 'https://tc39.github.io/') + '/'};})
+  candidates = candidates.concat(ecmaProposals.map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace('https://github.com/tc39/', 'https://tc39.es/') + '/'};})
                                  .filter(hasUntrackedURL)
                                  .filter(isInScope));
 

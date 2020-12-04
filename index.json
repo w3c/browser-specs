@@ -1939,9 +1939,9 @@
       "repository": "https://github.com/WICG/serial",
       "filename": "index.html"
     },
-    "title": "Serial API",
+    "title": "Web Serial API",
     "source": "spec",
-    "shortTitle": "Serial API"
+    "shortTitle": "Web Serial API"
   },
   {
     "url": "https://wicg.github.io/shape-detection-api/",

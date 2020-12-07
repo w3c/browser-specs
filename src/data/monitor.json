@@ -12,6 +12,10 @@
       "comment": "mostly TODOs",
       "lastreviewed": "2020-11-01"
     },
+    "WICG/document-policy": {
+      "comment": "no implementation yet",
+      "lastreviewed": "2020-12-07"
+    },
     "privacycg/storage-partitioning/": {
       "comment": "mostly TODOs",
       "lastreviewed": "2020-11-01"

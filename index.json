@@ -567,23 +567,6 @@
     "shortTitle": "WebXR Hit Test"
   },
   {
-    "url": "https://immersive-web.github.io/layers/",
-    "seriesComposition": "full",
-    "shortname": "layers",
-    "series": {
-      "shortname": "layers",
-      "currentSpecification": "layers"
-    },
-    "nightly": {
-      "url": "https://immersive-web.github.io/layers/",
-      "repository": "https://github.com/immersive-web/layers",
-      "filename": "index.html"
-    },
-    "title": "WebXR Layers API Level 1",
-    "source": "spec",
-    "shortTitle": "WebXR Layers API 1"
-  },
-  {
     "url": "https://infra.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "infra",
@@ -7638,6 +7621,28 @@
     "title": "WebXR Device API",
     "source": "w3c",
     "shortTitle": "WebXR Device API"
+  },
+  {
+    "url": "https://www.w3.org/TR/webxrlayers-1/",
+    "seriesComposition": "full",
+    "shortname": "webxrlayers-1",
+    "series": {
+      "shortname": "webxrlayers",
+      "currentSpecification": "webxrlayers-1"
+    },
+    "seriesVersion": "1",
+    "release": {
+      "url": "https://www.w3.org/TR/webxrlayers-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/layers/",
+      "repository": "https://github.com/immersive-web/layers",
+      "filename": "index.html"
+    },
+    "title": "WebXR Layers API Level 1",
+    "source": "w3c",
+    "shortTitle": "WebXR Layers API 1"
   },
   {
     "url": "https://www.w3.org/TR/WOFF2/",

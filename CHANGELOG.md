@@ -4,6 +4,21 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.23.0](https://github.com/w3c/browser-specs/compare/1.22.0...1.23.0) - 2020-12-07
+
+### Merged
+
+- Reflect specs identified in December 7 spec finder [`#204`](https://github.com/w3c/browser-specs/pull/204)
+- List new repos to be monitored [`#203`](https://github.com/w3c/browser-specs/pull/203)
+- Use correct URL for prefix when looking for new ECMA specs [`#200`](https://github.com/w3c/browser-specs/pull/200)
+
+### Commits
+
+- [data] Update spec info [`4776e2f`](https://github.com/w3c/browser-specs/commit/4776e2f995af711589753d68f2b4e1f4a364d474)
+- [data] Update spec info [`ac66f74`](https://github.com/w3c/browser-specs/commit/ac66f7428db19b02c365aaa7e1bf2c378d4906c6)
+- [data] Update spec info [`5e749de`](https://github.com/w3c/browser-specs/commit/5e749deba22982df6deccb3c5e1a26d21d4977a6)
+- [data] Update spec info [`8413bce`](https://github.com/w3c/browser-specs/commit/8413bce9b7f8fe30203dd23f9d7da6d679c151ab)
+
 ## [1.22.0](https://github.com/w3c/browser-specs/compare/1.21.2...1.22.0) - 2020-11-27
 
 ### Merged

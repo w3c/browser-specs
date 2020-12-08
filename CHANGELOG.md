@@ -4,6 +4,18 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.23.1](https://github.com/w3c/browser-specs/compare/1.23.0...1.23.1) - 2020-12-08
+
+### Merged
+
+- Adopt new TR shortname for CSS Conditional 3 [`#207`](https://github.com/w3c/browser-specs/pull/207)
+- Drop useless imports in index.js script [`#206`](https://github.com/w3c/browser-specs/pull/206)
+- Move dependencies to developer dependencies [`#205`](https://github.com/w3c/browser-specs/pull/205)
+
+### Commits
+
+- [data] Update spec info [`5710f45`](https://github.com/w3c/browser-specs/commit/5710f45b6959c67229b759768c34561c86323d01)
+
 ## [1.23.0](https://github.com/w3c/browser-specs/compare/1.22.0...1.23.0) - 2020-12-07
 
 ### Merged

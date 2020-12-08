@@ -1,8 +1,5 @@
 "use strict";
 
-const computeShortname = require("./src/compute-shortname.js");
-const computePrevNext = require("./src/compute-prevnext.js");
-const computeCurrentLevel = require("./src/compute-currentlevel.js");
 const specs = require("./index.json");
 
 

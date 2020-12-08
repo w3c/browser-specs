@@ -3501,16 +3501,39 @@
     "shortTitle": "CSS Color Adjustment 1"
   },
   {
+    "url": "https://www.w3.org/TR/css-conditional-3/",
+    "seriesComposition": "full",
+    "shortname": "css-conditional-3",
+    "series": {
+      "shortname": "css-conditional",
+      "currentSpecification": "css-conditional-3"
+    },
+    "seriesVersion": "3",
+    "shortTitle": "CSS Conditional 3",
+    "seriesNext": "css-conditional-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-conditional-3/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-conditional-3/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Conditional Rules Module Level 3",
+    "source": "w3c"
+  },
+  {
     "url": "https://www.w3.org/TR/css-conditional-4/",
     "seriesComposition": "delta",
     "shortname": "css-conditional-4",
     "series": {
       "shortname": "css-conditional",
-      "currentSpecification": "css3-conditional"
+      "currentSpecification": "css-conditional-3"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS Conditional 4",
-    "seriesPrevious": "css3-conditional",
+    "seriesPrevious": "css-conditional-3",
     "release": {
       "url": "https://www.w3.org/TR/css-conditional-4/",
       "filename": "Overview.html"
@@ -5010,29 +5033,6 @@
     "title": "Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification",
     "source": "w3c",
     "shortTitle": "CSS 2.2"
-  },
-  {
-    "url": "https://www.w3.org/TR/css3-conditional/",
-    "seriesComposition": "full",
-    "shortname": "css3-conditional",
-    "series": {
-      "shortname": "css-conditional",
-      "currentSpecification": "css3-conditional"
-    },
-    "seriesVersion": "3",
-    "shortTitle": "CSS Conditional 3",
-    "seriesNext": "css-conditional-4",
-    "release": {
-      "url": "https://www.w3.org/TR/css3-conditional/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-conditional-3/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Conditional Rules Module Level 3",
-    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/css3-exclusions/",

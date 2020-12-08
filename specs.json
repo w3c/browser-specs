@@ -246,6 +246,10 @@
   "https://www.w3.org/TR/css-color-5/ delta",
   "https://www.w3.org/TR/css-color-adjust-1/",
   {
+    "url": "https://www.w3.org/TR/css-conditional-3/",
+    "shortTitle": "CSS Conditional 3"
+  },
+  {
     "url": "https://www.w3.org/TR/css-conditional-4/",
     "seriesComposition": "delta",
     "shortTitle": "CSS Conditional 4"
@@ -354,11 +358,6 @@
   "https://www.w3.org/TR/css-writing-modes-4/",
   "https://www.w3.org/TR/CSS21/ multipage",
   "https://www.w3.org/TR/CSS22/ multipage",
-  {
-    "url": "https://www.w3.org/TR/css3-conditional/",
-    "seriesVersion": "3",
-    "shortTitle": "CSS Conditional 3"
-  },
   {
     "url": "https://www.w3.org/TR/css3-exclusions/",
     "seriesVersion": "3"

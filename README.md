@@ -373,6 +373,11 @@ To re-generate the `index.json` file locally, run:
 npm run build
 ```
 
+**Important:** The generation process will try to retrieve information about W3C
+specification from the W3C API. For that to work, the code requires the presence
+of a `config.json` file in the root folder with a `w3cApiKey` field set to a
+valid [W3C API key](https://w3c.github.io/w3c-api/).
+
 
 ### Tests
 

@@ -481,7 +481,10 @@
   "https://www.w3.org/TR/web-animations-1/",
   "https://www.w3.org/TR/web-share/",
   "https://www.w3.org/TR/webaudio/",
-  "https://www.w3.org/TR/webauthn-2/",
+  {
+    "url": "https://www.w3.org/TR/webauthn-2/",
+    "shortTitle": "Web Authentication"
+  },
   "https://www.w3.org/TR/WebCryptoAPI/",
   "https://www.w3.org/TR/webdriver2/",
   "https://www.w3.org/TR/WebIDL-1/",

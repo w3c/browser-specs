@@ -7309,6 +7309,7 @@
       "currentSpecification": "webauthn-2"
     },
     "seriesVersion": "2",
+    "shortTitle": "Web Authentication",
     "release": {
       "url": "https://www.w3.org/TR/webauthn-2/",
       "filename": "Overview.html"
@@ -7319,8 +7320,7 @@
       "filename": "index.html"
     },
     "title": "Web Authentication: An API for accessing Public Key Credentials: Level 2",
-    "source": "w3c",
-    "shortTitle": "Web Authentication: An API for accessing Public Key Credentials: 2"
+    "source": "w3c"
   },
   {
     "url": "https://www.w3.org/TR/WebCryptoAPI/",

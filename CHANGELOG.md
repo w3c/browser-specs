@@ -4,6 +4,21 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.23.2](https://github.com/w3c/browser-specs/compare/1.23.1...1.23.2) - 2020-12-10
+
+### Merged
+
+- Mention W3C API key in README [`#209`](https://github.com/w3c/browser-specs/pull/209)
+- Define short title for webauthn explicitly [`#208`](https://github.com/w3c/browser-specs/pull/208)
+
+### Fixed
+
+- Define short title for webauthn explicitly (#208) [`#197`](https://github.com/w3c/browser-specs/issues/197)
+
+### Commits
+
+- [data] Update spec info [`21be710`](https://github.com/w3c/browser-specs/commit/21be7104fc520a8c13a931d00a014fa0874807ab)
+
 ## [1.23.1](https://github.com/w3c/browser-specs/compare/1.23.0...1.23.1) - 2020-12-08
 
 ### Merged

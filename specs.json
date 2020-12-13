@@ -1,5 +1,10 @@
 [
-  "https://compat.spec.whatwg.org/",
+  {
+    "url": "https://compat.spec.whatwg.org/",
+    "nightly": {
+      "sourcePath": "compatibility.bs"
+    }
+  },
   "https://console.spec.whatwg.org/",
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
@@ -40,7 +45,13 @@
   "https://fetch.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
   "https://gpuweb.github.io/gpuweb/",
-  "https://html.spec.whatwg.org/multipage/ multipage",
+  {
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "multipage": true,
+    "nightly": {
+      "sourcePath": "source"
+    }
+  },
   "https://immersive-web.github.io/anchors/",
   "https://immersive-web.github.io/dom-overlays/",
   "https://immersive-web.github.io/hit-test/",
@@ -70,7 +81,12 @@
   "https://url.spec.whatwg.org/",
   "https://w3c.github.io/badging/",
   "https://w3c.github.io/contentEditable/",
-  "https://w3c.github.io/gamepad/extensions.html",
+  {
+    "url": "https://w3c.github.io/gamepad/extensions.html",
+    "nightly": {
+      "sourcePath": "extensions.html"
+    }
+  },
   "https://w3c.github.io/mathml-aam/",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
@@ -134,7 +150,10 @@
   "https://wicg.github.io/shape-detection-api/",
   {
     "url": "https://wicg.github.io/shape-detection-api/text.html",
-    "shortname": "text-detection-api"
+    "shortname": "text-detection-api",
+    "nightly": {
+      "sourcePath": "text.bs"
+    }
   },
   {
     "url": "https://wicg.github.io/sms-one-time-codes/",
@@ -148,7 +167,12 @@
   "https://wicg.github.io/web-locks/",
   "https://wicg.github.io/web-otp/",
   "https://wicg.github.io/webhid/",
-  "https://wicg.github.io/webpackage/loading.html",
+  {
+    "url": "https://wicg.github.io/webpackage/loading.html",
+    "nightly": {
+      "sourcePath": "loading.bs"
+    }
+  },
   "https://wicg.github.io/webusb/",
   "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/",
   "https://www.khronos.org/registry/webgl/extensions/EXT_blend_minmax/",
@@ -197,6 +221,9 @@
     "shortname": "webgl1",
     "series": {
       "shortname": "webgl1"
+    },
+    "nightly": {
+      "sourcePath": "specs/latest/1.0/index.html"
     }
   },
   {
@@ -204,6 +231,9 @@
     "shortname": "webgl2",
     "series": {
       "shortname": "webgl2"
+    },
+    "nightly": {
+      "sourcePath": "specs/latest/2.0/index.html"
     }
   },
   "https://www.w3.org/TR/accelerometer/",
@@ -327,7 +357,12 @@
     "shortTitle": "CSS Sizing 4"
   },
   "https://www.w3.org/TR/css-speech-1/",
-  "https://www.w3.org/TR/css-style-attr/",
+  {
+    "url": "https://www.w3.org/TR/css-style-attr/",
+    "nightly": {
+      "sourcePath": "css-style-attr-1/Overview.src.html"
+    }
+  },
   "https://www.w3.org/TR/css-syntax-3/",
   "https://www.w3.org/TR/css-tables-3/",
   "https://www.w3.org/TR/css-text-3/",
@@ -356,18 +391,38 @@
   },
   "https://www.w3.org/TR/css-will-change-1/",
   "https://www.w3.org/TR/css-writing-modes-4/",
-  "https://www.w3.org/TR/CSS21/ multipage",
-  "https://www.w3.org/TR/CSS22/ multipage",
+  {
+    "url": "https://www.w3.org/TR/CSS21/",
+    "multipage": true,
+    "nightly": {
+      "sourcePath": "css2/Overview.bs"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/CSS22/",
+    "multipage": true,
+    "nightly": {
+      "sourcePath": "css2/Overview.bs"
+    }
+  },
   {
     "url": "https://www.w3.org/TR/css3-exclusions/",
-    "seriesVersion": "3"
+    "seriesVersion": "1",
+    "nightly": {
+      "sourcePath": "css-exclusions-1/Overview.bs"
+    }
   },
   "https://www.w3.org/TR/cssom-1/",
   "https://www.w3.org/TR/cssom-view-1/",
   "https://www.w3.org/TR/device-memory-1/",
   "https://www.w3.org/TR/DOM-Parsing/",
   "https://www.w3.org/TR/encoding/",
-  "https://www.w3.org/TR/encrypted-media/",
+  {
+    "url": "https://www.w3.org/TR/encrypted-media/",
+    "nightly": {
+      "sourcePath": "encrypted-media-respec.html"
+    }
+  },
   {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "shortTitle": "Fetch Metadata"
@@ -398,14 +453,24 @@
   "https://www.w3.org/TR/longtasks-1/",
   "https://www.w3.org/TR/magnetometer/",
   "https://www.w3.org/TR/media-capabilities/",
-  "https://www.w3.org/TR/media-source/",
+  {
+    "url": "https://www.w3.org/TR/media-source/",
+    "nightly": {
+      "sourcePath": "media-source-respec.html"
+    }
+  },
   "https://www.w3.org/TR/mediacapture-depth/",
   "https://www.w3.org/TR/mediacapture-fromelement/",
   "https://www.w3.org/TR/mediacapture-streams/",
   "https://www.w3.org/TR/mediaqueries-4/",
   "https://www.w3.org/TR/mediaqueries-5/ delta",
   "https://www.w3.org/TR/mediasession/",
-  "https://www.w3.org/TR/mediastream-recording/",
+  {
+    "url": "https://www.w3.org/TR/mediastream-recording/",
+    "nightly": {
+      "sourcePath": "MediaRecorder.bs"
+    }
+  },
   "https://www.w3.org/TR/mixed-content/",
   "https://www.w3.org/TR/motion-1/",
   "https://www.w3.org/TR/mst-content-hint/",
@@ -414,7 +479,12 @@
   "https://www.w3.org/TR/orientation-event/",
   "https://www.w3.org/TR/orientation-sensor/",
   "https://www.w3.org/TR/page-visibility-2/",
-  "https://www.w3.org/TR/paint-timing/",
+  {
+    "url": "https://www.w3.org/TR/paint-timing/",
+    "nightly": {
+      "sourcePath": "painttiming.bs"
+    }
+  },
   "https://www.w3.org/TR/payment-handler/",
   {
     "url": "https://www.w3.org/TR/payment-method-basic-card/",
@@ -489,7 +559,12 @@
   "https://www.w3.org/TR/webdriver2/",
   "https://www.w3.org/TR/WebIDL-1/",
   "https://www.w3.org/TR/webmidi/",
-  "https://www.w3.org/TR/webrtc-identity/",
+  {
+    "url": "https://www.w3.org/TR/webrtc-identity/",
+    "nightly": {
+      "sourcePath": "identity.html"
+    }
+  },
   "https://www.w3.org/TR/webrtc-priority/",
   {
     "url": "https://www.w3.org/TR/webrtc-stats/",
@@ -508,7 +583,10 @@
   "https://www.w3.org/TR/webxrlayers-1/",
   {
     "url": "https://www.w3.org/TR/WOFF2/",
-    "shortTitle": "WOFF 2.0"
+    "shortTitle": "WOFF 2.0",
+    "nightly": {
+      "sourcePath": "woff2/index.html"
+    }
   },
   "https://xhr.spec.whatwg.org/"
 ]

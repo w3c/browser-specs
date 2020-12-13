@@ -33,6 +33,7 @@ cross-references, WebIDL, quality, etc.
     - [`nightly.filename`](#nightlyfilename)
     - [`nightly.pages`](#nightlypages)
     - [`nightly.repository`](#nightlyrepository)
+    - [`nightly.sourcePath`](#nightlysourcepath)
   - [`source`](#source)
 - [How to add/update/delete a spec](#how-to-addupdatedelete-a-spec)
 - [Spec selection criteria](#spec-selection-criteria)
@@ -94,7 +95,8 @@ Each specification in the list comes with the following properties:
   "nightly": {
     "url": "https://drafts.csswg.org/css-color/",
     "repository": "https://github.com/w3c/csswg-drafts",
-    "filename": "Overview.html"
+    "filename": "Overview.html",
+    "sourcePath": "css-color-4/Overview.bs"
   },
   "source": "w3c"
 }
@@ -296,6 +298,22 @@ computed from `nightly.url`.
 The `repository` property is always set.
 
 
+#### `nightly.sourcePath`
+
+The relative path to the filename that contains the source of the Editor's Draft
+or of the living standard at the HEAD of the default branch of the repository.
+
+That path is computed by parsing the contents of the repository for common
+patterns. The info must be specified in `specs.json` for specifications that do
+not follow a common pattern.
+
+The `sourcePath` property is always set.
+
+**Note:** The path is relative to the root of the repository, and only valid in
+the default branch of the repository. If needed, the source may be fetched from
+the absolute HTTPS URL `${nightly.repository}/blob/HEAD/${nightly.sourcePath}`.
+
+
 ### `source`
 
 The provenance for the `title` and `nightly` property values. Can be one of:
@@ -376,7 +394,9 @@ npm run build
 **Important:** The generation process will try to retrieve information about W3C
 specification from the W3C API. For that to work, the code requires the presence
 of a `config.json` file in the root folder with a `w3cApiKey` field set to a
-valid [W3C API key](https://w3c.github.io/w3c-api/).
+valid [W3C API key](https://w3c.github.io/w3c-api/) and a `githubToken` field
+set to a valid [GitHub Personal Token](https://github.com/settings/tokens)
+(default read permissions are enough).
 
 
 ### Tests

@@ -21,13 +21,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Test
+      - name: Test (including W3C API tests)
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+        if: ${{ env.CONFIG_JSON }}
         run: |
-          if ["${{ secrets.CONFIG_JSON }}" != ""]; then
-            echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
-            npm run test
-          else
-            npm run test-pr
-          fi
+          echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
+          npm run test
+
+      - name: Test (without W3C API tests)
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+        if: ${{ !env.CONFIG_JSON }}
+        run: npm run test-pr
+
       - name: Lint
         run: npm run lint

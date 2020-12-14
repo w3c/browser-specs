@@ -137,6 +137,10 @@ module.exports = async function (specs, options) {
     }
     const paths = repoPathCache.get(cacheKey);
 
+    // Extract filename from nightly URL when there is one
+    const match = spec.nightly.url.match(/\/(\w+)\.html$/);
+    const nightlyFilename = match ? match[1] : "";
+
     return getFirstFoundInArray(paths,
       // Common paths for CSS specs
       `${spec.shortname}.bs`,
@@ -144,6 +148,10 @@ module.exports = async function (specs, options) {
       `${spec.shortname}/Overview.src.html`,
       `${spec.series.shortname}/Overview.bs`,
       `${spec.series.shortname}/Overview.src.html`,
+
+      // Named after the nightly filename
+      `${nightlyFilename}.bs`,
+      `${nightlyFilename}.html`,
 
       // WebGL extensions
       `extensions/${spec.shortname}/extension.xml`,

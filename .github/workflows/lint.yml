@@ -1,8 +1,10 @@
 on:
   push:
-    branches: master
+    branches:
+      - master
   pull_request:
-    branches: master
+    branches:
+      - master
 name: Test and lint
 jobs:
   lint:

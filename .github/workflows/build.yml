@@ -18,9 +18,9 @@ jobs:
         echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
         npm ci
     - name: Build new index file
-      run: npm run build
-      with:
+      env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: npm run build
     - name: Commit updates
       run: |
         git config user.name "fetch-info bot"

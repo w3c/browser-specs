@@ -102,9 +102,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-animations-2/",
+    "title": "CSS Animations Level 2",
     "source": "spec",
-    "shortTitle": "Index of css-animations-2/"
+    "shortTitle": "CSS Animations 2"
   },
   {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
@@ -141,7 +141,7 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-cascade-5/",
+    "title": "CSS Cascading and Inheritance Level 5",
     "source": "spec"
   },
   {
@@ -158,9 +158,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-env-1/",
+    "title": "CSS Environment Variables Module Level 1",
     "source": "spec",
-    "shortTitle": "Index of css-env-1/"
+    "shortTitle": "CSS Environment Variables 1"
   },
   {
     "url": "https://drafts.csswg.org/css-extensions-1/",
@@ -176,9 +176,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-extensions-1/",
+    "title": "CSS Extensions",
     "source": "spec",
-    "shortTitle": "Index of css-extensions-1/"
+    "shortTitle": "CSS Extensions"
   },
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -196,7 +196,7 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-gcpm-4/",
+    "title": "CSS Generated Content for Paged Media Module Level 4",
     "source": "spec"
   },
   {
@@ -214,9 +214,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-grid-3/",
+    "title": "CSS Grid Layout Module Level 3",
     "source": "spec",
-    "shortTitle": "Index of css-grid-3/"
+    "shortTitle": "CSS Grid Layout 3"
   },
   {
     "url": "https://drafts.csswg.org/css-multicol-2/",
@@ -234,7 +234,7 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-multicol-2/",
+    "title": "CSS Multi-column Layout Module Level 2",
     "source": "spec"
   },
   {
@@ -251,9 +251,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-nesting-1/",
+    "title": "CSS Nesting Module",
     "source": "spec",
-    "shortTitle": "Index of css-nesting-1/"
+    "shortTitle": "CSS Nesting"
   },
   {
     "url": "https://drafts.csswg.org/css-page-4/",
@@ -289,9 +289,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-shapes-2/",
+    "title": "CSS Shapes Module Level 2",
     "source": "spec",
-    "shortTitle": "Index of css-shapes-2/"
+    "shortTitle": "CSS Shapes 2"
   },
   {
     "url": "https://drafts.csswg.org/css-size-adjust-1/",
@@ -308,7 +308,7 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-size-adjust-1/",
+    "title": "CSS Mobile Text Size Adjustment Module Level 1",
     "source": "spec"
   },
   {
@@ -326,9 +326,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of css-transitions-2/",
+    "title": "CSS Transitions Level 2",
     "source": "spec",
-    "shortTitle": "Index of css-transitions-2/"
+    "shortTitle": "CSS Transitions 2"
   },
   {
     "url": "https://drafts.csswg.org/scroll-animations-1/",
@@ -344,9 +344,9 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
     },
-    "title": "Index of scroll-animations-1/",
+    "title": "Scroll-linked Animations",
     "source": "spec",
-    "shortTitle": "Index of scroll-animations-1/"
+    "shortTitle": "Scroll-linked Animations"
   },
   {
     "url": "https://drafts.fxtf.org/compositing-2/",

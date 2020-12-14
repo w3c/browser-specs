@@ -22,13 +22,17 @@ jobs:
         run: npm ci
 
       - name: Test (including W3C API tests)
-        if: ${{ secrets.CONFIG_JSON }}
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+        if: ${{ env.CONFIG_JSON }}
         run: |
           echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
           npm run test
 
       - name: Test (without W3C API tests)
-        if: ${{ !secrets.CONFIG_JSON }}
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+        if: ${{ !env.CONFIG_JSON }}
         run: npm run test-pr
 
       - name: Lint

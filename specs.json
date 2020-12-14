@@ -448,12 +448,7 @@
   },
   "https://www.w3.org/TR/mediacapture-depth/",
   "https://www.w3.org/TR/mediacapture-fromelement/",
-  {
-    "url": "https://www.w3.org/TR/mediacapture-streams/",
-    "nightly": {
-      "sourcePath": "getusermedia.html"
-    }
-  },
+  "https://www.w3.org/TR/mediacapture-streams/",
   "https://www.w3.org/TR/mediaqueries-4/",
   "https://www.w3.org/TR/mediaqueries-5/ delta",
   "https://www.w3.org/TR/mediasession/",
@@ -529,8 +524,18 @@
   "https://www.w3.org/TR/timing-entrytypes-registry/",
   "https://www.w3.org/TR/touch-events/",
   "https://www.w3.org/TR/trace-context-1/",
-  "https://www.w3.org/TR/uievents-code/",
-  "https://www.w3.org/TR/uievents-key/",
+  {
+    "url": "https://www.w3.org/TR/uievents-code/",
+    "nightly": {
+      "sourcePath": "index-source.txt"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/uievents-key/",
+    "nightly": {
+      "sourcePath": "index-source.txt"
+    }
+  },
   "https://www.w3.org/TR/uievents/",
   "https://www.w3.org/TR/upgrade-insecure-requests/",
   "https://www.w3.org/TR/user-timing-2/",

@@ -6063,15 +6063,15 @@
       "shortname": "mediacapture-streams",
       "currentSpecification": "mediacapture-streams"
     },
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-main/",
-      "sourcePath": "getusermedia.html",
-      "repository": "https://github.com/w3c/mediacapture-main",
-      "filename": "index.html"
-    },
     "release": {
       "url": "https://www.w3.org/TR/mediacapture-streams/",
       "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-main/",
+      "repository": "https://github.com/w3c/mediacapture-main",
+      "sourcePath": "getusermedia.html",
+      "filename": "index.html"
     },
     "title": "Media Capture and Streams",
     "source": "w3c",
@@ -7352,15 +7352,15 @@
       "shortname": "uievents-code",
       "currentSpecification": "uievents-code"
     },
+    "nightly": {
+      "url": "https://w3c.github.io/uievents-code/",
+      "sourcePath": "index-source.txt",
+      "repository": "https://github.com/w3c/uievents-code",
+      "filename": "index.html"
+    },
     "release": {
       "url": "https://www.w3.org/TR/uievents-code/",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/uievents-code/",
-      "repository": "https://github.com/w3c/uievents-code",
-      "sourcePath": "index.html",
-      "filename": "index.html"
     },
     "title": "UI Events KeyboardEvent code Values",
     "source": "w3c",
@@ -7374,15 +7374,15 @@
       "shortname": "uievents-key",
       "currentSpecification": "uievents-key"
     },
+    "nightly": {
+      "url": "https://w3c.github.io/uievents-key/",
+      "sourcePath": "index-source.txt",
+      "repository": "https://github.com/w3c/uievents-key",
+      "filename": "index.html"
+    },
     "release": {
       "url": "https://www.w3.org/TR/uievents-key/",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/uievents-key/",
-      "repository": "https://github.com/w3c/uievents-key",
-      "sourcePath": "index.html",
-      "filename": "index.html"
     },
     "title": "UI Events KeyboardEvent key Values",
     "source": "w3c",

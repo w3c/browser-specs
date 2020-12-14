@@ -1,14 +1,29 @@
-on: push
+on: [push, pull_request]
 name: Test and lint
 jobs:
   lint:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
-      with:
-        node-version: 12.x
-    - run: echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
-    - run: npm ci
-    - run: npm run test
-    - run: npm run lint
+      - name: Checkout repo contents
+        uses: actions/checkout@v1
+
+      - name: Setup node.js
+        uses: actions/setup-node@v1
+          with:
+            node-version: 12.x
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Test (including W3C API tests)
+        if: ${{ secrets.CONFIG_JSON }}
+        run: |
+          echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
+          npm run test
+
+      - name: Test (without W3C API tests)
+        if: ${{ !secrets.CONFIG_JSON }}
+        run: npm run test-pr
+
+      - name: Lint
+        run: npm run lint

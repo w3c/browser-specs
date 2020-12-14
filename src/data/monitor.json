@@ -263,6 +263,10 @@
     "immersive-web/marker-tracking": {
       "lastreviewed": "2020-12-07",
       "comment": "no published content yet"
+    },
+    "WICG/floc": {
+      "lastreviewed": "2020-12-14",
+      "comment": "no published content yet"
     }
   },
   "specs": {

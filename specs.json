@@ -448,7 +448,12 @@
   },
   "https://www.w3.org/TR/mediacapture-depth/",
   "https://www.w3.org/TR/mediacapture-fromelement/",
-  "https://www.w3.org/TR/mediacapture-streams/",
+  {
+    "url": "https://www.w3.org/TR/mediacapture-streams/",
+    "nightly": {
+      "sourcePath": "getusermedia.html"
+    }
+  },
   "https://www.w3.org/TR/mediaqueries-4/",
   "https://www.w3.org/TR/mediaqueries-5/ delta",
   "https://www.w3.org/TR/mediasession/",

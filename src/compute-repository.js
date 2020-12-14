@@ -123,7 +123,9 @@ module.exports = async function (specs, options) {
    * default branch of the GitHub repository associated with the specification.
    */
   async function determineSourcePath(spec, repo) {
-    // Retrieve all paths of the GitHub repository
+    // Retrieve all paths of the GitHub repository, excluding symlinks
+    // (note that, while we may identify symlinks, there is no easy way to
+    // get the target of the symlink from the GitHub API)
     const cacheKey = `${repo.owner}/${repo.name}`;
     if (!repoPathCache.has(cacheKey)) {
       const { data } = await octokit.git.getTree({
@@ -132,7 +134,9 @@ module.exports = async function (specs, options) {
         tree_sha: "HEAD",
         recursive: true
       });
-      const paths = data.tree.map(entry => entry.path);
+      const paths = data.tree
+        .filter(entry => entry.mode !== "120000")
+        .map(entry => entry.path);
       repoPathCache.set(cacheKey, paths);
     }
     const paths = repoPathCache.get(cacheKey);
@@ -152,6 +156,11 @@ module.exports = async function (specs, options) {
       // Named after the nightly filename
       `${nightlyFilename}.bs`,
       `${nightlyFilename}.html`,
+
+      // WebRTC specs (that have an index.html symlink)
+      // ... but exclude Gamepad spec since `gamepad.html` is an empty HTML
+      // file that redirects to the real source
+      `${spec.shortname === "gamepad" ? "" : spec.shortname }.html`,
 
       // WebGL extensions
       `extensions/${spec.shortname}/extension.xml`,

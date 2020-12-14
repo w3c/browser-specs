@@ -6063,15 +6063,15 @@
       "shortname": "mediacapture-streams",
       "currentSpecification": "mediacapture-streams"
     },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-main/",
+      "sourcePath": "getusermedia.html",
+      "repository": "https://github.com/w3c/mediacapture-main",
+      "filename": "index.html"
+    },
     "release": {
       "url": "https://www.w3.org/TR/mediacapture-streams/",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-main/",
-      "repository": "https://github.com/w3c/mediacapture-main",
-      "sourcePath": "index.html",
-      "filename": "index.html"
     },
     "title": "Media Capture and Streams",
     "source": "w3c",
@@ -7834,7 +7834,7 @@
     "nightly": {
       "url": "https://w3c.github.io/webrtc-stats/",
       "repository": "https://github.com/w3c/webrtc-stats",
-      "sourcePath": "index.html",
+      "sourcePath": "webrtc-stats.html",
       "filename": "index.html"
     },
     "title": "Identifiers for WebRTC's Statistics API",
@@ -7878,7 +7878,7 @@
     "nightly": {
       "url": "https://w3c.github.io/webrtc-pc/",
       "repository": "https://github.com/w3c/webrtc-pc",
-      "sourcePath": "index.html",
+      "sourcePath": "webrtc.html",
       "filename": "index.html"
     },
     "title": "WebRTC 1.0: Real-Time Communication Between Browsers",

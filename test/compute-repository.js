@@ -4,7 +4,7 @@ const computeRepo = require("../src/compute-repository.js");
 describe("compute-repository module", async () => {
   async function computeSingleRepo(url) {
     const spec = { nightly: { url } };
-    const result = await computeRepo([spec], { localOnly: true });
+    const result = await computeRepo([spec]);
     return result[0].nightly.repository;
   };
 

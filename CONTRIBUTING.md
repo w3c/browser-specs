@@ -62,9 +62,11 @@ property in `index.json`.
 property in `index.json`. The property must only be set for delta spec (since
 full is the default).
 - `nightly`: same as the [`nightly`](README.md#nightly) property in
-`index.json`. The property must only be set when the URL of the nightly spec
-returned by external sources would be wrong **and** when it cannot be fixed at
-the source.
+`index.json`. The property must only be set when:
+  - The URL of the nightly spec returned by external sources would be wrong
+    **and** when it cannot be fixed at the source.
+  - The code cannot compute the right [`sourcePath`](README.md#nightlysourcepath)
+    because the source file of the nightly spec does not follow a common pattern.
 - `shortTitle`: same as the [`shortTitle`](README.md#shorttitle) property in
 `index.json`. The property must only be set when the short title computed
 automatically is not the expected one.

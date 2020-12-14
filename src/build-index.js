@@ -17,6 +17,14 @@ const determineFilename = require("./determine-filename.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
+const githubToken = (_ => {
+  try {
+    return require("../config.json").githubToken;
+  }
+  catch {
+    return process.env.GITHUB_TOKEN;
+  }
+})();
 
 // If the index already exists, reuse the info it contains when info cannot
 // be refreshed due to some external (network) issue.
@@ -90,14 +98,21 @@ const specs = require("../specs.json")
 // Fetch additional spec info from external sources and complete the list
 fetchInfo(specs, { w3cApiKey })
   .then(specInfo => specs.map(spec => {
-    // Note on the "assign" call:
-    // - `{}` is needed to avoid overriding spec
-    // - `spec` appears first to impose the order of properties computed above
-    // in the resulting object
-    // - `specInfo[spec.shortname]` is the info we retrieved from the source
-    // - final `spec` ensures that properties defined in specs.json override
-    // info from the source.
-    const res = Object.assign({}, spec, specInfo[spec.shortname], spec);
+    // Make a copy of the spec object and extend it with the info we retrieved
+    // from the source
+    const res = Object.assign({}, spec, specInfo[spec.shortname]);
+
+    // Specific info in specs.json overrides info from the source
+    // (but note we go one level deeper not to override the entire "nightly"
+    // property, as specs.json may only override one of its sub-properties).
+    Object.keys(spec).forEach(key => {
+      if (res[key] && (typeof spec[key] === 'object')) {
+        Object.assign(res[key], spec[key]);
+      }
+      else {
+        res[key] = spec[key];
+      }
+    });
 
     // Update the current specification based on the info returned by the
     // W3C API, unless specs.json imposed a specific level.
@@ -124,7 +139,7 @@ fetchInfo(specs, { w3cApiKey })
   }))
 
   // Complete with repository
-  .then(index => computeRepository(index))
+  .then(index => computeRepository(index, { githubToken }))
 
   // Complete with list of pages for multipage specs
   .then(index => Promise.all(

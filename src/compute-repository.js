@@ -1,13 +1,13 @@
 /**
- * Module that exports a function that takes the URL of a specification as input
- * and computes the URL of the repository that contains the source code for this
- * specification.
+ * Module that exports a function that takes a list of specifications as input
+ * and computes, for each of them, the URL of the repository that contains the
+ * source code for this, as well as the source file of the specification at the
+ * HEAD of default branch in the repository.
  *
- * The function returns null when it cannot compute the URL of a repository from
- * the given URL.
+ * The function needs an authentication token for the GitHub API.
  */
 
-const fetch = require("node-fetch");
+const { Octokit } = require("@octokit/rest");
 
 
 /**
@@ -67,20 +67,17 @@ function urlToGitHubRepository(url) {
 
 
 /**
- * Function that takes a GitHub repo owner name (lowercase version) and that
- * retrieves the real owner name (with possible uppercase characters) from the
- * GitHub API.
+ * Returns the first item in the list found in the Git tree, or null if none of
+ * the items exists in the array.
  */
-async function fetchRealGitHubOwnerName(owner) {
-  return await fetch(`https://api.github.com/users/${owner}`)
-    .then(resp => resp.json())
-    .then(resp => {
-      // Alert when user does not exist
-      if (resp.message) {
-        throw resp.message;
-      }
-      return resp.login;
-    });
+function getFirstFoundInTree(paths, ...items) {
+  for (const item of items) {
+    const path = paths.find(p => p.path === item);
+    if (path) {
+      return path;
+    }
+  }
+  return null;
 }
 
 
@@ -89,11 +86,12 @@ async function fetchRealGitHubOwnerName(owner) {
  * as input, completes entries with a nightly.repository property when possible
  * and returns the list.
  *
- * The options parameter can be used to set a `localOnly` flag that tells the
- * function to bypass the "fake to real" repo owner name mapping, which requires
- * going through the GitHub API. This is useful to prevent tests from exceeding
- * GitHub API's rate limit (but obviously means that the owner name returned
- * by the function will remain the lowercased version).
+ * The options parameter is used to specify the GitHub API authentication token.
+ * In the absence of it, the function does not go through the GitHub API and
+ * thus cannot set most of the information. This is useful to run tests without
+ * an authentication token (but obviously means that the owner name returned
+ * by the function will remain the lowercased version, and that the returned
+ * info won't include the source file).
  */
 module.exports = async function (specs, options) {
   if (!specs || specs.find(spec => !spec.nightly || !spec.nightly.url)) {
@@ -101,28 +99,127 @@ module.exports = async function (specs, options) {
   }
   options = options || {};
 
+  const octokit = new Octokit({ auth: options.githubToken });
+  const repoPathCache = new Map();
+  const userCache = new Map();
+
+  /**
+   * Take a GitHub repo owner name (lowercase version) and retrieve the real
+   * owner name (with possible uppercase characters) from the GitHub API.
+   */
+  async function fetchRealGitHubOwnerName(username) {
+    if (!userCache.has(username)) {
+      const { data } = await octokit.users.getByUsername({ username });
+      if (data.message) {
+        // Alert when user does not exist
+        throw res.message;
+      }
+      userCache.set(username, data.login);
+    }
+    return userCache.get(username);
+  }
+
+  /**
+   * Determine the name of the file that contains the source of the spec in the
+   * default branch of the GitHub repository associated with the specification.
+   */
+  async function determineSourcePath(spec, repo) {
+    // Retrieve all paths of the GitHub repository
+    const cacheKey = `${repo.owner}/${repo.name}`;
+    if (!repoPathCache.has(cacheKey)) {
+      const { data } = await octokit.git.getTree({
+        owner: repo.owner,
+        repo: repo.name,
+        tree_sha: "HEAD",
+        recursive: true
+      });
+      const paths = data.tree;
+      repoPathCache.set(cacheKey, paths);
+    }
+    const paths = repoPathCache.get(cacheKey);
+
+    // Extract filename from nightly URL when there is one
+    const match = spec.nightly.url.match(/\/(\w+)\.html$/);
+    const nightlyFilename = match ? match[1] : "";
+
+    const sourcePath = getFirstFoundInTree(paths,
+      // Common paths for CSS specs
+      `${spec.shortname}.bs`,
+      `${spec.shortname}/Overview.bs`,
+      `${spec.shortname}/Overview.src.html`,
+      `${spec.series.shortname}/Overview.bs`,
+      `${spec.series.shortname}/Overview.src.html`,
+
+      // Named after the nightly filename
+      `${nightlyFilename}.bs`,
+      `${nightlyFilename}.html`,
+
+      // WebGL extensions
+      `extensions/${spec.shortname}/extension.xml`,
+
+      // WebAssembly specs
+      `document/${spec.series.shortname.replace(/^wasm-/, '')}/index.bs`,
+
+      // SVG specs
+      `specs/${spec.shortname.replace(/^svg-/, '')}/master/Overview.html`,
+      `master/Overview.html`,
+
+      // Following patterns are used in a small number of cases, but could
+      // perhaps appear again in the future, so worth handling here.
+      "spec/index.bs",
+      "spec/index.html",    // Only one TC39 spec
+      "spec/Overview.html", // Only WebCrypto
+      "docs/index.bs",      // Only ServiceWorker
+      "spec.html",          // Most TC39 specs
+
+      // Most common patterns, checking on "index.html" last as some repos
+      // include such a file to store the generated spec from the source.
+      "index.src.html",
+      "index.bs",
+      "spec.bs",
+      "index.html"
+    );
+
+    if (!sourcePath) {
+      return null;
+    }
+
+    // Fetch target file for symlinks
+    if (sourcePath.mode === "120000") {
+      const { data } = await octokit.git.getBlob({
+        owner: repo.owner,
+        repo: repo.name,
+        file_sha: sourcePath.sha
+      });
+      return Buffer.from(data.content, "base64").toString("utf8");
+    }
+    return sourcePath.path;
+  }
+
   // Compute GitHub repositories with lowercase owner names
   const repos = specs.map(spec => urlToGitHubRepository(spec.nightly.url));
 
-  // Extract the list of owners and fetch their real name (preserving case)
-  if (!options.localOnly) {
-    const owners = [...new Set(repos.map(repo => repo.owner))];
-    const realOwners = await Promise.all(
-      owners.map(owner => fetchRealGitHubOwnerName(owner)));
-    const ownerMapping = {};
-    owners.forEach((owner, idx) => ownerMapping[owner] = realOwners[idx]);
-
-    // Use real owner names
-    repos.forEach(repo => repo.owner = ownerMapping[repo.owner]);
+  if (options.githubToken) {
+    // Fetch the real name of repository owners (preserving case)
+    for (const repo of repos) {
+      repo.owner = await fetchRealGitHubOwnerName(repo.owner);
+    }
   }
 
-  // Compute final repo URL
-  specs.forEach((spec, idx) => {
-    const repo = repos[idx];
+  // Compute final repo URL and add source file if possible
+  for (const spec of specs) {
+    const repo = repos.shift();
     if (repo) {
       spec.nightly.repository = `https://github.com/${repo.owner}/${repo.name}`;
+
+      if (options.githubToken && !spec.nightly.sourcePath) {
+        const sourcePath = await determineSourcePath(spec, repo);
+        if (sourcePath) {
+          spec.nightly.sourcePath = sourcePath;
+        }
+      }
     }
-  });
+  }
 
   return specs;
 };

@@ -22,9 +22,9 @@ const githubToken = (_ => {
     return require("../config.json").githubToken;
   }
   catch {
-    return process.env.GITHUB_TOKEN;
+    return "";
   }
-})();
+})() || process.env.GITHUB_TOKEN;;
 
 // If the index already exists, reuse the info it contains when info cannot
 // be refreshed due to some external (network) issue.

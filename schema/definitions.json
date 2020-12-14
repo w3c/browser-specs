@@ -13,6 +13,11 @@
       "pattern": "^\\w+\\.html$"
     },
 
+    "relativePath": {
+      "type": "string",
+      "pattern": "^[\\w\\-\\.]+(\\/[\\w\\-\\.]+)*$"
+    },
+
     "shortname": {
       "type": "string",
       "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
@@ -73,13 +78,13 @@
       "properties": {
         "url": { "$ref": "#/proptype/url" },
         "filename": { "$ref": "#/proptype/filename" },
+        "sourcePath": { "$ref": "#/proptype/relativePath" },
         "pages": {
           "type": "array",
           "items": { "$ref": "#/proptype/url" }
         },
         "repository": { "$ref": "#/proptype/url" }
       },
-      "required": ["url"],
       "additionalProperties": false
     }
   }

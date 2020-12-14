@@ -12,6 +12,10 @@
       "comment": "mostly TODOs",
       "lastreviewed": "2020-11-01"
     },
+    "WICG/document-policy": {
+      "comment": "no implementation yet",
+      "lastreviewed": "2020-12-07"
+    },
     "privacycg/storage-partitioning/": {
       "comment": "mostly TODOs",
       "lastreviewed": "2020-11-01"
@@ -254,6 +258,14 @@
     },
     "WICG/manifest-incubations": {
       "lastreviewed": "2020-11-23",
+      "comment": "no published content yet"
+    },
+    "immersive-web/marker-tracking": {
+      "lastreviewed": "2020-12-07",
+      "comment": "no published content yet"
+    },
+    "WICG/floc": {
+      "lastreviewed": "2020-12-14",
       "comment": "no published content yet"
     }
   },

@@ -1,6 +1,6 @@
 {
   "name": "browser-specs",
-  "version": "1.21.2",
+  "version": "1.23.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/w3c/browser-specs.git"
@@ -19,14 +19,13 @@
     "release": "release-it"
   },
   "devDependencies": {
+    "@actions/core": "^1.2.6",
+    "@octokit/rest": "^18.0.12",
     "ajv": "^6.11.0",
     "auto-changelog": "^1.16.4",
-    "mocha": "^7.0.0",
-    "release-it": "^13.5.1"
-  },
-  "dependencies": {
-    "@actions/core": "^1.2.6",
     "jsdom": "^16.2.2",
-    "node-fetch": "^2.6.1"
+    "mocha": "^7.0.0",
+    "node-fetch": "^2.6.1",
+    "release-it": "^13.5.1"
   }
 }

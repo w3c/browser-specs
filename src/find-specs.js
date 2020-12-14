@@ -5,6 +5,8 @@ const core = require('@actions/core');
 
 const fetch = require("node-fetch");
 
+const {JSDOM} = require("jsdom");
+
 const computeShortname = require("./compute-shortname");
 
 const specs = require("../index.json");
@@ -98,6 +100,11 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   const fxtfSpecs = await fetch("https://api.github.com/repos/w3c/fxtf-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !fxtfMetaDir.includes(p.path)).map(p => p.path));
   const houdiniSpecs = await fetch("https://api.github.com/repos/w3c/css-houdini-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !houdiniMetaDir.includes(p.path)).map(p => p.path));
 
+  const ecmaProposals = await JSDOM.fromURL("https://github.com/tc39/proposals/blob/master/README.md")
+  // we only watch stage 3 proposals, which are in the first table on the page above
+    .then(dom => [...dom.window.document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href));
+
+  
   const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
 
   const wgs = Object.values(groups).filter(g => g.type === "working group" && !nonBrowserSpecWgs.includes(g.name));
@@ -173,6 +180,7 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
                                  .filter(hasUntrackedURL)
                                  .filter(isInScope));
 
+ 
   // Check for new CSS specs
   candidates = candidates.concat(cssSpecs.map(s => { return {repo: "w3c/csswg-drafts", spec: `https://drafts.csswg.org/${s}/`};})
                                  .filter(hasUntrackedURL)
@@ -192,6 +200,12 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   candidates = candidates.concat(houdiniSpecs.map(s => { return {repo: "w3c/css-houdini-drafts", spec: `https://drafts.css-houdini.org/${s}/`};})
                                  .filter(hasUntrackedURL)
                                  .filter(isInScope));
+
+  // Check for new TC39 Stage 3 proposals
+  candidates = candidates.concat(ecmaProposals.map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace('https://github.com/tc39/', 'https://tc39.es/') + '/'};})
+                                 .filter(hasUntrackedURL)
+                                 .filter(isInScope));
+
 
   // Add information from Chrome Feature status
   candidates = candidates.map(c => { return {...c, impl: { chrome: (chromeFeatures.find(f => f.standards.spec && f.standards.spec.startsWith(c.spec)) || {}).id}};});

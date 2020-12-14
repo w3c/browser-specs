@@ -19,6 +19,8 @@ jobs:
         npm ci
     - name: Build new index file
       run: npm run build
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit updates
       run: |
         git config user.name "fetch-info bot"

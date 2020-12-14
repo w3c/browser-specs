@@ -4,7 +4,7 @@ const computeRepo = require("../src/compute-repository.js");
 describe("compute-repository module", async () => {
   async function computeSingleRepo(url) {
     const spec = { nightly: { url } };
-    const result = await computeRepo([spec], { localOnly: true });
+    const result = await computeRepo([spec]);
     return result[0].nightly.repository;
   };
 
@@ -24,6 +24,12 @@ describe("compute-repository module", async () => {
     assert.equal(
       await computeSingleRepo("https://specname.spec.whatwg.org/"),
       "https://github.com/whatwg/specname");
+  });
+
+  it("handles TC39 URLs", async () => {
+    assert.equal(
+      await computeSingleRepo("https://tc39.es/js-ftw/"),
+      "https://github.com/tc39/js-ftw");
   });
 
   it("handles CSS WG URLs", async () => {

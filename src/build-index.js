@@ -103,7 +103,7 @@ fetchInfo(specs, { w3cApiKey })
     const res = Object.assign({}, spec, specInfo[spec.shortname]);
 
     // Specific info in specs.json overrides info from the source
-    // (but not we go one level deeper not to override the entire "nightly"
+    // (but note we go one level deeper not to override the entire "nightly"
     // property, as specs.json may only override one of its sub-properties).
     Object.keys(spec).forEach(key => {
       if (res[key] && (typeof spec[key] === 'object')) {

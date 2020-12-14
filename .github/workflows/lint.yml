@@ -22,15 +22,12 @@ jobs:
         run: npm ci
 
       - name: Test
-        env:
-          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
         run: |
-          if ["$CONFIG_JSON" != ""]; then
-            echo "$CONFIG_JSON" | base64 --decode > config.json
+          if ["${{ secrets.CONFIG_JSON }}" != ""]; then
+            echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
             npm run test
           else
             npm run test-pr
           fi
-
       - name: Lint
         run: npm run lint

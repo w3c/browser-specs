@@ -4,6 +4,25 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.24.0](https://github.com/w3c/browser-specs/compare/1.23.2...1.24.0) - 2020-12-14
+
+### Merged
+
+- Remove Trace Context [`#195`](https://github.com/w3c/browser-specs/pull/195)
+- Bump ini from 1.3.5 to 1.3.8 [`#210`](https://github.com/w3c/browser-specs/pull/210)
+- Expose path to source of nightly spec in sourcePath [`#211`](https://github.com/w3c/browser-specs/pull/211)
+- Add WICG/floc to monitor list [`#213`](https://github.com/w3c/browser-specs/pull/213)
+- Fix JSON in ignore list [`#212`](https://github.com/w3c/browser-specs/pull/212)
+
+### Fixed
+
+- Expose path to source of nightly spec in sourcePath (#211) [`#173`](https://github.com/w3c/browser-specs/issues/173)
+
+### Commits
+
+- [data] Update spec info [`3131e00`](https://github.com/w3c/browser-specs/commit/3131e00a55ae1f1d51229d9fad879da0eefb819e)
+- [data] Update spec info [`16ce785`](https://github.com/w3c/browser-specs/commit/16ce7850f6f9f9a390ec7da3b6c963f7bf39f41d)
+
 ## [1.23.2](https://github.com/w3c/browser-specs/compare/1.23.1...1.23.2) - 2020-12-10
 
 ### Merged

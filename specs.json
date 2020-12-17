@@ -70,6 +70,11 @@
     "shortname": "ecmascript",
     "shortTitle": "ECMAScript"
   },
+  {
+    "url": "https://tc39.es/ecma402/",
+    "shortname": "ecma-402",
+    "shortTitle": "Intl API"
+  },
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-class-fields/",
   "https://tc39.es/proposal-import-assertions/",

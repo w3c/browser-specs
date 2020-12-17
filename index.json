@@ -793,6 +793,25 @@
     "source": "specref"
   },
   {
+    "url": "https://tc39.es/ecma402/",
+    "seriesComposition": "full",
+    "shortname": "ecma-402",
+    "series": {
+      "shortname": "ecma",
+      "currentSpecification": "ecma-402"
+    },
+    "seriesVersion": "402",
+    "nightly": {
+      "url": "https://tc39.es/ecma402/",
+      "repository": "https://github.com/tc39/ecma402",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "ECMAScript Internationalization API Specification",
+    "source": "specref",
+    "shortTitle": "ECMAScript Internationalization API"
+  },
+  {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
     "seriesComposition": "full",
     "shortname": "tc39-atomics-wait-async",

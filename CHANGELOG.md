@@ -4,6 +4,33 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.25.0](https://github.com/w3c/browser-specs/compare/1.24.0...1.25.0) - 2020-12-18
+
+### Merged
+
+- Mark CSS Images 4 as a delta spec [`#219`](https://github.com/w3c/browser-specs/pull/219)
+- Add ECMAscript Internationalization API spec [`#220`](https://github.com/w3c/browser-specs/pull/220)
+- Add tests to validate JSON files in data folder [`#218`](https://github.com/w3c/browser-specs/pull/218)
+- Fix test GitHub action [`#217`](https://github.com/w3c/browser-specs/pull/217)
+- Avoid running tests twice on internal pull requests [`#216`](https://github.com/w3c/browser-specs/pull/216)
+
+### Fixed
+
+- Add tests to validate JSON files in data folder (#218) [`#214`](https://github.com/w3c/browser-specs/issues/214)
+
+### Commits
+
+- [data] Update spec info [`cdc775d`](https://github.com/w3c/browser-specs/commit/cdc775dcff0efefe60540a9576cf872d7a3af43b)
+- [data] Update spec info [`e020a10`](https://github.com/w3c/browser-specs/commit/e020a107eb9d76346247161baaa3e06ea80d49b7)
+- [data] Update spec info [`ba71d40`](https://github.com/w3c/browser-specs/commit/ba71d40eb61f0e3e5fee88809cb7023c27761b2a)
+- [data] Update spec info [`382093a`](https://github.com/w3c/browser-specs/commit/382093adb491754fe280a7fe37fa31e2b7ad4e39)
+- Put branch name on separate line for test action [`eeef645`](https://github.com/w3c/browser-specs/commit/eeef645c09f5f77f06a22bbca9df0334d641dcbc)
+- Fix build script to read GITHUB_TOKEN from env whenever needed [`5b6433b`](https://github.com/w3c/browser-specs/commit/5b6433be66c6886ec08fa3e5a879c90cfc992c88)
+- Use "env" instead of "with" in build GitHub Action [`b38282c`](https://github.com/w3c/browser-specs/commit/b38282c5599355f32f5eda51807cd16d85c00a1e)
+- Fix bad indentation in lint GitHub Action [`3904602`](https://github.com/w3c/browser-specs/commit/390460223bb63c2f532700c744d3a69e81c27997)
+- [data] Update spec info [`b1467aa`](https://github.com/w3c/browser-specs/commit/b1467aa48644616bebdde141b4b2effa560b6e93)
+- [data] Update spec info [`9e89c26`](https://github.com/w3c/browser-specs/commit/9e89c26ed3ccaf8b39cac354694f26fde8d2c2e3)
+
 ## [1.24.0](https://github.com/w3c/browser-specs/compare/1.23.2...1.24.0) - 2020-12-14
 
 ### Merged

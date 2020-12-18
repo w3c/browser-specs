@@ -4043,7 +4043,7 @@
     "shortname": "css-images-3",
     "series": {
       "shortname": "css-images",
-      "currentSpecification": "css-images-4"
+      "currentSpecification": "css-images-3"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Images 3",
@@ -4063,11 +4063,11 @@
   },
   {
     "url": "https://www.w3.org/TR/css-images-4/",
-    "seriesComposition": "full",
+    "seriesComposition": "delta",
     "shortname": "css-images-4",
     "series": {
       "shortname": "css-images",
-      "currentSpecification": "css-images-4"
+      "currentSpecification": "css-images-3"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS Images 4",

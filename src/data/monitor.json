@@ -267,6 +267,10 @@
     "WICG/floc": {
       "lastreviewed": "2020-12-14",
       "comment": "no published content yet"
+    },
+    "WICG/WebApiDevice": {
+      "lastreviewed": "2020-12-21",
+      "comment": "no published content yet"
     }
   },
   "specs": {

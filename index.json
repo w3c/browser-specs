@@ -797,10 +797,9 @@
     "seriesComposition": "full",
     "shortname": "ecma-402",
     "series": {
-      "shortname": "ecma",
+      "shortname": "ecma-402",
       "currentSpecification": "ecma-402"
     },
-    "seriesVersion": "402",
     "nightly": {
       "url": "https://tc39.es/ecma402/",
       "repository": "https://github.com/tc39/ecma402",
@@ -2364,10 +2363,9 @@
     "seriesComposition": "full",
     "shortname": "EXT_disjoint_timer_query_webgl2",
     "series": {
-      "shortname": "EXT_disjoint_timer_query_webgl",
+      "shortname": "EXT_disjoint_timer_query_webgl2",
       "currentSpecification": "EXT_disjoint_timer_query_webgl2"
     },
-    "seriesVersion": "2",
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query_webgl2/",
       "repository": "https://github.com/KhronosGroup/WebGL",
@@ -2527,10 +2525,9 @@
     "seriesComposition": "full",
     "shortname": "EXT_texture_norm16",
     "series": {
-      "shortname": "EXT_texture_norm",
+      "shortname": "EXT_texture_norm16",
       "currentSpecification": "EXT_texture_norm16"
     },
-    "seriesVersion": "1.6",
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_norm16/",
       "repository": "https://github.com/KhronosGroup/WebGL",
@@ -2726,10 +2723,9 @@
     "seriesComposition": "full",
     "shortname": "OVR_multiview2",
     "series": {
-      "shortname": "OVR_multiview",
+      "shortname": "OVR_multiview2",
       "currentSpecification": "OVR_multiview2"
     },
-    "seriesVersion": "2",
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OVR_multiview2/",
       "repository": "https://github.com/KhronosGroup/WebGL",
@@ -2800,9 +2796,8 @@
     "shortname": "WEBGL_compressed_texture_etc",
     "series": {
       "shortname": "WEBGL_compressed_texture_etc",
-      "currentSpecification": "WEBGL_compressed_texture_etc1"
+      "currentSpecification": "WEBGL_compressed_texture_etc"
     },
-    "seriesNext": "WEBGL_compressed_texture_etc1",
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc/",
       "repository": "https://github.com/KhronosGroup/WebGL",
@@ -2818,11 +2813,9 @@
     "seriesComposition": "full",
     "shortname": "WEBGL_compressed_texture_etc1",
     "series": {
-      "shortname": "WEBGL_compressed_texture_etc",
+      "shortname": "WEBGL_compressed_texture_etc1",
       "currentSpecification": "WEBGL_compressed_texture_etc1"
     },
-    "seriesVersion": "1",
-    "seriesPrevious": "WEBGL_compressed_texture_etc",
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc1/",
       "repository": "https://github.com/KhronosGroup/WebGL",

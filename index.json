@@ -1082,24 +1082,6 @@
     "shortTitle": "Media Capture Automation"
   },
   {
-    "url": "https://w3c.github.io/screen-fold/",
-    "seriesComposition": "full",
-    "shortname": "screen-fold",
-    "series": {
-      "shortname": "screen-fold",
-      "currentSpecification": "screen-fold"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/screen-fold/",
-      "repository": "https://github.com/w3c/screen-fold",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "The Screen Fold API",
-    "source": "specref",
-    "shortTitle": "The Screen Fold API"
-  },
-  {
     "url": "https://w3c.github.io/web-nfc/",
     "seriesComposition": "full",
     "shortname": "web-nfc",
@@ -6902,6 +6884,28 @@
     "title": "Screen Capture",
     "source": "w3c",
     "shortTitle": "Screen Capture"
+  },
+  {
+    "url": "https://www.w3.org/TR/screen-fold/",
+    "seriesComposition": "full",
+    "shortname": "screen-fold",
+    "series": {
+      "shortname": "screen-fold",
+      "currentSpecification": "screen-fold"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/screen-fold/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/screen-fold/",
+      "repository": "https://github.com/w3c/screen-fold",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "The Screen Fold API",
+    "source": "w3c",
+    "shortTitle": "The Screen Fold API"
   },
   {
     "url": "https://www.w3.org/TR/screen-orientation/",

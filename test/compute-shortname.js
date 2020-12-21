@@ -20,6 +20,10 @@ describe("compute-shortname module", () => {
       assertName("https://tc39.es/proposal-smartidea/", "tc39-smartidea");
     });
 
+    it("handles Khronos Group WebGL extensions", () => {
+      assertName("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/", "EXT_wow32");
+    });
+
     it("handles URLs of drafts on GitHub", () => {
       assertName("https://wicg.github.io/whataspec/", "whataspec");
     });
@@ -140,6 +144,14 @@ describe("compute-shortname module", () => {
     it("automatically updates CSS specs with an old 'css3-' name", () => {
       assertSeries("css3-conditional", "css-conditional");
     });
+
+    it("preserves ECMA spec numbers", () => {
+      assertSeries("ecma-402", "ecma-402");
+    });
+
+    it("preserves digits at the end of WebGL extension names", () => {
+      assertSeries("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/", "EXT_wow32");
+    });
   });
 
 
@@ -182,6 +194,14 @@ describe("compute-shortname module", () => {
 
     it("does not get lost with inner digits", () => {
       assertNoSeriesVersion("my-2-cents");
+    });
+
+    it("does not confuse an ECMA spec number with a series version", () => {
+      assertNoSeriesVersion("ecma-402");
+    });
+
+    it("does not confuse digits at the end of a WebGL extension spec with a series version", () => {
+      assertNoSeriesVersion("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/");
     });
   });
 });

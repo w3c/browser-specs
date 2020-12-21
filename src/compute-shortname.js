@@ -122,7 +122,7 @@ function computeShortname(url) {
 /**
  * Compute the shortname and level from the spec name, if possible.
  */
-function completeWithSeriesAndLevel(shortname) {
+function completeWithSeriesAndLevel(shortname, url) {
   // Use latest convention for CSS specs
   function modernizeShortname(name) {
     if (name.startsWith("css3-")) {
@@ -134,6 +134,16 @@ function completeWithSeriesAndLevel(shortname) {
     else {
       return name;
     }
+  }
+
+  // Shortnames of WebGL extensions sometimes end up with digits which are *not*
+  // to be interpreted as level numbers. Similarly, shortnames of ECMA specs
+  // typically have the form "ecma-ddd", and "ddd" is *not* a level number.
+  if (shortname.match(/^ecma-/) || url.match(/^https:\/\/www\.khronos\.org\/registry\/webgl\/extensions\//)) {
+    return {
+      shortname,
+      series: { shortname }
+    };
   }
 
   // Extract X and X.Y levels, with form "name-X" or "name-X.Y".
@@ -174,5 +184,5 @@ module.exports = function (url) {
   if (!url) {
     throw "No URL passed as parameter";
   }
-  return completeWithSeriesAndLevel(computeShortname(url));
+  return completeWithSeriesAndLevel(computeShortname(url), url);
 }

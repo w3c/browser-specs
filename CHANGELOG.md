@@ -4,6 +4,25 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.25.1](https://github.com/w3c/browser-specs/compare/1.25.0...1.25.1) - 2020-12-21
+
+### Merged
+
+- Fix version extraction for WebGL extensions and ECMA specs [`#225`](https://github.com/w3c/browser-specs/pull/225)
+- Use TR URL for Screen Fold API spec [`#224`](https://github.com/w3c/browser-specs/pull/224)
+- List new repos to be monitored [`#223`](https://github.com/w3c/browser-specs/pull/223)
+
+### Fixed
+
+- Fix version extraction for WebGL extensions and ECMA specs (#225) [`#221`](https://github.com/w3c/browser-specs/issues/221)
+- Use TR URL for Screen Fold API spec (#224) [`#222`](https://github.com/w3c/browser-specs/issues/222)
+
+### Commits
+
+- [data] Update spec info [`c7000aa`](https://github.com/w3c/browser-specs/commit/c7000aaf4e082534b458bc6a4ce7627d137c267e)
+- [data] Update spec info [`37eb0ad`](https://github.com/w3c/browser-specs/commit/37eb0ad3f52f4fe148a6a49d2d6adc750a9e5717)
+- [data] Update spec info [`f85a6c1`](https://github.com/w3c/browser-specs/commit/f85a6c17f94fdacf8456570be6a339aff89c1d8c)
+
 ## [1.25.0](https://github.com/w3c/browser-specs/compare/1.24.0...1.25.0) - 2020-12-18
 
 ### Merged

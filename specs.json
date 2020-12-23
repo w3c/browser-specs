@@ -48,7 +48,9 @@
     "url": "https://gpuweb.github.io/gpuweb/",
     "tests": {
       "repository": "https://github.com/gpuweb/cts",
-      "testPaths": ["src/webgpu"]
+      "testPaths": [
+        "src/webgpu"
+      ]
     }
   },
   {
@@ -77,8 +79,12 @@
     "shortTitle": "ECMAScript",
     "tests": {
       "repository": "https://github.com/tc39/test262",
-      "testPaths": ["test"],
-      "excludePaths": ["test/intl402"]
+      "testPaths": [
+        "test"
+      ],
+      "excludePaths": [
+        "test/intl402"
+      ]
     }
   },
   {
@@ -86,7 +92,9 @@
     "shortname": "ecma-402",
     "tests": {
       "repository": "https://github.com/tc39/test262",
-      "testPaths": ["test/intl402"]
+      "testPaths": [
+        "test/intl402"
+      ]
     }
   },
   "https://tc39.es/proposal-atomics-wait-async/",
@@ -232,7 +240,9 @@
     },
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
-      "testPaths": ["conformance-suites/1.0.3"]
+      "testPaths": [
+        "conformance-suites/1.0.3"
+      ]
     }
   },
   {
@@ -246,7 +256,9 @@
     },
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
-      "testPaths": ["conformance-suites/2.0.0"]
+      "testPaths": [
+        "conformance-suites/2.0.0"
+      ]
     }
   },
   "https://www.w3.org/TR/accelerometer/",
@@ -574,7 +586,9 @@
     "url": "https://www.w3.org/TR/wasm-core-1/",
     "tests": {
       "repository": "https://github.com/WebAssembly/spec/",
-      "testPaths": ["test/core"]
+      "testPaths": [
+        "test/core"
+      ]
     }
   },
   "https://www.w3.org/TR/wasm-js-api-1/",

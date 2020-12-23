@@ -14,6 +14,7 @@ const computeCurrentLevel = require("./compute-currentlevel.js");
 const computeRepository = require("./compute-repository.js");
 const computeShortTitle = require("./compute-shorttitle.js");
 const determineFilename = require("./determine-filename.js");
+const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const { w3cApiKey } = require("../config.json");
@@ -140,6 +141,9 @@ fetchInfo(specs, { w3cApiKey })
 
   // Complete with repository
   .then(index => computeRepository(index, { githubToken }))
+
+  // Complete with info on test suite
+  .then(index => determineTestPath(index, { githubToken }))
 
   // Complete with list of pages for multipage specs
   .then(index => Promise.all(

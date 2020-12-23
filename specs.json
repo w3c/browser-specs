@@ -44,7 +44,13 @@
   "https://drafts.fxtf.org/filter-effects-2/ delta",
   "https://fetch.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
-  "https://gpuweb.github.io/gpuweb/",
+  {
+    "url": "https://gpuweb.github.io/gpuweb/",
+    "tests": {
+      "repository": "https://github.com/gpuweb/cts",
+      "testPaths": ["src/webgpu"]
+    }
+  },
   {
     "url": "https://html.spec.whatwg.org/multipage/",
     "multipage": true,
@@ -68,11 +74,20 @@
   {
     "url": "https://tc39.es/ecma262/",
     "shortname": "ecmascript",
-    "shortTitle": "ECMAScript"
+    "shortTitle": "ECMAScript",
+    "tests": {
+      "repository": "https://github.com/tc39/test262",
+      "testPaths": ["test"],
+      "excludePaths": ["test/intl402"]
+    }
   },
   {
     "url": "https://tc39.es/ecma402/",
-    "shortname": "ecma-402"
+    "shortname": "ecma-402",
+    "tests": {
+      "repository": "https://github.com/tc39/test262",
+      "testPaths": ["test/intl402"]
+    }
   },
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-class-fields/",
@@ -214,6 +229,10 @@
     },
     "nightly": {
       "sourcePath": "specs/latest/1.0/index.html"
+    },
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": ["conformance-suites/1.0.3"]
     }
   },
   {
@@ -224,6 +243,10 @@
     },
     "nightly": {
       "sourcePath": "specs/latest/2.0/index.html"
+    },
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": ["conformance-suites/2.0.0"]
     }
   },
   "https://www.w3.org/TR/accelerometer/",
@@ -547,7 +570,13 @@
   "https://www.w3.org/TR/user-timing-3/",
   "https://www.w3.org/TR/vibration/",
   "https://www.w3.org/TR/wai-aria-1.2/",
-  "https://www.w3.org/TR/wasm-core-1/",
+  {
+    "url": "https://www.w3.org/TR/wasm-core-1/",
+    "tests": {
+      "repository": "https://github.com/WebAssembly/spec/",
+      "testPaths": ["test/core"]
+    }
+  },
   "https://www.w3.org/TR/wasm-js-api-1/",
   "https://www.w3.org/TR/wasm-web-api-1/",
   "https://www.w3.org/TR/web-animations-1/",

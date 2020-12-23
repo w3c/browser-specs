@@ -67,6 +67,11 @@ full is the default).
     **and** when it cannot be fixed at the source.
   - The code cannot compute the right [`sourcePath`](README.md#nightlysourcepath)
     because the source file of the nightly spec does not follow a common pattern.
+- `tests`: same as the [`tests`](README.md#tests) property in `index.json`. The
+property must only be set when:
+  - The test suite of the specification is not in a well-known repository.
+  - The code cannot determine the correct list of [`testPaths`](README.md#teststestpaths)
+    and/or [`excludePaths`](README.md#testsexcludepaths).
 - `shortTitle`: same as the [`shortTitle`](README.md#shorttitle) property in
 `index.json`. The property must only be set when the short title computed
 automatically is not the expected one.

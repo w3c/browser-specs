@@ -86,6 +86,25 @@
         "repository": { "$ref": "#/proptype/url" }
       },
       "additionalProperties": false
+    },
+
+    "tests": {
+      "type": "object",
+      "properties": {
+        "repository": { "$ref": "#/proptype/url" },
+        "testPaths": {
+          "type": "array",
+          "items": { "$ref": "#/proptype/relativePath" },
+          "minItems": 1
+        },
+        "excludePaths": {
+          "type": "array",
+          "items": { "$ref": "#/proptype/relativePath" },
+          "minItems": 1
+        }
+      },
+      "required": ["repository"],
+      "additionalProperties": false
     }
   }
 }

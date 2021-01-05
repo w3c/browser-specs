@@ -4,6 +4,17 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.26.0](https://github.com/w3c/browser-specs/compare/1.25.1...1.26.0) - 2021-01-05
+
+### Merged
+
+- Expose test repository and paths for each spec [`#227`](https://github.com/w3c/browser-specs/pull/227)
+- Update review date of monitored specs [`#228`](https://github.com/w3c/browser-specs/pull/228)
+
+### Commits
+
+- [data] Update spec info [`1609274`](https://github.com/w3c/browser-specs/commit/1609274bfd26236dd9341b51a21979ef414ed35f)
+
 ## [1.25.1](https://github.com/w3c/browser-specs/compare/1.25.0...1.25.1) - 2020-12-21
 
 ### Merged

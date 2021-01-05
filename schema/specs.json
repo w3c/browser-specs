@@ -18,6 +18,7 @@
           "seriesVersion": { "$ref": "definitions.json#/proptype/seriesVersion" },
           "seriesComposition": { "$ref": "definitions.json#/proptype/seriesComposition" },
           "nightly": { "$ref": "definitions.json#/proptype/nightly" },
+          "tests": { "$ref": "definitions.json#/proptype/tests" },
           "shortTitle": { "$ref": "definitions.json#/proptype/title" },
           "forceCurrent": { "type": "boolean" },
           "multipage": { "type": "boolean" }

@@ -14,6 +14,7 @@
       "seriesPrevious": { "$ref": "definitions.json#/proptype/shortname" },
       "seriesNext": { "$ref": "definitions.json#/proptype/shortname" },
       "nightly": { "$ref": "definitions.json#/proptype/nightly" },
+      "tests": { "$ref": "definitions.json#/proptype/tests" },
       "release": { "$ref": "definitions.json#/proptype/release" },
       "title": { "$ref": "definitions.json#/proptype/title" },
       "shortTitle": { "$ref": "definitions.json#/proptype/title" },

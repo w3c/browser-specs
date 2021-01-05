@@ -34,6 +34,10 @@ cross-references, WebIDL, quality, etc.
     - [`nightly.pages`](#nightlypages)
     - [`nightly.repository`](#nightlyrepository)
     - [`nightly.sourcePath`](#nightlysourcepath)
+  - [`tests`](#tests)
+    - [`tests.repository`](#testsrepository)
+    - [`tests.testPaths`](#teststestpaths)
+    - [`tests.excludePaths`](#testsexcludepaths)
   - [`source`](#source)
 - [How to add/update/delete a spec](#how-to-addupdatedelete-a-spec)
 - [Spec selection criteria](#spec-selection-criteria)
@@ -97,6 +101,10 @@ Each specification in the list comes with the following properties:
     "repository": "https://github.com/w3c/csswg-drafts",
     "filename": "Overview.html",
     "sourcePath": "css-color-4/Overview.bs"
+  },
+  "tests": {
+    "repository": "https://github.com/web-platform-tests/wpt",
+    "testPaths": ["css/css-color"]
   },
   "source": "w3c"
 }
@@ -312,6 +320,47 @@ The `sourcePath` property is always set.
 **Note:** The path is relative to the root of the repository, and only valid in
 the default branch of the repository. If needed, the source may be fetched from
 the absolute HTTPS URL `${nightly.repository}/blob/HEAD/${nightly.sourcePath}`.
+
+
+### `tests`
+
+An object that links the specification with its test suite when it has one.
+
+
+#### `tests.repository`
+
+The URL of the repository that contains the test suite of the specification,
+typically `https://github.com/web-platform-tests/wpt`.
+
+The `repository` property is always set when the `tests` object is present.
+
+#### `tests.testPaths`
+
+The list of relative paths to the actual tests at the HEAD of the default branch
+of the test repository.
+
+For test suites within [Web Platform
+Tests](https://github.com/web-platform-tests/wpt), the list is determined by
+looking at `META.yml` files within each folder.
+
+The `testPaths` array typically only contains one entry, but tests of a given
+spec are sometimes spread over multiple folders. For instance, that is the case
+for DOM and HTML tests.
+
+The `testPaths` property is usually set when the `tests` object is present. When
+absent, that means that the entire repository is the test suite.
+
+#### `tests.excludePaths`
+
+The list of relative sub-paths of paths listed in the `testPaths` property that
+do not contain tests for the underlying spec. For instance, tests for the
+WebXR Device API are under the
+[`webxr`](https://github.com/web-platform-tests/wpt/tree/master/webxr) folder,
+but several folders under `webxr` actually contain test suites for WebXR module
+specs and as such need to be excluded from the test suite of the WebXR Device
+API spec.
+
+The `excludePaths` property is seldom set.
 
 
 ### `source`

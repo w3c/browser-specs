@@ -137,18 +137,7 @@ module.exports = async function (specs, options) {
     };
 
     if (spec.tests) {
-      if (spec.tests.repository) {
-        info.repository = spec.tests.repository;
-      }
-
-      if (spec.tests.testPaths) {
-        const testPaths = spec.tests.testPaths;
-        info.testPaths = testPaths;
-        if (spec.tests.excludePaths) {
-          info.excludePaths = spec.tests.excludePaths;
-        }
-      }
-      return info;
+      return Object.assign(info, spec.tests);
     }
 
     if (spec.url.startsWith("https://www.khronos.org/")) {

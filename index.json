@@ -9562,7 +9562,7 @@
     },
     "release": {
       "url": "https://www.w3.org/TR/webaudio/",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "nightly": {
       "url": "https://webaudio.github.io/web-audio-api/",

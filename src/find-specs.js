@@ -15,19 +15,7 @@ const monitorList = require("./data/monitor.json");
 
 const {repos: temporarilyIgnorableRepos, specs: temporarilyIgnorableSpecs} = monitorList;
 
-const nonBrowserSpecWgs = [
-  "Accessibility Guidelines Working Group",
-  "Accessible Platform Architectures Working Group",
-  "Audiobooks Working Group",
-  "Automotive Working Group",
-  "Dataset Exchange Working Group",
-  "Decentralized Identifier Working Group",
-  "Distributed Tracing Working Group",
-  "Education and Outreach Working Group",
-  "JSON-LD Working Group",
-  "Verifiable Credentials Working Group",
-  "Web of Things Working Group"
-];
+const nonBrowserSpecWgs = Object.keys(ignorable.groups);
 const watchedBrowserCgs = [
   "Web Platform Incubator Community Group",
   "Web Assembly Community Group",

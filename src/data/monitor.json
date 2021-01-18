@@ -271,6 +271,10 @@
     "WICG/WebApiDevice": {
       "lastreviewed": "2021-01-01",
       "comment": "no published content yet"
+    },
+    "immersive-web/WebXR-WebGPU-Binding": {
+      "lastreviewed": "2021-01-18",
+      "comment": "no published content yet"
     }
   },
   "specs": {

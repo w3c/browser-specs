@@ -275,6 +275,10 @@
     "immersive-web/WebXR-WebGPU-Binding": {
       "lastreviewed": "2021-01-18",
       "comment": "no published content yet"
+    },
+    "WICG/uuid": {
+      "lastreviewed": "2021-01-18",
+      "comment": "early exploration"
     }
   },
   "specs": {

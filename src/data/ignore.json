@@ -1,4 +1,42 @@
 {
+  "groups": {
+    "Accessibility Guidelines Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Accessible Platform Architectures Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Audiobooks Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Automotive Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Dataset Exchange Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Decentralized Identifier Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Distributed Tracing Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Education and Outreach Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "EPUB 3 Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "JSON-LD Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Verifiable Credentials Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
+    "Web of Things Working Group": {
+      "comment": "specs not targeted at browsers"
+    }
+  },
   "repos": {
     "w3c/adpt": {
       "comment": "not targeted at browsers"
@@ -119,9 +157,6 @@
     },
     "WICG/media-source": {
       "comment": "Merged back into main spec in the Media WG"
-    },
-    "w3c/epub-specs": {
-      "comment": "not targeted at browsers"
     },
     "WICG/reducing-memory-copies": {
       "comment": "not for spec"

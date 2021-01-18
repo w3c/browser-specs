@@ -4,6 +4,22 @@
 
   "type": "object",
   "properties": {
+    "groups": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "comment": {
+            "type": "string"
+          }
+        },
+        "required": ["comment"],
+        "additionalProperties": false
+      }
+    },
     "repos": {
       "type": "object",
       "propertyNames": {

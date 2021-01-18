@@ -15,19 +15,7 @@ const monitorList = require("./data/monitor.json");
 
 const {repos: temporarilyIgnorableRepos, specs: temporarilyIgnorableSpecs} = monitorList;
 
-const nonBrowserSpecWgs = [
-  "Accessibility Guidelines Working Group",
-  "Accessible Platform Architectures Working Group",
-  "Audiobooks Working Group",
-  "Automotive Working Group",
-  "Dataset Exchange Working Group",
-  "Decentralized Identifier Working Group",
-  "Distributed Tracing Working Group",
-  "Education and Outreach Working Group",
-  "JSON-LD Working Group",
-  "Verifiable Credentials Working Group",
-  "Web of Things Working Group"
-];
+const nonBrowserSpecWgs = Object.keys(ignorable.groups);
 const watchedBrowserCgs = [
   "Web Platform Incubator Community Group",
   "Web Assembly Community Group",
@@ -59,7 +47,10 @@ function canonicalizeTRUrl(url) {
 const toGhUrl = repo => { return {repo: `${repo.owner.login}/${repo.name}`, spec: `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`}; };
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
-const isInScope = ({spec: url}) => !Object.keys(ignorable.specs).includes(url) && !Object.keys(temporarilyIgnorableSpecs).includes(url);
+const isInScope = ({spec: url, repo: fullName}) =>
+  !Object.keys(ignorable.specs).includes(url) &&
+  !Object.keys(temporarilyIgnorableSpecs).includes(url) &&
+  isRelevantRepo(fullName);
 // Set loose parameter when checking loosely if another version exists
 const hasMoreRecentLevel = (s, url, loose) => {
   try {
@@ -113,7 +104,6 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   // WGs
   // * check repos with w3c.json/repo-type including rec-track
   const wgRepos = wgs.map(g => g.repos.map(r => r.fullName)).flat()
-        .filter(isRelevantRepo)
         .map(fullName => repos.find(matchRepoName(fullName)));
   const recTrackRepos = wgRepos.filter(hasRepoType('rec-track'));
 
@@ -142,7 +132,6 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   // CGs
   //check repos with w3c.json/repo-type includes cg-report or with no w3c.json
   const cgRepos = cgs.map(g => g.repos.map(r => r.fullName)).flat()
-        .filter(isRelevantRepo)
         .map(fullName => repos.find(matchRepoName(fullName)));
 
   const cgSpecRepos = cgRepos.filter(r => !r.w3c

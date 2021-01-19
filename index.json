@@ -181,13 +181,13 @@
     "shortTitle": "CSS Cascading 5",
     "seriesPrevious": "css-cascade-4",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-cascade-5/",
+      "url": "https://drafts.csswg.org/css-cascade/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-cascade-5/Overview.bs",
       "filename": "Overview.html"
     },
     "title": "CSS Cascading and Inheritance Level 5",
-    "source": "spec",
+    "source": "specref",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

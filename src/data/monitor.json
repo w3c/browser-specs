@@ -8,10 +8,6 @@
       "comment": "still early draft",
       "lastreviewed": "2021-01-01"
     },
-    "WICG/datacue": {
-      "comment": "mostly TODOs",
-      "lastreviewed": "2021-01-01"
-    },
     "WICG/document-policy": {
       "comment": "no implementation yet",
       "lastreviewed": "2021-01-01"

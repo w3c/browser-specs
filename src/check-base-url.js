@@ -18,7 +18,7 @@ const problems = specs
   .map(s => {
     const expected = s.release ? "release" : "nightly";
     const expectedUrl = s.release ? s.release.url : s.nightly.url;
-    return `- [ ] [${s.title}](${s.url}): expected ${expected} URL ${expectedUrl} but base URL is ${s.url}`;
+    return `- [ ] [${s.title}](${s.url}): expected ${expected} URL ${expectedUrl} to match base URL ${s.url}`;
   });
 
 if (problems.length > 0) {

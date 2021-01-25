@@ -4,6 +4,25 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.27.0](https://github.com/w3c/browser-specs/compare/1.26.0...1.27.0) - 2021-01-25
+
+### Merged
+
+- Add DataCue API [`#233`](https://github.com/w3c/browser-specs/pull/233)
+- Fix title and improve description for base URL issue [`#236`](https://github.com/w3c/browser-specs/pull/236)
+- Always check repo against ignore/monitor lists [`#232`](https://github.com/w3c/browser-specs/pull/232)
+- Add UUID incubation to monitor list [`#231`](https://github.com/w3c/browser-specs/pull/231)
+- Add WebXR-WebGPU Binding repo to monitor list [`#230`](https://github.com/w3c/browser-specs/pull/230)
+
+### Commits
+
+- [data] Update spec info [`62f8f3a`](https://github.com/w3c/browser-specs/commit/62f8f3a5a62cb2583184082e893671c1e23ececb)
+- [data] Update spec info [`b1c3d4d`](https://github.com/w3c/browser-specs/commit/b1c3d4df4d98774ff02d1e1d645531cf819a1541)
+- Update URL of CSS Cascading Level 5 [`619ac91`](https://github.com/w3c/browser-specs/commit/619ac91d8828b95b660c69a70647b0610d2154d8)
+- Add Web Audio API 2 repo to monitor list [`1e54a5c`](https://github.com/w3c/browser-specs/commit/1e54a5c32eb1ea23f38cf04cff803d0120559649)
+- [data] Update spec info [`26c5efa`](https://github.com/w3c/browser-specs/commit/26c5efaa263556b22efcbd36029ab6232b8bcb1c)
+- [data] Update spec info [`30aa7e1`](https://github.com/w3c/browser-specs/commit/30aa7e1f8544c4682375d698ae4701422f09b586)
+
 ## [1.26.0](https://github.com/w3c/browser-specs/compare/1.25.1...1.26.0) - 2021-01-05
 
 ### Merged

@@ -11,10 +11,6 @@
   "https://drafts.css-houdini.org/font-metrics-api-1/",
   "https://drafts.csswg.org/css-animations-2/ delta",
   "https://drafts.csswg.org/css-backgrounds-4/ delta",
-  {
-    "url": "https://drafts.csswg.org/css-cascade-5/",
-    "shortTitle": "CSS Cascading 5"
-  },
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
   {
@@ -296,6 +292,10 @@
   {
     "url": "https://www.w3.org/TR/css-cascade-4/",
     "shortTitle": "CSS Cascading 4"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-cascade-5/",
+    "shortTitle": "CSS Cascading 5"
   },
   "https://www.w3.org/TR/css-color-4/",
   "https://www.w3.org/TR/css-color-5/ delta",

@@ -170,32 +170,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-cascade-5/",
-    "seriesComposition": "full",
-    "shortname": "css-cascade-5",
-    "series": {
-      "shortname": "css-cascade",
-      "currentSpecification": "css-cascade-4"
-    },
-    "seriesVersion": "5",
-    "shortTitle": "CSS Cascading 5",
-    "seriesPrevious": "css-cascade-4",
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-cascade/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-cascade-5/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Cascading and Inheritance Level 5",
-    "source": "specref",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-cascade"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-env-1/",
     "seriesComposition": "full",
     "shortname": "css-env-1",
@@ -4598,6 +4572,36 @@
       "filename": "Overview.html"
     },
     "title": "CSS Cascading and Inheritance Level 4",
+    "source": "w3c",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-cascade"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-cascade-5/",
+    "seriesComposition": "full",
+    "shortname": "css-cascade-5",
+    "series": {
+      "shortname": "css-cascade",
+      "currentSpecification": "css-cascade-4"
+    },
+    "seriesVersion": "5",
+    "shortTitle": "CSS Cascading 5",
+    "seriesPrevious": "css-cascade-4",
+    "release": {
+      "url": "https://www.w3.org/TR/css-cascade-5/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-cascade/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-cascade-5/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Cascading and Inheritance Level 5",
     "source": "w3c",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",

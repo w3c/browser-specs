@@ -1778,6 +1778,24 @@
     }
   },
   {
+    "url": "https://wicg.github.io/datacue/",
+    "seriesComposition": "full",
+    "shortname": "datacue",
+    "series": {
+      "shortname": "datacue",
+      "currentSpecification": "datacue"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/datacue/",
+      "repository": "https://github.com/WICG/datacue",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "DataCue API",
+    "source": "spec",
+    "shortTitle": "DataCue API"
+  },
+  {
     "url": "https://wicg.github.io/deprecation-reporting/",
     "seriesComposition": "full",
     "shortname": "deprecation-reporting",

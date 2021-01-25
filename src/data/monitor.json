@@ -279,6 +279,10 @@
     "WICG/uuid": {
       "lastreviewed": "2021-01-18",
       "comment": "early exploration"
+    },
+    "WebAudio/web-audio-api-v2": {
+      "lastreviewed": "2021-01-25",
+      "comment": "no spec yet"
     }
   },
   "specs": {

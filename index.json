@@ -88,9 +88,9 @@
       "sourcePath": "css-typed-om-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Typed OM Level 2",
+    "title": "Index of css-typed-om-2/",
     "source": "spec",
-    "shortTitle": "CSS Typed OM 2",
+    "shortTitle": "Index of css-typed-om-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -113,9 +113,9 @@
       "sourcePath": "font-metrics-api/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Font Metrics API Level 1",
+    "title": "Index of font-metrics-api/",
     "source": "spec",
-    "shortTitle": "Font Metrics API 1"
+    "shortTitle": "Index of font-metrics-api/"
   },
   {
     "url": "https://drafts.csswg.org/css-animations-2/",

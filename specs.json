@@ -96,6 +96,8 @@
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-class-fields/",
   "https://tc39.es/proposal-import-assertions/",
+  "https://tc39.es/proposal-json-modules/",
+  "https://tc39.es/proposal-private-fields-in-in/",
   "https://tc39.es/proposal-private-methods/",
   "https://tc39.es/proposal-regexp-match-indices/",
   "https://tc39.es/proposal-relative-indexing-method/",

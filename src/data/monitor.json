@@ -1,5 +1,9 @@
 {
   "repos": {
+    "w3c/PFE": {
+      "comment": "stub spec only",
+      "lastreviewed": "2021-02-01"
+    },
     "w3c/merchant-validation": {
       "comment": "Unofficial draft",
       "lastreviewed": "2021-01-01"

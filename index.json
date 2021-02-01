@@ -1064,6 +1064,42 @@
     "shortTitle": "import assertions"
   },
   {
+    "url": "https://tc39.es/proposal-json-modules/",
+    "seriesComposition": "full",
+    "shortname": "tc39-json-modules",
+    "series": {
+      "shortname": "tc39-json-modules",
+      "currentSpecification": "tc39-json-modules"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-json-modules/",
+      "repository": "https://github.com/tc39/proposal-json-modules",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "JSON modules",
+    "source": "spec",
+    "shortTitle": "JSON modules"
+  },
+  {
+    "url": "https://tc39.es/proposal-private-fields-in-in/",
+    "seriesComposition": "full",
+    "shortname": "tc39-private-fields-in-in",
+    "series": {
+      "shortname": "tc39-private-fields-in-in",
+      "currentSpecification": "tc39-private-fields-in-in"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-private-fields-in-in/",
+      "repository": "https://github.com/tc39/proposal-private-fields-in-in",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Private Fields in in",
+    "source": "spec",
+    "shortTitle": "Private Fields in in"
+  },
+  {
     "url": "https://tc39.es/proposal-private-methods/",
     "seriesComposition": "full",
     "shortname": "tc39-private-methods",

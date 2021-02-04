@@ -1947,7 +1947,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "native-file-system"
+        "file-system-access"
       ]
     }
   },

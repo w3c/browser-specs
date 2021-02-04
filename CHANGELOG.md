@@ -4,6 +4,27 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.28.0](https://github.com/w3c/browser-specs/compare/1.27.0...1.28.0) - 2021-02-04
+
+### Merged
+
+- Add two new stage 3 TC39 proposals, add PFE to monitor list [`#240`](https://github.com/w3c/browser-specs/pull/240)
+
+### Commits
+
+- [data] Update spec info [`ac571bc`](https://github.com/w3c/browser-specs/commit/ac571bc1ef5e608946450cf49c84d79ef17d1634)
+- [data] Update spec info [`dbaa223`](https://github.com/w3c/browser-specs/commit/dbaa223adfe0cdebceb0d9cf3f2e0f026d9f1a47)
+- [data] Update spec info [`e4061ff`](https://github.com/w3c/browser-specs/commit/e4061ff0a70528a51091462d1c3f1f0a526a63f9)
+- [data] Update spec info [`ea31284`](https://github.com/w3c/browser-specs/commit/ea31284ac23ae73c30890ff0d6d3cb0ad96ad098)
+- [data] Update spec info [`5e0cbdf`](https://github.com/w3c/browser-specs/commit/5e0cbdf1fcfc404e8751866c693f13be8ac13c60)
+- [data] Update spec info [`7b389bf`](https://github.com/w3c/browser-specs/commit/7b389bf6478f78726659f9018937d725f6aa5955)
+- [data] Update spec info [`1383c11`](https://github.com/w3c/browser-specs/commit/1383c1161b72d534e862298e09467933b127b7f1)
+- [data] Update spec info [`c1c9b22`](https://github.com/w3c/browser-specs/commit/c1c9b22eddd9d76d6cae00deffe2bfe47f177c91)
+- [data] Update spec info [`109eec8`](https://github.com/w3c/browser-specs/commit/109eec885a687d7b4f06173583a1bbf9ccd16b04)
+- [data] Update spec info [`35d5c72`](https://github.com/w3c/browser-specs/commit/35d5c721c6457f128646533ed23ad436b6fe0b38)
+- [data] Update spec info [`1b2aada`](https://github.com/w3c/browser-specs/commit/1b2aadab4b8900faac3019f4f52df0235dbd6fdb)
+- [data] Update spec info [`d3cdf32`](https://github.com/w3c/browser-specs/commit/d3cdf321d2900eff32077dc6f083d596b7858b9f)
+
 ## [1.27.0](https://github.com/w3c/browser-specs/compare/1.26.0...1.27.0) - 2021-01-25
 
 ### Merged

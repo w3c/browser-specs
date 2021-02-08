@@ -283,6 +283,10 @@
     "WebAudio/web-audio-api-v2": {
       "lastreviewed": "2021-01-25",
       "comment": "no spec yet"
+    },
+    "WICG/app-history": {
+      "lastreviewed": "2021-02-08",
+      "comment": "no spec yet"
     }
   },
   "specs": {

@@ -146,6 +146,9 @@
     "w3c/webrtc-provisional-stats": {
       "comment": "pre-landing spec for proposals - actual stats gets integrated into webrtc-stats"
     },
+    "gpuweb/types": {
+      "comment": "not for spec"
+    },
     "gpuweb/WSL" :{
       "comment": "no longer under consideration"
     },

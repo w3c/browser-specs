@@ -330,6 +330,14 @@
       "comment": "Marked as collection of ideas, no clear implementation plans yet",
       "lastreviewed": "2021-01-01"
     },
+    "https://drafts.csswg.org/css-conditional-values-1/": {
+      "comment": "Marked as not ready for implementation",
+      "lastreviewed": "2021-02-15"
+    },
+    "https://drafts.csswg.org/css-fonts-5/": {
+      "comment": "Marked as not ready for implementation",
+      "lastreviewed": "2021-02-15"
+    },
     "https://immersive-web.github.io/lighting-estimation/": {
       "comment": "Early proposal, no clear implementation plans",
       "lastreviewed": "2021-01-01"

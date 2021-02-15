@@ -2008,7 +2008,7 @@
       "filename": "index.html"
     },
     "title": "Idle Detection API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Idle Detection API",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",

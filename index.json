@@ -7369,9 +7369,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "\"MediaStream Image Capture\"",
+    "title": "MediaStream Image Capture",
     "source": "w3c",
-    "shortTitle": "\"MediaStream Image Capture\"",
+    "shortTitle": "MediaStream Image Capture",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

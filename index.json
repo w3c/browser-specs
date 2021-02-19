@@ -658,6 +658,10 @@
         "worklets",
         "x-frame-options",
         "xslt"
+      ],
+      "excludePaths": [
+        "html/cross-origin-embedder-policy/credentialless",
+        "html/cross-origin-embedder-policy/credentialless"
       ]
     }
   },

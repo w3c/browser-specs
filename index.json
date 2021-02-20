@@ -4266,7 +4266,7 @@
     "nightly": {
       "url": "https://w3c.github.io/webappsec-credential-management/",
       "repository": "https://github.com/w3c/webappsec-credential-management",
-      "sourcePath": "index.src.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Credential Management Level 1",

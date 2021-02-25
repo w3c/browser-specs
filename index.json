@@ -514,6 +514,7 @@
         "fetch"
       ],
       "excludePaths": [
+        "fetch/cors-rfc1918",
         "fetch/metadata"
       ]
     }
@@ -1747,7 +1748,8 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "cors-rfc1918"
+        "cors-rfc1918",
+        "fetch/cors-rfc1918"
       ]
     }
   },

@@ -291,6 +291,10 @@
     "WICG/scheduling-apis": {
       "lastreviewed": "2021-02-15",
       "comment": "no published content yet"
+    },
+    "WICG/resource-bundles": {
+      "lastreviewed": "2021-03-01",
+      "comment": "no published content yet"
     }
   },
   "specs": {

@@ -4330,7 +4330,7 @@
     "nightly": {
       "url": "https://w3c.github.io/webappsec-csp/",
       "repository": "https://github.com/w3c/webappsec-csp",
-      "sourcePath": "index.src.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Content Security Policy Level 3",

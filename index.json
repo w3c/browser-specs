@@ -691,6 +691,24 @@
     }
   },
   {
+    "url": "https://immersive-web.github.io/depth-sensing/",
+    "seriesComposition": "full",
+    "shortname": "depth-sensing",
+    "series": {
+      "shortname": "depth-sensing",
+      "currentSpecification": "depth-sensing"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/depth-sensing/",
+      "repository": "https://github.com/immersive-web/depth-sensing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR Depth Sensing Module",
+    "source": "spec",
+    "shortTitle": "WebXR Depth Sensing"
+  },
+  {
     "url": "https://immersive-web.github.io/dom-overlays/",
     "seriesComposition": "full",
     "shortname": "dom-overlays",
@@ -737,6 +755,24 @@
         "webxr/hit-test"
       ]
     }
+  },
+  {
+    "url": "https://immersive-web.github.io/lighting-estimation/",
+    "seriesComposition": "full",
+    "shortname": "lighting-estimation",
+    "series": {
+      "shortname": "lighting-estimation",
+      "currentSpecification": "lighting-estimation"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/lighting-estimation/",
+      "repository": "https://github.com/immersive-web/lighting-estimation",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR Lighting Estimation API Level 1",
+    "source": "spec",
+    "shortTitle": "WebXR Lighting Estimation API 1"
   },
   {
     "url": "https://infra.spec.whatwg.org/",
@@ -1937,6 +1973,24 @@
         "file-system-access"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/floc/",
+    "seriesComposition": "full",
+    "shortname": "floc",
+    "series": {
+      "shortname": "floc",
+      "currentSpecification": "floc"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/floc/",
+      "repository": "https://github.com/WICG/floc",
+      "sourcePath": "floc.bs",
+      "filename": "index.html"
+    },
+    "title": "Federated Learning of Cohorts",
+    "source": "spec",
+    "shortTitle": "Federated Learning of Cohorts"
   },
   {
     "url": "https://wicg.github.io/frame-timing/",

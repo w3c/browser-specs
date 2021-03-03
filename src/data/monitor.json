@@ -232,10 +232,6 @@
       "lastreviewed": "2021-03-01",
       "comment": "no published content yet"
     },
-    "immersive-web/depth-sensing": {
-      "lastreviewed": "2021-03-01",
-      "comment": "no published content yet"
-    },
     "WICG/canvas-formatted-text": {
       "lastreviewed": "2021-03-01",
       "comment": "no published content yet"
@@ -261,10 +257,6 @@
       "comment": "no published content yet"
     },
     "immersive-web/marker-tracking": {
-      "lastreviewed": "2021-03-01",
-      "comment": "no published content yet"
-    },
-    "WICG/floc": {
       "lastreviewed": "2021-03-01",
       "comment": "no published content yet"
     },
@@ -336,10 +328,6 @@
     },
     "https://drafts.csswg.org/css-fonts-5/": {
       "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2021-03-01"
-    },
-    "https://immersive-web.github.io/lighting-estimation/": {
-      "comment": "Early proposal, no clear implementation plans",
       "lastreviewed": "2021-03-01"
     }
   }

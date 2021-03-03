@@ -57,8 +57,10 @@
     }
   },
   "https://immersive-web.github.io/anchors/",
+  "https://immersive-web.github.io/depth-sensing/",
   "https://immersive-web.github.io/dom-overlays/",
   "https://immersive-web.github.io/hit-test/",
+  "https://immersive-web.github.io/lighting-estimation/",
   "https://infra.spec.whatwg.org/",
   "https://mathml-refresh.github.io/mathml-core/",
   "https://mimesniff.spec.whatwg.org/",
@@ -140,6 +142,7 @@
   "https://wicg.github.io/entries-api/",
   "https://wicg.github.io/event-timing/",
   "https://wicg.github.io/file-system-access/",
+  "https://wicg.github.io/floc/",
   "https://wicg.github.io/frame-timing/",
   "https://wicg.github.io/get-installed-related-apps/spec/",
   "https://wicg.github.io/idle-detection/",

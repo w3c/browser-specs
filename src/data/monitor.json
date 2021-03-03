@@ -345,6 +345,10 @@
     "https://immersive-web.github.io/lighting-estimation/": {
       "comment": "Early proposal, no clear implementation plans",
       "lastreviewed": "2021-01-01"
+    },
+    "https://drafts.csswg.org/css-contain-3/": {
+      "comment": "Marked as Exploratory Working Draft and empty for now",
+      "lastreviewed": "2021-03-03"
     }
   }
 }

@@ -4,6 +4,23 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.29.0](https://github.com/w3c/browser-specs/compare/1.28.1...1.29.0) - 2021-03-03
+
+### Merged
+
+- Add 2 WebXR specs and FLoC to list, update monitored specs [`#249`](https://github.com/w3c/browser-specs/pull/249)
+- Rename CORS RFC1918 to Private Network Access [`#252`](https://github.com/w3c/browser-specs/pull/252)
+
+### Fixed
+
+- Rename CORS RFC1918 to Private Network Access (#252) [`#250`](https://github.com/w3c/browser-specs/issues/250)
+
+### Commits
+
+- [data] Update spec info [`8db2f07`](https://github.com/w3c/browser-specs/commit/8db2f076d85eb144c99bd807a011e7146eb261c6)
+- [data] Update spec info [`25b36e8`](https://github.com/w3c/browser-specs/commit/25b36e887cd5710a8cf281a6468c29eea13c1c09)
+- [data] Update spec info [`6deecc1`](https://github.com/w3c/browser-specs/commit/6deecc1b581461fed730c1be12fddd507aa8484f)
+
 ## [1.28.1](https://github.com/w3c/browser-specs/compare/1.28.0...1.28.1) - 2021-03-02
 
 ### Merged

@@ -514,8 +514,8 @@
         "fetch"
       ],
       "excludePaths": [
-        "fetch/cors-rfc1918",
-        "fetch/metadata"
+        "fetch/metadata",
+        "fetch/private-network-access"
       ]
     }
   },
@@ -1750,13 +1750,7 @@
     },
     "title": "CORS and RFC1918",
     "source": "specref",
-    "shortTitle": "CORS and RFC1918",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "fetch/cors-rfc1918"
-      ]
-    }
+    "shortTitle": "CORS and RFC1918"
   },
   {
     "url": "https://wicg.github.io/crash-reporting/",
@@ -4048,9 +4042,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Web App Manifest",
+    "title": "Web Application Manifest",
     "source": "w3c",
-    "shortTitle": "Web App Manifest",
+    "shortTitle": "Web Application Manifest",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

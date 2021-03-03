@@ -283,6 +283,10 @@
     "WICG/scheduling-apis": {
       "lastreviewed": "2021-03-01",
       "comment": "no published content yet"
+    },
+    "WICG/resource-bundles": {
+      "lastreviewed": "2021-03-01",
+      "comment": "no published content yet"
     }
   },
   "specs": {
@@ -329,6 +333,10 @@
     "https://drafts.csswg.org/css-fonts-5/": {
       "comment": "Marked as not ready for implementation",
       "lastreviewed": "2021-03-01"
+    },
+    "https://drafts.csswg.org/css-contain-3/": {
+      "comment": "Marked as Exploratory Working Draft and empty for now",
+      "lastreviewed": "2021-03-03"
     }
   }
 }

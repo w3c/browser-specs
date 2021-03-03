@@ -4,6 +4,27 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.28.1](https://github.com/w3c/browser-specs/compare/1.28.0...1.28.1) - 2021-03-02
+
+### Merged
+
+- Add WICG/resource-bundles to monitor list [`#251`](https://github.com/w3c/browser-specs/pull/251)
+- Add CSS Conditional Values and CSS Fonts 5 to monitor list [`#245`](https://github.com/w3c/browser-specs/pull/245)
+- Add Scheduling APIs to monitor list [`#244`](https://github.com/w3c/browser-specs/pull/244)
+- Add WICG/app-history to monitor list, ignore gpuweb/types [`#242`](https://github.com/w3c/browser-specs/pull/242)
+
+### Commits
+
+- [data] Update spec info [`d9f2018`](https://github.com/w3c/browser-specs/commit/d9f201887282b9c98dc505d030acb86a5cbbeef0)
+- [data] Update spec info [`a07a497`](https://github.com/w3c/browser-specs/commit/a07a497a641af1bd8956228ed674db8405de8cd9)
+- [data] Update spec info [`7987882`](https://github.com/w3c/browser-specs/commit/79878824731b64a9bc7bc0ee01725696446d64e6)
+- [data] Update spec info [`b976f6b`](https://github.com/w3c/browser-specs/commit/b976f6b4322093f379be24fba8108a4f8e4a3976)
+- [data] Update spec info [`1acdd7a`](https://github.com/w3c/browser-specs/commit/1acdd7a844ff1037171099f86f784995deec5cd9)
+- [data] Update spec info [`e64573e`](https://github.com/w3c/browser-specs/commit/e64573e221d0d57f54e051413c20064a399b47f9)
+- [data] Update spec info [`4dbf012`](https://github.com/w3c/browser-specs/commit/4dbf012282c55af41cf2db667d0e6be4c1b768ba)
+- [data] Update spec info [`8a644d3`](https://github.com/w3c/browser-specs/commit/8a644d3abd20b2456070f375757ad797dfcd5fff)
+- [data] Update spec info [`e7a065e`](https://github.com/w3c/browser-specs/commit/e7a065ef8b4c55f5056842881a82725fe24bc658)
+
 ## [1.28.0](https://github.com/w3c/browser-specs/compare/1.27.0...1.28.0) - 2021-02-04
 
 ### Merged

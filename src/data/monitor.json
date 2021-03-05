@@ -337,6 +337,22 @@
     "https://drafts.csswg.org/css-contain-3/": {
       "comment": "Marked as Exploratory Working Draft and empty for now",
       "lastreviewed": "2021-03-03"
+    },
+    "https://svgwg.org/specs/markers/": {
+      "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
+      "lastreviewed": "2021-03-05"
+    },
+    "https://www.w3.org/TR/svg-markers/": {
+      "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
+      "lastreviewed": "2021-03-05"
+    },
+    "https://svgwg.org/specs/paths/": {
+      "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
+      "lastreviewed": "2021-03-05"
+    },
+    "https://www.w3.org/TR/svg-paths/": {
+      "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
+      "lastreviewed": "2021-03-05"
     }
   }
 }

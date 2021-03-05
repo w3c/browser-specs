@@ -4,6 +4,16 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.30.0](https://github.com/w3c/browser-specs/compare/1.29.0...1.30.0) - 2021-03-05
+
+### Merged
+
+- Move SVG Paths and Markers to monitor list [`#253`](https://github.com/w3c/browser-specs/pull/253)
+
+### Commits
+
+- [data] Update spec info [`283b443`](https://github.com/w3c/browser-specs/commit/283b44314f49ab643a5d3660bca857dce5015874)
+
 ## [1.29.0](https://github.com/w3c/browser-specs/compare/1.28.1...1.29.0) - 2021-03-03
 
 ### Merged

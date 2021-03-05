@@ -9083,50 +9083,6 @@
     "shortTitle": "SVG Integration"
   },
   {
-    "url": "https://www.w3.org/TR/svg-markers/",
-    "seriesComposition": "full",
-    "shortname": "svg-markers",
-    "series": {
-      "shortname": "svg-markers",
-      "currentSpecification": "svg-markers"
-    },
-    "release": {
-      "url": "https://www.w3.org/TR/svg-markers/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://svgwg.org/specs/markers/",
-      "repository": "https://github.com/w3c/svgwg",
-      "sourcePath": "specs/markers/master/Overview.html",
-      "filename": "Overview.html"
-    },
-    "title": "SVG Markers",
-    "source": "w3c",
-    "shortTitle": "SVG Markers"
-  },
-  {
-    "url": "https://www.w3.org/TR/svg-paths/",
-    "seriesComposition": "full",
-    "shortname": "svg-paths",
-    "series": {
-      "shortname": "svg-paths",
-      "currentSpecification": "svg-paths"
-    },
-    "release": {
-      "url": "https://www.w3.org/TR/svg-paths/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://svgwg.org/specs/paths/",
-      "repository": "https://github.com/w3c/svgwg",
-      "sourcePath": "specs/paths/master/Overview.html",
-      "filename": "Overview.html"
-    },
-    "title": "SVG Paths",
-    "source": "w3c",
-    "shortTitle": "SVG Paths"
-  },
-  {
     "url": "https://www.w3.org/TR/svg-strokes/",
     "seriesComposition": "full",
     "shortname": "svg-strokes",

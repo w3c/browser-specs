@@ -287,6 +287,10 @@
     "WICG/resource-bundles": {
       "lastreviewed": "2021-03-01",
       "comment": "no published content yet"
+    },
+    "WICG/privacy-preserving-ads": {
+      "lastreviewed": "2021-03-08",
+      "comment": "no published content yet"
     }
   },
   "specs": {

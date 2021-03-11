@@ -5884,9 +5884,9 @@
       "sourcePath": "css-ruby-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Ruby Layout Module Level 1",
+    "title": "CSS Ruby Annotation Layout Module Level 1",
     "source": "w3c",
-    "shortTitle": "CSS Ruby Layout 1",
+    "shortTitle": "CSS Ruby Annotation Layout 1",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6987,15 +6987,15 @@
       "currentSpecification": "fetch-metadata"
     },
     "shortTitle": "Fetch Metadata",
-    "release": {
-      "url": "https://www.w3.org/TR/fetch-metadata/",
-      "filename": "Overview.html"
-    },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-fetch-metadata/",
       "repository": "https://github.com/w3c/webappsec-fetch-metadata",
       "sourcePath": "index.bs",
       "filename": "index.html"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/fetch-metadata/",
+      "filename": "Overview.html"
     },
     "title": "Fetch Metadata Request Headers",
     "source": "w3c",

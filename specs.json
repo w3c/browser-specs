@@ -457,7 +457,10 @@
   },
   {
     "url": "https://www.w3.org/TR/fetch-metadata/",
-    "shortTitle": "Fetch Metadata"
+    "shortTitle": "Fetch Metadata",
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-fetch-metadata/"
+    }
   },
   "https://www.w3.org/TR/FileAPI/",
   "https://www.w3.org/TR/fill-stroke-3/",

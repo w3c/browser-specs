@@ -31,7 +31,7 @@ jobs:
         body: |
           The following repos have been identified as possibly relevant:
           ${{env.monitor_list}}
-        assignees: tidoust, dontcallmedom
+        assignees: tidoust, dontcallmedom, sideshowbarker
         draft: true
         branch: new-monitor
         branch-suffix: timestamp

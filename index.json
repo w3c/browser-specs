@@ -9357,7 +9357,7 @@
     "nightly": {
       "url": "https://w3c.github.io/webappsec-upgrade-insecure-requests/",
       "repository": "https://github.com/w3c/webappsec-upgrade-insecure-requests",
-      "sourcePath": "index.src.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Upgrade Insecure Requests",

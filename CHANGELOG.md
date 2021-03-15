@@ -4,6 +4,28 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.31.0](https://github.com/w3c/browser-specs/compare/1.30.0...1.31.0) - 2021-03-15
+
+### Merged
+
+- Add error cause and temporal TC39 proposals, IndexedDB 3 [`#262`](https://github.com/w3c/browser-specs/pull/262)
+- Add Mike as reviewer to candidate spec issues [`#261`](https://github.com/w3c/browser-specs/pull/261)
+- Add Mike as reviewer of new and monitored specs [`#259`](https://github.com/w3c/browser-specs/pull/259)
+- Ignore specs from MiniApps Working Group [`#258`](https://github.com/w3c/browser-specs/pull/258)
+- List new repos to be monitored [`#255`](https://github.com/w3c/browser-specs/pull/255)
+
+### Fixed
+
+- Add error cause and temporal TC39 proposals, IndexedDB 3 (#262) [`#260`](https://github.com/w3c/browser-specs/issues/260)
+
+### Commits
+
+- [data] Update spec info [`5cd2281`](https://github.com/w3c/browser-specs/commit/5cd2281d01ef3cec2d7223f086c46c53f3a6e521)
+- [data] Update spec info [`51327f1`](https://github.com/w3c/browser-specs/commit/51327f1d72671658405c09aecc1c144c456375ef)
+- Temporarily override ED URL of fetch-metadata [`997f5f1`](https://github.com/w3c/browser-specs/commit/997f5f1f653da93d5919a54026c5a0fe955ece0d)
+- [data] Update spec info [`3acf677`](https://github.com/w3c/browser-specs/commit/3acf677f40f14c0841ceaad8bc67eb837347d6ad)
+- [data] Update spec info [`d8dedbe`](https://github.com/w3c/browser-specs/commit/d8dedbec185acaa95dc94bd5011d0d9316758f67)
+
 ## [1.30.0](https://github.com/w3c/browser-specs/compare/1.29.0...1.30.0) - 2021-03-05
 
 ### Merged

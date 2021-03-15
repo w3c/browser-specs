@@ -1087,6 +1087,24 @@
     "shortTitle": "Public and private instance fields proposal"
   },
   {
+    "url": "https://tc39.es/proposal-error-cause/",
+    "seriesComposition": "full",
+    "shortname": "tc39-error-cause",
+    "series": {
+      "shortname": "tc39-error-cause",
+      "currentSpecification": "tc39-error-cause"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-error-cause/",
+      "repository": "https://github.com/tc39/proposal-error-cause",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Error Cause",
+    "source": "spec",
+    "shortTitle": "Error Cause"
+  },
+  {
     "url": "https://tc39.es/proposal-import-assertions/",
     "seriesComposition": "full",
     "shortname": "tc39-import-assertions",
@@ -1211,6 +1229,24 @@
     "title": "Static class features",
     "source": "spec",
     "shortTitle": "Static class features"
+  },
+  {
+    "url": "https://tc39.es/proposal-temporal/",
+    "seriesComposition": "full",
+    "shortname": "tc39-temporal",
+    "series": {
+      "shortname": "tc39-temporal",
+      "currentSpecification": "tc39-temporal"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-temporal/",
+      "repository": "https://github.com/tc39/proposal-temporal",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Temporal proposal",
+    "source": "spec",
+    "shortTitle": "Temporal proposal"
   },
   {
     "url": "https://tc39.es/proposal-top-level-await/",
@@ -7467,17 +7503,17 @@
     "shortTitle": "Image Resource"
   },
   {
-    "url": "https://www.w3.org/TR/IndexedDB-2/",
+    "url": "https://www.w3.org/TR/IndexedDB-3/",
     "seriesComposition": "full",
-    "shortname": "IndexedDB-2",
+    "shortname": "IndexedDB-3",
     "series": {
       "shortname": "IndexedDB",
-      "currentSpecification": "IndexedDB-2"
+      "currentSpecification": "IndexedDB-3"
     },
-    "seriesVersion": "2",
-    "shortTitle": "Indexed DB 2.0",
+    "seriesVersion": "3",
+    "shortTitle": "Indexed DB 3.0",
     "release": {
-      "url": "https://www.w3.org/TR/IndexedDB-2/",
+      "url": "https://www.w3.org/TR/IndexedDB-3/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -7486,7 +7522,7 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Indexed Database API 2.0",
+    "title": "Indexed Database API 3.0",
     "source": "w3c",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",

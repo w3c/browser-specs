@@ -97,6 +97,7 @@
   },
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-class-fields/",
+  "https://tc39.es/proposal-error-cause/",
   "https://tc39.es/proposal-import-assertions/",
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-private-fields-in-in/",
@@ -104,10 +105,12 @@
   "https://tc39.es/proposal-regexp-match-indices/",
   "https://tc39.es/proposal-relative-indexing-method/",
   "https://tc39.es/proposal-static-class-features/",
+  "https://tc39.es/proposal-temporal/",
   "https://tc39.es/proposal-top-level-await/",
   "https://url.spec.whatwg.org/",
   "https://w3c.github.io/badging/",
   "https://w3c.github.io/contentEditable/",
+  "https://w3c.github.io/device-posture/",
   "https://w3c.github.io/gamepad/extensions.html",
   "https://w3c.github.io/mathml-aam/",
   "https://w3c.github.io/media-playback-quality/",
@@ -480,8 +483,8 @@
   "https://www.w3.org/TR/image-capture/",
   "https://www.w3.org/TR/image-resource/",
   {
-    "url": "https://www.w3.org/TR/IndexedDB-2/",
-    "shortTitle": "Indexed DB 2.0"
+    "url": "https://www.w3.org/TR/IndexedDB-3/",
+    "shortTitle": "Indexed DB 3.0"
   },
   "https://www.w3.org/TR/input-events-2/",
   "https://www.w3.org/TR/intersection-observer/",

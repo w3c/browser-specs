@@ -1,6 +1,6 @@
 ---
 title: New specs for review
-assignees: tidoust, dontcallmedom
+assignees: tidoust, dontcallmedom, sideshowbarker
 labels: enhancement
 ---
 [find-specs](../blob/master/src/find-specs.js) has identified the following candidates as potential new specs to consider:

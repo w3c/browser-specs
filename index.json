@@ -7023,15 +7023,15 @@
       "currentSpecification": "fetch-metadata"
     },
     "shortTitle": "Fetch Metadata",
+    "release": {
+      "url": "https://www.w3.org/TR/fetch-metadata/",
+      "filename": "Overview.html"
+    },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-fetch-metadata/",
       "repository": "https://github.com/w3c/webappsec-fetch-metadata",
       "sourcePath": "index.bs",
       "filename": "index.html"
-    },
-    "release": {
-      "url": "https://www.w3.org/TR/fetch-metadata/",
-      "filename": "Overview.html"
     },
     "title": "Fetch Metadata Request Headers",
     "source": "w3c",

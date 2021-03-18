@@ -6931,6 +6931,28 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/device-posture/",
+    "seriesComposition": "full",
+    "shortname": "device-posture",
+    "series": {
+      "shortname": "device-posture",
+      "currentSpecification": "device-posture"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/device-posture/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/screen-fold/",
+      "repository": "https://github.com/w3c/screen-fold",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Device Posture API",
+    "source": "w3c",
+    "shortTitle": "Device Posture API"
+  },
+  {
     "url": "https://www.w3.org/TR/DOM-Parsing/",
     "seriesComposition": "full",
     "shortname": "DOM-Parsing",
@@ -8795,28 +8817,6 @@
         "screen-capture"
       ]
     }
-  },
-  {
-    "url": "https://www.w3.org/TR/screen-fold/",
-    "seriesComposition": "full",
-    "shortname": "screen-fold",
-    "series": {
-      "shortname": "screen-fold",
-      "currentSpecification": "screen-fold"
-    },
-    "release": {
-      "url": "https://www.w3.org/TR/screen-fold/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/screen-fold/",
-      "repository": "https://github.com/w3c/screen-fold",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "The Screen Fold API",
-    "source": "w3c",
-    "shortTitle": "The Screen Fold API"
   },
   {
     "url": "https://www.w3.org/TR/screen-orientation/",

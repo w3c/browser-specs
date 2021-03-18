@@ -449,6 +449,7 @@
   "https://www.w3.org/TR/cssom-1/",
   "https://www.w3.org/TR/cssom-view-1/",
   "https://www.w3.org/TR/device-memory-1/",
+  "https://www.w3.org/TR/device-posture/",
   "https://www.w3.org/TR/DOM-Parsing/",
   "https://www.w3.org/TR/encoding/",
   {
@@ -545,7 +546,6 @@
   "https://www.w3.org/TR/resource-hints/",
   "https://www.w3.org/TR/resource-timing-2/",
   "https://www.w3.org/TR/screen-capture/",
-  "https://www.w3.org/TR/screen-fold/",
   "https://www.w3.org/TR/screen-orientation/",
   "https://www.w3.org/TR/screen-wake-lock/",
   "https://www.w3.org/TR/secure-contexts/",

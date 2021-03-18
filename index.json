@@ -1519,6 +1519,24 @@
     "shortTitle": "WebDriver BiDi"
   },
   {
+    "url": "https://w3c.github.io/webrtc-encoded-transform/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-encoded-transform",
+    "series": {
+      "shortname": "webrtc-encoded-transform",
+      "currentSpecification": "webrtc-encoded-transform"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-encoded-transform/",
+      "repository": "https://github.com/w3c/webrtc-encoded-transform",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebRTC Encoded Transform",
+    "source": "spec",
+    "shortTitle": "WebRTC Encoded Transform"
+  },
+  {
     "url": "https://w3c.github.io/webrtc-ice/",
     "seriesComposition": "full",
     "shortname": "webrtc-ice",
@@ -1539,30 +1557,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "webrtc-ice"
-      ]
-    }
-  },
-  {
-    "url": "https://w3c.github.io/webrtc-insertable-streams/",
-    "seriesComposition": "full",
-    "shortname": "webrtc-insertable-streams",
-    "series": {
-      "shortname": "webrtc-insertable-streams",
-      "currentSpecification": "webrtc-insertable-streams"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/webrtc-insertable-streams/",
-      "repository": "https://github.com/w3c/webrtc-insertable-streams",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebRTC Insertable Media using Streams",
-    "source": "specref",
-    "shortTitle": "WebRTC Insertable Media using Streams",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webrtc-insertable-streams"
       ]
     }
   },

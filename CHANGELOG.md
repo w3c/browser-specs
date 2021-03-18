@@ -4,6 +4,20 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.32.0](https://github.com/w3c/browser-specs/compare/1.31.0...1.32.0) - 2021-03-18
+
+### Merged
+
+- Reflect renaming of 2 WebRTC repos [`#265`](https://github.com/w3c/browser-specs/pull/265)
+- Rename Screen Fold to Device Posture [`#264`](https://github.com/w3c/browser-specs/pull/264)
+
+### Commits
+
+- [data] Update spec info [`7ae7b23`](https://github.com/w3c/browser-specs/commit/7ae7b23330738ffadd95e00bf7fbbed87bbe6f46)
+- [data] Update spec info [`6924b55`](https://github.com/w3c/browser-specs/commit/6924b55a0c3db1ef9b84336d2cbce44e3337e491)
+- [data] Update spec info [`39afc27`](https://github.com/w3c/browser-specs/commit/39afc277357b527109dda326c9de7212f1716e8a)
+- Drop nightly URL override for Fetch Metadata [`c3437c8`](https://github.com/w3c/browser-specs/commit/c3437c80cf812571125609d3834199dcb4b050b7)
+
 ## [1.31.0](https://github.com/w3c/browser-specs/compare/1.30.0...1.31.0) - 2021-03-15
 
 ### Merged

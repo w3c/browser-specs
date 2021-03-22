@@ -1087,6 +1087,24 @@
     "shortTitle": "Public and private instance fields proposal"
   },
   {
+    "url": "https://tc39.es/proposal-class-static-block/",
+    "seriesComposition": "full",
+    "shortname": "tc39-class-static-block",
+    "series": {
+      "shortname": "tc39-class-static-block",
+      "currentSpecification": "tc39-class-static-block"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-class-static-block/",
+      "repository": "https://github.com/tc39/proposal-class-static-block",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "ECMAScript class static initialization blocks",
+    "source": "spec",
+    "shortTitle": "ECMAScript class static initialization blocks"
+  },
+  {
     "url": "https://tc39.es/proposal-error-cause/",
     "seriesComposition": "full",
     "shortname": "tc39-error-cause",

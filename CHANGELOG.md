@@ -4,6 +4,21 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.33.0](https://github.com/w3c/browser-specs/compare/1.32.0...1.33.0) - 2021-03-22
+
+### Merged
+
+- Add stage 3 TC39 proposal: class static init blocks [`#268`](https://github.com/w3c/browser-specs/pull/268)
+- List new repos to be monitored [`#267`](https://github.com/w3c/browser-specs/pull/267)
+
+### Fixed
+
+- Add stage 3 TC39 proposal: class static init blocks (#268) [`#266`](https://github.com/w3c/browser-specs/issues/266)
+
+### Commits
+
+- [data] Update spec info [`b8f4485`](https://github.com/w3c/browser-specs/commit/b8f448591446634c0d3e0c6302329d63c019f70c)
+
 ## [1.32.0](https://github.com/w3c/browser-specs/compare/1.31.0...1.32.0) - 2021-03-18
 
 ### Merged

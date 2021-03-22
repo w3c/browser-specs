@@ -291,6 +291,10 @@
     "WICG/privacy-preserving-ads": {
       "lastreviewed": "2021-03-08",
       "comment": "no published content yet"
+    },
+    "WICG/lock-screen": {
+      "lastreviewed": "2021-03-22",
+      "comment": "no published content yet"
     }
   },
   "specs": {

@@ -83,6 +83,9 @@
     "gpuweb/cts": {
       "comment": "not for spec"
     },
+    "immersive-web/webxr-layers-polyfill": {
+      "comment": "not for spec"
+    },
     "immersive-web/webxr-reference": {
       "comment": "not for spec"
     },

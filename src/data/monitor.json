@@ -295,10 +295,6 @@
     "WICG/lock-screen": {
       "lastreviewed": "2021-03-22",
       "comment": "no published content yet"
-    },
-    "immersive-web/webxr-layers-polyfill": {
-      "lastreviewed": "2021-03-29",
-      "comment": "no published content yet"
     }
   },
   "specs": {

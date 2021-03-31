@@ -1534,7 +1534,13 @@
     },
     "title": "WebCodecs",
     "source": "spec",
-    "shortTitle": "WebCodecs"
+    "shortTitle": "WebCodecs",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webcodecs"
+      ]
+    }
   },
   {
     "url": "https://w3c.github.io/webdriver-bidi/",

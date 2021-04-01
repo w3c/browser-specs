@@ -4,6 +4,19 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.34.0](https://github.com/w3c/browser-specs/compare/1.33.0...1.34.0) - 2021-04-01
+
+### Merged
+
+- Update URL for WebCodecs [`#270`](https://github.com/w3c/browser-specs/pull/270)
+- Add WebXR Layers Polyfill to ignore list [`#269`](https://github.com/w3c/browser-specs/pull/269)
+
+### Commits
+
+- [data] Update spec info [`8b8b050`](https://github.com/w3c/browser-specs/commit/8b8b050b419c6a8156bb2ca99015a45f01cafdd8)
+- [data] Update spec info [`1d8aed3`](https://github.com/w3c/browser-specs/commit/1d8aed3443a092e3f825c8f8a8c28c1c6f83d411)
+- Bump y18n from 4.0.0 to 4.0.1 [`73e933b`](https://github.com/w3c/browser-specs/commit/73e933bb7c0c253da95ad93c139d57f471b1aac1)
+
 ## [1.33.0](https://github.com/w3c/browser-specs/compare/1.32.0...1.33.0) - 2021-03-22
 
 ### Merged

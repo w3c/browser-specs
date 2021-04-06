@@ -111,15 +111,17 @@ the spec, allowing to keep using a string instead of an object in most cases:
 - A delta spec can be defined by appending a `delta` keyword to the URL, instead
 of through the `seriesComposition`.
 - The `forceCurrent` flag can be set by appending a `current` keyword to the URL
+- The `multipage` flag can be set by appending a `multipage` keyword to the URL
 
 For instance, to flag the CSS Fragmentation Module Level 3 as the current spec
-in the series, and the CSS Grid Layout Module Level 2 as a delta spec, use the
-following compact definitions:
+in the series, the CSS Grid Layout Module Level 2 as a delta spec, and the SVG2
+spec as a multipage spec, use the following compact definitions:
 
 ```json
 [
   "https://www.w3.org/TR/css-break-3/ current",
-  "https://www.w3.org/TR/css-grid-2/ delta"
+  "https://www.w3.org/TR/css-grid-2/ delta",
+  "https://www.w3.org/TR/SVG2/ multipage"
 ]
 ```
 

@@ -1519,30 +1519,6 @@
     }
   },
   {
-    "url": "https://w3c.github.io/webcodecs/",
-    "seriesComposition": "full",
-    "shortname": "webcodecs",
-    "series": {
-      "shortname": "webcodecs",
-      "currentSpecification": "webcodecs"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/webcodecs/",
-      "repository": "https://github.com/w3c/webcodecs",
-      "sourcePath": "index.src.html",
-      "filename": "index.html"
-    },
-    "title": "WebCodecs",
-    "source": "specref",
-    "shortTitle": "WebCodecs",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webcodecs"
-      ]
-    }
-  },
-  {
     "url": "https://w3c.github.io/webdriver-bidi/",
     "seriesComposition": "full",
     "shortname": "webdriver-bidi",
@@ -9727,6 +9703,34 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "webauthn"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs",
+    "series": {
+      "shortname": "webcodecs",
+      "currentSpecification": "webcodecs"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/",
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "index.src.html",
+      "filename": "index.html"
+    },
+    "title": "WebCodecs",
+    "source": "w3c",
+    "shortTitle": "WebCodecs",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webcodecs"
       ]
     }
   },

@@ -4,6 +4,24 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.34.1](https://github.com/w3c/browser-specs/compare/1.34.0...1.34.1) - 2021-04-12
+
+### Merged
+
+- Update webcodecs URL [`#276`](https://github.com/w3c/browser-specs/pull/276)
+- Add storage foundation API and raw camera access to monitor list [`#275`](https://github.com/w3c/browser-specs/pull/275)
+
+### Fixed
+
+- Update webcodecs URL (#276) [`#274`](https://github.com/w3c/browser-specs/issues/274)
+
+### Commits
+
+- [data] Update spec info [`8556fa7`](https://github.com/w3c/browser-specs/commit/8556fa7d37c1db335941c7c7e429cee289262fec)
+- Add multipage to compact form section [`4f98152`](https://github.com/w3c/browser-specs/commit/4f981521f4b680cc28eca0cc539f7fbe4e75fc06)
+- [data] Update spec info [`9a25393`](https://github.com/w3c/browser-specs/commit/9a25393273389ac89c9e38722b8c56499810d0aa)
+- [data] Update spec info [`080a658`](https://github.com/w3c/browser-specs/commit/080a658165851040d47c2bd09e743db33cef05e2)
+
 ## [1.34.0](https://github.com/w3c/browser-specs/compare/1.33.0...1.34.0) - 2021-04-01
 
 ### Merged

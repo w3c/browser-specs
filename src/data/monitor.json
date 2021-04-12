@@ -295,6 +295,14 @@
     "WICG/lock-screen": {
       "lastreviewed": "2021-03-22",
       "comment": "no published content yet"
+    },
+    "WICG/storage-foundation-api-explainer": {
+      "lastreviewed": "2021-04-12",
+      "comment": "no published content yet"
+    },
+    "immersive-web/raw-camera-access": {
+      "lastreviewed": "2021-04-12",
+      "comment": "no published content yet"
     }
   },
   "specs": {

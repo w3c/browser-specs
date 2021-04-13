@@ -2883,9 +2883,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Web OTP API",
+    "title": "WebOTP API",
     "source": "spec",
-    "shortTitle": "Web OTP API",
+    "shortTitle": "WebOTP API",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

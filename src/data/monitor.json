@@ -1,5 +1,9 @@
 {
   "repos": {
+    "w3c/secure-payment-confirmation": {
+      "comment": "stub spec only",
+      "lastreviewed": "2021-04-19"
+    },
     "w3c/PFE": {
       "comment": "stub spec only",
       "lastreviewed": "2021-03-01"

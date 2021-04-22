@@ -657,8 +657,7 @@
         "webstorage",
         "workers",
         "worklets",
-        "x-frame-options",
-        "xslt"
+        "x-frame-options"
       ],
       "excludePaths": [
         "html/cross-origin-embedder-policy/credentialless",

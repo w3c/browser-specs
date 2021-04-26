@@ -46,7 +46,7 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.equal(info[spec.shortname].title, "High Resolution Time Level 2");
 
       assert.ok(info.__current);
-      assert.equal(info.__current["hr-time"], "hr-time-2");
+      assert.equal(info.__current["hr-time"], "hr-time-3");
     });
 
     it("can operate on multiple specs at once", async () => {
@@ -66,7 +66,7 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.equal(info[other.shortname].title, "Presentation API");
 
       assert.ok(info.__current);
-      assert.equal(info.__current["hr-time"], "hr-time-2");
+      assert.equal(info.__current["hr-time"], "hr-time-3");
       assert.equal(info.__current["presentation-api"], "presentation-api");
     });
 

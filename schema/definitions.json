@@ -10,7 +10,7 @@
 
     "filename": {
       "type": "string",
-      "pattern": "^\\w+\\.html$"
+      "pattern": "^[\\w\\-]+\\.html$"
     },
 
     "relativePath": {

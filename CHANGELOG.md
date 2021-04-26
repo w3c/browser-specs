@@ -4,6 +4,22 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.35.0](https://github.com/w3c/browser-specs/compare/1.34.2...1.35.0) - 2021-04-26
+
+### Merged
+
+- Add DNT, SVG 1.1, and Manifest App info specs [`#285`](https://github.com/w3c/browser-specs/pull/285)
+- Mark Secure Payment Confirmation as to be monitored [`#278`](https://github.com/w3c/browser-specs/pull/278)
+
+### Fixed
+
+- Mark Secure Payment Confirmation as to be monitored (#278) [`#277`](https://github.com/w3c/browser-specs/issues/277)
+
+### Commits
+
+- [data] Update spec info [`b89e17e`](https://github.com/w3c/browser-specs/commit/b89e17e5ca95f4d51cc2667d5fa8f488709bb192)
+- [data] Update spec info [`a6c1611`](https://github.com/w3c/browser-specs/commit/a6c1611e02ea27e09c0bfd2817fc3f05c160e14a)
+
 ## [1.34.2](https://github.com/w3c/browser-specs/compare/1.34.1...1.34.2) - 2021-04-16
 
 ### Commits

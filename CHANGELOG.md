@@ -4,6 +4,12 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.35.1](https://github.com/w3c/browser-specs/compare/1.35.0...1.35.1) - 2021-04-26
+
+### Commits
+
+- [data] Update spec info [`12d543a`](https://github.com/w3c/browser-specs/commit/12d543a3aab7f566db18db05e28cef7fc2c3bf03)
+
 ## [1.35.0](https://github.com/w3c/browser-specs/compare/1.34.2...1.35.0) - 2021-04-26
 
 ### Merged

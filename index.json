@@ -10013,10 +10013,10 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-identity/identity.html",
+      "url": "https://w3c.github.io/webrtc-identity/",
       "repository": "https://github.com/w3c/webrtc-identity",
       "sourcePath": "identity.html",
-      "filename": "identity.html"
+      "filename": "index.html"
     },
     "title": "Identity for WebRTC 1.0",
     "source": "w3c",

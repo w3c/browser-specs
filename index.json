@@ -7655,6 +7655,28 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/manifest-app-info/",
+    "seriesComposition": "full",
+    "shortname": "manifest-app-info",
+    "series": {
+      "shortname": "manifest-app-info",
+      "currentSpecification": "manifest-app-info"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/manifest-app-info/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/manifest-app-info/",
+      "repository": "https://github.com/w3c/manifest-app-info",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web App Manifest - Application Information",
+    "source": "w3c",
+    "shortTitle": "Web App Manifest - Application Information"
+  },
+  {
     "url": "https://www.w3.org/TR/media-capabilities/",
     "seriesComposition": "full",
     "shortname": "media-capabilities",
@@ -9128,6 +9150,108 @@
     "shortTitle": "SVG Strokes"
   },
   {
+    "url": "https://www.w3.org/TR/SVG11/",
+    "seriesComposition": "full",
+    "shortname": "SVG11",
+    "series": {
+      "shortname": "SVG",
+      "currentSpecification": "SVG2"
+    },
+    "seriesVersion": "1.1",
+    "nightly": {
+      "url": "https://svgwg.org/svg2-draft/",
+      "repository": "https://github.com/w3c/svgwg",
+      "sourcePath": "master/Overview.html",
+      "pages": [
+        "https://svgwg.org/svg2-draft/intro.html",
+        "https://svgwg.org/svg2-draft/conform.html",
+        "https://svgwg.org/svg2-draft/render.html",
+        "https://svgwg.org/svg2-draft/types.html",
+        "https://svgwg.org/svg2-draft/struct.html",
+        "https://svgwg.org/svg2-draft/styling.html",
+        "https://svgwg.org/svg2-draft/geometry.html",
+        "https://svgwg.org/svg2-draft/coords.html",
+        "https://svgwg.org/svg2-draft/paths.html",
+        "https://svgwg.org/svg2-draft/shapes.html",
+        "https://svgwg.org/svg2-draft/text.html",
+        "https://svgwg.org/svg2-draft/embedded.html",
+        "https://svgwg.org/svg2-draft/painting.html",
+        "https://svgwg.org/svg2-draft/pservers.html",
+        "https://svgwg.org/svg2-draft/interact.html",
+        "https://svgwg.org/svg2-draft/linking.html",
+        "https://svgwg.org/svg2-draft/idl.html",
+        "https://svgwg.org/svg2-draft/implnote.html",
+        "https://svgwg.org/svg2-draft/access.html",
+        "https://svgwg.org/svg2-draft/animate.html",
+        "https://svgwg.org/svg2-draft/refs.html",
+        "https://svgwg.org/svg2-draft/eltindex.html",
+        "https://svgwg.org/svg2-draft/attindex.html",
+        "https://svgwg.org/svg2-draft/propidx.html",
+        "https://svgwg.org/svg2-draft/idlindex.html",
+        "https://svgwg.org/svg2-draft/mimereg.html",
+        "https://svgwg.org/svg2-draft/changes.html"
+      ],
+      "filename": "Overview.html"
+    },
+    "seriesNext": "SVG2",
+    "release": {
+      "url": "https://www.w3.org/TR/SVG11/",
+      "pages": [
+        "https://www.w3.org/TR/SVG11/expanded-toc.html",
+        "https://www.w3.org/TR/SVG11/intro.html",
+        "https://www.w3.org/TR/SVG11/concepts.html",
+        "https://www.w3.org/TR/SVG11/render.html",
+        "https://www.w3.org/TR/SVG11/types.html",
+        "https://www.w3.org/TR/SVG11/struct.html",
+        "https://www.w3.org/TR/SVG11/styling.html",
+        "https://www.w3.org/TR/SVG11/coords.html",
+        "https://www.w3.org/TR/SVG11/paths.html",
+        "https://www.w3.org/TR/SVG11/shapes.html",
+        "https://www.w3.org/TR/SVG11/text.html",
+        "https://www.w3.org/TR/SVG11/painting.html",
+        "https://www.w3.org/TR/SVG11/color.html",
+        "https://www.w3.org/TR/SVG11/pservers.html",
+        "https://www.w3.org/TR/SVG11/masking.html",
+        "https://www.w3.org/TR/SVG11/filters.html",
+        "https://www.w3.org/TR/SVG11/interact.html",
+        "https://www.w3.org/TR/SVG11/linking.html",
+        "https://www.w3.org/TR/SVG11/script.html",
+        "https://www.w3.org/TR/SVG11/animate.html",
+        "https://www.w3.org/TR/SVG11/fonts.html",
+        "https://www.w3.org/TR/SVG11/metadata.html",
+        "https://www.w3.org/TR/SVG11/backward.html",
+        "https://www.w3.org/TR/SVG11/extend.html",
+        "https://www.w3.org/TR/SVG11/svgdtd.html",
+        "https://www.w3.org/TR/SVG11/svgdom.html",
+        "https://www.w3.org/TR/SVG11/idl.html",
+        "https://www.w3.org/TR/SVG11/java.html",
+        "https://www.w3.org/TR/SVG11/escript.html",
+        "https://www.w3.org/TR/SVG11/implnote.html",
+        "https://www.w3.org/TR/SVG11/conform.html",
+        "https://www.w3.org/TR/SVG11/access.html",
+        "https://www.w3.org/TR/SVG11/i18n.html",
+        "https://www.w3.org/TR/SVG11/minimize.html",
+        "https://www.w3.org/TR/SVG11/refs.html",
+        "https://www.w3.org/TR/SVG11/eltindex.html",
+        "https://www.w3.org/TR/SVG11/attindex.html",
+        "https://www.w3.org/TR/SVG11/propidx.html",
+        "https://www.w3.org/TR/SVG11/feature.html",
+        "https://www.w3.org/TR/SVG11/mimereg.html",
+        "https://www.w3.org/TR/SVG11/changes.html"
+      ],
+      "filename": "Overview.html"
+    },
+    "title": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
+    "source": "w3c",
+    "shortTitle": "SVG",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "svg"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/SVG2/",
     "seriesComposition": "full",
     "shortname": "SVG2",
@@ -9136,6 +9260,7 @@
       "currentSpecification": "SVG2"
     },
     "seriesVersion": "2",
+    "seriesPrevious": "SVG11",
     "release": {
       "url": "https://www.w3.org/TR/SVG2/",
       "pages": [
@@ -9292,6 +9417,28 @@
     "title": "Trace Context - Level 1",
     "source": "w3c",
     "shortTitle": "Trace Context 1"
+  },
+  {
+    "url": "https://www.w3.org/TR/tracking-dnt/",
+    "seriesComposition": "full",
+    "shortname": "tracking-dnt",
+    "series": {
+      "shortname": "tracking-dnt",
+      "currentSpecification": "tracking-dnt"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/tracking-dnt/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/dnt/drafts/tracking-dnt.html",
+      "repository": "https://github.com/w3c/dnt",
+      "sourcePath": "index.html",
+      "filename": "tracking-dnt.html"
+    },
+    "title": "Tracking Preference Expression (DNT)",
+    "source": "w3c",
+    "shortTitle": "DNT"
   },
   {
     "url": "https://www.w3.org/TR/uievents-code/",

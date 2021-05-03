@@ -50,6 +50,29 @@ module.exports = async function (specs, options) {
   for (const spec of specs) {
     const info = parseSpecUrl(spec.url);
     if (!info) {
+      // No general rule to identify repos and groups for IETF specs
+      // instead, fetching info on groups from https://www.rfc-editor.org/in-notes/rfcXXX.json
+      if (spec.url.match(/ietf\.org/)) {
+        spec.organization = spec.organization ?? "IETF";
+        if (spec.groups) continue;
+        const rfcNumber = spec.url.slice(spec.url.lastIndexOf('/') + 1);
+        const rfcJSON = await fetchJSON(`https://www.rfc-editor.org/in-notes/${rfcNumber}.json`);
+        const wgName = rfcJSON.source;
+        // draft-ietf-websec-origin-06 → websec
+        // per https://www.ietf.org/standards/ids/guidelines/#7
+        // not clear there is anything forbidding hyphens in WG acronyms though
+        // https://datatracker.ietf.org/doc/html/rfc2418#section-2.2
+        const wgId = rfcJSON.draft.split('-')[2];
+        if (wgName && wgId) {
+          spec.groups = [{
+            name: `${wgName} Working Group`,
+            url: `https://datatracker.ietf.org/wg/${wgId}/`
+          }];
+          continue;
+        } else {
+          throw new Error(`Could not identify IETF group producing ${spec.url}`);
+        }
+      }
       throw new Error(`Cannot extract any useful info from ${spec.url}`);
     }
 

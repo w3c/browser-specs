@@ -2,8 +2,9 @@
  * Script that compiles and returns the final list of specs from the
  * "specs.json" input file.
  *
- * The script will extract the W3C API key it needs from a "config.json" file
- * in the root folder, which must exist and contain a "w3cApiKey" key.
+ * The script will extract the W3C API key and the github token it needs
+ * from a "config.json" file in the root folder
+ * which must exist and contain "w3cApiKey" and "githubToken" keys.
  */
 
 const fs = require("fs").promises;

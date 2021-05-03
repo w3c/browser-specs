@@ -49,23 +49,11 @@
       "lastreviewed": "2021-05-01"
     },
     "WICG/raw-sockets": {
-      "comment": "no spec yet",
-      "lastreviewed": "2021-05-01"
-    },
-    "WICG/sanitizer-api": {
-      "comment": "Early proposal, no clear implementation plans",
+      "comment": "No clear implementation plan, considered as harmful by Mozilla https://github.com/mozilla/standards-positions/issues/431",
       "lastreviewed": "2021-05-01"
     },
     "WICG/sw-launch": {
       "comment": "no spec yet",
-      "lastreviewed": "2021-05-01"
-    },
-    "WICG/virtual-scroller": {
-      "comment": "no spec yet",
-      "lastreviewed": "2021-05-01"
-    },
-    "w3c/openscreenprotocol": {
-      "comment": "At some point, the mapping between the API and the protocol could move to the API, but right now it is done in the protocol spec.",
       "lastreviewed": "2021-05-01"
     },
     "w3c/webrtc-extensions": {
@@ -93,7 +81,7 @@
       "lastreviewed": "2021-05-01"
     },
     "WICG/conversion-measurement-api": {
-      "comment": "spec still full of TODOs",
+      "comment": "spec still full of TODOs, no clear implementation plan",
       "lastreviewed": "2021-05-01"
     },
     "WICG/display-locking": {
@@ -258,7 +246,7 @@
     },
     "WICG/manifest-incubations": {
       "lastreviewed": "2021-05-01",
-      "comment": "no published content yet"
+      "comment": "Chromium-specific"
     },
     "immersive-web/marker-tracking": {
       "lastreviewed": "2021-05-01",
@@ -282,11 +270,11 @@
     },
     "WICG/app-history": {
       "lastreviewed": "2021-05-01",
-      "comment": "no spec yet"
+      "comment": "Early exploration"
     },
     "WICG/scheduling-apis": {
       "lastreviewed": "2021-05-01",
-      "comment": "no published content yet"
+      "comment": "Early exploration"
     },
     "WICG/resource-bundles": {
       "lastreviewed": "2021-05-01",

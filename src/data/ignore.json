@@ -169,6 +169,9 @@
     },
     "WICG/reducing-memory-copies": {
       "comment": "not for spec"
+    },
+    "WICG/virtual-scroller": {
+      "comment": "No longer being actively developed"
     }
   },
   "specs": {

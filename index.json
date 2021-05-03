@@ -2623,6 +2623,30 @@
     }
   },
   {
+    "url": "https://wicg.github.io/sanitizer-api/",
+    "seriesComposition": "full",
+    "shortname": "sanitizer-api",
+    "series": {
+      "shortname": "sanitizer-api",
+      "currentSpecification": "sanitizer-api"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/sanitizer-api/",
+      "repository": "https://github.com/WICG/sanitizer-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "HTML Sanitizer API",
+    "source": "spec",
+    "shortTitle": "HTML Sanitizer API",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "sanitizer-api"
+      ]
+    }
+  },
+  {
     "url": "https://wicg.github.io/savedata/",
     "seriesComposition": "full",
     "shortname": "savedata",
@@ -2645,6 +2669,24 @@
         "savedata"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/scheduling-apis/",
+    "seriesComposition": "full",
+    "shortname": "scheduling-apis",
+    "series": {
+      "shortname": "scheduling-apis",
+      "currentSpecification": "scheduling-apis"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/scheduling-apis/",
+      "repository": "https://github.com/WICG/scheduling-apis",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "Prioritized Task Scheduling",
+    "source": "spec",
+    "shortTitle": "Prioritized Task Scheduling"
   },
   {
     "url": "https://wicg.github.io/scroll-to-text-fragment/",
@@ -8074,6 +8116,28 @@
         "network-error-logging"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/openscreenprotocol/",
+    "seriesComposition": "full",
+    "shortname": "openscreenprotocol",
+    "series": {
+      "shortname": "openscreenprotocol",
+      "currentSpecification": "openscreenprotocol"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/openscreenprotocol/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/openscreenprotocol/",
+      "repository": "https://github.com/w3c/openscreenprotocol",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Open Screen Protocol",
+    "source": "w3c",
+    "shortTitle": "Open Screen Protocol"
   },
   {
     "url": "https://www.w3.org/TR/orientation-event/",

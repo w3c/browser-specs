@@ -311,6 +311,10 @@
     "immersive-web/raw-camera-access": {
       "lastreviewed": "2021-04-12",
       "comment": "no published content yet"
+    },
+    "WICG/shared-element-transitions": {
+      "lastreviewed": "2021-05-03",
+      "comment": "no published content yet"
     }
   },
   "specs": {

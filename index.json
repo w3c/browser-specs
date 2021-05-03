@@ -9830,17 +9830,17 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/webauthn-2/",
+    "url": "https://www.w3.org/TR/webauthn-3/",
     "seriesComposition": "full",
-    "shortname": "webauthn-2",
+    "shortname": "webauthn-3",
     "series": {
       "shortname": "webauthn",
-      "currentSpecification": "webauthn-2"
+      "currentSpecification": "webauthn-3"
     },
-    "seriesVersion": "2",
+    "seriesVersion": "3",
     "shortTitle": "Web Authentication",
     "release": {
-      "url": "https://www.w3.org/TR/webauthn-2/",
+      "url": "https://www.w3.org/TR/webauthn-3/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -9849,7 +9849,7 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 2",
+    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
     "source": "w3c",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",

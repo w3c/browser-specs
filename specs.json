@@ -13,6 +13,7 @@
   "https://drafts.csswg.org/css-backgrounds-4/ delta",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
+  "https://drafts.csswg.org/css-fonts-5/ delta",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
@@ -33,6 +34,7 @@
   },
   "https://drafts.csswg.org/css-transitions-2/ delta",
   "https://drafts.csswg.org/scroll-animations-1/",
+  "https://drafts.csswg.org/web-animations-2/ delta",
   {
     "url": "https://drafts.fxtf.org/compositing-2/",
     "shortTitle": "Compositing 2"

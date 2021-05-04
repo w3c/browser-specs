@@ -318,10 +318,6 @@
       "comment": "Placholder for an eventual CSS Block Layout Level 3 Module",
       "lastreviewed": "2021-05-01"
     },
-    "https://drafts.csswg.org/web-animations-2/": {
-      "comment": "Marked as unofficial proposal",
-      "lastreviewed": "2021-05-01"
-    },
     "https://drafts.csswg.org/css-floats-3/": {
       "comment": "No spec yet",
       "lastreviewed": "2021-05-01"
@@ -343,10 +339,6 @@
       "lastreviewed": "2021-05-01"
     },
     "https://drafts.csswg.org/css-conditional-values-1/": {
-      "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2021-05-01"
-    },
-    "https://drafts.csswg.org/css-fonts-5/": {
       "comment": "Marked as not ready for implementation",
       "lastreviewed": "2021-05-01"
     },

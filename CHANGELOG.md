@@ -4,6 +4,25 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.36.0](https://github.com/w3c/browser-specs/compare/1.35.1...1.36.0) - 2021-05-04
+
+### Merged
+
+- Add Web Animations 2 and CSS Fonts 5 [`#290`](https://github.com/w3c/browser-specs/pull/290)
+- Refresh monitored specs, Add new specs [`#286`](https://github.com/w3c/browser-specs/pull/286)
+- Reflect publication of WebAuthn Level 3 [`#289`](https://github.com/w3c/browser-specs/pull/289)
+- Add Shared Element Transitions to monitoring list [`#288`](https://github.com/w3c/browser-specs/pull/288)
+
+### Fixed
+
+- Reflect publication of WebAuthn Level 3 (#289) [`#287`](https://github.com/w3c/browser-specs/issues/287)
+
+### Commits
+
+- [data] Update spec info [`127c1b2`](https://github.com/w3c/browser-specs/commit/127c1b24882603fb0836d38a7c5342c9e21c78f5)
+- [data] Update spec info [`b0dca69`](https://github.com/w3c/browser-specs/commit/b0dca69ac360f64a90663aa5ad86b83465c88aca)
+- [data] Update spec info [`e1c15b3`](https://github.com/w3c/browser-specs/commit/e1c15b380205e6c3432cd8413eb8e0ede67a65b6)
+
 ## [1.35.1](https://github.com/w3c/browser-specs/compare/1.35.0...1.35.1) - 2021-04-26
 
 ### Commits

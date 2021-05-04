@@ -214,6 +214,32 @@
     "shortTitle": "CSS Extensions"
   },
   {
+    "url": "https://drafts.csswg.org/css-fonts-5/",
+    "seriesComposition": "delta",
+    "shortname": "css-fonts-5",
+    "series": {
+      "shortname": "css-fonts",
+      "currentSpecification": "css-fonts-4"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "css-fonts-4",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-fonts-5/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-fonts-5/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Fonts Module Level 5",
+    "source": "spec",
+    "shortTitle": "CSS Fonts 5",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-fonts"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
     "shortname": "css-gcpm-4",
@@ -435,6 +461,32 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "scroll-animations"
+      ]
+    }
+  },
+  {
+    "url": "https://drafts.csswg.org/web-animations-2/",
+    "seriesComposition": "delta",
+    "shortname": "web-animations-2",
+    "series": {
+      "shortname": "web-animations",
+      "currentSpecification": "web-animations-1"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "web-animations-1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/web-animations-2/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "web-animations-2/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Web Animations Level 2",
+    "source": "spec",
+    "shortTitle": "Web Animations 2",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "web-animations"
       ]
     }
   },
@@ -1598,7 +1650,7 @@
       "filename": "index.html"
     },
     "title": "WebTransport",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebTransport",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -5184,6 +5236,7 @@
       "currentSpecification": "css-fonts-4"
     },
     "seriesVersion": "4",
+    "seriesNext": "css-fonts-5",
     "release": {
       "url": "https://www.w3.org/TR/css-fonts-4/",
       "filename": "Overview.html"
@@ -9817,6 +9870,7 @@
       "currentSpecification": "web-animations-1"
     },
     "seriesVersion": "1",
+    "seriesNext": "web-animations-2",
     "release": {
       "url": "https://www.w3.org/TR/web-animations-1/",
       "filename": "Overview.html"

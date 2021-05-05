@@ -4,6 +4,21 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.37.0](https://github.com/w3c/browser-specs/compare/1.36.0...1.37.0) - 2021-05-05
+
+### Merged
+
+- Add "releaseUrl" and "nightlyUrl" to "series" objects [`#291`](https://github.com/w3c/browser-specs/pull/291)
+
+### Fixed
+
+- Add "releaseUrl" and "nightlyUrl" to "series" objects (#291) [`#282`](https://github.com/w3c/browser-specs/issues/282)
+
+### Commits
+
+- [data] Update spec info [`e3f61d4`](https://github.com/w3c/browser-specs/commit/e3f61d40f06a70548a20320a67f111bd53d2675a)
+- [data] Update spec info [`aa60ce2`](https://github.com/w3c/browser-specs/commit/aa60ce28e579ae36fbf56f7999644177724f9272)
+
 ## [1.36.0](https://github.com/w3c/browser-specs/compare/1.35.1...1.36.0) - 2021-05-04
 
 ### Merged

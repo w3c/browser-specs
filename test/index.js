@@ -87,6 +87,16 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("has consistent series info", () => {
+    const wrong = specs.filter(s => {
+      if (!s.seriesPrevious) {
+        return false;
+      }
+      const previous = specs.find(p => p.shortname === s.seriesPrevious);
+      assert.deepStrictEqual(s.series, previous.series);
+    });
+  });
+
   it("contains nightly URLs for all specs", () => {
     const wrong = specs.filter(s => !s.nightly.url);
     assert.deepStrictEqual(wrong, []);

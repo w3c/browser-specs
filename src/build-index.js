@@ -12,6 +12,7 @@ const computeShortname = require("./compute-shortname.js");
 const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
 const computeRepository = require("./compute-repository.js");
+const computeSeriesUrls = require("./compute-series-urls.js");
 const computeShortTitle = require("./compute-shorttitle.js");
 const determineFilename = require("./determine-filename.js");
 const determineTestPath = require("./determine-testpath.js");
@@ -144,6 +145,12 @@ fetchInfo(specs, { w3cApiKey })
 
   // Complete with info on test suite
   .then(index => determineTestPath(index, { githubToken }))
+
+  // Complete with unversioned URLs
+  .then(index => index.map(spec => {
+    Object.assign(spec.series, computeSeriesUrls(spec, index));
+    return spec;
+  }))
 
   // Complete with list of pages for multipage specs
   .then(index => Promise.all(

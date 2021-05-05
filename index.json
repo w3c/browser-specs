@@ -5,7 +5,8 @@
     "shortname": "compat",
     "series": {
       "shortname": "compat",
-      "currentSpecification": "compat"
+      "currentSpecification": "compat",
+      "nightlyUrl": "https://compat.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://compat.spec.whatwg.org/",
@@ -29,7 +30,8 @@
     "shortname": "console",
     "series": {
       "shortname": "console",
-      "currentSpecification": "console"
+      "currentSpecification": "console",
+      "nightlyUrl": "https://console.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://console.spec.whatwg.org/",
@@ -53,7 +55,8 @@
     "shortname": "dom",
     "series": {
       "shortname": "dom",
-      "currentSpecification": "dom"
+      "currentSpecification": "dom",
+      "nightlyUrl": "https://dom.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://dom.spec.whatwg.org/",
@@ -78,7 +81,9 @@
     "shortname": "css-typed-om-2",
     "series": {
       "shortname": "css-typed-om",
-      "currentSpecification": "css-typed-om-1"
+      "currentSpecification": "css-typed-om-1",
+      "nightlyUrl": "https://drafts.css-houdini.org/css-typed-om/",
+      "releaseUrl": "https://www.w3.org/TR/css-typed-om/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-typed-om-1",
@@ -104,7 +109,8 @@
     "shortname": "font-metrics-api-1",
     "series": {
       "shortname": "font-metrics-api",
-      "currentSpecification": "font-metrics-api-1"
+      "currentSpecification": "font-metrics-api-1",
+      "nightlyUrl": "https://drafts.css-houdini.org/font-metrics-api/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -123,7 +129,9 @@
     "shortname": "css-animations-2",
     "series": {
       "shortname": "css-animations",
-      "currentSpecification": "css-animations-1"
+      "currentSpecification": "css-animations-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-animations/",
+      "releaseUrl": "https://www.w3.org/TR/css-animations/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-animations-1",
@@ -149,7 +157,9 @@
     "shortname": "css-backgrounds-4",
     "series": {
       "shortname": "css-backgrounds",
-      "currentSpecification": "css-backgrounds-3"
+      "currentSpecification": "css-backgrounds-3",
+      "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/",
+      "releaseUrl": "https://www.w3.org/TR/css-backgrounds/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-backgrounds-3",
@@ -175,7 +185,8 @@
     "shortname": "css-env-1",
     "series": {
       "shortname": "css-env",
-      "currentSpecification": "css-env-1"
+      "currentSpecification": "css-env-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-env/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -200,7 +211,8 @@
     "shortname": "css-extensions-1",
     "series": {
       "shortname": "css-extensions",
-      "currentSpecification": "css-extensions-1"
+      "currentSpecification": "css-extensions-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-extensions/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -219,7 +231,9 @@
     "shortname": "css-fonts-5",
     "series": {
       "shortname": "css-fonts",
-      "currentSpecification": "css-fonts-4"
+      "currentSpecification": "css-fonts-4",
+      "nightlyUrl": "https://drafts.csswg.org/css-fonts/",
+      "releaseUrl": "https://www.w3.org/TR/css-fonts/"
     },
     "seriesVersion": "5",
     "seriesPrevious": "css-fonts-4",
@@ -245,7 +259,9 @@
     "shortname": "css-gcpm-4",
     "series": {
       "shortname": "css-gcpm",
-      "currentSpecification": "css-gcpm-3"
+      "currentSpecification": "css-gcpm-3",
+      "nightlyUrl": "https://drafts.csswg.org/css-gcpm/",
+      "releaseUrl": "https://www.w3.org/TR/css-gcpm/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS GCPM 4",
@@ -271,7 +287,9 @@
     "shortname": "css-grid-3",
     "series": {
       "shortname": "css-grid",
-      "currentSpecification": "css-grid-2"
+      "currentSpecification": "css-grid-2",
+      "nightlyUrl": "https://drafts.csswg.org/css-grid/",
+      "releaseUrl": "https://www.w3.org/TR/css-grid/"
     },
     "seriesVersion": "3",
     "seriesPrevious": "css-grid-2",
@@ -297,7 +315,9 @@
     "shortname": "css-multicol-2",
     "series": {
       "shortname": "css-multicol",
-      "currentSpecification": "css-multicol-1"
+      "currentSpecification": "css-multicol-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-multicol/",
+      "releaseUrl": "https://www.w3.org/TR/css-multicol/"
     },
     "seriesVersion": "2",
     "shortTitle": "CSS Multicol 2",
@@ -323,7 +343,8 @@
     "shortname": "css-nesting-1",
     "series": {
       "shortname": "css-nesting",
-      "currentSpecification": "css-nesting-1"
+      "currentSpecification": "css-nesting-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-nesting/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -342,7 +363,9 @@
     "shortname": "css-page-4",
     "series": {
       "shortname": "css-page",
-      "currentSpecification": "css-page-3"
+      "currentSpecification": "css-page-3",
+      "nightlyUrl": "https://drafts.csswg.org/css-page/",
+      "releaseUrl": "https://www.w3.org/TR/css-page/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-page-3",
@@ -368,7 +391,9 @@
     "shortname": "css-shapes-2",
     "series": {
       "shortname": "css-shapes",
-      "currentSpecification": "css-shapes-1"
+      "currentSpecification": "css-shapes-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-shapes/",
+      "releaseUrl": "https://www.w3.org/TR/css-shapes/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-shapes-1",
@@ -394,7 +419,8 @@
     "shortname": "css-size-adjust-1",
     "series": {
       "shortname": "css-size-adjust",
-      "currentSpecification": "css-size-adjust-1"
+      "currentSpecification": "css-size-adjust-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-size-adjust/"
     },
     "seriesVersion": "1",
     "shortTitle": "CSS Size Adjustment 1",
@@ -419,7 +445,9 @@
     "shortname": "css-transitions-2",
     "series": {
       "shortname": "css-transitions",
-      "currentSpecification": "css-transitions-1"
+      "currentSpecification": "css-transitions-1",
+      "nightlyUrl": "https://drafts.csswg.org/css-transitions/",
+      "releaseUrl": "https://www.w3.org/TR/css-transitions/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-transitions-1",
@@ -445,7 +473,8 @@
     "shortname": "scroll-animations-1",
     "series": {
       "shortname": "scroll-animations",
-      "currentSpecification": "scroll-animations-1"
+      "currentSpecification": "scroll-animations-1",
+      "nightlyUrl": "https://drafts.csswg.org/scroll-animations/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -470,7 +499,9 @@
     "shortname": "web-animations-2",
     "series": {
       "shortname": "web-animations",
-      "currentSpecification": "web-animations-1"
+      "currentSpecification": "web-animations-1",
+      "nightlyUrl": "https://drafts.csswg.org/web-animations/",
+      "releaseUrl": "https://www.w3.org/TR/web-animations/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "web-animations-1",
@@ -496,7 +527,9 @@
     "shortname": "compositing-2",
     "series": {
       "shortname": "compositing",
-      "currentSpecification": "compositing-1"
+      "currentSpecification": "compositing-1",
+      "nightlyUrl": "https://drafts.fxtf.org/compositing/",
+      "releaseUrl": "https://www.w3.org/TR/compositing/"
     },
     "seriesVersion": "2",
     "shortTitle": "Compositing 2",
@@ -522,7 +555,9 @@
     "shortname": "filter-effects-2",
     "series": {
       "shortname": "filter-effects",
-      "currentSpecification": "filter-effects-1"
+      "currentSpecification": "filter-effects-1",
+      "nightlyUrl": "https://drafts.fxtf.org/filter-effects/",
+      "releaseUrl": "https://www.w3.org/TR/filter-effects/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "filter-effects-1",
@@ -548,7 +583,8 @@
     "shortname": "fetch",
     "series": {
       "shortname": "fetch",
-      "currentSpecification": "fetch"
+      "currentSpecification": "fetch",
+      "nightlyUrl": "https://fetch.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://fetch.spec.whatwg.org/",
@@ -577,7 +613,8 @@
     "shortname": "fullscreen",
     "series": {
       "shortname": "fullscreen",
-      "currentSpecification": "fullscreen"
+      "currentSpecification": "fullscreen",
+      "nightlyUrl": "https://fullscreen.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://fullscreen.spec.whatwg.org/",
@@ -601,7 +638,8 @@
     "shortname": "gpuweb",
     "series": {
       "shortname": "gpuweb",
-      "currentSpecification": "gpuweb"
+      "currentSpecification": "gpuweb",
+      "nightlyUrl": "https://gpuweb.github.io/gpuweb/"
     },
     "tests": {
       "repository": "https://github.com/gpuweb/cts",
@@ -625,7 +663,8 @@
     "shortname": "html",
     "series": {
       "shortname": "html",
-      "currentSpecification": "html"
+      "currentSpecification": "html",
+      "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
     },
     "nightly": {
       "url": "https://html.spec.whatwg.org/multipage/",
@@ -723,7 +762,8 @@
     "shortname": "anchors",
     "series": {
       "shortname": "anchors",
-      "currentSpecification": "anchors"
+      "currentSpecification": "anchors",
+      "nightlyUrl": "https://immersive-web.github.io/anchors/"
     },
     "nightly": {
       "url": "https://immersive-web.github.io/anchors/",
@@ -747,7 +787,8 @@
     "shortname": "depth-sensing",
     "series": {
       "shortname": "depth-sensing",
-      "currentSpecification": "depth-sensing"
+      "currentSpecification": "depth-sensing",
+      "nightlyUrl": "https://immersive-web.github.io/depth-sensing/"
     },
     "nightly": {
       "url": "https://immersive-web.github.io/depth-sensing/",
@@ -765,7 +806,8 @@
     "shortname": "dom-overlays",
     "series": {
       "shortname": "dom-overlays",
-      "currentSpecification": "dom-overlays"
+      "currentSpecification": "dom-overlays",
+      "nightlyUrl": "https://immersive-web.github.io/dom-overlays/"
     },
     "nightly": {
       "url": "https://immersive-web.github.io/dom-overlays/",
@@ -789,7 +831,8 @@
     "shortname": "hit-test",
     "series": {
       "shortname": "hit-test",
-      "currentSpecification": "hit-test"
+      "currentSpecification": "hit-test",
+      "nightlyUrl": "https://immersive-web.github.io/hit-test/"
     },
     "nightly": {
       "url": "https://immersive-web.github.io/hit-test/",
@@ -813,7 +856,8 @@
     "shortname": "lighting-estimation",
     "series": {
       "shortname": "lighting-estimation",
-      "currentSpecification": "lighting-estimation"
+      "currentSpecification": "lighting-estimation",
+      "nightlyUrl": "https://immersive-web.github.io/lighting-estimation/"
     },
     "nightly": {
       "url": "https://immersive-web.github.io/lighting-estimation/",
@@ -831,7 +875,8 @@
     "shortname": "infra",
     "series": {
       "shortname": "infra",
-      "currentSpecification": "infra"
+      "currentSpecification": "infra",
+      "nightlyUrl": "https://infra.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://infra.spec.whatwg.org/",
@@ -849,7 +894,8 @@
     "shortname": "mathml-core",
     "series": {
       "shortname": "mathml-core",
-      "currentSpecification": "mathml-core"
+      "currentSpecification": "mathml-core",
+      "nightlyUrl": "https://mathml-refresh.github.io/mathml-core/"
     },
     "nightly": {
       "url": "https://mathml-refresh.github.io/mathml-core/",
@@ -873,7 +919,8 @@
     "shortname": "mimesniff",
     "series": {
       "shortname": "mimesniff",
-      "currentSpecification": "mimesniff"
+      "currentSpecification": "mimesniff",
+      "nightlyUrl": "https://mimesniff.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://mimesniff.spec.whatwg.org/",
@@ -897,7 +944,8 @@
     "shortname": "notifications",
     "series": {
       "shortname": "notifications",
-      "currentSpecification": "notifications"
+      "currentSpecification": "notifications",
+      "nightlyUrl": "https://notifications.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://notifications.spec.whatwg.org/",
@@ -921,7 +969,8 @@
     "shortname": "private-click-measurement",
     "series": {
       "shortname": "private-click-measurement",
-      "currentSpecification": "private-click-measurement"
+      "currentSpecification": "private-click-measurement",
+      "nightlyUrl": "https://privacycg.github.io/private-click-measurement/"
     },
     "nightly": {
       "url": "https://privacycg.github.io/private-click-measurement/",
@@ -939,7 +988,8 @@
     "shortname": "storage-access",
     "series": {
       "shortname": "storage-access",
-      "currentSpecification": "storage-access"
+      "currentSpecification": "storage-access",
+      "nightlyUrl": "https://privacycg.github.io/storage-access/"
     },
     "nightly": {
       "url": "https://privacycg.github.io/storage-access/",
@@ -963,7 +1013,8 @@
     "shortname": "quirks",
     "series": {
       "shortname": "quirks",
-      "currentSpecification": "quirks"
+      "currentSpecification": "quirks",
+      "nightlyUrl": "https://quirks.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://quirks.spec.whatwg.org/",
@@ -987,7 +1038,8 @@
     "shortname": "storage",
     "series": {
       "shortname": "storage",
-      "currentSpecification": "storage"
+      "currentSpecification": "storage",
+      "nightlyUrl": "https://storage.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://storage.spec.whatwg.org/",
@@ -1014,7 +1066,8 @@
     "shortname": "streams",
     "series": {
       "shortname": "streams",
-      "currentSpecification": "streams"
+      "currentSpecification": "streams",
+      "nightlyUrl": "https://streams.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://streams.spec.whatwg.org/",
@@ -1038,7 +1091,8 @@
     "shortname": "svg-animations",
     "series": {
       "shortname": "svg-animations",
-      "currentSpecification": "svg-animations"
+      "currentSpecification": "svg-animations",
+      "nightlyUrl": "https://svgwg.org/specs/animations/"
     },
     "nightly": {
       "url": "https://svgwg.org/specs/animations/",
@@ -1056,7 +1110,8 @@
     "shortname": "ecmascript",
     "series": {
       "shortname": "ecmascript",
-      "currentSpecification": "ecmascript"
+      "currentSpecification": "ecmascript",
+      "nightlyUrl": "https://tc39.es/ecma262/"
     },
     "shortTitle": "ECMAScript",
     "tests": {
@@ -1083,7 +1138,8 @@
     "shortname": "ecma-402",
     "series": {
       "shortname": "ecma-402",
-      "currentSpecification": "ecma-402"
+      "currentSpecification": "ecma-402",
+      "nightlyUrl": "https://tc39.es/ecma402/"
     },
     "tests": {
       "repository": "https://github.com/tc39/test262",
@@ -1107,7 +1163,8 @@
     "shortname": "tc39-atomics-wait-async",
     "series": {
       "shortname": "tc39-atomics-wait-async",
-      "currentSpecification": "tc39-atomics-wait-async"
+      "currentSpecification": "tc39-atomics-wait-async",
+      "nightlyUrl": "https://tc39.es/proposal-atomics-wait-async/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-atomics-wait-async/",
@@ -1125,7 +1182,8 @@
     "shortname": "tc39-class-fields",
     "series": {
       "shortname": "tc39-class-fields",
-      "currentSpecification": "tc39-class-fields"
+      "currentSpecification": "tc39-class-fields",
+      "nightlyUrl": "https://tc39.es/proposal-class-fields/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-class-fields/",
@@ -1143,7 +1201,8 @@
     "shortname": "tc39-class-static-block",
     "series": {
       "shortname": "tc39-class-static-block",
-      "currentSpecification": "tc39-class-static-block"
+      "currentSpecification": "tc39-class-static-block",
+      "nightlyUrl": "https://tc39.es/proposal-class-static-block/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-class-static-block/",
@@ -1161,7 +1220,8 @@
     "shortname": "tc39-error-cause",
     "series": {
       "shortname": "tc39-error-cause",
-      "currentSpecification": "tc39-error-cause"
+      "currentSpecification": "tc39-error-cause",
+      "nightlyUrl": "https://tc39.es/proposal-error-cause/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-error-cause/",
@@ -1179,7 +1239,8 @@
     "shortname": "tc39-import-assertions",
     "series": {
       "shortname": "tc39-import-assertions",
-      "currentSpecification": "tc39-import-assertions"
+      "currentSpecification": "tc39-import-assertions",
+      "nightlyUrl": "https://tc39.es/proposal-import-assertions/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-import-assertions/",
@@ -1197,7 +1258,8 @@
     "shortname": "tc39-json-modules",
     "series": {
       "shortname": "tc39-json-modules",
-      "currentSpecification": "tc39-json-modules"
+      "currentSpecification": "tc39-json-modules",
+      "nightlyUrl": "https://tc39.es/proposal-json-modules/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-json-modules/",
@@ -1215,7 +1277,8 @@
     "shortname": "tc39-private-fields-in-in",
     "series": {
       "shortname": "tc39-private-fields-in-in",
-      "currentSpecification": "tc39-private-fields-in-in"
+      "currentSpecification": "tc39-private-fields-in-in",
+      "nightlyUrl": "https://tc39.es/proposal-private-fields-in-in/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-private-fields-in-in/",
@@ -1233,7 +1296,8 @@
     "shortname": "tc39-private-methods",
     "series": {
       "shortname": "tc39-private-methods",
-      "currentSpecification": "tc39-private-methods"
+      "currentSpecification": "tc39-private-methods",
+      "nightlyUrl": "https://tc39.es/proposal-private-methods/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-private-methods/",
@@ -1251,7 +1315,8 @@
     "shortname": "tc39-regexp-match-indices",
     "series": {
       "shortname": "tc39-regexp-match-indices",
-      "currentSpecification": "tc39-regexp-match-indices"
+      "currentSpecification": "tc39-regexp-match-indices",
+      "nightlyUrl": "https://tc39.es/proposal-regexp-match-indices/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-regexp-match-indices/",
@@ -1269,7 +1334,8 @@
     "shortname": "tc39-relative-indexing-method",
     "series": {
       "shortname": "tc39-relative-indexing-method",
-      "currentSpecification": "tc39-relative-indexing-method"
+      "currentSpecification": "tc39-relative-indexing-method",
+      "nightlyUrl": "https://tc39.es/proposal-relative-indexing-method/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-relative-indexing-method/",
@@ -1287,7 +1353,8 @@
     "shortname": "tc39-static-class-features",
     "series": {
       "shortname": "tc39-static-class-features",
-      "currentSpecification": "tc39-static-class-features"
+      "currentSpecification": "tc39-static-class-features",
+      "nightlyUrl": "https://tc39.es/proposal-static-class-features/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-static-class-features/",
@@ -1305,7 +1372,8 @@
     "shortname": "tc39-temporal",
     "series": {
       "shortname": "tc39-temporal",
-      "currentSpecification": "tc39-temporal"
+      "currentSpecification": "tc39-temporal",
+      "nightlyUrl": "https://tc39.es/proposal-temporal/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-temporal/",
@@ -1323,7 +1391,8 @@
     "shortname": "tc39-top-level-await",
     "series": {
       "shortname": "tc39-top-level-await",
-      "currentSpecification": "tc39-top-level-await"
+      "currentSpecification": "tc39-top-level-await",
+      "nightlyUrl": "https://tc39.es/proposal-top-level-await/"
     },
     "nightly": {
       "url": "https://tc39.es/proposal-top-level-await/",
@@ -1341,7 +1410,8 @@
     "shortname": "url",
     "series": {
       "shortname": "url",
-      "currentSpecification": "url"
+      "currentSpecification": "url",
+      "nightlyUrl": "https://url.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://url.spec.whatwg.org/",
@@ -1365,7 +1435,8 @@
     "shortname": "badging",
     "series": {
       "shortname": "badging",
-      "currentSpecification": "badging"
+      "currentSpecification": "badging",
+      "nightlyUrl": "https://w3c.github.io/badging/"
     },
     "nightly": {
       "url": "https://w3c.github.io/badging/",
@@ -1389,7 +1460,8 @@
     "shortname": "contentEditable",
     "series": {
       "shortname": "contentEditable",
-      "currentSpecification": "contentEditable"
+      "currentSpecification": "contentEditable",
+      "nightlyUrl": "https://w3c.github.io/contentEditable/"
     },
     "nightly": {
       "url": "https://w3c.github.io/contentEditable/",
@@ -1413,7 +1485,8 @@
     "shortname": "gamepad-extensions",
     "series": {
       "shortname": "gamepad-extensions",
-      "currentSpecification": "gamepad-extensions"
+      "currentSpecification": "gamepad-extensions",
+      "nightlyUrl": "https://w3c.github.io/gamepad/extensions.html"
     },
     "nightly": {
       "url": "https://w3c.github.io/gamepad/extensions.html",
@@ -1431,7 +1504,8 @@
     "shortname": "mathml-aam",
     "series": {
       "shortname": "mathml-aam",
-      "currentSpecification": "mathml-aam"
+      "currentSpecification": "mathml-aam",
+      "nightlyUrl": "https://w3c.github.io/mathml-aam/"
     },
     "nightly": {
       "url": "https://w3c.github.io/mathml-aam/",
@@ -1449,7 +1523,8 @@
     "shortname": "media-playback-quality",
     "series": {
       "shortname": "media-playback-quality",
-      "currentSpecification": "media-playback-quality"
+      "currentSpecification": "media-playback-quality",
+      "nightlyUrl": "https://w3c.github.io/media-playback-quality/"
     },
     "nightly": {
       "url": "https://w3c.github.io/media-playback-quality/",
@@ -1473,7 +1548,8 @@
     "shortname": "mediacapture-automation",
     "series": {
       "shortname": "mediacapture-automation",
-      "currentSpecification": "mediacapture-automation"
+      "currentSpecification": "mediacapture-automation",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-automation/"
     },
     "nightly": {
       "url": "https://w3c.github.io/mediacapture-automation/",
@@ -1491,7 +1567,8 @@
     "shortname": "web-nfc",
     "series": {
       "shortname": "web-nfc",
-      "currentSpecification": "web-nfc"
+      "currentSpecification": "web-nfc",
+      "nightlyUrl": "https://w3c.github.io/web-nfc/"
     },
     "nightly": {
       "url": "https://w3c.github.io/web-nfc/",
@@ -1515,7 +1592,8 @@
     "shortname": "web-share-target",
     "series": {
       "shortname": "web-share-target",
-      "currentSpecification": "web-share-target"
+      "currentSpecification": "web-share-target",
+      "nightlyUrl": "https://w3c.github.io/web-share-target/"
     },
     "nightly": {
       "url": "https://w3c.github.io/web-share-target/",
@@ -1533,7 +1611,8 @@
     "shortname": "change-password-url",
     "series": {
       "shortname": "change-password-url",
-      "currentSpecification": "change-password-url"
+      "currentSpecification": "change-password-url",
+      "nightlyUrl": "https://w3c.github.io/webappsec-change-password-url/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-change-password-url/",
@@ -1551,7 +1630,8 @@
     "shortname": "trusted-types",
     "series": {
       "shortname": "trusted-types",
-      "currentSpecification": "trusted-types"
+      "currentSpecification": "trusted-types",
+      "nightlyUrl": "https://w3c.github.io/webappsec-trusted-types/dist/spec/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
@@ -1575,7 +1655,8 @@
     "shortname": "webdriver-bidi",
     "series": {
       "shortname": "webdriver-bidi",
-      "currentSpecification": "webdriver-bidi"
+      "currentSpecification": "webdriver-bidi",
+      "nightlyUrl": "https://w3c.github.io/webdriver-bidi/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webdriver-bidi/",
@@ -1593,7 +1674,8 @@
     "shortname": "webrtc-encoded-transform",
     "series": {
       "shortname": "webrtc-encoded-transform",
-      "currentSpecification": "webrtc-encoded-transform"
+      "currentSpecification": "webrtc-encoded-transform",
+      "nightlyUrl": "https://w3c.github.io/webrtc-encoded-transform/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webrtc-encoded-transform/",
@@ -1617,7 +1699,8 @@
     "shortname": "webrtc-ice",
     "series": {
       "shortname": "webrtc-ice",
-      "currentSpecification": "webrtc-ice"
+      "currentSpecification": "webrtc-ice",
+      "nightlyUrl": "https://w3c.github.io/webrtc-ice/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webrtc-ice/",
@@ -1641,7 +1724,8 @@
     "shortname": "webtransport",
     "series": {
       "shortname": "webtransport",
-      "currentSpecification": "webtransport"
+      "currentSpecification": "webtransport",
+      "nightlyUrl": "https://w3c.github.io/webtransport/"
     },
     "nightly": {
       "url": "https://w3c.github.io/webtransport/",
@@ -1665,7 +1749,8 @@
     "shortname": "web-bluetooth",
     "series": {
       "shortname": "web-bluetooth",
-      "currentSpecification": "web-bluetooth"
+      "currentSpecification": "web-bluetooth",
+      "nightlyUrl": "https://webbluetoothcg.github.io/web-bluetooth/"
     },
     "nightly": {
       "url": "https://webbluetoothcg.github.io/web-bluetooth/",
@@ -1689,7 +1774,8 @@
     "shortname": "background-fetch",
     "series": {
       "shortname": "background-fetch",
-      "currentSpecification": "background-fetch"
+      "currentSpecification": "background-fetch",
+      "nightlyUrl": "https://wicg.github.io/background-fetch/"
     },
     "nightly": {
       "url": "https://wicg.github.io/background-fetch/",
@@ -1713,7 +1799,8 @@
     "shortname": "background-sync",
     "series": {
       "shortname": "background-sync",
-      "currentSpecification": "background-sync"
+      "currentSpecification": "background-sync",
+      "nightlyUrl": "https://wicg.github.io/background-sync/spec/"
     },
     "shortTitle": "Background Sync",
     "nightly": {
@@ -1737,7 +1824,8 @@
     "shortname": "client-hints-infrastructure",
     "series": {
       "shortname": "client-hints-infrastructure",
-      "currentSpecification": "client-hints-infrastructure"
+      "currentSpecification": "client-hints-infrastructure",
+      "nightlyUrl": "https://wicg.github.io/client-hints-infrastructure/"
     },
     "nightly": {
       "url": "https://wicg.github.io/client-hints-infrastructure/",
@@ -1761,7 +1849,8 @@
     "shortname": "compression",
     "series": {
       "shortname": "compression",
-      "currentSpecification": "compression"
+      "currentSpecification": "compression",
+      "nightlyUrl": "https://wicg.github.io/compression/"
     },
     "nightly": {
       "url": "https://wicg.github.io/compression/",
@@ -1785,7 +1874,8 @@
     "shortname": "construct-stylesheets",
     "series": {
       "shortname": "construct-stylesheets",
-      "currentSpecification": "construct-stylesheets"
+      "currentSpecification": "construct-stylesheets",
+      "nightlyUrl": "https://wicg.github.io/construct-stylesheets/"
     },
     "nightly": {
       "url": "https://wicg.github.io/construct-stylesheets/",
@@ -1809,7 +1899,8 @@
     "shortname": "contact-api",
     "series": {
       "shortname": "contact-api",
-      "currentSpecification": "contact-api"
+      "currentSpecification": "contact-api",
+      "nightlyUrl": "https://wicg.github.io/contact-api/spec/"
     },
     "nightly": {
       "url": "https://wicg.github.io/contact-api/spec/",
@@ -1833,7 +1924,8 @@
     "shortname": "content-index",
     "series": {
       "shortname": "content-index",
-      "currentSpecification": "content-index"
+      "currentSpecification": "content-index",
+      "nightlyUrl": "https://wicg.github.io/content-index/spec/"
     },
     "nightly": {
       "url": "https://wicg.github.io/content-index/spec/",
@@ -1857,7 +1949,8 @@
     "shortname": "cookie-store",
     "series": {
       "shortname": "cookie-store",
-      "currentSpecification": "cookie-store"
+      "currentSpecification": "cookie-store",
+      "nightlyUrl": "https://wicg.github.io/cookie-store/"
     },
     "nightly": {
       "url": "https://wicg.github.io/cookie-store/",
@@ -1881,7 +1974,8 @@
     "shortname": "crash-reporting",
     "series": {
       "shortname": "crash-reporting",
-      "currentSpecification": "crash-reporting"
+      "currentSpecification": "crash-reporting",
+      "nightlyUrl": "https://wicg.github.io/crash-reporting/"
     },
     "nightly": {
       "url": "https://wicg.github.io/crash-reporting/",
@@ -1899,7 +1993,8 @@
     "shortname": "css-parser-api",
     "series": {
       "shortname": "css-parser-api",
-      "currentSpecification": "css-parser-api"
+      "currentSpecification": "css-parser-api",
+      "nightlyUrl": "https://wicg.github.io/css-parser-api/"
     },
     "nightly": {
       "url": "https://wicg.github.io/css-parser-api/",
@@ -1923,7 +2018,8 @@
     "shortname": "custom-state-pseudo-class",
     "series": {
       "shortname": "custom-state-pseudo-class",
-      "currentSpecification": "custom-state-pseudo-class"
+      "currentSpecification": "custom-state-pseudo-class",
+      "nightlyUrl": "https://wicg.github.io/custom-state-pseudo-class/"
     },
     "nightly": {
       "url": "https://wicg.github.io/custom-state-pseudo-class/",
@@ -1947,7 +2043,8 @@
     "shortname": "datacue",
     "series": {
       "shortname": "datacue",
-      "currentSpecification": "datacue"
+      "currentSpecification": "datacue",
+      "nightlyUrl": "https://wicg.github.io/datacue/"
     },
     "nightly": {
       "url": "https://wicg.github.io/datacue/",
@@ -1965,7 +2062,8 @@
     "shortname": "deprecation-reporting",
     "series": {
       "shortname": "deprecation-reporting",
-      "currentSpecification": "deprecation-reporting"
+      "currentSpecification": "deprecation-reporting",
+      "nightlyUrl": "https://wicg.github.io/deprecation-reporting/"
     },
     "nightly": {
       "url": "https://wicg.github.io/deprecation-reporting/",
@@ -1989,7 +2087,8 @@
     "shortname": "element-timing",
     "series": {
       "shortname": "element-timing",
-      "currentSpecification": "element-timing"
+      "currentSpecification": "element-timing",
+      "nightlyUrl": "https://wicg.github.io/element-timing/"
     },
     "nightly": {
       "url": "https://wicg.github.io/element-timing/",
@@ -2013,7 +2112,8 @@
     "shortname": "entries-api",
     "series": {
       "shortname": "entries-api",
-      "currentSpecification": "entries-api"
+      "currentSpecification": "entries-api",
+      "nightlyUrl": "https://wicg.github.io/entries-api/"
     },
     "nightly": {
       "url": "https://wicg.github.io/entries-api/",
@@ -2037,7 +2137,8 @@
     "shortname": "event-timing",
     "series": {
       "shortname": "event-timing",
-      "currentSpecification": "event-timing"
+      "currentSpecification": "event-timing",
+      "nightlyUrl": "https://wicg.github.io/event-timing/"
     },
     "nightly": {
       "url": "https://wicg.github.io/event-timing/",
@@ -2061,7 +2162,8 @@
     "shortname": "file-system-access",
     "series": {
       "shortname": "file-system-access",
-      "currentSpecification": "file-system-access"
+      "currentSpecification": "file-system-access",
+      "nightlyUrl": "https://wicg.github.io/file-system-access/"
     },
     "nightly": {
       "url": "https://wicg.github.io/file-system-access/",
@@ -2085,7 +2187,8 @@
     "shortname": "floc",
     "series": {
       "shortname": "floc",
-      "currentSpecification": "floc"
+      "currentSpecification": "floc",
+      "nightlyUrl": "https://wicg.github.io/floc/"
     },
     "nightly": {
       "url": "https://wicg.github.io/floc/",
@@ -2103,7 +2206,8 @@
     "shortname": "frame-timing",
     "series": {
       "shortname": "frame-timing",
-      "currentSpecification": "frame-timing"
+      "currentSpecification": "frame-timing",
+      "nightlyUrl": "https://wicg.github.io/frame-timing/"
     },
     "nightly": {
       "url": "https://wicg.github.io/frame-timing/",
@@ -2121,7 +2225,8 @@
     "shortname": "get-installed-related-apps",
     "series": {
       "shortname": "get-installed-related-apps",
-      "currentSpecification": "get-installed-related-apps"
+      "currentSpecification": "get-installed-related-apps",
+      "nightlyUrl": "https://wicg.github.io/get-installed-related-apps/spec/"
     },
     "nightly": {
       "url": "https://wicg.github.io/get-installed-related-apps/spec/",
@@ -2145,7 +2250,8 @@
     "shortname": "idle-detection",
     "series": {
       "shortname": "idle-detection",
-      "currentSpecification": "idle-detection"
+      "currentSpecification": "idle-detection",
+      "nightlyUrl": "https://wicg.github.io/idle-detection/"
     },
     "nightly": {
       "url": "https://wicg.github.io/idle-detection/",
@@ -2169,7 +2275,8 @@
     "shortname": "import-maps",
     "series": {
       "shortname": "import-maps",
-      "currentSpecification": "import-maps"
+      "currentSpecification": "import-maps",
+      "nightlyUrl": "https://wicg.github.io/import-maps/"
     },
     "nightly": {
       "url": "https://wicg.github.io/import-maps/",
@@ -2193,7 +2300,8 @@
     "shortname": "input-device-capabilities",
     "series": {
       "shortname": "input-device-capabilities",
-      "currentSpecification": "input-device-capabilities"
+      "currentSpecification": "input-device-capabilities",
+      "nightlyUrl": "https://wicg.github.io/input-device-capabilities/"
     },
     "nightly": {
       "url": "https://wicg.github.io/input-device-capabilities/",
@@ -2217,7 +2325,8 @@
     "shortname": "intervention-reporting",
     "series": {
       "shortname": "intervention-reporting",
-      "currentSpecification": "intervention-reporting"
+      "currentSpecification": "intervention-reporting",
+      "nightlyUrl": "https://wicg.github.io/intervention-reporting/"
     },
     "nightly": {
       "url": "https://wicg.github.io/intervention-reporting/",
@@ -2241,7 +2350,8 @@
     "shortname": "is-input-pending",
     "series": {
       "shortname": "is-input-pending",
-      "currentSpecification": "is-input-pending"
+      "currentSpecification": "is-input-pending",
+      "nightlyUrl": "https://wicg.github.io/is-input-pending/"
     },
     "nightly": {
       "url": "https://wicg.github.io/is-input-pending/",
@@ -2265,7 +2375,8 @@
     "shortname": "js-self-profiling",
     "series": {
       "shortname": "js-self-profiling",
-      "currentSpecification": "js-self-profiling"
+      "currentSpecification": "js-self-profiling",
+      "nightlyUrl": "https://wicg.github.io/js-self-profiling/"
     },
     "nightly": {
       "url": "https://wicg.github.io/js-self-profiling/",
@@ -2289,7 +2400,8 @@
     "shortname": "keyboard-lock",
     "series": {
       "shortname": "keyboard-lock",
-      "currentSpecification": "keyboard-lock"
+      "currentSpecification": "keyboard-lock",
+      "nightlyUrl": "https://wicg.github.io/keyboard-lock/"
     },
     "nightly": {
       "url": "https://wicg.github.io/keyboard-lock/",
@@ -2313,7 +2425,8 @@
     "shortname": "keyboard-map",
     "series": {
       "shortname": "keyboard-map",
-      "currentSpecification": "keyboard-map"
+      "currentSpecification": "keyboard-map",
+      "nightlyUrl": "https://wicg.github.io/keyboard-map/"
     },
     "nightly": {
       "url": "https://wicg.github.io/keyboard-map/",
@@ -2337,7 +2450,8 @@
     "shortname": "largest-contentful-paint",
     "series": {
       "shortname": "largest-contentful-paint",
-      "currentSpecification": "largest-contentful-paint"
+      "currentSpecification": "largest-contentful-paint",
+      "nightlyUrl": "https://wicg.github.io/largest-contentful-paint/"
     },
     "nightly": {
       "url": "https://wicg.github.io/largest-contentful-paint/",
@@ -2361,7 +2475,8 @@
     "shortname": "layout-instability",
     "series": {
       "shortname": "layout-instability",
-      "currentSpecification": "layout-instability"
+      "currentSpecification": "layout-instability",
+      "nightlyUrl": "https://wicg.github.io/layout-instability/"
     },
     "nightly": {
       "url": "https://wicg.github.io/layout-instability/",
@@ -2385,7 +2500,8 @@
     "shortname": "local-font-access",
     "series": {
       "shortname": "local-font-access",
-      "currentSpecification": "local-font-access"
+      "currentSpecification": "local-font-access",
+      "nightlyUrl": "https://wicg.github.io/local-font-access/"
     },
     "nightly": {
       "url": "https://wicg.github.io/local-font-access/",
@@ -2403,7 +2519,8 @@
     "shortname": "media-feeds",
     "series": {
       "shortname": "media-feeds",
-      "currentSpecification": "media-feeds"
+      "currentSpecification": "media-feeds",
+      "nightlyUrl": "https://wicg.github.io/media-feeds/"
     },
     "nightly": {
       "url": "https://wicg.github.io/media-feeds/",
@@ -2421,7 +2538,8 @@
     "shortname": "netinfo",
     "series": {
       "shortname": "netinfo",
-      "currentSpecification": "netinfo"
+      "currentSpecification": "netinfo",
+      "nightlyUrl": "https://wicg.github.io/netinfo/"
     },
     "nightly": {
       "url": "https://wicg.github.io/netinfo/",
@@ -2445,7 +2563,8 @@
     "shortname": "origin-policy",
     "series": {
       "shortname": "origin-policy",
-      "currentSpecification": "origin-policy"
+      "currentSpecification": "origin-policy",
+      "nightlyUrl": "https://wicg.github.io/origin-policy/"
     },
     "nightly": {
       "url": "https://wicg.github.io/origin-policy/",
@@ -2469,7 +2588,8 @@
     "shortname": "overscroll-scrollend-events",
     "series": {
       "shortname": "overscroll-scrollend-events",
-      "currentSpecification": "overscroll-scrollend-events"
+      "currentSpecification": "overscroll-scrollend-events",
+      "nightlyUrl": "https://wicg.github.io/overscroll-scrollend-events/"
     },
     "nightly": {
       "url": "https://wicg.github.io/overscroll-scrollend-events/",
@@ -2487,7 +2607,8 @@
     "shortname": "page-lifecycle",
     "series": {
       "shortname": "page-lifecycle",
-      "currentSpecification": "page-lifecycle"
+      "currentSpecification": "page-lifecycle",
+      "nightlyUrl": "https://wicg.github.io/page-lifecycle/"
     },
     "nightly": {
       "url": "https://wicg.github.io/page-lifecycle/",
@@ -2512,7 +2633,8 @@
     "shortname": "performance-measure-memory",
     "series": {
       "shortname": "performance-measure-memory",
-      "currentSpecification": "performance-measure-memory"
+      "currentSpecification": "performance-measure-memory",
+      "nightlyUrl": "https://wicg.github.io/performance-measure-memory/"
     },
     "nightly": {
       "url": "https://wicg.github.io/performance-measure-memory/",
@@ -2536,7 +2658,8 @@
     "shortname": "periodic-background-sync",
     "series": {
       "shortname": "periodic-background-sync",
-      "currentSpecification": "periodic-background-sync"
+      "currentSpecification": "periodic-background-sync",
+      "nightlyUrl": "https://wicg.github.io/periodic-background-sync/"
     },
     "nightly": {
       "url": "https://wicg.github.io/periodic-background-sync/",
@@ -2560,7 +2683,8 @@
     "shortname": "permissions-request",
     "series": {
       "shortname": "permissions-request",
-      "currentSpecification": "permissions-request"
+      "currentSpecification": "permissions-request",
+      "nightlyUrl": "https://wicg.github.io/permissions-request/"
     },
     "nightly": {
       "url": "https://wicg.github.io/permissions-request/",
@@ -2584,7 +2708,8 @@
     "shortname": "permissions-revoke",
     "series": {
       "shortname": "permissions-revoke",
-      "currentSpecification": "permissions-revoke"
+      "currentSpecification": "permissions-revoke",
+      "nightlyUrl": "https://wicg.github.io/permissions-revoke/"
     },
     "nightly": {
       "url": "https://wicg.github.io/permissions-revoke/",
@@ -2608,7 +2733,8 @@
     "shortname": "portals",
     "series": {
       "shortname": "portals",
-      "currentSpecification": "portals"
+      "currentSpecification": "portals",
+      "nightlyUrl": "https://wicg.github.io/portals/"
     },
     "nightly": {
       "url": "https://wicg.github.io/portals/",
@@ -2632,7 +2758,8 @@
     "shortname": "priority-hints",
     "series": {
       "shortname": "priority-hints",
-      "currentSpecification": "priority-hints"
+      "currentSpecification": "priority-hints",
+      "nightlyUrl": "https://wicg.github.io/priority-hints/"
     },
     "nightly": {
       "url": "https://wicg.github.io/priority-hints/",
@@ -2656,7 +2783,8 @@
     "shortname": "private-network-access",
     "series": {
       "shortname": "private-network-access",
-      "currentSpecification": "private-network-access"
+      "currentSpecification": "private-network-access",
+      "nightlyUrl": "https://wicg.github.io/private-network-access/"
     },
     "nightly": {
       "url": "https://wicg.github.io/private-network-access/",
@@ -2680,7 +2808,8 @@
     "shortname": "sanitizer-api",
     "series": {
       "shortname": "sanitizer-api",
-      "currentSpecification": "sanitizer-api"
+      "currentSpecification": "sanitizer-api",
+      "nightlyUrl": "https://wicg.github.io/sanitizer-api/"
     },
     "nightly": {
       "url": "https://wicg.github.io/sanitizer-api/",
@@ -2704,7 +2833,8 @@
     "shortname": "savedata",
     "series": {
       "shortname": "savedata",
-      "currentSpecification": "savedata"
+      "currentSpecification": "savedata",
+      "nightlyUrl": "https://wicg.github.io/savedata/"
     },
     "nightly": {
       "url": "https://wicg.github.io/savedata/",
@@ -2728,7 +2858,8 @@
     "shortname": "scheduling-apis",
     "series": {
       "shortname": "scheduling-apis",
-      "currentSpecification": "scheduling-apis"
+      "currentSpecification": "scheduling-apis",
+      "nightlyUrl": "https://wicg.github.io/scheduling-apis/"
     },
     "nightly": {
       "url": "https://wicg.github.io/scheduling-apis/",
@@ -2746,7 +2877,8 @@
     "shortname": "scroll-to-text-fragment",
     "series": {
       "shortname": "scroll-to-text-fragment",
-      "currentSpecification": "scroll-to-text-fragment"
+      "currentSpecification": "scroll-to-text-fragment",
+      "nightlyUrl": "https://wicg.github.io/scroll-to-text-fragment/"
     },
     "nightly": {
       "url": "https://wicg.github.io/scroll-to-text-fragment/",
@@ -2770,7 +2902,8 @@
     "shortname": "serial",
     "series": {
       "shortname": "serial",
-      "currentSpecification": "serial"
+      "currentSpecification": "serial",
+      "nightlyUrl": "https://wicg.github.io/serial/"
     },
     "nightly": {
       "url": "https://wicg.github.io/serial/",
@@ -2794,7 +2927,8 @@
     "shortname": "shape-detection-api",
     "series": {
       "shortname": "shape-detection-api",
-      "currentSpecification": "shape-detection-api"
+      "currentSpecification": "shape-detection-api",
+      "nightlyUrl": "https://wicg.github.io/shape-detection-api/"
     },
     "nightly": {
       "url": "https://wicg.github.io/shape-detection-api/",
@@ -2818,7 +2952,8 @@
     "shortname": "text-detection-api",
     "series": {
       "shortname": "text-detection-api",
-      "currentSpecification": "text-detection-api"
+      "currentSpecification": "text-detection-api",
+      "nightlyUrl": "https://wicg.github.io/shape-detection-api/text.html"
     },
     "nightly": {
       "url": "https://wicg.github.io/shape-detection-api/text.html",
@@ -2836,7 +2971,8 @@
     "shortname": "sms-one-time-codes",
     "series": {
       "shortname": "sms-one-time-codes",
-      "currentSpecification": "sms-one-time-codes"
+      "currentSpecification": "sms-one-time-codes",
+      "nightlyUrl": "https://wicg.github.io/sms-one-time-codes/"
     },
     "shortTitle": "SMS One-Time Codes",
     "nightly": {
@@ -2854,7 +2990,8 @@
     "shortname": "speech-api",
     "series": {
       "shortname": "speech-api",
-      "currentSpecification": "speech-api"
+      "currentSpecification": "speech-api",
+      "nightlyUrl": "https://wicg.github.io/speech-api/"
     },
     "nightly": {
       "url": "https://wicg.github.io/speech-api/",
@@ -2878,7 +3015,8 @@
     "shortname": "ua-client-hints",
     "series": {
       "shortname": "ua-client-hints",
-      "currentSpecification": "ua-client-hints"
+      "currentSpecification": "ua-client-hints",
+      "nightlyUrl": "https://wicg.github.io/ua-client-hints/"
     },
     "nightly": {
       "url": "https://wicg.github.io/ua-client-hints/",
@@ -2902,7 +3040,8 @@
     "shortname": "video-rvfc",
     "series": {
       "shortname": "video-rvfc",
-      "currentSpecification": "video-rvfc"
+      "currentSpecification": "video-rvfc",
+      "nightlyUrl": "https://wicg.github.io/video-rvfc/"
     },
     "nightly": {
       "url": "https://wicg.github.io/video-rvfc/",
@@ -2926,7 +3065,8 @@
     "shortname": "visual-viewport",
     "series": {
       "shortname": "visual-viewport",
-      "currentSpecification": "visual-viewport"
+      "currentSpecification": "visual-viewport",
+      "nightlyUrl": "https://wicg.github.io/visual-viewport/"
     },
     "nightly": {
       "url": "https://wicg.github.io/visual-viewport/",
@@ -2950,7 +3090,8 @@
     "shortname": "web-locks",
     "series": {
       "shortname": "web-locks",
-      "currentSpecification": "web-locks"
+      "currentSpecification": "web-locks",
+      "nightlyUrl": "https://wicg.github.io/web-locks/"
     },
     "nightly": {
       "url": "https://wicg.github.io/web-locks/",
@@ -2974,7 +3115,8 @@
     "shortname": "web-otp",
     "series": {
       "shortname": "web-otp",
-      "currentSpecification": "web-otp"
+      "currentSpecification": "web-otp",
+      "nightlyUrl": "https://wicg.github.io/web-otp/"
     },
     "nightly": {
       "url": "https://wicg.github.io/web-otp/",
@@ -2998,7 +3140,8 @@
     "shortname": "webhid",
     "series": {
       "shortname": "webhid",
-      "currentSpecification": "webhid"
+      "currentSpecification": "webhid",
+      "nightlyUrl": "https://wicg.github.io/webhid/"
     },
     "nightly": {
       "url": "https://wicg.github.io/webhid/",
@@ -3022,7 +3165,8 @@
     "shortname": "webpackage",
     "series": {
       "shortname": "webpackage",
-      "currentSpecification": "webpackage"
+      "currentSpecification": "webpackage",
+      "nightlyUrl": "https://wicg.github.io/webpackage/loading.html"
     },
     "nightly": {
       "url": "https://wicg.github.io/webpackage/loading.html",
@@ -3040,7 +3184,8 @@
     "shortname": "webusb",
     "series": {
       "shortname": "webusb",
-      "currentSpecification": "webusb"
+      "currentSpecification": "webusb",
+      "nightlyUrl": "https://wicg.github.io/webusb/"
     },
     "nightly": {
       "url": "https://wicg.github.io/webusb/",
@@ -3064,7 +3209,8 @@
     "shortname": "ANGLE_instanced_arrays",
     "series": {
       "shortname": "ANGLE_instanced_arrays",
-      "currentSpecification": "ANGLE_instanced_arrays"
+      "currentSpecification": "ANGLE_instanced_arrays",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/",
@@ -3088,7 +3234,8 @@
     "shortname": "EXT_blend_minmax",
     "series": {
       "shortname": "EXT_blend_minmax",
-      "currentSpecification": "EXT_blend_minmax"
+      "currentSpecification": "EXT_blend_minmax",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_blend_minmax/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_blend_minmax/",
@@ -3112,7 +3259,8 @@
     "shortname": "EXT_clip_cull_distance",
     "series": {
       "shortname": "EXT_clip_cull_distance",
-      "currentSpecification": "EXT_clip_cull_distance"
+      "currentSpecification": "EXT_clip_cull_distance",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_clip_cull_distance/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_clip_cull_distance/",
@@ -3136,7 +3284,8 @@
     "shortname": "EXT_color_buffer_float",
     "series": {
       "shortname": "EXT_color_buffer_float",
-      "currentSpecification": "EXT_color_buffer_float"
+      "currentSpecification": "EXT_color_buffer_float",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_float/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_float/",
@@ -3160,7 +3309,8 @@
     "shortname": "EXT_color_buffer_half_float",
     "series": {
       "shortname": "EXT_color_buffer_half_float",
-      "currentSpecification": "EXT_color_buffer_half_float"
+      "currentSpecification": "EXT_color_buffer_half_float",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_half_float/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_half_float/",
@@ -3184,7 +3334,8 @@
     "shortname": "EXT_disjoint_timer_query_webgl2",
     "series": {
       "shortname": "EXT_disjoint_timer_query_webgl2",
-      "currentSpecification": "EXT_disjoint_timer_query_webgl2"
+      "currentSpecification": "EXT_disjoint_timer_query_webgl2",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query_webgl2/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query_webgl2/",
@@ -3208,7 +3359,8 @@
     "shortname": "EXT_disjoint_timer_query",
     "series": {
       "shortname": "EXT_disjoint_timer_query",
-      "currentSpecification": "EXT_disjoint_timer_query"
+      "currentSpecification": "EXT_disjoint_timer_query",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/",
@@ -3232,7 +3384,8 @@
     "shortname": "EXT_float_blend",
     "series": {
       "shortname": "EXT_float_blend",
-      "currentSpecification": "EXT_float_blend"
+      "currentSpecification": "EXT_float_blend",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_float_blend/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_float_blend/",
@@ -3256,7 +3409,8 @@
     "shortname": "EXT_frag_depth",
     "series": {
       "shortname": "EXT_frag_depth",
-      "currentSpecification": "EXT_frag_depth"
+      "currentSpecification": "EXT_frag_depth",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_frag_depth/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_frag_depth/",
@@ -3280,7 +3434,8 @@
     "shortname": "EXT_shader_texture_lod",
     "series": {
       "shortname": "EXT_shader_texture_lod",
-      "currentSpecification": "EXT_shader_texture_lod"
+      "currentSpecification": "EXT_shader_texture_lod",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_shader_texture_lod/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_shader_texture_lod/",
@@ -3304,7 +3459,8 @@
     "shortname": "EXT_sRGB",
     "series": {
       "shortname": "EXT_sRGB",
-      "currentSpecification": "EXT_sRGB"
+      "currentSpecification": "EXT_sRGB",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_sRGB/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_sRGB/",
@@ -3328,7 +3484,8 @@
     "shortname": "EXT_texture_compression_bptc",
     "series": {
       "shortname": "EXT_texture_compression_bptc",
-      "currentSpecification": "EXT_texture_compression_bptc"
+      "currentSpecification": "EXT_texture_compression_bptc",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_compression_bptc/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_compression_bptc/",
@@ -3352,7 +3509,8 @@
     "shortname": "EXT_texture_compression_rgtc",
     "series": {
       "shortname": "EXT_texture_compression_rgtc",
-      "currentSpecification": "EXT_texture_compression_rgtc"
+      "currentSpecification": "EXT_texture_compression_rgtc",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_compression_rgtc/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_compression_rgtc/",
@@ -3376,7 +3534,8 @@
     "shortname": "EXT_texture_filter_anisotropic",
     "series": {
       "shortname": "EXT_texture_filter_anisotropic",
-      "currentSpecification": "EXT_texture_filter_anisotropic"
+      "currentSpecification": "EXT_texture_filter_anisotropic",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_filter_anisotropic/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_filter_anisotropic/",
@@ -3400,7 +3559,8 @@
     "shortname": "EXT_texture_norm16",
     "series": {
       "shortname": "EXT_texture_norm16",
-      "currentSpecification": "EXT_texture_norm16"
+      "currentSpecification": "EXT_texture_norm16",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_norm16/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_norm16/",
@@ -3424,7 +3584,8 @@
     "shortname": "KHR_parallel_shader_compile",
     "series": {
       "shortname": "KHR_parallel_shader_compile",
-      "currentSpecification": "KHR_parallel_shader_compile"
+      "currentSpecification": "KHR_parallel_shader_compile",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/KHR_parallel_shader_compile/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/KHR_parallel_shader_compile/",
@@ -3448,7 +3609,8 @@
     "shortname": "OES_draw_buffers_indexed",
     "series": {
       "shortname": "OES_draw_buffers_indexed",
-      "currentSpecification": "OES_draw_buffers_indexed"
+      "currentSpecification": "OES_draw_buffers_indexed",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_draw_buffers_indexed/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_draw_buffers_indexed/",
@@ -3472,7 +3634,8 @@
     "shortname": "OES_element_index_uint",
     "series": {
       "shortname": "OES_element_index_uint",
-      "currentSpecification": "OES_element_index_uint"
+      "currentSpecification": "OES_element_index_uint",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_element_index_uint/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_element_index_uint/",
@@ -3496,7 +3659,8 @@
     "shortname": "OES_fbo_render_mipmap",
     "series": {
       "shortname": "OES_fbo_render_mipmap",
-      "currentSpecification": "OES_fbo_render_mipmap"
+      "currentSpecification": "OES_fbo_render_mipmap",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_fbo_render_mipmap/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_fbo_render_mipmap/",
@@ -3520,7 +3684,8 @@
     "shortname": "OES_standard_derivatives",
     "series": {
       "shortname": "OES_standard_derivatives",
-      "currentSpecification": "OES_standard_derivatives"
+      "currentSpecification": "OES_standard_derivatives",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_standard_derivatives/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_standard_derivatives/",
@@ -3544,7 +3709,8 @@
     "shortname": "OES_texture_float_linear",
     "series": {
       "shortname": "OES_texture_float_linear",
-      "currentSpecification": "OES_texture_float_linear"
+      "currentSpecification": "OES_texture_float_linear",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_texture_float_linear/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_float_linear/",
@@ -3568,7 +3734,8 @@
     "shortname": "OES_texture_float",
     "series": {
       "shortname": "OES_texture_float",
-      "currentSpecification": "OES_texture_float"
+      "currentSpecification": "OES_texture_float",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_texture_float/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_float/",
@@ -3592,7 +3759,8 @@
     "shortname": "OES_texture_half_float_linear",
     "series": {
       "shortname": "OES_texture_half_float_linear",
-      "currentSpecification": "OES_texture_half_float_linear"
+      "currentSpecification": "OES_texture_half_float_linear",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float_linear/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float_linear/",
@@ -3616,7 +3784,8 @@
     "shortname": "OES_texture_half_float",
     "series": {
       "shortname": "OES_texture_half_float",
-      "currentSpecification": "OES_texture_half_float"
+      "currentSpecification": "OES_texture_half_float",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float/",
@@ -3640,7 +3809,8 @@
     "shortname": "OES_vertex_array_object",
     "series": {
       "shortname": "OES_vertex_array_object",
-      "currentSpecification": "OES_vertex_array_object"
+      "currentSpecification": "OES_vertex_array_object",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/",
@@ -3664,7 +3834,8 @@
     "shortname": "OVR_multiview2",
     "series": {
       "shortname": "OVR_multiview2",
-      "currentSpecification": "OVR_multiview2"
+      "currentSpecification": "OVR_multiview2",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/OVR_multiview2/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/OVR_multiview2/",
@@ -3688,7 +3859,8 @@
     "shortname": "WEBGL_blend_equation_advanced_coherent",
     "series": {
       "shortname": "WEBGL_blend_equation_advanced_coherent",
-      "currentSpecification": "WEBGL_blend_equation_advanced_coherent"
+      "currentSpecification": "WEBGL_blend_equation_advanced_coherent",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_blend_equation_advanced_coherent/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_blend_equation_advanced_coherent/",
@@ -3712,7 +3884,8 @@
     "shortname": "WEBGL_color_buffer_float",
     "series": {
       "shortname": "WEBGL_color_buffer_float",
-      "currentSpecification": "WEBGL_color_buffer_float"
+      "currentSpecification": "WEBGL_color_buffer_float",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_color_buffer_float/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_color_buffer_float/",
@@ -3736,7 +3909,8 @@
     "shortname": "WEBGL_compressed_texture_astc",
     "series": {
       "shortname": "WEBGL_compressed_texture_astc",
-      "currentSpecification": "WEBGL_compressed_texture_astc"
+      "currentSpecification": "WEBGL_compressed_texture_astc",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_astc/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_astc/",
@@ -3760,7 +3934,8 @@
     "shortname": "WEBGL_compressed_texture_etc",
     "series": {
       "shortname": "WEBGL_compressed_texture_etc",
-      "currentSpecification": "WEBGL_compressed_texture_etc"
+      "currentSpecification": "WEBGL_compressed_texture_etc",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc/",
@@ -3784,7 +3959,8 @@
     "shortname": "WEBGL_compressed_texture_etc1",
     "series": {
       "shortname": "WEBGL_compressed_texture_etc1",
-      "currentSpecification": "WEBGL_compressed_texture_etc1"
+      "currentSpecification": "WEBGL_compressed_texture_etc1",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc1/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc1/",
@@ -3808,7 +3984,8 @@
     "shortname": "WEBGL_compressed_texture_pvrtc",
     "series": {
       "shortname": "WEBGL_compressed_texture_pvrtc",
-      "currentSpecification": "WEBGL_compressed_texture_pvrtc"
+      "currentSpecification": "WEBGL_compressed_texture_pvrtc",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_pvrtc/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_pvrtc/",
@@ -3832,7 +4009,8 @@
     "shortname": "WEBGL_compressed_texture_s3tc_srgb",
     "series": {
       "shortname": "WEBGL_compressed_texture_s3tc_srgb",
-      "currentSpecification": "WEBGL_compressed_texture_s3tc_srgb"
+      "currentSpecification": "WEBGL_compressed_texture_s3tc_srgb",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/",
@@ -3856,7 +4034,8 @@
     "shortname": "WEBGL_compressed_texture_s3tc",
     "series": {
       "shortname": "WEBGL_compressed_texture_s3tc",
-      "currentSpecification": "WEBGL_compressed_texture_s3tc"
+      "currentSpecification": "WEBGL_compressed_texture_s3tc",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc/",
@@ -3880,7 +4059,8 @@
     "shortname": "WEBGL_debug_renderer_info",
     "series": {
       "shortname": "WEBGL_debug_renderer_info",
-      "currentSpecification": "WEBGL_debug_renderer_info"
+      "currentSpecification": "WEBGL_debug_renderer_info",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_renderer_info/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_renderer_info/",
@@ -3904,7 +4084,8 @@
     "shortname": "WEBGL_debug_shaders",
     "series": {
       "shortname": "WEBGL_debug_shaders",
-      "currentSpecification": "WEBGL_debug_shaders"
+      "currentSpecification": "WEBGL_debug_shaders",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/",
@@ -3928,7 +4109,8 @@
     "shortname": "WEBGL_depth_texture",
     "series": {
       "shortname": "WEBGL_depth_texture",
-      "currentSpecification": "WEBGL_depth_texture"
+      "currentSpecification": "WEBGL_depth_texture",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/",
@@ -3952,7 +4134,8 @@
     "shortname": "WEBGL_draw_buffers",
     "series": {
       "shortname": "WEBGL_draw_buffers",
-      "currentSpecification": "WEBGL_draw_buffers"
+      "currentSpecification": "WEBGL_draw_buffers",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_buffers/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_buffers/",
@@ -3976,7 +4159,8 @@
     "shortname": "WEBGL_draw_instanced_base_vertex_base_instance",
     "series": {
       "shortname": "WEBGL_draw_instanced_base_vertex_base_instance",
-      "currentSpecification": "WEBGL_draw_instanced_base_vertex_base_instance"
+      "currentSpecification": "WEBGL_draw_instanced_base_vertex_base_instance",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
@@ -4000,7 +4184,8 @@
     "shortname": "WEBGL_lose_context",
     "series": {
       "shortname": "WEBGL_lose_context",
-      "currentSpecification": "WEBGL_lose_context"
+      "currentSpecification": "WEBGL_lose_context",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_lose_context/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_lose_context/",
@@ -4024,7 +4209,8 @@
     "shortname": "WEBGL_multi_draw_instanced_base_vertex_base_instance",
     "series": {
       "shortname": "WEBGL_multi_draw_instanced_base_vertex_base_instance",
-      "currentSpecification": "WEBGL_multi_draw_instanced_base_vertex_base_instance"
+      "currentSpecification": "WEBGL_multi_draw_instanced_base_vertex_base_instance",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
@@ -4048,7 +4234,8 @@
     "shortname": "WEBGL_multi_draw",
     "series": {
       "shortname": "WEBGL_multi_draw",
-      "currentSpecification": "WEBGL_multi_draw"
+      "currentSpecification": "WEBGL_multi_draw",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/"
     },
     "nightly": {
       "url": "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/",
@@ -4072,7 +4259,8 @@
     "shortname": "webgl1",
     "series": {
       "shortname": "webgl1",
-      "currentSpecification": "webgl1"
+      "currentSpecification": "webgl1",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/specs/latest/1.0/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -4097,7 +4285,8 @@
     "shortname": "webgl2",
     "series": {
       "shortname": "webgl2",
-      "currentSpecification": "webgl2"
+      "currentSpecification": "webgl2",
+      "nightlyUrl": "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
     },
     "seriesVersion": "2",
     "nightly": {
@@ -4122,7 +4311,9 @@
     "shortname": "accelerometer",
     "series": {
       "shortname": "accelerometer",
-      "currentSpecification": "accelerometer"
+      "currentSpecification": "accelerometer",
+      "releaseUrl": "https://www.w3.org/TR/accelerometer/",
+      "nightlyUrl": "https://w3c.github.io/accelerometer/"
     },
     "release": {
       "url": "https://www.w3.org/TR/accelerometer/",
@@ -4150,7 +4341,9 @@
     "shortname": "accname-1.2",
     "series": {
       "shortname": "accname",
-      "currentSpecification": "accname-1.2"
+      "currentSpecification": "accname-1.2",
+      "releaseUrl": "https://www.w3.org/TR/accname/",
+      "nightlyUrl": "https://w3c.github.io/accname/"
     },
     "seriesVersion": "1.2",
     "release": {
@@ -4179,7 +4372,9 @@
     "shortname": "ambient-light",
     "series": {
       "shortname": "ambient-light",
-      "currentSpecification": "ambient-light"
+      "currentSpecification": "ambient-light",
+      "releaseUrl": "https://www.w3.org/TR/ambient-light/",
+      "nightlyUrl": "https://w3c.github.io/ambient-light/"
     },
     "release": {
       "url": "https://www.w3.org/TR/ambient-light/",
@@ -4207,7 +4402,9 @@
     "shortname": "appmanifest",
     "series": {
       "shortname": "appmanifest",
-      "currentSpecification": "appmanifest"
+      "currentSpecification": "appmanifest",
+      "releaseUrl": "https://www.w3.org/TR/appmanifest/",
+      "nightlyUrl": "https://w3c.github.io/manifest/"
     },
     "release": {
       "url": "https://www.w3.org/TR/appmanifest/",
@@ -4235,7 +4432,9 @@
     "shortname": "audio-output",
     "series": {
       "shortname": "audio-output",
-      "currentSpecification": "audio-output"
+      "currentSpecification": "audio-output",
+      "releaseUrl": "https://www.w3.org/TR/audio-output/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-output/"
     },
     "release": {
       "url": "https://www.w3.org/TR/audio-output/",
@@ -4263,7 +4462,9 @@
     "shortname": "battery-status",
     "series": {
       "shortname": "battery-status",
-      "currentSpecification": "battery-status"
+      "currentSpecification": "battery-status",
+      "releaseUrl": "https://www.w3.org/TR/battery-status/",
+      "nightlyUrl": "https://w3c.github.io/battery/"
     },
     "release": {
       "url": "https://www.w3.org/TR/battery-status/",
@@ -4291,7 +4492,9 @@
     "shortname": "beacon",
     "series": {
       "shortname": "beacon",
-      "currentSpecification": "beacon"
+      "currentSpecification": "beacon",
+      "releaseUrl": "https://www.w3.org/TR/beacon/",
+      "nightlyUrl": "https://w3c.github.io/beacon/"
     },
     "release": {
       "url": "https://www.w3.org/TR/beacon/",
@@ -4319,7 +4522,9 @@
     "shortname": "clear-site-data",
     "series": {
       "shortname": "clear-site-data",
-      "currentSpecification": "clear-site-data"
+      "currentSpecification": "clear-site-data",
+      "releaseUrl": "https://www.w3.org/TR/clear-site-data/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-clear-site-data/"
     },
     "release": {
       "url": "https://www.w3.org/TR/clear-site-data/",
@@ -4347,7 +4552,9 @@
     "shortname": "clipboard-apis",
     "series": {
       "shortname": "clipboard-apis",
-      "currentSpecification": "clipboard-apis"
+      "currentSpecification": "clipboard-apis",
+      "releaseUrl": "https://www.w3.org/TR/clipboard-apis/",
+      "nightlyUrl": "https://w3c.github.io/clipboard-apis/"
     },
     "release": {
       "url": "https://www.w3.org/TR/clipboard-apis/",
@@ -4375,7 +4582,9 @@
     "shortname": "compositing-1",
     "series": {
       "shortname": "compositing",
-      "currentSpecification": "compositing-1"
+      "currentSpecification": "compositing-1",
+      "releaseUrl": "https://www.w3.org/TR/compositing/",
+      "nightlyUrl": "https://drafts.fxtf.org/compositing/"
     },
     "seriesVersion": "1",
     "shortTitle": "Compositing 1",
@@ -4405,7 +4614,9 @@
     "shortname": "core-aam-1.2",
     "series": {
       "shortname": "core-aam",
-      "currentSpecification": "core-aam-1.2"
+      "currentSpecification": "core-aam-1.2",
+      "releaseUrl": "https://www.w3.org/TR/core-aam/",
+      "nightlyUrl": "https://w3c.github.io/core-aam/"
     },
     "seriesVersion": "1.2",
     "release": {
@@ -4434,7 +4645,9 @@
     "shortname": "credential-management-1",
     "series": {
       "shortname": "credential-management",
-      "currentSpecification": "credential-management-1"
+      "currentSpecification": "credential-management-1",
+      "releaseUrl": "https://www.w3.org/TR/credential-management/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-credential-management/"
     },
     "seriesVersion": "1",
     "release": {
@@ -4463,7 +4676,9 @@
     "shortname": "csp-embedded-enforcement",
     "series": {
       "shortname": "csp-embedded-enforcement",
-      "currentSpecification": "csp-embedded-enforcement"
+      "currentSpecification": "csp-embedded-enforcement",
+      "releaseUrl": "https://www.w3.org/TR/csp-embedded-enforcement/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-cspee/"
     },
     "release": {
       "url": "https://www.w3.org/TR/csp-embedded-enforcement/",
@@ -4491,7 +4706,9 @@
     "shortname": "CSP3",
     "series": {
       "shortname": "CSP",
-      "currentSpecification": "CSP3"
+      "currentSpecification": "CSP3",
+      "releaseUrl": "https://www.w3.org/TR/CSP/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-csp/"
     },
     "seriesVersion": "3",
     "release": {
@@ -4523,7 +4740,9 @@
     "shortname": "css-align-3",
     "series": {
       "shortname": "css-align",
-      "currentSpecification": "css-align-3"
+      "currentSpecification": "css-align-3",
+      "releaseUrl": "https://www.w3.org/TR/css-align/",
+      "nightlyUrl": "https://drafts.csswg.org/css-align/"
     },
     "seriesVersion": "3",
     "release": {
@@ -4552,7 +4771,9 @@
     "shortname": "css-animation-worklet-1",
     "series": {
       "shortname": "css-animation-worklet",
-      "currentSpecification": "css-animation-worklet-1"
+      "currentSpecification": "css-animation-worklet-1",
+      "releaseUrl": "https://www.w3.org/TR/css-animation-worklet/",
+      "nightlyUrl": "https://drafts.css-houdini.org/css-animationworklet-1/"
     },
     "seriesVersion": "1",
     "release": {
@@ -4581,7 +4802,9 @@
     "shortname": "css-animations-1",
     "series": {
       "shortname": "css-animations",
-      "currentSpecification": "css-animations-1"
+      "currentSpecification": "css-animations-1",
+      "releaseUrl": "https://www.w3.org/TR/css-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/css-animations/"
     },
     "seriesVersion": "1",
     "seriesNext": "css-animations-2",
@@ -4611,7 +4834,9 @@
     "shortname": "css-backgrounds-3",
     "series": {
       "shortname": "css-backgrounds",
-      "currentSpecification": "css-backgrounds-3"
+      "currentSpecification": "css-backgrounds-3",
+      "releaseUrl": "https://www.w3.org/TR/css-backgrounds/",
+      "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Backgrounds 3",
@@ -4641,7 +4866,9 @@
     "shortname": "css-box-3",
     "series": {
       "shortname": "css-box",
-      "currentSpecification": "css-box-3"
+      "currentSpecification": "css-box-3",
+      "releaseUrl": "https://www.w3.org/TR/css-box/",
+      "nightlyUrl": "https://drafts.csswg.org/css-box/"
     },
     "seriesVersion": "3",
     "seriesNext": "css-box-4",
@@ -4671,7 +4898,9 @@
     "shortname": "css-box-4",
     "series": {
       "shortname": "css-box",
-      "currentSpecification": "css-box-3"
+      "currentSpecification": "css-box-3",
+      "releaseUrl": "https://www.w3.org/TR/css-box/",
+      "nightlyUrl": "https://drafts.csswg.org/css-box/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-box-3",
@@ -4701,7 +4930,9 @@
     "shortname": "css-break-3",
     "series": {
       "shortname": "css-break",
-      "currentSpecification": "css-break-3"
+      "currentSpecification": "css-break-3",
+      "releaseUrl": "https://www.w3.org/TR/css-break/",
+      "nightlyUrl": "https://drafts.csswg.org/css-break/"
     },
     "seriesVersion": "3",
     "seriesNext": "css-break-4",
@@ -4731,7 +4962,9 @@
     "shortname": "css-break-4",
     "series": {
       "shortname": "css-break",
-      "currentSpecification": "css-break-3"
+      "currentSpecification": "css-break-3",
+      "releaseUrl": "https://www.w3.org/TR/css-break/",
+      "nightlyUrl": "https://drafts.csswg.org/css-break/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-break-3",
@@ -4761,7 +4994,9 @@
     "shortname": "css-cascade-3",
     "series": {
       "shortname": "css-cascade",
-      "currentSpecification": "css-cascade-4"
+      "currentSpecification": "css-cascade-4",
+      "releaseUrl": "https://www.w3.org/TR/css-cascade/",
+      "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Cascading 3",
@@ -4791,7 +5026,9 @@
     "shortname": "css-cascade-4",
     "series": {
       "shortname": "css-cascade",
-      "currentSpecification": "css-cascade-4"
+      "currentSpecification": "css-cascade-4",
+      "releaseUrl": "https://www.w3.org/TR/css-cascade/",
+      "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS Cascading 4",
@@ -4822,7 +5059,9 @@
     "shortname": "css-cascade-5",
     "series": {
       "shortname": "css-cascade",
-      "currentSpecification": "css-cascade-4"
+      "currentSpecification": "css-cascade-4",
+      "releaseUrl": "https://www.w3.org/TR/css-cascade/",
+      "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
     },
     "seriesVersion": "5",
     "shortTitle": "CSS Cascading 5",
@@ -4852,7 +5091,9 @@
     "shortname": "css-color-4",
     "series": {
       "shortname": "css-color",
-      "currentSpecification": "css-color-4"
+      "currentSpecification": "css-color-4",
+      "releaseUrl": "https://www.w3.org/TR/css-color/",
+      "nightlyUrl": "https://drafts.csswg.org/css-color/"
     },
     "seriesVersion": "4",
     "seriesNext": "css-color-5",
@@ -4882,7 +5123,9 @@
     "shortname": "css-color-5",
     "series": {
       "shortname": "css-color",
-      "currentSpecification": "css-color-4"
+      "currentSpecification": "css-color-4",
+      "releaseUrl": "https://www.w3.org/TR/css-color/",
+      "nightlyUrl": "https://drafts.csswg.org/css-color/"
     },
     "seriesVersion": "5",
     "seriesPrevious": "css-color-4",
@@ -4912,7 +5155,9 @@
     "shortname": "css-color-adjust-1",
     "series": {
       "shortname": "css-color-adjust",
-      "currentSpecification": "css-color-adjust-1"
+      "currentSpecification": "css-color-adjust-1",
+      "releaseUrl": "https://www.w3.org/TR/css-color-adjust/",
+      "nightlyUrl": "https://drafts.csswg.org/css-color-adjust/"
     },
     "seriesVersion": "1",
     "release": {
@@ -4941,7 +5186,9 @@
     "shortname": "css-conditional-3",
     "series": {
       "shortname": "css-conditional",
-      "currentSpecification": "css-conditional-3"
+      "currentSpecification": "css-conditional-3",
+      "releaseUrl": "https://www.w3.org/TR/css-conditional/",
+      "nightlyUrl": "https://drafts.csswg.org/css-conditional/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Conditional 3",
@@ -4971,7 +5218,9 @@
     "shortname": "css-conditional-4",
     "series": {
       "shortname": "css-conditional",
-      "currentSpecification": "css-conditional-3"
+      "currentSpecification": "css-conditional-3",
+      "releaseUrl": "https://www.w3.org/TR/css-conditional/",
+      "nightlyUrl": "https://drafts.csswg.org/css-conditional/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS Conditional 4",
@@ -5001,7 +5250,9 @@
     "shortname": "css-contain-2",
     "series": {
       "shortname": "css-contain",
-      "currentSpecification": "css-contain-2"
+      "currentSpecification": "css-contain-2",
+      "releaseUrl": "https://www.w3.org/TR/css-contain/",
+      "nightlyUrl": "https://drafts.csswg.org/css-contain/"
     },
     "seriesVersion": "2",
     "release": {
@@ -5030,7 +5281,9 @@
     "shortname": "css-content-3",
     "series": {
       "shortname": "css-content",
-      "currentSpecification": "css-content-3"
+      "currentSpecification": "css-content-3",
+      "releaseUrl": "https://www.w3.org/TR/css-content/",
+      "nightlyUrl": "https://drafts.csswg.org/css-content/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5059,7 +5312,9 @@
     "shortname": "css-counter-styles-3",
     "series": {
       "shortname": "css-counter-styles",
-      "currentSpecification": "css-counter-styles-3"
+      "currentSpecification": "css-counter-styles-3",
+      "releaseUrl": "https://www.w3.org/TR/css-counter-styles/",
+      "nightlyUrl": "https://drafts.csswg.org/css-counter-styles/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5088,7 +5343,9 @@
     "shortname": "css-device-adapt-1",
     "series": {
       "shortname": "css-device-adapt",
-      "currentSpecification": "css-device-adapt-1"
+      "currentSpecification": "css-device-adapt-1",
+      "releaseUrl": "https://www.w3.org/TR/css-device-adapt/",
+      "nightlyUrl": "https://drafts.csswg.org/css-device-adapt/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5117,7 +5374,9 @@
     "shortname": "css-display-3",
     "series": {
       "shortname": "css-display",
-      "currentSpecification": "css-display-3"
+      "currentSpecification": "css-display-3",
+      "releaseUrl": "https://www.w3.org/TR/css-display/",
+      "nightlyUrl": "https://drafts.csswg.org/css-display/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5146,7 +5405,9 @@
     "shortname": "css-easing-1",
     "series": {
       "shortname": "css-easing",
-      "currentSpecification": "css-easing-1"
+      "currentSpecification": "css-easing-1",
+      "releaseUrl": "https://www.w3.org/TR/css-easing/",
+      "nightlyUrl": "https://drafts.csswg.org/css-easing/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5175,7 +5436,9 @@
     "shortname": "css-flexbox-1",
     "series": {
       "shortname": "css-flexbox",
-      "currentSpecification": "css-flexbox-1"
+      "currentSpecification": "css-flexbox-1",
+      "releaseUrl": "https://www.w3.org/TR/css-flexbox/",
+      "nightlyUrl": "https://drafts.csswg.org/css-flexbox/"
     },
     "seriesVersion": "1",
     "shortTitle": "CSS Flexbox 1",
@@ -5204,7 +5467,9 @@
     "shortname": "css-font-loading-3",
     "series": {
       "shortname": "css-font-loading",
-      "currentSpecification": "css-font-loading-3"
+      "currentSpecification": "css-font-loading-3",
+      "releaseUrl": "https://www.w3.org/TR/css-font-loading/",
+      "nightlyUrl": "https://drafts.csswg.org/css-font-loading/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5233,7 +5498,9 @@
     "shortname": "css-fonts-4",
     "series": {
       "shortname": "css-fonts",
-      "currentSpecification": "css-fonts-4"
+      "currentSpecification": "css-fonts-4",
+      "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+      "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
     },
     "seriesVersion": "4",
     "seriesNext": "css-fonts-5",
@@ -5263,7 +5530,9 @@
     "shortname": "css-gcpm-3",
     "series": {
       "shortname": "css-gcpm",
-      "currentSpecification": "css-gcpm-3"
+      "currentSpecification": "css-gcpm-3",
+      "releaseUrl": "https://www.w3.org/TR/css-gcpm/",
+      "nightlyUrl": "https://drafts.csswg.org/css-gcpm/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS GCPM 3",
@@ -5293,7 +5562,9 @@
     "shortname": "css-grid-2",
     "series": {
       "shortname": "css-grid",
-      "currentSpecification": "css-grid-2"
+      "currentSpecification": "css-grid-2",
+      "releaseUrl": "https://www.w3.org/TR/css-grid/",
+      "nightlyUrl": "https://drafts.csswg.org/css-grid/"
     },
     "seriesVersion": "2",
     "seriesNext": "css-grid-3",
@@ -5323,7 +5594,9 @@
     "shortname": "css-highlight-api-1",
     "series": {
       "shortname": "css-highlight-api",
-      "currentSpecification": "css-highlight-api-1"
+      "currentSpecification": "css-highlight-api-1",
+      "releaseUrl": "https://www.w3.org/TR/css-highlight-api/",
+      "nightlyUrl": "https://drafts.csswg.org/css-highlight-api/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5346,7 +5619,9 @@
     "shortname": "css-images-3",
     "series": {
       "shortname": "css-images",
-      "currentSpecification": "css-images-3"
+      "currentSpecification": "css-images-3",
+      "releaseUrl": "https://www.w3.org/TR/css-images/",
+      "nightlyUrl": "https://drafts.csswg.org/css-images/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Images 3",
@@ -5376,7 +5651,9 @@
     "shortname": "css-images-4",
     "series": {
       "shortname": "css-images",
-      "currentSpecification": "css-images-3"
+      "currentSpecification": "css-images-3",
+      "releaseUrl": "https://www.w3.org/TR/css-images/",
+      "nightlyUrl": "https://drafts.csswg.org/css-images/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS Images 4",
@@ -5406,7 +5683,9 @@
     "shortname": "css-inline-3",
     "series": {
       "shortname": "css-inline",
-      "currentSpecification": "css-inline-3"
+      "currentSpecification": "css-inline-3",
+      "releaseUrl": "https://www.w3.org/TR/css-inline/",
+      "nightlyUrl": "https://drafts.csswg.org/css-inline/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5435,7 +5714,9 @@
     "shortname": "css-layout-api-1",
     "series": {
       "shortname": "css-layout-api",
-      "currentSpecification": "css-layout-api-1"
+      "currentSpecification": "css-layout-api-1",
+      "releaseUrl": "https://www.w3.org/TR/css-layout-api/",
+      "nightlyUrl": "https://drafts.css-houdini.org/css-layout-api/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5464,7 +5745,9 @@
     "shortname": "css-line-grid-1",
     "series": {
       "shortname": "css-line-grid",
-      "currentSpecification": "css-line-grid-1"
+      "currentSpecification": "css-line-grid-1",
+      "releaseUrl": "https://www.w3.org/TR/css-line-grid/",
+      "nightlyUrl": "https://drafts.csswg.org/css-line-grid/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5487,7 +5770,9 @@
     "shortname": "css-lists-3",
     "series": {
       "shortname": "css-lists",
-      "currentSpecification": "css-lists-3"
+      "currentSpecification": "css-lists-3",
+      "releaseUrl": "https://www.w3.org/TR/css-lists/",
+      "nightlyUrl": "https://drafts.csswg.org/css-lists/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Lists 3",
@@ -5516,7 +5801,9 @@
     "shortname": "css-logical-1",
     "series": {
       "shortname": "css-logical",
-      "currentSpecification": "css-logical-1"
+      "currentSpecification": "css-logical-1",
+      "releaseUrl": "https://www.w3.org/TR/css-logical/",
+      "nightlyUrl": "https://drafts.csswg.org/css-logical/"
     },
     "seriesVersion": "1",
     "shortTitle": "CSS Logical Properties 1",
@@ -5545,7 +5832,9 @@
     "shortname": "css-masking-1",
     "series": {
       "shortname": "css-masking",
-      "currentSpecification": "css-masking-1"
+      "currentSpecification": "css-masking-1",
+      "releaseUrl": "https://www.w3.org/TR/css-masking/",
+      "nightlyUrl": "https://drafts.fxtf.org/css-masking/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5574,7 +5863,9 @@
     "shortname": "css-multicol-1",
     "series": {
       "shortname": "css-multicol",
-      "currentSpecification": "css-multicol-1"
+      "currentSpecification": "css-multicol-1",
+      "releaseUrl": "https://www.w3.org/TR/css-multicol/",
+      "nightlyUrl": "https://drafts.csswg.org/css-multicol/"
     },
     "seriesVersion": "1",
     "shortTitle": "CSS Multicol 1",
@@ -5604,7 +5895,9 @@
     "shortname": "css-namespaces-3",
     "series": {
       "shortname": "css-namespaces",
-      "currentSpecification": "css-namespaces-3"
+      "currentSpecification": "css-namespaces-3",
+      "releaseUrl": "https://www.w3.org/TR/css-namespaces/",
+      "nightlyUrl": "https://drafts.csswg.org/css-namespaces/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5633,7 +5926,9 @@
     "shortname": "css-nav-1",
     "series": {
       "shortname": "css-nav",
-      "currentSpecification": "css-nav-1"
+      "currentSpecification": "css-nav-1",
+      "releaseUrl": "https://www.w3.org/TR/css-nav/",
+      "nightlyUrl": "https://drafts.csswg.org/css-nav/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5656,7 +5951,9 @@
     "shortname": "css-overflow-3",
     "series": {
       "shortname": "css-overflow",
-      "currentSpecification": "css-overflow-3"
+      "currentSpecification": "css-overflow-3",
+      "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+      "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
     },
     "seriesVersion": "3",
     "seriesNext": "css-overflow-4",
@@ -5686,7 +5983,9 @@
     "shortname": "css-overflow-4",
     "series": {
       "shortname": "css-overflow",
-      "currentSpecification": "css-overflow-3"
+      "currentSpecification": "css-overflow-3",
+      "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+      "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-overflow-3",
@@ -5716,7 +6015,9 @@
     "shortname": "css-overscroll-1",
     "series": {
       "shortname": "css-overscroll",
-      "currentSpecification": "css-overscroll-1"
+      "currentSpecification": "css-overscroll-1",
+      "releaseUrl": "https://www.w3.org/TR/css-overscroll/",
+      "nightlyUrl": "https://drafts.csswg.org/css-overscroll/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5745,7 +6046,9 @@
     "shortname": "css-page-3",
     "series": {
       "shortname": "css-page",
-      "currentSpecification": "css-page-3"
+      "currentSpecification": "css-page-3",
+      "releaseUrl": "https://www.w3.org/TR/css-page/",
+      "nightlyUrl": "https://drafts.csswg.org/css-page/"
     },
     "seriesVersion": "3",
     "seriesNext": "css-page-4",
@@ -5775,7 +6078,9 @@
     "shortname": "css-page-floats-3",
     "series": {
       "shortname": "css-page-floats",
-      "currentSpecification": "css-page-floats-3"
+      "currentSpecification": "css-page-floats-3",
+      "releaseUrl": "https://www.w3.org/TR/css-page-floats/",
+      "nightlyUrl": "https://drafts.csswg.org/css-page-floats/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5798,7 +6103,9 @@
     "shortname": "css-paint-api-1",
     "series": {
       "shortname": "css-paint-api",
-      "currentSpecification": "css-paint-api-1"
+      "currentSpecification": "css-paint-api-1",
+      "releaseUrl": "https://www.w3.org/TR/css-paint-api/",
+      "nightlyUrl": "https://drafts.css-houdini.org/css-paint-api/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5827,7 +6134,9 @@
     "shortname": "css-position-3",
     "series": {
       "shortname": "css-position",
-      "currentSpecification": "css-position-3"
+      "currentSpecification": "css-position-3",
+      "releaseUrl": "https://www.w3.org/TR/css-position/",
+      "nightlyUrl": "https://drafts.csswg.org/css-position/"
     },
     "seriesVersion": "3",
     "release": {
@@ -5856,7 +6165,9 @@
     "shortname": "css-properties-values-api-1",
     "series": {
       "shortname": "css-properties-values-api",
-      "currentSpecification": "css-properties-values-api-1"
+      "currentSpecification": "css-properties-values-api-1",
+      "releaseUrl": "https://www.w3.org/TR/css-properties-values-api/",
+      "nightlyUrl": "https://drafts.css-houdini.org/css-properties-values-api/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5885,7 +6196,9 @@
     "shortname": "css-pseudo-4",
     "series": {
       "shortname": "css-pseudo",
-      "currentSpecification": "css-pseudo-4"
+      "currentSpecification": "css-pseudo-4",
+      "releaseUrl": "https://www.w3.org/TR/css-pseudo/",
+      "nightlyUrl": "https://drafts.csswg.org/css-pseudo/"
     },
     "seriesVersion": "4",
     "release": {
@@ -5914,7 +6227,9 @@
     "shortname": "css-regions-1",
     "series": {
       "shortname": "css-regions",
-      "currentSpecification": "css-regions-1"
+      "currentSpecification": "css-regions-1",
+      "releaseUrl": "https://www.w3.org/TR/css-regions/",
+      "nightlyUrl": "https://drafts.csswg.org/css-regions/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5937,7 +6252,9 @@
     "shortname": "css-rhythm-1",
     "series": {
       "shortname": "css-rhythm",
-      "currentSpecification": "css-rhythm-1"
+      "currentSpecification": "css-rhythm-1",
+      "releaseUrl": "https://www.w3.org/TR/css-rhythm/",
+      "nightlyUrl": "https://drafts.csswg.org/css-rhythm/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5960,7 +6277,9 @@
     "shortname": "css-round-display-1",
     "series": {
       "shortname": "css-round-display",
-      "currentSpecification": "css-round-display-1"
+      "currentSpecification": "css-round-display-1",
+      "releaseUrl": "https://www.w3.org/TR/css-round-display/",
+      "nightlyUrl": "https://drafts.csswg.org/css-round-display/"
     },
     "seriesVersion": "1",
     "release": {
@@ -5989,7 +6308,9 @@
     "shortname": "css-ruby-1",
     "series": {
       "shortname": "css-ruby",
-      "currentSpecification": "css-ruby-1"
+      "currentSpecification": "css-ruby-1",
+      "releaseUrl": "https://www.w3.org/TR/css-ruby/",
+      "nightlyUrl": "https://drafts.csswg.org/css-ruby/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6018,7 +6339,9 @@
     "shortname": "css-scoping-1",
     "series": {
       "shortname": "css-scoping",
-      "currentSpecification": "css-scoping-1"
+      "currentSpecification": "css-scoping-1",
+      "releaseUrl": "https://www.w3.org/TR/css-scoping/",
+      "nightlyUrl": "https://drafts.csswg.org/css-scoping/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6047,7 +6370,9 @@
     "shortname": "css-scroll-anchoring-1",
     "series": {
       "shortname": "css-scroll-anchoring",
-      "currentSpecification": "css-scroll-anchoring-1"
+      "currentSpecification": "css-scroll-anchoring-1",
+      "releaseUrl": "https://www.w3.org/TR/css-scroll-anchoring/",
+      "nightlyUrl": "https://drafts.csswg.org/css-scroll-anchoring/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6076,7 +6401,9 @@
     "shortname": "css-scroll-snap-1",
     "series": {
       "shortname": "css-scroll-snap",
-      "currentSpecification": "css-scroll-snap-1"
+      "currentSpecification": "css-scroll-snap-1",
+      "releaseUrl": "https://www.w3.org/TR/css-scroll-snap/",
+      "nightlyUrl": "https://drafts.csswg.org/css-scroll-snap/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6105,7 +6432,9 @@
     "shortname": "css-scrollbars-1",
     "series": {
       "shortname": "css-scrollbars",
-      "currentSpecification": "css-scrollbars-1"
+      "currentSpecification": "css-scrollbars-1",
+      "releaseUrl": "https://www.w3.org/TR/css-scrollbars/",
+      "nightlyUrl": "https://drafts.csswg.org/css-scrollbars/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6134,7 +6463,9 @@
     "shortname": "css-shadow-parts-1",
     "series": {
       "shortname": "css-shadow-parts",
-      "currentSpecification": "css-shadow-parts-1"
+      "currentSpecification": "css-shadow-parts-1",
+      "releaseUrl": "https://www.w3.org/TR/css-shadow-parts/",
+      "nightlyUrl": "https://drafts.csswg.org/css-shadow-parts/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6163,7 +6494,9 @@
     "shortname": "css-shapes-1",
     "series": {
       "shortname": "css-shapes",
-      "currentSpecification": "css-shapes-1"
+      "currentSpecification": "css-shapes-1",
+      "releaseUrl": "https://www.w3.org/TR/css-shapes/",
+      "nightlyUrl": "https://drafts.csswg.org/css-shapes/"
     },
     "seriesVersion": "1",
     "seriesNext": "css-shapes-2",
@@ -6193,7 +6526,9 @@
     "shortname": "css-sizing-3",
     "series": {
       "shortname": "css-sizing",
-      "currentSpecification": "css-sizing-3"
+      "currentSpecification": "css-sizing-3",
+      "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+      "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Sizing 3",
@@ -6223,7 +6558,9 @@
     "shortname": "css-sizing-4",
     "series": {
       "shortname": "css-sizing",
-      "currentSpecification": "css-sizing-3"
+      "currentSpecification": "css-sizing-3",
+      "releaseUrl": "https://www.w3.org/TR/css-sizing/",
+      "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS Sizing 4",
@@ -6253,7 +6590,9 @@
     "shortname": "css-speech-1",
     "series": {
       "shortname": "css-speech",
-      "currentSpecification": "css-speech-1"
+      "currentSpecification": "css-speech-1",
+      "releaseUrl": "https://www.w3.org/TR/css-speech/",
+      "nightlyUrl": "https://drafts.csswg.org/css-speech/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6282,7 +6621,9 @@
     "shortname": "css-style-attr",
     "series": {
       "shortname": "css-style-attr",
-      "currentSpecification": "css-style-attr"
+      "currentSpecification": "css-style-attr",
+      "releaseUrl": "https://www.w3.org/TR/css-style-attr/",
+      "nightlyUrl": "https://drafts.csswg.org/css-style-attr/"
     },
     "nightly": {
       "url": "https://drafts.csswg.org/css-style-attr/",
@@ -6310,7 +6651,9 @@
     "shortname": "css-syntax-3",
     "series": {
       "shortname": "css-syntax",
-      "currentSpecification": "css-syntax-3"
+      "currentSpecification": "css-syntax-3",
+      "releaseUrl": "https://www.w3.org/TR/css-syntax/",
+      "nightlyUrl": "https://drafts.csswg.org/css-syntax/"
     },
     "seriesVersion": "3",
     "release": {
@@ -6339,7 +6682,9 @@
     "shortname": "css-tables-3",
     "series": {
       "shortname": "css-tables",
-      "currentSpecification": "css-tables-3"
+      "currentSpecification": "css-tables-3",
+      "releaseUrl": "https://www.w3.org/TR/css-tables/",
+      "nightlyUrl": "https://drafts.csswg.org/css-tables/"
     },
     "seriesVersion": "3",
     "release": {
@@ -6368,7 +6713,9 @@
     "shortname": "css-text-3",
     "series": {
       "shortname": "css-text",
-      "currentSpecification": "css-text-3"
+      "currentSpecification": "css-text-3",
+      "releaseUrl": "https://www.w3.org/TR/css-text/",
+      "nightlyUrl": "https://drafts.csswg.org/css-text/"
     },
     "seriesVersion": "3",
     "seriesNext": "css-text-4",
@@ -6398,7 +6745,9 @@
     "shortname": "css-text-4",
     "series": {
       "shortname": "css-text",
-      "currentSpecification": "css-text-3"
+      "currentSpecification": "css-text-3",
+      "releaseUrl": "https://www.w3.org/TR/css-text/",
+      "nightlyUrl": "https://drafts.csswg.org/css-text/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-text-3",
@@ -6428,7 +6777,9 @@
     "shortname": "css-text-decor-3",
     "series": {
       "shortname": "css-text-decor",
-      "currentSpecification": "css-text-decor-3"
+      "currentSpecification": "css-text-decor-3",
+      "releaseUrl": "https://www.w3.org/TR/css-text-decor/",
+      "nightlyUrl": "https://drafts.csswg.org/css-text-decor/"
     },
     "seriesVersion": "3",
     "seriesNext": "css-text-decor-4",
@@ -6458,7 +6809,9 @@
     "shortname": "css-text-decor-4",
     "series": {
       "shortname": "css-text-decor",
-      "currentSpecification": "css-text-decor-3"
+      "currentSpecification": "css-text-decor-3",
+      "releaseUrl": "https://www.w3.org/TR/css-text-decor/",
+      "nightlyUrl": "https://drafts.csswg.org/css-text-decor/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-text-decor-3",
@@ -6488,7 +6841,9 @@
     "shortname": "css-transforms-1",
     "series": {
       "shortname": "css-transforms",
-      "currentSpecification": "css-transforms-1"
+      "currentSpecification": "css-transforms-1",
+      "releaseUrl": "https://www.w3.org/TR/css-transforms/",
+      "nightlyUrl": "https://drafts.csswg.org/css-transforms/"
     },
     "seriesVersion": "1",
     "seriesNext": "css-transforms-2",
@@ -6518,7 +6873,9 @@
     "shortname": "css-transforms-2",
     "series": {
       "shortname": "css-transforms",
-      "currentSpecification": "css-transforms-1"
+      "currentSpecification": "css-transforms-1",
+      "releaseUrl": "https://www.w3.org/TR/css-transforms/",
+      "nightlyUrl": "https://drafts.csswg.org/css-transforms/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-transforms-1",
@@ -6548,7 +6905,9 @@
     "shortname": "css-transitions-1",
     "series": {
       "shortname": "css-transitions",
-      "currentSpecification": "css-transitions-1"
+      "currentSpecification": "css-transitions-1",
+      "releaseUrl": "https://www.w3.org/TR/css-transitions/",
+      "nightlyUrl": "https://drafts.csswg.org/css-transitions/"
     },
     "seriesVersion": "1",
     "seriesNext": "css-transitions-2",
@@ -6578,7 +6937,9 @@
     "shortname": "css-typed-om-1",
     "series": {
       "shortname": "css-typed-om",
-      "currentSpecification": "css-typed-om-1"
+      "currentSpecification": "css-typed-om-1",
+      "releaseUrl": "https://www.w3.org/TR/css-typed-om/",
+      "nightlyUrl": "https://drafts.css-houdini.org/css-typed-om/"
     },
     "seriesVersion": "1",
     "seriesNext": "css-typed-om-2",
@@ -6608,7 +6969,9 @@
     "shortname": "css-ui-4",
     "series": {
       "shortname": "css-ui",
-      "currentSpecification": "css-ui-4"
+      "currentSpecification": "css-ui-4",
+      "releaseUrl": "https://www.w3.org/TR/css-ui/",
+      "nightlyUrl": "https://drafts.csswg.org/css-ui/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS User Interface 4",
@@ -6637,7 +7000,9 @@
     "shortname": "css-values-3",
     "series": {
       "shortname": "css-values",
-      "currentSpecification": "css-values-4"
+      "currentSpecification": "css-values-4",
+      "releaseUrl": "https://www.w3.org/TR/css-values/",
+      "nightlyUrl": "https://drafts.csswg.org/css-values/"
     },
     "seriesVersion": "3",
     "shortTitle": "CSS Values 3",
@@ -6667,7 +7032,9 @@
     "shortname": "css-values-4",
     "series": {
       "shortname": "css-values",
-      "currentSpecification": "css-values-4"
+      "currentSpecification": "css-values-4",
+      "releaseUrl": "https://www.w3.org/TR/css-values/",
+      "nightlyUrl": "https://drafts.csswg.org/css-values/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS Values 4",
@@ -6697,7 +7064,9 @@
     "shortname": "css-variables-1",
     "series": {
       "shortname": "css-variables",
-      "currentSpecification": "css-variables-1"
+      "currentSpecification": "css-variables-1",
+      "releaseUrl": "https://www.w3.org/TR/css-variables/",
+      "nightlyUrl": "https://drafts.csswg.org/css-variables/"
     },
     "seriesVersion": "1",
     "shortTitle": "CSS Variables 1",
@@ -6726,7 +7095,9 @@
     "shortname": "css-will-change-1",
     "series": {
       "shortname": "css-will-change",
-      "currentSpecification": "css-will-change-1"
+      "currentSpecification": "css-will-change-1",
+      "releaseUrl": "https://www.w3.org/TR/css-will-change/",
+      "nightlyUrl": "https://drafts.csswg.org/css-will-change/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6755,7 +7126,9 @@
     "shortname": "css-writing-modes-4",
     "series": {
       "shortname": "css-writing-modes",
-      "currentSpecification": "css-writing-modes-4"
+      "currentSpecification": "css-writing-modes-4",
+      "releaseUrl": "https://www.w3.org/TR/css-writing-modes/",
+      "nightlyUrl": "https://drafts.csswg.org/css-writing-modes/"
     },
     "seriesVersion": "4",
     "release": {
@@ -6784,7 +7157,9 @@
     "shortname": "CSS21",
     "series": {
       "shortname": "CSS",
-      "currentSpecification": "CSS22"
+      "currentSpecification": "CSS22",
+      "releaseUrl": "https://www.w3.org/TR/CSS/",
+      "nightlyUrl": "https://drafts.csswg.org/css2/"
     },
     "seriesVersion": "2.1",
     "nightly": {
@@ -6843,7 +7218,9 @@
     "shortname": "CSS22",
     "series": {
       "shortname": "CSS",
-      "currentSpecification": "CSS22"
+      "currentSpecification": "CSS22",
+      "releaseUrl": "https://www.w3.org/TR/CSS/",
+      "nightlyUrl": "https://drafts.csswg.org/css2/"
     },
     "seriesVersion": "2.2",
     "nightly": {
@@ -6902,7 +7279,9 @@
     "shortname": "css3-exclusions",
     "series": {
       "shortname": "css-exclusions",
-      "currentSpecification": "css3-exclusions"
+      "currentSpecification": "css3-exclusions",
+      "releaseUrl": "https://www.w3.org/TR/css-exclusions/",
+      "nightlyUrl": "https://drafts.csswg.org/css-exclusions/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -6931,7 +7310,9 @@
     "shortname": "cssom-1",
     "series": {
       "shortname": "cssom",
-      "currentSpecification": "cssom-1"
+      "currentSpecification": "cssom-1",
+      "releaseUrl": "https://www.w3.org/TR/cssom/",
+      "nightlyUrl": "https://drafts.csswg.org/cssom/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6960,7 +7341,9 @@
     "shortname": "cssom-view-1",
     "series": {
       "shortname": "cssom-view",
-      "currentSpecification": "cssom-view-1"
+      "currentSpecification": "cssom-view-1",
+      "releaseUrl": "https://www.w3.org/TR/cssom-view/",
+      "nightlyUrl": "https://drafts.csswg.org/cssom-view/"
     },
     "seriesVersion": "1",
     "release": {
@@ -6989,7 +7372,9 @@
     "shortname": "device-memory-1",
     "series": {
       "shortname": "device-memory",
-      "currentSpecification": "device-memory-1"
+      "currentSpecification": "device-memory-1",
+      "releaseUrl": "https://www.w3.org/TR/device-memory/",
+      "nightlyUrl": "https://w3c.github.io/device-memory/"
     },
     "seriesVersion": "1",
     "release": {
@@ -7018,7 +7403,9 @@
     "shortname": "device-posture",
     "series": {
       "shortname": "device-posture",
-      "currentSpecification": "device-posture"
+      "currentSpecification": "device-posture",
+      "releaseUrl": "https://www.w3.org/TR/device-posture/",
+      "nightlyUrl": "https://w3c.github.io/screen-fold/"
     },
     "release": {
       "url": "https://www.w3.org/TR/device-posture/",
@@ -7040,7 +7427,9 @@
     "shortname": "DOM-Parsing",
     "series": {
       "shortname": "DOM-Parsing",
-      "currentSpecification": "DOM-Parsing"
+      "currentSpecification": "DOM-Parsing",
+      "releaseUrl": "https://www.w3.org/TR/DOM-Parsing/",
+      "nightlyUrl": "https://w3c.github.io/DOM-Parsing/"
     },
     "release": {
       "url": "https://www.w3.org/TR/DOM-Parsing/",
@@ -7068,7 +7457,9 @@
     "shortname": "encoding",
     "series": {
       "shortname": "encoding",
-      "currentSpecification": "encoding"
+      "currentSpecification": "encoding",
+      "releaseUrl": "https://www.w3.org/TR/encoding/",
+      "nightlyUrl": "https://encoding.spec.whatwg.org/"
     },
     "release": {
       "url": "https://www.w3.org/TR/encoding/",
@@ -7096,7 +7487,9 @@
     "shortname": "encrypted-media",
     "series": {
       "shortname": "encrypted-media",
-      "currentSpecification": "encrypted-media"
+      "currentSpecification": "encrypted-media",
+      "releaseUrl": "https://www.w3.org/TR/encrypted-media/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/"
     },
     "nightly": {
       "url": "https://w3c.github.io/encrypted-media/",
@@ -7124,7 +7517,9 @@
     "shortname": "fetch-metadata",
     "series": {
       "shortname": "fetch-metadata",
-      "currentSpecification": "fetch-metadata"
+      "currentSpecification": "fetch-metadata",
+      "releaseUrl": "https://www.w3.org/TR/fetch-metadata/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-fetch-metadata/"
     },
     "shortTitle": "Fetch Metadata",
     "release": {
@@ -7152,7 +7547,9 @@
     "shortname": "FileAPI",
     "series": {
       "shortname": "FileAPI",
-      "currentSpecification": "FileAPI"
+      "currentSpecification": "FileAPI",
+      "releaseUrl": "https://www.w3.org/TR/FileAPI/",
+      "nightlyUrl": "https://w3c.github.io/FileAPI/"
     },
     "release": {
       "url": "https://www.w3.org/TR/FileAPI/",
@@ -7180,7 +7577,9 @@
     "shortname": "fill-stroke-3",
     "series": {
       "shortname": "fill-stroke",
-      "currentSpecification": "fill-stroke-3"
+      "currentSpecification": "fill-stroke-3",
+      "releaseUrl": "https://www.w3.org/TR/fill-stroke/",
+      "nightlyUrl": "https://drafts.fxtf.org/fill-stroke/"
     },
     "seriesVersion": "3",
     "release": {
@@ -7209,7 +7608,9 @@
     "shortname": "filter-effects-1",
     "series": {
       "shortname": "filter-effects",
-      "currentSpecification": "filter-effects-1"
+      "currentSpecification": "filter-effects-1",
+      "releaseUrl": "https://www.w3.org/TR/filter-effects/",
+      "nightlyUrl": "https://drafts.fxtf.org/filter-effects/"
     },
     "seriesVersion": "1",
     "seriesNext": "filter-effects-2",
@@ -7239,7 +7640,9 @@
     "shortname": "gamepad",
     "series": {
       "shortname": "gamepad",
-      "currentSpecification": "gamepad"
+      "currentSpecification": "gamepad",
+      "releaseUrl": "https://www.w3.org/TR/gamepad/",
+      "nightlyUrl": "https://w3c.github.io/gamepad/"
     },
     "release": {
       "url": "https://www.w3.org/TR/gamepad/",
@@ -7267,7 +7670,9 @@
     "shortname": "generic-sensor",
     "series": {
       "shortname": "generic-sensor",
-      "currentSpecification": "generic-sensor"
+      "currentSpecification": "generic-sensor",
+      "releaseUrl": "https://www.w3.org/TR/generic-sensor/",
+      "nightlyUrl": "https://w3c.github.io/sensors/"
     },
     "release": {
       "url": "https://www.w3.org/TR/generic-sensor/",
@@ -7295,7 +7700,9 @@
     "shortname": "geolocation-API",
     "series": {
       "shortname": "geolocation-API",
-      "currentSpecification": "geolocation-API"
+      "currentSpecification": "geolocation-API",
+      "releaseUrl": "https://www.w3.org/TR/geolocation-API/",
+      "nightlyUrl": "https://w3c.github.io/geolocation-api/"
     },
     "release": {
       "url": "https://www.w3.org/TR/geolocation-API/",
@@ -7323,7 +7730,9 @@
     "shortname": "geolocation-sensor",
     "series": {
       "shortname": "geolocation-sensor",
-      "currentSpecification": "geolocation-sensor"
+      "currentSpecification": "geolocation-sensor",
+      "releaseUrl": "https://www.w3.org/TR/geolocation-sensor/",
+      "nightlyUrl": "https://w3c.github.io/geolocation-sensor/"
     },
     "release": {
       "url": "https://www.w3.org/TR/geolocation-sensor/",
@@ -7351,7 +7760,9 @@
     "shortname": "geometry-1",
     "series": {
       "shortname": "geometry",
-      "currentSpecification": "geometry-1"
+      "currentSpecification": "geometry-1",
+      "releaseUrl": "https://www.w3.org/TR/geometry/",
+      "nightlyUrl": "https://drafts.fxtf.org/geometry/"
     },
     "seriesVersion": "1",
     "release": {
@@ -7380,7 +7791,9 @@
     "shortname": "graphics-aam-1.0",
     "series": {
       "shortname": "graphics-aam",
-      "currentSpecification": "graphics-aam-1.0"
+      "currentSpecification": "graphics-aam-1.0",
+      "releaseUrl": "https://www.w3.org/TR/graphics-aam/",
+      "nightlyUrl": "https://w3c.github.io/graphics-aam/"
     },
     "seriesVersion": "1.0",
     "release": {
@@ -7409,7 +7822,9 @@
     "shortname": "graphics-aria-1.0",
     "series": {
       "shortname": "graphics-aria",
-      "currentSpecification": "graphics-aria-1.0"
+      "currentSpecification": "graphics-aria-1.0",
+      "releaseUrl": "https://www.w3.org/TR/graphics-aria/",
+      "nightlyUrl": "https://w3c.github.io/graphics-aria/"
     },
     "seriesVersion": "1.0",
     "release": {
@@ -7432,7 +7847,9 @@
     "shortname": "gyroscope",
     "series": {
       "shortname": "gyroscope",
-      "currentSpecification": "gyroscope"
+      "currentSpecification": "gyroscope",
+      "releaseUrl": "https://www.w3.org/TR/gyroscope/",
+      "nightlyUrl": "https://w3c.github.io/gyroscope/"
     },
     "release": {
       "url": "https://www.w3.org/TR/gyroscope/",
@@ -7460,7 +7877,9 @@
     "shortname": "hr-time-3",
     "series": {
       "shortname": "hr-time",
-      "currentSpecification": "hr-time-3"
+      "currentSpecification": "hr-time-3",
+      "releaseUrl": "https://www.w3.org/TR/hr-time/",
+      "nightlyUrl": "https://w3c.github.io/hr-time/"
     },
     "seriesVersion": "3",
     "release": {
@@ -7489,7 +7908,9 @@
     "shortname": "html-aam-1.0",
     "series": {
       "shortname": "html-aam",
-      "currentSpecification": "html-aam-1.0"
+      "currentSpecification": "html-aam-1.0",
+      "releaseUrl": "https://www.w3.org/TR/html-aam/",
+      "nightlyUrl": "https://w3c.github.io/html-aam/"
     },
     "seriesVersion": "1.0",
     "release": {
@@ -7512,7 +7933,9 @@
     "shortname": "html-aria",
     "series": {
       "shortname": "html-aria",
-      "currentSpecification": "html-aria"
+      "currentSpecification": "html-aria",
+      "releaseUrl": "https://www.w3.org/TR/html-aria/",
+      "nightlyUrl": "https://w3c.github.io/html-aria/"
     },
     "release": {
       "url": "https://www.w3.org/TR/html-aria/",
@@ -7534,7 +7957,9 @@
     "shortname": "html-media-capture",
     "series": {
       "shortname": "html-media-capture",
-      "currentSpecification": "html-media-capture"
+      "currentSpecification": "html-media-capture",
+      "releaseUrl": "https://www.w3.org/TR/html-media-capture/",
+      "nightlyUrl": "https://w3c.github.io/html-media-capture/"
     },
     "release": {
       "url": "https://www.w3.org/TR/html-media-capture/",
@@ -7562,7 +7987,9 @@
     "shortname": "image-capture",
     "series": {
       "shortname": "image-capture",
-      "currentSpecification": "image-capture"
+      "currentSpecification": "image-capture",
+      "releaseUrl": "https://www.w3.org/TR/image-capture/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-image/"
     },
     "release": {
       "url": "https://www.w3.org/TR/image-capture/",
@@ -7590,7 +8017,9 @@
     "shortname": "image-resource",
     "series": {
       "shortname": "image-resource",
-      "currentSpecification": "image-resource"
+      "currentSpecification": "image-resource",
+      "releaseUrl": "https://www.w3.org/TR/image-resource/",
+      "nightlyUrl": "https://w3c.github.io/image-resource/"
     },
     "release": {
       "url": "https://www.w3.org/TR/image-resource/",
@@ -7612,7 +8041,9 @@
     "shortname": "IndexedDB-3",
     "series": {
       "shortname": "IndexedDB",
-      "currentSpecification": "IndexedDB-3"
+      "currentSpecification": "IndexedDB-3",
+      "releaseUrl": "https://www.w3.org/TR/IndexedDB/",
+      "nightlyUrl": "https://w3c.github.io/IndexedDB/"
     },
     "seriesVersion": "3",
     "shortTitle": "Indexed DB 3.0",
@@ -7641,7 +8072,9 @@
     "shortname": "input-events-2",
     "series": {
       "shortname": "input-events",
-      "currentSpecification": "input-events-2"
+      "currentSpecification": "input-events-2",
+      "releaseUrl": "https://www.w3.org/TR/input-events/",
+      "nightlyUrl": "https://w3c.github.io/input-events/"
     },
     "seriesVersion": "2",
     "release": {
@@ -7670,7 +8103,9 @@
     "shortname": "intersection-observer",
     "series": {
       "shortname": "intersection-observer",
-      "currentSpecification": "intersection-observer"
+      "currentSpecification": "intersection-observer",
+      "releaseUrl": "https://www.w3.org/TR/intersection-observer/",
+      "nightlyUrl": "https://w3c.github.io/IntersectionObserver/"
     },
     "release": {
       "url": "https://www.w3.org/TR/intersection-observer/",
@@ -7698,7 +8133,9 @@
     "shortname": "longtasks-1",
     "series": {
       "shortname": "longtasks",
-      "currentSpecification": "longtasks-1"
+      "currentSpecification": "longtasks-1",
+      "releaseUrl": "https://www.w3.org/TR/longtasks/",
+      "nightlyUrl": "https://w3c.github.io/longtasks/"
     },
     "seriesVersion": "1",
     "release": {
@@ -7727,7 +8164,9 @@
     "shortname": "magnetometer",
     "series": {
       "shortname": "magnetometer",
-      "currentSpecification": "magnetometer"
+      "currentSpecification": "magnetometer",
+      "releaseUrl": "https://www.w3.org/TR/magnetometer/",
+      "nightlyUrl": "https://w3c.github.io/magnetometer/"
     },
     "release": {
       "url": "https://www.w3.org/TR/magnetometer/",
@@ -7755,7 +8194,9 @@
     "shortname": "manifest-app-info",
     "series": {
       "shortname": "manifest-app-info",
-      "currentSpecification": "manifest-app-info"
+      "currentSpecification": "manifest-app-info",
+      "releaseUrl": "https://www.w3.org/TR/manifest-app-info/",
+      "nightlyUrl": "https://w3c.github.io/manifest-app-info/"
     },
     "release": {
       "url": "https://www.w3.org/TR/manifest-app-info/",
@@ -7777,7 +8218,9 @@
     "shortname": "media-capabilities",
     "series": {
       "shortname": "media-capabilities",
-      "currentSpecification": "media-capabilities"
+      "currentSpecification": "media-capabilities",
+      "releaseUrl": "https://www.w3.org/TR/media-capabilities/",
+      "nightlyUrl": "https://w3c.github.io/media-capabilities/"
     },
     "release": {
       "url": "https://www.w3.org/TR/media-capabilities/",
@@ -7805,7 +8248,9 @@
     "shortname": "media-source",
     "series": {
       "shortname": "media-source",
-      "currentSpecification": "media-source"
+      "currentSpecification": "media-source",
+      "releaseUrl": "https://www.w3.org/TR/media-source/",
+      "nightlyUrl": "https://w3c.github.io/media-source/"
     },
     "nightly": {
       "url": "https://w3c.github.io/media-source/",
@@ -7833,7 +8278,9 @@
     "shortname": "mediacapture-depth",
     "series": {
       "shortname": "mediacapture-depth",
-      "currentSpecification": "mediacapture-depth"
+      "currentSpecification": "mediacapture-depth",
+      "releaseUrl": "https://www.w3.org/TR/mediacapture-depth/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-depth/"
     },
     "release": {
       "url": "https://www.w3.org/TR/mediacapture-depth/",
@@ -7861,7 +8308,9 @@
     "shortname": "mediacapture-fromelement",
     "series": {
       "shortname": "mediacapture-fromelement",
-      "currentSpecification": "mediacapture-fromelement"
+      "currentSpecification": "mediacapture-fromelement",
+      "releaseUrl": "https://www.w3.org/TR/mediacapture-fromelement/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-fromelement/"
     },
     "release": {
       "url": "https://www.w3.org/TR/mediacapture-fromelement/",
@@ -7889,7 +8338,9 @@
     "shortname": "mediacapture-streams",
     "series": {
       "shortname": "mediacapture-streams",
-      "currentSpecification": "mediacapture-streams"
+      "currentSpecification": "mediacapture-streams",
+      "releaseUrl": "https://www.w3.org/TR/mediacapture-streams/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-main/"
     },
     "release": {
       "url": "https://www.w3.org/TR/mediacapture-streams/",
@@ -7917,7 +8368,9 @@
     "shortname": "mediaqueries-4",
     "series": {
       "shortname": "mediaqueries",
-      "currentSpecification": "mediaqueries-4"
+      "currentSpecification": "mediaqueries-4",
+      "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+      "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
     },
     "seriesVersion": "4",
     "seriesNext": "mediaqueries-5",
@@ -7947,7 +8400,9 @@
     "shortname": "mediaqueries-5",
     "series": {
       "shortname": "mediaqueries",
-      "currentSpecification": "mediaqueries-4"
+      "currentSpecification": "mediaqueries-4",
+      "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+      "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
     },
     "seriesVersion": "5",
     "seriesPrevious": "mediaqueries-4",
@@ -7977,7 +8432,9 @@
     "shortname": "mediasession",
     "series": {
       "shortname": "mediasession",
-      "currentSpecification": "mediasession"
+      "currentSpecification": "mediasession",
+      "releaseUrl": "https://www.w3.org/TR/mediasession/",
+      "nightlyUrl": "https://w3c.github.io/mediasession/"
     },
     "release": {
       "url": "https://www.w3.org/TR/mediasession/",
@@ -8005,7 +8462,9 @@
     "shortname": "mediastream-recording",
     "series": {
       "shortname": "mediastream-recording",
-      "currentSpecification": "mediastream-recording"
+      "currentSpecification": "mediastream-recording",
+      "releaseUrl": "https://www.w3.org/TR/mediastream-recording/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-record/"
     },
     "nightly": {
       "url": "https://w3c.github.io/mediacapture-record/",
@@ -8033,7 +8492,9 @@
     "shortname": "mixed-content",
     "series": {
       "shortname": "mixed-content",
-      "currentSpecification": "mixed-content"
+      "currentSpecification": "mixed-content",
+      "releaseUrl": "https://www.w3.org/TR/mixed-content/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-mixed-content/"
     },
     "release": {
       "url": "https://www.w3.org/TR/mixed-content/",
@@ -8061,7 +8522,9 @@
     "shortname": "motion-1",
     "series": {
       "shortname": "motion",
-      "currentSpecification": "motion-1"
+      "currentSpecification": "motion-1",
+      "releaseUrl": "https://www.w3.org/TR/motion/",
+      "nightlyUrl": "https://drafts.fxtf.org/motion/"
     },
     "seriesVersion": "1",
     "release": {
@@ -8090,7 +8553,9 @@
     "shortname": "mst-content-hint",
     "series": {
       "shortname": "mst-content-hint",
-      "currentSpecification": "mst-content-hint"
+      "currentSpecification": "mst-content-hint",
+      "releaseUrl": "https://www.w3.org/TR/mst-content-hint/",
+      "nightlyUrl": "https://w3c.github.io/mst-content-hint/"
     },
     "release": {
       "url": "https://www.w3.org/TR/mst-content-hint/",
@@ -8118,7 +8583,9 @@
     "shortname": "navigation-timing-2",
     "series": {
       "shortname": "navigation-timing",
-      "currentSpecification": "navigation-timing-2"
+      "currentSpecification": "navigation-timing-2",
+      "releaseUrl": "https://www.w3.org/TR/navigation-timing/",
+      "nightlyUrl": "https://w3c.github.io/navigation-timing/"
     },
     "seriesVersion": "2",
     "release": {
@@ -8147,7 +8614,9 @@
     "shortname": "network-error-logging-1",
     "series": {
       "shortname": "network-error-logging",
-      "currentSpecification": "network-error-logging-1"
+      "currentSpecification": "network-error-logging-1",
+      "releaseUrl": "https://www.w3.org/TR/network-error-logging/",
+      "nightlyUrl": "https://w3c.github.io/network-error-logging/"
     },
     "seriesVersion": "1",
     "release": {
@@ -8176,7 +8645,9 @@
     "shortname": "openscreenprotocol",
     "series": {
       "shortname": "openscreenprotocol",
-      "currentSpecification": "openscreenprotocol"
+      "currentSpecification": "openscreenprotocol",
+      "releaseUrl": "https://www.w3.org/TR/openscreenprotocol/",
+      "nightlyUrl": "https://w3c.github.io/openscreenprotocol/"
     },
     "release": {
       "url": "https://www.w3.org/TR/openscreenprotocol/",
@@ -8198,7 +8669,9 @@
     "shortname": "orientation-event",
     "series": {
       "shortname": "orientation-event",
-      "currentSpecification": "orientation-event"
+      "currentSpecification": "orientation-event",
+      "releaseUrl": "https://www.w3.org/TR/orientation-event/",
+      "nightlyUrl": "https://w3c.github.io/deviceorientation/"
     },
     "release": {
       "url": "https://www.w3.org/TR/orientation-event/",
@@ -8226,7 +8699,9 @@
     "shortname": "orientation-sensor",
     "series": {
       "shortname": "orientation-sensor",
-      "currentSpecification": "orientation-sensor"
+      "currentSpecification": "orientation-sensor",
+      "releaseUrl": "https://www.w3.org/TR/orientation-sensor/",
+      "nightlyUrl": "https://w3c.github.io/orientation-sensor/"
     },
     "release": {
       "url": "https://www.w3.org/TR/orientation-sensor/",
@@ -8254,7 +8729,9 @@
     "shortname": "page-visibility-2",
     "series": {
       "shortname": "page-visibility",
-      "currentSpecification": "page-visibility-2"
+      "currentSpecification": "page-visibility-2",
+      "releaseUrl": "https://www.w3.org/TR/page-visibility/",
+      "nightlyUrl": "https://w3c.github.io/page-visibility/"
     },
     "seriesVersion": "2",
     "release": {
@@ -8283,7 +8760,9 @@
     "shortname": "paint-timing",
     "series": {
       "shortname": "paint-timing",
-      "currentSpecification": "paint-timing"
+      "currentSpecification": "paint-timing",
+      "releaseUrl": "https://www.w3.org/TR/paint-timing/",
+      "nightlyUrl": "https://w3c.github.io/paint-timing/"
     },
     "nightly": {
       "url": "https://w3c.github.io/paint-timing/",
@@ -8311,7 +8790,9 @@
     "shortname": "payment-handler",
     "series": {
       "shortname": "payment-handler",
-      "currentSpecification": "payment-handler"
+      "currentSpecification": "payment-handler",
+      "releaseUrl": "https://www.w3.org/TR/payment-handler/",
+      "nightlyUrl": "https://w3c.github.io/payment-handler/"
     },
     "release": {
       "url": "https://www.w3.org/TR/payment-handler/",
@@ -8339,7 +8820,9 @@
     "shortname": "payment-method-basic-card",
     "series": {
       "shortname": "payment-method-basic-card",
-      "currentSpecification": "payment-method-basic-card"
+      "currentSpecification": "payment-method-basic-card",
+      "releaseUrl": "https://www.w3.org/TR/payment-method-basic-card/",
+      "nightlyUrl": "https://w3c.github.io/payment-method-basic-card/"
     },
     "shortTitle": "Basic Card",
     "release": {
@@ -8367,7 +8850,9 @@
     "shortname": "payment-method-id",
     "series": {
       "shortname": "payment-method-id",
-      "currentSpecification": "payment-method-id"
+      "currentSpecification": "payment-method-id",
+      "releaseUrl": "https://www.w3.org/TR/payment-method-id/",
+      "nightlyUrl": "https://w3c.github.io/payment-method-id/"
     },
     "release": {
       "url": "https://www.w3.org/TR/payment-method-id/",
@@ -8395,7 +8880,9 @@
     "shortname": "payment-method-manifest",
     "series": {
       "shortname": "payment-method-manifest",
-      "currentSpecification": "payment-method-manifest"
+      "currentSpecification": "payment-method-manifest",
+      "releaseUrl": "https://www.w3.org/TR/payment-method-manifest/",
+      "nightlyUrl": "https://w3c.github.io/payment-method-manifest/"
     },
     "release": {
       "url": "https://www.w3.org/TR/payment-method-manifest/",
@@ -8417,7 +8904,9 @@
     "shortname": "payment-request",
     "series": {
       "shortname": "payment-request",
-      "currentSpecification": "payment-request"
+      "currentSpecification": "payment-request",
+      "releaseUrl": "https://www.w3.org/TR/payment-request/",
+      "nightlyUrl": "https://w3c.github.io/payment-request/"
     },
     "release": {
       "url": "https://www.w3.org/TR/payment-request/",
@@ -8445,7 +8934,9 @@
     "shortname": "performance-timeline-2",
     "series": {
       "shortname": "performance-timeline",
-      "currentSpecification": "performance-timeline-2"
+      "currentSpecification": "performance-timeline-2",
+      "releaseUrl": "https://www.w3.org/TR/performance-timeline/",
+      "nightlyUrl": "https://w3c.github.io/performance-timeline/"
     },
     "seriesVersion": "2",
     "release": {
@@ -8474,7 +8965,9 @@
     "shortname": "permissions-policy-1",
     "series": {
       "shortname": "permissions-policy",
-      "currentSpecification": "permissions-policy-1"
+      "currentSpecification": "permissions-policy-1",
+      "releaseUrl": "https://www.w3.org/TR/permissions-policy/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-permissions-policy/"
     },
     "seriesVersion": "1",
     "release": {
@@ -8503,7 +8996,9 @@
     "shortname": "permissions",
     "series": {
       "shortname": "permissions",
-      "currentSpecification": "permissions"
+      "currentSpecification": "permissions",
+      "releaseUrl": "https://www.w3.org/TR/permissions/",
+      "nightlyUrl": "https://w3c.github.io/permissions/"
     },
     "release": {
       "url": "https://www.w3.org/TR/permissions/",
@@ -8531,7 +9026,9 @@
     "shortname": "picture-in-picture",
     "series": {
       "shortname": "picture-in-picture",
-      "currentSpecification": "picture-in-picture"
+      "currentSpecification": "picture-in-picture",
+      "releaseUrl": "https://www.w3.org/TR/picture-in-picture/",
+      "nightlyUrl": "https://w3c.github.io/picture-in-picture/"
     },
     "release": {
       "url": "https://www.w3.org/TR/picture-in-picture/",
@@ -8559,7 +9056,9 @@
     "shortname": "pointerevents3",
     "series": {
       "shortname": "pointerevents",
-      "currentSpecification": "pointerevents3"
+      "currentSpecification": "pointerevents3",
+      "releaseUrl": "https://www.w3.org/TR/pointerevents/",
+      "nightlyUrl": "https://w3c.github.io/pointerevents/"
     },
     "seriesVersion": "3",
     "release": {
@@ -8588,7 +9087,9 @@
     "shortname": "pointerlock-2",
     "series": {
       "shortname": "pointerlock",
-      "currentSpecification": "pointerlock-2"
+      "currentSpecification": "pointerlock-2",
+      "releaseUrl": "https://www.w3.org/TR/pointerlock/",
+      "nightlyUrl": "https://w3c.github.io/pointerlock/"
     },
     "seriesVersion": "2",
     "release": {
@@ -8617,7 +9118,9 @@
     "shortname": "preload",
     "series": {
       "shortname": "preload",
-      "currentSpecification": "preload"
+      "currentSpecification": "preload",
+      "releaseUrl": "https://www.w3.org/TR/preload/",
+      "nightlyUrl": "https://w3c.github.io/preload/"
     },
     "release": {
       "url": "https://www.w3.org/TR/preload/",
@@ -8645,7 +9148,9 @@
     "shortname": "presentation-api",
     "series": {
       "shortname": "presentation-api",
-      "currentSpecification": "presentation-api"
+      "currentSpecification": "presentation-api",
+      "releaseUrl": "https://www.w3.org/TR/presentation-api/",
+      "nightlyUrl": "https://w3c.github.io/presentation-api/"
     },
     "release": {
       "url": "https://www.w3.org/TR/presentation-api/",
@@ -8673,7 +9178,9 @@
     "shortname": "proximity",
     "series": {
       "shortname": "proximity",
-      "currentSpecification": "proximity"
+      "currentSpecification": "proximity",
+      "releaseUrl": "https://www.w3.org/TR/proximity/",
+      "nightlyUrl": "https://w3c.github.io/proximity/"
     },
     "release": {
       "url": "https://www.w3.org/TR/proximity/",
@@ -8701,7 +9208,9 @@
     "shortname": "push-api",
     "series": {
       "shortname": "push-api",
-      "currentSpecification": "push-api"
+      "currentSpecification": "push-api",
+      "releaseUrl": "https://www.w3.org/TR/push-api/",
+      "nightlyUrl": "https://w3c.github.io/push-api/"
     },
     "release": {
       "url": "https://www.w3.org/TR/push-api/",
@@ -8729,7 +9238,9 @@
     "shortname": "referrer-policy",
     "series": {
       "shortname": "referrer-policy",
-      "currentSpecification": "referrer-policy"
+      "currentSpecification": "referrer-policy",
+      "releaseUrl": "https://www.w3.org/TR/referrer-policy/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-referrer-policy/"
     },
     "release": {
       "url": "https://www.w3.org/TR/referrer-policy/",
@@ -8757,7 +9268,9 @@
     "shortname": "remote-playback",
     "series": {
       "shortname": "remote-playback",
-      "currentSpecification": "remote-playback"
+      "currentSpecification": "remote-playback",
+      "releaseUrl": "https://www.w3.org/TR/remote-playback/",
+      "nightlyUrl": "https://w3c.github.io/remote-playback/"
     },
     "release": {
       "url": "https://www.w3.org/TR/remote-playback/",
@@ -8785,7 +9298,9 @@
     "shortname": "reporting-1",
     "series": {
       "shortname": "reporting",
-      "currentSpecification": "reporting-1"
+      "currentSpecification": "reporting-1",
+      "releaseUrl": "https://www.w3.org/TR/reporting/",
+      "nightlyUrl": "https://w3c.github.io/reporting/"
     },
     "seriesVersion": "1",
     "release": {
@@ -8814,7 +9329,9 @@
     "shortname": "requestidlecallback",
     "series": {
       "shortname": "requestidlecallback",
-      "currentSpecification": "requestidlecallback"
+      "currentSpecification": "requestidlecallback",
+      "releaseUrl": "https://www.w3.org/TR/requestidlecallback/",
+      "nightlyUrl": "https://w3c.github.io/requestidlecallback/"
     },
     "release": {
       "url": "https://www.w3.org/TR/requestidlecallback/",
@@ -8842,7 +9359,9 @@
     "shortname": "resize-observer-1",
     "series": {
       "shortname": "resize-observer",
-      "currentSpecification": "resize-observer-1"
+      "currentSpecification": "resize-observer-1",
+      "releaseUrl": "https://www.w3.org/TR/resize-observer/",
+      "nightlyUrl": "https://drafts.csswg.org/resize-observer/"
     },
     "seriesVersion": "1",
     "release": {
@@ -8871,7 +9390,9 @@
     "shortname": "resource-hints",
     "series": {
       "shortname": "resource-hints",
-      "currentSpecification": "resource-hints"
+      "currentSpecification": "resource-hints",
+      "releaseUrl": "https://www.w3.org/TR/resource-hints/",
+      "nightlyUrl": "https://w3c.github.io/resource-hints/"
     },
     "release": {
       "url": "https://www.w3.org/TR/resource-hints/",
@@ -8893,7 +9414,9 @@
     "shortname": "resource-timing-2",
     "series": {
       "shortname": "resource-timing",
-      "currentSpecification": "resource-timing-2"
+      "currentSpecification": "resource-timing-2",
+      "releaseUrl": "https://www.w3.org/TR/resource-timing/",
+      "nightlyUrl": "https://w3c.github.io/resource-timing/"
     },
     "seriesVersion": "2",
     "release": {
@@ -8922,7 +9445,9 @@
     "shortname": "screen-capture",
     "series": {
       "shortname": "screen-capture",
-      "currentSpecification": "screen-capture"
+      "currentSpecification": "screen-capture",
+      "releaseUrl": "https://www.w3.org/TR/screen-capture/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-screen-share/"
     },
     "release": {
       "url": "https://www.w3.org/TR/screen-capture/",
@@ -8950,7 +9475,9 @@
     "shortname": "screen-orientation",
     "series": {
       "shortname": "screen-orientation",
-      "currentSpecification": "screen-orientation"
+      "currentSpecification": "screen-orientation",
+      "releaseUrl": "https://www.w3.org/TR/screen-orientation/",
+      "nightlyUrl": "https://w3c.github.io/screen-orientation/"
     },
     "release": {
       "url": "https://www.w3.org/TR/screen-orientation/",
@@ -8978,7 +9505,9 @@
     "shortname": "screen-wake-lock",
     "series": {
       "shortname": "screen-wake-lock",
-      "currentSpecification": "screen-wake-lock"
+      "currentSpecification": "screen-wake-lock",
+      "releaseUrl": "https://www.w3.org/TR/screen-wake-lock/",
+      "nightlyUrl": "https://w3c.github.io/screen-wake-lock/"
     },
     "release": {
       "url": "https://www.w3.org/TR/screen-wake-lock/",
@@ -9006,7 +9535,9 @@
     "shortname": "secure-contexts",
     "series": {
       "shortname": "secure-contexts",
-      "currentSpecification": "secure-contexts"
+      "currentSpecification": "secure-contexts",
+      "releaseUrl": "https://www.w3.org/TR/secure-contexts/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-secure-contexts/"
     },
     "release": {
       "url": "https://www.w3.org/TR/secure-contexts/",
@@ -9034,7 +9565,9 @@
     "shortname": "selection-api",
     "series": {
       "shortname": "selection-api",
-      "currentSpecification": "selection-api"
+      "currentSpecification": "selection-api",
+      "releaseUrl": "https://www.w3.org/TR/selection-api/",
+      "nightlyUrl": "https://w3c.github.io/selection-api/"
     },
     "release": {
       "url": "https://www.w3.org/TR/selection-api/",
@@ -9062,7 +9595,9 @@
     "shortname": "selectors-4",
     "series": {
       "shortname": "selectors",
-      "currentSpecification": "selectors-4"
+      "currentSpecification": "selectors-4",
+      "releaseUrl": "https://www.w3.org/TR/selectors/",
+      "nightlyUrl": "https://drafts.csswg.org/selectors/"
     },
     "seriesVersion": "4",
     "release": {
@@ -9091,7 +9626,9 @@
     "shortname": "selectors-nonelement-1",
     "series": {
       "shortname": "selectors-nonelement",
-      "currentSpecification": "selectors-nonelement-1"
+      "currentSpecification": "selectors-nonelement-1",
+      "releaseUrl": "https://www.w3.org/TR/selectors-nonelement/",
+      "nightlyUrl": "https://drafts.csswg.org/selectors-nonelement/"
     },
     "seriesVersion": "1",
     "release": {
@@ -9114,7 +9651,9 @@
     "shortname": "server-timing",
     "series": {
       "shortname": "server-timing",
-      "currentSpecification": "server-timing"
+      "currentSpecification": "server-timing",
+      "releaseUrl": "https://www.w3.org/TR/server-timing/",
+      "nightlyUrl": "https://w3c.github.io/server-timing/"
     },
     "release": {
       "url": "https://www.w3.org/TR/server-timing/",
@@ -9142,7 +9681,9 @@
     "shortname": "service-workers-1",
     "series": {
       "shortname": "service-workers",
-      "currentSpecification": "service-workers-1"
+      "currentSpecification": "service-workers-1",
+      "releaseUrl": "https://www.w3.org/TR/service-workers/",
+      "nightlyUrl": "https://w3c.github.io/ServiceWorker/"
     },
     "seriesVersion": "1",
     "nightly": {
@@ -9171,7 +9712,9 @@
     "shortname": "SRI",
     "series": {
       "shortname": "SRI",
-      "currentSpecification": "SRI"
+      "currentSpecification": "SRI",
+      "releaseUrl": "https://www.w3.org/TR/SRI/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-subresource-integrity/"
     },
     "shortTitle": "SRI",
     "release": {
@@ -9199,7 +9742,9 @@
     "shortname": "svg-aam-1.0",
     "series": {
       "shortname": "svg-aam",
-      "currentSpecification": "svg-aam-1.0"
+      "currentSpecification": "svg-aam-1.0",
+      "releaseUrl": "https://www.w3.org/TR/svg-aam/",
+      "nightlyUrl": "https://w3c.github.io/svg-aam/"
     },
     "seriesVersion": "1.0",
     "release": {
@@ -9228,7 +9773,9 @@
     "shortname": "svg-integration",
     "series": {
       "shortname": "svg-integration",
-      "currentSpecification": "svg-integration"
+      "currentSpecification": "svg-integration",
+      "releaseUrl": "https://www.w3.org/TR/svg-integration/",
+      "nightlyUrl": "https://svgwg.org/specs/integration/"
     },
     "release": {
       "url": "https://www.w3.org/TR/svg-integration/",
@@ -9250,7 +9797,9 @@
     "shortname": "svg-strokes",
     "series": {
       "shortname": "svg-strokes",
-      "currentSpecification": "svg-strokes"
+      "currentSpecification": "svg-strokes",
+      "releaseUrl": "https://www.w3.org/TR/svg-strokes/",
+      "nightlyUrl": "https://svgwg.org/specs/strokes/"
     },
     "release": {
       "url": "https://www.w3.org/TR/svg-strokes/",
@@ -9272,7 +9821,9 @@
     "shortname": "SVG11",
     "series": {
       "shortname": "SVG",
-      "currentSpecification": "SVG2"
+      "currentSpecification": "SVG2",
+      "releaseUrl": "https://www.w3.org/TR/SVG/",
+      "nightlyUrl": "https://svgwg.org/svg2-draft/"
     },
     "seriesVersion": "1.1",
     "nightly": {
@@ -9374,7 +9925,9 @@
     "shortname": "SVG2",
     "series": {
       "shortname": "SVG",
-      "currentSpecification": "SVG2"
+      "currentSpecification": "SVG2",
+      "releaseUrl": "https://www.w3.org/TR/SVG/",
+      "nightlyUrl": "https://svgwg.org/svg2-draft/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "SVG11",
@@ -9462,7 +10015,9 @@
     "shortname": "timing-entrytypes-registry",
     "series": {
       "shortname": "timing-entrytypes-registry",
-      "currentSpecification": "timing-entrytypes-registry"
+      "currentSpecification": "timing-entrytypes-registry",
+      "releaseUrl": "https://www.w3.org/TR/timing-entrytypes-registry/",
+      "nightlyUrl": "https://w3c.github.io/timing-entrytypes-registry/"
     },
     "release": {
       "url": "https://www.w3.org/TR/timing-entrytypes-registry/",
@@ -9490,7 +10045,9 @@
     "shortname": "touch-events",
     "series": {
       "shortname": "touch-events",
-      "currentSpecification": "touch-events"
+      "currentSpecification": "touch-events",
+      "releaseUrl": "https://www.w3.org/TR/touch-events/",
+      "nightlyUrl": "https://w3c.github.io/touch-events/"
     },
     "release": {
       "url": "https://www.w3.org/TR/touch-events/",
@@ -9518,7 +10075,9 @@
     "shortname": "trace-context-1",
     "series": {
       "shortname": "trace-context",
-      "currentSpecification": "trace-context-1"
+      "currentSpecification": "trace-context-1",
+      "releaseUrl": "https://www.w3.org/TR/trace-context/",
+      "nightlyUrl": "https://w3c.github.io/trace-context/"
     },
     "seriesVersion": "1",
     "release": {
@@ -9541,7 +10100,9 @@
     "shortname": "tracking-dnt",
     "series": {
       "shortname": "tracking-dnt",
-      "currentSpecification": "tracking-dnt"
+      "currentSpecification": "tracking-dnt",
+      "releaseUrl": "https://www.w3.org/TR/tracking-dnt/",
+      "nightlyUrl": "https://w3c.github.io/dnt/drafts/tracking-dnt.html"
     },
     "release": {
       "url": "https://www.w3.org/TR/tracking-dnt/",
@@ -9563,7 +10124,9 @@
     "shortname": "uievents-code",
     "series": {
       "shortname": "uievents-code",
-      "currentSpecification": "uievents-code"
+      "currentSpecification": "uievents-code",
+      "releaseUrl": "https://www.w3.org/TR/uievents-code/",
+      "nightlyUrl": "https://w3c.github.io/uievents-code/"
     },
     "nightly": {
       "url": "https://w3c.github.io/uievents-code/",
@@ -9585,7 +10148,9 @@
     "shortname": "uievents-key",
     "series": {
       "shortname": "uievents-key",
-      "currentSpecification": "uievents-key"
+      "currentSpecification": "uievents-key",
+      "releaseUrl": "https://www.w3.org/TR/uievents-key/",
+      "nightlyUrl": "https://w3c.github.io/uievents-key/"
     },
     "nightly": {
       "url": "https://w3c.github.io/uievents-key/",
@@ -9607,7 +10172,9 @@
     "shortname": "uievents",
     "series": {
       "shortname": "uievents",
-      "currentSpecification": "uievents"
+      "currentSpecification": "uievents",
+      "releaseUrl": "https://www.w3.org/TR/uievents/",
+      "nightlyUrl": "https://w3c.github.io/uievents/"
     },
     "release": {
       "url": "https://www.w3.org/TR/uievents/",
@@ -9635,7 +10202,9 @@
     "shortname": "upgrade-insecure-requests",
     "series": {
       "shortname": "upgrade-insecure-requests",
-      "currentSpecification": "upgrade-insecure-requests"
+      "currentSpecification": "upgrade-insecure-requests",
+      "releaseUrl": "https://www.w3.org/TR/upgrade-insecure-requests/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-upgrade-insecure-requests/"
     },
     "release": {
       "url": "https://www.w3.org/TR/upgrade-insecure-requests/",
@@ -9663,7 +10232,9 @@
     "shortname": "user-timing-2",
     "series": {
       "shortname": "user-timing",
-      "currentSpecification": "user-timing-2"
+      "currentSpecification": "user-timing-2",
+      "releaseUrl": "https://www.w3.org/TR/user-timing/",
+      "nightlyUrl": "https://w3c.github.io/user-timing/"
     },
     "seriesVersion": "2",
     "seriesNext": "user-timing-3",
@@ -9693,7 +10264,9 @@
     "shortname": "user-timing-3",
     "series": {
       "shortname": "user-timing",
-      "currentSpecification": "user-timing-2"
+      "currentSpecification": "user-timing-2",
+      "releaseUrl": "https://www.w3.org/TR/user-timing/",
+      "nightlyUrl": "https://w3c.github.io/user-timing/"
     },
     "seriesVersion": "3",
     "seriesPrevious": "user-timing-2",
@@ -9723,7 +10296,9 @@
     "shortname": "vibration",
     "series": {
       "shortname": "vibration",
-      "currentSpecification": "vibration"
+      "currentSpecification": "vibration",
+      "releaseUrl": "https://www.w3.org/TR/vibration/",
+      "nightlyUrl": "https://w3c.github.io/vibration/"
     },
     "release": {
       "url": "https://www.w3.org/TR/vibration/",
@@ -9751,7 +10326,9 @@
     "shortname": "wai-aria-1.2",
     "series": {
       "shortname": "wai-aria",
-      "currentSpecification": "wai-aria-1.2"
+      "currentSpecification": "wai-aria-1.2",
+      "releaseUrl": "https://www.w3.org/TR/wai-aria/",
+      "nightlyUrl": "https://w3c.github.io/aria/"
     },
     "seriesVersion": "1.2",
     "release": {
@@ -9780,7 +10357,9 @@
     "shortname": "wasm-core-1",
     "series": {
       "shortname": "wasm-core",
-      "currentSpecification": "wasm-core-1"
+      "currentSpecification": "wasm-core-1",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
     },
     "seriesVersion": "1",
     "tests": {
@@ -9809,7 +10388,9 @@
     "shortname": "wasm-js-api-1",
     "series": {
       "shortname": "wasm-js-api",
-      "currentSpecification": "wasm-js-api-1"
+      "currentSpecification": "wasm-js-api-1",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
     },
     "seriesVersion": "1",
     "release": {
@@ -9838,7 +10419,9 @@
     "shortname": "wasm-web-api-1",
     "series": {
       "shortname": "wasm-web-api",
-      "currentSpecification": "wasm-web-api-1"
+      "currentSpecification": "wasm-web-api-1",
+      "releaseUrl": "https://www.w3.org/TR/wasm-web-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/web-api/"
     },
     "seriesVersion": "1",
     "release": {
@@ -9867,7 +10450,9 @@
     "shortname": "web-animations-1",
     "series": {
       "shortname": "web-animations",
-      "currentSpecification": "web-animations-1"
+      "currentSpecification": "web-animations-1",
+      "releaseUrl": "https://www.w3.org/TR/web-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/web-animations/"
     },
     "seriesVersion": "1",
     "seriesNext": "web-animations-2",
@@ -9897,7 +10482,9 @@
     "shortname": "web-share",
     "series": {
       "shortname": "web-share",
-      "currentSpecification": "web-share"
+      "currentSpecification": "web-share",
+      "releaseUrl": "https://www.w3.org/TR/web-share/",
+      "nightlyUrl": "https://w3c.github.io/web-share/"
     },
     "release": {
       "url": "https://www.w3.org/TR/web-share/",
@@ -9925,7 +10512,9 @@
     "shortname": "webaudio",
     "series": {
       "shortname": "webaudio",
-      "currentSpecification": "webaudio"
+      "currentSpecification": "webaudio",
+      "releaseUrl": "https://www.w3.org/TR/webaudio/",
+      "nightlyUrl": "https://webaudio.github.io/web-audio-api/"
     },
     "release": {
       "url": "https://www.w3.org/TR/webaudio/",
@@ -9953,7 +10542,9 @@
     "shortname": "webauthn-3",
     "series": {
       "shortname": "webauthn",
-      "currentSpecification": "webauthn-3"
+      "currentSpecification": "webauthn-3",
+      "releaseUrl": "https://www.w3.org/TR/webauthn/",
+      "nightlyUrl": "https://w3c.github.io/webauthn/"
     },
     "seriesVersion": "3",
     "shortTitle": "Web Authentication",
@@ -9982,7 +10573,9 @@
     "shortname": "webcodecs",
     "series": {
       "shortname": "webcodecs",
-      "currentSpecification": "webcodecs"
+      "currentSpecification": "webcodecs",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/"
     },
     "release": {
       "url": "https://www.w3.org/TR/webcodecs/",
@@ -10010,7 +10603,9 @@
     "shortname": "WebCryptoAPI",
     "series": {
       "shortname": "WebCryptoAPI",
-      "currentSpecification": "WebCryptoAPI"
+      "currentSpecification": "WebCryptoAPI",
+      "releaseUrl": "https://www.w3.org/TR/WebCryptoAPI/",
+      "nightlyUrl": "https://w3c.github.io/webcrypto/"
     },
     "release": {
       "url": "https://www.w3.org/TR/WebCryptoAPI/",
@@ -10038,7 +10633,9 @@
     "shortname": "webdriver2",
     "series": {
       "shortname": "webdriver",
-      "currentSpecification": "webdriver2"
+      "currentSpecification": "webdriver2",
+      "releaseUrl": "https://www.w3.org/TR/webdriver/",
+      "nightlyUrl": "https://w3c.github.io/webdriver/"
     },
     "seriesVersion": "2",
     "release": {
@@ -10067,7 +10664,9 @@
     "shortname": "WebIDL-1",
     "series": {
       "shortname": "WebIDL",
-      "currentSpecification": "WebIDL-1"
+      "currentSpecification": "WebIDL-1",
+      "releaseUrl": "https://www.w3.org/TR/WebIDL/",
+      "nightlyUrl": "https://heycam.github.io/webidl/"
     },
     "seriesVersion": "1",
     "release": {
@@ -10096,7 +10695,9 @@
     "shortname": "webmidi",
     "series": {
       "shortname": "webmidi",
-      "currentSpecification": "webmidi"
+      "currentSpecification": "webmidi",
+      "releaseUrl": "https://www.w3.org/TR/webmidi/",
+      "nightlyUrl": "https://webaudio.github.io/web-midi-api/"
     },
     "release": {
       "url": "https://www.w3.org/TR/webmidi/",
@@ -10124,7 +10725,9 @@
     "shortname": "webrtc-identity",
     "series": {
       "shortname": "webrtc-identity",
-      "currentSpecification": "webrtc-identity"
+      "currentSpecification": "webrtc-identity",
+      "releaseUrl": "https://www.w3.org/TR/webrtc-identity/",
+      "nightlyUrl": "https://w3c.github.io/webrtc-identity/"
     },
     "release": {
       "url": "https://www.w3.org/TR/webrtc-identity/",
@@ -10152,7 +10755,9 @@
     "shortname": "webrtc-priority",
     "series": {
       "shortname": "webrtc-priority",
-      "currentSpecification": "webrtc-priority"
+      "currentSpecification": "webrtc-priority",
+      "releaseUrl": "https://www.w3.org/TR/webrtc-priority/",
+      "nightlyUrl": "https://w3c.github.io/webrtc-priority/"
     },
     "release": {
       "url": "https://www.w3.org/TR/webrtc-priority/",
@@ -10180,7 +10785,9 @@
     "shortname": "webrtc-stats",
     "series": {
       "shortname": "webrtc-stats",
-      "currentSpecification": "webrtc-stats"
+      "currentSpecification": "webrtc-stats",
+      "releaseUrl": "https://www.w3.org/TR/webrtc-stats/",
+      "nightlyUrl": "https://w3c.github.io/webrtc-stats/"
     },
     "shortTitle": "WebRTC Statistics",
     "release": {
@@ -10208,7 +10815,9 @@
     "shortname": "webrtc-svc",
     "series": {
       "shortname": "webrtc-svc",
-      "currentSpecification": "webrtc-svc"
+      "currentSpecification": "webrtc-svc",
+      "releaseUrl": "https://www.w3.org/TR/webrtc-svc/",
+      "nightlyUrl": "https://w3c.github.io/webrtc-svc/"
     },
     "release": {
       "url": "https://www.w3.org/TR/webrtc-svc/",
@@ -10236,7 +10845,9 @@
     "shortname": "webrtc",
     "series": {
       "shortname": "webrtc",
-      "currentSpecification": "webrtc"
+      "currentSpecification": "webrtc",
+      "releaseUrl": "https://www.w3.org/TR/webrtc/",
+      "nightlyUrl": "https://w3c.github.io/webrtc-pc/"
     },
     "shortTitle": "WebRTC 1.0",
     "release": {
@@ -10264,7 +10875,9 @@
     "shortname": "webvtt1",
     "series": {
       "shortname": "webvtt",
-      "currentSpecification": "webvtt1"
+      "currentSpecification": "webvtt1",
+      "releaseUrl": "https://www.w3.org/TR/webvtt/",
+      "nightlyUrl": "https://w3c.github.io/webvtt/"
     },
     "seriesVersion": "1",
     "release": {
@@ -10293,7 +10906,9 @@
     "shortname": "webxr-ar-module-1",
     "series": {
       "shortname": "webxr-ar-module",
-      "currentSpecification": "webxr-ar-module-1"
+      "currentSpecification": "webxr-ar-module-1",
+      "releaseUrl": "https://www.w3.org/TR/webxr-ar-module/",
+      "nightlyUrl": "https://immersive-web.github.io/webxr-ar-module/"
     },
     "seriesVersion": "1",
     "release": {
@@ -10322,7 +10937,9 @@
     "shortname": "webxr-gamepads-module-1",
     "series": {
       "shortname": "webxr-gamepads-module",
-      "currentSpecification": "webxr-gamepads-module-1"
+      "currentSpecification": "webxr-gamepads-module-1",
+      "releaseUrl": "https://www.w3.org/TR/webxr-gamepads-module/",
+      "nightlyUrl": "https://immersive-web.github.io/webxr-gamepads-module/"
     },
     "seriesVersion": "1",
     "release": {
@@ -10351,7 +10968,9 @@
     "shortname": "webxr-hand-input-1",
     "series": {
       "shortname": "webxr-hand-input",
-      "currentSpecification": "webxr-hand-input-1"
+      "currentSpecification": "webxr-hand-input-1",
+      "releaseUrl": "https://www.w3.org/TR/webxr-hand-input/",
+      "nightlyUrl": "https://immersive-web.github.io/webxr-hand-input/"
     },
     "seriesVersion": "1",
     "release": {
@@ -10380,7 +10999,9 @@
     "shortname": "webxr",
     "series": {
       "shortname": "webxr",
-      "currentSpecification": "webxr"
+      "currentSpecification": "webxr",
+      "releaseUrl": "https://www.w3.org/TR/webxr/",
+      "nightlyUrl": "https://immersive-web.github.io/webxr/"
     },
     "release": {
       "url": "https://www.w3.org/TR/webxr/",
@@ -10417,7 +11038,9 @@
     "shortname": "webxrlayers-1",
     "series": {
       "shortname": "webxrlayers",
-      "currentSpecification": "webxrlayers-1"
+      "currentSpecification": "webxrlayers-1",
+      "releaseUrl": "https://www.w3.org/TR/webxrlayers/",
+      "nightlyUrl": "https://immersive-web.github.io/layers/"
     },
     "seriesVersion": "1",
     "release": {
@@ -10446,7 +11069,9 @@
     "shortname": "WOFF2",
     "series": {
       "shortname": "WOFF",
-      "currentSpecification": "WOFF2"
+      "currentSpecification": "WOFF2",
+      "releaseUrl": "https://www.w3.org/TR/WOFF/",
+      "nightlyUrl": "https://w3c.github.io/woff/woff2/"
     },
     "seriesVersion": "2",
     "shortTitle": "WOFF 2.0",
@@ -10475,7 +11100,8 @@
     "shortname": "xhr",
     "series": {
       "shortname": "xhr",
-      "currentSpecification": "xhr"
+      "currentSpecification": "xhr",
+      "nightlyUrl": "https://xhr.spec.whatwg.org/"
     },
     "nightly": {
       "url": "https://xhr.spec.whatwg.org/",

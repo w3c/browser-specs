@@ -30,7 +30,9 @@
           "type": "string",
           "pattern": "^[\\w\\-]+$"
         },
-        "currentSpecification": { "$ref": "#/proptype/shortname" }
+        "currentSpecification": { "$ref": "#/proptype/shortname" },
+        "releaseUrl": { "$ref": "#/proptype/url" },
+        "nightlyUrl": { "$ref": "#/proptype/url" }
       },
       "required": ["shortname"],
       "additionalProperties": false

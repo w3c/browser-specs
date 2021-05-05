@@ -20,6 +20,8 @@ cross-references, WebIDL, quality, etc.
   - [`series`](#series)
     - [`series.shortname`](#seriesshortname)
     - [`series.currentSpecification`](#seriescurrentspecification)
+    - [`series.releaseUrl`](#seriesreleaseurl)
+    - [`series.nightlyUrl`](#seriesnightlyurl)
   - [`seriesVersion`](#seriesversion)
   - [`seriesComposition`](#seriescomposition)
   - [`seriesPrevious`](#seriesprevious)
@@ -86,7 +88,9 @@ Each specification in the list comes with the following properties:
   "shortTitle": "CSS Color 4",
   "series": {
     "shortname": "css-color",
-    "currentSpecification": "css-color-4"
+    "currentSpecification": "css-color-4",
+    "releaseUrl": "https://www.w3.org/TR/css-color/",
+    "nightlyUrl": "https://drafts.csswg.org/css-color/"
   },
   "seriesVersion": "4",
   "seriesComposition": "full",
@@ -186,6 +190,36 @@ version in the series that is a "full" spec (see
 [`seriesComposition`](#seriescomposition)).
 
 The `currentSpecification` property is always set.
+
+
+#### `series.releaseUrl`
+
+The URL of the latest published snapshot for the spec series. For leveled specs
+(those that create a series), this matches the unversioned URL. That
+unversioned URL should return the specification identified by the
+[`currentSpecification`](#seriescurrentspecification) property.
+
+For instance, this property will be set to `https://www.w3.org/TR/css-fonts/`
+for all specifications in the CSS Fonts series.
+
+For non-leveled specs, this matches the [`url`](#url) property.
+
+The `releaseUrl` property is only set for W3C specs published as TR documents.
+
+
+#### `series.nightlyUrl`
+
+For leveled specs (those that create a series), this matches the unversioned URL
+that allows to access the latest Editor's Draft of the current specification in
+the series.
+
+For instance, this property will be set to `https://drafts.csswg.org/css-fonts/`
+for all specifications in the CSS Fonts series.
+
+For specs that are not part of a series of specs, this matches the
+[`nightly.url`](#nightlyurl) property.
+
+The `nightlyUrl` property is always set.
 
 
 ### `seriesVersion`

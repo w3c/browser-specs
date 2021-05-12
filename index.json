@@ -9046,9 +9046,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Pointer Events Level 3",
+    "title": "Pointer Events",
     "source": "w3c",
-    "shortTitle": "Pointer Events 3",
+    "shortTitle": "Pointer Events",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

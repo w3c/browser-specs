@@ -7380,15 +7380,15 @@
       "shortname": "device-posture",
       "currentSpecification": "device-posture",
       "releaseUrl": "https://www.w3.org/TR/device-posture/",
-      "nightlyUrl": "https://w3c.github.io/screen-fold/"
+      "nightlyUrl": "https://w3c.github.io/device-posture/"
     },
     "release": {
       "url": "https://www.w3.org/TR/device-posture/",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/screen-fold/",
-      "repository": "https://github.com/w3c/screen-fold",
+      "url": "https://w3c.github.io/device-posture/",
+      "repository": "https://github.com/w3c/device-posture",
       "sourcePath": "index.html",
       "filename": "index.html"
     },

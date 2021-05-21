@@ -16,10 +16,6 @@
       "comment": "still early draft",
       "lastreviewed": "2021-05-01"
     },
-    "WICG/document-policy": {
-      "comment": "no implementation yet",
-      "lastreviewed": "2021-05-01"
-    },
     "privacycg/storage-partitioning": {
       "comment": "mostly TODOs",
       "lastreviewed": "2021-05-01"

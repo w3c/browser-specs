@@ -633,31 +633,6 @@
     }
   },
   {
-    "url": "https://gpuweb.github.io/gpuweb/",
-    "seriesComposition": "full",
-    "shortname": "gpuweb",
-    "series": {
-      "shortname": "gpuweb",
-      "currentSpecification": "gpuweb",
-      "nightlyUrl": "https://gpuweb.github.io/gpuweb/"
-    },
-    "tests": {
-      "repository": "https://github.com/gpuweb/cts",
-      "testPaths": [
-        "src/webgpu"
-      ]
-    },
-    "nightly": {
-      "url": "https://gpuweb.github.io/gpuweb/",
-      "repository": "https://github.com/gpuweb/gpuweb",
-      "sourcePath": "spec/index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebGPU",
-    "source": "spec",
-    "shortTitle": "WebGPU"
-  },
-  {
     "url": "https://html.spec.whatwg.org/multipage/",
     "seriesComposition": "full",
     "shortname": "html",
@@ -10659,6 +10634,36 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/webgpu/",
+    "seriesComposition": "full",
+    "shortname": "webgpu",
+    "series": {
+      "shortname": "webgpu",
+      "currentSpecification": "webgpu",
+      "releaseUrl": "https://www.w3.org/TR/webgpu/",
+      "nightlyUrl": "https://gpuweb.github.io/gpuweb/"
+    },
+    "tests": {
+      "repository": "https://github.com/gpuweb/cts",
+      "testPaths": [
+        "src/webgpu"
+      ]
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webgpu/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://gpuweb.github.io/gpuweb/",
+      "repository": "https://github.com/gpuweb/gpuweb",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebGPU",
+    "source": "w3c",
+    "shortTitle": "WebGPU"
+  },
+  {
     "url": "https://www.w3.org/TR/WebIDL-1/",
     "seriesComposition": "full",
     "shortname": "WebIDL-1",
@@ -11092,6 +11097,30 @@
         "webxr/layers"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/WGSL/",
+    "seriesComposition": "full",
+    "shortname": "WGSL",
+    "series": {
+      "shortname": "WGSL",
+      "currentSpecification": "WGSL",
+      "releaseUrl": "https://www.w3.org/TR/WGSL/",
+      "nightlyUrl": "https://gpuweb.github.io/gpuweb/wgsl/"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/WGSL/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/",
+      "repository": "https://github.com/gpuweb/gpuweb",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebGPU Shading Language",
+    "source": "w3c",
+    "shortTitle": "WebGPU Shading Language"
   },
   {
     "url": "https://www.w3.org/TR/WOFF2/",

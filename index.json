@@ -2057,6 +2057,31 @@
     }
   },
   {
+    "url": "https://wicg.github.io/document-policy/",
+    "seriesComposition": "full",
+    "shortname": "document-policy",
+    "series": {
+      "shortname": "document-policy",
+      "currentSpecification": "document-policy",
+      "nightlyUrl": "https://wicg.github.io/document-policy/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/document-policy/",
+      "repository": "https://github.com/WICG/document-policy",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Document Policy",
+    "source": "spec",
+    "shortTitle": "Document Policy",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "document-policy"
+      ]
+    }
+  },
+  {
     "url": "https://wicg.github.io/element-timing/",
     "seriesComposition": "full",
     "shortname": "element-timing",

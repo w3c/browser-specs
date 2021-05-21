@@ -4,6 +4,25 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.38.0](https://github.com/w3c/browser-specs/compare/1.37.0...1.38.0) - 2021-05-21
+
+### Merged
+
+- Update URL of WebGPU, add WGSL [`#297`](https://github.com/w3c/browser-specs/pull/297)
+- Add Document Policy [`#296`](https://github.com/w3c/browser-specs/pull/296)
+- Switch to /TR URL for WebTransport [`#294`](https://github.com/w3c/browser-specs/pull/294)
+- Bump handlebars from 4.7.6 to 4.7.7 [`#292`](https://github.com/w3c/browser-specs/pull/292)
+
+### Commits
+
+- [data] Update spec info [`d8b6cf7`](https://github.com/w3c/browser-specs/commit/d8b6cf770f707d6def999bab6cc5bcd807d691aa)
+- [data] Update spec info [`7e396cb`](https://github.com/w3c/browser-specs/commit/7e396cbb85be0c2c99afb055994c14827f5a3396)
+- [data] Update spec info [`7003f91`](https://github.com/w3c/browser-specs/commit/7003f912ff605738157de5d9c81f9651d9c428f8)
+- [data] Update spec info [`69174b2`](https://github.com/w3c/browser-specs/commit/69174b2142d5939f69316ead48f7371ff55d5696)
+- [data] Update spec info [`e4e8a2f`](https://github.com/w3c/browser-specs/commit/e4e8a2f154d1d4c0eee4f2381a2243fe1dbab2fd)
+- [data] Update spec info [`ef17d8d`](https://github.com/w3c/browser-specs/commit/ef17d8d28975cc4740f447fb70140b95643e011a)
+- [data] Update spec info [`356b2cc`](https://github.com/w3c/browser-specs/commit/356b2cc55e2355aeee62cb1ab2eb763cee801af6)
+
 ## [1.37.0](https://github.com/w3c/browser-specs/compare/1.36.0...1.37.0) - 2021-05-05
 
 ### Merged

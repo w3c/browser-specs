@@ -43,15 +43,6 @@
   "https://fetch.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
   {
-    "url": "https://gpuweb.github.io/gpuweb/",
-    "tests": {
-      "repository": "https://github.com/gpuweb/cts",
-      "testPaths": [
-        "src/webgpu"
-      ]
-    }
-  },
-  {
     "url": "https://html.spec.whatwg.org/multipage/",
     "multipage": true,
     "nightly": {
@@ -623,6 +614,15 @@
   "https://www.w3.org/TR/webcodecs/",
   "https://www.w3.org/TR/WebCryptoAPI/",
   "https://www.w3.org/TR/webdriver2/",
+  {
+    "url": "https://www.w3.org/TR/webgpu/",
+    "tests": {
+      "repository": "https://github.com/gpuweb/cts",
+      "testPaths": [
+        "src/webgpu"
+      ]
+    }
+  },
   "https://www.w3.org/TR/WebIDL-1/",
   "https://www.w3.org/TR/webmidi/",
   "https://www.w3.org/TR/webrtc-identity/",
@@ -643,6 +643,7 @@
   "https://www.w3.org/TR/webxr-hand-input-1/",
   "https://www.w3.org/TR/webxr/",
   "https://www.w3.org/TR/webxrlayers-1/",
+  "https://www.w3.org/TR/WGSL/",
   {
     "url": "https://www.w3.org/TR/WOFF2/",
     "shortTitle": "WOFF 2.0",

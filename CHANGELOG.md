@@ -4,6 +4,21 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.38.1](https://github.com/w3c/browser-specs/compare/1.38.0...1.38.1) - 2021-05-25
+
+### Merged
+
+- Switch ecma262 spec to multipage version [`#299`](https://github.com/w3c/browser-specs/pull/299)
+- Add CHIPS WICG proposal to monitor list [`#300`](https://github.com/w3c/browser-specs/pull/300)
+
+### Fixed
+
+- Add CHIPS WICG proposal to monitor list (#300) [`#298`](https://github.com/w3c/browser-specs/issues/298)
+
+### Commits
+
+- [data] Update spec info [`f0ddadc`](https://github.com/w3c/browser-specs/commit/f0ddadc85057adf9e5f950589d15d3c16fb87d5a)
+
 ## [1.38.0](https://github.com/w3c/browser-specs/compare/1.37.0...1.38.0) - 2021-05-21
 
 ### Merged

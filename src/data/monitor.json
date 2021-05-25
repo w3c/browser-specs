@@ -299,6 +299,10 @@
     "WICG/shared-element-transitions": {
       "lastreviewed": "2021-05-03",
       "comment": "no published content yet"
+    },
+    "WICG/CHIPS": {
+      "lastreviewed": "2021-05-25",
+      "comment": "no published content yet"
     }
   },
   "specs": {

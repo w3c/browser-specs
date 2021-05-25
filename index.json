@@ -1080,13 +1080,13 @@
     "shortTitle": "SVG Animations 2"
   },
   {
-    "url": "https://tc39.es/ecma262/",
+    "url": "https://tc39.es/ecma262/multipage/",
     "seriesComposition": "full",
     "shortname": "ecmascript",
     "series": {
       "shortname": "ecmascript",
       "currentSpecification": "ecmascript",
-      "nightlyUrl": "https://tc39.es/ecma262/"
+      "nightlyUrl": "https://tc39.es/ecma262/multipage/"
     },
     "shortTitle": "ECMAScript",
     "tests": {
@@ -1099,9 +1099,49 @@
       ]
     },
     "nightly": {
-      "url": "https://tc39.es/ecma262/",
+      "url": "https://tc39.es/ecma262/multipage/",
       "repository": "https://github.com/tc39/ecma262",
       "sourcePath": "spec.html",
+      "pages": [
+        "https://tc39.es/ecma262/multipage/scope.html",
+        "https://tc39.es/ecma262/multipage/conformance.html",
+        "https://tc39.es/ecma262/multipage/normative-references.html",
+        "https://tc39.es/ecma262/multipage/overview.html",
+        "https://tc39.es/ecma262/multipage/notational-conventions.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html",
+        "https://tc39.es/ecma262/multipage/abstract-operations.html",
+        "https://tc39.es/ecma262/multipage/syntax-directed-operations.html",
+        "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html",
+        "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html",
+        "https://tc39.es/ecma262/multipage/error-handling-and-language-extensions.html",
+        "https://tc39.es/ecma262/multipage/ecmascript-standard-built-in-objects.html",
+        "https://tc39.es/ecma262/multipage/global-object.html",
+        "https://tc39.es/ecma262/multipage/fundamental-objects.html",
+        "https://tc39.es/ecma262/multipage/numbers-and-dates.html",
+        "https://tc39.es/ecma262/multipage/text-processing.html",
+        "https://tc39.es/ecma262/multipage/indexed-collections.html",
+        "https://tc39.es/ecma262/multipage/keyed-collections.html",
+        "https://tc39.es/ecma262/multipage/structured-data.html",
+        "https://tc39.es/ecma262/multipage/managing-memory.html",
+        "https://tc39.es/ecma262/multipage/control-abstraction-objects.html",
+        "https://tc39.es/ecma262/multipage/reflection.html",
+        "https://tc39.es/ecma262/multipage/memory-model.html",
+        "https://tc39.es/ecma262/multipage/grammar-summary.html",
+        "https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html",
+        "https://tc39.es/ecma262/multipage/strict-mode-of-ecmascript.html",
+        "https://tc39.es/ecma262/multipage/host-layering-points.html",
+        "https://tc39.es/ecma262/multipage/corrections-and-clarifications-in-ecmascript-2015-with-possible-compatibility-impact.html",
+        "https://tc39.es/ecma262/multipage/additions-and-changes-that-introduce-incompatibilities-with-prior-editions.html",
+        "https://tc39.es/ecma262/multipage/colophon.html",
+        "https://tc39.es/ecma262/multipage/bibliography.html",
+        "https://tc39.es/ecma262/multipage/copyright-and-software-license.html"
+      ],
       "filename": "index.html"
     },
     "title": "ECMAScript Language Specification",

@@ -89,6 +89,7 @@
       ]
     }
   },
+  "https://tc39.es/proposal-accessible-object-hasownproperty/",
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-class-fields/",
   "https://tc39.es/proposal-class-static-block/",
@@ -99,6 +100,7 @@
   "https://tc39.es/proposal-private-methods/",
   "https://tc39.es/proposal-regexp-match-indices/",
   "https://tc39.es/proposal-relative-indexing-method/",
+  "https://tc39.es/proposal-resizablearraybuffer/",
   "https://tc39.es/proposal-static-class-features/",
   "https://tc39.es/proposal-temporal/",
   "https://tc39.es/proposal-top-level-await/",

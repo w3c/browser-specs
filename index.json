@@ -1173,6 +1173,25 @@
     "shortTitle": "ECMAScript Internationalization API"
   },
   {
+    "url": "https://tc39.es/proposal-accessible-object-hasownproperty/",
+    "seriesComposition": "full",
+    "shortname": "tc39-accessible-object-hasownproperty",
+    "series": {
+      "shortname": "tc39-accessible-object-hasownproperty",
+      "currentSpecification": "tc39-accessible-object-hasownproperty",
+      "nightlyUrl": "https://tc39.es/proposal-accessible-object-hasownproperty/"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-accessible-object-hasownproperty/",
+      "repository": "https://github.com/tc39/proposal-accessible-object-hasownproperty",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Accessible Object.hasOwnProperty",
+    "source": "spec",
+    "shortTitle": "Accessible Object.hasOwnProperty"
+  },
+  {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
     "seriesComposition": "full",
     "shortname": "tc39-atomics-wait-async",
@@ -1361,6 +1380,25 @@
     "title": "Relative Indexing Method",
     "source": "spec",
     "shortTitle": "Relative Indexing Method"
+  },
+  {
+    "url": "https://tc39.es/proposal-resizablearraybuffer/",
+    "seriesComposition": "full",
+    "shortname": "tc39-resizablearraybuffer",
+    "series": {
+      "shortname": "tc39-resizablearraybuffer",
+      "currentSpecification": "tc39-resizablearraybuffer",
+      "nightlyUrl": "https://tc39.es/proposal-resizablearraybuffer/"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-resizablearraybuffer/",
+      "repository": "https://github.com/tc39/proposal-resizablearraybuffer",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "source": "spec",
+    "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer"
   },
   {
     "url": "https://tc39.es/proposal-static-class-features/",

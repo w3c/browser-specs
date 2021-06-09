@@ -4,6 +4,24 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.39.0](https://github.com/w3c/browser-specs/compare/1.38.1...1.39.0) - 2021-06-09
+
+### Merged
+
+- Recognize tc39-transfer as equivalent to tc39 when finding specs [`#309`](https://github.com/w3c/browser-specs/pull/309)
+- Add TC39 proposals hasOwn and resizable ArrayBuffer [`#304`](https://github.com/w3c/browser-specs/pull/304)
+- Bump ws from 7.3.0 to 7.4.6 [`#302`](https://github.com/w3c/browser-specs/pull/302)
+
+### Fixed
+
+- Add TC39 proposals hasOwn and resizable ArrayBuffer (#304) [`#303`](https://github.com/w3c/browser-specs/issues/303)
+
+### Commits
+
+- [data] Update spec info [`66a8b8c`](https://github.com/w3c/browser-specs/commit/66a8b8cfddfd3c4b69c864623cfcd834de623faf)
+- [data] Update spec info [`0733589`](https://github.com/w3c/browser-specs/commit/07335899103ff9e5fb67c0f25ab4efbc3cdef04d)
+- [data] Update spec info [`9135e7c`](https://github.com/w3c/browser-specs/commit/9135e7ce3fc04d5f17db029c9b02ec3f532df8a0)
+
 ## [1.38.1](https://github.com/w3c/browser-specs/compare/1.38.0...1.38.1) - 2021-05-25
 
 ### Merged

@@ -864,31 +864,6 @@
     "shortTitle": "Infra"
   },
   {
-    "url": "https://mathml-refresh.github.io/mathml-core/",
-    "seriesComposition": "full",
-    "shortname": "mathml-core",
-    "series": {
-      "shortname": "mathml-core",
-      "currentSpecification": "mathml-core",
-      "nightlyUrl": "https://mathml-refresh.github.io/mathml-core/"
-    },
-    "nightly": {
-      "url": "https://mathml-refresh.github.io/mathml-core/",
-      "repository": "https://github.com/mathml-refresh/mathml-core",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "MathML Core",
-    "source": "specref",
-    "shortTitle": "MathML Core",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "mathml"
-      ]
-    }
-  },
-  {
     "url": "https://mimesniff.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "mimesniff",
@@ -1569,6 +1544,31 @@
     "title": "MathML Accessiblity API Mappings 1.0",
     "source": "spec",
     "shortTitle": "MathML Accessiblity API Mappings 1.0"
+  },
+  {
+    "url": "https://w3c.github.io/mathml-core/",
+    "seriesComposition": "full",
+    "shortname": "mathml-core",
+    "series": {
+      "shortname": "mathml-core",
+      "currentSpecification": "mathml-core",
+      "nightlyUrl": "https://mathml-refresh.github.io/mathml-core/"
+    },
+    "nightly": {
+      "url": "https://mathml-refresh.github.io/mathml-core/",
+      "repository": "https://github.com/mathml-refresh/mathml-core",
+      "sourcePath": "index.html",
+      "filename": null
+    },
+    "title": "MathML Core",
+    "source": "specref",
+    "shortTitle": "MathML Core",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "mathml"
+      ]
+    }
   },
   {
     "url": "https://w3c.github.io/media-playback-quality/",

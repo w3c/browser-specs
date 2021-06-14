@@ -82,8 +82,8 @@
     "series": {
       "shortname": "css-typed-om",
       "currentSpecification": "css-typed-om-1",
-      "nightlyUrl": "https://drafts.css-houdini.org/css-typed-om/",
-      "releaseUrl": "https://www.w3.org/TR/css-typed-om/"
+      "releaseUrl": "https://www.w3.org/TR/css-typed-om/",
+      "nightlyUrl": "https://drafts.css-houdini.org/css-typed-om/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-typed-om-1",
@@ -130,8 +130,8 @@
     "series": {
       "shortname": "css-animations",
       "currentSpecification": "css-animations-1",
-      "nightlyUrl": "https://drafts.csswg.org/css-animations/",
-      "releaseUrl": "https://www.w3.org/TR/css-animations/"
+      "releaseUrl": "https://www.w3.org/TR/css-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/css-animations/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-animations-1",
@@ -158,8 +158,8 @@
     "series": {
       "shortname": "css-backgrounds",
       "currentSpecification": "css-backgrounds-3",
-      "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/",
-      "releaseUrl": "https://www.w3.org/TR/css-backgrounds/"
+      "releaseUrl": "https://www.w3.org/TR/css-backgrounds/",
+      "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-backgrounds-3",
@@ -232,8 +232,8 @@
     "series": {
       "shortname": "css-fonts",
       "currentSpecification": "css-fonts-4",
-      "nightlyUrl": "https://drafts.csswg.org/css-fonts/",
-      "releaseUrl": "https://www.w3.org/TR/css-fonts/"
+      "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+      "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
     },
     "seriesVersion": "5",
     "seriesPrevious": "css-fonts-4",
@@ -260,8 +260,8 @@
     "series": {
       "shortname": "css-gcpm",
       "currentSpecification": "css-gcpm-3",
-      "nightlyUrl": "https://drafts.csswg.org/css-gcpm/",
-      "releaseUrl": "https://www.w3.org/TR/css-gcpm/"
+      "releaseUrl": "https://www.w3.org/TR/css-gcpm/",
+      "nightlyUrl": "https://drafts.csswg.org/css-gcpm/"
     },
     "seriesVersion": "4",
     "shortTitle": "CSS GCPM 4",
@@ -288,8 +288,8 @@
     "series": {
       "shortname": "css-grid",
       "currentSpecification": "css-grid-2",
-      "nightlyUrl": "https://drafts.csswg.org/css-grid/",
-      "releaseUrl": "https://www.w3.org/TR/css-grid/"
+      "releaseUrl": "https://www.w3.org/TR/css-grid/",
+      "nightlyUrl": "https://drafts.csswg.org/css-grid/"
     },
     "seriesVersion": "3",
     "seriesPrevious": "css-grid-2",
@@ -316,8 +316,8 @@
     "series": {
       "shortname": "css-multicol",
       "currentSpecification": "css-multicol-1",
-      "nightlyUrl": "https://drafts.csswg.org/css-multicol/",
-      "releaseUrl": "https://www.w3.org/TR/css-multicol/"
+      "releaseUrl": "https://www.w3.org/TR/css-multicol/",
+      "nightlyUrl": "https://drafts.csswg.org/css-multicol/"
     },
     "seriesVersion": "2",
     "shortTitle": "CSS Multicol 2",
@@ -364,8 +364,8 @@
     "series": {
       "shortname": "css-page",
       "currentSpecification": "css-page-3",
-      "nightlyUrl": "https://drafts.csswg.org/css-page/",
-      "releaseUrl": "https://www.w3.org/TR/css-page/"
+      "releaseUrl": "https://www.w3.org/TR/css-page/",
+      "nightlyUrl": "https://drafts.csswg.org/css-page/"
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-page-3",
@@ -392,8 +392,8 @@
     "series": {
       "shortname": "css-shapes",
       "currentSpecification": "css-shapes-1",
-      "nightlyUrl": "https://drafts.csswg.org/css-shapes/",
-      "releaseUrl": "https://www.w3.org/TR/css-shapes/"
+      "releaseUrl": "https://www.w3.org/TR/css-shapes/",
+      "nightlyUrl": "https://drafts.csswg.org/css-shapes/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-shapes-1",
@@ -446,8 +446,8 @@
     "series": {
       "shortname": "css-transitions",
       "currentSpecification": "css-transitions-1",
-      "nightlyUrl": "https://drafts.csswg.org/css-transitions/",
-      "releaseUrl": "https://www.w3.org/TR/css-transitions/"
+      "releaseUrl": "https://www.w3.org/TR/css-transitions/",
+      "nightlyUrl": "https://drafts.csswg.org/css-transitions/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "css-transitions-1",
@@ -500,8 +500,8 @@
     "series": {
       "shortname": "web-animations",
       "currentSpecification": "web-animations-1",
-      "nightlyUrl": "https://drafts.csswg.org/web-animations/",
-      "releaseUrl": "https://www.w3.org/TR/web-animations/"
+      "releaseUrl": "https://www.w3.org/TR/web-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/web-animations/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "web-animations-1",
@@ -528,8 +528,8 @@
     "series": {
       "shortname": "compositing",
       "currentSpecification": "compositing-1",
-      "nightlyUrl": "https://drafts.fxtf.org/compositing/",
-      "releaseUrl": "https://www.w3.org/TR/compositing/"
+      "releaseUrl": "https://www.w3.org/TR/compositing/",
+      "nightlyUrl": "https://drafts.fxtf.org/compositing/"
     },
     "seriesVersion": "2",
     "shortTitle": "Compositing 2",
@@ -556,8 +556,8 @@
     "series": {
       "shortname": "filter-effects",
       "currentSpecification": "filter-effects-1",
-      "nightlyUrl": "https://drafts.fxtf.org/filter-effects/",
-      "releaseUrl": "https://www.w3.org/TR/filter-effects/"
+      "releaseUrl": "https://www.w3.org/TR/filter-effects/",
+      "nightlyUrl": "https://drafts.fxtf.org/filter-effects/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "filter-effects-1",
@@ -9899,37 +9899,51 @@
     },
     "seriesVersion": "1.1",
     "nightly": {
-      "url": "https://svgwg.org/svg2-draft/",
+      "url": "https://www.w3.org/TR/SVG11/",
       "repository": "https://github.com/w3c/svgwg",
       "sourcePath": "master/Overview.html",
       "pages": [
-        "https://svgwg.org/svg2-draft/intro.html",
-        "https://svgwg.org/svg2-draft/conform.html",
-        "https://svgwg.org/svg2-draft/render.html",
-        "https://svgwg.org/svg2-draft/types.html",
-        "https://svgwg.org/svg2-draft/struct.html",
-        "https://svgwg.org/svg2-draft/styling.html",
-        "https://svgwg.org/svg2-draft/geometry.html",
-        "https://svgwg.org/svg2-draft/coords.html",
-        "https://svgwg.org/svg2-draft/paths.html",
-        "https://svgwg.org/svg2-draft/shapes.html",
-        "https://svgwg.org/svg2-draft/text.html",
-        "https://svgwg.org/svg2-draft/embedded.html",
-        "https://svgwg.org/svg2-draft/painting.html",
-        "https://svgwg.org/svg2-draft/pservers.html",
-        "https://svgwg.org/svg2-draft/interact.html",
-        "https://svgwg.org/svg2-draft/linking.html",
-        "https://svgwg.org/svg2-draft/idl.html",
-        "https://svgwg.org/svg2-draft/implnote.html",
-        "https://svgwg.org/svg2-draft/access.html",
-        "https://svgwg.org/svg2-draft/animate.html",
-        "https://svgwg.org/svg2-draft/refs.html",
-        "https://svgwg.org/svg2-draft/eltindex.html",
-        "https://svgwg.org/svg2-draft/attindex.html",
-        "https://svgwg.org/svg2-draft/propidx.html",
-        "https://svgwg.org/svg2-draft/idlindex.html",
-        "https://svgwg.org/svg2-draft/mimereg.html",
-        "https://svgwg.org/svg2-draft/changes.html"
+        "https://www.w3.org/TR/SVG11/expanded-toc.html",
+        "https://www.w3.org/TR/SVG11/intro.html",
+        "https://www.w3.org/TR/SVG11/concepts.html",
+        "https://www.w3.org/TR/SVG11/render.html",
+        "https://www.w3.org/TR/SVG11/types.html",
+        "https://www.w3.org/TR/SVG11/struct.html",
+        "https://www.w3.org/TR/SVG11/styling.html",
+        "https://www.w3.org/TR/SVG11/coords.html",
+        "https://www.w3.org/TR/SVG11/paths.html",
+        "https://www.w3.org/TR/SVG11/shapes.html",
+        "https://www.w3.org/TR/SVG11/text.html",
+        "https://www.w3.org/TR/SVG11/painting.html",
+        "https://www.w3.org/TR/SVG11/color.html",
+        "https://www.w3.org/TR/SVG11/pservers.html",
+        "https://www.w3.org/TR/SVG11/masking.html",
+        "https://www.w3.org/TR/SVG11/filters.html",
+        "https://www.w3.org/TR/SVG11/interact.html",
+        "https://www.w3.org/TR/SVG11/linking.html",
+        "https://www.w3.org/TR/SVG11/script.html",
+        "https://www.w3.org/TR/SVG11/animate.html",
+        "https://www.w3.org/TR/SVG11/fonts.html",
+        "https://www.w3.org/TR/SVG11/metadata.html",
+        "https://www.w3.org/TR/SVG11/backward.html",
+        "https://www.w3.org/TR/SVG11/extend.html",
+        "https://www.w3.org/TR/SVG11/svgdtd.html",
+        "https://www.w3.org/TR/SVG11/svgdom.html",
+        "https://www.w3.org/TR/SVG11/idl.html",
+        "https://www.w3.org/TR/SVG11/java.html",
+        "https://www.w3.org/TR/SVG11/escript.html",
+        "https://www.w3.org/TR/SVG11/implnote.html",
+        "https://www.w3.org/TR/SVG11/conform.html",
+        "https://www.w3.org/TR/SVG11/access.html",
+        "https://www.w3.org/TR/SVG11/i18n.html",
+        "https://www.w3.org/TR/SVG11/minimize.html",
+        "https://www.w3.org/TR/SVG11/refs.html",
+        "https://www.w3.org/TR/SVG11/eltindex.html",
+        "https://www.w3.org/TR/SVG11/attindex.html",
+        "https://www.w3.org/TR/SVG11/propidx.html",
+        "https://www.w3.org/TR/SVG11/feature.html",
+        "https://www.w3.org/TR/SVG11/mimereg.html",
+        "https://www.w3.org/TR/SVG11/changes.html"
       ],
       "filename": "Overview.html"
     },
@@ -9983,13 +9997,7 @@
     },
     "title": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
     "source": "w3c",
-    "shortTitle": "SVG",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "svg"
-      ]
-    }
+    "shortTitle": "SVG"
   },
   {
     "url": "https://www.w3.org/TR/SVG2/",

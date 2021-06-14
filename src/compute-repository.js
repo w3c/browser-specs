@@ -19,6 +19,11 @@ function urlToGitHubRepository(url) {
     throw "No URL passed as parameter";
   }
 
+  const githubcom = url.match(/^https:\/\/github\.com\/([^\/]*)\/([^\/]*)\/?/);
+  if (githubcom) {
+    return { owner: githubcom[1], name: githubcom[2] };
+  }
+
   const githubio = url.match(/^https:\/\/([^\.]*)\.github\.io\/([^\/]*)\/?/);
   if (githubio) {
     return { owner: githubio[1], name: githubio[2] };
@@ -197,7 +202,7 @@ module.exports = async function (specs, options) {
   }
 
   // Compute GitHub repositories with lowercase owner names
-  const repos = specs.map(spec => urlToGitHubRepository(spec.nightly.url));
+  const repos = specs.map(spec => urlToGitHubRepository(spec.nightly.repository ?? spec.nightly.url));
 
   if (options.githubToken) {
     // Fetch the real name of repository owners (preserving case)

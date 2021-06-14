@@ -8,6 +8,12 @@ describe("compute-repository module", async () => {
     return result[0].nightly.repository;
   };
 
+  it("handles github.com URLs", async () => {
+    assert.equal(
+      await computeSingleRepo("https://github.com/orgname/specname"),
+      "https://github.com/orgname/specname");
+  });
+
   it("handles xxx.github.io URLs", async () => {
     assert.equal(
       await computeSingleRepo("https://orgname.github.io/specname"),

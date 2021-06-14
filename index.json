@@ -3088,6 +3088,25 @@
     }
   },
   {
+    "url": "https://wicg.github.io/user-preference-media-features-headers/",
+    "seriesComposition": "full",
+    "shortname": "user-preference-media-features-headers",
+    "series": {
+      "shortname": "user-preference-media-features-headers",
+      "currentSpecification": "user-preference-media-features-headers",
+      "nightlyUrl": "https://wicg.github.io/user-preference-media-features-headers/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/user-preference-media-features-headers/",
+      "repository": "https://github.com/WICG/user-preference-media-features-headers",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "User Preference Media Features Client Hints Headers",
+    "source": "spec",
+    "shortTitle": "User Preference Media Features Client Hints Headers"
+  },
+  {
     "url": "https://wicg.github.io/video-rvfc/",
     "seriesComposition": "full",
     "shortname": "video-rvfc",

@@ -1552,13 +1552,13 @@
     "series": {
       "shortname": "mathml-core",
       "currentSpecification": "mathml-core",
-      "nightlyUrl": "https://mathml-refresh.github.io/mathml-core/"
+      "nightlyUrl": "https://w3c.github.io/mathml-core/"
     },
     "nightly": {
-      "url": "https://mathml-refresh.github.io/mathml-core/",
-      "repository": "https://github.com/mathml-refresh/mathml-core",
+      "url": "https://w3c.github.io/mathml-core/",
+      "repository": "https://github.com/w3c/mathml-core",
       "sourcePath": "index.html",
-      "filename": null
+      "filename": "Overview.html"
     },
     "title": "MathML Core",
     "source": "specref",

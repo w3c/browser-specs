@@ -58,7 +58,9 @@ function computeSeriesUrls(spec) {
 module.exports = function (spec, list) {
   list = list || [];
 
-  const res = computeSeriesUrls(spec);
+  // Compute series info for current version of the spec if it is in the list
+  const currentSpec = list.find(s => s.shortname === spec.series?.currentSpecification);
+  const res = computeSeriesUrls(currentSpec ?? spec);
 
   // Look for a release URL in previous versions of the spec if one exists
   if (!res.releaseUrl) {

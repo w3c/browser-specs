@@ -125,4 +125,32 @@ describe("compute-series-urls module", () => {
       { releaseUrl: "https://www.w3.org/TR/css-fonts/",
         nightlyUrl: "https://drafts.csswg.org/css-fonts/" });
   });
+
+
+  it("computes info based on current specification", () => {
+    const spec = {
+      url: "https://www.w3.org/TR/SVG11/",
+      seriesComposition: "full",
+      shortname: "SVG11",
+      series: { shortname: "SVG", currentSpecification: "SVG2" },
+      release: { url: "https://www.w3.org/TR/SVG11/" },
+      nightly: { url: "https://www.w3.org/TR/SVG11/" }
+    };
+
+    const list = [
+      spec,
+      {
+        url: "https://www.w3.org/TR/SVG2/",
+        seriesComposition: "full",
+        shortname: "SVG2",
+        series: { shortname: "SVG", currentSpecification: "SVG2" },
+        release: { url: "https://www.w3.org/TR/SVG2/" },
+        nightly: { url: "https://svgwg.org/svg2-draft/" }
+      }
+    ];
+
+    assert.deepStrictEqual(computeSeriesUrls(spec, list),
+      { releaseUrl: "https://www.w3.org/TR/SVG/",
+        nightlyUrl: "https://svgwg.org/svg2-draft/" });
+  });
 });

@@ -4,6 +4,27 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.40.0](https://github.com/w3c/browser-specs/compare/1.39.0...1.40.0) - 2021-06-16
+
+### Merged
+
+- Use /TR URL for SVG 1.1 spec [`#316`](https://github.com/w3c/browser-specs/pull/316)
+- Bump glob-parent from 5.1.0 to 5.1.2 [`#310`](https://github.com/w3c/browser-specs/pull/310)
+- Add User Preference Media Features Client Hints Headers [`#315`](https://github.com/w3c/browser-specs/pull/315)
+- Reflect new URL of MathML Core draft [`#311`](https://github.com/w3c/browser-specs/pull/311)
+
+### Fixed
+
+- Use /TR URL for SVG 1.1 spec (#316) [`#312`](https://github.com/w3c/browser-specs/issues/312)
+- Add User Preference Media Features Client Hints Headers (#315) [`#313`](https://github.com/w3c/browser-specs/issues/313)
+
+### Commits
+
+- [data] Update spec info [`8213697`](https://github.com/w3c/browser-specs/commit/8213697c9174144d130edcff1e2f9fdabf51fbef)
+- [data] Update spec info [`1ece1b3`](https://github.com/w3c/browser-specs/commit/1ece1b3dc502684eb6e693b16db569919fc24fa4)
+- [data] Update spec info [`89be959`](https://github.com/w3c/browser-specs/commit/89be959b7031261ebe921e25b6099fda6e30dfe3)
+- [data] Update spec info [`66472af`](https://github.com/w3c/browser-specs/commit/66472afd4336ffb082cc4992ece68b5136d7f4bd)
+
 ## [1.39.0](https://github.com/w3c/browser-specs/compare/1.38.1...1.39.0) - 2021-06-09
 
 ### Merged

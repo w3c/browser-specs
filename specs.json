@@ -119,6 +119,7 @@
   "https://w3c.github.io/webrtc-encoded-transform/",
   "https://w3c.github.io/webrtc-ice/",
   "https://webbluetoothcg.github.io/web-bluetooth/",
+  "https://webmachinelearning.github.io/webnn/",
   "https://wicg.github.io/background-fetch/",
   {
     "url": "https://wicg.github.io/background-sync/spec/",

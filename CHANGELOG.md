@@ -4,6 +4,20 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.41.0](https://github.com/w3c/browser-specs/compare/1.40.0...1.41.0) - 2021-06-21
+
+### Merged
+
+- Add Web Neural Network API [`#318`](https://github.com/w3c/browser-specs/pull/318)
+
+### Fixed
+
+- Add Web Neural Network API (#318) [`#317`](https://github.com/w3c/browser-specs/issues/317)
+
+### Commits
+
+- [data] Update spec info [`6baf61f`](https://github.com/w3c/browser-specs/commit/6baf61f1c5b81b108e12363aa3b9e4a898159d2e)
+
 ## [1.40.0](https://github.com/w3c/browser-specs/compare/1.39.0...1.40.0) - 2021-06-16
 
 ### Merged

@@ -1797,25 +1797,6 @@
     }
   },
   {
-    "url": "https://webmachinelearning.github.io/webnn/",
-    "seriesComposition": "full",
-    "shortname": "webnn",
-    "series": {
-      "shortname": "webnn",
-      "currentSpecification": "webnn",
-      "nightlyUrl": "https://webmachinelearning.github.io/webnn/"
-    },
-    "nightly": {
-      "url": "https://webmachinelearning.github.io/webnn/",
-      "repository": "https://github.com/webmachinelearning/webnn",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Web Neural Network API",
-    "source": "spec",
-    "shortTitle": "Web Neural Network API"
-  },
-  {
     "url": "https://wicg.github.io/background-fetch/",
     "seriesComposition": "full",
     "shortname": "background-fetch",
@@ -10847,6 +10828,30 @@
         "webmidi"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/webnn/",
+    "seriesComposition": "full",
+    "shortname": "webnn",
+    "series": {
+      "shortname": "webnn",
+      "currentSpecification": "webnn",
+      "releaseUrl": "https://www.w3.org/TR/webnn/",
+      "nightlyUrl": "https://webmachinelearning.github.io/webnn/"
+    },
+    "release": {
+      "url": "https://www.w3.org/TR/webnn/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://webmachinelearning.github.io/webnn/",
+      "repository": "https://github.com/webmachinelearning/webnn",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web Neural Network API",
+    "source": "w3c",
+    "shortTitle": "Web Neural Network API"
   },
   {
     "url": "https://www.w3.org/TR/webrtc-identity/",

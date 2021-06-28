@@ -1,5 +1,9 @@
 {
   "repos": {
+    "wicg/prefer-current-tab": {
+      "comment": "unofficial draft that defines a single new dictionary member",
+      "lastreviewed": "2021-06-28"
+    },
     "w3c/secure-payment-confirmation": {
       "comment": "stub spec only",
       "lastreviewed": "2021-05-01"

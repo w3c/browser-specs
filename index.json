@@ -244,7 +244,7 @@
       "filename": "Overview.html"
     },
     "title": "CSS Fonts Module Level 5",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Fonts 5",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",

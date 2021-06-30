@@ -18,6 +18,7 @@ const determineFilename = require("./determine-filename.js");
 const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
+const fetchGroups = require("./fetch-groups.js");
 const { w3cApiKey } = require("../config.json");
 const githubToken = (_ => {
   try {
@@ -98,7 +99,8 @@ const specs = require("../specs.json")
 
 
 // Fetch additional spec info from external sources and complete the list
-fetchInfo(specs, { w3cApiKey })
+fetchGroups(specs, { githubToken, w3cApiKey })
+  .then(_ => fetchInfo(specs, { w3cApiKey }))
   .then(specInfo => specs.map(spec => {
     // Make a copy of the spec object and extend it with the info we retrieved
     // from the source

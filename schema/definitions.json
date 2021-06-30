@@ -107,6 +107,23 @@
       },
       "required": ["repository"],
       "additionalProperties": false
+    },
+
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "url": { "$ref": "#/proptype/url" }
+        },
+        "required": ["name", "url"],
+        "additionalProperties": false
+      }
+    },
+
+    "organization": {
+      "type": "string"
     }
   }
 }

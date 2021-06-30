@@ -15,7 +15,7 @@
     "lint": "node src/lint.js",
     "lint-fix": "node src/lint.js --fix",
     "test": "mocha",
-    "test-pr": "mocha --exclude test/fetch-info-w3c.js",
+    "test-pr": "mocha --exclude test/fetch-info-w3c.js --exclude test/fetch-groups-w3c.js",
     "release": "release-it"
   },
   "devDependencies": {

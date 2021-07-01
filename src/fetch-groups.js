@@ -92,12 +92,12 @@ module.exports = async function (specs, options) {
       // Use the W3C API to find info about /TR specs
       const w3cTr = spec.url.match(/^https?:\/\/(?:www\.)?w3\.org\/TR\/([^\/]+)\/$/);
       if (w3cTr) {
-        let url = `https://api.w3.org/specifications/${w3cTr[1]}/versions/latest`;
+        const url = `https://api.w3.org/specifications/${w3cTr[1]}/versions/latest`;
         let resp = await fetchJSON(url, w3cOptions);
         if (!resp?._links?.deliverers) {
           throw new Error(`W3C API did not return deliverers for the spec`);
         }
-        resp = await fetchJSON(resp._links.deliverers, w3cOptions);
+        resp = await fetchJSON(resp._links.deliverers.href, w3cOptions);
 
         if (!resp?._links?.deliverers) {
           throw new Error(`W3C API did not return deliverers for the spec`);

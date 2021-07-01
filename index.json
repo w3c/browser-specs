@@ -5680,8 +5680,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
       }
     ],
     "release": {
@@ -5754,8 +5754,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -5791,8 +5791,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -5865,8 +5865,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -5902,8 +5902,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -5939,8 +5939,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -5979,8 +5979,12 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
+      },
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6016,8 +6020,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
       }
     ],
     "release": {
@@ -6054,8 +6058,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -6091,8 +6095,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -6129,8 +6133,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -6170,8 +6174,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6208,8 +6212,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6247,8 +6251,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6287,8 +6291,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6325,8 +6329,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6364,8 +6368,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6403,8 +6407,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6442,8 +6446,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6482,8 +6486,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6522,8 +6526,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6561,8 +6565,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6599,8 +6603,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6638,8 +6642,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6676,8 +6680,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6716,8 +6720,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6755,8 +6759,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6792,8 +6796,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6830,8 +6834,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6868,8 +6872,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6906,8 +6910,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6944,8 +6948,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -6982,8 +6986,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7021,8 +7025,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7058,8 +7062,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7097,8 +7101,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7137,8 +7141,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7175,8 +7179,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7213,8 +7217,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7247,8 +7251,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7286,8 +7290,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7323,8 +7327,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7361,8 +7365,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7399,8 +7403,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7432,8 +7436,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7470,8 +7474,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7507,8 +7511,12 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
+      },
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7547,8 +7555,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7584,8 +7592,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7622,8 +7630,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7655,8 +7663,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7694,8 +7702,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7732,8 +7740,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7771,8 +7779,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7809,8 +7817,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7841,8 +7849,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7879,8 +7887,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7917,8 +7925,12 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      },
+      {
+        "name": "Technical Architecture Group",
+        "url": "https://www.w3.org/2001/tag/"
       }
     ],
     "release": {
@@ -7955,8 +7967,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -7993,8 +8005,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8025,8 +8037,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8057,8 +8069,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8095,8 +8107,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8133,8 +8145,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8171,8 +8183,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8209,8 +8221,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8247,8 +8259,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8285,8 +8297,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8324,8 +8336,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8364,8 +8376,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8403,8 +8415,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8440,8 +8452,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8483,8 +8495,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8515,8 +8527,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8553,8 +8565,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8592,8 +8604,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8631,8 +8643,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8670,8 +8682,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8709,8 +8721,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8748,8 +8760,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8787,8 +8799,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8826,8 +8838,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8865,8 +8877,12 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      },
+      {
+        "name": "Technical Architecture Group",
+        "url": "https://www.w3.org/2001/tag/"
       }
     ],
     "release": {
@@ -8904,8 +8920,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8943,8 +8959,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -8982,8 +8998,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9020,8 +9036,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9057,8 +9073,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9095,8 +9111,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9141,8 +9157,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9209,8 +9225,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9275,8 +9291,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9307,8 +9323,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9345,8 +9361,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9383,8 +9399,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -9451,8 +9467,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Platform Working Group",
+        "url": "https://www.w3.org/WebPlatform/WG/"
       }
     ],
     "release": {
@@ -9488,8 +9504,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Internationalization Working Group",
+        "url": "https://www.w3.org/International/core/"
       }
     ],
     "release": {
@@ -9531,8 +9547,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "HTML Media Extensions Working Group",
+        "url": "https://www.w3.org/html/wg/"
       }
     ],
     "release": {
@@ -9563,8 +9579,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -9599,8 +9615,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -9637,8 +9653,12 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
+      },
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9676,8 +9696,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9713,8 +9733,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -9787,8 +9807,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Geolocation Working Group",
+        "url": "https://www.w3.org/2008/geolocation/"
       }
     ],
     "release": {
@@ -9862,8 +9882,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -9900,8 +9920,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
       }
     ],
     "release": {
@@ -9938,8 +9958,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
       }
     ],
     "release": {
@@ -10007,8 +10027,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -10045,8 +10065,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -10076,8 +10096,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -10144,8 +10164,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -10181,8 +10201,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -10214,8 +10234,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -10251,8 +10271,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -10288,8 +10308,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -10326,8 +10346,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -10400,8 +10420,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -10431,8 +10451,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
@@ -10474,8 +10494,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "HTML Media Extensions Working Group",
+        "url": "https://www.w3.org/html/wg/"
       }
     ],
     "release": {
@@ -10507,6 +10527,10 @@
       {
         "name": "Devices and Sensors Working Group",
         "url": "https://www.w3.org/das/"
+      },
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -10542,8 +10566,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -10579,8 +10603,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -10618,8 +10642,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -10657,8 +10681,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -10694,8 +10718,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
@@ -10737,8 +10761,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -10768,8 +10792,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -10806,8 +10830,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -10843,8 +10867,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -10881,8 +10905,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -10919,8 +10943,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -10956,8 +10980,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Second Screen Working Group",
+        "url": "https://www.w3.org/2014/secondscreen/"
       }
     ],
     "release": {
@@ -11062,8 +11086,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11105,8 +11129,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11136,8 +11160,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/Payments/WG/"
       }
     ],
     "release": {
@@ -11174,8 +11198,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/Payments/WG/"
       }
     ],
     "release": {
@@ -11210,8 +11234,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/Payments/WG/"
       }
     ],
     "release": {
@@ -11247,8 +11271,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/Payments/WG/"
       }
     ],
     "release": {
@@ -11278,8 +11302,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/Payments/WG/"
       }
     ],
     "release": {
@@ -11316,8 +11340,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11354,8 +11378,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -11391,8 +11415,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -11428,8 +11452,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
@@ -11466,8 +11490,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Pointer Events Working Group",
+        "url": "https://www.w3.org/groups/wg/pointer-events"
       }
     ],
     "release": {
@@ -11504,8 +11528,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -11541,8 +11565,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11578,8 +11602,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Second Screen Working Group",
+        "url": "https://www.w3.org/2014/secondscreen/"
       }
     ],
     "release": {
@@ -11652,8 +11676,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -11689,8 +11713,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -11726,8 +11750,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Second Screen Working Group",
+        "url": "https://www.w3.org/2014/secondscreen/"
       }
     ],
     "release": {
@@ -11764,8 +11788,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11801,8 +11825,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11839,8 +11863,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -11876,8 +11900,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11908,8 +11932,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -11945,8 +11969,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -11982,8 +12006,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -12056,8 +12080,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -12093,8 +12117,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -12131,8 +12155,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -12169,8 +12193,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -12200,8 +12224,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -12244,8 +12268,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Service Workers Working Group",
+        "url": "https://www.w3.org/sw/"
       }
     ],
     "release": {
@@ -12276,8 +12300,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -12313,8 +12337,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
       }
     ],
     "release": {
@@ -12350,8 +12374,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
       }
     ],
     "release": {
@@ -12381,8 +12405,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
       }
     ],
     "release": {
@@ -12463,8 +12487,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
       }
     ],
     "release": {
@@ -12533,8 +12557,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/Graphics/SVG/WG/"
       }
     ],
     "release": {
@@ -12628,8 +12652,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -12665,8 +12689,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Events Working Group",
+        "url": "https://www.w3.org/2010/webevents/"
       }
     ],
     "release": {
@@ -12703,8 +12727,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/2018/distributed-tracing/"
       }
     ],
     "release": {
@@ -12734,8 +12758,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Tracking Protection Working Group",
+        "url": "https://www.w3.org/2011/tracking-protection/"
       }
     ],
     "release": {
@@ -12771,8 +12795,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Platform Working Group",
+        "url": "https://www.w3.org/WebPlatform/WG/"
       }
     ],
     "release": {
@@ -12802,8 +12826,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Platform Working Group",
+        "url": "https://www.w3.org/WebPlatform/WG/"
       }
     ],
     "release": {
@@ -12827,8 +12851,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -12864,8 +12888,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/2011/webappsec/"
       }
     ],
     "release": {
@@ -12903,8 +12927,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -12942,8 +12966,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "release": {
@@ -13017,8 +13041,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
       }
     ],
     "release": {
@@ -13061,8 +13085,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "WebAssembly Working Group",
+        "url": "https://www.w3.org/wasm/"
       }
     ],
     "release": {
@@ -13093,8 +13117,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "WebAssembly Working Group",
+        "url": "https://www.w3.org/wasm/"
       }
     ],
     "release": {
@@ -13131,8 +13155,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "WebAssembly Working Group",
+        "url": "https://www.w3.org/wasm/"
       }
     ],
     "release": {
@@ -13170,8 +13194,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
@@ -13207,8 +13231,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "release": {
@@ -13244,8 +13268,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Audio Working Group",
+        "url": "https://www.w3.org/2011/audio/"
       }
     ],
     "release": {
@@ -13283,8 +13307,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Authentication Working Group",
+        "url": "https://www.w3.org/webauthn/"
       }
     ],
     "release": {
@@ -13319,8 +13343,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
@@ -13356,8 +13380,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Cryptography Working Group",
+        "url": "https://www.w3.org/2012/webcrypto/"
       }
     ],
     "release": {
@@ -13394,8 +13418,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Browser Testing and Tools Working Group",
+        "url": "https://www.w3.org/testing/browser/"
       }
     ],
     "release": {
@@ -13437,8 +13461,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "GPU for the Web Working Group",
+        "url": "https://www.w3.org/2020/gpu/"
       }
     ],
     "release": {
@@ -13469,8 +13493,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Platform Working Group",
+        "url": "https://www.w3.org/WebPlatform/WG/"
       }
     ],
     "release": {
@@ -13506,8 +13530,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Audio Working Group",
+        "url": "https://www.w3.org/2011/audio/"
       }
     ],
     "release": {
@@ -13543,8 +13567,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Machine Learning Working Group",
+        "url": "https://www.w3.org/groups/wg/webmachinelearning/"
       }
     ],
     "release": {
@@ -13574,8 +13598,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -13611,8 +13635,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -13649,8 +13673,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -13685,8 +13709,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -13723,8 +13747,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
       }
     ],
     "release": {
@@ -13759,8 +13783,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "WebTransport Working Group",
+        "url": "https://www.w3.org/webtransport/"
       }
     ],
     "release": {
@@ -13797,8 +13821,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Timed Text Working Group",
+        "url": "https://www.w3.org/AudioVideo/TT/"
       }
     ],
     "release": {
@@ -13835,8 +13859,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
       }
     ],
     "release": {
@@ -13873,8 +13897,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
       }
     ],
     "release": {
@@ -13911,8 +13935,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
       }
     ],
     "release": {
@@ -13948,8 +13972,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
       }
     ],
     "release": {
@@ -13995,8 +14019,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
       }
     ],
     "release": {
@@ -14032,8 +14056,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "GPU for the Web Working Group",
+        "url": "https://www.w3.org/2020/gpu/"
       }
     ],
     "release": {
@@ -14071,8 +14095,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
+        "name": "Web Fonts Working Group",
+        "url": "https://www.w3.org/Fonts/WG/"
       }
     ],
     "release": {

@@ -56,6 +56,24 @@ describe("fetch-groups module (with API keys)", function () {
       }]);
     });
 
+    it("handles multiple /TR URLs", async () => {
+      const specs = [
+        { url: "https://www.w3.org/TR/gamepad/" },
+        { url: "https://www.w3.org/TR/accname-1.2/" }
+      ];
+      const res = await fetchGroups(specs, { w3cApiKey });
+      assert.equal(res[0].organization, "W3C");
+      assert.deepStrictEqual(res[0].groups, [{
+        name: "Web Applications Working Group",
+        url: "https://www.w3.org/2019/webapps/"
+      }]);
+      assert.equal(res[1].organization, "W3C");
+      assert.deepStrictEqual(res[1].groups, [{
+        name: "Accessible Rich Internet Applications Working Group",
+        url: "https://www.w3.org/WAI/ARIA/"
+      }]);
+    });
+
     it("handles w3c.github.io URLs", async () => {
       const res = await fetchGroupsFor("https://w3c.github.io/web-nfc/", { githubToken, w3cApiKey });
       assert.equal(res.organization, "W3C");

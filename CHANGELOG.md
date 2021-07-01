@@ -4,6 +4,23 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.42.0](https://github.com/w3c/browser-specs/compare/1.41.1...1.42.0) - 2021-07-01
+
+### Merged
+
+- Update review of monitored specs [`#323`](https://github.com/w3c/browser-specs/pull/323)
+- Add preferCurrentTab to monitor list [`#321`](https://github.com/w3c/browser-specs/pull/321)
+
+### Fixed
+
+- Add preferCurrentTab to monitor list (#321) [`#320`](https://github.com/w3c/browser-specs/issues/320)
+
+### Commits
+
+- [data] Update spec info [`1674eb4`](https://github.com/w3c/browser-specs/commit/1674eb4fea649869e32cbc3eb1ef18771b677ae8)
+- [data] Update spec info [`4fdb72e`](https://github.com/w3c/browser-specs/commit/4fdb72e5b8ce96185633c9a3512fe7b2a0493a26)
+- [data] Update spec info [`88bd5a4`](https://github.com/w3c/browser-specs/commit/88bd5a46e7eb60fb8d7d9c60805f41f8cf825bc9)
+
 ## [1.41.1](https://github.com/w3c/browser-specs/compare/1.41.0...1.41.1) - 2021-06-23
 
 ### Merged

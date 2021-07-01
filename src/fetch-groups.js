@@ -73,7 +73,7 @@ module.exports = async function (specs, options) {
     if (webgl) {
       spec.organization = spec.organization ?? "Khronos Group";
       spec.groups = spec.groups ?? [{
-        name: "WebGL",
+        name: "WebGL Working Group",
         url: "https://www.khronos.org/webgl/"
       }];
       continue;

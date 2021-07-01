@@ -30,7 +30,7 @@ describe("fetch-groups module (without API keys)", () => {
     const res = await fetchGroupsFor("https://www.khronos.org/registry/webgl/extensions/EXT_clip_cull_distance/");
     assert.equal(res.organization, "Khronos Group");
     assert.deepStrictEqual(res.groups, [{
-      name: "WebGL",
+      name: "WebGL Working Group",
       url: "https://www.khronos.org/webgl/"
     }]);
   });

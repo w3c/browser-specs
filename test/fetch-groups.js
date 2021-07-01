@@ -12,8 +12,8 @@ describe("fetch-groups module (without API keys)", () => {
     const res = await fetchGroupsFor("https://url.spec.whatwg.org/");
     assert.equal(res.organization, "WHATWG");
     assert.deepStrictEqual(res.groups, [{
-      name: "WHATWG",
-      url: "https://whatwg.org/"
+      name: "URL Workstream",
+      url: "https://url.spec.whatwg.org/"
     }]);
   });
 

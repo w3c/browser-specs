@@ -51,10 +51,15 @@ module.exports = async function (specs, options) {
     // GitHub URLs as in compute-repository.
     const whatwg = spec.url.match(/^https:\/\/([^\.]*).spec.whatwg.org\//);
     if (whatwg) {
+      const workstreams = await fetchJSON("https://raw.githubusercontent.com/whatwg/sg/main/db.json");
+      const workstream = workstreams.workstreams.find(ws => ws.standards.find(s => s.href === spec.url));
+      if (!workstream) {
+        throw new Error(`No WHATWG workstream found for ${spec.url}`);
+      }
       spec.organization = spec.organization ?? "WHATWG";
       spec.groups = spec.groups ?? [{
-        name: "WHATWG",
-        url: "https://whatwg.org/"
+        name: `${workstream.name} Workstream`,
+        url: spec.url
       }];
       continue;
     }

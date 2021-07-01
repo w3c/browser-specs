@@ -462,7 +462,7 @@ Group, the WHATWG, or the Khronos Group.
 3. Web browsers expressed some level of support for the spec, e.g. through a
 public intent to implement.
 4. The spec sits at the application layer or is "close to it". For instance,
-IETF specs are essentially out of scope, at least for now.
+most IETF specs are likely out of scope, but some that are exposed to Web developers are in scope.
 5. The spec defines normative content (terms, CSS, IDL), or it contains
 informative content that other specs often need to refer to (e.g. guidelines
 from horizontal activities such as accessibility, internationalization, privacy

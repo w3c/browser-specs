@@ -1615,6 +1615,25 @@
     "shortTitle": "Media Capture Automation"
   },
   {
+    "url": "https://w3c.github.io/PFE/Overview.html",
+    "seriesComposition": "full",
+    "shortname": "PFE",
+    "series": {
+      "shortname": "PFE",
+      "currentSpecification": "PFE",
+      "nightlyUrl": "https://w3c.github.io/PFE/Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/PFE/Overview.html",
+      "repository": "https://github.com/w3c/PFE",
+      "sourcePath": "Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Incremental Font Transfer",
+    "source": "spec",
+    "shortTitle": "Incremental Font Transfer"
+  },
+  {
     "url": "https://w3c.github.io/web-nfc/",
     "seriesComposition": "full",
     "shortname": "web-nfc",
@@ -2856,6 +2875,25 @@
     }
   },
   {
+    "url": "https://wicg.github.io/responsive-image-client-hints/",
+    "seriesComposition": "full",
+    "shortname": "responsive-image-client-hints",
+    "series": {
+      "shortname": "responsive-image-client-hints",
+      "currentSpecification": "responsive-image-client-hints",
+      "nightlyUrl": "https://wicg.github.io/responsive-image-client-hints/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/responsive-image-client-hints/",
+      "repository": "https://github.com/WICG/responsive-image-client-hints",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Responsive Image Client Hints",
+    "source": "spec",
+    "shortTitle": "Responsive Image Client Hints"
+  },
+  {
     "url": "https://wicg.github.io/sanitizer-api/",
     "seriesComposition": "full",
     "shortname": "sanitizer-api",
@@ -3111,6 +3149,25 @@
     "title": "User Preference Media Features Client Hints Headers",
     "source": "spec",
     "shortTitle": "User Preference Media Features Client Hints Headers"
+  },
+  {
+    "url": "https://wicg.github.io/uuid/",
+    "seriesComposition": "full",
+    "shortname": "uuid",
+    "series": {
+      "shortname": "uuid",
+      "currentSpecification": "uuid",
+      "nightlyUrl": "https://wicg.github.io/uuid/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/uuid/",
+      "repository": "https://github.com/WICG/uuid",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "uuid",
+    "source": "spec",
+    "shortTitle": "uuid"
   },
   {
     "url": "https://wicg.github.io/video-rvfc/",

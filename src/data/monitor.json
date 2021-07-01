@@ -69,7 +69,7 @@
       "lastreviewed": "2021-07-01"
     },
     "WICG/conversion-measurement-api": {
-      "comment": "spec still full of TODOs, no clear implementation plan",
+      "comment": "no clear implementation plan yet; tracked in https://www.chromestatus.com/features/6412002824028160",
       "lastreviewed": "2021-07-01"
     },
     "WICG/display-locking": {
@@ -134,7 +134,7 @@
     },
     "WICG/ink-enhancement": {
       "lastreviewed": "2021-07-01",
-      "comment": "no published content yet"
+      "comment": "no clear implementation plans"
     },
     "WICG/lang-client-hint": {
       "lastreviewed": "2021-07-01",
@@ -242,7 +242,7 @@
     },
     "WICG/WebApiDevice": {
       "lastreviewed": "2021-07-01",
-      "comment": "no published content yet"
+      "comment": "no published content yet, but likely soon at https://wicg.github.io/WebApiDevice/device_attributes from https://github.com/WICG/WebApiDevice/blob/main/device_attributes/index.bs "
     },
     "immersive-web/WebXR-WebGPU-Binding": {
       "lastreviewed": "2021-07-01",
@@ -254,11 +254,11 @@
     },
     "WICG/app-history": {
       "lastreviewed": "2021-07-01",
-      "comment": "Early exploration"
+      "comment": "No clear implementation plan - tracked at https://www.chromestatus.com/features/6232287446302720"
     },
     "WICG/scheduling-apis": {
       "lastreviewed": "2021-07-01",
-      "comment": "Early exploration"
+      "comment": "No clear implementation plans - tracked at https://www.chromestatus.com/features/6031161734201344"
     },
     "WICG/resource-bundles": {
       "lastreviewed": "2021-07-01",
@@ -270,7 +270,7 @@
     },
     "WICG/capability-delegation": {
       "lastreviewed": "2021-07-01",
-      "comment": "no spec yet"
+      "comment": "spec at https://wicg.github.io/capability-delegation/spec.html; tracking implementation status at https://www.chromestatus.com/feature/5708770829139968"
     },
     "WICG/lock-screen": {
       "lastreviewed": "2021-07-01",
@@ -282,7 +282,7 @@
     },
     "immersive-web/raw-camera-access": {
       "lastreviewed": "2021-07-01",
-      "comment": "no published content yet"
+      "comment": "Implementation tracking at https://www.chromestatus.com/features/5759984304390144"
     },
     "WICG/shared-element-transitions": {
       "lastreviewed": "2021-07-01",
@@ -331,7 +331,7 @@
       "lastreviewed": "2021-07-01"
     },
     "https://drafts.csswg.org/css-contain-3/": {
-      "comment": "Marked as Exploratory Working Draft and empty for now",
+      "comment": "Marked as Exploratory Working Draft",
       "lastreviewed": "2021-07-01"
     },
     "https://svgwg.org/specs/markers/": {

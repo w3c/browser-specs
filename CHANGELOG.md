@@ -4,6 +4,16 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.43.0](https://github.com/w3c/browser-specs/compare/1.42.0...1.43.0) - 2021-07-01
+
+### Merged
+
+- Add Organization and Groups info to index file [`#322`](https://github.com/w3c/browser-specs/pull/322)
+
+### Fixed
+
+- Add Organization and Groups info to index file (#322) [`#32`](https://github.com/w3c/browser-specs/issues/32)
+
 ## [1.42.0](https://github.com/w3c/browser-specs/compare/1.41.1...1.42.0) - 2021-07-01
 
 ### Merged

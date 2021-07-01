@@ -8,10 +8,6 @@
       "comment": "stub spec only",
       "lastreviewed": "2021-07-01"
     },
-    "w3c/PFE": {
-      "comment": "stub spec only",
-      "lastreviewed": "2021-07-01"
-    },
     "WICG/responsive-image-client-hints": {
       "comment": "still early draft",
       "lastreviewed": "2021-07-01"
@@ -360,6 +356,10 @@
     },
     "https://www.w3.org/TR/svg-paths/": {
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
+      "lastreviewed": "2021-07-01"
+    },
+    "https://w3c.github.io/PFE/RangeRequest.html": {
+      "comment": "being split-off from main spec https://github.com/w3c/PFE/pull/9/files; stub",
       "lastreviewed": "2021-07-01"
     }
   }

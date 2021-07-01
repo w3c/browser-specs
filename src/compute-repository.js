@@ -8,67 +8,7 @@
  */
 
 const { Octokit } = require("@octokit/rest");
-
-
-/**
- * Function that takes a URL (or a spec name) and returns the underlying repo
- * owner organization (lowercase) and repo name on GitHub.
- */
-function urlToGitHubRepository(url) {
-  if (!url) {
-    throw "No URL passed as parameter";
-  }
-
-  const githubcom = url.match(/^https:\/\/github\.com\/([^\/]*)\/([^\/]*)\/?/);
-  if (githubcom) {
-    return { owner: githubcom[1], name: githubcom[2] };
-  }
-
-  const githubio = url.match(/^https:\/\/([^\.]*)\.github\.io\/([^\/]*)\/?/);
-  if (githubio) {
-    return { owner: githubio[1], name: githubio[2] };
-  }
-
-  const whatwg = url.match(/^https:\/\/([^\.]*).spec.whatwg.org\//);
-  if (whatwg) {
-    return { owner: "whatwg", name: whatwg[1] };
-  }
-
-  const tc39 = url.match(/^https:\/\/tc39.es\/([^\/]*)\//);
-  if (tc39) {
-    return { owner: "tc39", name: tc39[1] };
-  }
-
-  const csswg = url.match(/^https?:\/\/drafts.csswg.org\/([^\/]*)\/?/);
-  if (csswg) {
-    return { owner: "w3c", name: "csswg-drafts" };
-  }
-
-  const ghfxtf = url.match(/^https:\/\/drafts.fxtf.org\/([^\/]*)\/?/);
-  if (ghfxtf) {
-    return { owner: "w3c", name: "fxtf-drafts" };
-  }
-
-  const houdini = url.match(/^https:\/\/drafts.css-houdini.org\/([^\/]*)\/?/);
-  if (houdini) {
-    return { owner: "w3c", name: "css-houdini-drafts" };
-  }
-
-  const svgwg = url.match(/^https:\/\/svgwg.org\/specs\/([^\/]*)\/?/);
-  if (svgwg) {
-    return { owner: "w3c", name: "svgwg" };
-  }
-  if (url === "https://svgwg.org/svg2-draft/") {
-    return { owner: "w3c", name: "svgwg" };
-  }
-
-  const webgl = url.match(/^https:\/\/www\.khronos\.org\/registry\/webgl\//);
-  if (webgl) {
-    return { owner: "khronosgroup", name: "WebGL" };
-  }
-
-  return null;
-}
+const parseSpecUrl = require("./parse-spec-url.js");
 
 
 /**
@@ -202,7 +142,7 @@ module.exports = async function (specs, options) {
   }
 
   // Compute GitHub repositories with lowercase owner names
-  const repos = specs.map(spec => urlToGitHubRepository(spec.nightly.repository ?? spec.nightly.url));
+  const repos = specs.map(spec => parseSpecUrl(spec.nightly.repository ?? spec.nightly.url));
 
   if (options.githubToken) {
     // Fetch the real name of repository owners (preserving case)

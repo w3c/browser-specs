@@ -1,7 +1,11 @@
 const assert = require("assert");
 const fetchGroups = require("../src/fetch-groups.js");
 
-describe("fetch-groups module (without API keys)", () => {
+describe("fetch-groups module (without API keys)", function () {
+  // Tests may need to send network requests
+  this.slow(5000);
+  this.timeout(30000);
+
   async function fetchGroupsFor(url) {
     const spec = { url };
     const result = await fetchGroups([spec]);

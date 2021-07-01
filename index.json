@@ -17,8 +17,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Compatibility Workstream",
+        "url": "https://compat.spec.whatwg.org/"
       }
     ],
     "title": "Compatibility Standard",
@@ -43,8 +43,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Console Workstream",
+        "url": "https://console.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -75,8 +75,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "DOM Workstream",
+        "url": "https://dom.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -743,8 +743,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Fetch Workstream",
+        "url": "https://fetch.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -780,8 +780,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Fullscreen API Workstream",
+        "url": "https://fullscreen.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -879,8 +879,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "HTML Workstream",
+        "url": "https://html.spec.whatwg.org/multipage/"
       }
     ],
     "title": "HTML Standard",
@@ -1066,8 +1066,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Infra Workstream",
+        "url": "https://infra.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -1092,8 +1092,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "MIME Sniffing Workstream",
+        "url": "https://mimesniff.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -1124,8 +1124,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Notifications API Workstream",
+        "url": "https://notifications.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -1214,8 +1214,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Quirks Mode Workstream",
+        "url": "https://quirks.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -1246,8 +1246,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Storage Workstream",
+        "url": "https://storage.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -1281,8 +1281,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "Streams Workstream",
+        "url": "https://streams.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -1836,8 +1836,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "URL Workstream",
+        "url": "https://url.spec.whatwg.org/"
       }
     ],
     "nightly": {
@@ -4231,7 +4231,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4263,7 +4263,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4295,7 +4295,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4327,7 +4327,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4359,7 +4359,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4391,7 +4391,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4423,7 +4423,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4455,7 +4455,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4487,7 +4487,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4519,7 +4519,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4551,7 +4551,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4583,7 +4583,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4615,7 +4615,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4647,7 +4647,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4679,7 +4679,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4711,7 +4711,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4743,7 +4743,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4775,7 +4775,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4807,7 +4807,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4839,7 +4839,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4871,7 +4871,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4903,7 +4903,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4935,7 +4935,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4967,7 +4967,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -4999,7 +4999,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5031,7 +5031,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5063,7 +5063,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5095,7 +5095,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5127,7 +5127,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5159,7 +5159,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5191,7 +5191,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5223,7 +5223,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5255,7 +5255,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5287,7 +5287,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5319,7 +5319,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5351,7 +5351,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5383,7 +5383,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5415,7 +5415,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5447,7 +5447,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5479,7 +5479,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5511,7 +5511,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5543,7 +5543,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5588,7 +5588,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -5621,7 +5621,7 @@
     "organization": "Khronos Group",
     "groups": [
       {
-        "name": "WebGL",
+        "name": "WebGL Working Group",
         "url": "https://www.khronos.org/webgl/"
       }
     ],
@@ -14124,8 +14124,8 @@
     "organization": "WHATWG",
     "groups": [
       {
-        "name": "WHATWG",
-        "url": "https://whatwg.org/"
+        "name": "XMLHttpRequest Workstream",
+        "url": "https://xhr.spec.whatwg.org/"
       }
     ],
     "nightly": {

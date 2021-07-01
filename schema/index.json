@@ -18,11 +18,13 @@
       "release": { "$ref": "definitions.json#/proptype/release" },
       "title": { "$ref": "definitions.json#/proptype/title" },
       "shortTitle": { "$ref": "definitions.json#/proptype/title" },
-      "source": { "$ref": "definitions.json#/proptype/source" }
+      "source": { "$ref": "definitions.json#/proptype/source" },
+      "organization": { "$ref": "definitions.json#/proptype/organization" },
+      "groups": { "$ref": "definitions.json#/proptype/groups" }
     },
     "required": [
       "url", "shortname", "series", "seriesComposition", "nightly",
-      "title", "shortTitle", "source"
+      "title", "shortTitle", "source", "organization", "groups"
     ],
     "additionalProperties": false
   },

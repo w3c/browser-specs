@@ -20,6 +20,8 @@
           "nightly": { "$ref": "definitions.json#/proptype/nightly" },
           "tests": { "$ref": "definitions.json#/proptype/tests" },
           "shortTitle": { "$ref": "definitions.json#/proptype/title" },
+          "organization": { "$ref": "definitions.json#/proptype/organization" },
+          "groups": { "$ref": "definitions.json#/proptype/groups" },
           "forceCurrent": { "type": "boolean" },
           "multipage": { "type": "boolean" }
         },

@@ -18,6 +18,7 @@ const determineFilename = require("./determine-filename.js");
 const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
+const fetchGroups = require("./fetch-groups.js");
 const { w3cApiKey } = require("../config.json");
 const githubToken = (_ => {
   try {
@@ -55,6 +56,15 @@ async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// Log function that can be inserted in a "then" chain
+function dolog(msg) {
+  return arg => {
+    console.log(msg);
+    return arg;
+  };
+}
+
+console.log("Prepare initial list of specs...");
 const specs = require("../specs.json")
   // Turn all specs into objects
   // (and handle syntactic sugar notation for delta/current flags)
@@ -95,10 +105,16 @@ const specs = require("../specs.json")
 
   // Complete information with previous/next level links
   .map((spec, _, list) => Object.assign(spec, computePrevNext(spec, list)));
+console.log(`Prepare initial list of specs... done with ${specs.length} specs`);
 
 
 // Fetch additional spec info from external sources and complete the list
-fetchInfo(specs, { w3cApiKey })
+console.log(`Fetch organization/groups info...`);
+fetchGroups(specs, { githubToken, w3cApiKey })
+  .then(dolog(`Fetch organization/groups info... done`))
+
+  .then(dolog(`Fetch other spec info from external sources...`))
+  .then(_ => fetchInfo(specs, { w3cApiKey }))
   .then(specInfo => specs.map(spec => {
     // Make a copy of the spec object and extend it with the info we retrieved
     // from the source
@@ -133,26 +149,31 @@ fetchInfo(specs, { w3cApiKey })
     delete res.series.forceCurrent;
     return res;
   }))
+  .then(dolog(`Fetch other spec info from external sources... done`))
 
-  // Complete with short title
+  .then(dolog(`Compute short titles...`))
   .then(index => index.map(spec => {
     spec.shortTitle = spec.shortTitle || computeShortTitle(spec.title);
     return spec;
   }))
+  .then(dolog(`Compute short titles... done`))
 
-  // Complete with repository
+  .then(dolog(`Compute repositories...`))
   .then(index => computeRepository(index, { githubToken }))
+  .then(dolog(`Compute repositories... done`))
 
-  // Complete with info on test suite
+  .then(dolog(`Find info about test suites...`))
   .then(index => determineTestPath(index, { githubToken }))
+  .then(dolog(`Find info about test suites... done`))
 
-  // Complete with unversioned URLs
+  .then(dolog(`Compute unversioned URLs...`))
   .then(index => index.map(spec => {
     Object.assign(spec.series, computeSeriesUrls(spec, index));
     return spec;
   }))
+  .then(dolog(`Compute unversioned URLs... done`))
 
-  // Complete with list of pages for multipage specs
+  .then(dolog(`Compute pages for multi-pages specs...`))
   .then(index => Promise.all(
     index.map(async spec => {
       if (spec.multipage) {
@@ -167,8 +188,9 @@ fetchInfo(specs, { w3cApiKey })
       return spec;
     })
   ))
+  .then(dolog(`Compute pages for multi-pages specs... done`))
 
-  // Complete with filename
+  .then(dolog(`Determine spec filenames...`))
   .then(index => Promise.all(
     index.map(async spec => {
       spec.nightly.filename = await determineSpecFilename(spec, "nightly");
@@ -183,12 +205,14 @@ fetchInfo(specs, { w3cApiKey })
       return spec;
     })
   ))
+  .then(dolog(`Determine spec filenames... done`))
 
-  // Output the result to index.json
+  .then(dolog(`Write index.json...`))
   .then(index => fs.writeFile(
     path.resolve(__dirname, "..", "index.json"),
     JSON.stringify(index, null, 2)
   ))
+  .then(dolog(`Write index.json... done`))
 
   // Report any error along the way
   .catch(err => {

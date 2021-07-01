@@ -61,6 +61,10 @@ property in `index.json`.
 - `seriesComposition`: same as the [`seriesComposition`](README.md#seriesComposition)
 property in `index.json`. The property must only be set for delta spec (since
 full is the default).
+- `organization`: same as the [`organization`](README.md#organization) property
+in `index.json` to specify the name of the organization that owns the spec.
+- `groups`: same as the [`groups`](README.md#groups) property in `index.json`
+to specify the list of groups that develop or developed the spec.
 - `nightly`: same as the [`nightly`](README.md#nightly) property in
 `index.json`. The property must only be set when:
   - The URL of the nightly spec returned by external sources would be wrong

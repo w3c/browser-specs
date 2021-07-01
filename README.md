@@ -26,6 +26,8 @@ cross-references, WebIDL, quality, etc.
   - [`seriesComposition`](#seriescomposition)
   - [`seriesPrevious`](#seriesprevious)
   - [`seriesNext`](#seriesnext)
+  - [`organization`](#organization)
+  - [`groups`](#groups)
   - [`release`](#release)
     - [`release.url`](#releaseurl)
     - [`release.filename`](#releasefilename)
@@ -83,9 +85,8 @@ Each specification in the list comes with the following properties:
 ```json
 {
   "url": "https://www.w3.org/TR/css-color-4/",
+  "seriesComposition": "full",
   "shortname": "css-color-4",
-  "title": "CSS Color Module Level 4",
-  "shortTitle": "CSS Color 4",
   "series": {
     "shortname": "css-color",
     "currentSpecification": "css-color-4",
@@ -93,9 +94,14 @@ Each specification in the list comes with the following properties:
     "nightlyUrl": "https://drafts.csswg.org/css-color/"
   },
   "seriesVersion": "4",
-  "seriesComposition": "full",
-  "seriesPrevious": "css-color-3",
   "seriesNext": "css-color-5",
+  "organization": "W3C",
+  "groups": [
+    {
+      "name": "Cascading Style Sheets (CSS) Working Group",
+      "url": "https://www.w3.org/Style/CSS/"
+    }
+  ],
   "release": {
     "url": "https://www.w3.org/TR/css-color-4/",
     "filename": "Overview.html"
@@ -103,14 +109,18 @@ Each specification in the list comes with the following properties:
   "nightly": {
     "url": "https://drafts.csswg.org/css-color/",
     "repository": "https://github.com/w3c/csswg-drafts",
-    "filename": "Overview.html",
-    "sourcePath": "css-color-4/Overview.bs"
+    "sourcePath": "css-color-4/Overview.bs",
+    "filename": "Overview.html"
   },
+  "title": "CSS Color Module Level 4",
+  "source": "w3c",
+  "shortTitle": "CSS Color 4",
   "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
-    "testPaths": ["css/css-color"]
-  },
-  "source": "w3c"
+    "testPaths": [
+      "css/css-color"
+    ]
+  }
 }
 ```
 
@@ -254,6 +264,24 @@ version.
 The `shortname` of the next spec in the series.
 
 The `seriesNext` property is only set where there is a next level or version.
+
+
+### `organization`
+
+The name of the standardization organization that owns the spec such as `W3C`,
+`WHATWG`, `IETF`, `Ecma International`, `Khronos Group`.
+
+The `organization` property is always set.
+
+
+### `groups`
+
+The list the groups that develop (or developed) the spec. Each item in the array
+is an object with a `name` property that contains the human-readable name of the
+group and a `url` property that targets the homepage of the group.
+
+The `groups` property is always set. In most cases, a spec is developed by one
+and only one group.
 
 
 ### `release`

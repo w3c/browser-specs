@@ -2071,6 +2071,13 @@
       "currentSpecification": "PFE",
       "nightlyUrl": "https://w3c.github.io/PFE/Overview.html"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Fonts Working Group",
+        "url": "https://www.w3.org/Fonts/WG/"
+      }
+    ],
     "nightly": {
       "url": "https://w3c.github.io/PFE/Overview.html",
       "repository": "https://github.com/w3c/PFE",
@@ -3695,6 +3702,13 @@
       "currentSpecification": "responsive-image-client-hints",
       "nightlyUrl": "https://wicg.github.io/responsive-image-client-hints/"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
     "nightly": {
       "url": "https://wicg.github.io/responsive-image-client-hints/",
       "repository": "https://github.com/WICG/responsive-image-client-hints",
@@ -4048,6 +4062,13 @@
       "currentSpecification": "uuid",
       "nightlyUrl": "https://wicg.github.io/uuid/"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
     "nightly": {
       "url": "https://wicg.github.io/uuid/",
       "repository": "https://github.com/WICG/uuid",

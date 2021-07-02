@@ -550,7 +550,7 @@ Provided that you have the appropriate admin rights and that a `GITHUB_TOKEN`
 environment variable is set to a [GitHub Personal
 Token](https://github.com/settings/tokens) with `repo` rights, you may release a
 new version through the following command, to be run from an up-to-date local
-`master` branch:
+`main` branch:
 
 ```bash
 npm run release

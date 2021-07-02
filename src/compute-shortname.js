@@ -96,6 +96,12 @@ function computeShortname(url) {
       return "svg-" + svg[1];
     }
 
+    // Handle IETF RFCs
+    const rfcs = url.match(/\/datatracker\.ietf\.org\/doc\/html\/(rfc[0-9]+)/);
+    if (rfcs) {
+      return rfcs[1];
+    }
+
     // Return name when one was given
     if (!url.match(/\//)) {
       return url;

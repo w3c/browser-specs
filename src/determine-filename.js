@@ -18,6 +18,12 @@ module.exports = async function (url) {
     return match[1];
   }
 
+  // datatracker IETF RFC HTML rendering
+  const rfcMatch = url.match(/\/html\/(rfc[0-9]+)$/);
+  if (rfcMatch) {
+    return rfcMatch[1] + '.html';
+  }
+
   // Make sure that url ends with a "/"
   const urlWithSlash = url.endsWith("/") ? url : url + "/";
 

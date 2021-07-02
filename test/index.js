@@ -102,13 +102,13 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains repository URLs for all specs", () => {
-    const wrong = specs.filter(s => !s.nightly.repository);
+  it("contains repository URLs for all non IETF specs", () => {
+    const wrong = specs.filter(s => !s.nightly.repository && !s.nightly.url.match(/ietf\.org/));
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains relative paths to source of nightly spec for all specs", () => {
-    const wrong = specs.filter(s => !s.nightly.sourcePath);
+  it("contains relative paths to source of nightly spec for all non IETF specs", () => {
+    const wrong = specs.filter(s => !s.nightly.sourcePath && !s.nightly.url.match(/ietf\.org/));
     assert.deepStrictEqual(wrong, []);
   });
 

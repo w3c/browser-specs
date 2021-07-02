@@ -60,6 +60,11 @@ module.exports = function (url) {
     return { type: "custom", owner: "khronosgroup", name: "WebGL" };
   }
 
+  const httpwg = url.match(/^https:\/\/httpwg\.org\/specs\/rfc[0-9]+\.html$/);
+  if (httpwg) {
+    return { type: "custom", owner: "httpwg", name: "httpwg.github.io" };
+  }
+
   const w3cTr = url.match(/^https?:\/\/(?:www\.)?w3\.org\/TR\/([^\/]+)\/$/);
   if (w3cTr) {
     return { type: "tr", owner: "w3c", name: w3cTr[1] };

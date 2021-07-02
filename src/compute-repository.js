@@ -109,6 +109,9 @@ module.exports = async function (specs, options) {
       `specs/${spec.shortname.replace(/^svg-/, '')}/master/Overview.html`,
       `master/Overview.html`,
 
+      // HTTPWG specs
+      `specs/${spec.shortname}.xml`,
+
       // Following patterns are used in a small number of cases, but could
       // perhaps appear again in the future, so worth handling here.
       "spec/index.bs",
@@ -147,7 +150,9 @@ module.exports = async function (specs, options) {
   if (options.githubToken) {
     // Fetch the real name of repository owners (preserving case)
     for (const repo of repos) {
-      repo.owner = await fetchRealGitHubOwnerName(repo.owner);
+      if (repo) {
+        repo.owner = await fetchRealGitHubOwnerName(repo.owner);
+      }
     }
   }
 

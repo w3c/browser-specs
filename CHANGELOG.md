@@ -4,6 +4,24 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [1.44.0](https://github.com/w3c/browser-specs/compare/1.43.0...1.44.0) - 2021-07-02
+
+### Merged
+
+- Add fingerprinting-guidance to the list of specs. [`#326`](https://github.com/w3c/browser-specs/pull/326)
+- Bump version of github-push-action [`#329`](https://github.com/w3c/browser-specs/pull/329)
+- Add IETF specs used in MDN  [`#325`](https://github.com/w3c/browser-specs/pull/325)
+- Make "main" branch the default branch [`#324`](https://github.com/w3c/browser-specs/pull/324)
+
+### Fixed
+
+- Add IETF specs used in MDN  (#325) [`#280`](https://github.com/w3c/browser-specs/issues/280)
+
+### Commits
+
+- Fix version number in build workflow [`8975664`](https://github.com/w3c/browser-specs/commit/89756641590182df1e62e4333d03f7d048cdf118)
+- Explicit default branch name in build workflow [`56acce2`](https://github.com/w3c/browser-specs/commit/56acce2f654a85d43d8368e9784fc63dc17acf7a)
+
 ## [1.43.0](https://github.com/w3c/browser-specs/compare/1.42.0...1.43.0) - 2021-07-01
 
 ### Merged

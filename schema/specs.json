@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "$id": "https://github.com/w3c/browser-specs/tree/master/schema/specs.json",
+  "$id": "https://w3c.github.io/browser-specs/schema/specs.json",
 
   "type": "array",
   "items": {

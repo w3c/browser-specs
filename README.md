@@ -365,7 +365,7 @@ the living standard.
 The URL is either retrieved from the [Specref](https://www.specref.org/) or
 computed from `nightly.url`.
 
-The `repository` property is always set.
+The `repository` property is always set except for IETF specs where such a repo does not always exist.
 
 
 #### `nightly.sourcePath`

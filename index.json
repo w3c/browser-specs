@@ -10131,6 +10131,37 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/fingerprinting-guidance/",
+    "seriesComposition": "full",
+    "shortname": "fingerprinting-guidance",
+    "series": {
+      "shortname": "fingerprinting-guidance",
+      "currentSpecification": "fingerprinting-guidance",
+      "releaseUrl": "https://www.w3.org/TR/fingerprinting-guidance/",
+      "nightlyUrl": "https://w3c.github.io/fingerprinting-guidance/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Privacy Interest Group",
+        "url": "https://www.w3.org/Privacy/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/fingerprinting-guidance/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/fingerprinting-guidance/",
+      "repository": "https://github.com/w3c/fingerprinting-guidance",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Fingerprinting Guidance for Web Specification Authors (Draft)",
+    "source": "w3c",
+    "shortTitle": "Draft"
+  },
+  {
     "url": "https://www.w3.org/TR/gamepad/",
     "seriesComposition": "full",
     "shortname": "gamepad",

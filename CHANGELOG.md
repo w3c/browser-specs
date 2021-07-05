@@ -4,6 +4,27 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.0.0](https://github.com/w3c/browser-specs/compare/1.44.0...2.0.0) - 2021-07-05
+
+### Merged
+
+- Update documentation re repository.nightly availability [`#332`](https://github.com/w3c/browser-specs/pull/332)
+- Reflect new source file for painttiming [`#333`](https://github.com/w3c/browser-specs/pull/333)
+- Fix case in monitored repo name [`#337`](https://github.com/w3c/browser-specs/pull/337)
+- Add exception to baseUrl check for httpwg.org URLs [`#336`](https://github.com/w3c/browser-specs/pull/336)
+
+### Fixed
+
+- Update documentation re repository.nightly availability (#332) [`#331`](https://github.com/w3c/browser-specs/issues/331)
+- Reflect new source file for painttiming (#333) [`#330`](https://github.com/w3c/browser-specs/issues/330)
+- Fix case in monitored repo name (#337) [`#334`](https://github.com/w3c/browser-specs/issues/334)
+- Add exception to baseUrl check for httpwg.org URLs (#336) [`#335`](https://github.com/w3c/browser-specs/issues/335)
+
+### Commits
+
+- [data] Update spec info [`f7c28bc`](https://github.com/w3c/browser-specs/commit/f7c28bc63e884141311e2251fd5ed07aa083032a)
+- [data] Update spec info [`5c0d81e`](https://github.com/w3c/browser-specs/commit/5c0d81eb88b15cd27c465fd4475bb1d34f31a588)
+
 ## [1.44.0](https://github.com/w3c/browser-specs/compare/1.43.0...1.44.0) - 2021-07-02
 
 ### Merged

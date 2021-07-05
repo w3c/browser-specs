@@ -14,6 +14,10 @@ const core = require("@actions/core");
 const specs = require("../index.json");
 
 const problems = specs
+  // A subset of the IETF RFCs are crawled from their httpwg.org rendering
+  // see https://github.com/tobie/specref/issues/672 and
+  // https://github.com/w3c/browser-specs/issues/280
+  .filter(s => !s.nightly || !s.nightly.url.startsWith('https://httpwg.org'))
   .filter(s => (s.release && s.url !== s.release.url) || (!s.release && s.url !== s.nightly.url))
   .map(s => {
     const expected = s.release ? "release" : "nightly";

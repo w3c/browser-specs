@@ -365,7 +365,7 @@ the living standard.
 The URL is either retrieved from the [Specref](https://www.specref.org/) or
 computed from `nightly.url`.
 
-The `repository` property is always set.
+The `repository` property is always set except for IETF specs where such a repo does not always exist.
 
 
 #### `nightly.sourcePath`
@@ -377,7 +377,7 @@ That path is computed by parsing the contents of the repository for common
 patterns. The info must be specified in `specs.json` for specifications that do
 not follow a common pattern.
 
-The `sourcePath` property is always set.
+The `sourcePath` property is always set when `repository` is set.
 
 **Note:** The path is relative to the root of the repository, and only valid in
 the default branch of the repository. If needed, the source may be fetched from

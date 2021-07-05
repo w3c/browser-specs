@@ -1,6 +1,6 @@
 {
   "repos": {
-    "wicg/prefer-current-tab": {
+    "WICG/prefer-current-tab": {
       "comment": "unofficial draft that defines a single new dictionary member",
       "lastreviewed": "2021-07-01"
     },

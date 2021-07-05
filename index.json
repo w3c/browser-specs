@@ -13155,38 +13155,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/trace-context-1/",
-    "seriesComposition": "full",
-    "shortname": "trace-context-1",
-    "series": {
-      "shortname": "trace-context",
-      "currentSpecification": "trace-context-1",
-      "releaseUrl": "https://www.w3.org/TR/trace-context/",
-      "nightlyUrl": "https://w3c.github.io/trace-context/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Distributed Tracing Working Group",
-        "url": "https://www.w3.org/2018/distributed-tracing/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/trace-context-1/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/trace-context/",
-      "repository": "https://github.com/w3c/trace-context",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Trace Context - Level 1",
-    "source": "w3c",
-    "shortTitle": "Trace Context 1"
-  },
-  {
     "url": "https://www.w3.org/TR/tracking-dnt/",
     "seriesComposition": "full",
     "shortname": "tracking-dnt",

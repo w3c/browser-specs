@@ -11561,12 +11561,6 @@
       "releaseUrl": "https://www.w3.org/TR/paint-timing/",
       "nightlyUrl": "https://w3c.github.io/paint-timing/"
     },
-    "nightly": {
-      "url": "https://w3c.github.io/paint-timing/",
-      "sourcePath": "painttiming.bs",
-      "repository": "https://github.com/w3c/paint-timing",
-      "filename": "index.html"
-    },
     "organization": "W3C",
     "groups": [
       {
@@ -11577,6 +11571,12 @@
     "release": {
       "url": "https://www.w3.org/TR/paint-timing/",
       "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/paint-timing/",
+      "repository": "https://github.com/w3c/paint-timing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
     },
     "title": "Paint Timing 1",
     "source": "w3c",

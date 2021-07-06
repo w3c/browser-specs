@@ -4,6 +4,23 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.1.0](https://github.com/w3c/browser-specs/compare/2.0.0...2.1.0) - 2021-07-06
+
+### Merged
+
+- Document WG manually for RFC2397 [`#344`](https://github.com/w3c/browser-specs/pull/344)
+- Add more relevant IETF specs [`#341`](https://github.com/w3c/browser-specs/pull/341)
+- Remove Trace Context [`#340`](https://github.com/w3c/browser-specs/pull/340)
+
+### Fixed
+
+- Document WG manually for RFC2397 (#344) [`#343`](https://github.com/w3c/browser-specs/issues/343)
+
+### Commits
+
+- [data] Update spec info [`23aeefd`](https://github.com/w3c/browser-specs/commit/23aeefda126a2825853cf6bc0046b75b7639c6cb)
+- [data] Update spec info [`52eb847`](https://github.com/w3c/browser-specs/commit/52eb84770e48445bd5c7b271e0b0b696b661d985)
+
 ## [2.0.0](https://github.com/w3c/browser-specs/compare/1.44.0...2.0.0) - 2021-07-05
 
 ### Merged

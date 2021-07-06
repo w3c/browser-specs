@@ -6,7 +6,15 @@
     }
   },
   "https://console.spec.whatwg.org/",
-  "https://datatracker.ietf.org/doc/html/rfc2397",
+  {
+    "url": "https://datatracker.ietf.org/doc/html/rfc2397",
+    "groups": [
+      {
+        "name": "Network Working Group",
+        "url": "https://datatracker.ietf.org/group/app/"
+      }
+    ]
+  },
   "https://datatracker.ietf.org/doc/html/rfc6265",
   "https://datatracker.ietf.org/doc/html/rfc6266",
   "https://datatracker.ietf.org/doc/html/rfc6454",

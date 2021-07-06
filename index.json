@@ -739,9 +739,9 @@
       "sourcePath": "css-animations-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Animations Level 2",
+    "title": "Index of css-animations-2/",
     "source": "spec",
-    "shortTitle": "CSS Animations 2",
+    "shortTitle": "Index of css-animations-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -807,9 +807,9 @@
       "sourcePath": "css-env-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Environment Variables Module Level 1",
+    "title": "Index of css-env-1/",
     "source": "spec",
-    "shortTitle": "CSS Environment Variables 1",
+    "shortTitle": "Index of css-env-1/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -840,9 +840,9 @@
       "sourcePath": "css-extensions-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Extensions",
+    "title": "Index of css-extensions-1/",
     "source": "spec",
-    "shortTitle": "CSS Extensions"
+    "shortTitle": "Index of css-extensions-1/"
   },
   {
     "url": "https://drafts.csswg.org/css-fonts-5/",
@@ -905,7 +905,7 @@
       "sourcePath": "css-gcpm-4/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Generated Content for Paged Media Module Level 4",
+    "title": "Index of css-gcpm-4/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -939,9 +939,9 @@
       "sourcePath": "css-grid-3/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Grid Layout Module Level 3",
+    "title": "Index of css-grid-3/",
     "source": "spec",
-    "shortTitle": "CSS Grid Layout 3",
+    "shortTitle": "Index of css-grid-3/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -975,7 +975,7 @@
       "sourcePath": "css-multicol-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Multi-column Layout Module Level 2",
+    "title": "Index of css-multicol-2/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -1007,9 +1007,9 @@
       "sourcePath": "css-nesting-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Nesting Module",
+    "title": "Index of css-nesting-1/",
     "source": "spec",
-    "shortTitle": "CSS Nesting"
+    "shortTitle": "Index of css-nesting-1/"
   },
   {
     "url": "https://drafts.csswg.org/css-page-4/",
@@ -1071,9 +1071,9 @@
       "sourcePath": "css-shapes-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Shapes Module Level 2",
+    "title": "Index of css-shapes-2/",
     "source": "spec",
-    "shortTitle": "CSS Shapes 2",
+    "shortTitle": "Index of css-shapes-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1105,7 +1105,7 @@
       "sourcePath": "css-size-adjust-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Mobile Text Size Adjustment Module Level 1",
+    "title": "Index of css-size-adjust-1/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -1139,9 +1139,9 @@
       "sourcePath": "css-transitions-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Transitions Level 2",
+    "title": "Index of css-transitions-2/",
     "source": "spec",
-    "shortTitle": "CSS Transitions 2",
+    "shortTitle": "Index of css-transitions-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1172,9 +1172,9 @@
       "sourcePath": "scroll-animations-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Scroll-linked Animations",
+    "title": "Index of scroll-animations-1/",
     "source": "spec",
-    "shortTitle": "Scroll-linked Animations",
+    "shortTitle": "Index of scroll-animations-1/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1207,9 +1207,9 @@
       "sourcePath": "web-animations-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Web Animations Level 2",
+    "title": "Index of web-animations-2/",
     "source": "spec",
-    "shortTitle": "Web Animations 2",
+    "shortTitle": "Index of web-animations-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

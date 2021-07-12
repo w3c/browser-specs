@@ -103,12 +103,12 @@ describe("List of specs", () => {
   });
 
   it("contains repository URLs for all non IETF specs", () => {
-    const wrong = specs.filter(s => !s.nightly.repository && !s.nightly.url.match(/ietf\.org/));
+    const wrong = specs.filter(s => !s.nightly.repository && !s.nightly.url.match(/rfc-editor\.org/));
     assert.deepStrictEqual(wrong, []);
   });
 
   it("contains relative paths to source of nightly spec for all non IETF specs", () => {
-    const wrong = specs.filter(s => !s.nightly.sourcePath && !s.nightly.url.match(/ietf\.org/));
+    const wrong = specs.filter(s => !s.nightly.sourcePath && !s.nightly.url.match(/rfc-editor\.org/));
     assert.deepStrictEqual(wrong, []);
   });
 

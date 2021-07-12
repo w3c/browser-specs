@@ -6,36 +6,6 @@
     }
   },
   "https://console.spec.whatwg.org/",
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc2397",
-    "groups": [
-      {
-        "name": "Network Working Group",
-        "url": "https://datatracker.ietf.org/group/app/"
-      }
-    ]
-  },
-  "https://datatracker.ietf.org/doc/html/rfc6265",
-  "https://datatracker.ietf.org/doc/html/rfc6266",
-  "https://datatracker.ietf.org/doc/html/rfc6454",
-  "https://datatracker.ietf.org/doc/html/rfc6797",
-  "https://datatracker.ietf.org/doc/html/rfc7034",
-  "https://datatracker.ietf.org/doc/html/rfc7230",
-  "https://datatracker.ietf.org/doc/html/rfc7231",
-  "https://datatracker.ietf.org/doc/html/rfc7232",
-  "https://datatracker.ietf.org/doc/html/rfc7233",
-  "https://datatracker.ietf.org/doc/html/rfc7234",
-  "https://datatracker.ietf.org/doc/html/rfc7235",
-  "https://datatracker.ietf.org/doc/html/rfc7239",
-  "https://datatracker.ietf.org/doc/html/rfc7469",
-  "https://datatracker.ietf.org/doc/html/rfc7538",
-  "https://datatracker.ietf.org/doc/html/rfc7540",
-  "https://datatracker.ietf.org/doc/html/rfc7578",
-  "https://datatracker.ietf.org/doc/html/rfc7725",
-  "https://datatracker.ietf.org/doc/html/rfc7838",
-  "https://datatracker.ietf.org/doc/html/rfc8246",
-  "https://datatracker.ietf.org/doc/html/rfc8470",
-  "https://datatracker.ietf.org/doc/html/rfc8942",
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   "https://drafts.css-houdini.org/font-metrics-api-1/",
@@ -297,6 +267,36 @@
       ]
     }
   },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc2397",
+    "groups": [
+      {
+        "name": "Network Working Group",
+        "url": "https://datatracker.ietf.org/group/app/"
+      }
+    ]
+  },
+  "https://www.rfc-editor.org/rfc/rfc6265",
+  "https://www.rfc-editor.org/rfc/rfc6266",
+  "https://www.rfc-editor.org/rfc/rfc6454",
+  "https://www.rfc-editor.org/rfc/rfc6797",
+  "https://www.rfc-editor.org/rfc/rfc7034",
+  "https://www.rfc-editor.org/rfc/rfc7230",
+  "https://www.rfc-editor.org/rfc/rfc7231",
+  "https://www.rfc-editor.org/rfc/rfc7232",
+  "https://www.rfc-editor.org/rfc/rfc7233",
+  "https://www.rfc-editor.org/rfc/rfc7234",
+  "https://www.rfc-editor.org/rfc/rfc7235",
+  "https://www.rfc-editor.org/rfc/rfc7239",
+  "https://www.rfc-editor.org/rfc/rfc7469",
+  "https://www.rfc-editor.org/rfc/rfc7538",
+  "https://www.rfc-editor.org/rfc/rfc7540",
+  "https://www.rfc-editor.org/rfc/rfc7578",
+  "https://www.rfc-editor.org/rfc/rfc7725",
+  "https://www.rfc-editor.org/rfc/rfc7838",
+  "https://www.rfc-editor.org/rfc/rfc8246",
+  "https://www.rfc-editor.org/rfc/rfc8470",
+  "https://www.rfc-editor.org/rfc/rfc8942",
   "https://www.w3.org/TR/accelerometer/",
   "https://www.w3.org/TR/accname-1.2/",
   "https://www.w3.org/TR/ambient-light/",

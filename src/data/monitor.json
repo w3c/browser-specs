@@ -291,6 +291,10 @@
     "WICG/CHIPS": {
       "lastreviewed": "2021-07-01",
       "comment": "no published content yet"
+    },
+    "privacycg/nav-tracking-mitigations": {
+      "lastreviewed": "2021-07-12",
+      "comment": "no published content yet"
     }
   },
   "specs": {

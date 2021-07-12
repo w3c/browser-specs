@@ -70,7 +70,7 @@
     "series": {
       "shortname": "rfc2397",
       "currentSpecification": "rfc2397",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc2397"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc2397"
     },
     "groups": [
       {
@@ -80,7 +80,7 @@
     ],
     "organization": "IETF",
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc2397",
+      "url": "https://www.rfc-editor.org/rfc/rfc2397",
       "filename": "rfc2397.html"
     },
     "title": "The \"data\" URL scheme",
@@ -146,7 +146,7 @@
     "series": {
       "shortname": "rfc6454",
       "currentSpecification": "rfc6454",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc6454"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6454"
     },
     "organization": "IETF",
     "groups": [
@@ -156,7 +156,7 @@
       }
     ],
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc6454",
+      "url": "https://www.rfc-editor.org/rfc/rfc6454",
       "filename": "rfc6454.html"
     },
     "title": "The Web Origin Concept",
@@ -170,7 +170,7 @@
     "series": {
       "shortname": "rfc6797",
       "currentSpecification": "rfc6797",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc6797"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6797"
     },
     "organization": "IETF",
     "groups": [
@@ -180,7 +180,7 @@
       }
     ],
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc6797",
+      "url": "https://www.rfc-editor.org/rfc/rfc6797",
       "filename": "rfc6797.html"
     },
     "title": "HTTP Strict Transport Security (HSTS)",
@@ -194,7 +194,7 @@
     "series": {
       "shortname": "rfc7034",
       "currentSpecification": "rfc7034",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc7034"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7034"
     },
     "organization": "IETF",
     "groups": [
@@ -204,7 +204,7 @@
       }
     ],
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc7034",
+      "url": "https://www.rfc-editor.org/rfc/rfc7034",
       "filename": "rfc7034.html"
     },
     "title": "HTTP Header Field X-Frame-Options",
@@ -374,7 +374,7 @@
     "series": {
       "shortname": "rfc7239",
       "currentSpecification": "rfc7239",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc7239"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7239"
     },
     "organization": "IETF",
     "groups": [
@@ -384,7 +384,7 @@
       }
     ],
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc7239",
+      "url": "https://www.rfc-editor.org/rfc/rfc7239",
       "filename": "rfc7239.html"
     },
     "title": "Forwarded HTTP Extension",
@@ -398,7 +398,7 @@
     "series": {
       "shortname": "rfc7469",
       "currentSpecification": "rfc7469",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc7469"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7469"
     },
     "organization": "IETF",
     "groups": [
@@ -408,7 +408,7 @@
       }
     ],
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc7469",
+      "url": "https://www.rfc-editor.org/rfc/rfc7469",
       "filename": "rfc7469.html"
     },
     "title": "Public Key Pinning Extension for HTTP",
@@ -474,7 +474,7 @@
     "series": {
       "shortname": "rfc7578",
       "currentSpecification": "rfc7578",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc7578"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7578"
     },
     "organization": "IETF",
     "groups": [
@@ -484,7 +484,7 @@
       }
     ],
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc7578",
+      "url": "https://www.rfc-editor.org/rfc/rfc7578",
       "filename": "rfc7578.html"
     },
     "title": "Returning Values from Forms: multipart/form-data",
@@ -602,7 +602,7 @@
     "series": {
       "shortname": "rfc8942",
       "currentSpecification": "rfc8942",
-      "nightlyUrl": "https://datatracker.ietf.org/doc/html/rfc8942"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8942"
     },
     "organization": "IETF",
     "groups": [
@@ -612,7 +612,7 @@
       }
     ],
     "nightly": {
-      "url": "https://datatracker.ietf.org/doc/html/rfc8942",
+      "url": "https://www.rfc-editor.org/rfc/rfc8942",
       "filename": "rfc8942.html"
     },
     "title": "HTTP Client Hints",

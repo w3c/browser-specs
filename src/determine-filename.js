@@ -18,8 +18,8 @@ module.exports = async function (url) {
     return match[1];
   }
 
-  // datatracker IETF RFC HTML rendering
-  const rfcMatch = url.match(/\/html\/(rfc[0-9]+)$/);
+  // RFC-editor HTML rendering
+  const rfcMatch = url.match(/\/rfc\/(rfc[0-9]+)$/);
   if (rfcMatch) {
     return rfcMatch[1] + '.html';
   }

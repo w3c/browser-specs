@@ -52,7 +52,7 @@ module.exports = async function (specs, options) {
     if (!info) {
       // No general rule to identify repos and groups for IETF specs
       // instead, fetching info on groups from https://www.rfc-editor.org/in-notes/rfcXXX.json
-      if (spec.url.match(/ietf\.org/)) {
+      if (spec.url.match(/rfc-editor\.org/)) {
         spec.organization = spec.organization ?? "IETF";
         if (spec.groups) continue;
         const rfcNumber = spec.url.slice(spec.url.lastIndexOf('/') + 1);

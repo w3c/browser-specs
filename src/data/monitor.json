@@ -295,6 +295,14 @@
     "privacycg/nav-tracking-mitigations": {
       "lastreviewed": "2021-07-12",
       "comment": "no published content yet"
+    },
+    "WICG/capture-handle": {
+      "lastreviewed": "2021-07-12",
+      "comment": "Marked as unofficial proposal"
+    },
+    "WICG/credentiallessness": {
+      "lastreviewed": "2021-07-12",
+      "comment": "Marked as a collection of ideas"
     }
   },
   "specs": {

@@ -4,6 +4,26 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.2.0](https://github.com/w3c/browser-specs/compare/2.1.0...2.2.0) - 2021-07-12
+
+### Merged
+
+- Switch RFC URLs to rfc-editor.org [`#349`](https://github.com/w3c/browser-specs/pull/349)
+- Add Capture Handle and COEP: credentialless to monitor list [`#348`](https://github.com/w3c/browser-specs/pull/348)
+- Add Navigation-based Tracking Mitigations to monitor list [`#347`](https://github.com/w3c/browser-specs/pull/347)
+
+### Fixed
+
+- Switch RFC URLs to rfc-editor.org (#349) [`#342`](https://github.com/w3c/browser-specs/issues/342)
+- Add Capture Handle and COEP: credentialless to monitor list (#348) [`#346`](https://github.com/w3c/browser-specs/issues/346)
+
+### Commits
+
+- [data] Update spec info [`a139e60`](https://github.com/w3c/browser-specs/commit/a139e60e1bb959a9ee2494702cb7a13766b24948)
+- [data] Update spec info [`732d708`](https://github.com/w3c/browser-specs/commit/732d708f176b3ca2f154c4873daa5f3ee1580dd8)
+- [data] Update spec info [`a0cc3dc`](https://github.com/w3c/browser-specs/commit/a0cc3dc7dfe1275437b01dd737a22ebc1ffe13be)
+- [data] Update spec info [`94a378e`](https://github.com/w3c/browser-specs/commit/94a378ef0570e07eb7a05f5058d859e5e47de466)
+
 ## [2.1.0](https://github.com/w3c/browser-specs/compare/2.0.0...2.1.0) - 2021-07-06
 
 ### Merged

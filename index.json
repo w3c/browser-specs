@@ -64,562 +64,6 @@
     }
   },
   {
-    "url": "https://datatracker.ietf.org/doc/html/rfc2397",
-    "seriesComposition": "full",
-    "shortname": "rfc2397",
-    "series": {
-      "shortname": "rfc2397",
-      "currentSpecification": "rfc2397",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc2397"
-    },
-    "groups": [
-      {
-        "name": "Network Working Group",
-        "url": "https://datatracker.ietf.org/group/app/"
-      }
-    ],
-    "organization": "IETF",
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc2397",
-      "filename": "rfc2397.html"
-    },
-    "title": "The \"data\" URL scheme",
-    "source": "specref",
-    "shortTitle": "The \"data\" URL scheme"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc6265",
-    "seriesComposition": "full",
-    "shortname": "rfc6265",
-    "series": {
-      "shortname": "rfc6265",
-      "currentSpecification": "rfc6265",
-      "nightlyUrl": "https://httpwg.org/specs/rfc6265.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "HTTP State Management Mechanism Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpstate/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc6265.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc6265.xml",
-      "filename": "rfc6265.html"
-    },
-    "title": "HTTP State Management Mechanism",
-    "source": "specref",
-    "shortTitle": "HTTP State Management Mechanism"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc6266",
-    "seriesComposition": "full",
-    "shortname": "rfc6266",
-    "series": {
-      "shortname": "rfc6266",
-      "currentSpecification": "rfc6266",
-      "nightlyUrl": "https://httpwg.org/specs/rfc6266.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc6266.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc6266.xml",
-      "filename": "rfc6266.html"
-    },
-    "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
-    "source": "specref",
-    "shortTitle": "HTTP"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc6454",
-    "seriesComposition": "full",
-    "shortname": "rfc6454",
-    "series": {
-      "shortname": "rfc6454",
-      "currentSpecification": "rfc6454",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6454"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Web Security Working Group",
-        "url": "https://datatracker.ietf.org/wg/websec/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc6454",
-      "filename": "rfc6454.html"
-    },
-    "title": "The Web Origin Concept",
-    "source": "specref",
-    "shortTitle": "The Web Origin Concept"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc6797",
-    "seriesComposition": "full",
-    "shortname": "rfc6797",
-    "series": {
-      "shortname": "rfc6797",
-      "currentSpecification": "rfc6797",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6797"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Web Security Working Group",
-        "url": "https://datatracker.ietf.org/wg/websec/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc6797",
-      "filename": "rfc6797.html"
-    },
-    "title": "HTTP Strict Transport Security (HSTS)",
-    "source": "specref",
-    "shortTitle": "HSTS"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7034",
-    "seriesComposition": "full",
-    "shortname": "rfc7034",
-    "series": {
-      "shortname": "rfc7034",
-      "currentSpecification": "rfc7034",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7034"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Web Security Working Group",
-        "url": "https://datatracker.ietf.org/wg/websec/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7034",
-      "filename": "rfc7034.html"
-    },
-    "title": "HTTP Header Field X-Frame-Options",
-    "source": "specref",
-    "shortTitle": "HTTP Header Field X-Frame-Options"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7230",
-    "seriesComposition": "full",
-    "shortname": "rfc7230",
-    "series": {
-      "shortname": "rfc7230",
-      "currentSpecification": "rfc7230",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7230.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7230.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7230.xml",
-      "filename": "rfc7230.html"
-    },
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing",
-    "source": "specref",
-    "shortTitle": "HTTP/1.1"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7231",
-    "seriesComposition": "full",
-    "shortname": "rfc7231",
-    "series": {
-      "shortname": "rfc7231",
-      "currentSpecification": "rfc7231",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7231.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7231.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7231.xml",
-      "filename": "rfc7231.html"
-    },
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
-    "source": "specref",
-    "shortTitle": "HTTP/1.1"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7232",
-    "seriesComposition": "full",
-    "shortname": "rfc7232",
-    "series": {
-      "shortname": "rfc7232",
-      "currentSpecification": "rfc7232",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7232.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7232.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7232.xml",
-      "filename": "rfc7232.html"
-    },
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests",
-    "source": "specref",
-    "shortTitle": "HTTP/1.1"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7233",
-    "seriesComposition": "full",
-    "shortname": "rfc7233",
-    "series": {
-      "shortname": "rfc7233",
-      "currentSpecification": "rfc7233",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7233.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7233.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7233.xml",
-      "filename": "rfc7233.html"
-    },
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests",
-    "source": "specref",
-    "shortTitle": "HTTP/1.1"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7234",
-    "seriesComposition": "full",
-    "shortname": "rfc7234",
-    "series": {
-      "shortname": "rfc7234",
-      "currentSpecification": "rfc7234",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7234.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7234.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7234.xml",
-      "filename": "rfc7234.html"
-    },
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
-    "source": "specref",
-    "shortTitle": "HTTP/1.1"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7235",
-    "seriesComposition": "full",
-    "shortname": "rfc7235",
-    "series": {
-      "shortname": "rfc7235",
-      "currentSpecification": "rfc7235",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7235.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7235.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7235.xml",
-      "filename": "rfc7235.html"
-    },
-    "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication",
-    "source": "specref",
-    "shortTitle": "HTTP/1.1"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7239",
-    "seriesComposition": "full",
-    "shortname": "rfc7239",
-    "series": {
-      "shortname": "rfc7239",
-      "currentSpecification": "rfc7239",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7239"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Applications Area Working Group APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/appsawg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7239",
-      "filename": "rfc7239.html"
-    },
-    "title": "Forwarded HTTP Extension",
-    "source": "specref",
-    "shortTitle": "Forwarded HTTP Extension"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7469",
-    "seriesComposition": "full",
-    "shortname": "rfc7469",
-    "series": {
-      "shortname": "rfc7469",
-      "currentSpecification": "rfc7469",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7469"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Web Security Working Group",
-        "url": "https://datatracker.ietf.org/wg/websec/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7469",
-      "filename": "rfc7469.html"
-    },
-    "title": "Public Key Pinning Extension for HTTP",
-    "source": "specref",
-    "shortTitle": "Public Key Pinning Extension for HTTP"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7538",
-    "seriesComposition": "full",
-    "shortname": "rfc7538",
-    "series": {
-      "shortname": "rfc7538",
-      "currentSpecification": "rfc7538",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7538.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7538.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7538.xml",
-      "filename": "rfc7538.html"
-    },
-    "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)",
-    "source": "specref",
-    "shortTitle": "Permanent Redirect"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7540",
-    "seriesComposition": "full",
-    "shortname": "rfc7540",
-    "series": {
-      "shortname": "rfc7540",
-      "currentSpecification": "rfc7540",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7540.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7540.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7540.xml",
-      "filename": "rfc7540.html"
-    },
-    "title": "Hypertext Transfer Protocol Version 2 (HTTP/2)",
-    "source": "specref",
-    "shortTitle": "HTTP/2"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7578",
-    "seriesComposition": "full",
-    "shortname": "rfc7578",
-    "series": {
-      "shortname": "rfc7578",
-      "currentSpecification": "rfc7578",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7578"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "ART Area General Application Working Group Working Group",
-        "url": "https://datatracker.ietf.org/wg/appsawg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7578",
-      "filename": "rfc7578.html"
-    },
-    "title": "Returning Values from Forms: multipart/form-data",
-    "source": "specref",
-    "shortTitle": "Returning Values from Forms: multipart/form-data"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7725",
-    "seriesComposition": "full",
-    "shortname": "rfc7725",
-    "series": {
-      "shortname": "rfc7725",
-      "currentSpecification": "rfc7725",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7725.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7725.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7725.xml",
-      "filename": "rfc7725.html"
-    },
-    "title": "An HTTP Status Code to Report Legal Obstacles",
-    "source": "specref",
-    "shortTitle": "An HTTP Status Code to Report Legal Obstacles"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc7838",
-    "seriesComposition": "full",
-    "shortname": "rfc7838",
-    "series": {
-      "shortname": "rfc7838",
-      "currentSpecification": "rfc7838",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7838.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc7838.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc7838.xml",
-      "filename": "rfc7838.html"
-    },
-    "title": "HTTP Alternative Services",
-    "source": "specref",
-    "shortTitle": "HTTP Alternative Services"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc8246",
-    "seriesComposition": "full",
-    "shortname": "rfc8246",
-    "series": {
-      "shortname": "rfc8246",
-      "currentSpecification": "rfc8246",
-      "nightlyUrl": "https://httpwg.org/specs/rfc8246.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc8246.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc8246.xml",
-      "filename": "rfc8246.html"
-    },
-    "title": "HTTP Immutable Responses",
-    "source": "specref",
-    "shortTitle": "HTTP Immutable Responses"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc8470",
-    "seriesComposition": "full",
-    "shortname": "rfc8470",
-    "series": {
-      "shortname": "rfc8470",
-      "currentSpecification": "rfc8470",
-      "nightlyUrl": "https://httpwg.org/specs/rfc8470.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Hypertext Transfer Protocol Bis Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/specs/rfc8470.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc8470.xml",
-      "filename": "rfc8470.html"
-    },
-    "title": "Using Early Data in HTTP",
-    "source": "specref",
-    "shortTitle": "Using Early Data in HTTP"
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/rfc8942",
-    "seriesComposition": "full",
-    "shortname": "rfc8942",
-    "series": {
-      "shortname": "rfc8942",
-      "currentSpecification": "rfc8942",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8942"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc8942",
-      "filename": "rfc8942.html"
-    },
-    "title": "HTTP Client Hints",
-    "source": "specref",
-    "shortTitle": "HTTP Client Hints"
-  },
-  {
     "url": "https://dom.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "dom",
@@ -6262,6 +5706,562 @@
     "title": "WebGL 2.0 Specification",
     "source": "spec",
     "shortTitle": "WebGL 2.0"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc2397",
+    "seriesComposition": "full",
+    "shortname": "rfc2397",
+    "series": {
+      "shortname": "rfc2397",
+      "currentSpecification": "rfc2397",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc2397"
+    },
+    "groups": [
+      {
+        "name": "Network Working Group",
+        "url": "https://datatracker.ietf.org/group/app/"
+      }
+    ],
+    "organization": "IETF",
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc2397",
+      "filename": "rfc2397.html"
+    },
+    "title": "The \"data\" URL scheme",
+    "source": "specref",
+    "shortTitle": "The \"data\" URL scheme"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6265",
+    "seriesComposition": "full",
+    "shortname": "rfc6265",
+    "series": {
+      "shortname": "rfc6265",
+      "currentSpecification": "rfc6265",
+      "nightlyUrl": "https://httpwg.org/specs/rfc6265.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP State Management Mechanism Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpstate/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc6265.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc6265.xml",
+      "filename": "rfc6265.html"
+    },
+    "title": "HTTP State Management Mechanism",
+    "source": "specref",
+    "shortTitle": "HTTP State Management Mechanism"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6266",
+    "seriesComposition": "full",
+    "shortname": "rfc6266",
+    "series": {
+      "shortname": "rfc6266",
+      "currentSpecification": "rfc6266",
+      "nightlyUrl": "https://httpwg.org/specs/rfc6266.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc6266.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc6266.xml",
+      "filename": "rfc6266.html"
+    },
+    "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
+    "source": "specref",
+    "shortTitle": "HTTP"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6454",
+    "seriesComposition": "full",
+    "shortname": "rfc6454",
+    "series": {
+      "shortname": "rfc6454",
+      "currentSpecification": "rfc6454",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6454"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Web Security Working Group",
+        "url": "https://datatracker.ietf.org/wg/websec/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc6454",
+      "filename": "rfc6454.html"
+    },
+    "title": "The Web Origin Concept",
+    "source": "specref",
+    "shortTitle": "The Web Origin Concept"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6797",
+    "seriesComposition": "full",
+    "shortname": "rfc6797",
+    "series": {
+      "shortname": "rfc6797",
+      "currentSpecification": "rfc6797",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6797"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Web Security Working Group",
+        "url": "https://datatracker.ietf.org/wg/websec/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc6797",
+      "filename": "rfc6797.html"
+    },
+    "title": "HTTP Strict Transport Security (HSTS)",
+    "source": "specref",
+    "shortTitle": "HSTS"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7034",
+    "seriesComposition": "full",
+    "shortname": "rfc7034",
+    "series": {
+      "shortname": "rfc7034",
+      "currentSpecification": "rfc7034",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7034"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Web Security Working Group",
+        "url": "https://datatracker.ietf.org/wg/websec/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc7034",
+      "filename": "rfc7034.html"
+    },
+    "title": "HTTP Header Field X-Frame-Options",
+    "source": "specref",
+    "shortTitle": "HTTP Header Field X-Frame-Options"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7230",
+    "seriesComposition": "full",
+    "shortname": "rfc7230",
+    "series": {
+      "shortname": "rfc7230",
+      "currentSpecification": "rfc7230",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7230.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7230.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7230.xml",
+      "filename": "rfc7230.html"
+    },
+    "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing",
+    "source": "specref",
+    "shortTitle": "HTTP/1.1"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7231",
+    "seriesComposition": "full",
+    "shortname": "rfc7231",
+    "series": {
+      "shortname": "rfc7231",
+      "currentSpecification": "rfc7231",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7231.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7231.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7231.xml",
+      "filename": "rfc7231.html"
+    },
+    "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
+    "source": "specref",
+    "shortTitle": "HTTP/1.1"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7232",
+    "seriesComposition": "full",
+    "shortname": "rfc7232",
+    "series": {
+      "shortname": "rfc7232",
+      "currentSpecification": "rfc7232",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7232.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7232.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7232.xml",
+      "filename": "rfc7232.html"
+    },
+    "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests",
+    "source": "specref",
+    "shortTitle": "HTTP/1.1"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7233",
+    "seriesComposition": "full",
+    "shortname": "rfc7233",
+    "series": {
+      "shortname": "rfc7233",
+      "currentSpecification": "rfc7233",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7233.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7233.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7233.xml",
+      "filename": "rfc7233.html"
+    },
+    "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests",
+    "source": "specref",
+    "shortTitle": "HTTP/1.1"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7234",
+    "seriesComposition": "full",
+    "shortname": "rfc7234",
+    "series": {
+      "shortname": "rfc7234",
+      "currentSpecification": "rfc7234",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7234.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7234.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7234.xml",
+      "filename": "rfc7234.html"
+    },
+    "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
+    "source": "specref",
+    "shortTitle": "HTTP/1.1"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7235",
+    "seriesComposition": "full",
+    "shortname": "rfc7235",
+    "series": {
+      "shortname": "rfc7235",
+      "currentSpecification": "rfc7235",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7235.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7235.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7235.xml",
+      "filename": "rfc7235.html"
+    },
+    "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication",
+    "source": "specref",
+    "shortTitle": "HTTP/1.1"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7239",
+    "seriesComposition": "full",
+    "shortname": "rfc7239",
+    "series": {
+      "shortname": "rfc7239",
+      "currentSpecification": "rfc7239",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7239"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Applications Area Working Group APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/appsawg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc7239",
+      "filename": "rfc7239.html"
+    },
+    "title": "Forwarded HTTP Extension",
+    "source": "specref",
+    "shortTitle": "Forwarded HTTP Extension"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7469",
+    "seriesComposition": "full",
+    "shortname": "rfc7469",
+    "series": {
+      "shortname": "rfc7469",
+      "currentSpecification": "rfc7469",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7469"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Web Security Working Group",
+        "url": "https://datatracker.ietf.org/wg/websec/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc7469",
+      "filename": "rfc7469.html"
+    },
+    "title": "Public Key Pinning Extension for HTTP",
+    "source": "specref",
+    "shortTitle": "Public Key Pinning Extension for HTTP"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7538",
+    "seriesComposition": "full",
+    "shortname": "rfc7538",
+    "series": {
+      "shortname": "rfc7538",
+      "currentSpecification": "rfc7538",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7538.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7538.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7538.xml",
+      "filename": "rfc7538.html"
+    },
+    "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)",
+    "source": "specref",
+    "shortTitle": "Permanent Redirect"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7540",
+    "seriesComposition": "full",
+    "shortname": "rfc7540",
+    "series": {
+      "shortname": "rfc7540",
+      "currentSpecification": "rfc7540",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7540.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7540.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7540.xml",
+      "filename": "rfc7540.html"
+    },
+    "title": "Hypertext Transfer Protocol Version 2 (HTTP/2)",
+    "source": "specref",
+    "shortTitle": "HTTP/2"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7578",
+    "seriesComposition": "full",
+    "shortname": "rfc7578",
+    "series": {
+      "shortname": "rfc7578",
+      "currentSpecification": "rfc7578",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7578"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "ART Area General Application Working Group Working Group",
+        "url": "https://datatracker.ietf.org/wg/appsawg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc7578",
+      "filename": "rfc7578.html"
+    },
+    "title": "Returning Values from Forms: multipart/form-data",
+    "source": "specref",
+    "shortTitle": "Returning Values from Forms: multipart/form-data"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7725",
+    "seriesComposition": "full",
+    "shortname": "rfc7725",
+    "series": {
+      "shortname": "rfc7725",
+      "currentSpecification": "rfc7725",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7725.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7725.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7725.xml",
+      "filename": "rfc7725.html"
+    },
+    "title": "An HTTP Status Code to Report Legal Obstacles",
+    "source": "specref",
+    "shortTitle": "An HTTP Status Code to Report Legal Obstacles"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7838",
+    "seriesComposition": "full",
+    "shortname": "rfc7838",
+    "series": {
+      "shortname": "rfc7838",
+      "currentSpecification": "rfc7838",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7838.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7838.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7838.xml",
+      "filename": "rfc7838.html"
+    },
+    "title": "HTTP Alternative Services",
+    "source": "specref",
+    "shortTitle": "HTTP Alternative Services"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc8246",
+    "seriesComposition": "full",
+    "shortname": "rfc8246",
+    "series": {
+      "shortname": "rfc8246",
+      "currentSpecification": "rfc8246",
+      "nightlyUrl": "https://httpwg.org/specs/rfc8246.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc8246.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc8246.xml",
+      "filename": "rfc8246.html"
+    },
+    "title": "HTTP Immutable Responses",
+    "source": "specref",
+    "shortTitle": "HTTP Immutable Responses"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc8470",
+    "seriesComposition": "full",
+    "shortname": "rfc8470",
+    "series": {
+      "shortname": "rfc8470",
+      "currentSpecification": "rfc8470",
+      "nightlyUrl": "https://httpwg.org/specs/rfc8470.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Bis Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc8470.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc8470.xml",
+      "filename": "rfc8470.html"
+    },
+    "title": "Using Early Data in HTTP",
+    "source": "specref",
+    "shortTitle": "Using Early Data in HTTP"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc8942",
+    "seriesComposition": "full",
+    "shortname": "rfc8942",
+    "series": {
+      "shortname": "rfc8942",
+      "currentSpecification": "rfc8942",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8942"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc8942",
+      "filename": "rfc8942.html"
+    },
+    "title": "HTTP Client Hints",
+    "source": "specref",
+    "shortTitle": "HTTP Client Hints"
   },
   {
     "url": "https://www.w3.org/TR/accelerometer/",

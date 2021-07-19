@@ -1461,6 +1461,32 @@
     "shortTitle": "Accessible Object.hasOwnProperty"
   },
   {
+    "url": "https://tc39.es/proposal-array-find-from-last/",
+    "seriesComposition": "full",
+    "shortname": "tc39-array-find-from-last",
+    "series": {
+      "shortname": "tc39-array-find-from-last",
+      "currentSpecification": "tc39-array-find-from-last",
+      "nightlyUrl": "https://tc39.es/proposal-array-find-from-last/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-array-find-from-last/",
+      "repository": "https://github.com/tc39/proposal-array-find-from-last",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Proposal-array-find-from-last",
+    "source": "spec",
+    "shortTitle": "Proposal-array-find-from-last"
+  },
+  {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
     "seriesComposition": "full",
     "shortname": "tc39-atomics-wait-async",
@@ -1667,6 +1693,32 @@
     "title": "Private Methods and Accessors Proposal",
     "source": "spec",
     "shortTitle": "Private Methods and Accessors Proposal"
+  },
+  {
+    "url": "https://tc39.es/proposal-realms/",
+    "seriesComposition": "full",
+    "shortname": "tc39-realms",
+    "series": {
+      "shortname": "tc39-realms",
+      "currentSpecification": "tc39-realms",
+      "nightlyUrl": "https://tc39.es/proposal-realms/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-realms/",
+      "repository": "https://github.com/tc39/proposal-realms",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Realms API",
+    "source": "spec",
+    "shortTitle": "Realms API"
   },
   {
     "url": "https://tc39.es/proposal-regexp-match-indices/",

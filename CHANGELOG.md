@@ -4,6 +4,16 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.3.0](https://github.com/w3c/browser-specs/compare/2.2.0...2.3.0) - 2021-07-19
+
+### Merged
+
+- Add TC39 findLast and Realms API proposals [`#351`](https://github.com/w3c/browser-specs/pull/351)
+
+### Commits
+
+- [data] Update spec info [`e60feeb`](https://github.com/w3c/browser-specs/commit/e60feebf9969c795f8a4c120edf6b56f53384ec8)
+
 ## [2.2.0](https://github.com/w3c/browser-specs/compare/2.1.0...2.2.0) - 2021-07-12
 
 ### Merged

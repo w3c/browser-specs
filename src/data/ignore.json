@@ -41,6 +41,9 @@
     }
   },
   "repos": {
+    "w3c/mathml": {
+      "comment": "not targeted at browsers"
+    },
     "w3c/adpt": {
       "comment": "not targeted at browsers"
     },

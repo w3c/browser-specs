@@ -1,9 +1,5 @@
 {
   "repos": {
-    "w3c/mathml": {
-      "comment": "not yet based on MathML Core and not yet clear spec will target browsers",
-      "lastreviewed": "2021-07-19"
-    },
     "WICG/prefer-current-tab": {
       "comment": "unofficial draft that defines a single new dictionary member",
       "lastreviewed": "2021-07-01"

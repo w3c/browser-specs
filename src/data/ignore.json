@@ -176,6 +176,9 @@
     "WICG/virtual-scroller": {
       "comment": "No longer being actively developed"
     },
+    "WICG/construct-stylesheets": {
+      "comment": "Integrated in CSSOM"
+    },
     "w3c/merchant-validation": {
       "comment": "Deprecated API documenting legacy implementation"
     }

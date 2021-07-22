@@ -4,6 +4,17 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.4.0](https://github.com/w3c/browser-specs/compare/2.3.0...2.4.0) - 2021-07-22
+
+### Merged
+
+- Drop Constructable Stylesheet Objects [`#353`](https://github.com/w3c/browser-specs/pull/353)
+- Ignore MathML 4 spec [`#352`](https://github.com/w3c/browser-specs/pull/352)
+
+### Commits
+
+- [data] Update spec info [`494ac06`](https://github.com/w3c/browser-specs/commit/494ac061725410140112223f2948af63df7fde06)
+
 ## [2.3.0](https://github.com/w3c/browser-specs/compare/2.2.0...2.3.0) - 2021-07-19
 
 ### Merged

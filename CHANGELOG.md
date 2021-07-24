@@ -4,6 +4,16 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.5.0](https://github.com/w3c/browser-specs/compare/2.4.0...2.5.0) - 2021-07-24
+
+### Merged
+
+- Add preferCurrentTab spec [`#354`](https://github.com/w3c/browser-specs/pull/354)
+
+### Commits
+
+- [data] Update spec info [`a75de08`](https://github.com/w3c/browser-specs/commit/a75de0814e668df787866ccb5f4bdced45411069)
+
 ## [2.4.0](https://github.com/w3c/browser-specs/compare/2.3.0...2.4.0) - 2021-07-22
 
 ### Merged

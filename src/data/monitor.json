@@ -299,6 +299,10 @@
     "WICG/credentiallessness": {
       "lastreviewed": "2021-07-12",
       "comment": "Marked as a collection of ideas"
+    },
+    "privacycg/ad-topic-hints": {
+      "lastreviewed": "2021-08-02",
+      "comment": "no published content yet"
     }
   },
   "specs": {

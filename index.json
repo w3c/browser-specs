@@ -1999,6 +1999,32 @@
     "shortTitle": "Gamepad Extensions"
   },
   {
+    "url": "https://w3c.github.io/IFT/Overview.html",
+    "seriesComposition": "full",
+    "shortname": "IFT",
+    "series": {
+      "shortname": "IFT",
+      "currentSpecification": "IFT",
+      "nightlyUrl": "https://w3c.github.io/IFT/Overview.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Fonts Working Group",
+        "url": "https://www.w3.org/Fonts/WG/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/IFT/Overview.html",
+      "repository": "https://github.com/w3c/IFT",
+      "sourcePath": "Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Incremental Font Transfer",
+    "source": "spec",
+    "shortTitle": "Incremental Font Transfer"
+  },
+  {
     "url": "https://w3c.github.io/mathml-aam/",
     "seriesComposition": "full",
     "shortname": "mathml-aam",
@@ -2113,32 +2139,6 @@
     "title": "Media Capture Automation",
     "source": "spec",
     "shortTitle": "Media Capture Automation"
-  },
-  {
-    "url": "https://w3c.github.io/PFE/Overview.html",
-    "seriesComposition": "full",
-    "shortname": "PFE",
-    "series": {
-      "shortname": "PFE",
-      "currentSpecification": "PFE",
-      "nightlyUrl": "https://w3c.github.io/PFE/Overview.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Fonts Working Group",
-        "url": "https://www.w3.org/Fonts/WG/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/PFE/Overview.html",
-      "repository": "https://github.com/w3c/PFE",
-      "sourcePath": "Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Incremental Font Transfer",
-    "source": "spec",
-    "shortTitle": "Incremental Font Transfer"
   },
   {
     "url": "https://w3c.github.io/web-nfc/",

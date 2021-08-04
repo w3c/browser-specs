@@ -4,6 +4,13 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.6.0](https://github.com/w3c/browser-specs/compare/2.5.0...2.6.0) - 2021-08-04
+
+### Commits
+
+- List new repos to be monitored [`c437b24`](https://github.com/w3c/browser-specs/commit/c437b24763df25bacf6ac08609319a532349e851)
+- Update URL for Incremental Font Transfer editors draft [`515d378`](https://github.com/w3c/browser-specs/commit/515d37833d246a1761f53b8eca21f9bb5d1bdceb)
+
 ## [2.5.0](https://github.com/w3c/browser-specs/compare/2.4.0...2.5.0) - 2021-07-24
 
 ### Merged

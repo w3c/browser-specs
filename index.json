@@ -8191,10 +8191,6 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
-      },
-      {
         "name": "Cascading Style Sheets (CSS) Working Group",
         "url": "https://www.w3.org/Style/CSS/"
       }

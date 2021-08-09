@@ -307,6 +307,10 @@
     "WICG/eyedropper-api": {
       "lastreviewed": "2021-08-09",
       "comment": "no published content yet"
+    },
+    "WICG/color-api": {
+      "lastreviewed": "2021-08-09",
+      "comment": "early exploration phase; no clear implementation plan yet"
     }
   },
   "specs": {

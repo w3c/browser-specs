@@ -4,6 +4,23 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.7.0](https://github.com/w3c/browser-specs/compare/2.6.1...2.7.0) - 2021-08-09
+
+### Merged
+
+- Add CSS Scoping Level 2, monitor Color API [`#363`](https://github.com/w3c/browser-specs/pull/363)
+- List new repos to be monitored [`#362`](https://github.com/w3c/browser-specs/pull/362)
+
+### Fixed
+
+- Add CSS Scoping Level 2, monitor Color API (#363) [`#361`](https://github.com/w3c/browser-specs/issues/361)
+
+### Commits
+
+- [data] Update spec info [`b821709`](https://github.com/w3c/browser-specs/commit/b8217096bd75c3f2bf8fb43569e485a0503b9ba9)
+- [data] Update spec info [`36307a8`](https://github.com/w3c/browser-specs/commit/36307a87e03446a714c6d1a4180d7b6f0c001500)
+- [data] Update spec info [`24e1261`](https://github.com/w3c/browser-specs/commit/24e1261dd883d8013ff83604db49ba120e9f2582)
+
 ## [2.6.1](https://github.com/w3c/browser-specs/compare/2.6.0...2.6.1) - 2021-08-04
 
 ### Commits

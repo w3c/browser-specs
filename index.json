@@ -10808,8 +10808,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/2019/webapps/"
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
       }
     ],
     "release": {

@@ -953,8 +953,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Community Group",
-        "url": "https://www.w3.org/community/immersive-web/"
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
       }
     ],
     "nightly": {

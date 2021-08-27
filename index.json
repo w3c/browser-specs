@@ -11983,7 +11983,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/payment-method-id/",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "nightly": {
       "url": "https://w3c.github.io/payment-method-id/",

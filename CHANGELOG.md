@@ -4,6 +4,28 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.7.1](https://github.com/w3c/browser-specs/compare/2.7.0...2.7.1) - 2021-08-29
+
+### Merged
+
+- Fix `nightly.sourcePath` for `tracking-dnt` [`#368`](https://github.com/w3c/browser-specs/pull/368)
+- Bump path-parse from 1.0.6 to 1.0.7 [`#365`](https://github.com/w3c/browser-specs/pull/365)
+
+### Fixed
+
+- Fix `nightly.sourcePath` for `tracking-dnt` (#368) [`#367`](https://github.com/w3c/browser-specs/issues/367)
+
+### Commits
+
+- [data] Update spec info [`fc0816a`](https://github.com/w3c/browser-specs/commit/fc0816a5d73a90170e1ca4420369f993e045cd43)
+- [data] Update spec info [`e8a6c75`](https://github.com/w3c/browser-specs/commit/e8a6c75f6ec04aca3bc069a711126a8812d26aae)
+- [data] Update spec info [`76f6535`](https://github.com/w3c/browser-specs/commit/76f653570f4770450534981165faef0d4d9ee045)
+- [data] Update spec info [`df5f145`](https://github.com/w3c/browser-specs/commit/df5f14553077729cdd99dccff137b3f0829e87bf)
+- [data] Update spec info [`fce7538`](https://github.com/w3c/browser-specs/commit/fce7538a96b022863ddd372b0bd852e3432e2694)
+- [data] Update spec info [`8a37f4e`](https://github.com/w3c/browser-specs/commit/8a37f4ef72ad40780c3cb93cd441fa471db82f66)
+- [data] Update spec info [`51356e9`](https://github.com/w3c/browser-specs/commit/51356e9dee68165b87da14d9038a3a8c07469501)
+- [data] Update spec info [`0e7a197`](https://github.com/w3c/browser-specs/commit/0e7a197299d1ff4e55b1ec49424ac654c3c3bacb)
+
 ## [2.7.0](https://github.com/w3c/browser-specs/compare/2.6.1...2.7.0) - 2021-08-09
 
 ### Merged

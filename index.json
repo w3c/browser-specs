@@ -13466,6 +13466,12 @@
       "releaseUrl": "https://www.w3.org/TR/tracking-dnt/",
       "nightlyUrl": "https://w3c.github.io/dnt/drafts/tracking-dnt.html"
     },
+    "nightly": {
+      "url": "https://w3c.github.io/dnt/drafts/tracking-dnt.html",
+      "sourcePath": "drafts/tracking-dnt.html",
+      "repository": "https://github.com/w3c/dnt",
+      "filename": "tracking-dnt.html"
+    },
     "organization": "W3C",
     "groups": [
       {
@@ -13476,12 +13482,6 @@
     "release": {
       "url": "https://www.w3.org/TR/tracking-dnt/",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/dnt/drafts/tracking-dnt.html",
-      "repository": "https://github.com/w3c/dnt",
-      "sourcePath": "index.html",
-      "filename": "tracking-dnt.html"
     },
     "title": "Tracking Preference Expression (DNT)",
     "source": "w3c",

@@ -12169,7 +12169,7 @@
     "nightly": {
       "url": "https://w3c.github.io/permissions/",
       "repository": "https://github.com/w3c/permissions",
-      "sourcePath": "index.bs",
+      "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Permissions",
@@ -13737,6 +13737,37 @@
         "vibration"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/virtual-keyboard/",
+    "seriesComposition": "full",
+    "shortname": "virtual-keyboard",
+    "series": {
+      "shortname": "virtual-keyboard",
+      "currentSpecification": "virtual-keyboard",
+      "releaseUrl": "https://www.w3.org/TR/virtual-keyboard/",
+      "nightlyUrl": "https://w3c.github.io/virtual-keyboard/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Editing Working Group",
+        "url": "https://www.w3.org/groups/wg/webediting"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/virtual-keyboard/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/virtual-keyboard/",
+      "repository": "https://github.com/w3c/virtual-keyboard",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "VirtualKeyboard API",
+    "source": "w3c",
+    "shortTitle": "VirtualKeyboard API"
   },
   {
     "url": "https://www.w3.org/TR/wai-aria-1.2/",

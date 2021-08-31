@@ -4,6 +4,20 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.8.0](https://github.com/w3c/browser-specs/compare/2.7.1...2.8.0) - 2021-08-31
+
+### Merged
+
+- Add VirtualKeyboard API [`#370`](https://github.com/w3c/browser-specs/pull/370)
+
+### Fixed
+
+- Add VirtualKeyboard API (#370) [`#369`](https://github.com/w3c/browser-specs/issues/369)
+
+### Commits
+
+- [data] Update spec info [`a3d03a1`](https://github.com/w3c/browser-specs/commit/a3d03a1f6d1c5e5f271efe8bf99240272ffe7efb)
+
 ## [2.7.1](https://github.com/w3c/browser-specs/compare/2.7.0...2.7.1) - 2021-08-29
 
 ### Merged

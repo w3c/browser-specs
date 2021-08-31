@@ -446,13 +446,13 @@
       }
     ],
     "nightly": {
-      "url": "https://drafts.csswg.org/css-nesting-1/",
+      "url": "https://drafts.csswg.org/css-nesting/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-nesting-1/Overview.bs",
       "filename": "Overview.html"
     },
     "title": "CSS Nesting Module",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Nesting"
   },
   {

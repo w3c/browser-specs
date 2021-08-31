@@ -4,6 +4,17 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.9.0](https://github.com/w3c/browser-specs/compare/2.8.0...2.9.0) - 2021-08-31
+
+### Merged
+
+- Update URL of recently published FPWD [`#371`](https://github.com/w3c/browser-specs/pull/371)
+
+### Commits
+
+- [data] Update spec info [`6151351`](https://github.com/w3c/browser-specs/commit/6151351be09db5bd6f976160b7f84e47a3eba835)
+- [data] Update spec info [`0a34a37`](https://github.com/w3c/browser-specs/commit/0a34a37f23f10f8afd51051c74a5682760e32ff8)
+
 ## [2.8.0](https://github.com/w3c/browser-specs/compare/2.7.1...2.8.0) - 2021-08-31
 
 ### Merged

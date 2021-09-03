@@ -4,6 +4,20 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.10.0](https://github.com/w3c/browser-specs/compare/2.9.0...2.10.0) - 2021-09-03
+
+### Merged
+
+- Add a few WICG specs, update review of monitored specs [`#372`](https://github.com/w3c/browser-specs/pull/372)
+
+### Commits
+
+- [data] Update spec info [`0affea2`](https://github.com/w3c/browser-specs/commit/0affea295d1812d1ba4863c079f7a6bf02962892)
+- [data] Update spec info [`f1a03e5`](https://github.com/w3c/browser-specs/commit/f1a03e5e4d1d20f35674be0f103e054f7eb7f5d8)
+- [data] Update spec info [`c9fcfb5`](https://github.com/w3c/browser-specs/commit/c9fcfb5fbd147a16ad219e64ed2b7c9fb108fb45)
+- [data] Update spec info [`ca002ed`](https://github.com/w3c/browser-specs/commit/ca002ed49ae99b9e5a06f420a6cf869c956128f6)
+- [data] Update spec info [`cc88902`](https://github.com/w3c/browser-specs/commit/cc88902def66abc9cc11fa1b864ba1ac27547728)
+
 ## [2.9.0](https://github.com/w3c/browser-specs/compare/2.8.0...2.9.0) - 2021-08-31
 
 ### Merged

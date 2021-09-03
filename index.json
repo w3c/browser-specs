@@ -2297,6 +2297,38 @@
     }
   },
   {
+    "url": "https://wicg.github.io/app-history/",
+    "seriesComposition": "full",
+    "shortname": "app-history",
+    "series": {
+      "shortname": "app-history",
+      "currentSpecification": "app-history",
+      "nightlyUrl": "https://wicg.github.io/app-history/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/app-history/",
+      "repository": "https://github.com/WICG/app-history",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "App History API",
+    "source": "spec",
+    "shortTitle": "App History API",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "app-history"
+      ]
+    }
+  },
+  {
     "url": "https://wicg.github.io/background-fetch/",
     "seriesComposition": "full",
     "shortname": "background-fetch",
@@ -2489,6 +2521,32 @@
     }
   },
   {
+    "url": "https://wicg.github.io/conversion-measurement-api/",
+    "seriesComposition": "full",
+    "shortname": "conversion-measurement-api",
+    "series": {
+      "shortname": "conversion-measurement-api",
+      "currentSpecification": "conversion-measurement-api",
+      "nightlyUrl": "https://wicg.github.io/conversion-measurement-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/conversion-measurement-api/",
+      "repository": "https://github.com/WICG/conversion-measurement-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Attribution Reporting",
+    "source": "spec",
+    "shortTitle": "Attribution Reporting"
+  },
+  {
     "url": "https://wicg.github.io/cookie-store/",
     "seriesComposition": "full",
     "shortname": "cookie-store",
@@ -2545,6 +2603,32 @@
     "title": "Crash Reporting",
     "source": "spec",
     "shortTitle": "Crash Reporting"
+  },
+  {
+    "url": "https://wicg.github.io/credentiallessness/",
+    "seriesComposition": "full",
+    "shortname": "credentiallessness",
+    "series": {
+      "shortname": "credentiallessness",
+      "currentSpecification": "credentiallessness",
+      "nightlyUrl": "https://wicg.github.io/credentiallessness/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/credentiallessness/",
+      "repository": "https://github.com/WICG/credentiallessness",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Cross-Origin-Embedder-Policy: credentialless",
+    "source": "spec",
+    "shortTitle": "Cross-Origin-Embedder-Policy: credentialless"
   },
   {
     "url": "https://wicg.github.io/css-parser-api/",
@@ -2797,6 +2881,32 @@
     }
   },
   {
+    "url": "https://wicg.github.io/eyedropper-api/",
+    "seriesComposition": "full",
+    "shortname": "eyedropper-api",
+    "series": {
+      "shortname": "eyedropper-api",
+      "currentSpecification": "eyedropper-api",
+      "nightlyUrl": "https://wicg.github.io/eyedropper-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/eyedropper-api/",
+      "repository": "https://github.com/WICG/eyedropper-api",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "EyeDropper API",
+    "source": "spec",
+    "shortTitle": "EyeDropper API"
+  },
+  {
     "url": "https://wicg.github.io/file-system-access/",
     "seriesComposition": "full",
     "shortname": "file-system-access",
@@ -2975,6 +3085,32 @@
         "import-maps"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/ink-enhancement/",
+    "seriesComposition": "full",
+    "shortname": "ink-enhancement",
+    "series": {
+      "shortname": "ink-enhancement",
+      "currentSpecification": "ink-enhancement",
+      "nightlyUrl": "https://wicg.github.io/ink-enhancement/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/ink-enhancement/",
+      "repository": "https://github.com/WICG/ink-enhancement",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Ink API",
+    "source": "spec",
+    "shortTitle": "Ink API"
   },
   {
     "url": "https://wicg.github.io/input-device-capabilities/",
@@ -3990,6 +4126,32 @@
         "ua-client-hints"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/urlpattern/",
+    "seriesComposition": "full",
+    "shortname": "urlpattern",
+    "series": {
+      "shortname": "urlpattern",
+      "currentSpecification": "urlpattern",
+      "nightlyUrl": "https://wicg.github.io/urlpattern/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/urlpattern/",
+      "repository": "https://github.com/WICG/urlpattern",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "URLPattern API",
+    "source": "spec",
+    "shortTitle": "URLPattern API"
   },
   {
     "url": "https://wicg.github.io/user-preference-media-features-headers/",
@@ -12763,6 +12925,37 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/secure-payment-confirmation/",
+    "seriesComposition": "full",
+    "shortname": "secure-payment-confirmation",
+    "series": {
+      "shortname": "secure-payment-confirmation",
+      "currentSpecification": "secure-payment-confirmation",
+      "releaseUrl": "https://www.w3.org/TR/secure-payment-confirmation/",
+      "nightlyUrl": "https://w3c.github.io/secure-payment-confirmation"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/Payments/WG/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/secure-payment-confirmation/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/secure-payment-confirmation",
+      "repository": "https://github.com/w3c/secure-payment-confirmation",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Secure Payment Confirmation",
+    "source": "w3c",
+    "shortTitle": "Secure Payment Confirmation"
+  },
+  {
     "url": "https://www.w3.org/TR/selection-api/",
     "seriesComposition": "full",
     "shortname": "selection-api",
@@ -14170,7 +14363,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "WebIDL"
+        "webidl"
       ]
     }
   },

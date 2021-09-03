@@ -1,9 +1,5 @@
 {
   "repos": {
-    "w3c/secure-payment-confirmation": {
-      "comment": "stub spec only",
-      "lastreviewed": "2021-09-01"
-    },
     "privacycg/storage-partitioning": {
       "comment": "mostly TODOs",
       "lastreviewed": "2021-09-01"
@@ -64,10 +60,6 @@
       "comment": "Likely candidate for ignoring - see archival discussion at https://github.com/WICG/container-queries/issues/14",
       "lastreviewed": "2021-09-01"
     },
-    "WICG/conversion-measurement-api": {
-      "comment": "no clear implementation plan yet; tracked in https://www.chromestatus.com/features/6412002824028160",
-      "lastreviewed": "2021-09-01"
-    },
     "WICG/display-locking": {
       "comment": "Currently redirects to CSS spec, but with change expected in July 2020?",
       "lastreviewed": "2021-09-01"
@@ -85,7 +77,7 @@
       "lastreviewed": "2021-09-01"
     },
     "WICG/WebID": {
-      "comment": "Early exploration",
+      "comment": "Early exploration, flagged as no active development in https://www.chromestatus.com/feature/6438627087220736",
       "lastreviewed": "2021-09-01"
     },
     "WICG/kv-storage": {
@@ -127,10 +119,6 @@
     "WICG/image-output": {
       "lastreviewed": "2021-09-01",
       "comment": "no published content yet"
-    },
-    "WICG/ink-enhancement": {
-      "lastreviewed": "2021-09-01",
-      "comment": "no clear implementation plans"
     },
     "WICG/lang-client-hint": {
       "lastreviewed": "2021-09-01",
@@ -212,10 +200,6 @@
       "lastreviewed": "2021-09-01",
       "comment": "no published content yet"
     },
-    "WICG/urlpattern": {
-      "lastreviewed": "2021-09-01",
-      "comment": "no published content yet"
-    },
     "immersive-web/detached-elements": {
       "lastreviewed": "2021-09-01",
       "comment": "no published content yet"
@@ -234,7 +218,7 @@
     },
     "immersive-web/marker-tracking": {
       "lastreviewed": "2021-09-01",
-      "comment": "no published content yet"
+      "comment": "marked as unstable API"
     },
     "WICG/WebApiDevice": {
       "lastreviewed": "2021-09-01",
@@ -247,14 +231,6 @@
     "WebAudio/web-audio-api-v2": {
       "lastreviewed": "2021-09-01",
       "comment": "no spec yet"
-    },
-    "WICG/app-history": {
-      "lastreviewed": "2021-09-01",
-      "comment": "No clear implementation plan - tracked at https://www.chromestatus.com/features/6232287446302720"
-    },
-    "WICG/scheduling-apis": {
-      "lastreviewed": "2021-09-01",
-      "comment": "No clear implementation plans - tracked at https://www.chromestatus.com/features/6031161734201344"
     },
     "WICG/resource-bundles": {
       "lastreviewed": "2021-09-01",
@@ -296,15 +272,7 @@
       "lastreviewed": "2021-09-01",
       "comment": "Marked as unofficial proposal"
     },
-    "WICG/credentiallessness": {
-      "lastreviewed": "2021-09-01",
-      "comment": "Marked as a collection of ideas"
-    },
     "privacycg/ad-topic-hints": {
-      "lastreviewed": "2021-09-01",
-      "comment": "no published content yet"
-    },
-    "WICG/eyedropper-api": {
       "lastreviewed": "2021-09-01",
       "comment": "no published content yet"
     },

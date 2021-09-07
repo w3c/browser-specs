@@ -1939,7 +1939,7 @@
       "filename": "Overview.html"
     },
     "title": "Incremental Font Transfer",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Incremental Font Transfer"
   },
   {
@@ -12911,7 +12911,7 @@
     "nightly": {
       "url": "https://w3c.github.io/webappsec-secure-contexts/",
       "repository": "https://github.com/w3c/webappsec-secure-contexts",
-      "sourcePath": "index.src.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Secure Contexts",

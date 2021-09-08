@@ -9062,9 +9062,9 @@
       "sourcePath": "css-scrollbars-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Scrollbars Module Level 1",
+    "title": "CSS Scrollbars Styling Module Level 1",
     "source": "w3c",
-    "shortTitle": "CSS Scrollbars 1",
+    "shortTitle": "CSS Scrollbars Styling 1",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

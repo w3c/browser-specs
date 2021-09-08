@@ -488,9 +488,9 @@
       "sourcePath": "css-scoping-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Scoping Module Level 2",
+    "title": "CSS Cascading and Inheritance Level 6",
     "source": "spec",
-    "shortTitle": "CSS Scoping 2",
+    "shortTitle": "CSS Cascading and Inheritance 6",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

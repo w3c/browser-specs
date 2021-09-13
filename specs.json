@@ -134,7 +134,12 @@
   "https://wicg.github.io/cookie-store/",
   "https://wicg.github.io/crash-reporting/",
   "https://wicg.github.io/credentiallessness/",
-  "https://wicg.github.io/csp-next/scripting-policy.html",
+  {
+    "url": "https://wicg.github.io/csp-next/scripting-policy.html",
+    "nightly": {
+      "sourcePath": "scripting-policy.bs"
+    }
+  },
   "https://wicg.github.io/css-parser-api/",
   "https://wicg.github.io/custom-state-pseudo-class/",
   "https://wicg.github.io/datacue/",

@@ -229,6 +229,41 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-cascade-6/",
+    "seriesComposition": "delta",
+    "shortname": "css-cascade-6",
+    "series": {
+      "shortname": "css-cascade",
+      "currentSpecification": "css-cascade-4",
+      "releaseUrl": "https://www.w3.org/TR/css-cascade/",
+      "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
+    },
+    "seriesVersion": "6",
+    "seriesPrevious": "css-cascade-5",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-cascade-6/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-cascade-6/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Cascading and Inheritance Level 6",
+    "source": "spec",
+    "shortTitle": "CSS Cascading and Inheritance 6",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-cascade"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-env-1/",
     "seriesComposition": "full",
     "shortname": "css-env-1",
@@ -460,41 +495,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "css/css-page"
-      ]
-    }
-  },
-  {
-    "url": "https://drafts.csswg.org/css-scoping-2/",
-    "seriesComposition": "delta",
-    "shortname": "css-scoping-2",
-    "series": {
-      "shortname": "css-scoping",
-      "currentSpecification": "css-scoping-1",
-      "releaseUrl": "https://www.w3.org/TR/css-scoping/",
-      "nightlyUrl": "https://drafts.csswg.org/css-scoping/"
-    },
-    "seriesVersion": "2",
-    "seriesPrevious": "css-scoping-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-scoping-2/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-scoping-2/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Cascading and Inheritance Level 6",
-    "source": "spec",
-    "shortTitle": "CSS Cascading and Inheritance 6",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-scoping"
       ]
     }
   },
@@ -2425,6 +2425,32 @@
     }
   },
   {
+    "url": "https://wicg.github.io/close-watcher/",
+    "seriesComposition": "full",
+    "shortname": "close-watcher",
+    "series": {
+      "shortname": "close-watcher",
+      "currentSpecification": "close-watcher",
+      "nightlyUrl": "https://wicg.github.io/close-watcher/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/close-watcher/",
+      "repository": "https://github.com/WICG/close-watcher",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Close Watcher API",
+    "source": "spec",
+    "shortTitle": "Close Watcher API"
+  },
+  {
     "url": "https://wicg.github.io/compression/",
     "seriesComposition": "full",
     "shortname": "compression",
@@ -2629,6 +2655,31 @@
     "title": "Cross-Origin-Embedder-Policy: credentialless",
     "source": "spec",
     "shortTitle": "Cross-Origin-Embedder-Policy: credentialless"
+  },
+  {
+    "url": "https://wicg.github.io/csp-next/scripting-policy.html",
+    "seriesComposition": "full",
+    "shortname": "csp-next",
+    "series": {
+      "shortname": "csp-next",
+      "currentSpecification": "csp-next",
+      "nightlyUrl": "https://wicg.github.io/csp-next/scripting-policy.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/csp-next/scripting-policy.html",
+      "repository": "https://github.com/WICG/csp-next",
+      "filename": "scripting-policy.html"
+    },
+    "title": "Scripting Policy",
+    "source": "spec",
+    "shortTitle": "Scripting Policy"
   },
   {
     "url": "https://wicg.github.io/css-parser-api/",
@@ -7322,6 +7373,7 @@
     "seriesVersion": "5",
     "shortTitle": "CSS Cascading 5",
     "seriesPrevious": "css-cascade-4",
+    "seriesNext": "css-cascade-6",
     "organization": "W3C",
     "groups": [
       {
@@ -8930,7 +8982,6 @@
       "nightlyUrl": "https://drafts.csswg.org/css-scoping/"
     },
     "seriesVersion": "1",
-    "seriesNext": "css-scoping-2",
     "organization": "W3C",
     "groups": [
       {

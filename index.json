@@ -2665,6 +2665,12 @@
       "currentSpecification": "csp-next",
       "nightlyUrl": "https://wicg.github.io/csp-next/scripting-policy.html"
     },
+    "nightly": {
+      "url": "https://wicg.github.io/csp-next/scripting-policy.html",
+      "sourcePath": "scripting-policy.bs",
+      "repository": "https://github.com/WICG/csp-next",
+      "filename": "scripting-policy.html"
+    },
     "organization": "W3C",
     "groups": [
       {
@@ -2672,11 +2678,6 @@
         "url": "https://www.w3.org/community/wicg/"
       }
     ],
-    "nightly": {
-      "url": "https://wicg.github.io/csp-next/scripting-policy.html",
-      "repository": "https://github.com/WICG/csp-next",
-      "filename": "scripting-policy.html"
-    },
     "title": "Scripting Policy",
     "source": "spec",
     "shortTitle": "Scripting Policy"

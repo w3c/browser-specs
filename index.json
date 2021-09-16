@@ -1535,6 +1535,32 @@
     "shortTitle": "import assertions"
   },
   {
+    "url": "https://tc39.es/proposal-intl-locale-info/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-locale-info",
+    "series": {
+      "shortname": "tc39-intl-locale-info",
+      "currentSpecification": "tc39-intl-locale-info",
+      "nightlyUrl": "https://tc39.es/proposal-intl-locale-info/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-locale-info/",
+      "repository": "https://github.com/tc39/proposal-intl-locale-info",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Intl Locale Info Proposal",
+    "source": "spec",
+    "shortTitle": "Intl Locale Info Proposal"
+  },
+  {
     "url": "https://tc39.es/proposal-json-modules/",
     "seriesComposition": "full",
     "shortname": "tc39-json-modules",

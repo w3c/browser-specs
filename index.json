@@ -11670,7 +11670,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/mixed-content/",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "nightly": {
       "url": "https://w3c.github.io/webappsec-mixed-content/",
@@ -11678,9 +11678,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Mixed Content",
+    "title": "Mixed Content Level 2",
     "source": "w3c",
-    "shortTitle": "Mixed Content",
+    "shortTitle": "Mixed Content 2",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

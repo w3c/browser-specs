@@ -4,6 +4,19 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.12.0](https://github.com/w3c/browser-specs/compare/2.11.0...2.12.0) - 2021-09-16
+
+
+### Merged
+
+- Add https://tc39.es/proposal-intl-locale-info [`#378`](https://github.com/w3c/browser-specs/pull/378)
+
+
+### Commits
+
+- [data] Update spec info [`7fc871a`](https://github.com/w3c/browser-specs/commit/7fc871a3da2a58a9c799c419881a9ddf96f8a87c)
+- [data] Update spec info [`eafdcb7`](https://github.com/w3c/browser-specs/commit/eafdcb781228b633b4aa17ffeec5829289e8660d)
+
 ## [2.11.0](https://github.com/w3c/browser-specs/compare/2.10.0...2.11.0) - 2021-09-13
 
 

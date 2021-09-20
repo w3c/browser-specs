@@ -279,6 +279,10 @@
     "WICG/color-api": {
       "lastreviewed": "2021-09-01",
       "comment": "early exploration phase; no clear implementation plan yet"
+    },
+    "w3c/PNG-spec": {
+      "lastreviewed": "2021-09-20",
+      "comment": "spec does not yet follow usual formatting rules (dfns, refs)"
     }
   },
   "specs": {

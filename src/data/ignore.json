@@ -262,6 +262,9 @@
     "https://drafts.fxtf.org/web-anim/": {
       "comment": "redirects to https://drafts.csswg.org/web-animations/"
     },
+    "https://drafts.csswg.org/css-scoping-2/": {
+      "comment": "redirects to https://drafts.csswg.org/css-cascade-6/"
+    },
     "https://drafts.csswg.org/css-2007/": {
       "comment": "not a spec, but a collection"
     },

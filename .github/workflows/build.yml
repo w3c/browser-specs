@@ -3,7 +3,7 @@ on:
     - cron: '10 */6 * * *'
   push:
     branches:
-    - main
+    - master
 name: Update spec info
 jobs:
   fetch:

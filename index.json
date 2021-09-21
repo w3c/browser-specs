@@ -14360,9 +14360,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "WebDriver - Level 2",
+    "title": "WebDriver",
     "source": "w3c",
-    "shortTitle": "WebDriver 2",
+    "shortTitle": "WebDriver",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

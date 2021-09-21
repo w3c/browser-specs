@@ -2249,7 +2249,7 @@
       "filename": "index.html"
     },
     "title": "WebRTC Encoded Transform",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebRTC Encoded Transform",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",

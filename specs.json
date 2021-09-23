@@ -117,7 +117,6 @@
   "https://w3c.github.io/webappsec-change-password-url/",
   "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
   "https://w3c.github.io/webdriver-bidi/",
-  "https://w3c.github.io/webrtc-encoded-transform/",
   "https://w3c.github.io/webrtc-ice/",
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://wicg.github.io/app-history/",
@@ -680,6 +679,7 @@
   "https://www.w3.org/TR/WebIDL-1/",
   "https://www.w3.org/TR/webmidi/",
   "https://www.w3.org/TR/webnn/",
+  "https://www.w3.org/TR/webrtc-encoded-transform/",
   "https://www.w3.org/TR/webrtc-identity/",
   "https://www.w3.org/TR/webrtc-priority/",
   {

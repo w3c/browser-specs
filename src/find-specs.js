@@ -95,7 +95,10 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   // we only watch stage 3 proposals, which are in the first table on the page above
     .then(dom => [...dom.window.document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href));
 
-  
+  const ecmaIntlProposals = await JSDOM.fromURL("https://github.com/tc39/proposals/blob/master/ecma402/README.md")
+  // we only watch stage 3 proposals, which are in the first table on the page above
+    .then(dom => [...dom.window.document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href));
+
   const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
 
   const wgs = Object.values(groups).filter(g => g.type === "working group" && !nonBrowserSpecWgs.includes(g.name));
@@ -191,7 +194,7 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
                                  .filter(isInScope));
 
   // Check for new TC39 Stage 3 proposals
-  candidates = candidates.concat(ecmaProposals.map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace('https://github.com/tc39/', 'https://tc39.es/').replace('https://github.com/tc39-transfer/', 'https://tc39.es/') + '/'};})
+  candidates = candidates.concat(ecmaProposals.concat(ecmaIntlProposals).map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace('https://github.com/tc39/', 'https://tc39.es/').replace('https://github.com/tc39-transfer/', 'https://tc39.es/') + '/'};})
                                  .filter(hasUntrackedURL)
                                  .filter(isInScope));
 

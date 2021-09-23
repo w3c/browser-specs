@@ -2227,38 +2227,6 @@
     "shortTitle": "WebDriver BiDi"
   },
   {
-    "url": "https://w3c.github.io/webrtc-encoded-transform/",
-    "seriesComposition": "full",
-    "shortname": "webrtc-encoded-transform",
-    "series": {
-      "shortname": "webrtc-encoded-transform",
-      "currentSpecification": "webrtc-encoded-transform",
-      "nightlyUrl": "https://w3c.github.io/webrtc-encoded-transform/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/webrtc-encoded-transform/",
-      "repository": "https://github.com/w3c/webrtc-encoded-transform",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebRTC Encoded Transform",
-    "source": "specref",
-    "shortTitle": "WebRTC Encoded Transform",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webrtc-encoded-transform"
-      ]
-    }
-  },
-  {
     "url": "https://w3c.github.io/webrtc-ice/",
     "seriesComposition": "full",
     "shortname": "webrtc-ice",
@@ -14512,6 +14480,43 @@
     "title": "Web Neural Network API",
     "source": "w3c",
     "shortTitle": "Web Neural Network API"
+  },
+  {
+    "url": "https://www.w3.org/TR/webrtc-encoded-transform/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-encoded-transform",
+    "series": {
+      "shortname": "webrtc-encoded-transform",
+      "currentSpecification": "webrtc-encoded-transform",
+      "releaseUrl": "https://www.w3.org/TR/webrtc-encoded-transform/",
+      "nightlyUrl": "https://w3c.github.io/webrtc-encoded-transform/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-encoded-transform/",
+      "repository": "https://github.com/w3c/webrtc-encoded-transform",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebRTC Encoded Transform",
+    "source": "w3c",
+    "shortTitle": "WebRTC Encoded Transform",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webrtc-encoded-transform"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/webrtc-identity/",

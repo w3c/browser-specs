@@ -291,6 +291,10 @@
     "whatwg/testutils": {
       "lastreviewed": "2021-09-27",
       "comment": "Repo does not exist yet but should come to life at some point"
+    },
+    "tc39/proposal-intl-numberformat-v3": {
+      "lastreviewed": "2021-09-27",
+      "comment": "Proposal just exists as a readme for now"
     }
   },
   "specs": {

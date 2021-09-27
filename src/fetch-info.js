@@ -258,7 +258,10 @@ async function fetchInfoFromSpecs(specs, options) {
     const dom = await JSDOM.fromURL(spec.url);
 
     if (spec.url.startsWith("https://tc39.es/")) {
-      const h1ecma = [...dom.window.document.querySelectorAll("h1")][1];
+      // Title is either flagged with specific class or the second h1
+      const h1ecma =
+        dom.window.document.querySelector('#spec-container h1.title') ??
+        dom.window.document.querySelectorAll("h1")[1];
       if (h1ecma) {
         return {
           nightly: { url: spec.url },

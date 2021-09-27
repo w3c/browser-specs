@@ -82,5 +82,17 @@ describe("fetch-info module (without W3C API key)", function () {
       assert.equal(info[spec.shortname].nightly.url, spec.url);
       assert.equal(info[spec.shortname].title, "TPAC 2019 - New Features");
     });
+
+    it("extracts right title from an ECMAScript proposal spec", async () => {
+      const spec = {
+        url: "https://tc39.es/proposal-intl-segmenter/",
+        shortname: "tc39-intl-segmenter"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+      assert.equal(info[spec.shortname].nightly.url, spec.url);
+      assert.equal(info[spec.shortname].title, "Intl.Segmenter Proposal");
+    });
   });
 });

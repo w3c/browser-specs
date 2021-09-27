@@ -87,7 +87,10 @@
   },
   {
     "url": "https://tc39.es/intl-displaynames-v2/",
-    "shortname": "intl-displaynames-v2"
+    "shortname": "tc39-intl-displaynames-v2",
+    "series": {
+      "shortname": "tc39-intl-displaynames"
+    }
   },
   "https://tc39.es/proposal-accessible-object-hasownproperty/",
   "https://tc39.es/proposal-array-find-from-last/",
@@ -99,7 +102,6 @@
   "https://tc39.es/proposal-intl-enumeration/",
   "https://tc39.es/proposal-intl-extend-timezonename/",
   "https://tc39.es/proposal-intl-locale-info/",
-  "https://tc39.es/proposal-intl-numberformat-v3/",
   "https://tc39.es/proposal-intl-segmenter/",
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-private-fields-in-in/",

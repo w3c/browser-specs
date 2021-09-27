@@ -1353,6 +1353,33 @@
     "shortTitle": "ECMAScript Internationalization API"
   },
   {
+    "url": "https://tc39.es/intl-displaynames-v2/",
+    "seriesComposition": "full",
+    "shortname": "intl-displaynames-v2",
+    "series": {
+      "shortname": "intl-displaynames-v",
+      "currentSpecification": "intl-displaynames-v2",
+      "nightlyUrl": "https://tc39.es/intl-displaynames-v/"
+    },
+    "seriesVersion": "2",
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/intl-displaynames-v2/",
+      "repository": "https://github.com/tc39/intl-displaynames-v2",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Intl.DisplayNames v2 Proposal",
+    "source": "spec",
+    "shortTitle": "Intl.DisplayNames v2 Proposal"
+  },
+  {
     "url": "https://tc39.es/proposal-accessible-object-hasownproperty/",
     "seriesComposition": "full",
     "shortname": "tc39-accessible-object-hasownproperty",
@@ -1535,6 +1562,58 @@
     "shortTitle": "import assertions"
   },
   {
+    "url": "https://tc39.es/proposal-intl-enumeration/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-enumeration",
+    "series": {
+      "shortname": "tc39-intl-enumeration",
+      "currentSpecification": "tc39-intl-enumeration",
+      "nightlyUrl": "https://tc39.es/proposal-intl-enumeration/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-enumeration/",
+      "repository": "https://github.com/tc39/proposal-intl-enumeration",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Intl Enumeration API Specification",
+    "source": "spec",
+    "shortTitle": "Intl Enumeration API"
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-extend-timezonename/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-extend-timezonename",
+    "series": {
+      "shortname": "tc39-intl-extend-timezonename",
+      "currentSpecification": "tc39-intl-extend-timezonename",
+      "nightlyUrl": "https://tc39.es/proposal-intl-extend-timezonename/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-extend-timezonename/",
+      "repository": "https://github.com/tc39/proposal-intl-extend-timezonename",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Extend TimeZoneName Option Proposal",
+    "source": "spec",
+    "shortTitle": "Extend TimeZoneName Option Proposal"
+  },
+  {
     "url": "https://tc39.es/proposal-intl-locale-info/",
     "seriesComposition": "full",
     "shortname": "tc39-intl-locale-info",
@@ -1559,6 +1638,58 @@
     "title": "Intl Locale Info Proposal",
     "source": "spec",
     "shortTitle": "Intl Locale Info Proposal"
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-numberformat-v3",
+    "series": {
+      "shortname": "tc39-intl-numberformat-v",
+      "currentSpecification": "tc39-intl-numberformat-v3",
+      "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/"
+    },
+    "seriesVersion": "3",
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-numberformat-v3/",
+      "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+      "filename": "index.html"
+    },
+    "title": "ECMA-402 Proposal: Intl.NumberFormat V3",
+    "source": "spec",
+    "shortTitle": "ECMA-402 Proposal: Intl.NumberFormat V3"
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-segmenter/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-segmenter",
+    "series": {
+      "shortname": "tc39-intl-segmenter",
+      "currentSpecification": "tc39-intl-segmenter",
+      "nightlyUrl": "https://tc39.es/proposal-intl-segmenter/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-segmenter/",
+      "repository": "https://github.com/tc39/proposal-intl-segmenter",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Intl.Segmenter Proposal",
+    "source": "spec",
+    "shortTitle": "Intl.Segmenter Proposal"
   },
   {
     "url": "https://tc39.es/proposal-json-modules/",
@@ -2475,6 +2606,32 @@
         "compression"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/compute-pressure/",
+    "seriesComposition": "full",
+    "shortname": "compute-pressure",
+    "series": {
+      "shortname": "compute-pressure",
+      "currentSpecification": "compute-pressure",
+      "nightlyUrl": "https://wicg.github.io/compute-pressure/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/compute-pressure/",
+      "repository": "https://github.com/WICG/compute-pressure",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Compute Pressure API",
+    "source": "spec",
+    "shortTitle": "Compute Pressure API"
   },
   {
     "url": "https://wicg.github.io/contact-api/spec/",

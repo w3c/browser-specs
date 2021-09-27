@@ -85,6 +85,10 @@
       ]
     }
   },
+  {
+    "url": "https://tc39.es/intl-displaynames-v2/",
+    "shortname": "intl-displaynames-v2"
+  },
   "https://tc39.es/proposal-accessible-object-hasownproperty/",
   "https://tc39.es/proposal-array-find-from-last/",
   "https://tc39.es/proposal-atomics-wait-async/",
@@ -92,7 +96,11 @@
   "https://tc39.es/proposal-class-static-block/",
   "https://tc39.es/proposal-error-cause/",
   "https://tc39.es/proposal-import-assertions/",
+  "https://tc39.es/proposal-intl-enumeration/",
+  "https://tc39.es/proposal-intl-extend-timezonename/",
   "https://tc39.es/proposal-intl-locale-info/",
+  "https://tc39.es/proposal-intl-numberformat-v3/",
+  "https://tc39.es/proposal-intl-segmenter/",
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-private-fields-in-in/",
   "https://tc39.es/proposal-private-methods/",
@@ -128,6 +136,8 @@
   "https://wicg.github.io/client-hints-infrastructure/",
   "https://wicg.github.io/close-watcher/",
   "https://wicg.github.io/compression/",
+  "https://wicg.github.io/compute-pressure/",
+  "https://wicg.github.io/conditional-focus/",
   "https://wicg.github.io/contact-api/spec/",
   "https://wicg.github.io/content-index/spec/",
   "https://wicg.github.io/conversion-measurement-api/",

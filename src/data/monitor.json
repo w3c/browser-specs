@@ -283,6 +283,14 @@
     "w3c/PNG-spec": {
       "lastreviewed": "2021-09-20",
       "comment": "spec does not yet follow usual formatting rules (dfns, refs)"
+    },
+    "WICG/conditional-focus": {
+      "lastreviewed": "2021-09-27",
+      "comment": "spec should get integrated in Screen Capture, see https://github.com/w3c/mediacapture-screen-share/issues/190"
+    },
+    "whatwg/testutils": {
+      "lastreviewed": "2021-09-27",
+      "comment": "Repo does not exist yet but should come to life at some point"
     }
   },
   "specs": {

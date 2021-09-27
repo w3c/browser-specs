@@ -1355,11 +1355,11 @@
   {
     "url": "https://tc39.es/intl-displaynames-v2/",
     "seriesComposition": "full",
-    "shortname": "intl-displaynames-v2",
+    "shortname": "tc39-intl-displaynames-v2",
     "series": {
-      "shortname": "intl-displaynames-v",
-      "currentSpecification": "intl-displaynames-v2",
-      "nightlyUrl": "https://tc39.es/intl-displaynames-v/"
+      "shortname": "tc39-intl-displaynames",
+      "currentSpecification": "tc39-intl-displaynames-v2",
+      "nightlyUrl": "https://tc39.es/intl-displaynames-v2/"
     },
     "seriesVersion": "2",
     "organization": "Ecma International",
@@ -1638,32 +1638,6 @@
     "title": "Intl Locale Info Proposal",
     "source": "spec",
     "shortTitle": "Intl Locale Info Proposal"
-  },
-  {
-    "url": "https://tc39.es/proposal-intl-numberformat-v3/",
-    "seriesComposition": "full",
-    "shortname": "tc39-intl-numberformat-v3",
-    "series": {
-      "shortname": "tc39-intl-numberformat-v",
-      "currentSpecification": "tc39-intl-numberformat-v3",
-      "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/"
-    },
-    "seriesVersion": "3",
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-intl-numberformat-v3/",
-      "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
-      "filename": "index.html"
-    },
-    "title": "ECMA-402 Proposal: Intl.NumberFormat V3",
-    "source": "spec",
-    "shortTitle": "ECMA-402 Proposal: Intl.NumberFormat V3"
   },
   {
     "url": "https://tc39.es/proposal-intl-segmenter/",

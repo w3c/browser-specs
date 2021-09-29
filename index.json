@@ -6567,6 +6567,60 @@
     "shortTitle": "HTTP Client Hints"
   },
   {
+    "url": "https://www.w3.org/Consortium/Patent-Policy/",
+    "seriesComposition": "full",
+    "shortname": "w3c-patent-policy",
+    "series": {
+      "shortname": "w3c-patent-policy",
+      "currentSpecification": "w3c-patent-policy",
+      "nightlyUrl": "https://www.w3.org/Consortium/Patent-Policy/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Patents and Standards Interest Group",
+        "url": "https://www.w3.org/2004/pp/psig/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.w3.org/Consortium/Patent-Policy/",
+      "filename": "Overview.html"
+    },
+    "title": "W3C Patent Policy",
+    "source": "spec",
+    "shortTitle": "W3C Patent Policy"
+  },
+  {
+    "url": "https://www.w3.org/Consortium/Process/",
+    "seriesComposition": "full",
+    "shortname": "w3c-process",
+    "series": {
+      "shortname": "w3c-process",
+      "currentSpecification": "w3c-process",
+      "nightlyUrl": "https://www.w3.org/Consortium/Process/"
+    },
+    "groups": [
+      {
+        "name": "Advisory Board",
+        "url": "https://www.w3.org/Member/Board/"
+      },
+      {
+        "name": "W3C Process Community Group ",
+        "url": "https://www.w3.org/community/w3process/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.w3.org/Consortium/Process/",
+      "repository": "https://github.com/w3c/w3process",
+      "sourcePath": "index.bs",
+      "filename": "Overview.html"
+    },
+    "organization": "W3C",
+    "title": "W3C Process Document",
+    "source": "spec",
+    "shortTitle": "W3C Process Document"
+  },
+  {
     "url": "https://www.w3.org/TR/accelerometer/",
     "seriesComposition": "full",
     "shortname": "accelerometer",

@@ -4,6 +4,16 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.14.0](https://github.com/w3c/browser-specs/compare/2.13.0...2.14.0) - 2021-09-29
+
+### Merged
+
+- Add W3C Process and Patent Policy document, adjust tools and tests [`#391`](https://github.com/w3c/browser-specs/pull/391)
+
+### Commits
+
+- [data] Update spec info [`ccbd367`](https://github.com/w3c/browser-specs/commit/ccbd3678c9bd1109fae799195b6c0dbeb2081f4e)
+
 ## [2.13.0](https://github.com/w3c/browser-specs/compare/2.12.0...2.13.0) - 2021-09-27
 
 ### Merged

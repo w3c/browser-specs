@@ -103,12 +103,18 @@ describe("List of specs", () => {
   });
 
   it("contains repository URLs for all non IETF specs", () => {
-    const wrong = specs.filter(s => !s.nightly.repository && !s.nightly.url.match(/rfc-editor\.org/));
+    // No repo for the Patent Policy document either
+    const wrong = specs.filter(s => !s.nightly.repository &&
+      !s.nightly.url.match(/rfc-editor\.org/) &&
+      !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/));
     assert.deepStrictEqual(wrong, []);
   });
 
   it("contains relative paths to source of nightly spec for all non IETF specs", () => {
-    const wrong = specs.filter(s => !s.nightly.sourcePath && !s.nightly.url.match(/rfc-editor\.org/));
+    // No repo for the Patent Policy document either
+    const wrong = specs.filter(s => !s.nightly.sourcePath &&
+      !s.nightly.url.match(/rfc-editor\.org/) &&
+      !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/));
     assert.deepStrictEqual(wrong, []);
   });
 

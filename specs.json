@@ -320,6 +320,34 @@
   "https://www.rfc-editor.org/rfc/rfc8246",
   "https://www.rfc-editor.org/rfc/rfc8470",
   "https://www.rfc-editor.org/rfc/rfc8942",
+  {
+    "url": "https://www.w3.org/Consortium/Patent-Policy/",
+    "shortname": "w3c-patent-policy",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Patents and Standards Interest Group",
+        "url": "https://www.w3.org/2004/pp/psig/"
+      }
+    ]
+  },
+  {
+    "url": "https://www.w3.org/Consortium/Process/",
+    "shortname": "w3c-process",
+    "groups": [
+      {
+        "name": "Advisory Board",
+        "url": "https://www.w3.org/Member/Board/"
+      },
+      {
+        "name": "W3C Process Community Group ",
+        "url": "https://www.w3.org/community/w3process/"
+      }
+    ],
+    "nightly": {
+      "repository": "https://github.com/w3c/w3process/"
+    }
+  },
   "https://www.w3.org/TR/accelerometer/",
   "https://www.w3.org/TR/accname-1.2/",
   "https://www.w3.org/TR/ambient-light/",

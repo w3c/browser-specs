@@ -52,4 +52,20 @@ describe("fetch-groups module (without API keys)", function () {
     assert.equal(res[0].organization, spec.organization);
     assert.deepStrictEqual(res[0].groups, spec.groups);
   });
+
+  it("preserves provided info for Patent Policy", async () => {
+    const spec = {
+      "url": "https://www.w3.org/Consortium/Patent-Policy/",
+      "shortname": "w3c-patent-policy",
+      "groups": [
+        {
+          "name": "Patents and Standards Interest Group",
+          "url": "https://www.w3.org/2004/pp/psig/"
+        }
+      ]
+    };
+    const res = await fetchGroups([spec]);
+    assert.equal(res[0].organization, "W3C");
+    assert.deepStrictEqual(res[0].groups, spec.groups);
+  });
 });

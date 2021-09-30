@@ -575,7 +575,7 @@
   "https://www.w3.org/TR/manifest-app-info/",
   "https://www.w3.org/TR/media-capabilities/",
   {
-    "url": "https://www.w3.org/TR/media-source/",
+    "url": "https://www.w3.org/TR/media-source-2/",
     "nightly": {
       "sourcePath": "media-source-respec.html"
     }

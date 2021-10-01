@@ -4,6 +4,13 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.14.1](https://github.com/w3c/browser-specs/compare/2.14.0...2.14.1) - 2021-10-01
+
+### Commits
+
+- [data] Update spec info [`1cd8c22`](https://github.com/w3c/browser-specs/commit/1cd8c22c3b0309ff6a0912ba6cc4c7049e434475)
+- Update MSE URL following FPWD publication [`c7ccdb4`](https://github.com/w3c/browser-specs/commit/c7ccdb4803b178c8e3f3a97303200ace4ad9c5d8)
+
 ## [2.14.0](https://github.com/w3c/browser-specs/compare/2.13.0...2.14.0) - 2021-09-29
 
 ### Merged

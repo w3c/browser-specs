@@ -181,6 +181,9 @@
     },
     "w3c/merchant-validation": {
       "comment": "Deprecated API documenting legacy implementation"
+    },
+    "WICG/frame-timing": {
+      "comment": "No longer being pursued, see https://github.com/w3c/browser-specs/pull/394"
     }
   },
   "specs": {

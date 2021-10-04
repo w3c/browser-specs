@@ -3142,32 +3142,6 @@
     "shortTitle": "Federated Learning of Cohorts"
   },
   {
-    "url": "https://wicg.github.io/frame-timing/",
-    "seriesComposition": "full",
-    "shortname": "frame-timing",
-    "series": {
-      "shortname": "frame-timing",
-      "currentSpecification": "frame-timing",
-      "nightlyUrl": "https://wicg.github.io/frame-timing/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/frame-timing/",
-      "repository": "https://github.com/WICG/frame-timing",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Frame Timing",
-    "source": "specref",
-    "shortTitle": "Frame Timing"
-  },
-  {
     "url": "https://wicg.github.io/get-installed-related-apps/spec/",
     "seriesComposition": "full",
     "shortname": "get-installed-related-apps",
@@ -11858,9 +11832,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Mixed Content Level 2",
+    "title": "Mixed Content",
     "source": "w3c",
-    "shortTitle": "Mixed Content 2",
+    "shortTitle": "Mixed Content",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

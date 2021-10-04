@@ -4,6 +4,16 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.15.0](https://github.com/w3c/browser-specs/compare/2.14.1...2.15.0) - 2021-10-04
+
+### Merged
+
+- Remove frame-timing, as no longer being pursued [`#394`](https://github.com/w3c/browser-specs/pull/394)
+
+### Commits
+
+- [data] Update spec info [`d092629`](https://github.com/w3c/browser-specs/commit/d092629779d3d75d155caeb7f7550ad846e83133)
+
 ## [2.14.1](https://github.com/w3c/browser-specs/compare/2.14.0...2.14.1) - 2021-10-01
 
 ### Commits

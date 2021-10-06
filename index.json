@@ -2396,6 +2396,38 @@
     }
   },
   {
+    "url": "https://webidl.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "webidl",
+    "series": {
+      "shortname": "webidl",
+      "currentSpecification": "webidl",
+      "nightlyUrl": "https://heycam.github.io/webidl/"
+    },
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Web IDL Workstream",
+        "url": "https://webidl.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://heycam.github.io/webidl/",
+      "repository": "https://github.com/heycam/webidl",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web IDL",
+    "source": "specref",
+    "shortTitle": "Web IDL",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webidl"
+      ]
+    }
+  },
+  {
     "url": "https://wicg.github.io/app-history/",
     "seriesComposition": "full",
     "shortname": "app-history",
@@ -14534,44 +14566,6 @@
     "title": "WebGPU",
     "source": "w3c",
     "shortTitle": "WebGPU"
-  },
-  {
-    "url": "https://www.w3.org/TR/WebIDL-1/",
-    "seriesComposition": "full",
-    "shortname": "WebIDL-1",
-    "series": {
-      "shortname": "WebIDL",
-      "currentSpecification": "WebIDL-1",
-      "releaseUrl": "https://www.w3.org/TR/WebIDL/",
-      "nightlyUrl": "https://heycam.github.io/webidl/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Working Group",
-        "url": "https://www.w3.org/WebPlatform/WG/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/WebIDL-1/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://heycam.github.io/webidl/",
-      "repository": "https://github.com/heycam/webidl",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebIDL Level 1",
-    "source": "w3c",
-    "shortTitle": "WebIDL 1",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webidl"
-      ]
-    }
   },
   {
     "url": "https://www.w3.org/TR/webmidi/",

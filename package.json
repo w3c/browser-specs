@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@actions/core": "^1.2.6",
-    "@octokit/rest": "^18.0.12",
+    "@octokit/rest": "^18.11.4",
     "ajv": "^6.11.0",
     "auto-changelog": "^1.16.4",
     "jsdom": "^17.0.0",

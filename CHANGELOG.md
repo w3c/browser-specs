@@ -4,6 +4,19 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
+## [2.15.1](https://github.com/w3c/browser-specs/compare/2.15.0...2.15.1) - 2021-10-07
+
+### Merged
+
+- Bump jsdom from 16.2.2 to 17.0.0 [`#401`](https://github.com/w3c/browser-specs/pull/401)
+
+### Commits
+
+- [data] Update spec info [`6aead13`](https://github.com/w3c/browser-specs/commit/6aead134df2a52185bd6e0b04effca3dd19cbcd0)
+- [data] Update spec info [`dfcfc83`](https://github.com/w3c/browser-specs/commit/dfcfc83b35c121ca5fc616e197a703dac4349fb8)
+- Enable Dependabot on repository [`5a0d9c5`](https://github.com/w3c/browser-specs/commit/5a0d9c52db5da4ddfa4d838692182c62c6134ed6)
+- Use new URL for WebIDL spec as WHATWG living standard [`7656a6b`](https://github.com/w3c/browser-specs/commit/7656a6b88b85d955643e1fe9dd3efae83d2109be)
+
 ## [2.15.0](https://github.com/w3c/browser-specs/compare/2.14.1...2.15.0) - 2021-10-04
 
 ### Merged

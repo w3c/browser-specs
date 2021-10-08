@@ -24,7 +24,7 @@
     "ajv": "^6.11.0",
     "auto-changelog": "^1.16.4",
     "jsdom": "^17.0.0",
-    "mocha": "^7.0.0",
+    "mocha": "^9.1.2",
     "node-fetch": "^2.6.1",
     "release-it": "^13.5.1"
   }

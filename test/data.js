@@ -6,7 +6,9 @@ const assert = require("assert");
 const schema = require("../schema/data.json");
 const dfnsSchema = require("../schema/definitions.json");
 const Ajv = require("ajv");
+const addFormats = require("ajv-formats")
 const ajv = (new Ajv()).addSchema(dfnsSchema);
+addFormats(ajv);
 
 describe("Ignore/Monitor lists", () => {
   describe("The JSON schema", () => {

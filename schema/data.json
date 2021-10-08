@@ -43,7 +43,7 @@
     "specs": {
       "type": "object",
       "propertyNames": {
-        "$ref": "definitions.json#/proptype/url"
+        "$ref": "definitions.json#/$defs/url"
       },
       "additionalProperties": {
         "type": "object",

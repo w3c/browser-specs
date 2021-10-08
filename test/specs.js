@@ -12,7 +12,9 @@ const dfnsSchema = require("../schema/definitions.json");
 const computeInfo = require("../src/compute-shortname.js");
 const computePrevNext = require("../src/compute-prevnext.js");
 const Ajv = require("ajv");
+const addFormats = require("ajv-formats")
 const ajv = (new Ajv()).addSchema(dfnsSchema);
+addFormats(ajv);
 
 // When an entry is invalid, the schema validator returns one error for each
 // "oneOf" option and one error on overall "oneOf" problem. This is confusing
@@ -22,9 +24,9 @@ function clarifyErrors(errors) {
     return errors;
   }
 
-  // Update dataPath to drop misleading "[object Object]"
+  // Update instancePath to drop misleading "[object Object]"
   errors.forEach(err =>
-    err.dataPath = err.dataPath.replace(/^\[object Object\]/, ''));
+    err.instancePath = err.instancePath.replace(/^\[object Object\]/, ''));
 
   if (errors.length < 2) {
     return errors;
@@ -35,7 +37,7 @@ function clarifyErrors(errors) {
   if ((errors[0].schemaPath === "#/items/oneOf/0/type") &&
       (errors[1].schemaPath === "#/items/oneOf/1/type")) {
     return [
-      Object.assign(errors[0], { "message": "should be a string or an object" })
+      Object.assign(errors[0], { "message": "must be a string or an object" })
     ];
   }
 
@@ -59,7 +61,7 @@ function clarifyErrors(errors) {
   clearerErrors.forEach(error => {
     if ((error.keyword === "additionalProperties") &&
         error.params && error.params.additionalProperty) {
-      error.message = "should not have additional property '" +
+      error.message = "must not have additional property '" +
         error.params.additionalProperty + "'";
     }
   });
@@ -113,32 +115,32 @@ describe("Input list", () => {
 
     it("rejects list if it is not an array", () => {
       const specs = 0;
-      assert.strictEqual(check(specs), "specs should be array");
+      assert.strictEqual(check(specs), "specs must be array");
     });
 
     it("rejects an empty list", () => {
       const specs = [];
-      assert.strictEqual(check(specs), "specs should NOT have fewer than 1 items");
+      assert.strictEqual(check(specs), "specs must NOT have fewer than 1 items");
     });
 
     it("rejects items that have a wrong type", () => {
       const specs = [0];
-      assert.strictEqual(check(specs), "specs[0] should be a string or an object");
+      assert.strictEqual(check(specs), "specs/0 must be a string or an object");
     });
 
     it("rejects spec objects without URL", () => {
       const specs = [{}];
-      assert.strictEqual(check(specs), "specs[0] should have required property 'url'");
+      assert.strictEqual(check(specs), "specs/0 must have required property 'url'");
     });
 
     it("rejects spec objects with an invalid URL", () => {
       const specs = [{ url: "invalid" }];
-      assert.strictEqual(check(specs), "specs[0].url should match format \"uri\"");
+      assert.strictEqual(check(specs), "specs/0/url must match format \"uri\"");
     });
 
     it("rejects spec objects with additional properties", () => {
       const specs = [{ url: "https://example.org/", invalid: "test" }];
-      assert.strictEqual(check(specs), "specs[0] should not have additional property 'invalid'");
+      assert.strictEqual(check(specs), "specs/0 must not have additional property 'invalid'");
     });
   });
 

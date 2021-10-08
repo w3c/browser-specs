@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/schema#",
   "$id": "https://w3c.github.io/browser-specs/schema/definitions.json",
 
-  "proptype": {
+  "$defs": {
     "url": {
       "type": "string",
       "format": "uri"
@@ -20,7 +20,7 @@
 
     "shortname": {
       "type": "string",
-      "pattern": "^[\\w\\-]+((?<=\\-\\d+)\\.\\d+)?$"
+      "pattern": "^[\\w\\-]+((?<=-\\d+)\\.\\d+)?$"
     },
 
     "series": {
@@ -30,9 +30,9 @@
           "type": "string",
           "pattern": "^[\\w\\-]+$"
         },
-        "currentSpecification": { "$ref": "#/proptype/shortname" },
-        "releaseUrl": { "$ref": "#/proptype/url" },
-        "nightlyUrl": { "$ref": "#/proptype/url" }
+        "currentSpecification": { "$ref": "#/$defs/shortname" },
+        "releaseUrl": { "$ref": "#/$defs/url" },
+        "nightlyUrl": { "$ref": "#/$defs/url" }
       },
       "required": ["shortname"],
       "additionalProperties": false
@@ -64,11 +64,11 @@
     "release": {
       "type": "object",
       "properties": {
-        "url": { "$ref": "#/proptype/url" },
-        "filename": { "$ref": "#/proptype/filename" },
+        "url": { "$ref": "#/$defs/url" },
+        "filename": { "$ref": "#/$defs/filename" },
         "pages": {
           "type": "array",
-          "items": { "$ref": "#/proptype/url" }
+          "items": { "$ref": "#/$defs/url" }
         }
       },
       "required": ["url"],
@@ -78,14 +78,14 @@
     "nightly": {
       "type": "object",
       "properties": {
-        "url": { "$ref": "#/proptype/url" },
-        "filename": { "$ref": "#/proptype/filename" },
-        "sourcePath": { "$ref": "#/proptype/relativePath" },
+        "url": { "$ref": "#/$defs/url" },
+        "filename": { "$ref": "#/$defs/filename" },
+        "sourcePath": { "$ref": "#/$defs/relativePath" },
         "pages": {
           "type": "array",
-          "items": { "$ref": "#/proptype/url" }
+          "items": { "$ref": "#/$defs/url" }
         },
-        "repository": { "$ref": "#/proptype/url" }
+        "repository": { "$ref": "#/$defs/url" }
       },
       "additionalProperties": false
     },
@@ -93,15 +93,15 @@
     "tests": {
       "type": "object",
       "properties": {
-        "repository": { "$ref": "#/proptype/url" },
+        "repository": { "$ref": "#/$defs/url" },
         "testPaths": {
           "type": "array",
-          "items": { "$ref": "#/proptype/relativePath" },
+          "items": { "$ref": "#/$defs/relativePath" },
           "minItems": 1
         },
         "excludePaths": {
           "type": "array",
-          "items": { "$ref": "#/proptype/relativePath" },
+          "items": { "$ref": "#/$defs/relativePath" },
           "minItems": 1
         }
       },
@@ -115,7 +115,7 @@
         "type": "object",
         "properties": {
           "name": { "type": "string" },
-          "url": { "$ref": "#/proptype/url" }
+          "url": { "$ref": "#/$defs/url" }
         },
         "required": ["name", "url"],
         "additionalProperties": false

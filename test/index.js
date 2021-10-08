@@ -8,7 +8,10 @@ const specs = require("../index.json");
 const schema = require("../schema/index.json");
 const dfnsSchema = require("../schema/definitions.json");
 const Ajv = require("ajv");
+const addFormats = require("ajv-formats")
 const ajv = new Ajv();
+addFormats(ajv);
+
 
 describe("List of specs", () => {
   it("has a valid JSON schema", () => {

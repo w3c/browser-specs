@@ -299,6 +299,10 @@
     "WICG/bundle-preloading": {
       "lastreviewed": "2021-10-11",
       "comment": "no published content yet"
+    },
+    "w3c/mediacapture-viewport": {
+      "lastreviewed": "2021-10-11",
+      "comment": "Somewhat empty but note spec is a WebRTC WG and should fill up rapidly"
     }
   },
   "specs": {

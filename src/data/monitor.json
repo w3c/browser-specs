@@ -295,6 +295,10 @@
     "tc39/proposal-intl-numberformat-v3": {
       "lastreviewed": "2021-09-27",
       "comment": "Proposal just exists as a readme for now"
+    },
+    "WICG/bundle-preloading": {
+      "lastreviewed": "2021-10-11",
+      "comment": "no published content yet"
     }
   },
   "specs": {

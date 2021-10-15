@@ -44,10 +44,6 @@
       "comment": "unofficial draft",
       "lastreviewed": "2021-09-01"
     },
-    "w3c/mediacapture-transform": {
-      "comment": "still marked as unofficial draft",
-      "lastreviewed": "2021-09-01"
-    },
     "WICG/webmonetization": {
       "comment": "Early exploration phase; spec at https://webmonetization.org/specification.html",
       "lastreviewed": "2021-09-01"

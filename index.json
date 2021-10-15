@@ -4089,7 +4089,7 @@
       "filename": "index.html"
     },
     "title": "Prioritized Task Scheduling",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Prioritized Task Scheduling",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",

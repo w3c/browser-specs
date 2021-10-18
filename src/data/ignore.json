@@ -50,6 +50,9 @@
     "w3c/imsc": {
       "comment": "not targeted at browsers"
     },
+    "w3c/imsc-hrm": {
+      "comment": "not directly targeted at browsers"
+    },
     "w3c/tt-module-karaoke": {
       "comment": "not targeted at browsers"
     },
@@ -184,6 +187,9 @@
     },
     "WICG/frame-timing": {
       "comment": "No longer being pursued, see https://github.com/w3c/browser-specs/pull/394"
+    },
+    "WICG/WebID": {
+      "comment": "Replaced by Federated Credential Management API at https://wicg.github.io/FedCM/"
     }
   },
   "specs": {

@@ -50,6 +50,9 @@
     "w3c/imsc": {
       "comment": "not targeted at browsers"
     },
+    "w3c/imsc-hrm": {
+      "comment": "not directly targeted at browsers"
+    },
     "w3c/tt-module-karaoke": {
       "comment": "not targeted at browsers"
     },

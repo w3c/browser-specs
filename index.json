@@ -15248,6 +15248,12 @@
       "releaseUrl": "https://www.w3.org/TR/WGSL/",
       "nightlyUrl": "https://gpuweb.github.io/gpuweb/wgsl/"
     },
+    "nightly": {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/",
+      "sourcePath": "wgsl/index.bs",
+      "repository": "https://github.com/gpuweb/gpuweb",
+      "filename": "index.html"
+    },
     "organization": "W3C",
     "groups": [
       {
@@ -15258,12 +15264,6 @@
     "release": {
       "url": "https://www.w3.org/TR/WGSL/",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/",
-      "repository": "https://github.com/gpuweb/gpuweb",
-      "sourcePath": "spec/index.bs",
-      "filename": "index.html"
     },
     "title": "WebGPU Shading Language",
     "source": "w3c",

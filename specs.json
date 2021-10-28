@@ -739,7 +739,12 @@
   "https://www.w3.org/TR/webxr-hit-test-1/",
   "https://www.w3.org/TR/webxr/",
   "https://www.w3.org/TR/webxrlayers-1/",
-  "https://www.w3.org/TR/WGSL/",
+  {
+    "url": "https://www.w3.org/TR/WGSL/",
+    "nightly": {
+      "sourcePath": "wgsl/index.bs"
+    }
+  },
   {
     "url": "https://www.w3.org/TR/WOFF2/",
     "shortTitle": "WOFF 2.0",

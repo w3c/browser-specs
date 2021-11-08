@@ -6041,6 +6041,30 @@
     "shortTitle": "The \"data\" URL scheme"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc4120",
+    "seriesComposition": "full",
+    "shortname": "rfc4120",
+    "series": {
+      "shortname": "rfc4120",
+      "currentSpecification": "rfc4120",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc4120"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Kerberos WG Working Group",
+        "url": "https://datatracker.ietf.org/wg/krb/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc4120",
+      "filename": "rfc4120.html"
+    },
+    "title": "The Kerberos Network Authentication Service (V5)",
+    "source": "specref",
+    "shortTitle": "V5"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc6265",
     "seriesComposition": "full",
     "shortname": "rfc6265",
@@ -6443,6 +6467,58 @@
     "title": "Returning Values from Forms: multipart/form-data",
     "source": "specref",
     "shortTitle": "Returning Values from Forms: multipart/form-data"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7616",
+    "seriesComposition": "full",
+    "shortname": "rfc7616",
+    "series": {
+      "shortname": "rfc7616",
+      "currentSpecification": "rfc7616",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7616.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Authentication Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpauth/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7616.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7616.xml",
+      "filename": "rfc7616.html"
+    },
+    "title": "HTTP Digest Access Authentication",
+    "source": "specref",
+    "shortTitle": "HTTP Digest Access Authentication"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7617",
+    "seriesComposition": "full",
+    "shortname": "rfc7617",
+    "series": {
+      "shortname": "rfc7617",
+      "currentSpecification": "rfc7617",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7617.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Authentication Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpauth/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7617.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7617.xml",
+      "filename": "rfc7617.html"
+    },
+    "title": "The 'Basic' HTTP Authentication Scheme",
+    "source": "specref",
+    "shortTitle": "The 'Basic' HTTP Authentication Scheme"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7725",

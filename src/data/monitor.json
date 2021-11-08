@@ -160,10 +160,6 @@
       "lastreviewed": "2021-11-01",
       "comment": "no published content yet"
     },
-    "WICG/window-controls-overlay": {
-      "lastreviewed": "2021-11-01",
-      "comment": "no published content yet"
-    },
     "immersive-web/computer-vision": {
       "lastreviewed": "2021-11-01",
       "comment": "no published content yet"
@@ -266,7 +262,7 @@
     },
     "privacycg/nav-tracking-mitigations": {
       "lastreviewed": "2021-11-01",
-      "comment": "no published content yet"
+      "comment": "Early draft"
     },
     "WICG/capture-handle": {
       "lastreviewed": "2021-11-01",
@@ -294,7 +290,7 @@
     },
     "tc39/proposal-intl-numberformat-v3": {
       "lastreviewed": "2021-11-01",
-      "comment": "Proposal just exists as a readme for now"
+      "comment": "Proposal divided into 4 different specs, overall proposal only exists as a readme for now"
     },
     "WICG/bundle-preloading": {
       "lastreviewed": "2021-11-01",

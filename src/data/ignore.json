@@ -324,6 +324,9 @@
     },
     "https://tc39.es/proposal-hashbang/": {
       "comment": "not meant for browsers environments"
+    },
+    "https://www.w3.org/TR/page-visibility-2/": {
+      "comment": "folded in HTML, see: https://github.com/w3c/page-visibility/issues/74"
     }
   }
 }

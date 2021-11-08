@@ -299,6 +299,7 @@
       }
     ]
   },
+  "https://www.rfc-editor.org/rfc/rfc4120",
   "https://www.rfc-editor.org/rfc/rfc6265",
   "https://www.rfc-editor.org/rfc/rfc6266",
   "https://www.rfc-editor.org/rfc/rfc6454",
@@ -315,6 +316,8 @@
   "https://www.rfc-editor.org/rfc/rfc7538",
   "https://www.rfc-editor.org/rfc/rfc7540",
   "https://www.rfc-editor.org/rfc/rfc7578",
+  "https://www.rfc-editor.org/rfc/rfc7616",
+  "https://www.rfc-editor.org/rfc/rfc7617",
   "https://www.rfc-editor.org/rfc/rfc7725",
   "https://www.rfc-editor.org/rfc/rfc7838",
   "https://www.rfc-editor.org/rfc/rfc8246",

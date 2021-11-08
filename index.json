@@ -12207,44 +12207,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/page-visibility-2/",
-    "seriesComposition": "full",
-    "shortname": "page-visibility-2",
-    "series": {
-      "shortname": "page-visibility",
-      "currentSpecification": "page-visibility-2",
-      "releaseUrl": "https://www.w3.org/TR/page-visibility/",
-      "nightlyUrl": "https://w3c.github.io/page-visibility/"
-    },
-    "seriesVersion": "2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/page-visibility-2/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/page-visibility/",
-      "repository": "https://github.com/w3c/page-visibility",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Page Visibility Level 2",
-    "source": "w3c",
-    "shortTitle": "Page Visibility 2",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "page-visibility"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/paint-timing/",
     "seriesComposition": "full",
     "shortname": "paint-timing",

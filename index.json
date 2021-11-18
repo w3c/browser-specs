@@ -13255,7 +13255,13 @@
     },
     "title": "Secure Payment Confirmation",
     "source": "w3c",
-    "shortTitle": "Secure Payment Confirmation"
+    "shortTitle": "Secure Payment Confirmation",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "secure-payment-confirmation"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/selection-api/",

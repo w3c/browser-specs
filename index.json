@@ -5166,9 +5166,9 @@
       "sourcePath": "extensions/OES_draw_buffers_indexed/extension.xml",
       "filename": "index.html"
     },
-    "title": "WebGL OES_draw_buffers_indexed Extension Draft Specification",
+    "title": "WebGL OES_draw_buffers_indexed Extension Specification",
     "source": "spec",
-    "shortTitle": "WebGL OES_draw_buffers_indexed Extension Draft",
+    "shortTitle": "WebGL OES_draw_buffers_indexed Extension",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [

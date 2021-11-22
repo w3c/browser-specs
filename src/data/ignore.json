@@ -327,6 +327,9 @@
     },
     "https://www.w3.org/TR/page-visibility-2/": {
       "comment": "folded in HTML, see: https://github.com/w3c/page-visibility/issues/74"
+    },
+    "https://wicg.github.io/nav-speculation/": {
+      "comment": "document split into two specs"
     }
   }
 }

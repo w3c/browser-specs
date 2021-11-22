@@ -324,41 +324,6 @@
     "shortTitle": "CSS Extensions"
   },
   {
-    "url": "https://drafts.csswg.org/css-fonts-5/",
-    "seriesComposition": "delta",
-    "shortname": "css-fonts-5",
-    "series": {
-      "shortname": "css-fonts",
-      "currentSpecification": "css-fonts-4",
-      "releaseUrl": "https://www.w3.org/TR/css-fonts/",
-      "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
-    },
-    "seriesVersion": "5",
-    "seriesPrevious": "css-fonts-4",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-fonts-5/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-fonts-5/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Fonts Module Level 5",
-    "source": "specref",
-    "shortTitle": "CSS Fonts 5",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-fonts"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
     "shortname": "css-gcpm-4",
@@ -945,32 +910,6 @@
         "webxr/anchors"
       ]
     }
-  },
-  {
-    "url": "https://immersive-web.github.io/lighting-estimation/",
-    "seriesComposition": "full",
-    "shortname": "lighting-estimation",
-    "series": {
-      "shortname": "lighting-estimation",
-      "currentSpecification": "lighting-estimation",
-      "nightlyUrl": "https://immersive-web.github.io/lighting-estimation/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
-      }
-    ],
-    "nightly": {
-      "url": "https://immersive-web.github.io/lighting-estimation/",
-      "repository": "https://github.com/immersive-web/lighting-estimation",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebXR Lighting Estimation API Level 1",
-    "source": "spec",
-    "shortTitle": "WebXR Lighting Estimation API 1"
   },
   {
     "url": "https://infra.spec.whatwg.org/",
@@ -2048,32 +1987,6 @@
     "shortTitle": "Gamepad Extensions"
   },
   {
-    "url": "https://w3c.github.io/IFT/Overview.html",
-    "seriesComposition": "full",
-    "shortname": "IFT",
-    "series": {
-      "shortname": "IFT",
-      "currentSpecification": "IFT",
-      "nightlyUrl": "https://w3c.github.io/IFT/Overview.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Fonts Working Group",
-        "url": "https://www.w3.org/Fonts/WG/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/IFT/Overview.html",
-      "repository": "https://github.com/w3c/IFT",
-      "sourcePath": "Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Incremental Font Transfer",
-    "source": "specref",
-    "shortTitle": "Incremental Font Transfer"
-  },
-  {
     "url": "https://w3c.github.io/mathml-aam/",
     "seriesComposition": "full",
     "shortname": "mathml-aam",
@@ -2098,38 +2011,6 @@
     "title": "MathML Accessiblity API Mappings 1.0",
     "source": "spec",
     "shortTitle": "MathML Accessiblity API Mappings 1.0"
-  },
-  {
-    "url": "https://w3c.github.io/mathml-core/",
-    "seriesComposition": "full",
-    "shortname": "mathml-core",
-    "series": {
-      "shortname": "mathml-core",
-      "currentSpecification": "mathml-core",
-      "nightlyUrl": "https://w3c.github.io/mathml-core/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Math Working Group",
-        "url": "https://www.w3.org/Math/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/mathml-core/",
-      "repository": "https://github.com/w3c/mathml-core",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "MathML Core",
-    "source": "specref",
-    "shortTitle": "MathML Core",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "mathml"
-      ]
-    }
   },
   {
     "url": "https://w3c.github.io/media-playback-quality/",
@@ -8226,6 +8107,45 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-fonts-5/",
+    "seriesComposition": "delta",
+    "shortname": "css-fonts-5",
+    "series": {
+      "shortname": "css-fonts",
+      "currentSpecification": "css-fonts-4",
+      "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+      "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "css-fonts-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-fonts-5/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-fonts-5/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-fonts-5/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Fonts Module Level 5",
+    "source": "w3c",
+    "shortTitle": "CSS Fonts 5",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-fonts"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-gcpm-3/",
     "seriesComposition": "full",
     "shortname": "css-gcpm-3",
@@ -11311,6 +11231,37 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/IFT/",
+    "seriesComposition": "full",
+    "shortname": "IFT",
+    "series": {
+      "shortname": "IFT",
+      "currentSpecification": "IFT",
+      "releaseUrl": "https://www.w3.org/TR/IFT/",
+      "nightlyUrl": "https://w3c.github.io/IFT/Overview.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Fonts Working Group",
+        "url": "https://www.w3.org/Fonts/WG/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/IFT/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/IFT/Overview.html",
+      "repository": "https://github.com/w3c/IFT",
+      "sourcePath": "Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Incremental Font Transfer",
+    "source": "w3c",
+    "shortTitle": "Incremental Font Transfer"
+  },
+  {
     "url": "https://www.w3.org/TR/image-capture/",
     "seriesComposition": "full",
     "shortname": "image-capture",
@@ -11596,6 +11547,43 @@
     "title": "Web App Manifest - Application Information",
     "source": "w3c",
     "shortTitle": "Web App Manifest - Application Information"
+  },
+  {
+    "url": "https://www.w3.org/TR/mathml-core/",
+    "seriesComposition": "full",
+    "shortname": "mathml-core",
+    "series": {
+      "shortname": "mathml-core",
+      "currentSpecification": "mathml-core",
+      "releaseUrl": "https://www.w3.org/TR/mathml-core/",
+      "nightlyUrl": "https://w3c.github.io/mathml-core/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Math Working Group",
+        "url": "https://www.w3.org/Math/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/mathml-core/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mathml-core/",
+      "repository": "https://github.com/w3c/mathml-core",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "MathML Core",
+    "source": "w3c",
+    "shortTitle": "MathML Core",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "mathml"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/media-capabilities/",
@@ -15223,6 +15211,38 @@
         "webxr/hit-test"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+    "seriesComposition": "full",
+    "shortname": "webxr-lighting-estimation-1",
+    "series": {
+      "shortname": "webxr-lighting-estimation",
+      "currentSpecification": "webxr-lighting-estimation-1",
+      "releaseUrl": "https://www.w3.org/TR/webxr-lighting-estimation/",
+      "nightlyUrl": "https://immersive-web.github.io/lighting-estimation/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/lighting-estimation/",
+      "repository": "https://github.com/immersive-web/lighting-estimation",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR Lighting Estimation API Level 1",
+    "source": "w3c",
+    "shortTitle": "WebXR Lighting Estimation API 1"
   },
   {
     "url": "https://www.w3.org/TR/webxr/",

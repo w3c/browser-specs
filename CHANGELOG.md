@@ -4,7 +4,30 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.16.0](https://github.com/w3c/browser-specs/compare/2.15.1...2.16.0)
+## [2.16.1](https://github.com/w3c/browser-specs/compare/2.16.0...2.16.1)
+
+
+### Merged
+
+- Update URLs of ED published to TR, monitor nav-speculation [`#437`](https://github.com/w3c/browser-specs/pull/437)
+- Bump release-it from 14.11.7 to 14.11.8 [`#435`](https://github.com/w3c/browser-specs/pull/435)
+- Bump jsdom from 18.1.0 to 18.1.1 [`#434`](https://github.com/w3c/browser-specs/pull/434)
+- Bump ajv from 8.8.1 to 8.8.2 [`#433`](https://github.com/w3c/browser-specs/pull/433)
+
+### Fixed
+
+- Update URLs of ED published to TR, monitor nav-speculation (#437) [`#436`](https://github.com/w3c/browser-specs/issues/436)
+
+### Commits
+
+- [data] Update spec info [`e82b5d7`](https://github.com/w3c/browser-specs/commit/e82b5d795168592f39040983ba1b4d5da7cf1b04)
+- Bump release-it from 14.11.6 to 14.11.7 [`9a53437`](https://github.com/w3c/browser-specs/commit/9a53437f7e65f11f4f01a07fffb51168c7214786)
+- [data] Update spec info [`656ca0d`](https://github.com/w3c/browser-specs/commit/656ca0dc79e5b823f59805617a95a0ac816033b8)
+- Bump ajv from 8.6.3 to 8.8.1 [`6c1df4a`](https://github.com/w3c/browser-specs/commit/6c1df4a30376c925f75dcec287b03461c3821e11)
+- Bump jsdom from 18.0.1 to 18.1.0 [`98d316e`](https://github.com/w3c/browser-specs/commit/98d316ecd2a6ee1b416e290c248dddd7fb51aa08)
+- [data] Update spec info [`f748f7b`](https://github.com/w3c/browser-specs/commit/f748f7b130a7af13f2c5d2d84851085f5e8ac3c4)
+
+## [2.16.0](https://github.com/w3c/browser-specs/compare/2.15.1...2.16.0) - 2021-11-08
 
 
 ### Merged

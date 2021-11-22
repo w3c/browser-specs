@@ -14,7 +14,6 @@
   "https://drafts.csswg.org/css-cascade-6/ delta",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
-  "https://drafts.csswg.org/css-fonts-5/ delta",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
@@ -50,7 +49,6 @@
     }
   },
   "https://immersive-web.github.io/anchors/",
-  "https://immersive-web.github.io/lighting-estimation/",
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",
@@ -117,9 +115,7 @@
   "https://w3c.github.io/badging/",
   "https://w3c.github.io/contentEditable/",
   "https://w3c.github.io/gamepad/extensions.html",
-  "https://w3c.github.io/IFT/Overview.html",
   "https://w3c.github.io/mathml-aam/",
-  "https://w3c.github.io/mathml-core/",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
   "https://w3c.github.io/web-nfc/",
@@ -416,6 +412,7 @@
   },
   "https://www.w3.org/TR/css-font-loading-3/",
   "https://www.w3.org/TR/css-fonts-4/",
+  "https://www.w3.org/TR/css-fonts-5/ delta",
   {
     "url": "https://www.w3.org/TR/css-gcpm-3/",
     "shortTitle": "CSS GCPM 3"
@@ -566,6 +563,7 @@
   "https://www.w3.org/TR/html-aam-1.0/",
   "https://www.w3.org/TR/html-aria/",
   "https://www.w3.org/TR/html-media-capture/",
+  "https://www.w3.org/TR/IFT/",
   "https://www.w3.org/TR/image-capture/",
   "https://www.w3.org/TR/image-resource/",
   {
@@ -577,6 +575,7 @@
   "https://www.w3.org/TR/longtasks-1/",
   "https://www.w3.org/TR/magnetometer/",
   "https://www.w3.org/TR/manifest-app-info/",
+  "https://www.w3.org/TR/mathml-core/",
   "https://www.w3.org/TR/media-capabilities/",
   {
     "url": "https://www.w3.org/TR/media-source-2/",
@@ -740,6 +739,7 @@
   "https://www.w3.org/TR/webxr-gamepads-module-1/",
   "https://www.w3.org/TR/webxr-hand-input-1/",
   "https://www.w3.org/TR/webxr-hit-test-1/",
+  "https://www.w3.org/TR/webxr-lighting-estimation-1/",
   "https://www.w3.org/TR/webxr/",
   "https://www.w3.org/TR/webxrlayers-1/",
   {

@@ -361,6 +361,14 @@
     "https://w3c.github.io/PFE/RangeRequest.html": {
       "comment": "being split-off from main spec https://github.com/w3c/PFE/pull/9/files; stub",
       "lastreviewed": "2021-11-01"
+    },
+    "https://wicg.github.io/nav-speculation/prerendering.html": {
+      "comment": "Early draft that contains a collection of specification patches, no clear implementation plans yet",
+      "lastreviewed": "2021-11-22"
+    },
+    "https://wicg.github.io/nav-speculation/speculation-rules.html": {
+      "comment": "Early draft, implementation, no clear implementation plans yet",
+      "lastreviewed": "2021-11-22"
     }
   }
 }

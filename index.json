@@ -14691,7 +14691,13 @@
     },
     "title": "Web Neural Network API",
     "source": "w3c",
-    "shortTitle": "Web Neural Network API"
+    "shortTitle": "Web Neural Network API",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webnn"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/webrtc-encoded-transform/",

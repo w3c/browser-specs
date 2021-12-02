@@ -3459,6 +3459,32 @@
     "shortTitle": "Local Font Access API"
   },
   {
+    "url": "https://wicg.github.io/manifest-incubations/",
+    "seriesComposition": "full",
+    "shortname": "manifest-incubations",
+    "series": {
+      "shortname": "manifest-incubations",
+      "currentSpecification": "manifest-incubations",
+      "nightlyUrl": "https://wicg.github.io/manifest-incubations/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/manifest-incubations/",
+      "repository": "https://github.com/WICG/manifest-incubations",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Manifest Incubations",
+    "source": "spec",
+    "shortTitle": "Manifest Incubations"
+  },
+  {
     "url": "https://wicg.github.io/media-feeds/",
     "seriesComposition": "full",
     "shortname": "media-feeds",

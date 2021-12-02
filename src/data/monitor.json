@@ -212,10 +212,6 @@
       "lastreviewed": "2021-09-01",
       "comment": "no published content yet"
     },
-    "WICG/manifest-incubations": {
-      "lastreviewed": "2021-09-01",
-      "comment": "Chromium-specific"
-    },
     "immersive-web/marker-tracking": {
       "lastreviewed": "2021-09-01",
       "comment": "marked as unstable API"

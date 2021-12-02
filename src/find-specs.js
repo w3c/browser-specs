@@ -69,7 +69,7 @@ const hasMoreRecentLevel = (s, url, loose) => {
 };
 const hasUntrackedURL = ({spec: url}) => !specs.find(s => s.nightly.url.startsWith(url)
                                                     || (s.release && s.release.url === url))
-      && !specs.find(s => hasMoreRecentLevel(s, url, true // Because CSS specs have editors draft with and without levels, we look loosely for more recent levels when checking with editors draft
+      && !specs.find(s => hasMoreRecentLevel(s, url, url.match(/\/drafts\./) && !url.match(/\/w3\.org/) // Because CSS specs have editors draft with and without levels, we look loosely for more recent levels when checking with editors draft
                                             ));
 const hasUnknownTrSpec = ({spec: url}) => !specs.find(s => s.release && s.release.url === url) && !specs.find(s => hasMoreRecentLevel(s,url));
 

@@ -183,9 +183,9 @@
       "sourcePath": "css-animations-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Animations Level 2",
+    "title": "Index of css-animations-2/",
     "source": "spec",
-    "shortTitle": "CSS Animations 2",
+    "shortTitle": "Index of css-animations-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -253,9 +253,9 @@
       "sourcePath": "css-cascade-6/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Cascading and Inheritance Level 6",
+    "title": "Index of css-cascade-6/",
     "source": "spec",
-    "shortTitle": "CSS Cascading and Inheritance 6",
+    "shortTitle": "Index of css-cascade-6/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -286,9 +286,9 @@
       "sourcePath": "css-env-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Environment Variables Module Level 1",
+    "title": "Index of css-env-1/",
     "source": "spec",
-    "shortTitle": "CSS Environment Variables 1",
+    "shortTitle": "Index of css-env-1/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -319,44 +319,9 @@
       "sourcePath": "css-extensions-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Extensions",
+    "title": "Index of css-extensions-1/",
     "source": "spec",
-    "shortTitle": "CSS Extensions"
-  },
-  {
-    "url": "https://drafts.csswg.org/css-fonts-5/",
-    "seriesComposition": "delta",
-    "shortname": "css-fonts-5",
-    "series": {
-      "shortname": "css-fonts",
-      "currentSpecification": "css-fonts-4",
-      "releaseUrl": "https://www.w3.org/TR/css-fonts/",
-      "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
-    },
-    "seriesVersion": "5",
-    "seriesPrevious": "css-fonts-4",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-fonts-5/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-fonts-5/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Fonts Module Level 5",
-    "source": "specref",
-    "shortTitle": "CSS Fonts 5",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-fonts"
-      ]
-    }
+    "shortTitle": "Index of css-extensions-1/"
   },
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -384,7 +349,7 @@
       "sourcePath": "css-gcpm-4/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Generated Content for Paged Media Module Level 4",
+    "title": "Index of css-gcpm-4/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -418,9 +383,9 @@
       "sourcePath": "css-grid-3/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Grid Layout Module Level 3",
+    "title": "Index of css-grid-3/",
     "source": "spec",
-    "shortTitle": "CSS Grid Layout 3",
+    "shortTitle": "Index of css-grid-3/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -454,7 +419,7 @@
       "sourcePath": "css-multicol-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Multi-column Layout Module Level 2",
+    "title": "Index of css-multicol-2/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -523,9 +488,9 @@
       "sourcePath": "css-shapes-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Shapes Module Level 2",
+    "title": "Index of css-shapes-2/",
     "source": "spec",
-    "shortTitle": "CSS Shapes 2",
+    "shortTitle": "Index of css-shapes-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -557,7 +522,7 @@
       "sourcePath": "css-size-adjust-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Mobile Text Size Adjustment Module Level 1",
+    "title": "Index of css-size-adjust-1/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -591,9 +556,9 @@
       "sourcePath": "css-transitions-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Transitions Level 2",
+    "title": "Index of css-transitions-2/",
     "source": "spec",
-    "shortTitle": "CSS Transitions 2",
+    "shortTitle": "Index of css-transitions-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -624,9 +589,9 @@
       "sourcePath": "scroll-animations-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Scroll-linked Animations",
+    "title": "Index of scroll-animations-1/",
     "source": "spec",
-    "shortTitle": "Scroll-linked Animations",
+    "shortTitle": "Index of scroll-animations-1/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -659,9 +624,9 @@
       "sourcePath": "web-animations-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Web Animations Level 2",
+    "title": "Index of web-animations-2/",
     "source": "spec",
-    "shortTitle": "Web Animations 2",
+    "shortTitle": "Index of web-animations-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -945,32 +910,6 @@
         "webxr/anchors"
       ]
     }
-  },
-  {
-    "url": "https://immersive-web.github.io/lighting-estimation/",
-    "seriesComposition": "full",
-    "shortname": "lighting-estimation",
-    "series": {
-      "shortname": "lighting-estimation",
-      "currentSpecification": "lighting-estimation",
-      "nightlyUrl": "https://immersive-web.github.io/lighting-estimation/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
-      }
-    ],
-    "nightly": {
-      "url": "https://immersive-web.github.io/lighting-estimation/",
-      "repository": "https://github.com/immersive-web/lighting-estimation",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebXR Lighting Estimation API Level 1",
-    "source": "spec",
-    "shortTitle": "WebXR Lighting Estimation API 1"
   },
   {
     "url": "https://infra.spec.whatwg.org/",
@@ -2048,32 +1987,6 @@
     "shortTitle": "Gamepad Extensions"
   },
   {
-    "url": "https://w3c.github.io/IFT/Overview.html",
-    "seriesComposition": "full",
-    "shortname": "IFT",
-    "series": {
-      "shortname": "IFT",
-      "currentSpecification": "IFT",
-      "nightlyUrl": "https://w3c.github.io/IFT/Overview.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Fonts Working Group",
-        "url": "https://www.w3.org/Fonts/WG/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/IFT/Overview.html",
-      "repository": "https://github.com/w3c/IFT",
-      "sourcePath": "Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Incremental Font Transfer",
-    "source": "specref",
-    "shortTitle": "Incremental Font Transfer"
-  },
-  {
     "url": "https://w3c.github.io/mathml-aam/",
     "seriesComposition": "full",
     "shortname": "mathml-aam",
@@ -2098,38 +2011,6 @@
     "title": "MathML Accessiblity API Mappings 1.0",
     "source": "spec",
     "shortTitle": "MathML Accessiblity API Mappings 1.0"
-  },
-  {
-    "url": "https://w3c.github.io/mathml-core/",
-    "seriesComposition": "full",
-    "shortname": "mathml-core",
-    "series": {
-      "shortname": "mathml-core",
-      "currentSpecification": "mathml-core",
-      "nightlyUrl": "https://w3c.github.io/mathml-core/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Math Working Group",
-        "url": "https://www.w3.org/Math/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/mathml-core/",
-      "repository": "https://github.com/w3c/mathml-core",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "MathML Core",
-    "source": "specref",
-    "shortTitle": "MathML Core",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "mathml"
-      ]
-    }
   },
   {
     "url": "https://w3c.github.io/media-playback-quality/",
@@ -2632,7 +2513,7 @@
     "nightly": {
       "url": "https://wicg.github.io/compute-pressure/",
       "repository": "https://github.com/WICG/compute-pressure",
-      "sourcePath": "index.bs",
+      "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Compute Pressure API",
@@ -4464,8 +4345,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
       }
     ],
     "nightly": {
@@ -4476,13 +4357,7 @@
     },
     "title": "Web Locks API",
     "source": "specref",
-    "shortTitle": "Web Locks API",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "web-locks"
-      ]
-    }
+    "shortTitle": "Web Locks API"
   },
   {
     "url": "https://wicg.github.io/web-otp/",
@@ -4605,6 +4480,32 @@
         "webusb"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/window-controls-overlay/",
+    "seriesComposition": "full",
+    "shortname": "window-controls-overlay",
+    "series": {
+      "shortname": "window-controls-overlay",
+      "currentSpecification": "window-controls-overlay",
+      "nightlyUrl": "https://wicg.github.io/window-controls-overlay/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/window-controls-overlay/",
+      "repository": "https://github.com/WICG/window-controls-overlay",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Window Controls Overlay",
+    "source": "spec",
+    "shortTitle": "Window Controls Overlay"
   },
   {
     "url": "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/",
@@ -5140,9 +5041,9 @@
       "sourcePath": "extensions/OES_draw_buffers_indexed/extension.xml",
       "filename": "index.html"
     },
-    "title": "WebGL OES_draw_buffers_indexed Extension Draft Specification",
+    "title": "WebGL OES_draw_buffers_indexed Extension Specification",
     "source": "spec",
-    "shortTitle": "WebGL OES_draw_buffers_indexed Extension Draft",
+    "shortTitle": "WebGL OES_draw_buffers_indexed Extension",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -6041,6 +5942,30 @@
     "shortTitle": "The \"data\" URL scheme"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc4120",
+    "seriesComposition": "full",
+    "shortname": "rfc4120",
+    "series": {
+      "shortname": "rfc4120",
+      "currentSpecification": "rfc4120",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc4120"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Kerberos WG Working Group",
+        "url": "https://datatracker.ietf.org/wg/krb/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc4120",
+      "filename": "rfc4120.html"
+    },
+    "title": "The Kerberos Network Authentication Service (V5)",
+    "source": "specref",
+    "shortTitle": "V5"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc6265",
     "seriesComposition": "full",
     "shortname": "rfc6265",
@@ -6443,6 +6368,58 @@
     "title": "Returning Values from Forms: multipart/form-data",
     "source": "specref",
     "shortTitle": "Returning Values from Forms: multipart/form-data"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7616",
+    "seriesComposition": "full",
+    "shortname": "rfc7616",
+    "series": {
+      "shortname": "rfc7616",
+      "currentSpecification": "rfc7616",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7616.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Authentication Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpauth/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7616.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7616.xml",
+      "filename": "rfc7616.html"
+    },
+    "title": "HTTP Digest Access Authentication",
+    "source": "specref",
+    "shortTitle": "HTTP Digest Access Authentication"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc7617",
+    "seriesComposition": "full",
+    "shortname": "rfc7617",
+    "series": {
+      "shortname": "rfc7617",
+      "currentSpecification": "rfc7617",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7617.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Hypertext Transfer Protocol Authentication Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpauth/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7617.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7617.xml",
+      "filename": "rfc7617.html"
+    },
+    "title": "The 'Basic' HTTP Authentication Scheme",
+    "source": "specref",
+    "shortTitle": "The 'Basic' HTTP Authentication Scheme"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7725",
@@ -8116,6 +8093,45 @@
     "title": "CSS Fonts Module Level 4",
     "source": "w3c",
     "shortTitle": "CSS Fonts 4",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-fonts"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-fonts-5/",
+    "seriesComposition": "delta",
+    "shortname": "css-fonts-5",
+    "series": {
+      "shortname": "css-fonts",
+      "currentSpecification": "css-fonts-4",
+      "releaseUrl": "https://www.w3.org/TR/css-fonts/",
+      "nightlyUrl": "https://drafts.csswg.org/css-fonts/"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "css-fonts-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-fonts-5/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-fonts-5/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-fonts-5/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Fonts Module Level 5",
+    "source": "w3c",
+    "shortTitle": "CSS Fonts 5",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11209,6 +11225,37 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/IFT/",
+    "seriesComposition": "full",
+    "shortname": "IFT",
+    "series": {
+      "shortname": "IFT",
+      "currentSpecification": "IFT",
+      "releaseUrl": "https://www.w3.org/TR/IFT/",
+      "nightlyUrl": "https://w3c.github.io/IFT/Overview.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Fonts Working Group",
+        "url": "https://www.w3.org/Fonts/WG/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/IFT/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/IFT/Overview.html",
+      "repository": "https://github.com/w3c/IFT",
+      "sourcePath": "Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Incremental Font Transfer",
+    "source": "w3c",
+    "shortTitle": "Incremental Font Transfer"
+  },
+  {
     "url": "https://www.w3.org/TR/image-capture/",
     "seriesComposition": "full",
     "shortname": "image-capture",
@@ -11494,6 +11541,43 @@
     "title": "Web App Manifest - Application Information",
     "source": "w3c",
     "shortTitle": "Web App Manifest - Application Information"
+  },
+  {
+    "url": "https://www.w3.org/TR/mathml-core/",
+    "seriesComposition": "full",
+    "shortname": "mathml-core",
+    "series": {
+      "shortname": "mathml-core",
+      "currentSpecification": "mathml-core",
+      "releaseUrl": "https://www.w3.org/TR/mathml-core/",
+      "nightlyUrl": "https://w3c.github.io/mathml-core/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Math Working Group",
+        "url": "https://www.w3.org/Math/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/mathml-core/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mathml-core/",
+      "repository": "https://github.com/w3c/mathml-core",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "MathML Core",
+    "source": "w3c",
+    "shortTitle": "MathML Core",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "mathml"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/media-capabilities/",
@@ -12131,44 +12215,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/page-visibility-2/",
-    "seriesComposition": "full",
-    "shortname": "page-visibility-2",
-    "series": {
-      "shortname": "page-visibility",
-      "currentSpecification": "page-visibility-2",
-      "releaseUrl": "https://www.w3.org/TR/page-visibility/",
-      "nightlyUrl": "https://w3c.github.io/page-visibility/"
-    },
-    "seriesVersion": "2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/page-visibility-2/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/page-visibility/",
-      "repository": "https://github.com/w3c/page-visibility",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Page Visibility Level 2",
-    "source": "w3c",
-    "shortTitle": "Page Visibility 2",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "page-visibility"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/paint-timing/",
     "seriesComposition": "full",
     "shortname": "paint-timing",
@@ -12385,16 +12431,15 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/performance-timeline-2/",
+    "url": "https://www.w3.org/TR/performance-timeline/",
     "seriesComposition": "full",
-    "shortname": "performance-timeline-2",
+    "shortname": "performance-timeline",
     "series": {
       "shortname": "performance-timeline",
-      "currentSpecification": "performance-timeline-2",
+      "currentSpecification": "performance-timeline",
       "releaseUrl": "https://www.w3.org/TR/performance-timeline/",
       "nightlyUrl": "https://w3c.github.io/performance-timeline/"
     },
-    "seriesVersion": "2",
     "organization": "W3C",
     "groups": [
       {
@@ -12403,7 +12448,7 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/performance-timeline-2/",
+      "url": "https://www.w3.org/TR/performance-timeline/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -12412,9 +12457,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Performance Timeline Level 2",
+    "title": "Performance Timeline",
     "source": "w3c",
-    "shortTitle": "Performance Timeline 2",
+    "shortTitle": "Performance Timeline",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13191,7 +13236,13 @@
     },
     "title": "Secure Payment Confirmation",
     "source": "w3c",
-    "shortTitle": "Secure Payment Confirmation"
+    "shortTitle": "Secure Payment Confirmation",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "secure-payment-confirmation"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/selection-api/",
@@ -13970,17 +14021,15 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/user-timing-2/",
+    "url": "https://www.w3.org/TR/user-timing/",
     "seriesComposition": "full",
-    "shortname": "user-timing-2",
+    "shortname": "user-timing",
     "series": {
       "shortname": "user-timing",
-      "currentSpecification": "user-timing-2",
+      "currentSpecification": "user-timing",
       "releaseUrl": "https://www.w3.org/TR/user-timing/",
       "nightlyUrl": "https://w3c.github.io/user-timing/"
     },
-    "seriesVersion": "2",
-    "seriesNext": "user-timing-3",
     "organization": "W3C",
     "groups": [
       {
@@ -13989,7 +14038,7 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/user-timing-2/",
+      "url": "https://www.w3.org/TR/user-timing/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -13998,48 +14047,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "User Timing Level 2",
+    "title": "User Timing",
     "source": "w3c",
-    "shortTitle": "User Timing 2",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "user-timing"
-      ]
-    }
-  },
-  {
-    "url": "https://www.w3.org/TR/user-timing-3/",
-    "seriesComposition": "full",
-    "shortname": "user-timing-3",
-    "series": {
-      "shortname": "user-timing",
-      "currentSpecification": "user-timing-2",
-      "releaseUrl": "https://www.w3.org/TR/user-timing/",
-      "nightlyUrl": "https://w3c.github.io/user-timing/"
-    },
-    "seriesVersion": "3",
-    "seriesPrevious": "user-timing-2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/user-timing-3/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/user-timing/",
-      "repository": "https://github.com/w3c/user-timing",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "User Timing Level 3",
-    "source": "w3c",
-    "shortTitle": "User Timing 3",
+    "shortTitle": "User Timing",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14633,7 +14643,13 @@
     },
     "title": "Web Neural Network API",
     "source": "w3c",
-    "shortTitle": "Web Neural Network API"
+    "shortTitle": "Web Neural Network API",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webnn"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/webrtc-encoded-transform/",
@@ -15155,6 +15171,38 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+    "seriesComposition": "full",
+    "shortname": "webxr-lighting-estimation-1",
+    "series": {
+      "shortname": "webxr-lighting-estimation",
+      "currentSpecification": "webxr-lighting-estimation-1",
+      "releaseUrl": "https://www.w3.org/TR/webxr-lighting-estimation/",
+      "nightlyUrl": "https://immersive-web.github.io/lighting-estimation/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://immersive-web.github.io/lighting-estimation/",
+      "repository": "https://github.com/immersive-web/lighting-estimation",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR Lighting Estimation API Level 1",
+    "source": "w3c",
+    "shortTitle": "WebXR Lighting Estimation API 1"
+  },
+  {
     "url": "https://www.w3.org/TR/webxr/",
     "seriesComposition": "full",
     "shortname": "webxr",
@@ -15248,6 +15296,12 @@
       "releaseUrl": "https://www.w3.org/TR/WGSL/",
       "nightlyUrl": "https://gpuweb.github.io/gpuweb/wgsl/"
     },
+    "nightly": {
+      "url": "https://gpuweb.github.io/gpuweb/wgsl/",
+      "sourcePath": "wgsl/index.bs",
+      "repository": "https://github.com/gpuweb/gpuweb",
+      "filename": "index.html"
+    },
     "organization": "W3C",
     "groups": [
       {
@@ -15258,12 +15312,6 @@
     "release": {
       "url": "https://www.w3.org/TR/WGSL/",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://gpuweb.github.io/gpuweb/wgsl/",
-      "repository": "https://github.com/gpuweb/gpuweb",
-      "sourcePath": "spec/index.bs",
-      "filename": "index.html"
     },
     "title": "WebGPU Shading Language",
     "source": "w3c",

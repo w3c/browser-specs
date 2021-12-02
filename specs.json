@@ -14,7 +14,6 @@
   "https://drafts.csswg.org/css-cascade-6/ delta",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
-  "https://drafts.csswg.org/css-fonts-5/ delta",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
@@ -50,7 +49,6 @@
     }
   },
   "https://immersive-web.github.io/anchors/",
-  "https://immersive-web.github.io/lighting-estimation/",
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",
@@ -117,9 +115,7 @@
   "https://w3c.github.io/badging/",
   "https://w3c.github.io/contentEditable/",
   "https://w3c.github.io/gamepad/extensions.html",
-  "https://w3c.github.io/IFT/Overview.html",
   "https://w3c.github.io/mathml-aam/",
-  "https://w3c.github.io/mathml-core/",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
   "https://w3c.github.io/web-nfc/",
@@ -217,6 +213,7 @@
   "https://wicg.github.io/webhid/",
   "https://wicg.github.io/webpackage/loading.html",
   "https://wicg.github.io/webusb/",
+  "https://wicg.github.io/window-controls-overlay/",
   "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/",
   "https://www.khronos.org/registry/webgl/extensions/EXT_blend_minmax/",
   "https://www.khronos.org/registry/webgl/extensions/EXT_clip_cull_distance/",
@@ -300,6 +297,7 @@
       }
     ]
   },
+  "https://www.rfc-editor.org/rfc/rfc4120",
   "https://www.rfc-editor.org/rfc/rfc6265",
   "https://www.rfc-editor.org/rfc/rfc6266",
   "https://www.rfc-editor.org/rfc/rfc6454",
@@ -316,6 +314,8 @@
   "https://www.rfc-editor.org/rfc/rfc7538",
   "https://www.rfc-editor.org/rfc/rfc7540",
   "https://www.rfc-editor.org/rfc/rfc7578",
+  "https://www.rfc-editor.org/rfc/rfc7616",
+  "https://www.rfc-editor.org/rfc/rfc7617",
   "https://www.rfc-editor.org/rfc/rfc7725",
   "https://www.rfc-editor.org/rfc/rfc7838",
   "https://www.rfc-editor.org/rfc/rfc8246",
@@ -413,6 +413,7 @@
   },
   "https://www.w3.org/TR/css-font-loading-3/",
   "https://www.w3.org/TR/css-fonts-4/",
+  "https://www.w3.org/TR/css-fonts-5/ delta",
   {
     "url": "https://www.w3.org/TR/css-gcpm-3/",
     "shortTitle": "CSS GCPM 3"
@@ -563,6 +564,7 @@
   "https://www.w3.org/TR/html-aam-1.0/",
   "https://www.w3.org/TR/html-aria/",
   "https://www.w3.org/TR/html-media-capture/",
+  "https://www.w3.org/TR/IFT/",
   "https://www.w3.org/TR/image-capture/",
   "https://www.w3.org/TR/image-resource/",
   {
@@ -574,6 +576,7 @@
   "https://www.w3.org/TR/longtasks-1/",
   "https://www.w3.org/TR/magnetometer/",
   "https://www.w3.org/TR/manifest-app-info/",
+  "https://www.w3.org/TR/mathml-core/",
   "https://www.w3.org/TR/media-capabilities/",
   {
     "url": "https://www.w3.org/TR/media-source-2/",
@@ -601,7 +604,6 @@
   "https://www.w3.org/TR/openscreenprotocol/",
   "https://www.w3.org/TR/orientation-event/",
   "https://www.w3.org/TR/orientation-sensor/",
-  "https://www.w3.org/TR/page-visibility-2/",
   "https://www.w3.org/TR/paint-timing/",
   "https://www.w3.org/TR/payment-handler/",
   {
@@ -611,7 +613,7 @@
   "https://www.w3.org/TR/payment-method-id/",
   "https://www.w3.org/TR/payment-method-manifest/",
   "https://www.w3.org/TR/payment-request/",
-  "https://www.w3.org/TR/performance-timeline-2/",
+  "https://www.w3.org/TR/performance-timeline/",
   "https://www.w3.org/TR/permissions-policy-1/",
   "https://www.w3.org/TR/permissions/",
   "https://www.w3.org/TR/picture-in-picture/",
@@ -681,8 +683,7 @@
   },
   "https://www.w3.org/TR/uievents/",
   "https://www.w3.org/TR/upgrade-insecure-requests/",
-  "https://www.w3.org/TR/user-timing-2/",
-  "https://www.w3.org/TR/user-timing-3/",
+  "https://www.w3.org/TR/user-timing/",
   "https://www.w3.org/TR/vibration/",
   "https://www.w3.org/TR/virtual-keyboard/",
   "https://www.w3.org/TR/wai-aria-1.2/",
@@ -738,9 +739,15 @@
   "https://www.w3.org/TR/webxr-gamepads-module-1/",
   "https://www.w3.org/TR/webxr-hand-input-1/",
   "https://www.w3.org/TR/webxr-hit-test-1/",
+  "https://www.w3.org/TR/webxr-lighting-estimation-1/",
   "https://www.w3.org/TR/webxr/",
   "https://www.w3.org/TR/webxrlayers-1/",
-  "https://www.w3.org/TR/WGSL/",
+  {
+    "url": "https://www.w3.org/TR/WGSL/",
+    "nightly": {
+      "sourcePath": "wgsl/index.bs"
+    }
+  },
   {
     "url": "https://www.w3.org/TR/WOFF2/",
     "shortTitle": "WOFF 2.0",

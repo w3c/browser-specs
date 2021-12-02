@@ -183,9 +183,9 @@
       "sourcePath": "css-animations-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Animations Level 2",
+    "title": "Index of css-animations-2/",
     "source": "spec",
-    "shortTitle": "CSS Animations 2",
+    "shortTitle": "Index of css-animations-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -253,9 +253,9 @@
       "sourcePath": "css-cascade-6/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Cascading and Inheritance Level 6",
+    "title": "Index of css-cascade-6/",
     "source": "spec",
-    "shortTitle": "CSS Cascading and Inheritance 6",
+    "shortTitle": "Index of css-cascade-6/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -286,9 +286,9 @@
       "sourcePath": "css-env-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Environment Variables Module Level 1",
+    "title": "Index of css-env-1/",
     "source": "spec",
-    "shortTitle": "CSS Environment Variables 1",
+    "shortTitle": "Index of css-env-1/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -319,9 +319,9 @@
       "sourcePath": "css-extensions-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Extensions",
+    "title": "Index of css-extensions-1/",
     "source": "spec",
-    "shortTitle": "CSS Extensions"
+    "shortTitle": "Index of css-extensions-1/"
   },
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -349,7 +349,7 @@
       "sourcePath": "css-gcpm-4/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Generated Content for Paged Media Module Level 4",
+    "title": "Index of css-gcpm-4/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -383,9 +383,9 @@
       "sourcePath": "css-grid-3/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Grid Layout Module Level 3",
+    "title": "Index of css-grid-3/",
     "source": "spec",
-    "shortTitle": "CSS Grid Layout 3",
+    "shortTitle": "Index of css-grid-3/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -419,7 +419,7 @@
       "sourcePath": "css-multicol-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Multi-column Layout Module Level 2",
+    "title": "Index of css-multicol-2/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -488,9 +488,9 @@
       "sourcePath": "css-shapes-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Shapes Module Level 2",
+    "title": "Index of css-shapes-2/",
     "source": "spec",
-    "shortTitle": "CSS Shapes 2",
+    "shortTitle": "Index of css-shapes-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -522,7 +522,7 @@
       "sourcePath": "css-size-adjust-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Mobile Text Size Adjustment Module Level 1",
+    "title": "Index of css-size-adjust-1/",
     "source": "spec",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
@@ -556,9 +556,9 @@
       "sourcePath": "css-transitions-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Transitions Level 2",
+    "title": "Index of css-transitions-2/",
     "source": "spec",
-    "shortTitle": "CSS Transitions 2",
+    "shortTitle": "Index of css-transitions-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -589,9 +589,9 @@
       "sourcePath": "scroll-animations-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Scroll-linked Animations",
+    "title": "Index of scroll-animations-1/",
     "source": "spec",
-    "shortTitle": "Scroll-linked Animations",
+    "shortTitle": "Index of scroll-animations-1/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -624,9 +624,9 @@
       "sourcePath": "web-animations-2/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Web Animations Level 2",
+    "title": "Index of web-animations-2/",
     "source": "spec",
-    "shortTitle": "Web Animations 2",
+    "shortTitle": "Index of web-animations-2/",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -2513,7 +2513,7 @@
     "nightly": {
       "url": "https://wicg.github.io/compute-pressure/",
       "repository": "https://github.com/WICG/compute-pressure",
-      "sourcePath": "index.bs",
+      "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Compute Pressure API",
@@ -4357,13 +4357,7 @@
     },
     "title": "Web Locks API",
     "source": "specref",
-    "shortTitle": "Web Locks API",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "web-locks"
-      ]
-    }
+    "shortTitle": "Web Locks API"
   },
   {
     "url": "https://wicg.github.io/web-otp/",
@@ -12437,16 +12431,15 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/performance-timeline-2/",
+    "url": "https://www.w3.org/TR/performance-timeline/",
     "seriesComposition": "full",
-    "shortname": "performance-timeline-2",
+    "shortname": "performance-timeline",
     "series": {
       "shortname": "performance-timeline",
-      "currentSpecification": "performance-timeline-2",
+      "currentSpecification": "performance-timeline",
       "releaseUrl": "https://www.w3.org/TR/performance-timeline/",
       "nightlyUrl": "https://w3c.github.io/performance-timeline/"
     },
-    "seriesVersion": "2",
     "organization": "W3C",
     "groups": [
       {
@@ -12455,7 +12448,7 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/performance-timeline-2/",
+      "url": "https://www.w3.org/TR/performance-timeline/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -12464,9 +12457,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Performance Timeline Level 2",
+    "title": "Performance Timeline",
     "source": "w3c",
-    "shortTitle": "Performance Timeline 2",
+    "shortTitle": "Performance Timeline",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14028,17 +14021,15 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/user-timing-2/",
+    "url": "https://www.w3.org/TR/user-timing/",
     "seriesComposition": "full",
-    "shortname": "user-timing-2",
+    "shortname": "user-timing",
     "series": {
       "shortname": "user-timing",
-      "currentSpecification": "user-timing-2",
+      "currentSpecification": "user-timing",
       "releaseUrl": "https://www.w3.org/TR/user-timing/",
       "nightlyUrl": "https://w3c.github.io/user-timing/"
     },
-    "seriesVersion": "2",
-    "seriesNext": "user-timing-3",
     "organization": "W3C",
     "groups": [
       {
@@ -14047,7 +14038,7 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/user-timing-2/",
+      "url": "https://www.w3.org/TR/user-timing/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -14056,48 +14047,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "User Timing Level 2",
+    "title": "User Timing",
     "source": "w3c",
-    "shortTitle": "User Timing 2",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "user-timing"
-      ]
-    }
-  },
-  {
-    "url": "https://www.w3.org/TR/user-timing-3/",
-    "seriesComposition": "full",
-    "shortname": "user-timing-3",
-    "series": {
-      "shortname": "user-timing",
-      "currentSpecification": "user-timing-2",
-      "releaseUrl": "https://www.w3.org/TR/user-timing/",
-      "nightlyUrl": "https://w3c.github.io/user-timing/"
-    },
-    "seriesVersion": "3",
-    "seriesPrevious": "user-timing-2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/user-timing-3/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/user-timing/",
-      "repository": "https://github.com/w3c/user-timing",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "User Timing Level 3",
-    "source": "w3c",
-    "shortTitle": "User Timing 3",
+    "shortTitle": "User Timing",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

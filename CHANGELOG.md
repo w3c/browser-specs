@@ -4,7 +4,30 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.16.1](https://github.com/w3c/browser-specs/compare/2.16.0...2.16.1)
+## [2.17.0](https://github.com/w3c/browser-specs/compare/2.16.1...2.17.0)
+
+
+### Merged
+
+- Add Manifest Incubations proposal [`#416`](https://github.com/w3c/browser-specs/pull/416)
+- Use version-less URLs for user-timing and performance-timeline [`#442`](https://github.com/w3c/browser-specs/pull/442)
+- Make version check less loose [`#441`](https://github.com/w3c/browser-specs/pull/441)
+
+### Fixed
+
+- Make version check less loose (#441) [`#440`](https://github.com/w3c/browser-specs/issues/440)
+
+### Commits
+
+- [data] Update spec info [`07368da`](https://github.com/w3c/browser-specs/commit/07368daa67d8be5192e603aae6d7ae6451e7439c)
+- [data] Update spec info [`1680573`](https://github.com/w3c/browser-specs/commit/1680573e7767a885295aaca5fac021d0e2db8e5e)
+- [data] Update spec info [`af81fb6`](https://github.com/w3c/browser-specs/commit/af81fb626ec750fbb8c476a593e8b1f441d61fef)
+- [data] Update spec info [`4b6ad59`](https://github.com/w3c/browser-specs/commit/4b6ad59cc0e8cfbdd81555c908c964918c7853f5)
+- [data] Update spec info [`ebfecf8`](https://github.com/w3c/browser-specs/commit/ebfecf8d663047556087cfa177029c364128f150)
+- [data] Update spec info [`f4aa01e`](https://github.com/w3c/browser-specs/commit/f4aa01eb3358936d8a85a876eb587c5dd469c5b9)
+- [data] Update spec info [`a92b0c4`](https://github.com/w3c/browser-specs/commit/a92b0c4c46f267ba6895315681fcee69a412bd09)
+
+## [2.16.1](https://github.com/w3c/browser-specs/compare/2.16.0...2.16.1) - 2021-11-22
 
 
 ### Merged

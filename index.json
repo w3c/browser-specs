@@ -1501,6 +1501,32 @@
     "shortTitle": "import assertions"
   },
   {
+    "url": "https://tc39.es/proposal-intl-duration-format/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-duration-format",
+    "series": {
+      "shortname": "tc39-intl-duration-format",
+      "currentSpecification": "tc39-intl-duration-format",
+      "nightlyUrl": "https://tc39.es/proposal-intl-duration-format/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-duration-format/",
+      "repository": "https://github.com/tc39/proposal-intl-duration-format",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Intl.DurationFormat",
+    "source": "spec",
+    "shortTitle": "Intl.DurationFormat"
+  },
+  {
     "url": "https://tc39.es/proposal-intl-enumeration/",
     "seriesComposition": "full",
     "shortname": "tc39-intl-enumeration",
@@ -2069,6 +2095,32 @@
     "title": "Media Capture Automation",
     "source": "spec",
     "shortTitle": "Media Capture Automation"
+  },
+  {
+    "url": "https://w3c.github.io/web-locks/",
+    "seriesComposition": "full",
+    "shortname": "web-locks",
+    "series": {
+      "shortname": "web-locks",
+      "currentSpecification": "web-locks",
+      "nightlyUrl": "https://wicg.github.io/web-locks/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/2019/webapps/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/web-locks/",
+      "repository": "https://github.com/WICG/web-locks",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web Locks API",
+    "source": "specref",
+    "shortTitle": "Web Locks API"
   },
   {
     "url": "https://w3c.github.io/web-nfc/",
@@ -4358,32 +4410,6 @@
         "visual-viewport"
       ]
     }
-  },
-  {
-    "url": "https://wicg.github.io/web-locks/",
-    "seriesComposition": "full",
-    "shortname": "web-locks",
-    "series": {
-      "shortname": "web-locks",
-      "currentSpecification": "web-locks",
-      "nightlyUrl": "https://wicg.github.io/web-locks/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/2019/webapps/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/web-locks/",
-      "repository": "https://github.com/WICG/web-locks",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Web Locks API",
-    "source": "specref",
-    "shortTitle": "Web Locks API"
   },
   {
     "url": "https://wicg.github.io/web-otp/",
@@ -10894,43 +10920,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/geolocation-API/",
-    "seriesComposition": "full",
-    "shortname": "geolocation-API",
-    "series": {
-      "shortname": "geolocation-API",
-      "currentSpecification": "geolocation-API",
-      "releaseUrl": "https://www.w3.org/TR/geolocation-API/",
-      "nightlyUrl": "https://w3c.github.io/geolocation-api/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Geolocation Working Group",
-        "url": "https://www.w3.org/2008/geolocation/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/geolocation-API/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/geolocation-api/",
-      "repository": "https://github.com/w3c/geolocation-api",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Geolocation API Specification 2nd Edition",
-    "source": "w3c",
-    "shortTitle": "Geolocation API Specification 2nd Edition",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "geolocation-API"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/geolocation-sensor/",
     "seriesComposition": "full",
     "shortname": "geolocation-sensor",
@@ -10964,6 +10953,43 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "geolocation-sensor"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/geolocation/",
+    "seriesComposition": "full",
+    "shortname": "geolocation",
+    "series": {
+      "shortname": "geolocation",
+      "currentSpecification": "geolocation",
+      "releaseUrl": "https://www.w3.org/TR/geolocation/",
+      "nightlyUrl": "https://w3c.github.io/geolocation-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Devices and Sensors Working Group",
+        "url": "https://www.w3.org/das/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/geolocation/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/geolocation-api/",
+      "repository": "https://github.com/w3c/geolocation-api",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Geolocation API",
+    "source": "w3c",
+    "shortTitle": "Geolocation API",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "geolocation-API"
       ]
     }
   },

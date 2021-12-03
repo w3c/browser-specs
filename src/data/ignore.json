@@ -131,6 +131,9 @@
     "w3c/dpub-aam": {
       "comment": "not targeting browsers but epub readers"
     },
+    "w3c/dpub-aria": {
+      "comment": "not targeting browsers but epub readers"
+    },
     "w3c/publ-epub-revision": {
       "comment": "not targeting browsers but epub readers"
     },
@@ -287,6 +290,9 @@
       "comment": "not a spec, but a collection"
     },
     "https://drafts.csswg.org/css-2020/": {
+      "comment": "not a spec, but a collection"
+    },
+    "https://drafts.csswg.org/css-2021/": {
       "comment": "not a spec, but a collection"
     },
     "https://drafts.csswg.org/css-egg-1/": {

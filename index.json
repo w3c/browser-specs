@@ -13267,7 +13267,7 @@
       "shortname": "secure-payment-confirmation",
       "currentSpecification": "secure-payment-confirmation",
       "releaseUrl": "https://www.w3.org/TR/secure-payment-confirmation/",
-      "nightlyUrl": "https://w3c.github.io/secure-payment-confirmation"
+      "nightlyUrl": "https://w3c.github.io/secure-payment-confirmation/"
     },
     "organization": "W3C",
     "groups": [
@@ -13281,7 +13281,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/secure-payment-confirmation",
+      "url": "https://w3c.github.io/secure-payment-confirmation/",
       "repository": "https://github.com/w3c/secure-payment-confirmation",
       "sourcePath": "spec.bs",
       "filename": "index.html"

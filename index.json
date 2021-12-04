@@ -7561,7 +7561,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-cascade/",
+      "url": "https://drafts.csswg.org/css-cascade-4/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-cascade-4/Overview.bs",
       "filename": "Overview.html"
@@ -7601,7 +7601,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-cascade/",
+      "url": "https://drafts.csswg.org/css-cascade-5/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-cascade-5/Overview.bs",
       "filename": "Overview.html"

@@ -4,8 +4,20 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.17.0](https://github.com/w3c/browser-specs/compare/2.16.1...2.17.0)
+## [2.18.0](https://github.com/w3c/browser-specs/compare/2.17.0...2.18.0)
 
+### Merged
+
+- Bump jsdom from 18.1.1 to 19.0.0 [`#443`](https://github.com/w3c/browser-specs/pull/443)
+- Add Intl.DurationFormat, update Web Locks, geolocation [`#444`](https://github.com/w3c/browser-specs/pull/444)
+
+### Commits
+
+- [data] Update spec info [`f3c0b8e`](https://github.com/w3c/browser-specs/commit/f3c0b8e8553baf6e61e96967c6bf42d8f9ae92a6)
+- [data] Update spec info [`43ca2b6`](https://github.com/w3c/browser-specs/commit/43ca2b62764ae4f01e0e7d23e005fc11bc1c92e8)
+- [data] Update spec info [`f5f8d35`](https://github.com/w3c/browser-specs/commit/f5f8d3564955c704b899dbf3b4cd3da347ff1e58)
+
+## [2.17.0](https://github.com/w3c/browser-specs/compare/2.16.1...2.17.0) - 2021-12-03
 
 ### Merged
 
@@ -29,7 +41,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.16.1](https://github.com/w3c/browser-specs/compare/2.16.0...2.16.1) - 2021-11-22
 
-
 ### Merged
 
 - Update URLs of ED published to TR, monitor nav-speculation [`#437`](https://github.com/w3c/browser-specs/pull/437)
@@ -51,7 +62,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`f748f7b`](https://github.com/w3c/browser-specs/commit/f748f7b130a7af13f2c5d2d84851085f5e8ac3c4)
 
 ## [2.16.0](https://github.com/w3c/browser-specs/compare/2.15.1...2.16.0) - 2021-11-08
-
 
 ### Merged
 
@@ -95,11 +105,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.15.1](https://github.com/w3c/browser-specs/compare/2.15.0...2.15.1) - 2021-10-07
 
-
 ### Merged
 
 - Bump jsdom from 16.2.2 to 17.0.0 [`#401`](https://github.com/w3c/browser-specs/pull/401)
-
 
 ### Commits
 
@@ -110,20 +118,15 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.15.0](https://github.com/w3c/browser-specs/compare/2.14.1...2.15.0) - 2021-10-04
 
-
 ### Merged
 
 - Remove frame-timing, as no longer being pursued [`#394`](https://github.com/w3c/browser-specs/pull/394)
-
 
 ### Commits
 
 - [data] Update spec info [`d092629`](https://github.com/w3c/browser-specs/commit/d092629779d3d75d155caeb7f7550ad846e83133)
 
 ## [2.14.1](https://github.com/w3c/browser-specs/compare/2.14.0...2.14.1) - 2021-10-01
-
-
-
 
 ### Commits
 
@@ -132,18 +135,15 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.14.0](https://github.com/w3c/browser-specs/compare/2.13.0...2.14.0) - 2021-09-29
 
-
 ### Merged
 
 - Add W3C Process and Patent Policy document, adjust tools and tests [`#391`](https://github.com/w3c/browser-specs/pull/391)
-
 
 ### Commits
 
 - [data] Update spec info [`ccbd367`](https://github.com/w3c/browser-specs/commit/ccbd3678c9bd1109fae799195b6c0dbeb2081f4e)
 
 ## [2.13.0](https://github.com/w3c/browser-specs/compare/2.12.0...2.13.0) - 2021-09-27
-
 
 ### Merged
 
@@ -170,11 +170,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.12.0](https://github.com/w3c/browser-specs/compare/2.11.0...2.12.0) - 2021-09-16
 
-
 ### Merged
 
 - Add https://tc39.es/proposal-intl-locale-info [`#378`](https://github.com/w3c/browser-specs/pull/378)
-
 
 ### Commits
 
@@ -183,13 +181,11 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.11.0](https://github.com/w3c/browser-specs/compare/2.10.0...2.11.0) - 2021-09-13
 
-
 ### Merged
 
 - Add source path for Scripting Policy spec [`#377`](https://github.com/w3c/browser-specs/pull/377)
 - Add CSS Cascade 6, Scripting Policy, Close Watcher [`#376`](https://github.com/w3c/browser-specs/pull/376)
 - Reflect change in url of ecmascript proposal [`#374`](https://github.com/w3c/browser-specs/pull/374)
-
 
 ### Commits
 
@@ -207,11 +203,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.10.0](https://github.com/w3c/browser-specs/compare/2.9.0...2.10.0) - 2021-09-03
 
-
 ### Merged
 
 - Add a few WICG specs, update review of monitored specs [`#372`](https://github.com/w3c/browser-specs/pull/372)
-
 
 ### Commits
 
@@ -223,11 +217,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.9.0](https://github.com/w3c/browser-specs/compare/2.8.0...2.9.0) - 2021-08-31
 
-
 ### Merged
 
 - Update URL of recently published FPWD [`#371`](https://github.com/w3c/browser-specs/pull/371)
-
 
 ### Commits
 
@@ -235,7 +227,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`0a34a37`](https://github.com/w3c/browser-specs/commit/0a34a37f23f10f8afd51051c74a5682760e32ff8)
 
 ## [2.8.0](https://github.com/w3c/browser-specs/compare/2.7.1...2.8.0) - 2021-08-31
-
 
 ### Merged
 
@@ -250,7 +241,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`a3d03a1`](https://github.com/w3c/browser-specs/commit/a3d03a1f6d1c5e5f271efe8bf99240272ffe7efb)
 
 ## [2.7.1](https://github.com/w3c/browser-specs/compare/2.7.0...2.7.1) - 2021-08-29
-
 
 ### Merged
 
@@ -274,7 +264,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.7.0](https://github.com/w3c/browser-specs/compare/2.6.1...2.7.0) - 2021-08-09
 
-
 ### Merged
 
 - Add CSS Scoping Level 2, monitor Color API [`#363`](https://github.com/w3c/browser-specs/pull/363)
@@ -292,17 +281,11 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.6.1](https://github.com/w3c/browser-specs/compare/2.6.0...2.6.1) - 2021-08-04
 
-
-
-
 ### Commits
 
 - [data] Update spec info [`fff06b3`](https://github.com/w3c/browser-specs/commit/fff06b3cfdc85bb84d259d8d165eaaed0570761a)
 
 ## [2.6.0](https://github.com/w3c/browser-specs/compare/2.5.0...2.6.0) - 2021-08-04
-
-
-
 
 ### Commits
 
@@ -311,11 +294,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.5.0](https://github.com/w3c/browser-specs/compare/2.4.0...2.5.0) - 2021-07-24
 
-
 ### Merged
 
 - Add preferCurrentTab spec [`#354`](https://github.com/w3c/browser-specs/pull/354)
-
 
 ### Commits
 
@@ -323,12 +304,10 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.4.0](https://github.com/w3c/browser-specs/compare/2.3.0...2.4.0) - 2021-07-22
 
-
 ### Merged
 
 - Drop Constructable Stylesheet Objects [`#353`](https://github.com/w3c/browser-specs/pull/353)
 - Ignore MathML 4 spec [`#352`](https://github.com/w3c/browser-specs/pull/352)
-
 
 ### Commits
 
@@ -336,18 +315,15 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.3.0](https://github.com/w3c/browser-specs/compare/2.2.0...2.3.0) - 2021-07-19
 
-
 ### Merged
 
 - Add TC39 findLast and Realms API proposals [`#351`](https://github.com/w3c/browser-specs/pull/351)
-
 
 ### Commits
 
 - [data] Update spec info [`e60feeb`](https://github.com/w3c/browser-specs/commit/e60feebf9969c795f8a4c120edf6b56f53384ec8)
 
 ## [2.2.0](https://github.com/w3c/browser-specs/compare/2.1.0...2.2.0) - 2021-07-12
-
 
 ### Merged
 
@@ -369,7 +345,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [2.1.0](https://github.com/w3c/browser-specs/compare/2.0.0...2.1.0) - 2021-07-06
 
-
 ### Merged
 
 - Document WG manually for RFC2397 [`#344`](https://github.com/w3c/browser-specs/pull/344)
@@ -386,7 +361,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`52eb847`](https://github.com/w3c/browser-specs/commit/52eb84770e48445bd5c7b271e0b0b696b661d985)
 
 ## [2.0.0](https://github.com/w3c/browser-specs/compare/1.44.0...2.0.0) - 2021-07-05
-
 
 ### Merged
 
@@ -409,7 +383,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.44.0](https://github.com/w3c/browser-specs/compare/1.43.0...1.44.0) - 2021-07-02
 
-
 ### Merged
 
 - Add fingerprinting-guidance to the list of specs. [`#326`](https://github.com/w3c/browser-specs/pull/326)
@@ -428,7 +401,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.43.0](https://github.com/w3c/browser-specs/compare/1.42.0...1.43.0) - 2021-07-01
 
-
 ### Merged
 
 - Add Organization and Groups info to index file [`#322`](https://github.com/w3c/browser-specs/pull/322)
@@ -437,9 +409,7 @@ property values. Check the corresponding Git commit for details.
 
 - Add Organization and Groups info to index file (#322) [`#32`](https://github.com/w3c/browser-specs/issues/32)
 
-
 ## [1.42.0](https://github.com/w3c/browser-specs/compare/1.41.1...1.42.0) - 2021-07-01
-
 
 ### Merged
 
@@ -458,18 +428,15 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.41.1](https://github.com/w3c/browser-specs/compare/1.41.0...1.41.1) - 2021-06-23
 
-
 ### Merged
 
 - Update URL of Web Neural Network API spec [`#319`](https://github.com/w3c/browser-specs/pull/319)
-
 
 ### Commits
 
 - [data] Update spec info [`39877db`](https://github.com/w3c/browser-specs/commit/39877dbe4857981734c6e5489394e09df3978183)
 
 ## [1.41.0](https://github.com/w3c/browser-specs/compare/1.40.0...1.41.0) - 2021-06-21
-
 
 ### Merged
 
@@ -484,7 +451,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`6baf61f`](https://github.com/w3c/browser-specs/commit/6baf61f1c5b81b108e12363aa3b9e4a898159d2e)
 
 ## [1.40.0](https://github.com/w3c/browser-specs/compare/1.39.0...1.40.0) - 2021-06-16
-
 
 ### Merged
 
@@ -507,7 +473,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.39.0](https://github.com/w3c/browser-specs/compare/1.38.1...1.39.0) - 2021-06-09
 
-
 ### Merged
 
 - Recognize tc39-transfer as equivalent to tc39 when finding specs [`#309`](https://github.com/w3c/browser-specs/pull/309)
@@ -526,7 +491,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.38.1](https://github.com/w3c/browser-specs/compare/1.38.0...1.38.1) - 2021-05-25
 
-
 ### Merged
 
 - Switch ecma262 spec to multipage version [`#299`](https://github.com/w3c/browser-specs/pull/299)
@@ -542,14 +506,12 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.38.0](https://github.com/w3c/browser-specs/compare/1.37.0...1.38.0) - 2021-05-21
 
-
 ### Merged
 
 - Update URL of WebGPU, add WGSL [`#297`](https://github.com/w3c/browser-specs/pull/297)
 - Add Document Policy [`#296`](https://github.com/w3c/browser-specs/pull/296)
 - Switch to /TR URL for WebTransport [`#294`](https://github.com/w3c/browser-specs/pull/294)
 - Bump handlebars from 4.7.6 to 4.7.7 [`#292`](https://github.com/w3c/browser-specs/pull/292)
-
 
 ### Commits
 
@@ -562,7 +524,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`356b2cc`](https://github.com/w3c/browser-specs/commit/356b2cc55e2355aeee62cb1ab2eb763cee801af6)
 
 ## [1.37.0](https://github.com/w3c/browser-specs/compare/1.36.0...1.37.0) - 2021-05-05
-
 
 ### Merged
 
@@ -578,7 +539,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`aa60ce2`](https://github.com/w3c/browser-specs/commit/aa60ce28e579ae36fbf56f7999644177724f9272)
 
 ## [1.36.0](https://github.com/w3c/browser-specs/compare/1.35.1...1.36.0) - 2021-05-04
-
 
 ### Merged
 
@@ -599,15 +559,11 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.35.1](https://github.com/w3c/browser-specs/compare/1.35.0...1.35.1) - 2021-04-26
 
-
-
-
 ### Commits
 
 - [data] Update spec info [`12d543a`](https://github.com/w3c/browser-specs/commit/12d543a3aab7f566db18db05e28cef7fc2c3bf03)
 
 ## [1.35.0](https://github.com/w3c/browser-specs/compare/1.34.2...1.35.0) - 2021-04-26
-
 
 ### Merged
 
@@ -625,16 +581,12 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.34.2](https://github.com/w3c/browser-specs/compare/1.34.1...1.34.2) - 2021-04-16
 
-
-
-
 ### Commits
 
 - [data] Update spec info [`4a49b2e`](https://github.com/w3c/browser-specs/commit/4a49b2ee0af79d0cf9faddebf96350a4404a737c)
 - [data] Update spec info [`93b8a50`](https://github.com/w3c/browser-specs/commit/93b8a50610fbc686bf17f7c585f0ef19ebc04cc9)
 
 ## [1.34.1](https://github.com/w3c/browser-specs/compare/1.34.0...1.34.1) - 2021-04-12
-
 
 ### Merged
 
@@ -654,12 +606,10 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.34.0](https://github.com/w3c/browser-specs/compare/1.33.0...1.34.0) - 2021-04-01
 
-
 ### Merged
 
 - Update URL for WebCodecs [`#270`](https://github.com/w3c/browser-specs/pull/270)
 - Add WebXR Layers Polyfill to ignore list [`#269`](https://github.com/w3c/browser-specs/pull/269)
-
 
 ### Commits
 
@@ -668,7 +618,6 @@ property values. Check the corresponding Git commit for details.
 - Bump y18n from 4.0.0 to 4.0.1 [`73e933b`](https://github.com/w3c/browser-specs/commit/73e933bb7c0c253da95ad93c139d57f471b1aac1)
 
 ## [1.33.0](https://github.com/w3c/browser-specs/compare/1.32.0...1.33.0) - 2021-03-22
-
 
 ### Merged
 
@@ -685,12 +634,10 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.32.0](https://github.com/w3c/browser-specs/compare/1.31.0...1.32.0) - 2021-03-18
 
-
 ### Merged
 
 - Reflect renaming of 2 WebRTC repos [`#265`](https://github.com/w3c/browser-specs/pull/265)
 - Rename Screen Fold to Device Posture [`#264`](https://github.com/w3c/browser-specs/pull/264)
-
 
 ### Commits
 
@@ -700,7 +647,6 @@ property values. Check the corresponding Git commit for details.
 - Drop nightly URL override for Fetch Metadata [`c3437c8`](https://github.com/w3c/browser-specs/commit/c3437c80cf812571125609d3834199dcb4b050b7)
 
 ## [1.31.0](https://github.com/w3c/browser-specs/compare/1.30.0...1.31.0) - 2021-03-15
-
 
 ### Merged
 
@@ -724,18 +670,15 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.30.0](https://github.com/w3c/browser-specs/compare/1.29.0...1.30.0) - 2021-03-05
 
-
 ### Merged
 
 - Move SVG Paths and Markers to monitor list [`#253`](https://github.com/w3c/browser-specs/pull/253)
-
 
 ### Commits
 
 - [data] Update spec info [`283b443`](https://github.com/w3c/browser-specs/commit/283b44314f49ab643a5d3660bca857dce5015874)
 
 ## [1.29.0](https://github.com/w3c/browser-specs/compare/1.28.1...1.29.0) - 2021-03-03
-
 
 ### Merged
 
@@ -754,14 +697,12 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.28.1](https://github.com/w3c/browser-specs/compare/1.28.0...1.28.1) - 2021-03-02
 
-
 ### Merged
 
 - Add WICG/resource-bundles to monitor list [`#251`](https://github.com/w3c/browser-specs/pull/251)
 - Add CSS Conditional Values and CSS Fonts 5 to monitor list [`#245`](https://github.com/w3c/browser-specs/pull/245)
 - Add Scheduling APIs to monitor list [`#244`](https://github.com/w3c/browser-specs/pull/244)
 - Add WICG/app-history to monitor list, ignore gpuweb/types [`#242`](https://github.com/w3c/browser-specs/pull/242)
-
 
 ### Commits
 
@@ -777,11 +718,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.28.0](https://github.com/w3c/browser-specs/compare/1.27.0...1.28.0) - 2021-02-04
 
-
 ### Merged
 
 - Add two new stage 3 TC39 proposals, add PFE to monitor list [`#240`](https://github.com/w3c/browser-specs/pull/240)
-
 
 ### Commits
 
@@ -800,7 +739,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.27.0](https://github.com/w3c/browser-specs/compare/1.26.0...1.27.0) - 2021-01-25
 
-
 ### Merged
 
 - Add DataCue API [`#233`](https://github.com/w3c/browser-specs/pull/233)
@@ -808,7 +746,6 @@ property values. Check the corresponding Git commit for details.
 - Always check repo against ignore/monitor lists [`#232`](https://github.com/w3c/browser-specs/pull/232)
 - Add UUID incubation to monitor list [`#231`](https://github.com/w3c/browser-specs/pull/231)
 - Add WebXR-WebGPU Binding repo to monitor list [`#230`](https://github.com/w3c/browser-specs/pull/230)
-
 
 ### Commits
 
@@ -821,19 +758,16 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.26.0](https://github.com/w3c/browser-specs/compare/1.25.1...1.26.0) - 2021-01-05
 
-
 ### Merged
 
 - Expose test repository and paths for each spec [`#227`](https://github.com/w3c/browser-specs/pull/227)
 - Update review date of monitored specs [`#228`](https://github.com/w3c/browser-specs/pull/228)
-
 
 ### Commits
 
 - [data] Update spec info [`1609274`](https://github.com/w3c/browser-specs/commit/1609274bfd26236dd9341b51a21979ef414ed35f)
 
 ## [1.25.1](https://github.com/w3c/browser-specs/compare/1.25.0...1.25.1) - 2020-12-21
-
 
 ### Merged
 
@@ -853,7 +787,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`f85a6c1`](https://github.com/w3c/browser-specs/commit/f85a6c17f94fdacf8456570be6a339aff89c1d8c)
 
 ## [1.25.0](https://github.com/w3c/browser-specs/compare/1.24.0...1.25.0) - 2020-12-18
-
 
 ### Merged
 
@@ -882,7 +815,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.24.0](https://github.com/w3c/browser-specs/compare/1.23.2...1.24.0) - 2020-12-14
 
-
 ### Merged
 
 - Remove Trace Context [`#195`](https://github.com/w3c/browser-specs/pull/195)
@@ -902,7 +834,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.23.2](https://github.com/w3c/browser-specs/compare/1.23.1...1.23.2) - 2020-12-10
 
-
 ### Merged
 
 - Mention W3C API key in README [`#209`](https://github.com/w3c/browser-specs/pull/209)
@@ -918,13 +849,11 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.23.1](https://github.com/w3c/browser-specs/compare/1.23.0...1.23.1) - 2020-12-08
 
-
 ### Merged
 
 - Adopt new TR shortname for CSS Conditional 3 [`#207`](https://github.com/w3c/browser-specs/pull/207)
 - Drop useless imports in index.js script [`#206`](https://github.com/w3c/browser-specs/pull/206)
 - Move dependencies to developer dependencies [`#205`](https://github.com/w3c/browser-specs/pull/205)
-
 
 ### Commits
 
@@ -932,13 +861,11 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.23.0](https://github.com/w3c/browser-specs/compare/1.22.0...1.23.0) - 2020-12-07
 
-
 ### Merged
 
 - Reflect specs identified in December 7 spec finder [`#204`](https://github.com/w3c/browser-specs/pull/204)
 - List new repos to be monitored [`#203`](https://github.com/w3c/browser-specs/pull/203)
 - Use correct URL for prefix when looking for new ECMA specs [`#200`](https://github.com/w3c/browser-specs/pull/200)
-
 
 ### Commits
 
@@ -948,7 +875,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`8413bce`](https://github.com/w3c/browser-specs/commit/8413bce9b7f8fe30203dd23f9d7da6d679c151ab)
 
 ## [1.22.0](https://github.com/w3c/browser-specs/compare/1.21.2...1.22.0) - 2020-11-27
-
 
 ### Merged
 
@@ -970,7 +896,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.21.2](https://github.com/w3c/browser-specs/compare/1.21.1...1.21.2) - 2020-11-09
 
-
 ### Merged
 
 - Add periodic check on base URL [`#192`](https://github.com/w3c/browser-specs/pull/192)
@@ -989,7 +914,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.21.1](https://github.com/w3c/browser-specs/compare/1.21.0...1.21.1) - 2020-11-06
 
-
 ### Merged
 
 - Update Publishing Working Group to match its new name [`#187`](https://github.com/w3c/browser-specs/pull/187)
@@ -1006,7 +930,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.21.0](https://github.com/w3c/browser-specs/compare/1.20.0...1.21.0) - 2020-11-02
 
-
 ### Merged
 
 - Ignore Worklets spec and discussion repo on memory copies [`#185`](https://github.com/w3c/browser-specs/pull/185)
@@ -1022,7 +945,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`0ed5508`](https://github.com/w3c/browser-specs/commit/0ed550803b03cb6791da7921282a12c559b4f2f8)
 
 ## [1.20.0](https://github.com/w3c/browser-specs/compare/1.19.1...1.20.0) - 2020-10-26
-
 
 ### Merged
 
@@ -1042,11 +964,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.19.1](https://github.com/w3c/browser-specs/compare/1.19.0...1.19.1) - 2020-10-19
 
-
 ### Merged
 
 - List new repos to be monitored [`#178`](https://github.com/w3c/browser-specs/pull/178)
-
 
 ### Commits
 
@@ -1054,12 +974,10 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.19.0](https://github.com/w3c/browser-specs/compare/1.18.1...1.19.0) - 2020-10-15
 
-
 ### Merged
 
 - Drop superseded CSS Recommendations [`#174`](https://github.com/w3c/browser-specs/pull/174)
 - Flag User Timing 2 as current specification [`#177`](https://github.com/w3c/browser-specs/pull/177)
-
 
 ### Commits
 
@@ -1068,11 +986,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.18.1](https://github.com/w3c/browser-specs/compare/1.18.0...1.18.1) - 2020-10-14
 
-
 ### Merged
 
 - Flag CSS Box 3 as current specification [`#175`](https://github.com/w3c/browser-specs/pull/175)
-
 
 ### Commits
 
@@ -1080,7 +996,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`6a49bd4`](https://github.com/w3c/browser-specs/commit/6a49bd4e28e3770566dabca7abc83a28fbed4605)
 
 ## [1.18.0](https://github.com/w3c/browser-specs/compare/1.17.0...1.18.0) - 2020-10-12
-
 
 ### Merged
 
@@ -1098,9 +1013,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.17.0](https://github.com/w3c/browser-specs/compare/1.16.0...1.17.0) - 2020-10-01
 
-
-
-
 ### Commits
 
 - [data] Update spec info [`e7b9d36`](https://github.com/w3c/browser-specs/commit/e7b9d369cfb78ec2fb9266095e2e9ab48a2a54c1)
@@ -1108,11 +1020,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.16.0](https://github.com/w3c/browser-specs/compare/1.15.0...1.16.0) - 2020-09-30
 
-
 ### Merged
 
 - Reflect transfer of WebTransport repo to w3c org [`#166`](https://github.com/w3c/browser-specs/pull/166)
-
 
 ### Commits
 
@@ -1122,12 +1032,10 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.15.0](https://github.com/w3c/browser-specs/compare/1.14.2...1.15.0) - 2020-09-28
 
-
 ### Merged
 
 - Rename filesystem api & add merchant validation to monitoring [`#164`](https://github.com/w3c/browser-specs/pull/164)
 - Add CSS Cascade 5 [`#161`](https://github.com/w3c/browser-specs/pull/161)
-
 
 ### Commits
 
@@ -1142,11 +1050,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.14.2](https://github.com/w3c/browser-specs/compare/1.14.1...1.14.2) - 2020-09-22
 
-
 ### Merged
 
 - Reflect transfor of change-password-url to w3c from wicg [`#160`](https://github.com/w3c/browser-specs/pull/160)
-
 
 ### Commits
 
@@ -1156,7 +1062,6 @@ property values. Check the corresponding Git commit for details.
 - Fix URL of change-password-url spec [`b0af648`](https://github.com/w3c/browser-specs/commit/b0af6482c5e88b08e6fa13d2af7386f75f457b6d)
 
 ## [1.14.1](https://github.com/w3c/browser-specs/compare/1.14.0...1.14.1) - 2020-09-16
-
 
 ### Merged
 
@@ -1181,18 +1086,15 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.14.0](https://github.com/w3c/browser-specs/compare/1.13.0...1.14.0) - 2020-08-24
 
-
 ### Merged
 
 - Add WebXR Hand input to list of specs [`#146`](https://github.com/w3c/browser-specs/pull/146)
-
 
 ### Commits
 
 - [data] Update spec info [`16dc62e`](https://github.com/w3c/browser-specs/commit/16dc62e2b934628a6fccc9bad465c9a5adef7cad)
 
 ## [1.13.0](https://github.com/w3c/browser-specs/compare/1.12.0...1.13.0) - 2020-08-18
-
 
 ### Merged
 
@@ -1212,13 +1114,11 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.12.0](https://github.com/w3c/browser-specs/compare/1.11.1...1.12.0) - 2020-07-20
 
-
 ### Merged
 
 - Ignore WebXR weekly repo and monitor Sanitizer API repo [`#134`](https://github.com/w3c/browser-specs/pull/134)
 - Update URL of Permissions Policy spec [`#133`](https://github.com/w3c/browser-specs/pull/133)
 - Use previous filename when it cannot be determined [`#131`](https://github.com/w3c/browser-specs/pull/131)
-
 
 ### Commits
 
@@ -1231,14 +1131,12 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.11.1](https://github.com/w3c/browser-specs/compare/1.11.0...1.11.1) - 2020-07-06
 
-
 ### Merged
 
 - CSS2 ED switched to Bikeshed, no longer multipage [`#129`](https://github.com/w3c/browser-specs/pull/129)
 - Hande Last-Revised header in spec monitor [`#128`](https://github.com/w3c/browser-specs/pull/128)
 - Update review of monitored specs [`#127`](https://github.com/w3c/browser-specs/pull/127)
 - Add 2 CSS spec and WebXR Lighting spec to monitor list [`#126`](https://github.com/w3c/browser-specs/pull/126)
-
 
 ### Commits
 
@@ -1251,7 +1149,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`f575b41`](https://github.com/w3c/browser-specs/commit/f575b41caa99ab1bd7fa1029d7d6e035aecd1912)
 
 ## [1.11.0](https://github.com/w3c/browser-specs/compare/1.10.0...1.11.0) - 2020-06-29
-
 
 ### Merged
 
@@ -1269,7 +1166,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.10.0](https://github.com/w3c/browser-specs/compare/1.9.0...1.10.0) - 2020-06-20
 
-
 ### Merged
 
 - Add short titles to specs.json [`#120`](https://github.com/w3c/browser-specs/pull/120)
@@ -1284,14 +1180,12 @@ property values. Check the corresponding Git commit for details.
 - Ignore /TR/html [`#111`](https://github.com/w3c/browser-specs/pull/111)
 - Account for comparison of level-less editors draft with level'd ones [`#110`](https://github.com/w3c/browser-specs/pull/110)
 
-
 ### Commits
 
 - [data] Update spec info [`3928ef5`](https://github.com/w3c/browser-specs/commit/3928ef573a438ddb71bf61b1dcf475d6ab6f4fc3)
 - [data] Update spec info [`f33ac66`](https://github.com/w3c/browser-specs/commit/f33ac66ba1ff84b2c2e35172d8293d0f11b1c0b6)
 
 ## [1.9.0](https://github.com/w3c/browser-specs/compare/1.8.1...1.9.0) - 2020-06-18
-
 
 ### Merged
 
@@ -1304,21 +1198,17 @@ property values. Check the corresponding Git commit for details.
 
 - Make sure to detect TR versions of specs we're otherwise tracking (#108) [`#62`](https://github.com/w3c/browser-specs/issues/62)
 
-
 ## [1.8.1](https://github.com/w3c/browser-specs/compare/1.8.0...1.8.1) - 2020-06-17
-
 
 ### Merged
 
 - Update CSS Sizing 4 to use TR URL [`#104`](https://github.com/w3c/browser-specs/pull/104)
-
 
 ### Commits
 
 - [data] Update spec info [`ae2c7d8`](https://github.com/w3c/browser-specs/commit/ae2c7d8367074ee2452ec07de653063e424f576a)
 
 ## [1.8.0](https://github.com/w3c/browser-specs/compare/1.7.0...1.8.0) - 2020-06-17
-
 
 ### Merged
 
@@ -1334,7 +1224,6 @@ property values. Check the corresponding Git commit for details.
 - Add mathml accessibility mappings [`#95`](https://github.com/w3c/browser-specs/pull/95)
 - Ignore more specs [`#93`](https://github.com/w3c/browser-specs/pull/93)
 
-
 ### Commits
 
 - [data] Update spec info [`8150fa1`](https://github.com/w3c/browser-specs/commit/8150fa1acb7ec56120165452592d584ae8a25d14)
@@ -1343,7 +1232,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`e1fa081`](https://github.com/w3c/browser-specs/commit/e1fa08125abaabcd3308c9c7c955d1d60dabdcfa)
 
 ## [1.7.0](https://github.com/w3c/browser-specs/compare/1.6.0...1.7.0) - 2020-06-17
-
 
 ### Merged
 
@@ -1363,7 +1251,6 @@ property values. Check the corresponding Git commit for details.
 - Ignore TR specs from older versions of a given series [`#78`](https://github.com/w3c/browser-specs/pull/78)
 - Report specs found as candidates as github issue [`#76`](https://github.com/w3c/browser-specs/pull/76)
 
-
 ### Commits
 
 - [data] Update spec info [`667b343`](https://github.com/w3c/browser-specs/commit/667b343d3e958498eca4b0c0b6b0621ef5429ada)
@@ -1377,7 +1264,6 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.6.0](https://github.com/w3c/browser-specs/compare/1.5.1...1.6.0) - 2020-06-12
 
-
 ### Merged
 
 - Adjust URLs based on findings in #70 and #72 [`#75`](https://github.com/w3c/browser-specs/pull/75)
@@ -1385,7 +1271,6 @@ property values. Check the corresponding Git commit for details.
 - Add WebRTC Insertable Streams [`#73`](https://github.com/w3c/browser-specs/pull/73)
 - Add script to find list of specs potentially in scope [`#70`](https://github.com/w3c/browser-specs/pull/70)
 - Update URL of Web Share Target spec [`#69`](https://github.com/w3c/browser-specs/pull/69)
-
 
 ### Commits
 
@@ -1415,22 +1300,17 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.5.1](https://github.com/w3c/browser-specs/compare/1.5.0...1.5.1) - 2020-06-04
 
-
-
-
 ### Commits
 
 - [data] Update spec info [`5d2e7c6`](https://github.com/w3c/browser-specs/commit/5d2e7c62e5c8ee537f8ab73efa625085cef3fec1)
 
 ## [1.5.0](https://github.com/w3c/browser-specs/compare/1.4.0...1.5.0) - 2020-06-03
 
-
 ### Merged
 
 - Update CSS Parser API URL [`#67`](https://github.com/w3c/browser-specs/pull/67)
 - Update Input Device Capabilities URL [`#68`](https://github.com/w3c/browser-specs/pull/68)
 - Update Text Fragments URL (repo was renamed) [`#66`](https://github.com/w3c/browser-specs/pull/66)
-
 
 ### Commits
 
@@ -1440,11 +1320,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.4.0](https://github.com/w3c/browser-specs/compare/1.3.0...1.4.0) - 2020-06-01
 
-
 ### Merged
 
 - Remove Web Budget API [`#65`](https://github.com/w3c/browser-specs/pull/65)
-
 
 ### Commits
 
@@ -1452,13 +1330,11 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.3.0](https://github.com/w3c/browser-specs/compare/1.2.0...1.3.0) - 2020-05-29
 
-
 ### Merged
 
 - Force HTTPS URLs, drop CSS Forms, add specs [`#64`](https://github.com/w3c/browser-specs/pull/64)
 - Update Background Sync URL [`#63`](https://github.com/w3c/browser-specs/pull/63)
 - Adjust a couple of TR URLs to match W3C API shortnames [`#59`](https://github.com/w3c/browser-specs/pull/59)
-
 
 ### Commits
 
@@ -1467,11 +1343,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.2.0](https://github.com/w3c/browser-specs/compare/1.1.3...1.2.0) - 2020-05-27
 
-
 ### Merged
 
 - Drop CSS TV Profile 1.0 [`#57`](https://github.com/w3c/browser-specs/pull/57)
-
 
 ### Commits
 
@@ -1480,11 +1354,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.1.3](https://github.com/w3c/browser-specs/compare/1.1.2...1.1.3) - 2020-05-26
 
-
 ### Merged
 
 - Use plural for Service Workers shortname [`#49`](https://github.com/w3c/browser-specs/pull/49)
-
 
 ### Commits
 
@@ -1492,11 +1364,9 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.1.2](https://github.com/w3c/browser-specs/compare/1.1.1...1.1.2) - 2020-05-26
 
-
 ### Merged
 
 - Force Service Worker spec shortname [`#48`](https://github.com/w3c/browser-specs/pull/48)
-
 
 ### Commits
 
@@ -1504,22 +1374,17 @@ property values. Check the corresponding Git commit for details.
 
 ## [1.1.1](https://github.com/w3c/browser-specs/compare/1.1.0...1.1.1) - 2020-05-22
 
-
-
-
 ### Commits
 
 - [data] Update spec info [`f9f7d8f`](https://github.com/w3c/browser-specs/commit/f9f7d8fc23b82e21f8b8c8a0b0f6ec7aa35e9a20)
 
 ## [1.1.0](https://github.com/w3c/browser-specs/compare/1.0.0...1.1.0) - 2020-05-20
 
-
 ### Merged
 
 - Release process: update changelog before commit [`#46`](https://github.com/w3c/browser-specs/pull/46)
 - Drop Box Tree API Level 1 from the list [`#47`](https://github.com/w3c/browser-specs/pull/47)
 - Add CC0 license to package.json [`#45`](https://github.com/w3c/browser-specs/pull/45)
-
 
 ### Commits
 
@@ -1530,7 +1395,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`a9d92d3`](https://github.com/w3c/browser-specs/commit/a9d92d3d3934e165b86bf06b4de141d8461f3264)
 
 ## 1.0.0 - 2020-05-07
-
 
 ### Merged
 
@@ -1579,7 +1443,6 @@ property values. Check the corresponding Git commit for details.
 - [data] Update spec info [`4898aef`](https://github.com/w3c/browser-specs/commit/4898aef62364194e5c8e3c777b7513d08782c249)
 - [data] Update spec info [`dd09395`](https://github.com/w3c/browser-specs/commit/dd09395d0c1ddbb0d0784271707d97a6f6a36278)
 - Ignore git commit exit code in fetch info workflow [`514687e`](https://github.com/w3c/browser-specs/commit/514687e0b0c6b51359235b6cffd8f8a9fc0640ba)
-
 
 ## Credits
 

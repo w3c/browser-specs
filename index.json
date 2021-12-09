@@ -14185,7 +14185,7 @@
       "shortname": "wai-aria",
       "currentSpecification": "wai-aria-1.2",
       "releaseUrl": "https://www.w3.org/TR/wai-aria/",
-      "nightlyUrl": "https://w3c.github.io/aria/"
+      "nightlyUrl": "https://w3c.github.io/aria"
     },
     "seriesVersion": "1.2",
     "organization": "W3C",
@@ -14200,7 +14200,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/aria/",
+      "url": "https://w3c.github.io/aria",
       "repository": "https://github.com/w3c/aria",
       "sourcePath": "index.html",
       "filename": "index.html"

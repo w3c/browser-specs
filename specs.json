@@ -6,6 +6,22 @@
     }
   },
   "https://console.spec.whatwg.org/",
+  {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
+    "shortname": "rfc6265bis",
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html",
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-rfc6265bis.md"
+    }
+  },
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   "https://drafts.css-houdini.org/font-metrics-api-1/",

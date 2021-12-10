@@ -4,7 +4,9 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.19.0](https://github.com/w3c/browser-specs/compare/2.18.0...2.19.0)
+## [2.19.1](https://github.com/w3c/browser-specs/compare/2.19.0...2.19.1)
+
+## [2.19.0](https://github.com/w3c/browser-specs/compare/2.18.0...2.19.0) - 2021-12-10
 
 ### Fixed
 

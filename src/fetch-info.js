@@ -255,7 +255,8 @@ async function fetchInfoFromSpecref(specs, options) {
 
 async function fetchInfoFromSpecs(specs, options) {
   const info = await Promise.all(specs.map(async spec => {
-    const dom = await JSDOM.fromURL(spec.url);
+    const url = spec.nightly?.url || spec.url;
+    const dom = await JSDOM.fromURL(url);
 
     if (spec.url.startsWith("https://tc39.es/")) {
       // Title is either flagged with specific class or the second h1
@@ -264,7 +265,7 @@ async function fetchInfoFromSpecs(specs, options) {
         dom.window.document.querySelectorAll("h1")[1];
       if (h1ecma) {
         return {
-          nightly: { url: spec.url },
+          nightly: { url: url },
           title: h1ecma.textContent.replace(/\n/g, '').trim()
         };
       }
@@ -273,7 +274,7 @@ async function fetchInfoFromSpecs(specs, options) {
     const h1 = dom.window.document.querySelector("h1");
     if (h1) {
       return {
-        nightly: { url: spec.url },
+        nightly: { url: url },
         title: h1.textContent.replace(/\n/g, '').trim()
       };
     }
@@ -283,12 +284,12 @@ async function fetchInfoFromSpecs(specs, options) {
     const title = dom.window.document.querySelector("title");
     if (title) {
       return {
-        nightly: { url: spec.url },
+        nightly: { url: url },
         title: title.textContent.replace(/\n/g, '').trim()
       };
     }
 
-    throw `Could not find title in ${spec.url} for spec "${spec.shortname}"`;
+    throw `Could not find title in ${url} for spec "${spec.shortname}"`;
   }));
 
   const results = {};

@@ -4,7 +4,20 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.18.0](https://github.com/w3c/browser-specs/compare/2.17.0...2.18.0)
+## [2.19.0](https://github.com/w3c/browser-specs/compare/2.18.0...2.19.0)
+
+### Fixed
+
+- Add RFC6265bis draft [`#345`](https://github.com/w3c/browser-specs/issues/345)
+
+### Commits
+
+- Fetch title from nightly in preference to main URL [`a8aab11`](https://github.com/w3c/browser-specs/commit/a8aab118b5c3e1b8ab9506defeb5bdd950ceed0b)
+- [data] Update spec info [`0f25951`](https://github.com/w3c/browser-specs/commit/0f25951d032fa8d4a3140ad033aaa1eaed102e2a)
+- [data] Update spec info [`e5fbff7`](https://github.com/w3c/browser-specs/commit/e5fbff7f2a5bf75b3540504c3cc84be46a6c1ea0)
+- Add title property [`bed45aa`](https://github.com/w3c/browser-specs/commit/bed45aacdb3cfb13a843452b2e227f5c2bfc35ac)
+
+## [2.18.0](https://github.com/w3c/browser-specs/compare/2.17.0...2.18.0) - 2021-12-06
 
 ### Merged
 

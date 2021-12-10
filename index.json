@@ -64,6 +64,32 @@
     }
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
+    "seriesComposition": "full",
+    "shortname": "rfc6265bis",
+    "series": {
+      "shortname": "rfc6265bis",
+      "currentSpecification": "rfc6265bis",
+      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html",
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-rfc6265bis.md",
+      "filename": "draft-ietf-httpbis-rfc6265bis.html"
+    },
+    "title": "Cookies: HTTP State Management Mechanism",
+    "source": "spec",
+    "shortTitle": "Cookies: HTTP State Management Mechanism"
+  },
+  {
     "url": "https://dom.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "dom",

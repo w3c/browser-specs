@@ -10,6 +10,7 @@
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
     "shortname": "rfc6265bis",
     "organization": "IETF",
+    "title": "Cookies: HTTP State Management Mechanism",
     "groups": [
       {
         "name": "HTTP Working Group",

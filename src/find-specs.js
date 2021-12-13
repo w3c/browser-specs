@@ -85,7 +85,7 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   const {groups, repos} = await fetch("https://w3c.github.io/validate-repos/report.json").then(r => r.json());
   const specRepos = await fetch("https://w3c.github.io/spec-dashboard/repo-map.json").then(r => r.json());
   const whatwgSpecs = await fetch("https://raw.githubusercontent.com/whatwg/sg/master/db.json").then(r => r.json())
-        .then(d => d.workstreams.map(w => { return {...w.standards[0], id: w.id}; }));
+        .then(d => d.workstreams.map(w => w.standards.map(s => { return {...s, id: s.href.replace(/.*\/([a-z]+)\.spec\.whatwg\.org\//, '$1')}; }) ).flat());
   const cssSpecs = await fetch("https://api.github.com/repos/w3c/csswg-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !cssMetaDir.includes(p.path)).map(p => p.path));
   const svgSpecs = await fetch("https://api.github.com/repos/w3c/svgwg/contents/specs").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !svgMetaDir.includes(p.name)).map(p => p.path));
   const fxtfSpecs = await fetch("https://api.github.com/repos/w3c/fxtf-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !fxtfMetaDir.includes(p.path)).map(p => p.path));

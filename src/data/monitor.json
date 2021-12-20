@@ -295,6 +295,14 @@
     "w3c/mediacapture-viewport": {
       "lastreviewed": "2021-11-01",
       "comment": "Somewhat empty but note spec is a WebRTC WG and should fill up rapidly"
+    },
+    "immersive-web/model-element": {
+      "lastreviewed": "2021-12-20",
+      "comment": "Empty spec"
+    },
+    "w3c/clreq": {
+      "lastreviewed": "2021-12-20",
+      "comment": "WG Note incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"
     }
   },
   "specs": {

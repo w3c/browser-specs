@@ -48,6 +48,11 @@
     "shortTitle": "CSS Size Adjustment 1"
   },
   "https://drafts.csswg.org/css-transitions-2/ delta",
+  {
+    "url": "https://drafts.csswg.org/css-values-5/",
+    "shortTitle": "CSS Values 5",
+    "seriesComposition": "delta"
+  },
   "https://drafts.csswg.org/scroll-animations-1/",
   "https://drafts.csswg.org/web-animations-2/ delta",
   {
@@ -108,6 +113,7 @@
   },
   "https://tc39.es/proposal-accessible-object-hasownproperty/",
   "https://tc39.es/proposal-array-find-from-last/",
+  "https://tc39.es/proposal-array-grouping/",
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-class-fields/",
   "https://tc39.es/proposal-class-static-block/",

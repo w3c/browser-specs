@@ -170,14 +170,15 @@ describe("Input list", () => {
     });
 
     it("does not have a delta spec without a previous full spec", () => {
-      // Note the tetst considers that a delta spec of a delta spec is an error
-      // too. That case could perhaps happen in practice and the "seriesPrevious"
-      // chain can easily be followed to find the previous level that contains the
-      // "full" spec. Still, it seems good to choke on it as long as that's not
-      // needed.
+      const fullPrevious = (spec, list) => {
+        const previous = list.find(s => s.shortname === spec.seriesPrevious);
+        if (previous && previous.seriesComposition === "delta") {
+          return fullPrevious(previous, list);
+        }
+        return previous;
+      };
       const deltaWithoutFull = specs2LinkedList(specs)
-        .filter((s, _, list) => s.seriesComposition === "delta" &&
-          !list.find(p => p.seriesComposition !== "delta" && p.shortname === s.seriesPrevious));
+        .filter((s, _, list) => s.seriesComposition === "delta" && !fullPrevious(s, list));
       assert.strictEqual(deltaWithoutFull[0], undefined);
     });
 

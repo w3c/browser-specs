@@ -256,7 +256,13 @@ async function fetchInfoFromSpecref(specs, options) {
 async function fetchInfoFromSpecs(specs, options) {
   const info = await Promise.all(specs.map(async spec => {
     const url = spec.nightly?.url || spec.url;
-    const dom = await JSDOM.fromURL(url);
+    let dom = null;
+    try {
+      dom = await JSDOM.fromURL(url);
+    }
+    catch (err) {
+      throw new Error(`Could not retrieve ${url} with JSDOM: ${err.message}`);
+    }
 
     if (spec.url.startsWith("https://tc39.es/")) {
       // Title is either flagged with specific class or the second h1

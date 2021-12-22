@@ -4,7 +4,26 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.19.3](https://github.com/w3c/browser-specs/compare/2.19.2...2.19.3)
+## [2.20.0](https://github.com/w3c/browser-specs/compare/2.19.3...2.20.0)
+
+
+### Merged
+
+- Add 3 FPWD [`#458`](https://github.com/w3c/browser-specs/pull/458)
+- Update URL of Contact Picker API [`#457`](https://github.com/w3c/browser-specs/pull/457)
+- Add CSS Conditional Level 5 [`#456`](https://github.com/w3c/browser-specs/pull/456)
+- Add CSS Values 5, ES Array grouping, monitor Model Element and clreq [`#455`](https://github.com/w3c/browser-specs/pull/455)
+
+
+### Commits
+
+- [data] Update spec info [`ea92e83`](https://github.com/w3c/browser-specs/commit/ea92e83143207950f49e047e77493fdb6213fc26)
+- [data] Update spec info [`abb057b`](https://github.com/w3c/browser-specs/commit/abb057be48292aa74ba35a0f490f5730e8747ae2)
+- [data] Update spec info [`387472a`](https://github.com/w3c/browser-specs/commit/387472a6c31783c43a134ba3131570ce8bdef564)
+- [data] Update spec info [`8142c7e`](https://github.com/w3c/browser-specs/commit/8142c7e17ccd470f7d9fc0f754d9b292ba0a032a)
+- [data] Update spec info [`f5e3c2c`](https://github.com/w3c/browser-specs/commit/f5e3c2cb4a651ec6c0e1237c4b3397878ab73405)
+
+## [2.19.3](https://github.com/w3c/browser-specs/compare/2.19.2...2.19.3) - 2021-12-20
 
 
 ### Merged

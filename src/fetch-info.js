@@ -276,26 +276,32 @@ async function fetchInfoFromSpecs(specs, options) {
         };
       }
     }
-    // Extract first heading
-    const h1 = dom.window.document.querySelector("h1");
-    if (h1) {
-      return {
-        nightly: { url: url },
-        title: h1.textContent.replace(/\n/g, '').trim()
-      };
+
+    // Extract first heading when set
+    let title = dom.window.document.querySelector("h1");
+    if (!title) {
+      // Use the document's title if first heading could not be found
+      // (that typically happens in Respec specs)
+      title = dom.window.document.querySelector("title");
     }
 
-    // Use the document's title if first heading could not be found
-    // (that typically happens in Respec specs)
-    const title = dom.window.document.querySelector("title");
     if (title) {
+      title = title.textContent.replace(/\n/g, '').trim();
+
+      // The draft CSS specs server sometimes goes berserk and returns
+      // the contents of the directory instead of the actual spec. Let's
+      // throw an error when that happens so as not to create fake titles.
+      if (title.startsWith('Index of ')) {
+        throw new Error(`CSS server issue detected in ${url} for ${spec.shortname}`);
+      }
+
       return {
-        nightly: { url: url },
-        title: title.textContent.replace(/\n/g, '').trim()
+        nightly: { url },
+        title
       };
     }
 
-    throw `Could not find title in ${url} for spec "${spec.shortname}"`;
+    throw new Error(`Could not find title in ${url} for ${spec.shortname}`);
   }));
 
   const results = {};

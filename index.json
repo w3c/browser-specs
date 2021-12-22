@@ -255,41 +255,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-cascade-6/",
-    "seriesComposition": "delta",
-    "shortname": "css-cascade-6",
-    "series": {
-      "shortname": "css-cascade",
-      "currentSpecification": "css-cascade-4",
-      "releaseUrl": "https://www.w3.org/TR/css-cascade/",
-      "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
-    },
-    "seriesVersion": "6",
-    "seriesPrevious": "css-cascade-5",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-cascade-6/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-cascade-6/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Cascading and Inheritance Level 6",
-    "source": "specref",
-    "shortTitle": "CSS Cascading and Inheritance 6",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-cascade"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-env-1/",
     "seriesComposition": "full",
     "shortname": "css-env-1",
@@ -7703,6 +7668,45 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-cascade-6/",
+    "seriesComposition": "delta",
+    "shortname": "css-cascade-6",
+    "series": {
+      "shortname": "css-cascade",
+      "currentSpecification": "css-cascade-4",
+      "releaseUrl": "https://www.w3.org/TR/css-cascade/",
+      "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
+    },
+    "seriesVersion": "6",
+    "seriesPrevious": "css-cascade-5",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-cascade-6/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-cascade-6/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-cascade-6/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Cascading and Inheritance Level 6",
+    "source": "w3c",
+    "shortTitle": "CSS Cascading and Inheritance 6",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-cascade"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-color-4/",
     "seriesComposition": "full",
     "shortname": "css-color-4",
@@ -7947,6 +7951,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-contain/"
     },
     "seriesVersion": "2",
+    "seriesNext": "css-contain-3",
     "organization": "W3C",
     "groups": [
       {
@@ -7967,6 +7972,45 @@
     "title": "CSS Containment Module Level 2",
     "source": "w3c",
     "shortTitle": "CSS Containment 2",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-contain"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-contain-3/",
+    "seriesComposition": "delta",
+    "shortname": "css-contain-3",
+    "series": {
+      "shortname": "css-contain",
+      "currentSpecification": "css-contain-2",
+      "releaseUrl": "https://www.w3.org/TR/css-contain/",
+      "nightlyUrl": "https://drafts.csswg.org/css-contain/"
+    },
+    "seriesVersion": "3",
+    "seriesPrevious": "css-contain-2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-contain-3/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-contain-3/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-contain-3/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Containment Module Level 3",
+    "source": "w3c",
+    "shortTitle": "CSS Containment 3",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10712,6 +10756,37 @@
         "domparsing"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/edit-context/",
+    "seriesComposition": "full",
+    "shortname": "edit-context",
+    "series": {
+      "shortname": "edit-context",
+      "currentSpecification": "edit-context",
+      "releaseUrl": "https://www.w3.org/TR/edit-context/",
+      "nightlyUrl": "https://w3c.github.io/edit-context/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Editing Working Group",
+        "url": "https://www.w3.org/groups/wg/webediting"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/edit-context/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/edit-context/",
+      "repository": "https://github.com/w3c/edit-context",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "EditContext API",
+    "source": "w3c",
+    "shortTitle": "EditContext API"
   },
   {
     "url": "https://www.w3.org/TR/encoding/",

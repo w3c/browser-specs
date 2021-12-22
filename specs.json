@@ -27,7 +27,6 @@
   "https://drafts.css-houdini.org/font-metrics-api-1/",
   "https://drafts.csswg.org/css-animations-2/ delta",
   "https://drafts.csswg.org/css-backgrounds-4/ delta",
-  "https://drafts.csswg.org/css-cascade-6/ delta",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
   {
@@ -412,6 +411,7 @@
     "url": "https://www.w3.org/TR/css-cascade-5/",
     "shortTitle": "CSS Cascading 5"
   },
+  "https://www.w3.org/TR/css-cascade-6/ delta",
   "https://www.w3.org/TR/css-color-4/",
   "https://www.w3.org/TR/css-color-5/ delta",
   "https://www.w3.org/TR/css-color-adjust-1/",
@@ -430,6 +430,7 @@
     "shortTitle": "CSS Conditional 5"
   },
   "https://www.w3.org/TR/css-contain-2/",
+  "https://www.w3.org/TR/css-contain-3/ delta",
   "https://www.w3.org/TR/css-content-3/",
   "https://www.w3.org/TR/css-counter-styles-3/",
   "https://www.w3.org/TR/css-device-adapt-1/",
@@ -565,6 +566,7 @@
   "https://www.w3.org/TR/device-memory-1/",
   "https://www.w3.org/TR/device-posture/",
   "https://www.w3.org/TR/DOM-Parsing/",
+  "https://www.w3.org/TR/edit-context/",
   "https://www.w3.org/TR/encoding/",
   {
     "url": "https://www.w3.org/TR/encrypted-media/",

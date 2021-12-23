@@ -24,8 +24,12 @@ describe("fetch-info module (with W3C API key)", function () {
   this.slow(5000);
   this.timeout(30000);
 
-  function getW3CSpec(shortname) {
-    return { shortname, url: `https://www.w3.org/TR/${shortname}/` };
+  function getW3CSpec(shortname, series) {
+    const spec = { shortname, url: `https://www.w3.org/TR/${shortname}/` };
+    if (series) {
+      spec.series = { shortname: series };
+    }
+    return spec;
   }
 
   describe("W3C API key", () => {
@@ -37,7 +41,7 @@ describe("fetch-info module (with W3C API key)", function () {
 
   describe("fetch from W3C API", () => {
     it("works on a TR spec", async () => {
-      const spec = getW3CSpec("hr-time-2");
+      const spec = getW3CSpec("hr-time-2", "hr-time");
       const info = await fetchInfo([spec], { w3cApiKey });
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "w3c");
@@ -45,13 +49,15 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/hr-time/");
       assert.equal(info[spec.shortname].title, "High Resolution Time Level 2");
 
-      assert.ok(info.__current);
-      assert.equal(info.__current["hr-time"], "hr-time-3");
+      assert.ok(info.__series);
+      assert.ok(info.__series["hr-time"]);
+      assert.equal(info.__series["hr-time"].currentSpecification, "hr-time-3");
+      assert.equal(info.__series["hr-time"].title, "High Resolution Time");
     });
 
     it("can operate on multiple specs at once", async () => {
-      const spec = getW3CSpec("hr-time-2");
-      const other = getW3CSpec("presentation-api");
+      const spec = getW3CSpec("hr-time-2", "hr-time");
+      const other = getW3CSpec("presentation-api", "presentation-api");
       const info = await fetchInfo([spec, other], { w3cApiKey });
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "w3c");
@@ -65,9 +71,11 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
       assert.equal(info[other.shortname].title, "Presentation API");
 
-      assert.ok(info.__current);
-      assert.equal(info.__current["hr-time"], "hr-time-3");
-      assert.equal(info.__current["presentation-api"], "presentation-api");
+      assert.ok(info.__series);
+      assert.ok(info.__series["hr-time"]);
+      assert.ok(info.__series["presentation-api"]);
+      assert.equal(info.__series["hr-time"].currentSpecification, "hr-time-3");
+      assert.equal(info.__series["presentation-api"].currentSpecification, "presentation-api");
     });
 
     it("throws when W3C API key is invalid", async () => {

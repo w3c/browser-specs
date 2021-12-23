@@ -110,8 +110,10 @@ console.log(`Prepare initial list of specs... done with ${specs.length} specs`);
 
 
 // Fetch additional spec info from external sources and complete the list
-console.log(`Fetch organization/groups info...`);
-fetchGroups(specs, { githubToken, w3cApiKey })
+Promise.resolve()
+
+  .then(dolog(`Fetch organization/groups info...`))
+  .then(_ => fetchGroups(specs, { githubToken, w3cApiKey }))
   .then(dolog(`Fetch organization/groups info... done`))
 
   .then(dolog(`Fetch other spec info from external sources...`))
@@ -133,19 +135,30 @@ fetchGroups(specs, { githubToken, w3cApiKey })
       }
     });
 
+    // Set the series title based on the info returned by the W3C API if
+    // we have it, or compute the series title ourselves
+    const seriesInfo = specInfo.__series[spec.series.shortname];
+    if (seriesInfo?.title && !res.series.title) {
+      res.series.title = seriesInfo.title;
+    }
+    else {
+      res.series.title = res.title
+        .replace(/ \d+(\.\d+)?$/, '')         // Drop level number
+        .replace(/( -)? Level$/, '')          // Drop "Level"
+        .replace(/ Module$/, '');             // Drop "Module"
+    }
+
     // Update the current specification based on the info returned by the
     // W3C API, unless specs.json imposed a specific level.
     // Note: the current specification returned by the W3C API may not be in the
     // list, since we tend not to include previous levels for IDL specs (even
     // if they are still "current"), in which case we'll just ignore the info
     // returned from the W3C API.
-    const currentSpecification = specInfo.__current ?
-      specInfo.__current[spec.series.shortname] : null;
-    if (currentSpecification &&
-        !spec.series.forceCurrent &&
-        (currentSpecification !== spec.series.currentSpecification) &&
-        specs.find(s => s.shortname === currentSpecification)) {
-      res.series.currentSpecification = currentSpecification;
+    if (seriesInfo?.currentSpecification &&
+        !res.series.forceCurrent &&
+        (seriesInfo.currentSpecification !== res.series.currentSpecification) &&
+        specs.find(s => s.shortname === seriesInfo.currentSpecification)) {
+      res.series.currentSpecification = seriesInfo.currentSpecification;
     }
     delete res.series.forceCurrent;
     return res;
@@ -154,7 +167,16 @@ fetchGroups(specs, { githubToken, w3cApiKey })
 
   .then(dolog(`Compute short titles...`))
   .then(index => index.map(spec => {
-    spec.shortTitle = spec.shortTitle || computeShortTitle(spec.title);
+    if (spec.shortTitle) {
+      // Use short title explicitly set in specs.json
+      // and compute the series short title from it
+      spec.series.shortTitle = spec.series.shortTitle ?? computeShortTitle(spec.shortTitle);
+    }
+    else {
+      // Compute short title from title otherwise
+      spec.shortTitle = computeShortTitle(spec.title);
+      spec.series.shortTitle = spec.series.shortTitle ?? computeShortTitle(spec.series.title);
+    }
     return spec;
   }))
   .then(dolog(`Compute short titles... done`))

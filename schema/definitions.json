@@ -30,6 +30,8 @@
           "type": "string",
           "pattern": "^[\\w\\-]+$"
         },
+        "title": { "$ref": "#/$defs/title" },
+        "shortTitle": { "$ref": "#/$defs/title" },
         "currentSpecification": { "$ref": "#/$defs/shortname" },
         "releaseUrl": { "$ref": "#/$defs/url" },
         "nightlyUrl": { "$ref": "#/$defs/url" }

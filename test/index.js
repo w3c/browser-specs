@@ -100,6 +100,28 @@ describe("List of specs", () => {
     });
   });
 
+  it("has series titles for all specs", () => {
+    const wrong = specs.filter(s => !s.series?.title);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has series titles that look consistent with spec titles", () => {
+    // Note the WebRTC spec follows a slightly different pattern
+    // TEMP (2021-12-23): 2 temp exceptions to the rule: the W3C API returns an
+    // outdated title for fingerprinting-guidance (should get fixed soon),
+    // and published version of CSS Images Level 4 has an obscure title à la
+    // "CSS Image Values..." (should get fixed next time the spec gets published
+    // to /TR)
+    const wrong = specs.filter(s => !s.title.includes(s.series.title))
+      .filter(s => !["webrtc", "fingerprinting-guidance", "css-images-4"].includes(s.shortname));
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has series short titles for all specs", () => {
+    const wrong = specs.filter(s => !s.series?.shortTitle);
+    assert.deepStrictEqual(wrong, []);
+  });
+
   it("contains nightly URLs for all specs", () => {
     const wrong = specs.filter(s => !s.nightly.url);
     assert.deepStrictEqual(wrong, []);

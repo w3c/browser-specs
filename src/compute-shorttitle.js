@@ -20,13 +20,19 @@ module.exports = function (title) {
     return title;
   }
 
-  const level = title.match(/\s(\d+(\.\d+)?)$/);
+  // Handle HTTP/1.1 specs separately to preserve feature name after "HTTP/1.1"
+  const httpStart = 'Hypertext Transfer Protocol (HTTP/1.1): ';
+  if (title.startsWith(httpStart)) {
+    return 'HTTP/1.1 ' + title.substring(httpStart.length);
+  }
 
+  const level = title.match(/\s(\d+(\.\d+)?)$/);
   const shortTitle = title
     .replace(/\s/g, ' ')                // Replace non-breaking spaces
     .replace(/ \d+(\.\d+)?$/, '')       // Drop level number for now
     .replace(/( -)? Level$/, '')        // Drop "Level"
     .replace(/ Module$/, '')            // Drop "Module" (now followed by level)
+    .replace(/ Proposal$/, '')          // Drop "Proposal" (TC39 proposals)
     .replace(/ Specification$/, '')     // Drop "Specification"
     .replace(/ Standard$/, '')          // Drop "Standard" and "Living Standard"
     .replace(/ Living$/, '')

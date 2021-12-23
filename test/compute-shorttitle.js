@@ -84,4 +84,16 @@ describe("compute-shorttitle module", () => {
       "Edition Module Standard Foo",
       "Edition Module Standard Foo");
   });
+
+  it("drops 'Proposal' from end of title", () => {
+    assertTitle(
+      "Hello world API Proposal",
+      "Hello world API");
+  });
+
+  it("preserves scope in HTTP/1.1 spec titles", () => {
+    assertTitle(
+      "Hypertext Transfer Protocol (HTTP/1.1): Foo bar",
+      "HTTP/1.1 Foo bar")
+  });
 });

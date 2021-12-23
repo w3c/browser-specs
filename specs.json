@@ -319,9 +319,15 @@
       }
     ]
   },
-  "https://www.rfc-editor.org/rfc/rfc4120",
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc4120",
+    "shortTitle": "Kerberos"
+  },
   "https://www.rfc-editor.org/rfc/rfc6265",
-  "https://www.rfc-editor.org/rfc/rfc6266",
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6266",
+    "shortTitle": "Content-Disposition in HTTP"
+  },
   "https://www.rfc-editor.org/rfc/rfc6454",
   "https://www.rfc-editor.org/rfc/rfc6797",
   "https://www.rfc-editor.org/rfc/rfc7034",

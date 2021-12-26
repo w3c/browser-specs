@@ -1342,7 +1342,7 @@
     },
     "title": "Intl.DisplayNames v2 Proposal",
     "source": "spec",
-    "shortTitle": "Intl.DisplayNames v2 Proposal"
+    "shortTitle": "Intl.DisplayNames v2"
   },
   {
     "url": "https://tc39.es/proposal-accessible-object-hasownproperty/",
@@ -1628,7 +1628,7 @@
     },
     "title": "Extend TimeZoneName Option Proposal",
     "source": "spec",
-    "shortTitle": "Extend TimeZoneName Option Proposal"
+    "shortTitle": "Extend TimeZoneName Option"
   },
   {
     "url": "https://tc39.es/proposal-intl-locale-info/",
@@ -1654,7 +1654,7 @@
     },
     "title": "Intl Locale Info Proposal",
     "source": "spec",
-    "shortTitle": "Intl Locale Info Proposal"
+    "shortTitle": "Intl Locale Info"
   },
   {
     "url": "https://tc39.es/proposal-intl-segmenter/",
@@ -1680,7 +1680,7 @@
     },
     "title": "Intl.Segmenter Proposal",
     "source": "spec",
-    "shortTitle": "Intl.Segmenter Proposal"
+    "shortTitle": "Intl.Segmenter"
   },
   {
     "url": "https://tc39.es/proposal-json-modules/",
@@ -1758,7 +1758,7 @@
     },
     "title": "Private Methods and Accessors Proposal",
     "source": "spec",
-    "shortTitle": "Private Methods and Accessors Proposal"
+    "shortTitle": "Private Methods and Accessors"
   },
   {
     "url": "https://tc39.es/proposal-regexp-match-indices/",
@@ -6054,6 +6054,7 @@
       "currentSpecification": "rfc4120",
       "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc4120"
     },
+    "shortTitle": "Kerberos",
     "organization": "IETF",
     "groups": [
       {
@@ -6066,8 +6067,7 @@
       "filename": "rfc4120.html"
     },
     "title": "The Kerberos Network Authentication Service (V5)",
-    "source": "specref",
-    "shortTitle": "V5"
+    "source": "specref"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc6265",
@@ -6104,6 +6104,7 @@
       "currentSpecification": "rfc6266",
       "nightlyUrl": "https://httpwg.org/specs/rfc6266.html"
     },
+    "shortTitle": "Content-Disposition in HTTP",
     "organization": "IETF",
     "groups": [
       {
@@ -6118,8 +6119,7 @@
       "filename": "rfc6266.html"
     },
     "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
-    "source": "specref",
-    "shortTitle": "HTTP"
+    "source": "specref"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc6454",
@@ -6217,7 +6217,7 @@
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing",
     "source": "specref",
-    "shortTitle": "HTTP/1.1"
+    "shortTitle": "HTTP/1.1 Message Syntax and Routing"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7231",
@@ -6243,7 +6243,7 @@
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
     "source": "specref",
-    "shortTitle": "HTTP/1.1"
+    "shortTitle": "HTTP/1.1 Semantics and Content"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7232",
@@ -6269,7 +6269,7 @@
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests",
     "source": "specref",
-    "shortTitle": "HTTP/1.1"
+    "shortTitle": "HTTP/1.1 Conditional Requests"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7233",
@@ -6295,7 +6295,7 @@
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests",
     "source": "specref",
-    "shortTitle": "HTTP/1.1"
+    "shortTitle": "HTTP/1.1 Range Requests"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7234",
@@ -6321,7 +6321,7 @@
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
     "source": "specref",
-    "shortTitle": "HTTP/1.1"
+    "shortTitle": "HTTP/1.1 Caching"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7235",
@@ -6347,7 +6347,7 @@
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication",
     "source": "specref",
-    "shortTitle": "HTTP/1.1"
+    "shortTitle": "HTTP/1.1 Authentication"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7239",

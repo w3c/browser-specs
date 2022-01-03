@@ -44,10 +44,6 @@
       "comment": "unofficial draft",
       "lastreviewed": "2022-01-01"
     },
-    "w3c/mediacapture-transform": {
-      "comment": "still marked as unofficial draft",
-      "lastreviewed": "2022-01-01"
-    },
     "WICG/webmonetization": {
       "comment": "Early exploration phase; spec at https://webmonetization.org/specification.html",
       "lastreviewed": "2022-01-01"
@@ -206,7 +202,7 @@
     },
     "WICG/handwriting-recognition": {
       "lastreviewed": "2022-01-01",
-      "comment": "no published content yet"
+      "comment": "Original trial in Chromium but no intent to implement announced yet"
     },
     "immersive-web/marker-tracking": {
       "lastreviewed": "2022-01-01",
@@ -342,10 +338,6 @@
       "comment": "Marked as not ready for implementation",
       "lastreviewed": "2022-01-01"
     },
-    "https://drafts.csswg.org/css-contain-3/": {
-      "comment": "Marked as Exploratory Working Draft",
-      "lastreviewed": "2022-01-01"
-    },
     "https://svgwg.org/specs/markers/": {
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
       "lastreviewed": "2022-01-01"
@@ -371,7 +363,7 @@
       "lastreviewed": "2022-01-01"
     },
     "https://wicg.github.io/nav-speculation/speculation-rules.html": {
-      "comment": "Early draft, implementation, no clear implementation plans yet",
+      "comment": "Original trial in Chromium but no intent to implement announced yet",
       "lastreviewed": "2022-01-01"
     }
   }

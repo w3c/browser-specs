@@ -96,6 +96,7 @@ async function fetchInfoFromW3CApi(specs, options) {
     });
   }));
 
+  const seriesShortnames = new Set();
   const results = {};
   specs.forEach((spec, idx) => {
     if (info[idx]) {
@@ -116,23 +117,20 @@ async function fetchInfoFromW3CApi(specs, options) {
         info[idx]["editor-draft"].replace(/^http:/, 'https:') :
         null;
 
-      const seriesUrl = info[idx]._links.series.href;
-      const seriesShortname = seriesUrl.substring(seriesUrl.lastIndexOf('/') + 1);
-
       results[spec.shortname] = {
-        series: { shortname: seriesShortname },
         release: { url: release },
         nightly: { url: nightly },
         title: info[idx].title
       };
+
+      if (spec.series?.shortname) {
+        seriesShortnames.add(spec.series.shortname);
+      }
     }
   });
 
   // Fetch info on the series
-  const seriesShortnames = [...new Set(
-    Object.values(results).map(spec => spec.series.shortname)
-  )];
-  const seriesInfo = await Promise.all(seriesShortnames.map(async shortname => {
+  const seriesInfo = await Promise.all([...seriesShortnames].map(async shortname => {
     const url = `https://api.w3.org/specification-series/${shortname}`;
     return new Promise((resolve, reject) => {
       const request = https.get(url, options, res => {
@@ -160,11 +158,14 @@ async function fetchInfoFromW3CApi(specs, options) {
     });
   }));
 
-  results.__current = {};
+  results.__series = {};
   seriesInfo.forEach(info => {
     const currSpecUrl = info._links["current-specification"].href;
     const currSpec = currSpecUrl.substring(currSpecUrl.lastIndexOf('/') + 1);
-    results.__current[info.shortname] = currSpec;
+    results.__series[info.shortname] = {
+      title: info.name,
+      currentSpecification: currSpec
+    };
   });
 
   return results;
@@ -342,8 +343,8 @@ async function fetchInfo(specs, options) {
     (specrefInfo[name] ? Object.assign(specrefInfo[name], { source: "specref" }) : null) ||
     (specInfo[name] ? Object.assign(specInfo[name], { source: "spec" }) : null));
 
-  // Add current specification info from W3C API
-  results.__current = w3cInfo.__current;
+  // Add series info from W3C API
+  results.__series = w3cInfo.__series;
 
   return results;
 }

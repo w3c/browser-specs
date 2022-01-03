@@ -26,7 +26,11 @@
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   "https://drafts.css-houdini.org/font-metrics-api-1/",
   "https://drafts.csswg.org/css-animations-2/ delta",
-  "https://drafts.csswg.org/css-backgrounds-4/ delta",
+  {
+    "url": "https://drafts.csswg.org/css-backgrounds-4/",
+    "seriesComposition": "delta",
+    "shortTitle": "CSS Backgrounds 4"
+  },
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
   {
@@ -134,6 +138,7 @@
   "https://tc39.es/proposal-temporal/",
   "https://tc39.es/proposal-top-level-await/",
   "https://url.spec.whatwg.org/",
+  "https://w3c.github.io/autoplay/",
   "https://w3c.github.io/badging/",
   "https://w3c.github.io/contact-api/spec/",
   "https://w3c.github.io/contentEditable/",
@@ -417,7 +422,11 @@
     "url": "https://www.w3.org/TR/css-cascade-5/",
     "shortTitle": "CSS Cascading 5"
   },
-  "https://www.w3.org/TR/css-cascade-6/ delta",
+  {
+    "url": "https://www.w3.org/TR/css-cascade-6/",
+    "seriesComposition": "delta",
+    "shortTitle": "CSS Cascading 6"
+  },
   "https://www.w3.org/TR/css-color-4/",
   "https://www.w3.org/TR/css-color-5/ delta",
   "https://www.w3.org/TR/css-color-adjust-1/",

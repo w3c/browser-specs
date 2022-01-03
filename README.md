@@ -20,6 +20,8 @@ cross-references, WebIDL, quality, etc.
   - [`series`](#series)
     - [`series.shortname`](#seriesshortname)
     - [`series.currentSpecification`](#seriescurrentspecification)
+    - [`series.title`](#seriestitle)
+    - [`series.shortTitle`](#seriesshorttitle)
     - [`series.releaseUrl`](#seriesreleaseurl)
     - [`series.nightlyUrl`](#seriesnightlyurl)
   - [`seriesVersion`](#seriesversion)
@@ -90,6 +92,8 @@ Each specification in the list comes with the following properties:
   "series": {
     "shortname": "css-color",
     "currentSpecification": "css-color-4",
+    "title": "CSS Color",
+    "shortTitle": "CSS Color",
     "releaseUrl": "https://www.w3.org/TR/css-color/",
     "nightlyUrl": "https://drafts.csswg.org/css-color/"
   },
@@ -200,6 +204,28 @@ version in the series that is a "full" spec (see
 [`seriesComposition`](#seriescomposition)).
 
 The `currentSpecification` property is always set.
+
+
+#### `series.title`
+
+
+The version-less version of the title of the spec which can be used to refer to
+all specs in the series. The title is either retrieved from the
+[W3C API](https://w3c.github.io/w3c-api/) for W3C specs, or derived from the
+spec's [`title`](#title).
+
+The `title` property is always set.
+
+
+#### `series.shortTitle`
+
+
+The short title of the series title. In most cases, the short title is generated
+from [`series.title`](#seriestitle) by dropping terms such as "Module", "Level",
+or "Standard". In some cases, the short title is set manually.
+
+The `shortTitle` property is always set. When there is no meaningful short
+title, the property is set to the actual (possibly long) series title.
 
 
 #### `series.releaseUrl`

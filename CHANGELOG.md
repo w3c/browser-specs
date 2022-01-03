@@ -4,7 +4,32 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.20.0](https://github.com/w3c/browser-specs/compare/2.19.3...2.20.0)
+## [2.21.0](https://github.com/w3c/browser-specs/compare/2.20.0...2.21.0)
+
+
+### Merged
+
+- Update review of monitored specs [`#463`](https://github.com/w3c/browser-specs/pull/463)
+
+### Fixed
+
+- Add series titles to all specs [`#359`](https://github.com/w3c/browser-specs/issues/359)
+- Add Autoplay Policy Detection [`#464`](https://github.com/w3c/browser-specs/issues/464)
+
+### Commits
+
+- [data] Update spec info [`a8a98ae`](https://github.com/w3c/browser-specs/commit/a8a98ae79ebf0b033edf75d12ad53054ff6b62fd)
+- Build index.json [`ff5d33c`](https://github.com/w3c/browser-specs/commit/ff5d33ca1a49a67fdc76b52d706353f4f625ed50)
+- [data] Update spec info [`13a9bc3`](https://github.com/w3c/browser-specs/commit/13a9bc3657f54eb7edd9f350b11fffcc75cfd1b7)
+- [data] Update spec info [`627171f`](https://github.com/w3c/browser-specs/commit/627171f3e9c297de9baf8efb35ade14c2a8071ef)
+- Detect draft CSS specs server hiccups [`c2397bd`](https://github.com/w3c/browser-specs/commit/c2397bdbe3cdda6c42ad44c84461add0c6569367)
+- [data] Update spec info [`19bc608`](https://github.com/w3c/browser-specs/commit/19bc608098dea7a1b835272f5f47727c0ea25584)
+- Improve short title logic for IETF specs [`5f9793f`](https://github.com/w3c/browser-specs/commit/5f9793ff1e3a615db3521ad20b673cf48c9c04c3)
+- [data] Update spec info [`6a1dee4`](https://github.com/w3c/browser-specs/commit/6a1dee43d4d176f708b29735e670c87f33efa32d)
+- [data] Update spec info [`a5c1316`](https://github.com/w3c/browser-specs/commit/a5c13169e6386db136b7c705a54bc7f015dad45b)
+- Always drop level from series shortTitle [`97a247a`](https://github.com/w3c/browser-specs/commit/97a247a2fdfbfed253e7cc806516c75dbdc85370)
+
+## [2.20.0](https://github.com/w3c/browser-specs/compare/2.19.3...2.20.0) - 2021-12-22
 
 
 ### Merged

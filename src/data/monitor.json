@@ -28,9 +28,9 @@
       "comment": "empty spec",
       "lastreviewed": "2021-11-01"
     },
-    "WICG/raw-sockets": {
+    "WICG/direct-sockets": {
       "comment": "No clear implementation plan, considered as harmful by Mozilla https://github.com/mozilla/standards-positions/issues/431",
-      "lastreviewed": "2021-11-01"
+      "lastreviewed": "2022-01-03"
     },
     "WICG/sw-launch": {
       "comment": "no spec yet",

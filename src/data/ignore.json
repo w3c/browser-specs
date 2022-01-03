@@ -143,6 +143,9 @@
     "WICG/cross-origin-embedder-policy": {
       "comment": "aimed toward integration in other specs - see https://github.com/whatwg/html/pull/5454"
     },
+    "WICG/display-locking": {
+      "comment": "not a spec, but a collection of related proposals submitted to other specs"
+    },
     "WICG/discourse-wicg-theme": {
       "comment": "not a spec"
     },

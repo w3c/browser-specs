@@ -1975,6 +1975,32 @@
     }
   },
   {
+    "url": "https://w3c.github.io/autoplay/",
+    "seriesComposition": "full",
+    "shortname": "autoplay",
+    "series": {
+      "shortname": "autoplay",
+      "currentSpecification": "autoplay",
+      "nightlyUrl": "https://w3c.github.io/autoplay/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/autoplay/",
+      "repository": "https://github.com/w3c/autoplay",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Autoplay Policy Detection",
+    "source": "spec",
+    "shortTitle": "Autoplay Policy Detection"
+  },
+  {
     "url": "https://w3c.github.io/badging/",
     "seriesComposition": "full",
     "shortname": "badging",

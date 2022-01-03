@@ -241,11 +241,12 @@
       "shortname": "css-backgrounds",
       "currentSpecification": "css-backgrounds-3",
       "title": "CSS Backgrounds and Borders",
-      "shortTitle": "CSS Backgrounds and Borders",
+      "shortTitle": "CSS Backgrounds",
       "releaseUrl": "https://www.w3.org/TR/css-backgrounds/",
       "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/"
     },
     "seriesVersion": "4",
+    "shortTitle": "CSS Backgrounds 4",
     "seriesPrevious": "css-backgrounds-3",
     "organization": "W3C",
     "groups": [
@@ -262,7 +263,6 @@
     },
     "title": "CSS Backgrounds and Borders Module Level 4",
     "source": "specref",
-    "shortTitle": "CSS Backgrounds and Borders 4",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -342,7 +342,7 @@
       "shortname": "css-gcpm",
       "currentSpecification": "css-gcpm-3",
       "title": "CSS Generated Content for Paged Media",
-      "shortTitle": "CSS GCPM 4",
+      "shortTitle": "CSS GCPM",
       "releaseUrl": "https://www.w3.org/TR/css-gcpm/",
       "nightlyUrl": "https://drafts.csswg.org/css-gcpm/"
     },
@@ -416,7 +416,7 @@
       "shortname": "css-multicol",
       "currentSpecification": "css-multicol-1",
       "title": "CSS Multi-column Layout",
-      "shortTitle": "CSS Multicol 2",
+      "shortTitle": "CSS Multicol",
       "releaseUrl": "https://www.w3.org/TR/css-multicol/",
       "nightlyUrl": "https://drafts.csswg.org/css-multicol/"
     },
@@ -527,7 +527,7 @@
       "shortname": "css-size-adjust",
       "currentSpecification": "css-size-adjust-1",
       "title": "CSS Mobile Text Size Adjustment",
-      "shortTitle": "CSS Size Adjustment 1",
+      "shortTitle": "CSS Size Adjustment",
       "nightlyUrl": "https://drafts.csswg.org/css-size-adjust/"
     },
     "seriesVersion": "1",
@@ -599,7 +599,7 @@
       "shortname": "css-values",
       "currentSpecification": "css-values-4",
       "title": "CSS Values and Units",
-      "shortTitle": "CSS Values 5",
+      "shortTitle": "CSS Values",
       "releaseUrl": "https://www.w3.org/TR/css-values/",
       "nightlyUrl": "https://drafts.csswg.org/css-values/"
     },
@@ -708,7 +708,7 @@
       "shortname": "compositing",
       "currentSpecification": "compositing-1",
       "title": "Compositing and Blending",
-      "shortTitle": "Compositing 2",
+      "shortTitle": "Compositing",
       "releaseUrl": "https://www.w3.org/TR/compositing/",
       "nightlyUrl": "https://drafts.fxtf.org/compositing/"
     },
@@ -6410,7 +6410,7 @@
       "shortname": "webgl2",
       "currentSpecification": "webgl2",
       "title": "WebGL 2.0 Specification",
-      "shortTitle": "WebGL 2.0",
+      "shortTitle": "WebGL",
       "nightlyUrl": "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
     },
     "seriesVersion": "2",
@@ -7537,7 +7537,7 @@
       "shortname": "compositing",
       "currentSpecification": "compositing-1",
       "title": "Compositing and Blending",
-      "shortTitle": "Compositing 1",
+      "shortTitle": "Compositing",
       "releaseUrl": "https://www.w3.org/TR/compositing/",
       "nightlyUrl": "https://drafts.fxtf.org/compositing/"
     },
@@ -7865,7 +7865,7 @@
       "shortname": "css-backgrounds",
       "currentSpecification": "css-backgrounds-3",
       "title": "CSS Backgrounds and Borders",
-      "shortTitle": "CSS Backgrounds 3",
+      "shortTitle": "CSS Backgrounds",
       "releaseUrl": "https://www.w3.org/TR/css-backgrounds/",
       "nightlyUrl": "https://drafts.csswg.org/css-backgrounds/"
     },
@@ -8070,7 +8070,7 @@
       "shortname": "css-cascade",
       "currentSpecification": "css-cascade-4",
       "title": "CSS Cascading and Inheritance",
-      "shortTitle": "CSS Cascading 3",
+      "shortTitle": "CSS Cascading",
       "releaseUrl": "https://www.w3.org/TR/css-cascade/",
       "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
     },
@@ -8111,7 +8111,7 @@
       "shortname": "css-cascade",
       "currentSpecification": "css-cascade-4",
       "title": "CSS Cascading and Inheritance",
-      "shortTitle": "CSS Cascading 4",
+      "shortTitle": "CSS Cascading",
       "releaseUrl": "https://www.w3.org/TR/css-cascade/",
       "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
     },
@@ -8153,7 +8153,7 @@
       "shortname": "css-cascade",
       "currentSpecification": "css-cascade-4",
       "title": "CSS Cascading and Inheritance",
-      "shortTitle": "CSS Cascading 5",
+      "shortTitle": "CSS Cascading",
       "releaseUrl": "https://www.w3.org/TR/css-cascade/",
       "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
     },
@@ -8195,11 +8195,12 @@
       "shortname": "css-cascade",
       "currentSpecification": "css-cascade-4",
       "title": "CSS Cascading and Inheritance",
-      "shortTitle": "CSS Cascading and Inheritance",
+      "shortTitle": "CSS Cascading",
       "releaseUrl": "https://www.w3.org/TR/css-cascade/",
       "nightlyUrl": "https://drafts.csswg.org/css-cascade/"
     },
     "seriesVersion": "6",
+    "shortTitle": "CSS Cascading 6",
     "seriesPrevious": "css-cascade-5",
     "organization": "W3C",
     "groups": [
@@ -8220,7 +8221,6 @@
     },
     "title": "CSS Cascading and Inheritance Level 6",
     "source": "w3c",
-    "shortTitle": "CSS Cascading and Inheritance 6",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -8358,7 +8358,7 @@
       "shortname": "css-conditional",
       "currentSpecification": "css-conditional-3",
       "title": "CSS Conditional Rules",
-      "shortTitle": "CSS Conditional 3",
+      "shortTitle": "CSS Conditional",
       "releaseUrl": "https://www.w3.org/TR/css-conditional/",
       "nightlyUrl": "https://drafts.csswg.org/css-conditional/"
     },
@@ -8399,7 +8399,7 @@
       "shortname": "css-conditional",
       "currentSpecification": "css-conditional-3",
       "title": "CSS Conditional Rules",
-      "shortTitle": "CSS Conditional 4",
+      "shortTitle": "CSS Conditional",
       "releaseUrl": "https://www.w3.org/TR/css-conditional/",
       "nightlyUrl": "https://drafts.csswg.org/css-conditional/"
     },
@@ -8441,7 +8441,7 @@
       "shortname": "css-conditional",
       "currentSpecification": "css-conditional-3",
       "title": "CSS Conditional Rules",
-      "shortTitle": "CSS Conditional 5",
+      "shortTitle": "CSS Conditional",
       "releaseUrl": "https://www.w3.org/TR/css-conditional/",
       "nightlyUrl": "https://drafts.csswg.org/css-conditional/"
     },
@@ -8764,7 +8764,7 @@
       "shortname": "css-flexbox",
       "currentSpecification": "css-flexbox-1",
       "title": "CSS Flexible Box Layout",
-      "shortTitle": "CSS Flexbox 1",
+      "shortTitle": "CSS Flexbox",
       "releaseUrl": "https://www.w3.org/TR/css-flexbox/",
       "nightlyUrl": "https://drafts.csswg.org/css-flexbox/"
     },
@@ -8926,7 +8926,7 @@
       "shortname": "css-gcpm",
       "currentSpecification": "css-gcpm-3",
       "title": "CSS Generated Content for Paged Media",
-      "shortTitle": "CSS GCPM 3",
+      "shortTitle": "CSS GCPM",
       "releaseUrl": "https://www.w3.org/TR/css-gcpm/",
       "nightlyUrl": "https://drafts.csswg.org/css-gcpm/"
     },
@@ -9042,7 +9042,7 @@
       "shortname": "css-images",
       "currentSpecification": "css-images-3",
       "title": "CSS Images",
-      "shortTitle": "CSS Images 3",
+      "shortTitle": "CSS Images",
       "releaseUrl": "https://www.w3.org/TR/css-images/",
       "nightlyUrl": "https://drafts.csswg.org/css-images/"
     },
@@ -9083,7 +9083,7 @@
       "shortname": "css-images",
       "currentSpecification": "css-images-3",
       "title": "CSS Images",
-      "shortTitle": "CSS Images 4",
+      "shortTitle": "CSS Images",
       "releaseUrl": "https://www.w3.org/TR/css-images/",
       "nightlyUrl": "https://drafts.csswg.org/css-images/"
     },
@@ -9238,7 +9238,7 @@
       "shortname": "css-lists",
       "currentSpecification": "css-lists-3",
       "title": "CSS Lists",
-      "shortTitle": "CSS Lists 3",
+      "shortTitle": "CSS Lists",
       "releaseUrl": "https://www.w3.org/TR/css-lists/",
       "nightlyUrl": "https://drafts.csswg.org/css-lists/"
     },
@@ -9278,7 +9278,7 @@
       "shortname": "css-logical",
       "currentSpecification": "css-logical-1",
       "title": "CSS Logical Properties and Values",
-      "shortTitle": "CSS Logical Properties 1",
+      "shortTitle": "CSS Logical Properties",
       "releaseUrl": "https://www.w3.org/TR/css-logical/",
       "nightlyUrl": "https://drafts.csswg.org/css-logical/"
     },
@@ -9358,7 +9358,7 @@
       "shortname": "css-multicol",
       "currentSpecification": "css-multicol-1",
       "title": "CSS Multi-column Layout",
-      "shortTitle": "CSS Multicol 1",
+      "shortTitle": "CSS Multicol",
       "releaseUrl": "https://www.w3.org/TR/css-multicol/",
       "nightlyUrl": "https://drafts.csswg.org/css-multicol/"
     },
@@ -10257,7 +10257,7 @@
       "shortname": "css-sizing",
       "currentSpecification": "css-sizing-3",
       "title": "CSS Box Sizing",
-      "shortTitle": "CSS Sizing 3",
+      "shortTitle": "CSS Sizing",
       "releaseUrl": "https://www.w3.org/TR/css-sizing/",
       "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
     },
@@ -10298,7 +10298,7 @@
       "shortname": "css-sizing",
       "currentSpecification": "css-sizing-3",
       "title": "CSS Box Sizing",
-      "shortTitle": "CSS Sizing 4",
+      "shortTitle": "CSS Sizing",
       "releaseUrl": "https://www.w3.org/TR/css-sizing/",
       "nightlyUrl": "https://drafts.csswg.org/css-sizing/"
     },
@@ -10830,7 +10830,7 @@
       "shortname": "css-ui",
       "currentSpecification": "css-ui-4",
       "title": "CSS Basic User Interface",
-      "shortTitle": "CSS User Interface 4",
+      "shortTitle": "CSS User Interface",
       "releaseUrl": "https://www.w3.org/TR/css-ui/",
       "nightlyUrl": "https://drafts.csswg.org/css-ui/"
     },
@@ -10870,7 +10870,7 @@
       "shortname": "css-values",
       "currentSpecification": "css-values-4",
       "title": "CSS Values and Units",
-      "shortTitle": "CSS Values 3",
+      "shortTitle": "CSS Values",
       "releaseUrl": "https://www.w3.org/TR/css-values/",
       "nightlyUrl": "https://drafts.csswg.org/css-values/"
     },
@@ -10911,7 +10911,7 @@
       "shortname": "css-values",
       "currentSpecification": "css-values-4",
       "title": "CSS Values and Units",
-      "shortTitle": "CSS Values 4",
+      "shortTitle": "CSS Values",
       "releaseUrl": "https://www.w3.org/TR/css-values/",
       "nightlyUrl": "https://drafts.csswg.org/css-values/"
     },
@@ -10953,7 +10953,7 @@
       "shortname": "css-variables",
       "currentSpecification": "css-variables-1",
       "title": "CSS Custom Properties for Cascading Variables",
-      "shortTitle": "CSS Variables 1",
+      "shortTitle": "CSS Variables",
       "releaseUrl": "https://www.w3.org/TR/css-variables/",
       "nightlyUrl": "https://drafts.csswg.org/css-variables/"
     },
@@ -12312,7 +12312,7 @@
       "shortname": "IndexedDB",
       "currentSpecification": "IndexedDB-3",
       "title": "Indexed Database API",
-      "shortTitle": "Indexed DB 3.0",
+      "shortTitle": "Indexed DB",
       "releaseUrl": "https://www.w3.org/TR/IndexedDB/",
       "nightlyUrl": "https://w3c.github.io/IndexedDB/"
     },
@@ -16009,7 +16009,7 @@
       "shortname": "webrtc",
       "currentSpecification": "webrtc",
       "title": "WebRTC: Real-Time Communication Between Browsers",
-      "shortTitle": "WebRTC 1.0",
+      "shortTitle": "WebRTC",
       "releaseUrl": "https://www.w3.org/TR/webrtc/",
       "nightlyUrl": "https://w3c.github.io/webrtc-pc/"
     },
@@ -16516,7 +16516,7 @@
       "shortname": "WOFF",
       "currentSpecification": "WOFF2",
       "title": "WOFF File Format",
-      "shortTitle": "WOFF 2.0",
+      "shortTitle": "WOFF",
       "releaseUrl": "https://www.w3.org/TR/WOFF/",
       "nightlyUrl": "https://w3c.github.io/woff/woff2/"
     },

@@ -177,6 +177,9 @@ Promise.resolve()
       spec.shortTitle = computeShortTitle(spec.title);
       spec.series.shortTitle = spec.series.shortTitle ?? computeShortTitle(spec.series.title);
     }
+
+    // Drop level number from series short title
+    spec.series.shortTitle = spec.series.shortTitle.replace(/ \d+(\.\d+)?$/, '');
     return spec;
   }))
   .then(dolog(`Compute short titles... done`))

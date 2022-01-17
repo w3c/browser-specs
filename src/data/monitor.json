@@ -272,9 +272,13 @@
       "lastreviewed": "2022-01-01",
       "comment": "spec should get integrated in Screen Capture, see https://github.com/w3c/mediacapture-screen-share/issues/190"
     },
-    "whatwg/testutils": {
-      "lastreviewed": "2022-01-01",
-      "comment": "Repo does not exist yet but should come to life at some point"
+    "whatwg/fs": {
+      "lastreviewed": "2022-01-17",
+      "comment": "no published content yet"
+    },
+    "whatwg/websockets": {
+      "lastreviewed": "2022-01-17",
+      "comment": "pending removal of existing content in HTML spec https://github.com/whatwg/html/pull/7414"
     },
     "tc39/proposal-intl-numberformat-v3": {
       "lastreviewed": "2022-01-01",

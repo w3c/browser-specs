@@ -272,9 +272,6 @@
       "lastreviewed": "2022-01-01",
       "comment": "spec should get integrated in Screen Capture, see https://github.com/w3c/mediacapture-screen-share/issues/190"
     },
-    "whatwg/testutils": {
-      "lastreviewed": "2022-01-01",
-      "comment": "Repo does not exist yet but should come to life at some point"
     },
     "tc39/proposal-intl-numberformat-v3": {
       "lastreviewed": "2022-01-01",

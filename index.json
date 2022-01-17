@@ -2065,6 +2065,34 @@
     "shortTitle": "Top-Level Await"
   },
   {
+    "url": "https://testutils.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "testutils",
+    "series": {
+      "shortname": "testutils",
+      "currentSpecification": "testutils",
+      "title": "Test Utils Standard",
+      "shortTitle": "Test Utils",
+      "nightlyUrl": "https://testutils.spec.whatwg.org/"
+    },
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Test Utils Workstream",
+        "url": "https://testutils.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://testutils.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/testutils",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Test Utils Standard",
+    "source": "specref",
+    "shortTitle": "Test Utils"
+  },
+  {
     "url": "https://url.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "url",

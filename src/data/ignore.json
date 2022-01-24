@@ -33,6 +33,9 @@
     "MiniApps Working Group": {
       "comment": "specs not targeted at browsers"
     },
+    "Spatial Data on the Web Working Group": {
+      "comment": "specs not targeted at browsers"
+    },
     "Verifiable Credentials Working Group": {
       "comment": "specs not targeted at browsers"
     },
@@ -339,6 +342,9 @@
     },
     "https://wicg.github.io/nav-speculation/": {
       "comment": "document split into two specs"
+    },
+    "https://w3c.github.io/xml-entities/": {
+      "comment": "not directly meant for browsers environments (in practice imported via HTML LS)"
     }
   }
 }

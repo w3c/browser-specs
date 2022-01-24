@@ -2369,6 +2369,34 @@
     "shortTitle": "Media Capture Automation"
   },
   {
+    "url": "https://w3c.github.io/mediacapture-region/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-region",
+    "series": {
+      "shortname": "mediacapture-region",
+      "currentSpecification": "mediacapture-region",
+      "title": "Region Capture",
+      "shortTitle": "Region Capture",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-region/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-region/",
+      "repository": "https://github.com/w3c/mediacapture-region",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Region Capture",
+    "source": "spec",
+    "shortTitle": "Region Capture"
+  },
+  {
     "url": "https://w3c.github.io/mediacapture-transform/",
     "seriesComposition": "full",
     "shortname": "mediacapture-transform",

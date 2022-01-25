@@ -4,7 +4,35 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.21.0](https://github.com/w3c/browser-specs/compare/2.20.0...2.21.0)
+## [2.22.0](https://github.com/w3c/browser-specs/compare/2.21.0...2.22.0)
+
+
+### Merged
+
+- Bump mocha from 9.1.4 to 9.2.0 [`#480`](https://github.com/w3c/browser-specs/pull/480)
+- Bump release-it from 14.12.3 to 14.12.4 [`#479`](https://github.com/w3c/browser-specs/pull/479)
+- Drop Intl.displaynames and Intl.Segmenter, merged in Ecma402 [`#481`](https://github.com/w3c/browser-specs/pull/481)
+- Add Region Capture spec [`#478`](https://github.com/w3c/browser-specs/pull/478)
+- Bump node-fetch from 2.6.6 to 2.6.7 [`#475`](https://github.com/w3c/browser-specs/pull/475)
+- Bump mocha from 9.1.3 to 9.1.4 [`#474`](https://github.com/w3c/browser-specs/pull/474)
+- Bump release-it from 14.11.8 to 14.12.3 [`#476`](https://github.com/w3c/browser-specs/pull/476)
+- Bump ajv from 8.8.2 to 8.9.0 [`#473`](https://github.com/w3c/browser-specs/pull/473)
+- Add WHATWG Test Utils to spec list  [`#472`](https://github.com/w3c/browser-specs/pull/472)
+
+### Fixed
+
+- Add WHATWG Test Utils to spec list  (#472) [`#471`](https://github.com/w3c/browser-specs/issues/471)
+
+### Commits
+
+- [data] Update spec info [`23bdbe8`](https://github.com/w3c/browser-specs/commit/23bdbe8932088a376c1552ac39f8e01578afaa8b)
+- [data] Update spec info [`53a962f`](https://github.com/w3c/browser-specs/commit/53a962f35e368c102e9f32c8d6f12d0ab6b74aa9)
+- [data] Update spec info [`1be11f0`](https://github.com/w3c/browser-specs/commit/1be11f0f1abc261851b14193bf95ddfc9156236b)
+- Improve error messages for the extract pages module [`f6e5dbe`](https://github.com/w3c/browser-specs/commit/f6e5dbe513057e9dbac4767f32ba81ea25aa1c8e)
+- [test] Drop temp exception for fingerprinting-guidance title [`c3a3a66`](https://github.com/w3c/browser-specs/commit/c3a3a66386562a625f3339b91574fbe2f896314a)
+- [data] Update spec info [`0572594`](https://github.com/w3c/browser-specs/commit/05725946c7c4d6484c60c3a205e8015d0e4bb033)
+
+## [2.21.0](https://github.com/w3c/browser-specs/compare/2.20.0...2.21.0) - 2022-01-03
 
 
 ### Merged

@@ -1392,35 +1392,6 @@
     "shortTitle": "ECMAScript Internationalization API"
   },
   {
-    "url": "https://tc39.es/intl-displaynames-v2/",
-    "seriesComposition": "full",
-    "shortname": "tc39-intl-displaynames-v2",
-    "series": {
-      "shortname": "tc39-intl-displaynames",
-      "currentSpecification": "tc39-intl-displaynames-v2",
-      "title": "Intl.DisplayNames v2 Proposal",
-      "shortTitle": "Intl.DisplayNames v2",
-      "nightlyUrl": "https://tc39.es/intl-displaynames-v2/"
-    },
-    "seriesVersion": "2",
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/intl-displaynames-v2/",
-      "repository": "https://github.com/tc39/intl-displaynames-v2",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Intl.DisplayNames v2 Proposal",
-    "source": "spec",
-    "shortTitle": "Intl.DisplayNames v2"
-  },
-  {
     "url": "https://tc39.es/proposal-accessible-object-hasownproperty/",
     "seriesComposition": "full",
     "shortname": "tc39-accessible-object-hasownproperty",
@@ -1755,34 +1726,6 @@
     "title": "Intl Locale Info Proposal",
     "source": "spec",
     "shortTitle": "Intl Locale Info"
-  },
-  {
-    "url": "https://tc39.es/proposal-intl-segmenter/",
-    "seriesComposition": "full",
-    "shortname": "tc39-intl-segmenter",
-    "series": {
-      "shortname": "tc39-intl-segmenter",
-      "currentSpecification": "tc39-intl-segmenter",
-      "title": "Intl.Segmenter Proposal",
-      "shortTitle": "Intl.Segmenter",
-      "nightlyUrl": "https://tc39.es/proposal-intl-segmenter/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-intl-segmenter/",
-      "repository": "https://github.com/tc39/proposal-intl-segmenter",
-      "sourcePath": "spec.html",
-      "filename": "index.html"
-    },
-    "title": "Intl.Segmenter Proposal",
-    "source": "spec",
-    "shortTitle": "Intl.Segmenter"
   },
   {
     "url": "https://tc39.es/proposal-json-modules/",

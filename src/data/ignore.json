@@ -196,6 +196,9 @@
     },
     "WICG/frame-timing": {
       "comment": "No longer being pursued, see https://github.com/w3c/browser-specs/pull/394"
+    },
+    "WICG/uuid": {
+      "comment": "Proposal integrated in WebCrypto API: https://github.com/WICG/uuid/issues/27"
     }
   },
   "specs": {

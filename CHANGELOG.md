@@ -4,7 +4,19 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.22.0](https://github.com/w3c/browser-specs/compare/2.21.0...2.22.0)
+## [2.23.0](https://github.com/w3c/browser-specs/compare/2.22.0...2.23.0)
+
+
+### Merged
+
+- Drop UUID incubation, now integrated in WebCrypto API [`#482`](https://github.com/w3c/browser-specs/pull/482)
+
+
+### Commits
+
+- [data] Update spec info [`8940ce8`](https://github.com/w3c/browser-specs/commit/8940ce8ecbae31ffeb9de07941e0efd89c35ccb9)
+
+## [2.22.0](https://github.com/w3c/browser-specs/compare/2.21.0...2.22.0) - 2022-01-25
 
 
 ### Merged

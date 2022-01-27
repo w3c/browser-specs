@@ -4713,34 +4713,6 @@
     "shortTitle": "User Preference Media Features Client Hints Headers"
   },
   {
-    "url": "https://wicg.github.io/uuid/",
-    "seriesComposition": "full",
-    "shortname": "uuid",
-    "series": {
-      "shortname": "uuid",
-      "currentSpecification": "uuid",
-      "title": "uuid",
-      "shortTitle": "uuid",
-      "nightlyUrl": "https://wicg.github.io/uuid/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/uuid/",
-      "repository": "https://github.com/WICG/uuid",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "uuid",
-    "source": "spec",
-    "shortTitle": "uuid"
-  },
-  {
     "url": "https://wicg.github.io/video-rvfc/",
     "seriesComposition": "full",
     "shortname": "video-rvfc",

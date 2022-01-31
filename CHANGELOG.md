@@ -4,7 +4,22 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.23.0](https://github.com/w3c/browser-specs/compare/2.22.0...2.23.0)
+## [2.24.0](https://github.com/w3c/browser-specs/compare/2.23.0...2.24.0)
+
+
+### Merged
+
+- Add IFT RangeRequest [`#485`](https://github.com/w3c/browser-specs/pull/485)
+
+### Fixed
+
+- Add IFT RangeRequest (#485) [`#484`](https://github.com/w3c/browser-specs/issues/484)
+
+### Commits
+
+- [data] Update spec info [`e889826`](https://github.com/w3c/browser-specs/commit/e889826511d7f1930fa55ba2e19b192a4fd28e1c)
+
+## [2.23.0](https://github.com/w3c/browser-specs/compare/2.22.0...2.23.0) - 2022-01-27
 
 
 ### Merged

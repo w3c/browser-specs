@@ -662,6 +662,12 @@
   "https://www.w3.org/TR/presentation-api/",
   "https://www.w3.org/TR/proximity/",
   "https://www.w3.org/TR/push-api/",
+  {
+    "url": "https://www.w3.org/TR/RangeRequest/",
+    "nightly": {
+      "sourcePath": "RangeRequest.html"
+    }
+  },
   "https://www.w3.org/TR/referrer-policy/",
   "https://www.w3.org/TR/remote-playback/",
   "https://www.w3.org/TR/reporting-1/",

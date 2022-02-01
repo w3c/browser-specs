@@ -12686,49 +12686,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/mediacapture-depth/",
-    "seriesComposition": "full",
-    "shortname": "mediacapture-depth",
-    "series": {
-      "shortname": "mediacapture-depth",
-      "currentSpecification": "mediacapture-depth",
-      "title": "Media Capture Depth Stream Extensions",
-      "shortTitle": "Media Capture Depth Stream Extensions",
-      "releaseUrl": "https://www.w3.org/TR/mediacapture-depth/",
-      "nightlyUrl": "https://w3c.github.io/mediacapture-depth/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
-      },
-      {
-        "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/mediacapture-depth/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-depth/",
-      "repository": "https://github.com/w3c/mediacapture-depth",
-      "sourcePath": "index.src.html",
-      "filename": "index.html"
-    },
-    "title": "Media Capture Depth Stream Extensions",
-    "source": "w3c",
-    "shortTitle": "Media Capture Depth Stream Extensions",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "mediacapture-depth"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/mediacapture-fromelement/",
     "seriesComposition": "full",
     "shortname": "mediacapture-fromelement",

@@ -12199,6 +12199,39 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/i18n-glossary/",
+    "seriesComposition": "full",
+    "shortname": "i18n-glossary",
+    "series": {
+      "shortname": "i18n-glossary",
+      "currentSpecification": "i18n-glossary",
+      "title": "Internationalization Glossary",
+      "shortTitle": "Internationalization Glossary",
+      "releaseUrl": "https://www.w3.org/TR/i18n-glossary/",
+      "nightlyUrl": "https://w3c.github.io/i18n-glossary/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Internationalization Working Group",
+        "url": "https://www.w3.org/International/core/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/i18n-glossary/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/i18n-glossary/",
+      "repository": "https://github.com/w3c/i18n-glossary",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Internationalization Glossary",
+    "source": "w3c",
+    "shortTitle": "Internationalization Glossary"
+  },
+  {
     "url": "https://www.w3.org/TR/IFT/",
     "seriesComposition": "full",
     "shortname": "IFT",

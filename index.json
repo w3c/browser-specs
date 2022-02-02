@@ -1728,6 +1728,118 @@
     "shortTitle": "Intl Locale Info"
   },
   {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-annexes",
+    "series": {
+      "shortname": "tc39-intl-annexes",
+      "currentSpecification": "tc39-intl-annexes",
+      "title": "B Additions and Changes That Introduce Incompatibilities with Prior Editions",
+      "shortTitle": "B Additions and Changes That Introduce Incompatibilities with Prior Editions",
+      "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
+      "sourcePath": "out/annexes/proposed.html",
+      "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+      "filename": "proposed.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "B Additions and Changes That Introduce Incompatibilities with Prior Editions",
+    "source": "spec",
+    "shortTitle": "B Additions and Changes That Introduce Incompatibilities with Prior Editions"
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-negotiation",
+    "series": {
+      "shortname": "tc39-intl-negotiation",
+      "currentSpecification": "tc39-intl-negotiation",
+      "title": "1.1 Internal slots of Service Constructors",
+      "shortTitle": "1.1 Internal slots of Service Constructors",
+      "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
+      "sourcePath": "out/negotiation/proposed.html",
+      "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+      "filename": "proposed.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "1.1 Internal slots of Service Constructors",
+    "source": "spec",
+    "shortTitle": "1.1 Internal slots of Service Constructors"
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-numberformat",
+    "series": {
+      "shortname": "tc39-intl-numberformat",
+      "currentSpecification": "tc39-intl-numberformat",
+      "title": "1.1 Abstract Operations for NumberFormat Objects",
+      "shortTitle": "1.1 Abstract Operations for NumberFormat Objects",
+      "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
+      "sourcePath": "out/numberformat/proposed.html",
+      "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+      "filename": "proposed.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "1.1 Abstract Operations for NumberFormat Objects",
+    "source": "spec",
+    "shortTitle": "1.1 Abstract Operations for NumberFormat Objects"
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-pluralrules",
+    "series": {
+      "shortname": "tc39-intl-pluralrules",
+      "currentSpecification": "tc39-intl-pluralrules",
+      "title": "1.1 Abstract Operations for PluralRules Objects",
+      "shortTitle": "1.1 Abstract Operations for PluralRules Objects",
+      "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
+      "sourcePath": "out/pluralrules/proposed.html",
+      "repository": "https://github.com/tc39/proposal-intl-numberformat-v3",
+      "filename": "proposed.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "1.1 Abstract Operations for PluralRules Objects",
+    "source": "spec",
+    "shortTitle": "1.1 Abstract Operations for PluralRules Objects"
+  },
+  {
     "url": "https://tc39.es/proposal-json-modules/",
     "seriesComposition": "full",
     "shortname": "tc39-json-modules",

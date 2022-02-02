@@ -119,6 +119,34 @@
   "https://tc39.es/proposal-intl-enumeration/",
   "https://tc39.es/proposal-intl-extend-timezonename/",
   "https://tc39.es/proposal-intl-locale-info/",
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
+    "shortname": "tc39-intl-annexes",
+    "nightly": {
+      "sourcePath": "out/annexes/proposed.html"
+    }
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
+    "shortname": "tc39-intl-negotiation",
+    "nightly": {
+      "sourcePath": "out/negotiation/proposed.html"
+    }
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
+    "shortname": "tc39-intl-numberformat",
+    "nightly": {
+      "sourcePath": "out/numberformat/proposed.html"
+    }
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
+    "shortname": "tc39-intl-pluralrules",
+    "nightly": {
+      "sourcePath": "out/pluralrules/proposed.html"
+    }
+  },
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-private-fields-in-in/",
   "https://tc39.es/proposal-private-methods/",

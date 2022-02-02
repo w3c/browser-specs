@@ -4,7 +4,22 @@ All changes to this project will be documented in this file. Commits titled
 "Update spec info" are generated automatically and contain updates to spec
 property values. Check the corresponding Git commit for details.
 
-## [2.26.0](https://github.com/w3c/browser-specs/compare/2.25.0...2.26.0)
+## [2.27.0](https://github.com/w3c/browser-specs/compare/2.26.0...2.27.0)
+
+
+### Merged
+
+- Reflect new URLs of event-timing and largest-contentful-paint [`#491`](https://github.com/w3c/browser-specs/pull/491)
+- Force title for TC39 Intl proposals [`#490`](https://github.com/w3c/browser-specs/pull/490)
+- Add TC39 Intl NumberFormat v3 proposal [`#489`](https://github.com/w3c/browser-specs/pull/489)
+
+
+### Commits
+
+- [data] Update spec info [`483d73a`](https://github.com/w3c/browser-specs/commit/483d73a8dda153139d3c6b9d1ac7b469af65fafb)
+- [data] Update spec info [`68019a6`](https://github.com/w3c/browser-specs/commit/68019a60a9a94ec373f364ba6a2466dd2dad93c1)
+
+## [2.26.0](https://github.com/w3c/browser-specs/compare/2.25.0...2.26.0) - 2022-02-01
 
 
 ### Merged

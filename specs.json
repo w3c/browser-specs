@@ -122,6 +122,7 @@
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
     "shortname": "tc39-intl-annexes",
+    "title": "Intl Annexes",
     "nightly": {
       "sourcePath": "out/annexes/proposed.html"
     }
@@ -129,6 +130,7 @@
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
     "shortname": "tc39-intl-negotiation",
+    "title": "Intl Parameter Resolution",
     "nightly": {
       "sourcePath": "out/negotiation/proposed.html"
     }
@@ -136,6 +138,7 @@
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
     "shortname": "tc39-intl-numberformat",
+    "title": "Intl.NumberFormat",
     "nightly": {
       "sourcePath": "out/numberformat/proposed.html"
     }
@@ -143,6 +146,7 @@
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
     "shortname": "tc39-intl-pluralrules",
+    "title": "Intl.PluralRules",
     "nightly": {
       "sourcePath": "out/pluralrules/proposed.html"
     }

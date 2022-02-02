@@ -19,6 +19,7 @@
           "seriesComposition": { "$ref": "definitions.json#/$defs/seriesComposition" },
           "nightly": { "$ref": "definitions.json#/$defs/nightly" },
           "tests": { "$ref": "definitions.json#/$defs/tests" },
+          "title": { "$ref": "definitions.json#/$defs/title" },
           "shortTitle": { "$ref": "definitions.json#/$defs/title" },
           "organization": { "$ref": "definitions.json#/$defs/organization" },
           "groups": { "$ref": "definitions.json#/$defs/groups" },

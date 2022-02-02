@@ -1734,10 +1734,11 @@
     "series": {
       "shortname": "tc39-intl-annexes",
       "currentSpecification": "tc39-intl-annexes",
-      "title": "B Additions and Changes That Introduce Incompatibilities with Prior Editions",
-      "shortTitle": "B Additions and Changes That Introduce Incompatibilities with Prior Editions",
+      "title": "Intl Annexes",
+      "shortTitle": "Intl Annexes",
       "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html"
     },
+    "title": "Intl Annexes",
     "nightly": {
       "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
       "sourcePath": "out/annexes/proposed.html",
@@ -1751,9 +1752,8 @@
         "url": "https://tc39.es/"
       }
     ],
-    "title": "B Additions and Changes That Introduce Incompatibilities with Prior Editions",
     "source": "spec",
-    "shortTitle": "B Additions and Changes That Introduce Incompatibilities with Prior Editions"
+    "shortTitle": "Intl Annexes"
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
@@ -1762,10 +1762,11 @@
     "series": {
       "shortname": "tc39-intl-negotiation",
       "currentSpecification": "tc39-intl-negotiation",
-      "title": "1.1 Internal slots of Service Constructors",
-      "shortTitle": "1.1 Internal slots of Service Constructors",
+      "title": "Intl Parameter Resolution",
+      "shortTitle": "Intl Parameter Resolution",
       "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html"
     },
+    "title": "Intl Parameter Resolution",
     "nightly": {
       "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
       "sourcePath": "out/negotiation/proposed.html",
@@ -1779,9 +1780,8 @@
         "url": "https://tc39.es/"
       }
     ],
-    "title": "1.1 Internal slots of Service Constructors",
     "source": "spec",
-    "shortTitle": "1.1 Internal slots of Service Constructors"
+    "shortTitle": "Intl Parameter Resolution"
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
@@ -1790,10 +1790,11 @@
     "series": {
       "shortname": "tc39-intl-numberformat",
       "currentSpecification": "tc39-intl-numberformat",
-      "title": "1.1 Abstract Operations for NumberFormat Objects",
-      "shortTitle": "1.1 Abstract Operations for NumberFormat Objects",
+      "title": "Intl.NumberFormat",
+      "shortTitle": "Intl.NumberFormat",
       "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html"
     },
+    "title": "Intl.NumberFormat",
     "nightly": {
       "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
       "sourcePath": "out/numberformat/proposed.html",
@@ -1807,9 +1808,8 @@
         "url": "https://tc39.es/"
       }
     ],
-    "title": "1.1 Abstract Operations for NumberFormat Objects",
     "source": "spec",
-    "shortTitle": "1.1 Abstract Operations for NumberFormat Objects"
+    "shortTitle": "Intl.NumberFormat"
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
@@ -1818,10 +1818,11 @@
     "series": {
       "shortname": "tc39-intl-pluralrules",
       "currentSpecification": "tc39-intl-pluralrules",
-      "title": "1.1 Abstract Operations for PluralRules Objects",
-      "shortTitle": "1.1 Abstract Operations for PluralRules Objects",
+      "title": "Intl.PluralRules",
+      "shortTitle": "Intl.PluralRules",
       "nightlyUrl": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html"
     },
+    "title": "Intl.PluralRules",
     "nightly": {
       "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
       "sourcePath": "out/pluralrules/proposed.html",
@@ -1835,9 +1836,8 @@
         "url": "https://tc39.es/"
       }
     ],
-    "title": "1.1 Abstract Operations for PluralRules Objects",
     "source": "spec",
-    "shortTitle": "1.1 Abstract Operations for PluralRules Objects"
+    "shortTitle": "Intl.PluralRules"
   },
   {
     "url": "https://tc39.es/proposal-json-modules/",
@@ -2306,6 +2306,34 @@
     }
   },
   {
+    "url": "https://w3c.github.io/event-timing/",
+    "seriesComposition": "full",
+    "shortname": "event-timing",
+    "series": {
+      "shortname": "event-timing",
+      "currentSpecification": "event-timing",
+      "title": "Event Timing API",
+      "shortTitle": "Event Timing API",
+      "nightlyUrl": "https://w3c.github.io/event-timing/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/event-timing/",
+      "repository": "https://github.com/w3c/event-timing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Event Timing API",
+    "source": "specref",
+    "shortTitle": "Event Timing API"
+  },
+  {
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "seriesComposition": "full",
     "shortname": "gamepad-extensions",
@@ -2332,6 +2360,34 @@
     "title": "Gamepad Extensions",
     "source": "spec",
     "shortTitle": "Gamepad Extensions"
+  },
+  {
+    "url": "https://w3c.github.io/largest-contentful-paint/",
+    "seriesComposition": "full",
+    "shortname": "largest-contentful-paint",
+    "series": {
+      "shortname": "largest-contentful-paint",
+      "currentSpecification": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "shortTitle": "Largest Contentful Paint",
+      "nightlyUrl": "https://w3c.github.io/largest-contentful-paint/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/largest-contentful-paint/",
+      "repository": "https://github.com/w3c/largest-contentful-paint",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Largest Contentful Paint",
+    "source": "specref",
+    "shortTitle": "Largest Contentful Paint"
   },
   {
     "url": "https://w3c.github.io/mathml-aam/",
@@ -3406,40 +3462,6 @@
     }
   },
   {
-    "url": "https://wicg.github.io/event-timing/",
-    "seriesComposition": "full",
-    "shortname": "event-timing",
-    "series": {
-      "shortname": "event-timing",
-      "currentSpecification": "event-timing",
-      "title": "Event Timing API",
-      "shortTitle": "Event Timing API",
-      "nightlyUrl": "https://wicg.github.io/event-timing/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/event-timing/",
-      "repository": "https://github.com/WICG/event-timing",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Event Timing API",
-    "source": "specref",
-    "shortTitle": "Event Timing API",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "event-timing"
-      ]
-    }
-  },
-  {
     "url": "https://wicg.github.io/eyedropper-api/",
     "seriesComposition": "full",
     "shortname": "eyedropper-api",
@@ -3860,40 +3882,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "keyboard-map"
-      ]
-    }
-  },
-  {
-    "url": "https://wicg.github.io/largest-contentful-paint/",
-    "seriesComposition": "full",
-    "shortname": "largest-contentful-paint",
-    "series": {
-      "shortname": "largest-contentful-paint",
-      "currentSpecification": "largest-contentful-paint",
-      "title": "Largest Contentful Paint",
-      "shortTitle": "Largest Contentful Paint",
-      "nightlyUrl": "https://wicg.github.io/largest-contentful-paint/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/largest-contentful-paint/",
-      "repository": "https://github.com/WICG/largest-contentful-paint",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Largest Contentful Paint",
-    "source": "specref",
-    "shortTitle": "Largest Contentful Paint",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "largest-contentful-paint"
       ]
     }
   },

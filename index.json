@@ -2319,8 +2319,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "nightly": {
@@ -2375,8 +2375,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
       }
     ],
     "nightly": {

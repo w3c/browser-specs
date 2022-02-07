@@ -4,7 +4,7 @@
  *
  * The script will extract the W3C API key and the github token it needs
  * from a "config.json" file in the root folder
- * which must exist and contain "w3cApiKey" and "githubToken" keys.
+ * which must exist and contain "w3cApiKey" and "GH_TOKEN" keys.
  */
 
 const fs = require("fs").promises;
@@ -15,6 +15,7 @@ const computeCurrentLevel = require("./compute-currentlevel.js");
 const computeRepository = require("./compute-repository.js");
 const computeSeriesUrls = require("./compute-series-urls.js");
 const computeShortTitle = require("./compute-shorttitle.js");
+const computeCategories = require("./compute-categories.js");
 const determineFilename = require("./determine-filename.js");
 const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
@@ -23,12 +24,12 @@ const fetchGroups = require("./fetch-groups.js");
 const { w3cApiKey } = require("../config.json");
 const githubToken = (_ => {
   try {
-    return require("../config.json").githubToken;
+    return require("../config.json").GH_TOKEN;
   }
   catch {
     return "";
   }
-})() || process.env.GITHUB_TOKEN;;
+})() || process.env.GH_TOKEN;;
 
 // If the index already exists, reuse the info it contains when info cannot
 // be refreshed due to some external (network) issue.
@@ -187,6 +188,13 @@ Promise.resolve()
   .then(dolog(`Compute repositories...`))
   .then(index => computeRepository(index, { githubToken }))
   .then(dolog(`Compute repositories... done`))
+
+  .then(dolog(`Compute categories...`))
+  .then(index => index.map(spec => {
+    spec.categories = computeCategories(spec);
+    return spec;
+  }))
+  .then(dolog(`Compute categories... done`))
 
   .then(dolog(`Find info about test suites...`))
   .then(index => determineTestPath(index, { githubToken }))

@@ -126,6 +126,31 @@
 
     "organization": {
       "type": "string"
+    },
+
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["browser"]
+      }
+    },
+
+    "categories-specs": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": ["reset", "+browser", "-browser"]
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["reset", "+browser", "-browser"]
+          },
+          "minItems": 1
+        }
+      ]
     }
   }
 }

@@ -20,11 +20,12 @@
       "shortTitle": { "$ref": "definitions.json#/$defs/title" },
       "source": { "$ref": "definitions.json#/$defs/source" },
       "organization": { "$ref": "definitions.json#/$defs/organization" },
-      "groups": { "$ref": "definitions.json#/$defs/groups" }
+      "groups": { "$ref": "definitions.json#/$defs/groups" },
+      "categories": { "$ref": "definitions.json#/$defs/categories" }
     },
     "required": [
       "url", "shortname", "series", "seriesComposition", "nightly",
-      "title", "shortTitle", "source", "organization", "groups"
+      "title", "shortTitle", "source", "organization", "groups", "categories"
     ],
     "additionalProperties": false
   },

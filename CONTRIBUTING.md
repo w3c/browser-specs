@@ -85,6 +85,10 @@ as the current spec in the series. The property must only be set when value is
 - `multipage`: a boolean flag to identify the spec as a multipage spec. This
 instructs the code to extract the list of pages from the index page and fill
 out the `release.pages` and `nightly.pages` properties in the list.
+- `categories`: an array that is treated as incremental update to adjust the
+list of [`categories`](README.md#categories) that the spec belongs to. Values
+may be one of `"reset"` to start from an empty list, `"+browser"` to add
+`"browser"` to the list, and `"-browser"` to remove `"browser"` from the list.
 
 You should **only** set these properties when they are required to generate the
 right info. For instance, some of these properties are needed for Media Queries

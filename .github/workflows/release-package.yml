@@ -1,0 +1,40 @@
+# Publish a new package when a pre-release PR is merged.
+#
+# Job does nothing if PR that was merged is not a pre-release PR.
+
+name: "Publish NPM package if needed"
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  release:
+    if: startsWith(github.head_ref, 'release-') && github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Checkout latest version of release script
+      uses: actions/checkout@v2
+      with:
+        ref: main
+
+    - name: Install dependencies
+      run: |
+        npm install --no-save @octokit/rest
+        npm install --no-save @octokit/plugin-throttling
+        npm install --no-save rimraf
+        npm install --no-save @jsdevtools/npm-publish
+
+    - name: Release package if needed
+      run: node src/release-package.js ${{ github.event.pull_request.number }}
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

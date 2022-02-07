@@ -1,3 +1,4 @@
 .cache
 node_modules/
 config.json
+packages/**/index.json

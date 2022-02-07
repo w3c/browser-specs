@@ -304,6 +304,9 @@
     "https://drafts.csswg.org/css-2021/": {
       "comment": "not a spec, but a collection"
     },
+    "https://drafts.csswg.org/css-2022/": {
+      "comment": "not a spec, but a collection"
+    },
     "https://drafts.csswg.org/css-egg-1/": {
       "comment": "excentric gadgetry"
     },

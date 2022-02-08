@@ -3,6 +3,8 @@ name: Monitor specs
 on:
   schedule:
     - cron: '0 0 1 */2 *'
+  workflow_dispatch:
+
 jobs:
   find-specs:
     name: Update the list of monitored specs and highlights those that have changed

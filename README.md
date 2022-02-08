@@ -12,7 +12,8 @@ cross-references, WebIDL, quality, etc.
 ## Table of Contents
 
 - [Installation and usage](#installation-and-usage)
-<!-- COMMON-TOC: start -->- [Spec object](#spec-object)
+<!-- COMMON-TOC: start -->
+- [Spec object](#spec-object)
   - [`url`](#url)
   - [`shortname`](#shortname)
   - [`title`](#title)

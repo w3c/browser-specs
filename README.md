@@ -12,11 +12,13 @@ cross-references, WebIDL, quality, etc.
 ## Table of Contents
 
 - [Installation and usage](#installation-and-usage)
+<!-- COMMON-TOC: start -->
 - [Spec object](#spec-object)
   - [`url`](#url)
   - [`shortname`](#shortname)
   - [`title`](#title)
   - [`shortTitle`](#shorttitle)
+  - [`categories`](#categories)
   - [`series`](#series)
     - [`series.shortname`](#seriesshortname)
     - [`series.currentSpecification`](#seriescurrentspecification)
@@ -46,8 +48,8 @@ cross-references, WebIDL, quality, etc.
     - [`tests.excludePaths`](#testsexcludepaths)
   - [`source`](#source)
 - [How to add/update/delete a spec](#how-to-addupdatedelete-a-spec)
+- [Versioning](#versioning)<!-- COMMON-TOC: end -->
 - [Spec selection criteria](#spec-selection-criteria)
-- [Versioning](#versioning)
 - [Development notes](#development-notes)
   - [How to generate `index.json` manually](#how-to-generate-indexjson-manually)
   - [Debugging tool](#debugging-tool)
@@ -57,29 +59,26 @@ cross-references, WebIDL, quality, etc.
 
 ## Installation and usage
 
-The list is distributed as an NPM package. To incorporate it to your project,
+The whole list is distributed as an NPM package called [web-specs](https://www.npmjs.com/package/web-specs). To incorporate it to your project,
 run:
 
 ```bash
-npm install browser-specs
+npm install web-specs
 ```
 
 You can then retrieve the list from your Node.js program:
 
 ```js
-const specs = require("browser-specs");
+const specs = require("web-specs");
 console.log(JSON.stringify(specs, null, 2));
 ```
 
-Alternatively, you can either retrieve the [latest
-release](https://github.com/w3c/browser-specs/releases/latest) or fetch
-[`index.json`](https://w3c.github.io/browser-specs/index.json).
+Alternatively, you can fetch [`index.json`](https://w3c.github.io/browser-specs/index.json)
+or retrieve the list from the [`web-specs@latest` branch](https://github.com/w3c/browser-specs/tree/web-specs%40latest).
 
-**Note:** If you choose to fetch the `index.json` file directly, keep in mind
-that it may contain (possibly incorrect) updates that have not yet been included
-in the NPM package and the latest GitHub release (see also #38).
+The subset of specs that target web browsers is published in a separate [`browser-specs`](https://www.npmjs.com/package/browser-specs) package. You may retrieve that filtered list from the [`browser-specs@latest` branch](https://github.com/w3c/browser-specs/tree/browser-specs%40latest)
 
-
+<!-- COMMON-BODY: start -->
 ## Spec object
 
 Each specification in the list comes with the following properties:
@@ -119,6 +118,7 @@ Each specification in the list comes with the following properties:
   "title": "CSS Color Module Level 4",
   "source": "w3c",
   "shortTitle": "CSS Color 4",
+  "categories": ["browser"],
   "tests": {
     "repository": "https://github.com/web-platform-tests/wpt",
     "testPaths": [
@@ -168,6 +168,17 @@ cases, the short title is set manually.
 
 The `shortTitle` property is always set. When there is no meaningful short
 title, the property is set to the actual (possibly long) title of the spec.
+
+
+### `categories`
+
+An array that contains the list of categories that the spec belongs to. The only
+possible value so far is `"browser"`, which means that the spec targets web
+browsers.
+
+The `categories` property is always set. Value may be an empty array for some of
+the specs in the `web-specs` package. Value always contains `"browser"` for
+specs in the `browser-specs` package.
 
 
 ### `series`
@@ -471,10 +482,9 @@ or if you would like to otherwise contribute to this project, please check
 ## Spec selection criteria
 
 This repository contains a curated list of technical Web specifications that are
-deemed relevant for Web browsers. Roughly speaking, this list should match the
-list of specs that appear in projects such as [Web Platform
-Tests](https://github.com/web-platform-tests/wpt) or
-[MDN](https://developer.mozilla.org/).
+deemed relevant for the Web platform. Roughly speaking, this list should match
+the list of web specs actively developed by W3C, the WHATWG and a few other
+organizations.
 
 To try to make things more concrete, the following criteria are used to assess
 whether a spec should a priori appear in the list:
@@ -484,9 +494,7 @@ appear in the list. For instance, the list contains the HTML LS spec, but not
 HTML 4.01 or HTML 5).
 2. The spec is being developed by a well-known standardization or
 pre-standardization group. Today, this means a W3C Working Group or Community
-Group, the WHATWG, or the Khronos Group.
-3. Web browsers expressed some level of support for the spec, e.g. through a
-public intent to implement.
+Group, the WHATWG, the IETF, the TC39 group or the Khronos Group.
 4. The spec sits at the application layer or is "close to it". For instance,
 most IETF specs are likely out of scope, but some that are exposed to Web developers are in scope.
 5. The spec defines normative content (terms, CSS, IDL), or it contains
@@ -516,7 +524,7 @@ removal of a spec should rather trigger a `major` update, please
 how it affects your project.
 - `patch`: Info about one or more specs changed. Minor updates were made to the
 code that don't affect the list.
-
+<!-- COMMON-BODY: end -->
 
 ## Development notes
 
@@ -531,7 +539,7 @@ npm run build
 **Important:** The generation process will try to retrieve information about W3C
 specification from the W3C API. For that to work, the code requires the presence
 of a `config.json` file in the root folder with a `w3cApiKey` field set to a
-valid [W3C API key](https://w3c.github.io/w3c-api/) and a `githubToken` field
+valid [W3C API key](https://w3c.github.io/w3c-api/) and a `GH_TOKEN` field
 set to a valid [GitHub Personal Token](https://github.com/settings/tokens)
 (default read permissions are enough).
 
@@ -566,24 +574,13 @@ node index.js delta
 node index.js https://w3c.github.io/presentation-api/
 ```
 
-**Note:** The `index.js` CLI is not part of the released package, which only
-contains the actual list of specifications.
+**Note:** The `index.js` CLI is not part of released packages, which only
+contain the actual list of specifications.
 
 
 ### How to release a new version
 
-Provided that you have the appropriate admin rights and that a `GITHUB_TOKEN`
-environment variable is set to a [GitHub Personal
-Token](https://github.com/settings/tokens) with `repo` rights, you may release a
-new version through the following command, to be run from an up-to-date local
-`main` branch:
-
-```bash
-npm run release
-```
-
-The release command should take care of everything including incrementing the
-version number, updating the [changelog](CHANGELOG.md), creating a GitHub
-Release, and publishing a new NPM package. The command is interactive and will
-ask you to confirm the different steps. Please check the [versioning
-rules](#versioning) to select the right version part to increment!
+Releases are semi-automated through GitHub workflows. Whenever the list of specs
+is updated on the main branch, pre-release pull requests are created with the
+diff to release as description. Merging these pull requests releases the new
+version of NPM packages.

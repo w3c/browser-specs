@@ -13,21 +13,44 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 14.x
+
     - name: Setup environment
       run: |
         echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
         npm ci
+
     - name: Build new index file
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run build
+
+    - name: Test new index file
+      env:
+        CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+      run: |
+        echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
+        npm run test
+
+    - name: Bump minor version of packages if needed
+      run: node src/bump-packages-minor.js
+
     - name: Commit updates
       run: |
         git config user.name "fetch-info bot"
         git config user.email "<>"
         git commit -m "[data] Update spec info" -a || true
+
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
+
+    - name: Prepare packages data
+      run: node src/prepare-packages.js
+
+    - name: Create/Update pre-release PR for web-specs
+      run: node src/prepare-release.js web-specs
+
+    - name: Create/Update pre-release PR for browser-specs
+      run: node src/prepare-release.js browser-specs

@@ -23,6 +23,7 @@
           "shortTitle": { "$ref": "definitions.json#/$defs/title" },
           "organization": { "$ref": "definitions.json#/$defs/organization" },
           "groups": { "$ref": "definitions.json#/$defs/groups" },
+          "categories": { "$ref": "definitions.json#/$defs/categories-specs" },
           "forceCurrent": { "type": "boolean" },
           "multipage": { "type": "boolean" }
         },

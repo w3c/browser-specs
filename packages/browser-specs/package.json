@@ -1,0 +1,17 @@
+{
+  "name": "browser-specs",
+  "version": "2.27.1",
+  "description": "Curated list of technical Web specifications that are directly implemented or that will be implemented by Web browsers.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w3c/browser-specs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/w3c/browser-specs/issues"
+  },
+  "license": "CC0-1.0",
+  "files": [
+    "index.json"
+  ],
+  "main": "index.json"
+}

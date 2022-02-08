@@ -12593,7 +12593,9 @@
     "title": "Encoding",
     "source": "w3c",
     "shortTitle": "Encoding",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13357,6 +13359,7 @@
       "releaseUrl": "https://www.w3.org/TR/i18n-glossary/",
       "nightlyUrl": "https://w3c.github.io/i18n-glossary/"
     },
+    "categories": [],
     "organization": "W3C",
     "groups": [
       {
@@ -13376,8 +13379,7 @@
     },
     "title": "Internationalization Glossary",
     "source": "w3c",
-    "shortTitle": "Internationalization Glossary",
-    "categories": []
+    "shortTitle": "Internationalization Glossary"
   },
   {
     "url": "https://www.w3.org/TR/IFT/",

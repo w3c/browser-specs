@@ -1,4 +1,4 @@
-name: "@webref release: Request review of pre-release PR"
+name: "NPM release: Request review of pre-release PR"
 
 on:
   schedule:

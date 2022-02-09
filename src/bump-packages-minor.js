@@ -23,7 +23,7 @@ function specsMatch(s1, s2) {
 function isMinorBumpNeeded(type) {
   // Retrieve contents of last committed index file
   const res = execSync(
-    `git show ${type}\@latest:index.json`,
+    `git show ${type}\\@latest:index.json`,
     { encoding: 'utf8' }).trim();
   let lastIndexFile = JSON.parse(res);
 

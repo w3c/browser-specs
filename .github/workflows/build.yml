@@ -12,10 +12,17 @@ jobs:
   fetch:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
+    - name: Setup node.js
+      uses: actions/setup-node@v2
       with:
         node-version: 14.x
+
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        # Need to checkout all history as job also needs to access the
+        # xxx-specs@latest branches
+        fetch-depth: 0
 
     - name: Setup environment
       run: |

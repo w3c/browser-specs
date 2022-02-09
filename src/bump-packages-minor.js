@@ -21,9 +21,20 @@ function specsMatch(s1, s2) {
 }
 
 function isMinorBumpNeeded(type) {
-  // Retrieve contents of last committed index file
+  // Retrieve the fullname of the remote ref "${type}@latest"
+  const refs = execSync(`git show-ref ${type}@latest`, { encoding: 'utf8' })
+    .trim().split('\n').map(ref => ref.split(' ')[1])
+    .filter(ref => ref.startsWith('refs/remotes/'));
+  if (refs.length > 1) {
+    throw new Error(`More than one remote refs found for ${type}@latest`);
+  }
+  if (refs === 0) {
+    throw new Error(`No remote ref found for ${type}@latest`);
+  }
+
+  // Retrieve contents of last released index file
   const res = execSync(
-    `git show ${type}\\@latest:index.json`,
+    `git show ${refs[0]}:index.json`,
     { encoding: 'utf8' }).trim();
   let lastIndexFile = JSON.parse(res);
 

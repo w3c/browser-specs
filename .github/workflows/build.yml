@@ -54,6 +54,10 @@ jobs:
 
     - name: Create/Update pre-release PR for web-specs
       run: node src/prepare-release.js web-specs
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Create/Update pre-release PR for browser-specs
       run: node src/prepare-release.js browser-specs
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

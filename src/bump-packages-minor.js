@@ -23,7 +23,7 @@ function specsMatch(s1, s2) {
 function isMinorBumpNeeded(type) {
   // Retrieve contents of last committed index file
   const res = execSync(
-    `git show HEAD:index.json`,
+    `git show ${type}@latest:index.json`,
     { encoding: 'utf8' }).trim();
   let lastIndexFile = JSON.parse(res);
 
@@ -32,13 +32,14 @@ function isMinorBumpNeeded(type) {
 
   // Filter specs if needed
   if (type === "browser-specs") {
-    lastIndexFile = lastIndexFile.filter(s => s.categories.includes('browser'));
+    lastIndexFile = lastIndexFile.filter(s => !s.categories || s.categories.includes('browser'));
     newIndexFile = newIndexFile.filter(s => s.categories.includes('browser'));
   }
 
-  return
+  return !!(
     lastIndexFile.find(spec => !newIndexFile.find(s => specsMatch(spec, s))) ||
-    newIndexFile.find(spec => !lastIndexFile.find(s => specsMatch(spec, s)));
+    newIndexFile.find(spec => !lastIndexFile.find(s => specsMatch(spec, s)))
+  );
 }
 
 

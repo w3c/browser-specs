@@ -67,9 +67,8 @@ async function releasePackage(prNumber) {
     console.log(`- Installation folder: ${installFolder}`);
 
     console.log("- Prepare package files");
-    execSync("npm ci", {
-      cwd: installFolder
-    });
+    execSync("npm ci", { cwd: installFolder });
+    execSync("node src/prepare-packages.js", { cwd: installFolder });
 
     console.log(`- Publish packages/${type} folder to npm`);
     const packageFolder = path.join(installFolder, "packages", type, "package.json");

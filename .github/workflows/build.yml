@@ -5,7 +5,10 @@ on:
     - cron: '10 */6 * * *'
   push:
     branches:
-    - main
+      - main
+    paths-ignore:
+      - 'packages/*/package.json'
+      - 'test/**'
   workflow_dispatch:
 
 jobs:

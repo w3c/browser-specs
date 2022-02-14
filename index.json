@@ -16629,6 +16629,7 @@
       "nightlyUrl": "https://w3c.github.io/aria/"
     },
     "seriesVersion": "1.2",
+    "title": "Accessible Rich Internet Applications (WAI-ARIA)",
     "organization": "W3C",
     "groups": [
       {
@@ -16646,9 +16647,8 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
     "source": "w3c",
-    "shortTitle": "WAI-ARIA 1.2",
+    "shortTitle": "WAI-ARIA",
     "categories": [
       "browser"
     ],

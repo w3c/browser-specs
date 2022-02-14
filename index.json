@@ -2736,37 +2736,6 @@
     ]
   },
   {
-    "url": "https://w3c.github.io/mediacapture-transform/",
-    "seriesComposition": "full",
-    "shortname": "mediacapture-transform",
-    "series": {
-      "shortname": "mediacapture-transform",
-      "currentSpecification": "mediacapture-transform",
-      "title": "MediaStreamTrack Insertable Media Processing using Streams",
-      "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
-      "nightlyUrl": "https://w3c.github.io/mediacapture-transform/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-transform/",
-      "repository": "https://github.com/w3c/mediacapture-transform",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "MediaStreamTrack Insertable Media Processing using Streams",
-    "source": "specref",
-    "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/web-locks/",
     "seriesComposition": "full",
     "shortname": "web-locks",
@@ -13954,6 +13923,42 @@
         "mediacapture-streams"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/mediacapture-transform/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-transform",
+    "series": {
+      "shortname": "mediacapture-transform",
+      "currentSpecification": "mediacapture-transform",
+      "title": "MediaStreamTrack Insertable Media Processing using Streams",
+      "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
+      "releaseUrl": "https://www.w3.org/TR/mediacapture-transform/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-transform/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/mediacapture-transform/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-transform/",
+      "repository": "https://github.com/w3c/mediacapture-transform",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "MediaStreamTrack Insertable Media Processing using Streams",
+    "source": "w3c",
+    "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/mediaqueries-4/",

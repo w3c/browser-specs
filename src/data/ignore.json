@@ -357,6 +357,9 @@
     },
     "https://w3c.github.io/xml-entities/": {
       "comment": "not directly meant for browsers environments (in practice imported via HTML LS)"
+    },
+    "https://www.w3.org/TR/RangeRequest/": {
+      "comment": "Integrated in Incremental Font Transfer (IFT) spec"
     }
   }
 }

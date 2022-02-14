@@ -27,8 +27,8 @@ describe("compute-shorttitle module", () => {
 
   it("finds abbreviation for WAI-ARIA title", () => {
     assertTitle(
-      "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
-      "WAI-ARIA 1.2");
+      "Accessible Rich Internet Applications",
+      "WAI-ARIA");
   });
 
   it("drops 'Level' from title but keeps level number", () => {

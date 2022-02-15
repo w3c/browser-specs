@@ -17,6 +17,7 @@ project.
   - [Compact form preferred](#compact-form-preferred)
   - [No `index.json` in the pull request](#no-indexjson-in-the-pull-request)
   - [Lint before push](#lint-before-push)
+  - [Check before push](#check-before-push)
 
 
 ## How to add/update/delete a spec
@@ -142,8 +143,8 @@ string format whenever possible.
 
 The `index.json` file will be automatically generated once your pull request has
 been merged. Please do not include it in your pull request. You may still wish
-to [re-generate the file](README.md#how-to-generate-indexjson-manually) if you
-want to check that the generated info will be correct, but please don't commit
+to re-generate the file (see the [Check before push](#check-before-push) section
+below) to check that the generated info will be correct, but please don't commit
 these changes.
 
 
@@ -166,3 +167,13 @@ npm run lint-fix
 
 **Note:** The linter cannot fix broken JSON and/or incorrect properties. Please
 fix these errors manually and run the linter again.
+
+
+### Check before push
+
+Before you push your changes and submit a pull request, you may also want to
+check that the changes will produce the right info. You may
+[re-generate the file](README.md#how-to-generate-indexjson-manually) but
+generation typically takes several minutes. To only generate the entries that
+match the specs that you changed in `specs.json`, you may use the
+[diff tool](README.md#build-a-diff-of-indexjson).

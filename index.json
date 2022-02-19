@@ -3050,6 +3050,37 @@
     }
   },
   {
+    "url": "https://websockets.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "websockets",
+    "series": {
+      "shortname": "websockets",
+      "currentSpecification": "websockets",
+      "title": "WebSockets Standard",
+      "shortTitle": "WebSockets",
+      "nightlyUrl": "https://websockets.spec.whatwg.org/"
+    },
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "HTML Workstream",
+        "url": "https://websockets.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://websockets.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/websockets",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebSockets Standard",
+    "source": "specref",
+    "shortTitle": "WebSockets",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://wicg.github.io/app-history/",
     "seriesComposition": "full",
     "shortname": "app-history",

@@ -52,7 +52,10 @@ cross-references, WebIDL, quality, etc.
 - [Spec selection criteria](#spec-selection-criteria)
 - [Development notes](#development-notes)
   - [How to generate `index.json` manually](#how-to-generate-indexjson-manually)
-  - [Debugging tool](#debugging-tool)
+  - [Debugging tools](#debugging-tools)
+    - [Lookup a spec in `index.json`](#lookup-a-spec-in-indexjson)
+    - [Build a restricted set of specs](#build-a-restricted-set-of-specs)
+    - [Build a diff of `index.json`](#build-a-diff-of-indexjson)
   - [Tests](#tests)
   - [How to release a new version](#how-to-release-a-new-version)
 
@@ -543,6 +546,11 @@ valid [W3C API key](https://w3c.github.io/w3c-api/) and a `GH_TOKEN` field
 set to a valid [GitHub Personal Token](https://github.com/settings/tokens)
 (default read permissions are enough).
 
+Generation takes several minutes. See
+[Build a restricted set of specs](#build-a-restricted-set-of-specs) and
+[Build a diff of `index.json`](#build-a-diff-of-indexjson) below for
+incremental tools.
+
 
 ### Tests
 
@@ -556,7 +564,9 @@ npm test test/compute-shortname
 Tests are run automatically on pull requests.
 
 
-### Debugging tool
+### Debugging tools
+
+#### Lookup a spec in `index.json`
 
 The `index.js` module can be used as a command-line interface (CLI) to quickly
 look at a given spec in the `index.json` file. The command outputs the spec or
@@ -576,6 +586,97 @@ node index.js https://w3c.github.io/presentation-api/
 
 **Note:** The `index.js` CLI is not part of released packages, which only
 contain the actual list of specifications.
+
+
+#### Build a restricted set of specs
+
+The `src/build-index.js` script can take as parameters:
+
+1. A JSON file to use as initial list of specs. Defaults to `specs.json`
+2. The name of the index file to create. Defaults to `index.json`
+
+For instance, supposing that you have a local `test.json` file that contains a
+subset of `specs.json`, you can generate the index file for that file through:
+
+```bash
+node src/build-index.js test.json test-index.json
+```
+
+
+#### Build a diff of `index.json`
+
+Before you commit make changes to `specs.json`, you may want to test that these
+changes will create the right information in `index.json`. Generating the whole
+`index.json` file takes several minutes. The `src/build-diff.js` allows you to
+only generate the index entries that match the changes made in `specs.json`.
+The tool takes three parameters:
+
+1. The name of the Git reference to use to retrieve the version of `specs.json`
+that you would like to test. This can be any Git reference, such as `HEAD`,
+`HEAD~1` or a commit ID. Additionally, this parameter can take the value
+`working` to target the uncommitted version of the `specs.json` file in your
+working folder. Defaults to `working`.
+2. The name of the Git reference to use as basis for the comparison. This can
+again be any Git reference such as `HEAD`, `HEAD~1` or a commit ID. This cannot
+be `working` though. Defaults to `HEAD`.
+3. The type of result that you would like to get. Value can either be `diff` to
+return a JSON object that lists generated entries under `added`, `updated` and
+`deleted` properties; or `full` to return the result of merging the changes in
+the base version of the `index.json` file. Defaults to `diff`.
+
+For instance, let's say that you made some changes to your local `specs.json`
+file, which you have not committed yet, the following command will return the
+entries that these changes would generate (parameters may be omitted since they
+match the default values):
+
+```bash
+node src/build-diff.json working HEAD diff
+```
+
+This could return something like (output truncated to better show the outline):
+
+```json
+{
+  "added": [
+    {
+      "url": "https://dom.spec.whatwg.org/",
+      "seriesComposition": "full",
+      "shortname": "dom",
+      "...": "..."
+    }
+  ],
+  "updated": [
+    {
+      "url": "https://compat.spec.whatwg.org/",
+      "seriesComposition": "full",
+      "shortname": "compat",
+      "...": "..."
+    }
+  ],
+  "deleted": [
+    {
+      "url": "https://console.spec.whatwg.org/",
+      "seriesComposition": "full",
+      "shortname": "console",
+      "...": "..."
+    }
+  ]
+}
+```
+
+If you rather wanted to update your local version of `index.json` so as to run a
+`git diff` command afterwards to spot differences more easily, you could run:
+
+```bash
+node src/build-diff.json working HEAD full > index.json
+git diff index.json
+```
+
+**Important:** The script only generates the new information for specs that
+have changed in `specs.json`. A full build of `index.json` could bring further
+updates to other entries if spec info has changed in the meantime. The script
+is only intended to be used for debugging to assess changes in the initial list
+of specs.
 
 
 ### How to release a new version

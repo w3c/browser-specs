@@ -338,6 +338,10 @@
       "comment": "Marked as not ready for implementation",
       "lastreviewed": "2022-01-01"
     },
+    "https://drafts.csswg.org/css-easing-2/": {
+      "comment": "No change to level 1 yet",
+      "lastreviewed": "2022-02-23"
+    },
     "https://svgwg.org/specs/markers/": {
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
       "lastreviewed": "2022-01-01"

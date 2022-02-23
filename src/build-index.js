@@ -267,7 +267,7 @@ async function generateIndexFile(specsFile, targetFile) {
   const specs = require(path.resolve(specsFile));
   const index = await generateIndex(specs, { previousIndex });
   console.log(`Write ${targetFile}...`);
-  await fs.writeFile(indexFile, JSON.stringify(index, null, 2));
+  await fs.writeFile(targetFile, JSON.stringify(index, null, 2));
   console.log(`Write ${targetFile}... done`);
 }
 

@@ -28,6 +28,10 @@ function shortenDefinition(spec) {
     return `${spec.url} delta`;
   }
   else if (Object.keys(short).length === 2 &&
+      spec.seriesComposition === "fork") {
+    return `${spec.url} fork`;
+  }
+  else if (Object.keys(short).length === 2 &&
       spec.forceCurrent) {
     return `${spec.url} current`;
   }
@@ -53,7 +57,8 @@ function lintStr(specsStr) {
     .map(spec => (typeof spec === "string") ?
       {
         url: new URL(spec.split(" ")[0]).toString(),
-        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
+        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" :
+          (spec.split(' ')[1] === "fork") ? "fork" : "full",
         forceCurrent: (spec.split(' ')[1] === "current"),
         multipage: (spec.split(' ')[1] === "multipage"),
       } :
@@ -74,7 +79,8 @@ function lintStr(specsStr) {
       const next = linked.seriesNext ?
         linkedList.find(p => p.shortname === linked.seriesNext) :
         null;
-      const isLast = !next || next.seriesComposition === "delta";
+      const isLast = !next || next.seriesComposition === "delta" ||
+        next.seriesComposition === "fork";
       if (spec.forceCurrent && isLast) {
         spec.forceCurrent = false;
       }

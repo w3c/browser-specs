@@ -49,11 +49,27 @@ describe("compute-currentlevel module", () => {
       spec.shortname);
   });
 
+  it("returns the name of the latest level that is not a fork spec", () => {
+    const spec = getSpec({ seriesVersion: "1" });
+    const fork = getSpec({ seriesVersion: "2", seriesComposition: "fork" });
+    assert.equal(
+      getCurrentName(spec, [spec, fork]),
+      spec.shortname);
+  });
+
   it("gets back to the latest level when spec is a delta spec", () => {
     const spec = getSpec({ seriesVersion: "1" });
     const delta = getSpec({ seriesVersion: "2", seriesComposition: "delta" });
     assert.equal(
       getCurrentName(delta, [spec, delta]),
+      spec.shortname);
+  });
+
+  it("gets back to the latest level when spec is a fork spec", () => {
+    const spec = getSpec({ seriesVersion: "1" });
+    const fork = getSpec({ seriesVersion: "2", seriesComposition: "fork" });
+    assert.equal(
+      getCurrentName(fork, [spec, fork]),
       spec.shortname);
   });
 

@@ -64,13 +64,16 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
   log("Prepare initial list of specs...");
   specs = specs
     // Turn all specs into objects
-    // (and handle syntactic sugar notation for delta/current flags)
+    // (and handle syntactic sugar notation for delta/current/fork flags)
     .map(spec => {
       if (typeof spec === "string") {
         const parts = spec.split(" ");
         const res = { url: parts[0] };
         if (parts[1] === "delta") {
           res.seriesComposition = "delta";
+        }
+        else if (parts[1] === "fork") {
+          res.seriesComposition = "fork";
         }
         else if (parts[1] === "current") {
           res.forceCurrent = true;

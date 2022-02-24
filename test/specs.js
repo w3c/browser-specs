@@ -81,7 +81,8 @@ function specs2objects(specs) {
     .map(spec => (typeof spec === "string") ?
       {
         url: new URL(spec.split(" ")[0]).toString(),
-        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
+        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" :
+          (spec.split(' ')[1] === "fork") ? "fork" : "full",
         forceCurrent: (spec.split(' ')[1] === "current"),
         multipage: (spec.split(' ')[1] === "multipage"),
       } :
@@ -172,7 +173,7 @@ describe("Input list", () => {
     it("does not have a delta spec without a previous full spec", () => {
       const fullPrevious = (spec, list) => {
         const previous = list.find(s => s.shortname === spec.seriesPrevious);
-        if (previous && previous.seriesComposition === "delta") {
+        if (previous && previous.seriesComposition && previous.seriesComposition !== "full") {
           return fullPrevious(previous, list);
         }
         return previous;
@@ -182,10 +183,29 @@ describe("Input list", () => {
       assert.strictEqual(deltaWithoutFull[0], undefined);
     });
 
+    it("does not have a fork spec without a previous full spec", () => {
+      const fullPrevious = (spec, list) => {
+        const previous = list.find(s => s.shortname === spec.seriesPrevious);
+        if (previous && previous.seriesComposition !== "full") {
+          return fullPrevious(previous, list);
+        }
+        return previous;
+      };
+      const forkWithoutFull = specs2LinkedList(specs)
+        .filter((s, _, list) => s.seriesComposition === "fork" && !fullPrevious(s, list));
+      assert.strictEqual(forkWithoutFull[0], undefined);
+    });
+
     it("does not have a delta spec flagged as 'current'", () => {
       const deltaCurrent = specs2LinkedList(specs)
         .filter(s => s.forceCurrent && s.seriesComposition === "delta");
       assert.strictEqual(deltaCurrent[0], undefined);
+    });
+
+    it("does not have a fork spec flagged as 'current'", () => {
+      const forkCurrent = specs2LinkedList(specs)
+        .filter(s => s.forceCurrent && s.seriesComposition === "fork");
+      assert.strictEqual(forkCurrent[0], undefined);
     });
 
     it("has only one spec flagged as 'current' per series shortname", () => {

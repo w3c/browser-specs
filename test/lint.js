@@ -28,6 +28,14 @@ describe("Linter", () => {
       assert.equal(lintStr(toStr(specs)), null);
     });
 
+    it("passes if specs contains a URL with a fork spec", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/",
+        "https://www.w3.org/TR/spec-2/ fork"
+      ];
+      assert.equal(lintStr(toStr(specs)), null);
+    });
+
     it("passes if specs contains a URL with a spec flagged as current", () => {
       const specs = [
         "https://www.w3.org/TR/spec-1/ current",
@@ -122,6 +130,17 @@ describe("Linter", () => {
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec-1/",
         "https://www.w3.org/TR/spec-2/ delta",
+      ]));
+    });
+
+    it("lints an object with a useless current flag (fork version)", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/ current",
+        "https://www.w3.org/TR/spec-2/ fork"
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec-1/",
+        "https://www.w3.org/TR/spec-2/ fork",
       ]));
     });
 

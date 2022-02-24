@@ -7,7 +7,7 @@
     "oneOf": [
       {
         "type": "string",
-        "pattern": "^https://[^\\s]+(\\s(delta|current|multipage))?$"
+        "pattern": "^https://[^\\s]+(\\s(delta|fork|current|multipage))?$"
       },
       {
         "type": "object",

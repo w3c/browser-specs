@@ -56,6 +56,12 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("has previous links for all fork specs", () => {
+    const wrong = specs.filter(s =>
+      s.seriesComposition === "fork" && !s.seriesPrevious);
+    assert.deepStrictEqual(wrong, []);
+  });
+
   it("has previous links that can be resolved to a spec", () => {
     const wrong = specs.filter(s =>
       s.seriesPrevious && !specs.find(p => p.shortname === s.seriesPrevious));

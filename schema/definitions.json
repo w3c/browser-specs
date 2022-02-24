@@ -47,7 +47,7 @@
 
     "seriesComposition": {
       "type": "string",
-      "enum": ["full", "delta"]
+      "enum": ["full", "delta", "fork"]
     },
 
     "forceCurrent": {

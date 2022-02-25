@@ -171,5 +171,16 @@ describe("Linter", () => {
         lintStr(toStr(specs)),
         toStr(["https://www.w3.org/TR/duplicate/"]));
     });
+
+    it("lints an object with a forkOf and a seriesComposition property", () => {
+      const specs = [
+        "https://www.w3.org/TR/spec-1/",
+        { "url": "https://www.w3.org/TR/spec-2/", seriesComposition: "fork", forkOf: "spec-1" }
+      ];
+      assert.equal(lintStr(toStr(specs)), toStr([
+        "https://www.w3.org/TR/spec-1/",
+        { "url": "https://www.w3.org/TR/spec-2/", forkOf: "spec-1" }
+      ]));
+    });
   });
 });

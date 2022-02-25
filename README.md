@@ -152,6 +152,13 @@ For WHATWG specs, this is the shortname that appears at the beginning of the URL
 (e.g. `compat` for `https://compat.spec.whatwg.org/`). For specs developed on
 GitHub, this is usually the name of repository that holds the spec.
 
+When the spec is a fork (see [`forkOf`](#forkof)) of a base spec, its shortname
+will start with the shortname of the base spec completed by `-fork-` and the
+actual shortname of the fork spec. For instance, given an exception handling
+fork of the WebAssembly spec for which the raw shortname would be
+`exception-handling`, the actual spec shortname will be
+`wasm-js-api-1-fork-exception-handling`.
+
 The `shortname` property is always set.
 
 
@@ -287,8 +294,9 @@ number.
 
 ### `seriesComposition`
 
-Whether the spec is a standalone spec, or whether it is a delta spec over the
-previous level or version in the series. Possible values are `full` or `delta`.
+Whether the spec is a standalone spec, whether it is a delta spec over the
+previous level or version in the series, or whether it is a temporary fork of
+another spec. Possible values are `full`, `delta`, or `fork`.
 
 The `seriesComposition` property is always set.
 

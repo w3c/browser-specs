@@ -203,6 +203,16 @@ describe("Input list", () => {
       assert.strictEqual(problematicCurrent[0], undefined);
     });
 
+    it("does not have a spec with a 'fork' seriesComposition property", () => {
+      const wrong = specs.find(s => s.seriesComposition === "fork");
+      assert.strictEqual(wrong, undefined);
+    });
+
+    it("does not have a 'delta fork' spec", () => {
+      const wrong = specs.find(s => s.forkOf && s.seriesComposition === "delta");
+      assert.strictEqual(wrong, undefined);
+    });
+
     it("only has fork specs that reference existing specs", () => {
       const linkedList = specs2LinkedList(specs);
       const forkWithoutFull = linkedList.filter((s, _, list) => s.forkOf &&

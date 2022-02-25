@@ -15,6 +15,7 @@ function shortenDefinition(spec) {
   const short = {};
   for (const property of Object.keys(spec)) {
     if (!((property === "seriesComposition" && spec[property] === "full") ||
+        (property === "seriesComposition" && spec[property] === "fork") ||
         (property === "multipage" && !spec[property]) ||
         (property === "forceCurrent" && !spec[property]))) {
       short[property] = spec[property];
@@ -26,10 +27,6 @@ function shortenDefinition(spec) {
   else if (Object.keys(short).length === 2 &&
       spec.seriesComposition === "delta") {
     return `${spec.url} delta`;
-  }
-  else if (Object.keys(short).length === 2 &&
-      spec.seriesComposition === "fork") {
-    return `${spec.url} fork`;
   }
   else if (Object.keys(short).length === 2 &&
       spec.forceCurrent) {
@@ -57,8 +54,7 @@ function lintStr(specsStr) {
     .map(spec => (typeof spec === "string") ?
       {
         url: new URL(spec.split(" ")[0]).toString(),
-        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" :
-          (spec.split(' ')[1] === "fork") ? "fork" : "full",
+        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
         forceCurrent: (spec.split(' ')[1] === "current"),
         multipage: (spec.split(' ')[1] === "multipage"),
       } :

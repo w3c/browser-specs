@@ -168,6 +168,11 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("has a fork composition level for all fork specs", () => {
+    const wrong = specs.filter(s => s.forkOf && s.seriesComposition !== "fork");
+    assert.deepStrictEqual(wrong, []);
+  });
+
   it("only has forks of existing specs", () => {
     const wrong = specs.filter(s => s.forkOf && !specs.find(spec => spec.shortname === s.forkOf));
     assert.deepStrictEqual(wrong, []);

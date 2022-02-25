@@ -120,7 +120,10 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
 
     // Complete information with forks
     .map((spec, _, list) => {
-      const forks = list.filter(s => s.series.shortname === spec.series.shortname && s.seriesComposition === "fork")
+      const forks = list.filter(s =>
+          s.series.shortname === spec.series.shortname &&
+          s.seriesComposition === "fork" &&
+          s.forkOf === spec.shortname)
         .map(s => s.shortname);
       if (forks.length > 0) {
         spec.forks = forks;

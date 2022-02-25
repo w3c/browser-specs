@@ -22,7 +22,7 @@ module.exports = function (spec, list) {
   const level = spec.seriesVersion || "0";
 
   return list
-    .filter(s => s.series.shortname === spec.series.shortname)
+    .filter(s => s.series.shortname === spec.series.shortname && s.seriesComposition !== "fork")
     .sort((a, b) => (a.seriesVersion || "0").localeCompare(b.seriesVersion || "0"))
     .reduce((res, s) => {
       if ((s.seriesVersion || "0") < level) {

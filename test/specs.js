@@ -81,8 +81,7 @@ function specs2objects(specs) {
     .map(spec => (typeof spec === "string") ?
       {
         url: new URL(spec.split(" ")[0]).toString(),
-        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" :
-          (spec.split(' ')[1] === "fork") ? "fork" : "full",
+        seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
         forceCurrent: (spec.split(' ')[1] === "current"),
         multipage: (spec.split(' ')[1] === "multipage"),
       } :
@@ -93,7 +92,7 @@ function specs2objects(specs) {
 
 function specs2LinkedList(specs) {
   return specs2objects(specs)
-    .map(s => Object.assign({}, s, computeInfo(s.shortname || s.url)))
+    .map(s => Object.assign({}, s, computeInfo(s.shortname || s.url, s.forkOf)))
     .map((s, _, list) => Object.assign({}, s, computePrevNext(s, list)));
 }
 
@@ -160,7 +159,7 @@ describe("Input list", () => {
     it("only contains specs for which a shortname can be generated", () => {
       // Convert entries to spec objects and compute shortname
       const specsWithoutShortname = specs2objects(specs)
-        .map(spec => Object.assign({}, spec, computeInfo(spec.shortname || spec.url)))
+        .map(spec => Object.assign({}, spec, computeInfo(spec.shortname || spec.url, spec.forkOf)))
         .filter(spec => !spec.shortname);
 
       // No exception thrown? That means we're good!
@@ -183,19 +182,6 @@ describe("Input list", () => {
       assert.strictEqual(deltaWithoutFull[0], undefined);
     });
 
-    it("does not have a fork spec without a previous full spec", () => {
-      const fullPrevious = (spec, list) => {
-        const previous = list.find(s => s.shortname === spec.seriesPrevious);
-        if (previous && previous.seriesComposition !== "full") {
-          return fullPrevious(previous, list);
-        }
-        return previous;
-      };
-      const forkWithoutFull = specs2LinkedList(specs)
-        .filter((s, _, list) => s.seriesComposition === "fork" && !fullPrevious(s, list));
-      assert.strictEqual(forkWithoutFull[0], undefined);
-    });
-
     it("does not have a delta spec flagged as 'current'", () => {
       const deltaCurrent = specs2LinkedList(specs)
         .filter(s => s.forceCurrent && s.seriesComposition === "delta");
@@ -204,7 +190,7 @@ describe("Input list", () => {
 
     it("does not have a fork spec flagged as 'current'", () => {
       const forkCurrent = specs2LinkedList(specs)
-        .filter(s => s.forceCurrent && s.seriesComposition === "fork");
+        .filter(s => s.forceCurrent && s.forkOf);
       assert.strictEqual(forkCurrent[0], undefined);
     });
 
@@ -215,6 +201,13 @@ describe("Input list", () => {
         .filter(s => s !== linkedList.find(p =>
           p.series.shortname === s.series.shortname && p.forceCurrent));
       assert.strictEqual(problematicCurrent[0], undefined);
+    });
+
+    it("only has fork specs that reference existing specs", () => {
+      const linkedList = specs2LinkedList(specs);
+      const forkWithoutFull = linkedList.filter((s, _, list) => s.forkOf &&
+        !linkedList.find(spec => spec.shortname === s.forkOf));
+      assert.strictEqual(forkWithoutFull[0], undefined);
     });
   });
 });

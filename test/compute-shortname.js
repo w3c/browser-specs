@@ -105,6 +105,11 @@ describe("compute-shortname module", () => {
         () => computeInfo("https://w3c.github.io/spec4.2/"),
         /^Specification name contains unexpected characters/);
     });
+
+    it("handles forks", () => {
+      const url = "https://www.w3.org/TR/extension/";
+      assert.equal(computeInfo(url, "source-2").shortname, "source-2-fork-extension");
+    });
   });
 
 
@@ -151,6 +156,11 @@ describe("compute-shortname module", () => {
 
     it("preserves digits at the end of WebGL extension names", () => {
       assertSeries("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/", "EXT_wow32");
+    });
+
+    it("handles forks", () => {
+      const url = "https://www.w3.org/TR/the-ext/";
+      assert.equal(computeInfo(url, "source-2").series.shortname, "source");
     });
   });
 
@@ -202,6 +212,11 @@ describe("compute-shortname module", () => {
 
     it("does not confuse digits at the end of a WebGL extension spec with a series version", () => {
       assertNoSeriesVersion("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/");
+    });
+
+    it("handles forks", () => {
+      const url = "https://www.w3.org/TR/the-ext/";
+      assert.equal(computeInfo(url, "source-2").seriesVersion, "2");
     });
   });
 });

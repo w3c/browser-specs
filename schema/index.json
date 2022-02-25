@@ -8,6 +8,8 @@
     "properties": {
       "url": { "$ref": "definitions.json#/$defs/url" },
       "shortname": { "$ref": "definitions.json#/$defs/shortname" },
+      "forkOf": { "$ref": "definitions.json#/$defs/shortname" },
+      "forks": { "$ref": "definitions.json#/$defs/forks" },
       "series": { "$ref": "definitions.json#/$defs/series" },
       "seriesVersion": { "$ref": "definitions.json#/$defs/seriesVersion" },
       "seriesComposition": { "$ref": "definitions.json#/$defs/seriesComposition" },

@@ -8,7 +8,7 @@ describe("compute-currentlevel module", () => {
   function getSpec(options) {
     options = options || {};
     const res = {
-      shortname: (options.seriesVersion ? `spec-${options.seriesVersion}` : "spec"),
+      shortname: options.shortname ?? (options.seriesVersion ? `spec-${options.seriesVersion}` : "spec"),
       series: { shortname: "spec" },
     };
     for (const property of Object.keys(options)) {
@@ -96,5 +96,13 @@ describe("compute-currentlevel module", () => {
     assert.equal(
       getCurrentName(spec, [spec, other]),
       spec.shortname);
+  });
+
+  it("does not take forks into account", () => {
+    const spec = getSpec({ shortname: "spec-1-fork-1", seriesVersion: "1", seriesComposition: "fork" });
+    const base = getSpec({ seriesVersion: "1" });
+    assert.equal(
+      getCurrentName(spec, [spec, base]),
+      base.shortname);
   });
 });

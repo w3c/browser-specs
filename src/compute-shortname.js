@@ -128,7 +128,7 @@ function computeShortname(url) {
 /**
  * Compute the shortname and level from the spec name, if possible.
  */
-function completeWithSeriesAndLevel(shortname, url) {
+function completeWithSeriesAndLevel(shortname, url, forkOf) {
   // Use latest convention for CSS specs
   function modernizeShortname(name) {
     if (name.startsWith("css3-")) {
@@ -142,22 +142,25 @@ function completeWithSeriesAndLevel(shortname, url) {
     }
   }
 
+  const seriesBasename = forkOf ?? shortname;
+  const specShortname = forkOf ? `${forkOf}-fork-${shortname}` : shortname;
+
   // Shortnames of WebGL extensions sometimes end up with digits which are *not*
   // to be interpreted as level numbers. Similarly, shortnames of ECMA specs
   // typically have the form "ecma-ddd", and "ddd" is *not* a level number.
-  if (shortname.match(/^ecma-/) || url.match(/^https:\/\/www\.khronos\.org\/registry\/webgl\/extensions\//)) {
+  if (seriesBasename.match(/^ecma-/) || url.match(/^https:\/\/www\.khronos\.org\/registry\/webgl\/extensions\//)) {
     return {
-      shortname,
-      series: { shortname }
+      shortname: specShortname,
+      series: { shortname: seriesBasename }
     };
   }
 
   // Extract X and X.Y levels, with form "name-X" or "name-X.Y".
   // (e.g. 5 for "mediaqueries-5", 1.2 for "wai-aria-1.2")
-  let match = shortname.match(/^(.*?)-(\d+)(.\d+)?$/);
+  let match = seriesBasename.match(/^(.*?)-(\d+)(.\d+)?$/);
   if (match) {
     return {
-      shortname,
+      shortname: specShortname,
       series: { shortname: modernizeShortname(match[1]) },
       seriesVersion: match[3] ? match[2] + match[3] : match[2]
     };
@@ -165,10 +168,10 @@ function completeWithSeriesAndLevel(shortname, url) {
 
   // Extract X and X.Y levels with form "nameX" or "nameXY" (but not "nameXXY")
   // (e.g. 2.1 for "CSS21", 1.1 for "SVG11", 4 for "selectors4")
-  match = shortname.match(/^(.*?)(?<!\d)(\d)(\d?)$/);
+  match = seriesBasename.match(/^(.*?)(?<!\d)(\d)(\d?)$/);
   if (match) {
     return {
-      shortname,
+      shortname: specShortname,
       series: { shortname: modernizeShortname(match[1]) },
       seriesVersion: match[3] ? match[2] + "." + match[3] : match[2]
     };
@@ -176,8 +179,8 @@ function completeWithSeriesAndLevel(shortname, url) {
 
   // No level found
   return {
-    shortname,
-    series: { shortname: modernizeShortname(shortname) }
+    shortname: specShortname,
+    series: { shortname: modernizeShortname(seriesBasename) }
   };
 }
 
@@ -186,9 +189,9 @@ function completeWithSeriesAndLevel(shortname, url) {
  * Exports main function that takes a URL (or a spec name) and returns an
  * object with a name, a shortname and a level (if needed).
  */
-module.exports = function (url) {
+module.exports = function (url, forkOf) {
   if (!url) {
     throw "No URL passed as parameter";
   }
-  return completeWithSeriesAndLevel(computeShortname(url), url);
+  return completeWithSeriesAndLevel(computeShortname(url), url, forkOf);
 }

@@ -64,16 +64,13 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
   log("Prepare initial list of specs...");
   specs = specs
     // Turn all specs into objects
-    // (and handle syntactic sugar notation for delta/current/fork flags)
+    // (and handle syntactic sugar notation for delta/current flags)
     .map(spec => {
       if (typeof spec === "string") {
         const parts = spec.split(" ");
         const res = { url: parts[0] };
         if (parts[1] === "delta") {
           res.seriesComposition = "delta";
-        }
-        else if (parts[1] === "fork") {
-          res.seriesComposition = "fork";
         }
         else if (parts[1] === "current") {
           res.forceCurrent = true;
@@ -96,9 +93,11 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
       delete spec.series;
 
       // Complete information
+      const seriesComposition = spec.seriesComposition ??
+        (spec.forkOf ? "fork" : "full");
       const res = Object.assign(
-        { url: spec.url, seriesComposition: spec.seriesComposition || "full" },
-        computeShortname(spec.shortname || spec.url),
+        { url: spec.url, seriesComposition },
+        computeShortname(spec.shortname ?? spec.url, spec.forkOf),
         spec);
 
       // Restore series info explicitly set in initial spec object
@@ -117,7 +116,17 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
     .map(spec => { delete spec.forceCurrent; return spec; })
 
     // Complete information with previous/next level links
-    .map((spec, _, list) => Object.assign(spec, computePrevNext(spec, list)));
+    .map((spec, _, list) => Object.assign(spec, computePrevNext(spec, list)))
+
+    // Complete information with forks
+    .map((spec, _, list) => {
+      const forks = list.filter(s => s.series.shortname === spec.series.shortname && s.seriesComposition === "fork")
+        .map(s => s.shortname);
+      if (forks.length > 0) {
+        spec.forks = forks;
+      }
+      return spec;
+    });
   log(`Prepare initial list of specs... found ${specs.length} specs`);
 
   // Fetch additional spec info from external sources and complete the list

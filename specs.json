@@ -183,8 +183,7 @@
   "https://w3c.github.io/webrtc-ice/",
   {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
-    "shortname": "wasm-js-api-1",
-    "seriesComposition": "fork"
+    "forkOf": "wasm-js-api-1"
   },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://webidl.spec.whatwg.org/",

@@ -30,6 +30,8 @@ cross-references, WebIDL, quality, etc.
   - [`seriesComposition`](#seriescomposition)
   - [`seriesPrevious`](#seriesprevious)
   - [`seriesNext`](#seriesnext)
+  - [`forkOf`](#forkof)
+  - [`forks`](#forks)
   - [`organization`](#organization)
   - [`groups`](#groups)
   - [`release`](#release)
@@ -304,6 +306,28 @@ version.
 The `shortname` of the next spec in the series.
 
 The `seriesNext` property is only set where there is a next level or version.
+
+
+### `forkOf`
+
+The shortname of the spec that this spec is a fork of.
+
+The `forkOf` property is only set when the spec is a fork of another one. The
+[`seriesComposition`](#seriescomposition) property is always `"fork"` when the
+`forkOf` property is set.
+
+A forked specs is supposed to be temporary by nature. It will be removed from
+the list as soon as it gets merged into the main spec, or as soon as it gets
+abandoned.
+
+
+### `forks`
+
+An array that lists shortnames of known forks of the spec in the list.
+
+The `forks` property is only set when there exists at least one fork of the
+spec in the list, meaning when there is an entry in the list that has a
+[`forkOf`](#forkof) property set to the spec's shortname.
 
 
 ### `organization`

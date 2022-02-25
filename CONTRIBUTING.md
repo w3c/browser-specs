@@ -55,6 +55,9 @@ properties:
 - `url`: same as the [`url`](README.md#url) property in `index.json`.
 - `shortname`: same as the [`shortname`](README.md#shortname) property in
 `index.json`.
+- `forkOf`: same as the [`forkOf`](README.md#forkof) property in `index.json`.
+No need to set `seriesComposition` to `"fork"` when this property is set, the
+build logic will take care of that automatically.
 - `series`: same as the [`series`](README.md#series) property in `index.json`,
 but note the `currentSpecification` property will be ignored.
 - `seriesVersion`: same as the [`seriesVersion`](README.md#seriesversion)

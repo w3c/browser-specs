@@ -56,12 +56,6 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("has previous links for all fork specs", () => {
-    const wrong = specs.filter(s =>
-      s.seriesComposition === "fork" && !s.seriesPrevious);
-    assert.deepStrictEqual(wrong, []);
-  });
-
   it("has previous links that can be resolved to a spec", () => {
     const wrong = specs.filter(s =>
       s.seriesPrevious && !specs.find(p => p.shortname === s.seriesPrevious));
@@ -93,6 +87,18 @@ describe("List of specs", () => {
       const next = specs.find(n => n.shortname === s.seriesNext);
       return !next || next.seriesPrevious !== s.shortname;
     });
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("does not have previous links for fork specs", () => {
+    const wrong = specs.filter(s =>
+      s.seriesComposition === "fork" && s.seriesPrevious);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("does not have next links for fork specs", () => {
+    const wrong = specs.filter(s =>
+      s.seriesComposition === "fork" && s.seriesNext);
     assert.deepStrictEqual(wrong, []);
   });
 
@@ -154,6 +160,25 @@ describe("List of specs", () => {
 
   it("contains filenames for all release URLs", () => {
     const wrong = specs.filter(s => s.release && !s.release.filename);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has a forkOf property for all fork specs", () => {
+    const wrong = specs.filter(s => s.seriesComposition === "fork" && !s.forkOf);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("only has forks of existing specs", () => {
+    const wrong = specs.filter(s => s.forkOf && !specs.find(spec => spec.shortname === s.forkOf));
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has consistent forks properties", () => {
+    const wrong = specs.filter(s => !!s.forks &&
+      s.forks.find(shortname => !specs.find(spec =>
+        spec.shortname === shortname &&
+        spec.seriesComposition === "fork" &&
+        spec.forkOf === s.shortname)));
     assert.deepStrictEqual(wrong, []);
   });
 });

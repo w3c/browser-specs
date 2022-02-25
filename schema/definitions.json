@@ -151,6 +151,11 @@
           "minItems": 1
         }
       ]
+    },
+
+    "forks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/shortname" }
     }
   }
 }

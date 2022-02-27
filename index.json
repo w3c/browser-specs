@@ -14163,6 +14163,108 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/miniapp-lifecycle/",
+    "seriesComposition": "full",
+    "shortname": "miniapp-lifecycle",
+    "series": {
+      "shortname": "miniapp-lifecycle",
+      "currentSpecification": "miniapp-lifecycle",
+      "title": "MiniApp Lifecycle",
+      "shortTitle": "MiniApp Lifecycle",
+      "releaseUrl": "https://www.w3.org/TR/miniapp-lifecycle/",
+      "nightlyUrl": "https://w3c.github.io/miniapp-lifecycle/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "MiniApps Working Group",
+        "url": "https://www.w3.org/2021/miniapps/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/miniapp-lifecycle/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/miniapp-lifecycle/",
+      "repository": "https://github.com/w3c/miniapp-lifecycle",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "MiniApp Lifecycle",
+    "source": "w3c",
+    "shortTitle": "MiniApp Lifecycle"
+  },
+  {
+    "url": "https://www.w3.org/TR/miniapp-manifest/",
+    "seriesComposition": "full",
+    "shortname": "miniapp-manifest",
+    "series": {
+      "shortname": "miniapp-manifest",
+      "currentSpecification": "miniapp-manifest",
+      "title": "MiniApp Manifest",
+      "shortTitle": "MiniApp Manifest",
+      "releaseUrl": "https://www.w3.org/TR/miniapp-manifest/",
+      "nightlyUrl": "https://w3c.github.io/miniapp-manifest/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "MiniApps Working Group",
+        "url": "https://www.w3.org/2021/miniapps/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/miniapp-manifest/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/miniapp-manifest/",
+      "repository": "https://github.com/w3c/miniapp-manifest",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "MiniApp Manifest",
+    "source": "w3c",
+    "shortTitle": "MiniApp Manifest"
+  },
+  {
+    "url": "https://www.w3.org/TR/miniapp-packaging/",
+    "seriesComposition": "full",
+    "shortname": "miniapp-packaging",
+    "series": {
+      "shortname": "miniapp-packaging",
+      "currentSpecification": "miniapp-packaging",
+      "title": "MiniApp Packaging",
+      "shortTitle": "MiniApp Packaging",
+      "releaseUrl": "https://www.w3.org/TR/miniapp-packaging/",
+      "nightlyUrl": "https://w3c.github.io/miniapp-packaging/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "MiniApps Working Group",
+        "url": "https://www.w3.org/2021/miniapps/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/miniapp-packaging/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/miniapp-packaging/",
+      "repository": "https://github.com/w3c/miniapp-packaging",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "MiniApp Packaging",
+    "source": "w3c",
+    "shortTitle": "MiniApp Packaging"
+  },
+  {
     "url": "https://www.w3.org/TR/mixed-content/",
     "seriesComposition": "full",
     "shortname": "mixed-content",

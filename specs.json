@@ -677,6 +677,24 @@
       "sourcePath": "MediaRecorder.bs"
     }
   },
+  {
+    "url": "https://www.w3.org/TR/miniapp-lifecycle/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/miniapp-manifest/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/miniapp-packaging/",
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/mixed-content/",
   "https://www.w3.org/TR/motion-1/",
   "https://www.w3.org/TR/mst-content-hint/",

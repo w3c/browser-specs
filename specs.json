@@ -181,6 +181,10 @@
   "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
   "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
+  {
+    "url": "https://webassembly.github.io/exception-handling/js-api/",
+    "forkOf": "wasm-js-api-1"
+  },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://webidl.spec.whatwg.org/",
   "https://websockets.spec.whatwg.org/",

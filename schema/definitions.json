@@ -47,7 +47,7 @@
 
     "seriesComposition": {
       "type": "string",
-      "enum": ["full", "delta"]
+      "enum": ["full", "delta", "fork"]
     },
 
     "forceCurrent": {
@@ -151,6 +151,11 @@
           "minItems": 1
         }
       ]
+    },
+
+    "forks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/shortname" }
     }
   }
 }

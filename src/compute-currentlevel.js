@@ -9,7 +9,7 @@
  * (if needed) properties.
  *
  * By default, the current level is defined as the last level that is not a
- * delta spec, unless a level is explicitly flagged with a "forceCurrent"
+ * delta/fork spec, unless a level is explicitly flagged with a "forceCurrent"
  * property in the list of specs.
  */
 
@@ -27,9 +27,12 @@ module.exports = function (spec, list) {
 
   const current = list.reduce((candidate, curr) => {
     if (curr.series.shortname === candidate.series.shortname &&
-      !candidate.forceCurrent &&
-      curr.seriesComposition !== "delta" &&
-        (curr.forceCurrent || candidate.seriesComposition === "delta" ||
+        !candidate.forceCurrent &&
+        curr.seriesComposition !== "fork" &&
+        curr.seriesComposition !== "delta" &&
+        (curr.forceCurrent ||
+          candidate.seriesComposition === "delta" ||
+          candidate.seriesComposition === "fork" ||
           (curr.seriesVersion || "0") > (candidate.seriesVersion || "0"))) {
       return curr;
     }

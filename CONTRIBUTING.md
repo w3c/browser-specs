@@ -54,14 +54,20 @@ properties:
 
 - `url`: same as the [`url`](README.md#url) property in `index.json`.
 - `shortname`: same as the [`shortname`](README.md#shortname) property in
-`index.json`.
+`index.json`. When the `forkOf` property is also set, note that the actual
+shortname in the final list will be prefixed by the shortname of the base
+spec (as in: `${forkOf}-fork-${shortname}`).
+- `forkOf`: same as the [`forkOf`](README.md#forkof) property in `index.json`.
+No need to set `seriesComposition` to `"fork"` when this property is set, the
+build logic will take care of that automatically.
 - `series`: same as the [`series`](README.md#series) property in `index.json`,
 but note the `currentSpecification` property will be ignored.
 - `seriesVersion`: same as the [`seriesVersion`](README.md#seriesversion)
 property in `index.json`.
 - `seriesComposition`: same as the [`seriesComposition`](README.md#seriesComposition)
-property in `index.json`. The property must only be set for delta spec (since
-full is the default).
+property in `index.json`. The property must only be set for delta spec, since
+full is the default and fork specs are identified through the `forkOf` property
+in `specs.json`.
 - `organization`: same as the [`organization`](README.md#organization) property
 in `index.json` to specify the name of the organization that owns the spec.
 - `groups`: same as the [`groups`](README.md#groups) property in `index.json`

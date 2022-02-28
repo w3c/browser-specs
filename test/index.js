@@ -90,6 +90,18 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("does not have previous links for fork specs", () => {
+    const wrong = specs.filter(s =>
+      s.seriesComposition === "fork" && s.seriesPrevious);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("does not have next links for fork specs", () => {
+    const wrong = specs.filter(s =>
+      s.seriesComposition === "fork" && s.seriesNext);
+    assert.deepStrictEqual(wrong, []);
+  });
+
   it("has consistent series info", () => {
     const wrong = specs.filter(s => {
       if (!s.seriesPrevious) {
@@ -148,6 +160,30 @@ describe("List of specs", () => {
 
   it("contains filenames for all release URLs", () => {
     const wrong = specs.filter(s => s.release && !s.release.filename);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has a forkOf property for all fork specs", () => {
+    const wrong = specs.filter(s => s.seriesComposition === "fork" && !s.forkOf);
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has a fork composition level for all fork specs", () => {
+    const wrong = specs.filter(s => s.forkOf && s.seriesComposition !== "fork");
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("only has forks of existing specs", () => {
+    const wrong = specs.filter(s => s.forkOf && !specs.find(spec => spec.shortname === s.forkOf));
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has consistent forks properties", () => {
+    const wrong = specs.filter(s => !!s.forks &&
+      s.forks.find(shortname => !specs.find(spec =>
+        spec.shortname === shortname &&
+        spec.seriesComposition === "fork" &&
+        spec.forkOf === s.shortname)));
     assert.deepStrictEqual(wrong, []);
   });
 });

@@ -15,6 +15,7 @@ function shortenDefinition(spec) {
   const short = {};
   for (const property of Object.keys(spec)) {
     if (!((property === "seriesComposition" && spec[property] === "full") ||
+        (property === "seriesComposition" && spec[property] === "fork") ||
         (property === "multipage" && !spec[property]) ||
         (property === "forceCurrent" && !spec[property]))) {
       short[property] = spec[property];
@@ -74,7 +75,8 @@ function lintStr(specsStr) {
       const next = linked.seriesNext ?
         linkedList.find(p => p.shortname === linked.seriesNext) :
         null;
-      const isLast = !next || next.seriesComposition === "delta";
+      const isLast = !next || next.seriesComposition === "delta" ||
+        next.seriesComposition === "fork";
       if (spec.forceCurrent && isLast) {
         spec.forceCurrent = false;
       }

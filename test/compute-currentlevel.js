@@ -8,7 +8,7 @@ describe("compute-currentlevel module", () => {
   function getSpec(options) {
     options = options || {};
     const res = {
-      shortname: (options.seriesVersion ? `spec-${options.seriesVersion}` : "spec"),
+      shortname: options.shortname ?? (options.seriesVersion ? `spec-${options.seriesVersion}` : "spec"),
       series: { shortname: "spec" },
     };
     for (const property of Object.keys(options)) {
@@ -49,11 +49,27 @@ describe("compute-currentlevel module", () => {
       spec.shortname);
   });
 
+  it("returns the name of the latest level that is not a fork spec", () => {
+    const spec = getSpec({ seriesVersion: "1" });
+    const fork = getSpec({ seriesVersion: "2", seriesComposition: "fork" });
+    assert.equal(
+      getCurrentName(spec, [spec, fork]),
+      spec.shortname);
+  });
+
   it("gets back to the latest level when spec is a delta spec", () => {
     const spec = getSpec({ seriesVersion: "1" });
     const delta = getSpec({ seriesVersion: "2", seriesComposition: "delta" });
     assert.equal(
       getCurrentName(delta, [spec, delta]),
+      spec.shortname);
+  });
+
+  it("gets back to the latest level when spec is a fork spec", () => {
+    const spec = getSpec({ seriesVersion: "1" });
+    const fork = getSpec({ seriesVersion: "2", seriesComposition: "fork" });
+    assert.equal(
+      getCurrentName(fork, [spec, fork]),
       spec.shortname);
   });
 
@@ -80,5 +96,13 @@ describe("compute-currentlevel module", () => {
     assert.equal(
       getCurrentName(spec, [spec, other]),
       spec.shortname);
+  });
+
+  it("does not take forks into account", () => {
+    const spec = getSpec({ shortname: "spec-1-fork-1", seriesVersion: "1", seriesComposition: "fork" });
+    const base = getSpec({ seriesVersion: "1" });
+    assert.equal(
+      getCurrentName(spec, [spec, base]),
+      base.shortname);
   });
 });

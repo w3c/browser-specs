@@ -2976,6 +2976,40 @@
     }
   },
   {
+    "url": "https://webassembly.github.io/exception-handling/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-1-fork-exception-handling",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-1",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "1",
+    "forkOf": "wasm-js-api-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/exception-handling/js-api/",
+      "repository": "https://github.com/WebAssembly/exception-handling",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebAssembly JavaScript Interface: Exception Handling",
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: Exception Handling",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "seriesComposition": "full",
     "shortname": "web-bluetooth",
@@ -16852,6 +16886,9 @@
       "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
     },
     "seriesVersion": "1",
+    "forks": [
+      "wasm-js-api-1-fork-exception-handling"
+    ],
     "organization": "W3C",
     "groups": [
       {

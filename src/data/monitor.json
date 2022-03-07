@@ -299,6 +299,10 @@
     "w3c/clreq": {
       "lastreviewed": "2022-01-01",
       "comment": "WG Note incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"
+    },
+    "WICG/multicapture": {
+      "lastreviewed": "2022-03-07",
+      "comment": "no published content yet"
     }
   },
   "specs": {

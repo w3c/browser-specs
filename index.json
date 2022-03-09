@@ -3121,8 +3121,8 @@
     "series": {
       "shortname": "app-history",
       "currentSpecification": "app-history",
-      "title": "App History API",
-      "shortTitle": "App History API",
+      "title": "Redirecting to https://wicg.github.io/navigation-api/",
+      "shortTitle": "Redirecting to https://wicg.github.io/navigation-api/",
       "nightlyUrl": "https://wicg.github.io/app-history/"
     },
     "organization": "W3C",
@@ -3138,9 +3138,9 @@
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "App History API",
+    "title": "Redirecting to https://wicg.github.io/navigation-api/",
     "source": "spec",
-    "shortTitle": "App History API",
+    "shortTitle": "Redirecting to https://wicg.github.io/navigation-api/",
     "categories": [
       "browser"
     ],

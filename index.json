@@ -3115,43 +3115,6 @@
     ]
   },
   {
-    "url": "https://wicg.github.io/app-history/",
-    "seriesComposition": "full",
-    "shortname": "app-history",
-    "series": {
-      "shortname": "app-history",
-      "currentSpecification": "app-history",
-      "title": "Redirecting to https://wicg.github.io/navigation-api/",
-      "shortTitle": "Redirecting to https://wicg.github.io/navigation-api/",
-      "nightlyUrl": "https://wicg.github.io/app-history/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/app-history/",
-      "repository": "https://github.com/WICG/app-history",
-      "sourcePath": "spec.bs",
-      "filename": "index.html"
-    },
-    "title": "Redirecting to https://wicg.github.io/navigation-api/",
-    "source": "spec",
-    "shortTitle": "Redirecting to https://wicg.github.io/navigation-api/",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "app-history"
-      ]
-    }
-  },
-  {
     "url": "https://wicg.github.io/background-fetch/",
     "seriesComposition": "full",
     "shortname": "background-fetch",
@@ -4410,6 +4373,43 @@
     "categories": [
       "browser"
     ]
+  },
+  {
+    "url": "https://wicg.github.io/navigation-api/",
+    "seriesComposition": "full",
+    "shortname": "navigation-api",
+    "series": {
+      "shortname": "navigation-api",
+      "currentSpecification": "navigation-api",
+      "title": "Navigation API",
+      "shortTitle": "Navigation API",
+      "nightlyUrl": "https://wicg.github.io/navigation-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/navigation-api/",
+      "repository": "https://github.com/WICG/navigation-api",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Navigation API",
+    "source": "spec",
+    "shortTitle": "Navigation API",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "app-history"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/netinfo/",

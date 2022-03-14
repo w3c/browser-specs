@@ -303,6 +303,10 @@
     "WICG/multicapture": {
       "lastreviewed": "2022-03-07",
       "comment": "no published content yet"
+    },
+    "WICG/fenced-frame": {
+      "lastreviewed": "2022-03-14",
+      "comment": "no published content yet"
     }
   },
   "specs": {

@@ -4376,7 +4376,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "app-history"
+        "navigation-api"
       ]
     }
   },

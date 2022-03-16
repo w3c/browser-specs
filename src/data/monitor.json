@@ -260,10 +260,6 @@
       "lastreviewed": "2022-03-01",
       "comment": "early exploration phase; no clear implementation plan yet"
     },
-    "w3c/PNG-spec": {
-      "lastreviewed": "2022-03-01",
-      "comment": "spec does not yet follow usual formatting rules (dfns, refs)"
-    },
     "WICG/conditional-focus": {
       "lastreviewed": "2022-03-01",
       "comment": "spec should get integrated in Screen Capture, see https://github.com/w3c/mediacapture-screen-share/issues/190"

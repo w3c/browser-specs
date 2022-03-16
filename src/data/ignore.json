@@ -208,6 +208,9 @@
     },
     "WICG/uuid": {
       "comment": "Proposal integrated in WebCrypto API: https://github.com/WICG/uuid/issues/27"
+    },
+    "WICG/floc": {
+      "comment": "proposal replaced by the Topics API"
     }
   },
   "specs": {

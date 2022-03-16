@@ -2976,6 +2976,40 @@
     }
   },
   {
+    "url": "https://webassembly.github.io/exception-handling/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-1-fork-exception-handling",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-1",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "1",
+    "forkOf": "wasm-js-api-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/exception-handling/js-api/",
+      "repository": "https://github.com/WebAssembly/exception-handling",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebAssembly JavaScript Interface: Exception Handling",
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: Exception Handling",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "seriesComposition": "full",
     "shortname": "web-bluetooth",
@@ -3079,43 +3113,6 @@
     "categories": [
       "browser"
     ]
-  },
-  {
-    "url": "https://wicg.github.io/app-history/",
-    "seriesComposition": "full",
-    "shortname": "app-history",
-    "series": {
-      "shortname": "app-history",
-      "currentSpecification": "app-history",
-      "title": "App History API",
-      "shortTitle": "App History API",
-      "nightlyUrl": "https://wicg.github.io/app-history/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/app-history/",
-      "repository": "https://github.com/WICG/app-history",
-      "sourcePath": "spec.bs",
-      "filename": "index.html"
-    },
-    "title": "App History API",
-    "source": "spec",
-    "shortTitle": "App History API",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "app-history"
-      ]
-    }
   },
   {
     "url": "https://wicg.github.io/background-fetch/",
@@ -3257,7 +3254,13 @@
     "shortTitle": "Close Watcher API",
     "categories": [
       "browser"
-    ]
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "close-watcher"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/compression/",
@@ -3847,37 +3850,6 @@
     }
   },
   {
-    "url": "https://wicg.github.io/floc/",
-    "seriesComposition": "full",
-    "shortname": "floc",
-    "series": {
-      "shortname": "floc",
-      "currentSpecification": "floc",
-      "title": "Federated Learning of Cohorts",
-      "shortTitle": "Federated Learning of Cohorts",
-      "nightlyUrl": "https://wicg.github.io/floc/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/floc/",
-      "repository": "https://github.com/WICG/floc",
-      "sourcePath": "floc.bs",
-      "filename": "index.html"
-    },
-    "title": "Federated Learning of Cohorts",
-    "source": "spec",
-    "shortTitle": "Federated Learning of Cohorts",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://wicg.github.io/get-installed-related-apps/spec/",
     "seriesComposition": "full",
     "shortname": "get-installed-related-apps",
@@ -4370,6 +4342,43 @@
     "categories": [
       "browser"
     ]
+  },
+  {
+    "url": "https://wicg.github.io/navigation-api/",
+    "seriesComposition": "full",
+    "shortname": "navigation-api",
+    "series": {
+      "shortname": "navigation-api",
+      "currentSpecification": "navigation-api",
+      "title": "Navigation API",
+      "shortTitle": "Navigation API",
+      "nightlyUrl": "https://wicg.github.io/navigation-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/navigation-api/",
+      "repository": "https://github.com/WICG/navigation-api",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Navigation API",
+    "source": "spec",
+    "shortTitle": "Navigation API",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "navigation-api"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/netinfo/",
@@ -16852,6 +16861,9 @@
       "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
     },
     "seriesVersion": "1",
+    "forks": [
+      "wasm-js-api-1-fork-exception-handling"
+    ],
     "organization": "W3C",
     "groups": [
       {

@@ -220,10 +220,6 @@
       "lastreviewed": "2022-03-01",
       "comment": "no published content yet"
     },
-    "WICG/capability-delegation": {
-      "lastreviewed": "2022-03-01",
-      "comment": "spec at https://wicg.github.io/capability-delegation/spec.html; tracking implementation status at https://www.chromestatus.com/feature/5708770829139968"
-    },
     "WICG/lock-screen": {
       "lastreviewed": "2022-03-01",
       "comment": "no published content yet"

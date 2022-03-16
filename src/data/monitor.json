@@ -69,8 +69,8 @@
       "lastreviewed": "2022-03-01"
     },
     "WICG/FedCM": {
-      "comment": "Early exploration, replaces previous WebID spec, see https://www.chromestatus.com/feature/6438627087220736",
-      "lastreviewed": "2022-03-01"
+      "comment": "Original trial in Chromium but no intent to implement announced yet, see https://www.chromestatus.com/feature/6438627087220736. Replaces previous WebID spec.",
+      "lastreviewed": "2022-03-16"
     },
     "WICG/kv-storage": {
       "comment": "Work on it suspended - this will probably be archived per https://github.com/WICG/admin/issues/121, but if it isn't, that may be because it is worth watching/monitoring; should check status on this at next review",

@@ -283,10 +283,6 @@
     "immersive-web/model-element": {
       "lastreviewed": "2022-03-01",
       "comment": "Empty spec"
-    },
-    "w3c/clreq": {
-      "lastreviewed": "2022-03-01",
-      "comment": "WG Note incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"
     }
   },
   "specs": {

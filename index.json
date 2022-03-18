@@ -2735,6 +2735,37 @@
     ]
   },
   {
+    "url": "https://w3c.github.io/PNG-spec/",
+    "seriesComposition": "full",
+    "shortname": "PNG-spec",
+    "series": {
+      "shortname": "PNG-spec",
+      "currentSpecification": "PNG-spec",
+      "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
+      "shortTitle": "PNG",
+      "nightlyUrl": "https://w3c.github.io/PNG-spec/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Portable Network Graphics (PNG) Working Group",
+        "url": "https://www.w3.org/groups/wg/png/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/PNG-spec/",
+      "repository": "https://github.com/w3c/PNG-spec",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
+    "source": "spec",
+    "shortTitle": "PNG",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://w3c.github.io/web-locks/",
     "seriesComposition": "full",
     "shortname": "web-locks",
@@ -3187,6 +3218,37 @@
         "BackgroundSync"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/capability-delegation/spec.html",
+    "seriesComposition": "full",
+    "shortname": "capability-delegation",
+    "series": {
+      "shortname": "capability-delegation",
+      "currentSpecification": "capability-delegation",
+      "title": "Capability Delegation",
+      "shortTitle": "Capability Delegation",
+      "nightlyUrl": "https://wicg.github.io/capability-delegation/spec.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/capability-delegation/spec.html",
+      "repository": "https://github.com/WICG/capability-delegation",
+      "sourcePath": "spec.bs",
+      "filename": "spec.html"
+    },
+    "title": "Capability Delegation",
+    "source": "spec",
+    "shortTitle": "Capability Delegation",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://wicg.github.io/client-hints-infrastructure/",
@@ -3669,6 +3731,37 @@
         "deprecation-reporting"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/digital-goods/",
+    "seriesComposition": "full",
+    "shortname": "digital-goods",
+    "series": {
+      "shortname": "digital-goods",
+      "currentSpecification": "digital-goods",
+      "title": "Digital Goods API",
+      "shortTitle": "Digital Goods API",
+      "nightlyUrl": "https://wicg.github.io/digital-goods/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/digital-goods/",
+      "repository": "https://github.com/WICG/digital-goods",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Digital Goods API",
+    "source": "spec",
+    "shortTitle": "Digital Goods API",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://wicg.github.io/document-policy/",
@@ -7954,7 +8047,7 @@
     },
     "organization": "W3C",
     "title": "W3C Process Document",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "W3C Process Document",
     "categories": []
   },

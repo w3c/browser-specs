@@ -357,6 +357,10 @@
     "https://wicg.github.io/nav-speculation/speculation-rules.html": {
       "comment": "Original trial in Chromium but no intent to implement announced yet",
       "lastreviewed": "2022-03-01"
+    },
+    "https://www.w3.org/TR/clreq-gap/": {
+      "lastreviewed": "2022-03-21",
+      "comment": "WG Note of clreq-gap document incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"
     }
   }
 }

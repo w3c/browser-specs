@@ -1057,7 +1057,6 @@
         "html",
         "imagebitmap-renderingcontext",
         "webmessaging",
-        "websockets",
         "webstorage",
         "workers",
         "worklets",
@@ -3245,7 +3244,13 @@
     "shortTitle": "WebSockets",
     "categories": [
       "browser"
-    ]
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "websockets"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/background-fetch/",

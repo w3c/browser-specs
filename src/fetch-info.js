@@ -41,8 +41,12 @@
  * bundle requests to Specref.
  */
 
-const https = require("https");
+const throttle = require("./throttle");
+const baseFetch = require("node-fetch");
+const fetch = throttle(baseFetch, 2);
 const {JSDOM} = require("jsdom");
+const JSDOMFromURL = throttle(JSDOM.fromURL, 2);
+
 
 async function fetchInfoFromW3CApi(specs, options) {
   // Cannot query the W3C API if API key was not given
@@ -62,38 +66,28 @@ async function fetchInfoFromW3CApi(specs, options) {
     }
 
     const url = `https://api.w3.org/specifications/${spec.shortname}`;
-    return new Promise((resolve, reject) => {
-      const request = https.get(url, options, res => {
-        if (res.statusCode === 404) {
-          resolve(null);
-        }
-        if (res.statusCode === 301) {
-          const location = res.headers.location.startsWith('/specifications/') ?
-            res.headers.location.substring('/specifications/'.length) :
-            res.headers.location;
-          reject(`W3C API redirected to "${location}" ` +
-            `for "${spec.shortname}" (${spec.url}), update the shortname!`);
-          return;
-        }
-        if (res.statusCode !== 200) {
-          reject(`W3C API returned an error, status code is ${res.statusCode}`);
-          return;
-        }
-        res.setEncoding("utf8");
-        let data = "";
-        res.on("data", chunk => data += chunk);
-        res.on("end", () => {
-          try {
-            resolve(JSON.parse(data));
-          }
-          catch (err) {
-            reject("W3C API returned invalid JSON");
-          }
-        });
-      });
-      request.on("error", err => reject(err));
-      request.end();
-    });
+    const res = await fetch(url, options);
+    if (res.status === 404) {
+      return;
+    }
+    if (res.status === 301) {
+      const rawLocation = res.headers.get('location');
+      const location = rawLocation.startsWith('/specifications/') ?
+        rawLocation.substring('/specifications/'.length) :
+        rawLocation.location;
+      throw new Error(`W3C API redirected to "${location}" ` +
+        `for "${spec.shortname}" (${spec.url}), update the shortname!`);
+    }
+    if (res.status !== 200) {
+      throw new Error(`W3C API returned an error, status code is ${res.status}`);
+    }
+    try {
+      const body = await res.json();
+      return body;
+    }
+    catch (err) {
+      throw new Error("W3C API returned invalid JSON");
+    }
   }));
 
   const seriesShortnames = new Set();
@@ -132,30 +126,20 @@ async function fetchInfoFromW3CApi(specs, options) {
   // Fetch info on the series
   const seriesInfo = await Promise.all([...seriesShortnames].map(async shortname => {
     const url = `https://api.w3.org/specification-series/${shortname}`;
-    return new Promise((resolve, reject) => {
-      const request = https.get(url, options, res => {
-        if (res.statusCode === 404) {
-          resolve(null);
-        }
-        if (res.statusCode !== 200) {
-          reject(`W3C API returned an error, status code is ${res.statusCode}`);
-          return;
-        }
-        res.setEncoding("utf8");
-        let data = "";
-        res.on("data", chunk => data += chunk);
-        res.on("end", () => {
-          try {
-            resolve(JSON.parse(data));
-          }
-          catch (err) {
-            reject("W3C API returned invalid JSON");
-          }
-        });
-      });
-      request.on("error", err => reject(err));
-      request.end();
-    });
+    const res = await fetch(url, options);
+    if (res.status === 404) {
+      return;
+    }
+    if (res.status !== 200) {
+      throw new Error(`W3C API returned an error, status code is ${res.status}`);
+    }
+    try {
+      const body = await res.json();
+      return body;
+    }
+    catch (err) {
+      throw new Error("W3C API returned invalid JSON");
+    }
   }));
 
   results.__series = {};
@@ -188,27 +172,17 @@ async function fetchInfoFromSpecref(specs, options) {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
       chunk.map(spec => spec.shortname).join(',');
 
-    return new Promise((resolve, reject) => {
-      const request = https.get(specrefUrl, options, res => {
-        if (res.statusCode !== 200) {
-          reject(`Could not query Specref, status code is ${res.statusCode}`);
-          return;
-        }
-        res.setEncoding("utf8");
-        let data = "";
-        res.on("data", chunk => data += chunk);
-        res.on("end", () => {
-          try {
-            resolve(JSON.parse(data));
-          }
-          catch (err) {
-            reject("Specref returned invalid JSON");
-          }
-        });
-      });
-      request.on("error", err => reject(err));
-      request.end();
-    });
+    const res = await fetch(specrefUrl, options);
+    if (res.status !== 200) {
+      throw new Error(`Could not query Specref, status code is ${res.status}`);
+    }
+    try {
+      const body = await res.json();
+      return body;
+    }
+    catch (err) {
+      throw new Error("Specref returned invalid JSON");
+    }
   }));
 
   const results = {};
@@ -259,7 +233,7 @@ async function fetchInfoFromSpecs(specs, options) {
     const url = spec.nightly?.url || spec.url;
     let dom = null;
     try {
-      dom = await JSDOM.fromURL(url);
+      dom = await JSDOMFromURL(url);
     }
     catch (err) {
       throw new Error(`Could not retrieve ${url} with JSDOM: ${err.message}`);

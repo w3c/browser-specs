@@ -65,6 +65,7 @@
   },
   "https://drafts.fxtf.org/filter-effects-2/ delta",
   "https://fetch.spec.whatwg.org/",
+  "https://fs.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
   {
     "url": "https://html.spec.whatwg.org/multipage/",

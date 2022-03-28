@@ -260,14 +260,6 @@
       "lastreviewed": "2022-03-01",
       "comment": "spec should get integrated in Screen Capture, see https://github.com/w3c/mediacapture-screen-share/issues/190"
     },
-    "whatwg/fs": {
-      "lastreviewed": "2022-03-01",
-      "comment": "no published content yet"
-    },
-    "whatwg/websockets": {
-      "lastreviewed": "2022-03-01",
-      "comment": "pending removal of existing content in HTML spec https://github.com/whatwg/html/pull/7414"
-    },
     "WICG/bundle-preloading": {
       "lastreviewed": "2022-03-01",
       "comment": "no published content yet"

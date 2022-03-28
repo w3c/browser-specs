@@ -923,6 +923,37 @@
     }
   },
   {
+    "url": "https://fs.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "fs",
+    "series": {
+      "shortname": "fs",
+      "currentSpecification": "fs",
+      "title": "File System Standard",
+      "shortTitle": "File System",
+      "nightlyUrl": "https://fs.spec.whatwg.org/"
+    },
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Storage Workstream",
+        "url": "https://fs.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://fs.spec.whatwg.org/",
+      "repository": "https://github.com/whatwg/fs",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "File System Standard",
+    "source": "specref",
+    "shortTitle": "File System",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://fullscreen.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "fullscreen",

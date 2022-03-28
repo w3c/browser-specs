@@ -2446,37 +2446,6 @@
     }
   },
   {
-    "url": "https://w3c.github.io/autoplay/",
-    "seriesComposition": "full",
-    "shortname": "autoplay",
-    "series": {
-      "shortname": "autoplay",
-      "currentSpecification": "autoplay",
-      "title": "Autoplay Policy Detection",
-      "shortTitle": "Autoplay Policy Detection",
-      "nightlyUrl": "https://w3c.github.io/autoplay/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Media Working Group",
-        "url": "https://www.w3.org/media-wg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/autoplay/",
-      "repository": "https://github.com/w3c/autoplay",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Autoplay Policy Detection",
-    "source": "spec",
-    "shortTitle": "Autoplay Policy Detection",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/badging/",
     "seriesComposition": "full",
     "shortname": "badging",
@@ -8399,6 +8368,42 @@
         "audio-output"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/autoplay-detection/",
+    "seriesComposition": "full",
+    "shortname": "autoplay-detection",
+    "series": {
+      "shortname": "autoplay-detection",
+      "currentSpecification": "autoplay-detection",
+      "title": "Autoplay Policy Detection",
+      "shortTitle": "Autoplay Policy Detection",
+      "releaseUrl": "https://www.w3.org/TR/autoplay-detection/",
+      "nightlyUrl": "https://w3c.github.io/autoplay/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/autoplay-detection/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/autoplay/",
+      "repository": "https://github.com/w3c/autoplay",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Autoplay Policy Detection",
+    "source": "w3c",
+    "shortTitle": "Autoplay Policy Detection",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/battery-status/",

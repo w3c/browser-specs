@@ -8,7 +8,7 @@
  */
 
 const fetch = require("node-fetch");
-const { Octokit } = require("@octokit/rest");
+const Octokit = require("./octokit");
 const parseSpecUrl = require("./parse-spec-url.js");
 
 

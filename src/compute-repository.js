@@ -7,7 +7,7 @@
  * The function needs an authentication token for the GitHub API.
  */
 
-const { Octokit } = require("@octokit/rest");
+const Octokit = require("./octokit");
 const parseSpecUrl = require("./parse-spec-url.js");
 
 

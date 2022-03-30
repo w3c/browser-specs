@@ -52,7 +52,7 @@ describe("fetch-groups module (with API keys)", function () {
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
         name: "Web Applications Working Group",
-        url: "https://www.w3.org/2019/webapps/"
+        url: "https://www.w3.org/groups/wg/webapps"
       }]);
     });
 
@@ -65,7 +65,7 @@ describe("fetch-groups module (with API keys)", function () {
       assert.equal(res[0].organization, "W3C");
       assert.deepStrictEqual(res[0].groups, [{
         name: "Web Applications Working Group",
-        url: "https://www.w3.org/2019/webapps/"
+        url: "https://www.w3.org/groups/wg/webapps"
       }]);
       assert.equal(res[1].organization, "W3C");
       assert.deepStrictEqual(res[1].groups, [{

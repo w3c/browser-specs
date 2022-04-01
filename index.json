@@ -951,7 +951,13 @@
     "shortTitle": "File System",
     "categories": [
       "browser"
-    ]
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "fs"
+      ]
+    }
   },
   {
     "url": "https://fullscreen.spec.whatwg.org/",

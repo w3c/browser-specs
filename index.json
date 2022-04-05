@@ -15612,7 +15612,7 @@
       "title": "Reporting API",
       "shortTitle": "Reporting API",
       "releaseUrl": "https://www.w3.org/TR/reporting/",
-      "nightlyUrl": "https://w3c.github.io/reporting/"
+      "nightlyUrl": "https://w3c.github.io/reporting/network-reporting"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -15627,23 +15627,17 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/reporting/",
+      "url": "https://w3c.github.io/reporting/network-reporting",
       "repository": "https://github.com/w3c/reporting",
       "sourcePath": "index.src.html",
       "filename": "index.html"
     },
-    "title": "Reporting API",
+    "title": "Network Reporting API",
     "source": "w3c",
-    "shortTitle": "Reporting API",
+    "shortTitle": "Network Reporting API",
     "categories": [
       "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "reporting"
-      ]
-    }
+    ]
   },
   {
     "url": "https://www.w3.org/TR/requestidlecallback/",

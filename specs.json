@@ -113,8 +113,10 @@
   "https://tc39.es/proposal-array-find-from-last/",
   "https://tc39.es/proposal-array-grouping/",
   "https://tc39.es/proposal-atomics-wait-async/",
+  "https://tc39.es/proposal-change-array-by-copy/",
   "https://tc39.es/proposal-class-fields/",
   "https://tc39.es/proposal-class-static-block/",
+  "https://tc39.es/proposal-decorators/",
   "https://tc39.es/proposal-error-cause/",
   "https://tc39.es/proposal-import-assertions/",
   "https://tc39.es/proposal-intl-duration-format/",
@@ -188,7 +190,6 @@
       "sourcePath": "identity/index.html"
     }
   },
-  "https://w3c.github.io/mediacapture-region/",
   "https://w3c.github.io/PNG-spec/",
   "https://w3c.github.io/web-locks/",
   "https://w3c.github.io/web-nfc/",
@@ -284,6 +285,7 @@
   "https://wicg.github.io/video-rvfc/",
   "https://wicg.github.io/visual-viewport/",
   "https://wicg.github.io/web-otp/",
+  "https://wicg.github.io/webcrypto-secure-curves/",
   "https://wicg.github.io/webhid/",
   "https://wicg.github.io/webpackage/loading.html",
   "https://wicg.github.io/webusb/",
@@ -684,6 +686,7 @@
     }
   },
   "https://www.w3.org/TR/mediacapture-fromelement/",
+  "https://www.w3.org/TR/mediacapture-region/",
   "https://www.w3.org/TR/mediacapture-streams/",
   "https://www.w3.org/TR/mediacapture-transform/",
   "https://www.w3.org/TR/mediaqueries-4/",

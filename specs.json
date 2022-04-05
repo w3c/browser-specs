@@ -190,7 +190,6 @@
       "sourcePath": "identity/index.html"
     }
   },
-  "https://w3c.github.io/mediacapture-region/",
   "https://w3c.github.io/PNG-spec/",
   "https://w3c.github.io/web-locks/",
   "https://w3c.github.io/web-nfc/",
@@ -687,6 +686,7 @@
     }
   },
   "https://www.w3.org/TR/mediacapture-fromelement/",
+  "https://www.w3.org/TR/mediacapture-region/",
   "https://www.w3.org/TR/mediacapture-streams/",
   "https://www.w3.org/TR/mediacapture-transform/",
   "https://www.w3.org/TR/mediaqueries-4/",

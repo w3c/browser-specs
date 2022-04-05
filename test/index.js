@@ -149,7 +149,8 @@ describe("List of specs", () => {
     // No repo for the Patent Policy document either
     const wrong = specs.filter(s => !s.nightly.sourcePath &&
       !s.nightly.url.match(/rfc-editor\.org/) &&
-      !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/));
+      !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
+      !s.nightly.url.match(/tc39\.es\/proposal\-decorators\/$/));
     assert.deepStrictEqual(wrong, []);
   });
 

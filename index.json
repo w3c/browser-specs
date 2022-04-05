@@ -1578,37 +1578,6 @@
     ]
   },
   {
-    "url": "https://tc39.es/proposal-accessible-object-hasownproperty/",
-    "seriesComposition": "full",
-    "shortname": "tc39-accessible-object-hasownproperty",
-    "series": {
-      "shortname": "tc39-accessible-object-hasownproperty",
-      "currentSpecification": "tc39-accessible-object-hasownproperty",
-      "title": "Accessible Object.hasOwnProperty",
-      "shortTitle": "Accessible Object.hasOwnProperty",
-      "nightlyUrl": "https://tc39.es/proposal-accessible-object-hasownproperty/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-accessible-object-hasownproperty/",
-      "repository": "https://github.com/tc39/proposal-accessible-object-hasownproperty",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Accessible Object.hasOwnProperty",
-    "source": "spec",
-    "shortTitle": "Accessible Object.hasOwnProperty",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://tc39.es/proposal-array-find-from-last/",
     "seriesComposition": "full",
     "shortname": "tc39-array-find-from-last",
@@ -1702,15 +1671,15 @@
     ]
   },
   {
-    "url": "https://tc39.es/proposal-class-fields/",
+    "url": "https://tc39.es/proposal-change-array-by-copy/",
     "seriesComposition": "full",
-    "shortname": "tc39-class-fields",
+    "shortname": "tc39-change-array-by-copy",
     "series": {
-      "shortname": "tc39-class-fields",
-      "currentSpecification": "tc39-class-fields",
-      "title": "Public and private instance fields proposal",
-      "shortTitle": "Public and private instance fields proposal",
-      "nightlyUrl": "https://tc39.es/proposal-class-fields/"
+      "shortname": "tc39-change-array-by-copy",
+      "currentSpecification": "tc39-change-array-by-copy",
+      "title": "Change Array by copy",
+      "shortTitle": "Change Array by copy",
+      "nightlyUrl": "https://tc39.es/proposal-change-array-by-copy/"
     },
     "organization": "Ecma International",
     "groups": [
@@ -1720,28 +1689,28 @@
       }
     ],
     "nightly": {
-      "url": "https://tc39.es/proposal-class-fields/",
-      "repository": "https://github.com/tc39/proposal-class-fields",
+      "url": "https://tc39.es/proposal-change-array-by-copy/",
+      "repository": "https://github.com/tc39/proposal-change-array-by-copy",
       "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "Public and private instance fields proposal",
+    "title": "Change Array by copy",
     "source": "spec",
-    "shortTitle": "Public and private instance fields proposal",
+    "shortTitle": "Change Array by copy",
     "categories": [
       "browser"
     ]
   },
   {
-    "url": "https://tc39.es/proposal-class-static-block/",
+    "url": "https://tc39.es/proposal-decorators/",
     "seriesComposition": "full",
-    "shortname": "tc39-class-static-block",
+    "shortname": "tc39-decorators",
     "series": {
-      "shortname": "tc39-class-static-block",
-      "currentSpecification": "tc39-class-static-block",
-      "title": "ECMAScript class static initialization blocks",
-      "shortTitle": "ECMAScript class static initialization blocks",
-      "nightlyUrl": "https://tc39.es/proposal-class-static-block/"
+      "shortname": "tc39-decorators",
+      "currentSpecification": "tc39-decorators",
+      "title": "Decorators proposal",
+      "shortTitle": "Decorators proposal",
+      "nightlyUrl": "https://tc39.es/proposal-decorators/"
     },
     "organization": "Ecma International",
     "groups": [
@@ -1751,45 +1720,13 @@
       }
     ],
     "nightly": {
-      "url": "https://tc39.es/proposal-class-static-block/",
-      "repository": "https://github.com/tc39/proposal-class-static-block",
-      "sourcePath": "spec/index.html",
+      "url": "https://tc39.es/proposal-decorators/",
+      "repository": "https://github.com/tc39/proposal-decorators",
       "filename": "index.html"
     },
-    "title": "ECMAScript class static initialization blocks",
+    "title": "Decorators proposal",
     "source": "spec",
-    "shortTitle": "ECMAScript class static initialization blocks",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://tc39.es/proposal-error-cause/",
-    "seriesComposition": "full",
-    "shortname": "tc39-error-cause",
-    "series": {
-      "shortname": "tc39-error-cause",
-      "currentSpecification": "tc39-error-cause",
-      "title": "Error Cause",
-      "shortTitle": "Error Cause",
-      "nightlyUrl": "https://tc39.es/proposal-error-cause/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-error-cause/",
-      "repository": "https://github.com/tc39/proposal-error-cause",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Error Cause",
-    "source": "spec",
-    "shortTitle": "Error Cause",
+    "shortTitle": "Decorators proposal",
     "categories": [
       "browser"
     ]
@@ -2105,130 +2042,6 @@
     ]
   },
   {
-    "url": "https://tc39.es/proposal-private-fields-in-in/",
-    "seriesComposition": "full",
-    "shortname": "tc39-private-fields-in-in",
-    "series": {
-      "shortname": "tc39-private-fields-in-in",
-      "currentSpecification": "tc39-private-fields-in-in",
-      "title": "Private Fields in in",
-      "shortTitle": "Private Fields in in",
-      "nightlyUrl": "https://tc39.es/proposal-private-fields-in-in/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-private-fields-in-in/",
-      "repository": "https://github.com/tc39/proposal-private-fields-in-in",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Private Fields in in",
-    "source": "spec",
-    "shortTitle": "Private Fields in in",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://tc39.es/proposal-private-methods/",
-    "seriesComposition": "full",
-    "shortname": "tc39-private-methods",
-    "series": {
-      "shortname": "tc39-private-methods",
-      "currentSpecification": "tc39-private-methods",
-      "title": "Private Methods and Accessors Proposal",
-      "shortTitle": "Private Methods and Accessors",
-      "nightlyUrl": "https://tc39.es/proposal-private-methods/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-private-methods/",
-      "repository": "https://github.com/tc39/proposal-private-methods",
-      "sourcePath": "spec.html",
-      "filename": "index.html"
-    },
-    "title": "Private Methods and Accessors Proposal",
-    "source": "spec",
-    "shortTitle": "Private Methods and Accessors",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://tc39.es/proposal-regexp-match-indices/",
-    "seriesComposition": "full",
-    "shortname": "tc39-regexp-match-indices",
-    "series": {
-      "shortname": "tc39-regexp-match-indices",
-      "currentSpecification": "tc39-regexp-match-indices",
-      "title": "RegExp Match Indices",
-      "shortTitle": "RegExp Match Indices",
-      "nightlyUrl": "https://tc39.es/proposal-regexp-match-indices/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-regexp-match-indices/",
-      "repository": "https://github.com/tc39/proposal-regexp-match-indices",
-      "sourcePath": "spec/index.html",
-      "filename": "index.html"
-    },
-    "title": "RegExp Match Indices",
-    "source": "spec",
-    "shortTitle": "RegExp Match Indices",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://tc39.es/proposal-relative-indexing-method/",
-    "seriesComposition": "full",
-    "shortname": "tc39-relative-indexing-method",
-    "series": {
-      "shortname": "tc39-relative-indexing-method",
-      "currentSpecification": "tc39-relative-indexing-method",
-      "title": "Relative Indexing Method",
-      "shortTitle": "Relative Indexing Method",
-      "nightlyUrl": "https://tc39.es/proposal-relative-indexing-method/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-relative-indexing-method/",
-      "repository": "https://github.com/tc39/proposal-relative-indexing-method",
-      "sourcePath": "spec.html",
-      "filename": "index.html"
-    },
-    "title": "Relative Indexing Method",
-    "source": "spec",
-    "shortTitle": "Relative Indexing Method",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",
     "seriesComposition": "full",
     "shortname": "tc39-resizablearraybuffer",
@@ -2291,37 +2104,6 @@
     ]
   },
   {
-    "url": "https://tc39.es/proposal-static-class-features/",
-    "seriesComposition": "full",
-    "shortname": "tc39-static-class-features",
-    "series": {
-      "shortname": "tc39-static-class-features",
-      "currentSpecification": "tc39-static-class-features",
-      "title": "Static class features",
-      "shortTitle": "Static class features",
-      "nightlyUrl": "https://tc39.es/proposal-static-class-features/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-static-class-features/",
-      "repository": "https://github.com/tc39/proposal-static-class-features",
-      "sourcePath": "spec.html",
-      "filename": "index.html"
-    },
-    "title": "Static class features",
-    "source": "spec",
-    "shortTitle": "Static class features",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://tc39.es/proposal-temporal/",
     "seriesComposition": "full",
     "shortname": "tc39-temporal",
@@ -2348,37 +2130,6 @@
     "title": "Temporal proposal",
     "source": "spec",
     "shortTitle": "Temporal proposal",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://tc39.es/proposal-top-level-await/",
-    "seriesComposition": "full",
-    "shortname": "tc39-top-level-await",
-    "series": {
-      "shortname": "tc39-top-level-await",
-      "currentSpecification": "tc39-top-level-await",
-      "title": "Top-Level Await",
-      "shortTitle": "Top-Level Await",
-      "nightlyUrl": "https://tc39.es/proposal-top-level-await/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-top-level-await/",
-      "repository": "https://github.com/tc39/proposal-top-level-await",
-      "sourcePath": "spec.html",
-      "filename": "index.html"
-    },
-    "title": "Top-Level Await",
-    "source": "spec",
-    "shortTitle": "Top-Level Await",
     "categories": [
       "browser"
     ]
@@ -2806,37 +2557,6 @@
     "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
     "source": "spec",
     "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/mediacapture-region/",
-    "seriesComposition": "full",
-    "shortname": "mediacapture-region",
-    "series": {
-      "shortname": "mediacapture-region",
-      "currentSpecification": "mediacapture-region",
-      "title": "Region Capture",
-      "shortTitle": "Region Capture",
-      "nightlyUrl": "https://w3c.github.io/mediacapture-region/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-region/",
-      "repository": "https://github.com/w3c/mediacapture-region",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Region Capture",
-    "source": "spec",
-    "shortTitle": "Region Capture",
     "categories": [
       "browser"
     ]
@@ -3481,8 +3201,8 @@
     "series": {
       "shortname": "compute-pressure",
       "currentSpecification": "compute-pressure",
-      "title": "Compute Pressure API",
-      "shortTitle": "Compute Pressure API",
+      "title": "Compute and System Pressure",
+      "shortTitle": "Compute and System Pressure",
       "nightlyUrl": "https://wicg.github.io/compute-pressure/"
     },
     "organization": "W3C",
@@ -3498,9 +3218,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Compute Pressure API Level 1",
+    "title": "Compute and System Pressure Level 1",
     "source": "spec",
-    "shortTitle": "Compute Pressure API 1",
+    "shortTitle": "Compute and System Pressure 1",
     "categories": [
       "browser"
     ]
@@ -5580,6 +5300,37 @@
         "web-otp"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/webcrypto-secure-curves/",
+    "seriesComposition": "full",
+    "shortname": "webcrypto-secure-curves",
+    "series": {
+      "shortname": "webcrypto-secure-curves",
+      "currentSpecification": "webcrypto-secure-curves",
+      "title": "Secure Curves in the Web Cryptography API",
+      "shortTitle": "Secure Curves in the Web Cryptography API",
+      "nightlyUrl": "https://wicg.github.io/webcrypto-secure-curves/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/webcrypto-secure-curves/",
+      "repository": "https://github.com/WICG/webcrypto-secure-curves",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Secure Curves in the Web Cryptography API",
+    "source": "spec",
+    "shortTitle": "Secure Curves in the Web Cryptography API",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://wicg.github.io/webhid/",
@@ -14163,6 +13914,42 @@
         "mediacapture-fromelement"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/mediacapture-region/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-region",
+    "series": {
+      "shortname": "mediacapture-region",
+      "currentSpecification": "mediacapture-region",
+      "title": "Region Capture",
+      "shortTitle": "Region Capture",
+      "releaseUrl": "https://www.w3.org/TR/mediacapture-region/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-region/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/mediacapture-region/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-region/",
+      "repository": "https://github.com/w3c/mediacapture-region",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Region Capture",
+    "source": "w3c",
+    "shortTitle": "Region Capture",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/mediacapture-streams/",

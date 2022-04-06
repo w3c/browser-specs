@@ -15399,7 +15399,7 @@
       "title": "Reporting API",
       "shortTitle": "Reporting API",
       "releaseUrl": "https://www.w3.org/TR/reporting/",
-      "nightlyUrl": "https://w3c.github.io/reporting/network-reporting"
+      "nightlyUrl": "https://w3c.github.io/reporting/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -15414,17 +15414,23 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/reporting/network-reporting",
+      "url": "https://w3c.github.io/reporting/",
       "repository": "https://github.com/w3c/reporting",
       "sourcePath": "index.src.html",
       "filename": "index.html"
     },
-    "title": "Network Reporting API",
+    "title": "Reporting API",
     "source": "w3c",
-    "shortTitle": "Network Reporting API",
+    "shortTitle": "Reporting API",
     "categories": [
       "browser"
-    ]
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "reporting"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/requestidlecallback/",
@@ -16852,7 +16858,7 @@
     "groups": [
       {
         "name": "WebAssembly Working Group",
-        "url": "https://www.w3.org/wasm/"
+        "url": "https://www.w3.org/groups/wg/wasm"
       }
     ],
     "release": {
@@ -16892,7 +16898,7 @@
     "groups": [
       {
         "name": "WebAssembly Working Group",
-        "url": "https://www.w3.org/wasm/"
+        "url": "https://www.w3.org/groups/wg/wasm"
       }
     ],
     "release": {
@@ -16935,7 +16941,7 @@
     "groups": [
       {
         "name": "WebAssembly Working Group",
-        "url": "https://www.w3.org/wasm/"
+        "url": "https://www.w3.org/groups/wg/wasm"
       }
     ],
     "release": {

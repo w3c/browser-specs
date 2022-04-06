@@ -3201,8 +3201,8 @@
     "series": {
       "shortname": "compute-pressure",
       "currentSpecification": "compute-pressure",
-      "title": "Compute and System Pressure",
-      "shortTitle": "Compute and System Pressure",
+      "title": "Compute Pressure",
+      "shortTitle": "Compute Pressure",
       "nightlyUrl": "https://wicg.github.io/compute-pressure/"
     },
     "organization": "W3C",
@@ -3218,9 +3218,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Compute and System Pressure Level 1",
+    "title": "Compute Pressure Level 1",
     "source": "spec",
-    "shortTitle": "Compute and System Pressure 1",
+    "shortTitle": "Compute Pressure 1",
     "categories": [
       "browser"
     ]

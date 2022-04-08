@@ -629,8 +629,18 @@
       "sourcePath": "encrypted-media-respec.html"
     }
   },
-  "https://www.w3.org/TR/epub-33/",
-  "https://www.w3.org/TR/epub-rs-33/",
+  {
+    "url": "https://www.w3.org/TR/epub-33/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/epub-rs-33/",
+    "categories": [
+      "-browser"
+    ]
+  },
   {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "shortTitle": "Fetch Metadata"

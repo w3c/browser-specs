@@ -631,6 +631,7 @@
   },
   {
     "url": "https://www.w3.org/TR/epub-33/",
+    "seriesVersion": "3.3",
     "nightly": {
       "sourcePath": "epub33/core/index.html"
     },
@@ -640,6 +641,7 @@
   },
   {
     "url": "https://www.w3.org/TR/epub-rs-33/",
+    "seriesVersion": "3.3",
     "nightly": {
       "sourcePath": "epub33/rs/index.html"
     },

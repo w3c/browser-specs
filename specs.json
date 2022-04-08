@@ -631,12 +631,18 @@
   },
   {
     "url": "https://www.w3.org/TR/epub-33/",
+    "nightly": {
+      "sourcePath": "epub33/core/index.html"
+    },
     "categories": [
       "-browser"
     ]
   },
   {
     "url": "https://www.w3.org/TR/epub-rs-33/",
+    "nightly": {
+      "sourcePath": "epub33/rs/index.html"
+    },
     "categories": [
       "-browser"
     ]

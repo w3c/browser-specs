@@ -12648,6 +12648,76 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/epub-33/",
+    "seriesComposition": "full",
+    "shortname": "epub-33",
+    "series": {
+      "shortname": "epub",
+      "currentSpecification": "epub-33",
+      "title": "EPUB",
+      "shortTitle": "EPUB",
+      "releaseUrl": "https://www.w3.org/TR/epub/",
+      "nightlyUrl": "https://w3c.github.io/epub-specs/epub33/core/"
+    },
+    "seriesVersion": "3.3",
+    "nightly": {
+      "url": "https://w3c.github.io/epub-specs/epub33/core/",
+      "sourcePath": "epub33/core/index.html",
+      "repository": "https://github.com/w3c/epub-specs",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "EPUB 3 Working Group",
+        "url": "https://www.w3.org/publishing/groups/epub-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/epub-33/",
+      "filename": "Overview.html"
+    },
+    "title": "EPUB 3.3",
+    "source": "w3c",
+    "shortTitle": "EPUB 3.3"
+  },
+  {
+    "url": "https://www.w3.org/TR/epub-rs-33/",
+    "seriesComposition": "full",
+    "shortname": "epub-rs-33",
+    "series": {
+      "shortname": "epub-rs",
+      "currentSpecification": "epub-rs-33",
+      "title": "EPUB Reading Systems",
+      "shortTitle": "EPUB Reading Systems",
+      "releaseUrl": "https://www.w3.org/TR/epub-rs/",
+      "nightlyUrl": "https://w3c.github.io/epub-specs/epub33/rs/"
+    },
+    "seriesVersion": "3.3",
+    "nightly": {
+      "url": "https://w3c.github.io/epub-specs/epub33/rs/",
+      "sourcePath": "epub33/rs/index.html",
+      "repository": "https://github.com/w3c/epub-specs",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "EPUB 3 Working Group",
+        "url": "https://www.w3.org/publishing/groups/epub-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/epub-rs-33/",
+      "filename": "Overview.html"
+    },
+    "title": "EPUB Reading Systems 3.3",
+    "source": "w3c",
+    "shortTitle": "EPUB Reading Systems 3.3"
+  },
+  {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "seriesComposition": "full",
     "shortname": "fetch-metadata",

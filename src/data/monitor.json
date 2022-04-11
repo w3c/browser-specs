@@ -279,6 +279,10 @@
     "WICG/fenced-frame": {
       "lastreviewed": "2022-03-14",
       "comment": "no published content yet"
+    },
+    "tc39/proposal-regexp-set-notation": {
+      "lastreviewed": "2022-04-11",
+      "comment": "no published content yet, actual content in a Google Doc"
     }
   },
   "specs": {

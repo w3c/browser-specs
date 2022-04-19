@@ -188,6 +188,7 @@
   "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
   "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
+  "https://w3c.github.io/window-placement/",
   {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "forkOf": "wasm-js-api-1"

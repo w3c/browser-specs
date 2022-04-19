@@ -2834,6 +2834,37 @@
     }
   },
   {
+    "url": "https://w3c.github.io/window-placement/",
+    "seriesComposition": "full",
+    "shortname": "window-placement",
+    "series": {
+      "shortname": "window-placement",
+      "currentSpecification": "window-placement",
+      "title": "Multi-Screen Window Placement",
+      "shortTitle": "Multi-Screen Window Placement",
+      "nightlyUrl": "https://w3c.github.io/window-placement/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Second Screen Working Group",
+        "url": "https://www.w3.org/2014/secondscreen/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/window-placement/",
+      "repository": "https://github.com/w3c/window-placement",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Multi-Screen Window Placement",
+    "source": "spec",
+    "shortTitle": "Multi-Screen Window Placement",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "seriesComposition": "fork",
     "shortname": "wasm-js-api-1-fork-exception-handling",

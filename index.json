@@ -17628,7 +17628,7 @@
       "title": "Identifiers for WebRTC's Statistics API",
       "shortTitle": "WebRTC Statistics",
       "releaseUrl": "https://www.w3.org/TR/webrtc-stats/",
-      "nightlyUrl": "https://w3c.github.io/webrtc-stats/"
+      "nightlyUrl": "https://w3c.github.io/webrtc-stats/archives/20170331/webrtc-stats.html"
     },
     "shortTitle": "WebRTC Statistics",
     "organization": "W3C",
@@ -17643,22 +17643,16 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-stats/",
+      "url": "https://w3c.github.io/webrtc-stats/archives/20170331/webrtc-stats.html",
       "repository": "https://github.com/w3c/webrtc-stats",
       "sourcePath": "webrtc-stats.html",
-      "filename": "index.html"
+      "filename": "webrtc-stats.html"
     },
     "title": "Identifiers for WebRTC's Statistics API",
     "source": "w3c",
     "categories": [
       "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webrtc-stats"
-      ]
-    }
+    ]
   },
   {
     "url": "https://www.w3.org/TR/webrtc-svc/",

@@ -27,6 +27,5 @@ jobs:
           The following specs have been updated since the last review:
           ${{env.review_list}}
         assignees: tidoust, dontcallmedom, sideshowbarker
-        draft: true
         branch: monitor-update
         branch-suffix: timestamp

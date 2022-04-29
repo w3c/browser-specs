@@ -191,7 +191,7 @@
   "https://w3c.github.io/window-placement/",
   {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
-    "forkOf": "wasm-js-api-1"
+    "forkOf": "wasm-js-api-2"
   },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://webidl.spec.whatwg.org/",
@@ -243,7 +243,6 @@
   "https://wicg.github.io/media-feeds/",
   "https://wicg.github.io/navigation-api/",
   "https://wicg.github.io/netinfo/",
-  "https://wicg.github.io/origin-policy/",
   "https://wicg.github.io/overscroll-scrollend-events/",
   "https://wicg.github.io/page-lifecycle/",
   "https://wicg.github.io/performance-measure-memory/",
@@ -830,8 +829,8 @@
       ]
     }
   },
-  "https://www.w3.org/TR/wasm-js-api-1/",
-  "https://www.w3.org/TR/wasm-web-api-1/",
+  "https://www.w3.org/TR/wasm-js-api-2/",
+  "https://www.w3.org/TR/wasm-web-api-2/",
   "https://www.w3.org/TR/web-animations-1/",
   "https://www.w3.org/TR/web-share/",
   "https://www.w3.org/TR/webaudio/",

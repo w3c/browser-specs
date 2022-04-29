@@ -283,6 +283,10 @@
     "tc39/proposal-regexp-set-notation": {
       "lastreviewed": "2022-04-11",
       "comment": "no published content yet, actual content in a Google Doc"
+    },
+    "WICG/origin-policy": {
+      "lastreviewed": "2022-04-29",
+      "comment": "proposal put on hold"
     }
   },
   "specs": {
@@ -357,6 +361,10 @@
     "https://www.w3.org/TR/clreq-gap/": {
       "lastreviewed": "2022-03-21",
       "comment": "WG Note of clreq-gap document incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"
+    },
+    "https://www.w3.org/TR/wasm-core-2/": {
+      "lastreviewed": "2022-04-29",
+      "comment": "Weirdly formatted multipage spec with sub-sub-pages that would likely confuse extraction logic"
     }
   }
 }

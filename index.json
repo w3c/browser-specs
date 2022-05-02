@@ -881,6 +881,37 @@
     }
   },
   {
+    "url": "https://fedidcg.github.io/FedCM/",
+    "seriesComposition": "full",
+    "shortname": "FedCM",
+    "series": {
+      "shortname": "FedCM",
+      "currentSpecification": "FedCM",
+      "title": "Federated Credential Management API",
+      "shortTitle": "Federated Credential Management API",
+      "nightlyUrl": "https://fedidcg.github.io/FedCM/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://fedidcg.github.io/FedCM/",
+      "repository": "https://github.com/fedidcg/FedCM",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "Federated Credential Management API",
+    "source": "spec",
+    "shortTitle": "Federated Credential Management API",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://fetch.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "fetch",
@@ -2557,6 +2588,37 @@
     "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
     "source": "spec",
     "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://w3c.github.io/mediacapture-viewport/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-viewport",
+    "series": {
+      "shortname": "mediacapture-viewport",
+      "currentSpecification": "mediacapture-viewport",
+      "title": "Viewport Capture",
+      "shortTitle": "Viewport Capture",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-viewport/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-viewport/",
+      "repository": "https://github.com/w3c/mediacapture-viewport",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Viewport Capture",
+    "source": "spec",
+    "shortTitle": "Viewport Capture",
     "categories": [
       "browser"
     ]

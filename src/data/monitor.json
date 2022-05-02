@@ -256,10 +256,6 @@
       "lastreviewed": "2022-05-01",
       "comment": "no published content yet"
     },
-    "w3c/mediacapture-viewport": {
-      "lastreviewed": "2022-05-01",
-      "comment": "Somewhat empty but note spec is a WebRTC WG and should fill up rapidly"
-    },
     "immersive-web/model-element": {
       "lastreviewed": "2022-05-01",
       "comment": "Empty spec"

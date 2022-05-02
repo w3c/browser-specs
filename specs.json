@@ -64,6 +64,7 @@
     "shortTitle": "Compositing 2"
   },
   "https://drafts.fxtf.org/filter-effects-2/ delta",
+  "https://fedidcg.github.io/FedCM/",
   "https://fetch.spec.whatwg.org/",
   "https://fs.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
@@ -180,6 +181,7 @@
       "sourcePath": "identity/index.html"
     }
   },
+  "https://w3c.github.io/mediacapture-viewport/",
   "https://w3c.github.io/PNG-spec/",
   "https://w3c.github.io/web-locks/",
   "https://w3c.github.io/web-nfc/",

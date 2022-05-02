@@ -68,10 +68,6 @@
       "comment": "Exposes IDL not expected to be used in a regular browsing context; might still be OK to include once we get clarity out of https://github.com/heycam/webidl/issues/896",
       "lastreviewed": "2022-05-01"
     },
-    "WICG/FedCM": {
-      "comment": "Original trial in Chromium but no intent to implement announced yet, see https://www.chromestatus.com/feature/6438627087220736. Replaces previous WebID spec.",
-      "lastreviewed": "2022-05-01"
-    },
     "WICG/kv-storage": {
       "comment": "Work on it suspended - this will probably be archived per https://github.com/WICG/admin/issues/121, but if it isn't, that may be because it is worth watching/monitoring; should check status on this at next review",
       "lastreviewed": "2022-05-01"

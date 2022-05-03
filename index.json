@@ -15264,48 +15264,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/preload/",
-    "seriesComposition": "full",
-    "shortname": "preload",
-    "series": {
-      "shortname": "preload",
-      "currentSpecification": "preload",
-      "title": "Preload",
-      "shortTitle": "Preload",
-      "releaseUrl": "https://www.w3.org/TR/preload/",
-      "nightlyUrl": "https://w3c.github.io/preload/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/preload/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/preload/",
-      "repository": "https://github.com/w3c/preload",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Preload",
-    "source": "w3c",
-    "shortTitle": "Preload",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "preload"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/presentation-api/",
     "seriesComposition": "full",
     "shortname": "presentation-api",

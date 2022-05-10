@@ -17728,6 +17728,48 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/webrtc-extensions/",
+    "seriesComposition": "full",
+    "shortname": "webrtc",
+    "series": {
+      "shortname": "webrtc",
+      "currentSpecification": "webrtc",
+      "title": "WebRTC Extensions",
+      "shortTitle": "WebRTC Extensions",
+      "releaseUrl": "https://www.w3.org/TR/webrtc-extensions/",
+      "nightlyUrl": "https://w3c.github.io/webrtc-extensions/"
+    },
+    "shortTitle": "WebRTC Extensions",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webrtc-extensions/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-extensions/",
+      "repository": "https://github.com/w3c/webrtc-extensions/",
+      "sourcePath": "webrtc-exensions.html",
+      "filename": "index.html"
+    },
+    "title": "WebRTC Extensions",
+    "source": "w3c",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webrtc"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/webtransport/",
     "seriesComposition": "full",
     "shortname": "webtransport",

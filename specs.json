@@ -174,13 +174,6 @@
       "sourcePath": "actions/index.html"
     }
   },
-  {
-    "url": "https://w3c.github.io/mediacapture-handle/identity/",
-    "shortname": "mediacapture-handle-identity",
-    "nightly": {
-      "sourcePath": "identity/index.html"
-    }
-  },
   "https://w3c.github.io/mediacapture-viewport/",
   "https://w3c.github.io/PNG-spec/",
   "https://w3c.github.io/web-locks/",
@@ -431,6 +424,12 @@
   "https://www.w3.org/TR/autoplay-detection/",
   "https://www.w3.org/TR/battery-status/",
   "https://www.w3.org/TR/beacon/",
+  {
+    "url": "https://www.w3.org/TR/capture-handle-identity/",
+    "nightly": {
+      "sourcePath": "identity/index.html"
+    }
+  },
   "https://www.w3.org/TR/clear-site-data/",
   "https://www.w3.org/TR/clipboard-apis/",
   {

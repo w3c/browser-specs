@@ -2562,37 +2562,6 @@
     ]
   },
   {
-    "url": "https://w3c.github.io/mediacapture-handle/identity/",
-    "seriesComposition": "full",
-    "shortname": "mediacapture-handle-identity",
-    "series": {
-      "shortname": "mediacapture-handle-identity",
-      "currentSpecification": "mediacapture-handle-identity",
-      "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
-      "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
-      "nightlyUrl": "https://w3c.github.io/mediacapture-handle/identity/"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-handle/identity/",
-      "sourcePath": "identity/index.html",
-      "repository": "https://github.com/w3c/mediacapture-handle",
-      "filename": "index.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
-      }
-    ],
-    "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
-    "source": "spec",
-    "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/mediacapture-viewport/",
     "seriesComposition": "full",
     "shortname": "mediacapture-viewport",
@@ -8301,6 +8270,42 @@
         "beacon"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/capture-handle-identity/",
+    "seriesComposition": "full",
+    "shortname": "capture-handle-identity",
+    "series": {
+      "shortname": "capture-handle-identity",
+      "currentSpecification": "capture-handle-identity",
+      "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
+      "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
+      "releaseUrl": "https://www.w3.org/TR/capture-handle-identity/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-handle/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-handle/",
+      "sourcePath": "identity/index.html",
+      "repository": "https://github.com/w3c/mediacapture-handle",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/capture-handle-identity/",
+      "filename": "Overview.html"
+    },
+    "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
+    "source": "w3c",
+    "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/clear-site-data/",

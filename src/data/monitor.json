@@ -275,6 +275,10 @@
     "WICG/origin-policy": {
       "lastreviewed": "2022-05-01",
       "comment": "proposal put on hold"
+    },
+    "WICG/ab-worker-prototype": {
+      "lastreviewed": "2022-05-16",
+      "comment": "no published content yet"
     }
   },
   "specs": {

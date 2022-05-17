@@ -15981,43 +15981,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/selectors-nonelement-1/",
-    "seriesComposition": "full",
-    "shortname": "selectors-nonelement-1",
-    "series": {
-      "shortname": "selectors-nonelement",
-      "currentSpecification": "selectors-nonelement-1",
-      "title": "Non-element Selectors",
-      "shortTitle": "Non-element Selectors",
-      "releaseUrl": "https://www.w3.org/TR/selectors-nonelement/",
-      "nightlyUrl": "https://drafts.csswg.org/selectors-nonelement/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/selectors-nonelement-1/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/selectors-nonelement/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "selectors-nonelement-1/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Non-element Selectors Module Level 1",
-    "source": "w3c",
-    "shortTitle": "Non-element Selectors 1",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://www.w3.org/TR/server-timing/",
     "seriesComposition": "full",
     "shortname": "server-timing",

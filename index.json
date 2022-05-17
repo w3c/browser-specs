@@ -2893,7 +2893,13 @@
     "shortTitle": "Multi-Screen Window Placement",
     "categories": [
       "browser"
-    ]
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "window-placement"
+      ]
+    }
   },
   {
     "url": "https://webassembly.github.io/exception-handling/js-api/",

@@ -2743,7 +2743,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "nightly": {
@@ -2774,7 +2774,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "nightly": {
@@ -8329,7 +8329,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -8505,7 +8505,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -8547,7 +8547,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -8590,7 +8590,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -12801,7 +12801,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -14456,7 +14456,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -15078,7 +15078,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -15120,7 +15120,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -15416,7 +15416,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -15833,7 +15833,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -16088,7 +16088,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {
@@ -16704,7 +16704,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/2011/webappsec/"
+        "url": "https://www.w3.org/groups/wg/webappsec"
       }
     ],
     "release": {

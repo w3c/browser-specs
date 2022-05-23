@@ -272,6 +272,10 @@
       "lastreviewed": "2022-05-01",
       "comment": "no published content yet, actual content in a Google Doc"
     },
+    "tc39/proposal-regexp-v-flag": {
+      "lastreviewed": "2022-05-23",
+      "comment": "no published content yet, actual content in a Readme"
+    },
     "WICG/origin-policy": {
       "lastreviewed": "2022-05-01",
       "comment": "proposal put on hold"

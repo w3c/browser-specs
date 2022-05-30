@@ -881,6 +881,14 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/WOFF/",
+    "shortTitle": "WOFF 1.0",
+    "nightly": {
+      "url": "https://w3c.github.io/woff/woff1/spec/Overview.html",
+      "sourcePath": "woff1/spec/Overview.html"
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/WOFF2/",
     "shortTitle": "WOFF 2.0",
     "nightly": {

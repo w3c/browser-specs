@@ -2339,37 +2339,6 @@
     }
   },
   {
-    "url": "https://w3c.github.io/event-timing/",
-    "seriesComposition": "full",
-    "shortname": "event-timing",
-    "series": {
-      "shortname": "event-timing",
-      "currentSpecification": "event-timing",
-      "title": "Event Timing API",
-      "shortTitle": "Event Timing API",
-      "nightlyUrl": "https://w3c.github.io/event-timing/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/event-timing/",
-      "repository": "https://github.com/w3c/event-timing",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Event Timing API",
-    "source": "specref",
-    "shortTitle": "Event Timing API",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "seriesComposition": "full",
     "shortname": "gamepad-extensions",
@@ -2396,37 +2365,6 @@
     "title": "Gamepad Extensions",
     "source": "spec",
     "shortTitle": "Gamepad Extensions",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/largest-contentful-paint/",
-    "seriesComposition": "full",
-    "shortname": "largest-contentful-paint",
-    "series": {
-      "shortname": "largest-contentful-paint",
-      "currentSpecification": "largest-contentful-paint",
-      "title": "Largest Contentful Paint",
-      "shortTitle": "Largest Contentful Paint",
-      "nightlyUrl": "https://w3c.github.io/largest-contentful-paint/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/largest-contentful-paint/",
-      "repository": "https://github.com/w3c/largest-contentful-paint",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Largest Contentful Paint",
-    "source": "specref",
-    "shortTitle": "Largest Contentful Paint",
     "categories": [
       "browser"
     ]
@@ -2557,37 +2495,6 @@
     "title": "The Capture-Handle Actions Mechanism",
     "source": "spec",
     "shortTitle": "The Capture-Handle Actions Mechanism",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/mediacapture-viewport/",
-    "seriesComposition": "full",
-    "shortname": "mediacapture-viewport",
-    "series": {
-      "shortname": "mediacapture-viewport",
-      "currentSpecification": "mediacapture-viewport",
-      "title": "Viewport Capture",
-      "shortTitle": "Viewport Capture",
-      "nightlyUrl": "https://w3c.github.io/mediacapture-viewport/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/mediacapture-viewport/",
-      "repository": "https://github.com/w3c/mediacapture-viewport",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Viewport Capture",
-    "source": "spec",
-    "shortTitle": "Viewport Capture",
     "categories": [
       "browser"
     ]
@@ -3047,6 +2954,37 @@
     }
   },
   {
+    "url": "https://wicg.github.io/attribution-reporting-api/",
+    "seriesComposition": "full",
+    "shortname": "attribution-reporting-api",
+    "series": {
+      "shortname": "attribution-reporting-api",
+      "currentSpecification": "attribution-reporting-api",
+      "title": "Attribution Reporting",
+      "shortTitle": "Attribution Reporting",
+      "nightlyUrl": "https://wicg.github.io/attribution-reporting-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/attribution-reporting-api/",
+      "repository": "https://github.com/WICG/attribution-reporting-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Attribution Reporting",
+    "source": "spec",
+    "shortTitle": "Attribution Reporting",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://wicg.github.io/background-fetch/",
     "seriesComposition": "full",
     "shortname": "background-fetch",
@@ -3329,37 +3267,6 @@
         "content-index"
       ]
     }
-  },
-  {
-    "url": "https://wicg.github.io/conversion-measurement-api/",
-    "seriesComposition": "full",
-    "shortname": "conversion-measurement-api",
-    "series": {
-      "shortname": "conversion-measurement-api",
-      "currentSpecification": "conversion-measurement-api",
-      "title": "Attribution Reporting",
-      "shortTitle": "Attribution Reporting",
-      "nightlyUrl": "https://wicg.github.io/conversion-measurement-api/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/conversion-measurement-api/",
-      "repository": "https://github.com/WICG/conversion-measurement-api",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Attribution Reporting",
-    "source": "spec",
-    "shortTitle": "Attribution Reporting",
-    "categories": [
-      "browser"
-    ]
   },
   {
     "url": "https://wicg.github.io/cookie-store/",
@@ -12785,6 +12692,42 @@
     "shortTitle": "EPUB Reading Systems 3.3"
   },
   {
+    "url": "https://www.w3.org/TR/event-timing/",
+    "seriesComposition": "full",
+    "shortname": "event-timing",
+    "series": {
+      "shortname": "event-timing",
+      "currentSpecification": "event-timing",
+      "title": "Event Timing API",
+      "shortTitle": "Event Timing API",
+      "releaseUrl": "https://www.w3.org/TR/event-timing/",
+      "nightlyUrl": "https://w3c.github.io/event-timing"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/event-timing/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/event-timing",
+      "repository": "https://github.com/w3c/event-timing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Event Timing API",
+    "source": "w3c",
+    "shortTitle": "Event Timing API",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "seriesComposition": "full",
     "shortname": "fetch-metadata",
@@ -13763,6 +13706,48 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/largest-contentful-paint/",
+    "seriesComposition": "full",
+    "shortname": "largest-contentful-paint",
+    "series": {
+      "shortname": "largest-contentful-paint",
+      "currentSpecification": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "shortTitle": "Largest Contentful Paint",
+      "releaseUrl": "https://www.w3.org/TR/largest-contentful-paint/",
+      "nightlyUrl": "https://wicg.github.io/largest-contentful-paint"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/webperf/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/largest-contentful-paint/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/largest-contentful-paint",
+      "repository": "https://github.com/WICG/largest-contentful-paint",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Largest Contentful Paint",
+    "source": "w3c",
+    "shortTitle": "Largest Contentful Paint",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "largest-contentful-paint"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/longtasks-1/",
     "seriesComposition": "full",
     "shortname": "longtasks-1",
@@ -14162,6 +14147,42 @@
     "title": "MediaStreamTrack Insertable Media Processing using Streams",
     "source": "w3c",
     "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/mediacapture-viewport/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-viewport",
+    "series": {
+      "shortname": "mediacapture-viewport",
+      "currentSpecification": "mediacapture-viewport",
+      "title": "Viewport Capture",
+      "shortTitle": "Viewport Capture",
+      "releaseUrl": "https://www.w3.org/TR/mediacapture-viewport/",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-viewport/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/mediacapture-viewport/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-viewport/",
+      "repository": "https://github.com/w3c/mediacapture-viewport",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Viewport Capture",
+    "source": "w3c",
+    "shortTitle": "Viewport Capture",
     "categories": [
       "browser"
     ]

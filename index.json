@@ -18227,16 +18227,59 @@
     ]
   },
   {
+    "url": "https://www.w3.org/TR/WOFF/",
+    "seriesComposition": "full",
+    "shortname": "WOFF",
+    "series": {
+      "shortname": "WOFF",
+      "currentSpecification": "WOFF",
+      "title": "WOFF File Format",
+      "shortTitle": "WOFF",
+      "releaseUrl": "https://www.w3.org/TR/WOFF/",
+      "nightlyUrl": "https://w3c.github.io/woff/woff1/spec/Overview.html"
+    },
+    "shortTitle": "WOFF 1.0",
+    "nightly": {
+      "url": "https://w3c.github.io/woff/woff1/spec/Overview.html",
+      "sourcePath": "woff1/spec/Overview.html",
+      "repository": "https://github.com/w3c/woff",
+      "filename": "Overview.html"
+    },
+    "tests": {
+      "repository": "https://github.com/w3c/woff",
+      "testPaths": [
+        "woff1/tests"
+      ]
+    },
+    "seriesNext": "WOFF2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Fonts Working Group",
+        "url": "https://www.w3.org/Fonts/WG/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/WOFF/",
+      "filename": "Overview.html"
+    },
+    "title": "WOFF File Format 1.0",
+    "source": "w3c",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://www.w3.org/TR/WOFF2/",
     "seriesComposition": "full",
     "shortname": "WOFF2",
     "series": {
       "shortname": "WOFF",
-      "currentSpecification": "WOFF2",
+      "currentSpecification": "WOFF",
       "title": "WOFF File Format",
       "shortTitle": "WOFF",
       "releaseUrl": "https://www.w3.org/TR/WOFF/",
-      "nightlyUrl": "https://w3c.github.io/woff/woff2/"
+      "nightlyUrl": "https://w3c.github.io/woff/woff1/spec/Overview.html"
     },
     "seriesVersion": "2",
     "shortTitle": "WOFF 2.0",
@@ -18246,6 +18289,7 @@
       "repository": "https://github.com/w3c/woff",
       "filename": "index.html"
     },
+    "seriesPrevious": "WOFF",
     "organization": "W3C",
     "groups": [
       {

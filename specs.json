@@ -82,6 +82,18 @@
   "https://privacycg.github.io/private-click-measurement/",
   "https://privacycg.github.io/storage-access/",
   "https://quirks.spec.whatwg.org/",
+  {
+    "url": "https://sourcemaps.info/spec.html",
+    "shortname": "sourcemap",
+    "shortTitle": "Source Map",
+    "organization": "sourcemaps.info",
+    "groups": [
+      {
+        "name": "sourcemaps.info",
+        "url": "https://sourcemaps.info/"
+      }
+    ]
+  },
   "https://storage.spec.whatwg.org/",
   "https://streams.spec.whatwg.org/",
   "https://svgwg.org/specs/animations/",

@@ -1384,6 +1384,35 @@
     }
   },
   {
+    "url": "https://sourcemaps.info/spec.html",
+    "seriesComposition": "full",
+    "shortname": "sourcemap",
+    "series": {
+      "shortname": "sourcemap",
+      "currentSpecification": "sourcemap",
+      "title": "Source Map Revision 3 Proposal",
+      "shortTitle": "Source Map",
+      "nightlyUrl": "https://sourcemaps.info/spec.html"
+    },
+    "shortTitle": "Source Map",
+    "organization": "sourcemaps.info",
+    "groups": [
+      {
+        "name": "sourcemaps.info",
+        "url": "https://sourcemaps.info/"
+      }
+    ],
+    "nightly": {
+      "url": "https://sourcemaps.info/spec.html",
+      "filename": "spec.html"
+    },
+    "title": "Source Map Revision 3 Proposal",
+    "source": "spec",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://storage.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "storage",

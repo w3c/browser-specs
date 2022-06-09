@@ -44,6 +44,7 @@ function canonicalizeTRUrl(url) {
   return url.toString();
 }
 
+const trimSlash = url => url.endsWith('/') ? url.slice(0, -1) : url;
 const toGhUrl = repo => { return {repo: `${repo.owner.login}/${repo.name}`, spec: `https://${repo.owner.login.toLowerCase()}.github.io/${repo.name}/`}; };
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const isRelevantRepo = fullName => !Object.keys(ignorable.repos).includes(fullName) && !Object.keys(temporarilyIgnorableRepos).includes(fullName);
@@ -67,11 +68,11 @@ const hasMoreRecentLevel = (s, url, loose) => {
     return false;
   }
 };
-const hasUntrackedURL = ({spec: url}) => !specs.find(s => s.nightly.url.startsWith(url)
-                                                    || (s.release && s.release.url === url))
+const hasUntrackedURL = ({spec: url}) => !specs.find(s => s.nightly.url.startsWith(trimSlash(url))
+                                                    || (s.release && trimSlash(s.release.url) === trimSlash(url)))
       && !specs.find(s => hasMoreRecentLevel(s, url, url.match(/\/drafts\./) && !url.match(/\/w3\.org/) // Because CSS specs have editors draft with and without levels, we look loosely for more recent levels when checking with editors draft
                                             ));
-const hasUnknownTrSpec = ({spec: url}) => !specs.find(s => s.release && s.release.url === url) && !specs.find(s => hasMoreRecentLevel(s,url));
+const hasUnknownTrSpec = ({spec: url}) => !specs.find(s => s.release && trimSlash(s.release.url) === trimSlash(url)) && !specs.find(s => hasMoreRecentLevel(s,url));
 
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));

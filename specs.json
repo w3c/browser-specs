@@ -171,6 +171,7 @@
     "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
     "nightly": {
       "sourcePath": "spec.emu"
+    }
   },
   "https://tc39.es/proposal-temporal/",
   "https://testutils.spec.whatwg.org/",

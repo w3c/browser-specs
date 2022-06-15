@@ -152,6 +152,9 @@
     "WICG/controls-list": {
       "comment": "aimed toward HTML LS  https://github.com/whatwg/html/pull/2426"
     },
+    "WICG/credentiallessness": {
+      "comment": "merged into the HTML and Fetch specifications"
+    },
     "WICG/cross-origin-embedder-policy": {
       "comment": "aimed toward integration in other specs - see https://github.com/whatwg/html/pull/5454"
     },

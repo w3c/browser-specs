@@ -215,7 +215,6 @@
   "https://wicg.github.io/content-index/spec/",
   "https://wicg.github.io/cookie-store/",
   "https://wicg.github.io/crash-reporting/",
-  "https://wicg.github.io/credentiallessness/",
   {
     "url": "https://wicg.github.io/csp-next/scripting-policy.html",
     "nightly": {

@@ -2164,6 +2164,37 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
+    "seriesComposition": "full",
+    "shortname": "tc39-symbols-as-weakmap-keys",
+    "series": {
+      "shortname": "tc39-symbols-as-weakmap-keys",
+      "currentSpecification": "tc39-symbols-as-weakmap-keys",
+      "title": "Symbol as WeakMap Keys Proposal",
+      "shortTitle": "Symbol as WeakMap Keys",
+      "nightlyUrl": "https://tc39.es/proposal-symbols-as-weakmap-keys/"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
+      "sourcePath": "spec.emu",
+      "repository": "https://github.com/tc39/proposal-symbols-as-weakmap-keys",
+      "filename": "index.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "Symbol as WeakMap Keys Proposal",
+    "source": "spec",
+    "shortTitle": "Symbol as WeakMap Keys",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-temporal/",
     "seriesComposition": "full",
     "shortname": "tc39-temporal",
@@ -3361,37 +3392,6 @@
     "title": "Crash Reporting",
     "source": "spec",
     "shortTitle": "Crash Reporting",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://wicg.github.io/credentiallessness/",
-    "seriesComposition": "full",
-    "shortname": "credentiallessness",
-    "series": {
-      "shortname": "credentiallessness",
-      "currentSpecification": "credentiallessness",
-      "title": "Cross-Origin-Embedder-Policy: credentialless",
-      "shortTitle": "Cross-Origin-Embedder-Policy: credentialless",
-      "nightlyUrl": "https://wicg.github.io/credentiallessness/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/credentiallessness/",
-      "repository": "https://github.com/WICG/credentiallessness",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Cross-Origin-Embedder-Policy: credentialless",
-    "source": "spec",
-    "shortTitle": "Cross-Origin-Embedder-Policy: credentialless",
     "categories": [
       "browser"
     ]
@@ -13768,7 +13768,13 @@
     "shortTitle": "Largest Contentful Paint",
     "categories": [
       "browser"
-    ]
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "largest-contentful-paint"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/longtasks-1/",
@@ -17171,7 +17177,7 @@
     "groups": [
       {
         "name": "Audio Working Group",
-        "url": "https://www.w3.org/2011/audio/"
+        "url": "https://www.w3.org/groups/wg/audio"
       }
     ],
     "release": {
@@ -17425,7 +17431,7 @@
     "groups": [
       {
         "name": "Audio Working Group",
-        "url": "https://www.w3.org/2011/audio/"
+        "url": "https://www.w3.org/groups/wg/audio"
       }
     ],
     "release": {

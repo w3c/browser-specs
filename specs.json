@@ -167,7 +167,12 @@
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-resizablearraybuffer/",
   "https://tc39.es/proposal-shadowrealm/",
-  "https://tc39.es/proposal-symbols-as-weakmap-keys/",
+  {
+    "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
+    "nightly": {
+      "sourcePath": "spec.emu"
+    }
+  },
   "https://tc39.es/proposal-temporal/",
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",

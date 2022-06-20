@@ -287,6 +287,10 @@
     "WICG/ab-worker-prototype": {
       "lastreviewed": "2022-05-16",
       "comment": "no published content yet"
+    },
+    "WICG/shared-storage": {
+      "lastreviewed": "2022-06-20",
+      "comment": "no published content yet"
     }
   },
   "specs": {

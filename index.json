@@ -2856,7 +2856,7 @@
       "filename": "index.html"
     },
     "title": "Multi-Screen Window Placement",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Multi-Screen Window Placement",
     "categories": [
       "browser"
@@ -15584,8 +15584,8 @@
     "series": {
       "shortname": "requestidlecallback",
       "currentSpecification": "requestidlecallback",
-      "title": "Cooperative Scheduling of Background Tasks",
-      "shortTitle": "Cooperative Scheduling of Background Tasks",
+      "title": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
+      "shortTitle": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
       "releaseUrl": "https://www.w3.org/TR/requestidlecallback/",
       "nightlyUrl": "https://w3c.github.io/requestidlecallback/"
     },
@@ -15606,9 +15606,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Cooperative Scheduling of Background Tasks",
+    "title": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
     "source": "w3c",
-    "shortTitle": "Cooperative Scheduling of Background Tasks",
+    "shortTitle": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
     "categories": [
       "browser"
     ],

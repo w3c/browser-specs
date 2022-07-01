@@ -1,5 +1,9 @@
 {
   "repos": {
+    "privacycg/CHIPS": {
+      "comment": "no spec yet",
+      "lastreviewed": "2022-07-01"
+    },
     "privacycg/storage-partitioning": {
       "comment": "mostly TODOs",
       "lastreviewed": "2022-05-01"
@@ -301,6 +305,10 @@
     "https://drafts.csswg.org/css-color-hdr/": {
       "comment": "Marked as unofficial proposal",
       "lastreviewed": "2022-05-01"
+    },
+    "https://drafts.csswg.org/css-color-6/": {
+      "comment": "Marked as not ready for implementation",
+      "lastreviewed": "2022-07-01"
     },
     "https://drafts.csswg.org/css-block-3/": {
       "comment": "Placholder for an eventual CSS Block Layout Level 3 Module",

@@ -350,14 +350,6 @@
       "comment": "being split-off from main spec https://github.com/w3c/PFE/pull/9/files; stub",
       "lastreviewed": "2022-07-01"
     },
-    "https://wicg.github.io/nav-speculation/prerendering.html": {
-      "comment": "Early draft that contains a collection of specification patches, origin trial in Chromium but no clear implementation plans yet https://chromestatus.com/feature/5355965538893824",
-      "lastreviewed": "2022-07-01"
-    },
-    "https://wicg.github.io/nav-speculation/speculation-rules.html": {
-      "comment": "Original trial in Chromium but no intent to implement announced yet https://chromestatus.com/feature/5740655424831488",
-      "lastreviewed": "2022-07-01"
-    },
     "https://www.w3.org/TR/clreq-gap/": {
       "lastreviewed": "2022-07-01",
       "comment": "WG Note of clreq-gap document incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"

@@ -250,6 +250,18 @@
   "https://wicg.github.io/local-font-access/",
   "https://wicg.github.io/manifest-incubations/",
   "https://wicg.github.io/media-feeds/",
+  {
+    "url": "https://wicg.github.io/nav-speculation/prefetch.html",
+    "shortname": "prefetch"
+  },
+  {
+    "url": "https://wicg.github.io/nav-speculation/prerendering.html",
+    "shortname": "prerendering-revamped"
+  },
+  {
+    "url": "https://wicg.github.io/nav-speculation/speculation-rules.html",
+    "shortname": "speculation-rules"
+  },
   "https://wicg.github.io/navigation-api/",
   "https://wicg.github.io/netinfo/",
   "https://wicg.github.io/overscroll-scrollend-events/",

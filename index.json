@@ -4274,6 +4274,99 @@
     ]
   },
   {
+    "url": "https://wicg.github.io/nav-speculation/prefetch.html",
+    "seriesComposition": "full",
+    "shortname": "prefetch",
+    "series": {
+      "shortname": "prefetch",
+      "currentSpecification": "prefetch",
+      "title": "Prefetch",
+      "shortTitle": "Prefetch",
+      "nightlyUrl": "https://wicg.github.io/nav-speculation/prefetch.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/nav-speculation/prefetch.html",
+      "repository": "https://github.com/WICG/nav-speculation",
+      "sourcePath": "prefetch.bs",
+      "filename": "prefetch.html"
+    },
+    "title": "Prefetch",
+    "source": "spec",
+    "shortTitle": "Prefetch",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://wicg.github.io/nav-speculation/prerendering.html",
+    "seriesComposition": "full",
+    "shortname": "prerendering-revamped",
+    "series": {
+      "shortname": "prerendering-revamped",
+      "currentSpecification": "prerendering-revamped",
+      "title": "Prerendering Revamped",
+      "shortTitle": "Prerendering Revamped",
+      "nightlyUrl": "https://wicg.github.io/nav-speculation/prerendering.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/nav-speculation/prerendering.html",
+      "repository": "https://github.com/WICG/nav-speculation",
+      "sourcePath": "prerendering.bs",
+      "filename": "prerendering.html"
+    },
+    "title": "Prerendering Revamped",
+    "source": "spec",
+    "shortTitle": "Prerendering Revamped",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://wicg.github.io/nav-speculation/speculation-rules.html",
+    "seriesComposition": "full",
+    "shortname": "speculation-rules",
+    "series": {
+      "shortname": "speculation-rules",
+      "currentSpecification": "speculation-rules",
+      "title": "Speculation Rules",
+      "shortTitle": "Speculation Rules",
+      "nightlyUrl": "https://wicg.github.io/nav-speculation/speculation-rules.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/nav-speculation/speculation-rules.html",
+      "repository": "https://github.com/WICG/nav-speculation",
+      "sourcePath": "speculation-rules.bs",
+      "filename": "speculation-rules.html"
+    },
+    "title": "Speculation Rules",
+    "source": "spec",
+    "shortTitle": "Speculation Rules",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://wicg.github.io/navigation-api/",
     "seriesComposition": "full",
     "shortname": "navigation-api",

@@ -170,6 +170,9 @@
     "WICG/interventions": {
       "comment": "not a spec"
     },
+    "WICG/kv-storage": {
+      "comment": "repo archived, proposal is inactive as no browser vendors are investing in it"
+    },
     "WICG/devtools-protocol": {
       "comment": "browser devtool protocol"
     },

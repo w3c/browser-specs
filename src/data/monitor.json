@@ -291,6 +291,10 @@
     "WICG/shared-storage": {
       "lastreviewed": "2022-07-01",
       "comment": "no published content yet"
+    },
+    "WICG/unload-beacon": {
+      "lastreviewed": "2022-07-11",
+      "comment": "no published content yet"
     }
   },
   "specs": {

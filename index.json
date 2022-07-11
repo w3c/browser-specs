@@ -723,6 +723,46 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-variables-2/",
+    "seriesComposition": "full",
+    "shortname": "css-variables-2",
+    "series": {
+      "shortname": "css-variables",
+      "currentSpecification": "css-variables-1",
+      "title": "CSS Custom Properties for Cascading Variables",
+      "shortTitle": "CSS Variables",
+      "releaseUrl": "https://www.w3.org/TR/css-variables/",
+      "nightlyUrl": "https://drafts.csswg.org/css-variables/"
+    },
+    "seriesVersion": "2",
+    "shortTitle": "CSS Variables 2",
+    "seriesPrevious": "css-variables-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-variables-2/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-variables-2/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Custom Properties for Cascading Variables Module Level 2",
+    "source": "spec",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-variables"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/scroll-animations-1/",
     "seriesComposition": "full",
     "shortname": "scroll-animations-1",
@@ -2828,43 +2868,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "webrtc-ice"
-      ]
-    }
-  },
-  {
-    "url": "https://w3c.github.io/window-placement/",
-    "seriesComposition": "full",
-    "shortname": "window-placement",
-    "series": {
-      "shortname": "window-placement",
-      "currentSpecification": "window-placement",
-      "title": "Multi-Screen Window Placement",
-      "shortTitle": "Multi-Screen Window Placement",
-      "nightlyUrl": "https://w3c.github.io/window-placement/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Second Screen Working Group",
-        "url": "https://www.w3.org/2014/secondscreen/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/window-placement/",
-      "repository": "https://github.com/w3c/window-placement",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Multi-Screen Window Placement",
-    "source": "specref",
-    "shortTitle": "Multi-Screen Window Placement",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "window-placement"
       ]
     }
   },
@@ -12075,6 +12078,7 @@
     },
     "seriesVersion": "1",
     "shortTitle": "CSS Variables 1",
+    "seriesNext": "css-variables-2",
     "organization": "W3C",
     "groups": [
       {
@@ -18310,6 +18314,48 @@
     "categories": [
       "browser"
     ]
+  },
+  {
+    "url": "https://www.w3.org/TR/window-placement/",
+    "seriesComposition": "full",
+    "shortname": "window-placement",
+    "series": {
+      "shortname": "window-placement",
+      "currentSpecification": "window-placement",
+      "title": "Multi-Screen Window Placement",
+      "shortTitle": "Multi-Screen Window Placement",
+      "releaseUrl": "https://www.w3.org/TR/window-placement/",
+      "nightlyUrl": "https://w3c.github.io/window-placement/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Second Screen Working Group",
+        "url": "https://www.w3.org/2014/secondscreen/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/window-placement/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/window-placement/",
+      "repository": "https://github.com/w3c/window-placement",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Multi-Screen Window Placement",
+    "source": "w3c",
+    "shortTitle": "Multi-Screen Window Placement",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "window-placement"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/WOFF/",

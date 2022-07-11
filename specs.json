@@ -57,6 +57,10 @@
     "shortTitle": "CSS Values 5",
     "seriesComposition": "delta"
   },
+  {
+    "url": "https://drafts.csswg.org/css-variables-2/",
+    "shortTitle": "CSS Variables 2"
+  },
   "https://drafts.csswg.org/scroll-animations-1/",
   "https://drafts.csswg.org/web-animations-2/ delta",
   {
@@ -198,7 +202,6 @@
   "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
   "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
-  "https://w3c.github.io/window-placement/",
   {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "forkOf": "wasm-js-api-2"
@@ -908,6 +911,7 @@
       "sourcePath": "wgsl/index.bs"
     }
   },
+  "https://www.w3.org/TR/window-placement/",
   {
     "url": "https://www.w3.org/TR/WOFF/",
     "shortTitle": "WOFF 1.0",

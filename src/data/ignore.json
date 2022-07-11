@@ -83,6 +83,9 @@
     "WICG/open-ui": {
       "comment": "not targeted at browsers"
     },
+    "WICG/visual-viewport": {
+      "comment": "merged into CSSOM View"
+    },
     "privacycg/template": {
       "comment": "not for spec"
     },

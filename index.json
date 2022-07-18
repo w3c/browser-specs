@@ -16165,12 +16165,12 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/service-workers-1/",
+      "url": "https://www.w3.org/TR/service-workers/",
       "filename": "Overview.html"
     },
-    "title": "Service Workers 1",
+    "title": "Service Workers",
     "source": "w3c",
-    "shortTitle": "Service Workers 1",
+    "shortTitle": "Service Workers",
     "categories": [
       "browser"
     ],

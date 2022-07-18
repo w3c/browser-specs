@@ -60,6 +60,7 @@ function fetchWPT() {
     // Clone repo using sparse mode: the repo is huge and we're only interested
     // in META.yml files
     execSync("git clone https://github.com/web-platform-tests/wpt.git --depth 1 --sparse", { cwd: cacheFolder });
+    execSync("git sparse-checkout set --no-cone", { cwd: wptFolder });
     execSync("git sparse-checkout add **/META.yml", { cwd: wptFolder });
   }
 }

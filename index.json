@@ -12479,7 +12479,7 @@
       "title": "Device Memory",
       "shortTitle": "Device Memory",
       "releaseUrl": "https://www.w3.org/TR/device-memory/",
-      "nightlyUrl": "https://w3c.github.io/device-memory/"
+      "nightlyUrl": "https://www.w3.org/TR/device-memory/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -12494,23 +12494,17 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/device-memory/",
+      "url": "https://www.w3.org/TR/device-memory/",
       "repository": "https://github.com/w3c/device-memory",
       "sourcePath": "index.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Device Memory",
     "source": "w3c",
     "shortTitle": "Device Memory",
     "categories": [
       "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "device-memory"
-      ]
-    }
+    ]
   },
   {
     "url": "https://www.w3.org/TR/device-posture/",

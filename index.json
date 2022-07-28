@@ -16164,23 +16164,16 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/service-workers-1/",
+    "url": "https://www.w3.org/TR/service-workers/",
     "seriesComposition": "full",
-    "shortname": "service-workers-1",
+    "shortname": "service-workers",
     "series": {
       "shortname": "service-workers",
-      "currentSpecification": "service-workers-1",
+      "currentSpecification": "service-workers",
       "title": "Service Workers",
       "shortTitle": "Service Workers",
       "releaseUrl": "https://www.w3.org/TR/service-workers/",
       "nightlyUrl": "https://w3c.github.io/ServiceWorker/"
-    },
-    "seriesVersion": "1",
-    "nightly": {
-      "url": "https://w3c.github.io/ServiceWorker/",
-      "repository": "https://github.com/w3c/ServiceWorker",
-      "sourcePath": "docs/index.bs",
-      "filename": "index.html"
     },
     "organization": "W3C",
     "groups": [
@@ -16192,6 +16185,12 @@
     "release": {
       "url": "https://www.w3.org/TR/service-workers/",
       "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/ServiceWorker/",
+      "repository": "https://github.com/w3c/ServiceWorker",
+      "sourcePath": "docs/index.bs",
+      "filename": "index.html"
     },
     "title": "Service Workers",
     "source": "w3c",

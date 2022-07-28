@@ -2142,6 +2142,37 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-json-parse-with-source/",
+    "seriesComposition": "full",
+    "shortname": "tc39-json-parse-with-source",
+    "series": {
+      "shortname": "tc39-json-parse-with-source",
+      "currentSpecification": "tc39-json-parse-with-source",
+      "title": "JSON.parse source text access",
+      "shortTitle": "JSON.parse source text access",
+      "nightlyUrl": "https://tc39.es/proposal-json-parse-with-source/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-json-parse-with-source/",
+      "repository": "https://github.com/tc39/proposal-json-parse-with-source",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "JSON.parse source text access",
+    "source": "spec",
+    "shortTitle": "JSON.parse source text access",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",
     "seriesComposition": "full",
     "shortname": "tc39-resizablearraybuffer",

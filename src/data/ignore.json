@@ -378,6 +378,9 @@
     },
     "https://www.w3.org/TR/RangeRequest/": {
       "comment": "Integrated in Incremental Font Transfer (IFT) spec"
+    },
+    "https://w3c.github.io/device-memory/": {
+      "comment": "Already in the list. Code gets confused because TR spec links to itself as ED"
     }
   }
 }

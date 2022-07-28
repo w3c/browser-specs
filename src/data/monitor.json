@@ -280,6 +280,10 @@
       "lastreviewed": "2022-07-01",
       "comment": "no published content yet, actual content in a Readme"
     },
+    "tc39/proposal-duplicate-named-capturing-groups": {
+      "lastreviewed": "2022-07-28",
+      "comment": "no published content yet, actual content in PR https://github.com/tc39/ecma262/pull/2721"
+    },
     "WICG/origin-policy": {
       "lastreviewed": "2022-07-01",
       "comment": "proposal put on hold"

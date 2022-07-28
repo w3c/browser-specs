@@ -800,12 +800,7 @@
   "https://www.w3.org/TR/selection-api/",
   "https://www.w3.org/TR/selectors-4/",
   "https://www.w3.org/TR/server-timing/",
-  {
-    "url": "https://www.w3.org/TR/service-workers-1/",
-    "nightly": {
-      "url": "https://w3c.github.io/ServiceWorker/"
-    }
-  },
+  "https://www.w3.org/TR/service-workers/",
   {
     "url": "https://www.w3.org/TR/SRI/",
     "shortTitle": "SRI"

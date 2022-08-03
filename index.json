@@ -12535,7 +12535,13 @@
     "shortTitle": "Device Memory",
     "categories": [
       "browser"
-    ]
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "device-memory"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/device-posture/",

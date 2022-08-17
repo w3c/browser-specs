@@ -9186,6 +9186,12 @@
       "nightlyUrl": "https://drafts.csswg.org/css-color/"
     },
     "seriesVersion": "4",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-4/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-color-4/Overview.bs",
+      "filename": "Overview.html"
+    },
     "seriesNext": "css-color-5",
     "organization": "W3C",
     "groups": [
@@ -9196,12 +9202,6 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-color-4/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-color/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-color-4/Overview.bs",
       "filename": "Overview.html"
     },
     "title": "CSS Color Module Level 4",
@@ -15119,17 +15119,18 @@
     ]
   },
   {
-    "url": "https://www.w3.org/TR/payment-request/",
+    "url": "https://www.w3.org/TR/payment-request-1.1/",
     "seriesComposition": "full",
-    "shortname": "payment-request",
+    "shortname": "payment-request-1.1",
     "series": {
       "shortname": "payment-request",
-      "currentSpecification": "payment-request",
+      "currentSpecification": "payment-request-1.1",
       "title": "Payment Request API",
       "shortTitle": "Payment Request API",
       "releaseUrl": "https://www.w3.org/TR/payment-request/",
       "nightlyUrl": "https://w3c.github.io/payment-request/"
     },
+    "seriesVersion": "1.1",
     "organization": "W3C",
     "groups": [
       {
@@ -15138,7 +15139,7 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/payment-request/",
+      "url": "https://www.w3.org/TR/payment-request-1.1/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -15147,9 +15148,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Payment Request API",
+    "title": "Payment Request API 1.1",
     "source": "w3c",
-    "shortTitle": "Payment Request API",
+    "shortTitle": "Payment Request API 1.1",
     "categories": [
       "browser"
     ],

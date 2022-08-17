@@ -497,7 +497,12 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Cascading 6"
   },
-  "https://www.w3.org/TR/css-color-4/",
+  {
+    "url": "https://www.w3.org/TR/css-color-4/",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-4/"
+    }
+  },
   "https://www.w3.org/TR/css-color-5/ delta",
   "https://www.w3.org/TR/css-color-adjust-1/",
   {

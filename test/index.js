@@ -118,12 +118,12 @@ describe("List of specs", () => {
   });
 
   it("has series titles that look consistent with spec titles", () => {
-    // Note the WebRTC spec follows a slightly different pattern
+    // Note the WebRTC and JSON-LD specs follow a slightly different pattern
     // TEMP (2022-01-05): temp exception to the rule: published version of CSS
     // Images Level 4 has an obscure title à la "CSS Image Values..."
     // (should get fixed next time the spec gets published to /TR)
     const wrong = specs.filter(s => !s.title.includes(s.series.title))
-      .filter(s => !["webrtc", "css-images-4"].includes(s.shortname));
+      .filter(s => !["webrtc", "json-ld11-api", "json-ld11-framing", "css-images-4"].includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });
 

@@ -57,7 +57,7 @@ const hasMoreRecentLevel = (s, url, loose) => {
   try {
     const shortnameData = computeShortname(url);
     return s.series.shortname === shortnameData.series.shortname
-      && (s.seriesVersion > shortnameData.seriesVersion
+      && (s.seriesVersion > (shortnameData.seriesVersion ?? '')
           || loose && (s.seriesVersion === shortnameData.seriesVersion
                        // case of CSS drafts whose known editors drafts are version-less, but the directories in the repo use versions
                        || !s.seriesVersion

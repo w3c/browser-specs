@@ -720,6 +720,33 @@
   },
   "https://www.w3.org/TR/input-events-2/",
   "https://www.w3.org/TR/intersection-observer/",
+  {
+    "url": "https://www.w3.org/TR/json-ld11-api/",
+    "series": {
+      "shortname": "json-ld-api"
+    },
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/json-ld11-framing/",
+    "series": {
+      "shortname": "json-ld-framing"
+    },
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/json-ld11/",
+    "series": {
+      "shortname": "json-ld"
+    },
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/largest-contentful-paint/",
   "https://www.w3.org/TR/longtasks-1/",
   "https://www.w3.org/TR/magnetometer/",

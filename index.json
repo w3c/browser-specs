@@ -13826,6 +13826,109 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/json-ld11-api/",
+    "seriesComposition": "full",
+    "shortname": "json-ld11-api",
+    "series": {
+      "shortname": "json-ld-api",
+      "currentSpecification": "json-ld11-api",
+      "title": "JSON-LD Processing Algorithms and API",
+      "shortTitle": "JSON-LD Processing Algorithms and API",
+      "releaseUrl": "https://www.w3.org/TR/json-ld-api/",
+      "nightlyUrl": "https://w3c.github.io/json-ld-api/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/2018/json-ld-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/json-ld11-api/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/json-ld-api/",
+      "repository": "https://github.com/w3c/json-ld-api",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "JSON-LD 1.1 Processing Algorithms and API",
+    "source": "w3c",
+    "shortTitle": "JSON-LD 1.1 Processing Algorithms and API"
+  },
+  {
+    "url": "https://www.w3.org/TR/json-ld11-framing/",
+    "seriesComposition": "full",
+    "shortname": "json-ld11-framing",
+    "series": {
+      "shortname": "json-ld-framing",
+      "currentSpecification": "json-ld11-framing",
+      "title": "JSON-LD Framing",
+      "shortTitle": "JSON-LD Framing",
+      "releaseUrl": "https://www.w3.org/TR/json-ld-framing/",
+      "nightlyUrl": "https://w3c.github.io/json-ld-framing/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/2018/json-ld-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/json-ld11-framing/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/json-ld-framing/",
+      "repository": "https://github.com/w3c/json-ld-framing",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "JSON-LD 1.1 Framing",
+    "source": "w3c",
+    "shortTitle": "JSON-LD 1.1 Framing"
+  },
+  {
+    "url": "https://www.w3.org/TR/json-ld11/",
+    "seriesComposition": "full",
+    "shortname": "json-ld11",
+    "series": {
+      "shortname": "json-ld",
+      "currentSpecification": "json-ld11",
+      "title": "JSON-LD",
+      "shortTitle": "JSON-LD",
+      "releaseUrl": "https://www.w3.org/TR/json-ld/",
+      "nightlyUrl": "https://w3c.github.io/json-ld-syntax/"
+    },
+    "seriesVersion": "1.1",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/2018/json-ld-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/json-ld11/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/json-ld-syntax/",
+      "repository": "https://github.com/w3c/json-ld-syntax",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "JSON-LD 1.1",
+    "source": "w3c",
+    "shortTitle": "JSON-LD 1.1"
+  },
+  {
     "url": "https://www.w3.org/TR/largest-contentful-paint/",
     "seriesComposition": "full",
     "shortname": "largest-contentful-paint",

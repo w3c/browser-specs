@@ -64,7 +64,7 @@ function computeShortname(url) {
 
 
     // Handle Khronos extensions
-    const khronos = url.match(/https:\/\/www\.khronos\.org\/registry\/webgl\/extensions\/([^\/]+)\/$/);
+    const khronos = url.match(/https:\/\/registry\.khronos\.org\/webgl\/extensions\/([^\/]+)\/$/);
     if (khronos) {
         return khronos[1];
     }
@@ -148,7 +148,7 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
   // Shortnames of WebGL extensions sometimes end up with digits which are *not*
   // to be interpreted as level numbers. Similarly, shortnames of ECMA specs
   // typically have the form "ecma-ddd", and "ddd" is *not* a level number.
-  if (seriesBasename.match(/^ecma-/) || url.match(/^https:\/\/www\.khronos\.org\/registry\/webgl\/extensions\//)) {
+  if (seriesBasename.match(/^ecma-/) || url.match(/^https:\/\/registry\.khronos\.org\/webgl\/extensions\//)) {
     return {
       shortname: specShortname,
       series: { shortname: seriesBasename }

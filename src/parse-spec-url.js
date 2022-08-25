@@ -55,7 +55,7 @@ module.exports = function (url) {
     return { type: "custom", owner: "w3c", name: "svgwg" };
   }
 
-  const webgl = url.match(/^https:\/\/www\.khronos\.org\/registry\/webgl\//);
+  const webgl = url.match(/^https:\/\/registry\.khronos\.org\/webgl\//);
   if (webgl) {
     return { type: "custom", owner: "khronosgroup", name: "WebGL" };
   }

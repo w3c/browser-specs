@@ -70,7 +70,7 @@ describe("compute-repository module", async () => {
 
   it("handles WebGL URLs", async () => {
     assert.equal(
-      await computeSingleRepo("https://www.khronos.org/registry/webgl/specs/latest/1.0/"),
+      await computeSingleRepo("https://registry.khronos.org/webgl/specs/latest/1.0/"),
       "https://github.com/khronosgroup/WebGL");
   });
 

@@ -21,7 +21,7 @@ describe("compute-shortname module", () => {
     });
 
     it("handles Khronos Group WebGL extensions", () => {
-      assertName("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/", "EXT_wow32");
+      assertName("https://registry.khronos.org/webgl/extensions/EXT_wow32/", "EXT_wow32");
     });
 
     it("handles URLs of drafts on GitHub", () => {
@@ -155,7 +155,7 @@ describe("compute-shortname module", () => {
     });
 
     it("preserves digits at the end of WebGL extension names", () => {
-      assertSeries("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/", "EXT_wow32");
+      assertSeries("https://registry.khronos.org/webgl/extensions/EXT_wow32/", "EXT_wow32");
     });
 
     it("handles forks", () => {
@@ -211,7 +211,7 @@ describe("compute-shortname module", () => {
     });
 
     it("does not confuse digits at the end of a WebGL extension spec with a series version", () => {
-      assertNoSeriesVersion("https://www.khronos.org/registry/webgl/extensions/EXT_wow32/");
+      assertNoSeriesVersion("https://registry.khronos.org/webgl/extensions/EXT_wow32/");
     });
 
     it("handles forks", () => {

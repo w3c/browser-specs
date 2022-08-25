@@ -141,7 +141,7 @@ module.exports = async function (specs, options) {
       return Object.assign(info, spec.tests);
     }
 
-    if (spec.url.startsWith("https://www.khronos.org/")) {
+    if (spec.url.startsWith("https://registry.khronos.org/")) {
       info.repository = "https://github.com/KhronosGroup/WebGL";
       info.testPaths = ["conformance-suites"];
       // TODO: Be more specific, tests for extensions should one of the files in:

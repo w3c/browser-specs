@@ -86,18 +86,6 @@
   "https://privacycg.github.io/private-click-measurement/",
   "https://privacycg.github.io/storage-access/",
   "https://quirks.spec.whatwg.org/",
-  {
-    "url": "https://sourcemaps.info/spec.html",
-    "shortname": "sourcemap",
-    "shortTitle": "Source Map",
-    "organization": "sourcemaps.info",
-    "groups": [
-      {
-        "name": "sourcemaps.info",
-        "url": "https://sourcemaps.info/"
-      }
-    ]
-  },
   "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
   "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
   "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
@@ -171,6 +159,18 @@
         "conformance-suites/2.0.0"
       ]
     }
+  },
+  {
+    "url": "https://sourcemaps.info/spec.html",
+    "shortname": "sourcemap",
+    "shortTitle": "Source Map",
+    "organization": "sourcemaps.info",
+    "groups": [
+      {
+        "name": "sourcemaps.info",
+        "url": "https://sourcemaps.info/"
+      }
+    ]
   },
   "https://storage.spec.whatwg.org/",
   "https://streams.spec.whatwg.org/",

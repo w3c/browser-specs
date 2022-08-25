@@ -98,6 +98,80 @@
       }
     ]
   },
+  "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
+  "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
+  "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
+  "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/",
+  "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/",
+  "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query_webgl2/",
+  "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
+  "https://registry.khronos.org/webgl/extensions/EXT_float_blend/",
+  "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/",
+  "https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/",
+  "https://registry.khronos.org/webgl/extensions/EXT_sRGB/",
+  "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/",
+  "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_rgtc/",
+  "https://registry.khronos.org/webgl/extensions/EXT_texture_filter_anisotropic/",
+  "https://registry.khronos.org/webgl/extensions/EXT_texture_norm16/",
+  "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/",
+  "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
+  "https://registry.khronos.org/webgl/extensions/OES_element_index_uint/",
+  "https://registry.khronos.org/webgl/extensions/OES_fbo_render_mipmap/",
+  "https://registry.khronos.org/webgl/extensions/OES_standard_derivatives/",
+  "https://registry.khronos.org/webgl/extensions/OES_texture_float_linear/",
+  "https://registry.khronos.org/webgl/extensions/OES_texture_float/",
+  "https://registry.khronos.org/webgl/extensions/OES_texture_half_float_linear/",
+  "https://registry.khronos.org/webgl/extensions/OES_texture_half_float/",
+  "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
+  "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_blend_equation_advanced_coherent/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_color_buffer_float/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_astc/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_etc/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_etc1/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_pvrtc/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_s3tc/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_debug_renderer_info/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_depth_texture/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
+  {
+    "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
+    "shortname": "webgl1",
+    "series": {
+      "shortname": "webgl1"
+    },
+    "nightly": {
+      "sourcePath": "specs/latest/1.0/index.html"
+    },
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites/1.0.3"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/specs/latest/2.0/",
+    "shortname": "webgl2",
+    "series": {
+      "shortname": "webgl2"
+    },
+    "nightly": {
+      "sourcePath": "specs/latest/2.0/index.html"
+    },
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites/2.0.0"
+      ]
+    }
+  },
   "https://storage.spec.whatwg.org/",
   "https://streams.spec.whatwg.org/",
   "https://svgwg.org/specs/animations/",
@@ -304,80 +378,6 @@
   "https://wicg.github.io/webpackage/loading.html",
   "https://wicg.github.io/webusb/",
   "https://wicg.github.io/window-controls-overlay/",
-  "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_blend_minmax/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_clip_cull_distance/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_float/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_half_float/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query_webgl2/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_float_blend/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_frag_depth/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_shader_texture_lod/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_sRGB/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_texture_compression_bptc/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_texture_compression_rgtc/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_texture_filter_anisotropic/",
-  "https://www.khronos.org/registry/webgl/extensions/EXT_texture_norm16/",
-  "https://www.khronos.org/registry/webgl/extensions/KHR_parallel_shader_compile/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_draw_buffers_indexed/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_element_index_uint/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_fbo_render_mipmap/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_standard_derivatives/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_texture_float_linear/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_texture_float/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float_linear/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_texture_half_float/",
-  "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/",
-  "https://www.khronos.org/registry/webgl/extensions/OVR_multiview2/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_blend_equation_advanced_coherent/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_color_buffer_float/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_astc/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc1/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_pvrtc/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc_srgb/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_s3tc/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_renderer_info/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_depth_texture/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_buffers/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_lose_context/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
-  "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/",
-  {
-    "url": "https://www.khronos.org/registry/webgl/specs/latest/1.0/",
-    "shortname": "webgl1",
-    "series": {
-      "shortname": "webgl1"
-    },
-    "nightly": {
-      "sourcePath": "specs/latest/1.0/index.html"
-    },
-    "tests": {
-      "repository": "https://github.com/KhronosGroup/WebGL",
-      "testPaths": [
-        "conformance-suites/1.0.3"
-      ]
-    }
-  },
-  {
-    "url": "https://www.khronos.org/registry/webgl/specs/latest/2.0/",
-    "shortname": "webgl2",
-    "series": {
-      "shortname": "webgl2"
-    },
-    "nightly": {
-      "sourcePath": "specs/latest/2.0/index.html"
-    },
-    "tests": {
-      "repository": "https://github.com/KhronosGroup/WebGL",
-      "testPaths": [
-        "conformance-suites/2.0.0"
-      ]
-    }
-  },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc2397",
     "groups": [

@@ -444,9 +444,7 @@
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9114",
     "nightly": {
-      "url": "https://httpwg.org/specs/rfc9114.html",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "sourcePath": "specs/rfc9114.xml"
+      "url": "https://httpwg.org/specs/rfc9114.html"
     }
   },
   {

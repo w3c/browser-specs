@@ -418,6 +418,36 @@
   "https://www.rfc-editor.org/rfc/rfc8470",
   "https://www.rfc-editor.org/rfc/rfc8942",
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc9110",
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9110.html"
+    }
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9111",
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9111.html"
+    }
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9112",
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9112.html"
+    }
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9113",
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9113.html"
+    }
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9114",
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9114.html"
+    }
+  },
+  {
     "url": "https://www.w3.org/Consortium/Patent-Policy/",
     "shortname": "w3c-patent-policy",
     "organization": "W3C",

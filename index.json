@@ -7913,6 +7913,161 @@
     ]
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc9110",
+    "seriesComposition": "full",
+    "shortname": "rfc9110",
+    "series": {
+      "shortname": "rfc9110",
+      "currentSpecification": "rfc9110",
+      "title": "HTTP Semantics",
+      "shortTitle": "HTTP Semantics",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9110.html"
+    },
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9110.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9110.xml",
+      "filename": "rfc9110.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "title": "HTTP Semantics",
+    "source": "specref",
+    "shortTitle": "HTTP Semantics",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9111",
+    "seriesComposition": "full",
+    "shortname": "rfc9111",
+    "series": {
+      "shortname": "rfc9111",
+      "currentSpecification": "rfc9111",
+      "title": "HTTP Caching",
+      "shortTitle": "HTTP Caching",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9111.html"
+    },
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9111.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9111.xml",
+      "filename": "rfc9111.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "title": "HTTP Caching",
+    "source": "specref",
+    "shortTitle": "HTTP Caching",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9112",
+    "seriesComposition": "full",
+    "shortname": "rfc9112",
+    "series": {
+      "shortname": "rfc9112",
+      "currentSpecification": "rfc9112",
+      "title": "HTTP/1.1",
+      "shortTitle": "HTTP/1.1",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9112.html"
+    },
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9112.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9112.xml",
+      "filename": "rfc9112.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "title": "HTTP/1.1",
+    "source": "specref",
+    "shortTitle": "HTTP/1.1",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9113",
+    "seriesComposition": "full",
+    "shortname": "rfc9113",
+    "series": {
+      "shortname": "rfc9113",
+      "currentSpecification": "rfc9113",
+      "title": "HTTP/2",
+      "shortTitle": "HTTP/2",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9113.html"
+    },
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9113.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9113.xml",
+      "filename": "rfc9113.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "title": "HTTP/2",
+    "source": "specref",
+    "shortTitle": "HTTP/2",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9114",
+    "seriesComposition": "full",
+    "shortname": "rfc9114",
+    "series": {
+      "shortname": "rfc9114",
+      "currentSpecification": "rfc9114",
+      "title": "HTTP/3",
+      "shortTitle": "HTTP/3",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9114.html"
+    },
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9114.html",
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9114.xml",
+      "filename": "rfc9114.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "QUIC Working Group",
+        "url": "https://datatracker.ietf.org/wg/quic/"
+      }
+    ],
+    "title": "HTTP/3",
+    "source": "specref",
+    "shortTitle": "HTTP/3",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://www.w3.org/Consortium/Patent-Policy/",
     "seriesComposition": "full",
     "shortname": "w3c-patent-policy",

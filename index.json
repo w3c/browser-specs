@@ -295,6 +295,46 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-easing-2/",
+    "seriesComposition": "full",
+    "shortname": "css-easing-2",
+    "series": {
+      "shortname": "css-easing",
+      "currentSpecification": "css-easing-1",
+      "title": "CSS Easing Functions",
+      "shortTitle": "CSS Easing Functions",
+      "releaseUrl": "https://www.w3.org/TR/css-easing/",
+      "nightlyUrl": "https://drafts.csswg.org/css-easing/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-easing-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-easing-2/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-easing-2/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Easing Functions Level 2",
+    "source": "spec",
+    "shortTitle": "CSS Easing Functions 2",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-easing"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-env-1/",
     "seriesComposition": "full",
     "shortname": "css-env-1",
@@ -1212,6 +1252,68 @@
         "webxr/anchors"
       ]
     }
+  },
+  {
+    "url": "https://immersive-web.github.io/model-element/",
+    "seriesComposition": "full",
+    "shortname": "model-element",
+    "series": {
+      "shortname": "model-element",
+      "currentSpecification": "model-element",
+      "title": "The <model> element",
+      "shortTitle": "The <model> element",
+      "nightlyUrl": "https://immersive-web.github.io/model-element/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/model-element/",
+      "repository": "https://github.com/immersive-web/model-element",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "The <model> element",
+    "source": "spec",
+    "shortTitle": "The <model> element",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://immersive-web.github.io/raw-camera-access/",
+    "seriesComposition": "full",
+    "shortname": "raw-camera-access",
+    "series": {
+      "shortname": "raw-camera-access",
+      "currentSpecification": "raw-camera-access",
+      "title": "WebXR Raw Camera Access",
+      "shortTitle": "WebXR Raw Camera Access",
+      "nightlyUrl": "https://immersive-web.github.io/raw-camera-access/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/raw-camera-access/",
+      "repository": "https://github.com/immersive-web/raw-camera-access",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR Raw Camera Access Module",
+    "source": "spec",
+    "shortTitle": "WebXR Raw Camera Access",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://infra.spec.whatwg.org/",
@@ -9865,6 +9967,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-easing/"
     },
     "seriesVersion": "1",
+    "seriesNext": "css-easing-2",
     "organization": "W3C",
     "groups": [
       {

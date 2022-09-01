@@ -831,10 +831,6 @@
   "https://www.w3.org/TR/orientation-sensor/",
   "https://www.w3.org/TR/paint-timing/",
   "https://www.w3.org/TR/payment-handler/",
-  {
-    "url": "https://www.w3.org/TR/payment-method-basic-card/",
-    "shortTitle": "Basic Card"
-  },
   "https://www.w3.org/TR/payment-method-id/",
   "https://www.w3.org/TR/payment-method-manifest/",
   "https://www.w3.org/TR/payment-request-1.1/",

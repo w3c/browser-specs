@@ -2,376 +2,364 @@
   "repos": {
     "privacycg/CHIPS": {
       "comment": "no spec yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "privacycg/storage-partitioning": {
       "comment": "mostly TODOs",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "w3c/system-wake-lock": {
       "comment": "no spec yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/audio-focus": {
       "comment": "only an explainer",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/file-handling": {
       "comment": "only points to explainer",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/first-party-sets": {
       "comment": "no spec yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/indexed-db-observers": {
       "comment": "no spec yet (but 3 years old?)",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/media-latency-hint": {
       "comment": "empty spec",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/direct-sockets": {
       "comment": "No clear implementation plan, considered as harmful by Mozilla https://github.com/mozilla/standards-positions/issues/431",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/sw-launch": {
-      "comment": "no spec yet",
-      "lastreviewed": "2022-07-01"
+      "comment": "Spec marked as unofficial draft",
+      "lastreviewed": "2022-09-01"
     },
     "w3c/webrtc-extensions": {
       "comment": "a kitchen-sink delta spec for now - might lead to a new integrated webrtc NV spec",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "w3c/mediacapture-extensions": {
       "comment": "unofficial draft",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/webmonetization": {
       "comment": "Early exploration phase; spec at https://webmonetization.org/specification.html",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/aom": {
       "comment": "Specs at https://wicg.github.io/aom/spec/computed-accessibility-tree.html https://wicg.github.io/aom/spec/virtual-accessibility-nodes.html https://wicg.github.io/aom/spec/input-events.html in their very early stage of definition",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/container-queries": {
       "comment": "Likely candidate for ignoring - see archival discussion at https://github.com/WICG/container-queries/issues/14",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "w3c/webappsec-suborigins": {
       "comment": "Seems dormant, but not clear signal to that effect",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/input-for-workers": {
       "comment": "no clear implementation plans?",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "immersive-web/webxr-test-api": {
       "comment": "Exposes IDL not expected to be used in a regular browsing context; might still be OK to include once we get clarity out of https://github.com/heycam/webidl/issues/896",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "privacycg/first-party-sets": {
       "comment": "Not a spec yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/storage-buckets": {
       "comment": "Not a spec yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "w3c/merchantbg": {
       "comment": "Not a spec, unclear future of the repo",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "WICG/accessible-loading-and-searching-of-content": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/beforeinstallprompt": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/canvas-color-space": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/display-override": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/image-output": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/lang-client-hint": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/main-thread-scheduling": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/origin-isolation": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/pwa-url-handler": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/raw-clipboard-access": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/request-post-animation-frame": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/sparrow": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/trust-token-api": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/turtledove": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/video-editing": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/computer-vision": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/geo-alignment": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/navigation": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/performance-improvements": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/real-world-geometry": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/spatial-favicons": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "privacycg/is-logged-in": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "privacycg/js-membranes": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/canvas-formatted-text": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/detached-elements": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "immersive-web/occlusion": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/handwriting-recognition": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "Original trial in Chromium but no intent to implement announced yet"
     },
     "immersive-web/marker-tracking": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "marked as unstable API"
     },
     "WICG/WebApiDevice": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet, but likely soon at https://wicg.github.io/WebApiDevice/device_attributes from https://github.com/WICG/WebApiDevice/blob/main/device_attributes/index.bs "
     },
     "immersive-web/WebXR-WebGPU-Binding": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WebAudio/web-audio-api-v2": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no spec yet"
     },
     "WICG/resource-bundles": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/privacy-preserving-ads": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/lock-screen": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/storage-foundation-api-explainer": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
-    "immersive-web/raw-camera-access": {
-      "lastreviewed": "2022-07-01",
-      "comment": "Implementation tracking at https://www.chromestatus.com/features/5759984304390144"
-    },
     "WICG/shared-element-transitions": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/CHIPS": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "privacycg/nav-tracking-mitigations": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "Early draft"
     },
     "privacycg/ad-topic-hints": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/color-api": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "early exploration phase; no clear implementation plan yet"
     },
     "WICG/conditional-focus": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "spec should get integrated in Screen Capture, see https://github.com/w3c/mediacapture-screen-share/issues/190"
     },
     "WICG/bundle-preloading": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
-    "immersive-web/model-element": {
-      "lastreviewed": "2022-07-01",
-      "comment": "Empty spec"
-    },
     "immersive-web/capture": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "Empty spec"
     },
     "WICG/multicapture": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/fenced-frame": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "early draft with TODOs"
     },
     "tc39/proposal-regexp-set-notation": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet, actual content in a Google Doc"
     },
     "tc39/proposal-regexp-v-flag": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet, actual content in a Readme"
     },
     "tc39/proposal-duplicate-named-capturing-groups": {
-      "lastreviewed": "2022-07-28",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet, actual content in PR https://github.com/tc39/ecma262/pull/2721"
     },
     "WICG/origin-policy": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "proposal put on hold"
     },
     "WICG/ab-worker-prototype": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/shared-storage": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "no published content yet"
     },
     "WICG/unload-beacon": {
-      "lastreviewed": "2022-07-11",
-      "comment": "no published content yet"
+      "lastreviewed": "2022-09-01",
+      "comment": "spec marked as unofficial draft"
     }
   },
   "specs": {
     "https://svgwg.org/specs/animation-elements/animation-elements.html": {
       "comment": "Still lots of todo",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/css-color-hdr/": {
       "comment": "Marked as unofficial proposal",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/css-color-6/": {
       "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/css-block-3/": {
       "comment": "Placholder for an eventual CSS Block Layout Level 3 Module",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/css-floats-3/": {
       "comment": "No spec yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/css-forms-1/": {
       "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/css-page-template-1/": {
       "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/web-animations-css-integration/": {
       "comment": "Seems dormant",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.css-houdini.org/box-tree-api/": {
       "comment": "Marked as collection of ideas, no clear implementation plans yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://drafts.csswg.org/css-conditional-values-1/": {
       "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2022-07-01"
-    },
-    "https://drafts.csswg.org/css-easing-2/": {
-      "comment": "No change to level 1 yet",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://svgwg.org/specs/markers/": {
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://www.w3.org/TR/svg-markers/": {
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://svgwg.org/specs/paths/": {
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://www.w3.org/TR/svg-paths/": {
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://w3c.github.io/PFE/RangeRequest.html": {
       "comment": "being split-off from main spec https://github.com/w3c/PFE/pull/9/files; stub",
-      "lastreviewed": "2022-07-01"
+      "lastreviewed": "2022-09-01"
     },
     "https://www.w3.org/TR/clreq-gap/": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "WG Note of clreq-gap document incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"
     },
     "https://www.w3.org/TR/wasm-core-2/": {
-      "lastreviewed": "2022-07-01",
+      "lastreviewed": "2022-09-01",
       "comment": "Weirdly formatted multipage spec with sub-sub-pages that would likely confuse extraction logic"
     }
   }

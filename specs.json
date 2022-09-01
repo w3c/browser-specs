@@ -31,6 +31,7 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Backgrounds 4"
   },
+  "https://drafts.csswg.org/css-easing-2/",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
   {
@@ -80,6 +81,8 @@
     }
   },
   "https://immersive-web.github.io/anchors/",
+  "https://immersive-web.github.io/model-element/",
+  "https://immersive-web.github.io/raw-camera-access/",
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",

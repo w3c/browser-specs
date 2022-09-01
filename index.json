@@ -15257,48 +15257,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/payment-method-basic-card/",
-    "seriesComposition": "full",
-    "shortname": "payment-method-basic-card",
-    "series": {
-      "shortname": "payment-method-basic-card",
-      "currentSpecification": "payment-method-basic-card",
-      "title": "Payment Method: Basic Card",
-      "shortTitle": "Basic Card",
-      "releaseUrl": "https://www.w3.org/TR/payment-method-basic-card/",
-      "nightlyUrl": "https://w3c.github.io/payment-method-basic-card/"
-    },
-    "shortTitle": "Basic Card",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Payments Working Group",
-        "url": "https://www.w3.org/Payments/WG/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/payment-method-basic-card/",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/payment-method-basic-card/",
-      "repository": "https://github.com/w3c/payment-method-basic-card",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Payment Method: Basic Card",
-    "source": "w3c",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "payment-method-basic-card"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/payment-method-id/",
     "seriesComposition": "full",
     "shortname": "payment-method-id",

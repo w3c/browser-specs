@@ -156,6 +156,17 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
       }
     });
 
+    // Latest ED link in TR versions of CSS specs sometimes target the spec series
+    // entry point on the CSS drafts server. To make sure that the nightly URL
+    // targets the same level as the TR level we're looking at, we'll add the
+    // level to the nightly URL when it's not already there (note the resulting
+    // URL should always exist given the way the CSS drafts server is setup)
+    if (res.seriesVersion &&
+        res.nightly.url.match(/\/drafts\.(?:csswg|fxtf|css-houdini)\.org/) &&
+        !res.nightly.url.match(/\d+\/$/)) {
+      res.nightly.url = res.nightly.url.replace(/\/$/, `-${res.seriesVersion}/`);
+    }
+
     // Set the series title based on the info returned by the W3C API if
     // we have it, or compute the series title ourselves
     const seriesInfo = specInfo.__series[spec.series.shortname];

@@ -8927,7 +8927,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-align/",
+      "url": "https://drafts.csswg.org/css-align-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-align-3/Overview.bs",
       "filename": "Overview.html"
@@ -9014,7 +9014,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-animations/",
+      "url": "https://drafts.csswg.org/css-animations-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-animations-1/Overview.bs",
       "filename": "Overview.html"
@@ -9059,7 +9059,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-backgrounds/",
+      "url": "https://drafts.csswg.org/css-backgrounds-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-backgrounds-3/Overview.bs",
       "filename": "Overview.html"
@@ -9190,7 +9190,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-break/",
+      "url": "https://drafts.csswg.org/css-break-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-break-3/Overview.bs",
       "filename": "Overview.html"
@@ -9850,7 +9850,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-counter-styles/",
+      "url": "https://drafts.csswg.org/css-counter-styles-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-counter-styles-3/Overview.bs",
       "filename": "Overview.html"
@@ -9893,7 +9893,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-device-adapt/",
+      "url": "https://drafts.csswg.org/css-device-adapt-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-device-adapt-1/Overview.bs",
       "filename": "Overview.html"
@@ -9936,7 +9936,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-display/",
+      "url": "https://drafts.csswg.org/css-display-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-display-3/Overview.bs",
       "filename": "Overview.html"
@@ -9980,7 +9980,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-easing/",
+      "url": "https://drafts.csswg.org/css-easing-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-easing-1/Overview.bs",
       "filename": "Overview.html"
@@ -10066,7 +10066,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-font-loading/",
+      "url": "https://drafts.csswg.org/css-font-loading-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-font-loading-3/Overview.bs",
       "filename": "Overview.html"
@@ -10199,7 +10199,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-gcpm/",
+      "url": "https://drafts.csswg.org/css-gcpm-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-gcpm-3/Overview.bs",
       "filename": "Overview.html"
@@ -10496,7 +10496,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-line-grid/",
+      "url": "https://drafts.csswg.org/css-line-grid-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-line-grid-1/Overview.bs",
       "filename": "Overview.html"
@@ -10664,7 +10664,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-multicol/",
+      "url": "https://drafts.csswg.org/css-multicol-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-multicol-1/Overview.bs",
       "filename": "Overview.html"
@@ -10706,7 +10706,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-namespaces/",
+      "url": "https://drafts.csswg.org/css-namespaces-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-namespaces-3/Overview.bs",
       "filename": "Overview.html"
@@ -10786,7 +10786,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-nesting/",
+      "url": "https://drafts.csswg.org/css-nesting-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-nesting-1/Overview.bs",
       "filename": "Overview.html"
@@ -10998,7 +10998,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-page-floats/",
+      "url": "https://drafts.csswg.org/css-page-floats-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-page-floats-3/Overview.bs",
       "filename": "Overview.html"
@@ -11211,7 +11211,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-regions/",
+      "url": "https://drafts.csswg.org/css-regions-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-regions-1/Overview.bs",
       "filename": "Overview.html"
@@ -11248,7 +11248,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-rhythm/",
+      "url": "https://drafts.csswg.org/css-rhythm-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-rhythm-1/Overview.bs",
       "filename": "Overview.html"
@@ -11285,7 +11285,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-round-display/",
+      "url": "https://drafts.csswg.org/css-round-display-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-round-display-1/Overview.bs",
       "filename": "Overview.html"
@@ -11371,7 +11371,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-scoping/",
+      "url": "https://drafts.csswg.org/css-scoping-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scoping-1/Overview.bs",
       "filename": "Overview.html"
@@ -11414,7 +11414,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-scroll-anchoring/",
+      "url": "https://drafts.csswg.org/css-scroll-anchoring-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scroll-anchoring-1/Overview.bs",
       "filename": "Overview.html"
@@ -11501,7 +11501,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-scrollbars/",
+      "url": "https://drafts.csswg.org/css-scrollbars-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scrollbars-1/Overview.bs",
       "filename": "Overview.html"
@@ -11544,7 +11544,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-shadow-parts/",
+      "url": "https://drafts.csswg.org/css-shadow-parts-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-shadow-parts-1/Overview.bs",
       "filename": "Overview.html"
@@ -11588,7 +11588,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-shapes/",
+      "url": "https://drafts.csswg.org/css-shapes-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-shapes-1/Overview.bs",
       "filename": "Overview.html"
@@ -11804,7 +11804,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-syntax/",
+      "url": "https://drafts.csswg.org/css-syntax-3/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-syntax-3/Overview.bs",
       "filename": "Overview.html"
@@ -12067,7 +12067,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-transforms/",
+      "url": "https://drafts.csswg.org/css-transforms-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-transforms-1/Overview.bs",
       "filename": "Overview.html"
@@ -12155,7 +12155,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-transitions/",
+      "url": "https://drafts.csswg.org/css-transitions-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-transitions-1/Overview.bs",
       "filename": "Overview.html"
@@ -12380,7 +12380,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-variables/",
+      "url": "https://drafts.csswg.org/css-variables-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-variables-1/Overview.bs",
       "filename": "Overview.html"
@@ -12422,7 +12422,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/css-will-change/",
+      "url": "https://drafts.csswg.org/css-will-change-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-will-change-1/Overview.bs",
       "filename": "Overview.html"
@@ -12639,11 +12639,11 @@
       "title": "CSS Exclusions",
       "shortTitle": "CSS Exclusions",
       "releaseUrl": "https://www.w3.org/TR/css-exclusions/",
-      "nightlyUrl": "https://drafts.csswg.org/css-exclusions/"
+      "nightlyUrl": "https://drafts.csswg.org/css-exclusions-1/"
     },
     "seriesVersion": "1",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-exclusions/",
+      "url": "https://drafts.csswg.org/css-exclusions-1/",
       "sourcePath": "css-exclusions-1/Overview.bs",
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
@@ -12697,7 +12697,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/cssom/",
+      "url": "https://drafts.csswg.org/cssom-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "cssom-1/Overview.bs",
       "filename": "Overview.html"
@@ -12740,7 +12740,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/cssom-view/",
+      "url": "https://drafts.csswg.org/cssom-view-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "cssom-view-1/Overview.bs",
       "filename": "Overview.html"
@@ -13218,7 +13218,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/fill-stroke/",
+      "url": "https://drafts.fxtf.org/fill-stroke-3/",
       "repository": "https://github.com/w3c/fxtf-drafts",
       "sourcePath": "fill-stroke/Overview.bs",
       "filename": "Overview.html"
@@ -13509,7 +13509,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/geometry/",
+      "url": "https://drafts.fxtf.org/geometry-1/",
       "repository": "https://github.com/w3c/fxtf-drafts",
       "sourcePath": "geometry/Overview.bs",
       "filename": "Overview.html"
@@ -16055,7 +16055,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/resize-observer/",
+      "url": "https://drafts.csswg.org/resize-observer-1/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "resize-observer-1/Overview.bs",
       "filename": "Overview.html"
@@ -16429,7 +16429,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.csswg.org/selectors/",
+      "url": "https://drafts.csswg.org/selectors-4/",
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-4/Overview.bs",
       "filename": "Overview.html"

@@ -645,6 +645,38 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-shared-element-transitions-1/",
+    "seriesComposition": "full",
+    "shortname": "css-shared-element-transitions-1",
+    "series": {
+      "shortname": "css-shared-element-transitions",
+      "currentSpecification": "css-shared-element-transitions-1",
+      "title": "CSS Shared Element Transitions",
+      "shortTitle": "CSS Shared Element Transitions",
+      "nightlyUrl": "https://drafts.csswg.org/css-shared-element-transitions/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-shared-element-transitions-1/",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-shared-element-transitions-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Shared Element Transitions Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS Shared Element Transitions 1",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://drafts.csswg.org/css-size-adjust-1/",
     "seriesComposition": "full",
     "shortname": "css-size-adjust-1",
@@ -7251,7 +7283,7 @@
       "filename": "index.html"
     },
     "title": "Window Controls Overlay",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Window Controls Overlay",
     "categories": [
       "browser"

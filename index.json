@@ -4210,8 +4210,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "name": "Web Editing Working Group",
+        "url": "https://www.w3.org/groups/wg/webediting"
       }
     ],
     "nightly": {

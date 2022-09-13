@@ -189,4 +189,11 @@ describe("List of specs", () => {
         spec.forkOf === s.shortname)));
     assert.deepStrictEqual(wrong, []);
   });
+
+  it("has a w3c.github.io alternate URL for CSS drafts", () => {
+    const wrong = specs
+      .filter(s => s.nightly.url.match(/\/drafts\.csswg\.org/))
+      .filter(s => !s.nightly.alternateUrls.includes(`https://w3c.github.io/csswg-drafts/${s.shortname}/`));
+    assert.deepStrictEqual(wrong, []);
+  });
 });

@@ -291,6 +291,14 @@
     "WICG/unload-beacon": {
       "lastreviewed": "2022-09-01",
       "comment": "spec marked as unofficial draft"
+    },
+    "WICG/isolated-web-apps": {
+      "lastreviewed": "2022-09-19",
+      "comment": "no published content yet"
+    },
+    "WICG/mobile-document-request-api": {
+      "lastreviewed": "2022-09-19",
+      "comment": "no published content yet"
     }
   },
   "specs": {

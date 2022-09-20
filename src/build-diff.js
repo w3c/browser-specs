@@ -89,7 +89,7 @@ async function compareIndex(newRef, baseRef, { diffType = "diff", log = console.
 Main loop
 *******************************************************************************/
 const newRef = process.argv[2] ?? "working";
-const baseRef = process.argv[3] ?? "head";
+const baseRef = process.argv[3] ?? "HEAD";
 const diffType = process.argv[4] ?? "diff";
 
 compareIndex(newRef, baseRef, { diffType, log: console.warn })

@@ -5609,7 +5609,7 @@
       "filename": "index.html"
     },
     "title": "Document Policy",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Document Policy",
     "categories": [
       "browser"

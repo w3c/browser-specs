@@ -560,7 +560,8 @@
   {
     "url": "https://www.w3.org/TR/css-device-adapt-1/",
     "nightly": {
-      "url": "https://drafts.csswg.org/css-viewport-1/"
+      "url": "https://drafts.csswg.org/css-viewport-1/",
+      "sourcePath": "css-viewport/Overview.bs"
     }
   },
   "https://www.w3.org/TR/css-display-3/",

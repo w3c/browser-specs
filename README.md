@@ -40,6 +40,7 @@ cross-references, WebIDL, quality, etc.
     - [`release.pages`](#releasepages)
   - [`nightly`](#nightly)
     - [`nightly.url`](#nightlyurl)
+    - [`nightly.alternateUrls`](#nightlyalternateurls)
     - [`nightly.filename`](#nightlyfilename)
     - [`nightly.pages`](#nightlypages)
     - [`nightly.repository`](#nightlyrepository)
@@ -409,6 +410,28 @@ neither exist in the W3C API nor in Specref. The [`source`](#source) property
 details the actual provenance.
 
 The `url` property is always set.
+
+
+#### `nightly.alternateUrls`
+
+A list of alternate URLs for the Editor's Draft or the living standard.
+
+The list typically contains URLs that external sources may use to reference the
+spec, be it because the canonical URL evolved over time and sources still use
+old URLs (e.g. when the spec was incubated in a Community Group and transitioned
+to a Working Group), or because the canonical URL is unstable for some reason
+and external sources decided to use a workaround (e.g. CSS drafts).
+
+Alternate URLs should only be used to ease mapping between external sources and
+specs in `browser-specs`. The canonical URL in [`nightly.url`](#nightlyurl)
+should be preferred to reference a spec otherwise.
+
+Alternate URLs are only set when needed, meaning when an alternate URL is
+effectively in use in some external source and when the external source cannot
+easily be updated to use the canonical URL. In particular, the list is not meant
+to be exhaustive.
+
+The `alternateUrls` property is always set and is often an empty array.
 
 
 #### `nightly.filename`

@@ -78,6 +78,10 @@ to specify the list of groups that develop or developed the spec.
     **and** when it cannot be fixed at the source.
   - The code cannot compute the right [`sourcePath`](README.md#nightlysourcepath)
     because the source file of the nightly spec does not follow a common pattern.
+  - One or more alternate URLs, used in external sources, need to be recorded in
+    an [`alternateUrls`](README.md#nightlyalternateurls) property (note the
+    `w3c.github.io` URL of CSS drafts is automatically added as an alternate
+    URL, no need to specify it in `specs.json`)
 - `tests`: same as the [`tests`](README.md#tests) property in `index.json`. The
 property must only be set when:
   - The test suite of the specification is not in a well-known repository.

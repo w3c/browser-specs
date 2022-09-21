@@ -4912,7 +4912,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "BackgroundSync"
+        "background-sync"
       ]
     }
   },
@@ -9910,9 +9910,15 @@
       "title": "CSS Device Adaptation",
       "shortTitle": "CSS Device Adaptation",
       "releaseUrl": "https://www.w3.org/TR/css-device-adapt/",
-      "nightlyUrl": "https://drafts.csswg.org/css-device-adapt/"
+      "nightlyUrl": "https://drafts.csswg.org/css-viewport-1/"
     },
     "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-viewport-1/",
+      "sourcePath": "css-viewport/Overview.bs",
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "filename": "Overview.html"
+    },
     "organization": "W3C",
     "groups": [
       {
@@ -9924,24 +9930,12 @@
       "url": "https://www.w3.org/TR/css-device-adapt-1/",
       "filename": "Overview.html"
     },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-device-adapt-1/",
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-device-adapt-1/Overview.bs",
-      "filename": "Overview.html"
-    },
     "title": "CSS Device Adaptation Module Level 1",
     "source": "w3c",
     "shortTitle": "CSS Device Adaptation 1",
     "categories": [
       "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-device-adapt"
-      ]
-    }
+    ]
   },
   {
     "url": "https://www.w3.org/TR/css-display-3/",

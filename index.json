@@ -221,6 +221,41 @@
     ]
   },
   {
+    "url": "https://drafts.csswg.org/css-anchor-1/",
+    "seriesComposition": "full",
+    "shortname": "css-anchor-1",
+    "series": {
+      "shortname": "css-anchor",
+      "currentSpecification": "css-anchor-1",
+      "title": "CSS Anchor Positioning",
+      "shortTitle": "CSS Anchor Positioning",
+      "nightlyUrl": "https://drafts.csswg.org/css-anchor/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-anchor-1/",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-anchor-1/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-anchor-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Anchor Positioning",
+    "source": "spec",
+    "shortTitle": "CSS Anchor Positioning",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://drafts.csswg.org/css-animations-2/",
     "seriesComposition": "delta",
     "shortname": "css-animations-2",
@@ -3600,6 +3635,38 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-array-from-async/",
+    "seriesComposition": "full",
+    "shortname": "tc39-array-from-async",
+    "series": {
+      "shortname": "tc39-array-from-async",
+      "currentSpecification": "tc39-array-from-async",
+      "title": "ES Array.fromAsync (2022)",
+      "shortTitle": "2022",
+      "nightlyUrl": "https://tc39.es/proposal-array-from-async/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-array-from-async/",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-array-from-async",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "ES Array.fromAsync (2022)",
+    "source": "spec",
+    "shortTitle": "2022",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-array-grouping/",
     "seriesComposition": "full",
     "shortname": "tc39-array-grouping",
@@ -4583,6 +4650,38 @@
     ]
   },
   {
+    "url": "https://w3c.github.io/trusted-types/dist/spec/",
+    "seriesComposition": "full",
+    "shortname": "trusted-types",
+    "series": {
+      "shortname": "trusted-types",
+      "currentSpecification": "trusted-types",
+      "title": "Trusted Types",
+      "shortTitle": "Trusted Types",
+      "nightlyUrl": "https://w3c.github.io/trusted-types/dist/spec/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/trusted-types/dist/spec/",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/trusted-types",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "Trusted Types",
+    "source": "specref",
+    "shortTitle": "Trusted Types",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://w3c.github.io/web-locks/",
     "seriesComposition": "full",
     "shortname": "web-locks",
@@ -4721,44 +4820,6 @@
     "categories": [
       "browser"
     ]
-  },
-  {
-    "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
-    "seriesComposition": "full",
-    "shortname": "trusted-types",
-    "series": {
-      "shortname": "trusted-types",
-      "currentSpecification": "trusted-types",
-      "title": "Trusted Types",
-      "shortTitle": "Trusted Types",
-      "nightlyUrl": "https://w3c.github.io/webappsec-trusted-types/dist/spec/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/webappsec-trusted-types",
-      "sourcePath": "spec/index.bs",
-      "filename": "index.html"
-    },
-    "title": "Trusted Types",
-    "source": "specref",
-    "shortTitle": "Trusted Types",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "trusted-types"
-      ]
-    }
   },
   {
     "url": "https://w3c.github.io/webdriver-bidi/",

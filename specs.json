@@ -25,6 +25,7 @@
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   "https://drafts.css-houdini.org/font-metrics-api-1/",
+  "https://drafts.csswg.org/css-anchor-1/",
   "https://drafts.csswg.org/css-animations-2/ delta",
   {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
@@ -205,6 +206,7 @@
     }
   },
   "https://tc39.es/proposal-array-find-from-last/",
+  "https://tc39.es/proposal-array-from-async/",
   "https://tc39.es/proposal-array-grouping/",
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-change-array-by-copy/",
@@ -274,11 +276,11 @@
     }
   },
   "https://w3c.github.io/PNG-spec/",
+  "https://w3c.github.io/trusted-types/dist/spec/",
   "https://w3c.github.io/web-locks/",
   "https://w3c.github.io/web-nfc/",
   "https://w3c.github.io/web-share-target/",
   "https://w3c.github.io/webappsec-change-password-url/",
-  "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
   "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
   {

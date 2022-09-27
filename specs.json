@@ -73,6 +73,17 @@
   "https://drafts.fxtf.org/filter-effects-2/ delta",
   "https://fedidcg.github.io/FedCM/",
   "https://fetch.spec.whatwg.org/",
+  {
+    "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html",
+    "shortname": "fido-v2.1",
+    "organization": "FIDO Alliance",
+    "groups": [
+      {
+        "name": "FIDO Alliance",
+        "url": "https://fidoalliance.org/"
+      }
+    ]
+  },
   "https://fs.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
   {

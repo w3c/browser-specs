@@ -167,14 +167,6 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
       res.nightly.url = res.nightly.url.replace(/\/$/, `-${res.seriesVersion}/`);
     }
 
-    // Add alternate w3c.github.io URLs for CSS specs
-    // (Note drafts of CSS Houdini and Visual effects task forces don't have a
-    // w3c.github.io version)
-    res.nightly.alternateUrls = res.nightly.alternateUrls || [];
-    if (res.nightly.url.match(/\/drafts\.csswg\.org/)) {
-      res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${res.shortname}/`);
-    }
-
     // Set the series title based on the info returned by the W3C API if
     // we have it, or compute the series title ourselves
     const seriesInfo = specInfo.__series[spec.series.shortname];
@@ -201,6 +193,19 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
       res.series.currentSpecification = seriesInfo.currentSpecification;
     }
     delete res.series.forceCurrent;
+
+
+    // Add alternate w3c.github.io URLs for CSS specs
+    // (Note drafts of CSS Houdini and Visual effects task forces don't have a
+    // w3c.github.io version)
+    res.nightly.alternateUrls = res.nightly.alternateUrls || [];
+    if (res.nightly.url.match(/\/drafts\.csswg\.org/)) {
+      res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${res.shortname}/`);
+      if ((res.series.currentSpecification === res.shortname) && (res.shortname !== res.series.shortname)) {
+        res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${res.series.shortname}/`);
+      }
+    }
+
     return res;
   });
   log(`Fetch other spec info from external sources... done`);

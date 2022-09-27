@@ -45,6 +45,7 @@ module.exports = async function (specs, options) {
   options = options || {};
 
   const octokit = new Octokit({ auth: options.githubToken });
+  const repoCache = new Map();
   const repoPathCache = new Map();
   const userCache = new Map();
 
@@ -144,6 +145,28 @@ module.exports = async function (specs, options) {
     return sourcePath.path;
   }
 
+  async function isRealRepo(repo) {
+    const cacheKey = `${repo.owner}/${repo.name}`;
+    if (!repoCache.has(cacheKey)) {
+      try {
+        await octokit.repos.get({
+          owner: repo.owner,
+          repo: repo.name
+        });
+        repoCache.set(cacheKey, true);
+      }
+      catch (err) {
+        if (err.status === 404) {
+          repoCache.set(cacheKey, false);
+        }
+        else {
+          throw err;
+        }
+      }
+    }
+    return repoCache.get(cacheKey);
+  }
+
   // Compute GitHub repositories with lowercase owner names
   const repos = specs.map(spec => parseSpecUrl(spec.nightly.repository ?? spec.nightly.url));
 
@@ -159,7 +182,7 @@ module.exports = async function (specs, options) {
   // Compute final repo URL and add source file if possible
   for (const spec of specs) {
     const repo = repos.shift();
-    if (repo) {
+    if (repo && await isRealRepo(repo)) {
       spec.nightly.repository = `https://github.com/${repo.owner}/${repo.name}`;
 
       if (options.githubToken && !spec.nightly.sourcePath) {

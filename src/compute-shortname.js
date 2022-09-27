@@ -117,7 +117,7 @@ function computeShortname(url) {
   // Latin characters (a-z letters, digits, underscore and "-"), and that it
   // only contains a dot for fractional levels at the end of the name
   // (e.g. "blah-1.2" is good but "blah.blah" and "blah-3.1-blah" are not)
-  if (!name.match(/^[\w\-]+((?<=\-\d+)\.\d+)?$/)) {
+  if (!name.match(/^[\w\-]+((?<=\-v?\d+)\.\d+)?$/)) {
     throw `Specification name contains unexpected characters: ${name} (extracted from ${url})`;
   }
 
@@ -157,7 +157,7 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
 
   // Extract X and X.Y levels, with form "name-X" or "name-X.Y".
   // (e.g. 5 for "mediaqueries-5", 1.2 for "wai-aria-1.2")
-  let match = seriesBasename.match(/^(.*?)-(\d+)(.\d+)?$/);
+  let match = seriesBasename.match(/^(.*?)-v?(\d+)(.\d+)?$/);
   if (match) {
     return {
       shortname: specShortname,

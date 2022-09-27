@@ -10,7 +10,7 @@
 
     "filename": {
       "type": "string",
-      "pattern": "^[\\w\\-]+\\.html$"
+      "pattern": "^[\\w\\-\\.]+\\.html$"
     },
 
     "relativePath": {
@@ -20,7 +20,7 @@
 
     "shortname": {
       "type": "string",
-      "pattern": "^[\\w\\-]+((?<=-\\d+)\\.\\d+)?$"
+      "pattern": "^[\\w\\-]+((?<=-v?\\d+)\\.\\d+)?$"
     },
 
     "series": {

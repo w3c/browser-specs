@@ -146,6 +146,10 @@ module.exports = async function (specs, options) {
   }
 
   async function isRealRepo(repo) {
+    if (!options.githubToken) {
+      // Assume the repo exists if we can't check
+      return true;
+    }
     const cacheKey = `${repo.owner}/${repo.name}`;
     if (!repoCache.has(cacheKey)) {
       try {

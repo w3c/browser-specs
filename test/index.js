@@ -143,7 +143,8 @@ describe("List of specs", () => {
       !s.nightly.url.match(/rfc-editor\.org/) &&
       !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
       !s.nightly.url.match(/\/sourcemaps\.info\//) &&
-      !s.nightly.url.match(/fidoalliance\.org\//));
+      !s.nightly.url.match(/fidoalliance\.org\//) &&
+      s.shortname !== 'SVG11');
     assert.deepStrictEqual(wrong, []);
   });
 
@@ -154,7 +155,8 @@ describe("List of specs", () => {
       !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
       !s.nightly.url.match(/tc39\.es\/proposal\-decorators\/$/) &&
       !s.nightly.url.match(/\/sourcemaps\.info\//) &&
-      !s.nightly.url.match(/fidoalliance\.org\//));
+      !s.nightly.url.match(/fidoalliance\.org\//) &&
+      s.shortname !== 'SVG11');
     assert.deepStrictEqual(wrong, []);
   });
 
@@ -197,5 +199,17 @@ describe("List of specs", () => {
       .filter(s => s.nightly.url.match(/\/drafts\.csswg\.org/))
       .filter(s => !s.nightly.alternateUrls.includes(`https://w3c.github.io/csswg-drafts/${s.shortname}/`));
     assert.deepStrictEqual(wrong, []);
+  });
+
+  it("has distinct source paths for all specs", () => {
+    // ... provided entries don't share the same nightly draft
+    // (typically the case for CSS 2.1 and CSS 2.2)
+    const wrong = specs.filter(s =>
+      s.nightly.repository && s.nightly.sourcePath &&
+      specs.find(spec => spec !== s &&
+        spec.nightly.url !== s.nightly.url &&
+        spec.nightly.repository === s.nightly.repository &&
+        spec.nightly.sourcePath === s.nightly.sourcePath));
+    assert.deepStrictEqual(wrong, [], JSON.stringify(wrong, null, 2));
   });
 });

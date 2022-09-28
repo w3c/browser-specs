@@ -287,11 +287,9 @@
     }
   },
   "https://w3c.github.io/PNG-spec/",
-  "https://w3c.github.io/trusted-types/dist/spec/",
   "https://w3c.github.io/web-locks/",
   "https://w3c.github.io/web-nfc/",
   "https://w3c.github.io/web-share-target/",
-  "https://w3c.github.io/webappsec-change-password-url/",
   "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
   {
@@ -506,6 +504,7 @@
       "sourcePath": "identity/index.html"
     }
   },
+  "https://www.w3.org/TR/change-password-url/",
   "https://www.w3.org/TR/clear-site-data/",
   "https://www.w3.org/TR/clipboard-apis/",
   {
@@ -905,6 +904,7 @@
       "sourcePath": "drafts/tracking-dnt.html"
     }
   },
+  "https://www.w3.org/TR/trusted-types/",
   {
     "url": "https://www.w3.org/TR/uievents-code/",
     "nightly": {

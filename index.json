@@ -17537,9 +17537,7 @@
     "seriesVersion": "1.1",
     "nightly": {
       "url": "https://www.w3.org/TR/SVG11/",
-      "repository": "https://github.com/w3c/svgwg",
       "alternateUrls": [],
-      "sourcePath": "master/Overview.html",
       "pages": [
         "https://www.w3.org/TR/SVG11/expanded-toc.html",
         "https://www.w3.org/TR/SVG11/intro.html",

@@ -4687,38 +4687,6 @@
     ]
   },
   {
-    "url": "https://w3c.github.io/trusted-types/dist/spec/",
-    "seriesComposition": "full",
-    "shortname": "trusted-types",
-    "series": {
-      "shortname": "trusted-types",
-      "currentSpecification": "trusted-types",
-      "title": "Trusted Types",
-      "shortTitle": "Trusted Types",
-      "nightlyUrl": "https://w3c.github.io/trusted-types/dist/spec/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/trusted-types/dist/spec/",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/trusted-types",
-      "sourcePath": "spec/index.bs",
-      "filename": "index.html"
-    },
-    "title": "Trusted Types",
-    "source": "specref",
-    "shortTitle": "Trusted Types",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/web-locks/",
     "seriesComposition": "full",
     "shortname": "web-locks",
@@ -4822,38 +4790,6 @@
     "title": "Web Share Target API",
     "source": "specref",
     "shortTitle": "Web Share Target API",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/webappsec-change-password-url/",
-    "seriesComposition": "full",
-    "shortname": "change-password-url",
-    "series": {
-      "shortname": "change-password-url",
-      "currentSpecification": "change-password-url",
-      "title": "A Well-Known URL for Changing Passwords",
-      "shortTitle": "A Well-Known URL for Changing Passwords",
-      "nightlyUrl": "https://w3c.github.io/webappsec-change-password-url/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/webappsec-change-password-url/",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/webappsec-change-password-url",
-      "sourcePath": "change-password-url.bs",
-      "filename": "index.html"
-    },
-    "title": "A Well-Known URL for Changing Passwords",
-    "source": "specref",
-    "shortTitle": "A Well-Known URL for Changing Passwords",
     "categories": [
       "browser"
     ]
@@ -9002,6 +8938,43 @@
     "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
     "source": "w3c",
     "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/change-password-url/",
+    "seriesComposition": "full",
+    "shortname": "change-password-url",
+    "series": {
+      "shortname": "change-password-url",
+      "currentSpecification": "change-password-url",
+      "title": "A Well-Known URL for Changing Passwords",
+      "shortTitle": "A Well-Known URL for Changing Passwords",
+      "releaseUrl": "https://www.w3.org/TR/change-password-url/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-change-password-url/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/change-password-url/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-change-password-url/",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webappsec-change-password-url",
+      "sourcePath": "change-password-url.bs",
+      "filename": "index.html"
+    },
+    "title": "A Well-Known URL for Changing Passwords",
+    "source": "w3c",
+    "shortTitle": "A Well-Known URL for Changing Passwords",
     "categories": [
       "browser"
     ]
@@ -17867,6 +17840,43 @@
     "title": "Tracking Preference Expression (DNT)",
     "source": "w3c",
     "shortTitle": "DNT",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/trusted-types/",
+    "seriesComposition": "full",
+    "shortname": "trusted-types",
+    "series": {
+      "shortname": "trusted-types",
+      "currentSpecification": "trusted-types",
+      "title": "Trusted Types",
+      "shortTitle": "Trusted Types",
+      "releaseUrl": "https://www.w3.org/TR/trusted-types/",
+      "nightlyUrl": "https://w3c.github.io/trusted-types/dist/spec/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/trusted-types/",
+      "filename": "index.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/trusted-types/dist/spec/",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/trusted-types",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "Trusted Types",
+    "source": "w3c",
+    "shortTitle": "Trusted Types",
     "categories": [
       "browser"
     ]

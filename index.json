@@ -16920,7 +16920,7 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/resource-timing-2/",
+      "url": "https://www.w3.org/TR/resource-timing/",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -16930,9 +16930,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Resource Timing Level 2",
+    "title": "Resource Timing",
     "source": "w3c",
-    "shortTitle": "Resource Timing 2",
+    "shortTitle": "Resource Timing",
     "categories": [
       "browser"
     ],

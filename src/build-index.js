@@ -198,11 +198,16 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
     // Add alternate w3c.github.io URLs for CSS specs
     // (Note drafts of CSS Houdini and Visual effects task forces don't have a
     // w3c.github.io version)
+    // (Also note the CSS WG uses the "css" series shortname for CSS snapshots
+    // and not for the CSS 2.x series)
     res.nightly.alternateUrls = res.nightly.alternateUrls || [];
     if (res.nightly.url.match(/\/drafts\.csswg\.org/)) {
-      res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${res.shortname}/`);
-      if ((res.series.currentSpecification === res.shortname) && (res.shortname !== res.series.shortname)) {
-        res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${res.series.shortname}/`);
+      const draft = computeShortname(res.nightly.url);
+      res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.shortname}/`);
+      if ((res.series.currentSpecification === res.shortname) &&
+          (draft.shortname !== draft.series.shortname) &&
+          (draft.series.shortname !== 'css')) {
+        res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
       }
     }
 

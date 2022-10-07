@@ -7,6 +7,7 @@ const assert = require("assert");
 const specs = require("../index.json");
 const schema = require("../schema/index.json");
 const dfnsSchema = require("../schema/definitions.json");
+const computeShortname = require("../src/compute-shortname");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats")
 const ajv = new Ajv();
@@ -197,7 +198,11 @@ describe("List of specs", () => {
   it("has a w3c.github.io alternate URL for CSS drafts", () => {
     const wrong = specs
       .filter(s => s.nightly.url.match(/\/drafts\.csswg\.org/))
-      .filter(s => !s.nightly.alternateUrls.includes(`https://w3c.github.io/csswg-drafts/${s.shortname}/`));
+      .filter(s => {
+        const draft = computeShortname(s.nightly.url);
+        return !s.nightly.alternateUrls.includes(
+          `https://w3c.github.io/csswg-drafts/${draft.shortname}/`);
+      });
     assert.deepStrictEqual(wrong, []);
   });
 

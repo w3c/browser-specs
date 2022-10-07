@@ -44,8 +44,10 @@
 const throttle = require("./throttle");
 const baseFetch = require("node-fetch");
 const fetch = throttle(baseFetch, 2);
+const computeShortname = require("./compute-shortname");
 const {JSDOM} = require("jsdom");
 const JSDOMFromURL = throttle(JSDOM.fromURL, 2);
+
 
 
 async function fetchInfoFromW3CApi(specs, options) {
@@ -231,12 +233,18 @@ async function fetchInfoFromSpecref(specs, options) {
 async function fetchInfoFromSpecs(specs, options) {
   const info = await Promise.all(specs.map(async spec => {
     const url = spec.nightly?.url || spec.url;
+    // Force use of more stable w3c.github.io address for CSS drafts
+    let fetchUrl = url;
+    if (url.match(/\/drafts\.csswg\.org/)) {
+      const draft = computeShortname(url);
+      fetchUrl = `https://w3c.github.io/csswg-drafts/${draft.shortname}/`;
+    }
     let dom = null;
     try {
-      dom = await JSDOMFromURL(url);
+      dom = await JSDOMFromURL(fetchUrl);
     }
     catch (err) {
-      throw new Error(`Could not retrieve ${url} with JSDOM: ${err.message}`);
+      throw new Error(`Could not retrieve ${fetchUrl} with JSDOM: ${err.message}`);
     }
 
     if (spec.url.startsWith("https://tc39.es/")) {

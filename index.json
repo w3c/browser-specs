@@ -722,15 +722,15 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-shared-element-transitions-1/",
+    "url": "https://drafts.csswg.org/css-view-transitions-1/",
     "seriesComposition": "full",
-    "shortname": "css-shared-element-transitions-1",
+    "shortname": "css-view-transitions-1",
     "series": {
-      "shortname": "css-shared-element-transitions",
-      "currentSpecification": "css-shared-element-transitions-1",
-      "title": "CSS Shared Element Transitions",
-      "shortTitle": "CSS Shared Element Transitions",
-      "nightlyUrl": "https://drafts.csswg.org/css-shared-element-transitions/"
+      "shortname": "css-view-transitions",
+      "currentSpecification": "css-view-transitions-1",
+      "title": "CSS View Transitions",
+      "shortTitle": "CSS View Transitions",
+      "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -741,18 +741,18 @@
       }
     ],
     "nightly": {
-      "url": "https://drafts.csswg.org/css-shared-element-transitions-1/",
+      "url": "https://drafts.csswg.org/css-view-transitions-1/",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-shared-element-transitions-1/",
-        "https://w3c.github.io/csswg-drafts/css-shared-element-transitions/"
+        "https://w3c.github.io/csswg-drafts/css-view-transitions-1/",
+        "https://w3c.github.io/csswg-drafts/css-view-transitions/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-shared-element-transitions-1/Overview.bs",
+      "sourcePath": "css-view-transitions-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Shared Element Transitions Module Level 1",
+    "title": "CSS View Transitions Module Level 1",
     "source": "spec",
-    "shortTitle": "CSS Shared Element Transitions 1",
+    "shortTitle": "CSS View Transitions 1",
     "categories": [
       "browser"
     ]
@@ -5878,44 +5878,6 @@
     }
   },
   {
-    "url": "https://wicg.github.io/import-maps/",
-    "seriesComposition": "full",
-    "shortname": "import-maps",
-    "series": {
-      "shortname": "import-maps",
-      "currentSpecification": "import-maps",
-      "title": "Import Maps",
-      "shortTitle": "Import Maps",
-      "nightlyUrl": "https://wicg.github.io/import-maps/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/import-maps/",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/import-maps",
-      "sourcePath": "spec.bs",
-      "filename": "index.html"
-    },
-    "title": "Import Maps",
-    "source": "spec",
-    "shortTitle": "Import Maps",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "import-maps"
-      ]
-    }
-  },
-  {
     "url": "https://wicg.github.io/ink-enhancement/",
     "seriesComposition": "full",
     "shortname": "ink-enhancement",
@@ -10351,8 +10313,8 @@
       "url": "https://drafts.csswg.org/css-viewport-1/",
       "sourcePath": "css-viewport/Overview.bs",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-device-adapt-1/",
-        "https://w3c.github.io/csswg-drafts/css-device-adapt/"
+        "https://w3c.github.io/csswg-drafts/css-viewport-1/",
+        "https://w3c.github.io/csswg-drafts/css-viewport/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "Overview.html"
@@ -13180,7 +13142,7 @@
       "url": "https://drafts.csswg.org/css2/",
       "sourcePath": "css2/Overview.bs",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/CSS21/"
+        "https://w3c.github.io/csswg-drafts/css2/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "pages": [],
@@ -13256,8 +13218,7 @@
       "url": "https://drafts.csswg.org/css2/",
       "sourcePath": "css2/Overview.bs",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/CSS22/",
-        "https://w3c.github.io/csswg-drafts/CSS/"
+        "https://w3c.github.io/csswg-drafts/css2/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "pages": [],
@@ -13333,7 +13294,7 @@
       "url": "https://drafts.csswg.org/css-exclusions-1/",
       "sourcePath": "css-exclusions-1/Overview.bs",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css3-exclusions/",
+        "https://w3c.github.io/csswg-drafts/css-exclusions-1/",
         "https://w3c.github.io/csswg-drafts/css-exclusions/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",

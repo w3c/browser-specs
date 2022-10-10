@@ -722,42 +722,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-view-transitions-1/",
-    "seriesComposition": "full",
-    "shortname": "css-view-transitions-1",
-    "series": {
-      "shortname": "css-view-transitions",
-      "currentSpecification": "css-view-transitions-1",
-      "title": "CSS View Transitions",
-      "shortTitle": "CSS View Transitions",
-      "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-view-transitions-1/",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-view-transitions-1/",
-        "https://w3c.github.io/csswg-drafts/css-view-transitions/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-view-transitions-1/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS View Transitions Module Level 1",
-    "source": "spec",
-    "shortTitle": "CSS View Transitions 1",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://drafts.csswg.org/css-size-adjust-1/",
     "seriesComposition": "full",
     "shortname": "css-size-adjust-1",
@@ -927,6 +891,42 @@
         "css/css-variables"
       ]
     }
+  },
+  {
+    "url": "https://drafts.csswg.org/css-view-transitions-1/",
+    "seriesComposition": "full",
+    "shortname": "css-view-transitions-1",
+    "series": {
+      "shortname": "css-view-transitions",
+      "currentSpecification": "css-view-transitions-1",
+      "title": "CSS View Transitions",
+      "shortTitle": "CSS View Transitions",
+      "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-view-transitions-1/",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-view-transitions-1/",
+        "https://w3c.github.io/csswg-drafts/css-view-transitions/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-view-transitions-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS View Transitions Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS View Transitions 1",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://drafts.csswg.org/scroll-animations-1/",
@@ -16861,18 +16861,17 @@
     ]
   },
   {
-    "url": "https://www.w3.org/TR/resource-timing-2/",
+    "url": "https://www.w3.org/TR/resource-timing/",
     "seriesComposition": "full",
-    "shortname": "resource-timing-2",
+    "shortname": "resource-timing",
     "series": {
       "shortname": "resource-timing",
-      "currentSpecification": "resource-timing-2",
+      "currentSpecification": "resource-timing",
       "title": "Resource Timing",
       "shortTitle": "Resource Timing",
       "releaseUrl": "https://www.w3.org/TR/resource-timing/",
       "nightlyUrl": "https://w3c.github.io/resource-timing/"
     },
-    "seriesVersion": "2",
     "organization": "W3C",
     "groups": [
       {

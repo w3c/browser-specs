@@ -217,6 +217,9 @@
     },
     "WICG/floc": {
       "comment": "proposal replaced by the Topics API"
+    },
+    "WICG/import-maps": {
+      "comment": "folded into HTML (and redirects to it)"
     }
   },
   "specs": {

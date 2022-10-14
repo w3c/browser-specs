@@ -99,6 +99,7 @@ module.exports = async function (specs, options) {
       // Named after the nightly filename
       `${nightlyFilename}.bs`,
       `${nightlyFilename}.html`,
+      `${nightlyFilename}.src.html`,
 
       // WebGL extensions
       `extensions/${spec.shortname}/extension.xml`,

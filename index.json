@@ -18482,6 +18482,524 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/webcodecs-aac-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-aac-codec-registration",
+    "series": {
+      "shortname": "webcodecs-aac-codec-registration",
+      "currentSpecification": "webcodecs-aac-codec-registration",
+      "title": "AAC WebCodecs Registration",
+      "shortTitle": "AAC WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-aac-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/aac_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-aac-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/aac_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "aac_codec_registration.src.html",
+      "filename": "aac_codec_registration.html"
+    },
+    "title": "AAC WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "AAC WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-alaw-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-alaw-codec-registration",
+    "series": {
+      "shortname": "webcodecs-alaw-codec-registration",
+      "currentSpecification": "webcodecs-alaw-codec-registration",
+      "title": "A-law PCM WebCodecs Registration",
+      "shortTitle": "A-law PCM WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-alaw-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/alaw_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-alaw-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/alaw_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "alaw_codec_registration.src.html",
+      "filename": "alaw_codec_registration.html"
+    },
+    "title": "A-law PCM WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "A-law PCM WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-av1-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-av1-codec-registration",
+    "series": {
+      "shortname": "webcodecs-av1-codec-registration",
+      "currentSpecification": "webcodecs-av1-codec-registration",
+      "title": "AV1 WebCodecs Registration",
+      "shortTitle": "AV1 WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-av1-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/av1_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-av1-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/av1_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "av1_codec_registration.src.html",
+      "filename": "av1_codec_registration.html"
+    },
+    "title": "AV1 WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "AV1 WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-avc-codec-registration",
+    "series": {
+      "shortname": "webcodecs-avc-codec-registration",
+      "currentSpecification": "webcodecs-avc-codec-registration",
+      "title": "AVC (H.264) WebCodecs Registration",
+      "shortTitle": "H.264",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/avc_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "avc_codec_registration.src.html",
+      "filename": "avc_codec_registration.html"
+    },
+    "title": "AVC (H.264) WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "H.264",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-codec-registry/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-codec-registry",
+    "series": {
+      "shortname": "webcodecs-codec-registry",
+      "currentSpecification": "webcodecs-codec-registry",
+      "title": "WebCodecs Codec Registry",
+      "shortTitle": "WebCodecs Codec Registry",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-codec-registry/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/codec_registry.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-codec-registry/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/codec_registry.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "codec_registry.src.html",
+      "filename": "codec_registry.html"
+    },
+    "title": "WebCodecs Codec Registry",
+    "source": "w3c",
+    "shortTitle": "WebCodecs Codec Registry",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-flac-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-flac-codec-registration",
+    "series": {
+      "shortname": "webcodecs-flac-codec-registration",
+      "currentSpecification": "webcodecs-flac-codec-registration",
+      "title": "FLAC WebCodecs Registration",
+      "shortTitle": "FLAC WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-flac-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/flac_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-flac-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/flac_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "flac_codec_registration.src.html",
+      "filename": "flac_codec_registration.html"
+    },
+    "title": "FLAC WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "FLAC WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-hevc-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-hevc-codec-registration",
+    "series": {
+      "shortname": "webcodecs-hevc-codec-registration",
+      "currentSpecification": "webcodecs-hevc-codec-registration",
+      "title": "HEVC (H.265) WebCodecs Registration",
+      "shortTitle": "H.265",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-hevc-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/hevc_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-hevc-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/hevc_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "hevc_codec_registration.src.html",
+      "filename": "hevc_codec_registration.html"
+    },
+    "title": "HEVC (H.265) WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "H.265",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-mp3-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-mp3-codec-registration",
+    "series": {
+      "shortname": "webcodecs-mp3-codec-registration",
+      "currentSpecification": "webcodecs-mp3-codec-registration",
+      "title": "MP3 WebCodecs Registration",
+      "shortTitle": "MP3 WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-mp3-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/mp3_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-mp3-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/mp3_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "mp3_codec_registration.src.html",
+      "filename": "mp3_codec_registration.html"
+    },
+    "title": "MP3 WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "MP3 WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-opus-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-opus-codec-registration",
+    "series": {
+      "shortname": "webcodecs-opus-codec-registration",
+      "currentSpecification": "webcodecs-opus-codec-registration",
+      "title": "Opus WebCodecs Registration",
+      "shortTitle": "Opus WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-opus-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/opus_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-opus-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/opus_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "opus_codec_registration.src.html",
+      "filename": "opus_codec_registration.html"
+    },
+    "title": "Opus WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "Opus WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-pcm-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-pcm-codec-registration",
+    "series": {
+      "shortname": "webcodecs-pcm-codec-registration",
+      "currentSpecification": "webcodecs-pcm-codec-registration",
+      "title": "Linear PCM WebCodecs Registration",
+      "shortTitle": "Linear PCM WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-pcm-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/pcm_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-pcm-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/pcm_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "pcm_codec_registration.src.html",
+      "filename": "pcm_codec_registration.html"
+    },
+    "title": "Linear PCM WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "Linear PCM WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-ulaw-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-ulaw-codec-registration",
+    "series": {
+      "shortname": "webcodecs-ulaw-codec-registration",
+      "currentSpecification": "webcodecs-ulaw-codec-registration",
+      "title": "u-law PCM WebCodecs Registration",
+      "shortTitle": "u-law PCM WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-ulaw-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/ulaw_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-ulaw-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/ulaw_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "ulaw_codec_registration.src.html",
+      "filename": "ulaw_codec_registration.html"
+    },
+    "title": "u-law PCM WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "u-law PCM WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-vorbis-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-vorbis-codec-registration",
+    "series": {
+      "shortname": "webcodecs-vorbis-codec-registration",
+      "currentSpecification": "webcodecs-vorbis-codec-registration",
+      "title": "Vorbis WebCodecs Registration",
+      "shortTitle": "Vorbis WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-vorbis-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/vorbis_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-vorbis-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/vorbis_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "vorbis_codec_registration.src.html",
+      "filename": "vorbis_codec_registration.html"
+    },
+    "title": "Vorbis WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "Vorbis WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-vp8-codec-registration",
+    "series": {
+      "shortname": "webcodecs-vp8-codec-registration",
+      "currentSpecification": "webcodecs-vp8-codec-registration",
+      "title": "VP8 WebCodecs Registration",
+      "shortTitle": "VP8 WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/vp8_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/vp8_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "vp8_codec_registration.src.html",
+      "filename": "vp8_codec_registration.html"
+    },
+    "title": "VP8 WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "VP8 WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-vp9-codec-registration",
+    "series": {
+      "shortname": "webcodecs-vp9-codec-registration",
+      "currentSpecification": "webcodecs-vp9-codec-registration",
+      "title": "VP9 WebCodecs Registration",
+      "shortTitle": "VP9 WebCodecs Registration",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/vp9_codec_registration.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/vp9_codec_registration.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "sourcePath": "vp9_codec_registration.src.html",
+      "filename": "vp9_codec_registration.html"
+    },
+    "title": "VP9 WebCodecs Registration",
+    "source": "w3c",
+    "shortTitle": "VP9 WebCodecs Registration",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://www.w3.org/TR/webcodecs/",
     "seriesComposition": "full",
     "shortname": "webcodecs",

@@ -299,6 +299,14 @@
     "WICG/mobile-document-request-api": {
       "lastreviewed": "2022-09-19",
       "comment": "no published content yet"
+    },
+    "WICG/screen-brightness": {
+      "lastreviewed": "2022-10-17",
+      "comment": "no published content yet"
+    },
+    "WICG/web-smart-card": {
+      "lastreviewed": "2022-10-17",
+      "comment": "no published content yet"
     }
   },
   "specs": {

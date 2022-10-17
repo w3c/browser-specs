@@ -307,6 +307,14 @@
     "WICG/web-smart-card": {
       "lastreviewed": "2022-10-17",
       "comment": "no published content yet"
+    },
+    "w3c/rch-rdc": {
+      "lastreviewed": "2022-10-17",
+      "comment": "empty spec for now"
+    },
+    "w3c/rch-rdh": {
+      "lastreviewed": "2022-10-17",
+      "comment": "empty spec for now"
     }
   },
   "specs": {

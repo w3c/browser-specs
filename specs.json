@@ -261,6 +261,12 @@
   },
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-json-parse-with-source/",
+  {
+    "url": "https://tc39.es/proposal-regexp-modifiers/",
+    "nightly": {
+      "sourcePath": "spec.emu"
+    }
+  },
   "https://tc39.es/proposal-resizablearraybuffer/",
   "https://tc39.es/proposal-shadowrealm/",
   {

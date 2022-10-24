@@ -381,6 +381,9 @@
     },
     "https://w3c.github.io/device-memory/": {
       "comment": "Already in the list. Code gets confused because TR spec links to itself as ED"
+    },
+    "https://www.w3.org/TR/resource-timing-1/": {
+      "comment": "Level-less spec is in the list, no need to track old Level 1 spec"
     }
   }
 }

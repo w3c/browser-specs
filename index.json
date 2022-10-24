@@ -4183,6 +4183,38 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-regexp-modifiers/",
+    "seriesComposition": "full",
+    "shortname": "tc39-regexp-modifiers",
+    "series": {
+      "shortname": "tc39-regexp-modifiers",
+      "currentSpecification": "tc39-regexp-modifiers",
+      "title": "Regular Expression Pattern Modifiers for ECMAScript",
+      "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
+      "nightlyUrl": "https://tc39.es/proposal-regexp-modifiers/"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-regexp-modifiers/",
+      "sourcePath": "spec.emu",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-regexp-modifiers",
+      "filename": "index.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "Regular Expression Pattern Modifiers for ECMAScript",
+    "source": "spec",
+    "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",
     "seriesComposition": "full",
     "shortname": "tc39-resizablearraybuffer",

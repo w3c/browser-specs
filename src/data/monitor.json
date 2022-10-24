@@ -315,6 +315,10 @@
     "w3c/rch-rdh": {
       "lastreviewed": "2022-10-17",
       "comment": "empty spec for now"
+    },
+    "WICG/pending-beacon": {
+      "lastreviewed": "2022-10-24",
+      "comment": "Origin trial in Chrome but spec still flagged as unofficial proposal draft"
     }
   },
   "specs": {

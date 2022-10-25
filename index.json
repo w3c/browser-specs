@@ -922,7 +922,7 @@
       "filename": "Overview.html"
     },
     "title": "CSS View Transitions Module Level 1",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS View Transitions 1",
     "categories": [
       "browser"
@@ -958,7 +958,7 @@
       "filename": "Overview.html"
     },
     "title": "Scroll-linked Animations",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Scroll-linked Animations",
     "categories": [
       "browser"

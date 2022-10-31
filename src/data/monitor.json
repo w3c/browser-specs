@@ -319,6 +319,14 @@
     "WICG/pending-beacon": {
       "lastreviewed": "2022-10-24",
       "comment": "Origin trial in Chrome but spec still flagged as unofficial proposal draft"
+    },
+    "WICG/element-capture": {
+      "lastreviewed": "2022-10-31",
+      "comment": "no published content yet"
+    },
+    "WICG/view-transitions": {
+      "lastreviewed": "2022-10-31",
+      "comment": "no published content yet"
     }
   },
   "specs": {

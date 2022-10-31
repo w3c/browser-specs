@@ -36,10 +36,6 @@
       "comment": "No clear implementation plan, considered as harmful by Mozilla https://github.com/mozilla/standards-positions/issues/431",
       "lastreviewed": "2022-09-01"
     },
-    "WICG/sw-launch": {
-      "comment": "Spec marked as unofficial draft",
-      "lastreviewed": "2022-09-01"
-    },
     "w3c/webrtc-extensions": {
       "comment": "a kitchen-sink delta spec for now - might lead to a new integrated webrtc NV spec",
       "lastreviewed": "2022-09-01"

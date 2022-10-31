@@ -63,8 +63,6 @@
     "url": "https://drafts.csswg.org/css-variables-2/",
     "shortTitle": "CSS Variables 2"
   },
-  "https://drafts.csswg.org/css-view-transitions-1/",
-  "https://drafts.csswg.org/scroll-animations-1/",
   "https://drafts.csswg.org/web-animations-2/ delta",
   {
     "url": "https://drafts.fxtf.org/compositing-2/",
@@ -392,6 +390,7 @@
   "https://wicg.github.io/urlpattern/",
   "https://wicg.github.io/user-preference-media-features-headers/",
   "https://wicg.github.io/video-rvfc/",
+  "https://wicg.github.io/web-app-launch/",
   "https://wicg.github.io/web-otp/",
   "https://wicg.github.io/webcrypto-secure-curves/",
   "https://wicg.github.io/webhid/",
@@ -685,6 +684,7 @@
     "url": "https://www.w3.org/TR/css-variables-1/",
     "shortTitle": "CSS Variables 1"
   },
+  "https://www.w3.org/TR/css-view-transitions-1/",
   "https://www.w3.org/TR/css-will-change-1/",
   "https://www.w3.org/TR/css-writing-modes-4/",
   {
@@ -880,6 +880,7 @@
   "https://www.w3.org/TR/screen-capture/",
   "https://www.w3.org/TR/screen-orientation/",
   "https://www.w3.org/TR/screen-wake-lock/",
+  "https://www.w3.org/TR/scroll-animations-1/",
   "https://www.w3.org/TR/secure-contexts/",
   "https://www.w3.org/TR/secure-payment-confirmation/",
   "https://www.w3.org/TR/selection-api/",

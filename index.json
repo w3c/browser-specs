@@ -893,84 +893,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-view-transitions-1/",
-    "seriesComposition": "full",
-    "shortname": "css-view-transitions-1",
-    "series": {
-      "shortname": "css-view-transitions",
-      "currentSpecification": "css-view-transitions-1",
-      "title": "CSS View Transitions",
-      "shortTitle": "CSS View Transitions",
-      "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-view-transitions-1/",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-view-transitions-1/",
-        "https://w3c.github.io/csswg-drafts/css-view-transitions/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-view-transitions-1/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS View Transitions Module Level 1",
-    "source": "specref",
-    "shortTitle": "CSS View Transitions 1",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
-    "url": "https://drafts.csswg.org/scroll-animations-1/",
-    "seriesComposition": "full",
-    "shortname": "scroll-animations-1",
-    "series": {
-      "shortname": "scroll-animations",
-      "currentSpecification": "scroll-animations-1",
-      "title": "Scroll-linked Animations",
-      "shortTitle": "Scroll-linked Animations",
-      "nightlyUrl": "https://drafts.csswg.org/scroll-animations/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/scroll-animations-1/",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/scroll-animations-1/",
-        "https://w3c.github.io/csswg-drafts/scroll-animations/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "scroll-animations-1/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Scroll-linked Animations",
-    "source": "specref",
-    "shortTitle": "Scroll-linked Animations",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "scroll-animations"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/web-animations-2/",
     "seriesComposition": "delta",
     "shortname": "web-animations-2",
@@ -7347,6 +7269,38 @@
     }
   },
   {
+    "url": "https://wicg.github.io/web-app-launch/",
+    "seriesComposition": "full",
+    "shortname": "web-app-launch",
+    "series": {
+      "shortname": "web-app-launch",
+      "currentSpecification": "web-app-launch",
+      "title": "Web App Launch Handler API",
+      "shortTitle": "Web App Launch Handler API",
+      "nightlyUrl": "https://wicg.github.io/web-app-launch/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/web-app-launch/",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/web-app-launch",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web App Launch Handler API",
+    "source": "spec",
+    "shortTitle": "Web App Launch Handler API",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://wicg.github.io/web-otp/",
     "seriesComposition": "full",
     "shortname": "web-otp",
@@ -13064,6 +13018,47 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-view-transitions-1/",
+    "seriesComposition": "full",
+    "shortname": "css-view-transitions-1",
+    "series": {
+      "shortname": "css-view-transitions",
+      "currentSpecification": "css-view-transitions-1",
+      "title": "CSS View Transitions Module Level 1",
+      "shortTitle": "CSS View Transitions",
+      "releaseUrl": "https://www.w3.org/TR/css-view-transitions/",
+      "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-view-transitions-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-view-transitions-1/",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-view-transitions-1/",
+        "https://w3c.github.io/csswg-drafts/css-view-transitions/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-view-transitions-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS View Transitions Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS View Transitions 1",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://www.w3.org/TR/css-will-change-1/",
     "seriesComposition": "full",
     "shortname": "css-will-change-1",
@@ -17061,6 +17056,53 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "screen-wake-lock"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/scroll-animations-1/",
+    "seriesComposition": "full",
+    "shortname": "scroll-animations-1",
+    "series": {
+      "shortname": "scroll-animations",
+      "currentSpecification": "scroll-animations-1",
+      "title": "Scroll-linked Animations",
+      "shortTitle": "Scroll-linked Animations",
+      "releaseUrl": "https://www.w3.org/TR/scroll-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/scroll-animations/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/scroll-animations-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/scroll-animations-1/",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/scroll-animations-1/",
+        "https://w3c.github.io/csswg-drafts/scroll-animations/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "scroll-animations-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Scroll-linked Animations",
+    "source": "w3c",
+    "shortTitle": "Scroll-linked Animations",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "scroll-animations"
       ]
     }
   },

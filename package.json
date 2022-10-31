@@ -24,7 +24,7 @@
     "@octokit/rest": "^19.0.5",
     "ajv": "^8.11.0",
     "ajv-formats": "^2.1.1",
-    "jsdom": "^20.0.1",
+    "jsdom": "^20.0.2",
     "mocha": "^10.1.0",
     "node-fetch": "^2.6.7",
     "rimraf": "^3.0.2"

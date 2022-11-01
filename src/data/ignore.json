@@ -220,6 +220,9 @@
     },
     "WICG/import-maps": {
       "comment": "folded into HTML (and redirects to it)"
+    },
+    "WICG/conditional-focus": {
+      "comment": "Integrated in Screen Capture through https://github.com/w3c/mediacapture-screen-share/pull/240."
     }
   },
   "specs": {

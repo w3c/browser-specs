@@ -130,11 +130,11 @@
     },
     "WICG/trust-token-api": {
       "lastreviewed": "2022-11-01",
-      "comment": "no published content yet"
+      "comment": "API not properly defined as Web IDL"
     },
     "WICG/turtledove": {
       "lastreviewed": "2022-11-01",
-      "comment": "no published content yet"
+      "comment": "Now entitled FLEDGE. Defined as an experiment for now."
     },
     "WICG/video-editing": {
       "lastreviewed": "2022-11-01",

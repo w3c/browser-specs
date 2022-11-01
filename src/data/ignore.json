@@ -223,7 +223,7 @@
     },
     "WICG/conditional-focus": {
       "comment": "Integrated in Screen Capture through https://github.com/w3c/mediacapture-screen-share/pull/240."
-    },
+    }
   },
   "specs": {
     "https://svgwg.org/specs/streaming/": {

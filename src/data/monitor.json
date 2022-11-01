@@ -323,6 +323,10 @@
     "WICG/view-transitions": {
       "lastreviewed": "2022-11-01",
       "comment": "no published content yet"
+    },
+    "WICG/document-picture-in-picture": {
+      "lastreviewed": "2022-11-01",
+      "comment": "no published content yet"
     }
   },
   "specs": {
@@ -389,10 +393,6 @@
     "https://w3c.github.io/PFE/RangeRequest.html": {
       "comment": "being split-off from main spec https://github.com/w3c/PFE/pull/9/files; stub",
       "lastreviewed": "2022-11-01"
-    },
-    "https://www.w3.org/TR/clreq-gap/": {
-      "lastreviewed": "2022-11-01",
-      "comment": "WG Note of clreq-gap document incorrectly published on the Rec track. Pending spec status fix in /TR, then entry can be dropped from monitor file"
     },
     "https://www.w3.org/TR/wasm-core-2/": {
       "lastreviewed": "2022-11-01",

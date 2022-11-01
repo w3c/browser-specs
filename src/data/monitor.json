@@ -282,7 +282,7 @@
     },
     "WICG/shared-storage": {
       "lastreviewed": "2022-11-01",
-      "comment": "no published content yet"
+      "comment": "spec only contains IDL, no algorithms yet"
     },
     "WICG/unload-beacon": {
       "lastreviewed": "2022-11-01",

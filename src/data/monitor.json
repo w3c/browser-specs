@@ -240,10 +240,6 @@
       "lastreviewed": "2022-11-01",
       "comment": "early exploration phase; no clear implementation plan yet"
     },
-    "WICG/conditional-focus": {
-      "lastreviewed": "2022-11-01",
-      "comment": "spec should get integrated in Screen Capture, see https://github.com/w3c/mediacapture-screen-share/issues/190"
-    },
     "WICG/bundle-preloading": {
       "lastreviewed": "2022-11-01",
       "comment": "no published content yet"

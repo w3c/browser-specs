@@ -8231,6 +8231,38 @@
     ]
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc8288",
+    "seriesComposition": "full",
+    "shortname": "rfc8288",
+    "series": {
+      "shortname": "rfc8288",
+      "currentSpecification": "rfc8288",
+      "title": "Web Linking",
+      "shortTitle": "Web Linking",
+      "nightlyUrl": "https://httpwg.org/specs/rfc8288.html"
+    },
+    "groups": [
+      {
+        "name": "Mark Nottingham (individual in art area)",
+        "url": "https://datatracker.ietf.org/person/mnot@mnot.net"
+      }
+    ],
+    "organization": "IETF",
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc8288.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc8288.xml",
+      "filename": "rfc8288.html"
+    },
+    "title": "Web Linking",
+    "source": "specref",
+    "shortTitle": "Web Linking",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc8470",
     "seriesComposition": "full",
     "shortname": "rfc8470",

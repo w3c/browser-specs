@@ -434,6 +434,15 @@
   "https://www.rfc-editor.org/rfc/rfc7725",
   "https://www.rfc-editor.org/rfc/rfc7838",
   "https://www.rfc-editor.org/rfc/rfc8246",
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc8288",
+    "groups": [
+      {
+        "name": "Mark Nottingham (individual in art area)",
+        "url": "https://datatracker.ietf.org/person/mnot@mnot.net"
+      }
+    ]
+  },
   "https://www.rfc-editor.org/rfc/rfc8470",
   "https://www.rfc-editor.org/rfc/rfc8942",
   {

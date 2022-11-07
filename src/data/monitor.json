@@ -323,6 +323,10 @@
     "WICG/document-picture-in-picture": {
       "lastreviewed": "2022-11-01",
       "comment": "no published content yet"
+    },
+    "immersive-web/front-facing-camera": {
+      "lastreviewed": "2022-11-07",
+      "comment": "no published content yet"
     }
   },
   "specs": {

@@ -7,6 +7,22 @@
   },
   "https://console.spec.whatwg.org/",
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
+    "shortname": "digest-headers",
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html",
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-digest-headers.md"
+    }
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
     "shortname": "rfc6265bis",
     "organization": "IETF",
@@ -473,6 +489,13 @@
     "url": "https://www.rfc-editor.org/rfc/rfc9114",
     "nightly": {
       "url": "https://httpwg.org/specs/rfc9114.html"
+    }
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9163",
+    "nightly": {
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "archive/draft-ietf-httpbis-expect-ct.md"
     }
   },
   {

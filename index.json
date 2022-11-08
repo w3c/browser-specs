@@ -76,6 +76,38 @@
     }
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
+    "seriesComposition": "full",
+    "shortname": "digest-headers",
+    "series": {
+      "shortname": "digest-headers",
+      "currentSpecification": "digest-headers",
+      "title": "Digest Fields",
+      "shortTitle": "Digest Fields",
+      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html",
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-digest-headers.md",
+      "alternateUrls": [],
+      "filename": "draft-ietf-httpbis-digest-headers.html"
+    },
+    "title": "Digest Fields",
+    "source": "spec",
+    "shortTitle": "Digest Fields",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
     "seriesComposition": "full",
     "shortname": "rfc6265bis",
@@ -8480,6 +8512,38 @@
     "title": "HTTP/3",
     "source": "specref",
     "shortTitle": "HTTP/3",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9163",
+    "seriesComposition": "full",
+    "shortname": "rfc9163",
+    "series": {
+      "shortname": "rfc9163",
+      "currentSpecification": "rfc9163",
+      "title": "Expect-CT Extension for HTTP",
+      "shortTitle": "Expect-CT Extension for HTTP",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9163"
+    },
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc9163",
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "archive/draft-ietf-httpbis-expect-ct.md",
+      "alternateUrls": [],
+      "filename": "rfc9163.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "title": "Expect-CT Extension for HTTP",
+    "source": "specref",
+    "shortTitle": "Expect-CT Extension for HTTP",
     "categories": [
       "browser"
     ]

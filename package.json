@@ -22,7 +22,7 @@
     "@jsdevtools/npm-publish": "^1.4.3",
     "@octokit/plugin-throttling": "^4.3.2",
     "@octokit/rest": "^19.0.5",
-    "ajv": "^8.11.0",
+    "ajv": "^8.11.2",
     "ajv-formats": "^2.1.1",
     "jsdom": "^20.0.2",
     "mocha": "^10.1.0",

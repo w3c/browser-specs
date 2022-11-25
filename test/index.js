@@ -13,6 +13,15 @@ const addFormats = require("ajv-formats")
 const ajv = new Ajv();
 addFormats(ajv);
 
+// Some old specs that don't have a spec
+const noRepo = [
+  'SVG11',
+  'test-methodology',
+  'rdf11-concepts',
+  'rdf11-mt',
+  'n-quads'
+];
+
 
 describe("List of specs", () => {
   it("has a valid JSON schema", () => {
@@ -145,7 +154,7 @@ describe("List of specs", () => {
       !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
       !s.nightly.url.match(/\/sourcemaps\.info\//) &&
       !s.nightly.url.match(/fidoalliance\.org\//) &&
-      s.shortname !== 'SVG11');
+      !noRepo.includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });
 
@@ -157,7 +166,7 @@ describe("List of specs", () => {
       !s.nightly.url.match(/tc39\.es\/proposal\-decorators\/$/) &&
       !s.nightly.url.match(/\/sourcemaps\.info\//) &&
       !s.nightly.url.match(/fidoalliance\.org\//) &&
-      s.shortname !== 'SVG11');
+      !noRepo.includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });
 

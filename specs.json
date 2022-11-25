@@ -883,6 +883,15 @@
   "https://www.w3.org/TR/mixed-content/",
   "https://www.w3.org/TR/motion-1/",
   "https://www.w3.org/TR/mst-content-hint/",
+  {
+    "url": "https://www.w3.org/TR/n-quads/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/n-quads/"
+    },
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/navigation-timing-2/",
   "https://www.w3.org/TR/network-error-logging-1/",
   "https://www.w3.org/TR/openscreenprotocol/",
@@ -902,6 +911,39 @@
   "https://www.w3.org/TR/presentation-api/",
   "https://www.w3.org/TR/proximity/",
   "https://www.w3.org/TR/push-api/",
+  {
+    "url": "https://www.w3.org/TR/rdf-canon/",
+    "nightly": {
+      "url": "https://w3c.github.io/rdf-canon/spec/"
+    },
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf11-concepts/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/rdf11-concepts/"
+    },
+    "series": {
+      "shortname": "rdf-concepts"
+    },
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf11-mt/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/rdf11-mt/"
+    },
+    "series": {
+      "shortname": "rdf-mt"
+    },
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/referrer-policy/",
   "https://www.w3.org/TR/remote-playback/",
   "https://www.w3.org/TR/reporting-1/",

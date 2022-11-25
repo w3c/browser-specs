@@ -934,7 +934,12 @@
     }
   },
   "https://www.w3.org/TR/SVG2/ multipage",
-  "https://www.w3.org/TR/test-methodology/",
+  {
+    "url": "https://www.w3.org/TR/test-methodology/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/test-methodology/"
+    }
+  },
   "https://www.w3.org/TR/timing-entrytypes-registry/",
   "https://www.w3.org/TR/touch-events/",
   {

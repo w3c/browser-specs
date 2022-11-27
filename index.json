@@ -15916,6 +15916,39 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/n-quads/",
+    "seriesComposition": "full",
+    "shortname": "n-quads",
+    "series": {
+      "shortname": "n-quads",
+      "currentSpecification": "n-quads",
+      "title": "RDF N-Quads",
+      "shortTitle": "RDF N-Quads",
+      "releaseUrl": "https://www.w3.org/TR/n-quads/",
+      "nightlyUrl": "https://www.w3.org/TR/n-quads/"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/n-quads/",
+      "alternateUrls": [],
+      "filename": "Overview.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "RDF Working Group",
+        "url": "https://www.w3.org/2011/rdf-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/n-quads/",
+      "filename": "Overview.html"
+    },
+    "title": "RDF 1.1 N-Quads",
+    "source": "w3c",
+    "shortTitle": "RDF 1.1 N-Quads"
+  },
+  {
     "url": "https://www.w3.org/TR/navigation-timing-2/",
     "seriesComposition": "full",
     "shortname": "navigation-timing-2",
@@ -16725,6 +16758,107 @@
         "push-api"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf-canon/",
+    "seriesComposition": "full",
+    "shortname": "rdf-canon",
+    "series": {
+      "shortname": "rdf-canon",
+      "currentSpecification": "rdf-canon",
+      "title": "RDF Dataset Canonicalization",
+      "shortTitle": "RDF Dataset Canonicalization",
+      "releaseUrl": "https://www.w3.org/TR/rdf-canon/",
+      "nightlyUrl": "https://w3c.github.io/rdf-canon/spec/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/rdf-canon/spec/",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/rdf-canon",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "RDF Dataset Canonicalization and Hash Working Group",
+        "url": "https://www.w3.org/groups/wg/rch"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/rdf-canon/",
+      "filename": "Overview.html"
+    },
+    "title": "RDF Dataset Canonicalization",
+    "source": "w3c",
+    "shortTitle": "RDF Dataset Canonicalization"
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf11-concepts/",
+    "seriesComposition": "full",
+    "shortname": "rdf11-concepts",
+    "series": {
+      "shortname": "rdf-concepts",
+      "currentSpecification": "rdf11-concepts",
+      "title": "Resource Description Framework (RDF): Concepts and Abstract Syntax",
+      "shortTitle": "RDF",
+      "releaseUrl": "https://www.w3.org/TR/rdf-concepts/",
+      "nightlyUrl": "https://www.w3.org/TR/rdf-concepts/"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/rdf11-concepts/",
+      "alternateUrls": [],
+      "filename": "Overview.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "RDF Working Group",
+        "url": "https://www.w3.org/2011/rdf-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/rdf11-concepts/",
+      "filename": "Overview.html"
+    },
+    "title": "RDF 1.1 Concepts and Abstract Syntax",
+    "source": "w3c",
+    "shortTitle": "RDF 1.1 Concepts and Abstract Syntax"
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf11-mt/",
+    "seriesComposition": "full",
+    "shortname": "rdf11-mt",
+    "series": {
+      "shortname": "rdf-mt",
+      "currentSpecification": "rdf11-mt",
+      "title": "RDF Semantics",
+      "shortTitle": "RDF Semantics",
+      "releaseUrl": "https://www.w3.org/TR/rdf-mt/",
+      "nightlyUrl": "https://www.w3.org/TR/rdf-mt/"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/rdf11-mt/",
+      "alternateUrls": [],
+      "filename": "Overview.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "RDF Working Group",
+        "url": "https://www.w3.org/2011/rdf-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/rdf11-mt/",
+      "filename": "Overview.html"
+    },
+    "title": "RDF 1.1 Semantics",
+    "source": "w3c",
+    "shortTitle": "RDF 1.1 Semantics"
   },
   {
     "url": "https://www.w3.org/TR/referrer-policy/",
@@ -17850,6 +17984,39 @@
         "svg"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/test-methodology/",
+    "seriesComposition": "full",
+    "shortname": "test-methodology",
+    "series": {
+      "shortname": "test-methodology",
+      "currentSpecification": "test-methodology",
+      "title": "A Method for Writing Testable Conformance Requirements",
+      "shortTitle": "A Method for Writing Testable Conformance Requirements",
+      "releaseUrl": "https://www.w3.org/TR/test-methodology/",
+      "nightlyUrl": "https://www.w3.org/TR/test-methodology/"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/test-methodology/",
+      "alternateUrls": [],
+      "filename": "Overview.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Mobile Web Test Suites Working Group",
+        "url": "https://www.w3.org/2005/MWI/Tests/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/test-methodology/",
+      "filename": "Overview.html"
+    },
+    "title": "A Method for Writing Testable Conformance Requirements",
+    "source": "w3c",
+    "shortTitle": "A Method for Writing Testable Conformance Requirements"
   },
   {
     "url": "https://www.w3.org/TR/timing-entrytypes-registry/",

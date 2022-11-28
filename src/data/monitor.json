@@ -327,6 +327,10 @@
     "immersive-web/front-facing-camera": {
       "lastreviewed": "2022-11-07",
       "comment": "no published content yet"
+    },
+    "WICG/soft-navigations": {
+      "lastreviewed": "2022-11-28",
+      "comment": "no published content yet"
     }
   },
   "specs": {

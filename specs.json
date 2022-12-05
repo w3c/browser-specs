@@ -57,6 +57,7 @@
     "shortTitle": "CSS GCPM 4"
   },
   "https://drafts.csswg.org/css-grid-3/ delta",
+  "https://drafts.csswg.org/css-images-5/ delta",
   {
     "url": "https://drafts.csswg.org/css-multicol-2/",
     "seriesComposition": "delta",
@@ -236,6 +237,12 @@
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-change-array-by-copy/",
   "https://tc39.es/proposal-decorators/",
+  {
+    "url": "https://tc39.es/proposal-explicit-resource-management/",
+    "nightly": {
+      "sourcePath": "spec.emu"
+    }
+  },
   "https://tc39.es/proposal-import-assertions/",
   "https://tc39.es/proposal-intl-duration-format/",
   "https://tc39.es/proposal-intl-enumeration/",
@@ -273,6 +280,8 @@
       "sourcePath": "out/pluralrules/proposed.html"
     }
   },
+  "https://tc39.es/proposal-is-usv-string/",
+  "https://tc39.es/proposal-iterator-helpers/",
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-json-parse-with-source/",
   {
@@ -282,6 +291,7 @@
     }
   },
   "https://tc39.es/proposal-resizablearraybuffer/",
+  "https://tc39.es/proposal-set-methods/",
   "https://tc39.es/proposal-shadowrealm/",
   {
     "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",

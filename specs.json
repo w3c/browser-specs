@@ -237,7 +237,12 @@
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-change-array-by-copy/",
   "https://tc39.es/proposal-decorators/",
-  "https://tc39.es/proposal-explicit-resource-management/",
+  {
+    "url": "https://tc39.es/proposal-explicit-resource-management/",
+    "nightly": {
+      "sourcePath": "spec.emu"
+    }
+  },
   "https://tc39.es/proposal-import-assertions/",
   "https://tc39.es/proposal-intl-duration-format/",
   "https://tc39.es/proposal-intl-enumeration/",

@@ -582,6 +582,49 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-images-5/",
+    "seriesComposition": "delta",
+    "shortname": "css-images-5",
+    "series": {
+      "shortname": "css-images",
+      "currentSpecification": "css-images-3",
+      "title": "CSS Images",
+      "shortTitle": "CSS Images",
+      "releaseUrl": "https://www.w3.org/TR/css-images/",
+      "nightlyUrl": "https://drafts.csswg.org/css-images/"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "css-images-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-images-5/",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-images-5/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-images-5/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Images Module Level 5",
+    "source": "spec",
+    "shortTitle": "CSS Images 5",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-images"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-multicol-2/",
     "seriesComposition": "delta",
     "shortname": "css-multicol-2",
@@ -3785,6 +3828,38 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-explicit-resource-management/",
+    "seriesComposition": "full",
+    "shortname": "tc39-explicit-resource-management",
+    "series": {
+      "shortname": "tc39-explicit-resource-management",
+      "currentSpecification": "tc39-explicit-resource-management",
+      "title": "ECMAScript Explicit Resource Management",
+      "shortTitle": "ECMAScript Explicit Resource Management",
+      "nightlyUrl": "https://tc39.es/proposal-explicit-resource-management/"
+    },
+    "nightly": {
+      "url": "https://tc39.es/proposal-explicit-resource-management/",
+      "sourcePath": "spec.emu",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-explicit-resource-management",
+      "filename": "index.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "ECMAScript Explicit Resource Management",
+    "source": "spec",
+    "shortTitle": "ECMAScript Explicit Resource Management",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-import-assertions/",
     "seriesComposition": "full",
     "shortname": "tc39-import-assertions",
@@ -4073,6 +4148,70 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-is-usv-string/",
+    "seriesComposition": "full",
+    "shortname": "tc39-is-usv-string",
+    "series": {
+      "shortname": "tc39-is-usv-string",
+      "currentSpecification": "tc39-is-usv-string",
+      "title": "Well-Formed Unicode Strings",
+      "shortTitle": "Well-Formed Unicode Strings",
+      "nightlyUrl": "https://tc39.es/proposal-is-usv-string/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-is-usv-string/",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-is-usv-string",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Well-Formed Unicode Strings",
+    "source": "spec",
+    "shortTitle": "Well-Formed Unicode Strings",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-iterator-helpers/",
+    "seriesComposition": "full",
+    "shortname": "tc39-iterator-helpers",
+    "series": {
+      "shortname": "tc39-iterator-helpers",
+      "currentSpecification": "tc39-iterator-helpers",
+      "title": "Iterator Helpers",
+      "shortTitle": "Iterator Helpers",
+      "nightlyUrl": "https://tc39.es/proposal-iterator-helpers/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-iterator-helpers/",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-iterator-helpers",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Iterator Helpers",
+    "source": "spec",
+    "shortTitle": "Iterator Helpers",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-json-modules/",
     "seriesComposition": "full",
     "shortname": "tc39-json-modules",
@@ -4196,6 +4335,38 @@
     "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
     "source": "spec",
     "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-set-methods/",
+    "seriesComposition": "full",
+    "shortname": "tc39-set-methods",
+    "series": {
+      "shortname": "tc39-set-methods",
+      "currentSpecification": "tc39-set-methods",
+      "title": "Set methods",
+      "shortTitle": "Set methods",
+      "nightlyUrl": "https://tc39.es/proposal-set-methods/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-set-methods/",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-set-methods",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "Set methods",
+    "source": "spec",
+    "shortTitle": "Set methods",
     "categories": [
       "browser"
     ]
@@ -10903,6 +11074,7 @@
     "seriesVersion": "4",
     "shortTitle": "CSS Images 4",
     "seriesPrevious": "css-images-3",
+    "seriesNext": "css-images-5",
     "organization": "W3C",
     "groups": [
       {

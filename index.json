@@ -6339,8 +6339,8 @@
     "series": {
       "shortname": "local-font-access",
       "currentSpecification": "local-font-access",
-      "title": "Local Font Access API",
-      "shortTitle": "Local Font Access API",
+      "title": "Local Font Access",
+      "shortTitle": "Local Font Access",
       "nightlyUrl": "https://wicg.github.io/local-font-access/"
     },
     "organization": "W3C",
@@ -6357,9 +6357,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Local Font Access API",
-    "source": "spec",
-    "shortTitle": "Local Font Access API",
+    "title": "Local Font Access",
+    "source": "specref",
+    "shortTitle": "Local Font Access",
     "categories": [
       "browser"
     ]

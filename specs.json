@@ -7,6 +7,22 @@
   },
   "https://console.spec.whatwg.org/",
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
+    "shortname": "client-hint-reliability",
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.ietf.org/archive/id/draft-davidben-http-client-hint-reliability-03.html",
+      "repository": "https://github.com/davidben/http-client-hint-reliability",
+      "sourcePath": "draft-davidben-http-client-hint-reliability.md"
+    }
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
     "shortname": "digest-headers",
     "organization": "IETF",

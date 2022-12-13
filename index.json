@@ -76,6 +76,38 @@
     }
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
+    "seriesComposition": "full",
+    "shortname": "client-hint-reliability",
+    "series": {
+      "shortname": "client-hint-reliability",
+      "currentSpecification": "client-hint-reliability",
+      "title": "Client Hint Reliability",
+      "shortTitle": "Client Hint Reliability",
+      "nightlyUrl": "https://www.ietf.org/archive/id/draft-davidben-http-client-hint-reliability-03.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.ietf.org/archive/id/draft-davidben-http-client-hint-reliability-03.html",
+      "repository": "https://github.com/davidben/http-client-hint-reliability",
+      "sourcePath": "draft-davidben-http-client-hint-reliability.md",
+      "alternateUrls": [],
+      "filename": "draft-davidben-http-client-hint-reliability-03.html"
+    },
+    "title": "Client Hint Reliability",
+    "source": "spec",
+    "shortTitle": "Client Hint Reliability",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
     "seriesComposition": "full",
     "shortname": "digest-headers",

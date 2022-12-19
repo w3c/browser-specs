@@ -978,7 +978,13 @@
   "https://www.w3.org/TR/resource-hints/",
   "https://www.w3.org/TR/resource-timing/",
   "https://www.w3.org/TR/screen-capture/",
-  "https://www.w3.org/TR/screen-orientation/",
+  {
+    "url": "https://www.w3.org/TR/screen-orientation/",
+    "series": {
+      "shortname": "screen-orientation",
+      "title": "Screen Orientation"
+    }
+  },
   "https://www.w3.org/TR/screen-wake-lock/",
   "https://www.w3.org/TR/scroll-animations-1/",
   "https://www.w3.org/TR/secure-contexts/",

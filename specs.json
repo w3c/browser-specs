@@ -981,6 +981,7 @@
   {
     "url": "https://www.w3.org/TR/screen-orientation/",
     "series": {
+      "shortname": "screen-orientation",
       "title": "Screen Orientation"
     }
   },

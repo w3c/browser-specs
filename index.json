@@ -17413,9 +17413,9 @@
     "shortname": "screen-orientation",
     "series": {
       "shortname": "screen-orientation",
+      "title": "Screen Orientation",
       "currentSpecification": "screen-orientation",
-      "title": "The Screen Orientation API",
-      "shortTitle": "The Screen Orientation API",
+      "shortTitle": "Screen Orientation",
       "releaseUrl": "https://www.w3.org/TR/screen-orientation/",
       "nightlyUrl": "https://w3c.github.io/screen-orientation/"
     },
@@ -17437,9 +17437,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "The Screen Orientation API",
+    "title": "Screen Orientation",
     "source": "w3c",
-    "shortTitle": "The Screen Orientation API",
+    "shortTitle": "Screen Orientation",
     "categories": [
       "browser"
     ],

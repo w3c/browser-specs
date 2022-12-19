@@ -657,6 +657,42 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-link-params-1/",
+    "seriesComposition": "full",
+    "shortname": "css-link-params-1",
+    "series": {
+      "shortname": "css-link-params",
+      "currentSpecification": "css-link-params-1",
+      "title": "CSS Linked Parameters",
+      "shortTitle": "CSS Linked Parameters",
+      "nightlyUrl": "https://drafts.csswg.org/css-link-params/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-link-params-1/",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-link-params-1/",
+        "https://w3c.github.io/csswg-drafts/css-link-params/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-link-params-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Linked Parameters",
+    "source": "spec",
+    "shortTitle": "CSS Linked Parameters",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://drafts.csswg.org/css-multicol-2/",
     "seriesComposition": "delta",
     "shortname": "css-multicol-2",

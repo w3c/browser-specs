@@ -4650,8 +4650,8 @@
     "series": {
       "shortname": "contact-api",
       "currentSpecification": "contact-api",
-      "title": "Contact Picker API",
-      "shortTitle": "Contact Picker API",
+      "title": "Redirecting to https://w3c.github.io/contact-picker/spec/",
+      "shortTitle": "Redirecting to https://w3c.github.io/contact-picker/spec/",
       "nightlyUrl": "https://w3c.github.io/contact-api/spec/"
     },
     "organization": "W3C",
@@ -4668,9 +4668,9 @@
       "sourcePath": "spec/index.bs",
       "filename": "index.html"
     },
-    "title": "Contact Picker API",
+    "title": "Redirecting to https://w3c.github.io/contact-picker/spec/",
     "source": "spec",
-    "shortTitle": "Contact Picker API",
+    "shortTitle": "Redirecting to https://w3c.github.io/contact-picker/spec/",
     "categories": [
       "browser"
     ]
@@ -5506,8 +5506,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Devices and Sensors Working Group",
+        "url": "https://www.w3.org/das/"
       }
     ],
     "nightly": {

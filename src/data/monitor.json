@@ -350,6 +350,10 @@
       "comment": "Placholder for an eventual CSS Block Layout Level 3 Module",
       "lastreviewed": "2023-01-01"
     },
+    "https://drafts.csswg.org/css-display-4/": {
+      "comment": "currently returns level 3 and not level 4",
+      "lastreviewed": "2023-01-03"
+    },
     "https://drafts.csswg.org/css-floats-3/": {
       "comment": "No spec yet",
       "lastreviewed": "2023-01-01"

@@ -1,7 +1,7 @@
 {
   "repos": {
     "privacycg/CHIPS": {
-      "comment": "no spec yet",
+      "comment": "no spec yet, part of Privacy Sandbox, positive signal from Mozilla in https://github.com/mozilla/standards-positions/issues/678#issuecomment-1241916316",
       "lastreviewed": "2023-01-01"
     },
     "privacycg/storage-partitioning": {
@@ -21,7 +21,7 @@
       "lastreviewed": "2023-01-01"
     },
     "WICG/first-party-sets": {
-      "comment": "no spec yet",
+      "comment": "no spec yet, part of Privacy Sandbox, negative signals from Mozilla in https://github.com/mozilla/standards-positions/issues/350#issuecomment-1354199750 and from Apple in https://github.com/WebKit/standards-positions/issues/93#issuecomment-1357694422",
       "lastreviewed": "2023-01-01"
     },
     "WICG/indexed-db-observers": {
@@ -130,11 +130,11 @@
     },
     "WICG/trust-token-api": {
       "lastreviewed": "2023-01-01",
-      "comment": "API not properly defined as Web IDL"
+      "comment": "API not properly defined as Web IDL, part of Privacy Sandbox"
     },
     "WICG/turtledove": {
       "lastreviewed": "2023-01-01",
-      "comment": "Now entitled FLEDGE. Defined as an experiment for now."
+      "comment": "Now entitled FLEDGE. Defined as an experiment for now, part of Privacy Sandbox"
     },
     "WICG/video-editing": {
       "lastreviewed": "2023-01-01",
@@ -250,11 +250,11 @@
     },
     "WICG/multicapture": {
       "lastreviewed": "2023-01-01",
-      "comment": "no published content yet"
+      "comment": "early exploration phase; no intent to prototype and no clear implementation plan yet"
     },
     "WICG/fenced-frame": {
       "lastreviewed": "2023-01-01",
-      "comment": "early draft with TODOs"
+      "comment": "early draft with TODOs, part of Privacy Sandbox"
     },
     "tc39/proposal-regexp-set-notation": {
       "lastreviewed": "2023-01-01",
@@ -278,7 +278,7 @@
     },
     "WICG/shared-storage": {
       "lastreviewed": "2023-01-01",
-      "comment": "spec only contains IDL, no algorithms yet"
+      "comment": "spec only contains IDL, no algorithms yet, part of Privacy Sandbox"
     },
     "WICG/unload-beacon": {
       "lastreviewed": "2023-01-01",
@@ -322,7 +322,7 @@
     },
     "WICG/document-picture-in-picture": {
       "lastreviewed": "2023-01-01",
-      "comment": "no published content yet"
+      "comment": "marked as unofficial proposal, concerns expressed by Mozilla in https://github.com/mozilla/standards-positions/issues/670 and by Apple in https://github.com/WebKit/standards-positions/issues/41#issuecomment-1272177801"
     },
     "immersive-web/front-facing-camera": {
       "lastreviewed": "2023-01-01",

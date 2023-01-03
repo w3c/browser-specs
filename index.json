@@ -4644,38 +4644,6 @@
     }
   },
   {
-    "url": "https://w3c.github.io/contact-api/spec/",
-    "seriesComposition": "full",
-    "shortname": "contact-api",
-    "series": {
-      "shortname": "contact-api",
-      "currentSpecification": "contact-api",
-      "title": "Redirecting to https://w3c.github.io/contact-picker/spec/",
-      "shortTitle": "Redirecting to https://w3c.github.io/contact-picker/spec/",
-      "nightlyUrl": "https://w3c.github.io/contact-api/spec/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/contact-api/spec/",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/contact-api",
-      "sourcePath": "spec/index.bs",
-      "filename": "index.html"
-    },
-    "title": "Redirecting to https://w3c.github.io/contact-picker/spec/",
-    "source": "spec",
-    "shortTitle": "Redirecting to https://w3c.github.io/contact-picker/spec/",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/contentEditable/",
     "seriesComposition": "full",
     "shortname": "contentEditable",
@@ -5491,38 +5459,6 @@
         "compression"
       ]
     }
-  },
-  {
-    "url": "https://wicg.github.io/compute-pressure/",
-    "seriesComposition": "full",
-    "shortname": "compute-pressure",
-    "series": {
-      "shortname": "compute-pressure",
-      "currentSpecification": "compute-pressure",
-      "title": "Compute Pressure",
-      "shortTitle": "Compute Pressure",
-      "nightlyUrl": "https://wicg.github.io/compute-pressure/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Devices and Sensors Working Group",
-        "url": "https://www.w3.org/das/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/compute-pressure/",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/compute-pressure",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Compute Pressure Level 1",
-    "source": "specref",
-    "shortTitle": "Compute Pressure 1",
-    "categories": [
-      "browser"
-    ]
   },
   {
     "url": "https://wicg.github.io/content-index/spec/",
@@ -9396,6 +9332,85 @@
         "css/compositing"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/compute-pressure/",
+    "seriesComposition": "full",
+    "shortname": "compute-pressure",
+    "series": {
+      "shortname": "compute-pressure",
+      "currentSpecification": "compute-pressure",
+      "title": "Compute Pressure Level 1",
+      "shortTitle": "Compute Pressure",
+      "releaseUrl": "https://www.w3.org/TR/compute-pressure/",
+      "nightlyUrl": "https://wicg.github.io/compute-pressure/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Devices and Sensors Working Group",
+        "url": "https://www.w3.org/das/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/compute-pressure/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/compute-pressure/",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/compute-pressure",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Compute Pressure Level 1",
+    "source": "w3c",
+    "shortTitle": "Compute Pressure 1",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/contact-picker-1/",
+    "seriesComposition": "full",
+    "shortname": "contact-picker-1",
+    "series": {
+      "shortname": "contact-picker",
+      "currentSpecification": "contact-picker-1",
+      "title": "Contact Picker API",
+      "shortTitle": "Contact Picker API",
+      "releaseUrl": "https://www.w3.org/TR/contact-picker/",
+      "nightlyUrl": "https://w3c.github.io/contact-api/spec"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Devices and Sensors Working Group",
+        "url": "https://www.w3.org/das/"
+      },
+      {
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/contact-picker-1/",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/contact-api/spec",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/contact-api",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "Contact Picker API",
+    "source": "w3c",
+    "shortTitle": "Contact Picker API",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/core-aam-1.2/",

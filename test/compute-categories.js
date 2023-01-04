@@ -2,14 +2,19 @@ const assert = require("assert");
 const computeCategories = require("../src/compute-categories.js");
 
 describe("compute-categories module", () => {
-  it("sets `browser` category by default", function () {
-    const spec = { groups: [] };
-    assert.deepStrictEqual(computeCategories(spec), ["browser"]);
-  });
-
   it("sets `browser` category when group targets browsers", function () {
     const spec = {
       groups: [ { name: "Web Applications Working Group" } ]
+    };
+    assert.deepStrictEqual(computeCategories(spec), ["browser"]);
+  });
+
+  it("sets `browser` category when one of the groups targets browsers", function () {
+    const spec = {
+      groups: [
+        { name: "Accessible Platform Architectures Working Group" },
+        { name: "Web Applications Working Group" }
+      ]
     };
     assert.deepStrictEqual(computeCategories(spec), ["browser"]);
   });
@@ -21,10 +26,9 @@ describe("compute-categories module", () => {
     assert.deepStrictEqual(computeCategories(spec), []);
   });
 
-  it("does not set a `browser` category when repo does not target browsers", function () {
+  it("does not set a `browser` category when all groups does not target browsers", function () {
     const spec = {
-      groups: [ { name: "Web Applications Working Group" } ],
-      nightly: { repository: "https://github.com/w3c/dpub-aam" }
+      groups: [ { name: "Accessible Platform Architectures Working Group" } ]
     };
     assert.deepStrictEqual(computeCategories(spec), []);
   });

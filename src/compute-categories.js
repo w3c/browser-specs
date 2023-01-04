@@ -38,10 +38,7 @@ module.exports = function (spec) {
 
   // All specs target browsers by default unless the spec object says otherwise
   if (!requestedCategories.includes("reset")) {
-    // Note (2022-02-08): This assumes that a non browser group that co-owns a
-    // spec disqualifies the spec as a browser spec. This is true today but
-    // potentially wobbly.
-    const browserGroup = !spec.groups.find(group => nonbrowserGroups[group.name]);
+    const browserGroup = spec.groups.find(group => !nonbrowserGroups[group.name]);
     const browserRepo = !spec.nightly?.repository ||
         !nonbrowserRepos[spec.nightly.repository.replace(/^https:\/\/github\.com\//, "")];
     if (browserGroup && browserRepo) {

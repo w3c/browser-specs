@@ -48,7 +48,16 @@ const computeShortname = require("./compute-shortname");
 const {JSDOM} = require("jsdom");
 const JSDOMFromURL = throttle(JSDOM.fromURL, 2);
 
-
+// Map spec statuses returned by Specref to those used in specs
+// Note we typically won't get /TR statuses from Specref, since all /TR URLs
+// are handled through the W3C API. Also, "Proposal for a CSS module" entries
+// were probably manually hardcoded in Specref, they are really just Editor's
+// Drafts in practice.
+const specrefStatusMapping = {
+  "ED": "Editor's Draft",
+  "Proposal for a CSS module": "Editor's Draft",
+  "cg-draft": "Draft Community Group Report"
+};
 
 async function fetchInfoFromW3CApi(specs, options) {
   // Cannot query the W3C API if API key was not given
@@ -67,7 +76,7 @@ async function fetchInfoFromW3CApi(specs, options) {
       return;
     }
 
-    const url = `https://api.w3.org/specifications/${spec.shortname}`;
+    const url = `https://api.w3.org/specifications/${spec.shortname}/versions/latest`;
     const res = await fetch(url, options);
     if (res.status === 404) {
       return;
@@ -96,26 +105,20 @@ async function fetchInfoFromW3CApi(specs, options) {
   const results = {};
   specs.forEach((spec, idx) => {
     if (info[idx]) {
-      if (info[idx].shortlink &&
-          info[idx].shortlink.startsWith('http:')) {
+      if (info[idx].shortlink?.startsWith('http:')) {
         console.warn(`[warning] force HTTPS for release of ` +
           `"${spec.shortname}", W3C API returned "${info[idx].shortlink}"`);
       }
-      if (info[idx]["editor-draft"] &&
-          info[idx]["editor-draft"].startsWith('http:')) {
+      if (info[idx]["editor-draft"]?.startsWith('http:')) {
         console.warn(`[warning] force HTTPS for nightly of ` +
           `"${spec.shortname}", W3C API returned "${info[idx]["editor-draft"]}"`);
       }
-      const release = info[idx].shortlink ?
-        info[idx].shortlink.replace(/^http:/, 'https:') :
-        null;
-      const nightly = info[idx]["editor-draft"] ?
-        info[idx]["editor-draft"].replace(/^http:/, 'https:') :
-        null;
+      const release = info[idx].shortlink?.replace(/^http:/, 'https:') ?? null;
+      const nightly = info[idx]["editor-draft"]?.replace(/^http:/, 'https:') ?? null;
 
       results[spec.shortname] = {
-        release: { url: release },
-        nightly: { url: nightly },
+        release: { url: release, status: info[idx].status },
+        nightly: { url: nightly, status: "Editor's Draft" },
         title: info[idx].title
       };
 
@@ -206,20 +209,24 @@ async function fetchInfoFromSpecref(specs, options) {
     Object.keys(chunkRes).forEach(name => {
       if (specs.find(spec => spec.shortname === name)) {
         const info = chunkRes[resolveAlias(name)];
-        if (info.edDraft && info.edDraft.startsWith('http:')) {
+        if (info.edDraft?.startsWith('http:')) {
           console.warn(`[warning] force HTTPS for nightly of ` +
             `"${spec.shortname}", Specref returned "${info.edDraft}"`);
         }
-        if (info.href && info.href.startsWith('http:')) {
+        if (info.href?.startsWith('http:')) {
           console.warn(`[warning] force HTTPS for nightly of ` +
             `"${spec.shortname}", Specref returned "${info.href}"`);
         }
-        const nightly = info.edDraft ?
-          info.edDraft.replace(/^http:/, 'https:') :
-          info.href ? info.href.replace(/^http:/, 'https:') :
+        const nightly =
+          info.edDraft?.replace(/^http:/, 'https:') ??
+          info.href?.replace(/^http:/, 'https:') ??
           null;
+        const status =
+          specrefStatusMapping[info.status] ??
+          info.status ??
+          "Editor's Draft";
         results[name] = {
-          nightly: { url: nightly },
+          nightly: { url: nightly, status },
           title: info.title
         };
       }
@@ -254,7 +261,7 @@ async function fetchInfoFromSpecs(specs, options) {
         dom.window.document.querySelectorAll("h1")[1];
       if (h1ecma) {
         return {
-          nightly: { url: url },
+          nightly: { url: url, status: "Editor's Draft" },
           title: h1ecma.textContent.replace(/\n/g, '').trim()
         };
       }
@@ -278,8 +285,22 @@ async function fetchInfoFromSpecs(specs, options) {
         throw new Error(`CSS server issue detected in ${url} for ${spec.shortname}`);
       }
 
+      // Extract status if found
+      // Selectors are for W3C specs and WHATWG specs, other specs are assumed
+      // to always be "Editor's Drafts" for now.
+      // TODO: consider adding more explicit support for IETF draft specs.
+      const subtitle = dom.window.document.querySelector([
+        ".head #w3c-state",         // Modern W3C specs
+        ".head h2",                 // Some older W3C specs
+        ".head #subtitle",          // WHATWG specs
+        ".head #living-standard"    // HTML spec
+      ].join(","));
+      const match = subtitle?.textContent.match(/^\s*(.*?)(,| — Last Updated)? \d{1,2} \w+ \d{4}\s*$/);
+      const status = (match ? match[1] : "Editor's Draft")
+        .replace(/’/g, "'")     // Bikeshed generates curly quotes
+        .replace(/^W3C /, "");  // Once every full moon, a "W3C " prefix gets added
       return {
-        nightly: { url },
+        nightly: { url, status },
         title
       };
     }

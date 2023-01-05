@@ -67,13 +67,28 @@
       "type": "object",
       "properties": {
         "url": { "$ref": "#/$defs/url" },
+        "status": {
+          "type": "string",
+          "enum": [
+            "Candidate Recommendation Draft",
+            "Candidate Recommendation Snapshot",
+            "Draft Note",
+            "Draft Registry",
+            "First Public Working Draft",
+            "Note",
+            "Proposed Recommendation",
+            "Recommendation",
+            "Retired",
+            "Working Draft"
+          ]
+        },
         "filename": { "$ref": "#/$defs/filename" },
         "pages": {
           "type": "array",
           "items": { "$ref": "#/$defs/url" }
         }
       },
-      "required": ["url"],
+      "required": ["url", "status"],
       "additionalProperties": false
     },
 
@@ -81,6 +96,22 @@
       "type": "object",
       "properties": {
         "url": { "$ref": "#/$defs/url" },
+        "status": {
+          "type": "string",
+          "enum": [
+            "A Collection of Interesting Ideas",
+            "Draft Community Group Report",
+            "Draft Finding",
+            "Editor's Draft",
+            "Experimental",
+            "Informational",
+            "Internet Standard",
+            "Living Standard",
+            "Proposed Standard",
+            "TAG Finding",
+            "Unofficial Proposal Draft"
+          ]
+        },
         "alternateUrls": {
           "type": "array",
           "items": { "$ref": "#/$defs/url" }

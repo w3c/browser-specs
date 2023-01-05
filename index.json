@@ -8724,6 +8724,36 @@
     ]
   },
   {
+    "url": "https://www.w3.org/2001/tag/doc/promises-guide",
+    "seriesComposition": "full",
+    "shortname": "promises-guide",
+    "series": {
+      "shortname": "promises-guide",
+      "currentSpecification": "promises-guide",
+      "title": "Writing Promise-Using Specifications",
+      "shortTitle": "Writing Promise-Using Specifications",
+      "nightlyUrl": "https://www.w3.org/2001/tag/doc/promises-guide"
+    },
+    "groups": [
+      {
+        "name": "Technical Architecture Group",
+        "url": "https://www.w3.org/2001/tag/"
+      }
+    ],
+    "organization": "W3C",
+    "nightly": {
+      "url": "https://www.w3.org/2001/tag/doc/promises-guide",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3ctag/promises-guide",
+      "sourcePath": "index.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Writing Promise-Using Specifications",
+    "source": "specref",
+    "shortTitle": "Writing Promise-Using Specifications",
+    "categories": []
+  },
+  {
     "url": "https://www.w3.org/Consortium/Patent-Policy/",
     "seriesComposition": "full",
     "shortname": "w3c-patent-policy",
@@ -8783,7 +8813,9 @@
     "title": "W3C Process Document",
     "source": "specref",
     "shortTitle": "W3C Process Document",
-    "categories": []
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/accelerometer/",

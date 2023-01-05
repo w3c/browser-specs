@@ -30,6 +30,15 @@ describe("fetch-groups module (without API keys)", function () {
     }]);
   });
 
+  it("handles W3C TAG URLs", async () => {
+    const res = await fetchGroupsFor("https://www.w3.org/2001/tag/doc/promises-guide");
+    assert.equal(res.organization, "W3C");
+    assert.deepStrictEqual(res.groups, [{
+      name: "Technical Architecture Group",
+      url: "https://www.w3.org/2001/tag/"
+    }]);
+  });
+
   it("handles WebGL URLs", async () => {
     const res = await fetchGroupsFor("https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/");
     assert.equal(res.organization, "Khronos Group");

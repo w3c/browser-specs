@@ -523,6 +523,7 @@
       "sourcePath": "archive/draft-ietf-httpbis-expect-ct.md"
     }
   },
+  "https://www.w3.org/2001/tag/doc/promises-guide",
   {
     "url": "https://www.w3.org/Consortium/Patent-Policy/",
     "shortname": "w3c-patent-policy",

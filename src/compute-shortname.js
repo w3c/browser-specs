@@ -102,6 +102,12 @@ function computeShortname(url) {
       return rfcs[1];
     }
 
+    // Handle TAG findings
+    const tag = url.match(/^https?:\/\/(?:www\.)?w3\.org\/2001\/tag\/doc\/([^\/]+)\/?$/);
+    if (tag) {
+      return tag[1];
+    }
+
     // Return name when one was given
     if (!url.match(/\//)) {
       return url;

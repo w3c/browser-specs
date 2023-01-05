@@ -110,6 +110,14 @@ module.exports = async function (specs, options) {
       continue;
     }
 
+    if (info && info.owner === "w3ctag") {
+      spec.groups = spec.groups ?? [{
+        name: "Technical Architecture Group",
+        url: "https://www.w3.org/2001/tag/"
+      }];
+      continue;
+    }
+
     // All specs that remain should be developed by some W3C group.
     spec.organization = spec.organization ?? "W3C";
 

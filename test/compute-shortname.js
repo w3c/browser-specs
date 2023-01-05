@@ -84,7 +84,7 @@ describe("compute-shortname module", () => {
 
     it("throws when URL that does not follow a known pattern", () => {
       assert.throws(
-        () => computeInfo("https://www.w3.org/2001/tag/doc/promises-guide/"),
+        () => computeInfo("https://www.w3.org/2022/12/webmediaapi.html"),
         /^Cannot extract meaningful name from /);
     });
 

@@ -70,5 +70,10 @@ module.exports = function (url) {
     return { type: "tr", owner: "w3c", name: w3cTr[1] };
   }
 
+  const tag = url.match(/^https?:\/\/(?:www\.)?w3\.org\/2001\/tag\/doc\/([^\/]+)\/?$/);
+  if (tag) {
+    return { type: "custom", owner: "w3ctag", name: tag[1] };
+  }
+
   return null;
 }

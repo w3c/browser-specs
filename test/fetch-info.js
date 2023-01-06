@@ -38,6 +38,7 @@ describe("fetch-info module (without W3C API key)", function () {
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "specref");
       assert.equal(info[spec.shortname].nightly.url, "https://dom.spec.whatwg.org/");
+      assert.equal(info[spec.shortname].nightly.status, "Living Standard");
       assert.equal(info[spec.shortname].title, "DOM Standard");
     });
 
@@ -68,6 +69,7 @@ describe("fetch-info module (without W3C API key)", function () {
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "spec");
       assert.equal(info[spec.shortname].nightly.url, spec.url);
+      assert.equal(info[spec.shortname].nightly.status, "Living Standard");
       assert.equal(info[spec.shortname].title, "Bikeshed Documentation");
     });
 
@@ -80,6 +82,7 @@ describe("fetch-info module (without W3C API key)", function () {
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "spec");
       assert.equal(info[spec.shortname].nightly.url, spec.url);
+      assert.equal(info[spec.shortname].nightly.status, "Editor's Draft");
       assert.equal(info[spec.shortname].title, "TPAC 2019 - New Features");
     });
 
@@ -92,6 +95,7 @@ describe("fetch-info module (without W3C API key)", function () {
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "spec");
       assert.equal(info[spec.shortname].nightly.url, spec.url);
+      assert.equal(info[spec.shortname].nightly.status, "Editor's Draft");
       assert.equal(info[spec.shortname].title, "Intl.Segmenter Proposal");
     });
   });

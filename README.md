@@ -36,10 +36,12 @@ cross-references, WebIDL, quality, etc.
   - [`groups`](#groups)
   - [`release`](#release)
     - [`release.url`](#releaseurl)
+    - [`release.status`](#releasestatus)
     - [`release.filename`](#releasefilename)
     - [`release.pages`](#releasepages)
   - [`nightly`](#nightly)
     - [`nightly.url`](#nightlyurl)
+    - [`nightly.status`](#nightlystatus)
     - [`nightly.alternateUrls`](#nightlyalternateurls)
     - [`nightly.filename`](#nightlyfilename)
     - [`nightly.pages`](#nightlypages)
@@ -373,6 +375,16 @@ URL (see [`url`](#url)).
 The `url` property is always set.
 
 
+#### `release.status`
+
+The status of the latest published snapshot of the spec. See
+[Documents published at W3C](https://www.w3.org/standards/types) for possible
+values, e.g. "Recommendation", "Candidate Recommendation Draft", "Draft
+Registry" or "Working Draft".
+
+The `status` property is always set.
+
+
 #### `release.filename`
 
 The filename of the resource that gets served when the default URL is fetched.
@@ -410,6 +422,16 @@ neither exist in the W3C API nor in Specref. The [`source`](#source) property
 details the actual provenance.
 
 The `url` property is always set.
+
+
+#### `nightly.status`
+
+The status of the nightly version of the spec. This is typically "Editor's
+Draft" or "Living Standard", but can also be "Draft Community Group Report"
+for Community Group drafts, "Unofficial Proposal Draft" for some unofficial
+CSS specifications, "Internet Standard" for IETF specifications, etc.
+
+The `status` property is always set.
 
 
 #### `nightly.alternateUrls`

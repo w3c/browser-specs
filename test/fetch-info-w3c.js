@@ -46,7 +46,9 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "w3c");
       assert.equal(info[spec.shortname].release.url, spec.url);
+      assert.equal(info[spec.shortname].release.status, "Recommendation");
       assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/hr-time/");
+      assert.equal(info[spec.shortname].nightly.status, "Editor's Draft");
       assert.equal(info[spec.shortname].title, "High Resolution Time Level 2");
 
       assert.ok(info.__series);
@@ -57,25 +59,29 @@ describe("fetch-info module (with W3C API key)", function () {
 
     it("can operate on multiple specs at once", async () => {
       const spec = getW3CSpec("hr-time-2", "hr-time");
-      const other = getW3CSpec("presentation-api", "presentation-api");
+      const other = getW3CSpec("tracking-dnt", "tracking-dnt");
       const info = await fetchInfo([spec, other], { w3cApiKey });
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "w3c");
       assert.equal(info[spec.shortname].release.url, spec.url);
+      assert.equal(info[spec.shortname].release.status, "Recommendation");
       assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/hr-time/");
+      assert.equal(info[spec.shortname].nightly.status, "Editor's Draft");
       assert.equal(info[spec.shortname].title, "High Resolution Time Level 2");
 
       assert.ok(info[other.shortname]);
       assert.equal(info[other.shortname].source, "w3c");
       assert.equal(info[other.shortname].release.url, other.url);
-      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
-      assert.equal(info[other.shortname].title, "Presentation API");
+      assert.equal(info[other.shortname].release.status, "Discontinued Draft");
+      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/dnt/drafts/tracking-dnt.html");
+      assert.equal(info[other.shortname].nightly.status, "Editor's Draft");
+      assert.equal(info[other.shortname].title, "Tracking Preference Expression (DNT)");
 
       assert.ok(info.__series);
       assert.ok(info.__series["hr-time"]);
-      assert.ok(info.__series["presentation-api"]);
+      assert.ok(info.__series["tracking-dnt"]);
       assert.equal(info.__series["hr-time"].currentSpecification, "hr-time-3");
-      assert.equal(info.__series["presentation-api"].currentSpecification, "presentation-api");
+      assert.equal(info.__series["tracking-dnt"].currentSpecification, "tracking-dnt");
     });
 
     it("throws when W3C API key is invalid", async () => {
@@ -96,6 +102,7 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "specref");
       assert.equal(info[spec.shortname].nightly.url, "https://dom.spec.whatwg.org/");
+      assert.equal(info[spec.shortname].nightly.status, "Living Standard");
       assert.equal(info[spec.shortname].title, "DOM Standard");
     });
   });
@@ -117,16 +124,19 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.equal(info[w3c.shortname].source, "w3c");
       assert.equal(info[w3c.shortname].release.url, w3c.url);
       assert.equal(info[w3c.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
+      assert.equal(info[w3c.shortname].nightly.status, "Editor's Draft");
       assert.equal(info[w3c.shortname].title, "Presentation API");
 
       assert.ok(info[whatwg.shortname]);
       assert.equal(info[whatwg.shortname].source, "specref");
       assert.equal(info[whatwg.shortname].nightly.url, whatwg.url);
+      assert.equal(info[whatwg.shortname].nightly.status, "Living Standard");
       assert.equal(info[whatwg.shortname].title, "HTML Standard");
 
       assert.ok(info[other.shortname]);
       assert.equal(info[other.shortname].source, "spec");
       assert.equal(info[other.shortname].nightly.url, other.url);
+      assert.equal(info[other.shortname].nightly.status, "Living Standard");
       assert.equal(info[other.shortname].title, "Bikeshed Documentation");      
     });
   });

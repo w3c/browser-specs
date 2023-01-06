@@ -191,6 +191,11 @@
     "forks": {
       "type": "array",
       "items": { "$ref": "#/$defs/shortname" }
+    },
+
+    "standing": {
+      "type": "string",
+      "enum": ["good", "pending"]
     }
   }
 }

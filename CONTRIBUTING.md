@@ -100,6 +100,8 @@ out the `release.pages` and `nightly.pages` properties in the list.
 list of [`categories`](README.md#categories) that the spec belongs to. Values
 may be one of `"reset"` to start from an empty list, `"+browser"` to add
 `"browser"` to the list, and `"-browser"` to remove `"browser"` from the list.
+- `standing`: the spec's standing if default rule would not set it properly,
+see [`standing`](README.md#standing).
 
 You should **only** set these properties when they are required to generate the
 right info. For instance, some of these properties are needed for Media Queries

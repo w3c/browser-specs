@@ -1190,6 +1190,45 @@
     }
   },
   {
+    "url": "https://encoding.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "encoding",
+    "series": {
+      "shortname": "encoding",
+      "currentSpecification": "encoding",
+      "title": "Encoding Standard",
+      "shortTitle": "Encoding",
+      "nightlyUrl": "https://encoding.spec.whatwg.org/"
+    },
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Encoding Workstream",
+        "url": "https://encoding.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://encoding.spec.whatwg.org/",
+      "status": "Living Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/whatwg/encoding",
+      "sourcePath": "encoding.bs",
+      "filename": "index.html"
+    },
+    "title": "Encoding Standard",
+    "source": "specref",
+    "shortTitle": "Encoding",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "encoding"
+      ]
+    }
+  },
+  {
     "url": "https://fedidcg.github.io/FedCM/",
     "seriesComposition": "full",
     "shortname": "FedCM",
@@ -14456,51 +14495,6 @@
     "categories": [
       "browser"
     ]
-  },
-  {
-    "url": "https://www.w3.org/TR/encoding/",
-    "seriesComposition": "full",
-    "shortname": "encoding",
-    "series": {
-      "shortname": "encoding",
-      "currentSpecification": "encoding",
-      "title": "Encoding",
-      "shortTitle": "Encoding",
-      "releaseUrl": "https://www.w3.org/TR/encoding/",
-      "nightlyUrl": "https://encoding.spec.whatwg.org/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Internationalization Working Group",
-        "url": "https://www.w3.org/International/core/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/encoding/",
-      "status": "Discontinued Draft",
-      "filename": "index.html"
-    },
-    "nightly": {
-      "url": "https://encoding.spec.whatwg.org/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/whatwg/encoding",
-      "sourcePath": "encoding.bs",
-      "filename": "index.html"
-    },
-    "title": "Encoding",
-    "source": "w3c",
-    "shortTitle": "Encoding",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "encoding"
-      ]
-    }
   },
   {
     "url": "https://www.w3.org/TR/encrypted-media/",

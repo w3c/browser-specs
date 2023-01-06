@@ -167,22 +167,21 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["browser"]
+        "enum": ["browser", "unofficial"]
       }
+    },
+
+    "categories-delta": {
+      "type": "string",
+      "enum": ["reset", "+browser", "-browser", "+unofficial", "-unofficial"]
     },
 
     "categories-specs": {
       "oneOf": [
-        {
-          "type": "string",
-          "enum": ["reset", "+browser", "-browser"]
-        },
+        { "$ref": "#/$defs/categories-delta" },
         {
           "type": "array",
-          "items": {
-            "type": "string",
-            "enum": ["reset", "+browser", "-browser"]
-          },
+          "items": { "$ref": "#/$defs/categories-delta" },
           "minItems": 1
         }
       ]

@@ -1,12 +1,9 @@
 /**
  * Module that exports a function that takes a spec object that already has its
- * `groups` property (see `fetch-groups.js`) and its `nightly.repository`
- * property (see `compute-repository.js`) set as input, and that returns
+ * `groups` property (see `fetch-groups.js`), its `nightly.repository`
+ * property (see `compute-repository.js`), and its `nightly.status` (and
+ * `release.status` for released specs) set as input, and that returns
  * a list of categories for the spec.
- *
- * Note (2022-02-08): The function merely sets `browser` for now. Logic (and
- * initial spec properties used to compute the list) will likely be adjusted
- * over time.
  */
 
 // Retrieve the list of groups and repositories that we know don't contain
@@ -14,6 +11,13 @@
 // time, be it only to give the file a different name (the list of specs will
 // be expanded to contain specs in that "ignore" list)
 const { groups: nonbrowserGroups, repos: nonbrowserRepos } = require('./data/ignore.json');
+
+// List of spec statuses that are not "official" ones, in the sense that the
+// specs have not been officially adopted by a group as a deliverable.
+const unofficialStatuses = [
+  "A Collection of Interesting Ideas",
+  "Unofficial Proposal Draft"
+];
 
 /**
  * Exports main function that takes a spec object and returns a list of
@@ -27,7 +31,7 @@ const { groups: nonbrowserGroups, repos: nonbrowserRepos } = require('./data/ign
  * returns the list of categories in the spec object.
  */
 module.exports = function (spec) {
-  if (!spec || !spec.groups) {
+  if (!spec || !spec.groups || !spec.nightly?.status) {
     throw "Invalid spec object passed as parameter";
   }
 
@@ -36,13 +40,20 @@ module.exports = function (spec) {
     [spec.categories] :
     (spec.categories || []);
 
-  // All specs target browsers by default unless the spec object says otherwise
+  // All specs target browsers by default unless the spec object says otherwise.
+  // Also, a spec whose main status is not an official one gets flagged as
+  // "unofficial".
   if (!requestedCategories.includes("reset")) {
     const browserGroup = spec.groups.find(group => !nonbrowserGroups[group.name]);
     const browserRepo = !spec.nightly?.repository ||
         !nonbrowserRepos[spec.nightly.repository.replace(/^https:\/\/github\.com\//, "")];
     if (browserGroup && browserRepo) {
       list.push("browser");
+    }
+
+    const status = spec.release?.status ?? spec.nightly.status;
+    if (unofficialStatuses.includes(status)) {
+      list.push("unofficial");
     }
   }
 

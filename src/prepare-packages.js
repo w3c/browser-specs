@@ -26,7 +26,9 @@ async function preparePackages() {
     },
     {
       name: 'browser-specs',
-      filter: spec => spec.categories?.includes('browser')
+      filter: spec =>
+        spec.categories?.includes('browser') &&
+        !spec.categories?.includes('unofficial')
     }
   ];
 

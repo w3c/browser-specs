@@ -352,9 +352,6 @@
     "https://drafts.csswg.org/css3-tables-algorithms/": {
       "comment": "marked as obsolete"
     },
-    "https://drafts.csswg.org/css-template-1/": {
-      "comment": "repository for ideas that may migrate to other modules of CSS"
-    },
     "https://drafts.csswg.org/selectors-nonelement-1/": {
       "comment": "retired spec"
     },

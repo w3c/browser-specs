@@ -55,6 +55,7 @@
     }
   },
   "https://dom.spec.whatwg.org/",
+  "https://drafts.css-houdini.org/box-tree-api-1/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   {
     "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
@@ -67,9 +68,13 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Backgrounds 4"
   },
+  "https://drafts.csswg.org/css-color-6/",
+  "https://drafts.csswg.org/css-color-hdr/",
+  "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-easing-2/",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
+  "https://drafts.csswg.org/css-forms-1/",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
@@ -84,6 +89,12 @@
     "shortTitle": "CSS Multicol 2"
   },
   "https://drafts.csswg.org/css-page-4/ delta",
+  {
+    "url": "https://drafts.csswg.org/css-page-template-1/",
+    "nightly": {
+      "status": "Unofficial Proposal Draft"
+    }
+  },
   "https://drafts.csswg.org/css-scroll-snap-2/ delta",
   "https://drafts.csswg.org/css-shapes-2/ delta",
   {
@@ -728,6 +739,10 @@
   },
   "https://www.w3.org/TR/css-syntax-3/",
   "https://www.w3.org/TR/css-tables-3/",
+  {
+    "url": "https://www.w3.org/TR/css-template-3/",
+    "standing": "pending"
+  },
   "https://www.w3.org/TR/css-text-3/",
   "https://www.w3.org/TR/css-text-4/ delta",
   "https://www.w3.org/TR/css-text-decor-3/",

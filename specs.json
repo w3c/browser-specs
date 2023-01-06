@@ -103,6 +103,7 @@
     "shortTitle": "Compositing 2"
   },
   "https://drafts.fxtf.org/filter-effects-2/ delta",
+  "https://encoding.spec.whatwg.org/",
   "https://fedidcg.github.io/FedCM/",
   "https://fetch.spec.whatwg.org/",
   {
@@ -774,7 +775,6 @@
   "https://www.w3.org/TR/device-posture/",
   "https://www.w3.org/TR/DOM-Parsing/",
   "https://www.w3.org/TR/edit-context/",
-  "https://www.w3.org/TR/encoding/",
   {
     "url": "https://www.w3.org/TR/encrypted-media/",
     "nightly": {

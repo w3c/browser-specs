@@ -24,7 +24,7 @@ module.exports = function (spec) {
     throw "Invalid spec object passed as parameter";
   }
 
-  // If spec is already explicit about its standing, who are to disagree?
+  // If spec is already explicit about its standing, who are we to disagree?
   if (spec.standing) {
     return spec.standing;
   }

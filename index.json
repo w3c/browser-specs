@@ -31,6 +31,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -70,6 +71,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -108,7 +110,8 @@
     "shortTitle": "Client Hint Reliability",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
@@ -141,7 +144,8 @@
     "shortTitle": "Digest Fields",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
@@ -174,7 +178,8 @@
     "shortTitle": "Cookies: HTTP State Management Mechanism",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://dom.spec.whatwg.org/",
@@ -208,6 +213,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -251,6 +257,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "pending",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -270,6 +277,7 @@
       "nightlyUrl": "https://drafts.css-houdini.org/font-metrics-api/"
     },
     "seriesVersion": "1",
+    "standing": "good",
     "organization": "W3C",
     "groups": [
       {
@@ -327,7 +335,8 @@
     "shortTitle": "CSS Anchor Positioning",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://drafts.csswg.org/css-animations-2/",
@@ -366,6 +375,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -410,6 +420,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -454,6 +465,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -497,6 +509,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -539,7 +552,8 @@
     "shortTitle": "CSS Extensions",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -578,6 +592,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -622,6 +637,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -666,6 +682,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -708,7 +725,8 @@
     "shortTitle": "CSS Linked Parameters",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://drafts.csswg.org/css-multicol-2/",
@@ -747,6 +765,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -791,6 +810,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -835,6 +855,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -879,6 +900,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -922,6 +944,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -966,6 +989,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1010,6 +1034,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1054,6 +1079,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1074,6 +1100,7 @@
       "nightlyUrl": "https://drafts.csswg.org/web-animations/"
     },
     "seriesVersion": "2",
+    "standing": "good",
     "seriesPrevious": "web-animations-1",
     "organization": "W3C",
     "groups": [
@@ -1140,6 +1167,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1182,6 +1210,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1221,6 +1250,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1259,7 +1289,8 @@
     "shortTitle": "Federated Credential Management API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://fetch.spec.whatwg.org/",
@@ -1293,6 +1324,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1335,7 +1367,8 @@
     "shortTitle": "CTAP",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://fs.spec.whatwg.org/",
@@ -1369,6 +1402,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1408,6 +1442,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1507,6 +1542,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1558,6 +1594,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1596,7 +1633,8 @@
     "shortTitle": "The <model> element",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://immersive-web.github.io/raw-camera-access/",
@@ -1629,7 +1667,8 @@
     "shortTitle": "WebXR Raw Camera Access",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://infra.spec.whatwg.org/",
@@ -1662,7 +1701,8 @@
     "shortTitle": "Infra",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://mimesniff.spec.whatwg.org/",
@@ -1696,6 +1736,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1735,6 +1776,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1773,7 +1815,8 @@
     "shortTitle": "Private Click Measurement",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://privacycg.github.io/storage-access/",
@@ -1807,6 +1850,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1846,6 +1890,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -1885,6 +1930,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -1924,6 +1970,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -1963,6 +2010,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2002,6 +2050,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2041,6 +2090,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2080,6 +2130,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2119,6 +2170,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2158,6 +2210,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2197,6 +2250,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2236,6 +2290,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2275,6 +2330,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2314,6 +2370,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2353,6 +2410,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2392,6 +2450,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2431,6 +2490,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2470,6 +2530,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2509,6 +2570,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2548,6 +2610,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2587,6 +2650,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2626,6 +2690,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2665,6 +2730,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2704,6 +2770,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2743,6 +2810,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2782,6 +2850,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2821,6 +2890,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2860,6 +2930,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2899,6 +2970,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2938,6 +3010,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -2977,6 +3050,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3016,6 +3090,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3055,6 +3130,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3094,6 +3170,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3133,6 +3210,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3172,6 +3250,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3211,6 +3290,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3250,6 +3330,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3289,6 +3370,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3328,6 +3410,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3367,6 +3450,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3406,6 +3490,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3445,6 +3530,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3484,6 +3570,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/KhronosGroup/WebGL",
       "testPaths": [
@@ -3529,7 +3616,8 @@
     "shortTitle": "WebGL",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://registry.khronos.org/webgl/specs/latest/2.0/",
@@ -3569,7 +3657,8 @@
     "shortTitle": "WebGL 2.0",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://sourcemaps.info/spec.html",
@@ -3600,7 +3689,8 @@
     "source": "spec",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://storage.spec.whatwg.org/",
@@ -3634,6 +3724,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -3676,6 +3767,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -3714,7 +3806,8 @@
     "shortTitle": "SVG Animations 2",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/ecma262/multipage/",
@@ -3796,7 +3889,8 @@
     "source": "specref",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/ecma402/",
@@ -3835,7 +3929,8 @@
     "shortTitle": "ECMAScript Internationalization API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-array-find-from-last/",
@@ -3868,7 +3963,8 @@
     "shortTitle": "Proposal-array-find-from-last",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-array-from-async/",
@@ -3901,7 +3997,8 @@
     "shortTitle": "2022",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-array-grouping/",
@@ -3934,7 +4031,8 @@
     "shortTitle": "Array Grouping",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
@@ -3967,7 +4065,8 @@
     "shortTitle": "Atomics.waitAsync",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-change-array-by-copy/",
@@ -4000,7 +4099,8 @@
     "shortTitle": "Change Array by copy",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-decorators/",
@@ -4032,7 +4132,8 @@
     "shortTitle": "Decorators proposal",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-explicit-resource-management/",
@@ -4065,7 +4166,8 @@
     "shortTitle": "ECMAScript Explicit Resource Management",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-import-assertions/",
@@ -4098,7 +4200,8 @@
     "shortTitle": "import assertions",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-duration-format/",
@@ -4131,7 +4234,8 @@
     "shortTitle": "Intl.DurationFormat",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-enumeration/",
@@ -4164,7 +4268,8 @@
     "shortTitle": "Intl Enumeration API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-extend-timezonename/",
@@ -4197,7 +4302,8 @@
     "shortTitle": "Extend TimeZoneName Option",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-locale-info/",
@@ -4230,7 +4336,8 @@
     "shortTitle": "Intl Locale Info",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
@@ -4263,7 +4370,8 @@
     "shortTitle": "Intl Annexes",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
@@ -4296,7 +4404,8 @@
     "shortTitle": "Intl Parameter Resolution",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
@@ -4329,7 +4438,8 @@
     "shortTitle": "Intl.NumberFormat",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
@@ -4362,7 +4472,8 @@
     "shortTitle": "Intl.PluralRules",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-is-usv-string/",
@@ -4395,7 +4506,8 @@
     "shortTitle": "Well-Formed Unicode Strings",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-iterator-helpers/",
@@ -4428,7 +4540,8 @@
     "shortTitle": "Iterator Helpers",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-json-modules/",
@@ -4461,7 +4574,8 @@
     "shortTitle": "JSON modules",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-json-parse-with-source/",
@@ -4494,7 +4608,8 @@
     "shortTitle": "JSON.parse source text access",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-regexp-modifiers/",
@@ -4527,7 +4642,8 @@
     "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",
@@ -4560,7 +4676,8 @@
     "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-set-methods/",
@@ -4593,7 +4710,8 @@
     "shortTitle": "Set methods",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-shadowrealm/",
@@ -4626,7 +4744,8 @@
     "shortTitle": "ShadowRealm API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
@@ -4659,7 +4778,8 @@
     "shortTitle": "Symbol as WeakMap Keys",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-temporal/",
@@ -4692,7 +4812,8 @@
     "shortTitle": "Temporal proposal",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://testutils.spec.whatwg.org/",
@@ -4725,7 +4846,8 @@
     "shortTitle": "Test Utils",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://url.spec.whatwg.org/",
@@ -4759,6 +4881,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -4798,6 +4921,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -4837,6 +4961,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -4875,7 +5000,8 @@
     "shortTitle": "Gamepad Extensions",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/mathml-aam/",
@@ -4908,7 +5034,8 @@
     "shortTitle": "MathML Accessiblity API Mappings 1.0",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/media-playback-quality/",
@@ -4942,6 +5069,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -4980,7 +5108,8 @@
     "shortTitle": "Media Capture Automation",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/mediacapture-handle/actions/",
@@ -5013,7 +5142,8 @@
     "shortTitle": "The Capture-Handle Actions Mechanism",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/PNG-spec/",
@@ -5046,7 +5176,8 @@
     "shortTitle": "PNG",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/web-locks/",
@@ -5080,6 +5211,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5119,6 +5251,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5157,7 +5290,8 @@
     "shortTitle": "Web Share Target API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/webdriver-bidi/",
@@ -5190,7 +5324,8 @@
     "shortTitle": "WebDriver BiDi",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/webrtc-ice/",
@@ -5224,6 +5359,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5265,7 +5401,8 @@
     "shortTitle": "WebAssembly JavaScript Interface: Exception Handling",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
@@ -5299,6 +5436,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5338,6 +5476,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5377,6 +5516,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5415,7 +5555,8 @@
     "shortTitle": "Attribution Reporting",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/background-fetch/",
@@ -5449,6 +5590,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5488,6 +5630,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5526,7 +5669,8 @@
     "shortTitle": "Capability Delegation",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/client-hints-infrastructure/",
@@ -5560,6 +5704,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5599,6 +5744,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5638,6 +5784,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5677,6 +5824,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5716,6 +5864,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5754,7 +5903,8 @@
     "shortTitle": "Crash Reporting",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/csp-next/scripting-policy.html",
@@ -5787,7 +5937,8 @@
     "shortTitle": "Scripting Policy",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/css-parser-api/",
@@ -5821,6 +5972,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5860,6 +6012,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5898,7 +6051,8 @@
     "shortTitle": "DataCue API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/deprecation-reporting/",
@@ -5932,6 +6086,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -5970,7 +6125,8 @@
     "shortTitle": "Digital Goods API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/document-policy/",
@@ -6004,6 +6160,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6043,6 +6200,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6082,6 +6240,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6120,7 +6279,8 @@
     "shortTitle": "EyeDropper API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/file-system-access/",
@@ -6154,6 +6314,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6193,6 +6354,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6232,6 +6394,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6270,7 +6433,8 @@
     "shortTitle": "Ink API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/input-device-capabilities/",
@@ -6304,6 +6468,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6343,6 +6508,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6382,6 +6548,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6421,6 +6588,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6460,6 +6628,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6499,6 +6668,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6538,6 +6708,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6576,7 +6747,8 @@
     "shortTitle": "Local Font Access",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/manifest-incubations/",
@@ -6609,7 +6781,8 @@
     "shortTitle": "Manifest Incubations",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/media-feeds/",
@@ -6642,7 +6815,8 @@
     "shortTitle": "Media Feeds",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/nav-speculation/prefetch.html",
@@ -6675,7 +6849,8 @@
     "shortTitle": "Prefetch",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/nav-speculation/prerendering.html",
@@ -6708,7 +6883,8 @@
     "shortTitle": "Prerendering Revamped",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/nav-speculation/speculation-rules.html",
@@ -6741,7 +6917,8 @@
     "shortTitle": "Speculation Rules",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/navigation-api/",
@@ -6775,6 +6952,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6814,6 +6992,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6852,7 +7031,8 @@
     "shortTitle": "overscroll and scrollend events",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/page-lifecycle/",
@@ -6886,6 +7066,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6926,6 +7107,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -6965,6 +7147,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7004,6 +7187,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7043,6 +7227,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7082,6 +7267,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7120,7 +7306,8 @@
     "shortTitle": "preferCurrentTab",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/priority-hints/",
@@ -7154,6 +7341,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7193,6 +7381,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7231,7 +7420,8 @@
     "shortTitle": "Responsive Image Client Hints",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/sanitizer-api/",
@@ -7265,6 +7455,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7304,6 +7495,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7343,6 +7535,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7382,6 +7575,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7421,6 +7615,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7460,6 +7655,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7498,7 +7694,8 @@
     "shortTitle": "Accelerated Text Detection in Images",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/sms-one-time-codes/",
@@ -7531,7 +7728,8 @@
     "source": "specref",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/speech-api/",
@@ -7565,6 +7763,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7604,6 +7803,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7642,7 +7842,8 @@
     "shortTitle": "URLPattern API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/user-preference-media-features-headers/",
@@ -7675,7 +7876,8 @@
     "shortTitle": "User Preference Media Features Client Hints Headers",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/video-rvfc/",
@@ -7709,6 +7911,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7747,7 +7950,8 @@
     "shortTitle": "Web App Launch Handler API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/web-otp/",
@@ -7781,6 +7985,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7819,7 +8024,8 @@
     "shortTitle": "Secure Curves in the Web Cryptography API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/webhid/",
@@ -7853,6 +8059,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7891,7 +8098,8 @@
     "shortTitle": "Loading Signed Exchanges",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/webusb/",
@@ -7925,6 +8133,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -7963,7 +8172,8 @@
     "shortTitle": "Window Controls Overlay",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc2397",
@@ -7994,7 +8204,8 @@
     "shortTitle": "The \"data\" URL scheme",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc4120",
@@ -8025,7 +8236,8 @@
     "source": "specref",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc6265",
@@ -8058,7 +8270,8 @@
     "shortTitle": "HTTP State Management Mechanism",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc6266",
@@ -8091,7 +8304,8 @@
     "source": "specref",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc6454",
@@ -8122,7 +8336,8 @@
     "shortTitle": "The Web Origin Concept",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc6797",
@@ -8153,7 +8368,8 @@
     "shortTitle": "HSTS",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7034",
@@ -8184,7 +8400,8 @@
     "shortTitle": "HTTP Header Field X-Frame-Options",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7230",
@@ -8217,7 +8434,8 @@
     "shortTitle": "HTTP/1.1 Message Syntax and Routing",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7231",
@@ -8250,7 +8468,8 @@
     "shortTitle": "HTTP/1.1 Semantics and Content",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7232",
@@ -8283,7 +8502,8 @@
     "shortTitle": "HTTP/1.1 Conditional Requests",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7233",
@@ -8316,7 +8536,8 @@
     "shortTitle": "HTTP/1.1 Range Requests",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7234",
@@ -8349,7 +8570,8 @@
     "shortTitle": "HTTP/1.1 Caching",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7235",
@@ -8382,7 +8604,8 @@
     "shortTitle": "HTTP/1.1 Authentication",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7239",
@@ -8413,7 +8636,8 @@
     "shortTitle": "Forwarded HTTP Extension",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7469",
@@ -8444,7 +8668,8 @@
     "shortTitle": "Public Key Pinning Extension for HTTP",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7538",
@@ -8477,7 +8702,8 @@
     "shortTitle": "Permanent Redirect",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7540",
@@ -8510,7 +8736,8 @@
     "shortTitle": "HTTP/2",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7578",
@@ -8541,7 +8768,8 @@
     "shortTitle": "Returning Values from Forms: multipart/form-data",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7616",
@@ -8574,7 +8802,8 @@
     "shortTitle": "HTTP Digest Access Authentication",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7617",
@@ -8607,7 +8836,8 @@
     "shortTitle": "The 'Basic' HTTP Authentication Scheme",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7725",
@@ -8640,7 +8870,8 @@
     "shortTitle": "An HTTP Status Code to Report Legal Obstacles",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7838",
@@ -8673,7 +8904,8 @@
     "shortTitle": "HTTP Alternative Services",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc8246",
@@ -8706,7 +8938,8 @@
     "shortTitle": "HTTP Immutable Responses",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc8288",
@@ -8739,7 +8972,8 @@
     "shortTitle": "Web Linking",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc8470",
@@ -8772,7 +9006,8 @@
     "shortTitle": "Using Early Data in HTTP",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc8942",
@@ -8803,7 +9038,8 @@
     "shortTitle": "HTTP Client Hints",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9110",
@@ -8836,7 +9072,8 @@
     "shortTitle": "HTTP Semantics",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9111",
@@ -8869,7 +9106,8 @@
     "shortTitle": "HTTP Caching",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9112",
@@ -8902,7 +9140,8 @@
     "shortTitle": "HTTP/1.1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9113",
@@ -8935,7 +9174,8 @@
     "shortTitle": "HTTP/2",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9114",
@@ -8968,7 +9208,8 @@
     "shortTitle": "HTTP/3",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9163",
@@ -9001,7 +9242,8 @@
     "shortTitle": "Expect-CT Extension for HTTP",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/2001/tag/doc/promises-guide",
@@ -9032,7 +9274,8 @@
     "title": "Writing Promise-Using Specifications",
     "source": "specref",
     "shortTitle": "Writing Promise-Using Specifications",
-    "categories": []
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/Consortium/Patent-Policy/",
@@ -9061,7 +9304,8 @@
     "title": "W3C Patent Policy",
     "source": "specref",
     "shortTitle": "W3C Patent Policy",
-    "categories": []
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/Consortium/Process/",
@@ -9098,7 +9342,8 @@
     "shortTitle": "W3C Process Document",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/accelerometer/",
@@ -9138,6 +9383,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9184,6 +9430,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9229,6 +9476,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9274,6 +9522,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9319,6 +9568,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9363,7 +9613,8 @@
     "shortTitle": "Autoplay Policy Detection",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/battery-status/",
@@ -9403,6 +9654,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9448,6 +9700,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9492,7 +9745,8 @@
     "shortTitle": "Capture Handle - Bootstrapping Collaboration when Screensharing",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/change-password-url/",
@@ -9531,7 +9785,8 @@
     "shortTitle": "A Well-Known URL for Changing Passwords",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/clear-site-data/",
@@ -9571,6 +9826,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9616,6 +9872,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9667,6 +9924,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9711,7 +9969,8 @@
     "shortTitle": "Compute Pressure 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/contact-picker-1/",
@@ -9755,7 +10014,8 @@
     "shortTitle": "Contact Picker API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/core-aam-1.2/",
@@ -9796,6 +10056,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9842,6 +10103,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9887,6 +10149,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9933,6 +10196,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9985,6 +10249,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10031,6 +10296,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10081,6 +10347,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10131,6 +10398,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10181,6 +10449,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10230,6 +10499,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10280,6 +10550,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10329,6 +10600,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10378,6 +10650,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10429,6 +10702,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10479,6 +10753,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10528,6 +10803,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10578,6 +10854,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10627,6 +10904,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10676,6 +10954,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10726,6 +11005,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10776,6 +11056,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10825,6 +11106,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10875,6 +11157,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10924,6 +11207,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10973,6 +11257,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11022,6 +11307,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11070,7 +11356,8 @@
     "shortTitle": "CSS Device Adaptation 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-display-3/",
@@ -11114,6 +11401,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11164,6 +11452,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11213,6 +11502,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11262,6 +11552,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11312,6 +11603,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11361,6 +11653,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11411,6 +11704,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11461,6 +11755,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11509,7 +11804,8 @@
     "shortTitle": "CSS Custom Highlight API 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-images-3/",
@@ -11554,6 +11850,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11604,6 +11901,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11653,6 +11951,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11699,6 +11998,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11747,7 +12047,8 @@
     "shortTitle": "CSS Line Grid 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-lists-3/",
@@ -11791,6 +12092,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11840,6 +12142,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11886,6 +12189,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11936,6 +12240,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -11985,6 +12290,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12033,7 +12339,8 @@
     "shortTitle": "CSS Spatial Navigation 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-nesting-1/",
@@ -12076,7 +12383,8 @@
     "shortTitle": "CSS Nesting",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-overflow-3/",
@@ -12121,6 +12429,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12170,6 +12479,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12219,6 +12529,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12269,6 +12580,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12317,7 +12629,8 @@
     "shortTitle": "CSS Page Floats",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-paint-api-1/",
@@ -12358,6 +12671,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12407,6 +12721,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12457,6 +12772,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12506,6 +12822,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12554,7 +12871,8 @@
     "shortTitle": "CSS Regions 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-rhythm-1/",
@@ -12597,7 +12915,8 @@
     "shortTitle": "CSS Rhythmic Sizing",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-round-display-1/",
@@ -12641,6 +12960,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12690,6 +13010,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12739,6 +13060,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12788,6 +13110,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12838,6 +13161,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12887,6 +13211,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12936,6 +13261,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -12986,6 +13312,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13036,6 +13363,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13085,6 +13413,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13134,6 +13463,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13181,6 +13511,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13230,6 +13561,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13279,6 +13611,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13329,6 +13662,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13378,6 +13712,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13428,6 +13763,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13477,6 +13813,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13527,6 +13864,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13576,6 +13914,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13626,6 +13965,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13677,6 +14017,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13726,6 +14067,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13775,6 +14117,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13826,6 +14169,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13876,6 +14220,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -13924,7 +14269,8 @@
     "shortTitle": "CSS View Transitions 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-will-change-1/",
@@ -13968,6 +14314,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14017,6 +14364,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14095,6 +14443,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14173,6 +14522,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14222,6 +14572,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14271,6 +14622,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14320,6 +14672,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14366,6 +14719,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14410,7 +14764,8 @@
     "shortTitle": "Device Posture API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/DOM-Parsing/",
@@ -14450,6 +14805,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14494,7 +14850,8 @@
     "shortTitle": "EditContext API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/encrypted-media/",
@@ -14534,6 +14891,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14577,7 +14935,8 @@
     },
     "title": "EPUB 3.3",
     "source": "w3c",
-    "shortTitle": "EPUB 3.3"
+    "shortTitle": "EPUB 3.3",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/epub-rs-33/",
@@ -14615,7 +14974,8 @@
     },
     "title": "EPUB Reading Systems 3.3",
     "source": "w3c",
-    "shortTitle": "EPUB Reading Systems 3.3"
+    "shortTitle": "EPUB Reading Systems 3.3",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/event-timing/",
@@ -14654,7 +15014,8 @@
     "shortTitle": "Event Timing API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/fetch-metadata/",
@@ -14694,6 +15055,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14739,6 +15101,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14789,6 +15152,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14836,6 +15200,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14880,7 +15245,8 @@
     "shortTitle": "Mitigating Browser Fingerprinting in Web Specifications",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/gamepad/",
@@ -14920,6 +15286,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -14965,6 +15332,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15010,6 +15378,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15055,6 +15424,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15101,6 +15471,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15147,6 +15518,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15192,7 +15564,8 @@
     "shortTitle": "WAI-ARIA Graphics",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/gyroscope/",
@@ -15232,6 +15605,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15278,6 +15652,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15323,7 +15698,8 @@
     "shortTitle": "HTML Accessibility API Mappings 1.0",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/html-aria/",
@@ -15362,7 +15738,8 @@
     "shortTitle": "ARIA in HTML",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/html-media-capture/",
@@ -15402,6 +15779,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15444,7 +15822,8 @@
     },
     "title": "Internationalization Glossary",
     "source": "w3c",
-    "shortTitle": "Internationalization Glossary"
+    "shortTitle": "Internationalization Glossary",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/IFT/",
@@ -15483,7 +15862,8 @@
     "shortTitle": "Incremental Font Transfer",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/image-capture/",
@@ -15523,6 +15903,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15567,7 +15948,8 @@
     "shortTitle": "Image Resource",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/IndexedDB-3/",
@@ -15608,6 +15990,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15654,6 +16037,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15699,6 +16083,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15741,7 +16126,8 @@
     },
     "title": "JSON-LD 1.1 Processing Algorithms and API",
     "source": "w3c",
-    "shortTitle": "JSON-LD 1.1 Processing Algorithms and API"
+    "shortTitle": "JSON-LD 1.1 Processing Algorithms and API",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/json-ld11-framing/",
@@ -15778,7 +16164,8 @@
     },
     "title": "JSON-LD 1.1 Framing",
     "source": "w3c",
-    "shortTitle": "JSON-LD 1.1 Framing"
+    "shortTitle": "JSON-LD 1.1 Framing",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/json-ld11/",
@@ -15816,7 +16203,8 @@
     },
     "title": "JSON-LD 1.1",
     "source": "w3c",
-    "shortTitle": "JSON-LD 1.1"
+    "shortTitle": "JSON-LD 1.1",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/largest-contentful-paint/",
@@ -15856,6 +16244,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15902,6 +16291,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15947,6 +16337,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -15991,7 +16382,8 @@
     "shortTitle": "Web App Manifest - Application Information",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/mathml-core/",
@@ -16031,6 +16423,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16076,6 +16469,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16122,6 +16516,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16167,6 +16562,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16211,7 +16607,8 @@
     "shortTitle": "Region Capture",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/mediacapture-streams/",
@@ -16251,6 +16648,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16295,7 +16693,8 @@
     "shortTitle": "MediaStreamTrack Insertable Media Processing using Streams",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/mediacapture-viewport/",
@@ -16334,7 +16733,8 @@
     "shortTitle": "Viewport Capture",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/mediaqueries-4/",
@@ -16379,6 +16779,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16428,6 +16829,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16473,6 +16875,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16518,6 +16921,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16560,7 +16964,8 @@
     },
     "title": "MiniApp Lifecycle",
     "source": "w3c",
-    "shortTitle": "MiniApp Lifecycle"
+    "shortTitle": "MiniApp Lifecycle",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/miniapp-manifest/",
@@ -16597,7 +17002,8 @@
     },
     "title": "MiniApp Manifest",
     "source": "w3c",
-    "shortTitle": "MiniApp Manifest"
+    "shortTitle": "MiniApp Manifest",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/miniapp-packaging/",
@@ -16634,7 +17040,8 @@
     },
     "title": "MiniApp Packaging",
     "source": "w3c",
-    "shortTitle": "MiniApp Packaging"
+    "shortTitle": "MiniApp Packaging",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/mixed-content/",
@@ -16674,6 +17081,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16720,6 +17128,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16765,6 +17174,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16805,7 +17215,8 @@
     },
     "title": "RDF 1.1 N-Quads",
     "source": "w3c",
-    "shortTitle": "RDF 1.1 N-Quads"
+    "shortTitle": "RDF 1.1 N-Quads",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/navigation-timing-2/",
@@ -16846,6 +17257,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16892,6 +17304,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -16936,7 +17349,8 @@
     "shortTitle": "Open Screen Protocol",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/orientation-event/",
@@ -16976,6 +17390,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17021,6 +17436,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17066,6 +17482,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17111,6 +17528,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17156,6 +17574,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17200,7 +17619,8 @@
     "shortTitle": "Payment Method Manifest",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/payment-request-1.1/",
@@ -17241,6 +17661,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17286,6 +17707,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17332,6 +17754,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17377,6 +17800,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17422,6 +17846,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17468,6 +17893,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17514,6 +17940,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17559,6 +17986,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17604,6 +18032,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17649,6 +18078,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17691,7 +18121,8 @@
     },
     "title": "RDF Dataset Canonicalization",
     "source": "w3c",
-    "shortTitle": "RDF Dataset Canonicalization"
+    "shortTitle": "RDF Dataset Canonicalization",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/rdf11-concepts/",
@@ -17726,7 +18157,8 @@
     },
     "title": "RDF 1.1 Concepts and Abstract Syntax",
     "source": "w3c",
-    "shortTitle": "RDF 1.1 Concepts and Abstract Syntax"
+    "shortTitle": "RDF 1.1 Concepts and Abstract Syntax",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/rdf11-mt/",
@@ -17761,7 +18193,8 @@
     },
     "title": "RDF 1.1 Semantics",
     "source": "w3c",
-    "shortTitle": "RDF 1.1 Semantics"
+    "shortTitle": "RDF 1.1 Semantics",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/referrer-policy/",
@@ -17801,6 +18234,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17846,6 +18280,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17892,6 +18327,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17937,6 +18373,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -17986,6 +18423,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18030,7 +18468,8 @@
     "shortTitle": "Resource Hints",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/resource-timing/",
@@ -18070,6 +18509,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18115,6 +18555,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18160,6 +18601,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18205,6 +18647,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18254,6 +18697,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18299,6 +18743,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18344,6 +18789,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18389,6 +18835,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18438,6 +18885,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18483,6 +18931,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18528,6 +18977,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18573,6 +19023,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18619,6 +19070,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18663,7 +19115,8 @@
     "shortTitle": "SVG Integration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/svg-strokes/",
@@ -18702,7 +19155,8 @@
     "shortTitle": "SVG Strokes",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/SVG11/",
@@ -18827,7 +19281,8 @@
     "shortTitle": "SVG",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/SVG2/",
@@ -18927,6 +19382,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -18967,7 +19423,8 @@
     },
     "title": "A Method for Writing Testable Conformance Requirements",
     "source": "w3c",
-    "shortTitle": "A Method for Writing Testable Conformance Requirements"
+    "shortTitle": "A Method for Writing Testable Conformance Requirements",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/timing-entrytypes-registry/",
@@ -19007,6 +19464,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19052,6 +19510,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19096,7 +19555,8 @@
     "shortTitle": "DNT",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/trusted-types/",
@@ -19135,7 +19595,8 @@
     "shortTitle": "Trusted Types",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/uievents-code/",
@@ -19174,7 +19635,8 @@
     "shortTitle": "UI Events KeyboardEvent code Values",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/uievents-key/",
@@ -19213,7 +19675,8 @@
     "shortTitle": "UI Events KeyboardEvent key Values",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/uievents/",
@@ -19253,6 +19716,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19298,6 +19762,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19343,6 +19808,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19388,6 +19854,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19432,7 +19899,8 @@
     "shortTitle": "VirtualKeyboard API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/wai-aria-1.2/",
@@ -19473,6 +19941,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19524,7 +19993,8 @@
     "shortTitle": "WebAssembly Core",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/wasm-js-api-2/",
@@ -19568,6 +20038,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19614,6 +20085,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19664,6 +20136,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19709,6 +20182,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19754,6 +20228,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19800,6 +20275,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -19844,7 +20320,8 @@
     "shortTitle": "AAC WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-alaw-codec-registration/",
@@ -19883,7 +20360,8 @@
     "shortTitle": "A-law PCM WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-av1-codec-registration/",
@@ -19922,7 +20400,8 @@
     "shortTitle": "AV1 WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
@@ -19961,7 +20440,8 @@
     "shortTitle": "H.264",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-codec-registry/",
@@ -20000,7 +20480,8 @@
     "shortTitle": "WebCodecs Codec Registry",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-flac-codec-registration/",
@@ -20039,7 +20520,8 @@
     "shortTitle": "FLAC WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-hevc-codec-registration/",
@@ -20078,7 +20560,8 @@
     "shortTitle": "H.265",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-mp3-codec-registration/",
@@ -20117,7 +20600,8 @@
     "shortTitle": "MP3 WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-opus-codec-registration/",
@@ -20156,7 +20640,8 @@
     "shortTitle": "Opus WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-pcm-codec-registration/",
@@ -20195,7 +20680,8 @@
     "shortTitle": "Linear PCM WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-ulaw-codec-registration/",
@@ -20234,7 +20720,8 @@
     "shortTitle": "u-law PCM WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-vorbis-codec-registration/",
@@ -20273,7 +20760,8 @@
     "shortTitle": "Vorbis WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
@@ -20312,7 +20800,8 @@
     "shortTitle": "VP8 WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
@@ -20351,7 +20840,8 @@
     "shortTitle": "VP9 WebCodecs Registration",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webcodecs/",
@@ -20391,6 +20881,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20436,6 +20927,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20482,6 +20974,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20532,7 +21025,8 @@
     "shortTitle": "WebGPU",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webmidi/",
@@ -20572,6 +21066,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20617,6 +21112,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20662,6 +21158,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20707,6 +21204,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20752,6 +21250,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20797,6 +21296,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20842,6 +21342,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20887,6 +21388,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20932,6 +21434,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20978,6 +21481,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21024,6 +21528,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21069,7 +21574,8 @@
     "shortTitle": "WebXR Depth Sensing",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webxr-dom-overlays-1/",
@@ -21110,6 +21616,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21156,6 +21663,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21202,6 +21710,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21248,6 +21757,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21293,7 +21803,8 @@
     "shortTitle": "WebXR Lighting Estimation API 1",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webxr/",
@@ -21333,6 +21844,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21388,6 +21900,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21432,7 +21945,8 @@
     "shortTitle": "WebGPU Shading Language",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/window-placement/",
@@ -21472,6 +21986,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21523,7 +22038,8 @@
     "source": "w3c",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/WOFF2/",
@@ -21565,6 +22081,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -21604,6 +22121,7 @@
     "categories": [
       "browser"
     ],
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

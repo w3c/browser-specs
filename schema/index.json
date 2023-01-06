@@ -23,11 +23,13 @@
       "source": { "$ref": "definitions.json#/$defs/source" },
       "organization": { "$ref": "definitions.json#/$defs/organization" },
       "groups": { "$ref": "definitions.json#/$defs/groups" },
-      "categories": { "$ref": "definitions.json#/$defs/categories" }
+      "categories": { "$ref": "definitions.json#/$defs/categories" },
+      "standing": { "$ref": "definitions.json#/$defs/standing" }
     },
     "required": [
       "url", "shortname", "series", "seriesComposition", "nightly",
-      "title", "shortTitle", "source", "organization", "groups", "categories"
+      "title", "shortTitle", "source", "organization", "groups", "categories",
+      "standing"
     ],
     "additionalProperties": false
   },

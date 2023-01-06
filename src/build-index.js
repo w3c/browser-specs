@@ -16,6 +16,7 @@ const computeRepository = require("./compute-repository.js");
 const computeSeriesUrls = require("./compute-series-urls.js");
 const computeShortTitle = require("./compute-shorttitle.js");
 const computeCategories = require("./compute-categories.js");
+const computeStanding = require("./compute-standing.js");
 const determineFilename = require("./determine-filename.js");
 const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
@@ -242,6 +243,12 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
     spec.categories = computeCategories(spec);
   });
   log(`Compute categories... done`);
+
+  log(`Compute standing...`);
+  index.forEach(spec => {
+    spec.standing = computeStanding(spec);
+  });
+  log(`Compute standing...`);
 
   log(`Find info about test suites...`);
   await determineTestPath(index, { githubToken });

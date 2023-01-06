@@ -14478,7 +14478,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/encoding/",
-      "status": "Retired",
+      "status": "Discontinued Draft",
       "filename": "index.html"
     },
     "nightly": {
@@ -19094,7 +19094,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/tracking-dnt/",
-      "status": "Retired",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "title": "Tracking Preference Expression (DNT)",

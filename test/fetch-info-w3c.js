@@ -59,7 +59,7 @@ describe("fetch-info module (with W3C API key)", function () {
 
     it("can operate on multiple specs at once", async () => {
       const spec = getW3CSpec("hr-time-2", "hr-time");
-      const other = getW3CSpec("presentation-api", "presentation-api");
+      const other = getW3CSpec("tracking-dnt", "tracking-dnt");
       const info = await fetchInfo([spec, other], { w3cApiKey });
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "w3c");
@@ -72,15 +72,16 @@ describe("fetch-info module (with W3C API key)", function () {
       assert.ok(info[other.shortname]);
       assert.equal(info[other.shortname].source, "w3c");
       assert.equal(info[other.shortname].release.url, other.url);
-      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
+      assert.equal(info[other.shortname].release.status, "Discontinued Draft");
+      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/dnt/drafts/tracking-dnt.html");
       assert.equal(info[other.shortname].nightly.status, "Editor's Draft");
-      assert.equal(info[other.shortname].title, "Presentation API");
+      assert.equal(info[other.shortname].title, "Tracking Preference Expression (DNT)");
 
       assert.ok(info.__series);
       assert.ok(info.__series["hr-time"]);
-      assert.ok(info.__series["presentation-api"]);
+      assert.ok(info.__series["tracking-dnt"]);
       assert.equal(info.__series["hr-time"].currentSpecification, "hr-time-3");
-      assert.equal(info.__series["presentation-api"].currentSpecification, "presentation-api");
+      assert.equal(info.__series["tracking-dnt"].currentSpecification, "tracking-dnt");
     });
 
     it("throws when W3C API key is invalid", async () => {

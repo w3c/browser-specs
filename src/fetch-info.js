@@ -115,9 +115,10 @@ async function fetchInfoFromW3CApi(specs, options) {
       }
       const release = info[idx].shortlink?.replace(/^http:/, 'https:') ?? null;
       const nightly = info[idx]["editor-draft"]?.replace(/^http:/, 'https:') ?? null;
+      const status = info[idx].status === "Retired" ? "Discontinued Draft" : info[idx].status;
 
       results[spec.shortname] = {
-        release: { url: release, status: info[idx].status },
+        release: { url: release, status },
         nightly: { url: nightly, status: "Editor's Draft" },
         title: info[idx].title
       };

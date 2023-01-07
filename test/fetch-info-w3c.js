@@ -16,7 +16,7 @@ const w3cApiKey = (function () {
   catch (err) {
     return null;
   }
-})();
+})() ?? process.env.W3C_API_KEY;
 
 
 describe("fetch-info module (with W3C API key)", function () {

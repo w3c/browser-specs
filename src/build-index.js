@@ -22,15 +22,22 @@ const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const fetchGroups = require("./fetch-groups.js");
-const { w3cApiKey } = require("../config.json");
+const w3cApiKey = (_ => {
+  try {
+    return require("../config.json").w3cApiKey;
+  }
+  catch {
+    return null;
+  }
+})() ?? process.env.W3C_API_KEY;
 const githubToken = (_ => {
   try {
     return require("../config.json").GH_TOKEN;
   }
   catch {
-    return "";
+    return null;
   }
-})() || process.env.GH_TOKEN;;
+})() ?? process.env.GH_TOKEN;
 
 
 async function sleep(ms) {

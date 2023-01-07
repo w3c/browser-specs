@@ -11,12 +11,12 @@ const fetchGroups = require("../src/fetch-groups.js");
 
 const githubToken = (function () {
   try {
-    return require("../config.json").githubToken;
+    return require("../config.json").GH_TOKEN;
   }
   catch (err) {
     return null;
   }
-})();
+})() ?? process.env.GH_TOKEN;
 
 const w3cApiKey = (function () {
   try {
@@ -25,7 +25,7 @@ const w3cApiKey = (function () {
   catch (err) {
     return null;
   }
-})();
+})() ?? process.env.W3C_API_KEY;
 
 
 describe("fetch-groups module (with API keys)", function () {

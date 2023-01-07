@@ -27,21 +27,17 @@ jobs:
         # xxx-specs@latest branches
         fetch-depth: 0
 
-    - name: Setup environment
-      run: |
-        echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
-        npm ci
-
     - name: Build new index file
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        W3C_API_KEY: ${{ secrets.W3C_API_KEY }}
       run: npm run build
 
     - name: Test new index file
       env:
-        CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        W3C_API_KEY: ${{ secrets.W3C_API_KEY }}
       run: |
-        echo "${{ secrets.CONFIG_JSON }}" | base64 --decode > config.json
         npm run test
 
     - name: Bump minor version of packages if needed

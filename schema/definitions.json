@@ -195,7 +195,7 @@
 
     "standing": {
       "type": "string",
-      "enum": ["good", "pending"]
+      "enum": ["good", "pending", "discontinued"]
     }
   }
 }

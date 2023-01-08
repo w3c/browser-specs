@@ -67,9 +67,13 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Backgrounds 4"
   },
+  "https://drafts.csswg.org/css-color-6/ delta",
+  "https://drafts.csswg.org/css-color-hdr/",
+  "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-easing-2/",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
+  "https://drafts.csswg.org/css-forms-1/",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
@@ -587,6 +591,7 @@
   "https://www.w3.org/TR/credential-management-1/",
   "https://www.w3.org/TR/csp-embedded-enforcement/",
   "https://www.w3.org/TR/CSP3/",
+  "https://www.w3.org/TR/css-2022/",
   "https://www.w3.org/TR/css-align-3/",
   "https://www.w3.org/TR/css-animation-worklet-1/",
   "https://www.w3.org/TR/css-animations-1/",
@@ -615,6 +620,7 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Cascading 6"
   },
+  "https://www.w3.org/TR/css-color-3/",
   {
     "url": "https://www.w3.org/TR/css-color-4/",
     "nightly": {
@@ -637,6 +643,7 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Conditional 5"
   },
+  "https://www.w3.org/TR/css-contain-1/",
   "https://www.w3.org/TR/css-contain-2/",
   "https://www.w3.org/TR/css-contain-3/ delta",
   "https://www.w3.org/TR/css-content-3/",
@@ -661,6 +668,7 @@
     "url": "https://www.w3.org/TR/css-gcpm-3/",
     "shortTitle": "CSS GCPM 3"
   },
+  "https://www.w3.org/TR/css-grid-1/",
   "https://www.w3.org/TR/css-grid-2/",
   "https://www.w3.org/TR/css-highlight-api-1/",
   {
@@ -736,6 +744,7 @@
   "https://www.w3.org/TR/css-transforms-2/ delta",
   "https://www.w3.org/TR/css-transitions-1/",
   "https://www.w3.org/TR/css-typed-om-1/",
+  "https://www.w3.org/TR/css-ui-3/",
   {
     "url": "https://www.w3.org/TR/css-ui-4/",
     "shortTitle": "CSS User Interface 4"
@@ -754,6 +763,7 @@
   },
   "https://www.w3.org/TR/css-view-transitions-1/",
   "https://www.w3.org/TR/css-will-change-1/",
+  "https://www.w3.org/TR/css-writing-modes-3/",
   "https://www.w3.org/TR/css-writing-modes-4/",
   {
     "url": "https://www.w3.org/TR/CSS21/",
@@ -780,6 +790,15 @@
   "https://www.w3.org/TR/cssom-view-1/",
   "https://www.w3.org/TR/device-memory-1/",
   "https://www.w3.org/TR/device-posture/",
+  {
+    "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
+    "series": {
+      "shortname": "DOM-Style"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/DOM-Level-2-Style/"
+    }
+  },
   "https://www.w3.org/TR/DOM-Parsing/",
   "https://www.w3.org/TR/edit-context/",
   {
@@ -888,6 +907,7 @@
   "https://www.w3.org/TR/mediacapture-streams/",
   "https://www.w3.org/TR/mediacapture-transform/",
   "https://www.w3.org/TR/mediacapture-viewport/",
+  "https://www.w3.org/TR/mediaqueries-3/",
   "https://www.w3.org/TR/mediaqueries-4/",
   "https://www.w3.org/TR/mediaqueries-5/ delta",
   "https://www.w3.org/TR/mediasession/",
@@ -999,7 +1019,9 @@
   "https://www.w3.org/TR/secure-contexts/",
   "https://www.w3.org/TR/secure-payment-confirmation/",
   "https://www.w3.org/TR/selection-api/",
+  "https://www.w3.org/TR/selectors-3/",
   "https://www.w3.org/TR/selectors-4/",
+  "https://www.w3.org/TR/selectors-nonelement-1/",
   "https://www.w3.org/TR/server-timing/",
   "https://www.w3.org/TR/service-workers/",
   {

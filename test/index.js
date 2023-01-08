@@ -19,7 +19,8 @@ const noRepo = [
   'test-methodology',
   'rdf11-concepts',
   'rdf11-mt',
-  'n-quads'
+  'n-quads',
+  'DOM-Level-2-Style'
 ];
 
 
@@ -135,7 +136,8 @@ describe("List of specs", () => {
     const wrong = specs.filter(s => !s.title.includes(s.series.title))
       .filter(s => ![
           "webrtc", "json-ld11-api", "json-ld11-framing",
-          "css-images-4", "n-quads", "rdf11-concepts", "rdf11-mt"
+          "css-images-4", "n-quads", "rdf11-concepts", "rdf11-mt",
+          "DOM-Level-2-Style"
         ].includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });

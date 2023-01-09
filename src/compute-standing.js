@@ -30,5 +30,10 @@ module.exports = function (spec) {
   }
 
   const status = spec.release?.status ?? spec.nightly.status;
-  return unofficialStatuses.includes(status) ? "pending" : "good";
+  if (status === "Discontinued Draft") {
+    return "discontinued";
+  }
+  else {
+    return unofficialStatuses.includes(status) ? "pending" : "good";
+  }
 }

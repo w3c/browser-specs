@@ -202,15 +202,20 @@ specs in the `browser-specs` package.
 A rough approximation of whether the spec is in good standing, meaning that,
 regardless of its current status, it should be regarded as a spec that gets some
 love from targeted implementers and as a spec that has some well-defined scope,
-or whether the spec has not yet matured enough or should only be viewed as a
-collection of interesting ideas for now.
+whether the spec has not yet matured enough or should only be viewed as a
+collection of interesting ideas for now, or whether development of the spec has
+been discontinued.
 
 Specs for which the status is "Unofficial Proposal Draft" or "A Collection of
 Interesting Ideas" typically have a standing set to `"pending"` (but there may
 be exceptions).
 
-The `standing` property is always set. Value may either be `"good"` or
-`"pending"`. Value is always `"good"` for specs in the `browser-specs` package.
+Specs whose status is "Discontinued Draft" typically have a standing set to
+`"discontinued"`.
+
+The `standing` property is always set. Value may either be `"good"`, `"pending"`
+or `"discontinued"`. Value is always `"good"` for specs in the `browser-specs`
+package.
 
 
 ### `series`

@@ -338,14 +338,6 @@
       "comment": "Still lots of todo",
       "lastreviewed": "2023-01-01"
     },
-    "https://drafts.csswg.org/css-color-hdr/": {
-      "comment": "Marked as unofficial proposal",
-      "lastreviewed": "2023-01-01"
-    },
-    "https://drafts.csswg.org/css-color-6/": {
-      "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2023-01-01"
-    },
     "https://drafts.csswg.org/css-block-3/": {
       "comment": "Placholder for an eventual CSS Block Layout Level 3 Module",
       "lastreviewed": "2023-01-01"
@@ -358,10 +350,6 @@
       "comment": "No spec yet",
       "lastreviewed": "2023-01-01"
     },
-    "https://drafts.csswg.org/css-forms-1/": {
-      "comment": "Marked as not ready for implementation",
-      "lastreviewed": "2023-01-01"
-    },
     "https://drafts.csswg.org/css-page-template-1/": {
       "comment": "Marked as not ready for implementation",
       "lastreviewed": "2023-01-01"
@@ -372,10 +360,6 @@
     },
     "https://drafts.css-houdini.org/box-tree-api/": {
       "comment": "Marked as collection of ideas, no clear implementation plans yet",
-      "lastreviewed": "2023-01-01"
-    },
-    "https://drafts.csswg.org/css-conditional-values-1/": {
-      "comment": "Marked as not ready for implementation",
       "lastreviewed": "2023-01-01"
     },
     "https://svgwg.org/specs/markers/": {

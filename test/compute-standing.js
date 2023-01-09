@@ -38,6 +38,11 @@ describe("compute-standing module", () => {
     assert.strictEqual(computeStanding(spec), "pending");
   });
 
+  it("returns `discontinued` for an Discontinued Draft", function () {
+    const spec = { nightly: { status: "Discontinued Draft" } };
+    assert.strictEqual(computeStanding(spec), "discontinued");
+  });
+
   it("returns the standing that the spec says it has", function () {
     const spec = {
       standing: "good",

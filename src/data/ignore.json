@@ -331,9 +331,6 @@
     "https://drafts.csswg.org/css-2021/": {
       "comment": "not a spec, but a collection"
     },
-    "https://drafts.csswg.org/css-2022/": {
-      "comment": "not a spec, but a collection"
-    },
     "https://drafts.csswg.org/css-egg-1/": {
       "comment": "excentric gadgetry"
     },
@@ -354,9 +351,6 @@
     },
     "https://drafts.csswg.org/css-template-1/": {
       "comment": "repository for ideas that may migrate to other modules of CSS"
-    },
-    "https://drafts.csswg.org/selectors-nonelement-1/": {
-      "comment": "retired spec"
     },
     "https://drafts.css-houdini.org/scroll-customization-api/": {
       "comment": "No activity since 2015; marked as no longer pursuing in https://www.chromestatus.com/features/5616710262456320"

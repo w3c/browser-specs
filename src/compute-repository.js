@@ -85,7 +85,7 @@ module.exports = async function (specs, options) {
     const paths = repoPathCache.get(cacheKey);
 
     // Extract filename from nightly URL when there is one
-    const match = spec.nightly.url.match(/\/(\w+)\.html$/);
+    const match = spec.nightly.url.match(/\/([\w\-]+)\.html$/);
     const nightlyFilename = match ? match[1] : "";
 
     const sourcePath = getFirstFoundInTree(paths,
@@ -100,6 +100,7 @@ module.exports = async function (specs, options) {
       `${nightlyFilename}.bs`,
       `${nightlyFilename}.html`,
       `${nightlyFilename}.src.html`,
+      `${nightlyFilename}.md`,
 
       // WebGL extensions
       `extensions/${spec.shortname}/extension.xml`,

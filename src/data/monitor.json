@@ -225,8 +225,8 @@
       "comment": "no published content yet"
     },
     "WICG/CHIPS": {
-      "lastreviewed": "2023-01-01",
-      "comment": "no published content yet"
+      "lastreviewed": "2023-01-09",
+      "comment": "no published content yet, ongoing IETF draft at https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies"
     },
     "privacycg/nav-tracking-mitigations": {
       "lastreviewed": "2023-01-01",

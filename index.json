@@ -429,6 +429,125 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-color-6/",
+    "seriesComposition": "delta",
+    "shortname": "css-color-6",
+    "series": {
+      "shortname": "css-color",
+      "currentSpecification": "css-color-4",
+      "title": "CSS Color",
+      "shortTitle": "CSS Color",
+      "releaseUrl": "https://www.w3.org/TR/css-color/",
+      "nightlyUrl": "https://drafts.csswg.org/css-color/"
+    },
+    "seriesVersion": "6",
+    "seriesPrevious": "css-color-5",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-6/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-color-6/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-color-6/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Color Module Level 6",
+    "source": "spec",
+    "shortTitle": "CSS Color 6",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-color"
+      ]
+    }
+  },
+  {
+    "url": "https://drafts.csswg.org/css-color-hdr/",
+    "seriesComposition": "full",
+    "shortname": "css-color-hdr",
+    "series": {
+      "shortname": "css-color-hdr",
+      "currentSpecification": "css-color-hdr",
+      "title": "CSS Color HDR",
+      "shortTitle": "CSS Color HDR",
+      "nightlyUrl": "https://drafts.csswg.org/css-color-hdr/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-hdr/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-color-hdr/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-color-hdr/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Color HDR Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS Color HDR 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-conditional-values-1/",
+    "seriesComposition": "full",
+    "shortname": "css-conditional-values-1",
+    "series": {
+      "shortname": "css-conditional-values",
+      "currentSpecification": "css-conditional-values-1",
+      "title": "CSS Conditional Values",
+      "shortTitle": "CSS Conditional Values",
+      "nightlyUrl": "https://drafts.csswg.org/css-conditional-values/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-conditional-values-1/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-conditional-values-1/",
+        "https://w3c.github.io/csswg-drafts/css-conditional-values/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-conditional-values-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Conditional Values Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS Conditional Values 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
     "url": "https://drafts.csswg.org/css-easing-2/",
     "seriesComposition": "full",
     "shortname": "css-easing-2",
@@ -554,6 +673,44 @@
       "browser"
     ],
     "standing": "good"
+  },
+  {
+    "url": "https://drafts.csswg.org/css-forms-1/",
+    "seriesComposition": "full",
+    "shortname": "css-forms-1",
+    "series": {
+      "shortname": "css-forms",
+      "currentSpecification": "css-forms-1",
+      "title": "CSS Form Styling",
+      "shortTitle": "CSS Form Styling",
+      "nightlyUrl": "https://drafts.csswg.org/css-forms/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-forms-1/",
+      "status": "A Collection of Interesting Ideas",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-forms-1/",
+        "https://w3c.github.io/csswg-drafts/css-forms/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-forms-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Form Styling Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS Form Styling 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
   },
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -5178,46 +5335,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/web-locks/",
-    "seriesComposition": "full",
-    "shortname": "web-locks",
-    "series": {
-      "shortname": "web-locks",
-      "currentSpecification": "web-locks",
-      "title": "Web Locks API",
-      "shortTitle": "Web Locks API",
-      "nightlyUrl": "https://w3c.github.io/web-locks/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/web-locks/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/web-locks",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Web Locks API",
-    "source": "specref",
-    "shortTitle": "Web Locks API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "web-locks"
-      ]
-    }
   },
   {
     "url": "https://w3c.github.io/web-nfc/",
@@ -10208,6 +10325,49 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-2022/",
+    "seriesComposition": "full",
+    "shortname": "css-2022",
+    "series": {
+      "shortname": "css",
+      "currentSpecification": "css-2022",
+      "title": "CSS Snapshot",
+      "shortTitle": "CSS Snapshot",
+      "releaseUrl": "https://www.w3.org/TR/css/",
+      "nightlyUrl": "https://drafts.csswg.org/css/"
+    },
+    "seriesVersion": "2022",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-2022/",
+      "status": "Draft Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-2022/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-2022/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-2022/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Snapshot 2022",
+    "source": "w3c",
+    "shortTitle": "CSS Snapshot 2022",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/css-align-3/",
     "seriesComposition": "full",
     "shortname": "css-align-3",
@@ -10812,6 +10972,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-color-3/",
+    "seriesComposition": "full",
+    "shortname": "css-color-3",
+    "series": {
+      "shortname": "css-color",
+      "currentSpecification": "css-color-4",
+      "title": "CSS Color",
+      "shortTitle": "CSS Color",
+      "releaseUrl": "https://www.w3.org/TR/css-color/",
+      "nightlyUrl": "https://drafts.csswg.org/css-color/"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-color-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-color-3/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-color-3/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-color-3/Overview.html",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Color Module Level 3",
+    "source": "w3c",
+    "shortTitle": "CSS Color 3",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-color"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-color-4/",
     "seriesComposition": "full",
     "shortname": "css-color-4",
@@ -10835,6 +11045,7 @@
       "sourcePath": "css-color-4/Overview.bs",
       "filename": "Overview.html"
     },
+    "seriesPrevious": "css-color-3",
     "seriesNext": "css-color-5",
     "organization": "W3C",
     "groups": [
@@ -10876,6 +11087,7 @@
     },
     "seriesVersion": "5",
     "seriesPrevious": "css-color-4",
+    "seriesNext": "css-color-6",
     "organization": "W3C",
     "groups": [
       {
@@ -11115,6 +11327,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-contain-1/",
+    "seriesComposition": "full",
+    "shortname": "css-contain-1",
+    "series": {
+      "shortname": "css-contain",
+      "currentSpecification": "css-contain-2",
+      "title": "CSS Containment",
+      "shortTitle": "CSS Containment",
+      "releaseUrl": "https://www.w3.org/TR/css-contain/",
+      "nightlyUrl": "https://drafts.csswg.org/css-contain/"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-contain-2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-contain-1/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-contain-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-contain-1/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-contain-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Containment Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Containment 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-contain"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-contain-2/",
     "seriesComposition": "full",
     "shortname": "css-contain-2",
@@ -11127,6 +11389,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-contain/"
     },
     "seriesVersion": "2",
+    "seriesPrevious": "css-contain-1",
     "seriesNext": "css-contain-3",
     "organization": "W3C",
     "groups": [
@@ -11713,6 +11976,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-grid-1/",
+    "seriesComposition": "full",
+    "shortname": "css-grid-1",
+    "series": {
+      "shortname": "css-grid",
+      "currentSpecification": "css-grid-2",
+      "title": "CSS Grid Layout",
+      "shortTitle": "CSS Grid Layout",
+      "releaseUrl": "https://www.w3.org/TR/css-grid/",
+      "nightlyUrl": "https://drafts.csswg.org/css-grid/"
+    },
+    "seriesVersion": "1",
+    "seriesNext": "css-grid-2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-grid-1/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-grid-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-grid-1/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-grid-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Grid Layout Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Grid Layout 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-grid"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-grid-2/",
     "seriesComposition": "full",
     "shortname": "css-grid-2",
@@ -11725,6 +12038,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-grid/"
     },
     "seriesVersion": "2",
+    "seriesPrevious": "css-grid-1",
     "seriesNext": "css-grid-3",
     "organization": "W3C",
     "groups": [
@@ -14026,6 +14340,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-ui-3/",
+    "seriesComposition": "full",
+    "shortname": "css-ui-3",
+    "series": {
+      "shortname": "css-ui",
+      "currentSpecification": "css-ui-4",
+      "title": "CSS Basic User Interface",
+      "shortTitle": "CSS User Interface",
+      "releaseUrl": "https://www.w3.org/TR/css-ui/",
+      "nightlyUrl": "https://drafts.csswg.org/css-ui/"
+    },
+    "seriesVersion": "3",
+    "shortTitle": "CSS User Interface 3",
+    "seriesNext": "css-ui-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-ui-3/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-ui-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-ui-3/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-ui-3/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+    "source": "w3c",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-ui"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-ui-4/",
     "seriesComposition": "full",
     "shortname": "css-ui-4",
@@ -14039,6 +14403,7 @@
     },
     "seriesVersion": "4",
     "shortTitle": "CSS User Interface 4",
+    "seriesPrevious": "css-ui-3",
     "organization": "W3C",
     "groups": [
       {
@@ -14323,6 +14688,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-writing-modes-3/",
+    "seriesComposition": "full",
+    "shortname": "css-writing-modes-3",
+    "series": {
+      "shortname": "css-writing-modes",
+      "currentSpecification": "css-writing-modes-4",
+      "title": "CSS Writing Modes",
+      "shortTitle": "CSS Writing Modes",
+      "releaseUrl": "https://www.w3.org/TR/css-writing-modes/",
+      "nightlyUrl": "https://drafts.csswg.org/css-writing-modes/"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "css-writing-modes-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-writing-modes-3/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-writing-modes-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-writing-modes-3/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-writing-modes-3/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Writing Modes Level 3",
+    "source": "w3c",
+    "shortTitle": "CSS Writing Modes 3",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-writing-modes"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-writing-modes-4/",
     "seriesComposition": "full",
     "shortname": "css-writing-modes-4",
@@ -14335,6 +14750,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-writing-modes/"
     },
     "seriesVersion": "4",
+    "seriesPrevious": "css-writing-modes-3",
     "organization": "W3C",
     "groups": [
       {
@@ -14378,11 +14794,11 @@
     "shortname": "CSS21",
     "series": {
       "shortname": "CSS",
-      "currentSpecification": "CSS22",
+      "currentSpecification": "css-2022",
       "title": "Cascading Style Sheets",
       "shortTitle": "Cascading Style Sheets",
-      "releaseUrl": "https://www.w3.org/TR/CSS/",
-      "nightlyUrl": "https://drafts.csswg.org/css2/"
+      "releaseUrl": "https://www.w3.org/TR/css/",
+      "nightlyUrl": "https://drafts.csswg.org/css/"
     },
     "seriesVersion": "2.1",
     "nightly": {
@@ -14457,11 +14873,11 @@
     "shortname": "CSS22",
     "series": {
       "shortname": "CSS",
-      "currentSpecification": "CSS22",
+      "currentSpecification": "css-2022",
       "title": "Cascading Style Sheets",
       "shortTitle": "Cascading Style Sheets",
-      "releaseUrl": "https://www.w3.org/TR/CSS/",
-      "nightlyUrl": "https://drafts.csswg.org/css2/"
+      "releaseUrl": "https://www.w3.org/TR/css/",
+      "nightlyUrl": "https://drafts.csswg.org/css/"
     },
     "seriesVersion": "2.2",
     "nightly": {
@@ -14766,6 +15182,44 @@
       "browser"
     ],
     "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
+    "seriesComposition": "full",
+    "shortname": "DOM-Level-2-Style",
+    "series": {
+      "shortname": "DOM-Style",
+      "currentSpecification": "DOM-Level-2-Style",
+      "title": "Document Object Model (DOM) Style",
+      "shortTitle": "DOM",
+      "releaseUrl": "https://www.w3.org/TR/DOM-Style/",
+      "nightlyUrl": "https://www.w3.org/TR/DOM-Style/"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "Overview.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "DOM Working Group",
+        "url": "https://www.w3.org/DOM/Group/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
+      "status": "Discontinued Draft",
+      "filename": "Overview.html"
+    },
+    "title": "Document Object Model (DOM) Level 2 Style Specification",
+    "source": "w3c",
+    "shortTitle": "DOM",
+    "categories": [
+      "browser"
+    ],
+    "standing": "discontinued"
   },
   {
     "url": "https://www.w3.org/TR/DOM-Parsing/",
@@ -16737,6 +17191,56 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/mediaqueries-3/",
+    "seriesComposition": "full",
+    "shortname": "mediaqueries-3",
+    "series": {
+      "shortname": "mediaqueries",
+      "currentSpecification": "mediaqueries-4",
+      "title": "Media Queries",
+      "shortTitle": "Media Queries",
+      "releaseUrl": "https://www.w3.org/TR/mediaqueries/",
+      "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "mediaqueries-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/mediaqueries-3/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/mediaqueries-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/mediaqueries-3/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "mediaqueries-3/Overview.html",
+      "filename": "Overview.html"
+    },
+    "title": "Media Queries Level 3",
+    "source": "w3c",
+    "shortTitle": "Media Queries 3",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/mediaqueries"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/mediaqueries-4/",
     "seriesComposition": "full",
     "shortname": "mediaqueries-4",
@@ -16749,6 +17253,7 @@
       "nightlyUrl": "https://drafts.csswg.org/mediaqueries/"
     },
     "seriesVersion": "4",
+    "seriesPrevious": "mediaqueries-3",
     "seriesNext": "mediaqueries-5",
     "organization": "W3C",
     "groups": [
@@ -18844,6 +19349,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/selectors-3/",
+    "seriesComposition": "full",
+    "shortname": "selectors-3",
+    "series": {
+      "shortname": "selectors",
+      "currentSpecification": "selectors-4",
+      "title": "Selectors",
+      "shortTitle": "Selectors",
+      "releaseUrl": "https://www.w3.org/TR/selectors/",
+      "nightlyUrl": "https://drafts.csswg.org/selectors/"
+    },
+    "seriesVersion": "3",
+    "seriesNext": "selectors-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/selectors-3/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/selectors-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/selectors-3/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "selectors-3/Overview.src.html",
+      "filename": "Overview.html"
+    },
+    "title": "Selectors Level 3",
+    "source": "w3c",
+    "shortTitle": "Selectors 3",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/selectors"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/selectors-4/",
     "seriesComposition": "full",
     "shortname": "selectors-4",
@@ -18856,6 +19411,7 @@
       "nightlyUrl": "https://drafts.csswg.org/selectors/"
     },
     "seriesVersion": "4",
+    "seriesPrevious": "selectors-3",
     "organization": "W3C",
     "groups": [
       {
@@ -18892,6 +19448,50 @@
         "css/selectors"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/selectors-nonelement-1/",
+    "seriesComposition": "full",
+    "shortname": "selectors-nonelement-1",
+    "series": {
+      "shortname": "selectors-nonelement",
+      "currentSpecification": "selectors-nonelement-1",
+      "title": "Non-element Selectors",
+      "shortTitle": "Non-element Selectors",
+      "releaseUrl": "https://www.w3.org/TR/selectors-nonelement/",
+      "nightlyUrl": "https://drafts.csswg.org/selectors-nonelement/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/selectors-nonelement-1/",
+      "status": "Discontinued Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/selectors-nonelement-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/selectors-nonelement-1/",
+        "https://w3c.github.io/csswg-drafts/selectors-nonelement/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "selectors-nonelement-1/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Non-element Selectors Module Level 1",
+    "source": "w3c",
+    "shortTitle": "Non-element Selectors 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "discontinued"
   },
   {
     "url": "https://www.w3.org/TR/server-timing/",
@@ -19556,7 +20156,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "discontinued"
   },
   {
     "url": "https://www.w3.org/TR/trusted-types/",
@@ -20141,6 +20741,52 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "web-animations"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/web-locks/",
+    "seriesComposition": "full",
+    "shortname": "web-locks",
+    "series": {
+      "shortname": "web-locks",
+      "currentSpecification": "web-locks",
+      "title": "Web Locks API",
+      "shortTitle": "Web Locks API",
+      "releaseUrl": "https://www.w3.org/TR/web-locks/",
+      "nightlyUrl": "https://w3c.github.io/web-locks/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/web-locks/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/web-locks/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/web-locks",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web Locks API",
+    "source": "w3c",
+    "shortTitle": "Web Locks API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "web-locks"
       ]
     }
   },

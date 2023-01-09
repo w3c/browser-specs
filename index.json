@@ -80,6 +80,40 @@
     }
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
+    "seriesComposition": "full",
+    "shortname": "partitioned-cookies",
+    "series": {
+      "shortname": "partitioned-cookies",
+      "currentSpecification": "partitioned-cookies",
+      "title": "Cookies Having Independent Partitioned State specification",
+      "shortTitle": "Cookies Having Independent Partitioned State specification",
+      "nightlyUrl": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html",
+      "status": "Editor's Draft",
+      "repository": "https://github.com/DCtheTall/CHIPS-spec",
+      "alternateUrls": [],
+      "sourcePath": "draft-cutler-httpbis-partitioned-cookies.md",
+      "filename": "draft-cutler-httpbis-partitioned-cookies.html"
+    },
+    "title": "Cookies Having Independent Partitioned State specification",
+    "source": "spec",
+    "shortTitle": "Cookies Having Independent Partitioned State specification",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
     "seriesComposition": "full",
     "shortname": "client-hint-reliability",

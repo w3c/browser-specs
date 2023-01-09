@@ -193,11 +193,14 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
     // Note: the current specification returned by the W3C API may not be in the
     // list, since we tend not to include previous levels for IDL specs (even
     // if they are still "current"), in which case we'll just ignore the info
-    // returned from the W3C API.
+    // returned from the W3C API. Also, for CSS specs, the current specification
+    // returned by the W3C API is actually the latest CSS snapshot which is in a
+    // different specification series for us.
     if (seriesInfo?.currentSpecification &&
         !res.series.forceCurrent &&
         (seriesInfo.currentSpecification !== res.series.currentSpecification) &&
-        specs.find(s => s.shortname === seriesInfo.currentSpecification)) {
+        specs.find(s => s.shortname === seriesInfo.currentSpecification &&
+                        s.series.shortname === res.series.shortname)) {
       res.series.currentSpecification = seriesInfo.currentSpecification;
     }
     delete res.series.forceCurrent;

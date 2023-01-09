@@ -345,7 +345,6 @@
     }
   },
   "https://w3c.github.io/PNG-spec/",
-  "https://w3c.github.io/web-locks/",
   "https://w3c.github.io/web-nfc/",
   "https://w3c.github.io/web-share-target/",
   "https://w3c.github.io/webdriver-bidi/",
@@ -1090,6 +1089,7 @@
   "https://www.w3.org/TR/wasm-js-api-2/",
   "https://www.w3.org/TR/wasm-web-api-2/",
   "https://www.w3.org/TR/web-animations-1/",
+  "https://www.w3.org/TR/web-locks/",
   "https://www.w3.org/TR/web-share/",
   "https://www.w3.org/TR/webaudio/",
   {

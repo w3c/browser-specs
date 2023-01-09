@@ -731,7 +731,7 @@ entries that these changes would generate (parameters may be omitted since they
 match the default values):
 
 ```bash
-node src/build-diff.json working HEAD diff
+node src/build-diff.js working HEAD diff
 ```
 
 This could return something like (output truncated to better show the outline):
@@ -769,7 +769,7 @@ If you rather wanted to update your local version of `index.json` so as to run a
 `git diff` command afterwards to spot differences more easily, you could run:
 
 ```bash
-node src/build-diff.json working HEAD full > index.json
+node src/build-diff.js working HEAD full > index.json
 git diff index.json
 ```
 

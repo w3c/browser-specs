@@ -743,7 +743,10 @@
   "https://www.w3.org/TR/css-transforms-2/ delta",
   "https://www.w3.org/TR/css-transitions-1/",
   "https://www.w3.org/TR/css-typed-om-1/",
-  "https://www.w3.org/TR/css-ui-3/",
+  {
+    "url": "https://www.w3.org/TR/css-ui-3/",
+    "shortTitle": "CSS User Interface 3"
+  },
   {
     "url": "https://www.w3.org/TR/css-ui-4/",
     "shortTitle": "CSS User Interface 4"

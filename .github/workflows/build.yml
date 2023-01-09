@@ -27,6 +27,9 @@ jobs:
         # xxx-specs@latest branches
         fetch-depth: 0
 
+    - name: Setup environment
+      run: npm ci
+
     - name: Build new index file
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

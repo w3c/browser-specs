@@ -582,6 +582,51 @@
     "standing": "pending"
   },
   {
+    "url": "https://drafts.csswg.org/css-display-4/",
+    "seriesComposition": "full",
+    "shortname": "css-display-4",
+    "series": {
+      "shortname": "css-display",
+      "currentSpecification": "css-display-3",
+      "title": "CSS Display",
+      "shortTitle": "CSS Display",
+      "releaseUrl": "https://www.w3.org/TR/css-display/",
+      "nightlyUrl": "https://drafts.csswg.org/css-display/"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-display-3",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-display-4/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-display-4/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-display-4/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Display Module Level 4",
+    "source": "spec",
+    "shortTitle": "CSS Display 4",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-display"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-easing-2/",
     "seriesComposition": "full",
     "shortname": "css-easing-2",
@@ -11669,6 +11714,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-display/"
     },
     "seriesVersion": "3",
+    "seriesNext": "css-display-4",
     "organization": "W3C",
     "groups": [
       {
@@ -14828,11 +14874,11 @@
     "shortname": "CSS21",
     "series": {
       "shortname": "CSS",
-      "currentSpecification": "css-2022",
+      "currentSpecification": "CSS22",
       "title": "Cascading Style Sheets",
       "shortTitle": "Cascading Style Sheets",
-      "releaseUrl": "https://www.w3.org/TR/css/",
-      "nightlyUrl": "https://drafts.csswg.org/css/"
+      "releaseUrl": "https://www.w3.org/TR/CSS/",
+      "nightlyUrl": "https://drafts.csswg.org/css2/"
     },
     "seriesVersion": "2.1",
     "nightly": {
@@ -14907,11 +14953,11 @@
     "shortname": "CSS22",
     "series": {
       "shortname": "CSS",
-      "currentSpecification": "css-2022",
+      "currentSpecification": "CSS22",
       "title": "Cascading Style Sheets",
       "shortTitle": "Cascading Style Sheets",
-      "releaseUrl": "https://www.w3.org/TR/css/",
-      "nightlyUrl": "https://drafts.csswg.org/css/"
+      "releaseUrl": "https://www.w3.org/TR/CSS/",
+      "nightlyUrl": "https://drafts.csswg.org/css2/"
     },
     "seriesVersion": "2.2",
     "nightly": {

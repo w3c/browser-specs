@@ -384,9 +384,6 @@
     },
     "https://www.w3.org/TR/resource-timing-1/": {
       "comment": "Level-less spec is in the list, no need to track old Level 1 spec"
-    },
-    "https://www.w3.org/TR/css-device-adapt-1/": {
-      "comment": "spec should be retired in 2023, see https://github.com/w3c/browser-specs/issues/837, replaced by css-viewport"
     }
   }
 }

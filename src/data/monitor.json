@@ -381,6 +381,10 @@
     "https://www.w3.org/TR/wasm-core-2/": {
       "lastreviewed": "2023-01-01",
       "comment": "Weirdly formatted multipage spec with sub-sub-pages that would likely confuse extraction logic"
+    },
+    "https://www.w3.org/TR/css-device-adapt-1/": {
+      "lastreviewed": "2023-01-18",
+      "comment": "spec should be retired in 2023, see https://github.com/w3c/browser-specs/issues/837, replaced by css-viewport"
     }
   }
 }

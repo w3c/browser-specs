@@ -120,6 +120,7 @@
     "url": "https://drafts.csswg.org/css-variables-2/",
     "shortTitle": "CSS Variables 2"
   },
+  "https://drafts.csswg.org/css-viewport/",
   {
     "url": "https://drafts.csswg.org/web-animations-2/",
     "seriesComposition": "delta",
@@ -663,13 +664,6 @@
   "https://www.w3.org/TR/css-contain-3/ delta",
   "https://www.w3.org/TR/css-content-3/",
   "https://www.w3.org/TR/css-counter-styles-3/",
-  {
-    "url": "https://www.w3.org/TR/css-device-adapt-1/",
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-viewport-1/",
-      "sourcePath": "css-viewport/Overview.bs"
-    }
-  },
   "https://www.w3.org/TR/css-display-3/",
   "https://www.w3.org/TR/css-easing-1/",
   {

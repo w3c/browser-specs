@@ -10208,7 +10208,7 @@
       "title": "Contact Picker API",
       "shortTitle": "Contact Picker API",
       "releaseUrl": "https://www.w3.org/TR/contact-picker/",
-      "nightlyUrl": "https://w3c.github.io/contact-api/spec"
+      "nightlyUrl": "https://w3c.github.io/contact-picker/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -10224,15 +10224,15 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/contact-picker-1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/contact-api/spec",
+      "url": "https://w3c.github.io/contact-picker/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/contact-api",
-      "sourcePath": "spec/index.bs",
+      "repository": "https://github.com/w3c/contact-picker",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Contact Picker API",

@@ -1410,7 +1410,7 @@
     "shortname": "compositing-2",
     "series": {
       "shortname": "compositing",
-      "currentSpecification": "compositing-1",
+      "currentSpecification": "compositing-2",
       "title": "Compositing and Blending",
       "shortTitle": "Compositing",
       "releaseUrl": "https://www.w3.org/TR/compositing/",

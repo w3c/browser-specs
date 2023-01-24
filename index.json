@@ -10168,7 +10168,7 @@
       "title": "Compute Pressure Level 1",
       "shortTitle": "Compute Pressure",
       "releaseUrl": "https://www.w3.org/TR/compute-pressure/",
-      "nightlyUrl": "https://wicg.github.io/compute-pressure/"
+      "nightlyUrl": "https://w3c.github.io/compute-pressure/"
     },
     "organization": "W3C",
     "groups": [
@@ -10179,14 +10179,14 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/compute-pressure/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://wicg.github.io/compute-pressure/",
+      "url": "https://w3c.github.io/compute-pressure/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/WICG/compute-pressure",
+      "repository": "https://github.com/w3c/compute-pressure",
       "sourcePath": "index.html",
       "filename": "index.html"
     },

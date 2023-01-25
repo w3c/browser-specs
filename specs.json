@@ -165,7 +165,6 @@
   "https://quirks.spec.whatwg.org/",
   "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
   "https://registry.khronos.org/webgl/extensions/EXT_blend_minmax/",
-  "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
   "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/",
   "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_half_float/",
   "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query_webgl2/",
@@ -190,6 +189,7 @@
   "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
   "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
   "https://registry.khronos.org/webgl/extensions/WEBGL_blend_equation_advanced_coherent/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/",
   "https://registry.khronos.org/webgl/extensions/WEBGL_color_buffer_float/",
   "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_astc/",
   "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_etc/",
@@ -205,6 +205,7 @@
   "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/",
   "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
   "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
+  "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
   {
     "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
     "shortname": "webgl1",

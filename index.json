@@ -1410,11 +1410,11 @@
     "shortname": "compositing-2",
     "series": {
       "shortname": "compositing",
-      "currentSpecification": "compositing-1",
+      "currentSpecification": "compositing-2",
       "title": "Compositing and Blending",
       "shortTitle": "Compositing",
-      "releaseUrl": "https://www.w3.org/TR/compositing/",
-      "nightlyUrl": "https://drafts.fxtf.org/compositing/"
+      "nightlyUrl": "https://drafts.fxtf.org/compositing/",
+      "releaseUrl": "https://www.w3.org/TR/compositing/"
     },
     "seriesVersion": "2",
     "shortTitle": "Compositing 2",
@@ -2239,46 +2239,6 @@
     "title": "WebGL EXT_blend_minmax Khronos Ratified Extension Specification",
     "source": "spec",
     "shortTitle": "WebGL EXT_blend_minmax Khronos Ratified Extension",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/KhronosGroup/WebGL",
-      "testPaths": [
-        "conformance-suites"
-      ]
-    }
-  },
-  {
-    "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
-    "seriesComposition": "full",
-    "shortname": "EXT_clip_cull_distance",
-    "series": {
-      "shortname": "EXT_clip_cull_distance",
-      "currentSpecification": "EXT_clip_cull_distance",
-      "title": "WebGL EXT_clip_cull_distance Extension Draft Specification",
-      "shortTitle": "WebGL EXT_clip_cull_distance Extension Draft",
-      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/"
-    },
-    "organization": "Khronos Group",
-    "groups": [
-      {
-        "name": "WebGL Working Group",
-        "url": "https://www.khronos.org/webgl/"
-      }
-    ],
-    "nightly": {
-      "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/KhronosGroup/WebGL",
-      "sourcePath": "extensions/EXT_clip_cull_distance/extension.xml",
-      "filename": "index.html"
-    },
-    "title": "WebGL EXT_clip_cull_distance Extension Draft Specification",
-    "source": "spec",
-    "shortTitle": "WebGL EXT_clip_cull_distance Extension Draft",
     "categories": [
       "browser"
     ],
@@ -3251,6 +3211,46 @@
     }
   },
   {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/",
+    "seriesComposition": "full",
+    "shortname": "WEBGL_clip_cull_distance",
+    "series": {
+      "shortname": "WEBGL_clip_cull_distance",
+      "currentSpecification": "WEBGL_clip_cull_distance",
+      "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
+      "shortTitle": "WebGL WEBGL_clip_cull_distance Extension Draft",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/WEBGL_clip_cull_distance/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
+    "source": "spec",
+    "shortTitle": "WebGL WEBGL_clip_cull_distance Extension Draft",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_color_buffer_float/",
     "seriesComposition": "full",
     "shortname": "WEBGL_color_buffer_float",
@@ -3839,6 +3839,46 @@
     "title": "WebGL WEBGL_multi_draw Extension Specification",
     "source": "spec",
     "shortTitle": "WebGL WEBGL_multi_draw Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
+    "seriesComposition": "full",
+    "shortname": "WEBGL_provoking_vertex",
+    "series": {
+      "shortname": "WEBGL_provoking_vertex",
+      "currentSpecification": "WEBGL_provoking_vertex",
+      "title": "WebGL WEBGL_provoking_vertex Extension Draft Specification",
+      "shortTitle": "WebGL WEBGL_provoking_vertex Extension Draft",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/WEBGL_provoking_vertex/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL WEBGL_provoking_vertex Extension Draft Specification",
+    "source": "spec",
+    "shortTitle": "WebGL WEBGL_provoking_vertex Extension Draft",
     "categories": [
       "browser"
     ],
@@ -10112,11 +10152,11 @@
     "shortname": "compositing-1",
     "series": {
       "shortname": "compositing",
-      "currentSpecification": "compositing-1",
+      "currentSpecification": "compositing-2",
       "title": "Compositing and Blending",
       "shortTitle": "Compositing",
-      "releaseUrl": "https://www.w3.org/TR/compositing/",
-      "nightlyUrl": "https://drafts.fxtf.org/compositing/"
+      "nightlyUrl": "https://drafts.fxtf.org/compositing/",
+      "releaseUrl": "https://www.w3.org/TR/compositing/"
     },
     "seriesVersion": "1",
     "shortTitle": "Compositing 1",

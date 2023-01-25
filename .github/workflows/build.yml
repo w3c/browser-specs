@@ -3,12 +3,6 @@ name: Update spec info
 on:
   schedule:
     - cron: '10 */6 * * *'
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - 'packages/*/package.json'
-      - 'test/**'
   workflow_dispatch:
 
 jobs:

@@ -128,7 +128,8 @@
   },
   {
     "url": "https://drafts.fxtf.org/compositing-2/",
-    "shortTitle": "Compositing 2"
+    "shortTitle": "Compositing 2",
+    "forceCurrent": true
   },
   "https://drafts.fxtf.org/filter-effects-2/ delta",
   "https://encoding.spec.whatwg.org/",

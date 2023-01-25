@@ -62,16 +62,16 @@ module.exports = function (spec, list) {
   const currentSpec = list.find(s => s.shortname === spec.series?.currentSpecification);
   const res = computeSeriesUrls(currentSpec ?? spec);
 
-  // Look for a release URL in previous versions of the spec if one exists
+  // Look for a release URL in given spec and previous versions
   if (!res.releaseUrl) {
-    while (spec.seriesPrevious) {
-      spec = list.find(s => s.shortname === spec.seriesPrevious);
-      if (!spec) {
-        break;
-      }
+    while (spec) {
       const prev = computeSeriesUrls(spec);
       if (prev.releaseUrl) {
         res.releaseUrl = prev.releaseUrl;
+        break;
+      }
+      spec = list.find(s => s.shortname === spec.seriesPrevious);
+      if (!spec) {
         break;
       }
     }

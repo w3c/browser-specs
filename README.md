@@ -279,9 +279,11 @@ title, the property is set to the actual (possibly long) series title.
 #### `series.releaseUrl`
 
 The URL of the latest published snapshot for the spec series. For leveled specs
-(those that create a series), this matches the unversioned URL. That
-unversioned URL should return the specification identified by the
-[`currentSpecification`](#seriescurrentspecification) property.
+(those that create a series), this matches the unversioned URL. In most cases,
+that unversioned URL will return the specification identified by the
+[`currentSpecification`](#seriescurrentspecification) property. It may return
+an earlier level though, e.g. when the current specification has not yet been
+published as a TR document.
 
 For instance, this property will be set to `https://www.w3.org/TR/css-fonts/`
 for all specifications in the CSS Fonts series.
@@ -295,7 +297,8 @@ The `releaseUrl` property is only set for W3C specs published as TR documents.
 
 For leveled specs (those that create a series), this matches the unversioned URL
 that allows to access the latest Editor's Draft of the current specification in
-the series.
+the series. That unversioned URL should return the specification identified by
+the [`currentSpecification`](#seriescurrentspecification) property.
 
 For instance, this property will be set to `https://drafts.csswg.org/css-fonts/`
 for all specifications in the CSS Fonts series.

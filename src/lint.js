@@ -68,20 +68,8 @@ function lintStr(specsStr) {
     .map(s => Object.assign({}, s, computeShortname(s.shortname || s.url)))
     .map((s, _, list) => Object.assign({}, s, computePrevNext(s, list)));
 
-  // Drop useless forceCurrent flag and shorten definition when possible
+  // Shorten definition when possible
   const fixed = sorted
-    .map(spec => {
-      const linked = linkedList.find(p => p.url === spec.url);
-      const next = linked.seriesNext ?
-        linkedList.find(p => p.shortname === linked.seriesNext) :
-        null;
-      const isLast = !next || next.seriesComposition === "delta" ||
-        next.seriesComposition === "fork";
-      if (spec.forceCurrent && isLast) {
-        spec.forceCurrent = false;
-      }
-      return spec;
-    })
     .map(shortenDefinition);
 
   const linted = JSON.stringify(fixed, null, 2) + "\n";

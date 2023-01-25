@@ -127,6 +127,32 @@ describe("compute-series-urls module", () => {
   });
 
 
+  it("looks for a release URL in the provided spec if not the current one", () => {
+    const spec = {
+      url: "https://drafts.fxtf.org/compositing-1/",
+      shortname: "compositing-1",
+      series: { shortname: "compositing", currentSpecification: "compositing-2" },
+      nightly: { url: "https://drafts.fxtf.org/compositing-1/" },
+      release: { url: "https://www.w3.org/TR/compositing-1/" }
+    };
+
+    const list = [
+      spec,
+      {
+        url: "https://drafts.fxtf.org/compositing-2/",
+        shortname: "compositing-2",
+        series: { shortname: "compositing", currentSpecification: "compositing-2" },
+        seriesPrevious: "compositing-1",
+        nightly: { url: "https://drafts.fxtf.org/compositing-2/" }
+      }
+    ];
+
+    assert.deepStrictEqual(computeSeriesUrls(spec, list),
+      { releaseUrl: "https://www.w3.org/TR/compositing/",
+        nightlyUrl: "https://drafts.fxtf.org/compositing/" });
+  });
+
+
   it("computes info based on current specification", () => {
     const spec = {
       url: "https://www.w3.org/TR/SVG11/",

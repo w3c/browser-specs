@@ -3857,8 +3857,8 @@
     "series": {
       "shortname": "WEBGL_provoking_vertex",
       "currentSpecification": "WEBGL_provoking_vertex",
-      "title": "WebGL WEBGL_provoking_vertex Extension Draft Specification",
-      "shortTitle": "WebGL WEBGL_provoking_vertex Extension Draft",
+      "title": "WebGL WEBGL_provoking_vertex Extension Specification",
+      "shortTitle": "WebGL WEBGL_provoking_vertex Extension",
       "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/"
     },
     "organization": "Khronos Group",
@@ -3876,9 +3876,9 @@
       "sourcePath": "extensions/WEBGL_provoking_vertex/extension.xml",
       "filename": "index.html"
     },
-    "title": "WebGL WEBGL_provoking_vertex Extension Draft Specification",
+    "title": "WebGL WEBGL_provoking_vertex Extension Specification",
     "source": "spec",
-    "shortTitle": "WebGL WEBGL_provoking_vertex Extension Draft",
+    "shortTitle": "WebGL WEBGL_provoking_vertex Extension",
     "categories": [
       "browser"
     ],

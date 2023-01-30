@@ -183,9 +183,10 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
     }
     else {
       res.series.title = res.title
-        .replace(/ \d+(\.\d+)?$/, '')         // Drop level number
-        .replace(/( -)? Level$/, '')          // Drop "Level"
-        .replace(/ Module$/, '');             // Drop "Module"
+        .replace(/ \d+(\.\d+)?$/, '')           // Drop level number
+        .replace(/( -)? Level$/, '')            // Drop "Level"
+        .replace(/ Module$/, '')                // Drop "Module"
+        .replace(/^(RDF|SPARQL) \d\.\d/, '$1'); // Handle RDF/SPARQL titles
     }
 
     // Update the current specification based on the info returned by the

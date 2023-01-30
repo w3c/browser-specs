@@ -138,6 +138,14 @@ describe("compute-shortname module", () => {
       assertSeries("answer42", "answer");
     });
 
+    it("parses form 'rdfXY-something'", () => {
+      assertSeries("rdf12-something", "rdf-something");
+    });
+
+    it("parses form 'sparqlXY-something'", () => {
+      assertSeries("sparql12-something", "sparql-something");
+    });
+
     it("includes final digits when they do not seem to be a level", () => {
       assertSeries("cors-rfc1918", "cors-rfc1918");
     });
@@ -192,6 +200,14 @@ describe("compute-shortname module", () => {
 
     it("finds the right series version for form 'shortnameXY'", () => {
       assertSeriesVersion("answer42", "4.2");
+    });
+
+    it("finds the right series version for form 'rdfXY-something'", () => {
+      assertSeriesVersion("rdf12-something", "1.2");
+    });
+
+    it("finds the right series version for form 'sparqlXY-something'", () => {
+      assertSeriesVersion("sparql12-something", "1.2");
     });
 
     it("does not report any series version when there are none", () => {

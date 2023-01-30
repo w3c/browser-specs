@@ -183,6 +183,17 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
     };
   }
 
+  // Extract X and X.Y levels with form "rdfXY-something" or "sparqlXY-something"
+  // (e.g. 1.2 for "rdf12-concepts")
+  match = seriesBasename.match(/^(rdf|sparql)(\d)(\d)-(.+)$/);
+  if (match) {
+    return {
+      shortname: specShortname,
+      series: { shortname: modernizeShortname(match[1] + "-" + match[4]) },
+      seriesVersion: match[2] + "." + match[3]
+    };
+  }
+
   // No level found
   return {
     shortname: specShortname,

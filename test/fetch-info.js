@@ -62,7 +62,7 @@ describe("fetch-info module (without W3C API key)", function () {
   describe("fetch from spec", () => {
     it("extracts spec info from a Bikeshed spec when needed", async () => {
       const spec = {
-        url: "https://tabatkins.github.io/bikeshed/",
+        url: "https://speced.github.io/bikeshed/",
         shortname: "bikeshed"
       };
       const info = await fetchInfo([spec]);

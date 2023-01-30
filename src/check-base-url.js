@@ -18,7 +18,8 @@ const problems = specs
   // see https://github.com/tobie/specref/issues/672 and
   // https://github.com/w3c/browser-specs/issues/280
   .filter(s => !s.nightly.url.startsWith('https://httpwg.org') &&
-               !s.nightly.url.startsWith('https://www.ietf.org/'))
+               !s.nightly.url.startsWith('https://www.ietf.org/') &&
+               !s.nightly.url.startsWith('https://dcthetall.github.io/CHIPS-spec/'))
   .filter(s => (s.release && s.url !== s.release.url) || (!s.release && s.url !== s.nightly.url))
   .map(s => {
     const expected = s.release ? "release" : "nightly";

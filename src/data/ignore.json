@@ -80,6 +80,15 @@
     "w3c/ttml3": {
       "comment": "not targeted at browsers"
     },
+    "w3c/rdf-new": {
+      "comment": "group note and not targeted at browsers"
+    },
+    "w3c/rdf-primer": {
+      "comment": "group note and not targeted at browsers"
+    },
+    "w3c/sparql-new": {
+      "comment": "group note and not targeted at browsers"
+    },
     "WICG/open-ui": {
       "comment": "not targeted at browsers"
     },

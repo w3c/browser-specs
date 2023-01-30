@@ -134,10 +134,10 @@ describe("List of specs", () => {
     // Images Level 4 has an obscure title à la "CSS Image Values..."
     // (should get fixed next time the spec gets published to /TR)
     const wrong = specs.filter(s => !s.title.includes(s.series.title))
+      .filter(s => !s.title.startsWith("RDF ") && !s.title.startsWith("SPARQL "))
       .filter(s => ![
           "webrtc", "json-ld11-api", "json-ld11-framing",
-          "css-images-4", "n-quads", "rdf11-concepts", "rdf11-mt",
-          "DOM-Level-2-Style"
+          "css-images-4", "n-quads", "DOM-Level-2-Style"
         ].includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });

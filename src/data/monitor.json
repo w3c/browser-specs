@@ -331,6 +331,10 @@
     "WICG/soft-navigations": {
       "lastreviewed": "2023-01-01",
       "comment": "no published content yet"
+    },
+    "WICG/capture-all-screens": {
+      "lastreviewed": "2023-01-30",
+      "comment": "no published content yet"
     }
   },
   "specs": {

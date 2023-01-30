@@ -116,7 +116,7 @@ describe("fetch-info module (with W3C API key)", function () {
         shortname: "html"
       };
       const other = {
-        url: "https://tabatkins.github.io/bikeshed/",
+        url: "https://speced.github.io/bikeshed/",
         shortname: "bikeshed"
       };
       const info = await fetchInfo([w3c, whatwg, other], { w3cApiKey });

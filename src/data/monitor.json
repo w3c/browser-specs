@@ -20,10 +20,6 @@
       "comment": "only points to explainer",
       "lastreviewed": "2023-01-01"
     },
-    "WICG/first-party-sets": {
-      "comment": "no spec yet, part of Privacy Sandbox, negative signals from Mozilla in https://github.com/mozilla/standards-positions/issues/350#issuecomment-1354199750 and from Apple in https://github.com/WebKit/standards-positions/issues/93#issuecomment-1357694422",
-      "lastreviewed": "2023-01-01"
-    },
     "WICG/indexed-db-observers": {
       "comment": "no spec yet (but 3 years old?)",
       "lastreviewed": "2023-01-01"

@@ -7,4 +7,4 @@ labels: enhancement
 
 {{ env.candidate_list }}
 
-Please review if they match the inclusion criteria. Those that don't and never will should be added to [ignore.json](../blob/main/src/data/ignore.json), those that don't match yet but may in the future can be added to [monitor-repo.json](../blob/main/src/data/monitor-repos.json), and those that do match should be brought as a pull request on [specs.json](../blob/main/specs.json).
+Please review if they match the inclusion criteria. Those that don't and never will should be added to [ignore.json](../blob/main/src/data/ignore.json), those that don't match yet but may in the future can be added to [monitor-repo.json](../blob/main/src/data/monitor.json), and those that do match should be brought as a pull request on [specs.json](../blob/main/specs.json).

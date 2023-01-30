@@ -2092,6 +2092,40 @@
     "standing": "good"
   },
   {
+    "url": "https://privacycg.github.io/requestStorageAccessForOrigin/",
+    "seriesComposition": "full",
+    "shortname": "requestStorageAccessForOrigin",
+    "series": {
+      "shortname": "requestStorageAccessForOrigin",
+      "currentSpecification": "requestStorageAccessForOrigin",
+      "title": "requestStorageAccessForOrigin API",
+      "shortTitle": "requestStorageAccessForOrigin API",
+      "nightlyUrl": "https://privacycg.github.io/requestStorageAccessForOrigin/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Privacy Community Group",
+        "url": "https://www.w3.org/community/privacycg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://privacycg.github.io/requestStorageAccessForOrigin/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/privacycg/requestStorageAccessForOrigin",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "requestStorageAccessForOrigin API",
+    "source": "spec",
+    "shortTitle": "requestStorageAccessForOrigin API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://privacycg.github.io/storage-access/",
     "seriesComposition": "full",
     "shortname": "storage-access",
@@ -6596,6 +6630,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/first-party-sets/",
+    "seriesComposition": "full",
+    "shortname": "first-party-sets",
+    "series": {
+      "shortname": "first-party-sets",
+      "currentSpecification": "first-party-sets",
+      "title": "User Agent Interaction with First-Party Sets",
+      "shortTitle": "User Agent Interaction with First-Party Sets",
+      "nightlyUrl": "https://wicg.github.io/first-party-sets/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/first-party-sets/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/first-party-sets",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "User Agent Interaction with First-Party Sets",
+    "source": "spec",
+    "shortTitle": "User Agent Interaction with First-Party Sets",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/get-installed-related-apps/spec/",
     "seriesComposition": "full",
     "shortname": "get-installed-related-apps",
@@ -10240,18 +10308,17 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/contact-picker-1/",
+    "url": "https://www.w3.org/TR/contact-picker/",
     "seriesComposition": "full",
-    "shortname": "contact-picker-1",
+    "shortname": "contact-picker",
     "series": {
       "shortname": "contact-picker",
-      "currentSpecification": "contact-picker-1",
+      "currentSpecification": "contact-picker",
       "title": "Contact Picker API",
       "shortTitle": "Contact Picker API",
       "releaseUrl": "https://www.w3.org/TR/contact-picker/",
       "nightlyUrl": "https://w3c.github.io/contact-picker/"
     },
-    "seriesVersion": "1",
     "organization": "W3C",
     "groups": [
       {

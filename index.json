@@ -2058,6 +2058,40 @@
     }
   },
   {
+    "url": "https://privacycg.github.io/gpc-spec/",
+    "seriesComposition": "full",
+    "shortname": "gpc-spec",
+    "series": {
+      "shortname": "gpc-spec",
+      "currentSpecification": "gpc-spec",
+      "title": "Global Privacy Control (GPC)",
+      "shortTitle": "GPC",
+      "nightlyUrl": "https://privacycg.github.io/gpc-spec/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Privacy Community Group",
+        "url": "https://www.w3.org/community/privacycg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://privacycg.github.io/gpc-spec/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/privacycg/gpc-spec",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Global Privacy Control (GPC)",
+    "source": "spec",
+    "shortTitle": "GPC",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://privacycg.github.io/private-click-measurement/",
     "seriesComposition": "full",
     "shortname": "private-click-measurement",

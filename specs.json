@@ -284,15 +284,11 @@
   "https://tc39.es/proposal-array-find-from-last/",
   "https://tc39.es/proposal-array-from-async/",
   "https://tc39.es/proposal-array-grouping/",
+  "https://tc39.es/proposal-arraybuffer-transfer/",
   "https://tc39.es/proposal-atomics-wait-async/",
   "https://tc39.es/proposal-change-array-by-copy/",
   "https://tc39.es/proposal-decorators/",
-  {
-    "url": "https://tc39.es/proposal-explicit-resource-management/",
-    "nightly": {
-      "sourcePath": "spec.emu"
-    }
-  },
+  "https://tc39.es/proposal-explicit-resource-management/",
   "https://tc39.es/proposal-import-assertions/",
   "https://tc39.es/proposal-intl-duration-format/",
   "https://tc39.es/proposal-intl-enumeration/",
@@ -334,21 +330,11 @@
   "https://tc39.es/proposal-iterator-helpers/",
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-json-parse-with-source/",
-  {
-    "url": "https://tc39.es/proposal-regexp-modifiers/",
-    "nightly": {
-      "sourcePath": "spec.emu"
-    }
-  },
+  "https://tc39.es/proposal-regexp-modifiers/",
   "https://tc39.es/proposal-resizablearraybuffer/",
   "https://tc39.es/proposal-set-methods/",
   "https://tc39.es/proposal-shadowrealm/",
-  {
-    "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
-    "nightly": {
-      "sourcePath": "spec.emu"
-    }
-  },
+  "https://tc39.es/proposal-symbols-as-weakmap-keys/",
   "https://tc39.es/proposal-temporal/",
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",

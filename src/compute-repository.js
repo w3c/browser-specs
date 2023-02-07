@@ -122,6 +122,7 @@ module.exports = async function (specs, options) {
       "spec/Overview.html", // Only WebCrypto
       "docs/index.bs",      // Only ServiceWorker
       "spec.html",          // Most TC39 specs
+      "spec.emu",           // Some TC39 specs
       `${spec.shortname}/Overview.html`,  // css-color-3, mediaqueries-3
 
       // Most common patterns, checking on "index.html" last as some repos

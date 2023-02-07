@@ -4404,12 +4404,46 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/tc39/proposal-array-grouping",
-      "sourcePath": "index.html",
+      "sourcePath": "spec.emu",
       "filename": "index.html"
     },
     "title": "Array Grouping",
     "source": "spec",
     "shortTitle": "Array Grouping",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://tc39.es/proposal-arraybuffer-transfer/",
+    "seriesComposition": "full",
+    "shortname": "tc39-arraybuffer-transfer",
+    "series": {
+      "shortname": "tc39-arraybuffer-transfer",
+      "currentSpecification": "tc39-arraybuffer-transfer",
+      "title": "ArrayBuffer transfer",
+      "shortTitle": "ArrayBuffer transfer",
+      "nightlyUrl": "https://tc39.es/proposal-arraybuffer-transfer/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-arraybuffer-transfer/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-arraybuffer-transfer",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "ArrayBuffer transfer",
+    "source": "spec",
+    "shortTitle": "ArrayBuffer transfer",
     "categories": [
       "browser"
     ],
@@ -4527,14 +4561,6 @@
       "shortTitle": "ECMAScript Explicit Resource Management",
       "nightlyUrl": "https://tc39.es/proposal-explicit-resource-management/"
     },
-    "nightly": {
-      "url": "https://tc39.es/proposal-explicit-resource-management/",
-      "status": "Editor's Draft",
-      "sourcePath": "spec.emu",
-      "alternateUrls": [],
-      "repository": "https://github.com/tc39/proposal-explicit-resource-management",
-      "filename": "index.html"
-    },
     "organization": "Ecma International",
     "groups": [
       {
@@ -4542,6 +4568,14 @@
         "url": "https://tc39.es/"
       }
     ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-explicit-resource-management/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-explicit-resource-management",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
     "title": "ECMAScript Explicit Resource Management",
     "source": "spec",
     "shortTitle": "ECMAScript Explicit Resource Management",
@@ -4607,7 +4641,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/tc39/proposal-intl-duration-format",
-      "sourcePath": "index.html",
+      "sourcePath": "spec.emu",
       "filename": "index.html"
     },
     "title": "Intl.DurationFormat",
@@ -4641,7 +4675,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/tc39/proposal-intl-enumeration",
-      "sourcePath": "index.html",
+      "sourcePath": "spec.emu",
       "filename": "index.html"
     },
     "title": "Intl Enumeration API Specification",
@@ -4675,7 +4709,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/tc39/proposal-intl-extend-timezonename",
-      "sourcePath": "index.html",
+      "sourcePath": "spec.emu",
       "filename": "index.html"
     },
     "title": "Extend TimeZoneName Option Proposal",
@@ -4709,7 +4743,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/tc39/proposal-intl-locale-info",
-      "sourcePath": "index.html",
+      "sourcePath": "spec.emu",
       "filename": "index.html"
     },
     "title": "Intl Locale Info Proposal",
@@ -5003,14 +5037,6 @@
       "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
       "nightlyUrl": "https://tc39.es/proposal-regexp-modifiers/"
     },
-    "nightly": {
-      "url": "https://tc39.es/proposal-regexp-modifiers/",
-      "status": "Editor's Draft",
-      "sourcePath": "spec.emu",
-      "alternateUrls": [],
-      "repository": "https://github.com/tc39/proposal-regexp-modifiers",
-      "filename": "index.html"
-    },
     "organization": "Ecma International",
     "groups": [
       {
@@ -5018,6 +5044,14 @@
         "url": "https://tc39.es/"
       }
     ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-regexp-modifiers/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-regexp-modifiers",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
     "title": "Regular Expression Pattern Modifiers for ECMAScript",
     "source": "spec",
     "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
@@ -5139,14 +5173,6 @@
       "shortTitle": "Symbol as WeakMap Keys",
       "nightlyUrl": "https://tc39.es/proposal-symbols-as-weakmap-keys/"
     },
-    "nightly": {
-      "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
-      "status": "Editor's Draft",
-      "sourcePath": "spec.emu",
-      "alternateUrls": [],
-      "repository": "https://github.com/tc39/proposal-symbols-as-weakmap-keys",
-      "filename": "index.html"
-    },
     "organization": "Ecma International",
     "groups": [
       {
@@ -5154,6 +5180,14 @@
         "url": "https://tc39.es/"
       }
     ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-symbols-as-weakmap-keys",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
     "title": "Symbol as WeakMap Keys Proposal",
     "source": "spec",
     "shortTitle": "Symbol as WeakMap Keys",

@@ -4607,7 +4607,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/tc39/proposal-import-assertions",
-      "sourcePath": "spec.html",
+      "sourcePath": "spec.emu",
       "filename": "index.html"
     },
     "title": "import assertions",

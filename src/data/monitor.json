@@ -331,6 +331,10 @@
     "WICG/capture-all-screens": {
       "lastreviewed": "2023-01-30",
       "comment": "no published content yet"
+    },
+    "w3c/audio-focus": {
+      "lastreviewed": "2023-02-13",
+      "comment": "no published content yet"
     }
   },
   "specs": {

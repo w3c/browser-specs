@@ -11242,13 +11242,14 @@
     "shortname": "css-2022",
     "series": {
       "shortname": "css",
-      "currentSpecification": "css-2022",
+      "currentSpecification": "css-2023",
       "title": "CSS Snapshot",
       "shortTitle": "CSS Snapshot",
       "releaseUrl": "https://www.w3.org/TR/css/",
       "nightlyUrl": "https://drafts.csswg.org/css/"
     },
     "seriesVersion": "2022",
+    "seriesNext": "css-2023",
     "organization": "W3C",
     "groups": [
       {
@@ -11274,6 +11275,50 @@
     "title": "CSS Snapshot 2022",
     "source": "w3c",
     "shortTitle": "CSS Snapshot 2022",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-2023/",
+    "seriesComposition": "full",
+    "shortname": "css-2023",
+    "series": {
+      "shortname": "css",
+      "currentSpecification": "css-2023",
+      "title": "CSS Snapshot",
+      "shortTitle": "CSS Snapshot",
+      "releaseUrl": "https://www.w3.org/TR/css/",
+      "nightlyUrl": "https://drafts.csswg.org/css/"
+    },
+    "seriesVersion": "2023",
+    "seriesPrevious": "css-2022",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-2023/",
+      "status": "Draft Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-2023/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-2023/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-2023/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Snapshot 2023",
+    "source": "w3c",
+    "shortTitle": "CSS Snapshot 2023",
     "categories": [
       "browser"
     ],

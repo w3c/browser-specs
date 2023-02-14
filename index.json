@@ -13547,7 +13547,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-nesting-1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -14626,7 +14626,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-speech-1/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -14640,9 +14640,9 @@
       "sourcePath": "css-speech-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "CSS Speech Module",
+    "title": "CSS Speech Module Level 1",
     "source": "w3c",
-    "shortTitle": "CSS Speech",
+    "shortTitle": "CSS Speech 1",
     "categories": [
       "browser"
     ],

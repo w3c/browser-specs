@@ -335,15 +335,15 @@
     ]
   },
   {
-    "url": "https://drafts.csswg.org/css-anchor-1/",
+    "url": "https://drafts.csswg.org/css-anchor-position-1/",
     "seriesComposition": "full",
-    "shortname": "css-anchor-1",
+    "shortname": "css-anchor-position-1",
     "series": {
-      "shortname": "css-anchor",
-      "currentSpecification": "css-anchor-1",
+      "shortname": "css-anchor-position",
+      "currentSpecification": "css-anchor-position-1",
       "title": "CSS Anchor Positioning",
       "shortTitle": "CSS Anchor Positioning",
-      "nightlyUrl": "https://drafts.csswg.org/css-anchor/"
+      "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -354,14 +354,14 @@
       }
     ],
     "nightly": {
-      "url": "https://drafts.csswg.org/css-anchor-1/",
+      "url": "https://drafts.csswg.org/css-anchor-position-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-anchor-1/",
-        "https://w3c.github.io/csswg-drafts/css-anchor/"
+        "https://w3c.github.io/csswg-drafts/css-anchor-position-1/",
+        "https://w3c.github.io/csswg-drafts/css-anchor-position/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-anchor-1/Overview.bs",
+      "sourcePath": "css-anchor-position-1/Overview.bs",
       "filename": "Overview.html"
     },
     "title": "CSS Anchor Positioning",

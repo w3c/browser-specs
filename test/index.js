@@ -13,12 +13,11 @@ const addFormats = require("ajv-formats")
 const ajv = new Ajv();
 addFormats(ajv);
 
-// Some old specs that don't have a spec
+// Some old specs that don't have a repo
 const noRepo = [
+  'CSS2',
   'SVG11',
   'test-methodology',
-  'rdf11-concepts',
-  'rdf11-mt',
   'n-quads',
   'DOM-Level-2-Style'
 ];

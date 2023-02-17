@@ -89,6 +89,9 @@
     "w3c/sparql-new": {
       "comment": "group note and not targeted at browsers"
     },
+    "WICG/priority-hints": {
+      "comment": "merged into HTML"
+    },
     "WICG/open-ui": {
       "comment": "not targeted at browsers"
     },

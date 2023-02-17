@@ -1373,14 +1373,6 @@
     },
     "seriesVersion": "2",
     "standing": "good",
-    "seriesPrevious": "web-animations-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
     "nightly": {
       "url": "https://drafts.csswg.org/web-animations-2/",
       "status": "Unofficial Proposal Draft",
@@ -1391,6 +1383,14 @@
       "sourcePath": "web-animations-2/Overview.bs",
       "filename": "Overview.html"
     },
+    "seriesPrevious": "web-animations-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
     "title": "Web Animations Level 2",
     "source": "spec",
     "shortTitle": "Web Animations 2",
@@ -8378,46 +8378,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://wicg.github.io/priority-hints/",
-    "seriesComposition": "full",
-    "shortname": "priority-hints",
-    "series": {
-      "shortname": "priority-hints",
-      "currentSpecification": "priority-hints",
-      "title": "Priority Hints",
-      "shortTitle": "Priority Hints",
-      "nightlyUrl": "https://wicg.github.io/priority-hints/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/priority-hints/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/priority-hints",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Priority Hints",
-    "source": "specref",
-    "shortTitle": "Priority Hints",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "priority-hints"
-      ]
-    }
   },
   {
     "url": "https://wicg.github.io/responsive-image-client-hints/",

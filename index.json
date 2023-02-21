@@ -1365,11 +1365,11 @@
     "shortname": "web-animations-2",
     "series": {
       "shortname": "web-animations",
-      "currentSpecification": "web-animations-1",
+      "currentSpecification": "web-animations-2",
       "title": "Web Animations",
       "shortTitle": "Web Animations",
-      "releaseUrl": "https://www.w3.org/TR/web-animations/",
-      "nightlyUrl": "https://drafts.csswg.org/web-animations/"
+      "nightlyUrl": "https://drafts.csswg.org/web-animations/",
+      "releaseUrl": "https://www.w3.org/TR/web-animations/"
     },
     "seriesVersion": "2",
     "standing": "good",
@@ -1377,7 +1377,8 @@
       "url": "https://drafts.csswg.org/web-animations-2/",
       "status": "Unofficial Proposal Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/web-animations-2/"
+        "https://w3c.github.io/csswg-drafts/web-animations-2/",
+        "https://w3c.github.io/csswg-drafts/web-animations/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-2/Overview.bs",
@@ -1392,7 +1393,7 @@
       }
     ],
     "title": "Web Animations Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Web Animations 2",
     "categories": [
       "browser"
@@ -16275,7 +16276,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-33/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "title": "EPUB 3.3",
@@ -16314,7 +16315,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-rs-33/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "title": "EPUB Reading Systems 3.3",
@@ -21518,11 +21519,11 @@
     "shortname": "web-animations-1",
     "series": {
       "shortname": "web-animations",
-      "currentSpecification": "web-animations-1",
+      "currentSpecification": "web-animations-2",
       "title": "Web Animations",
       "shortTitle": "Web Animations",
-      "releaseUrl": "https://www.w3.org/TR/web-animations/",
-      "nightlyUrl": "https://drafts.csswg.org/web-animations/"
+      "nightlyUrl": "https://drafts.csswg.org/web-animations/",
+      "releaseUrl": "https://www.w3.org/TR/web-animations/"
     },
     "seriesVersion": "1",
     "seriesNext": "web-animations-2",
@@ -21542,8 +21543,7 @@
       "url": "https://drafts.csswg.org/web-animations-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/web-animations-1/",
-        "https://w3c.github.io/csswg-drafts/web-animations/"
+        "https://w3c.github.io/csswg-drafts/web-animations-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-1/Overview.bs",

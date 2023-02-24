@@ -7794,8 +7794,8 @@
     "series": {
       "shortname": "local-network-access",
       "currentSpecification": "local-network-access",
-      "title": "Private Network Access",
-      "shortTitle": "Private Network Access",
+      "title": "Local Network Access",
+      "shortTitle": "Local Network Access",
       "nightlyUrl": "https://wicg.github.io/local-network-access/"
     },
     "organization": "W3C",
@@ -7813,9 +7813,9 @@
       "sourcePath": "index.src.html",
       "filename": "index.html"
     },
-    "title": "Private Network Access",
+    "title": "Local Network Access",
     "source": "spec",
-    "shortTitle": "Private Network Access",
+    "shortTitle": "Local Network Access",
     "categories": [
       "browser"
     ],

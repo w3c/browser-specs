@@ -76,13 +76,7 @@
     "standing": "good"
   },
   "https://drafts.csswg.org/css-anchor-position-1/",
-  {
-    "url": "https://drafts.csswg.org/css-animations-2/",
-    "seriesComposition": "delta",
-    "nightly": {
-      "status": "Editor's Draft"
-    }
-  },
+  "https://www.w3.org/TR/css-animations-2/ delta",
   {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
     "seriesComposition": "delta",

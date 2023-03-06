@@ -121,14 +121,6 @@
   },
   "https://drafts.csswg.org/css-viewport/",
   {
-    "url": "https://drafts.csswg.org/web-animations-2/",
-    "seriesComposition": "delta",
-    "standing": "good",
-    "nightly": {
-      "status": "Unofficial Proposal Draft"
-    }
-  },
-  {
     "url": "https://drafts.fxtf.org/compositing-2/",
     "shortTitle": "Compositing 2",
     "forceCurrent": true
@@ -1206,6 +1198,7 @@
   "https://www.w3.org/TR/wasm-js-api-2/",
   "https://www.w3.org/TR/wasm-web-api-2/",
   "https://www.w3.org/TR/web-animations-1/",
+  "https://www.w3.org/TR/web-animations-2/ delta",
   "https://www.w3.org/TR/web-locks/",
   "https://www.w3.org/TR/web-share/",
   "https://www.w3.org/TR/webaudio/",

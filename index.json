@@ -373,51 +373,6 @@
     "standing": "good"
   },
   {
-    "url": "https://drafts.csswg.org/css-animations-2/",
-    "seriesComposition": "delta",
-    "shortname": "css-animations-2",
-    "series": {
-      "shortname": "css-animations",
-      "currentSpecification": "css-animations-1",
-      "title": "CSS Animations",
-      "shortTitle": "CSS Animations",
-      "releaseUrl": "https://www.w3.org/TR/css-animations/",
-      "nightlyUrl": "https://drafts.csswg.org/css-animations/"
-    },
-    "seriesVersion": "2",
-    "seriesPrevious": "css-animations-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-animations-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-animations-2/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-animations-2/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "CSS Animations Level 2",
-    "source": "spec",
-    "shortTitle": "CSS Animations 2",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-animations"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
     "seriesComposition": "delta",
     "shortname": "css-backgrounds-4",
@@ -1358,52 +1313,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://drafts.csswg.org/web-animations-2/",
-    "seriesComposition": "delta",
-    "shortname": "web-animations-2",
-    "series": {
-      "shortname": "web-animations",
-      "currentSpecification": "web-animations-2",
-      "title": "Web Animations",
-      "shortTitle": "Web Animations",
-      "nightlyUrl": "https://drafts.csswg.org/web-animations/",
-      "releaseUrl": "https://www.w3.org/TR/web-animations/"
-    },
-    "seriesVersion": "2",
-    "standing": "good",
-    "nightly": {
-      "url": "https://drafts.csswg.org/web-animations-2/",
-      "status": "Unofficial Proposal Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/web-animations-2/",
-        "https://w3c.github.io/csswg-drafts/web-animations/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "web-animations-2/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "seriesPrevious": "web-animations-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "title": "Web Animations Level 2",
-    "source": "specref",
-    "shortTitle": "Web Animations 2",
-    "categories": [
-      "browser"
-    ],
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "web-animations"
-      ]
-    }
   },
   {
     "url": "https://drafts.fxtf.org/compositing-2/",
@@ -4592,8 +4501,8 @@
     "series": {
       "shortname": "tc39-import-assertions",
       "currentSpecification": "tc39-import-assertions",
-      "title": "import assertions",
-      "shortTitle": "import assertions",
+      "title": "Import Assertions",
+      "shortTitle": "Import Assertions",
       "nightlyUrl": "https://tc39.es/proposal-import-assertions/"
     },
     "organization": "Ecma International",
@@ -4611,9 +4520,9 @@
       "sourcePath": "spec.emu",
       "filename": "index.html"
     },
-    "title": "import assertions",
+    "title": "Import Assertions",
     "source": "spec",
-    "shortTitle": "import assertions",
+    "shortTitle": "Import Assertions",
     "categories": [
       "browser"
     ],
@@ -7992,46 +7901,6 @@
     "standing": "good"
   },
   {
-    "url": "https://wicg.github.io/navigation-api/",
-    "seriesComposition": "full",
-    "shortname": "navigation-api",
-    "series": {
-      "shortname": "navigation-api",
-      "currentSpecification": "navigation-api",
-      "title": "Navigation API",
-      "shortTitle": "Navigation API",
-      "nightlyUrl": "https://wicg.github.io/navigation-api/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/navigation-api/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/navigation-api",
-      "sourcePath": "spec.bs",
-      "filename": "index.html"
-    },
-    "title": "Navigation API",
-    "source": "spec",
-    "shortTitle": "Navigation API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "navigation-api"
-      ]
-    }
-  },
-  {
     "url": "https://wicg.github.io/netinfo/",
     "seriesComposition": "full",
     "shortname": "netinfo",
@@ -11388,7 +11257,7 @@
     "shortname": "css-animations-1",
     "series": {
       "shortname": "css-animations",
-      "currentSpecification": "css-animations-1",
+      "currentSpecification": "css-animations-2",
       "title": "CSS Animations",
       "shortTitle": "CSS Animations",
       "releaseUrl": "https://www.w3.org/TR/css-animations/",
@@ -11412,8 +11281,7 @@
       "url": "https://drafts.csswg.org/css-animations-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-animations-1/",
-        "https://w3c.github.io/csswg-drafts/css-animations/"
+        "https://w3c.github.io/csswg-drafts/css-animations-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-animations-1/Overview.bs",
@@ -11422,6 +11290,57 @@
     "title": "CSS Animations Level 1",
     "source": "w3c",
     "shortTitle": "CSS Animations 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-animations"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-animations-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-animations-2",
+    "series": {
+      "shortname": "css-animations",
+      "currentSpecification": "css-animations-2",
+      "title": "CSS Animations",
+      "shortTitle": "CSS Animations",
+      "releaseUrl": "https://www.w3.org/TR/css-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/css-animations/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-animations-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-animations-2/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-animations-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-animations-2/",
+        "https://w3c.github.io/csswg-drafts/css-animations/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-animations-2/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Animations Level 2",
+    "source": "w3c",
+    "shortTitle": "CSS Animations 2",
     "categories": [
       "browser"
     ],
@@ -21522,8 +21441,8 @@
       "currentSpecification": "web-animations-2",
       "title": "Web Animations",
       "shortTitle": "Web Animations",
-      "nightlyUrl": "https://drafts.csswg.org/web-animations/",
-      "releaseUrl": "https://www.w3.org/TR/web-animations/"
+      "releaseUrl": "https://www.w3.org/TR/web-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/web-animations/"
     },
     "seriesVersion": "1",
     "seriesNext": "web-animations-2",
@@ -21552,6 +21471,57 @@
     "title": "Web Animations",
     "source": "w3c",
     "shortTitle": "Web Animations",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "web-animations"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/web-animations-2/",
+    "seriesComposition": "delta",
+    "shortname": "web-animations-2",
+    "series": {
+      "shortname": "web-animations",
+      "currentSpecification": "web-animations-2",
+      "title": "Web Animations",
+      "shortTitle": "Web Animations",
+      "releaseUrl": "https://www.w3.org/TR/web-animations/",
+      "nightlyUrl": "https://drafts.csswg.org/web-animations/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "web-animations-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/web-animations-2/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/web-animations-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/web-animations-2/",
+        "https://w3c.github.io/csswg-drafts/web-animations/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "web-animations-2/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "Web Animations Level 2",
+    "source": "w3c",
+    "shortTitle": "Web Animations 2",
     "categories": [
       "browser"
     ],
@@ -22825,7 +22795,7 @@
       "title": "WebRTC: Real-Time Communication Between Browsers",
       "shortTitle": "WebRTC",
       "releaseUrl": "https://www.w3.org/TR/webrtc/",
-      "nightlyUrl": "https://w3c.github.io/webrtc-pc/"
+      "nightlyUrl": "https://w3c.github.io/webrtc-pc/archives/20171002/webrtc.html"
     },
     "shortTitle": "WebRTC 1.0",
     "organization": "W3C",
@@ -22841,25 +22811,19 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-pc/",
+      "url": "https://w3c.github.io/webrtc-pc/archives/20171002/webrtc.html",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/webrtc-pc",
       "sourcePath": "webrtc.html",
-      "filename": "index.html"
+      "filename": "webrtc.html"
     },
-    "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
+    "title": "WebRTC: Real-Time Communication in Browsers",
     "source": "w3c",
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webrtc"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webtransport/",

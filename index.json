@@ -7195,6 +7195,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/fenced-frame/",
+    "seriesComposition": "full",
+    "shortname": "fenced-frame",
+    "series": {
+      "shortname": "fenced-frame",
+      "currentSpecification": "fenced-frame",
+      "title": "Fenced frame",
+      "shortTitle": "Fenced frame",
+      "nightlyUrl": "https://wicg.github.io/fenced-frame/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/fenced-frame/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/fenced-frame",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Fenced frame",
+    "source": "spec",
+    "shortTitle": "Fenced frame",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/file-system-access/",
     "seriesComposition": "full",
     "shortname": "file-system-access",
@@ -8630,6 +8664,74 @@
         "speech-api"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/trust-token-api/",
+    "seriesComposition": "full",
+    "shortname": "trust-token-api",
+    "series": {
+      "shortname": "trust-token-api",
+      "currentSpecification": "trust-token-api",
+      "title": "Private State Token API",
+      "shortTitle": "Private State Token API",
+      "nightlyUrl": "https://wicg.github.io/trust-token-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/trust-token-api/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/trust-token-api",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Private State Token API",
+    "source": "spec",
+    "shortTitle": "Private State Token API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://wicg.github.io/turtledove/",
+    "seriesComposition": "full",
+    "shortname": "turtledove",
+    "series": {
+      "shortname": "turtledove",
+      "currentSpecification": "turtledove",
+      "title": "FLEDGE",
+      "shortTitle": "FLEDGE",
+      "nightlyUrl": "https://wicg.github.io/turtledove/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/turtledove/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/turtledove",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "FLEDGE",
+    "source": "spec",
+    "shortTitle": "FLEDGE",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/ua-client-hints/",
@@ -11257,7 +11359,7 @@
     "shortname": "css-animations-1",
     "series": {
       "shortname": "css-animations",
-      "currentSpecification": "css-animations-2",
+      "currentSpecification": "css-animations-1",
       "title": "CSS Animations",
       "shortTitle": "CSS Animations",
       "releaseUrl": "https://www.w3.org/TR/css-animations/",
@@ -11281,7 +11383,8 @@
       "url": "https://drafts.csswg.org/css-animations-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-animations-1/"
+        "https://w3c.github.io/csswg-drafts/css-animations-1/",
+        "https://w3c.github.io/csswg-drafts/css-animations/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-animations-1/Overview.bs",
@@ -11307,7 +11410,7 @@
     "shortname": "css-animations-2",
     "series": {
       "shortname": "css-animations",
-      "currentSpecification": "css-animations-2",
+      "currentSpecification": "css-animations-1",
       "title": "CSS Animations",
       "shortTitle": "CSS Animations",
       "releaseUrl": "https://www.w3.org/TR/css-animations/",
@@ -11331,8 +11434,7 @@
       "url": "https://drafts.csswg.org/css-animations-2/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-animations-2/",
-        "https://w3c.github.io/csswg-drafts/css-animations/"
+        "https://w3c.github.io/csswg-drafts/css-animations-2/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-animations-2/Overview.bs",
@@ -21438,7 +21540,7 @@
     "shortname": "web-animations-1",
     "series": {
       "shortname": "web-animations",
-      "currentSpecification": "web-animations-2",
+      "currentSpecification": "web-animations-1",
       "title": "Web Animations",
       "shortTitle": "Web Animations",
       "releaseUrl": "https://www.w3.org/TR/web-animations/",
@@ -21462,7 +21564,8 @@
       "url": "https://drafts.csswg.org/web-animations-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/web-animations-1/"
+        "https://w3c.github.io/csswg-drafts/web-animations-1/",
+        "https://w3c.github.io/csswg-drafts/web-animations/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-1/Overview.bs",
@@ -21488,7 +21591,7 @@
     "shortname": "web-animations-2",
     "series": {
       "shortname": "web-animations",
-      "currentSpecification": "web-animations-2",
+      "currentSpecification": "web-animations-1",
       "title": "Web Animations",
       "shortTitle": "Web Animations",
       "releaseUrl": "https://www.w3.org/TR/web-animations/",
@@ -21512,8 +21615,7 @@
       "url": "https://drafts.csswg.org/web-animations-2/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/web-animations-2/",
-        "https://w3c.github.io/csswg-drafts/web-animations/"
+        "https://w3c.github.io/csswg-drafts/web-animations-2/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-2/Overview.bs",
@@ -22795,7 +22897,7 @@
       "title": "WebRTC: Real-Time Communication Between Browsers",
       "shortTitle": "WebRTC",
       "releaseUrl": "https://www.w3.org/TR/webrtc/",
-      "nightlyUrl": "https://w3c.github.io/webrtc-pc/archives/20171002/webrtc.html"
+      "nightlyUrl": "https://w3c.github.io/webrtc-pc/"
     },
     "shortTitle": "WebRTC 1.0",
     "organization": "W3C",
@@ -22811,19 +22913,25 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webrtc-pc/archives/20171002/webrtc.html",
+      "url": "https://w3c.github.io/webrtc-pc/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/webrtc-pc",
       "sourcePath": "webrtc.html",
-      "filename": "webrtc.html"
+      "filename": "index.html"
     },
     "title": "WebRTC: Real-Time Communication in Browsers",
     "source": "w3c",
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webrtc"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/webtransport/",

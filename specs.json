@@ -527,6 +527,7 @@
   "https://wicg.github.io/element-timing/",
   "https://wicg.github.io/entries-api/",
   "https://wicg.github.io/eyedropper-api/",
+  "https://wicg.github.io/fenced-frame/",
   "https://wicg.github.io/file-system-access/",
   "https://wicg.github.io/first-party-sets/",
   "https://wicg.github.io/get-installed-related-apps/spec/",
@@ -581,6 +582,8 @@
     "shortTitle": "SMS One-Time Codes"
   },
   "https://wicg.github.io/speech-api/",
+  "https://wicg.github.io/trust-token-api/",
+  "https://wicg.github.io/turtledove/",
   "https://wicg.github.io/ua-client-hints/",
   "https://wicg.github.io/urlpattern/",
   "https://wicg.github.io/user-preference-media-features-headers/",

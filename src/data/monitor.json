@@ -124,14 +124,6 @@
       "lastreviewed": "2023-03-01",
       "comment": "no published content yet"
     },
-    "WICG/trust-token-api": {
-      "lastreviewed": "2023-03-01",
-      "comment": "API not properly defined as Web IDL, part of Privacy Sandbox"
-    },
-    "WICG/turtledove": {
-      "lastreviewed": "2023-03-01",
-      "comment": "Now entitled FLEDGE. Defined as an experiment for now, part of Privacy Sandbox"
-    },
     "WICG/video-editing": {
       "lastreviewed": "2023-03-01",
       "comment": "no published content yet"
@@ -247,10 +239,6 @@
     "WICG/multicapture": {
       "lastreviewed": "2023-03-01",
       "comment": "early exploration phase; no intent to prototype and no clear implementation plan yet"
-    },
-    "WICG/fenced-frame": {
-      "lastreviewed": "2023-03-01",
-      "comment": "early draft with TODOs, part of Privacy Sandbox"
     },
     "tc39/proposal-regexp-set-notation": {
       "lastreviewed": "2023-03-01",

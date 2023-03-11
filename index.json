@@ -1514,8 +1514,8 @@
         "fetch"
       ],
       "excludePaths": [
-        "fetch/metadata",
-        "fetch/private-network-access"
+        "fetch/local-network-access",
+        "fetch/metadata"
       ]
     }
   },

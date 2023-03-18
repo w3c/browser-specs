@@ -2042,8 +2042,8 @@
     "series": {
       "shortname": "requestStorageAccessForOrigin",
       "currentSpecification": "requestStorageAccessForOrigin",
-      "title": "requestStorageAccessForOrigin API",
-      "shortTitle": "requestStorageAccessForOrigin API",
+      "title": "requestStorageAccessFor API",
+      "shortTitle": "requestStorageAccessFor API",
       "nightlyUrl": "https://privacycg.github.io/requestStorageAccessForOrigin/"
     },
     "organization": "W3C",
@@ -2061,9 +2061,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "requestStorageAccessForOrigin API",
+    "title": "requestStorageAccessFor API",
     "source": "spec",
-    "shortTitle": "requestStorageAccessForOrigin API",
+    "shortTitle": "requestStorageAccessFor API",
     "categories": [
       "browser"
     ],

@@ -399,6 +399,9 @@
     },
     "https://www.w3.org/TR/resource-timing-1/": {
       "comment": "Level-less spec is in the list, no need to track old Level 1 spec"
+    },
+    "https://www.w3.org/TR/resource-hints/": {
+      "comment": "Integrated in HTML, ED redirects to HTML"
     }
   }
 }

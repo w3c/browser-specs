@@ -19778,46 +19778,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/resource-hints/",
-    "seriesComposition": "full",
-    "shortname": "resource-hints",
-    "series": {
-      "shortname": "resource-hints",
-      "currentSpecification": "resource-hints",
-      "title": "Resource Hints",
-      "shortTitle": "Resource Hints",
-      "releaseUrl": "https://www.w3.org/TR/resource-hints/",
-      "nightlyUrl": "https://w3c.github.io/resource-hints/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/resource-hints/",
-      "status": "Discontinued Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/resource-hints/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/resource-hints",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Resource Hints",
-    "source": "w3c",
-    "shortTitle": "Resource Hints",
-    "categories": [
-      "browser"
-    ],
-    "standing": "discontinued"
-  },
-  {
     "url": "https://www.w3.org/TR/resource-timing/",
     "seriesComposition": "full",
     "shortname": "resource-timing",

@@ -2036,15 +2036,15 @@
     "standing": "good"
   },
   {
-    "url": "https://privacycg.github.io/requestStorageAccessForOrigin/",
+    "url": "https://privacycg.github.io/requestStorageAccessFor/",
     "seriesComposition": "full",
-    "shortname": "requestStorageAccessForOrigin",
+    "shortname": "requestStorageAccessFor",
     "series": {
-      "shortname": "requestStorageAccessForOrigin",
-      "currentSpecification": "requestStorageAccessForOrigin",
+      "shortname": "requestStorageAccessFor",
+      "currentSpecification": "requestStorageAccessFor",
       "title": "requestStorageAccessFor API",
       "shortTitle": "requestStorageAccessFor API",
-      "nightlyUrl": "https://privacycg.github.io/requestStorageAccessForOrigin/"
+      "nightlyUrl": "https://privacycg.github.io/requestStorageAccessFor/"
     },
     "organization": "W3C",
     "groups": [
@@ -2054,10 +2054,10 @@
       }
     ],
     "nightly": {
-      "url": "https://privacycg.github.io/requestStorageAccessForOrigin/",
+      "url": "https://privacycg.github.io/requestStorageAccessFor/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/privacycg/requestStorageAccessForOrigin",
+      "repository": "https://github.com/privacycg/requestStorageAccessFor",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },

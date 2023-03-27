@@ -1010,6 +1010,51 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-position-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-position-4",
+    "series": {
+      "shortname": "css-position",
+      "currentSpecification": "css-position-3",
+      "title": "CSS Positioned Layout",
+      "shortTitle": "CSS Positioned Layout",
+      "releaseUrl": "https://www.w3.org/TR/css-position/",
+      "nightlyUrl": "https://drafts.csswg.org/css-position/"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-position-3",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-position-4/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-position-4/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-position-4/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Positioned Layout Module Level 4",
+    "source": "spec",
+    "shortTitle": "CSS Positioned Layout 4",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-position"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-scroll-snap-2/",
     "seriesComposition": "delta",
     "shortname": "css-scroll-snap-2",
@@ -13868,6 +13913,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-position/"
     },
     "seriesVersion": "3",
+    "seriesNext": "css-position-4",
     "organization": "W3C",
     "groups": [
       {
@@ -21717,7 +21763,7 @@
     "groups": [
       {
         "name": "Web Authentication Working Group",
-        "url": "https://www.w3.org/webauthn/"
+        "url": "https://www.w3.org/groups/wg/webauthn"
       }
     ],
     "release": {

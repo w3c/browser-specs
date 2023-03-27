@@ -402,6 +402,9 @@
     },
     "https://www.w3.org/TR/resource-hints/": {
       "comment": "Integrated in HTML, ED redirects to HTML"
+    },
+    "https://w3c.github.io/resource-hints/": {
+      "comment": "Integrated in HTML, ED redirects to HTML"
     }
   }
 }

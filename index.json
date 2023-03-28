@@ -8455,8 +8455,8 @@
     "series": {
       "shortname": "scroll-to-text-fragment",
       "currentSpecification": "scroll-to-text-fragment",
-      "title": "Text Fragments",
-      "shortTitle": "Text Fragments",
+      "title": "URL Fragment Text Directives",
+      "shortTitle": "URL Fragment Text Directives",
       "nightlyUrl": "https://wicg.github.io/scroll-to-text-fragment/"
     },
     "organization": "W3C",
@@ -8474,9 +8474,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Text Fragments",
+    "title": "URL Fragment Text Directives",
     "source": "spec",
-    "shortTitle": "Text Fragments",
+    "shortTitle": "URL Fragment Text Directives",
     "categories": [
       "browser"
     ],
@@ -21009,7 +21009,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "trusted-types"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/uievents-code/",
@@ -21338,7 +21344,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wai-aria-1.2/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Proposed Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {

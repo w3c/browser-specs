@@ -21769,7 +21769,7 @@
     "groups": [
       {
         "name": "Web Authentication Working Group",
-        "url": "https://www.w3.org/groups/wg/webauthn"
+        "url": "https://www.w3.org/groups/wg/webauthn/"
       }
     ],
     "release": {

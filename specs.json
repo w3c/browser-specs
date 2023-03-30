@@ -1265,7 +1265,7 @@
       "sourcePath": "wgsl/index.bs"
     }
   },
-  "https://www.w3.org/TR/window-placement/",
+  "https://www.w3.org/TR/window-management/",
   {
     "url": "https://www.w3.org/TR/WOFF/",
     "shortTitle": "WOFF 1.0",

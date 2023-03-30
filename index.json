@@ -12551,7 +12551,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-display-3/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -22610,7 +22610,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/webnn/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -23464,16 +23464,16 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/window-placement/",
+    "url": "https://www.w3.org/TR/window-management/",
     "seriesComposition": "full",
-    "shortname": "window-placement",
+    "shortname": "window-management",
     "series": {
-      "shortname": "window-placement",
-      "currentSpecification": "window-placement",
-      "title": "Multi-Screen Window Placement",
-      "shortTitle": "Multi-Screen Window Placement",
-      "releaseUrl": "https://www.w3.org/TR/window-placement/",
-      "nightlyUrl": "https://w3c.github.io/window-placement/"
+      "shortname": "window-management",
+      "currentSpecification": "window-management",
+      "title": "Multi-Screen Window Management",
+      "shortTitle": "Multi-Screen Window Management",
+      "releaseUrl": "https://www.w3.org/TR/window-management/",
+      "nightlyUrl": "https://w3c.github.io/window-management/"
     },
     "organization": "W3C",
     "groups": [
@@ -23483,31 +23483,25 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/window-placement/",
+      "url": "https://www.w3.org/TR/window-management/",
       "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/window-placement/",
+      "url": "https://w3c.github.io/window-management/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/window-placement",
+      "repository": "https://github.com/w3c/window-management",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Multi-Screen Window Placement",
+    "title": "Multi-Screen Window Management",
     "source": "w3c",
-    "shortTitle": "Multi-Screen Window Placement",
+    "shortTitle": "Multi-Screen Window Management",
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "window-placement"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/WOFF/",

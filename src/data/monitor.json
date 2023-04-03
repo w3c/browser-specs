@@ -323,6 +323,10 @@
     "w3c/audio-focus": {
       "lastreviewed": "2023-03-01",
       "comment": "no published content yet"
+    },
+    "WICG/compression-dictionary-transport": {
+      "lastreviewed": "2023-04-03",
+      "comment": "no published content yet"
     }
   },
   "specs": {

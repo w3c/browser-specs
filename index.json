@@ -10023,13 +10023,13 @@
       "currentSpecification": "rfc9110",
       "title": "HTTP Semantics",
       "shortTitle": "HTTP Semantics",
-      "nightlyUrl": "https://httpwg.org/specs/rfc9110.html"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9110"
     },
     "nightly": {
-      "url": "https://httpwg.org/specs/rfc9110.html",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110",
       "status": "Internet Standard",
-      "alternateUrls": [],
       "repository": "https://github.com/httpwg/httpwg.github.io",
+      "alternateUrls": [],
       "sourcePath": "specs/rfc9110.xml",
       "filename": "rfc9110.html"
     },
@@ -10057,13 +10057,13 @@
       "currentSpecification": "rfc9111",
       "title": "HTTP Caching",
       "shortTitle": "HTTP Caching",
-      "nightlyUrl": "https://httpwg.org/specs/rfc9111.html"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9111"
     },
     "nightly": {
-      "url": "https://httpwg.org/specs/rfc9111.html",
+      "url": "https://www.rfc-editor.org/rfc/rfc9111",
       "status": "Internet Standard",
-      "alternateUrls": [],
       "repository": "https://github.com/httpwg/httpwg.github.io",
+      "alternateUrls": [],
       "sourcePath": "specs/rfc9111.xml",
       "filename": "rfc9111.html"
     },
@@ -10091,13 +10091,13 @@
       "currentSpecification": "rfc9112",
       "title": "HTTP/1.1",
       "shortTitle": "HTTP/1.1",
-      "nightlyUrl": "https://httpwg.org/specs/rfc9112.html"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9112"
     },
     "nightly": {
-      "url": "https://httpwg.org/specs/rfc9112.html",
+      "url": "https://www.rfc-editor.org/rfc/rfc9112",
       "status": "Internet Standard",
-      "alternateUrls": [],
       "repository": "https://github.com/httpwg/httpwg.github.io",
+      "alternateUrls": [],
       "sourcePath": "specs/rfc9112.xml",
       "filename": "rfc9112.html"
     },
@@ -10125,13 +10125,13 @@
       "currentSpecification": "rfc9113",
       "title": "HTTP/2",
       "shortTitle": "HTTP/2",
-      "nightlyUrl": "https://httpwg.org/specs/rfc9113.html"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9113"
     },
     "nightly": {
-      "url": "https://httpwg.org/specs/rfc9113.html",
+      "url": "https://www.rfc-editor.org/rfc/rfc9113",
       "status": "Proposed Standard",
-      "alternateUrls": [],
       "repository": "https://github.com/httpwg/httpwg.github.io",
+      "alternateUrls": [],
       "sourcePath": "specs/rfc9113.xml",
       "filename": "rfc9113.html"
     },
@@ -10159,13 +10159,13 @@
       "currentSpecification": "rfc9114",
       "title": "HTTP/3",
       "shortTitle": "HTTP/3",
-      "nightlyUrl": "https://httpwg.org/specs/rfc9114.html"
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9114"
     },
     "nightly": {
-      "url": "https://httpwg.org/specs/rfc9114.html",
+      "url": "https://www.rfc-editor.org/rfc/rfc9114",
       "status": "Proposed Standard",
-      "alternateUrls": [],
       "repository": "https://github.com/httpwg/httpwg.github.io",
+      "alternateUrls": [],
       "sourcePath": "specs/rfc9114.xml",
       "filename": "rfc9114.html"
     },
@@ -11523,7 +11523,7 @@
     "series": {
       "shortname": "css-box",
       "currentSpecification": "css-box-3",
-      "title": "CSS Box Model",
+      "title": "CSS Box Model Module",
       "shortTitle": "CSS Box Model",
       "releaseUrl": "https://www.w3.org/TR/css-box/",
       "nightlyUrl": "https://drafts.csswg.org/css-box/"
@@ -11539,7 +11539,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-box-3/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -11574,7 +11574,7 @@
     "series": {
       "shortname": "css-box",
       "currentSpecification": "css-box-3",
-      "title": "CSS Box Model",
+      "title": "CSS Box Model Module",
       "shortTitle": "CSS Box Model",
       "releaseUrl": "https://www.w3.org/TR/css-box/",
       "nightlyUrl": "https://drafts.csswg.org/css-box/"
@@ -12687,7 +12687,7 @@
     "series": {
       "shortname": "css-font-loading",
       "currentSpecification": "css-font-loading-3",
-      "title": "CSS Font Loading",
+      "title": "CSS Font Loading Module",
       "shortTitle": "CSS Font Loading",
       "releaseUrl": "https://www.w3.org/TR/css-font-loading/",
       "nightlyUrl": "https://drafts.csswg.org/css-font-loading/"
@@ -15508,7 +15508,7 @@
     "series": {
       "shortname": "css-view-transitions",
       "currentSpecification": "css-view-transitions-1",
-      "title": "CSS View Transitions Module Level 1",
+      "title": "CSS View Transitions Module",
       "shortTitle": "CSS View Transitions",
       "releaseUrl": "https://www.w3.org/TR/css-view-transitions/",
       "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
@@ -19979,9 +19979,9 @@
     "shortname": "scroll-animations-1",
     "series": {
       "shortname": "scroll-animations",
+      "title": "Scroll-driven Animations",
       "currentSpecification": "scroll-animations-1",
-      "title": "Scroll-linked Animations",
-      "shortTitle": "Scroll-linked Animations",
+      "shortTitle": "Scroll-driven Animations",
       "releaseUrl": "https://www.w3.org/TR/scroll-animations/",
       "nightlyUrl": "https://drafts.csswg.org/scroll-animations/"
     },
@@ -20009,9 +20009,9 @@
       "sourcePath": "scroll-animations-1/Overview.bs",
       "filename": "Overview.html"
     },
-    "title": "Scroll-linked Animations",
+    "title": "Scroll-driven Animations",
     "source": "w3c",
-    "shortTitle": "Scroll-linked Animations",
+    "shortTitle": "Scroll-driven Animations",
     "categories": [
       "browser"
     ],
@@ -23470,8 +23470,8 @@
     "series": {
       "shortname": "window-management",
       "currentSpecification": "window-management",
-      "title": "Multi-Screen Window Management",
-      "shortTitle": "Multi-Screen Window Management",
+      "title": "Window Management",
+      "shortTitle": "Window Management",
       "releaseUrl": "https://www.w3.org/TR/window-management/",
       "nightlyUrl": "https://w3c.github.io/window-management/"
     },
@@ -23495,9 +23495,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Multi-Screen Window Management",
+    "title": "Window Management",
     "source": "w3c",
-    "shortTitle": "Multi-Screen Window Management",
+    "shortTitle": "Window Management",
     "categories": [
       "browser"
     ],

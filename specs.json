@@ -1128,6 +1128,7 @@
   {
     "url": "https://www.w3.org/TR/scroll-animations-1/",
     "series": {
+      "shortname": "scroll-animations",
       "title": "Scroll-driven Animations"
     }
   },

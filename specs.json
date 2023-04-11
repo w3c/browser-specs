@@ -332,7 +332,6 @@
   "https://tc39.es/proposal-temporal/",
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",
-  "https://w3c.github.io/badging/",
   "https://w3c.github.io/contentEditable/",
   "https://w3c.github.io/gamepad/extensions.html",
   "https://w3c.github.io/mathml-aam/",
@@ -705,6 +704,7 @@
   "https://www.w3.org/TR/appmanifest/",
   "https://www.w3.org/TR/audio-output/",
   "https://www.w3.org/TR/autoplay-detection/",
+  "https://www.w3.org/TR/badging/",
   "https://www.w3.org/TR/battery-status/",
   "https://www.w3.org/TR/beacon/",
   {

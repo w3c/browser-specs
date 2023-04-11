@@ -5226,46 +5226,6 @@
     }
   },
   {
-    "url": "https://w3c.github.io/badging/",
-    "seriesComposition": "full",
-    "shortname": "badging",
-    "series": {
-      "shortname": "badging",
-      "currentSpecification": "badging",
-      "title": "Badging API",
-      "shortTitle": "Badging API",
-      "nightlyUrl": "https://w3c.github.io/badging/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/badging/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/badging",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Badging API",
-    "source": "specref",
-    "shortTitle": "Badging API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "badging"
-      ]
-    }
-  },
-  {
     "url": "https://w3c.github.io/contentEditable/",
     "seriesComposition": "full",
     "shortname": "contentEditable",
@@ -10588,6 +10548,52 @@
       "browser"
     ],
     "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/badging/",
+    "seriesComposition": "full",
+    "shortname": "badging",
+    "series": {
+      "shortname": "badging",
+      "currentSpecification": "badging",
+      "title": "Badging API",
+      "shortTitle": "Badging API",
+      "releaseUrl": "https://www.w3.org/TR/badging/",
+      "nightlyUrl": "https://w3c.github.io/badging/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/badging/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/badging/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/badging",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Badging API",
+    "source": "w3c",
+    "shortTitle": "Badging API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "badging"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/battery-status/",

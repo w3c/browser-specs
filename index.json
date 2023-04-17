@@ -10952,7 +10952,7 @@
     "series": {
       "shortname": "compute-pressure",
       "currentSpecification": "compute-pressure",
-      "title": "Compute Pressure Level 1",
+      "title": "Compute Pressure",
       "shortTitle": "Compute Pressure",
       "releaseUrl": "https://www.w3.org/TR/compute-pressure/",
       "nightlyUrl": "https://w3c.github.io/compute-pressure/"

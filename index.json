@@ -4405,6 +4405,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-async-explicit-resource-management/",
+    "seriesComposition": "full",
+    "shortname": "tc39-async-explicit-resource-management",
+    "series": {
+      "shortname": "tc39-async-explicit-resource-management",
+      "currentSpecification": "tc39-async-explicit-resource-management",
+      "title": "ECMAScript Async Explicit Resource Management",
+      "shortTitle": "ECMAScript Async Explicit Resource Management",
+      "nightlyUrl": "https://tc39.es/proposal-async-explicit-resource-management/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-async-explicit-resource-management/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-async-explicit-resource-management",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "ECMAScript Async Explicit Resource Management",
+    "source": "spec",
+    "shortTitle": "ECMAScript Async Explicit Resource Management",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
     "seriesComposition": "full",
     "shortname": "tc39-atomics-wait-async",

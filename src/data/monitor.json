@@ -327,6 +327,10 @@
     "WICG/compression-dictionary-transport": {
       "lastreviewed": "2023-04-03",
       "comment": "no published content yet"
+    },
+    "immersive-web/real-world-meshing": {
+      "lastreviewed": "2023-04-17",
+      "comment": "no published content yet"
     }
   },
   "specs": {

@@ -1077,7 +1077,7 @@
     ],
     "nightly": {
       "url": "https://drafts.csswg.org/css-scroll-snap-2/",
-      "status": "Editor's Draft",
+      "status": "Unofficial Proposal Draft",
       "alternateUrls": [
         "https://w3c.github.io/csswg-drafts/css-scroll-snap-2/"
       ],
@@ -1091,7 +1091,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "pending",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -8711,8 +8711,8 @@
     "series": {
       "shortname": "turtledove",
       "currentSpecification": "turtledove",
-      "title": "FLEDGE",
-      "shortTitle": "FLEDGE",
+      "title": "Protected Audience (formerly FLEDGE)",
+      "shortTitle": "formerly FLEDGE",
       "nightlyUrl": "https://wicg.github.io/turtledove/"
     },
     "organization": "W3C",
@@ -8730,9 +8730,9 @@
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "FLEDGE",
+    "title": "Protected Audience (formerly FLEDGE)",
     "source": "spec",
-    "shortTitle": "FLEDGE",
+    "shortTitle": "formerly FLEDGE",
     "categories": [
       "browser"
     ],

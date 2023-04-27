@@ -573,7 +573,10 @@
   },
   "https://wicg.github.io/speech-api/",
   "https://wicg.github.io/trust-token-api/",
-  "https://wicg.github.io/turtledove/",
+  {
+    "url": "https://wicg.github.io/turtledove/",
+    "shortTitle": "Protected Audience"
+  },
   "https://wicg.github.io/ua-client-hints/",
   "https://wicg.github.io/urlpattern/",
   "https://wicg.github.io/user-preference-media-features-headers/",

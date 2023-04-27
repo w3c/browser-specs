@@ -8712,9 +8712,10 @@
       "shortname": "turtledove",
       "currentSpecification": "turtledove",
       "title": "Protected Audience (formerly FLEDGE)",
-      "shortTitle": "formerly FLEDGE",
+      "shortTitle": "Protected Audience",
       "nightlyUrl": "https://wicg.github.io/turtledove/"
     },
+    "shortTitle": "Protected Audience",
     "organization": "W3C",
     "groups": [
       {
@@ -8732,7 +8733,6 @@
     },
     "title": "Protected Audience (formerly FLEDGE)",
     "source": "spec",
-    "shortTitle": "formerly FLEDGE",
     "categories": [
       "browser"
     ],

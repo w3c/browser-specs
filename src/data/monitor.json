@@ -331,6 +331,10 @@
     "immersive-web/real-world-meshing": {
       "lastreviewed": "2023-04-17",
       "comment": "no published content yet"
+    },
+    "WICG/bfcache-not-restored-reason": {
+      "lastreviewed": "2023-05-01",
+      "comment": "no published content yet"
     }
   },
   "specs": {

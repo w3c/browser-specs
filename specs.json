@@ -153,10 +153,12 @@
   "https://immersive-web.github.io/anchors/",
   "https://immersive-web.github.io/model-element/",
   "https://immersive-web.github.io/raw-camera-access/",
+  "https://immersive-web.github.io/real-world-meshing/",
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",
   "https://privacycg.github.io/gpc-spec/",
+  "https://privacycg.github.io/nav-tracking-mitigations/",
   "https://privacycg.github.io/private-click-measurement/",
   "https://privacycg.github.io/requestStorageAccessFor/",
   "https://privacycg.github.io/storage-access/",
@@ -514,6 +516,13 @@
   "https://wicg.github.io/datacue/",
   "https://wicg.github.io/deprecation-reporting/",
   "https://wicg.github.io/digital-goods/",
+  {
+    "url": "https://wicg.github.io/direct-sockets/",
+    "nightly": {
+      "status": "Unofficial Proposal Draft"
+    }
+  },
+  "https://wicg.github.io/document-picture-in-picture/",
   "https://wicg.github.io/document-policy/",
   "https://wicg.github.io/element-timing/",
   "https://wicg.github.io/entries-api/",
@@ -567,11 +576,13 @@
     "url": "https://wicg.github.io/shape-detection-api/text.html",
     "shortname": "text-detection-api"
   },
+  "https://wicg.github.io/shared-storage/",
   {
     "url": "https://wicg.github.io/sms-one-time-codes/",
     "shortTitle": "SMS One-Time Codes"
   },
   "https://wicg.github.io/speech-api/",
+  "https://wicg.github.io/storage-buckets/",
   "https://wicg.github.io/trust-token-api/",
   {
     "url": "https://wicg.github.io/turtledove/",

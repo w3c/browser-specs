@@ -280,9 +280,9 @@
       "lastreviewed": "2023-05-01",
       "comment": "Origin trial in Chrome but spec still flagged as unofficial proposal draft"
     },
-    "WICG/element-capture": {
+    "screen-share/element-capture": {
       "lastreviewed": "2023-05-01",
-      "comment": "no published content yet"
+      "comment": "Spec could be added but w3c.json is missing from the repository"
     },
     "WICG/view-transitions": {
       "lastreviewed": "2023-05-01",

@@ -28,10 +28,6 @@
       "comment": "empty spec",
       "lastreviewed": "2023-05-01"
     },
-    "WICG/direct-sockets": {
-      "comment": "No clear implementation plan, considered as harmful by Mozilla https://github.com/mozilla/standards-positions/issues/431",
-      "lastreviewed": "2023-05-01"
-    },
     "w3c/webrtc-extensions": {
       "comment": "a kitchen-sink delta spec for now - might lead to a new integrated webrtc NV spec",
       "lastreviewed": "2023-05-01"
@@ -65,10 +61,6 @@
       "lastreviewed": "2023-05-01"
     },
     "privacycg/first-party-sets": {
-      "comment": "Not a spec yet",
-      "lastreviewed": "2023-05-01"
-    },
-    "WICG/storage-buckets": {
       "comment": "Not a spec yet",
       "lastreviewed": "2023-05-01"
     },
@@ -216,10 +208,6 @@
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet, ongoing IETF draft at https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies"
     },
-    "privacycg/nav-tracking-mitigations": {
-      "lastreviewed": "2023-05-01",
-      "comment": "Early draft"
-    },
     "privacycg/ad-topic-hints": {
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet"
@@ -259,10 +247,6 @@
     "WICG/ab-worker-prototype": {
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet"
-    },
-    "WICG/shared-storage": {
-      "lastreviewed": "2023-05-01",
-      "comment": "spec only contains IDL, no algorithms yet, part of Privacy Sandbox"
     },
     "WICG/unload-beacon": {
       "lastreviewed": "2023-05-01",
@@ -304,10 +288,6 @@
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet"
     },
-    "WICG/document-picture-in-picture": {
-      "lastreviewed": "2023-05-01",
-      "comment": "marked as unofficial proposal, concerns expressed by Mozilla in https://github.com/mozilla/standards-positions/issues/670 and by Apple in https://github.com/WebKit/standards-positions/issues/41#issuecomment-1272177801"
-    },
     "immersive-web/front-facing-camera": {
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet"
@@ -325,10 +305,6 @@
       "comment": "no published content yet"
     },
     "WICG/compression-dictionary-transport": {
-      "lastreviewed": "2023-05-01",
-      "comment": "no published content yet"
-    },
-    "immersive-web/real-world-meshing": {
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet"
     }

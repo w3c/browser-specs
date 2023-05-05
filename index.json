@@ -1899,6 +1899,40 @@
     "standing": "good"
   },
   {
+    "url": "https://immersive-web.github.io/real-world-meshing/",
+    "seriesComposition": "full",
+    "shortname": "real-world-meshing",
+    "series": {
+      "shortname": "real-world-meshing",
+      "currentSpecification": "real-world-meshing",
+      "title": "WebXR Mesh Detection",
+      "shortTitle": "WebXR Mesh Detection",
+      "nightlyUrl": "https://immersive-web.github.io/real-world-meshing/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/real-world-meshing/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/immersive-web/real-world-meshing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR Mesh Detection Module",
+    "source": "spec",
+    "shortTitle": "WebXR Mesh Detection",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://infra.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "infra",
@@ -2041,6 +2075,40 @@
     "title": "Global Privacy Control (GPC)",
     "source": "spec",
     "shortTitle": "GPC",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://privacycg.github.io/nav-tracking-mitigations/",
+    "seriesComposition": "full",
+    "shortname": "nav-tracking-mitigations",
+    "series": {
+      "shortname": "nav-tracking-mitigations",
+      "currentSpecification": "nav-tracking-mitigations",
+      "title": "Navigational-Tracking Mitigations",
+      "shortTitle": "Navigational-Tracking Mitigations",
+      "nightlyUrl": "https://privacycg.github.io/nav-tracking-mitigations/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Privacy Community Group",
+        "url": "https://www.w3.org/community/privacycg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://privacycg.github.io/nav-tracking-mitigations/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/privacycg/nav-tracking-mitigations",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Navigational-Tracking Mitigations",
+    "source": "spec",
+    "shortTitle": "Navigational-Tracking Mitigations",
     "categories": [
       "browser"
     ],
@@ -7046,6 +7114,80 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/direct-sockets/",
+    "seriesComposition": "full",
+    "shortname": "direct-sockets",
+    "series": {
+      "shortname": "direct-sockets",
+      "currentSpecification": "direct-sockets",
+      "title": "Direct Sockets API",
+      "shortTitle": "Direct Sockets API",
+      "nightlyUrl": "https://wicg.github.io/direct-sockets/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/direct-sockets/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/direct-sockets",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "title": "Direct Sockets API",
+    "source": "spec",
+    "shortTitle": "Direct Sockets API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
+    "url": "https://wicg.github.io/document-picture-in-picture/",
+    "seriesComposition": "full",
+    "shortname": "document-picture-in-picture",
+    "series": {
+      "shortname": "document-picture-in-picture",
+      "currentSpecification": "document-picture-in-picture",
+      "title": "Document Picture-in-Picture Specification",
+      "shortTitle": "Document Picture-in-Picture",
+      "nightlyUrl": "https://wicg.github.io/document-picture-in-picture/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/document-picture-in-picture/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/document-picture-in-picture",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Document Picture-in-Picture Specification",
+    "source": "spec",
+    "shortTitle": "Document Picture-in-Picture",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "document-picture-in-picture"
+      ]
+    }
+  },
+  {
     "url": "https://wicg.github.io/document-policy/",
     "seriesComposition": "full",
     "shortname": "document-policy",
@@ -8597,6 +8739,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/shared-storage/",
+    "seriesComposition": "full",
+    "shortname": "shared-storage",
+    "series": {
+      "shortname": "shared-storage",
+      "currentSpecification": "shared-storage",
+      "title": "Shared Storage API",
+      "shortTitle": "Shared Storage API",
+      "nightlyUrl": "https://wicg.github.io/shared-storage/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/shared-storage/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/shared-storage",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Shared Storage API",
+    "source": "spec",
+    "shortTitle": "Shared Storage API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/sms-one-time-codes/",
     "seriesComposition": "full",
     "shortname": "sms-one-time-codes",
@@ -8669,6 +8845,40 @@
         "speech-api"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/storage-buckets/",
+    "seriesComposition": "full",
+    "shortname": "storage-buckets",
+    "series": {
+      "shortname": "storage-buckets",
+      "currentSpecification": "storage-buckets",
+      "title": "Storage Buckets API",
+      "shortTitle": "Storage Buckets API",
+      "nightlyUrl": "https://wicg.github.io/storage-buckets/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/storage-buckets/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/storage-buckets",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Storage Buckets API",
+    "source": "spec",
+    "shortTitle": "Storage Buckets API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/trust-token-api/",

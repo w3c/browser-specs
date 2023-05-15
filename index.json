@@ -17194,7 +17194,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "graphics-aria"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/gyroscope/",

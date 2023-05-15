@@ -280,10 +280,6 @@
       "lastreviewed": "2023-05-01",
       "comment": "Origin trial in Chrome but spec still flagged as unofficial proposal draft"
     },
-    "screen-share/element-capture": {
-      "lastreviewed": "2023-05-01",
-      "comment": "Spec could be added but w3c.json is missing from the repository"
-    },
     "WICG/view-transitions": {
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet"
@@ -365,6 +361,10 @@
     "https://www.w3.org/TR/css-device-adapt-1/": {
       "lastreviewed": "2023-05-01",
       "comment": "spec should be retired in 2023, see https://github.com/w3c/browser-specs/issues/837, replaced by css-viewport"
+    },
+    "https://screen-share.github.io/element-capture/": {
+      "lastreviewed": "2023-05-01",
+      "comment": "Spec could be added but w3c.json is missing from the repository"
     }
   }
 }

@@ -32,6 +32,11 @@ const houdiniMetaDir = [".github", "images"];
 function canonicalizeGhUrl(r) {
   const url = new URL(r.homepageUrl);
   url.protocol = 'https:';
+  // Exceptionally, the homepage URL may link to the explainer instead of to the
+  // spec. One example at the time of writing is Storage Buckets:
+  // https://github.com/WICG/storage-buckets which targets:
+  // https://wicg.github.io/storage-buckets/explainer
+  url.pathname = url.pathname.replace(/(\/explainer(\.[^\/]+|\/)?)$/, '/');
   if (url.pathname.lastIndexOf('/') === 0 && url.pathname.length > 1) {
       url.pathname += '/';
   }

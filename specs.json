@@ -349,57 +349,8 @@
   },
   "https://w3c.github.io/PNG-spec/",
   {
-    "url": "https://w3c.github.io/rdf-concepts/spec/",
-    "shortname": "rdf12-concepts",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/rdf-n-quads/spec/",
-    "shortname": "rdf12-n-quads",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/rdf-n-triples/spec/",
-    "shortname": "rdf12-n-triples",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/rdf-schema/spec/",
-    "shortname": "rdf12-schema",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/rdf-semantics/spec/",
     "shortname": "rdf12-semantics",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/rdf-trig/spec/",
-    "shortname": "rdf12-trig",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/rdf-turtle/spec/",
-    "shortname": "rdf12-turtle",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/rdf-xml/spec/",
-    "shortname": "rdf12-xml",
     "categories": [
       "-browser"
     ]
@@ -414,69 +365,6 @@
   {
     "url": "https://w3c.github.io/sparql-entailment/spec/",
     "shortname": "sparql12-entailment",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-federated-query/spec/",
-    "shortname": "sparql12-federated-query",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-graph-store-protocol/spec/",
-    "shortname": "sparql12-graph-store-protocol",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-protocol/spec/",
-    "shortname": "sparql12-protocol",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-query/spec/",
-    "shortname": "sparql12-query",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-results-csv-tsv/spec/",
-    "shortname": "sparql12-results-csv-tsv",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-results-json/spec/",
-    "shortname": "sparql12-results-json",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-results-xml/spec/",
-    "shortname": "sparql12-results-xml",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-service-description/spec/",
-    "shortname": "sparql12-service-description",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://w3c.github.io/sparql-update/spec/",
-    "shortname": "sparql12-update",
     "categories": [
       "-browser"
     ]
@@ -1125,6 +1013,48 @@
       "-browser"
     ]
   },
+  {
+    "url": "https://www.w3.org/TR/rdf12-concepts/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf12-n-quads/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf12-n-triples/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf12-schema/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf12-trig/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf12-turtle/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf12-xml/",
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/referrer-policy/",
   "https://www.w3.org/TR/remote-playback/",
   "https://www.w3.org/TR/reporting-1/",
@@ -1155,6 +1085,60 @@
   "https://www.w3.org/TR/selectors-nonelement-1/",
   "https://www.w3.org/TR/server-timing/",
   "https://www.w3.org/TR/service-workers/",
+  {
+    "url": "https://www.w3.org/TR/sparql12-federated-query/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-graph-store-protocol/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-protocol/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-query/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-results-csv-tsv/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-results-json/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-results-xml/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-service-description/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-update/",
+    "categories": [
+      "-browser"
+    ]
+  },
   {
     "url": "https://www.w3.org/TR/SRI/",
     "shortTitle": "SRI"

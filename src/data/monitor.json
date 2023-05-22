@@ -240,6 +240,10 @@
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet, actual content in PR https://github.com/tc39/ecma262/pull/2721"
     },
+    "tc39/proposal-decorator-metadata": {
+      "lastreviewed": "2023-05-22",
+      "comment": "template spec, no actual content yet"
+    },
     "WICG/origin-policy": {
       "lastreviewed": "2023-05-01",
       "comment": "proposal put on hold"

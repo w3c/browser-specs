@@ -4642,6 +4642,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-float16array/",
+    "seriesComposition": "full",
+    "shortname": "tc39-float16array",
+    "series": {
+      "shortname": "tc39-float16array",
+      "currentSpecification": "tc39-float16array",
+      "title": "Float16Array",
+      "shortTitle": "Float16Array",
+      "nightlyUrl": "https://tc39.es/proposal-float16array/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-float16array/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-float16array",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Float16Array",
+    "source": "spec",
+    "shortTitle": "Float16Array",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-intl-duration-format/",
     "seriesComposition": "full",
     "shortname": "tc39-intl-duration-format",

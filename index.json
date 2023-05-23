@@ -5811,7 +5811,7 @@
       "filename": "index.html"
     },
     "title": "WebDriver BiDi",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebDriver BiDi",
     "categories": [
       "browser"
@@ -14080,7 +14080,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scroll-anchoring-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "CSS Scroll Anchoring Module Level 1",
     "source": "w3c",
@@ -14131,7 +14131,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scroll-snap-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "CSS Scroll Snap Module Level 1",
     "source": "w3c",
@@ -14181,7 +14181,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scrollbars-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "CSS Scrollbars Styling Module Level 1",
     "source": "w3c",
@@ -14231,7 +14231,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-shadow-parts-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "CSS Shadow Parts",
     "source": "w3c",
@@ -14282,7 +14282,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-shapes-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "CSS Shapes Module Level 1",
     "source": "w3c",
@@ -20042,7 +20042,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "scroll-animations-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Scroll-driven Animations",
     "source": "w3c",
@@ -20331,7 +20331,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-nonelement-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Non-element Selectors Module Level 1",
     "source": "w3c",

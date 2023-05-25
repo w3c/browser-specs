@@ -16065,7 +16065,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-33/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "title": "EPUB 3.3",
@@ -16104,7 +16104,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-rs-33/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "title": "EPUB Reading Systems 3.3",

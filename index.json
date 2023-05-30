@@ -21426,8 +21426,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Working Group",
-        "url": "https://www.w3.org/WebPlatform/WG/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps"
       }
     ],
     "release": {
@@ -21466,8 +21466,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Working Group",
-        "url": "https://www.w3.org/WebPlatform/WG/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps"
       }
     ],
     "release": {
@@ -22066,7 +22066,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/web-share/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {

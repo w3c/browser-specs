@@ -42,8 +42,7 @@
  */
 
 const throttle = require("./throttle");
-const baseFetch = require("node-fetch");
-const fetch = throttle(baseFetch, 2);
+const throttledFetch = throttle(fetch, 2);
 const computeShortname = require("./compute-shortname");
 const {JSDOM} = require("jsdom");
 const JSDOMFromURL = throttle(JSDOM.fromURL, 2);
@@ -77,7 +76,7 @@ async function fetchInfoFromW3CApi(specs, options) {
     }
 
     const url = `https://api.w3.org/specifications/${spec.shortname}/versions/latest`;
-    const res = await fetch(url, options);
+    const res = await throttledFetch(url, options);
     if (res.status === 404) {
       return;
     }
@@ -132,7 +131,7 @@ async function fetchInfoFromW3CApi(specs, options) {
   // Fetch info on the series
   const seriesInfo = await Promise.all([...seriesShortnames].map(async shortname => {
     const url = `https://api.w3.org/specification-series/${shortname}`;
-    const res = await fetch(url, options);
+    const res = await throttledFetch(url, options);
     if (res.status === 404) {
       return;
     }
@@ -178,7 +177,7 @@ async function fetchInfoFromSpecref(specs, options) {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
       chunk.map(spec => spec.shortname).join(',');
 
-    const res = await fetch(specrefUrl, options);
+    const res = await throttledFetch(specrefUrl, options);
     if (res.status !== 200) {
       throw new Error(`Could not query Specref, status code is ${res.status}`);
     }

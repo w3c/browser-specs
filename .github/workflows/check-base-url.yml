@@ -10,14 +10,22 @@ jobs:
     name: Check base URL
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v1
+    - name: Setup node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: 16.x
-    - run: npm ci
-    - run: node src/check-base-url.js # sets check_list env variable
-    - uses: JasonEtco/create-an-issue@v2
+        node-version: 18
+
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Setup environment
+      run: npm ci
+
+    - name: Check base URL
+      run: node src/check-base-url.js # sets check_list env variable
+
+    - name: Report any mismatch in an issue
+      uses: JasonEtco/create-an-issue@v2
       if: ${{ env.check_list }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

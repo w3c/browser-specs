@@ -10,20 +10,30 @@ jobs:
     name: Find potential new specs
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v1
+    - name: Setup node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: 16.x
-    - run: npm ci
-    - run: node src/find-specs.js # sets candidate_list env variable
-    - uses: JasonEtco/create-an-issue@v2
+        node-version: 18
+
+    - name: Checkout latest version of release script
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Find new candidate specs
+      run: node src/find-specs.js # sets candidate_list env variable
+
+    - name: Report candidate specs in an issue
+      uses: JasonEtco/create-an-issue@v2
       if: ${{ env.candidate_list }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         filename: .github/candidate-specs.md
-    - uses: peter-evans/create-pull-request@v3
+
+    - name: Report specs to monitor in a pull request
+      uses: peter-evans/create-pull-request@v3
       if: ${{ env.monitor_list }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

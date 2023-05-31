@@ -12319,7 +12319,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-display-3/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Display Module Level 3",
     "source": "w3c",
@@ -12370,7 +12370,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-easing-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Easing Functions Level 1",
     "source": "w3c",
@@ -12623,7 +12623,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-gcpm-3/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Generated Content for Paged Media Module",
     "source": "w3c",
@@ -13210,7 +13210,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-multicol-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Multi-column Layout Module Level 1",
     "source": "w3c",
@@ -13549,7 +13549,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-page-3/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Paged Media Module Level 3",
     "source": "w3c",
@@ -13691,7 +13691,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-position-3/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Positioned Layout Module Level 3",
     "source": "w3c",
@@ -13842,7 +13842,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-regions-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Regions Module Level 1",
     "source": "w3c",
@@ -14080,7 +14080,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scroll-anchoring-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Scroll Anchoring Module Level 1",
     "source": "w3c",
@@ -14231,7 +14231,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-shadow-parts-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Shadow Parts",
     "source": "w3c",
@@ -14531,7 +14531,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-syntax-3/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Syntax Module Level 3",
     "source": "w3c",
@@ -15038,7 +15038,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-ui-3/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
     "source": "w3c",
@@ -15191,7 +15191,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-values-4/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Values and Units Module Level 4",
     "source": "w3c",
@@ -15242,7 +15242,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-variables-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Custom Properties for Cascading Variables Module Level 1",
     "source": "w3c",
@@ -15291,7 +15291,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-view-transitions-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS View Transitions Module Level 1",
     "source": "w3c",
@@ -15335,7 +15335,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-will-change-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Will Change Module Level 1",
     "source": "w3c",
@@ -15385,7 +15385,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-writing-modes-3/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Writing Modes Level 3",
     "source": "w3c",
@@ -15711,7 +15711,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "cssom-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSS Object Model (CSSOM)",
     "source": "w3c",
@@ -15761,7 +15761,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "cssom-view-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "CSSOM View Module",
     "source": "w3c",
@@ -17963,7 +17963,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "mediaqueries-4/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Media Queries Level 4",
     "source": "w3c",
@@ -18013,7 +18013,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "mediaqueries-5/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Media Queries Level 5",
     "source": "w3c",
@@ -19808,7 +19808,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "resize-observer-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Resize Observer",
     "source": "w3c",
@@ -20042,7 +20042,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "scroll-animations-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Scroll-driven Animations",
     "source": "w3c",
@@ -20281,7 +20281,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-4/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Selectors Level 4",
     "source": "w3c",
@@ -20331,7 +20331,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-nonelement-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Non-element Selectors Module Level 1",
     "source": "w3c",
@@ -21933,7 +21933,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-1/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Web Animations",
     "source": "w3c",
@@ -21983,7 +21983,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-2/Overview.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Web Animations Level 2",
     "source": "w3c",

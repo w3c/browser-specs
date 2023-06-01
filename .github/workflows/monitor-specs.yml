@@ -10,14 +10,22 @@ jobs:
     name: Update the list of monitored specs and highlights those that have changed
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v1
+    - name: Setup node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: 16.x
-    - run: npm ci
-    - run: node src/monitor-specs.js # sets review_list env variable
-    - uses: peter-evans/create-pull-request@v3
+        node-version: 18
+
+    - name: Checkout latest version of release script
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Check specs that changed since last review
+      run: node src/monitor-specs.js # sets review_list env variable
+
+    - name: Report specs to check in pull request
+      uses: peter-evans/create-pull-request@v3
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:

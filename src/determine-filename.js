@@ -9,8 +9,6 @@
  * the filename is "index.html".
  */
 
-const fetch = require("node-fetch");
-
 module.exports = async function (url) {
   // Extract filename directly from the URL when possible
   const match = url.match(/\/([^/]+\.html)$/);

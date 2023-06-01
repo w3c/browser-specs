@@ -3,8 +3,6 @@ const fs = require("fs");
 
 const core = require('@actions/core');
 
-const fetch = require("node-fetch");
-
 const {JSDOM} = require("jsdom");
 
 const computeShortname = require("./compute-shortname");

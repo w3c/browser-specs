@@ -14935,7 +14935,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-transitions-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "CSS Transitions",
     "source": "w3c",
@@ -17963,7 +17963,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "mediaqueries-4/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Media Queries Level 4",
     "source": "w3c",
@@ -18013,7 +18013,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "mediaqueries-5/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Media Queries Level 5",
     "source": "w3c",
@@ -19808,7 +19808,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "resize-observer-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Resize Observer",
     "source": "w3c",
@@ -20042,7 +20042,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "scroll-animations-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Scroll-driven Animations",
     "source": "w3c",
@@ -20281,7 +20281,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-4/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Selectors Level 4",
     "source": "w3c",
@@ -20331,7 +20331,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-nonelement-1/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Non-element Selectors Module Level 1",
     "source": "w3c",
@@ -21983,7 +21983,7 @@
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-2/Overview.bs",
-      "filename": "index.html"
+      "filename": "Overview.html"
     },
     "title": "Web Animations Level 2",
     "source": "w3c",

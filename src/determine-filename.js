@@ -27,8 +27,8 @@ module.exports = async function (url) {
 
   // Check common candidates
   const candidates = [
-    "Overview.html",
-    "index.html"
+    "index.html",
+    "Overview.html"
   ];
 
   for (const candidate of candidates) {

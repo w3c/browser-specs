@@ -21730,7 +21730,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wai-aria-1.2/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {

@@ -1,6 +1,6 @@
 {
   "name": "browser-specs",
-  "version": "3.55.1",
+  "version": "3.55.2",
   "description": "Curated list of technical Web specifications that are directly implemented or that will be implemented by Web browsers.",
   "repository": {
     "type": "git",

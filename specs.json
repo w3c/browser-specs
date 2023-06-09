@@ -430,7 +430,6 @@
   "https://wicg.github.io/keyboard-map/",
   "https://wicg.github.io/layout-instability/",
   "https://wicg.github.io/local-font-access/",
-  "https://wicg.github.io/local-network-access/",
   "https://wicg.github.io/manifest-incubations/",
   "https://wicg.github.io/media-feeds/",
   {
@@ -454,6 +453,7 @@
   "https://wicg.github.io/permissions-revoke/",
   "https://wicg.github.io/portals/",
   "https://wicg.github.io/prefer-current-tab/",
+  "https://wicg.github.io/private-network-access/",
   "https://wicg.github.io/responsive-image-client-hints/",
   "https://wicg.github.io/sanitizer-api/",
   "https://wicg.github.io/savedata/",

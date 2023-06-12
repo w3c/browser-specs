@@ -5612,39 +5612,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/rdf-semantics/spec/",
-    "seriesComposition": "full",
-    "shortname": "rdf12-semantics",
-    "series": {
-      "shortname": "rdf-semantics",
-      "currentSpecification": "rdf12-semantics",
-      "title": "RDF Semantics",
-      "shortTitle": "RDF Semantics",
-      "nightlyUrl": "https://w3c.github.io/rdf-semantics/spec/"
-    },
-    "seriesVersion": "1.2",
-    "categories": [],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/rdf-semantics/spec/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/rdf-semantics",
-      "sourcePath": "spec/index.html",
-      "filename": "index.html"
-    },
-    "title": "RDF 1.2 Semantics",
-    "source": "spec",
-    "shortTitle": "RDF 1.2 Semantics",
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/sparql-concepts/spec/",
     "seriesComposition": "full",
     "shortname": "sparql12-concepts",
@@ -5675,39 +5642,6 @@
     "title": "SPARQL 1.2 Overview",
     "source": "spec",
     "shortTitle": "SPARQL 1.2 Overview",
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/sparql-entailment/spec/",
-    "seriesComposition": "full",
-    "shortname": "sparql12-entailment",
-    "series": {
-      "shortname": "sparql-entailment",
-      "currentSpecification": "sparql12-entailment",
-      "title": "SPARQL Entailment Regimes",
-      "shortTitle": "SPARQL Entailment Regimes",
-      "nightlyUrl": "https://w3c.github.io/sparql-entailment/spec/"
-    },
-    "seriesVersion": "1.2",
-    "categories": [],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/sparql-entailment/spec/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/sparql-entailment",
-      "sourcePath": "spec/index.html",
-      "filename": "index.html"
-    },
-    "title": "SPARQL 1.2 Entailment Regimes",
-    "source": "spec",
-    "shortTitle": "SPARQL 1.2 Entailment Regimes",
     "standing": "good"
   },
   {
@@ -19345,7 +19279,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-concepts/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -19476,6 +19410,45 @@
     "title": "RDF 1.2 Schema",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Schema",
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/rdf12-semantics/",
+    "seriesComposition": "full",
+    "shortname": "rdf12-semantics",
+    "series": {
+      "shortname": "rdf-semantics",
+      "currentSpecification": "rdf12-semantics",
+      "title": "RDF Semantics",
+      "shortTitle": "RDF Semantics",
+      "releaseUrl": "https://www.w3.org/TR/rdf-semantics/",
+      "nightlyUrl": "https://w3c.github.io/rdf-semantics/spec/"
+    },
+    "seriesVersion": "1.2",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "RDF-star Working Group",
+        "url": "https://www.w3.org/groups/wg/rdf-star"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/rdf12-semantics/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/rdf-semantics/spec/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/rdf-semantics",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "RDF 1.2 Semantics",
+    "source": "w3c",
+    "shortTitle": "RDF 1.2 Semantics",
     "standing": "good"
   },
   {
@@ -20438,6 +20411,45 @@
         "service-workers"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-entailment/",
+    "seriesComposition": "full",
+    "shortname": "sparql12-entailment",
+    "series": {
+      "shortname": "sparql-entailment",
+      "currentSpecification": "sparql12-entailment",
+      "title": "SPARQL Entailment Regimes",
+      "shortTitle": "SPARQL Entailment Regimes",
+      "releaseUrl": "https://www.w3.org/TR/sparql-entailment/",
+      "nightlyUrl": "https://w3c.github.io/sparql-entailment/spec/"
+    },
+    "seriesVersion": "1.2",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "RDF-star Working Group",
+        "url": "https://www.w3.org/groups/wg/rdf-star"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/sparql12-entailment/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/sparql-entailment/spec/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/sparql-entailment",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "SPARQL 1.2 Entailment Regimes",
+    "source": "w3c",
+    "shortTitle": "SPARQL 1.2 Entailment Regimes",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/sparql12-federated-query/",

@@ -23905,7 +23905,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "window-management"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/WOFF/",

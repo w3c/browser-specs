@@ -19318,7 +19318,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-n-quads/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -19357,7 +19357,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-n-triples/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -19396,7 +19396,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-schema/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -19435,7 +19435,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-semantics/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -19513,7 +19513,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-turtle/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -19552,7 +19552,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-xml/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20435,7 +20435,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-entailment/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

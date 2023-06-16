@@ -20474,7 +20474,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-federated-query/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20513,7 +20513,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-graph-store-protocol/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20552,7 +20552,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-protocol/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20591,7 +20591,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-query/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20630,7 +20630,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-results-csv-tsv/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20669,7 +20669,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-results-json/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20708,7 +20708,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-results-xml/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20747,7 +20747,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-service-description/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20786,7 +20786,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/sparql12-update/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

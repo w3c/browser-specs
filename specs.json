@@ -592,6 +592,12 @@
   "https://www.w3.org/TR/ambient-light/",
   "https://www.w3.org/TR/appmanifest/",
   "https://www.w3.org/TR/audio-output/",
+  {
+    "url": "https://www.w3.org/TR/audiobooks/",
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/autoplay-detection/",
   "https://www.w3.org/TR/badging/",
   "https://www.w3.org/TR/battery-status/",
@@ -990,6 +996,12 @@
   "https://www.w3.org/TR/pointerlock-2/",
   "https://www.w3.org/TR/presentation-api/",
   "https://www.w3.org/TR/proximity/",
+  {
+    "url": "https://www.w3.org/TR/pub-manifest/",
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/push-api/",
   {
     "url": "https://www.w3.org/TR/rdf-canon/",
@@ -1290,6 +1302,18 @@
     "nightly": {
       "sourcePath": "woff2/index.html"
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/wpub-ann/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/wpub/",
+    "categories": [
+      "-browser"
+    ]
   },
   "https://xhr.spec.whatwg.org/"
 ]

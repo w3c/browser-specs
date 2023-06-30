@@ -335,44 +335,6 @@
     ]
   },
   {
-    "url": "https://drafts.csswg.org/css-anchor-position-1/",
-    "seriesComposition": "full",
-    "shortname": "css-anchor-position-1",
-    "series": {
-      "shortname": "css-anchor-position",
-      "currentSpecification": "css-anchor-position-1",
-      "title": "CSS Anchor Positioning",
-      "shortTitle": "CSS Anchor Positioning",
-      "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-anchor-position-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-anchor-position-1/",
-        "https://w3c.github.io/csswg-drafts/css-anchor-position/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-anchor-position-1/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Anchor Positioning",
-    "source": "spec",
-    "shortTitle": "CSS Anchor Positioning",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
     "seriesComposition": "delta",
     "shortname": "css-backgrounds-4",
@@ -5376,7 +5338,7 @@
     "groups": [
       {
         "name": "Web Editing Working Group",
-        "url": "https://www.w3.org/groups/wg/webediting"
+        "url": "https://www.w3.org/groups/wg/webediting/"
       }
     ],
     "nightly": {
@@ -5416,7 +5378,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "nightly": {
@@ -5524,7 +5486,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "nightly": {
@@ -5566,7 +5528,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "title": "The Capture-Handle Actions Mechanism",
@@ -5628,7 +5590,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "nightly": {
@@ -5767,7 +5729,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "nightly": {
@@ -10123,7 +10085,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -10169,7 +10131,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -10198,6 +10160,44 @@
         "audio-output"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/audiobooks/",
+    "seriesComposition": "full",
+    "shortname": "audiobooks",
+    "series": {
+      "shortname": "audiobooks",
+      "currentSpecification": "audiobooks",
+      "title": "Audiobooks",
+      "shortTitle": "Audiobooks",
+      "releaseUrl": "https://www.w3.org/TR/audiobooks/",
+      "nightlyUrl": "https://w3c.github.io/audiobooks/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Audiobooks Working Group",
+        "url": "https://www.w3.org/publishing/groups/publ-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/audiobooks/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/audiobooks/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/audiobooks",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Audiobooks",
+    "source": "w3c",
+    "shortTitle": "Audiobooks",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/autoplay-detection/",
@@ -10255,7 +10255,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -10401,7 +10401,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -10433,7 +10433,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -10473,7 +10473,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -10519,7 +10519,7 @@
     "groups": [
       {
         "name": "Web Editing Working Group",
-        "url": "https://www.w3.org/groups/wg/webediting"
+        "url": "https://www.w3.org/groups/wg/webediting/"
       }
     ],
     "release": {
@@ -10661,7 +10661,7 @@
       },
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -10749,7 +10749,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -10795,7 +10795,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -10842,7 +10842,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -11012,6 +11012,50 @@
         "css/css-align"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-anchor-position-1/",
+    "seriesComposition": "full",
+    "shortname": "css-anchor-position-1",
+    "series": {
+      "shortname": "css-anchor-position",
+      "currentSpecification": "css-anchor-position-1",
+      "title": "CSS Anchor Positioning",
+      "shortTitle": "CSS Anchor Positioning",
+      "releaseUrl": "https://www.w3.org/TR/css-anchor-position/",
+      "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-anchor-position-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-anchor-position-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-anchor-position-1/",
+        "https://w3c.github.io/csswg-drafts/css-anchor-position/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-anchor-position-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Anchor Positioning",
+    "source": "w3c",
+    "shortTitle": "CSS Anchor Positioning",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-animation-worklet-1/",
@@ -15904,7 +15948,7 @@
     "groups": [
       {
         "name": "Web Editing Working Group",
-        "url": "https://www.w3.org/groups/wg/webediting"
+        "url": "https://www.w3.org/groups/wg/webediting/"
       }
     ],
     "release": {
@@ -16109,7 +16153,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -16154,7 +16198,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -16339,7 +16383,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -16798,7 +16842,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -16962,7 +17006,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -17008,7 +17052,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -17050,7 +17094,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -17096,7 +17140,7 @@
     "groups": [
       {
         "name": "Web Editing Working Group",
-        "url": "https://www.w3.org/groups/wg/webediting"
+        "url": "https://www.w3.org/groups/wg/webediting/"
       }
     ],
     "release": {
@@ -17142,7 +17186,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -17442,7 +17486,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -17621,7 +17665,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -17667,7 +17711,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -17707,7 +17751,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -17753,7 +17797,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -17793,7 +17837,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -18039,7 +18083,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -18191,7 +18235,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -18284,7 +18328,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -18864,7 +18908,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -18910,7 +18954,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -19003,7 +19047,7 @@
     "groups": [
       {
         "name": "Pointer Events Working Group",
-        "url": "https://www.w3.org/groups/wg/pointer-events"
+        "url": "https://www.w3.org/groups/wg/pointer-events/"
       }
     ],
     "release": {
@@ -19050,7 +19094,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -19173,6 +19217,44 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/pub-manifest/",
+    "seriesComposition": "full",
+    "shortname": "pub-manifest",
+    "series": {
+      "shortname": "pub-manifest",
+      "currentSpecification": "pub-manifest",
+      "title": "Publication Manifest",
+      "shortTitle": "Publication Manifest",
+      "releaseUrl": "https://www.w3.org/TR/pub-manifest/",
+      "nightlyUrl": "https://w3c.github.io/pub-manifest/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Audiobooks Working Group",
+        "url": "https://www.w3.org/publishing/groups/publ-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/pub-manifest/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/pub-manifest/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/pub-manifest",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Publication Manifest",
+    "source": "w3c",
+    "shortTitle": "Publication Manifest",
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/push-api/",
     "seriesComposition": "full",
     "shortname": "push-api",
@@ -19188,7 +19270,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -19243,7 +19325,7 @@
     "groups": [
       {
         "name": "RDF Dataset Canonicalization and Hash Working Group",
-        "url": "https://www.w3.org/groups/wg/rch"
+        "url": "https://www.w3.org/groups/wg/rch/"
       }
     ],
     "release": {
@@ -19274,7 +19356,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19313,7 +19395,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19352,7 +19434,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19391,7 +19473,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19430,7 +19512,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19469,7 +19551,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19508,7 +19590,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19547,7 +19629,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -19584,7 +19666,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -19865,7 +19947,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -19911,7 +19993,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -20053,7 +20135,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -20145,7 +20227,7 @@
     "groups": [
       {
         "name": "Web Editing Working Group",
-        "url": "https://www.w3.org/groups/wg/webediting"
+        "url": "https://www.w3.org/groups/wg/webediting/"
       }
     ],
     "release": {
@@ -20430,7 +20512,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20469,7 +20551,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20508,7 +20590,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20547,7 +20629,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20586,7 +20668,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20625,7 +20707,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20664,7 +20746,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20703,7 +20785,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20742,7 +20824,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20781,7 +20863,7 @@
     "groups": [
       {
         "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star"
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
     "release": {
@@ -20819,7 +20901,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -21391,7 +21473,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -21445,7 +21527,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -21485,7 +21567,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -21517,7 +21599,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -21563,7 +21645,7 @@
     "groups": [
       {
         "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec"
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
@@ -21701,7 +21783,7 @@
     "groups": [
       {
         "name": "Web Editing Working Group",
-        "url": "https://www.w3.org/groups/wg/webediting"
+        "url": "https://www.w3.org/groups/wg/webediting/"
       }
     ],
     "release": {
@@ -21795,7 +21877,7 @@
     "groups": [
       {
         "name": "WebAssembly Working Group",
-        "url": "https://www.w3.org/groups/wg/wasm"
+        "url": "https://www.w3.org/groups/wg/wasm/"
       }
     ],
     "release": {
@@ -21839,7 +21921,7 @@
     "groups": [
       {
         "name": "WebAssembly Working Group",
-        "url": "https://www.w3.org/groups/wg/wasm"
+        "url": "https://www.w3.org/groups/wg/wasm/"
       }
     ],
     "release": {
@@ -21886,7 +21968,7 @@
     "groups": [
       {
         "name": "WebAssembly Working Group",
-        "url": "https://www.w3.org/groups/wg/wasm"
+        "url": "https://www.w3.org/groups/wg/wasm/"
       }
     ],
     "release": {
@@ -22033,7 +22115,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -22079,7 +22161,7 @@
     "groups": [
       {
         "name": "Web Applications Working Group",
-        "url": "https://www.w3.org/groups/wg/webapps"
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -22125,7 +22207,7 @@
     "groups": [
       {
         "name": "Audio Working Group",
-        "url": "https://www.w3.org/groups/wg/audio"
+        "url": "https://www.w3.org/groups/wg/audio/"
       }
     ],
     "release": {
@@ -22963,7 +23045,7 @@
     "groups": [
       {
         "name": "Audio Working Group",
-        "url": "https://www.w3.org/groups/wg/audio"
+        "url": "https://www.w3.org/groups/wg/audio/"
       }
     ],
     "release": {
@@ -23055,7 +23137,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -23101,7 +23183,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -23147,7 +23229,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -23194,7 +23276,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -23239,7 +23321,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -23286,7 +23368,7 @@
     "groups": [
       {
         "name": "Web Real-Time Communications Working Group",
-        "url": "https://www.w3.org/groups/wg/webrtc"
+        "url": "https://www.w3.org/groups/wg/webrtc/"
       }
     ],
     "release": {
@@ -24007,6 +24089,82 @@
         "css/WOFF2"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/wpub-ann/",
+    "seriesComposition": "full",
+    "shortname": "wpub-ann",
+    "series": {
+      "shortname": "wpub-ann",
+      "currentSpecification": "wpub-ann",
+      "title": "Web Annotation Extensions for Web Publications",
+      "shortTitle": "Web Annotation Extensions for Web Publications",
+      "releaseUrl": "https://www.w3.org/TR/wpub-ann/",
+      "nightlyUrl": "https://w3c.github.io/wpub-ann/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Audiobooks Working Group",
+        "url": "https://www.w3.org/publishing/groups/publ-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wpub-ann/",
+      "status": "Discontinued Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wpub-ann/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wpub-ann",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web Annotation Extensions for Web Publications",
+    "source": "w3c",
+    "shortTitle": "Web Annotation Extensions for Web Publications",
+    "standing": "discontinued"
+  },
+  {
+    "url": "https://www.w3.org/TR/wpub/",
+    "seriesComposition": "full",
+    "shortname": "wpub",
+    "series": {
+      "shortname": "wpub",
+      "currentSpecification": "wpub",
+      "title": "Web Publications",
+      "shortTitle": "Web Publications",
+      "releaseUrl": "https://www.w3.org/TR/wpub/",
+      "nightlyUrl": "https://w3c.github.io/wpub/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Audiobooks Working Group",
+        "url": "https://www.w3.org/publishing/groups/publ-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wpub/",
+      "status": "Discontinued Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wpub/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wpub",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web Publications",
+    "source": "w3c",
+    "shortTitle": "Web Publications",
+    "standing": "discontinued"
   },
   {
     "url": "https://xhr.spec.whatwg.org/",

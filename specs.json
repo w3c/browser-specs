@@ -75,7 +75,6 @@
     "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
     "standing": "good"
   },
-  "https://drafts.csswg.org/css-anchor-position-1/",
   {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
     "seriesComposition": "delta",
@@ -619,6 +618,7 @@
   "https://www.w3.org/TR/css-2022/",
   "https://www.w3.org/TR/css-2023/",
   "https://www.w3.org/TR/css-align-3/",
+  "https://www.w3.org/TR/css-anchor-position-1/",
   "https://www.w3.org/TR/css-animation-worklet-1/",
   "https://www.w3.org/TR/css-animations-1/",
   "https://www.w3.org/TR/css-animations-2/ delta",

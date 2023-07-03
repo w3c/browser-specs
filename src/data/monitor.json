@@ -311,6 +311,10 @@
     "WICG/bfcache-not-restored-reason": {
       "lastreviewed": "2023-05-01",
       "comment": "no published content yet"
+    },
+    "WICG/identity-credential": {
+      "lastreviewed": "2023-07-03",
+      "comment": "no published content yet"
     }
   },
   "specs": {

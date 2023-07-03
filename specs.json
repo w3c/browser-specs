@@ -237,6 +237,8 @@
       ]
     }
   },
+  "https://screen-share.github.io/captured-mouse-events/",
+  "https://screen-share.github.io/element-capture/",
   {
     "url": "https://sourcemaps.info/spec.html",
     "shortname": "sourcemap",

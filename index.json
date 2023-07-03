@@ -18641,7 +18641,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/paint-timing/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -18652,9 +18652,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Paint Timing 1",
+    "title": "Paint Timing",
     "source": "w3c",
-    "shortTitle": "Paint Timing 1",
+    "shortTitle": "Paint Timing",
     "categories": [
       "browser"
     ],

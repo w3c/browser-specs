@@ -16106,7 +16106,7 @@
       "title": "Event Timing API",
       "shortTitle": "Event Timing API",
       "releaseUrl": "https://www.w3.org/TR/event-timing/",
-      "nightlyUrl": "https://w3c.github.io/event-timing"
+      "nightlyUrl": "https://w3c.github.io/event-timing/"
     },
     "organization": "W3C",
     "groups": [
@@ -16117,11 +16117,11 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/event-timing/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/event-timing",
+      "url": "https://w3c.github.io/event-timing/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/event-timing",
@@ -16343,7 +16343,7 @@
     "groups": [
       {
         "name": "Privacy Interest Group",
-        "url": "https://www.w3.org/Privacy/"
+        "url": "https://www.w3.org/Privacy/IG/"
       }
     ],
     "release": {
@@ -17399,7 +17399,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/longtasks-1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -17410,9 +17410,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Long Tasks API 1",
+    "title": "Long Tasks API",
     "source": "w3c",
-    "shortTitle": "Long Tasks API 1",
+    "shortTitle": "Long Tasks API",
     "categories": [
       "browser"
     ],

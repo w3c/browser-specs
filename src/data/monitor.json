@@ -311,6 +311,10 @@
     "WICG/bfcache-not-restored-reason": {
       "lastreviewed": "2023-07-01",
       "comment": "no published content yet"
+    },
+    "WICG/identity-credential": {
+      "lastreviewed": "2023-07-03",
+      "comment": "no published content yet"
     }
   },
   "specs": {
@@ -365,10 +369,6 @@
     "https://www.w3.org/TR/css-device-adapt-1/": {
       "lastreviewed": "2023-07-01",
       "comment": "spec should be retired in 2023, see https://github.com/w3c/browser-specs/issues/837, replaced by css-viewport"
-    },
-    "https://screen-share.github.io/element-capture/": {
-      "lastreviewed": "2023-07-01",
-      "comment": "Spec could be added but w3c.json is missing from the repository"
     }
   }
 }

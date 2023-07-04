@@ -4027,6 +4027,80 @@
     "standing": "good"
   },
   {
+    "url": "https://screen-share.github.io/captured-mouse-events/",
+    "seriesComposition": "full",
+    "shortname": "captured-mouse-events",
+    "series": {
+      "shortname": "captured-mouse-events",
+      "currentSpecification": "captured-mouse-events",
+      "title": "Captured Mouse Events",
+      "shortTitle": "Captured Mouse Events",
+      "nightlyUrl": "https://screen-share.github.io/captured-mouse-events/"
+    },
+    "nightly": {
+      "url": "https://screen-share.github.io/captured-mouse-events/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/screen-share/captured-mouse-events",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Screen Capture Community Group",
+        "url": "https://www.w3.org/community/sccg/"
+      }
+    ],
+    "title": "Captured Mouse Events",
+    "source": "spec",
+    "shortTitle": "Captured Mouse Events",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "captured-mouse-events"
+      ]
+    }
+  },
+  {
+    "url": "https://screen-share.github.io/element-capture/",
+    "seriesComposition": "full",
+    "shortname": "element-capture",
+    "series": {
+      "shortname": "element-capture",
+      "currentSpecification": "element-capture",
+      "title": "Element Capture",
+      "shortTitle": "Element Capture",
+      "nightlyUrl": "https://screen-share.github.io/element-capture/"
+    },
+    "nightly": {
+      "url": "https://screen-share.github.io/element-capture/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/screen-share/element-capture",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Screen Capture Community Group",
+        "url": "https://www.w3.org/community/sccg/"
+      }
+    ],
+    "title": "Element Capture",
+    "source": "spec",
+    "shortTitle": "Element Capture",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://sourcemaps.info/spec.html",
     "seriesComposition": "full",
     "shortname": "sourcemap",
@@ -16106,7 +16180,7 @@
       "title": "Event Timing API",
       "shortTitle": "Event Timing API",
       "releaseUrl": "https://www.w3.org/TR/event-timing/",
-      "nightlyUrl": "https://w3c.github.io/event-timing"
+      "nightlyUrl": "https://w3c.github.io/event-timing/"
     },
     "organization": "W3C",
     "groups": [
@@ -16117,11 +16191,11 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/event-timing/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/event-timing",
+      "url": "https://w3c.github.io/event-timing/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/event-timing",
@@ -16343,7 +16417,7 @@
     "groups": [
       {
         "name": "Privacy Interest Group",
-        "url": "https://www.w3.org/Privacy/"
+        "url": "https://www.w3.org/Privacy/IG/"
       }
     ],
     "release": {
@@ -17399,7 +17473,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/longtasks-1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -17410,9 +17484,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Long Tasks API 1",
+    "title": "Long Tasks API",
     "source": "w3c",
-    "shortTitle": "Long Tasks API 1",
+    "shortTitle": "Long Tasks API",
     "categories": [
       "browser"
     ],
@@ -18641,7 +18715,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/paint-timing/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -18652,9 +18726,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Paint Timing 1",
+    "title": "Paint Timing",
     "source": "w3c",
-    "shortTitle": "Paint Timing 1",
+    "shortTitle": "Paint Timing",
     "categories": [
       "browser"
     ],

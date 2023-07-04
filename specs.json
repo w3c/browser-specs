@@ -237,8 +237,18 @@
       ]
     }
   },
-  "https://screen-share.github.io/captured-mouse-events/",
-  "https://screen-share.github.io/element-capture/",
+  {
+    "url": "https://screen-share.github.io/captured-mouse-events/",
+    "nightly": {
+      "status": "Draft Community Group Report"
+    }
+  },
+  {
+    "url": "https://screen-share.github.io/element-capture/",
+    "nightly": {
+      "status": "Draft Community Group Report"
+    }
+  },
   {
     "url": "https://sourcemaps.info/spec.html",
     "shortname": "sourcemap",

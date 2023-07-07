@@ -5160,8 +5160,8 @@
     "series": {
       "shortname": "tc39-resizablearraybuffer",
       "currentSpecification": "tc39-resizablearraybuffer",
-      "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
-      "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+      "title": "In preparation of Stage 4, please use ecma262#3116.",
+      "shortTitle": "In preparation of Stage 4, please use ecma262#3116.",
       "nightlyUrl": "https://tc39.es/proposal-resizablearraybuffer/"
     },
     "organization": "Ecma International",
@@ -5179,9 +5179,9 @@
       "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "title": "In preparation of Stage 4, please use ecma262#3116.",
     "source": "spec",
-    "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "shortTitle": "In preparation of Stage 4, please use ecma262#3116.",
     "categories": [
       "browser"
     ],

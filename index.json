@@ -106,7 +106,7 @@
       "filename": "draft-cutler-httpbis-partitioned-cookies.html"
     },
     "title": "Cookies Having Independent Partitioned State specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Cookies Having Independent Partitioned State specification",
     "categories": [
       "browser"
@@ -140,7 +140,7 @@
       "filename": "draft-davidben-http-client-hint-reliability-03.html"
     },
     "title": "Client Hint Reliability",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Client Hint Reliability",
     "categories": [
       "browser"
@@ -174,7 +174,7 @@
       "filename": "draft-ietf-httpbis-digest-headers.html"
     },
     "title": "Digest Fields",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Digest Fields",
     "categories": [
       "browser"
@@ -208,7 +208,7 @@
       "filename": "draft-ietf-httpbis-rfc6265bis.html"
     },
     "title": "Cookies: HTTP State Management Mechanism",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Cookies: HTTP State Management Mechanism",
     "categories": [
       "browser"
@@ -286,7 +286,7 @@
       "filename": "Overview.html"
     },
     "title": "CSS Typed OM Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Typed OM 2",
     "categories": [
       "browser"
@@ -328,7 +328,7 @@
       "filename": "Overview.html"
     },
     "title": "Font Metrics API Level 1",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Font Metrics API 1",
     "categories": [
       "browser"
@@ -411,7 +411,7 @@
       "filename": "index.html"
     },
     "title": "CSS Color Module Level 6",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Color 6",
     "categories": [
       "browser"
@@ -453,7 +453,7 @@
       "filename": "index.html"
     },
     "title": "CSS Color HDR Module Level 1",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Color HDR 1",
     "categories": [
       "browser"
@@ -491,7 +491,7 @@
       "filename": "index.html"
     },
     "title": "CSS Conditional Values Module Level 1",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Conditional Values 1",
     "categories": [
       "browser"
@@ -530,7 +530,7 @@
       "filename": "index.html"
     },
     "title": "CSS Display Module Level 4",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Display 4",
     "categories": [
       "browser"
@@ -575,7 +575,7 @@
       "filename": "index.html"
     },
     "title": "CSS Easing Functions Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Easing Functions 2",
     "categories": [
       "browser"
@@ -619,7 +619,7 @@
       "filename": "index.html"
     },
     "title": "CSS Environment Variables Module Level 1",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Environment Variables 1",
     "categories": [
       "browser"
@@ -663,7 +663,7 @@
       "filename": "index.html"
     },
     "title": "CSS Extensions",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Extensions",
     "categories": [
       "browser"
@@ -701,7 +701,7 @@
       "filename": "index.html"
     },
     "title": "CSS Form Styling Module Level 1",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Form Styling 1",
     "categories": [
       "browser"
@@ -741,7 +741,7 @@
       "filename": "index.html"
     },
     "title": "CSS Generated Content for Paged Media Module Level 4",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -785,7 +785,7 @@
       "filename": "index.html"
     },
     "title": "CSS Grid Layout Module Level 3",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Grid Layout 3",
     "categories": [
       "browser"
@@ -830,7 +830,7 @@
       "filename": "index.html"
     },
     "title": "CSS Images Module Level 5",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Images 5",
     "categories": [
       "browser"
@@ -874,7 +874,7 @@
       "filename": "index.html"
     },
     "title": "CSS Linked Parameters",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Linked Parameters",
     "categories": [
       "browser"
@@ -914,7 +914,7 @@
       "filename": "index.html"
     },
     "title": "CSS Multi-column Layout Module Level 2",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -958,7 +958,7 @@
       "filename": "index.html"
     },
     "title": "Proposals for the future of CSS Paged Media",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Proposals for the future of CSS Paged Media",
     "categories": [
       "browser"
@@ -1003,7 +1003,7 @@
       "filename": "index.html"
     },
     "title": "CSS Positioned Layout Module Level 4",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Positioned Layout 4",
     "categories": [
       "browser"
@@ -1048,7 +1048,7 @@
       "filename": "index.html"
     },
     "title": "CSS Scroll Snap Module Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Scroll Snap 2",
     "categories": [
       "browser"
@@ -1093,7 +1093,7 @@
       "filename": "index.html"
     },
     "title": "CSS Shapes Module Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Shapes 2",
     "categories": [
       "browser"
@@ -1138,7 +1138,7 @@
       "filename": "index.html"
     },
     "title": "CSS Mobile Text Size Adjustment Module Level 1",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -1182,7 +1182,7 @@
       "filename": "index.html"
     },
     "title": "CSS Transitions Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Transitions 2",
     "categories": [
       "browser"
@@ -1228,7 +1228,7 @@
       "filename": "index.html"
     },
     "title": "CSS Values and Units Module Level 5",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -1273,7 +1273,7 @@
       "filename": "index.html"
     },
     "title": "CSS Custom Properties for Cascading Variables Module Level 2",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -1314,7 +1314,7 @@
       "filename": "index.html"
     },
     "title": "CSS Viewport Module Level 1",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CSS Viewport 1",
     "categories": [
       "browser"
@@ -1352,7 +1352,7 @@
       "filename": "Overview.html"
     },
     "title": "Compositing and Blending Level 2",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -1394,7 +1394,7 @@
       "filename": "Overview.html"
     },
     "title": "Filter Effects Module Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Filter Effects 2",
     "categories": [
       "browser"
@@ -1474,7 +1474,7 @@
       "filename": "index.html"
     },
     "title": "Federated Credential Management API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Federated Credential Management API",
     "categories": [
       "browser"
@@ -1552,7 +1552,7 @@
       "filename": "fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
     },
     "title": "Client to Authenticator Protocol (CTAP)",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "CTAP",
     "categories": [
       "browser"
@@ -1779,7 +1779,7 @@
       "filename": "index.html"
     },
     "title": "WebXR Anchors Module",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebXR Anchors",
     "categories": [
       "browser"
@@ -1819,7 +1819,7 @@
       "filename": "index.html"
     },
     "title": "The <model> element",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "The <model> element",
     "categories": [
       "browser"
@@ -1853,7 +1853,7 @@
       "filename": "index.html"
     },
     "title": "WebXR Raw Camera Access Module",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebXR Raw Camera Access",
     "categories": [
       "browser"
@@ -1887,7 +1887,7 @@
       "filename": "index.html"
     },
     "title": "WebXR Mesh Detection Module",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebXR Mesh Detection",
     "categories": [
       "browser"
@@ -2035,7 +2035,7 @@
       "filename": "index.html"
     },
     "title": "Global Privacy Control (GPC)",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "GPC",
     "categories": [
       "browser"
@@ -2069,7 +2069,7 @@
       "filename": "index.html"
     },
     "title": "Navigational-Tracking Mitigations",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Navigational-Tracking Mitigations",
     "categories": [
       "browser"
@@ -2103,7 +2103,7 @@
       "filename": "index.html"
     },
     "title": "Private Click Measurement",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Private Click Measurement",
     "categories": [
       "browser"
@@ -2137,7 +2137,7 @@
       "filename": "index.html"
     },
     "title": "requestStorageAccessFor API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "requestStorageAccessFor API",
     "categories": [
       "browser"
@@ -2171,7 +2171,7 @@
       "filename": "index.html"
     },
     "title": "The Storage Access API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "The Storage Access API",
     "categories": [
       "browser"
@@ -2251,7 +2251,7 @@
       "filename": "index.html"
     },
     "title": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -2291,7 +2291,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_blend_minmax Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_blend_minmax Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -2331,7 +2331,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_color_buffer_float Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_color_buffer_float Extension",
     "categories": [
       "browser"
@@ -2371,7 +2371,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_color_buffer_half_float Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_color_buffer_half_float Extension",
     "categories": [
       "browser"
@@ -2411,7 +2411,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_disjoint_timer_query_webgl2 Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_disjoint_timer_query_webgl2 Extension",
     "categories": [
       "browser"
@@ -2451,7 +2451,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_disjoint_timer_query Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_disjoint_timer_query Extension",
     "categories": [
       "browser"
@@ -2491,7 +2491,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_float_blend Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_float_blend Extension",
     "categories": [
       "browser"
@@ -2531,7 +2531,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_frag_depth Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_frag_depth Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -2571,7 +2571,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_shader_texture_lod Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_shader_texture_lod Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -2611,7 +2611,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_sRGB Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_sRGB Extension",
     "categories": [
       "browser"
@@ -2651,7 +2651,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_texture_compression_bptc Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_texture_compression_bptc Extension",
     "categories": [
       "browser"
@@ -2691,7 +2691,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_texture_compression_rgtc Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_texture_compression_rgtc Extension",
     "categories": [
       "browser"
@@ -2731,7 +2731,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_texture_filter_anisotropic Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_texture_filter_anisotropic Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -2771,7 +2771,7 @@
       "filename": "index.html"
     },
     "title": "WebGL EXT_texture_norm16 Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL EXT_texture_norm16 Extension",
     "categories": [
       "browser"
@@ -2811,7 +2811,7 @@
       "filename": "index.html"
     },
     "title": "WebGL KHR_parallel_shader_compile Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL KHR_parallel_shader_compile Extension",
     "categories": [
       "browser"
@@ -2851,7 +2851,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_draw_buffers_indexed Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_draw_buffers_indexed Extension",
     "categories": [
       "browser"
@@ -2891,7 +2891,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_element_index_uint Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_element_index_uint Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -2931,7 +2931,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_fbo_render_mipmap Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_fbo_render_mipmap Extension",
     "categories": [
       "browser"
@@ -2971,7 +2971,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_standard_derivatives Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_standard_derivatives Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3011,7 +3011,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_texture_float_linear Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_texture_float_linear Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3051,7 +3051,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_texture_float Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_texture_float Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3091,7 +3091,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_texture_half_float_linear Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_texture_half_float_linear Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3131,7 +3131,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_texture_half_float Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_texture_half_float Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3171,7 +3171,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OES_vertex_array_object Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OES_vertex_array_object Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3211,7 +3211,7 @@
       "filename": "index.html"
     },
     "title": "WebGL OVR_multiview2 Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL OVR_multiview2 Extension",
     "categories": [
       "browser"
@@ -3251,7 +3251,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_blend_equation_advanced_coherent Extension Draft Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_blend_equation_advanced_coherent Extension Draft",
     "categories": [
       "browser"
@@ -3291,7 +3291,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_clip_cull_distance Extension Draft",
     "categories": [
       "browser"
@@ -3331,7 +3331,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_color_buffer_float Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_color_buffer_float Extension",
     "categories": [
       "browser"
@@ -3371,7 +3371,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_compressed_texture_astc Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_compressed_texture_astc Extension",
     "categories": [
       "browser"
@@ -3411,7 +3411,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_compressed_texture_etc Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_compressed_texture_etc Extension",
     "categories": [
       "browser"
@@ -3451,7 +3451,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_compressed_texture_etc1 Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_compressed_texture_etc1 Extension",
     "categories": [
       "browser"
@@ -3491,7 +3491,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_compressed_texture_pvrtc Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_compressed_texture_pvrtc Extension",
     "categories": [
       "browser"
@@ -3531,7 +3531,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_compressed_texture_s3tc_srgb Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_compressed_texture_s3tc_srgb Extension",
     "categories": [
       "browser"
@@ -3571,7 +3571,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_compressed_texture_s3tc Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_compressed_texture_s3tc Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3611,7 +3611,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_debug_renderer_info Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_debug_renderer_info Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3651,7 +3651,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_debug_shaders Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_debug_shaders Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3691,7 +3691,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_depth_texture Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_depth_texture Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3731,7 +3731,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_draw_buffers Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_draw_buffers Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3771,7 +3771,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_draw_instanced_base_vertex_base_instance Extension Draft Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_draw_instanced_base_vertex_base_instance Extension Draft",
     "categories": [
       "browser"
@@ -3811,7 +3811,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_lose_context Khronos Ratified Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_lose_context Khronos Ratified Extension",
     "categories": [
       "browser"
@@ -3851,7 +3851,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_multi_draw_instanced_base_vertex_base_instance Extension Draft Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_multi_draw_instanced_base_vertex_base_instance Extension Draft",
     "categories": [
       "browser"
@@ -3891,7 +3891,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_multi_draw Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_multi_draw Extension",
     "categories": [
       "browser"
@@ -3931,7 +3931,7 @@
       "filename": "index.html"
     },
     "title": "WebGL WEBGL_provoking_vertex Extension Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL WEBGL_provoking_vertex Extension",
     "categories": [
       "browser"
@@ -3978,7 +3978,7 @@
       }
     ],
     "title": "WebGL Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL",
     "categories": [
       "browser"
@@ -4019,7 +4019,7 @@
       }
     ],
     "title": "WebGL 2.0 Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebGL 2.0",
     "categories": [
       "browser"
@@ -4053,7 +4053,7 @@
       }
     ],
     "title": "Captured Mouse Events",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Captured Mouse Events",
     "categories": [
       "browser"
@@ -4093,7 +4093,7 @@
       }
     ],
     "title": "Element Capture",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Element Capture",
     "categories": [
       "browser"
@@ -4126,7 +4126,7 @@
       "filename": "spec.html"
     },
     "title": "Source Map Revision 3 Proposal",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -4242,7 +4242,7 @@
       "filename": "Overview.html"
     },
     "title": "SVG Animations Level 2",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "SVG Animations 2",
     "categories": [
       "browser"
@@ -4399,7 +4399,7 @@
       "filename": "index.html"
     },
     "title": "Proposal-array-find-from-last",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Proposal-array-find-from-last",
     "categories": [
       "browser"
@@ -4433,7 +4433,7 @@
       "filename": "index.html"
     },
     "title": "ES Array.fromAsync (2022)",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "2022",
     "categories": [
       "browser"
@@ -4467,7 +4467,7 @@
       "filename": "index.html"
     },
     "title": "Array Grouping",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Array Grouping",
     "categories": [
       "browser"
@@ -4501,7 +4501,7 @@
       "filename": "index.html"
     },
     "title": "ArrayBuffer transfer",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "ArrayBuffer transfer",
     "categories": [
       "browser"
@@ -4535,7 +4535,7 @@
       "filename": "index.html"
     },
     "title": "ECMAScript Async Explicit Resource Management",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "ECMAScript Async Explicit Resource Management",
     "categories": [
       "browser"
@@ -4569,7 +4569,7 @@
       "filename": "index.html"
     },
     "title": "Atomics.waitAsync",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Atomics.waitAsync",
     "categories": [
       "browser"
@@ -4603,7 +4603,7 @@
       "filename": "index.html"
     },
     "title": "Change Array by copy",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Change Array by copy",
     "categories": [
       "browser"
@@ -4636,7 +4636,7 @@
       "filename": "index.html"
     },
     "title": "Decorators proposal",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Decorators proposal",
     "categories": [
       "browser"
@@ -4670,7 +4670,7 @@
       "filename": "index.html"
     },
     "title": "ECMAScript Explicit Resource Management",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "ECMAScript Explicit Resource Management",
     "categories": [
       "browser"
@@ -4704,7 +4704,7 @@
       "filename": "index.html"
     },
     "title": "Float16Array",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Float16Array",
     "categories": [
       "browser"
@@ -4738,7 +4738,7 @@
       "filename": "index.html"
     },
     "title": "Intl.DurationFormat",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intl.DurationFormat",
     "categories": [
       "browser"
@@ -4772,7 +4772,7 @@
       "filename": "index.html"
     },
     "title": "Intl Enumeration API Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intl Enumeration API",
     "categories": [
       "browser"
@@ -4806,7 +4806,7 @@
       "filename": "index.html"
     },
     "title": "Extend TimeZoneName Option Proposal",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Extend TimeZoneName Option",
     "categories": [
       "browser"
@@ -4840,7 +4840,7 @@
       "filename": "index.html"
     },
     "title": "Intl Locale Info Proposal",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intl Locale Info",
     "categories": [
       "browser"
@@ -4874,7 +4874,7 @@
         "url": "https://tc39.es/"
       }
     ],
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intl Annexes",
     "categories": [
       "browser"
@@ -4908,7 +4908,7 @@
         "url": "https://tc39.es/"
       }
     ],
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intl Parameter Resolution",
     "categories": [
       "browser"
@@ -4942,7 +4942,7 @@
         "url": "https://tc39.es/"
       }
     ],
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intl.NumberFormat",
     "categories": [
       "browser"
@@ -4976,7 +4976,7 @@
         "url": "https://tc39.es/"
       }
     ],
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intl.PluralRules",
     "categories": [
       "browser"
@@ -5010,7 +5010,7 @@
       "filename": "index.html"
     },
     "title": "Well-Formed Unicode Strings",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Well-Formed Unicode Strings",
     "categories": [
       "browser"
@@ -5044,7 +5044,7 @@
       "filename": "index.html"
     },
     "title": "Iterator Helpers",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Iterator Helpers",
     "categories": [
       "browser"
@@ -5078,7 +5078,7 @@
       "filename": "index.html"
     },
     "title": "JSON modules",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "JSON modules",
     "categories": [
       "browser"
@@ -5112,7 +5112,7 @@
       "filename": "index.html"
     },
     "title": "JSON.parse source text access",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "JSON.parse source text access",
     "categories": [
       "browser"
@@ -5146,7 +5146,7 @@
       "filename": "index.html"
     },
     "title": "Regular Expression Pattern Modifiers for ECMAScript",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
     "categories": [
       "browser"
@@ -5160,8 +5160,8 @@
     "series": {
       "shortname": "tc39-resizablearraybuffer",
       "currentSpecification": "tc39-resizablearraybuffer",
-      "title": "In preparation of Stage 4, please use ecma262#3116.",
-      "shortTitle": "In preparation of Stage 4, please use ecma262#3116.",
+      "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+      "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
       "nightlyUrl": "https://tc39.es/proposal-resizablearraybuffer/"
     },
     "organization": "Ecma International",
@@ -5179,9 +5179,9 @@
       "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "In preparation of Stage 4, please use ecma262#3116.",
-    "source": "spec",
-    "shortTitle": "In preparation of Stage 4, please use ecma262#3116.",
+    "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "source": "specref",
+    "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
     "categories": [
       "browser"
     ],
@@ -5214,7 +5214,7 @@
       "filename": "index.html"
     },
     "title": "Set methods",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Set methods",
     "categories": [
       "browser"
@@ -5248,7 +5248,7 @@
       "filename": "index.html"
     },
     "title": "ShadowRealm API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "ShadowRealm API",
     "categories": [
       "browser"
@@ -5282,7 +5282,7 @@
       "filename": "index.html"
     },
     "title": "Symbol as WeakMap Keys Proposal",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Symbol as WeakMap Keys",
     "categories": [
       "browser"
@@ -5316,7 +5316,7 @@
       "filename": "index.html"
     },
     "title": "Temporal proposal",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Temporal proposal",
     "categories": [
       "browser"
@@ -5424,7 +5424,7 @@
       "filename": "index.html"
     },
     "title": "ContentEditable",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "ContentEditable",
     "categories": [
       "browser"
@@ -5464,7 +5464,7 @@
       "filename": "extensions.html"
     },
     "title": "Gamepad Extensions",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Gamepad Extensions",
     "categories": [
       "browser"
@@ -5498,7 +5498,7 @@
       "filename": "index.html"
     },
     "title": "MathML Accessiblity API Mappings 1.0",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "MathML Accessiblity API Mappings 1.0",
     "categories": [
       "browser"
@@ -5572,7 +5572,7 @@
       "filename": "index.html"
     },
     "title": "Media Capture Automation",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Media Capture Automation",
     "categories": [
       "browser"
@@ -5606,7 +5606,7 @@
       }
     ],
     "title": "The Capture-Handle Actions Mechanism",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "The Capture-Handle Actions Mechanism",
     "categories": [
       "browser"
@@ -5676,7 +5676,7 @@
       "filename": "index.html"
     },
     "title": "SPARQL 1.2 Overview",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "SPARQL 1.2 Overview",
     "standing": "good"
   },
@@ -5815,7 +5815,7 @@
       "filename": "index.html"
     },
     "title": "IceTransport Extensions for WebRTC",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "IceTransport Extensions for WebRTC",
     "categories": [
       "browser"
@@ -5858,7 +5858,7 @@
       "filename": "index.html"
     },
     "title": "WebAssembly JavaScript Interface: Exception Handling",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebAssembly JavaScript Interface: Exception Handling",
     "categories": [
       "browser"
@@ -6012,7 +6012,7 @@
       "filename": "index.html"
     },
     "title": "Attribution Reporting",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Attribution Reporting",
     "categories": [
       "browser"
@@ -6126,7 +6126,7 @@
       "filename": "spec.html"
     },
     "title": "Capability Delegation",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Capability Delegation",
     "categories": [
       "browser"
@@ -6200,7 +6200,7 @@
       "filename": "index.html"
     },
     "title": "Close Watcher API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Close Watcher API",
     "categories": [
       "browser"
@@ -6280,7 +6280,7 @@
       "filename": "index.html"
     },
     "title": "Content Index",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Content Index",
     "categories": [
       "browser"
@@ -6360,7 +6360,7 @@
       "filename": "index.html"
     },
     "title": "Crash Reporting",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Crash Reporting",
     "categories": [
       "browser"
@@ -6394,7 +6394,7 @@
       }
     ],
     "title": "Scripting Policy",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Scripting Policy",
     "categories": [
       "browser"
@@ -6468,7 +6468,7 @@
       "filename": "index.html"
     },
     "title": "Custom State Pseudo Class",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Custom State Pseudo Class",
     "categories": [
       "browser"
@@ -6508,7 +6508,7 @@
       "filename": "index.html"
     },
     "title": "DataCue API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "DataCue API",
     "categories": [
       "browser"
@@ -6542,7 +6542,7 @@
       "filename": "index.html"
     },
     "title": "Deprecation Reporting",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Deprecation Reporting",
     "categories": [
       "browser"
@@ -6582,7 +6582,7 @@
       "filename": "index.html"
     },
     "title": "Digital Goods API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Digital Goods API",
     "categories": [
       "browser"
@@ -6616,7 +6616,7 @@
       }
     ],
     "title": "Direct Sockets API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Direct Sockets API",
     "categories": [
       "browser"
@@ -6650,7 +6650,7 @@
       "filename": "index.html"
     },
     "title": "Document Picture-in-Picture Specification",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Document Picture-in-Picture",
     "categories": [
       "browser"
@@ -6810,7 +6810,7 @@
       "filename": "index.html"
     },
     "title": "EyeDropper API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "EyeDropper API",
     "categories": [
       "browser"
@@ -6844,7 +6844,7 @@
       "filename": "index.html"
     },
     "title": "Fenced Frame",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Fenced Frame",
     "categories": [
       "browser"
@@ -6918,7 +6918,7 @@
       "filename": "index.html"
     },
     "title": "User Agent Interaction with First-Party Sets",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "User Agent Interaction with First-Party Sets",
     "categories": [
       "browser"
@@ -6952,7 +6952,7 @@
       "filename": "index.html"
     },
     "title": "Get Installed Related Apps API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Get Installed Related Apps API",
     "categories": [
       "browser"
@@ -7032,7 +7032,7 @@
       "filename": "index.html"
     },
     "title": "Ink API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Ink API",
     "categories": [
       "browser"
@@ -7106,7 +7106,7 @@
       "filename": "index.html"
     },
     "title": "Intervention Reporting",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Intervention Reporting",
     "categories": [
       "browser"
@@ -7146,7 +7146,7 @@
       "filename": "index.html"
     },
     "title": "isInputPending",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "isInputPending",
     "categories": [
       "browser"
@@ -7414,7 +7414,7 @@
       "filename": "index.html"
     },
     "title": "Media Feeds",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Media Feeds",
     "categories": [
       "browser"
@@ -7448,7 +7448,7 @@
       "filename": "prefetch.html"
     },
     "title": "Prefetch",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Prefetch",
     "categories": [
       "browser"
@@ -7482,7 +7482,7 @@
       "filename": "prerendering.html"
     },
     "title": "Prerendering Revamped",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Prerendering Revamped",
     "categories": [
       "browser"
@@ -7516,7 +7516,7 @@
       "filename": "speculation-rules.html"
     },
     "title": "Speculation Rules",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Speculation Rules",
     "categories": [
       "browser"
@@ -7590,7 +7590,7 @@
       "filename": "index.html"
     },
     "title": "overscroll and scrollend events",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "overscroll and scrollend events",
     "categories": [
       "browser"
@@ -7665,7 +7665,7 @@
       "filename": "index.html"
     },
     "title": "Measure Memory API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Measure Memory API",
     "categories": [
       "browser"
@@ -7825,7 +7825,7 @@
       "filename": "index.html"
     },
     "title": "Portals",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Portals",
     "categories": [
       "browser"
@@ -7899,7 +7899,7 @@
       "filename": "index.html"
     },
     "title": "Private Network Access",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Private Network Access",
     "categories": [
       "browser"
@@ -7939,7 +7939,7 @@
       "filename": "index.html"
     },
     "title": "Responsive Image Client Hints",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Responsive Image Client Hints",
     "categories": [
       "browser"
@@ -7973,7 +7973,7 @@
       "filename": "index.html"
     },
     "title": "HTML Sanitizer API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "HTML Sanitizer API",
     "categories": [
       "browser"
@@ -8013,7 +8013,7 @@
       "filename": "index.html"
     },
     "title": "Save Data API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Save Data API",
     "categories": [
       "browser"
@@ -8093,7 +8093,7 @@
       "filename": "index.html"
     },
     "title": "URL Fragment Text Directives",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "URL Fragment Text Directives",
     "categories": [
       "browser"
@@ -8133,7 +8133,7 @@
       "filename": "index.html"
     },
     "title": "Web Serial API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Web Serial API",
     "categories": [
       "browser"
@@ -8247,7 +8247,7 @@
       "filename": "index.html"
     },
     "title": "Shared Storage API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Shared Storage API",
     "categories": [
       "browser"
@@ -8355,7 +8355,7 @@
       "filename": "index.html"
     },
     "title": "Storage Buckets API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Storage Buckets API",
     "categories": [
       "browser"
@@ -8389,7 +8389,7 @@
       "filename": "index.html"
     },
     "title": "Private State Token API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Private State Token API",
     "categories": [
       "browser"
@@ -8424,7 +8424,7 @@
       "filename": "index.html"
     },
     "title": "Protected Audience (formerly FLEDGE)",
-    "source": "spec",
+    "source": "specref",
     "categories": [
       "browser"
     ],
@@ -8457,7 +8457,7 @@
       "filename": "index.html"
     },
     "title": "User-Agent Client Hints",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "User-Agent Client Hints",
     "categories": [
       "browser"
@@ -8497,7 +8497,7 @@
       "filename": "index.html"
     },
     "title": "URLPattern API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "URLPattern API",
     "categories": [
       "browser"
@@ -8531,7 +8531,7 @@
       "filename": "index.html"
     },
     "title": "User Preference Media Features Client Hints Headers",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "User Preference Media Features Client Hints Headers",
     "categories": [
       "browser"
@@ -8565,7 +8565,7 @@
       "filename": "index.html"
     },
     "title": "HTMLVideoElement.requestVideoFrameCallback()",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "HTMLVideoElement.requestVideoFrameCallback()",
     "categories": [
       "browser"
@@ -8639,7 +8639,7 @@
       "filename": "index.html"
     },
     "title": "WebOTP API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebOTP API",
     "categories": [
       "browser"
@@ -8679,7 +8679,7 @@
       "filename": "index.html"
     },
     "title": "Secure Curves in the Web Cryptography API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Secure Curves in the Web Cryptography API",
     "categories": [
       "browser"
@@ -8713,7 +8713,7 @@
       "filename": "index.html"
     },
     "title": "WebHID API",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "WebHID API",
     "categories": [
       "browser"
@@ -8753,7 +8753,7 @@
       "filename": "loading.html"
     },
     "title": "Loading Signed Exchanges",
-    "source": "spec",
+    "source": "specref",
     "shortTitle": "Loading Signed Exchanges",
     "categories": [
       "browser"

@@ -172,6 +172,18 @@ async function fetchInfoFromSpecref(specs, options) {
     return chunks;
   }
 
+  // Browser-specs contributes specs to Specref. By definition, we cannot rely
+  // on information from Specref about these specs. Unfortunately, the Specref
+  // API does not return the "source" field, so we need to retrieve the list
+  // ourselves from Specref's GitHub repository.
+  const specrefBrowserspecsUrl = "https://raw.githubusercontent.com/tobie/specref/main/refs/browser-specs.json";
+  const browserSpecsResponse = await throttledFetch(specrefBrowserspecsUrl, options);
+  if (browserSpecsResponse.status !== 200) {
+    throw new Error(`Could not retrieve specs contributed by browser-specs to Speref, status code is ${browserSpecsResponse.status}`);
+  }
+  const browserSpecs = await browserSpecsResponse.json();
+  specs = specs.filter(spec => !browserSpecs[spec.shortname.toUpperCase()]);
+
   const chunks = chunkArray(specs, 50);
   const chunksRes = await Promise.all(chunks.map(async chunk => {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +

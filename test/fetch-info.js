@@ -56,6 +56,16 @@ describe("fetch-info module (without W3C API key)", function () {
       assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/hr-time/");
       assert.equal(info[other.shortname].title, "High Resolution Time Level 2");
     });
+
+    it("does not retrieve info from a spec that got contributed to Specref", async () => {
+      const spec = {
+        url: "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
+        shortname: "ANGLE_instanced_arrays"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+    });
   });
 
 

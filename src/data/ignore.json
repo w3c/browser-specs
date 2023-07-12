@@ -376,6 +376,9 @@
     "https://tc39.es/proposal-regexp-legacy-features/": {
       "comment": "no proper spec, legacy"
     },
+    "https://tc39.es/proposal-resizablearraybuffer/": {
+      "comment": "Integrated in ECMAScript"
+    },
     "https://tc39.es/proposal-hashbang/": {
       "comment": "not meant for browsers environments"
     },

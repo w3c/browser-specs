@@ -85,15 +85,15 @@ describe("fetch-info module (without W3C API key)", function () {
 
     it("extracts spec info from a Respec spec when needed", async () => {
       const spec = {
-        url: "https://w3c.github.io/respec/examples/tpac_2019.html",
+        url: "https://screen-share.github.io/element-capture/",
         shortname: "respec"
       };
       const info = await fetchInfo([spec]);
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "spec");
       assert.equal(info[spec.shortname].nightly.url, spec.url);
-      assert.equal(info[spec.shortname].nightly.status, "Editor's Draft");
-      assert.equal(info[spec.shortname].title, "TPAC 2019 - New Features");
+      assert.equal(info[spec.shortname].nightly.status, "Draft Community Group Report");
+      assert.equal(info[spec.shortname].title, "Element Capture");
     });
 
     it("extracts right title from an ECMAScript proposal spec", async () => {

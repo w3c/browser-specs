@@ -273,6 +273,12 @@ async function fetchInfoFromSpecs(specs, options) {
       }
     }
 
+    if (dom.window.document.head.querySelector("script[src*='respec']")) {
+      // Non-generated ReSpec spec, let's get the generated version from
+      // spec-generator
+      dom = await JSDOMFromURL(`https://labs.w3.org/spec-generator/?type=respec&url=${encodeURIComponent(url)}`);
+    }
+
     // Extract first heading when set
     let title = dom.window.document.querySelector("h1");
     if (!title) {
@@ -301,10 +307,15 @@ async function fetchInfoFromSpecs(specs, options) {
         ".head #subtitle",          // WHATWG specs
         ".head #living-standard"    // HTML spec
       ].join(","));
-      const match = subtitle?.textContent.match(/^\s*(.*?)(,| — Last Updated)? \d{1,2} \w+ \d{4}\s*$/);
-      const status = (match ? match[1] : "Editor's Draft")
+      const match = subtitle?.textContent.match(/^\s*(.+?)(,| — Last Updated)?\s+\d{1,2} \w+ \d{4}\s*$/);
+      let status = (match ? match[1] : "Editor's Draft")
         .replace(/’/g, "'")     // Bikeshed generates curly quotes
         .replace(/^W3C /, "");  // Once every full moon, a "W3C " prefix gets added
+      // And once every other full moon, spec has a weird status
+      // (e.g., https://privacycg.github.io/gpc-spec/)
+      if (status === "Proposal" || status === "Unofficial Draft") {
+        status = "Unofficial Proposal Draft";
+      }
       return {
         nightly: { url, status },
         title

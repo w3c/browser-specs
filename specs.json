@@ -237,18 +237,8 @@
       ]
     }
   },
-  {
-    "url": "https://screen-share.github.io/captured-mouse-events/",
-    "nightly": {
-      "status": "Draft Community Group Report"
-    }
-  },
-  {
-    "url": "https://screen-share.github.io/element-capture/",
-    "nightly": {
-      "status": "Draft Community Group Report"
-    }
-  },
+  "https://screen-share.github.io/captured-mouse-events/",
+  "https://screen-share.github.io/element-capture/",
   {
     "url": "https://sourcemaps.info/spec.html",
     "shortname": "sourcemap",
@@ -401,12 +391,7 @@
   "https://wicg.github.io/datacue/",
   "https://wicg.github.io/deprecation-reporting/",
   "https://wicg.github.io/digital-goods/",
-  {
-    "url": "https://wicg.github.io/direct-sockets/",
-    "nightly": {
-      "status": "Unofficial Proposal Draft"
-    }
-  },
+  "https://wicg.github.io/direct-sockets/",
   "https://wicg.github.io/document-picture-in-picture/",
   "https://wicg.github.io/document-policy/",
   "https://wicg.github.io/element-timing/",

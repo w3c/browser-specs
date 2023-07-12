@@ -1812,7 +1812,7 @@
     ],
     "nightly": {
       "url": "https://immersive-web.github.io/model-element/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/immersive-web/model-element",
       "sourcePath": "index.html",
@@ -2028,7 +2028,7 @@
     ],
     "nightly": {
       "url": "https://privacycg.github.io/gpc-spec/",
-      "status": "Editor's Draft",
+      "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/privacycg/gpc-spec",
       "sourcePath": "index.html",
@@ -2040,7 +2040,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "pending"
   },
   {
     "url": "https://privacycg.github.io/nav-tracking-mitigations/",
@@ -4037,6 +4037,13 @@
       "shortTitle": "Captured Mouse Events",
       "nightlyUrl": "https://screen-share.github.io/captured-mouse-events/"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Screen Capture Community Group",
+        "url": "https://www.w3.org/community/sccg/"
+      }
+    ],
     "nightly": {
       "url": "https://screen-share.github.io/captured-mouse-events/",
       "status": "Draft Community Group Report",
@@ -4045,13 +4052,6 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Screen Capture Community Group",
-        "url": "https://www.w3.org/community/sccg/"
-      }
-    ],
     "title": "Captured Mouse Events",
     "source": "spec",
     "shortTitle": "Captured Mouse Events",
@@ -4077,6 +4077,13 @@
       "shortTitle": "Element Capture",
       "nightlyUrl": "https://screen-share.github.io/element-capture/"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Screen Capture Community Group",
+        "url": "https://www.w3.org/community/sccg/"
+      }
+    ],
     "nightly": {
       "url": "https://screen-share.github.io/element-capture/",
       "status": "Draft Community Group Report",
@@ -4085,13 +4092,6 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Screen Capture Community Group",
-        "url": "https://www.w3.org/community/sccg/"
-      }
-    ],
     "title": "Element Capture",
     "source": "spec",
     "shortTitle": "Element Capture",
@@ -5154,40 +5154,6 @@
     "standing": "good"
   },
   {
-    "url": "https://tc39.es/proposal-resizablearraybuffer/",
-    "seriesComposition": "full",
-    "shortname": "tc39-resizablearraybuffer",
-    "series": {
-      "shortname": "tc39-resizablearraybuffer",
-      "currentSpecification": "tc39-resizablearraybuffer",
-      "title": "In preparation of Stage 4, please use ecma262#3116.",
-      "shortTitle": "In preparation of Stage 4, please use ecma262#3116.",
-      "nightlyUrl": "https://tc39.es/proposal-resizablearraybuffer/"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "nightly": {
-      "url": "https://tc39.es/proposal-resizablearraybuffer/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/tc39/proposal-resizablearraybuffer",
-      "sourcePath": "spec.html",
-      "filename": "index.html"
-    },
-    "title": "In preparation of Stage 4, please use ecma262#3116.",
-    "source": "spec",
-    "shortTitle": "In preparation of Stage 4, please use ecma262#3116.",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://tc39.es/proposal-set-methods/",
     "seriesComposition": "full",
     "shortname": "tc39-set-methods",
@@ -5660,13 +5626,6 @@
     },
     "seriesVersion": "1.2",
     "categories": [],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "RDF-star Working Group",
-        "url": "https://www.w3.org/groups/wg/rdf-star/"
-      }
-    ],
     "nightly": {
       "url": "https://w3c.github.io/sparql-concepts/spec/",
       "status": "Editor's Draft",
@@ -5675,6 +5634,13 @@
       "sourcePath": "spec/index.html",
       "filename": "index.html"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "RDF-star Working Group",
+        "url": "https://www.w3.org/groups/wg/rdf-star/"
+      }
+    ],
     "title": "SPARQL 1.2 Overview",
     "source": "spec",
     "shortTitle": "SPARQL 1.2 Overview",
@@ -6600,6 +6566,13 @@
       "shortTitle": "Direct Sockets API",
       "nightlyUrl": "https://wicg.github.io/direct-sockets/"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
     "nightly": {
       "url": "https://wicg.github.io/direct-sockets/",
       "status": "Unofficial Proposal Draft",
@@ -6608,13 +6581,6 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
     "title": "Direct Sockets API",
     "source": "spec",
     "shortTitle": "Direct Sockets API",
@@ -6803,7 +6769,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/eyedropper-api/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/eyedropper-api",
       "sourcePath": "index.html",
@@ -7126,8 +7092,8 @@
     "series": {
       "shortname": "is-input-pending",
       "currentSpecification": "is-input-pending",
-      "title": "isInputPending",
-      "shortTitle": "isInputPending",
+      "title": "Early detection of input events",
+      "shortTitle": "Early detection of input events",
       "nightlyUrl": "https://wicg.github.io/is-input-pending/"
     },
     "organization": "W3C",
@@ -7145,9 +7111,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "isInputPending",
+    "title": "Early detection of input events",
     "source": "spec",
-    "shortTitle": "isInputPending",
+    "shortTitle": "Early detection of input events",
     "categories": [
       "browser"
     ],
@@ -7583,7 +7549,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/overscroll-scrollend-events/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/overscroll-scrollend-events",
       "sourcePath": "index.html",
@@ -8672,7 +8638,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/webcrypto-secure-curves/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/webcrypto-secure-curves",
       "sourcePath": "index.html",
@@ -8706,7 +8672,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/webhid/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/webhid",
       "sourcePath": "index.html",

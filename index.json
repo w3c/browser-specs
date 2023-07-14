@@ -1521,8 +1521,8 @@
         "fetch"
       ],
       "excludePaths": [
-        "fetch/local-network-access",
-        "fetch/metadata"
+        "fetch/metadata",
+        "fetch/private-network-access"
       ]
     }
   },
@@ -7874,7 +7874,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "fetch/local-network-access"
+        "fetch/private-network-access"
       ]
     }
   },

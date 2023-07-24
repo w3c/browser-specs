@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: 18
 
     - name: Checkout latest version of release script
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Install dependencies
       run: npm ci
@@ -33,7 +33,7 @@ jobs:
         filename: .github/candidate-specs.md
 
     - name: Report specs to monitor in a pull request
-      uses: peter-evans/create-pull-request@v3
+      uses: peter-evans/create-pull-request@v5
       if: ${{ env.monitor_list }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -276,7 +276,13 @@ async function fetchInfoFromSpecs(specs, options) {
     if (dom.window.document.head.querySelector("script[src*='respec']")) {
       // Non-generated ReSpec spec, let's get the generated version from
       // spec-generator
-      dom = await JSDOMFromURL(`https://labs.w3.org/spec-generator/?type=respec&url=${encodeURIComponent(url)}`);
+      const specGeneratorUrl = `https://labs.w3.org/spec-generator/?type=respec&url=${encodeURIComponent(url)}`;
+      try {
+        dom = await JSDOMFromURL(specGeneratorUrl);
+      }
+      catch (err) {
+        throw new Error(`Could not generate ReSpec spec ${url} with spec-generator because ${specGeneratorUrl} returned: ${err.message}`);
+      }
     }
 
     // Extract first heading when set
@@ -315,6 +321,9 @@ async function fetchInfoFromSpecs(specs, options) {
       // (e.g., https://privacycg.github.io/gpc-spec/)
       if (status === "Proposal" || status === "Unofficial Draft") {
         status = "Unofficial Proposal Draft";
+      }
+      else if (status === "Working Draft") {
+        status = "Editor's Draft";
       }
       return {
         nightly: { url, status },

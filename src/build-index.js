@@ -46,31 +46,78 @@ async function sleep(ms) {
 
 
 /**
- * Generate the new index of specs from the given initial list.
- *
- * The function takes the previous index as optional parameter if it exists and
- * uses that list as fallback for filenames.
- *
- * The function also takes a log function to report progress (progress is
- * reported on the console by default).
- *
- * The function throws in case of errors.
- */
-async function generateIndex(specs, { previousIndex = null, log = console.log } = {}) {
-  // Use previous filename info when it cannot be determined (this usually means
-  // that there was a transient network error)
-  async function determineSpecFilename(spec, type) {
-    const filename = await determineFilename(spec[type].url);
-    if (filename) {
-      return filename;
-    }
-
-    const previous = previousIndex.find(s => s[type] && s.url === spec.url);
-    return previous ? previous[type].filename : null;
+ * Build steps, in order of execution
+ **/
+const steps = [
+  {
+    shortname: "initial",
+    title: "Prepare initial list of specs",
+    run: runSkeleton
+  },
+  {
+    shortname: "groups",
+    title: "Fetch organization/groups info",
+    run: index => fetchGroups(index, { githubToken, w3cApiKey })
+  },
+  {
+    shortname: "info",
+    title: "Fetch other spec info from external sources",
+    run: runInfo
+  },
+  {
+    shortname: "shortTitle",
+    title: "Compute short titles",
+    run: runShortTitle
+  },
+  {
+    shortname: "repository",
+    title: "Determine repositories",
+    run: index => computeRepository(index, { githubToken })
+  },
+  {
+    shortname: "standing",
+    title: "Compute categories and standing",
+    run: async index => index.map(spec => {
+      spec.categories = computeCategories(spec);
+      spec.standing = computeStanding(spec);
+      return spec;
+    })
+  },
+  {
+    shortname: "testpath",
+    title: "Find info about test suites",
+    run: index => determineTestPath(index, { githubToken })
+  },
+  {
+    shortname: "seriesurl",
+    title: "Compute unversioned URLs",
+    run: async index => index.map(spec => {
+      Object.assign(spec.series, computeSeriesUrls(spec, index));
+      return spec;
+    })
+  },
+  {
+    shortname: "pages",
+    title: "Compute pages for multi-pages specs",
+    run: runPages
+  },
+  {
+    shortname: "filename",
+    title: "Determine spec filenames",
+    run: runFilename
+  },
+  {
+    // Last step is a fake one, only there to copy the result of the last
+    // step to the final index file
+    shortname: "index",
+    title: "Copy result of last step",
+    run: index => index
   }
+];
 
-  log("Prepare initial list of specs...");
-  specs = specs
+
+async function runSkeleton(specs, { log }) {
+  index = specs
     // Turn all specs into objects
     // (and handle syntactic sugar notation for delta/current flags)
     .map(spec => {
@@ -138,14 +185,12 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
       }
       return spec;
     });
-  log(`Prepare initial list of specs... found ${specs.length} specs`);
+  log(`- found ${index.length} specs`);
+  return index;
+}
 
-  // Fetch additional spec info from external sources and complete the list
-  log(`Fetch organization/groups info...`);
-  await fetchGroups(specs, { githubToken, w3cApiKey });
-  log(`Fetch organization/groups info... done`);
 
-  log(`Fetch other spec info from external sources...`);
+async function runInfo(specs) {
   const specInfo = await fetchInfo(specs, { w3cApiKey });
   const index = specs.map(spec => {
     // Make a copy of the spec object and extend it with the info we retrieved
@@ -225,9 +270,11 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
 
     return res;
   });
-  log(`Fetch other spec info from external sources... done`);
+  return index;
+}
 
-  log(`Compute short titles...`);
+
+async function runShortTitle(index) {
   index.forEach(spec => {
     if (spec.shortTitle) {
       // Use short title explicitly set in specs.json
@@ -243,36 +290,12 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
     // Drop level number from series short title
     spec.series.shortTitle = spec.series.shortTitle.replace(/ \d+(\.\d+)?$/, '');
   });
-  log(`Compute short titles... done`);
+  return index;
+}
 
-  log(`Compute repositories...`);
-  await computeRepository(index, { githubToken });
-  log(`Compute repositories... done`);
 
-  log(`Compute categories...`);
-  index.forEach(spec => {
-    spec.categories = computeCategories(spec);
-  });
-  log(`Compute categories... done`);
-
-  log(`Compute standing...`);
-  index.forEach(spec => {
-    spec.standing = computeStanding(spec);
-  });
-  log(`Compute standing...`);
-
-  log(`Find info about test suites...`);
-  await determineTestPath(index, { githubToken });
-  log(`Find info about test suites... done`);
-
-  log(`Compute unversioned URLs...`);
-  index.forEach(spec => {
-    Object.assign(spec.series, computeSeriesUrls(spec, index));
-  });
-  log(`Compute unversioned URLs... done`);
-
-  log(`Compute pages for multi-pages specs...`);
-  await Promise.all(
+async function runPages(index) {
+  return Promise.all(
     index.map(async spec => {
       if (spec.multipage) {
         if (spec.release) {
@@ -286,10 +309,23 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
       return spec;
     })
   );
-  log(`Compute pages for multi-pages specs... done`);
+}
 
-  log(`Determine spec filenames...`);
-  await Promise.all(
+
+async function runFilename(index, { previousIndex }) {
+  // Use previous filename info when it cannot be determined (this usually means
+  // that there was a transient network error)
+  async function determineSpecFilename(spec, type) {
+    const filename = await determineFilename(spec[type].url);
+    if (filename) {
+      return filename;
+    }
+
+    const previous = previousIndex.find(s => s[type] && s.url === spec.url);
+    return previous ? previous[type].filename : null;
+  }
+
+  return Promise.all(
     index.map(async spec => {
       spec.nightly.filename = await determineSpecFilename(spec, "nightly");
       if (spec.release) {
@@ -303,7 +339,29 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
       return spec;
     })
   );
-  log(`Determine spec filenames... done`);
+}
+
+
+/**
+ * Generate the new index of specs from the given initial list.
+ *
+ * The function takes the previous index as optional parameter if it exists and
+ * uses that list as fallback for filenames.
+ *
+ * The function also takes a log function to report progress (progress is
+ * reported on the console by default).
+ *
+ * The function throws in case of errors.
+ */
+async function generateIndex(specs, { step = "all", previousIndex = null, log = console.log } = {}) {
+  let index = specs;
+
+  const actualSteps = steps.filter(s => step === "all" || s.shortname === step);
+  for (const step of actualSteps) {
+    log(`${step.title}...`);
+    index = await step.run(index, { previousIndex, log });
+    log(`${step.title}... done`);
+  }
 
   return index;
 }
@@ -314,7 +372,7 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
  *
  * The function throws in case of errors.
  */
-async function generateIndexFile(specsFile, targetFile) {
+async function generateIndexFile(specsFile, targetFile, step) {
   // If the index already exists, reuse the info it contains when info cannot
   // be refreshed due to some external (network) issue.
   const previousIndex = (function () {
@@ -327,7 +385,7 @@ async function generateIndexFile(specsFile, targetFile) {
   })();
 
   const specs = require(path.resolve(specsFile));
-  const index = await generateIndex(specs, { previousIndex });
+  const index = await generateIndex(specs, { previousIndex, step });
   console.log(`Write ${targetFile}...`);
   await fs.writeFile(targetFile, JSON.stringify(index, null, 2));
   console.log(`Write ${targetFile}... done`);
@@ -347,10 +405,69 @@ module.exports = {
 Main loop
 *******************************************************************************/
 if (require.main === module) {
-  const specsFile = process.argv[2] ?? path.join(__dirname, "..", "specs.json");
-  const indexFile = process.argv[3] ?? path.join(__dirname, "..", "index.json");
+  const fileOrStep = process.argv[2] ?? path.join(__dirname, "..", "specs.json");
+  const pad = idx => (idx < 10) ? ('0' + idx) : idx;
 
-  generateIndexFile(specsFile, indexFile)
+  async function mainLoop() {
+    function getStepFiles(step) {
+      const stepPos = steps.findIndex(s => s.shortname === step)  + 1;
+      const prevPos = stepPos - 1;
+      let specsFile;
+      let indexFile;
+      if (stepPos === 1) {
+        specsFile = path.join(__dirname, "..", "specs.json");
+      }
+      else {
+        const prevStep = steps[prevPos - 1].shortname;
+        specsFile = path.join(__dirname, "..", "buildsteps", `${pad(prevPos)}-${prevStep}.json`);
+      }
+      if (step === "index") {
+        indexFile = path.join(__dirname, "..", "index.json");
+      }
+      else {
+        indexFile = indexFile = path.join(__dirname, "..", "buildsteps", `${pad(stepPos)}-${step}.json`);
+      }
+      return { specsFile, indexFile };
+    }
+
+    if (fileOrStep.endsWith(".json")) {
+      // Source/Target files and step as parameters
+      const specsFile = fileOrStep;
+      const indexFile = process.argv[3] ?? path.join(__dirname, "..", "index.json");
+      const step = process.argv[4] ?? "all";
+      await generateIndexFile(specsFile, indexFile, step);
+    }
+    else if (fileOrStep === "stepbystep") {
+      for (const buildstep of steps) {
+        const { specsFile, indexFile } = getStepFiles(buildstep.shortname);
+        await generateIndexFile(specsFile, indexFile, buildstep.shortname);
+      }
+    }
+    else {
+      // Step as unique parameter, either step index or step name
+      let step;
+      if (fileOrStep.match(/^\d+$/)) {
+        stepIndex = parseInt(fileOrStep, 10);
+        step = steps[stepIndex - 1].shortname;
+      }
+      else {
+        step = fileOrStep;
+      }
+      if (step === "all") {
+        // Not really a step, just run the entire build
+        const specsFile = path.join(__dirname, "..", "specs.json");
+        const indexFile = path.join(__dirname, "..", "index.json");
+        await generateIndexFile(specsFile, indexFile, step);
+      }
+      else {
+        // Create intermediary files (except for last step)
+        const { specsFile, indexFile } = getStepFiles(step);
+        await generateIndexFile(specsFile, indexFile, step);
+      }
+    }
+  }
+
+  mainLoop()
     .then(() => {
       console.log();
       console.log("== The end ==");

@@ -22,13 +22,19 @@ jobs:
         fetch-depth: 0
 
     - name: Setup environment
-      run: npm ci
+      run: |
+        npm ci
+        git config user.name "fetch-info bot"
+        git config user.email "<>"
 
-    - name: Build new index file
+    # Index file gets built step by step so that intermediary files can be
+    # committed even if later steps fail.
+    - name: Build new index file step by step
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         W3C_API_KEY: ${{ secrets.W3C_API_KEY }}
-      run: npm run build
+      run: |
+        node src/build-index.js stepbystep
 
     - name: Test new index file
       env:
@@ -37,16 +43,25 @@ jobs:
       run: |
         npm run test
 
+    # This step only runs in case of failure to record intermediary files
+    # (but not the invalid index file if it got generated)
+    - name: Build failed, commit intermediary files
+      if: ${{ failure() }}
+      run: |
+        git restore index.json || true
+        git commit -m "[data] Partially update intermediary files" -a || true
+
     - name: Bump minor version of packages if needed
       run: node src/bump-packages-minor.js
 
-    - name: Commit updates
+    - name: Build succeeded, commit index and intermediary files
       run: |
-        git config user.name "fetch-info bot"
-        git config user.email "<>"
         git commit -m "[data] Update spec info" -a || true
 
+    # Following step needs to run even when build failed to push intermediary
+    # files to the repository.
     - name: Push changes
+      if: ${{ !cancelled() }}
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

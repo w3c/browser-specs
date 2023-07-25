@@ -6146,8 +6146,8 @@
     "series": {
       "shortname": "close-watcher",
       "currentSpecification": "close-watcher",
-      "title": "Close Watcher API",
-      "shortTitle": "Close Watcher API",
+      "title": "Close signals and close watchers are moving to the HTML Standard!",
+      "shortTitle": "Close signals and close watchers are moving to the HTML Standard!",
       "nightlyUrl": "https://wicg.github.io/close-watcher/"
     },
     "organization": "W3C",
@@ -6159,15 +6159,15 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/close-watcher/",
-      "status": "Draft Community Group Report",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/close-watcher",
-      "sourcePath": "spec.bs",
+      "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "Close Watcher API",
+    "title": "Close signals and close watchers are moving to the HTML Standard!",
     "source": "spec",
-    "shortTitle": "Close Watcher API",
+    "shortTitle": "Close signals and close watchers are moving to the HTML Standard!",
     "categories": [
       "browser"
     ],

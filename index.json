@@ -2009,6 +2009,40 @@
     }
   },
   {
+    "url": "https://patcg-individual-drafts.github.io/topics/",
+    "seriesComposition": "full",
+    "shortname": "topics",
+    "series": {
+      "shortname": "topics",
+      "currentSpecification": "topics",
+      "title": "Topics API",
+      "shortTitle": "Topics API",
+      "nightlyUrl": "https://patcg-individual-drafts.github.io/topics/"
+    },
+    "groups": [
+      {
+        "name": "Private Advertising Technology Community Group",
+        "url": "https://www.w3.org/community/patcg/"
+      }
+    ],
+    "standing": "pending",
+    "organization": "W3C",
+    "nightly": {
+      "url": "https://patcg-individual-drafts.github.io/topics/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/patcg-individual-drafts/topics",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Topics API",
+    "source": "spec",
+    "shortTitle": "Topics API",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://privacycg.github.io/gpc-spec/",
     "seriesComposition": "full",
     "shortname": "gpc-spec",

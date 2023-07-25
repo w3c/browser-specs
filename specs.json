@@ -156,6 +156,16 @@
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",
+  {
+    "url": "https://patcg-individual-drafts.github.io/topics/",
+    "groups": [
+      {
+        "name": "Private Advertising Technology Community Group",
+        "url": "https://www.w3.org/community/patcg/"
+      }
+    ],
+    "standing": "pending"
+  },
   "https://privacycg.github.io/gpc-spec/",
   "https://privacycg.github.io/nav-tracking-mitigations/",
   "https://privacycg.github.io/private-click-measurement/",

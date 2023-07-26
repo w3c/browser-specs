@@ -1521,6 +1521,7 @@
         "fetch"
       ],
       "excludePaths": [
+        "fetch/fetch-later",
         "fetch/metadata",
         "fetch/private-network-access"
       ]

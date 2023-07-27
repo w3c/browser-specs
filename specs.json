@@ -388,7 +388,11 @@
   },
   "https://wicg.github.io/capability-delegation/spec.html",
   "https://wicg.github.io/client-hints-infrastructure/",
-  "https://wicg.github.io/close-watcher/",
+  {
+    "url": "https://wicg.github.io/close-watcher/",
+    "title": "Close Watcher API",
+    "standing": "discontinued"
+  },
   "https://wicg.github.io/compression/",
   "https://wicg.github.io/content-index/spec/",
   "https://wicg.github.io/cookie-store/",

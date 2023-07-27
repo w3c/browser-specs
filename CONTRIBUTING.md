@@ -102,6 +102,11 @@ may be one of `"reset"` to start from an empty list, `"+browser"` to add
 `"browser"` to the list, and `"-browser"` to remove `"browser"` from the list.
 - `standing`: the spec's standing if default rule would not set it properly,
 see [`standing`](README.md#standing).
+- `obsoletedBy`: a list of shortnames to identify specs that replace or
+otherwise obsolete a discontinued spec, see
+[`obsoletedBy`](README.md#obsoletedby).
+- `formerNames`: a list of shortnames that were used to identify the spec, see
+[`formerNames`](README.md#formernames).
 
 You should **only** set these properties when they are required to generate the
 right info. For instance, some of these properties are needed for Media Queries

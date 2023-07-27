@@ -230,4 +230,19 @@ describe("List of specs", () => {
         spec.nightly.sourcePath === s.nightly.sourcePath));
     assert.deepStrictEqual(wrong, [], JSON.stringify(wrong, null, 2));
   });
+
+  it("lists obsoletedBy info only for discontinued specs", () => {
+    const wrong = specs.filter(s =>
+      s.obsoletedBy &&
+      s.standing !== "discontinued"
+    );
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("does not contain formerNames that identify actual specs", () => {
+    const wrong = specs.filter(s =>
+      s.formerNames?.find(name => specs.find(spec => spec.shortname === name))
+    );
+    assert.deepStrictEqual(wrong, []);
+  });
 });

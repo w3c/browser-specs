@@ -6181,10 +6181,12 @@
     "series": {
       "shortname": "close-watcher",
       "currentSpecification": "close-watcher",
-      "title": "Close requests and close watchers are moving to the HTML Standard!",
-      "shortTitle": "Close requests and close watchers are moving to the HTML Standard!",
+      "title": "Close Watcher API",
+      "shortTitle": "Close Watcher API",
       "nightlyUrl": "https://wicg.github.io/close-watcher/"
     },
+    "title": "Close Watcher API",
+    "standing": "discontinued",
     "organization": "W3C",
     "groups": [
       {
@@ -6200,13 +6202,11 @@
       "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "Close requests and close watchers are moving to the HTML Standard!",
     "source": "spec",
-    "shortTitle": "Close requests and close watchers are moving to the HTML Standard!",
+    "shortTitle": "Close Watcher API",
     "categories": [
       "browser"
     ],
-    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

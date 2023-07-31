@@ -9676,6 +9676,40 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc8297",
+    "seriesComposition": "full",
+    "shortname": "rfc8297",
+    "series": {
+      "shortname": "rfc8297",
+      "currentSpecification": "rfc8297",
+      "title": "An HTTP Status Code for Indicating Hints",
+      "shortTitle": "An HTTP Status Code for Indicating Hints",
+      "nightlyUrl": "https://httpwg.org/specs/rfc8297.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc8297.html",
+      "status": "Experimental",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc8297.xml",
+      "filename": "rfc8297.html"
+    },
+    "title": "An HTTP Status Code for Indicating Hints",
+    "source": "specref",
+    "shortTitle": "An HTTP Status Code for Indicating Hints",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc8470",
     "seriesComposition": "full",
     "shortname": "rfc8470",

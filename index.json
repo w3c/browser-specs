@@ -5189,6 +5189,43 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-resizablearraybuffer/",
+    "seriesComposition": "full",
+    "shortname": "tc39-resizablearraybuffer",
+    "series": {
+      "shortname": "tc39-resizablearraybuffer",
+      "currentSpecification": "tc39-resizablearraybuffer",
+      "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+      "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+      "nightlyUrl": "https://tc39.es/proposal-resizablearraybuffer/"
+    },
+    "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-resizablearraybuffer/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-resizablearraybuffer",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-set-methods/",
     "seriesComposition": "full",
     "shortname": "tc39-set-methods",
@@ -6187,6 +6224,9 @@
     },
     "title": "Close Watcher API",
     "standing": "discontinued",
+    "obsoletedBy": [
+      "html"
+    ],
     "organization": "W3C",
     "groups": [
       {

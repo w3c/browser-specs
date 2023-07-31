@@ -4,7 +4,7 @@
  *
  * The script will extract the W3C API key and the github token it needs
  * from a "config.json" file in the root folder
- * which must exist and contain "w3cApiKey" and "GH_TOKEN" keys.
+ * which must exist and contain a "GH_TOKEN" key.
  */
 
 const fs = require("fs").promises;
@@ -22,14 +22,6 @@ const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const fetchGroups = require("./fetch-groups.js");
-const w3cApiKey = (_ => {
-  try {
-    return require("../config.json").w3cApiKey;
-  }
-  catch {
-    return null;
-  }
-})() ?? process.env.W3C_API_KEY;
 const githubToken = (_ => {
   try {
     return require("../config.json").GH_TOKEN;
@@ -142,11 +134,11 @@ async function generateIndex(specs, { previousIndex = null, log = console.log } 
 
   // Fetch additional spec info from external sources and complete the list
   log(`Fetch organization/groups info...`);
-  await fetchGroups(specs, { githubToken, w3cApiKey });
+  await fetchGroups(specs, { githubToken });
   log(`Fetch organization/groups info... done`);
 
   log(`Fetch other spec info from external sources...`);
-  const specInfo = await fetchInfo(specs, { w3cApiKey });
+  const specInfo = await fetchInfo(specs);
   const index = specs.map(spec => {
     // Make a copy of the spec object and extend it with the info we retrieved
     // from the source

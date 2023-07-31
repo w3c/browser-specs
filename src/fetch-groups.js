@@ -3,8 +3,7 @@
  * and computes, for each of them, the name of the organization and groups
  * within that organization that develop the specification.
  *
- * The function needs an authentication token for the GitHub API as well as for
- * the W3C API.
+ * The function needs an authentication token for the GitHub API.
  */
 
 const Octokit = require("./octokit");
@@ -21,8 +20,8 @@ const parseSpecUrl = require("./parse-spec-url.js");
  * The function preserves the properties if they have already been provided in
  * the input array.
  *
- * The options parameter is used to specify the GitHub API and W3C API
- * authentication tokens.
+ * The options parameter is used to specify the GitHub API
+ * authentication token.
  */
 module.exports = async function (specs, options) {
   // Maintain a cache of fetched resources in memory to avoid sending the
@@ -41,10 +40,6 @@ module.exports = async function (specs, options) {
     cache[url] = body;
     return body;
   }
-
-  const w3cOptions = options?.w3cApiKey ? { headers: {
-    Authorization: `W3C-API apikey="${options.w3cApiKey}"`
-  }} : {};
 
   for (const spec of specs) {
     const info = parseSpecUrl(spec.url);
@@ -127,11 +122,11 @@ module.exports = async function (specs, options) {
       else if (info.type === "tr") {
         // Use the W3C API to find info about /TR specs
         const url = `https://api.w3.org/specifications/${info.name}/versions/latest`;
-        let resp = await fetchJSON(url, w3cOptions);
+        let resp = await fetchJSON(url);
         if (!resp?._links?.deliverers) {
           throw new Error(`W3C API did not return deliverers for the spec`);
         }
-        resp = await fetchJSON(resp._links.deliverers.href, w3cOptions);
+        resp = await fetchJSON(resp._links.deliverers.href);
 
         if (!resp?._links?.deliverers) {
           throw new Error(`W3C API did not return deliverers for the spec`);
@@ -174,7 +169,7 @@ module.exports = async function (specs, options) {
       spec.groups = [];
       for (const id of groups) {
         const url = ('' + id).startsWith("https://") ? id : `https://api.w3.org/groups/${id}`;
-        const info = await fetchJSON(url, w3cOptions);
+        const info = await fetchJSON(url);
         spec.groups.push({
           name: info.name,
           url: info._links.homepage.href

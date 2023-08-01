@@ -1,14 +1,23 @@
 const assert = require("assert");
 const fetchGroups = require("../src/fetch-groups.js");
 
+const githubToken = (function () {
+  try {
+    return require("../config.json").GH_TOKEN;
+  }
+  catch (err) {
+    return null;
+  }
+})() ?? process.env.GH_TOKEN;
+
 describe("fetch-groups module (without API keys)", function () {
   // Tests may need to send network requests
   this.slow(5000);
   this.timeout(30000);
 
-  async function fetchGroupsFor(url) {
+  async function fetchGroupsFor(url, options) {
     const spec = { url };
-    const result = await fetchGroups([spec]);
+    const result = await fetchGroups([spec], options);
     return result[0];
   };
 
@@ -105,6 +114,16 @@ describe("fetch-groups module (without API keys)", function () {
         url: "https://www.w3.org/WAI/ARIA/"
       }]);
     });
+
+    it("handles w3c.github.io URLs", async () => {
+      const res = await fetchGroupsFor("https://w3c.github.io/web-nfc/", { githubToken });
+      assert.equal(res.organization, "W3C");
+      assert.deepStrictEqual(res.groups, [{
+        name: "Web NFC Community Group",
+        url: "https://www.w3.org/community/web-nfc/"
+      }]);
+    });
+
     it("handles SVG URLs", async () => {
       const res = await fetchGroupsFor("https://svgwg.org/specs/animations/");
       assert.equal(res.organization, "W3C");

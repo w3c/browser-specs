@@ -14,8 +14,7 @@
     "build": "node src/build-index.js",
     "lint": "node src/lint.js",
     "lint-fix": "node src/lint.js --fix",
-    "test": "mocha",
-    "test-pr": "mocha --exclude test/fetch-groups-gh.js"
+    "test": "mocha"
   },
   "devDependencies": {
     "@actions/core": "^1.10.0",

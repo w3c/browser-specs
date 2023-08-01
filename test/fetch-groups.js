@@ -1,14 +1,23 @@
 const assert = require("assert");
 const fetchGroups = require("../src/fetch-groups.js");
 
+const githubToken = (function () {
+  try {
+    return require("../config.json").GH_TOKEN;
+  }
+  catch (err) {
+    return null;
+  }
+})() ?? process.env.GH_TOKEN;
+
 describe("fetch-groups module (without API keys)", function () {
   // Tests may need to send network requests
   this.slow(5000);
   this.timeout(30000);
 
-  async function fetchGroupsFor(url) {
+  async function fetchGroupsFor(url, options) {
     const spec = { url };
-    const result = await fetchGroups([spec]);
+    const result = await fetchGroups([spec], options);
     return result[0];
   };
 
@@ -76,5 +85,79 @@ describe("fetch-groups module (without API keys)", function () {
     const res = await fetchGroups([spec]);
     assert.equal(res[0].organization, "W3C");
     assert.deepStrictEqual(res[0].groups, spec.groups);
+  });
+
+  describe("fetch from W3C API", () => {
+    it("handles /TR URLs", async () => {
+      const res = await fetchGroupsFor("https://www.w3.org/TR/gamepad/");
+      assert.equal(res.organization, "W3C");
+      assert.deepStrictEqual(res.groups, [{
+        name: "Web Applications Working Group",
+        url: "https://www.w3.org/groups/wg/webapps/"
+      }]);
+    });
+
+    it("handles multiple /TR URLs", async () => {
+      const specs = [
+        { url: "https://www.w3.org/TR/gamepad/" },
+        { url: "https://www.w3.org/TR/accname-1.2/" }
+      ];
+      const res = await fetchGroups(specs);
+      assert.equal(res[0].organization, "W3C");
+      assert.deepStrictEqual(res[0].groups, [{
+        name: "Web Applications Working Group",
+        url: "https://www.w3.org/groups/wg/webapps/"
+      }]);
+      assert.equal(res[1].organization, "W3C");
+      assert.deepStrictEqual(res[1].groups, [{
+        name: "Accessible Rich Internet Applications Working Group",
+        url: "https://www.w3.org/WAI/ARIA/"
+      }]);
+    });
+
+    it("handles w3c.github.io URLs", async () => {
+      const res = await fetchGroupsFor("https://w3c.github.io/web-nfc/", { githubToken });
+      assert.equal(res.organization, "W3C");
+      assert.deepStrictEqual(res.groups, [{
+        name: "Web NFC Community Group",
+        url: "https://www.w3.org/community/web-nfc/"
+      }]);
+    });
+
+    it("handles SVG URLs", async () => {
+      const res = await fetchGroupsFor("https://svgwg.org/specs/animations/");
+      assert.equal(res.organization, "W3C");
+      assert.deepStrictEqual(res.groups, [{
+        name: "SVG Working Group",
+        url: "https://www.w3.org/Graphics/SVG/WG/"
+      }]);
+    });
+
+    it("handles CSS WG URLs", async () => {
+      const res = await fetchGroupsFor("https://drafts.csswg.org/css-animations-2/");
+      assert.equal(res.organization, "W3C");
+      assert.deepStrictEqual(res.groups, [{
+        name: "Cascading Style Sheets (CSS) Working Group",
+        url: "https://www.w3.org/Style/CSS/"
+      }]);
+    });
+
+    it("handles CSS Houdini TF URLs", async () => {
+      const res = await fetchGroupsFor("https://drafts.css-houdini.org/css-typed-om-2/");
+      assert.equal(res.organization, "W3C");
+      assert.deepStrictEqual(res.groups, [{
+        name: "Cascading Style Sheets (CSS) Working Group",
+        url: "https://www.w3.org/Style/CSS/"
+      }]);
+    });
+
+    it("handles CSS FXTF URLs", async () => {
+      const res = await fetchGroupsFor("https://drafts.fxtf.org/filter-effects-2/");
+      assert.equal(res.organization, "W3C");
+      assert.deepStrictEqual(res.groups, [{
+        name: "Cascading Style Sheets (CSS) Working Group",
+        url: "https://www.w3.org/Style/CSS/"
+      }]);
+    });
   });
 });

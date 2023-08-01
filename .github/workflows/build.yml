@@ -27,13 +27,11 @@ jobs:
     - name: Build new index file
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        W3C_API_KEY: ${{ secrets.W3C_API_KEY }}
       run: npm run build
 
     - name: Test new index file
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        W3C_API_KEY: ${{ secrets.W3C_API_KEY }}
       run: |
         npm run test
 

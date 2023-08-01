@@ -29,9 +29,6 @@
  * assumes that the given "url" is the URL of the Editor's Draft, and will fetch
  * it to determine the title.
  *
- * The function needs an API key to fetch the W3C API, which can be passed
- * within an "options" object with a "w3cApiKey" property.
- *
  * If the function needs to retrieve the spec itself, note that it will parse
  * the HTTP response body as a string, applying regular expressions to extract
  * the title. It will not parse it as HTML in particular. This means that the
@@ -59,12 +56,7 @@ const specrefStatusMapping = {
 };
 
 async function fetchInfoFromW3CApi(specs, options) {
-  // Cannot query the W3C API if API key was not given
-  if (!options || !options.w3cApiKey) {
-    return [];
-  }
   options.headers = options.headers || {};
-  options.headers.Authorization = `W3C-API apikey="${options.w3cApiKey}"`;
 
   const info = await Promise.all(specs.map(async spec => {
     // Skip specs when the known URL is not a /TR/ URL, because there may still

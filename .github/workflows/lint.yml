@@ -24,20 +24,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Test (including W3C API tests)
+      - name: Test
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          W3C_API_KEY: ${{ secrets.W3C_API_KEY }}
-        if: ${{ env.W3C_API_KEY }}
+        if: ${{ env.GH_TOKEN }}
         run: |
           npm run test
-
-      - name: Test (without W3C API tests)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          W3C_API_KEY: ${{ secrets.W3C_API_KEY }}
-        if: ${{ !env.W3C_API_KEY }}
-        run: npm run test-pr
 
       - name: Lint
         run: npm run lint

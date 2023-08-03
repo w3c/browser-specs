@@ -10,13 +10,14 @@ jobs:
     name: Check base URL
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
     - name: Setup node.js
       uses: actions/setup-node@v3
       with:
         node-version: 18
-
-    - name: Checkout repo
-      uses: actions/checkout@v3
+        cache: 'npm'
 
     - name: Setup environment
       run: npm ci

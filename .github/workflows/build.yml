@@ -9,18 +9,18 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-    - name: Setup node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
-        cache: 'npm'
-
     - name: Checkout repo
       uses: actions/checkout@v3
       with:
         # Need to checkout all history as job also needs to access the
         # xxx-specs@latest branches
         fetch-depth: 0
+
+    - name: Setup node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'npm'
 
     - name: Setup environment
       run: npm ci

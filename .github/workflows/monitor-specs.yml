@@ -10,14 +10,14 @@ jobs:
     name: Update the list of monitored specs and highlights those that have changed
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout latest version of release script
+      uses: actions/checkout@v3
+
     - name: Setup node.js
       uses: actions/setup-node@v3
       with:
         node-version: 18
         cache: 'npm'
-
-    - name: Checkout latest version of release script
-      uses: actions/checkout@v3
 
     - name: Install dependencies
       run: npm ci

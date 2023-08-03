@@ -13,14 +13,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 18
+        cache: 'npm'
 
-    - name: Checkout webref
+    - name: Checkout latest version of release script
       uses: actions/checkout@v3
 
     - name: Install dependencies
-      run: |
-        npm install --no-save @octokit/rest
-        npm install --no-save @octokit/plugin-throttling
+      run: npm ci
 
     - name: Request review of pre-release PR
       run: node src/request-pr-review.js

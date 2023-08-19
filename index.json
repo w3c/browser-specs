@@ -2030,7 +2030,7 @@
     "organization": "W3C",
     "nightly": {
       "url": "https://patcg-individual-drafts.github.io/topics/",
-      "status": "Draft Community Group Report",
+      "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/patcg-individual-drafts/topics",
       "sourcePath": "spec.bs",

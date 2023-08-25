@@ -2,9 +2,8 @@
  * Script that compiles and returns the final list of specs from the
  * "specs.json" input file.
  *
- * The script will extract the W3C API key and the github token it needs
- * from a "config.json" file in the root folder
- * which must exist and contain a "GH_TOKEN" key.
+ * The script will extract the github token it needs from a "config.json" file
+ * in the root folder, which must exist and must contain a "GH_TOKEN" key.
  */
 
 const fs = require("fs").promises;
@@ -49,7 +48,7 @@ const steps = [
   {
     shortname: "groups",
     title: "Fetch organization/groups info",
-    run: index => fetchGroups(index, { githubToken, w3cApiKey })
+    run: index => fetchGroups(index, { githubToken })
   },
   {
     shortname: "info",
@@ -396,7 +395,7 @@ module.exports = {
 Main loop
 *******************************************************************************/
 if (require.main === module) {
-  const fileOrStep = process.argv[2] ?? path.join(__dirname, "..", "specs.json");
+  const fileOrStep = process.argv[2];
   const pad = idx => (idx < 10) ? ('0' + idx) : idx;
 
   async function mainLoop() {
@@ -447,19 +446,20 @@ if (require.main === module) {
       return { specsFile, indexFile };
     }
 
-    if (fileOrStep.endsWith(".json")) {
-      // Source/Target files and step as parameters
-      const specsFile = fileOrStep;
-      const indexFile = process.argv[3] ?? path.join(__dirname, "..", "index.json");
-      const step = process.argv[4] ?? "all";
-      await generateIndexFile(specsFile, indexFile, step);
-    }
-    else if (fileOrStep === "stepbystep") {
+    if (!fileOrStep) {
+      // Build index file, step by step
       for (const buildstep of steps) {
         const { specsFile, indexFile } = getStepFiles(buildstep.shortname);
         await createBuildStepsFolderIfNeeded();
         await generateIndexFile(specsFile, indexFile, buildstep.shortname);
       }
+    }
+    else if (fileOrStep.endsWith(".json")) {
+      // Source/Target files and step as parameters
+      const specsFile = fileOrStep;
+      const indexFile = process.argv[3] ?? path.join(__dirname, "..", "index.json");
+      const step = process.argv[4] ?? "all";
+      await generateIndexFile(specsFile, indexFile, step);
     }
     else {
       // Step as unique parameter, either step index or step name

@@ -25,13 +25,10 @@ jobs:
     - name: Setup environment
       run: npm ci
 
-    # Index file gets built step by step so that intermediary files can be
-    # stored as artefacts even if later steps fail.
-    - name: Build new index file step by step
+    - name: Build new index file
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        node src/build-index.js stepbystep
+      run: npm run build
 
     - name: Test new index file
       env:

@@ -43,14 +43,6 @@ jobs:
       run: |
         npm run test
 
-    # This step only runs in case of failure to record intermediary files
-    # (but not the invalid index file if it got generated)
-    - name: Build failed, commit intermediary files
-      if: ${{ failure() }}
-      run: |
-        git restore index.json || true
-        git commit -m "[data] Partially update intermediary files" -a || true
-
     - name: Bump minor version of packages if needed
       run: node src/bump-packages-minor.js
 
@@ -58,10 +50,7 @@ jobs:
       run: |
         git commit -m "[data] Update spec info" -a || true
 
-    # Following step needs to run even when build failed to push intermediary
-    # files to the repository.
     - name: Push changes
-      if: ${{ !cancelled() }}
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -79,3 +68,13 @@ jobs:
       run: node src/prepare-release.js browser-specs
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # Following step runs even if a previous step failed to upload intermediary
+    # build files
+    - name: Store intermediary steps as artifacts
+      if: ${{ !cancelled() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: buildsteps
+        path: |
+          .buildsteps

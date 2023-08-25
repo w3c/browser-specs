@@ -409,6 +409,32 @@ if (require.main === module) {
   const pad = idx => (idx < 10) ? ('0' + idx) : idx;
 
   async function mainLoop() {
+    const buildstepsFolder = path.join(__dirname, "..", ".buildsteps");
+
+    async function createBuildStepsFolderIfNeeded() {
+      try {
+        const stat = await fs.stat(buildstepsFolder);
+        if (!stat.isDirectory()) {
+          throw new Error('Looking for a cache folder but found a cache file instead');
+        }
+      }
+      catch (err) {
+        // Create the folder if it does not exist yet
+        if (err.code !== 'ENOENT') {
+          throw err;
+        }
+        try {
+          await fs.mkdir(buildstepsFolder);
+        }
+        catch (mkerr) {
+          // Someone may have created the folder in the meantime
+          if (mkerr.code !== 'EEXIST') {
+            throw mkerr;
+          }
+        }
+      }
+    }
+
     function getStepFiles(step) {
       const stepPos = steps.findIndex(s => s.shortname === step)  + 1;
       const prevPos = stepPos - 1;
@@ -419,13 +445,13 @@ if (require.main === module) {
       }
       else {
         const prevStep = steps[prevPos - 1].shortname;
-        specsFile = path.join(__dirname, "..", "buildsteps", `${pad(prevPos)}-${prevStep}.json`);
+        specsFile = path.join(buildstepsFolder, `${pad(prevPos)}-${prevStep}.json`);
       }
       if (step === "index") {
         indexFile = path.join(__dirname, "..", "index.json");
       }
       else {
-        indexFile = indexFile = path.join(__dirname, "..", "buildsteps", `${pad(stepPos)}-${step}.json`);
+        indexFile = path.join(buildstepsFolder, `${pad(stepPos)}-${step}.json`);
       }
       return { specsFile, indexFile };
     }
@@ -440,6 +466,7 @@ if (require.main === module) {
     else if (fileOrStep === "stepbystep") {
       for (const buildstep of steps) {
         const { specsFile, indexFile } = getStepFiles(buildstep.shortname);
+        await createBuildStepsFolderIfNeeded();
         await generateIndexFile(specsFile, indexFile, buildstep.shortname);
       }
     }
@@ -462,6 +489,7 @@ if (require.main === module) {
       else {
         // Create intermediary files (except for last step)
         const { specsFile, indexFile } = getStepFiles(step);
+        await createBuildStepsFolderIfNeeded();
         await generateIndexFile(specsFile, indexFile, step);
       }
     }

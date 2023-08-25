@@ -1,3 +1,4 @@
+.buildsteps
 .cache
 node_modules/
 config.json

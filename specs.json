@@ -80,6 +80,7 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Backgrounds 4"
   },
+  "https://drafts.csswg.org/css-borders-4/",
   "https://drafts.csswg.org/css-color-6/ delta",
   "https://drafts.csswg.org/css-color-hdr/",
   "https://drafts.csswg.org/css-conditional-values-1/",
@@ -156,6 +157,16 @@
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",
+  {
+    "url": "https://patcg-individual-drafts.github.io/topics/",
+    "groups": [
+      {
+        "name": "Private Advertising Technology Community Group",
+        "url": "https://www.w3.org/community/patcg/"
+      }
+    ],
+    "standing": "pending"
+  },
   "https://privacycg.github.io/gpc-spec/",
   "https://privacycg.github.io/nav-tracking-mitigations/",
   "https://privacycg.github.io/private-click-measurement/",
@@ -330,6 +341,14 @@
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-json-parse-with-source/",
   "https://tc39.es/proposal-regexp-modifiers/",
+  {
+    "url": "https://tc39.es/proposal-resizablearraybuffer/",
+    "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-set-methods/",
   "https://tc39.es/proposal-shadowrealm/",
   "https://tc39.es/proposal-symbols-as-weakmap-keys/",
@@ -378,7 +397,14 @@
   },
   "https://wicg.github.io/capability-delegation/spec.html",
   "https://wicg.github.io/client-hints-infrastructure/",
-  "https://wicg.github.io/close-watcher/",
+  {
+    "url": "https://wicg.github.io/close-watcher/",
+    "title": "Close Watcher API",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "html"
+    ]
+  },
   "https://wicg.github.io/compression/",
   "https://wicg.github.io/content-index/spec/",
   "https://wicg.github.io/cookie-store/",
@@ -518,6 +544,7 @@
       }
     ]
   },
+  "https://www.rfc-editor.org/rfc/rfc8297",
   "https://www.rfc-editor.org/rfc/rfc8470",
   "https://www.rfc-editor.org/rfc/rfc8942",
   {

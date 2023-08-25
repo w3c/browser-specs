@@ -196,6 +196,18 @@
     "standing": {
       "type": "string",
       "enum": ["good", "pending", "discontinued"]
+    },
+
+    "obsoletedBy": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/shortname" },
+      "minItems": 1
+    },
+
+    "formerNames": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/shortname" },
+      "minItems": 1
     }
   }
 }

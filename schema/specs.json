@@ -26,6 +26,8 @@
           "groups": { "$ref": "definitions.json#/$defs/groups" },
           "categories": { "$ref": "definitions.json#/$defs/categories-specs" },
           "standing": { "$ref": "definitions.json#/$defs/standing" },
+          "obsoletedBy": { "$ref": "definitions.json#/$defs/obsoletedBy" },
+          "formerNames": { "$ref": "definitions.json#/$defs/formerNames" },
           "forceCurrent": { "type": "boolean" },
           "multipage": { "type": "boolean" }
         },

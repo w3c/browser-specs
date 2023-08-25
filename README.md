@@ -20,6 +20,8 @@ cross-references, WebIDL, quality, etc.
   - [`shortTitle`](#shorttitle)
   - [`categories`](#categories)
   - [`standing`](#standing)
+  - [`obsoletedBy`](#obsoletedby)
+  - [`formerNames`](#formernames)
   - [`series`](#series)
     - [`series.shortname`](#seriesshortname)
     - [`series.currentSpecification`](#seriescurrentspecification)
@@ -218,6 +220,30 @@ or `"discontinued"`. Value is always `"good"` for specs in the `browser-specs`
 package.
 
 
+### `obsoletedBy`
+
+An array that contains the list of shortnames of specs that replace or otherwise
+obsolete the contents of a discontinued spec.
+
+The `obsoletedBy` property is only set when `standing` is `"discontinued"`,
+provided that there are indeed specs that replace the contents of the spec.
+
+
+### `formerNames`
+
+An array that contains the list of shortnames that were used to identify the
+spec in the past. The property is not meant to provide an exhaustive list of all
+the shortnames that a spec ever had, but just a list of the shortnames that the
+spec used to have *in browser-specs*.
+
+By definition, shortnames listed in `formerNames` properties are not *current*
+shortnames. They can be used in projects that consume the list of specs to track
+a specification over time.
+
+The `formerNames` property is only set for specs that used to be known under a
+different `shortname` in browser-specs.
+
+
 ### `series`
 
 An object that describes the series that the spec is part of. A series includes
@@ -362,7 +388,7 @@ abandoned.
 An array that lists shortnames of known forks of the spec in the list.
 
 The `forks` property is only set when there exists at least one fork of the
-spec in the list, meaning when there is an entry in the list that has a
+spec in the list, in other words when there is an entry in the list that has a
 [`forkOf`](#forkof) property set to the spec's shortname.
 
 
@@ -473,7 +499,7 @@ Alternate URLs should only be used to ease mapping between external sources and
 specs in `browser-specs`. The canonical URL in [`nightly.url`](#nightlyurl)
 should be preferred to reference a spec otherwise.
 
-Alternate URLs are only set when needed, meaning when an alternate URL is
+Alternate URLs are only set when needed, in other words when an alternate URL is
 effectively in use in some external source and when the external source cannot
 easily be updated to use the canonical URL. In particular, the list is not meant
 to be exhaustive.
@@ -645,8 +671,7 @@ npm run build
 
 **Important:** The generation process will try to retrieve information about W3C
 specification from the W3C API. For that to work, the code requires the presence
-of a `config.json` file in the root folder with a `w3cApiKey` field set to a
-valid [W3C API key](https://w3c.github.io/w3c-api/) and a `GH_TOKEN` field
+of a `config.json` file in the root folder with a `GH_TOKEN` field
 set to a valid [GitHub Personal Token](https://github.com/settings/tokens)
 (default read permissions are enough).
 

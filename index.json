@@ -380,6 +380,44 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-borders-4/",
+    "seriesComposition": "full",
+    "shortname": "css-borders-4",
+    "series": {
+      "shortname": "css-borders",
+      "currentSpecification": "css-borders-4",
+      "title": "CSS Borders and Box Decorations",
+      "shortTitle": "CSS Borders and Box Decorations",
+      "nightlyUrl": "https://drafts.csswg.org/css-borders/"
+    },
+    "seriesVersion": "4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-borders-4/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-borders-4/",
+        "https://w3c.github.io/csswg-drafts/css-borders/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-borders-4/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Borders and Box Decorations Module Level 4",
+    "source": "spec",
+    "shortTitle": "CSS Borders and Box Decorations 4",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-color-6/",
     "seriesComposition": "delta",
     "shortname": "css-color-6",
@@ -1521,6 +1559,7 @@
         "fetch"
       ],
       "excludePaths": [
+        "fetch/fetch-later",
         "fetch/metadata",
         "fetch/private-network-access"
       ]
@@ -2007,6 +2046,40 @@
         "notifications"
       ]
     }
+  },
+  {
+    "url": "https://patcg-individual-drafts.github.io/topics/",
+    "seriesComposition": "full",
+    "shortname": "topics",
+    "series": {
+      "shortname": "topics",
+      "currentSpecification": "topics",
+      "title": "Topics API",
+      "shortTitle": "Topics API",
+      "nightlyUrl": "https://patcg-individual-drafts.github.io/topics/"
+    },
+    "groups": [
+      {
+        "name": "Private Advertising Technology Community Group",
+        "url": "https://www.w3.org/community/patcg/"
+      }
+    ],
+    "standing": "pending",
+    "organization": "W3C",
+    "nightly": {
+      "url": "https://patcg-individual-drafts.github.io/topics/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/patcg-individual-drafts/topics",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Topics API",
+    "source": "spec",
+    "shortTitle": "Topics API",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://privacycg.github.io/gpc-spec/",
@@ -5154,6 +5227,43 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-resizablearraybuffer/",
+    "seriesComposition": "full",
+    "shortname": "tc39-resizablearraybuffer",
+    "series": {
+      "shortname": "tc39-resizablearraybuffer",
+      "currentSpecification": "tc39-resizablearraybuffer",
+      "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+      "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+      "nightlyUrl": "https://tc39.es/proposal-resizablearraybuffer/"
+    },
+    "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-resizablearraybuffer/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-resizablearraybuffer",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://tc39.es/proposal-set-methods/",
     "seriesComposition": "full",
     "shortname": "tc39-set-methods",
@@ -6146,10 +6256,15 @@
     "series": {
       "shortname": "close-watcher",
       "currentSpecification": "close-watcher",
-      "title": "Close signals and close watchers are moving to the HTML Standard!",
-      "shortTitle": "Close signals and close watchers are moving to the HTML Standard!",
+      "title": "Close Watcher API",
+      "shortTitle": "Close Watcher API",
       "nightlyUrl": "https://wicg.github.io/close-watcher/"
     },
+    "title": "Close Watcher API",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "html"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -6165,13 +6280,11 @@
       "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "Close signals and close watchers are moving to the HTML Standard!",
     "source": "spec",
-    "shortTitle": "Close signals and close watchers are moving to the HTML Standard!",
+    "shortTitle": "Close Watcher API",
     "categories": [
       "browser"
     ],
-    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -9595,6 +9708,40 @@
     "title": "Web Linking",
     "source": "specref",
     "shortTitle": "Web Linking",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc8297",
+    "seriesComposition": "full",
+    "shortname": "rfc8297",
+    "series": {
+      "shortname": "rfc8297",
+      "currentSpecification": "rfc8297",
+      "title": "An HTTP Status Code for Indicating Hints",
+      "shortTitle": "An HTTP Status Code for Indicating Hints",
+      "nightlyUrl": "https://httpwg.org/specs/rfc8297.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc8297.html",
+      "status": "Experimental",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc8297.xml",
+      "filename": "rfc8297.html"
+    },
+    "title": "An HTTP Status Code for Indicating Hints",
+    "source": "specref",
+    "shortTitle": "An HTTP Status Code for Indicating Hints",
     "categories": [
       "browser"
     ],

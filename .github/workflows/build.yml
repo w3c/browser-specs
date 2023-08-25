@@ -41,6 +41,8 @@ jobs:
 
     - name: Commit updates
       run: |
+        git config user.name "fetch-info bot"
+        git config user.email "<>"
         git commit -m "[data] Update spec info" -a || true
 
     - name: Push changes

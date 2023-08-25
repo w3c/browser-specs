@@ -23,13 +23,10 @@ jobs:
         cache: 'npm'
 
     - name: Setup environment
-      run: |
-        npm ci
-        git config user.name "fetch-info bot"
-        git config user.email "<>"
+      run: npm ci
 
     # Index file gets built step by step so that intermediary files can be
-    # committed even if later steps fail.
+    # stored as artefacts even if later steps fail.
     - name: Build new index file step by step
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,7 +42,7 @@ jobs:
     - name: Bump minor version of packages if needed
       run: node src/bump-packages-minor.js
 
-    - name: Build succeeded, commit index and intermediary files
+    - name: Commit updates
       run: |
         git commit -m "[data] Update spec info" -a || true
 

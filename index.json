@@ -380,6 +380,44 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-borders-4/",
+    "seriesComposition": "full",
+    "shortname": "css-borders-4",
+    "series": {
+      "shortname": "css-borders",
+      "currentSpecification": "css-borders-4",
+      "title": "CSS Borders and Box Decorations",
+      "shortTitle": "CSS Borders and Box Decorations",
+      "nightlyUrl": "https://drafts.csswg.org/css-borders/"
+    },
+    "seriesVersion": "4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-borders-4/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-borders-4/",
+        "https://w3c.github.io/csswg-drafts/css-borders/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-borders-4/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Borders and Box Decorations Module Level 4",
+    "source": "spec",
+    "shortTitle": "CSS Borders and Box Decorations 4",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-color-6/",
     "seriesComposition": "delta",
     "shortname": "css-color-6",

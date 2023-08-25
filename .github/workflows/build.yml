@@ -63,3 +63,13 @@ jobs:
       run: node src/prepare-release.js browser-specs
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # Following step runs even if a previous step failed to upload intermediary
+    # build files
+    - name: Store intermediary steps as artifacts
+      if: ${{ !cancelled() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: buildsteps
+        path: |
+          .buildsteps

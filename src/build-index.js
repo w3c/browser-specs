@@ -8,6 +8,7 @@
 
 const fs = require("fs").promises;
 const path = require("path");
+const puppeteer = require("puppeteer");
 const computeShortname = require("./compute-shortname.js");
 const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
@@ -285,20 +286,23 @@ async function runShortTitle(index) {
 
 
 async function runPages(index) {
+  const browser = await puppeteer.launch();
   return Promise.all(
     index.map(async spec => {
       if (spec.multipage) {
         if (spec.release) {
-          spec.release.pages = await extractPages(spec.release.url);
+          spec.release.pages = await extractPages(spec.release.url, browser);
         }
         if (spec.nightly) {
-          spec.nightly.pages = await extractPages(spec.nightly.url);
+          spec.nightly.pages = await extractPages(spec.nightly.url, browser);
         }
         delete spec.multipage;
       }
       return spec;
     })
-  );
+  ).finally(async _ => {
+    await browser.close();
+  });
 }
 
 

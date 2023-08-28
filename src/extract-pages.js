@@ -4,22 +4,23 @@
  * the table of contents, in document order, excluding the index page.
  */
 
-const { JSDOM } = require("jsdom");
-
-module.exports = async function (url) {
+module.exports = async function (url, browser) {
+  const page = await browser.newPage();
   try {
-    const dom = await JSDOM.fromURL(url);
-    const window = dom.window;
-    const document = window.document;
-
-    const allPages = [...document.querySelectorAll('.toc a[href]')]
-      .map(link => link.href)
-      .map(url => url.split('#')[0])
-      .filter(url => url !== window.location.href);
+    await page.goto(url);
+    const allPages = await page.evaluate(_ =>
+      [...document.querySelectorAll('.toc a[href]')]
+        .map(link => link.href)
+        .map(url => url.split('#')[0])
+        .filter(url => url !== window.location.href)
+    );
     const pageSet = new Set(allPages);
     return [...pageSet];
   }
   catch (err) {
-    throw new Error(`Could not extract pages from ${url} with JSDOM: ${err.message}`);
+    throw new Error(`Could not extract pages from ${url}: ${err.message}`);
+  }
+  finally {
+    await page.close();
   }
 };

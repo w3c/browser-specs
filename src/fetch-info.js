@@ -38,11 +38,10 @@
  * bundle requests to Specref.
  */
 
+const puppeteer = require("puppeteer");
 const throttle = require("./throttle");
 const throttledFetch = throttle(fetch, 2);
 const computeShortname = require("./compute-shortname");
-const {JSDOM} = require("jsdom");
-const JSDOMFromURL = throttle(JSDOM.fromURL, 2);
 
 // Map spec statuses returned by Specref to those used in specs
 // Note we typically won't get /TR statuses from Specref, since all /TR URLs
@@ -242,93 +241,137 @@ async function fetchInfoFromSpecref(specs, options) {
 
 
 async function fetchInfoFromSpecs(specs, options) {
-  const info = await Promise.all(specs.map(async spec => {
-    const url = spec.nightly?.url || spec.url;
-    let dom = null;
-    try {
-      dom = await JSDOMFromURL(url);
-    }
-    catch (err) {
-      throw new Error(`Could not retrieve ${url} with JSDOM: ${err.message}`);
-    }
+  const browser = await puppeteer.launch();
 
-    if (spec.url.startsWith("https://tc39.es/")) {
-      // Title is either flagged with specific class or the second h1
-      const h1ecma =
-        dom.window.document.querySelector('#spec-container h1.title') ??
-        dom.window.document.querySelectorAll("h1")[1];
-      if (h1ecma) {
+  async function fetchInfoFromSpec(spec) {
+    const url = spec.nightly?.url || spec.url;
+    const page = await browser.newPage();
+
+    try {
+      await page.goto(url);
+
+      // Wait until the generation of the spec is completely over
+      // (same code as in Reffy, except Reffy forces the latest version of
+      // Respec and thus does not need to deal with older specs that rely
+      // on a version that sets `respecIsReady` and not `respec.ready`.
+      await page.evaluate(async () => {
+        const usesRespec =
+          (window.respecConfig || window.eval('typeof respecConfig !== "undefined"')) &&
+          window.document.head.querySelector("script[src*='respec']");
+
+        function sleep(ms) {
+          return new Promise(resolve => setTimeout(resolve, ms, 'slept'));
+        }
+
+        async function isReady(counter) {
+          counter = counter || 0;
+          if (counter > 60) {
+            throw new Error(`Respec generation took too long for ${window.location.toString()}`);
+          }
+          if (document.respec?.ready || document.respecIsReady) {
+            // Wait for resolution of ready promise
+            const res = await Promise.race([document.respec?.ready ?? document.respecIsReady, sleep(60000)]);
+            if (res === 'slept') {
+              throw new Error(`Respec generation took too long for ${window.location.toString()}`);
+            }
+          }
+          else if (usesRespec) {
+            await sleep(1000);
+            await isReady(counter + 1);
+          }
+        }
+
+        await isReady();
+      });
+
+      if (spec.url.startsWith("https://tc39.es/")) {
+        // Title is either flagged with specific class or the second h1
+        const ecmaTitle = await page.evaluate(_ => {
+          const h1ecma =
+            document.querySelector('#spec-container h1.title') ??
+            document.querySelectorAll("h1")[1];
+          return h1ecma ? h1ecma.textContent.replace(/\n/g, '').trim() : null;
+        });
+        if (ecmaTitle) {
+          return {
+            nightly: { url: url, status: "Editor's Draft" },
+            title: ecmaTitle
+          };
+        }
+      }
+
+      const titleAndStatus = await page.evaluate(_ => {
+        // Extract first heading when set
+        let title = document.querySelector("h1");
+        if (!title) {
+          // Use the document's title if first heading could not be found
+          // (that typically happens in Respec specs)
+          title = document.querySelector("title");
+        }
+
+        if (title) {
+          title = title.textContent.replace(/\n/g, '').trim();
+
+          // The draft CSS specs server sometimes goes berserk and returns
+          // the contents of the directory instead of the actual spec. Let's
+          // throw an error when that happens so as not to create fake titles.
+          if (title.startsWith('Index of ')) {
+            return { error: "CSS server issue" };
+          }
+
+          // Extract status if found
+          // Selectors are for W3C specs and WHATWG specs, other specs are assumed
+          // to always be "Editor's Drafts" for now.
+          // TODO: consider adding more explicit support for IETF draft specs.
+          const subtitle = document.querySelector([
+            ".head #w3c-state",         // Modern W3C specs
+            ".head h2",                 // Some older W3C specs
+            ".head #subtitle",          // WHATWG specs
+            ".head #living-standard"    // HTML spec
+          ].join(","));
+          const match = subtitle?.textContent.match(/^\s*(.+?)(,| — Last Updated)?\s+\d{1,2} \w+ \d{4}\s*$/);
+          let status = (match ? match[1] : "Editor's Draft")
+            .replace(/’/g, "'")     // Bikeshed generates curly quotes
+            .replace(/^W3C /, "");  // Once every full moon, a "W3C " prefix gets added
+          // And once every other full moon, spec has a weird status
+          // (e.g., https://privacycg.github.io/gpc-spec/)
+          if (status === "Proposal" || status === "Unofficial Draft") {
+            status = "Unofficial Proposal Draft";
+          }
+          else if (status === "Working Draft") {
+            status = "Editor's Draft";
+          }
+          return { title, status };
+        }
+        else {
+          return { error: "Could not find title" };
+        }
+      });
+
+      if (titleAndStatus.error) {
+        throw new Error(titleAndStatus.error + `, in ${url} for ${spec.shortname}`);
+      }
+      else {
         return {
-          nightly: { url: url, status: "Editor's Draft" },
-          title: h1ecma.textContent.replace(/\n/g, '').trim()
+          nightly: { url, status: titleAndStatus.status },
+          title: titleAndStatus.title
         };
       }
     }
-
-    if (dom.window.document.head.querySelector("script[src*='respec']")) {
-      // Non-generated ReSpec spec, let's get the generated version from
-      // spec-generator
-      const specGeneratorUrl = `https://labs.w3.org/spec-generator/?type=respec&url=${encodeURIComponent(url)}`;
-      try {
-        dom = await JSDOMFromURL(specGeneratorUrl);
-      }
-      catch (err) {
-        throw new Error(`Could not generate ReSpec spec ${url} with spec-generator because ${specGeneratorUrl} returned: ${err.message}`);
-      }
+    finally {
+      await page.close();
     }
+  }
 
-    // Extract first heading when set
-    let title = dom.window.document.querySelector("h1");
-    if (!title) {
-      // Use the document's title if first heading could not be found
-      // (that typically happens in Respec specs)
-      title = dom.window.document.querySelector("title");
-    }
-
-    if (title) {
-      title = title.textContent.replace(/\n/g, '').trim();
-
-      // The draft CSS specs server sometimes goes berserk and returns
-      // the contents of the directory instead of the actual spec. Let's
-      // throw an error when that happens so as not to create fake titles.
-      if (title.startsWith('Index of ')) {
-        throw new Error(`CSS server issue detected in ${url} for ${spec.shortname}`);
-      }
-
-      // Extract status if found
-      // Selectors are for W3C specs and WHATWG specs, other specs are assumed
-      // to always be "Editor's Drafts" for now.
-      // TODO: consider adding more explicit support for IETF draft specs.
-      const subtitle = dom.window.document.querySelector([
-        ".head #w3c-state",         // Modern W3C specs
-        ".head h2",                 // Some older W3C specs
-        ".head #subtitle",          // WHATWG specs
-        ".head #living-standard"    // HTML spec
-      ].join(","));
-      const match = subtitle?.textContent.match(/^\s*(.+?)(,| — Last Updated)?\s+\d{1,2} \w+ \d{4}\s*$/);
-      let status = (match ? match[1] : "Editor's Draft")
-        .replace(/’/g, "'")     // Bikeshed generates curly quotes
-        .replace(/^W3C /, "");  // Once every full moon, a "W3C " prefix gets added
-      // And once every other full moon, spec has a weird status
-      // (e.g., https://privacycg.github.io/gpc-spec/)
-      if (status === "Proposal" || status === "Unofficial Draft") {
-        status = "Unofficial Proposal Draft";
-      }
-      else if (status === "Working Draft") {
-        status = "Editor's Draft";
-      }
-      return {
-        nightly: { url, status },
-        title
-      };
-    }
-
-    throw new Error(`Could not find title in ${url} for ${spec.shortname}`);
-  }));
-
-  const results = {};
-  specs.forEach((spec, idx) => results[spec.shortname] = info[idx]);
-  return results;
+  try {
+    const info = await Promise.all(specs.map(throttle(fetchInfoFromSpec, 2)));
+    const results = {};
+    specs.forEach((spec, idx) => results[spec.shortname] = info[idx]);
+    return results;
+  }
+  finally {
+    await browser.close();
+  }
 }
 
 

@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const core = require('@actions/core');
 
-const {JSDOM} = require("jsdom");
+const puppeteer = require('puppeteer');
 
 const computeShortname = require("./compute-shortname");
 
@@ -95,13 +95,24 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   const fxtfSpecs = await fetch("https://api.github.com/repos/w3c/fxtf-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !fxtfMetaDir.includes(p.path)).map(p => p.path));
   const houdiniSpecs = await fetch("https://api.github.com/repos/w3c/css-houdini-drafts/contents/").then(r => r.json()).then(data => data.filter(p => p.type === "dir" && !houdiniMetaDir.includes(p.path)).map(p => p.path));
 
-  const ecmaProposals = await JSDOM.fromURL("https://github.com/tc39/proposals/blob/master/README.md")
-  // we only watch stage 3 proposals, which are in the first table on the page above
-    .then(dom => [...dom.window.document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href));
+  // ECMA proposals are in markdown pages on GitHub. We only watch stage 3
+  // proposals, which are in the first table on the page.
+  const extractStage3Proposals = _=>
+    [...document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href);
+  let ecmaProposals;
+  let ecmaIntlProposals;
+  const browser = await puppeteer.launch();
+  try {
+    const page = await browser.newPage();
+    await page.goto("https://github.com/tc39/proposals/blob/main/README.md");
+    ecmaProposals = await page.evaluate(extractStage3Proposals);
 
-  const ecmaIntlProposals = await JSDOM.fromURL("https://github.com/tc39/proposals/blob/master/ecma402/README.md")
-  // we only watch stage 3 proposals, which are in the first table on the page above
-    .then(dom => [...dom.window.document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href));
+    await page.goto("https://github.com/tc39/proposals/blob/main/ecma402/README.md");
+    ecmaIntlProposals = await page.evaluate(extractStage3Proposals);
+  }
+  finally {
+    await browser.close();
+  }
 
   const chromeFeatures = await fetch("https://www.chromestatus.com/features.json").then(r => r.json());
 

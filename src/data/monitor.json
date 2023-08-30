@@ -12,10 +12,6 @@
       "comment": "no spec yet",
       "lastreviewed": "2023-07-01"
     },
-    "WICG/audio-focus": {
-      "comment": "only an explainer",
-      "lastreviewed": "2023-07-01"
-    },
     "WICG/file-handling": {
       "comment": "only points to explainer",
       "lastreviewed": "2023-07-01"

@@ -290,19 +290,49 @@
       ]
     }
   },
-  "https://tc39.es/proposal-array-find-from-last/",
+  {
+    "url": "https://tc39.es/proposal-array-find-from-last/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-array-from-async/",
   "https://tc39.es/proposal-array-grouping/",
   "https://tc39.es/proposal-arraybuffer-transfer/",
   "https://tc39.es/proposal-async-explicit-resource-management/",
-  "https://tc39.es/proposal-atomics-wait-async/",
-  "https://tc39.es/proposal-change-array-by-copy/",
+  {
+    "url": "https://tc39.es/proposal-atomics-wait-async/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-change-array-by-copy/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-decorators/",
   "https://tc39.es/proposal-explicit-resource-management/",
   "https://tc39.es/proposal-float16array/",
   "https://tc39.es/proposal-intl-duration-format/",
-  "https://tc39.es/proposal-intl-enumeration/",
-  "https://tc39.es/proposal-intl-extend-timezonename/",
+  {
+    "url": "https://tc39.es/proposal-intl-enumeration/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecma-402"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-intl-extend-timezonename/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecma-402"
+    ]
+  },
   "https://tc39.es/proposal-intl-locale-info/",
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",
@@ -310,7 +340,11 @@
     "title": "Intl Annexes",
     "nightly": {
       "sourcePath": "out/annexes/proposed.html"
-    }
+    },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecma-402"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/negotiation/proposed.html",
@@ -318,7 +352,11 @@
     "title": "Intl Parameter Resolution",
     "nightly": {
       "sourcePath": "out/negotiation/proposed.html"
-    }
+    },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecma-402"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html",
@@ -326,7 +364,11 @@
     "title": "Intl.NumberFormat",
     "nightly": {
       "sourcePath": "out/numberformat/proposed.html"
-    }
+    },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecma-402"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html",
@@ -334,9 +376,19 @@
     "title": "Intl.PluralRules",
     "nightly": {
       "sourcePath": "out/pluralrules/proposed.html"
-    }
+    },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecma-402"
+    ]
   },
-  "https://tc39.es/proposal-is-usv-string/",
+  {
+    "url": "https://tc39.es/proposal-is-usv-string/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-iterator-helpers/",
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-json-parse-with-source/",
@@ -351,7 +403,13 @@
   },
   "https://tc39.es/proposal-set-methods/",
   "https://tc39.es/proposal-shadowrealm/",
-  "https://tc39.es/proposal-symbols-as-weakmap-keys/",
+  {
+    "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-temporal/",
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",

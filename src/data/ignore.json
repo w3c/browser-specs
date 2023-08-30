@@ -161,6 +161,9 @@
     "w3c/publ-epub-revision": {
       "comment": "not targeting browsers but epub readers"
     },
+    "WICG/audio-focus": {
+      "comment": "moved to w3c/audio-session"
+    },
     "WICG/controls-list": {
       "comment": "aimed toward HTML LS  https://github.com/whatwg/html/pull/2426"
     },

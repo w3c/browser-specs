@@ -324,6 +324,7 @@
   "https://tc39.es/proposal-decorators/",
   "https://tc39.es/proposal-explicit-resource-management/",
   "https://tc39.es/proposal-float16array/",
+  "https://tc39.es/proposal-import-attributes/",
   "https://tc39.es/proposal-intl-duration-format/",
   {
     "url": "https://tc39.es/proposal-intl-enumeration/",
@@ -398,6 +399,7 @@
   "https://tc39.es/proposal-iterator-helpers/",
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-json-parse-with-source/",
+  "https://tc39.es/proposal-promise-with-resolvers/",
   "https://tc39.es/proposal-regexp-modifiers/",
   {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",
@@ -409,6 +411,7 @@
   },
   "https://tc39.es/proposal-set-methods/",
   "https://tc39.es/proposal-shadowrealm/",
+  "https://tc39.es/proposal-source-phase-imports/",
   {
     "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
     "standing": "discontinued",
@@ -417,6 +420,13 @@
     ]
   },
   "https://tc39.es/proposal-temporal/",
+  {
+    "url": "https://tc39.es/source-map-spec/",
+    "shortname": "source-map",
+    "nightly": {
+      "status": "Editor's Draft"
+    }
+  },
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",
   "https://w3c.github.io/audio-session/",

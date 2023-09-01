@@ -110,7 +110,13 @@
     "url": "https://drafts.csswg.org/css-size-adjust-1/",
     "shortTitle": "CSS Size Adjustment 1"
   },
-  "https://drafts.csswg.org/css-transitions-2/ delta",
+  {
+    "url": "https://drafts.csswg.org/css-transitions-2/",
+    "seriesComposition": "delta",
+    "nightly": {
+      "status": "Editor's Draft"
+    }
+  },
   {
     "url": "https://drafts.csswg.org/css-values-5/",
     "shortTitle": "CSS Values 5",
@@ -1053,11 +1059,41 @@
   },
   "https://www.w3.org/TR/mixed-content/",
   "https://www.w3.org/TR/motion-1/",
-  "https://www.w3.org/TR/mse-byte-stream-format-isobmff/",
-  "https://www.w3.org/TR/mse-byte-stream-format-mp2t/",
-  "https://www.w3.org/TR/mse-byte-stream-format-mpeg-audio/",
-  "https://www.w3.org/TR/mse-byte-stream-format-registry/",
-  "https://www.w3.org/TR/mse-byte-stream-format-webm/",
+  {
+    "url": "https://www.w3.org/TR/mse-byte-stream-format-isobmff/",
+    "nightly": {
+      "url": "https://w3c.github.io/mse-byte-stream-format-isobmff/",
+      "repository": "https://github.com/w3c/mse-byte-stream-format-isobmff"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/mse-byte-stream-format-mp2t/",
+    "nightly": {
+      "url": "https://w3c.github.io/mse-byte-stream-format-mp2t/",
+      "repository": "https://github.com/w3c/mse-byte-stream-format-mp2t"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/mse-byte-stream-format-mpeg-audio/",
+    "nightly": {
+      "url": "https://w3c.github.io/mse-byte-stream-format-mpeg-audio/",
+      "repository": "https://github.com/w3c/mse-byte-stream-format-mpeg-audio"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/mse-byte-stream-format-registry/",
+    "nightly": {
+      "url": "https://w3c.github.io/mse-byte-stream-format-registry/",
+      "repository": "https://github.com/w3c/mse-byte-stream-format-registry"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/mse-byte-stream-format-webm/",
+    "nightly": {
+      "url": "https://w3c.github.io/mse-byte-stream-format-webm/",
+      "repository": "https://github.com/w3c/mse-byte-stream-format-webm"
+    }
+  },
   "https://www.w3.org/TR/mst-content-hint/",
   {
     "url": "https://www.w3.org/TR/n-quads/",

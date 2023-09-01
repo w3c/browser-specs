@@ -392,7 +392,7 @@
       "comment": "document split into two specs"
     },
     "https://w3c.github.io/xml-entities/": {
-      "comment": "not directly meant for browsers environments (in practice imported via HTML LS)"
+      "comment": "not directly meant for browsers environments (in practice imported via HTML LS, see https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references)"
     },
     "https://www.w3.org/TR/RangeRequest/": {
       "comment": "Integrated in Incremental Font Transfer (IFT) spec"

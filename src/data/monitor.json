@@ -33,7 +33,7 @@
       "lastreviewed": "2023-09-01"
     },
     "WICG/webmonetization": {
-      "comment": "Early exploration phase; spec at https://webmonetization.org/specification.html",
+      "comment": "Early exploration phase; spec at https://webmonetization.org/specification/",
       "lastreviewed": "2023-09-01"
     },
     "WICG/aom": {
@@ -285,10 +285,6 @@
       "comment": "no published content yet"
     },
     "immersive-web/front-facing-camera": {
-      "lastreviewed": "2023-09-01",
-      "comment": "no published content yet"
-    },
-    "WICG/soft-navigations": {
       "lastreviewed": "2023-09-01",
       "comment": "no published content yet"
     },

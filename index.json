@@ -8435,6 +8435,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/soft-navigations/",
+    "seriesComposition": "full",
+    "shortname": "soft-navigations",
+    "series": {
+      "shortname": "soft-navigations",
+      "currentSpecification": "soft-navigations",
+      "title": "Soft Navigations",
+      "shortTitle": "Soft Navigations",
+      "nightlyUrl": "https://wicg.github.io/soft-navigations/"
+    },
+    "standing": "pending",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/soft-navigations/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/soft-navigations",
+      "sourcePath": "soft-navigations.bs",
+      "filename": "index.html"
+    },
+    "title": "Soft Navigations",
+    "source": "spec",
+    "shortTitle": "Soft Navigations",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://wicg.github.io/speech-api/",
     "seriesComposition": "full",
     "shortname": "speech-api",
@@ -17606,7 +17640,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/largest-contentful-paint/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

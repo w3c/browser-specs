@@ -412,7 +412,8 @@
     "url": "https://tc39.es/source-map-spec/",
     "shortname": "sourcemap",
     "nightly": {
-      "status": "Editor's Draft"
+      "status": "Editor's Draft",
+      "sourcePath": "source-map.bs"
     }
   },
   "https://testutils.spec.whatwg.org/",

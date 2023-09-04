@@ -307,6 +307,10 @@
     "WICG/identity-credential": {
       "lastreviewed": "2023-09-01",
       "comment": "no published content yet"
+    },
+    "WICG/service-worker-static-routing-api": {
+      "lastreviewed": "2023-09-04",
+      "comment": "no published content yet"
     }
   },
   "specs": {

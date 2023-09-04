@@ -1324,6 +1324,45 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-view-transitions-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-view-transitions-2",
+    "series": {
+      "shortname": "css-view-transitions",
+      "currentSpecification": "css-view-transitions-1",
+      "title": "CSS View Transitions Module",
+      "shortTitle": "CSS View Transitions",
+      "releaseUrl": "https://www.w3.org/TR/css-view-transitions/",
+      "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-view-transitions-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-view-transitions-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-view-transitions-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-view-transitions-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS View Transitions Module Level 2",
+    "source": "spec",
+    "shortTitle": "CSS View Transitions 2",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-viewport/",
     "seriesComposition": "full",
     "shortname": "css-viewport",
@@ -5855,6 +5894,40 @@
     "title": "The Capture-Handle Actions Mechanism",
     "source": "spec",
     "shortTitle": "The Capture-Handle Actions Mechanism",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/permissions-registry/",
+    "seriesComposition": "full",
+    "shortname": "permissions-registry",
+    "series": {
+      "shortname": "permissions-registry",
+      "currentSpecification": "permissions-registry",
+      "title": "Permissions Registry",
+      "shortTitle": "Permissions Registry",
+      "nightlyUrl": "https://w3c.github.io/permissions-registry/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/permissions-registry/",
+      "status": "Draft Registry",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/permissions-registry",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Permissions Registry",
+    "source": "spec",
+    "shortTitle": "Permissions Registry",
     "categories": [
       "browser"
     ],
@@ -15644,6 +15717,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-view-transitions/"
     },
     "seriesVersion": "1",
+    "seriesNext": "css-view-transitions-2",
     "organization": "W3C",
     "groups": [
       {

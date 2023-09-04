@@ -77,7 +77,7 @@ const hasUntrackedURL = ({spec: url}) => !specs.find(s => s.nightly.url.startsWi
                                             ));
 const hasUnknownTrSpec = ({spec: url}) => !specs.find(s => s.release && trimSlash(s.release.url) === trimSlash(url)) && !specs.find(s => hasMoreRecentLevel(s,url));
 
-const composeFilters = (f1, f2) => value => f1(value) || f2(value);
+const eitherFilter = (f1, f2) => value => f1(value) || f2(value);
 const hasRepoType = type => r => r.w3c && r.w3c["repo-type"]
       && (r.w3c["repo-type"] === type || r.w3c["repo-type"].includes(type));
 const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}) => {
@@ -124,7 +124,7 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   // * check repos with w3c.json/repo-type including rec-track
   const wgRepos = wgs.map(g => g.repos.map(r => r.fullName)).flat()
         .map(fullName => repos.find(matchRepoName(fullName)));
-  const recTrackRepos = wgRepos.filter(composeFilters(hasRepoType('rec-track'), hasRepoType('registry')));
+  const recTrackRepos = wgRepos.filter(eitherFilter(hasRepoType('rec-track'), hasRepoType('registry')));
 
   // * look if those with homepage URLs have a match in the list of specs
   candidates = recTrackRepos.filter(r => r.homepageUrl)

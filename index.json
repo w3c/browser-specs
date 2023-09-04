@@ -4174,38 +4174,6 @@
     "standing": "good"
   },
   {
-    "url": "https://sourcemaps.info/spec.html",
-    "seriesComposition": "full",
-    "shortname": "sourcemap",
-    "series": {
-      "shortname": "sourcemap",
-      "currentSpecification": "sourcemap",
-      "title": "Source Map Revision 3 Proposal",
-      "shortTitle": "Source Map",
-      "nightlyUrl": "https://sourcemaps.info/spec.html"
-    },
-    "shortTitle": "Source Map",
-    "organization": "sourcemaps.info",
-    "groups": [
-      {
-        "name": "sourcemaps.info",
-        "url": "https://sourcemaps.info/"
-      }
-    ],
-    "nightly": {
-      "url": "https://sourcemaps.info/spec.html",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "filename": "spec.html"
-    },
-    "title": "Source Map Revision 3 Proposal",
-    "source": "spec",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://storage.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "storage",
@@ -4794,6 +4762,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-import-attributes/",
+    "seriesComposition": "full",
+    "shortname": "tc39-import-attributes",
+    "series": {
+      "shortname": "tc39-import-attributes",
+      "currentSpecification": "tc39-import-attributes",
+      "title": "Import Attributes",
+      "shortTitle": "Import Attributes",
+      "nightlyUrl": "https://tc39.es/proposal-import-attributes/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-import-attributes/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-import-attributes",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Import Attributes",
+    "source": "spec",
+    "shortTitle": "Import Attributes",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-intl-duration-format/",
     "seriesComposition": "full",
     "shortname": "tc39-intl-duration-format",
@@ -5223,6 +5225,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-promise-with-resolvers/",
+    "seriesComposition": "full",
+    "shortname": "tc39-promise-with-resolvers",
+    "series": {
+      "shortname": "tc39-promise-with-resolvers",
+      "currentSpecification": "tc39-promise-with-resolvers",
+      "title": "ES Promise.withResolvers (2023)",
+      "shortTitle": "2023",
+      "nightlyUrl": "https://tc39.es/proposal-promise-with-resolvers/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-promise-with-resolvers/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-promise-with-resolvers",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "ES Promise.withResolvers (2023)",
+    "source": "spec",
+    "shortTitle": "2023",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-regexp-modifiers/",
     "seriesComposition": "full",
     "shortname": "tc39-regexp-modifiers",
@@ -5362,6 +5398,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-source-phase-imports/",
+    "seriesComposition": "full",
+    "shortname": "tc39-source-phase-imports",
+    "series": {
+      "shortname": "tc39-source-phase-imports",
+      "currentSpecification": "tc39-source-phase-imports",
+      "title": "Source Phase Imports",
+      "shortTitle": "Source Phase Imports",
+      "nightlyUrl": "https://tc39.es/proposal-source-phase-imports/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-source-phase-imports/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-source-phase-imports",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Source Phase Imports",
+    "source": "spec",
+    "shortTitle": "Source Phase Imports",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-symbols-as-weakmap-keys/",
     "seriesComposition": "full",
     "shortname": "tc39-symbols-as-weakmap-keys",
@@ -5427,6 +5497,40 @@
     "title": "Temporal proposal",
     "source": "spec",
     "shortTitle": "Temporal proposal",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://tc39.es/source-map-spec/",
+    "seriesComposition": "full",
+    "shortname": "sourcemap",
+    "series": {
+      "shortname": "sourcemap",
+      "currentSpecification": "sourcemap",
+      "title": "Source Map",
+      "shortTitle": "Source Map",
+      "nightlyUrl": "https://tc39.es/source-map-spec/"
+    },
+    "nightly": {
+      "url": "https://tc39.es/source-map-spec/",
+      "status": "Editor's Draft",
+      "sourcePath": "source-map.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/source-map-spec",
+      "filename": "index.html"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "Source Map",
+    "source": "spec",
+    "shortTitle": "Source Map",
     "categories": [
       "browser"
     ],
@@ -6349,9 +6453,7 @@
     },
     "source": "spec",
     "shortTitle": "Close Watcher API",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

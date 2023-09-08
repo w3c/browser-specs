@@ -3383,8 +3383,8 @@
     "series": {
       "shortname": "WEBGL_clip_cull_distance",
       "currentSpecification": "WEBGL_clip_cull_distance",
-      "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
-      "shortTitle": "WebGL WEBGL_clip_cull_distance Extension Draft",
+      "title": "WebGL WEBGL_clip_cull_distance Extension Specification",
+      "shortTitle": "WebGL WEBGL_clip_cull_distance Extension",
       "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/"
     },
     "organization": "Khronos Group",
@@ -3402,9 +3402,9 @@
       "sourcePath": "extensions/WEBGL_clip_cull_distance/extension.xml",
       "filename": "index.html"
     },
-    "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
+    "title": "WebGL WEBGL_clip_cull_distance Extension Specification",
     "source": "spec",
-    "shortTitle": "WebGL WEBGL_clip_cull_distance Extension Draft",
+    "shortTitle": "WebGL WEBGL_clip_cull_distance Extension",
     "categories": [
       "browser"
     ],

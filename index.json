@@ -7219,8 +7219,8 @@
     "series": {
       "shortname": "first-party-sets",
       "currentSpecification": "first-party-sets",
-      "title": "User Agent Interaction with First-Party Sets",
-      "shortTitle": "User Agent Interaction with First-Party Sets",
+      "title": "User Agent Interaction with Related Website Sets",
+      "shortTitle": "User Agent Interaction with Related Website Sets",
       "nightlyUrl": "https://wicg.github.io/first-party-sets/"
     },
     "organization": "W3C",
@@ -7238,9 +7238,9 @@
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "User Agent Interaction with First-Party Sets",
+    "title": "User Agent Interaction with Related Website Sets",
     "source": "spec",
-    "shortTitle": "User Agent Interaction with First-Party Sets",
+    "shortTitle": "User Agent Interaction with Related Website Sets",
     "categories": [
       "browser"
     ],
@@ -18484,7 +18484,7 @@
     "series": {
       "shortname": "mediasession",
       "currentSpecification": "mediasession",
-      "title": "Media Session Standard",
+      "title": "Media Session",
       "shortTitle": "Media Session",
       "releaseUrl": "https://www.w3.org/TR/mediasession/",
       "nightlyUrl": "https://w3c.github.io/mediasession/"
@@ -18509,7 +18509,7 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Media Session Standard",
+    "title": "Media Session",
     "source": "w3c",
     "shortTitle": "Media Session",
     "categories": [

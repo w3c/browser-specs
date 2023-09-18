@@ -454,7 +454,7 @@
   },
   {
     "url": "https://webassembly.github.io/gc/core/",
-    "forkOf": "wasm-core" 
+    "forkOf": "wasm-core-1" 
   },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://webidl.spec.whatwg.org/",

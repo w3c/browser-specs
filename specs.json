@@ -453,7 +453,7 @@
     "forkOf": "wasm-js-api-2"
   },
   {
-    "url": "https://webassembly.github.io/gc/core/",
+    "url": "https://webassembly.github.io/gc/core/bikeshed/",
     "forkOf": "wasm-core-1"
   },
   "https://webbluetoothcg.github.io/web-bluetooth/",

@@ -452,6 +452,10 @@
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "forkOf": "wasm-js-api-2"
   },
+  {
+    "url": "https://webassembly.github.io/gc/core/",
+    "forkOf": "wasm-core" 
+  },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   "https://webidl.spec.whatwg.org/",
   "https://websockets.spec.whatwg.org/",

@@ -311,6 +311,18 @@
     "WICG/service-worker-static-routing-api": {
       "lastreviewed": "2023-09-04",
       "comment": "no published content yet"
+    },
+    "WICG/accessible-notifications": {
+      "lastreviewed": "2023-09-18",
+      "comment": "no published content yet"
+    },
+    "WICG/observable": {
+      "lastreviewed": "2023-09-18",
+      "comment": "no published content yet"
+    },
+    "immersive-web/webxr-accessibility": {
+      "lastreviewed": "2023-09-18",
+      "comment": "no published content yet"
     }
   },
   "specs": {

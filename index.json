@@ -1189,51 +1189,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-transitions-2/",
-    "seriesComposition": "delta",
-    "shortname": "css-transitions-2",
-    "series": {
-      "shortname": "css-transitions",
-      "currentSpecification": "css-transitions-1",
-      "title": "CSS Transitions",
-      "shortTitle": "CSS Transitions",
-      "releaseUrl": "https://www.w3.org/TR/css-transitions/",
-      "nightlyUrl": "https://drafts.csswg.org/css-transitions/"
-    },
-    "seriesVersion": "2",
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-transitions-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-transitions-2/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-transitions-2/Overview.bs",
-      "filename": "index.html"
-    },
-    "seriesPrevious": "css-transitions-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "title": "CSS Transitions Level 2",
-    "source": "specref",
-    "shortTitle": "CSS Transitions 2",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-transitions"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-values-5/",
     "seriesComposition": "delta",
     "shortname": "css-values-5",
@@ -9045,6 +9000,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/web-preferences-api/",
+    "seriesComposition": "full",
+    "shortname": "web-preferences-api",
+    "series": {
+      "shortname": "web-preferences-api",
+      "currentSpecification": "web-preferences-api",
+      "title": "Web Preferences API",
+      "shortTitle": "Web Preferences API",
+      "nightlyUrl": "https://wicg.github.io/web-preferences-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/web-preferences-api/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/web-preferences-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web Preferences API",
+    "source": "spec",
+    "shortTitle": "Web Preferences API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
     "url": "https://wicg.github.io/webcrypto-secure-curves/",
     "seriesComposition": "full",
     "shortname": "webcrypto-secure-curves",
@@ -15424,6 +15413,56 @@
     "title": "CSS Transitions",
     "source": "w3c",
     "shortTitle": "CSS Transitions",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-transitions"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-transitions-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-transitions-2",
+    "series": {
+      "shortname": "css-transitions",
+      "currentSpecification": "css-transitions-1",
+      "title": "CSS Transitions",
+      "shortTitle": "CSS Transitions",
+      "releaseUrl": "https://www.w3.org/TR/css-transitions/",
+      "nightlyUrl": "https://drafts.csswg.org/css-transitions/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-transitions-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-transitions-2/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-transitions-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-transitions-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-transitions-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Transitions Level 2",
+    "source": "w3c",
+    "shortTitle": "CSS Transitions 2",
     "categories": [
       "browser"
     ],

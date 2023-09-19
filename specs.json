@@ -111,13 +111,6 @@
     "shortTitle": "CSS Size Adjustment 1"
   },
   {
-    "url": "https://drafts.csswg.org/css-transitions-2/",
-    "seriesComposition": "delta",
-    "nightly": {
-      "status": "Editor's Draft"
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-values-5/",
     "shortTitle": "CSS Values 5",
     "seriesComposition": "delta"
@@ -567,6 +560,7 @@
   "https://wicg.github.io/video-rvfc/",
   "https://wicg.github.io/web-app-launch/",
   "https://wicg.github.io/web-otp/",
+  "https://wicg.github.io/web-preferences-api/",
   "https://wicg.github.io/webcrypto-secure-curves/",
   "https://wicg.github.io/webhid/",
   "https://wicg.github.io/webpackage/loading.html",
@@ -869,6 +863,7 @@
   "https://www.w3.org/TR/css-transforms-1/",
   "https://www.w3.org/TR/css-transforms-2/ delta",
   "https://www.w3.org/TR/css-transitions-1/",
+  "https://www.w3.org/TR/css-transitions-2/ delta",
   "https://www.w3.org/TR/css-typed-om-1/",
   {
     "url": "https://www.w3.org/TR/css-ui-3/",

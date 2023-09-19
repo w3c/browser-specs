@@ -6186,6 +6186,43 @@
     "standing": "good"
   },
   {
+    "url": "https://webassembly.github.io/gc/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-1-fork-gc",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-1",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "1",
+    "forkOf": "wasm-core-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/gc/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/gc",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebAssembly Core Specification",
+    "source": "spec",
+    "shortTitle": "WebAssembly Core",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "seriesComposition": "full",
     "shortname": "web-bluetooth",
@@ -22537,6 +22574,9 @@
         "test/core"
       ]
     },
+    "forks": [
+      "wasm-core-1-fork-gc"
+    ],
     "organization": "W3C",
     "groups": [
       {

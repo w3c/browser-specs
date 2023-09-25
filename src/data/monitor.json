@@ -323,6 +323,14 @@
     "immersive-web/webxr-accessibility": {
       "lastreviewed": "2023-09-18",
       "comment": "no published content yet"
+    },
+    "WICG/dbsc": {
+      "lastreviewed": "2023-09-25",
+      "comment": "no published content yet"
+    },
+    "WICG/PEPC": {
+      "lastreviewed": "2023-09-25",
+      "comment": "no published content yet"
     }
   },
   "specs": {

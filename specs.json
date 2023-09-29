@@ -426,7 +426,12 @@
     }
   },
   "https://w3c.github.io/permissions-registry/",
-  "https://w3c.github.io/PNG-spec/",
+  {
+    "url": "https://w3c.github.io/PNG-spec/",
+    "nightly": {
+      "status": "Editor's Draft"
+    }
+  },
   {
     "url": "https://w3c.github.io/sparql-concepts/spec/",
     "shortname": "sparql12-concepts",

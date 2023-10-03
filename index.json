@@ -5899,13 +5899,6 @@
       "shortTitle": "PNG",
       "nightlyUrl": "https://w3c.github.io/PNG-spec/"
     },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Portable Network Graphics (PNG) Working Group",
-        "url": "https://www.w3.org/groups/wg/png/"
-      }
-    ],
     "nightly": {
       "url": "https://w3c.github.io/PNG-spec/",
       "status": "Editor's Draft",
@@ -5914,6 +5907,13 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Portable Network Graphics (PNG) Working Group",
+        "url": "https://www.w3.org/groups/wg/png/"
+      }
+    ],
     "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
     "source": "spec",
     "shortTitle": "PNG",
@@ -10836,7 +10836,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -16318,7 +16318,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -16652,7 +16652,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -17295,7 +17295,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -17887,7 +17887,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -17934,7 +17934,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -19151,7 +19151,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -19198,11 +19198,11 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/network-error-logging-1/",
+      "url": "https://www.w3.org/TR/network-error-logging/",
       "status": "Working Draft",
       "filename": "Overview.html"
     },
@@ -19376,7 +19376,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -19601,7 +19601,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -20499,7 +20499,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -20545,7 +20545,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -20641,7 +20641,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -21158,7 +21158,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -22081,7 +22081,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -22431,7 +22431,7 @@
     "groups": [
       {
         "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/webperf/"
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "release": {
@@ -23003,7 +23003,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/webauthn-3/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

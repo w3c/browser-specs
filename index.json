@@ -19182,18 +19182,17 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/network-error-logging-1/",
+    "url": "https://www.w3.org/TR/network-error-logging/",
     "seriesComposition": "full",
-    "shortname": "network-error-logging-1",
+    "shortname": "network-error-logging",
     "series": {
       "shortname": "network-error-logging",
-      "currentSpecification": "network-error-logging-1",
+      "currentSpecification": "network-error-logging",
       "title": "Network Error Logging",
       "shortTitle": "Network Error Logging",
       "releaseUrl": "https://www.w3.org/TR/network-error-logging/",
       "nightlyUrl": "https://w3c.github.io/network-error-logging/"
     },
-    "seriesVersion": "1",
     "organization": "W3C",
     "groups": [
       {

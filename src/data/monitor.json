@@ -331,6 +331,10 @@
     "WICG/PEPC": {
       "lastreviewed": "2023-09-25",
       "comment": "no published content yet"
+    },
+    "WICG/coop-restrict-properties": {
+      "lastreviewed": "2023-10-09",
+      "comment": "no published content yet"
     }
   },
   "specs": {

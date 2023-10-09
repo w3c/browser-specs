@@ -12,6 +12,10 @@
       "comment": "no spec yet",
       "lastreviewed": "2023-09-01"
     },
+    "WICG/controlled-frame": {
+      "comment": "early draft, but also no w3c.json file yet, see https://github.com/WICG/controlled-frame/pull/30",
+      "lastreviewed": "2023-10-09"
+    },
     "WICG/file-handling": {
       "comment": "only points to explainer",
       "lastreviewed": "2023-09-01"

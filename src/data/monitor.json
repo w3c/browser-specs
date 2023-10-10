@@ -339,6 +339,10 @@
     "WICG/coop-restrict-properties": {
       "lastreviewed": "2023-10-09",
       "comment": "no published content yet"
+    },
+    "patcg-individual-drafts/private-aggregation-api": {
+      "lastreviewed": "2023-10-10",
+      "comment": "proposal has not been adopted by the Private Advertising Technology Community Group"
     }
   },
   "specs": {

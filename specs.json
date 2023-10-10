@@ -153,6 +153,14 @@
   "https://immersive-web.github.io/anchors/",
   "https://immersive-web.github.io/model-element/",
   "https://immersive-web.github.io/raw-camera-access/",
+  {
+    "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
+    "shortname": "webxr-plane-detection"
+  },
+  {
+    "url": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
+    "shortname": "webxr-meshing"
+  },
   "https://immersive-web.github.io/real-world-meshing/",
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
@@ -455,6 +463,10 @@
     "forkOf": "wasm-core-1"
   },
   "https://webbluetoothcg.github.io/web-bluetooth/",
+  {
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
+    "shortname": "web-bluetooth-scanning"
+  },
   "https://webidl.spec.whatwg.org/",
   "https://websockets.spec.whatwg.org/",
   "https://wicg.github.io/attribution-reporting-api/",
@@ -566,6 +578,10 @@
   "https://wicg.github.io/web-app-launch/",
   "https://wicg.github.io/web-otp/",
   "https://wicg.github.io/web-preferences-api/",
+  {
+    "url": "https://wicg.github.io/WebApiDevice/managed_config/",
+    "shortname": "managed-configuration"
+  },
   "https://wicg.github.io/webcrypto-secure-curves/",
   "https://wicg.github.io/webhid/",
   "https://wicg.github.io/webpackage/loading.html",
@@ -1026,6 +1042,12 @@
   "https://www.w3.org/TR/magnetometer/",
   "https://www.w3.org/TR/manifest-app-info/",
   "https://www.w3.org/TR/mathml-core/",
+  {
+    "url": "https://www.w3.org/TR/mathml4/",
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/media-capabilities/",
   {
     "url": "https://www.w3.org/TR/media-source-2/",

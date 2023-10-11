@@ -47,9 +47,6 @@
     }
   },
   "repos": {
-    "w3c/mathml": {
-      "comment": "not targeted at browsers"
-    },
     "w3c/adpt": {
       "comment": "not targeted at browsers"
     },
@@ -411,6 +408,30 @@
     },
     "https://w3c.github.io/resource-hints/": {
       "comment": "Integrated in HTML, ED redirects to HTML"
+    },
+    "https://w3c.github.io/webpayments-http-messages/": {
+      "comment": "no longer worked on"
+    },
+    "https://draft.ortc.org/": {
+      "comment": "No expectation that the API will be implemented in browsers"
+    },
+    "https://webmachinelearning.github.io/model-loader/": {
+      "comment": "no longer worked on"
+    },
+    "https://w3c.github.io/webpayments-crypto/": {
+      "comment": "no longer worked on"
+    },
+    "https://w3c.github.io/webpayments-methods-tokenization/": {
+      "comment": "no longer worked on"
+    },
+    "https://w3c.github.io/merchant-validation/": {
+      "comment": "no longer worked on"
+    },
+    "https://tabatkins.github.io/css-toggle/": {
+      "comment": "Proposal in a personal repository, no adoption from community"
+    },
+    "https://tabatkins.github.io/specs/css-stacking-context-1/": {
+      "comment": "Proposal in a personal repository, no adoption from community"
     }
   }
 }

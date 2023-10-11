@@ -580,7 +580,10 @@
   "https://wicg.github.io/web-preferences-api/",
   {
     "url": "https://wicg.github.io/WebApiDevice/managed_config/",
-    "shortname": "managed-configuration"
+    "shortname": "managed-configuration",
+    "nightly": {
+      "sourcePath": "managed_config/index.bs"
+    }
   },
   "https://wicg.github.io/webcrypto-secure-curves/",
   "https://wicg.github.io/webhid/",

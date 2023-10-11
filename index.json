@@ -1894,6 +1894,74 @@
     "standing": "good"
   },
   {
+    "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
+    "seriesComposition": "full",
+    "shortname": "webxr-plane-detection",
+    "series": {
+      "shortname": "webxr-plane-detection",
+      "currentSpecification": "webxr-plane-detection",
+      "title": "WebXR Plane Detection",
+      "shortTitle": "WebXR Plane Detection",
+      "nightlyUrl": "https://immersive-web.github.io/real-world-geometry/plane-detection.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/immersive-web/real-world-geometry",
+      "sourcePath": "plane-detection.bs",
+      "filename": "plane-detection.html"
+    },
+    "title": "WebXR Plane Detection Module",
+    "source": "spec",
+    "shortTitle": "WebXR Plane Detection",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
+    "seriesComposition": "full",
+    "shortname": "webxr-meshing",
+    "series": {
+      "shortname": "webxr-meshing",
+      "currentSpecification": "webxr-meshing",
+      "title": "WebXR Meshing API",
+      "shortTitle": "WebXR Meshing API",
+      "nightlyUrl": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
+      "status": "A Collection of Interesting Ideas",
+      "alternateUrls": [],
+      "repository": "https://github.com/immersive-web/real-world-geometry",
+      "sourcePath": "webxrmeshing-1.bs",
+      "filename": "webxrmeshing-1.html"
+    },
+    "title": "WebXR Meshing API Level 1",
+    "source": "spec",
+    "shortTitle": "WebXR Meshing API 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
     "url": "https://immersive-web.github.io/real-world-meshing/",
     "seriesComposition": "full",
     "shortname": "real-world-meshing",
@@ -6218,6 +6286,40 @@
     }
   },
   {
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
+    "seriesComposition": "full",
+    "shortname": "web-bluetooth-scanning",
+    "series": {
+      "shortname": "web-bluetooth-scanning",
+      "currentSpecification": "web-bluetooth-scanning",
+      "title": "Web Bluetooth Scanning",
+      "shortTitle": "Web Bluetooth Scanning",
+      "nightlyUrl": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Bluetooth Community Group",
+        "url": "https://www.w3.org/community/web-bluetooth/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebBluetoothCG/web-bluetooth",
+      "sourcePath": "scanning.bs",
+      "filename": "scanning.html"
+    },
+    "title": "Web Bluetooth Scanning",
+    "source": "spec",
+    "shortTitle": "Web Bluetooth Scanning",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webidl.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "webidl",
@@ -9032,6 +9134,46 @@
       "browser"
     ],
     "standing": "pending"
+  },
+  {
+    "url": "https://wicg.github.io/WebApiDevice/managed_config/",
+    "seriesComposition": "full",
+    "shortname": "managed-configuration",
+    "series": {
+      "shortname": "managed-configuration",
+      "currentSpecification": "managed-configuration",
+      "title": "Managed Configuration API",
+      "shortTitle": "Managed Configuration API",
+      "nightlyUrl": "https://wicg.github.io/WebApiDevice/managed_config/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/WebApiDevice/managed_config/",
+      "status": "Draft Community Group Report",
+      "sourcePath": "managed_config/index.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/WebApiDevice",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "title": "Managed Configuration API",
+    "source": "spec",
+    "shortTitle": "Managed Configuration API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "managed"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/webcrypto-secure-curves/",
@@ -18095,6 +18237,45 @@
         "mathml"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/mathml4/",
+    "seriesComposition": "full",
+    "shortname": "mathml4",
+    "series": {
+      "shortname": "mathml",
+      "currentSpecification": "mathml4",
+      "title": "Mathematical Markup Language (MathML) Version",
+      "shortTitle": "MathML",
+      "releaseUrl": "https://www.w3.org/TR/mathml/",
+      "nightlyUrl": "https://w3c.github.io/mathml/"
+    },
+    "seriesVersion": "4",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Math Working Group",
+        "url": "https://www.w3.org/Math/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/mathml4/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/mathml/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/mathml",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Mathematical Markup Language (MathML) Version 4.0",
+    "source": "w3c",
+    "shortTitle": "MathML 4.0",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/media-capabilities/",

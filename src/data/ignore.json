@@ -423,12 +423,6 @@
     },
     "https://w3c.github.io/math-aam/": {
       "comment": "no longer worked on and community group closed"
-    },
-    "https://w3c.github.io/editing/docs/execCommand/": {
-      "comment": "no longer worked on and not implemented consistently or fully by user agents"
-    },
-    "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {
-      "comment": "no longer worked on and implementation status is unclear"
     }
   }
 }

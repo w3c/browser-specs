@@ -343,6 +343,14 @@
     "patcg-individual-drafts/private-aggregation-api": {
       "lastreviewed": "2023-10-10",
       "comment": "proposal has not been adopted by the Private Advertising Technology Community Group"
+    },
+    "screen-share/capture-all-screens": {
+      "lastreviewed": "2023-10-12",
+      "comment": "still early exploration phase; no clear implementation plan yet"
+    },
+    "w3c/p2p-webtransport": {
+      "lastreviewed": "2023-10-12",
+      "comment": "client to server should be overtaken by WebTransport, status of p2p unclear, see https://github.com/w3c/p2p-webtransport/issues/140"
     }
   },
   "specs": {
@@ -397,6 +405,10 @@
     "https://www.w3.org/TR/css-device-adapt-1/": {
       "lastreviewed": "2023-09-01",
       "comment": "spec should be retired in 2023, see https://github.com/w3c/browser-specs/issues/837, replaced by css-viewport"
+    },
+    "https://wicg.github.io/anonymous-iframe/": {
+      "lastreviewed": "2023-10-12",
+      "comment": "no real group name in w3c.json file"
     }
   }
 }

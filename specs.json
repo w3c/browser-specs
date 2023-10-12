@@ -523,6 +523,10 @@
   "https://wicg.github.io/manifest-incubations/",
   "https://wicg.github.io/media-feeds/",
   {
+    "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
+    "shortname": "no-vary-search"
+  },
+  {
     "url": "https://wicg.github.io/nav-speculation/prefetch.html",
     "shortname": "prefetch"
   },
@@ -950,6 +954,18 @@
     }
   },
   "https://www.w3.org/TR/DOM-Parsing/",
+  {
+    "url": "https://www.w3.org/TR/dpub-aam-1.1/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/TR/dpub-aria-1.1/",
+    "categories": [
+      "-browser"
+    ]
+  },
   "https://www.w3.org/TR/edit-context/",
   {
     "url": "https://www.w3.org/TR/encrypted-media/",

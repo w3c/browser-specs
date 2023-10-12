@@ -7837,6 +7837,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
+    "seriesComposition": "full",
+    "shortname": "no-vary-search",
+    "series": {
+      "shortname": "no-vary-search",
+      "currentSpecification": "no-vary-search",
+      "title": "No-Vary-Search",
+      "shortTitle": "No-Vary-Search",
+      "nightlyUrl": "https://wicg.github.io/nav-speculation/no-vary-search.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/nav-speculation",
+      "sourcePath": "no-vary-search.bs",
+      "filename": "no-vary-search.html"
+    },
+    "title": "No-Vary-Search",
+    "source": "spec",
+    "shortTitle": "No-Vary-Search",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/nav-speculation/prefetch.html",
     "seriesComposition": "full",
     "shortname": "prefetch",
@@ -16611,6 +16645,96 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "domparsing"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/dpub-aam-1.1/",
+    "seriesComposition": "full",
+    "shortname": "dpub-aam-1.1",
+    "series": {
+      "shortname": "dpub-aam",
+      "currentSpecification": "dpub-aam-1.1",
+      "title": "Digital Publishing Accessibility API Mappings",
+      "shortTitle": "Digital Publishing Accessibility API Mappings",
+      "releaseUrl": "https://www.w3.org/TR/dpub-aam/",
+      "nightlyUrl": "https://w3c.github.io/dpub-aam/"
+    },
+    "seriesVersion": "1.1",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/dpub-aam-1.1/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/dpub-aam/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/dpub-aam",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Digital Publishing Accessibility API Mappings 1.1",
+    "source": "w3c",
+    "shortTitle": "Digital Publishing Accessibility API Mappings 1.1",
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "dpub-aam"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/dpub-aria-1.1/",
+    "seriesComposition": "full",
+    "shortname": "dpub-aria-1.1",
+    "series": {
+      "shortname": "dpub-aria",
+      "currentSpecification": "dpub-aria-1.1",
+      "title": "Digital Publishing WAI-ARIA",
+      "shortTitle": "Digital Publishing WAI-ARIA",
+      "releaseUrl": "https://www.w3.org/TR/dpub-aria/",
+      "nightlyUrl": "https://w3c.github.io/dpub-aria/"
+    },
+    "seriesVersion": "1.1",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/ARIA/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/dpub-aria-1.1/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/dpub-aria/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/dpub-aria",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Digital Publishing WAI-ARIA Module 1.1",
+    "source": "w3c",
+    "shortTitle": "Digital Publishing WAI-ARIA 1.1",
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "dpub-aria"
       ]
     }
   },

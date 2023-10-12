@@ -24,9 +24,6 @@
     "Education and Outreach Working Group": {
       "comment": "specs not targeted at browsers"
     },
-    "EPUB 3 Working Group": {
-      "comment": "specs not targeted at browsers"
-    },
     "MiniApps Working Group": {
       "comment": "specs not targeted at browsers"
     },
@@ -151,15 +148,6 @@
     },
     "w3c/webappsec-uisecurity": {
       "comment": "no longer worked on"
-    },
-    "w3c/dpub-aam": {
-      "comment": "not targeting browsers but epub readers"
-    },
-    "w3c/dpub-aria": {
-      "comment": "not targeting browsers but epub readers"
-    },
-    "w3c/publ-epub-revision": {
-      "comment": "not targeting browsers but epub readers"
     },
     "WICG/audio-focus": {
       "comment": "moved to w3c/audio-session"
@@ -287,7 +275,7 @@
       "comment": "no longer worked on"
     },
     "https://www.w3.org/TR/webpayments-http-messages/": {
-      "comment": "not intended for browsers"
+      "comment": "no longer worked on"
     },
     "https://w3c.github.io/svgwg/": {
       "comment": "not a spec; draft URLs on svgwg.org"
@@ -432,6 +420,9 @@
     },
     "https://tabatkins.github.io/specs/css-stacking-context-1/": {
       "comment": "Proposal in a personal repository, no adoption from community"
+    },
+    "https://w3c.github.io/math-aam/": {
+      "comment": "no longer worked on and community froup closed"
     }
   }
 }

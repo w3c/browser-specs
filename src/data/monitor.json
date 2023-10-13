@@ -409,6 +409,14 @@
     "https://wicg.github.io/anonymous-iframe/": {
       "lastreviewed": "2023-10-12",
       "comment": "no real group name in w3c.json file"
+    },
+    "https://w3c.github.io/editing/docs/execCommand/": {
+      "lastreviewed": "2023-10-12",
+      "comment": "no longer worked on and not implemented consistently or fully by user agents"
+    },
+    "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {
+      "lastreviewed": "2023-10-12",
+      "comment": "no longer worked on and implementation status is unclear"
     }
   }
 }

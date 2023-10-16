@@ -351,6 +351,10 @@
     "w3c/p2p-webtransport": {
       "lastreviewed": "2023-10-12",
       "comment": "client to server should be overtaken by WebTransport, status of p2p unclear, see https://github.com/w3c/p2p-webtransport/issues/140"
+    },
+    "w3c/webrtc-rtptransport": {
+      "lastreviewed": "2023-10-16",
+      "comment": "early draft, sections are mostly empty for now"
     }
   },
   "specs": {

@@ -8843,7 +8843,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "storage/buckets"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/trust-token-api/",

@@ -90,7 +90,7 @@
       "comment": "not targeted at browsers"
     },
     "WICG/urlpattern": {
-      "comment": "merged into HTML"
+      "comment": "moved to WHATWG"
     },
     "WICG/visual-viewport": {
       "comment": "merged into CSSOM View"

@@ -248,7 +248,7 @@ async function fetchInfoFromSpecs(specs, options) {
     const page = await browser.newPage();
 
     try {
-      await page.goto(url);
+      await page.goto(url, { timeout: 120000, waitUntil: 'networkidle0' });
 
       // Wait until the generation of the spec is completely over
       // (same code as in Reffy, except Reffy forces the latest version of

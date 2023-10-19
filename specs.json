@@ -420,6 +420,7 @@
   },
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",
+  "https://urlpattern.spec.whatwg.org/",
   "https://w3c.github.io/audio-session/",
   "https://w3c.github.io/contentEditable/",
   "https://w3c.github.io/gamepad/extensions.html",
@@ -576,7 +577,6 @@
     "shortTitle": "Protected Audience"
   },
   "https://wicg.github.io/ua-client-hints/",
-  "https://wicg.github.io/urlpattern/",
   "https://wicg.github.io/user-preference-media-features-headers/",
   "https://wicg.github.io/video-rvfc/",
   "https://wicg.github.io/web-app-launch/",

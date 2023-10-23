@@ -355,6 +355,10 @@
     "w3c/webrtc-rtptransport": {
       "lastreviewed": "2023-10-16",
       "comment": "early draft, sections are mostly empty for now"
+    },
+    "WICG/web-printing": {
+      "lastreviewed": "2023-10-23",
+      "comment": "no published content yet"
     }
   },
   "specs": {

@@ -582,6 +582,7 @@
   "https://wicg.github.io/web-app-launch/",
   "https://wicg.github.io/web-otp/",
   "https://wicg.github.io/web-preferences-api/",
+  "https://wicg.github.io/web-smart-card/",
   {
     "url": "https://wicg.github.io/WebApiDevice/managed_config/",
     "shortname": "managed-configuration",

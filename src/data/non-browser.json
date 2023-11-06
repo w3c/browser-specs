@@ -1,0 +1,37 @@
+{
+  "groups": [
+    "Accessibility Guidelines Working Group",
+    "Accessible Platform Architectures Working Group",
+    "Advisory Board",
+    "Audiobooks Working Group",
+    "Automotive Working Group",
+    "Dataset Exchange Working Group",
+    "Decentralized Identifier Working Group",
+    "Distributed Tracing Working Group",
+    "Education and Outreach Working Group",
+    "EPUB 3 Working Group",
+    "MiniApps Working Group",
+    "Patents and Standards Interest Group",
+    "Spatial Data on the Web Working Group",
+    "Technical Architecture Group",
+    "Verifiable Credentials Working Group",
+    "Web of Things Working Group"
+  ],
+  "repos": [
+    "w3c/mathml",
+    "w3c/adpt",
+    "w3c/dapt",
+    "w3c/imsc",
+    "w3c/imsc-hrm",
+    "w3c/tt-module-karaoke",
+    "w3c/tt-module-live",
+    "w3c/ttml1",
+    "w3c/ttml2",
+    "w3c/ttml3",
+    "WICG/open-ui",
+    "w3c/dpub-aam",
+    "w3c/dpub-aria",
+    "w3c/publ-epub-revision",
+    "WICG/devtools-protocol"
+  ]
+}

@@ -247,7 +247,45 @@ async function fetchInfoFromSpecs(specs, options) {
     const url = spec.nightly?.url || spec.url;
     const page = await browser.newPage();
 
+    // Inner function that returns a network interception method for Puppeteer,
+    // to avoid downloading images and getting stuck on streams.
+    // NB: this is a simplified version of the code used in Reffy:
+    // https://github.com/w3c/reffy/blob/25bb1be05be63cae399d2648ecb1a5ea5ab8430a/src/lib/util.js#L351
+    function interceptRequest(cdp) {
+      return async function ({ requestId, request }) {
+        try {
+          // Abort network requests to common image formats
+          if (/\.(gif|ico|jpg|jpeg|png|ttf|woff)$/i.test(request.url)) {
+            await cdp.send('Fetch.failRequest', { requestId, errorReason: 'Failed' });
+            return;
+          }
+
+          // Abort network requests that return a "stream", they don't
+          // play well with Puppeteer's "networkidle0" option
+          if (request.url.startsWith('https://drafts.csswg.org/api/drafts/') ||
+              request.url.startsWith('https://drafts.css-houdini.org/api/drafts/') ||
+              request.url.startsWith('https://drafts.fxtf.org/api/drafts/') ||
+              request.url.startsWith('https://api.csswg.org/shepherd/')) {
+            await cdp.send('Fetch.failRequest', { requestId, errorReason: 'Failed' });
+            return;
+          }
+
+          // Proceed with the network request otherwise
+          await cdp.send('Fetch.continueRequest', { requestId });
+        }
+        catch (err) {
+          console.warn(`[warn] Network request to ${request.url} failed`, err);
+        }
+      }
+    }
+
+    // Intercept network requests to avoid downloading images and streams
+    const cdp = await page.target().createCDPSession();
+
     try {
+      await cdp.send('Fetch.enable');
+      cdp.on('Fetch.requestPaused', interceptRequest(cdp));
+
       await page.goto(url, { timeout: 120000, waitUntil: 'networkidle0' });
 
       // Wait until the generation of the spec is completely over
@@ -359,6 +397,7 @@ async function fetchInfoFromSpecs(specs, options) {
       }
     }
     finally {
+      await cdp.detach();
       await page.close();
     }
   }

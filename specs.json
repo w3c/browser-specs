@@ -1,5 +1,15 @@
 [
   {
+    "url": "https://aomediacodec.github.io/av1-avif/",
+    "organization": "Alliance for Open Media",
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ]
+  },
+  {
     "url": "https://compat.spec.whatwg.org/",
     "nightly": {
       "sourcePath": "compatibility.bs"

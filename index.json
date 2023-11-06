@@ -1,5 +1,45 @@
 [
   {
+    "url": "https://aomediacodec.github.io/av1-avif/",
+    "seriesComposition": "full",
+    "shortname": "av1-avif",
+    "series": {
+      "shortname": "av1-avif",
+      "currentSpecification": "av1-avif",
+      "title": "AV1 Image File Format (AVIF)",
+      "shortTitle": "AVIF",
+      "nightlyUrl": "https://aomediacodec.github.io/av1-avif/"
+    },
+    "organization": "Alliance for Open Media",
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ],
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-avif/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/AOMediaCodec/av1-avif",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "AV1 Image File Format (AVIF)",
+    "source": "spec",
+    "shortTitle": "AVIF",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "avif"
+      ]
+    }
+  },
+  {
     "url": "https://compat.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "compat",
@@ -5673,6 +5713,40 @@
     }
   },
   {
+    "url": "https://urlpattern.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "urlpattern",
+    "series": {
+      "shortname": "urlpattern",
+      "currentSpecification": "urlpattern",
+      "title": "URL Pattern",
+      "shortTitle": "URL Pattern",
+      "nightlyUrl": "https://urlpattern.spec.whatwg.org/"
+    },
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "URL Workstream",
+        "url": "https://urlpattern.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://urlpattern.spec.whatwg.org/",
+      "status": "Living Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/whatwg/urlpattern",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "URL Pattern",
+    "source": "spec",
+    "shortTitle": "URL Pattern",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/audio-session/",
     "seriesComposition": "full",
     "shortname": "audio-session",
@@ -6612,7 +6686,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/close-watcher/",
-      "status": "Editor's Draft",
+      "status": "Living Standard",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/close-watcher",
       "sourcePath": "spec.html",
@@ -8960,40 +9034,6 @@
     }
   },
   {
-    "url": "https://wicg.github.io/urlpattern/",
-    "seriesComposition": "full",
-    "shortname": "urlpattern",
-    "series": {
-      "shortname": "urlpattern",
-      "currentSpecification": "urlpattern",
-      "title": "URLPattern API",
-      "shortTitle": "URLPattern API",
-      "nightlyUrl": "https://wicg.github.io/urlpattern/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/urlpattern/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/urlpattern",
-      "sourcePath": "spec.bs",
-      "filename": "index.html"
-    },
-    "title": "URLPattern API",
-    "source": "spec",
-    "shortTitle": "URLPattern API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://wicg.github.io/user-preference-media-features-headers/",
     "seriesComposition": "full",
     "shortname": "user-preference-media-features-headers",
@@ -9170,6 +9210,40 @@
     "title": "Web Preferences API",
     "source": "spec",
     "shortTitle": "Web Preferences API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
+    "url": "https://wicg.github.io/web-smart-card/",
+    "seriesComposition": "full",
+    "shortname": "web-smart-card",
+    "series": {
+      "shortname": "web-smart-card",
+      "currentSpecification": "web-smart-card",
+      "title": "Web Smart Card API",
+      "shortTitle": "Web Smart Card API",
+      "nightlyUrl": "https://wicg.github.io/web-smart-card/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/web-smart-card/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/web-smart-card",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web Smart Card API",
+    "source": "spec",
+    "shortTitle": "Web Smart Card API",
     "categories": [
       "browser"
     ],
@@ -20380,7 +20454,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf-canon/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "title": "RDF Dataset Canonicalization",

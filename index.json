@@ -6065,6 +6065,40 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/reporting/network-reporting.html",
+    "seriesComposition": "full",
+    "shortname": "network-reporting",
+    "series": {
+      "shortname": "network-reporting",
+      "currentSpecification": "network-reporting",
+      "title": "Network Reporting API",
+      "shortTitle": "Network Reporting API",
+      "nightlyUrl": "https://w3c.github.io/reporting/network-reporting.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/reporting/network-reporting.html",
+      "status": "Editor's Draft",
+      "sourcePath": "network-reporting.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/reporting",
+      "filename": "network-reporting.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/groups/wg/webperf/"
+      }
+    ],
+    "title": "Network Reporting API",
+    "source": "spec",
+    "shortTitle": "Network Reporting API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/sparql-concepts/spec/",
     "seriesComposition": "full",
     "shortname": "sparql12-concepts",

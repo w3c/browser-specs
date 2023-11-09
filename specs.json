@@ -452,6 +452,13 @@
     }
   },
   {
+    "url": "https://w3c.github.io/reporting/network-reporting.html",
+    "shortname": "network-reporting",
+    "nightly": {
+      "sourcePath": "network-reporting.bs"
+    }
+  },
+  {
     "url": "https://w3c.github.io/sparql-concepts/spec/",
     "shortname": "sparql12-concepts",
     "categories": [

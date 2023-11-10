@@ -79,6 +79,11 @@
       "sourcePath": "draft-ietf-httpbis-rfc6265bis.md"
     }
   },
+  {
+    "url": "https://datatracker.ietf.org/doc/draft-zern-webp/",
+    "shortname": "webp",
+    "organization": "IETF"
+  },
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   {

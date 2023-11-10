@@ -79,6 +79,20 @@
       "sourcePath": "draft-ietf-httpbis-rfc6265bis.md"
     }
   },
+  {
+    "url": "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
+    "shortname": "webp",
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Network Working Group",
+        "url": "https://datatracker.ietf.org/group/app/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.ietf.org/archive/id/draft-zern-webp-13.html"
+    }
+  },
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   {
@@ -629,6 +643,15 @@
   {
     "url": "https://www.rfc-editor.org/rfc/rfc6266",
     "shortTitle": "Content-Disposition in HTTP"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6386",
+    "groups": [
+      {
+        "name": "Independent Submission",
+        "url": "https://datatracker.ietf.org/stream/ise/"
+      }
+    ]
   },
   "https://www.rfc-editor.org/rfc/rfc6454",
   "https://www.rfc-editor.org/rfc/rfc6797",

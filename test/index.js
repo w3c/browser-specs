@@ -151,10 +151,10 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains repository URLs for all non IETF specs", () => {
+  it("contains repository URLs for all specs save a restricted set", () => {
     // Some more exceptions to the rule
     const wrong = specs.filter(s => !s.nightly.repository &&
-      !s.nightly.url.match(/rfc-editor\.org/) &&
+      s.organization !== 'IETF' &&
       !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
       !s.nightly.url.match(/\/sourcemaps\.info\//) &&
       !s.nightly.url.match(/fidoalliance\.org\//) &&
@@ -162,10 +162,10 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains relative paths to source of nightly spec for all non IETF specs", () => {
+  it("contains relative paths to source of nightly spec for all specs save a restricted set", () => {
     // Some more exceptions to the rule
     const wrong = specs.filter(s => !s.nightly.sourcePath &&
-      !s.nightly.url.match(/rfc-editor\.org/) &&
+      s.organization !== 'IETF' &&
       !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
       !s.nightly.url.match(/tc39\.es\/proposal\-decorators\/$/) &&
       !s.nightly.url.match(/\/sourcemaps\.info\//) &&

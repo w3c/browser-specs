@@ -256,6 +256,38 @@
     "standing": "good"
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
+    "seriesComposition": "full",
+    "shortname": "webp",
+    "series": {
+      "shortname": "webp",
+      "currentSpecification": "webp",
+      "title": "WebP Image Format",
+      "shortTitle": "WebP Image Format",
+      "nightlyUrl": "https://www.ietf.org/archive/id/draft-zern-webp-13.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Network Working Group",
+        "url": "https://datatracker.ietf.org/group/app/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.ietf.org/archive/id/draft-zern-webp-13.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "draft-zern-webp-13.html"
+    },
+    "title": "WebP Image Format",
+    "source": "spec",
+    "shortTitle": "WebP Image Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://dom.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "dom",
@@ -9632,6 +9664,38 @@
     },
     "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
     "source": "specref",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6386",
+    "seriesComposition": "full",
+    "shortname": "rfc6386",
+    "series": {
+      "shortname": "rfc6386",
+      "currentSpecification": "rfc6386",
+      "title": "VP8 Data Format and Decoding Guide",
+      "shortTitle": "VP8 Data Format and Decoding Guide",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6386"
+    },
+    "groups": [
+      {
+        "name": "Independent Submission",
+        "url": "https://datatracker.ietf.org/stream/ise/"
+      }
+    ],
+    "organization": "IETF",
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc6386",
+      "status": "Informational",
+      "alternateUrls": [],
+      "filename": "rfc6386.html"
+    },
+    "title": "VP8 Data Format and Decoding Guide",
+    "source": "specref",
+    "shortTitle": "VP8 Data Format and Decoding Guide",
     "categories": [
       "browser"
     ],

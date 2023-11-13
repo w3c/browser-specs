@@ -355,6 +355,10 @@
     "WICG/web-printing": {
       "lastreviewed": "2023-11-01",
       "comment": "no published content yet"
+    },
+    "WICG/local-peer-to-peer": {
+      "lastreviewed": "2023-11-13",
+      "comment": "no published content yet"
     }
   },
   "specs": {

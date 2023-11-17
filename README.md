@@ -55,6 +55,7 @@ cross-references, WebIDL, quality, etc.
     - [`tests.testPaths`](#teststestpaths)
     - [`tests.excludePaths`](#testsexcludepaths)
   - [`source`](#source)
+- [Spec identifiers](#spec-identifiers)
 - [How to add/update/delete a spec](#how-to-addupdatedelete-a-spec)
 - [Versioning](#versioning)<!-- COMMON-TOC: end -->
 - [Spec selection criteria](#spec-selection-criteria)
@@ -146,6 +147,9 @@ The versioned (but not dated) URL for the spec. For W3C specs published as
 TR documents, this is the TR URL. For WHATWG specs, this is the URL of the
 living standard. In other cases, this is the URL of the latest Editor's Draft.
 
+The URL should be relatively stable but may still change over time. See
+[Spec identifiers](#spec-identifiers) for details.
+
 The `url` property is always set.
 
 
@@ -164,6 +168,9 @@ actual shortname of the fork spec. For instance, given an exception handling
 fork of the WebAssembly spec for which the raw shortname would be
 `exception-handling`, the actual spec shortname will be
 `wasm-js-api-1-fork-exception-handling`.
+
+The shortname should be relatively stable but may still change over time. See
+[Spec identifiers](#spec-identifiers) for details.
 
 The `shortname` property is always set.
 
@@ -472,6 +479,9 @@ versioned URL is considered to be the latest Editor's Draft if the spec does
 neither exist in the W3C API nor in Specref. The [`source`](#source) property
 details the actual provenance.
 
+The URL should be relatively stable but may still change over time. See
+[Spec identifiers](#spec-identifiers) for details.
+
 The `url` property is always set.
 
 
@@ -603,6 +613,53 @@ The provenance for the `title` and `nightly` property values. Can be one of:
 - `spec`: information retrieved from the spec itself
 
 The `source` property is always set.
+
+
+## Spec identifiers
+
+An entry in browser-specs contains properties that can be viewed as
+identifiers: [`shortname`](#shortname), [`url`](#url), and
+[`nightly.url`](#nightlyurl). Please note that these identifiers are not fully
+stable.
+
+The `shortname` property should remain mostly stable over time. The `shortname`
+may still change though, for instance when a W3C specification starts being
+published as a TR document with a shortname that is different from the one used
+during incubation, or when an IETF specification gets published as an RFC.
+Starting in July 2023, when the `shortname` of a specification changes in
+browser-specs, the previous `shortname` gets added to a
+[`formerNames`](#formernames) property. This makes it possible to track a
+specification entry over time in browser-specs.
+
+The `url` property contains a URL of the specification that can be regarded as
+canonical and mostly stable too, but that URL will typically change when a
+specification starts getting published as a formal technical document, or when
+a specification transitions from one organization or group to another one.
+
+The `nightly.url` property is the least stable identifier of a specification.
+That URL may be under the control of an individual or group, who may decide to
+change the URL at any time. Or it may be affected by a change of status. For
+instance, the `nightly.url` property will change when a W3C spec incubated in
+the Web Platform Incubator Community Group (WICG) transitions to a Working
+Group, or when a new version of an IETF draft gets published.
+
+If your project tracks specifications over time and relies on browser-specs to
+gather information about these specifications, you will need to record the
+`shortname` of the specifications you're tracking, and apply the following
+algorithm to find the relevant specification entry in browser-specs:
+
+1. Look for an entry in browser-specs whose `shortname` matches the recorded
+shortname. If one is found, that is the relevant specification entry.
+2. Look for the first entry in browser-specs that has the recorded shortname in
+its `formerNames` property. If one is found, that is the relevant specification
+entry.
+3. If the recorded shortname used to exist in browser-specs and you're still
+looking for a relevant specification entry at this point, that looks like a bug
+in browser-specs, please [raise an
+issue](https://github.com/w3c/browser-specs/issues/new).
+
+Shortname changes may occur in major and minor releases of npm packages but not
+in patch releases.
 
 
 ## How to add/update/delete a spec

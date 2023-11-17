@@ -650,12 +650,15 @@ algorithm to find the relevant specification entry in browser-specs:
 
 1. Look for an entry in browser-specs whose `shortname` matches the recorded
 shortname. If one is found, that is the relevant specification entry.
-2. Look for the first entry in browser-specs that has the recorded shortname in
-its `formerNames` property. If one is found, that is the relevant specification
+2. Look for entries in browser-specs that have the recorded shortname in its
+`formerNames` property. If one is found, that is the relevant specification
 entry.
-3. If the recorded shortname used to exist in browser-specs and you're still
-looking for a relevant specification entry at this point, that looks like a bug
+3. If you found more than one entry in the previous step, that looks like a bug
 in browser-specs, please [raise an
+issue](https://github.com/w3c/browser-specs/issues/new).
+3. If you're still looking for a relevant specification entry at this point
+whereas the recorded shortname used to exist in browser-specs, that looks like
+a bug in browser-specs too, please [raise an
 issue](https://github.com/w3c/browser-specs/issues/new).
 
 Shortname changes may occur in major and minor releases of npm packages but not

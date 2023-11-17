@@ -245,4 +245,11 @@ describe("List of specs", () => {
     );
     assert.deepStrictEqual(wrong, []);
   });
+
+  it("does not contain specs with overlapping formerNames", () => {
+    const wrong = specs.filter(s =>
+      s.formerNames?.find(name => specs.find(spec => spec.formerNames?.includes(name)))
+    );
+    assert.deepStrictEqual(wrong, []);
+  });
 });

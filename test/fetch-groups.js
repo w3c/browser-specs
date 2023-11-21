@@ -57,6 +57,24 @@ describe("fetch-groups module (without API keys)", function () {
     }]);
   });
 
+  it("handles IETF RFCs", async () => {
+    const res = await fetchGroupsFor("https://www.rfc-editor.org/rfc/rfc9110");
+    assert.equal(res.organization, "IETF");
+    assert.deepStrictEqual(res.groups, [{
+      name: "HTTP Working Group",
+      url: "https://datatracker.ietf.org/wg/httpbis/"
+    }]);
+  });
+
+  it("handles IETF group drafts", async () => {
+    const res = await fetchGroupsFor("https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers");
+    assert.equal(res.organization, "IETF");
+    assert.deepStrictEqual(res.groups, [{
+      name: "HTTP Working Group",
+      url: "https://datatracker.ietf.org/wg/httpbis/"
+    }]);
+  });
+
   it("preserves provided info", async () => {
     const spec = {
       url: "https://url.spec.whatwg.org/",

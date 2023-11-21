@@ -44,28 +44,63 @@ module.exports = async function (specs, options) {
   for (const spec of specs) {
     const info = parseSpecUrl(spec.url);
     if (!info) {
-      // No general rule to identify repos and groups for IETF specs
-      // instead, fetching info on groups from https://www.rfc-editor.org/in-notes/rfcXXX.json
-      if (spec.url.match(/rfc-editor\.org/)) {
+      // There is no direct way to find the name of the group behind an IETF
+      // document. The name of the draft document must follow the rules in:
+      // https://authors.ietf.org/naming-your-internet-draft
+      // If the document has already been published as an RFC, we can retrieve
+      // the name of the Internet Draft from the "draft" property in:
+      // https://www.rfc-editor.org/in-notes/rfcXXX.json
+      if (spec.url.match(/rfc-editor\.org/) ||
+          spec.url.match(/datatracker\.ietf\.org/)) {
         spec.organization = spec.organization ?? "IETF";
+        let wgName = null;
+        let wgId = null;
         if (spec.groups) continue;
-        const rfcNumber = spec.url.slice(spec.url.lastIndexOf('/') + 1);
-        const rfcJSON = await fetchJSON(`https://www.rfc-editor.org/in-notes/${rfcNumber}.json`);
-        const wgName = rfcJSON.source;
-        // draft-ietf-websec-origin-06 → websec
-        // per https://www.ietf.org/standards/ids/guidelines/#7
-        // not clear there is anything forbidding hyphens in WG acronyms though
-        // https://datatracker.ietf.org/doc/html/rfc2418#section-2.2
-        const wgId = rfcJSON.draft.split('-')[2];
-        if (wgName && wgId) {
-          spec.groups = [{
-            name: `${wgName} Working Group`,
-            url: `https://datatracker.ietf.org/wg/${wgId}/`
-          }];
-          continue;
-        } else {
-          throw new Error(`Could not identify IETF group producing ${spec.url}`);
+        if (spec.url.match(/rfc-editor\.org/)) {
+          const rfcNumber = spec.url.slice(spec.url.lastIndexOf('/') + 1);
+          const rfcJSON = await fetchJSON(`https://www.rfc-editor.org/in-notes/${rfcNumber}.json`);
+          if (!rfcJSON.draft) {
+            throw new Error(`Cannot derive IETF group for ${spec.url}.
+              No draft URL found. Is it an individual submission?`);
+          }
+          wgId = rfcJSON.draft.split('-')[2];
+          if (!wgId) {
+            throw new Error (`Cannot derive IETF group for ${spec.url}.
+              Draft URL ${rfcJSON.draft} does not seem to contain a group ID.`);
+          }
+          wgName = rfcJSON.source;
+          if (!wgName) {
+            throw new Error (`The RFC info for ${spec.url} does not contain a group name.`);
+          }
         }
+        else {
+          const draftName = spec.url.match(/\/(draft-ietf-[^\/]+)/);
+          if (!draftName) {
+            throw new Error(`Cannot derive IETF group for ${spec.url}. Individual submission?`);
+          }
+          wgId = draftName[1].split('-')[2];
+          wgName = wgId;
+          if (wgId === 'http') {
+            // Someone forgot to update their reference...
+            wgId = 'httpbis';
+          }
+          if (wgId === 'httpbis') {
+            wgName = 'HTTP';
+          }
+          else {
+            // TODO: fetch actual group name from https://datatracker.ietf.org/wg/${wgId}/
+            throw new Error(
+              `Found unknown IETF group ID "${wgId}" for ${spec.url}.
+              Group name should appear in https://datatracker.ietf.org/wg/${wgId}/`
+            );
+          }
+        }
+
+        spec.groups = [{
+          name: `${wgName} Working Group`,
+          url: `https://datatracker.ietf.org/wg/${wgId}/`
+        }];
+        continue;
       }
       if (!spec.groups) {
         throw new Error(`Cannot extract any useful info from ${spec.url}`);

@@ -244,7 +244,7 @@ async function fetchInfoFromSpecs(specs, options) {
   const browser = await puppeteer.launch();
 
   async function fetchInfoFromSpec(spec) {
-    const url = spec.nightly?.url || spec.url;
+    let url = spec.nightly?.url || spec.url;
     const page = await browser.newPage();
 
     // Inner function that returns a network interception method for Puppeteer,
@@ -335,6 +335,24 @@ async function fetchInfoFromSpecs(specs, options) {
             nightly: { url: url, status: "Editor's Draft" },
             title: ecmaTitle
           };
+        }
+      }
+
+      // For IETF drafts, look at the front matter to extract the name of the
+      // Internet Draft and compute the nightly URL from that name
+      if (!spec.nightly?.url && spec.url.match(/datatracker\.ietf\.org/)) {
+        const draftName = await page.evaluate(_ => {
+          const el = document.querySelector('.internet-draft');
+          if (el) {
+            return el.innerText.trim();
+          }
+        });
+        if (draftName) {
+          url = `https://www.ietf.org/archive/id/${draftName}.html`;
+          if (draftName.match(/^draft-ietf-http(bis)?-/)) {
+            // Prefer the httpwg.org version for HTTP WG drafts
+            url = `https://httpwg.org/http-extensions/${draftName.replace(/-\d+$/, '')}.html`;
+          }
         }
       }
 

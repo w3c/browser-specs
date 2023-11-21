@@ -99,6 +99,28 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].nightly.status, "Editor's Draft");
       assert.equal(info[spec.shortname].title, "Intl.Segmenter Proposal");
     });
+
+    it("extracts a suitable nightly URL from an IETF draft", async () => {
+      const spec = {
+        url: "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
+        shortname: "client-hint-reliability"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+      assert.match(info[spec.shortname].nightly.url, /^https:\/\/www\.ietf\.org\/archive\/id\/draft-davidben-http-client-hint-reliability-\d+\.html/);
+    });
+
+    it("extracts a suitable nightly URL from an IETF HTTP WG draft", async () => {
+      const spec = {
+        url: "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
+        shortname: "digest-headers"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+      assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html");
+    });
   });
 
     describe("fetch from W3C API", () => {

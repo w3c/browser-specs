@@ -18,12 +18,10 @@
   "https://console.spec.whatwg.org/",
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
-    "shortname": "partitioned-cookies",
-    "organization": "IETF",
     "groups": [
       {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
+        "name": "Dylan Cutler (individual)",
+        "url": "https://datatracker.ietf.org/person/dylancutler@google.com"
       }
     ],
     "nightly": {
@@ -33,65 +31,27 @@
   },
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
-    "shortname": "client-hint-reliability",
-    "organization": "IETF",
     "groups": [
       {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
+        "name": "David Benjamin (individual)",
+        "url": "https://datatracker.ietf.org/person/davidben@google.com"
       }
     ],
     "nightly": {
-      "url": "https://www.ietf.org/archive/id/draft-davidben-http-client-hint-reliability-03.html",
       "repository": "https://github.com/davidben/http-client-hint-reliability",
       "sourcePath": "draft-davidben-http-client-hint-reliability.md"
     }
   },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
-    "shortname": "digest-headers",
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html",
-      "repository": "https://github.com/httpwg/http-extensions",
-      "sourcePath": "draft-ietf-httpbis-digest-headers.md"
-    }
-  },
-  {
-    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
-    "shortname": "rfc6265bis",
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html",
-      "repository": "https://github.com/httpwg/http-extensions",
-      "sourcePath": "draft-ietf-httpbis-rfc6265bis.md"
-    }
-  },
+  "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
+  "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
-    "shortname": "webp",
-    "organization": "IETF",
     "groups": [
       {
-        "name": "Network Working Group",
-        "url": "https://datatracker.ietf.org/group/app/"
+        "name": "James Zern (individual)",
+        "url": "https://datatracker.ietf.org/person/jzern@google.com"
       }
-    ],
-    "nightly": {
-      "url": "https://www.ietf.org/archive/id/draft-zern-webp-13.html"
-    }
+    ]
   },
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
@@ -676,7 +636,7 @@
     "url": "https://www.rfc-editor.org/rfc/rfc8288",
     "groups": [
       {
-        "name": "Mark Nottingham (individual in art area)",
+        "name": "Mark Nottingham (individual)",
         "url": "https://datatracker.ietf.org/person/mnot@mnot.net"
       }
     ]

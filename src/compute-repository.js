@@ -200,6 +200,11 @@ module.exports = async function (specs, options) {
         }
       }
     }
+    else if (spec.nightly.url.match(/\/httpwg\.org\//)) {
+      const draftName = spec.nightly.url.match(/\/(draft-ietf-(.+))\.html$/);
+      spec.nightly.repository = 'https://github.com/httpwg/http-extensions';
+      spec.nightly.sourcePath = `${draftName[1]}.md`;
+    }
   }
 
   return specs;

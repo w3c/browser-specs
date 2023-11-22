@@ -44,27 +44,36 @@ module.exports = async function (specs, options) {
   for (const spec of specs) {
     const info = parseSpecUrl(spec.url);
     if (!info) {
-      // No general rule to identify repos and groups for IETF specs
-      // instead, fetching info on groups from https://www.rfc-editor.org/in-notes/rfcXXX.json
-      if (spec.url.match(/rfc-editor\.org/)) {
+      // For IETF documents, retrieve the group info from datatracker
+      const ietfName =
+        spec.url.match(/rfc-editor\.org\/rfc\/([^\/]+)/) ??
+        spec.url.match(/datatracker\.ietf\.org\/doc\/html\/([^\/]+)/);
+      if (ietfName) {
         spec.organization = spec.organization ?? "IETF";
         if (spec.groups) continue;
-        const rfcNumber = spec.url.slice(spec.url.lastIndexOf('/') + 1);
-        const rfcJSON = await fetchJSON(`https://www.rfc-editor.org/in-notes/${rfcNumber}.json`);
-        const wgName = rfcJSON.source;
-        // draft-ietf-websec-origin-06 → websec
-        // per https://www.ietf.org/standards/ids/guidelines/#7
-        // not clear there is anything forbidding hyphens in WG acronyms though
-        // https://datatracker.ietf.org/doc/html/rfc2418#section-2.2
-        const wgId = rfcJSON.draft.split('-')[2];
-        if (wgName && wgId) {
+        const ietfJson = await fetchJSON(`https://datatracker.ietf.org/doc/${ietfName[1]}/doc.json`);
+        if (ietfJson.group?.type === "WG") {
           spec.groups = [{
-            name: `${wgName} Working Group`,
-            url: `https://datatracker.ietf.org/wg/${wgId}/`
+            name: `${ietfJson.group.name} Working Group`,
+            url: `https://datatracker.ietf.org/wg/${ietfJson.group.acronym}/`
           }];
           continue;
-        } else {
-          throw new Error(`Could not identify IETF group producing ${spec.url}`);
+        }
+        else if ((ietfJson.group?.type === "Individual") ||
+            (ietfJson.group?.type === "Area")) {
+          // Document uses the "Individual Submissions" stream, linked to the
+          // "none" group in IETF: https://datatracker.ietf.org/group/none/
+          // or to an IETF area, which isn't truly a group but still looks like
+          // one. That's fine, let's reuse that info.
+          spec.groups = [{
+            name: ietfJson.group.name,
+            url: `https://datatracker.ietf.org/wg/${ietfJson.group.acronym}/`
+          }];
+          continue;
+        }
+        else {
+          throw new Error(`Could not derive IETF group for ${spec.url}.
+            Unknown group type found in https://datatracker.ietf.org/doc/${ietfName[1]}/doc.json`);
         }
       }
       if (!spec.groups) {

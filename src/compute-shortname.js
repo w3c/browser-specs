@@ -102,6 +102,27 @@ function computeShortname(url) {
       return rfcs[1];
     }
 
+    // Handle IETF group drafts
+    const ietfDraft = url.match(/\/datatracker\.ietf\.org\/doc\/html\/draft-ietf-[^\-]+-([^\/]+)/);
+    if (ietfDraft) {
+      return ietfDraft[1];
+    }
+
+    // Handle IETF individual drafts, stripping group name
+    // TODO: retrieve the list of IETF groups to make sure that the group name
+    // is an actual group name and not the beginning of the shortname:
+    // https://datatracker.ietf.org/api/v1/group/group/
+    // (multiple requests needed due to pagination, "?limit=1000" is the max)
+    const ietfIndDraft = url.match(/\/datatracker\.ietf\.org\/doc\/html\/draft-[^\-]+-([^\/]+)/);
+    if (ietfIndDraft) {
+      if (ietfIndDraft[1].indexOf('-') !== -1) {
+        return ietfIndDraft[1].slice(ietfIndDraft[1].indexOf('-') + 1);
+      }
+      else {
+        return ietfIndDraft[1];
+      }
+    }
+
     // Handle TAG findings
     const tag = url.match(/^https?:\/\/(?:www\.)?w3\.org\/2001\/tag\/doc\/([^\/]+)\/?$/);
     if (tag) {

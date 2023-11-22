@@ -74,6 +74,12 @@ describe("compute-repository module", async () => {
       "https://github.com/khronosgroup/WebGL");
   });
 
+  it("handles IETF HTTP WG URLs", async () => {
+    assert.equal(
+      await computeSingleRepo("https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html"),
+      "https://github.com/httpwg/http-extensions");
+  });
+
   it("returns null when repository cannot be derived from URL", async () => {
     assert.equal(
       await computeSingleRepo("https://example.net/repoless"),

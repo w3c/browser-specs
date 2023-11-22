@@ -59,6 +59,41 @@ describe("fetch-info module", function () {
     });
   });
 
+  describe("fetch from IETF datatracker", () => {
+    it("extracts a suitable nightly URL from an IETF draft", async () => {
+      const spec = {
+        url: "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
+        shortname: "client-hint-reliability"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].title, "Client Hint Reliability");
+      assert.equal(info[spec.shortname].source, "ietf");
+      assert.match(info[spec.shortname].nightly.url, /^https:\/\/www\.ietf\.org\/archive\/id\/draft-davidben-http-client-hint-reliability-\d+\.html/);
+    });
+
+    it("extracts a suitable nightly URL from an IETF HTTP WG draft", async () => {
+      const spec = {
+        url: "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
+        shortname: "digest-headers"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].title, "Digest Fields");
+      assert.equal(info[spec.shortname].source, "ietf");
+      assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html");
+    });
+
+    it("throws when an IETF URL needs to be updated", async () => {
+      const spec = {
+        url: "https://datatracker.ietf.org/doc/html/draft-ietf-websec-strict-transport-sec",
+        shortname: "strict-transport-sec"
+      };
+      await assert.rejects(
+        fetchInfo([spec]),
+        /^Error: IETF spec (.*) published under a new name/);
+    });
+  });
 
   describe("fetch from spec", () => {
     it("extracts spec info from a Bikeshed spec when needed", async () => {

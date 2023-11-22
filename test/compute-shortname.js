@@ -52,6 +52,22 @@ describe("compute-shortname module", () => {
       assertName("https://drafts.css-houdini.org/magic/", "magic");
     });
 
+    it("handles IETF RFCs", () => {
+      assertName("https://www.rfc-editor.org/rfc/rfc2397", "rfc2397");
+    });
+
+    it("handles IETF group drafts", () => {
+      assertName("https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis", "rfc6265bis");
+    });
+
+    it("handles IETF group drafts from individuals", () => {
+      assertName("https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies", "partitioned-cookies");
+    });
+
+    it("handles (simple) IETF individual drafts", () => {
+      assertName("https://datatracker.ietf.org/doc/html/draft-zern-webp/", "webp");
+    });
+
     it("handles SVG draft URLs", () => {
       assertName("https://svgwg.org/specs/module/", "svg-module");
     });

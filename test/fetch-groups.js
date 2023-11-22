@@ -75,6 +75,24 @@ describe("fetch-groups module (without API keys)", function () {
     }]);
   });
 
+  it("handles IETF individual drafts", async () => {
+    const res = await fetchGroupsFor("https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies");
+    assert.equal(res.organization, "IETF");
+    assert.deepStrictEqual(res.groups, [{
+      name: "Individual Submissions",
+      url: "https://datatracker.ietf.org/wg/none/"
+    }]);
+  });
+
+  it("handles IETF area drafts", async () => {
+    const res = await fetchGroupsFor("https://datatracker.ietf.org/doc/html/draft-zern-webp");
+    assert.equal(res.organization, "IETF");
+    assert.deepStrictEqual(res.groups, [{
+      name: "Applications and Real-Time Area",
+      url: "https://datatracker.ietf.org/wg/art/"
+    }]);
+  });
+
   it("preserves provided info", async () => {
     const spec = {
       url: "https://url.spec.whatwg.org/",

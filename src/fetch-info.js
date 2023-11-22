@@ -240,11 +240,69 @@ async function fetchInfoFromSpecref(specs, options) {
 }
 
 
+async function fetchInfoFromIETF(specs, options) {
+  const info = await Promise.all(specs.map(async spec => {
+    // IETF can only provide information about IETF specs
+    if (!spec.url.match(/\.ietf\.org/)) {
+      return;
+    }
+
+    // Retrieve information about the spec
+    const draftName =
+      spec.url.match(/rfc-editor\.org\/rfc\/([^\/]+)/) ??
+      spec.url.match(/datatracker\.ietf\.org\/doc\/html\/([^\/]+)/);
+    if (!draftName) {
+      throw new Error(`IETF document follows an unexpected URL pattern: ${spec.url}`);
+    }
+    const url = `https://datatracker.ietf.org/doc/${draftName[1]}/doc.json`;
+    const res = await throttledFetch(url, options);
+    if (res.status !== 200) {
+      throw new Error(`IETF datatracker returned an error, status code is ${res.status}`);
+    }
+    let body;
+    try {
+      body = await res.json();
+    }
+    catch (err) {
+      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
+    }
+
+    const lastRevision = body.rev_history.pop();
+    if (lastRevision.name !== body.name) {
+      throw new Error(`IETF spec ${spec.url} published under a new name "${lastRevision.name}". Canonical URL must be updated accordingly.`);
+    }
+
+    // Prefer the httpwg.org version for HTTP WG drafts
+    const nightly = (body.group?.acronym === 'httpbis') ?
+      `https://httpwg.org/http-extensions/${lastRevision.name}.html` :
+      `https://www.ietf.org/archive/id/${lastRevision.name}-${lastRevision.rev}.html`;
+
+    return {
+      title: body.title,
+      nightly: nightly,
+      state: body.state
+    };
+  }));
+
+  // TODO: use "state" to return a better status than "Editor's Draft".
+  const results = {};
+  specs.forEach((spec, idx) => {
+    if (info[idx]) {
+      results[spec.shortname] = {
+        nightly: { url: info[idx].nightly, status: "Editor's Draft" },
+        title: info[idx].title
+      };
+    }
+  });
+  return results;
+}
+
+
 async function fetchInfoFromSpecs(specs, options) {
   const browser = await puppeteer.launch();
 
   async function fetchInfoFromSpec(spec) {
-    let url = spec.nightly?.url || spec.url;
+    const url = spec.nightly?.url || spec.url;
     const page = await browser.newPage();
 
     // Inner function that returns a network interception method for Puppeteer,
@@ -335,24 +393,6 @@ async function fetchInfoFromSpecs(specs, options) {
             nightly: { url: url, status: "Editor's Draft" },
             title: ecmaTitle
           };
-        }
-      }
-
-      // For IETF drafts, look at the front matter to extract the name of the
-      // Internet Draft and compute the nightly URL from that name
-      if (!spec.nightly?.url && spec.url.match(/datatracker\.ietf\.org/)) {
-        const draftName = await page.evaluate(_ => {
-          const el = document.querySelector('.internet-draft');
-          if (el) {
-            return el.innerText.trim();
-          }
-        });
-        if (draftName) {
-          url = `https://www.ietf.org/archive/id/${draftName}.html`;
-          if (draftName.match(/^draft-ietf-http(bis)?-/)) {
-            // Prefer the httpwg.org version for HTTP WG drafts
-            url = `https://httpwg.org/http-extensions/${draftName.replace(/-\d+$/, '')}.html`;
-          }
         }
       }
 
@@ -453,8 +493,12 @@ async function fetchInfo(specs, options) {
   remainingSpecs = remainingSpecs.filter(spec => !w3cInfo[spec.shortname]);
   const specrefInfo = await fetchInfoFromSpecref(remainingSpecs, options);
 
-  // Extract information directly from the spec for remaining specs
+  // Extract information from IETF datatracker for remaining specs
   remainingSpecs = remainingSpecs.filter(spec => !specrefInfo[spec.shortname]);
+  const ietfInfo = await fetchInfoFromIETF(remainingSpecs, options);
+
+  // Extract information directly from the spec for remaining specs
+  remainingSpecs = remainingSpecs.filter(spec => !ietfInfo[spec.shortname]);
   const specInfo = await fetchInfoFromSpecs(remainingSpecs, options);
 
   // Merge results
@@ -462,6 +506,7 @@ async function fetchInfo(specs, options) {
   specs.map(spec => spec.shortname).forEach(name => results[name] =
     (w3cInfo[name] ? Object.assign(w3cInfo[name], { source: "w3c" }) : null) ||
     (specrefInfo[name] ? Object.assign(specrefInfo[name], { source: "specref" }) : null) ||
+    (ietfInfo[name] ? Object.assign(ietfInfo[name], { source: "ietf" }) : null) ||
     (specInfo[name] ? Object.assign(specInfo[name], { source: "spec" }) : null));
 
   // Add series info from W3C API

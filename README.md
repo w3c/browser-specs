@@ -610,6 +610,7 @@ The `excludePaths` property is seldom set.
 The provenance for the `title` and `nightly` property values. Can be one of:
 - `w3c`: information retrieved from the [W3C API](https://w3c.github.io/w3c-api/)
 - `specref`: information retrieved from [Specref](https://www.specref.org/)
+- `ietf`: information retrieved from the [IETF datatracker](https://datatracker.ietf.org)
 - `spec`: information retrieved from the spec itself
 
 The `source` property is always set.

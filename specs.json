@@ -18,12 +18,6 @@
   "https://console.spec.whatwg.org/",
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
-    "groups": [
-      {
-        "name": "Dylan Cutler (individual)",
-        "url": "https://datatracker.ietf.org/person/dylancutler@google.com"
-      }
-    ],
     "nightly": {
       "url": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html",
       "repository": "https://github.com/DCtheTall/CHIPS-spec"
@@ -31,12 +25,6 @@
   },
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
-    "groups": [
-      {
-        "name": "David Benjamin (individual)",
-        "url": "https://datatracker.ietf.org/person/davidben@google.com"
-      }
-    ],
     "nightly": {
       "repository": "https://github.com/davidben/http-client-hint-reliability",
       "sourcePath": "draft-davidben-http-client-hint-reliability.md"
@@ -44,15 +32,7 @@
   },
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
-  {
-    "url": "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
-    "groups": [
-      {
-        "name": "James Zern (individual)",
-        "url": "https://datatracker.ietf.org/person/jzern@google.com"
-      }
-    ]
-  },
+  "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   {
@@ -586,15 +566,7 @@
   "https://wicg.github.io/webpackage/loading.html",
   "https://wicg.github.io/webusb/",
   "https://wicg.github.io/window-controls-overlay/",
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc2397",
-    "groups": [
-      {
-        "name": "Network Working Group",
-        "url": "https://datatracker.ietf.org/group/app/"
-      }
-    ]
-  },
+  "https://www.rfc-editor.org/rfc/rfc2397",
   {
     "url": "https://www.rfc-editor.org/rfc/rfc4120",
     "shortTitle": "Kerberos"
@@ -604,15 +576,7 @@
     "url": "https://www.rfc-editor.org/rfc/rfc6266",
     "shortTitle": "Content-Disposition in HTTP"
   },
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc6386",
-    "groups": [
-      {
-        "name": "Independent Submission",
-        "url": "https://datatracker.ietf.org/stream/ise/"
-      }
-    ]
-  },
+  "https://www.rfc-editor.org/rfc/rfc6386",
   "https://www.rfc-editor.org/rfc/rfc6454",
   "https://www.rfc-editor.org/rfc/rfc6797",
   "https://www.rfc-editor.org/rfc/rfc7034",
@@ -632,15 +596,7 @@
   "https://www.rfc-editor.org/rfc/rfc7725",
   "https://www.rfc-editor.org/rfc/rfc7838",
   "https://www.rfc-editor.org/rfc/rfc8246",
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc8288",
-    "groups": [
-      {
-        "name": "Mark Nottingham (individual)",
-        "url": "https://datatracker.ietf.org/person/mnot@mnot.net"
-      }
-    ]
-  },
+  "https://www.rfc-editor.org/rfc/rfc8288",
   "https://www.rfc-editor.org/rfc/rfc8297",
   "https://www.rfc-editor.org/rfc/rfc8470",
   "https://www.rfc-editor.org/rfc/rfc8942",

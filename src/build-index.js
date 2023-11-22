@@ -22,6 +22,7 @@ const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const fetchGroups = require("./fetch-groups.js");
+const throttle = require("./throttle");
 const githubToken = (_ => {
   try {
     return require("../config.json").GH_TOKEN;
@@ -306,7 +307,8 @@ async function runPages(index) {
 }
 
 
-async function runFilename(index, { previousIndex }) {
+async function runFilename(index, { previousIndex, log }) {
+
   // Use previous filename info when it cannot be determined (this usually means
   // that there was a transient network error)
   async function determineSpecFilename(spec, type) {
@@ -319,20 +321,22 @@ async function runFilename(index, { previousIndex }) {
     return previous ? previous[type].filename : null;
   }
 
-  return Promise.all(
-    index.map(async spec => {
-      spec.nightly.filename = await determineSpecFilename(spec, "nightly");
-      if (spec.release) {
-        spec.release.filename = await determineSpecFilename(spec, "release");
-      }
+  async function checkSpec(spec) {
+    log(`- find filenames for ${spec.shortname}`);
+    spec.nightly.filename = await determineSpecFilename(spec, "nightly");
+    if (spec.release) {
+      spec.release.filename = await determineSpecFilename(spec, "release");
+    }
 
-      // Sleep a bit as draft CSS WG server does not seem to like receiving too
-      // many requests in a row.
-      await sleep(50);
+    // Sleep a bit as draft CSS WG server does not seem to like receiving too
+    // many requests in a row.
+    await sleep(50);
 
-      return spec;
-    })
-  );
+    return spec;
+  }
+
+  const throttledCheck = throttle(checkSpec, 2);
+  return Promise.all(index.map(throttledCheck));
 }
 
 

@@ -130,13 +130,6 @@
       "shortTitle": "Cookies Having Independent Partitioned State specification",
       "nightlyUrl": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html"
     },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
     "nightly": {
       "url": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html",
       "status": "Editor's Draft",
@@ -145,8 +138,15 @@
       "sourcePath": "draft-cutler-httpbis-partitioned-cookies.md",
       "filename": "draft-cutler-httpbis-partitioned-cookies.html"
     },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Individual Submissions",
+        "url": "https://datatracker.ietf.org/wg/none/"
+      }
+    ],
     "title": "Cookies Having Independent Partitioned State specification",
-    "source": "spec",
+    "source": "ietf",
     "shortTitle": "Cookies Having Independent Partitioned State specification",
     "categories": [
       "browser"
@@ -164,13 +164,6 @@
       "shortTitle": "Client Hint Reliability",
       "nightlyUrl": "https://www.ietf.org/archive/id/draft-davidben-http-client-hint-reliability-03.html"
     },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
     "nightly": {
       "url": "https://www.ietf.org/archive/id/draft-davidben-http-client-hint-reliability-03.html",
       "status": "Editor's Draft",
@@ -179,8 +172,15 @@
       "alternateUrls": [],
       "filename": "draft-davidben-http-client-hint-reliability-03.html"
     },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Individual Submissions",
+        "url": "https://datatracker.ietf.org/wg/none/"
+      }
+    ],
     "title": "Client Hint Reliability",
-    "source": "spec",
+    "source": "ietf",
     "shortTitle": "Client Hint Reliability",
     "categories": [
       "browser"
@@ -208,13 +208,13 @@
     "nightly": {
       "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html",
       "status": "Editor's Draft",
+      "alternateUrls": [],
       "repository": "https://github.com/httpwg/http-extensions",
       "sourcePath": "draft-ietf-httpbis-digest-headers.md",
-      "alternateUrls": [],
       "filename": "draft-ietf-httpbis-digest-headers.html"
     },
     "title": "Digest Fields",
-    "source": "spec",
+    "source": "ietf",
     "shortTitle": "Digest Fields",
     "categories": [
       "browser"
@@ -242,13 +242,13 @@
     "nightly": {
       "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html",
       "status": "Editor's Draft",
+      "alternateUrls": [],
       "repository": "https://github.com/httpwg/http-extensions",
       "sourcePath": "draft-ietf-httpbis-rfc6265bis.md",
-      "alternateUrls": [],
       "filename": "draft-ietf-httpbis-rfc6265bis.html"
     },
     "title": "Cookies: HTTP State Management Mechanism",
-    "source": "spec",
+    "source": "ietf",
     "shortTitle": "Cookies: HTTP State Management Mechanism",
     "categories": [
       "browser"
@@ -269,8 +269,8 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Network Working Group",
-        "url": "https://datatracker.ietf.org/group/app/"
+        "name": "Applications and Real-Time Area",
+        "url": "https://datatracker.ietf.org/wg/art/"
       }
     ],
     "nightly": {
@@ -280,7 +280,7 @@
       "filename": "draft-zern-webp-13.html"
     },
     "title": "WebP Image Format",
-    "source": "spec",
+    "source": "ietf",
     "shortTitle": "WebP Image Format",
     "categories": [
       "browser"
@@ -9542,13 +9542,13 @@
       "shortTitle": "The \"data\" URL scheme",
       "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc2397"
     },
+    "organization": "IETF",
     "groups": [
       {
-        "name": "Network Working Group",
-        "url": "https://datatracker.ietf.org/group/app/"
+        "name": "Individual Submissions",
+        "url": "https://datatracker.ietf.org/wg/none/"
       }
     ],
-    "organization": "IETF",
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc2397",
       "status": "Proposed Standard",
@@ -9578,8 +9578,8 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Kerberos WG Working Group",
-        "url": "https://datatracker.ietf.org/wg/krb/"
+        "name": "Kerberos Working Group",
+        "url": "https://datatracker.ietf.org/wg/krb-wg/"
       }
     ],
     "nightly": {
@@ -9644,7 +9644,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -9674,13 +9674,13 @@
       "shortTitle": "VP8 Data Format and Decoding Guide",
       "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6386"
     },
+    "organization": "IETF",
     "groups": [
       {
-        "name": "Independent Submission",
-        "url": "https://datatracker.ietf.org/stream/ise/"
+        "name": "General Area",
+        "url": "https://datatracker.ietf.org/wg/gen/"
       }
     ],
-    "organization": "IETF",
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc6386",
       "status": "Informational",
@@ -9805,7 +9805,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -9839,7 +9839,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -9873,7 +9873,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -9907,7 +9907,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -9941,7 +9941,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -9975,7 +9975,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -10009,7 +10009,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Applications Area Working Group APP Working Group",
+        "name": "ART Area General Applications Working Group Working Group",
         "url": "https://datatracker.ietf.org/wg/appsawg/"
       }
     ],
@@ -10073,7 +10073,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -10107,7 +10107,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "Hypertext Transfer Protocol Bis APP Working Group",
+        "name": "HTTP Working Group",
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
@@ -10141,7 +10141,7 @@
     "organization": "IETF",
     "groups": [
       {
-        "name": "ART Area General Application Working Group Working Group",
+        "name": "ART Area General Applications Working Group Working Group",
         "url": "https://datatracker.ietf.org/wg/appsawg/"
       }
     ],
@@ -10340,13 +10340,13 @@
       "shortTitle": "Web Linking",
       "nightlyUrl": "https://httpwg.org/specs/rfc8288.html"
     },
+    "organization": "IETF",
     "groups": [
       {
-        "name": "Mark Nottingham (individual in art area)",
-        "url": "https://datatracker.ietf.org/person/mnot@mnot.net"
+        "name": "Applications and Real-Time Area",
+        "url": "https://datatracker.ietf.org/wg/art/"
       }
     ],
-    "organization": "IETF",
     "nightly": {
       "url": "https://httpwg.org/specs/rfc8288.html",
       "status": "Proposed Standard",

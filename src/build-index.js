@@ -373,16 +373,18 @@ async function generateIndex(specs, { step = "all", previousIndex = null, log = 
 async function generateIndexFile(specsFile, targetFile, step) {
   // If the index already exists, reuse the info it contains when info cannot
   // be refreshed due to some external (network) issue.
-  const previousIndex = (function () {
+  const previousIndex = await (async function () {
     try {
-      return require(path.resolve(targetFile));
+      const json = await fs.readFile(path.resolve(targetFile), 'utf8');
+      return JSON.parse(json);
     }
     catch (err) {
       return [];
     }
   })();
 
-  const specs = require(path.resolve(specsFile));
+  const specsJson = await fs.readFile(path.resolve(specsFile));
+  const specs = JSON.parse(specsJson);
   const index = await generateIndex(specs, { previousIndex, step });
   console.log(`Write ${targetFile}...`);
   await fs.writeFile(targetFile, JSON.stringify(index, null, 2));

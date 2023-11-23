@@ -600,36 +600,11 @@
   "https://www.rfc-editor.org/rfc/rfc8297",
   "https://www.rfc-editor.org/rfc/rfc8470",
   "https://www.rfc-editor.org/rfc/rfc8942",
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc9110",
-    "nightly": {
-      "repository": "https://github.com/httpwg/httpwg.github.io"
-    }
-  },
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc9111",
-    "nightly": {
-      "repository": "https://github.com/httpwg/httpwg.github.io"
-    }
-  },
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc9112",
-    "nightly": {
-      "repository": "https://github.com/httpwg/httpwg.github.io"
-    }
-  },
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc9113",
-    "nightly": {
-      "repository": "https://github.com/httpwg/httpwg.github.io"
-    }
-  },
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc9114",
-    "nightly": {
-      "repository": "https://github.com/httpwg/httpwg.github.io"
-    }
-  },
+  "https://www.rfc-editor.org/rfc/rfc9110",
+  "https://www.rfc-editor.org/rfc/rfc9111",
+  "https://www.rfc-editor.org/rfc/rfc9112",
+  "https://www.rfc-editor.org/rfc/rfc9113",
+  "https://www.rfc-editor.org/rfc/rfc9114",
   {
     "url": "https://www.rfc-editor.org/rfc/rfc9163",
     "nightly": {

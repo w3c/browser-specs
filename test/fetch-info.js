@@ -60,6 +60,30 @@ describe("fetch-info module", function () {
   });
 
   describe("fetch from IETF datatracker", () => {
+    it("fetches info about RFCs from datatracker", async () => {
+      const spec = {
+        url: "https://www.rfc-editor.org/rfc/rfc7578",
+        shortname: "rfc7578"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].title, "Returning Values from Forms: multipart/form-data");
+      assert.equal(info[spec.shortname].source, "ietf");
+      assert.equal(info[spec.shortname].nightly.url, "https://www.rfc-editor.org/rfc/rfc7578");
+    });
+
+    it("fetches info about HTTP WG RFCs from datatracker", async () => {
+      const spec = {
+        url: "https://www.rfc-editor.org/rfc/rfc9110",
+        shortname: "rfc9110"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].title, "HTTP Semantics");
+      assert.equal(info[spec.shortname].source, "ietf");
+      assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/specs/rfc9110.html");
+    });
+
     it("extracts a suitable nightly URL from an IETF draft", async () => {
       const spec = {
         url: "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
@@ -67,7 +91,6 @@ describe("fetch-info module", function () {
       };
       const info = await fetchInfo([spec]);
       assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].title, "Client Hint Reliability");
       assert.equal(info[spec.shortname].source, "ietf");
       assert.match(info[spec.shortname].nightly.url, /^https:\/\/www\.ietf\.org\/archive\/id\/draft-davidben-http-client-hint-reliability-\d+\.html/);
     });
@@ -79,9 +102,51 @@ describe("fetch-info module", function () {
       };
       const info = await fetchInfo([spec]);
       assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].title, "Digest Fields");
       assert.equal(info[spec.shortname].source, "ietf");
       assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html");
+    });
+
+    it("extracts a suitable nightly URL from an IETF HTTP State Management Mechanism WG RFC", async () => {
+      const spec = {
+        url: "https://www.rfc-editor.org/rfc/rfc6265",
+        shortname: "rfc6265"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "ietf");
+      assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/specs/rfc6265.html");
+    });
+
+    it("uses the rfc-editor URL as nightly for an IETF HTTP WG RFC not published under httpwg.org", async () => {
+      const spec = {
+        url: "https://www.rfc-editor.org/rfc/rfc9163",
+        shortname: "rfc9163"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "ietf");
+      assert.equal(info[spec.shortname].nightly.url, spec.url);
+    });
+
+    it("identifies discontinued IETF specs", async () => {
+      const info = await fetchInfo([
+        { url: "https://www.rfc-editor.org/rfc/rfc7230", shortname: "rfc7230" },
+        { url: "https://www.rfc-editor.org/rfc/rfc9110", shortname: "rfc9110" },
+        { url: "https://www.rfc-editor.org/rfc/rfc9112", shortname: "rfc9112" }
+      ]);
+      assert.ok(info["rfc7230"]);
+      assert.equal(info["rfc7230"].standing, "discontinued");
+      assert.deepStrictEqual(info["rfc7230"].obsoletedBy, ["rfc9110", "rfc9112"]);
+    });
+
+    it("throws when a discontinued IETF spec is obsoleted by an unknown spec", async () => {
+      const spec = {
+        url: "https://www.rfc-editor.org/rfc/rfc7230",
+        shortname: "rfc7230"
+      };
+      await assert.rejects(
+        fetchInfo([spec]),
+        /^Error: IETF spec at (.*)rfc7230 is obsoleted by rfc9110 which is not in the list.$/);
     });
 
     it("throws when an IETF URL needs to be updated", async () => {

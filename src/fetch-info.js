@@ -42,6 +42,7 @@ const puppeteer = require("puppeteer");
 const throttle = require("./throttle");
 const throttledFetch = throttle(fetch, 2);
 const computeShortname = require("./compute-shortname");
+const Octokit = require("./octokit");
 
 // Map spec statuses returned by Specref to those used in specs
 // Note we typically won't get /TR statuses from Specref, since all /TR URLs
@@ -241,9 +242,85 @@ async function fetchInfoFromSpecref(specs, options) {
 
 
 async function fetchInfoFromIETF(specs, options) {
+  async function fetchJSONDoc(draftName) {
+    const url = `https://datatracker.ietf.org/doc/${draftName}/doc.json`;
+    const res = await throttledFetch(url, options);
+    if (res.status !== 200) {
+      throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
+    }
+    try {
+      return await res.json();
+    }
+    catch (err) {
+      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
+    }
+  }
+
+  async function fetchRFCName(docUrl) {
+    const res = await fetch(docUrl, options);
+    if (res.status !== 200) {
+      throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
+    }
+    try {
+      const body = await res.json();
+      if (!body.rfc) {
+        throw new Error(`Could not find an RFC name in ${docUrl}`);
+      }
+      return `rfc${body.rfc}`;
+    }
+    catch (err) {
+      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
+    }
+  }
+
+  async function fetchObsoletedBy(draftName) {
+    if (!draftName.startsWith('rfc')) {
+      return [];
+    }
+    const url = `https://datatracker.ietf.org/api/v1/doc/relateddocument/?format=json&relationship__slug__in=obs&target__name__in=${draftName}`;
+    const res = await throttledFetch(url, options);
+    if (res.status !== 200) {
+      throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
+    }
+    let body;
+    try {
+      body = await res.json();
+    }
+    catch (err) {
+      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
+    }
+
+    return Promise.all(body.objects
+      .map(obj => `https://datatracker.ietf.org${obj.source}`)
+      .map(fetchRFCName));
+  }
+
+  // Most RFCs published by the HTTP WG have a friendly version under:
+  //   https://httpwg.org/specs
+  // ... but not all (e.g., not rfc9292) and some related specs from other
+  // groups are also published under httpwg.org. To get a current list of specs
+  // published under https://httpwg.org/specs, let's look at the contents of
+  // the underlying GitHub repository:
+  // https://github.com/httpwg/httpwg.github.io/
+  async function getHttpwgRFCs() {
+    let rfcs;
+    const octokit = new Octokit({ auth: options.githubToken });
+    const { data } = await octokit.git.getTree({
+        owner: 'httpwg',
+        repo: 'httpwg.github.io',
+        tree_sha: "HEAD",
+        recursive: true
+      });
+    const paths = data.tree;
+    return paths.filter(p => p.path.match(/^specs\/rfc\d+\.html$/))
+      .map(p => p.path.match(/(rfc\d+)\.html$/)[1]);
+  }
+  const httpwgRFCs = await getHttpwgRFCs();
+
   const info = await Promise.all(specs.map(async spec => {
     // IETF can only provide information about IETF specs
-    if (!spec.url.match(/\.ietf\.org/)) {
+    if (!spec.url.match(/\.rfc-editor\.org/) &&
+        !spec.url.match(/datatracker\.ietf\.org/)) {
       return;
     }
 
@@ -254,44 +331,66 @@ async function fetchInfoFromIETF(specs, options) {
     if (!draftName) {
       throw new Error(`IETF document follows an unexpected URL pattern: ${spec.url}`);
     }
-    const url = `https://datatracker.ietf.org/doc/${draftName[1]}/doc.json`;
-    const res = await throttledFetch(url, options);
-    if (res.status !== 200) {
-      throw new Error(`IETF datatracker returned an error, status code is ${res.status}`);
-    }
-    let body;
-    try {
-      body = await res.json();
-    }
-    catch (err) {
-      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
-    }
-
-    const lastRevision = body.rev_history.pop();
-    if (lastRevision.name !== body.name) {
+    const jsonDoc = await fetchJSONDoc(draftName[1]);
+    const lastRevision = jsonDoc.rev_history.pop();
+    if (lastRevision.name !== draftName[1])  {
       throw new Error(`IETF spec ${spec.url} published under a new name "${lastRevision.name}". Canonical URL must be updated accordingly.`);
     }
 
-    // Prefer the httpwg.org version for HTTP WG drafts
-    const nightly = (body.group?.acronym === 'httpbis') ?
-      `https://httpwg.org/http-extensions/${lastRevision.name}.html` :
-      `https://www.ietf.org/archive/id/${lastRevision.name}-${lastRevision.rev}.html`;
+    // Compute the nightly URL from the spec name, publication status, and
+    // groups that develops it.
+    // Note we prefer the httpwg.org version for HTTP WG RFCs and drafts.
+    let nightly;
+    if (lastRevision.name.startsWith('rfc')) {
+      if (httpwgRFCs.includes(lastRevision.name)) {
+        nightly = `https://httpwg.org/specs/${lastRevision.name}.html`
+      }
+      else {
+        nightly = `https://www.rfc-editor.org/rfc/${lastRevision.name}`;
+      }
+    }
+    else if (jsonDoc.group?.acronym === 'httpbis' || jsonDoc.group?.acronym === 'httpstate') {
+      nightly = `https://httpwg.org/http-extensions/${lastRevision.name}.html`
+    }
+    else {
+      nightly = `https://www.ietf.org/archive/id/${lastRevision.name}-${lastRevision.rev}.html`;
+    }
 
-    return {
-      title: body.title,
-      nightly: nightly,
-      state: body.state
-    };
+    // For the status, use the std_level property, which contains one of the
+    // statuses in https://datatracker.ietf.org/api/v1/name/stdlevelname/
+    // The property is null for an unpublished Editor's Draft.
+    const status = jsonDoc.std_level ?? "Editor's Draft";
+
+    const specInfo = { title: jsonDoc.title, nightly, status };
+
+    // RFCs may have been obsoleted by another IETF spec. When that happens, we
+    // should flag the spec as discontinued and obsoleted by the other spec(s).
+    const obsoletedBy = await fetchObsoletedBy(draftName[1]);
+    const missingRFC = obsoletedBy.find(shortname => !specs.find(spec => spec.shortname === shortname));
+    if (missingRFC) {
+      throw new Error(`IETF spec at ${spec.url} is obsoleted by ${missingRFC} which is not in the list.`);
+    }
+
+    if (obsoletedBy.length > 0) {
+      specInfo.standing = "discontinued";
+      specInfo.obsoletedBy = obsoletedBy;
+    }
+
+    return specInfo;
   }));
 
-  // TODO: use "state" to return a better status than "Editor's Draft".
   const results = {};
   specs.forEach((spec, idx) => {
-    if (info[idx]) {
+    const specInfo = info[idx];
+    if (specInfo) {
       results[spec.shortname] = {
-        nightly: { url: info[idx].nightly, status: "Editor's Draft" },
-        title: info[idx].title
+        nightly: { url: specInfo.nightly, status: specInfo.status },
+        title: specInfo.title
       };
+      if (specInfo.standing === "discontinued") {
+        results[spec.shortname].standing = specInfo.standing;
+        results[spec.shortname].obsoletedBy = specInfo.obsoletedBy;
+      }
     }
   });
   return results;
@@ -489,13 +588,13 @@ async function fetchInfo(specs, options) {
   let remainingSpecs = specs;
   const w3cInfo = await fetchInfoFromW3CApi(remainingSpecs, options);
 
-  // Compute information from Specref for remaining specs
-  remainingSpecs = remainingSpecs.filter(spec => !w3cInfo[spec.shortname]);
-  const specrefInfo = await fetchInfoFromSpecref(remainingSpecs, options);
-
   // Extract information from IETF datatracker for remaining specs
-  remainingSpecs = remainingSpecs.filter(spec => !specrefInfo[spec.shortname]);
+  remainingSpecs = remainingSpecs.filter(spec => !w3cInfo[spec.shortname]);
   const ietfInfo = await fetchInfoFromIETF(remainingSpecs, options);
+
+  // Compute information from Specref for remaining specs
+  remainingSpecs = remainingSpecs.filter(spec => !ietfInfo[spec.shortname]);
+  const specrefInfo = await fetchInfoFromSpecref(remainingSpecs, options);
 
   // Extract information directly from the spec for remaining specs
   remainingSpecs = remainingSpecs.filter(spec => !ietfInfo[spec.shortname]);
@@ -505,8 +604,8 @@ async function fetchInfo(specs, options) {
   const results = {};
   specs.map(spec => spec.shortname).forEach(name => results[name] =
     (w3cInfo[name] ? Object.assign(w3cInfo[name], { source: "w3c" }) : null) ||
-    (specrefInfo[name] ? Object.assign(specrefInfo[name], { source: "specref" }) : null) ||
     (ietfInfo[name] ? Object.assign(ietfInfo[name], { source: "ietf" }) : null) ||
+    (specrefInfo[name] ? Object.assign(specrefInfo[name], { source: "specref" }) : null) ||
     (specInfo[name] ? Object.assign(specInfo[name], { source: "spec" }) : null));
 
   // Add series info from W3C API

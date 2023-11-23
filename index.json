@@ -5751,7 +5751,7 @@
     "series": {
       "shortname": "urlpattern",
       "currentSpecification": "urlpattern",
-      "title": "URL Pattern",
+      "title": "URL Pattern Standard",
       "shortTitle": "URL Pattern",
       "nightlyUrl": "https://urlpattern.spec.whatwg.org/"
     },
@@ -5770,8 +5770,8 @@
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "URL Pattern",
-    "source": "spec",
+    "title": "URL Pattern Standard",
+    "source": "specref",
     "shortTitle": "URL Pattern",
     "categories": [
       "browser"

@@ -9556,7 +9556,7 @@
       "filename": "rfc2397.html"
     },
     "title": "The \"data\" URL scheme",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "The \"data\" URL scheme",
     "categories": [
       "browser"
@@ -9589,7 +9589,7 @@
       "filename": "rfc4120.html"
     },
     "title": "The Kerberos Network Authentication Service (V5)",
-    "source": "specref",
+    "source": "ietf",
     "categories": [
       "browser"
     ],
@@ -9622,7 +9622,7 @@
       "filename": "rfc6265.html"
     },
     "title": "HTTP State Management Mechanism",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP State Management Mechanism",
     "categories": [
       "browser"
@@ -9657,7 +9657,7 @@
       "filename": "rfc6266.html"
     },
     "title": "Use of the Content-Disposition Header Field in the Hypertext Transfer Protocol (HTTP)",
-    "source": "specref",
+    "source": "ietf",
     "categories": [
       "browser"
     ],
@@ -9688,7 +9688,7 @@
       "filename": "rfc6386.html"
     },
     "title": "VP8 Data Format and Decoding Guide",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "VP8 Data Format and Decoding Guide",
     "categories": [
       "browser"
@@ -9720,7 +9720,7 @@
       "filename": "rfc6454.html"
     },
     "title": "The Web Origin Concept",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "The Web Origin Concept",
     "categories": [
       "browser"
@@ -9752,7 +9752,7 @@
       "filename": "rfc6797.html"
     },
     "title": "HTTP Strict Transport Security (HSTS)",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HSTS",
     "categories": [
       "browser"
@@ -9784,7 +9784,7 @@
       "filename": "rfc7034.html"
     },
     "title": "HTTP Header Field X-Frame-Options",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP Header Field X-Frame-Options",
     "categories": [
       "browser"
@@ -9818,12 +9818,16 @@
       "filename": "rfc7230.html"
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9110",
+      "rfc9112"
+    ],
+    "source": "ietf",
     "shortTitle": "HTTP/1.1 Message Syntax and Routing",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7231",
@@ -9852,12 +9856,15 @@
       "filename": "rfc7231.html"
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9110"
+    ],
+    "source": "ietf",
     "shortTitle": "HTTP/1.1 Semantics and Content",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7232",
@@ -9886,12 +9893,15 @@
       "filename": "rfc7232.html"
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9110"
+    ],
+    "source": "ietf",
     "shortTitle": "HTTP/1.1 Conditional Requests",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7233",
@@ -9920,12 +9930,15 @@
       "filename": "rfc7233.html"
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Range Requests",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9110"
+    ],
+    "source": "ietf",
     "shortTitle": "HTTP/1.1 Range Requests",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7234",
@@ -9954,12 +9967,15 @@
       "filename": "rfc7234.html"
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9111"
+    ],
+    "source": "ietf",
     "shortTitle": "HTTP/1.1 Caching",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7235",
@@ -9988,12 +10004,15 @@
       "filename": "rfc7235.html"
     },
     "title": "Hypertext Transfer Protocol (HTTP/1.1): Authentication",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9110"
+    ],
+    "source": "ietf",
     "shortTitle": "HTTP/1.1 Authentication",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7239",
@@ -10020,7 +10039,7 @@
       "filename": "rfc7239.html"
     },
     "title": "Forwarded HTTP Extension",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "Forwarded HTTP Extension",
     "categories": [
       "browser"
@@ -10052,7 +10071,7 @@
       "filename": "rfc7469.html"
     },
     "title": "Public Key Pinning Extension for HTTP",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "Public Key Pinning Extension for HTTP",
     "categories": [
       "browser"
@@ -10086,12 +10105,15 @@
       "filename": "rfc7538.html"
     },
     "title": "The Hypertext Transfer Protocol Status Code 308 (Permanent Redirect)",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9110"
+    ],
+    "source": "ietf",
     "shortTitle": "Permanent Redirect",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7540",
@@ -10120,12 +10142,15 @@
       "filename": "rfc7540.html"
     },
     "title": "Hypertext Transfer Protocol Version 2 (HTTP/2)",
-    "source": "specref",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "rfc9113"
+    ],
+    "source": "ietf",
     "shortTitle": "HTTP/2",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://www.rfc-editor.org/rfc/rfc7578",
@@ -10152,7 +10177,7 @@
       "filename": "rfc7578.html"
     },
     "title": "Returning Values from Forms: multipart/form-data",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "Returning Values from Forms: multipart/form-data",
     "categories": [
       "browser"
@@ -10186,7 +10211,7 @@
       "filename": "rfc7616.html"
     },
     "title": "HTTP Digest Access Authentication",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP Digest Access Authentication",
     "categories": [
       "browser"
@@ -10220,7 +10245,7 @@
       "filename": "rfc7617.html"
     },
     "title": "The 'Basic' HTTP Authentication Scheme",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "The 'Basic' HTTP Authentication Scheme",
     "categories": [
       "browser"
@@ -10254,7 +10279,7 @@
       "filename": "rfc7725.html"
     },
     "title": "An HTTP Status Code to Report Legal Obstacles",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "An HTTP Status Code to Report Legal Obstacles",
     "categories": [
       "browser"
@@ -10288,7 +10313,7 @@
       "filename": "rfc7838.html"
     },
     "title": "HTTP Alternative Services",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP Alternative Services",
     "categories": [
       "browser"
@@ -10322,7 +10347,7 @@
       "filename": "rfc8246.html"
     },
     "title": "HTTP Immutable Responses",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP Immutable Responses",
     "categories": [
       "browser"
@@ -10356,7 +10381,7 @@
       "filename": "rfc8288.html"
     },
     "title": "Web Linking",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "Web Linking",
     "categories": [
       "browser"
@@ -10390,7 +10415,7 @@
       "filename": "rfc8297.html"
     },
     "title": "An HTTP Status Code for Indicating Hints",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "An HTTP Status Code for Indicating Hints",
     "categories": [
       "browser"
@@ -10424,7 +10449,7 @@
       "filename": "rfc8470.html"
     },
     "title": "Using Early Data in HTTP",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "Using Early Data in HTTP",
     "categories": [
       "browser"
@@ -10456,7 +10481,7 @@
       "filename": "rfc8942.html"
     },
     "title": "HTTP Client Hints",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP Client Hints",
     "categories": [
       "browser"
@@ -10472,15 +10497,7 @@
       "currentSpecification": "rfc9110",
       "title": "HTTP Semantics",
       "shortTitle": "HTTP Semantics",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9110"
-    },
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9110",
-      "status": "Internet Standard",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "alternateUrls": [],
-      "sourcePath": "specs/rfc9110.xml",
-      "filename": "rfc9110.html"
+      "nightlyUrl": "https://httpwg.org/specs/rfc9110.html"
     },
     "organization": "IETF",
     "groups": [
@@ -10489,8 +10506,16 @@
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9110.html",
+      "status": "Internet Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9110.xml",
+      "filename": "rfc9110.html"
+    },
     "title": "HTTP Semantics",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP Semantics",
     "categories": [
       "browser"
@@ -10506,15 +10531,7 @@
       "currentSpecification": "rfc9111",
       "title": "HTTP Caching",
       "shortTitle": "HTTP Caching",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9111"
-    },
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9111",
-      "status": "Internet Standard",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "alternateUrls": [],
-      "sourcePath": "specs/rfc9111.xml",
-      "filename": "rfc9111.html"
+      "nightlyUrl": "https://httpwg.org/specs/rfc9111.html"
     },
     "organization": "IETF",
     "groups": [
@@ -10523,8 +10540,16 @@
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9111.html",
+      "status": "Internet Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9111.xml",
+      "filename": "rfc9111.html"
+    },
     "title": "HTTP Caching",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP Caching",
     "categories": [
       "browser"
@@ -10540,15 +10565,7 @@
       "currentSpecification": "rfc9112",
       "title": "HTTP/1.1",
       "shortTitle": "HTTP/1.1",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9112"
-    },
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9112",
-      "status": "Internet Standard",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "alternateUrls": [],
-      "sourcePath": "specs/rfc9112.xml",
-      "filename": "rfc9112.html"
+      "nightlyUrl": "https://httpwg.org/specs/rfc9112.html"
     },
     "organization": "IETF",
     "groups": [
@@ -10557,8 +10574,16 @@
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9112.html",
+      "status": "Internet Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9112.xml",
+      "filename": "rfc9112.html"
+    },
     "title": "HTTP/1.1",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP/1.1",
     "categories": [
       "browser"
@@ -10574,15 +10599,7 @@
       "currentSpecification": "rfc9113",
       "title": "HTTP/2",
       "shortTitle": "HTTP/2",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9113"
-    },
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9113",
-      "status": "Proposed Standard",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "alternateUrls": [],
-      "sourcePath": "specs/rfc9113.xml",
-      "filename": "rfc9113.html"
+      "nightlyUrl": "https://httpwg.org/specs/rfc9113.html"
     },
     "organization": "IETF",
     "groups": [
@@ -10591,8 +10608,16 @@
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9113.html",
+      "status": "Proposed Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9113.xml",
+      "filename": "rfc9113.html"
+    },
     "title": "HTTP/2",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP/2",
     "categories": [
       "browser"
@@ -10608,15 +10633,7 @@
       "currentSpecification": "rfc9114",
       "title": "HTTP/3",
       "shortTitle": "HTTP/3",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9114"
-    },
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9114",
-      "status": "Proposed Standard",
-      "repository": "https://github.com/httpwg/httpwg.github.io",
-      "alternateUrls": [],
-      "sourcePath": "specs/rfc9114.xml",
-      "filename": "rfc9114.html"
+      "nightlyUrl": "https://httpwg.org/specs/rfc9114.html"
     },
     "organization": "IETF",
     "groups": [
@@ -10625,8 +10642,16 @@
         "url": "https://datatracker.ietf.org/wg/quic/"
       }
     ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9114.html",
+      "status": "Proposed Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9114.xml",
+      "filename": "rfc9114.html"
+    },
     "title": "HTTP/3",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "HTTP/3",
     "categories": [
       "browser"
@@ -10660,7 +10685,7 @@
       }
     ],
     "title": "Expect-CT Extension for HTTP",
-    "source": "specref",
+    "source": "ietf",
     "shortTitle": "Expect-CT Extension for HTTP",
     "categories": [
       "browser"

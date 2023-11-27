@@ -13,16 +13,6 @@ const addFormats = require("ajv-formats")
 const ajv = new Ajv();
 addFormats(ajv);
 
-// Some old specs that don't have a repo
-const noRepo = [
-  'CSS2',
-  'SVG11',
-  'test-methodology',
-  'n-quads',
-  'DOM-Level-2-Style'
-];
-
-
 describe("List of specs", () => {
   it("has a valid JSON schema", () => {
     const isSchemaValid = ajv.validateSchema(schema);
@@ -152,25 +142,21 @@ describe("List of specs", () => {
   });
 
   it("contains repository URLs for all specs save a restricted set", () => {
-    // Some more exceptions to the rule
+    // IETF and FIDO Allianace specs (may but) usually don't have a repository.
+    // No repository either when the nightly URL of a W3C spec is the published
+    // URL.
     const wrong = specs.filter(s => !s.nightly.repository &&
       s.organization !== 'IETF' &&
-      !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
-      !s.nightly.url.match(/\/sourcemaps\.info\//) &&
-      !s.nightly.url.match(/fidoalliance\.org\//) &&
-      !noRepo.includes(s.shortname));
+      s.organization !== 'FIDO Alliance' &&
+      (!s.url.match(/\/www\.w3\.org\//) || s.nightly.url !== s.url));
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains relative paths to source of nightly spec for all specs save a restricted set", () => {
-    // Some more exceptions to the rule
-    const wrong = specs.filter(s => !s.nightly.sourcePath &&
-      s.organization !== 'IETF' &&
-      !s.nightly.url.match(/\/Consortium\/Patent-Policy\/$/) &&
-      !s.nightly.url.match(/tc39\.es\/proposal\-decorators\/$/) &&
-      !s.nightly.url.match(/\/sourcemaps\.info\//) &&
-      !s.nightly.url.match(/fidoalliance\.org\//) &&
-      !noRepo.includes(s.shortname));
+  it("contains relative paths to source of nightly spec when repository is known", () => {
+    // One exception to the rule: when the source is not in the default branch
+    // of the repository
+    const wrong = specs.filter(s => s.nightly.repository &&
+      !s.nightly.sourcePath && s.shortname !== 'tc39-decorators');
     assert.deepStrictEqual(wrong, []);
   });
 

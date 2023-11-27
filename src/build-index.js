@@ -9,6 +9,9 @@
 const fs = require("fs").promises;
 const path = require("path");
 const puppeteer = require("puppeteer");
+const os = require("os");
+const util = require('util');
+const exec = util.promisify(require('child_process').exec);
 const computeShortname = require("./compute-shortname.js");
 const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
@@ -46,6 +49,11 @@ const steps = [
     shortname: "initial",
     title: "Prepare initial list of specs",
     run: runSkeleton
+  },
+  {
+    shortname: "previous",
+    title: "Retrieve last published info",
+    run: runFetchLastPublished
   },
   {
     shortname: "groups",
@@ -100,11 +108,16 @@ const steps = [
     run: runFilename
   },
   {
-    // Last step is a fake one, only there to copy the result of the last
-    // step to the final index file
+    // Last step is almost a fake one, only there to copy the result of the
+    // last step to the final index file, leaving out temp data
     shortname: "index",
     title: "Copy result of last step",
-    run: index => index
+    run: index => index.map(spec => {
+      if (spec.__last) {
+        delete spec.__last;
+      }
+      return spec;
+    })
   }
 ];
 
@@ -182,6 +195,25 @@ async function runSkeleton(specs, { log }) {
   return index;
 }
 
+async function runFetchLastPublished(index) {
+  const tmpdir = await fs.mkdtemp(path.join(os.tmpdir(), 'web-specs-'));
+  await exec('npm install web-specs', { cwd: tmpdir });
+  const lastIndexFile = path.join(tmpdir, 'node_modules', 'web-specs', 'index.json');
+  const lastIndexStr = await fs.readFile(lastIndexFile, 'utf8');
+  const lastIndex = JSON.parse(lastIndexStr);
+  const decoratedIndex = index.map(spec => {
+    const last = lastIndex.find(s => s.shortname === spec.shortname);
+    if (last) {
+      spec.__last = last;
+    }
+    return spec;
+  });
+  try {
+    await fs.rmdir(tmpdir, { recursive: true });
+  } catch {}
+  return decoratedIndex;
+}
+
 async function runInfo(specs) {
   const specInfo = await fetchInfo(specs);
   const index = specs.map(spec => {
@@ -218,7 +250,7 @@ async function runInfo(specs) {
     if (seriesInfo?.title && !res.series.title) {
       res.series.title = seriesInfo.title;
     }
-    else {
+    else if (!res.series.title) {
       res.series.title = res.title
         .replace(/ \d+(\.\d+)?$/, '')           // Drop level number
         .replace(/( -)? Level$/, '')            // Drop "Level"
@@ -249,14 +281,16 @@ async function runInfo(specs) {
     // w3c.github.io version)
     // (Also note the CSS WG uses the "css" series shortname for CSS snapshots
     // and not for the CSS 2.x series)
-    res.nightly.alternateUrls = res.nightly.alternateUrls || [];
-    if (res.nightly.url.match(/\/drafts\.csswg\.org/)) {
-      const draft = computeShortname(res.nightly.url);
-      res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.shortname}/`);
-      if ((res.series.currentSpecification === res.shortname) &&
-          (draft.shortname !== draft.series.shortname) &&
-          (draft.series.shortname !== 'css')) {
-        res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
+    if (!res.nightly.alternateUrls) {
+      res.nightly.alternateUrls = [];
+      if (res.nightly.url.match(/\/drafts\.csswg\.org/)) {
+        const draft = computeShortname(res.nightly.url);
+        res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.shortname}/`);
+        if ((res.series.currentSpecification === res.shortname) &&
+            (draft.shortname !== draft.series.shortname) &&
+            (draft.series.shortname !== 'css')) {
+          res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
+        }
       }
     }
 
@@ -323,9 +357,9 @@ async function runFilename(index, { previousIndex, log }) {
 
   async function checkSpec(spec) {
     log(`- find filenames for ${spec.shortname}`);
-    spec.nightly.filename = await determineSpecFilename(spec, "nightly");
+    spec.nightly.filename = spec.nightly.filename ?? await determineSpecFilename(spec, "nightly");
     if (spec.release) {
-      spec.release.filename = await determineSpecFilename(spec, "release");
+      spec.release.filename = spec.release.filename ?? await determineSpecFilename(spec, "release");
     }
 
     // Sleep a bit as draft CSS WG server does not seem to like receiving too

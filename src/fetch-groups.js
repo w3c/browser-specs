@@ -33,7 +33,7 @@ module.exports = async function (specs, options) {
   async function fetchJSON(url, options) {
     const body = cache[url] ?? await fetch(url, options).then(res => {
       if (res.status !== 200) {
-        throw new Error(`W3C API returned an error, status code is ${res.status}`);
+        throw new Error(`W3C API returned an error for ${url}, status code is ${res.status}`);
       }
       return res.json();
     });
@@ -42,6 +42,12 @@ module.exports = async function (specs, options) {
   }
 
   for (const spec of specs) {
+    if (spec.__last?.standing === 'discontinued' &&
+        (!spec.standing || spec.standing === 'discontinued')) {
+      spec.organization = spec.__last.organization;
+      spec.groups = spec.__last.groups;
+      continue;
+    }
     const info = parseSpecUrl(spec.url);
     if (!info) {
       // For IETF documents, retrieve the group info from datatracker

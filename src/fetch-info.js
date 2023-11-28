@@ -55,6 +55,17 @@ const specrefStatusMapping = {
   "cg-draft": "Draft Community Group Report"
 };
 
+async function useLastInfoForDiscontinuedSpecs(specs) {
+  const results = {};
+  for (const spec of specs) {
+    if (spec.__last?.standing === 'discontinued' &&
+        (!spec.standing || spec.standing === 'discontinued')) {
+      results[spec.shortname] = spec.__last;
+    }
+  }
+  return results;
+}
+
 async function fetchInfoFromW3CApi(specs, options) {
   options.headers = options.headers || {};
 
@@ -584,32 +595,39 @@ async function fetchInfo(specs, options) {
   options = Object.assign({}, options);
   options.timeout = options.timeout || 30000;
 
-  // Compute information from W3C API
+  const info = {};
+  const steps = [
+    { name: 'discontinued', fn: useLastInfoForDiscontinuedSpecs },
+    { name: 'w3c', fn: fetchInfoFromW3CApi },
+    { name: 'ietf', fn: fetchInfoFromIETF },
+    { name: 'specref', fn: fetchInfoFromSpecref },
+    { name: 'spec', fn: fetchInfoFromSpecs }
+  ];
   let remainingSpecs = specs;
-  const w3cInfo = await fetchInfoFromW3CApi(remainingSpecs, options);
+  for (let i = 0; i < steps.length ; i++) {
+    const step = steps[i];
+    info[step.name] = await step.fn(remainingSpecs, options);
+    remainingSpecs = remainingSpecs.filter(spec => !info[step.name][spec.shortname]);
+  }
 
-  // Extract information from IETF datatracker for remaining specs
-  remainingSpecs = remainingSpecs.filter(spec => !w3cInfo[spec.shortname]);
-  const ietfInfo = await fetchInfoFromIETF(remainingSpecs, options);
-
-  // Compute information from Specref for remaining specs
-  remainingSpecs = remainingSpecs.filter(spec => !ietfInfo[spec.shortname]);
-  const specrefInfo = await fetchInfoFromSpecref(remainingSpecs, options);
-
-  // Extract information directly from the spec for remaining specs
-  remainingSpecs = remainingSpecs.filter(spec => !ietfInfo[spec.shortname]);
-  const specInfo = await fetchInfoFromSpecs(remainingSpecs, options);
+  function getFirstInfo(shortname) {
+    for (const step of steps) {
+      const specInfo = info[step.name][shortname];
+      if (specInfo) {
+        if (!specInfo.source) {
+          specInfo.source = step.name;
+        }
+        return specInfo;
+      }
+    }
+  }
 
   // Merge results
   const results = {};
-  specs.map(spec => spec.shortname).forEach(name => results[name] =
-    (w3cInfo[name] ? Object.assign(w3cInfo[name], { source: "w3c" }) : null) ||
-    (ietfInfo[name] ? Object.assign(ietfInfo[name], { source: "ietf" }) : null) ||
-    (specrefInfo[name] ? Object.assign(specrefInfo[name], { source: "specref" }) : null) ||
-    (specInfo[name] ? Object.assign(specInfo[name], { source: "spec" }) : null));
+  specs.map(spec => spec.shortname).forEach(name => results[name] = getFirstInfo(name));
 
   // Add series info from W3C API
-  results.__series = w3cInfo.__series;
+  results.__series = info.w3c.__series;
 
   return results;
 }

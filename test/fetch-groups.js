@@ -195,5 +195,23 @@ describe("fetch-groups module (without API keys)", function () {
         url: "https://www.w3.org/Style/CSS/"
       }]);
     });
+
+    it("uses last published info for discontinued specs", async () => {
+      const spec = {
+        url: "https://wicg.github.io/close-watcher/",
+        shortname: "close-watcher",
+        __last: {
+          standing: "discontinued",
+          organization: "Acme Corporation",
+          groups: [{
+            name: "Road Runner",
+            url: "beep beep"
+          }]
+        }
+      };
+      const result = await fetchGroups([spec]);
+      assert.equal(result[0].organization, spec.__last.organization);
+      assert.deepStrictEqual(result[0].groups, spec.__last.groups);
+    });
   });
 });

@@ -18,7 +18,6 @@ describe("fetch-info module", function () {
     return spec;
   }
 
-
   describe("fetch from Specref", () => {
     it("works on a WHATWG spec", async () => {
       const spec = {
@@ -264,6 +263,20 @@ describe("fetch-info module", function () {
 
 
   describe("fetch from all sources", () => {
+    it("uses the last published info for discontinued specs", async () => {
+      const spec = {
+        url: "https://wicg.github.io/close-watcher/",
+        shortname: "close-watcher",
+        __last: {
+          standing: "discontinued",
+          organization: "Acme Corporation"
+        }
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].organization, spec.__last.organization);
+    });
+
     it("merges info from sources", async () => {
       const w3c = getW3CSpec("presentation-api");
       const whatwg = {

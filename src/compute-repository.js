@@ -130,6 +130,7 @@ module.exports = async function (specs, options) {
       "index.src.html",
       "index.bs",
       "spec.bs",
+      "index.md",
       "index.html"
     );
 

@@ -28,16 +28,20 @@ module.exports = function (title) {
 
   const level = title.match(/\s(\d+(\.\d+)?)$/);
   const shortTitle = title
-    .replace(/\s/g, ' ')                // Replace non-breaking spaces
-    .replace(/ \d+(\.\d+)?$/, '')       // Drop level number for now
-    .replace(/( -)? Level$/, '')        // Drop "Level"
-    .replace(/ Module$/, '')            // Drop "Module" (now followed by level)
-    .replace(/ Proposal$/, '')          // Drop "Proposal" (TC39 proposals)
-    .replace(/ Specification$/, '')     // Drop "Specification"
-    .replace(/ Standard$/, '')          // Drop "Standard" and "Living Standard"
-    .replace(/ Living$/, '')
-    .replace(/ \([^\)]+ Edition\)/, '') // Drop edition indication
-    .replace(/^.*\(([^\)]+)\).*$/, '$1'); // Use abbr between parentheses
+    .trim()
+    .replace(/\s/g, ' ')                  // Replace non-breaking spaces
+    .replace(/ \d+(\.\d+)?$/, '')         // Drop level number for now
+    .replace(/( -)? Level$/i, '')         // Drop "Level"
+    .replace(/ \(\v\d+(\.\d+)?\)/i, '')   // Drop "(vx.y)"
+    .replace(/\(Draft\)/i, '')            // Drop "(Draft)" indication
+    .replace(/ Module$/i, '')             // Drop "Module" (now followed by level)
+    .replace(/ Proposal$/i, '')           // Drop "Proposal" (TC39 proposals)
+    .replace(/ Specification$/i, '')      // Drop "Specification"
+    .replace(/ Standard$/i, '')           // Drop "Standard" and "Living Standard"
+    .replace(/ Living$/i, '')
+    .replace(/ \([^\)]+ Edition\)/i, '')  // Drop edition indication
+    .replace(/^.*\(([^\)]+)\).*$/, '$1')  // Use abbr between parentheses
+    .trim();
 
   if (level) {
     return shortTitle + " " + level[1];

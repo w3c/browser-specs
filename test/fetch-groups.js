@@ -93,6 +93,15 @@ describe("fetch-groups module (without API keys)", function () {
     }]);
   });
 
+  it("handles AOM specs", async () => {
+    const res = await fetchGroupsFor("https://aomediacodec.github.io/afgs1-spec/");
+    assert.equal(res.organization, "Alliance for Open Media");
+    assert.deepStrictEqual(res.groups, [{
+      name: "Codec Working Group",
+      url: "https://aomedia.org/about/#codec-working-group"
+    }]);
+  });
+
   it("preserves provided info", async () => {
     const spec = {
       url: "https://url.spec.whatwg.org/",

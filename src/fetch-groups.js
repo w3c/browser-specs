@@ -126,6 +126,17 @@ module.exports = async function (specs, options) {
       }];
     }
 
+    // For the Alliance for Open Media (AOM), let's consider that the Codec WG
+    // is the default group, noting that it is not super clear which AOM group
+    // develops which spec in practice: https://aomedia.org/about/
+    if (info && info.owner === "aomediacodec") {
+      spec.organization = spec.organization ?? "Alliance for Open Media";
+      spec.groups = spec.groups ?? [{
+        name: "Codec Working Group",
+        url: "https://aomedia.org/about/#codec-working-group"
+      }]
+    }
+
     // All specs that remain should be developed by some W3C group.
     spec.organization = spec.organization ?? "W3C";
 

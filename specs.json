@@ -1,13 +1,60 @@
 [
   {
+    "url": "https://aomediacodec.github.io/afgs1-spec/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
     "url": "https://aomediacodec.github.io/av1-avif/",
-    "organization": "Alliance for Open Media",
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ],
+    "nightly": {
+      "status": "Final Deliverable"
+    }
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-hdr10plus/",
+    "nightly": {
+      "status": "Final Deliverable"
+    }
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-isobmff/",
     "groups": [
       {
         "name": "Storage and Transport Formats Working Group",
         "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
       }
     ]
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-mpeg2-ts/",
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ]
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-rtp-spec/",
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ]
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-spec/"
+    }
   },
   {
     "url": "https://compat.spec.whatwg.org/",

@@ -79,6 +79,12 @@ describe("compute-shorttitle module", () => {
       "Foo Bar");
   });
 
+  it("drops '(Draft)' from title", () => {
+    assertTitle(
+      "(Draft) Beer",
+      "Beer");
+  });
+
   it("preserves title when needed", () => {
     assertTitle(
       "Edition Module Standard Foo",
@@ -95,5 +101,11 @@ describe("compute-shorttitle module", () => {
     assertTitle(
       "Hypertext Transfer Protocol (HTTP/1.1): Foo bar",
       "HTTP/1.1 Foo bar")
+  });
+
+  it("applies rules in order", () => {
+    assertTitle(
+      " AOMedia Film Grain Synthesis (v1.0) (AFGS1) specification (Draft) ",
+      "AFGS1")
   });
 });

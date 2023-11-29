@@ -1,5 +1,10 @@
 [
-  "https://aomediacodec.github.io/afgs1-spec/",
+  {
+    "url": "https://aomediacodec.github.io/afgs1-spec/",
+    "categories": [
+      "-browser"
+    ]
+  },
   {
     "url": "https://aomediacodec.github.io/av1-avif/",
     "groups": [

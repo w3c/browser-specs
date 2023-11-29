@@ -17,6 +17,7 @@ const computePrevNext = require("./compute-prevnext.js");
 const computeCurrentLevel = require("./compute-currentlevel.js");
 const computeRepository = require("./compute-repository.js");
 const computeSeriesUrls = require("./compute-series-urls.js");
+const computeAlternateUrls = require("./compute-alternate-urls.js");
 const computeShortTitle = require("./compute-shorttitle.js");
 const computeCategories = require("./compute-categories.js");
 const computeStanding = require("./compute-standing.js");
@@ -276,23 +277,10 @@ async function runInfo(specs) {
     delete res.series.forceCurrent;
 
 
-    // Add alternate w3c.github.io URLs for CSS specs
-    // (Note drafts of CSS Houdini and Visual effects task forces don't have a
-    // w3c.github.io version)
-    // (Also note the CSS WG uses the "css" series shortname for CSS snapshots
-    // and not for the CSS 2.x series)
     if (!res.nightly.alternateUrls) {
       res.nightly.alternateUrls = [];
-      if (res.nightly.url.match(/\/drafts\.csswg\.org/)) {
-        const draft = computeShortname(res.nightly.url);
-        res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.shortname}/`);
-        if ((res.series.currentSpecification === res.shortname) &&
-            (draft.shortname !== draft.series.shortname) &&
-            (draft.series.shortname !== 'css')) {
-          res.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
-        }
-      }
     }
+    res.nightly.alternateUrls = res.nightly.alternateUrls.concat(computeAlternateUrls(res));
 
     return res;
   });

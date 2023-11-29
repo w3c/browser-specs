@@ -883,7 +883,10 @@
     },
     "nightly": {
       "url": "https://www.w3.org/TR/DOM-Level-2-Style/"
-    }
+    },
+    "obsoletedBy": [
+      "cssom-1"
+    ]
   },
   "https://www.w3.org/TR/DOM-Parsing/",
   {

@@ -205,6 +205,19 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("has a datatracker alternate URL for IETF RFCS", () => {
+    const wrong = specs
+      .filter(s => s.url.match(/\/www.rfc-editor\.org\/rfc/))
+      .filter(s => {
+	console.log(s);
+        const draft = computeShortname(s.url);
+        return !s.nightly.alternateUrls.includes(
+          `https://datatracker.ietf.org/doc/html/${draft.shortname}/`);
+      });
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  
   it("has distinct source paths for all specs", () => {
     // ... provided entries don't share the same nightly draft
     // (typically the case for CSS 2.1 and CSS 2.2)

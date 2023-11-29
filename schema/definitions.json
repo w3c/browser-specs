@@ -10,7 +10,7 @@
 
     "filename": {
       "type": "string",
-      "pattern": "^[\\w\\-\\.]+\\.html$"
+      "pattern": "^[\\w\\-\\.]+\\.(html|pdf)$"
     },
 
     "relativePath": {
@@ -75,6 +75,7 @@
             "Discontinued Draft",
             "Draft Note",
             "Draft Registry",
+            "Final Deliverable",
             "First Public Working Draft",
             "Note",
             "Proposed Recommendation",
@@ -101,10 +102,12 @@
           "enum": [
             "A Collection of Interesting Ideas",
             "Draft Community Group Report",
+            "Draft Deliverable",
             "Draft Finding",
             "Draft Registry",
             "Editor's Draft",
             "Experimental",
+            "Final Deliverable",
             "Informational",
             "Internet Standard",
             "Living Standard",

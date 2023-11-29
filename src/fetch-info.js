@@ -558,10 +558,27 @@ async function fetchInfoFromSpecs(specs, options) {
         throw new Error(titleAndStatus.error + `, in ${url} for ${spec.shortname}`);
       }
       else {
-        return {
+        const res = {
           nightly: { url, status: titleAndStatus.status },
           title: titleAndStatus.title
         };
+
+        // The AOM has Draft Deliverables and Final Deliverables. Most AOM
+        // specs don't say what they are, we'll assume that they are drafts.
+        if (spec.organization === "Alliance for Open Media") {
+          if (res.nightly.status === "Editor's Draft" ||
+              res.nightly.status === "AOM Working Group Draft") {
+            res.nightly.status = "Draft Deliverable";
+          }
+          if (spec.nightly?.url && spec.url !== spec.nightly.url) {
+            res.release = {
+              url: spec.url,
+              status: "Final Deliverable"
+            };
+          }
+        }
+
+        return res;
       }
     }
     finally {

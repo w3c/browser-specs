@@ -198,6 +198,22 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].nightly.status, "Editor's Draft");
       assert.equal(info[spec.shortname].title, "Intl.Segmenter Proposal");
     });
+
+    it("creates a release for final AOM deliverables published as PDF", async () => {
+      const spec = {
+        url: "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
+        shortname: "av1-spec",
+        nightly: {
+          url: "https://aomediacodec.github.io/av1-spec/"
+        }
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+      assert.equal(info[spec.shortname].nightly.url, spec.nightly.url);
+      assert.equal(info[spec.shortname].release.url, spec.url);
+      assert.equal(info[spec.shortname].release.status, "Final Deliverable");
+    });
   });
 
     describe("fetch from W3C API", () => {

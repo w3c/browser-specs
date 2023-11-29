@@ -12,9 +12,17 @@
         "name": "Storage and Transport Formats Working Group",
         "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
       }
-    ]
+    ],
+    "nightly": {
+      "status": "Final Deliverable"
+    }
   },
-  "https://aomediacodec.github.io/av1-hdr10plus/",
+  {
+    "url": "https://aomediacodec.github.io/av1-hdr10plus/",
+    "nightly": {
+      "status": "Final Deliverable"
+    }
+  },
   {
     "url": "https://aomediacodec.github.io/av1-isobmff/",
     "groups": [
@@ -42,7 +50,12 @@
       }
     ]
   },
-  "https://aomediacodec.github.io/av1-spec/",
+  {
+    "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-spec/"
+    }
+  },
   {
     "url": "https://compat.spec.whatwg.org/",
     "nightly": {

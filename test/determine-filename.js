@@ -6,10 +6,16 @@ describe("determine-filename module", function () {
   this.slow(5000);
   this.timeout(30000);
 
-  it("extracts filename from URL", async () => {
+  it("extracts filename from URL (.html)", async () => {
     const url = "https://example.org/spec/filename.html";
     const filename = await determineFilename(url);
     assert.equal(filename, "filename.html");
+  });
+
+  it("extracts filename from URL (.pdf)", async () => {
+    const url = "https://example.org/spec/filename.pdf";
+    const filename = await determineFilename(url);
+    assert.equal(filename, "filename.pdf");
   });
 
   it("finds index.html filenames", async () => {

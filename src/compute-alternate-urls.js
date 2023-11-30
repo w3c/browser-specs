@@ -28,7 +28,7 @@ module.exports = function computeAlternateUrls(spec) {
     if ((spec.series.currentSpecification === spec.shortname) &&
         (draft.shortname !== draft.series.shortname) &&
         (draft.series.shortname !== 'css')) {
-      spec.nightly.alternateUrls.push(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
+      alternate.push(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
     }
   }
   return alternate;

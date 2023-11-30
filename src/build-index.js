@@ -234,6 +234,13 @@ async function runInfo(specs) {
       }
     });
 
+    // If we're reusing last published discontinued info, no need to run
+    // further adjustments
+    if (res.__last?.standing === 'discontinued' &&
+        (!res.standing || res.standing === 'discontinued')) {
+      return res;
+    }
+
     // Latest ED link in TR versions of CSS specs sometimes target the spec series
     // entry point on the CSS drafts server. To make sure that the nightly URL
     // targets the same level as the TR level we're looking at, we'll add the

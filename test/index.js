@@ -216,6 +216,36 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("does not list duplicate alternate URLs", () => {
+    const wrong = specs
+      .filter(s => s.nightly.alternateUrls.length > 0)
+      .filter(s => {
+        const set = new Set(s.nightly.alternateUrls);
+        return set.size !== s.nightly.alternateUrls.length;
+      });
+    assert.deepStrictEqual(wrong, []);
+  });
+
+  it("lists alternate URLs that are actual alternate URLs", () => {
+    const wrong = specs
+      .filter(s => s.nightly.alternateUrls.length > 0)
+      .filter(s => {
+        const mainSet = new Set();
+        mainSet.add(s.url);
+        mainSet.add(s.nightly.url);
+        if (s.release) {
+          mainSet.add(s.release.url);
+        }
+        const alternateSet = new Set(s.nightly.alternateUrls);
+        const alternateSize = alternateSet.size;
+        for (const url of mainSet) {
+          alternateSet.add(url);
+        }
+        return alternateSet.size !== (mainSet.size + alternateSize);
+      });
+    assert.deepStrictEqual(wrong, []);
+  });
+
   
   it("has distinct source paths for all specs", () => {
     // ... provided entries don't share the same nightly draft

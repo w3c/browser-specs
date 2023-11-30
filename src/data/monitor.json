@@ -414,10 +414,6 @@
       "lastreviewed": "2023-11-01",
       "comment": "spec should be retired in 2023, see https://github.com/w3c/browser-specs/issues/837, replaced by css-viewport"
     },
-    "https://wicg.github.io/anonymous-iframe/": {
-      "lastreviewed": "2023-11-01",
-      "comment": "no real group name in w3c.json file"
-    },
     "https://w3c.github.io/editing/docs/execCommand/": {
       "lastreviewed": "2023-11-01",
       "comment": "no longer worked on and not implemented consistently or fully by user agents"

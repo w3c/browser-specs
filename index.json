@@ -1,5 +1,37 @@
 [
   {
+    "url": "https://aomediacodec.github.io/afgs1-spec/",
+    "seriesComposition": "full",
+    "shortname": "afgs1-spec",
+    "series": {
+      "shortname": "afgs1-spec",
+      "currentSpecification": "afgs1-spec",
+      "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification (Draft)",
+      "shortTitle": "AFGS1",
+      "nightlyUrl": "https://aomediacodec.github.io/afgs1-spec/"
+    },
+    "categories": [],
+    "organization": "Alliance for Open Media",
+    "groups": [
+      {
+        "name": "Codec Working Group",
+        "url": "https://aomedia.org/about/#codec-working-group"
+      }
+    ],
+    "nightly": {
+      "url": "https://aomediacodec.github.io/afgs1-spec/",
+      "status": "Draft Deliverable",
+      "alternateUrls": [],
+      "repository": "https://github.com/AOMediaCodec/afgs1-spec",
+      "sourcePath": "index.md",
+      "filename": "index.html"
+    },
+    "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification (Draft)",
+    "source": "spec",
+    "shortTitle": "AFGS1",
+    "standing": "good"
+  },
+  {
     "url": "https://aomediacodec.github.io/av1-avif/",
     "seriesComposition": "full",
     "shortname": "av1-avif",
@@ -10,7 +42,6 @@
       "shortTitle": "AVIF",
       "nightlyUrl": "https://aomediacodec.github.io/av1-avif/"
     },
-    "organization": "Alliance for Open Media",
     "groups": [
       {
         "name": "Storage and Transport Formats Working Group",
@@ -19,12 +50,13 @@
     ],
     "nightly": {
       "url": "https://aomediacodec.github.io/av1-avif/",
-      "status": "Editor's Draft",
+      "status": "Final Deliverable",
       "alternateUrls": [],
       "repository": "https://github.com/AOMediaCodec/av1-avif",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
+    "organization": "Alliance for Open Media",
     "title": "AV1 Image File Format (AVIF)",
     "source": "spec",
     "shortTitle": "AVIF",
@@ -38,6 +70,182 @@
         "avif"
       ]
     }
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-hdr10plus/",
+    "seriesComposition": "full",
+    "shortname": "av1-hdr10plus",
+    "series": {
+      "shortname": "av1-hdr10plus",
+      "currentSpecification": "av1-hdr10plus",
+      "title": "HDR10+ AV1 Metadata Handling Specification",
+      "shortTitle": "HDR10+ AV1 Metadata Handling",
+      "nightlyUrl": "https://aomediacodec.github.io/av1-hdr10plus/"
+    },
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-hdr10plus/",
+      "status": "Final Deliverable",
+      "alternateUrls": [],
+      "repository": "https://github.com/AOMediaCodec/av1-hdr10plus",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "organization": "Alliance for Open Media",
+    "groups": [
+      {
+        "name": "Codec Working Group",
+        "url": "https://aomedia.org/about/#codec-working-group"
+      }
+    ],
+    "title": "HDR10+ AV1 Metadata Handling Specification",
+    "source": "spec",
+    "shortTitle": "HDR10+ AV1 Metadata Handling",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-isobmff/",
+    "seriesComposition": "full",
+    "shortname": "av1-isobmff",
+    "series": {
+      "shortname": "av1-isobmff",
+      "currentSpecification": "av1-isobmff",
+      "title": "AV1 Codec ISO Media File Format Binding",
+      "shortTitle": "AV1 Codec ISO Media File Format Binding",
+      "nightlyUrl": "https://aomediacodec.github.io/av1-isobmff/"
+    },
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ],
+    "organization": "Alliance for Open Media",
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-isobmff/",
+      "status": "Draft Deliverable",
+      "alternateUrls": [],
+      "repository": "https://github.com/AOMediaCodec/av1-isobmff",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "AV1 Codec ISO Media File Format Binding",
+    "source": "spec",
+    "shortTitle": "AV1 Codec ISO Media File Format Binding",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-mpeg2-ts/",
+    "seriesComposition": "full",
+    "shortname": "av1-mpeg2-ts",
+    "series": {
+      "shortname": "av1-mpeg2-ts",
+      "currentSpecification": "av1-mpeg2-ts",
+      "title": "Carriage of AV1 in MPEG-2 TS",
+      "shortTitle": "Carriage of AV1 in MPEG-2 TS",
+      "nightlyUrl": "https://aomediacodec.github.io/av1-mpeg2-ts/"
+    },
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ],
+    "organization": "Alliance for Open Media",
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-mpeg2-ts/",
+      "status": "Draft Deliverable",
+      "alternateUrls": [],
+      "repository": "https://github.com/AOMediaCodec/av1-mpeg2-ts",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Carriage of AV1 in MPEG-2 TS",
+    "source": "spec",
+    "shortTitle": "Carriage of AV1 in MPEG-2 TS",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-rtp-spec/",
+    "seriesComposition": "full",
+    "shortname": "av1-rtp-spec",
+    "series": {
+      "shortname": "av1-rtp-spec",
+      "currentSpecification": "av1-rtp-spec",
+      "title": "RTP Payload Format For AV1 (v1.0)",
+      "shortTitle": "v1.0",
+      "nightlyUrl": "https://aomediacodec.github.io/av1-rtp-spec/"
+    },
+    "groups": [
+      {
+        "name": "Storage and Transport Formats Working Group",
+        "url": "https://aomedia.org/about/#storage-and-transport-formats-working-group"
+      }
+    ],
+    "organization": "Alliance for Open Media",
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-rtp-spec/",
+      "status": "Draft Deliverable",
+      "alternateUrls": [],
+      "repository": "https://github.com/AOMediaCodec/av1-rtp-spec",
+      "sourcePath": "index.md",
+      "filename": "index.html"
+    },
+    "title": "RTP Payload Format For AV1 (v1.0)",
+    "source": "spec",
+    "shortTitle": "v1.0",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
+    "seriesComposition": "full",
+    "shortname": "av1-spec",
+    "series": {
+      "shortname": "av1-spec",
+      "currentSpecification": "av1-spec",
+      "title": "AV1 Bitstream & Decoding Process Specification",
+      "shortTitle": "AV1 Bitstream & Decoding Process",
+      "releaseUrl": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
+      "nightlyUrl": "https://aomediacodec.github.io/av1-spec/"
+    },
+    "nightly": {
+      "url": "https://aomediacodec.github.io/av1-spec/",
+      "status": "Draft Deliverable",
+      "alternateUrls": [],
+      "repository": "https://github.com/AOMediaCodec/av1-spec",
+      "sourcePath": "index.md",
+      "filename": "index.html"
+    },
+    "organization": "Alliance for Open Media",
+    "groups": [
+      {
+        "name": "Codec Working Group",
+        "url": "https://aomedia.org/about/#codec-working-group"
+      }
+    ],
+    "title": "AV1 Bitstream & Decoding Process Specification",
+    "release": {
+      "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
+      "status": "Final Deliverable",
+      "filename": "av1-spec.pdf"
+    },
+    "source": "spec",
+    "shortTitle": "AV1 Bitstream & Decoding Process",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://compat.spec.whatwg.org/",
@@ -127,7 +335,7 @@
       "shortname": "partitioned-cookies",
       "currentSpecification": "partitioned-cookies",
       "title": "Cookies Having Independent Partitioned State specification",
-      "shortTitle": "Cookies Having Independent Partitioned State specification",
+      "shortTitle": "Cookies Having Independent Partitioned State",
       "nightlyUrl": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html"
     },
     "nightly": {
@@ -147,7 +355,7 @@
     ],
     "title": "Cookies Having Independent Partitioned State specification",
     "source": "ietf",
-    "shortTitle": "Cookies Having Independent Partitioned State specification",
+    "shortTitle": "Cookies Having Independent Partitioned State",
     "categories": [
       "browser"
     ],
@@ -474,8 +682,8 @@
       "url": "https://drafts.csswg.org/css-borders-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-borders-4/",
-        "https://w3c.github.io/csswg-drafts/css-borders/"
+        "https://w3c.github.io/csswg-drafts/css-borders/",
+        "https://w3c.github.io/csswg-drafts/css-borders-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-borders-4/Overview.bs",
@@ -593,8 +801,8 @@
       "url": "https://drafts.csswg.org/css-conditional-values-1/",
       "status": "Unofficial Proposal Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-conditional-values-1/",
-        "https://w3c.github.io/csswg-drafts/css-conditional-values/"
+        "https://w3c.github.io/csswg-drafts/css-conditional-values/",
+        "https://w3c.github.io/csswg-drafts/css-conditional-values-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-conditional-values-1/Overview.bs",
@@ -721,8 +929,8 @@
       "url": "https://drafts.csswg.org/css-env-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-env-1/",
-        "https://w3c.github.io/csswg-drafts/css-env/"
+        "https://w3c.github.io/csswg-drafts/css-env/",
+        "https://w3c.github.io/csswg-drafts/css-env-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-env-1/Overview.bs",
@@ -765,8 +973,8 @@
       "url": "https://drafts.csswg.org/css-extensions-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-extensions-1/",
-        "https://w3c.github.io/csswg-drafts/css-extensions/"
+        "https://w3c.github.io/csswg-drafts/css-extensions/",
+        "https://w3c.github.io/csswg-drafts/css-extensions-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-extensions-1/Overview.bs",
@@ -803,8 +1011,8 @@
       "url": "https://drafts.csswg.org/css-forms-1/",
       "status": "A Collection of Interesting Ideas",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-forms-1/",
-        "https://w3c.github.io/csswg-drafts/css-forms/"
+        "https://w3c.github.io/csswg-drafts/css-forms/",
+        "https://w3c.github.io/csswg-drafts/css-forms-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-forms-1/Overview.bs",
@@ -976,8 +1184,8 @@
       "url": "https://drafts.csswg.org/css-link-params-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-link-params-1/",
-        "https://w3c.github.io/csswg-drafts/css-link-params/"
+        "https://w3c.github.io/csswg-drafts/css-link-params/",
+        "https://w3c.github.io/csswg-drafts/css-link-params-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-link-params-1/Overview.bs",
@@ -1240,8 +1448,8 @@
       "url": "https://drafts.csswg.org/css-size-adjust-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-size-adjust-1/",
-        "https://w3c.github.io/csswg-drafts/css-size-adjust/"
+        "https://w3c.github.io/csswg-drafts/css-size-adjust/",
+        "https://w3c.github.io/csswg-drafts/css-size-adjust-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-size-adjust-1/Overview.bs",
@@ -4802,7 +5010,7 @@
       "shortname": "tc39-decorators",
       "currentSpecification": "tc39-decorators",
       "title": "Decorators proposal",
-      "shortTitle": "Decorators proposal",
+      "shortTitle": "Decorators",
       "nightlyUrl": "https://tc39.es/proposal-decorators/"
     },
     "organization": "Ecma International",
@@ -4821,7 +5029,7 @@
     },
     "title": "Decorators proposal",
     "source": "spec",
-    "shortTitle": "Decorators proposal",
+    "shortTitle": "Decorators",
     "categories": [
       "browser"
     ],
@@ -5610,7 +5818,7 @@
       "shortname": "tc39-temporal",
       "currentSpecification": "tc39-temporal",
       "title": "Temporal proposal",
-      "shortTitle": "Temporal proposal",
+      "shortTitle": "Temporal",
       "nightlyUrl": "https://tc39.es/proposal-temporal/"
     },
     "organization": "Ecma International",
@@ -5630,7 +5838,7 @@
     },
     "title": "Temporal proposal",
     "source": "spec",
-    "shortTitle": "Temporal proposal",
+    "shortTitle": "Temporal",
     "categories": [
       "browser"
     ],
@@ -6538,6 +6746,40 @@
         "websockets"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/anonymous-iframe/",
+    "seriesComposition": "full",
+    "shortname": "anonymous-iframe",
+    "series": {
+      "shortname": "anonymous-iframe",
+      "currentSpecification": "anonymous-iframe",
+      "title": "Iframe credentialless",
+      "shortTitle": "Iframe credentialless",
+      "nightlyUrl": "https://wicg.github.io/anonymous-iframe/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/anonymous-iframe/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/anonymous-iframe",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Iframe credentialless",
+    "source": "spec",
+    "shortTitle": "Iframe credentialless",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/attribution-reporting-api/",
@@ -9552,7 +9794,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc2397",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc2397",
+        "https://tools.ietf.org/html/rfc2397"
+      ],
       "filename": "rfc2397.html"
     },
     "title": "The \"data\" URL scheme",
@@ -9585,7 +9830,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc4120",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc4120",
+        "https://tools.ietf.org/html/rfc4120"
+      ],
       "filename": "rfc4120.html"
     },
     "title": "The Kerberos Network Authentication Service (V5)",
@@ -9616,7 +9864,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc6265.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc6265",
+        "https://tools.ietf.org/html/rfc6265"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc6265.xml",
       "filename": "rfc6265.html"
@@ -9651,7 +9902,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc6266.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc6266",
+        "https://tools.ietf.org/html/rfc6266"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc6266.xml",
       "filename": "rfc6266.html"
@@ -9684,7 +9938,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc6386",
       "status": "Informational",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc6386",
+        "https://tools.ietf.org/html/rfc6386"
+      ],
       "filename": "rfc6386.html"
     },
     "title": "VP8 Data Format and Decoding Guide",
@@ -9716,7 +9973,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc6454",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc6454",
+        "https://tools.ietf.org/html/rfc6454"
+      ],
       "filename": "rfc6454.html"
     },
     "title": "The Web Origin Concept",
@@ -9748,7 +10008,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc6797",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc6797",
+        "https://tools.ietf.org/html/rfc6797"
+      ],
       "filename": "rfc6797.html"
     },
     "title": "HTTP Strict Transport Security (HSTS)",
@@ -9780,7 +10043,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc7034",
       "status": "Informational",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7034",
+        "https://tools.ietf.org/html/rfc7034"
+      ],
       "filename": "rfc7034.html"
     },
     "title": "HTTP Header Field X-Frame-Options",
@@ -9812,7 +10078,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7230.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7230",
+        "https://tools.ietf.org/html/rfc7230"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7230.xml",
       "filename": "rfc7230.html"
@@ -9850,7 +10119,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7231.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7231",
+        "https://tools.ietf.org/html/rfc7231"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7231.xml",
       "filename": "rfc7231.html"
@@ -9887,7 +10159,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7232.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7232",
+        "https://tools.ietf.org/html/rfc7232"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7232.xml",
       "filename": "rfc7232.html"
@@ -9924,7 +10199,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7233.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7233",
+        "https://tools.ietf.org/html/rfc7233"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7233.xml",
       "filename": "rfc7233.html"
@@ -9961,7 +10239,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7234.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7234",
+        "https://tools.ietf.org/html/rfc7234"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7234.xml",
       "filename": "rfc7234.html"
@@ -9998,7 +10279,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7235.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7235",
+        "https://tools.ietf.org/html/rfc7235"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7235.xml",
       "filename": "rfc7235.html"
@@ -10035,7 +10319,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc7239",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7239",
+        "https://tools.ietf.org/html/rfc7239"
+      ],
       "filename": "rfc7239.html"
     },
     "title": "Forwarded HTTP Extension",
@@ -10067,7 +10354,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc7469",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7469",
+        "https://tools.ietf.org/html/rfc7469"
+      ],
       "filename": "rfc7469.html"
     },
     "title": "Public Key Pinning Extension for HTTP",
@@ -10099,7 +10389,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7538.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7538",
+        "https://tools.ietf.org/html/rfc7538"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7538.xml",
       "filename": "rfc7538.html"
@@ -10136,7 +10429,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7540.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7540",
+        "https://tools.ietf.org/html/rfc7540"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7540.xml",
       "filename": "rfc7540.html"
@@ -10173,7 +10469,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc7578",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7578",
+        "https://tools.ietf.org/html/rfc7578"
+      ],
       "filename": "rfc7578.html"
     },
     "title": "Returning Values from Forms: multipart/form-data",
@@ -10205,7 +10504,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7616.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7616",
+        "https://tools.ietf.org/html/rfc7616"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7616.xml",
       "filename": "rfc7616.html"
@@ -10239,7 +10541,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7617.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7617",
+        "https://tools.ietf.org/html/rfc7617"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7617.xml",
       "filename": "rfc7617.html"
@@ -10273,7 +10578,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7725.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7725",
+        "https://tools.ietf.org/html/rfc7725"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7725.xml",
       "filename": "rfc7725.html"
@@ -10307,7 +10615,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc7838.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7838",
+        "https://tools.ietf.org/html/rfc7838"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc7838.xml",
       "filename": "rfc7838.html"
@@ -10341,7 +10652,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc8246.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc8246",
+        "https://tools.ietf.org/html/rfc8246"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc8246.xml",
       "filename": "rfc8246.html"
@@ -10375,7 +10689,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc8288.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc8288",
+        "https://tools.ietf.org/html/rfc8288"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc8288.xml",
       "filename": "rfc8288.html"
@@ -10409,7 +10726,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc8297.html",
       "status": "Experimental",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc8297",
+        "https://tools.ietf.org/html/rfc8297"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc8297.xml",
       "filename": "rfc8297.html"
@@ -10443,7 +10763,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc8470.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc8470",
+        "https://tools.ietf.org/html/rfc8470"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc8470.xml",
       "filename": "rfc8470.html"
@@ -10477,7 +10800,10 @@
     "nightly": {
       "url": "https://www.rfc-editor.org/rfc/rfc8942",
       "status": "Experimental",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc8942",
+        "https://tools.ietf.org/html/rfc8942"
+      ],
       "filename": "rfc8942.html"
     },
     "title": "HTTP Client Hints",
@@ -10509,7 +10835,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc9110.html",
       "status": "Internet Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9110",
+        "https://tools.ietf.org/html/rfc9110"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc9110.xml",
       "filename": "rfc9110.html"
@@ -10543,7 +10872,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc9111.html",
       "status": "Internet Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9111",
+        "https://tools.ietf.org/html/rfc9111"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc9111.xml",
       "filename": "rfc9111.html"
@@ -10577,7 +10909,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc9112.html",
       "status": "Internet Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9112",
+        "https://tools.ietf.org/html/rfc9112"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc9112.xml",
       "filename": "rfc9112.html"
@@ -10611,7 +10946,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc9113.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9113",
+        "https://tools.ietf.org/html/rfc9113"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc9113.xml",
       "filename": "rfc9113.html"
@@ -10645,7 +10983,10 @@
     "nightly": {
       "url": "https://httpwg.org/specs/rfc9114.html",
       "status": "Proposed Standard",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9114",
+        "https://tools.ietf.org/html/rfc9114"
+      ],
       "repository": "https://github.com/httpwg/httpwg.github.io",
       "sourcePath": "specs/rfc9114.xml",
       "filename": "rfc9114.html"
@@ -10674,7 +11015,10 @@
       "status": "Experimental",
       "repository": "https://github.com/httpwg/http-extensions",
       "sourcePath": "archive/draft-ietf-httpbis-expect-ct.md",
-      "alternateUrls": [],
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9163",
+        "https://tools.ietf.org/html/rfc9163"
+      ],
       "filename": "rfc9163.html"
     },
     "organization": "IETF",
@@ -11854,8 +12198,8 @@
       "url": "https://drafts.csswg.org/css-align-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-align-3/",
-        "https://w3c.github.io/csswg-drafts/css-align/"
+        "https://w3c.github.io/csswg-drafts/css-align/",
+        "https://w3c.github.io/csswg-drafts/css-align-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-align-3/Overview.bs",
@@ -11904,8 +12248,8 @@
       "url": "https://drafts.csswg.org/css-anchor-position-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-anchor-position-1/",
-        "https://w3c.github.io/csswg-drafts/css-anchor-position/"
+        "https://w3c.github.io/csswg-drafts/css-anchor-position/",
+        "https://w3c.github.io/csswg-drafts/css-anchor-position-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-anchor-position-1/Overview.bs",
@@ -11996,8 +12340,8 @@
       "url": "https://drafts.csswg.org/css-animations-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-animations-1/",
-        "https://w3c.github.io/csswg-drafts/css-animations/"
+        "https://w3c.github.io/csswg-drafts/css-animations/",
+        "https://w3c.github.io/csswg-drafts/css-animations-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-animations-1/Overview.bs",
@@ -12098,8 +12442,8 @@
       "url": "https://drafts.csswg.org/css-backgrounds-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-backgrounds-3/",
-        "https://w3c.github.io/csswg-drafts/css-backgrounds/"
+        "https://w3c.github.io/csswg-drafts/css-backgrounds/",
+        "https://w3c.github.io/csswg-drafts/css-backgrounds-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-backgrounds-3/Overview.bs",
@@ -12148,8 +12492,8 @@
       "url": "https://drafts.csswg.org/css-box-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-box-3/",
-        "https://w3c.github.io/csswg-drafts/css-box/"
+        "https://w3c.github.io/csswg-drafts/css-box/",
+        "https://w3c.github.io/csswg-drafts/css-box-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-box-3/Overview.bs",
@@ -12249,8 +12593,8 @@
       "url": "https://drafts.csswg.org/css-break-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-break-3/",
-        "https://w3c.github.io/csswg-drafts/css-break/"
+        "https://w3c.github.io/csswg-drafts/css-break/",
+        "https://w3c.github.io/csswg-drafts/css-break-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-break-3/Overview.bs",
@@ -12402,8 +12746,8 @@
       "url": "https://drafts.csswg.org/css-cascade-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-cascade-4/",
-        "https://w3c.github.io/csswg-drafts/css-cascade/"
+        "https://w3c.github.io/csswg-drafts/css-cascade/",
+        "https://w3c.github.io/csswg-drafts/css-cascade-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-cascade-4/Overview.bs",
@@ -12590,8 +12934,8 @@
       "url": "https://drafts.csswg.org/css-color-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-color-4/",
-        "https://w3c.github.io/csswg-drafts/css-color/"
+        "https://w3c.github.io/csswg-drafts/css-color/",
+        "https://w3c.github.io/csswg-drafts/css-color-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-color-4/Overview.bs",
@@ -12705,8 +13049,8 @@
       "url": "https://drafts.csswg.org/css-color-adjust-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-color-adjust-1/",
-        "https://w3c.github.io/csswg-drafts/css-color-adjust/"
+        "https://w3c.github.io/csswg-drafts/css-color-adjust/",
+        "https://w3c.github.io/csswg-drafts/css-color-adjust-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-color-adjust-1/Overview.bs",
@@ -12757,8 +13101,8 @@
       "url": "https://drafts.csswg.org/css-conditional-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-conditional-3/",
-        "https://w3c.github.io/csswg-drafts/css-conditional/"
+        "https://w3c.github.io/csswg-drafts/css-conditional/",
+        "https://w3c.github.io/csswg-drafts/css-conditional-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-conditional-3/Overview.bs",
@@ -12959,8 +13303,8 @@
       "url": "https://drafts.csswg.org/css-contain-2/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-contain-2/",
-        "https://w3c.github.io/csswg-drafts/css-contain/"
+        "https://w3c.github.io/csswg-drafts/css-contain/",
+        "https://w3c.github.io/csswg-drafts/css-contain-2/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-contain-2/Overview.bs",
@@ -13059,8 +13403,8 @@
       "url": "https://drafts.csswg.org/css-content-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-content-3/",
-        "https://w3c.github.io/csswg-drafts/css-content/"
+        "https://w3c.github.io/csswg-drafts/css-content/",
+        "https://w3c.github.io/csswg-drafts/css-content-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-content-3/Overview.bs",
@@ -13109,8 +13453,8 @@
       "url": "https://drafts.csswg.org/css-counter-styles-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-counter-styles-3/",
-        "https://w3c.github.io/csswg-drafts/css-counter-styles/"
+        "https://w3c.github.io/csswg-drafts/css-counter-styles/",
+        "https://w3c.github.io/csswg-drafts/css-counter-styles-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-counter-styles-3/Overview.bs",
@@ -13160,8 +13504,8 @@
       "url": "https://drafts.csswg.org/css-display-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-display-3/",
-        "https://w3c.github.io/csswg-drafts/css-display/"
+        "https://w3c.github.io/csswg-drafts/css-display/",
+        "https://w3c.github.io/csswg-drafts/css-display-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-display-3/Overview.bs",
@@ -13211,8 +13555,8 @@
       "url": "https://drafts.csswg.org/css-easing-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-easing-1/",
-        "https://w3c.github.io/csswg-drafts/css-easing/"
+        "https://w3c.github.io/csswg-drafts/css-easing/",
+        "https://w3c.github.io/csswg-drafts/css-easing-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-easing-1/Overview.bs",
@@ -13262,8 +13606,8 @@
       "url": "https://drafts.csswg.org/css-flexbox-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-flexbox-1/",
-        "https://w3c.github.io/csswg-drafts/css-flexbox/"
+        "https://w3c.github.io/csswg-drafts/css-flexbox/",
+        "https://w3c.github.io/csswg-drafts/css-flexbox-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-flexbox-1/Overview.bs",
@@ -13311,8 +13655,8 @@
       "url": "https://drafts.csswg.org/css-font-loading-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-font-loading-3/",
-        "https://w3c.github.io/csswg-drafts/css-font-loading/"
+        "https://w3c.github.io/csswg-drafts/css-font-loading/",
+        "https://w3c.github.io/csswg-drafts/css-font-loading-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-font-loading-3/Overview.bs",
@@ -13362,8 +13706,8 @@
       "url": "https://drafts.csswg.org/css-fonts-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-fonts-4/",
-        "https://w3c.github.io/csswg-drafts/css-fonts/"
+        "https://w3c.github.io/csswg-drafts/css-fonts/",
+        "https://w3c.github.io/csswg-drafts/css-fonts-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-fonts-4/Overview.bs",
@@ -13464,8 +13808,8 @@
       "url": "https://drafts.csswg.org/css-gcpm-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-gcpm-3/",
-        "https://w3c.github.io/csswg-drafts/css-gcpm/"
+        "https://w3c.github.io/csswg-drafts/css-gcpm/",
+        "https://w3c.github.io/csswg-drafts/css-gcpm-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-gcpm-3/Overview.bs",
@@ -13565,8 +13909,8 @@
       "url": "https://drafts.csswg.org/css-grid-2/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-grid-2/",
-        "https://w3c.github.io/csswg-drafts/css-grid/"
+        "https://w3c.github.io/csswg-drafts/css-grid/",
+        "https://w3c.github.io/csswg-drafts/css-grid-2/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-grid-2/Overview.bs",
@@ -13615,8 +13959,8 @@
       "url": "https://drafts.csswg.org/css-highlight-api-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-highlight-api-1/",
-        "https://w3c.github.io/csswg-drafts/css-highlight-api/"
+        "https://w3c.github.io/csswg-drafts/css-highlight-api/",
+        "https://w3c.github.io/csswg-drafts/css-highlight-api-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-highlight-api-1/Overview.bs",
@@ -13661,8 +14005,8 @@
       "url": "https://drafts.csswg.org/css-images-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-images-3/",
-        "https://w3c.github.io/csswg-drafts/css-images/"
+        "https://w3c.github.io/csswg-drafts/css-images/",
+        "https://w3c.github.io/csswg-drafts/css-images-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-images-3/Overview.bs",
@@ -13761,8 +14105,8 @@
       "url": "https://drafts.csswg.org/css-inline-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-inline-3/",
-        "https://w3c.github.io/csswg-drafts/css-inline/"
+        "https://w3c.github.io/csswg-drafts/css-inline/",
+        "https://w3c.github.io/csswg-drafts/css-inline-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-inline-3/Overview.bs",
@@ -13858,8 +14202,8 @@
       "url": "https://drafts.csswg.org/css-line-grid-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-line-grid-1/",
-        "https://w3c.github.io/csswg-drafts/css-line-grid/"
+        "https://w3c.github.io/csswg-drafts/css-line-grid/",
+        "https://w3c.github.io/csswg-drafts/css-line-grid-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-line-grid-1/Overview.bs",
@@ -13903,8 +14247,8 @@
       "url": "https://drafts.csswg.org/css-lists-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-lists-3/",
-        "https://w3c.github.io/csswg-drafts/css-lists/"
+        "https://w3c.github.io/csswg-drafts/css-lists/",
+        "https://w3c.github.io/csswg-drafts/css-lists-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-lists-3/Overview.bs",
@@ -13953,8 +14297,8 @@
       "url": "https://drafts.csswg.org/css-logical-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-logical-1/",
-        "https://w3c.github.io/csswg-drafts/css-logical/"
+        "https://w3c.github.io/csswg-drafts/css-logical/",
+        "https://w3c.github.io/csswg-drafts/css-logical-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-logical-1/Overview.bs",
@@ -14051,8 +14395,8 @@
       "url": "https://drafts.csswg.org/css-multicol-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-multicol-1/",
-        "https://w3c.github.io/csswg-drafts/css-multicol/"
+        "https://w3c.github.io/csswg-drafts/css-multicol/",
+        "https://w3c.github.io/csswg-drafts/css-multicol-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-multicol-1/Overview.bs",
@@ -14100,8 +14444,8 @@
       "url": "https://drafts.csswg.org/css-namespaces-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-namespaces-3/",
-        "https://w3c.github.io/csswg-drafts/css-namespaces/"
+        "https://w3c.github.io/csswg-drafts/css-namespaces/",
+        "https://w3c.github.io/csswg-drafts/css-namespaces-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-namespaces-3/Overview.bs",
@@ -14150,8 +14494,8 @@
       "url": "https://drafts.csswg.org/css-nav-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-nav-1/",
-        "https://w3c.github.io/csswg-drafts/css-nav/"
+        "https://w3c.github.io/csswg-drafts/css-nav/",
+        "https://w3c.github.io/csswg-drafts/css-nav-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-nav-1/Overview.bs",
@@ -14194,8 +14538,8 @@
       "url": "https://drafts.csswg.org/css-nesting-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-nesting-1/",
-        "https://w3c.github.io/csswg-drafts/css-nesting/"
+        "https://w3c.github.io/csswg-drafts/css-nesting/",
+        "https://w3c.github.io/csswg-drafts/css-nesting-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-nesting-1/Overview.bs",
@@ -14239,8 +14583,8 @@
       "url": "https://drafts.csswg.org/css-overflow-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-overflow-3/",
-        "https://w3c.github.io/csswg-drafts/css-overflow/"
+        "https://w3c.github.io/csswg-drafts/css-overflow/",
+        "https://w3c.github.io/csswg-drafts/css-overflow-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-overflow-3/Overview.bs",
@@ -14339,8 +14683,8 @@
       "url": "https://drafts.csswg.org/css-overscroll-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-overscroll-1/",
-        "https://w3c.github.io/csswg-drafts/css-overscroll/"
+        "https://w3c.github.io/csswg-drafts/css-overscroll/",
+        "https://w3c.github.io/csswg-drafts/css-overscroll-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-overscroll-1/Overview.bs",
@@ -14390,8 +14734,8 @@
       "url": "https://drafts.csswg.org/css-page-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-page-3/",
-        "https://w3c.github.io/csswg-drafts/css-page/"
+        "https://w3c.github.io/csswg-drafts/css-page/",
+        "https://w3c.github.io/csswg-drafts/css-page-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-page-3/Overview.bs",
@@ -14440,8 +14784,8 @@
       "url": "https://drafts.csswg.org/css-page-floats-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-page-floats-3/",
-        "https://w3c.github.io/csswg-drafts/css-page-floats/"
+        "https://w3c.github.io/csswg-drafts/css-page-floats/",
+        "https://w3c.github.io/csswg-drafts/css-page-floats-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-page-floats-3/Overview.bs",
@@ -14532,8 +14876,8 @@
       "url": "https://drafts.csswg.org/css-position-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-position-3/",
-        "https://w3c.github.io/csswg-drafts/css-position/"
+        "https://w3c.github.io/csswg-drafts/css-position/",
+        "https://w3c.github.io/csswg-drafts/css-position-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-position-3/Overview.bs",
@@ -14633,8 +14977,8 @@
       "url": "https://drafts.csswg.org/css-pseudo-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-pseudo-4/",
-        "https://w3c.github.io/csswg-drafts/css-pseudo/"
+        "https://w3c.github.io/csswg-drafts/css-pseudo/",
+        "https://w3c.github.io/csswg-drafts/css-pseudo-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-pseudo-4/Overview.bs",
@@ -14683,8 +15027,8 @@
       "url": "https://drafts.csswg.org/css-regions-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-regions-1/",
-        "https://w3c.github.io/csswg-drafts/css-regions/"
+        "https://w3c.github.io/csswg-drafts/css-regions/",
+        "https://w3c.github.io/csswg-drafts/css-regions-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-regions-1/Overview.bs",
@@ -14727,8 +15071,8 @@
       "url": "https://drafts.csswg.org/css-rhythm-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-rhythm-1/",
-        "https://w3c.github.io/csswg-drafts/css-rhythm/"
+        "https://w3c.github.io/csswg-drafts/css-rhythm/",
+        "https://w3c.github.io/csswg-drafts/css-rhythm-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-rhythm-1/Overview.bs",
@@ -14771,8 +15115,8 @@
       "url": "https://drafts.csswg.org/css-round-display-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-round-display-1/",
-        "https://w3c.github.io/csswg-drafts/css-round-display/"
+        "https://w3c.github.io/csswg-drafts/css-round-display/",
+        "https://w3c.github.io/csswg-drafts/css-round-display-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-round-display-1/Overview.bs",
@@ -14821,8 +15165,8 @@
       "url": "https://drafts.csswg.org/css-ruby-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-ruby-1/",
-        "https://w3c.github.io/csswg-drafts/css-ruby/"
+        "https://w3c.github.io/csswg-drafts/css-ruby/",
+        "https://w3c.github.io/csswg-drafts/css-ruby-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-ruby-1/Overview.bs",
@@ -14871,8 +15215,8 @@
       "url": "https://drafts.csswg.org/css-scoping-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-scoping-1/",
-        "https://w3c.github.io/csswg-drafts/css-scoping/"
+        "https://w3c.github.io/csswg-drafts/css-scoping/",
+        "https://w3c.github.io/csswg-drafts/css-scoping-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scoping-1/Overview.bs",
@@ -14921,8 +15265,8 @@
       "url": "https://drafts.csswg.org/css-scroll-anchoring-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-scroll-anchoring-1/",
-        "https://w3c.github.io/csswg-drafts/css-scroll-anchoring/"
+        "https://w3c.github.io/csswg-drafts/css-scroll-anchoring/",
+        "https://w3c.github.io/csswg-drafts/css-scroll-anchoring-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scroll-anchoring-1/Overview.bs",
@@ -14972,8 +15316,8 @@
       "url": "https://drafts.csswg.org/css-scroll-snap-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-scroll-snap-1/",
-        "https://w3c.github.io/csswg-drafts/css-scroll-snap/"
+        "https://w3c.github.io/csswg-drafts/css-scroll-snap/",
+        "https://w3c.github.io/csswg-drafts/css-scroll-snap-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scroll-snap-1/Overview.bs",
@@ -15022,8 +15366,8 @@
       "url": "https://drafts.csswg.org/css-scrollbars-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-scrollbars-1/",
-        "https://w3c.github.io/csswg-drafts/css-scrollbars/"
+        "https://w3c.github.io/csswg-drafts/css-scrollbars/",
+        "https://w3c.github.io/csswg-drafts/css-scrollbars-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-scrollbars-1/Overview.bs",
@@ -15072,8 +15416,8 @@
       "url": "https://drafts.csswg.org/css-shadow-parts-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-shadow-parts-1/",
-        "https://w3c.github.io/csswg-drafts/css-shadow-parts/"
+        "https://w3c.github.io/csswg-drafts/css-shadow-parts/",
+        "https://w3c.github.io/csswg-drafts/css-shadow-parts-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-shadow-parts-1/Overview.bs",
@@ -15123,8 +15467,8 @@
       "url": "https://drafts.csswg.org/css-shapes-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-shapes-1/",
-        "https://w3c.github.io/csswg-drafts/css-shapes/"
+        "https://w3c.github.io/csswg-drafts/css-shapes/",
+        "https://w3c.github.io/csswg-drafts/css-shapes-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-shapes-1/Overview.bs",
@@ -15175,8 +15519,8 @@
       "url": "https://drafts.csswg.org/css-sizing-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-sizing-3/",
-        "https://w3c.github.io/csswg-drafts/css-sizing/"
+        "https://w3c.github.io/csswg-drafts/css-sizing/",
+        "https://w3c.github.io/csswg-drafts/css-sizing-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-sizing-3/Overview.bs",
@@ -15274,8 +15618,8 @@
       "url": "https://drafts.csswg.org/css-speech-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-speech-1/",
-        "https://w3c.github.io/csswg-drafts/css-speech/"
+        "https://w3c.github.io/csswg-drafts/css-speech/",
+        "https://w3c.github.io/csswg-drafts/css-speech-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-speech-1/Overview.bs",
@@ -15372,8 +15716,8 @@
       "url": "https://drafts.csswg.org/css-syntax-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-syntax-3/",
-        "https://w3c.github.io/csswg-drafts/css-syntax/"
+        "https://w3c.github.io/csswg-drafts/css-syntax/",
+        "https://w3c.github.io/csswg-drafts/css-syntax-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-syntax-3/Overview.bs",
@@ -15422,8 +15766,8 @@
       "url": "https://drafts.csswg.org/css-tables-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-tables-3/",
-        "https://w3c.github.io/csswg-drafts/css-tables/"
+        "https://w3c.github.io/csswg-drafts/css-tables/",
+        "https://w3c.github.io/csswg-drafts/css-tables-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-tables-3/Overview.bs",
@@ -15473,8 +15817,8 @@
       "url": "https://drafts.csswg.org/css-text-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-text-3/",
-        "https://w3c.github.io/csswg-drafts/css-text/"
+        "https://w3c.github.io/csswg-drafts/css-text/",
+        "https://w3c.github.io/csswg-drafts/css-text-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-text-3/Overview.bs",
@@ -15574,8 +15918,8 @@
       "url": "https://drafts.csswg.org/css-text-decor-3/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-text-decor-3/",
-        "https://w3c.github.io/csswg-drafts/css-text-decor/"
+        "https://w3c.github.io/csswg-drafts/css-text-decor/",
+        "https://w3c.github.io/csswg-drafts/css-text-decor-3/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-text-decor-3/Overview.bs",
@@ -15675,8 +16019,8 @@
       "url": "https://drafts.csswg.org/css-transforms-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-transforms-1/",
-        "https://w3c.github.io/csswg-drafts/css-transforms/"
+        "https://w3c.github.io/csswg-drafts/css-transforms/",
+        "https://w3c.github.io/csswg-drafts/css-transforms-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-transforms-1/Overview.bs",
@@ -15776,8 +16120,8 @@
       "url": "https://drafts.csswg.org/css-transitions-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-transitions-1/",
-        "https://w3c.github.io/csswg-drafts/css-transitions/"
+        "https://w3c.github.io/csswg-drafts/css-transitions/",
+        "https://w3c.github.io/csswg-drafts/css-transitions-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-transitions-1/Overview.bs",
@@ -15980,8 +16324,8 @@
       "url": "https://drafts.csswg.org/css-ui-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-ui-4/",
-        "https://w3c.github.io/csswg-drafts/css-ui/"
+        "https://w3c.github.io/csswg-drafts/css-ui/",
+        "https://w3c.github.io/csswg-drafts/css-ui-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-ui-4/Overview.bs",
@@ -16082,8 +16426,8 @@
       "url": "https://drafts.csswg.org/css-values-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-values-4/",
-        "https://w3c.github.io/csswg-drafts/css-values/"
+        "https://w3c.github.io/csswg-drafts/css-values/",
+        "https://w3c.github.io/csswg-drafts/css-values-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-values-4/Overview.bs",
@@ -16133,8 +16477,8 @@
       "url": "https://drafts.csswg.org/css-variables-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-variables-1/",
-        "https://w3c.github.io/csswg-drafts/css-variables/"
+        "https://w3c.github.io/csswg-drafts/css-variables/",
+        "https://w3c.github.io/csswg-drafts/css-variables-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-variables-1/Overview.bs",
@@ -16183,8 +16527,8 @@
       "url": "https://drafts.csswg.org/css-view-transitions-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-view-transitions-1/",
-        "https://w3c.github.io/csswg-drafts/css-view-transitions/"
+        "https://w3c.github.io/csswg-drafts/css-view-transitions/",
+        "https://w3c.github.io/csswg-drafts/css-view-transitions-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-view-transitions-1/Overview.bs",
@@ -16227,8 +16571,8 @@
       "url": "https://drafts.csswg.org/css-will-change-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-will-change-1/",
-        "https://w3c.github.io/csswg-drafts/css-will-change/"
+        "https://w3c.github.io/csswg-drafts/css-will-change/",
+        "https://w3c.github.io/csswg-drafts/css-will-change-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-will-change-1/Overview.bs",
@@ -16328,8 +16672,8 @@
       "url": "https://drafts.csswg.org/css-writing-modes-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-writing-modes-4/",
-        "https://w3c.github.io/csswg-drafts/css-writing-modes/"
+        "https://w3c.github.io/csswg-drafts/css-writing-modes/",
+        "https://w3c.github.io/csswg-drafts/css-writing-modes-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-writing-modes-4/Overview.bs",
@@ -16542,8 +16886,8 @@
       "status": "Editor's Draft",
       "sourcePath": "css-exclusions-1/Overview.bs",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-exclusions-1/",
-        "https://w3c.github.io/csswg-drafts/css-exclusions/"
+        "https://w3c.github.io/csswg-drafts/css-exclusions/",
+        "https://w3c.github.io/csswg-drafts/css-exclusions-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "index.html"
@@ -16603,8 +16947,8 @@
       "url": "https://drafts.csswg.org/cssom-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/cssom-1/",
-        "https://w3c.github.io/csswg-drafts/cssom/"
+        "https://w3c.github.io/csswg-drafts/cssom/",
+        "https://w3c.github.io/csswg-drafts/cssom-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "cssom-1/Overview.bs",
@@ -16653,8 +16997,8 @@
       "url": "https://drafts.csswg.org/cssom-view-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/cssom-view-1/",
-        "https://w3c.github.io/csswg-drafts/cssom-view/"
+        "https://w3c.github.io/csswg-drafts/cssom-view/",
+        "https://w3c.github.io/csswg-drafts/cssom-view-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "cssom-view-1/Overview.bs",
@@ -16779,6 +17123,9 @@
       "alternateUrls": [],
       "filename": "Overview.html"
     },
+    "obsoletedBy": [
+      "cssom-1"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -18984,8 +19331,8 @@
       "url": "https://drafts.csswg.org/mediaqueries-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/mediaqueries-4/",
-        "https://w3c.github.io/csswg-drafts/mediaqueries/"
+        "https://w3c.github.io/csswg-drafts/mediaqueries/",
+        "https://w3c.github.io/csswg-drafts/mediaqueries-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "mediaqueries-4/Overview.bs",
@@ -20571,7 +20918,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf-canon/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "title": "RDF Dataset Canonicalization",
@@ -21105,8 +21452,8 @@
       "url": "https://drafts.csswg.org/resize-observer-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/resize-observer-1/",
-        "https://w3c.github.io/csswg-drafts/resize-observer/"
+        "https://w3c.github.io/csswg-drafts/resize-observer/",
+        "https://w3c.github.io/csswg-drafts/resize-observer-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "resize-observer-1/Overview.bs",
@@ -21339,8 +21686,8 @@
       "url": "https://drafts.csswg.org/scroll-animations-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/scroll-animations-1/",
-        "https://w3c.github.io/csswg-drafts/scroll-animations/"
+        "https://w3c.github.io/csswg-drafts/scroll-animations/",
+        "https://w3c.github.io/csswg-drafts/scroll-animations-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "scroll-animations-1/Overview.bs",
@@ -21578,8 +21925,8 @@
       "url": "https://drafts.csswg.org/selectors-4/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/selectors-4/",
-        "https://w3c.github.io/csswg-drafts/selectors/"
+        "https://w3c.github.io/csswg-drafts/selectors/",
+        "https://w3c.github.io/csswg-drafts/selectors-4/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-4/Overview.bs",
@@ -21629,7 +21976,9 @@
       "status": "Editor's Draft",
       "alternateUrls": [
         "https://w3c.github.io/csswg-drafts/selectors-nonelement-1/",
-        "https://w3c.github.io/csswg-drafts/selectors-nonelement/"
+        "https://w3c.github.io/csswg-drafts/selectors-nonelement/",
+        "https://w3c.github.io/csswg-drafts/selectors-nonelement/",
+        "https://w3c.github.io/csswg-drafts/selectors-nonelement-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "selectors-nonelement-1/Overview.bs",
@@ -23272,8 +23621,8 @@
       "url": "https://drafts.csswg.org/web-animations-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/web-animations-1/",
-        "https://w3c.github.io/csswg-drafts/web-animations/"
+        "https://w3c.github.io/csswg-drafts/web-animations/",
+        "https://w3c.github.io/csswg-drafts/web-animations-1/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "web-animations-1/Overview.bs",

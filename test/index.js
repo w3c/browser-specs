@@ -209,10 +209,9 @@ describe("List of specs", () => {
     const wrong = specs
       .filter(s => s.url.match(/\/www.rfc-editor\.org\/rfc/))
       .filter(s => {
-	console.log(s);
         const draft = computeShortname(s.url);
         return !s.nightly.alternateUrls.includes(
-          `https://datatracker.ietf.org/doc/html/${draft.shortname}/`);
+          `https://datatracker.ietf.org/doc/html/${draft.shortname}`);
       });
     assert.deepStrictEqual(wrong, []);
   });

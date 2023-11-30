@@ -488,15 +488,7 @@
   },
   "https://webidl.spec.whatwg.org/",
   "https://websockets.spec.whatwg.org/",
-  {
-    "url": "https://wicg.github.io/anonymous-iframe/",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ]
-  },
+  "https://wicg.github.io/anonymous-iframe/",
   "https://wicg.github.io/attribution-reporting-api/",
   "https://wicg.github.io/background-fetch/",
   {

@@ -18174,7 +18174,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "html-aam"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/html-aria/",

@@ -359,6 +359,10 @@
     "WICG/local-peer-to-peer": {
       "lastreviewed": "2023-11-13",
       "comment": "no published content yet"
+    },
+    "WICG/protected-auction-services-discussion": {
+      "lastreviewed": "2023-12-04",
+      "comment": "no published content yet"
     }
   },
   "specs": {

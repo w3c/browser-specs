@@ -89,6 +89,9 @@
     "WICG/open-ui": {
       "comment": "not targeted at browsers"
     },
+    "WICG/protected-auction-services-discussion": {
+      "comment": "for discussions only"
+    },
     "WICG/urlpattern": {
       "comment": "moved to WHATWG"
     },

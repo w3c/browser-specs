@@ -12148,7 +12148,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-2023/",
-      "status": "Draft Note",
+      "status": "Note",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -18919,7 +18919,7 @@
     "series": {
       "shortname": "mathml",
       "currentSpecification": "mathml4",
-      "title": "Mathematical Markup Language (MathML) Version",
+      "title": "Mathematical Markup Language (MathML)",
       "shortTitle": "MathML",
       "releaseUrl": "https://www.w3.org/TR/mathml/",
       "nightlyUrl": "https://w3c.github.io/mathml/"

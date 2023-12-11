@@ -143,6 +143,14 @@ async function fetchInfoFromW3CApi(specs, options) {
     }
     try {
       const body = await res.json();
+
+      // The CSS specs and the CSS snapshots have different series shortnames for
+      // us ("CSS" vs. "css"), but the W3C API is case-insentive, mixes the two
+      // series,  and claims that the series shortname is "CSS" or "css"
+      // depending on which spec got published last. Let's get back to the
+      // shortname we requested.
+      body.shortname = shortname;
+
       return body;
     }
     catch (err) {
@@ -154,10 +162,27 @@ async function fetchInfoFromW3CApi(specs, options) {
   seriesInfo.forEach(info => {
     const currSpecUrl = info._links["current-specification"].href;
     const currSpec = currSpecUrl.substring(currSpecUrl.lastIndexOf('/') + 1);
-    results.__series[info.shortname] = {
-      title: info.name,
-      currentSpecification: currSpec
-    };
+
+    // The W3C API mixes CSS specs and CSS snapshots, let's hardcode the titles
+    // of these series. No way to determine the current specification from the
+    // W3C API for them, latest spec will be used by default. If needed, a
+    // different current specification can be forced in specs.json.
+    if (info.shortname === "CSS") {
+      results.__series[info.shortname] = {
+        title: "Cascading Style Sheets"
+      };
+    }
+    else if (info.shortname === "css") {
+      results.__series[info.shortname] = {
+        title: "CSS Snapshot"
+      };
+    }
+    else {
+      results.__series[info.shortname] = {
+        title: info.name,
+        currentSpecification: currSpec
+      };
+    }
   });
 
   return results;

@@ -262,6 +262,20 @@ describe("fetch-info module", function () {
       assert.equal(info.__series["hr-time"].currentSpecification, "hr-time-3");
       assert.equal(info.__series["tracking-dnt"].currentSpecification, "tracking-dnt");
     });
+
+    it("does not get confused by CSS snapshots", async () => {
+      const css = getW3CSpec("CSS21", "CSS");
+      const snapshot = getW3CSpec("css-2023", "css");
+      const info = await fetchInfo([css, snapshot]);
+      assert.equal(info[css.shortname].source, "w3c");
+      assert.equal(info[snapshot.shortname].source, "w3c");
+
+      assert.ok(info.__series);
+      assert.ok(info.__series["CSS"]);
+      assert.ok(info.__series["css"]);
+      assert.equal(info.__series["CSS"].title, "Cascading Style Sheets");
+      assert.equal(info.__series["css"].title, "CSS Snapshot");
+    });
   });
 
   describe("fetch from Specref", () => {

@@ -762,7 +762,7 @@
     ],
     "nightly": {
       "url": "https://drafts.csswg.org/css-color-hdr/",
-      "status": "Unofficial Proposal Draft",
+      "status": "Editor's Draft",
       "alternateUrls": [
         "https://w3c.github.io/csswg-drafts/css-color-hdr/"
       ],
@@ -776,7 +776,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "pending"
+    "standing": "good"
   },
   {
     "url": "https://drafts.csswg.org/css-conditional-values-1/",

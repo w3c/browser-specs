@@ -215,9 +215,6 @@
     "WICG/construct-stylesheets": {
       "comment": "Integrated in CSSOM"
     },
-    "w3c/merchant-validation": {
-      "comment": "Deprecated API documenting legacy implementation"
-    },
     "WICG/frame-timing": {
       "comment": "No longer being pursued, see https://github.com/w3c/browser-specs/pull/394"
     },
@@ -416,9 +413,6 @@
       "comment": "no longer worked on"
     },
     "https://w3c.github.io/webpayments-methods-tokenization/": {
-      "comment": "no longer worked on"
-    },
-    "https://w3c.github.io/merchant-validation/": {
       "comment": "no longer worked on"
     },
     "https://tabatkins.github.io/css-toggle/": {

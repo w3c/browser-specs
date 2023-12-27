@@ -1073,6 +1073,10 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/merchant-validation/",
+    "standing": "discontinued"
+  },
+  {
     "url": "https://www.w3.org/TR/miniapp-lifecycle/",
     "categories": [
       "-browser"

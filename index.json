@@ -19501,6 +19501,52 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/merchant-validation/",
+    "seriesComposition": "full",
+    "shortname": "merchant-validation",
+    "series": {
+      "shortname": "merchant-validation",
+      "currentSpecification": "merchant-validation",
+      "title": "The MerchantValidationEvent interface",
+      "shortTitle": "The MerchantValidationEvent interface",
+      "releaseUrl": "https://www.w3.org/TR/merchant-validation/",
+      "nightlyUrl": "https://w3c.github.io/merchant-validation/"
+    },
+    "standing": "discontinued",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/Payments/WG/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/merchant-validation/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/merchant-validation/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/merchant-validation",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "The MerchantValidationEvent interface",
+    "source": "w3c",
+    "shortTitle": "The MerchantValidationEvent interface",
+    "categories": [
+      "browser"
+    ],
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "merchant-validation"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/miniapp-lifecycle/",
     "seriesComposition": "full",
     "shortname": "miniapp-lifecycle",

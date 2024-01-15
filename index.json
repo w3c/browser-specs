@@ -6,7 +6,7 @@
     "series": {
       "shortname": "afgs1-spec",
       "currentSpecification": "afgs1-spec",
-      "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification (Draft)",
+      "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification",
       "shortTitle": "AFGS1",
       "nightlyUrl": "https://aomediacodec.github.io/afgs1-spec/"
     },
@@ -26,7 +26,7 @@
       "sourcePath": "index.md",
       "filename": "index.html"
     },
-    "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification (Draft)",
+    "title": "AOMedia Film Grain Synthesis 1 (AFGS1) specification",
     "source": "spec",
     "shortTitle": "AFGS1",
     "standing": "good"

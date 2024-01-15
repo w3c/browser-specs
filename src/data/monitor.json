@@ -318,7 +318,7 @@
     },
     "WICG/observable": {
       "lastreviewed": "2024-01-01",
-      "comment": "no published content yet"
+      "comment": "early exploration phase but under active development and with intent to prototype in Chromium, see https://chromestatus.com/feature/5154593776599040"
     },
     "immersive-web/webxr-accessibility": {
       "lastreviewed": "2024-01-01",
@@ -358,7 +358,7 @@
     },
     "WICG/local-peer-to-peer": {
       "lastreviewed": "2024-01-01",
-      "comment": "no published content yet"
+      "comment": "early exploration phase; no clear implementation plan yet"
     }
   },
   "specs": {

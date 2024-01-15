@@ -19214,7 +19214,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "mediacapture-insertable-streams"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/mediacapture-viewport/",

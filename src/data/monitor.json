@@ -359,6 +359,10 @@
     "WICG/local-peer-to-peer": {
       "lastreviewed": "2023-11-13",
       "comment": "no published content yet"
+    },
+    "WICG/pointer-event-extensions": {
+      "lastreviewed": "2024-01-15",
+      "comment": "no published content yet"
     }
   },
   "specs": {

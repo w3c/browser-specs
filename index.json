@@ -1598,42 +1598,6 @@
     "standing": "good"
   },
   {
-    "url": "https://drafts.csswg.org/css-viewport/",
-    "seriesComposition": "full",
-    "shortname": "css-viewport",
-    "series": {
-      "shortname": "css-viewport",
-      "currentSpecification": "css-viewport",
-      "title": "CSS Viewport",
-      "shortTitle": "CSS Viewport",
-      "nightlyUrl": "https://drafts.csswg.org/css-viewport/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-viewport/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-viewport/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-viewport/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Viewport Module Level 1",
-    "source": "spec",
-    "shortTitle": "CSS Viewport 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://drafts.fxtf.org/compositing-2/",
     "seriesComposition": "full",
     "shortname": "compositing-2",
@@ -16541,6 +16505,56 @@
       "browser"
     ],
     "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-viewport-1/",
+    "seriesComposition": "full",
+    "shortname": "css-viewport-1",
+    "series": {
+      "shortname": "css-viewport",
+      "currentSpecification": "css-viewport-1",
+      "title": "CSS Viewport Module",
+      "shortTitle": "CSS Viewport",
+      "releaseUrl": "https://www.w3.org/TR/css-viewport/",
+      "nightlyUrl": "https://drafts.csswg.org/css-viewport/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-viewport-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-viewport-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-viewport-1/",
+        "https://w3c.github.io/csswg-drafts/css-viewport/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-viewport/Overview.bs",
+      "filename": "Overview.html"
+    },
+    "title": "CSS Viewport Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Viewport 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-viewport"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-will-change-1/",

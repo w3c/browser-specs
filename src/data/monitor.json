@@ -363,6 +363,14 @@
     "WICG/pointer-event-extensions": {
       "lastreviewed": "2024-01-15",
       "comment": "no published content yet"
+    },
+    "WICG/digital-credentials": {
+      "lastreviewed": "2024-01-29",
+      "comment": "no published content yet"
+    },
+    "immersive-web/body-tracking": {
+      "lastreviewed": "2024-01-29",
+      "comment": "no published content yet"
     }
   },
   "specs": {

@@ -98,18 +98,28 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
 
   // ECMA proposals are in markdown pages on GitHub. We only watch stage 3
   // proposals, which are in the first table on the page.
-  const extractStage3Proposals = _=>
+  // Same thing for Web Assembly proposals: let's extract phase 3+ proposals.
+  const extractEcmaStage3Proposals = _=>
     [...document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href);
+  const extractWasmProposals = _ =>
+    [...document.querySelectorAll("table")]
+      .filter(table => table.previousElementSibling.nodeName === "H3" && table.previousElementSibling.textContent.match(/Phase (3|4|5)/))
+      .map(table => [...table.querySelectorAll("tr td:first-child a")].map(a => a.href))
+      .flat();
   let ecmaProposals;
   let ecmaIntlProposals;
+  let wasmProposals;
   const browser = await puppeteer.launch();
   try {
     const page = await browser.newPage();
     await page.goto("https://github.com/tc39/proposals/blob/main/README.md");
-    ecmaProposals = await page.evaluate(extractStage3Proposals);
+    ecmaProposals = await page.evaluate(extractEcmaStage3Proposals);
 
     await page.goto("https://github.com/tc39/proposals/blob/main/ecma402/README.md");
-    ecmaIntlProposals = await page.evaluate(extractStage3Proposals);
+    ecmaIntlProposals = await page.evaluate(extractEcmaStage3Proposals);
+
+    await page.goto("https://github.com/WebAssembly/proposals/blob/main/README.md");
+    wasmProposals = await page.evaluate(extractWasmProposals);
   }
   finally {
     await browser.close();
@@ -214,13 +224,28 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
                                  .filter(hasUntrackedURL)
                                  .filter(isInScope));
 
+  // Check for new WASM phase 3+ proposals
+  candidates = candidates.concat(wasmProposals.map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace(/^https:\/\/github.com\/WebAssembly\/([^/]+)/i, 'https://webassembly.github.io/$1/core/bikeshed/')}})
+                                 .filter(hasUntrackedURL)
+                                 .filter(isInScope));
 
   // Add information from Chrome Feature status
   candidates = candidates.map(c => { return {...c, impl: { chrome: (chromeFeatures.find(f => f.standards.spec && f.standards.spec.startsWith(c.spec)) || {}).id}};});
 
+  // Filter out specs that cannot be fetched (e.g., because the URL we computed
+  // for the spec simply does not exist yet
+  for (const candidate of candidates) {
+    const exists = await fetch(candidate.spec).then(r => r.status === 200);
+    if (!exists) {
+      candidate.spec = null;
+    }
+  }
+  candidates = candidates.filter(candidate => !!candidate.spec);
+
   const candidate_list = candidates.sort((c1, c2) => c1.spec.localeCompare(c2.spec))
         .map(c => `- [ ] ${c.spec} from [${c.repo}](https://github.com/${c.repo})` + (c.impl.chrome ? ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` : '')).join("\n");
   core.exportVariable("candidate_list", candidate_list);
+  console.log();
   console.log(candidate_list);
   if (monitorAdditions.length) {
     const today = new Date().toJSON().slice(0, 10);

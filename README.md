@@ -145,7 +145,10 @@ Each specification in the list comes with the following properties:
 
 The versioned (but not dated) URL for the spec. For W3C specs published as
 TR documents, this is the TR URL. For WHATWG specs, this is the URL of the
-living standard. In other cases, this is the URL of the latest Editor's Draft.
+living standard. For specs developed by an organization that does not provide
+a public version of the spec such as ISO, this is the URL of the page that
+describes the spec on the organization's web site. In other cases, this is the
+URL of the latest Editor's Draft.
 
 The URL should be relatively stable but may still change over time. See
 [Spec identifiers](#spec-identifiers) for details.
@@ -339,7 +342,8 @@ for all specifications in the CSS Fonts series.
 For specs that are not part of a series of specs, this matches the
 [`nightly.url`](#nightlyurl) property.
 
-The `nightlyUrl` property is always set.
+The `nightlyUrl` property is always set when the [`nightly`](#nightly) property
+is set.
 
 
 ### `seriesVersion`
@@ -466,7 +470,9 @@ The `pages` property is only set for specs identified as multipage specs.
 An object that represents the latest Editor's Draft of the spec, or the living
 standard when the concept of Editor's Draft does not exist.
 
-The `nightly` property is always set.
+The `nightly` property is always set unless the spec does not have a public
+version available through a URL. For instance, ISO specs are not publicly
+available.
 
 
 #### `nightly.url`

@@ -6484,6 +6484,80 @@
     }
   },
   {
+    "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-branch-hinting",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Branch Hinting",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/branch-hinting",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Branch Hinting",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/content-security-policy/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-2-fork-content-security-policy",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-2",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Content Security Policy",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/content-security-policy/js-api/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/content-security-policy",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: Content Security Policy",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "seriesComposition": "fork",
     "shortname": "wasm-js-api-2-fork-exception-handling",
@@ -6521,19 +6595,94 @@
     "standing": "good"
   },
   {
-    "url": "https://webassembly.github.io/gc/core/bikeshed/",
+    "url": "https://webassembly.github.io/extended-const/core/bikeshed/",
     "seriesComposition": "fork",
-    "shortname": "wasm-core-1-fork-gc",
+    "shortname": "wasm-core-2-fork-extended-const",
     "series": {
       "shortname": "wasm-core",
-      "currentSpecification": "wasm-core-1",
+      "currentSpecification": "wasm-core-2",
       "title": "WebAssembly Core",
       "shortTitle": "WebAssembly Core",
       "releaseUrl": "https://www.w3.org/TR/wasm-core/",
       "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
     },
-    "seriesVersion": "1",
-    "forkOf": "wasm-core-1",
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Extended Const Expressions",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/extended-const/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/extended-const",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Extended Const Expressions",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/function-references/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-function-references",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Function Reference Types",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/function-references/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/function-references",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Function Reference Types",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/gc/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-gc",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Garbage Collection",
     "organization": "W3C",
     "groups": [
       {
@@ -6549,9 +6698,230 @@
       "sourcePath": "document/core/index.bs",
       "filename": "index.html"
     },
-    "title": "WebAssembly Core Specification",
     "source": "spec",
-    "shortTitle": "WebAssembly Core",
+    "shortTitle": "WebAssembly Core: Garbage Collection",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/js-promise-integration/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-2-fork-js-promise-integration",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-2",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Promise Integration",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/js-promise-integration/js-api/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/js-promise-integration",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: Promise Integration",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/js-types/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-2-fork-js-types",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-2",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Type Reflection",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/js-types/js-api/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/js-types",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: Type Reflection",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/memory64/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-memory64",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Memory64",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/memory64/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/memory64",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Memory64",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/multi-memory/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-multi-memory",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Multi Memory",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/multi-memory/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/multi-memory",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Multi Memory",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/tail-call/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-tail-call",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Tail Call",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/tail-call/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/tail-call",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Tail Call",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/threads/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-threads",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Threading",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/threads/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/threads",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Threading",
     "categories": [
       "browser"
     ],
@@ -23376,6 +23746,45 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+    "seriesComposition": "full",
+    "shortname": "vc-data-model-2.0",
+    "series": {
+      "shortname": "vc-data-model",
+      "currentSpecification": "vc-data-model-2.0",
+      "title": "Verifiable Credentials Data Model",
+      "shortTitle": "Verifiable Credentials Data Model",
+      "releaseUrl": "https://www.w3.org/TR/vc-data-model/",
+      "nightlyUrl": "https://w3c.github.io/vc-data-model/"
+    },
+    "seriesVersion": "2.0",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/2017/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-data-model/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-data-model",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Verifiable Credentials Data Model v2.0",
+    "source": "w3c",
+    "shortTitle": "Verifiable Credentials Data Model v2.0",
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vibration/",
     "seriesComposition": "full",
     "shortname": "vibration",
@@ -23558,18 +23967,26 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/wasm-core-1/",
+    "url": "https://www.w3.org/TR/wasm-core-2/",
     "seriesComposition": "full",
-    "shortname": "wasm-core-1",
+    "shortname": "wasm-core-2",
     "series": {
       "shortname": "wasm-core",
-      "currentSpecification": "wasm-core-1",
+      "currentSpecification": "wasm-core-2",
       "title": "WebAssembly Core",
       "shortTitle": "WebAssembly Core",
       "releaseUrl": "https://www.w3.org/TR/wasm-core/",
       "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
     },
-    "seriesVersion": "1",
+    "seriesVersion": "2",
+    "nightly": {
+      "url": "https://webassembly.github.io/spec/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/spec",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
     "tests": {
       "repository": "https://github.com/WebAssembly/spec/",
       "testPaths": [
@@ -23577,7 +23994,14 @@
       ]
     },
     "forks": [
-      "wasm-core-1-fork-gc"
+      "wasm-core-2-fork-branch-hinting",
+      "wasm-core-2-fork-extended-const",
+      "wasm-core-2-fork-function-references",
+      "wasm-core-2-fork-gc",
+      "wasm-core-2-fork-memory64",
+      "wasm-core-2-fork-multi-memory",
+      "wasm-core-2-fork-tail-call",
+      "wasm-core-2-fork-threads"
     ],
     "organization": "W3C",
     "groups": [
@@ -23587,17 +24011,9 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/wasm-core-1/",
-      "status": "Recommendation",
+      "url": "https://www.w3.org/TR/wasm-core-2/",
+      "status": "First Public Working Draft",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://webassembly.github.io/spec/core/bikeshed/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/WebAssembly/spec",
-      "sourcePath": "document/core/index.bs",
-      "filename": "index.html"
     },
     "title": "WebAssembly Core Specification",
     "source": "w3c",
@@ -23621,7 +24037,10 @@
     },
     "seriesVersion": "2",
     "forks": [
-      "wasm-js-api-2-fork-exception-handling"
+      "wasm-js-api-2-fork-content-security-policy",
+      "wasm-js-api-2-fork-exception-handling",
+      "wasm-js-api-2-fork-js-promise-integration",
+      "wasm-js-api-2-fork-js-types"
     ],
     "organization": "W3C",
     "groups": [

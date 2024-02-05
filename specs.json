@@ -473,12 +473,63 @@
   "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
   {
+    "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Branch Hinting"
+  },
+  {
+    "url": "https://webassembly.github.io/content-security-policy/js-api/",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Content Security Policy"
+  },
+  {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "forkOf": "wasm-js-api-2"
   },
   {
+    "url": "https://webassembly.github.io/extended-const/core/bikeshed/",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Extended Const Expressions"
+  },
+  {
+    "url": "https://webassembly.github.io/function-references/core/bikeshed/",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Function Reference Types"
+  },
+  {
     "url": "https://webassembly.github.io/gc/core/bikeshed/",
-    "forkOf": "wasm-core-1"
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Garbage Collection"
+  },
+  {
+    "url": "https://webassembly.github.io/js-promise-integration/js-api/",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Promise Integration"
+  },
+  {
+    "url": "https://webassembly.github.io/js-types/js-api/",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Type Reflection"
+  },
+  {
+    "url": "https://webassembly.github.io/memory64/core/bikeshed/",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Memory64"
+  },
+  {
+    "url": "https://webassembly.github.io/multi-memory/core/bikeshed/",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Multi Memory"
+  },
+  {
+    "url": "https://webassembly.github.io/tail-call/core/bikeshed/",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Tail Call"
+  },
+  {
+    "url": "https://webassembly.github.io/threads/core/bikeshed/",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Threading"
   },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   {
@@ -1372,7 +1423,10 @@
     "title": "Accessible Rich Internet Applications (WAI-ARIA)"
   },
   {
-    "url": "https://www.w3.org/TR/wasm-core-1/",
+    "url": "https://www.w3.org/TR/wasm-core-2/",
+    "nightly": {
+      "url": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
     "tests": {
       "repository": "https://github.com/WebAssembly/spec/",
       "testPaths": [

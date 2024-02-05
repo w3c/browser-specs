@@ -225,7 +225,7 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
                                  .filter(isInScope));
 
   // Check for new WASM phase 3+ proposals
-  candidates = candidates.concat(wasmProposals.map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace(/^https:\/\/github.com\/WebAssembly\/([^/]+)/i, 'https://webassembly.github.io/$1/core/bikeshed/')}})
+  candidates = candidates.concat(wasmProposals.map(s => { return {repo: s.replace('https://github.com/', ''), spec: s.replace(/^https:\/\/github.com\/WebAssembly\/([^/]+)/i, 'https://webassembly.github.io/$1/')}})
                                  .filter(hasUntrackedURL)
                                  .filter(isInScope));
 

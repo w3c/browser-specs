@@ -216,6 +216,18 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].release.url, spec.url);
       assert.equal(info[spec.shortname].release.status, "Final Deliverable");
     });
+
+    it("extracts spec info from an ISO spec page", async () => {
+      const spec = {
+        url: "https://www.iso.org/standard/61292.html",
+        shortname: "iso18074-2015"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "spec");
+      assert.equal(info[spec.shortname].title, "Textiles — Identification of some animal fibres by DNA analysis method — Cashmere, wool, yak and their blends");
+      assert.equal(info[spec.shortname].nightly, undefined);
+    });
   });
 
     describe("fetch from W3C API", () => {
@@ -291,6 +303,18 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].nightly.status, "Living Standard");
       assert.equal(info[spec.shortname].title, "DOM Standard");
     });
+
+    it("works on an ISO spec", async () => {
+      const spec = {
+        url: "https://www.iso.org/standard/85253.html",
+        shortname: "iso18181-2"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "specref");
+      assert.equal(info[spec.shortname].title, "Information technology — JPEG XL image coding system — Part 2: File format");
+      assert.equal(info[spec.shortname].nightly, undefined);
+    })
   });
 
 

@@ -102,6 +102,24 @@ describe("fetch-groups module (without API keys)", function () {
     }]);
   });
 
+  it("handles simple ISO specs", async () => {
+    const res = await fetchGroupsFor("https://www.iso.org/standard/72482.html");
+    assert.equal(res.organization, "ISO");
+    assert.deepStrictEqual(res.groups, [{
+      name: "ISO/TC 46",
+      url: "https://www.iso.org/committee/48750.html"
+    }]);
+  });
+
+  it("handles ISO/IEC specs", async () => {
+    const res = await fetchGroupsFor("https://www.iso.org/standard/85253.html");
+    assert.equal(res.organization, "ISO/IEC");
+    assert.deepStrictEqual(res.groups, [{
+      name: "ISO/IEC JTC 1/SC 29",
+      url: "https://www.iso.org/committee/45316.html"
+    }]);
+  });
+
   it("preserves provided info", async () => {
     const spec = {
       url: "https://url.spec.whatwg.org/",

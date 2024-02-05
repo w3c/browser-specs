@@ -240,6 +240,7 @@ async function runInfo(specs) {
     // level to the nightly URL when it's not already there (note the resulting
     // URL should always exist given the way the CSS drafts server is setup)
     if (res.seriesVersion &&
+        res.nightly &&
         res.nightly.url.match(/\/drafts\.(?:csswg|fxtf|css-houdini)\.org/) &&
         !res.nightly.url.match(/\d+\/$/)) {
       res.nightly.url = res.nightly.url.replace(/\/$/, `-${res.seriesVersion}/`);
@@ -278,14 +279,16 @@ async function runInfo(specs) {
 
     // If we're reusing last published discontinued info,
     // forget alternate URLs and rebuild them from scratch.
-    if (res.__last?.standing === 'discontinued' &&
-        (!res.standing || res.standing === 'discontinued')) {
-      res.nightly.alternateUrls = [];
+    if (res.nightly) {
+      if (res.__last?.standing === 'discontinued' &&
+          (!res.standing || res.standing === 'discontinued')) {
+        res.nightly.alternateUrls = [];
+      }
+      else if (!res.nightly.alternateUrls) {
+        res.nightly.alternateUrls = [];
+      }
+      res.nightly.alternateUrls = res.nightly.alternateUrls.concat(computeAlternateUrls(res));
     }
-    else if (!res.nightly.alternateUrls) {
-      res.nightly.alternateUrls = [];
-    }
-    res.nightly.alternateUrls = res.nightly.alternateUrls.concat(computeAlternateUrls(res));
 
     return res;
   });
@@ -350,7 +353,9 @@ async function runFilename(index, { previousIndex, log }) {
 
   async function checkSpec(spec) {
     log(`- find filenames for ${spec.shortname}`);
-    spec.nightly.filename = spec.nightly.filename ?? await determineSpecFilename(spec, "nightly");
+    if (spec.nightly) {
+      spec.nightly.filename = spec.nightly.filename ?? await determineSpecFilename(spec, "nightly");
+    }
     if (spec.release) {
       spec.release.filename = spec.release.filename ?? await determineSpecFilename(spec, "release");
     }

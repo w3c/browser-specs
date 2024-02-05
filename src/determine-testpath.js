@@ -151,7 +151,7 @@ module.exports = async function (specs, options) {
       return info;
     }
 
-    if (spec.url.startsWith("https://tc39.es/proposal-")) {
+    if (spec.url.startsWith("https://tc39.es/proposal-") || !spec.nightly) {
       // TODO: proposals may or may not have tests under tc39/test262, it would
       // be good to have that info here. However, that seems hard to assess
       // automatically and tedious to handle as exceptions in specs.json.

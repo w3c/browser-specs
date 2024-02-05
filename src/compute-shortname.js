@@ -175,7 +175,11 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
   // Shortnames of WebGL extensions sometimes end up with digits which are *not*
   // to be interpreted as level numbers. Similarly, shortnames of ECMA specs
   // typically have the form "ecma-ddd", and "ddd" is *not* a level number.
-  if (seriesBasename.match(/^ecma-/) || url.match(/^https:\/\/registry\.khronos\.org\/webgl\/extensions\//)) {
+  // And that's the same for ISO standards which end with plenty of non-level
+  // digits, as in "iso18181-2".
+  if (seriesBasename.match(/^ecma-/) ||
+      seriesBasename.startsWith("iso") ||
+      url.match(/^https:\/\/registry\.khronos\.org\/webgl\/extensions\//)) {
     return {
       shortname: specShortname,
       series: { shortname: seriesBasename }

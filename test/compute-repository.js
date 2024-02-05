@@ -80,6 +80,12 @@ describe("compute-repository module", async () => {
       "https://github.com/httpwg/http-extensions");
   });
 
+  it("handles specs without nightly URLs", async () => {
+    const spec = { url: "https://www.iso.org/standard/85253.html" };
+    const result = await computeRepo([spec]);
+    assert.equal(result[0].nightly, undefined);
+  });
+
   it("returns null when repository cannot be derived from URL", async () => {
     assert.equal(
       await computeSingleRepo("https://example.net/repoless"),

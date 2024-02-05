@@ -265,10 +265,19 @@ async function fetchInfoFromSpecref(specs, options) {
           specrefStatusMapping[info.status] ??
           info.status ??
           "Editor's Draft";
-        results[name] = {
-          nightly: { url: nightly, status },
-          title: info.title
-        };
+        if (nightly?.startsWith("https://www.iso.org/")) {
+          // The URL is to a page that describes the spec, not to the spec
+          // itself (ISO specs are not public).
+          results[name] = {
+            title: info.title
+          }
+        }
+        else {
+          results[name] = {
+            nightly: { url: nightly, status },
+            title: info.title
+          };
+        }
       }
     });
   });
@@ -527,6 +536,17 @@ async function fetchInfoFromSpecs(specs, options) {
           return {
             nightly: { url: url, status: "Editor's Draft" },
             title: ecmaTitle
+          };
+        }
+      }
+      else if (spec.url.startsWith("https://www.iso.org/")) {
+        const isoTitle = await page.evaluate(_ => {
+          const meta = document.querySelector('head meta[property="og:description"]');
+          return meta ? meta.getAttribute('content').trim() : null;
+        });
+        if (isoTitle) {
+          return {
+            title: isoTitle
           };
         }
       }

@@ -43,23 +43,16 @@ describe("compute-standing module", () => {
     assert.strictEqual(computeStanding(spec), "discontinued");
   });
 
+  it("returns `good` for an ISO spec", function () {
+    const spec = { url: "https://www.iso.org/standard/85253.html" };
+    assert.strictEqual(computeStanding(spec), "good");
+  });
+
   it("returns the standing that the spec says it has", function () {
     const spec = {
       standing: "good",
       nightly: { status: "Unofficial Proposal Draft" }
     };
     assert.strictEqual(computeStanding(spec), "good");
-  });
-
-  it("throws if spec object is empty", () => {
-    assert.throws(
-      () => computeStanding({}),
-      /^Invalid spec object passed as parameter$/);
-  });
-
-  it("throws if spec object does not have a nightly.status property", () => {
-    assert.throws(
-      () => computeStanding({ url: "https://example.org/" }),
-      /^Invalid spec object passed as parameter$/);
   });
 });

@@ -8,6 +8,10 @@
       "comment": "mostly TODOs",
       "lastreviewed": "2024-01-01"
     },
+    "privacycg/saa-non-cookie-storage": {
+      "comment": "no spec yet",
+      "lastreviewed": "2024-02-05"
+    },
     "w3c/system-wake-lock": {
       "comment": "no spec yet",
       "lastreviewed": "2024-01-01"

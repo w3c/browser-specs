@@ -178,6 +178,10 @@ describe("compute-shortname module", () => {
       assertSeries("ecma-402", "ecma-402");
     });
 
+    it("preserves ISO spec numbers", () => {
+      assertSeries("iso18181-2", "iso18181-2");
+    });
+
     it("preserves digits at the end of WebGL extension names", () => {
       assertSeries("https://registry.khronos.org/webgl/extensions/EXT_wow32/", "EXT_wow32");
     });
@@ -240,6 +244,10 @@ describe("compute-shortname module", () => {
 
     it("does not confuse an ECMA spec number with a series version", () => {
       assertNoSeriesVersion("ecma-402");
+    });
+
+    it("does not confuse an ISO spec number with a series version", () => {
+      assertNoSeriesVersion("iso18181-2");
     });
 
     it("does not confuse digits at the end of a WebGL extension spec with a series version", () => {

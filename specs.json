@@ -664,6 +664,11 @@
   "https://wicg.github.io/webpackage/loading.html",
   "https://wicg.github.io/webusb/",
   "https://wicg.github.io/window-controls-overlay/",
+  {
+    "url": "https://www.iso.org/standard/85253.html",
+    "shortname": "iso18181-2",
+    "shortTitle": "JPEG XL: File Format"
+  },
   "https://www.rfc-editor.org/rfc/rfc2397",
   {
     "url": "https://www.rfc-editor.org/rfc/rfc4120",

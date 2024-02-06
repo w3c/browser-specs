@@ -29,7 +29,7 @@
       "formerNames": { "$ref": "definitions.json#/$defs/formerNames" }
     },
     "required": [
-      "url", "shortname", "series", "seriesComposition", "nightly",
+      "url", "shortname", "series", "seriesComposition",
       "title", "shortTitle", "source", "organization", "groups", "categories",
       "standing"
     ],

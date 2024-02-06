@@ -39,7 +39,7 @@ function getFirstFoundInTree(paths, ...items) {
  * info won't include the source file).
  */
 module.exports = async function (specs, options) {
-  if (!specs || specs.find(spec => !spec.nightly || !spec.nightly.url)) {
+  if (!specs) {
     throw "Invalid list of specifications passed as parameter";
   }
   options = options || {};
@@ -177,7 +177,9 @@ module.exports = async function (specs, options) {
   }
 
   // Compute GitHub repositories with lowercase owner names
-  const repos = specs.map(spec => parseSpecUrl(spec.nightly.repository ?? spec.nightly.url));
+  const repos = specs.map(spec => spec.nightly ?
+    parseSpecUrl(spec.nightly.repository ?? spec.nightly.url) :
+    null);
 
   if (options.githubToken) {
     // Fetch the real name of repository owners (preserving case)
@@ -201,7 +203,7 @@ module.exports = async function (specs, options) {
         }
       }
     }
-    else if (spec.nightly.url.match(/\/httpwg\.org\//)) {
+    else if (spec.nightly?.url.match(/\/httpwg\.org\//)) {
       const draftName = spec.nightly.url.match(/\/(draft-ietf-(.+))\.html$/);
       spec.nightly.repository = 'https://github.com/httpwg/http-extensions';
       spec.nightly.sourcePath = `${draftName[1]}.md`;

@@ -136,8 +136,11 @@ describe("List of specs", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains nightly URLs for all specs", () => {
-    const wrong = specs.filter(s => !s.nightly.url);
+  it("contains nightly URLs for all specs except ISO ones", () => {
+    const wrong = specs.filter(s =>
+      s.organization !== 'ISO' &&
+      s.organization !== 'ISO/IEC' &&
+      !s.nightly?.url);
     assert.deepStrictEqual(wrong, []);
   });
 
@@ -145,7 +148,7 @@ describe("List of specs", () => {
     // IETF and FIDO Allianace specs (may but) usually don't have a repository.
     // No repository either when the nightly URL of a W3C spec is the published
     // URL.
-    const wrong = specs.filter(s => !s.nightly.repository &&
+    const wrong = specs.filter(s => s.nightly && !s.nightly.repository &&
       s.organization !== 'IETF' &&
       s.organization !== 'FIDO Alliance' &&
       (!s.url.match(/\/www\.w3\.org\//) || s.nightly.url !== s.url));
@@ -155,13 +158,13 @@ describe("List of specs", () => {
   it("contains relative paths to source of nightly spec when repository is known", () => {
     // One exception to the rule: when the source is not in the default branch
     // of the repository
-    const wrong = specs.filter(s => s.nightly.repository &&
+    const wrong = specs.filter(s => s.nightly && s.nightly.repository &&
       !s.nightly.sourcePath && s.shortname !== 'tc39-decorators');
     assert.deepStrictEqual(wrong, []);
   });
 
   it("contains filenames for all nightly URLs", () => {
-    const wrong = specs.filter(s => !s.nightly.filename);
+    const wrong = specs.filter(s => s.nightly && !s.nightly.filename);
     assert.deepStrictEqual(wrong, []);
   });
 
@@ -196,7 +199,7 @@ describe("List of specs", () => {
 
   it("has a w3c.github.io alternate URL for CSS drafts", () => {
     const wrong = specs
-      .filter(s => s.nightly.url.match(/\/drafts\.csswg\.org/))
+      .filter(s => s.nightly?.url.match(/\/drafts\.csswg\.org/))
       .filter(s => {
         const draft = computeShortname(s.nightly.url);
         return !s.nightly.alternateUrls.includes(
@@ -218,7 +221,7 @@ describe("List of specs", () => {
 
   it("does not list duplicate alternate URLs", () => {
     const wrong = specs
-      .filter(s => s.nightly.alternateUrls.length > 0)
+      .filter(s => s.nightly && s.nightly.alternateUrls.length > 0)
       .filter(s => {
         const set = new Set(s.nightly.alternateUrls);
         return set.size !== s.nightly.alternateUrls.length;
@@ -228,7 +231,7 @@ describe("List of specs", () => {
 
   it("lists alternate URLs that are actual alternate URLs", () => {
     const wrong = specs
-      .filter(s => s.nightly.alternateUrls.length > 0)
+      .filter(s => s.nightly && s.nightly.alternateUrls.length > 0)
       .filter(s => {
         const mainSet = new Set();
         mainSet.add(s.url);
@@ -250,9 +253,10 @@ describe("List of specs", () => {
   it("has distinct source paths for all specs", () => {
     // ... provided entries don't share the same nightly draft
     // (typically the case for CSS 2.1 and CSS 2.2)
-    const wrong = specs.filter(s =>
+    const wrong = specs.filter(s => s.nightly &&
       s.nightly.repository && s.nightly.sourcePath &&
       specs.find(spec => spec !== s &&
+        spec.nightly &&
         spec.nightly.url !== s.nightly.url &&
         spec.nightly.repository === s.nightly.repository &&
         spec.nightly.sourcePath === s.nightly.sourcePath));

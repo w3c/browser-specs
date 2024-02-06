@@ -20,7 +20,7 @@ const unofficialStatuses = [
  * the spec.
  */
 module.exports = function (spec) {
-  if (!spec || !spec.nightly?.status) {
+  if (!spec) {
     throw "Invalid spec object passed as parameter";
   }
 
@@ -29,7 +29,7 @@ module.exports = function (spec) {
     return spec.standing;
   }
 
-  const status = spec.release?.status ?? spec.nightly.status;
+  const status = spec.release?.status ?? spec.nightly?.status;
   if (status === "Discontinued Draft") {
     return "discontinued";
   }

@@ -531,6 +531,11 @@
     "forkOf": "wasm-core-2",
     "title": "WebAssembly Core: Threading"
   },
+  {
+    "url": "https://webassembly.github.io/threads/js-api/",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Threading"
+  },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",

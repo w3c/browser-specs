@@ -6683,6 +6683,9 @@
     "seriesVersion": "2",
     "forkOf": "wasm-core-2",
     "title": "WebAssembly Core: Garbage Collection",
+    "formerNames": [
+      "wasm-core-1-fork-gc"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -6922,6 +6925,43 @@
     },
     "source": "spec",
     "shortTitle": "WebAssembly Core: Threading",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/threads/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-2-fork-threads",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-2",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: Threading",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/threads/js-api/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/threads",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: Threading",
     "categories": [
       "browser"
     ],
@@ -16908,6 +16948,9 @@
       "nightlyUrl": "https://drafts.csswg.org/css-viewport/"
     },
     "seriesVersion": "1",
+    "formerNames": [
+      "css-viewport"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -24065,7 +24108,8 @@
       "wasm-js-api-2-fork-content-security-policy",
       "wasm-js-api-2-fork-exception-handling",
       "wasm-js-api-2-fork-js-promise-integration",
-      "wasm-js-api-2-fork-js-types"
+      "wasm-js-api-2-fork-js-types",
+      "wasm-js-api-2-fork-threads"
     ],
     "organization": "W3C",
     "groups": [

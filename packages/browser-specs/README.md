@@ -11,6 +11,7 @@ cross-references, WebIDL, quality, etc.
 ## Table of Contents
 
 - [Installation and usage](#installation-and-usage)
+- [Upgrading](#upgrading)
 <!-- COMMON-TOC: start --><!-- COMMON-TOC: end -->
 - [Spec selection criteria](#spec-selection-criteria)
 
@@ -34,6 +35,15 @@ Alternatively, you can fetch [`index.json`](https://w3c.github.io/browser-specs/
 or retrieve the list from the [`web-specs@latest` branch](https://github.com/w3c/browser-specs/tree/web-specs%40latest),
 and filter the resulting list to only preserve specs that have `"browser"` in
 their `categories` property.
+
+## Upgrading
+
+The only breaking change in version `4.x` is that some spec entries may not
+have a `nightly` property. This happens for specs that are not public. An
+example of a non public spec is an ISO standard. In such cases, the `url`
+property targets the public page that describes the spec on the standardization
+organization's web site. To upgrade from version `3.x` to version `4.x`, make
+sure that your code can handle specs without a `nightly` property.
 
 <!-- COMMON-BODY: start -->
 <!-- COMMON-BODY: end -->

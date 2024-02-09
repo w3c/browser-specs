@@ -11453,7 +11453,7 @@
       "alternateUrls": [],
       "repository": "https://github.com/w3ctag/promises-guide",
       "sourcePath": "index.bs",
-      "filename": "Overview.html"
+      "filename": "index.html"
     },
     "title": "Writing Promise-Using Specifications",
     "source": "specref",

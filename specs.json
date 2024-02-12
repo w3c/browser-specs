@@ -299,7 +299,7 @@
   {
     "url": "https://tc39.es/proposal-arraybuffer-base64/spec/",
     "series": {
-       "shortname": "tc39-arraybuffer-base64"
+      "shortname": "tc39-arraybuffer-base64"
     },
     "seriesVersion": null,
     "shortname": "tc39-arraybuffer-base64",

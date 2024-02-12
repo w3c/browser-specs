@@ -188,7 +188,7 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
 
   // Extract X and X.Y levels, with form "name-X" or "name-X.Y".
   // (e.g. 5 for "mediaqueries-5", 1.2 for "wai-aria-1.2")
-  let match = seriesBasename.match(/^(.*?)-v?(\d+)(.\d+)?$/);
+  let match = seriesBasename.match(/^(.*?)-v?(\d+)(\.\d+)?$/);
   if (match) {
     return {
       shortname: specShortname,

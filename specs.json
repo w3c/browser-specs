@@ -297,6 +297,15 @@
     }
   },
   {
+    "url": "https://tc39.es/proposal-array-find-from-last/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
+  "https://tc39.es/proposal-array-from-async/",
+  "https://tc39.es/proposal-array-grouping/",
+  {
     "url": "https://tc39.es/proposal-arraybuffer-base64/spec/",
     "series": {
       "shortname": "tc39-arraybuffer-base64"
@@ -307,15 +316,6 @@
       "sourcePath": "spec.html"
     }
   },
-  {
-    "url": "https://tc39.es/proposal-array-find-from-last/",
-    "standing": "discontinued",
-    "obsoletedBy": [
-      "ecmascript"
-    ]
-  },
-  "https://tc39.es/proposal-array-from-async/",
-  "https://tc39.es/proposal-array-grouping/",
   "https://tc39.es/proposal-arraybuffer-transfer/",
   "https://tc39.es/proposal-async-explicit-resource-management/",
   {

@@ -1,13 +1,19 @@
 # Web browser specifications
 
-This repository contains a curated list of technical Web specifications that are
-directly implemented or that will be implemented by Web browsers (see [Spec
-selection criteria](#spec-selection-criteria)).
+This repository contains a curated list of technical Web specifications.
+The list is used in a variety of ways, which include:
 
-This list is meant to be an up-to-date input source for projects that run
-analyses on browser technologies to create reports on test coverage,
-cross-references, WebIDL, quality, etc.
+* [Reffy](https://github.com/w3c/reffy), which generates
+  [Webref](https://github.com/w3c/webref#webref), which is then used
+  by tools such as [ReSpec](https://respec.org/docs/) and
+  [Bikeshed](https://speced.github.io/bikeshed/) to create terminology
+  and reference links between Web specifications.
+* Analyzers of browser technologies to create reports on test coverage,
+  WebIDL, and specification quality.
 
+The repository is called `browser-specs` because browsers were
+historically the focus of the list; it is now open to any spec that can 
+reasonably be qualified as a "Web specification".
 
 ## Table of Contents
 

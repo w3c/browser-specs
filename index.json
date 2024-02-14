@@ -23814,6 +23814,44 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/vc-data-integrity/",
+    "seriesComposition": "full",
+    "shortname": "vc-data-integrity",
+    "series": {
+      "shortname": "vc-data-integrity",
+      "currentSpecification": "vc-data-integrity",
+      "title": "Verifiable Credential Data Integrity",
+      "shortTitle": "Verifiable Credential Data Integrity",
+      "releaseUrl": "https://www.w3.org/TR/vc-data-integrity/",
+      "nightlyUrl": "https://w3c.github.io/vc-data-integrity/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/2017/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-data-integrity/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-data-integrity/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-data-integrity",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Verifiable Credential Data Integrity 1.0",
+    "source": "w3c",
+    "shortTitle": "Verifiable Credential Data Integrity 1.0",
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vc-data-model-2.0/",
     "seriesComposition": "full",
     "shortname": "vc-data-model-2.0",

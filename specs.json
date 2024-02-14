@@ -1431,6 +1431,12 @@
   "https://www.w3.org/TR/upgrade-insecure-requests/",
   "https://www.w3.org/TR/user-timing/",
   {
+    "url": "https://www.w3.org/TR/vc-data-integrity/",
+    "categories": [
+      "-browser"
+    ]
+  },
+  {
     "url": "https://www.w3.org/TR/vc-data-model-2.0/",
     "categories": [
       "-browser"

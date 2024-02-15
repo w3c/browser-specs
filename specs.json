@@ -77,7 +77,6 @@
       "sourcePath": "draft-davidben-http-client-hint-reliability.md"
     }
   },
-  "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
   "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
   "https://dom.spec.whatwg.org/",
@@ -722,6 +721,12 @@
       "repository": "https://github.com/httpwg/http-extensions",
       "sourcePath": "archive/draft-ietf-httpbis-expect-ct.md"
     }
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9530",
+    "formerNames": [
+      "digest-headers"
+    ]
   },
   "https://www.w3.org/2001/tag/doc/promises-guide",
   {

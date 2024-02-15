@@ -677,6 +677,11 @@
     "shortname": "iso18181-2",
     "shortTitle": "JPEG XL: File Format"
   },
+  {
+    "url": "https://www.iso.org/standard/87621.html",
+    "shortname": "iso14496-22",
+    "shortTitle": "Open Font Format"
+  },
   "https://www.rfc-editor.org/rfc/rfc2397",
   {
     "url": "https://www.rfc-editor.org/rfc/rfc4120",

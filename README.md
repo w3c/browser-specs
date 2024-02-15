@@ -1,4 +1,4 @@
-# Web browser specifications
+# Web specifications
 
 This repository contains a curated list of technical Web specifications.
 The list is used in a variety of ways, which include:

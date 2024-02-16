@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         # Need to checkout all history as job also needs to access the
         # xxx-specs@latest branches
         fetch-depth: 0
 
     - name: Setup node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: 20
         cache: 'npm'
@@ -68,7 +68,7 @@ jobs:
     # build files
     - name: Store intermediary steps as artifacts
       if: ${{ !cancelled() }}
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: buildsteps
         path: |

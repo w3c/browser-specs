@@ -179,6 +179,7 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
   // digits, as in "iso18181-2".
   if (seriesBasename.match(/^ecma-/) ||
       seriesBasename.startsWith("iso") ||
+      seriesBasename.endsWith("base64") ||
       url.match(/^https:\/\/registry\.khronos\.org\/webgl\/extensions\//)) {
     return {
       shortname: specShortname,

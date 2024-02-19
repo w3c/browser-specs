@@ -310,7 +310,6 @@
     "series": {
       "shortname": "tc39-arraybuffer-base64"
     },
-    "seriesVersion": null,
     "shortname": "tc39-arraybuffer-base64",
     "nightly": {
       "sourcePath": "spec.html"

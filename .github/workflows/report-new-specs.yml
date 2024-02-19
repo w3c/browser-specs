@@ -44,6 +44,6 @@ jobs:
         body: |
           The following repos have been identified as possibly relevant:
           ${{env.monitor_list}}
-        assignees: tidoust, dontcallmedom, sideshowbarker
+        assignees: tidoust, dontcallmedom
         branch: new-monitor
         branch-suffix: timestamp

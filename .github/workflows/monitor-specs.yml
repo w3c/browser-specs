@@ -35,6 +35,6 @@ jobs:
         body: |
           The following specs have been updated since the last review:
           ${{env.review_list}}
-        assignees: tidoust, dontcallmedom, sideshowbarker
+        assignees: tidoust, dontcallmedom
         branch: monitor-update
         branch-suffix: timestamp

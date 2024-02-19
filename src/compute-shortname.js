@@ -177,7 +177,8 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
   // typically have the form "ecma-ddd", and "ddd" is *not* a level number.
   // And that's the same for ISO standards which end with plenty of non-level
   // digits, as in "iso18181-2".
-  if (seriesBasename.match(/^ecma-/) ||
+  if (seriesBasename.startsWith("ecma-") ||
+      seriesBasename.startsWith("tc39-") ||
       seriesBasename.startsWith("iso") ||
       url.match(/^https:\/\/registry\.khronos\.org\/webgl\/extensions\//)) {
     return {
@@ -188,7 +189,7 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
 
   // Extract X and X.Y levels, with form "name-X" or "name-X.Y".
   // (e.g. 5 for "mediaqueries-5", 1.2 for "wai-aria-1.2")
-  let match = seriesBasename.match(/^(.*?)-v?(\d+)(.\d+)?$/);
+  let match = seriesBasename.match(/^(.*?)-v?(\d+)(\.\d+)?$/);
   if (match) {
     return {
       shortname: specShortname,

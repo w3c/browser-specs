@@ -304,6 +304,16 @@
   },
   "https://tc39.es/proposal-array-from-async/",
   "https://tc39.es/proposal-array-grouping/",
+  {
+    "url": "https://tc39.es/proposal-arraybuffer-base64/spec/",
+    "series": {
+      "shortname": "tc39-arraybuffer-base64"
+    },
+    "shortname": "tc39-arraybuffer-base64",
+    "nightly": {
+      "sourcePath": "spec.html"
+    }
+  },
   "https://tc39.es/proposal-arraybuffer-transfer/",
   "https://tc39.es/proposal-async-explicit-resource-management/",
   {
@@ -577,6 +587,7 @@
   "https://wicg.github.io/datacue/",
   "https://wicg.github.io/deprecation-reporting/",
   "https://wicg.github.io/digital-goods/",
+  "https://wicg.github.io/digital-identities/",
   "https://wicg.github.io/direct-sockets/",
   "https://wicg.github.io/document-picture-in-picture/",
   "https://wicg.github.io/document-policy/",

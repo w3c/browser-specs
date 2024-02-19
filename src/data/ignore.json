@@ -83,6 +83,9 @@
     "WICG/close-watcher": {
       "comment": "merged into HTML"
     },
+    "WICG/discourse-archive": {
+      "comment": "not a spec"
+    },
     "WICG/priority-hints": {
       "comment": "merged into HTML"
     },

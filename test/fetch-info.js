@@ -96,13 +96,13 @@ describe("fetch-info module", function () {
 
     it("extracts a suitable nightly URL from an IETF HTTP WG draft", async () => {
       const spec = {
-        url: "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
-        shortname: "digest-headers"
+        url: "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
+        shortname: "partitioned-cookies"
       };
       const info = await fetchInfo([spec]);
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].source, "ietf");
-      assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html");
+      assert.match(info[spec.shortname].nightly.url, /^https:\/\/www\.ietf\.org\/archive\/id\/draft-cutler-httpbis-partitioned-cookies-\d+\.html/);
     });
 
     it("extracts a suitable nightly URL from an IETF HTTP State Management Mechanism WG RFC", async () => {

@@ -396,40 +396,6 @@
     "standing": "good"
   },
   {
-    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers",
-    "seriesComposition": "full",
-    "shortname": "digest-headers",
-    "series": {
-      "shortname": "digest-headers",
-      "currentSpecification": "digest-headers",
-      "title": "Digest Fields",
-      "shortTitle": "Digest Fields",
-      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "HTTP Working Group",
-        "url": "https://datatracker.ietf.org/wg/httpbis/"
-      }
-    ],
-    "nightly": {
-      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-digest-headers.html",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/httpwg/http-extensions",
-      "sourcePath": "draft-ietf-httpbis-digest-headers.md",
-      "filename": "draft-ietf-httpbis-digest-headers.html"
-    },
-    "title": "Digest Fields",
-    "source": "ietf",
-    "shortTitle": "Digest Fields",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
     "seriesComposition": "full",
     "shortname": "rfc6265bis",
@@ -10167,6 +10133,31 @@
     "standing": "good"
   },
   {
+    "url": "https://www.iso.org/standard/87621.html",
+    "seriesComposition": "full",
+    "shortname": "iso14496-22",
+    "series": {
+      "shortname": "iso14496-22",
+      "currentSpecification": "iso14496-22",
+      "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format",
+      "shortTitle": "Open Font Format"
+    },
+    "shortTitle": "Open Font Format",
+    "organization": "ISO/IEC",
+    "groups": [
+      {
+        "name": "ISO/IEC JTC 1/SC 29",
+        "url": "https://www.iso.org/committee/45316.html"
+      }
+    ],
+    "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format",
+    "source": "specref",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc2397",
     "seriesComposition": "full",
     "shortname": "rfc2397",
@@ -11424,6 +11415,46 @@
     "title": "Expect-CT Extension for HTTP",
     "source": "ietf",
     "shortTitle": "Expect-CT Extension for HTTP",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9530",
+    "seriesComposition": "full",
+    "shortname": "rfc9530",
+    "series": {
+      "shortname": "rfc9530",
+      "currentSpecification": "rfc9530",
+      "title": "Digest Fields",
+      "shortTitle": "Digest Fields",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9530.html"
+    },
+    "formerNames": [
+      "digest-headers"
+    ],
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9530.html",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9530",
+        "https://tools.ietf.org/html/rfc9530"
+      ],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9530.xml",
+      "filename": "rfc9530.html"
+    },
+    "title": "Digest Fields",
+    "source": "ietf",
+    "shortTitle": "Digest Fields",
     "categories": [
       "browser"
     ],
@@ -24118,7 +24149,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-core-2/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "title": "WebAssembly Core Specification",
@@ -24158,7 +24189,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-js-api-2/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -24205,7 +24236,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-web-api-2/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

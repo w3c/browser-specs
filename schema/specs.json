@@ -16,16 +16,7 @@
           "shortname": { "$ref": "definitions.json#/$defs/shortname" },
           "forkOf": { "$ref": "definitions.json#/$defs/shortname" },
           "series": { "$ref": "definitions.json#/$defs/series" },
-          "seriesVersion": { 
-	    "oneOf": [
-              {
-	        "$ref": "definitions.json#/$defs/seriesVersion" 
-              },
-              {
-                "type": "null"
-              }
-            ]
-          },
+          "seriesVersion": { "$ref": "definitions.json#/$defs/seriesVersion" },
           "seriesComposition": { "$ref": "definitions.json#/$defs/seriesComposition" },
           "nightly": { "$ref": "definitions.json#/$defs/nightly" },
           "tests": { "$ref": "definitions.json#/$defs/tests" },

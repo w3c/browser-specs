@@ -246,6 +246,10 @@ describe("compute-shortname module", () => {
       assertNoSeriesVersion("ecma-402");
     });
 
+    it("does not confuse a TC39 proposal number with a series version", () => {
+      assertNoSeriesVersion("tc39-arraybuffer-base64");
+    });
+
     it("does not confuse an ISO spec number with a series version", () => {
       assertNoSeriesVersion("iso18181-2");
     });

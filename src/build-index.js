@@ -162,12 +162,6 @@ async function runSkeleton(specs, { log }) {
         computeShortname(spec.shortname ?? spec.url, spec.forkOf),
         spec);
 
-      // setting seriesVersion to null allows to override 
-      // bogus version detection (e.g. in shortname à la "-base64")
-      if (res.seriesVersion === null) {
-         delete res.seriesVersion;
-      }
-
       // Restore series info explicitly set in initial spec object
       if (series) {
         res.series = Object.assign(res.series, series);

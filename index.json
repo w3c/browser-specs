@@ -6065,8 +6065,8 @@
     "series": {
       "shortname": "mathml-aam",
       "currentSpecification": "mathml-aam",
-      "title": "MathML Accessiblity API Mappings",
-      "shortTitle": "MathML Accessiblity API Mappings",
+      "title": "MathML Accessibility API Mappings",
+      "shortTitle": "MathML Accessibility API Mappings",
       "nightlyUrl": "https://w3c.github.io/mathml-aam/"
     },
     "organization": "W3C",
@@ -6084,9 +6084,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "MathML Accessiblity API Mappings 1.0",
+    "title": "MathML Accessibility API Mappings 1.0",
     "source": "spec",
-    "shortTitle": "MathML Accessiblity API Mappings 1.0",
+    "shortTitle": "MathML Accessibility API Mappings 1.0",
     "categories": [
       "browser"
     ],

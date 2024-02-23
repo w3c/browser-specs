@@ -336,12 +336,12 @@
       "currentSpecification": "partitioned-cookies",
       "title": "Cookies Having Independent Partitioned State specification",
       "shortTitle": "Cookies Having Independent Partitioned State",
-      "nightlyUrl": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html"
+      "nightlyUrl": "https://explainers-by-googlers.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html"
     },
     "nightly": {
-      "url": "https://dcthetall.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html",
+      "url": "https://explainers-by-googlers.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html",
       "status": "Editor's Draft",
-      "repository": "https://github.com/DCtheTall/CHIPS-spec",
+      "repository": "https://github.com/explainers-by-googlers/CHIPS-spec",
       "alternateUrls": [],
       "sourcePath": "draft-cutler-httpbis-partitioned-cookies.md",
       "filename": "draft-cutler-httpbis-partitioned-cookies.html"

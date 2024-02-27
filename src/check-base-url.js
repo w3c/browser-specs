@@ -20,7 +20,7 @@ const problems = specs
   .filter(s => s.nightly &&
                !s.nightly.url.startsWith('https://httpwg.org') &&
                !s.nightly.url.startsWith('https://www.ietf.org/') &&
-               !s.nightly.url.startsWith('https://dcthetall.github.io/CHIPS-spec/'))
+               !s.nightly.url.startsWith('https://explainers-by-googlers.github.io/CHIPS-spec/'))
   .filter(s => (s.release && s.url !== s.release.url) || (!s.release && s.url !== s.nightly.url))
   .map(s => {
     const expected = s.release ? "release" : "nightly";

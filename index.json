@@ -11084,40 +11084,6 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7932",
-    "seriesComposition": "full",
-    "shortname": "rfc7932",
-    "series": {
-      "shortname": "rfc7932",
-      "currentSpecification": "rfc7932",
-      "title": "Brotli Compressed Data Format",
-      "shortTitle": "Brotli Compressed Data Format",
-      "nightlyUrl": "https://httpwg.org/specs/rfc7932.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Non Working Group",
-        "url": "https://datatracker.ietf.org/wg/none/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7932",
-      "status": "Informational",
-      "alternateUrls": [
-        "https://datatracker.ietf.org/doc/html/rfc7932",
-        "https://tools.ietf.org/html/rfc7932"
-      ]
-    },
-    "title": "Brotli Compressed Data Format",
-    "source": "ietf",
-    "shortTitle": "Brotli Compressed Data Format",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://www.rfc-editor.org/rfc/rfc8246",
     "seriesComposition": "full",
     "shortname": "rfc8246",
@@ -11260,40 +11226,6 @@
     "title": "Using Early Data in HTTP",
     "source": "ietf",
     "shortTitle": "Using Early Data in HTTP",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://www.rfc-editor.org/rfc/rfc8878",
-    "seriesComposition": "full",
-    "shortname": "rfc8878",
-    "series": {
-      "shortname": "rfc8878",
-      "currentSpecification": "rfc8878",
-      "title": "Zstandard Compression and the 'application/zstd' Media Type",
-      "shortTitle": "Zstandard Compression and the 'application/zstd' Media Type",
-      "nightlyUrl": "https://httpwg.org/specs/rfc8878.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Non Working Group",
-        "url": "https://datatracker.ietf.org/wg/none/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc8878",
-      "status": "Informational",
-      "alternateUrls": [
-        "https://datatracker.ietf.org/doc/html/rfc8878",
-        "https://tools.ietf.org/html/rfc8878"
-      ]
-    },
-    "title": "Zstandard Compression and the 'application/zstd' Media Type",
-    "source": "ietf",
-    "shortTitle": "Zstandard Compression and the 'application/zstd' Media Type",
     "categories": [
       "browser"
     ],

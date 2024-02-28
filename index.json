@@ -11289,8 +11289,7 @@
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc8878",
         "https://tools.ietf.org/html/rfc8878"
-      ],
-      "repository": "https://github.com/facebook/zstd"
+      ]
     },
     "title": "Zstandard Compression and the 'application/zstd' Media Type",
     "source": "ietf",

@@ -661,7 +661,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-borders"
+      ]
+    }
   },
   {
     "url": "https://drafts.csswg.org/css-color-6/",
@@ -10176,6 +10182,31 @@
     "standing": "good"
   },
   {
+    "url": "https://www.iso.org/standard/54989.html",
+    "seriesComposition": "full",
+    "shortname": "iso10918-5",
+    "series": {
+      "shortname": "iso10918-5",
+      "currentSpecification": "iso10918-5",
+      "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
+      "shortTitle": "JPEG"
+    },
+    "shortTitle": "JPEG",
+    "organization": "ISO/IEC",
+    "groups": [
+      {
+        "name": "ISO/IEC JTC 1/SC 29",
+        "url": "https://www.iso.org/committee/45316.html"
+      }
+    ],
+    "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
+    "source": "specref",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.iso.org/standard/85253.html",
     "seriesComposition": "full",
     "shortname": "iso18181-2",
@@ -11084,6 +11115,41 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc7932",
+    "seriesComposition": "full",
+    "shortname": "rfc7932",
+    "series": {
+      "shortname": "rfc7932",
+      "currentSpecification": "rfc7932",
+      "title": "Brotli Compressed Data Format",
+      "shortTitle": "Brotli Compressed Data Format",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7932"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Applications and Real-Time Area",
+        "url": "https://datatracker.ietf.org/wg/art/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc7932",
+      "status": "Informational",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7932",
+        "https://tools.ietf.org/html/rfc7932"
+      ],
+      "filename": "rfc7932.html"
+    },
+    "title": "Brotli Compressed Data Format",
+    "source": "ietf",
+    "shortTitle": "Brotli Compressed Data Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc8246",
     "seriesComposition": "full",
     "shortname": "rfc8246",
@@ -11226,6 +11292,41 @@
     "title": "Using Early Data in HTTP",
     "source": "ietf",
     "shortTitle": "Using Early Data in HTTP",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc8878",
+    "seriesComposition": "full",
+    "shortname": "rfc8878",
+    "series": {
+      "shortname": "rfc8878",
+      "currentSpecification": "rfc8878",
+      "title": "Zstandard Compression and the 'application/zstd' Media Type",
+      "shortTitle": "Zstandard Compression and the 'application/zstd' Media Type",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8878"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Applications and Real-Time Area",
+        "url": "https://datatracker.ietf.org/wg/art/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc8878",
+      "status": "Informational",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc8878",
+        "https://tools.ietf.org/html/rfc8878"
+      ],
+      "filename": "rfc8878.html"
+    },
+    "title": "Zstandard Compression and the 'application/zstd' Media Type",
+    "source": "ietf",
+    "shortTitle": "Zstandard Compression and the 'application/zstd' Media Type",
     "categories": [
       "browser"
     ],
@@ -11623,6 +11724,38 @@
     "title": "W3C Process Document",
     "source": "specref",
     "shortTitle": "W3C Process Document",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt",
+    "seriesComposition": "full",
+    "shortname": "GIF",
+    "series": {
+      "shortname": "GIF",
+      "currentSpecification": "GIF",
+      "title": "Graphics Interchange Format",
+      "shortTitle": "GIF",
+      "nightlyUrl": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt"
+    },
+    "shortTitle": "GIF",
+    "organization": "CompuServe Incorporated",
+    "groups": [
+      {
+        "name": "CompuServe Incorporated",
+        "url": "https://www.compuserve.com/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "spec-gif89a.txt"
+    },
+    "title": "Graphics Interchange Format",
+    "source": "specref",
     "categories": [
       "browser"
     ],

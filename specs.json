@@ -683,6 +683,11 @@
   "https://wicg.github.io/webusb/",
   "https://wicg.github.io/window-controls-overlay/",
   {
+    "url": "https://www.iso.org/standard/54989.html",
+    "shortname": "iso10918-5",
+    "shortTitle": "JPEG"
+  },
+  {
     "url": "https://www.iso.org/standard/85253.html",
     "shortname": "iso18181-2",
     "shortTitle": "JPEG XL: File Format"
@@ -771,6 +776,21 @@
     ],
     "nightly": {
       "repository": "https://github.com/w3c/w3process/"
+    }
+  },
+  {
+    "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt",
+    "shortname": "GIF",
+    "shortTitle": "GIF",
+    "organization": "CompuServe Incorporated",
+    "groups": [
+      {
+        "name": "CompuServe Incorporated",
+        "url": "https://www.compuserve.com/"
+      }
+    ],
+    "nightly": {
+      "filename": "spec-gif89a.txt"
     }
   },
   "https://www.w3.org/TR/accelerometer/",

@@ -11,7 +11,7 @@
 
 module.exports = async function (url) {
   // Extract filename directly from the URL when possible
-  const match = url.match(/\/([^/]+\.(html|pdf))$/);
+  const match = url.match(/\/([^/]+\.(html|pdf|txt))$/);
   if (match) {
     return match[1];
   }

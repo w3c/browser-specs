@@ -788,10 +788,7 @@
         "name": "CompuServe Incorporated",
         "url": "https://www.compuserve.com/"
       }
-    ],
-    "nightly": {
-      "filename": "spec-gif89a.txt"
-    }
+    ]
   },
   "https://www.w3.org/TR/accelerometer/",
   "https://www.w3.org/TR/accname-1.2/",

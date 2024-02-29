@@ -2576,6 +2576,70 @@
     }
   },
   {
+    "url": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+    "seriesComposition": "full",
+    "shortname": "glTF",
+    "series": {
+      "shortname": "glTF",
+      "currentSpecification": "glTF",
+      "title": "glTF™ 2.0 Specification",
+      "shortTitle": "glTF™",
+      "nightlyUrl": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html"
+    },
+    "groups": [
+      {
+        "name": "glTF Working Group",
+        "url": "https://www.khronos.org/gltf/"
+      }
+    ],
+    "categories": [],
+    "nightly": {
+      "url": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+      "status": "Editor's Draft",
+      "sourcePath": "specification/2.0/Specification.adoc",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/glTF",
+      "filename": "glTF-2.0.html"
+    },
+    "organization": "Khronos Group",
+    "title": "glTF™ 2.0 Specification",
+    "source": "spec",
+    "shortTitle": "glTF™ 2.0",
+    "standing": "good"
+  },
+  {
+    "url": "https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.html",
+    "seriesComposition": "full",
+    "shortname": "ESSL",
+    "series": {
+      "shortname": "ESSL",
+      "currentSpecification": "ESSL",
+      "title": "The OpenGL ES® Shading Language, Version 3.20.8",
+      "shortTitle": "OpenGL ES® Shading Language",
+      "nightlyUrl": "https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.html"
+    },
+    "shortTitle": "OpenGL ES® Shading Language 3.20",
+    "groups": [
+      {
+        "name": "OpenGL ES Working Group",
+        "url": "https://www.khronos.org/opengles/"
+      }
+    ],
+    "organization": "Khronos Group",
+    "nightly": {
+      "url": "https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "GLSL_ES_Specification_3.20.html"
+    },
+    "title": "The OpenGL ES® Shading Language, Version 3.20.8",
+    "source": "spec",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
     "seriesComposition": "full",
     "shortname": "ANGLE_instanced_arrays",

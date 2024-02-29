@@ -199,6 +199,9 @@
         "url": "https://www.khronos.org/gltf/"
       }
     ],
+    "categories": [
+      "-browser"
+    ],
     "nightly": {
       "sourcePath": "specification/2.0/Specification.adoc"
     }

@@ -60,6 +60,11 @@ module.exports = function (url) {
     return { type: "custom", owner: "khronosgroup", name: "WebGL" };
   }
 
+  const khronos = url.match(/^https:\/\/registry\.khronos\.org\/([^\/]+)\//);
+  if (khronos) {
+    return { type: "custom", owner: "khronosgroup", name: khronos[1] };
+  }
+
   const httpwg = url.match(/^https:\/\/httpwg\.org\/specs\/rfc[0-9]+\.html$/);
   if (httpwg) {
     return { type: "custom", owner: "httpwg", name: "httpwg.github.io" };

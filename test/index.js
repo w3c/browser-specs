@@ -151,6 +151,7 @@ describe("List of specs", () => {
     const wrong = specs.filter(s => s.nightly && !s.nightly.repository &&
       s.organization !== 'IETF' &&
       s.organization !== 'FIDO Alliance' &&
+      s.organization !== 'Khronos Group' &&
       (!s.url.match(/\/www\.w3\.org\//) || s.nightly.url !== s.url));
     assert.deepStrictEqual(wrong, []);
   });

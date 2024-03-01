@@ -17,7 +17,7 @@
       "lastreviewed": "2024-03-01"
     },
     "WICG/controlled-frame": {
-      "comment": "early draft",
+      "comment": "only available in developer trial in Chrome at the moment; limited to Isolated Web Apps",
       "lastreviewed": "2024-03-01"
     },
     "WICG/file-handling": {
@@ -322,7 +322,7 @@
     },
     "WICG/observable": {
       "lastreviewed": "2024-03-01",
-      "comment": "early exploration phase but under active development and with intent to prototype in Chromium, see https://chromestatus.com/feature/5154593776599040"
+      "comment": "In development in Chromium, see https://chromestatus.com/feature/5154593776599040 "
     },
     "immersive-web/webxr-accessibility": {
       "lastreviewed": "2024-03-01",

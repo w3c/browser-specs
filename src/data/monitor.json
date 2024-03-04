@@ -375,6 +375,10 @@
     "immersive-web/body-tracking": {
       "lastreviewed": "2024-03-01",
       "comment": "no published content yet"
+    },
+    "w3c/html-ruby": {
+      "lastreviewed": "2024-03-04",
+      "comment": "unofficial draft for now, to be adopted by HTML WG"
     }
   },
   "specs": {

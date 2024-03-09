@@ -17845,7 +17845,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "device-posture"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/DOM-Level-2-Style/",

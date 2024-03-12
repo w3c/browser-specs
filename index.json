@@ -6129,6 +6129,40 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/long-animation-frames/",
+    "seriesComposition": "full",
+    "shortname": "long-animation-frames",
+    "series": {
+      "shortname": "long-animation-frames",
+      "currentSpecification": "long-animation-frames",
+      "title": "Long Animation Frames API",
+      "shortTitle": "Long Animation Frames API",
+      "nightlyUrl": "https://w3c.github.io/long-animation-frames/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/groups/wg/webperf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/long-animation-frames/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/long-animation-frames",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Long Animation Frames API",
+    "source": "spec",
+    "shortTitle": "Long Animation Frames API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/mathml-aam/",
     "seriesComposition": "full",
     "shortname": "mathml-aam",

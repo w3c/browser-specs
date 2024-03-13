@@ -383,7 +383,11 @@
     "w3c/html-ruby": {
       "lastreviewed": "2024-03-04",
       "comment": "unofficial draft for now, to be adopted by HTML WG"
-    }
+    },
+    "w3c/long-animation-frames": {
+      "comment": "unofficial draft, until published by WebPerfWG",
+      "lastreviewed": "2024-03-12"
+    },
   },
   "specs": {
     "https://svgwg.org/specs/animation-elements/animation-elements.html": {

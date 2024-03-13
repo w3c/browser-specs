@@ -387,7 +387,7 @@
     "w3c/long-animation-frames": {
       "comment": "unofficial draft, until published by WebPerfWG",
       "lastreviewed": "2024-03-12"
-    },
+    }
   },
   "specs": {
     "https://svgwg.org/specs/animation-elements/animation-elements.html": {

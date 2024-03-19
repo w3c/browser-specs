@@ -206,7 +206,7 @@ async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.
  * The spec object must have a `url` property. It may have other properties.
  *
  * Internally, the function turns the parameter into a diff and hands it over
- * to `buildSpec`.
+ * to `buildDiff`.
  *
  * The function throws in case of errors.
  */

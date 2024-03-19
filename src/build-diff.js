@@ -1,3 +1,24 @@
+/**
+ * Script that builds the diff that the provided change(s) to `specs.json`
+ * would entail to `index.json`.
+ *
+ * The script takes the canonical URL of a spec as input, or a "git diff"-like
+ * reference to named commit(s), in which case it compiles the list of changes
+ * from the differences in `specs.json` between both commits. It computes the
+ * updates that the update(s) would trigger to `index.json` and reports the
+ * diff in a JSON structure with `add`, `update`, `delete`, and `seriesUpdate`
+ * properties.
+ *
+ * For named commits, "working" is the equivalent of Git's "--cached" option
+ * and means "use the working copy of specs.json".
+ *
+ * Examples:
+ * node src/build-diff https://www.w3.org/TR/webrtc/
+ * node src/build-diff working
+ * node src/build-diff HEAD
+ * node src/build-diff HEAD..HEAD~3
+ */
+
 const assert = require("assert");
 const path = require("path");
 const { execSync } = require("child_process");
@@ -72,12 +93,68 @@ function areIdentical(s1, s2) {
   }
 }
 
+
 /**
- * Generate the new index file from the given initial list file.
+ * Build the diff for the given spec or list of changes. The first parameter
+ * may be the canonical URL of a spec, a named Git commit, or two named Git
+ * commits separated by two dots. Named Git commit are used to compile the
+ * changes in specs.json that need to be built.
+ *
+ * For instance:
+ * - https://w3c.github.io/example-spec/
+ * - HEAD
+ * - HEAD..HEAD~3
+ *
+ * Internally, the function branches to `buildCommits` or `buildSpec`
+ * depending on what needs to be built.
+ *
+ * If what to build is the canonical URL of a spec and the options contain a
+ * `custom` property, that property is used to complete the initial info for
+ * the spec.
  *
  * The function throws in case of errors.
  */
-async function compareIndex(newRef, baseRef, { diffType = "diff", log = console.log }) {
+async function build(what, options) {
+  if (!what) {
+    throw new Error('Nothing to build');
+  }
+  const reCommit = /^([\w~\^]+)(?:\.\.([\w~\^]+))?$/;
+  const commitMatch = what.match(reCommit);
+  if (commitMatch) {
+    // We seem to have received a named <commit>
+    let from = commitMatch[2];
+    const to = commitMatch[1];
+    if (!from) {
+      from = (to.toLowerCase() === 'working') ? 'HEAD' : 'HEAD~1';
+    }
+    return buildCommits(to, from, options);
+  }
+  else {
+    // We seem to have received a URL
+    let url;
+    try {
+      url = new URL(what);
+    }
+    catch (err) {
+      throw new Error('Invalid what argument received. Should be a URL, a named commit, or a couple of named commit separated by two dots (..)');
+    }
+    const custom = options?.custom ?? {};
+    const spec = Object.assign({}, custom, { url: url.toString() });
+    return buildSpec(spec, options);
+  }
+}
+
+
+/**
+ * Build the diff for changes made to `specs.json` between the provided named
+ * Git commits.
+ *
+ * Internally, the function compiles the diff and then hands it over to
+ * `buildDiff`.
+ *
+ * The function throws in case of errors.
+ */
+async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.log }) {
   log(`Retrieve specs.json at "${newRef}"...`);
   let newSpecs;
   if (newRef.toLowerCase() === "working") {
@@ -119,6 +196,45 @@ async function compareIndex(newRef, baseRef, { diffType = "diff", log = console.
   }
   log(`Compute specs.json diff... done`);
 
+  return buildDiff(diff, baseSpecs, baseIndex, { diffType, log });
+}
+
+
+/**
+ * Build the diff for the given spec.
+ *
+ * The spec object must have a `url` property. It may have other properties.
+ *
+ * Internally, the function turns the parameter into a diff and hands it over
+ * to `buildDiff`.
+ *
+ * The function throws in case of errors.
+ */
+async function buildSpec(spec, { diffType = "diff", log = console.log }) {
+  log(`Retrieve specs.json...`);
+  const baseSpecs = require(path.resolve(__dirname, "..", "specs.json"));
+  log(`Retrieve specs.json... done`);
+
+  log(`Retrieve index.json...`);
+  const baseIndex = require(path.resolve(__dirname, "..", "index.json"));
+  log(`Retrieve index.json... done`);
+
+  log(`Prepare diff...`);
+  const isNew = !baseSpecs.find(s => haveSameUrl(s, spec));
+  log(isNew ? `- spec is new` : `- spec is already in specs.json`);
+  const diff = {
+    add: isNew ? [spec] : [],
+    update: isNew ? [] : [spec],
+    delete: []
+  };
+  log(`Prepare diff... done`);
+
+  return buildDiff(diff, baseSpecs, baseIndex, { diffType, log });
+}
+
+
+async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = console.log }) {
+  diff = Object.assign({}, diff);
   log(`Delete specs that were dropped...`);
   diff.delete = baseIndex.filter(spec => diff.delete.find(s => haveSameUrl(s, spec)));
   let newIndex = baseIndex.filter(spec => !diff.delete.find(s => haveSameUrl(s, spec)));
@@ -136,7 +252,9 @@ async function compareIndex(newRef, baseRef, { diffType = "diff", log = console.
       previousIndex: newIndex,
       log: function(...msg) { log(' ', ...msg); } });
   diff.add = diff.add.map(spec => built.find(s => haveSameUrl(s, spec)));
-  diff.update = diff.update.map(spec => built.find(s => haveSameUrl(s, spec)));
+  diff.update = diff.update
+    .map(spec => built.find(s => haveSameUrl(s, spec)))
+    .filter(spec => !areIdentical(spec, baseIndex.find(s => s.url === spec.url)));
   diff.seriesUpdate = built
     .filter(spec =>
       !diff.add.find(s => haveSameUrl(s, spec)) &&
@@ -160,20 +278,31 @@ async function compareIndex(newRef, baseRef, { diffType = "diff", log = console.
 
 
 /*******************************************************************************
+Export main function for use as module
+*******************************************************************************/
+module.exports = {
+  build,
+  buildCommits,
+  buildSpec
+};
+
+
+/*******************************************************************************
 Main loop
 *******************************************************************************/
-const newRef = process.argv[2] ?? "working";
-const baseRef = process.argv[3] ?? "HEAD";
-const diffType = process.argv[4] ?? "diff";
+if (require.main === module) {
+  const what = process.argv[2] ?? "working";
+  const diffType = process.argv[3] ?? "diff";
 
-compareIndex(newRef, baseRef, { diffType, log: console.warn })
-  .then(diff => {
-    // Note: using process.stdout.write to avoid creating a final newline in
-    // "full" diff mode. This makes it easier to compare the result with the
-    // index.json file in the repo (which does not have a final newline).
-    process.stdout.write(JSON.stringify(diff, null, 2));
-  })
-  .catch(err => {
-    console.error(err);
-    process.exit(1);
-  });
+  build(what, { diffType, log: console.warn })
+    .then(diff => {
+      // Note: using process.stdout.write to avoid creating a final newline in
+      // "full" diff mode. This makes it easier to compare the result with the
+      // index.json file in the repo (which does not have a final newline).
+      process.stdout.write(JSON.stringify(diff, null, 2));
+    })
+    .catch(err => {
+      console.error(err);
+      process.exit(1);
+    });
+}

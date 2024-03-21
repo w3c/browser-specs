@@ -583,13 +583,17 @@ async function fetchInfoFromSpecs(specs, options) {
           const match = subtitle?.textContent.match(/^\s*(.+?)(,| — Last Updated)?\s+\d{1,2} \w+ \d{4}\s*$/);
           let status = (match ? match[1] : "Editor's Draft")
             .replace(/’/g, "'")     // Bikeshed generates curly quotes
-            .replace(/^W3C /, "");  // Once every full moon, a "W3C " prefix gets added
+            .replace(/^W3C /, "")   // Once every full moon, a "W3C " prefix gets added
+            .replace(/^AOM /, "");  // ... or an "AOM " prefix in AOM specs
           // And once every other full moon, spec has a weird status
           // (e.g., https://privacycg.github.io/gpc-spec/)
           if (status === "Proposal" || status === "Unofficial Draft") {
             status = "Unofficial Proposal Draft";
           }
-          else if (status === "Working Draft") {
+          else if ((status === "Working Draft") || (status === "Working Group Draft")) {
+            // W3C specs that have a Working Draft nightly status are really
+            // Editor's Drafts in practice. Similarly "Working Group Draft" is
+            // an AOM status that really means Editor's Draft.
             status = "Editor's Draft";
           }
           return { title, status };

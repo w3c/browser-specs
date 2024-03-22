@@ -125,7 +125,7 @@
     "organization": "Alliance for Open Media",
     "nightly": {
       "url": "https://aomediacodec.github.io/av1-isobmff/",
-      "status": "Draft Deliverable",
+      "status": "Working Group Approved Draft",
       "alternateUrls": [],
       "repository": "https://github.com/AOMediaCodec/av1-isobmff",
       "sourcePath": "index.bs",
@@ -438,7 +438,7 @@
       "currentSpecification": "webp",
       "title": "WebP Image Format",
       "shortTitle": "WebP Image Format",
-      "nightlyUrl": "https://www.ietf.org/archive/id/draft-zern-webp-13.html"
+      "nightlyUrl": "https://www.ietf.org/archive/id/draft-zern-webp-14.html"
     },
     "organization": "IETF",
     "groups": [
@@ -448,10 +448,10 @@
       }
     ],
     "nightly": {
-      "url": "https://www.ietf.org/archive/id/draft-zern-webp-13.html",
+      "url": "https://www.ietf.org/archive/id/draft-zern-webp-14.html",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "filename": "draft-zern-webp-13.html"
+      "filename": "draft-zern-webp-14.html"
     },
     "title": "WebP Image Format",
     "source": "ietf",
@@ -12496,17 +12496,13 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
-      },
-      {
         "name": "Cascading Style Sheets (CSS) Working Group",
         "url": "https://www.w3.org/Style/CSS/"
       }
     ],
     "release": {
       "url": "https://www.w3.org/TR/compositing-1/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -16933,10 +16929,6 @@
       {
         "name": "Cascading Style Sheets (CSS) Working Group",
         "url": "https://www.w3.org/Style/CSS/"
-      },
-      {
-        "name": "Technical Architecture Group",
-        "url": "https://www.w3.org/2001/tag/"
       }
     ],
     "release": {

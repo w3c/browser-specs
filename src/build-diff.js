@@ -127,7 +127,9 @@ async function build(what, options) {
     if (!from) {
       from = (to.toLowerCase() === 'working') ? 'HEAD' : 'HEAD~1';
     }
-    return buildCommits(to, from, options);
+    return Object.assign(
+      { what: { type: 'commit', from, to } },
+      await buildCommits(to, from, options));
   }
   else {
     // We seem to have received a URL
@@ -140,7 +142,9 @@ async function build(what, options) {
     }
     const custom = options?.custom ?? {};
     const spec = Object.assign({}, custom, { url: url.toString() });
-    return buildSpec(spec, options);
+    return Object.assign(
+      { what: { type: 'spec', spec } },
+      await buildSpec(spec, options));
   }
 }
 
@@ -260,16 +264,26 @@ async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = 
       !diff.add.find(s => haveSameUrl(s, spec)) &&
       !diff.update.find(s => haveSameUrl(s, spec)))
     .filter(spec => !areIdentical(spec, baseIndex.find(s => s.url === spec.url)));
+  diff.changes =
+    diff.add.length +
+    diff.update.length +
+    diff.delete.length +
+    diff.seriesUpdate.length;
   log(`Build new/updated entries... done`);
 
-  if (diffType === "full") {
+  if ((diffType === "full") || (diffType === "all")) {
     log(`Create full new index...`);
     newIndex = newIndex
       .filter(spec => !built.find(s => haveSameUrl(s, spec)))
       .concat(built);
     newIndex.sort(compareSpecs);
     log(`Create full new index... done`);
-    return newIndex;
+    if (diffType === "full") {
+      return newIndex;
+    }
+    else {
+      return { diff, index: newIndex };
+    }
   }
   else {
     return diff;

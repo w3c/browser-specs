@@ -1,0 +1,40 @@
+name: New spec
+description: Use this issue template to suggest that a new spec be added to the list.
+labels: ["new spec"]
+title: "Add new spec: <title>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!Note]
+        Thank you for proposing a new spec! Spec suggestions use a structured issue so that we can semi-automate the process. A bot will check the suggestion after creation, and report on missing properties or other problems before we review the suggestion.
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: |
+        *Somewhat* stable spec URL. See [`url`](https://github.com/w3c/browser-specs/#url) for details.
+      value: "https://"
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: |
+        Please explain how the spec meets the [spec selection criteria](https://github.com/w3c/browser-specs/#spec-selection-criteria), e.g., with a pointer to an intent to implement or to a sister project issue. You may leave this field blank if that seems straightforward.
+    validations:
+      required: false
+
+  - type: textarea
+    id: custom
+    attributes:
+      label: Additional properties
+      description: |
+        A JSON object with the spec properties that cannot be determined automatically, e.g., [`seriesComposition`](https://github.com/w3c/browser-specs/#seriescomposition). Please **ignore this field** unless you know what you're doing. We will check and set properties as needed afterwards.
+      render: json
+      value: "{}"
+    validations:
+      required: false

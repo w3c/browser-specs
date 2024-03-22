@@ -1,0 +1,36 @@
+name: Create a PR for the suggested spec
+
+on:
+  issue_comment:
+    # Details for types below can be found at:
+    # https://docs.github.com/en/webhooks-and-events/webhooks/webhook-events-and-payloads?actionType=edited#issues
+    types:
+      # Job triggered when an issue comment is created (or edited)
+      - created
+      - edited
+
+jobs:
+  prepare:
+    name: Prepare update to specs.json
+    runs-on: ubuntu-latest
+    if: ${{ github.event.author_association == 'OWNER' && contains(github.event.comment, '@browser-specs-bot pr') }}
+    steps:
+      - name: Setup node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check suggested spec and create PR
+        id: build
+        run: npx browser-specs build $NUMBER --pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}

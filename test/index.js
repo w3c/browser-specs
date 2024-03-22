@@ -3,8 +3,9 @@
  * includes the right info.
  */
 
+// Tests may run against a test version of the index file
+const specs = require(process.env.testIndex ?? "../index.json");
 const assert = require("assert");
-const specs = require("../index.json");
 const schema = require("../schema/index.json");
 const dfnsSchema = require("../schema/definitions.json");
 const computeShortname = require("../src/compute-shortname");
@@ -13,7 +14,7 @@ const addFormats = require("ajv-formats")
 const ajv = new Ajv();
 addFormats(ajv);
 
-describe("List of specs", () => {
+describe("The `index.json` list", () => {
   it("has a valid JSON schema", () => {
     const isSchemaValid = ajv.validateSchema(schema);
     assert.ok(isSchemaValid);

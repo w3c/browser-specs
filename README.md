@@ -700,7 +700,7 @@ appear in the list. For instance, the list contains the HTML LS spec, but not
 HTML 4.01 or HTML 5).
 2. The spec is being developed by a well-known standardization or
 pre-standardization group. Today, this means a W3C Working Group or Community
-Group, the WHATWG, the IETF, the TC39 group or the Khronos Group.
+Group, the WHATWG, the IETF, the TC39 group, the Khronos Group, the Alliance for Open Media (AOM), or ISO.
 4. The spec sits at the application layer or is "close to it". For instance,
 most IETF specs are likely out of scope, but some that are exposed to Web developers are in scope.
 5. The spec defines normative content (terms, CSS, IDL), or it contains

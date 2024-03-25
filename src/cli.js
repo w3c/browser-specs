@@ -123,7 +123,7 @@ function buildReport(buildResults, testResults) {
 
 
 /**
- * Helper function to split a session issue body (in markdown) into sections
+ * Helper function to split an issue body (in markdown) into sections
  */
 function splitIssueBodyIntoSections(body) {
   return body.split(/^### /m)

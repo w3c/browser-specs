@@ -157,7 +157,7 @@ program
   .description(`Build the info for the given spec or list of changes made to \`specs.json\`.`)
   .argument('<what>', 'what to build. The argument may either be a `<url>` that represents the canonical URL of the spec to build, a named commit `<commit>` to point at the git commit that contains the changes to build in `specs.json`, two arbitrary named commits `<commit>..<commit>` to compile the list of changes made to `specs.json` between the two commits, or an issue number of the w3c/browser-specs repo that represents a spec suggestion and follows the expected structure. The `gh` CLI command must be available if `<what>` is an issue number.')
   .option('-c, --commit', 'commit potential updates to a dedicated branch and switch to that branch. This option implies the `--update` option. The `git` CLI command must be available.')
-  .option('-j, --json <json>', 'link to a JSON file with additional spec properties, or a serialized JSON object directly. The option can only be set if `<what>` is a URL. The option value can also be the JSON object directly enclosed in double quotes (or without whitespaces), e.g. `"{ ""nightly"": { ""sourcePath"": ""compatibility.bs"" } }"`. A `url` property at the root level will be ignored.')
+  .option('-j, --json <json>', 'link to a JSON file with additional spec properties, or a serialized JSON object directly. The option can only be set if `<what>` is a URL. The option value can also be the JSON object directly enclosed in single quotes or double quotes depending on your platform, e.g. `\'{ "nightly": { "sourcePath": "compatibility.bs" } }\'` on Unix systems or `"{ ""nightly"": { ""sourcePath"": ""compatibility.bs"" } }"` on Windows. A `url` property at the root level will be ignored.')
   .option('-p, --pr', 'create a pull request with updates made to the lists. This option implies the `--commit` and `--update` options. The `git` and `gh` CLI commands must be available.')
   .option('-q, --quiet', 'do not report progress to the console. Note the command may still report a couple of warnings, because because!')
   .option('-u, --update', 'add the given spec to `specs.json` if needed. The `<what>` argument must be a `<url>` and the command only makes changes to `specs.json` if all tests pass. This option is implied if the `--commit` or `--pr` option is set.')
@@ -177,7 +177,10 @@ Examples:
   Test a new spec:
   $ browser-specs build https://w3c.github.io/my-funky-spec/
 
-  Test a new spec with additional properties:
+  Test a new spec with additional properties (on a Unix system):
+  $ browser-specs build https://w3c.github.io/my-funky-spec/ --json '{ "seriesComposition": "delta" }'
+
+  Test a new spec with additional properties (on a Windows system):
   $ browser-specs build https://w3c.github.io/my-funky-spec/ --json "{ ""seriesComposition"": ""delta"" }"
 
   Add a new spec:

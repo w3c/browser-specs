@@ -680,9 +680,12 @@ in patch releases.
 
 ## How to add/update/delete a spec
 
-If you believe that a spec should be added, modified, or removed from the list,
-or if you would like to otherwise contribute to this project, please check
-[contributing instructions](CONTRIBUTING.md).
+If you believe that a spec should be added to the list, check the [selection
+criteria](#spec-selection-criteria) below and use the ["New spec" issue
+template](https://github.com/w3c/browser-specs/issues/new/choose).
+
+For other types of changes, please check [contributing
+instructions](CONTRIBUTING.md).
 
 
 ## Spec selection criteria

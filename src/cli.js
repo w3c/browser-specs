@@ -374,14 +374,14 @@ Examples:
       }
       logProgress(`Update monitor/ignore lists... done`);
 
-      const branchName = `add-` + buildResults.what.spec.shortname;
+      const branchName = `add-` + spec.shortname;
       if (options.commit) {
         logProgress(`Commit changes...`);
         const commitFile = path.join(__dirname, '..', '__commit.md');
-        const linkToIssue = issueNumber ? `Spec suggested in ${issueNumber}\n` : '';
+        const linkToIssue = issueNumber ? `Spec suggested in #${issueNumber}\n` : '';
         await fs.writeFile(
           commitFile,
-          `Add ${buildResults.what.spec.title}
+          `Add ${spec.title}
 
 ${linkToIssue}
 ${report}`,

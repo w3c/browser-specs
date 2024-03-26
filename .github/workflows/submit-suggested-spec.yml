@@ -13,7 +13,7 @@ jobs:
   prepare:
     name: Prepare update to specs.json
     runs-on: ubuntu-latest
-    if: ${{ github.event.author_association == 'OWNER' && contains(github.event.comment, '@browser-specs-bot pr') }}
+    if: ${{ github.event.comment.author_association == 'OWNER' && contains(github.event.comment.body, '@browser-specs-bot pr') }}
     steps:
       - name: Setup node.js
         uses: actions/setup-node@v4

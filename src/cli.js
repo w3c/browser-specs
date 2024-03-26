@@ -372,6 +372,7 @@ Examples:
       }
       logProgress(`Update monitor/ignore lists... done`);
 
+      const branchName = `add-` + buildResults.what.spec.shortname;
       if (options.commit) {
         logProgress(`Commit changes...`);
         const commitFile = path.join(__dirname, '..', '__commit.md');
@@ -383,7 +384,6 @@ Examples:
 ${linkToIssue}
 ${report}`,
           'utf8');
-        const branchName = `add-` + buildResults.what.spec.shortname;
         execSync(`git checkout -b ${branchName}`, execParams);
         execSync(`git add specs.json`, execParams);
         if (dataUpdated.monitor) {
@@ -399,6 +399,7 @@ ${report}`,
 
       if (options.pr) {
         logProgress(`Create a PR...`);
+        execSync(`git push origin ${branchName}`);
         execSync(`gh pr create --fill`, execParams);
         logProgress(`Create a PR... done`);
       }
@@ -466,10 +467,10 @@ Examples:
     }
     await fs.writeFile(file, JSON.stringify(list, null, 2), 'utf8');
 
+    const branchName = 'monitor-' + (new Date()).toISOString().replace(/[^\d]/g, '');
     if (options.commit) {
       // TODO: make sure that there aren't any pending local changes that
       // would end up in the commit
-      const branchName = 'monitor-' + (new Date()).toISOString().replace(/[^\d]/g, '');
       execSync(`git checkout -b ${branchName}`, execParams);
       execSync(`git add src/data/monitor.json`, execParams);
       execSync(`git commit -m "Monitor ${url}"`, execParams);
@@ -478,6 +479,7 @@ Examples:
     }
 
     if (options.pr) {
+      execSync(`git push origin ${branchName}`);
       execSync(`gh pr create --fill`, execParams);
     }
 
@@ -529,10 +531,10 @@ Examples:
     }
     await fs.writeFile(file, JSON.stringify(list, null, 2), 'utf8');
 
+    const branchName = 'ignore-' + (new Date()).toISOString().replace(/[^\d]/g, '');
     if (options.commit) {
       // TODO: make sure that there aren't any pending local changes that
       // would end up in the commit
-      const branchName = 'ignore-' + (new Date()).toISOString().replace(/[^\d]/g, '');
       execSync(`git checkout -b ${branchName}`, execParams);
       execSync(`git add src/data/ignore.json`, execParams);
       execSync(`git commit -m "Ignore ${url}"`, execParams);
@@ -541,6 +543,7 @@ Examples:
     }
 
     if (options.pr) {
+      execSync(`git push origin ${branchName}`);
       execSync(`gh pr create --fill`, execParams);
     }
 

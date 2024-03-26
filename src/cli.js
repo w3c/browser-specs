@@ -102,7 +102,7 @@ function buildReport(buildResults, testResults) {
   if (testResults?.fail?.length) {
     report += 'With these changes, the following tests would fail:\n';
     for (const test of testResults.fail) {
-      report += '<details><summary>${test.title}</summary>\n\n' +
+      report += `<details><summary>${test.title}</summary>\n\n` +
         'Expected:\n' +
         '```json\n' +
         JSON.stringify(test.expected, null, 2) +

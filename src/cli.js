@@ -384,7 +384,7 @@ ${linkToIssue}
 ${report}`,
           'utf8');
         const branchName = `add-` + buildResults.what.spec.shortname;
-        execSync(`git co -b ${branchName}`, execParams);
+        execSync(`git checkout -b ${branchName}`, execParams);
         execSync(`git add specs.json`, execParams);
         if (dataUpdated.monitor) {
           execSync(`git add src/data/monitor.json`, execParams);
@@ -470,7 +470,7 @@ Examples:
       // TODO: make sure that there aren't any pending local changes that
       // would end up in the commit
       const branchName = 'monitor-' + (new Date()).toISOString().replace(/[^\d]/g, '');
-      execSync(`git co -b ${branchName}`, execParams);
+      execSync(`git checkout -b ${branchName}`, execParams);
       execSync(`git add src/data/monitor.json`, execParams);
       execSync(`git commit -m "Monitor ${url}"`, execParams);
       console.log('Changes committed in branch:');
@@ -533,7 +533,7 @@ Examples:
       // TODO: make sure that there aren't any pending local changes that
       // would end up in the commit
       const branchName = 'ignore-' + (new Date()).toISOString().replace(/[^\d]/g, '');
-      execSync(`git co -b ${branchName}`, execParams);
+      execSync(`git checkout -b ${branchName}`, execParams);
       execSync(`git add src/data/ignore.json`, execParams);
       execSync(`git commit -m "Ignore ${url}"`, execParams);
       console.log('Changes committed in branch:');

@@ -13,7 +13,11 @@ jobs:
   prepare:
     name: Prepare update to specs.json
     runs-on: ubuntu-latest
-    if: ${{ github.event.comment.author_association == 'OWNER' && contains(github.event.comment.body, '@browser-specs-bot pr') }}
+    # TODO: Check comment user permissions more thoroughly, for instance using
+    # the REST API (see link below). This is going to be needed if we decide to
+    # remove the PR step and have the bot merge directly to the `main` branch.
+    # https://docs.github.com/en/rest/collaborators/collaborators?apiVersion=2022-11-28#get-repository-permissions-for-a-user
+    if: ${{ github.event.comment.author_association == 'MEMBER' && contains(github.event.comment.body, '@browser-specs-bot pr') }}
     steps:
       - name: Setup node.js
         uses: actions/setup-node@v4

@@ -180,10 +180,6 @@
       "lastreviewed": "2024-03-01",
       "comment": "marked as unstable API"
     },
-    "WICG/WebApiDevice": {
-      "lastreviewed": "2024-03-01",
-      "comment": "no published content yet, but likely soon at https://wicg.github.io/WebApiDevice/device_attributes from https://github.com/WICG/WebApiDevice/blob/main/device_attributes/index.bs "
-    },
     "immersive-web/WebXR-WebGPU-Binding": {
       "lastreviewed": "2024-03-01",
       "comment": "no published content yet"

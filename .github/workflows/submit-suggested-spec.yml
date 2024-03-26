@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "browser-specs-bot"
           git config user.email "<>"
-          git remote set-url --push origin https://x-access-token:${{ GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git remote set-url --push origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
           npx browser-specs build $NUMBER --pr
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}

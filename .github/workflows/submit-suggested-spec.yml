@@ -33,8 +33,10 @@ jobs:
         run: npm ci
 
       - name: Check suggested spec and create PR
-        id: build
-        run: npx browser-specs build $NUMBER --pr
+        run: |
+          git config user.name "browser-specs-bot"
+          git config user.email "<>"
+          npx browser-specs build $NUMBER --pr
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           NUMBER: ${{ github.event.issue.number }}

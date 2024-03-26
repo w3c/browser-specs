@@ -378,7 +378,7 @@ Examples:
       if (options.commit) {
         logProgress(`Commit changes...`);
         const commitFile = path.join(__dirname, '..', '__commit.md');
-        const linkToIssue = issueNumber ? `Spec suggested in #${issueNumber}\n` : '';
+        const linkToIssue = issueNumber ? `Close #${issueNumber}, adding the suggested spec to the list.\n` : '';
         await fs.writeFile(
           commitFile,
           `Add ${spec.title}

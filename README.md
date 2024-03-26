@@ -67,11 +67,11 @@ reasonably be qualified as a "Web specification".
 - [Spec selection criteria](#spec-selection-criteria)
 - [Development notes](#development-notes)
   - [How to generate `index.json` manually](#how-to-generate-indexjson-manually)
+  - [How to check a new spec](#how-to-check-a-new-spec)
   - [Debugging tools](#debugging-tools)
     - [Lookup a spec in `index.json`](#lookup-a-spec-in-indexjson)
+    - [Run tests](#run-tests)
     - [Build a restricted set of specs](#build-a-restricted-set-of-specs)
-    - [Build a diff of `index.json`](#build-a-diff-of-indexjson)
-  - [Tests](#tests)
   - [How to release a new version](#how-to-release-a-new-version)
 
 
@@ -680,9 +680,12 @@ in patch releases.
 
 ## How to add/update/delete a spec
 
-If you believe that a spec should be added, modified, or removed from the list,
-or if you would like to otherwise contribute to this project, please check
-[contributing instructions](CONTRIBUTING.md).
+If you believe that a spec should be added to the list, check the [selection
+criteria](#spec-selection-criteria) below and use the ["New spec" issue
+template](https://github.com/w3c/browser-specs/issues/new/choose).
+
+For other types of changes, please check [contributing
+instructions](CONTRIBUTING.md).
 
 
 ## Spec selection criteria
@@ -700,7 +703,7 @@ appear in the list. For instance, the list contains the HTML LS spec, but not
 HTML 4.01 or HTML 5).
 2. The spec is being developed by a well-known standardization or
 pre-standardization group. Today, this means a W3C Working Group or Community
-Group, the WHATWG, the IETF, the TC39 group or the Khronos Group.
+Group, the WHATWG, the IETF, the TC39 group, the Khronos Group, the Alliance for Open Media (AOM), or ISO.
 4. The spec sits at the application layer or is "close to it". For instance,
 most IETF specs are likely out of scope, but some that are exposed to Web developers are in scope.
 5. The spec defines normative content (terms, CSS, IDL), or it contains
@@ -749,22 +752,23 @@ set to a valid [GitHub Personal Token](https://github.com/settings/tokens)
 (default read permissions are enough).
 
 Generation takes several minutes. See
-[Build a restricted set of specs](#build-a-restricted-set-of-specs) and
-[Build a diff of `index.json`](#build-a-diff-of-indexjson) below for
+[Build a restricted set of specs](#build-a-restricted-set-of-specs) below for
 incremental tools.
 
+### How to check a new spec
 
-### Tests
-
-To run all tests or to test a given module locally, use one of:
+To check whether a new spec can be added to the list, run:
 
 ```bash
-npm test
-npm test test/compute-shortname
+npx browser-specs build [url]
 ```
 
-Tests are run automatically on pull requests.
+See the command help for details:
 
+```bash
+npx browser-specs --help
+npx browser-specs build --help
+```
 
 ### Debugging tools
 
@@ -790,52 +794,29 @@ node index.js https://w3c.github.io/presentation-api/
 contain the actual list of specifications.
 
 
+### Run tests
+
+To run all tests or to test a given module locally, use one of:
+
+```bash
+npm test
+npm test test/compute-shortname
+```
+
+Tests are run automatically on pull requests.
+
+
 #### Build a restricted set of specs
 
-The `src/build-index.js` script can take as parameters:
-
-1. A JSON file to use as initial list of specs. Defaults to `specs.json`
-2. The name of the index file to create. Defaults to `index.json`
-
-For instance, supposing that you have a local `test.json` file that contains a
-subset of `specs.json`, you can generate the index file for that file through:
+The `npx browser-specs build` command can be used to build a spec, or a series
+of changes made to `specs.json`, see the command help for details:
 
 ```bash
-node src/build-index.js test.json test-index.json
+npx browser-specs --help
+npx browser-specs build --help
 ```
 
-
-#### Build a diff of `index.json`
-
-Before you commit make changes to `specs.json`, you may want to test that these
-changes will create the right information in `index.json`. Generating the whole
-`index.json` file takes several minutes. The `src/build-diff.js` allows you to
-only generate the index entries that match the changes made in `specs.json`.
-The tool takes three parameters:
-
-1. The name of the Git reference to use to retrieve the version of `specs.json`
-that you would like to test. This can be any Git reference, such as `HEAD`,
-`HEAD~1` or a commit ID. Additionally, this parameter can take the value
-`working` to target the uncommitted version of the `specs.json` file in your
-working folder. Defaults to `working`.
-2. The name of the Git reference to use as basis for the comparison. This can
-again be any Git reference such as `HEAD`, `HEAD~1` or a commit ID. This cannot
-be `working` though. Defaults to `HEAD`.
-3. The type of result that you would like to get. Value can either be `diff` to
-return a JSON object that lists generated entries under `added`, `updated` and
-`deleted` properties; or `full` to return the result of merging the changes in
-the base version of the `index.json` file. Defaults to `diff`.
-
-For instance, let's say that you made some changes to your local `specs.json`
-file, which you have not committed yet, the following command will return the
-entries that these changes would generate (parameters may be omitted since they
-match the default values):
-
-```bash
-node src/build-diff.js working HEAD diff
-```
-
-This could return something like (output truncated to better show the outline):
+The command will report the changes to `index.json` that the tested updates would trigger, for instance (output truncated to better show the outline):
 
 ```json
 {
@@ -865,20 +846,6 @@ This could return something like (output truncated to better show the outline):
   ]
 }
 ```
-
-If you rather wanted to update your local version of `index.json` so as to run a
-`git diff` command afterwards to spot differences more easily, you could run:
-
-```bash
-node src/build-diff.js working HEAD full > index.json
-git diff index.json
-```
-
-**Important:** The script only generates the new information for specs that
-have changed in `specs.json`. A full build of `index.json` could bring further
-updates to other entries if spec info has changed in the meantime. The script
-is only intended to be used for debugging to assess changes in the initial list
-of specs.
 
 
 ### How to release a new version

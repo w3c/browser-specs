@@ -5,8 +5,9 @@
  * Note: The specs.json file may still need to be linted, and that's all fine!
  */
 
+// Tests may run against a test version of the specs file
+const specs = require(process.env.testSpecs ?? "../specs.json");
 const assert = require("assert");
-const specs = require("../specs.json");
 const schema = require("../schema/specs.json");
 const dfnsSchema = require("../schema/definitions.json");
 const computeInfo = require("../src/compute-shortname.js");
@@ -106,8 +107,8 @@ function check(specs) {
 }
 
 
-describe("Input list", () => {
-  describe("JSON schema", () => {
+describe("The `specs.json` list", () => {
+  describe("has a JSON schema which", () => {
     it("is valid", () => {
       const isSchemaValid = ajv.validateSchema(schema);
       assert.ok(isSchemaValid);
@@ -144,80 +145,77 @@ describe("Input list", () => {
     });
   });
 
+  it("respects the JSON schema", () => {
+    assert.strictEqual(check(specs), 'No errors');
+  });
 
-  describe("specs.json", () => {
-    it("respects the JSON schema", () => {
-      assert.strictEqual(check(specs), 'No errors');
-    });
+  it("only points at valid URLs", () => {
+    specs.forEach(spec => (typeof spec === "string") ?
+        new URL(spec.split(" ")[0]).toString() : null);
+    assert.ok(true);
+  })
 
-    it("only points at valid URLs", () => {
-      specs.forEach(spec => (typeof spec === "string") ?
-          new URL(spec.split(" ")[0]).toString() : null);
-      assert.ok(true);
-    })
+  it("only contains specs for which a shortname can be generated", () => {
+    // Convert entries to spec objects and compute shortname
+    const specsWithoutShortname = specs2objects(specs)
+      .map(spec => Object.assign({}, spec, computeInfo(spec.shortname || spec.url, spec.forkOf)))
+      .filter(spec => !spec.shortname);
 
-    it("only contains specs for which a shortname can be generated", () => {
-      // Convert entries to spec objects and compute shortname
-      const specsWithoutShortname = specs2objects(specs)
-        .map(spec => Object.assign({}, spec, computeInfo(spec.shortname || spec.url, spec.forkOf)))
-        .filter(spec => !spec.shortname);
+    // No exception thrown? That means we're good!
+    // We'll just check that there aren't any spec with an empty name and report
+    // the first one (That should never happen since computeInfo would throw but
+    // better be safe)
+    assert.strictEqual(specsWithoutShortname[0], undefined);
+  });
 
-      // No exception thrown? That means we're good!
-      // We'll just check that there aren't any spec with an empty name and report
-      // the first one (That should never happen since computeInfo would throw but
-      // better be safe)
-      assert.strictEqual(specsWithoutShortname[0], undefined);
-    });
+  it("does not have a delta spec without a previous full spec", () => {
+    const fullPrevious = (spec, list) => {
+      const previous = list.find(s => s.shortname === spec.seriesPrevious);
+      if (previous && previous.seriesComposition && previous.seriesComposition !== "full") {
+        return fullPrevious(previous, list);
+      }
+      return previous;
+    };
+    const deltaWithoutFull = specs2LinkedList(specs)
+      .filter((s, _, list) => s.seriesComposition === "delta" && !fullPrevious(s, list));
+    assert.strictEqual(deltaWithoutFull[0], undefined);
+  });
 
-    it("does not have a delta spec without a previous full spec", () => {
-      const fullPrevious = (spec, list) => {
-        const previous = list.find(s => s.shortname === spec.seriesPrevious);
-        if (previous && previous.seriesComposition && previous.seriesComposition !== "full") {
-          return fullPrevious(previous, list);
-        }
-        return previous;
-      };
-      const deltaWithoutFull = specs2LinkedList(specs)
-        .filter((s, _, list) => s.seriesComposition === "delta" && !fullPrevious(s, list));
-      assert.strictEqual(deltaWithoutFull[0], undefined);
-    });
+  it("does not have a delta spec flagged as 'current'", () => {
+    const deltaCurrent = specs2LinkedList(specs)
+      .filter(s => s.forceCurrent && s.seriesComposition === "delta");
+    assert.strictEqual(deltaCurrent[0], undefined);
+  });
 
-    it("does not have a delta spec flagged as 'current'", () => {
-      const deltaCurrent = specs2LinkedList(specs)
-        .filter(s => s.forceCurrent && s.seriesComposition === "delta");
-      assert.strictEqual(deltaCurrent[0], undefined);
-    });
+  it("does not have a fork spec flagged as 'current'", () => {
+    const forkCurrent = specs2LinkedList(specs)
+      .filter(s => s.forceCurrent && s.forkOf);
+    assert.strictEqual(forkCurrent[0], undefined);
+  });
 
-    it("does not have a fork spec flagged as 'current'", () => {
-      const forkCurrent = specs2LinkedList(specs)
-        .filter(s => s.forceCurrent && s.forkOf);
-      assert.strictEqual(forkCurrent[0], undefined);
-    });
+  it("has only one spec flagged as 'current' per series shortname", () => {
+    const linkedList = specs2LinkedList(specs);
+    const problematicCurrent = linkedList
+      .filter(s => s.forceCurrent)
+      .filter(s => s !== linkedList.find(p =>
+        p.series.shortname === s.series.shortname && p.forceCurrent));
+    assert.strictEqual(problematicCurrent[0], undefined);
+  });
 
-    it("has only one spec flagged as 'current' per series shortname", () => {
-      const linkedList = specs2LinkedList(specs);
-      const problematicCurrent = linkedList
-        .filter(s => s.forceCurrent)
-        .filter(s => s !== linkedList.find(p =>
-          p.series.shortname === s.series.shortname && p.forceCurrent));
-      assert.strictEqual(problematicCurrent[0], undefined);
-    });
+  it("does not have a spec with a 'fork' seriesComposition property", () => {
+    const wrong = specs.find(s => s.seriesComposition === "fork");
+    assert.strictEqual(wrong, undefined);
+  });
 
-    it("does not have a spec with a 'fork' seriesComposition property", () => {
-      const wrong = specs.find(s => s.seriesComposition === "fork");
-      assert.strictEqual(wrong, undefined);
-    });
+  it("does not have a 'delta fork' spec", () => {
+    const wrong = specs.find(s => s.forkOf && s.seriesComposition === "delta");
+    assert.strictEqual(wrong, undefined);
+  });
 
-    it("does not have a 'delta fork' spec", () => {
-      const wrong = specs.find(s => s.forkOf && s.seriesComposition === "delta");
-      assert.strictEqual(wrong, undefined);
-    });
-
-    it("only has fork specs that reference existing specs", () => {
-      const linkedList = specs2LinkedList(specs);
-      const forkWithoutFull = linkedList.filter((s, _, list) => s.forkOf &&
-        !linkedList.find(spec => spec.shortname === s.forkOf));
-      assert.strictEqual(forkWithoutFull[0], undefined);
-    });
+  it("only has fork specs that reference existing specs", () => {
+    const linkedList = specs2LinkedList(specs);
+    const forkWithoutFull = linkedList.filter((s, _, list) => s.forkOf &&
+      !linkedList.find(spec => spec.shortname === s.forkOf));
+    assert.strictEqual(forkWithoutFull[0], undefined);
   });
 });

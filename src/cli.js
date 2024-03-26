@@ -341,7 +341,8 @@ Examples:
       for (const listType of ['monitor', 'ignore']) {
         const list = dataLists[listType];
         for (const repo of Object.keys(list.repos)) {
-          if (spec.nightly.repository === `https://github.com/${repo}`) {
+          const githubRepo = `https://github.com/${repo}`.toLowerCase();
+          if (spec.nightly?.repository?.toLowerCase() === githubRepo) {
             delete list.repos[repo];
             await fs.writeFile(
               dataFiles[listType],
@@ -353,9 +354,10 @@ Examples:
           }
         }
         for (const url of Object.keys(list.specs)) {
-          if (spec.url === url ||
-              spec.nightly?.url === url ||
-              spec.release?.url === url) {
+          const lurl = url.toLowerCase();
+          if (spec.url.toLowerCase() === lurl ||
+              spec.nightly?.url?.toLowerCase() === lurl ||
+              spec.release?.url?.toLowerCase() === lurl) {
             delete list.specs[url];
             await fs.writeFile(
               dataFiles[listType],
@@ -441,9 +443,11 @@ Examples:
     const list = dataLists.monitor;
     const file = dataFiles.monitor;
     const lastreviewed = (new Date()).toISOString().substring(0, 10);
+    const lurl = url.toLowerCase();
     if (url.match(/^[^\/]+\/[^\/]+$/)) {
       for (const repo of Object.keys(list.repos)) {
-        if (url === repo) {
+        const lrepo = repo.toLowerCase();
+        if (lurl === lrepo) {
           console.log(`The repository ${url} is already in the monitor list`);
           return;
         }
@@ -455,7 +459,8 @@ Examples:
     }
     else {
       for (const spec of Object.keys(list.specs)) {
-        if (url === spec) {
+        const lspec = spec.toLowerCase();
+        if (lurl === lspec) {
           console.log(`The spec ${url} is already in the monitor list`);
           return;
         }
@@ -511,9 +516,11 @@ Examples:
 
     const list = dataLists.ignore;
     const file = dataFiles.ignore;
+    const lurl = url.toLowerCase();
     if (url.match(/^[^\/]+\/[^\/]+$/)) {
       for (const repo of Object.keys(list.repos)) {
-        if (url === repo) {
+        const lrepo = repo.toLowerCase();
+        if (lurl === lrepo) {
           console.log(`The repository ${url} is already in the ignore list`);
           return;
         }
@@ -522,7 +529,8 @@ Examples:
     }
     else {
       for (const spec of Object.keys(list.specs)) {
-        if (url === spec) {
+        const lspec = spec.toLowerCase();
+        if (lurl === lspec) {
           console.log(`The spec ${url} is already in the ignore list`);
           return;
         }

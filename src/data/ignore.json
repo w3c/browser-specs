@@ -80,9 +80,6 @@
     "w3c/sparql-new": {
       "comment": "group note and not targeted at browsers"
     },
-    "WICG/close-watcher": {
-      "comment": "merged into HTML"
-    },
     "WICG/discourse-archive": {
       "comment": "not a spec"
     },
@@ -372,9 +369,6 @@
     },
     "https://tc39.es/proposal-regexp-legacy-features/": {
       "comment": "no proper spec, legacy"
-    },
-    "https://tc39.es/proposal-resizablearraybuffer/": {
-      "comment": "Integrated in ECMAScript"
     },
     "https://tc39.es/proposal-hashbang/": {
       "comment": "not meant for browsers environments"

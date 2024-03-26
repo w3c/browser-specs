@@ -38,6 +38,13 @@ function canonicalizeGhUrl(r) {
   if (url.pathname.lastIndexOf('/') === 0 && url.pathname.length > 1) {
       url.pathname += '/';
   }
+
+  // Exceptionally, the homepage URL may link to a fragment within a spec. One
+  // example at the time of writing is Close Watcher to redirect to the HTML
+  // spec: https://github.com/WICG/close-watcher
+  if (url.hash) {
+    url.hash = '';
+  }
   return {repo: r.owner.login + '/' + r.name, spec: url.toString()};
 }
 
@@ -71,10 +78,16 @@ const hasMoreRecentLevel = (s, url, loose) => {
     return false;
   }
 };
-const hasUntrackedURL = ({spec: url}) => !specs.find(s => s.nightly?.url.startsWith(trimSlash(url))
-                                                    || (s.release && trimSlash(s.release.url) === trimSlash(url)))
+const hasUntrackedURL = ({spec: url}) => {
+  // Compare URLs case-insentively as we sometimes end up with different
+  // casing (and difference is usually not significant)
+  const lurl = trimSlash(url.toLowerCase());
+  return !specs.find(s => s.nightly?.url?.toLowerCase()?.startsWith(lurl)
+                       || (s.release && trimSlash(s.release.url.toLowerCase()) === lurl)
+                       || (s.nightly?.pages && s.nightly.pages.find(u => trimSlash(u.toLowerCase()) === lurl)))
       && !specs.find(s => hasMoreRecentLevel(s, url, url.match(/\/drafts\./) && !url.match(/\/w3\.org/) // Because CSS specs have editors draft with and without levels, we look loosely for more recent levels when checking with editors draft
                                             ));
+};
 const hasUnknownTrSpec = ({spec: url}) => !specs.find(s => s.release && trimSlash(s.release.url) === trimSlash(url)) && !specs.find(s => hasMoreRecentLevel(s,url));
 
 const eitherFilter = (f1, f2) => value => f1(value) || f2(value);

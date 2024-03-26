@@ -25,6 +25,30 @@ describe("Ignore/Monitor lists", () => {
       const isValid = validate(list, { format: "full" });
       assert.strictEqual(validate.errors, null);
     });
+
+    it("does not contain repos that are in the main list", () => {
+      const list = require("../src/data/ignore.json");
+      const main = require("../index.json");
+      const wrongRepos = Object.keys(list.repos).filter(repo => {
+        const githubRepo = `https://github.com/${repo}`.toLowerCase();
+        return main.find(spec =>
+          spec.nightly?.repository?.toLowerCase() === githubRepo);
+      });
+      assert.deepStrictEqual(wrongRepos, []);
+    });
+
+    it("does not contain specs that are in the main list", () => {
+      const list = require("../src/data/ignore.json");
+      const main = require("../index.json");
+      const wrongSpecs = Object.keys(list.specs).filter(url => {
+        const lurl = url.toLowerCase();
+        return main.find(spec =>
+          spec.url.toLowerCase() === lurl ||
+          spec.nightly?.url?.toLowerCase() === lurl ||
+          spec.release?.url?.toLowerCase() === lurl);
+      });
+      assert.deepStrictEqual(wrongSpecs, []);
+    });
   });
 
   describe("The monitor list", () => {
@@ -45,6 +69,30 @@ describe("Ignore/Monitor lists", () => {
       const wrongSpecs = Object.entries(list.specs)
         .filter(([key, value]) => !value.lastreviewed)
         .map(([key, value]) => key);
+      assert.deepStrictEqual(wrongSpecs, []);
+    });
+
+    it("does not contain repos that are in the main list", () => {
+      const list = require("../src/data/monitor.json");
+      const main = require("../index.json");
+      const wrongRepos = Object.keys(list.repos).filter(repo => {
+        const githubRepo = `https://github.com/${repo}`.toLowerCase();
+        return main.find(spec =>
+          spec.nightly?.repository?.toLowerCase() === githubRepo);
+      });
+      assert.deepStrictEqual(wrongRepos, []);
+    });
+
+    it("does not contain specs that are in the main list", () => {
+      const list = require("../src/data/monitor.json");
+      const main = require("../index.json");
+      const wrongSpecs = Object.keys(list.specs).filter(url => {
+        const lurl = url.toLowerCase();
+        return main.find(spec =>
+          spec.url.toLowerCase() === lurl ||
+          spec.nightly?.url?.toLowerCase() === lurl ||
+          spec.release?.url?.toLowerCase() === lurl);
+      });
       assert.deepStrictEqual(wrongSpecs, []);
     });
   });

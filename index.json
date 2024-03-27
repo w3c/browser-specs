@@ -7480,7 +7480,9 @@
     },
     "source": "spec",
     "shortTitle": "Close Watcher API",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -10056,6 +10058,40 @@
       "browser"
     ],
     "standing": "pending"
+  },
+  {
+    "url": "https://wicg.github.io/WebApiDevice/device_attributes/",
+    "seriesComposition": "full",
+    "shortname": "device-attributes",
+    "series": {
+      "shortname": "device-attributes",
+      "currentSpecification": "device-attributes",
+      "title": "Device Attributes API",
+      "shortTitle": "Device Attributes API",
+      "nightlyUrl": "https://wicg.github.io/WebApiDevice/device_attributes/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/WebApiDevice/device_attributes/",
+      "status": "Draft Community Group Report",
+      "sourcePath": "device_attributes/index.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/WebApiDevice",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "title": "Device Attributes API",
+    "source": "spec",
+    "shortTitle": "Device Attributes API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/WebApiDevice/managed_config/",

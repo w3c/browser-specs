@@ -6514,6 +6514,40 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
+    "seriesComposition": "full",
+    "shortname": "passkey-endpoints",
+    "series": {
+      "shortname": "passkey-endpoints",
+      "currentSpecification": "passkey-endpoints",
+      "title": "A Well-Known URL for Passkey Endpoints",
+      "shortTitle": "A Well-Known URL for Passkey Endpoints",
+      "nightlyUrl": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
+      "status": "Editor's Draft",
+      "sourcePath": "passkey-endpoints.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webappsec-passkey-endpoints",
+      "filename": "passkey-endpoints.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec/"
+      }
+    ],
+    "title": "A Well-Known URL for Passkey Endpoints",
+    "source": "spec",
+    "shortTitle": "A Well-Known URL for Passkey Endpoints",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/webdriver-bidi/",
     "seriesComposition": "full",
     "shortname": "webdriver-bidi",

@@ -9776,8 +9776,8 @@
     "series": {
       "shortname": "trust-token-api",
       "currentSpecification": "trust-token-api",
-      "title": "Unicorn! · GitHub",
-      "shortTitle": "Unicorn! · GitHub",
+      "title": "Private State Token API",
+      "shortTitle": "Private State Token API",
       "nightlyUrl": "https://wicg.github.io/trust-token-api/"
     },
     "organization": "W3C",
@@ -9789,15 +9789,15 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/trust-token-api/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/trust-token-api",
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "Unicorn! · GitHub",
+    "title": "Private State Token API",
     "source": "spec",
-    "shortTitle": "Unicorn! · GitHub",
+    "shortTitle": "Private State Token API",
     "categories": [
       "browser"
     ],

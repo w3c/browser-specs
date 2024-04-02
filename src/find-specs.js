@@ -284,7 +284,7 @@ async function findSpecs() {
 }
 
 
-function toInt(value) {
+function parseMaxOption(value) {
   const parsedValue = parseInt(value, 10);
   if (isNaN(parsedValue)) {
     throw new Error('The `--max` option value must be a number.');
@@ -302,7 +302,7 @@ program
   .version(version)
   .description('Find candidate specs that could be worth adding to the main list (`specs.json`).')
   .option('-g, --github', 'report candidates to the `w3c/browser-specs` GitHub repository. The command will create one issue per candidate spec.')
-  .option('-m, --max <number>', 'set the maximum number of issues to create. The option is only meaningful when the `--github` option is set. Default value is 5. Set the option to 0 to report all candidate specs.', toInt, 5)
+  .option('-m, --max <number>', 'set the maximum number of issues to create. The option is only meaningful when the `--github` option is set. Default value is 5. Set the option to 0 to report all candidate specs.', parseMaxOption, 5)
   .option('-r, --repos', 'report candidate repositories with no published content as well.')
   .addHelpText('after', `
 Output:
@@ -367,9 +367,7 @@ Examples:
         // Important: the issue body must match the `suggest-spec.yml` issue
         // template. There is unfortunately no easy way to create an issue out
         // of such a template directly.
-        const title = candidate.shortname ?
-          `Add ${candidate.shortname}` :
-          `Add ${candidate.spec}`;
+        const title = `Add ${candidate.shortname ?? candidate.spec}`;
         const bodyFile = path.join(__dirname, "..", "__issue.md");
         const comments = [
           `- See repository: [${candidate.repo}](https://github.com/${candidate.repo})`,

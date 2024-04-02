@@ -28,7 +28,7 @@
     "ajv-formats": "^2.1.1",
     "commander": "^12.0.0",
     "mocha": "^10.4.0",
-    "puppeteer": "^22.6.1",
+    "puppeteer": "^22.6.2",
     "rimraf": "^5.0.5"
   }
 }

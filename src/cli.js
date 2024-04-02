@@ -142,6 +142,122 @@ function splitIssueBodyIntoSections(body) {
 }
 
 
+/**
+ * Return a program handler for the "monitor/ignore" actions. Both actions
+ * are extremely similar, this avoids code duplication.
+ */
+function getMonitorOrIgnoreHandler(action) {
+  if (action !== 'monitor' && action !== 'ignore') {
+    throw new Error(`Unknown action ${action}`);
+  }
+  return async function (what, comment, options) {
+    // Set implicit options
+    if (options.pr) {
+      options.commit = true;
+    }
+
+    // Function used to report on progress
+    const logProgress = options.quiet ? function () {} : console.warn;
+
+    // Retrieve the actual parameters from GitHub if "what" is an issue number
+    let issueNumber = null;
+    if (what.match(/^\d+$/)) {
+      logProgress(`Retrieve issue info from GitHub...`);
+      issueNumber = what;
+      let issueStr = null;
+      try {
+        issueStr = execSync(`gh issue view ${what} --json body,state,title,comments`, execParams);
+      }
+      catch (err) {
+        console.log(`Could not retrieve issue ${issueNumber}.`);
+        process.exit(1);
+      }
+      const issue = JSON.parse(issueStr);
+      const sections = splitIssueBodyIntoSections(issue.body);
+      const urlSection = sections.find(section => section.title === 'URL');
+      if (!urlSection) {
+        console.log(`Issue #${issueNumber} does not follow the expected structure.`);
+        process.exit(1);
+      }
+      what = urlSection.value;
+
+      if (comment.match(/^IC_[a-zA-Z0-9]+$/)) {
+        const issueComment = issue.comments.find(c => c.id === comment);
+        if (!issueComment) {
+          console.log(`Comment ${comment} not found in issue #${issueNumber}.`);
+          process.exit(1);
+        }
+        const match = issueComment.body.match(
+          /@browser-specs-bot (?:monitor|ignore)(?:\s+as|because|for|since)?\s+(.*)/is);
+        if (!match) {
+          console.log(`Comment ${comment} in issue #${issueNumber} does not contain the expected command.`);
+          process.exit(1);
+        }
+        comment = match[1].replace(/\n/g, ' ').replace(/\s{2,}/g, ' ').trim();
+      }
+      logProgress(`Retrieve issue info from GitHub... done`);
+    }
+
+    logProgress(`Update ${action} list...`);
+    const list = dataLists[action];
+    const file = dataFiles[action];
+    const lastreviewed = (new Date()).toISOString().substring(0, 10);
+    const lwhat = what.toLowerCase();
+    if (what.match(/^[^\/]+\/[^\/]+$/)) {
+      for (const repo of Object.keys(list.repos)) {
+        const lrepo = repo.toLowerCase();
+        if (lwhat === lrepo) {
+          console.log(`The repository ${what} is already in the ${action} list`);
+          return;
+        }
+      }
+      list.repos[what] = { comment };
+      if (action === 'monitor') {
+        list.repos[what].lastreviewed = lastreviewed;
+      }
+    }
+    else {
+      for (const spec of Object.keys(list.specs)) {
+        const lspec = spec.toLowerCase();
+        if (lwhat === lspec) {
+          console.log(`The spec ${what} is already in the ${action} list`);
+          return;
+        }
+      }
+      list.specs[what] = { comment };
+      if (action === 'monitor') {
+        list.specs[what].lastreviewed = lastreviewed;
+      }
+    }
+    await fs.writeFile(file, JSON.stringify(list, null, 2), 'utf8');
+    logProgress(`Update ${action} list... done`);
+
+    const branchName = action + '-' + (new Date()).toISOString().replace(/[^\d]/g, '');
+    if (options.commit) {
+      // TODO: make sure that there aren't any pending local changes that
+      // would end up in the commit
+      logProgress(`Commit changes...`);
+      const commitAction = action.charAt(0).toUpperCase() + action.slice(1);
+      const linkToIssue = issueNumber ? ` -m "Close #${issueNumber}."` : '';
+      execSync(`git checkout -b ${branchName}`, execParams);
+      execSync(`git add src/data/${action}.json`, execParams);
+      execSync(`git commit -m "${commitAction} ${what}"${linkToIssue}`, execParams);
+      logProgress(`- changes committed to branch ${branchName}`);
+      logProgress(`Commit changes... done`);
+    }
+
+    if (options.pr) {
+      logProgress(`Create a PR...`);
+      execSync(`git push origin ${branchName}`);
+      execSync(`gh pr create --fill`, execParams);
+      logProgress(`Create a PR... done`);
+    }
+
+    console.log('Done!');
+  }
+}
+
+
 /*****************************************************************************
  * Main loop, creates the CLI using Commander.
  *****************************************************************************/
@@ -237,12 +353,13 @@ Examples:
     let issueNumber = null;
     if (what.match(/^\d+$/)) {
       issueNumber = what;
+      what = null;
       let issueStr = null;
       try {
-        issueStr = execSync(`gh issue view ${what} --json body,state,title`, execParams);
+        issueStr = execSync(`gh issue view ${issueNumber} --json body,state,title`, execParams);
       }
       catch (err) {
-        console.log(`Could not retrieve issue ${issueNumber}.`);
+        console.log(`Could not retrieve issue #${issueNumber}.`);
         process.exit(1);
       }
       // Note: I wish input IDs set in the YAML template would appear somewhere
@@ -267,6 +384,10 @@ Examples:
             return;
           }
         }
+      }
+      if (!what) {
+        console.log(`Issue #${issueNumber} does not follow the expected structure.`);
+        process.exit(1);
       }
     }
 
@@ -422,8 +543,8 @@ program
   .command('monitor')
   .summary('add the given spec to the monitor list')
   .description('Add the given spec to the monitor list with the provided rationale, unless the spec is already in `specs.json` or in the ignore list.')
-  .argument('<url>', 'canonical URL of the spec')
-  .argument('<comment>', 'rationale for monitoring the spec')
+  .argument('<what>', 'what to monitor. The argument may either be a `<url>` that represents the canonical URL of the spec to monitor, a repo name under the form `owner/repo`, or an issue number of the w3c/browser-specs repo that represents a spec suggestion and follows the expected structure. The `gh` CLI command must be available if `<what>` is an issue number.')
+  .argument('<comment>', 'rationale for monitoring the spec. If `<what>` is an issue number, the rationale may also be a ID of the comment that instructs `@browser-specs-bot` to monitor the spec with rationale.')
   .option('-c, --commit', 'commit potential updates to a dedicated branch and switch to that branch. The `git` CLI command must be available.')
   .option('-p, --pr', 'create a pull request with updates made to the list. This option implies the `--commit` option. The `git` and `gh` CLI commands must be available.')
   .addHelpText('after', `
@@ -434,72 +555,18 @@ Examples:
   Monitor a spec and commit the updates (this will fail because the spec is in the main list):
   $ browser-specs monitor https://www.w3.org/TR/webgpu/ "The future is now" --commit
 `)
-  .action(async (url, comment, options) => {
-    // Set implicit options
-    if (options.pr) {
-      options.commit = true;
-    }
-
-    const list = dataLists.monitor;
-    const file = dataFiles.monitor;
-    const lastreviewed = (new Date()).toISOString().substring(0, 10);
-    const lurl = url.toLowerCase();
-    if (url.match(/^[^\/]+\/[^\/]+$/)) {
-      for (const repo of Object.keys(list.repos)) {
-        const lrepo = repo.toLowerCase();
-        if (lurl === lrepo) {
-          console.log(`The repository ${url} is already in the monitor list`);
-          return;
-        }
-      }
-      list.repos[url] = {
-        comment,
-        lastreviewed
-      };
-    }
-    else {
-      for (const spec of Object.keys(list.specs)) {
-        const lspec = spec.toLowerCase();
-        if (lurl === lspec) {
-          console.log(`The spec ${url} is already in the monitor list`);
-          return;
-        }
-      }
-      list.specs[url] = {
-        comment,
-        lastreviewed
-      };
-    }
-    await fs.writeFile(file, JSON.stringify(list, null, 2), 'utf8');
-
-    const branchName = 'monitor-' + (new Date()).toISOString().replace(/[^\d]/g, '');
-    if (options.commit) {
-      // TODO: make sure that there aren't any pending local changes that
-      // would end up in the commit
-      execSync(`git checkout -b ${branchName}`, execParams);
-      execSync(`git add src/data/monitor.json`, execParams);
-      execSync(`git commit -m "Monitor ${url}"`, execParams);
-      console.log('Changes committed in branch:');
-      console.log(branchName);
-    }
-
-    if (options.pr) {
-      execSync(`git push origin ${branchName}`);
-      execSync(`gh pr create --fill`, execParams);
-    }
-
-    console.log('Done!');
-  });
+  .action(getMonitorOrIgnoreHandler('monitor'));
 
 
 program
   .command('ignore')
   .summary('add the given spec to the ignore list')
   .description('Add the given spec to the ignore list with the provided rationale, unless the spec is already in `specs.json` or in the ignore list.')
-  .argument('<url>', 'canonical URL of the spec')
-  .argument('<comment>', 'rationale for ignoring the spec')
+  .argument('<what>', 'what to monitor. The argument may either be a `<url>` that represents the canonical URL of the spec to monitor, a repo name under the form `owner/repo`, or an issue number of the w3c/browser-specs repo that represents a spec suggestion and follows the expected structure. The `gh` CLI command must be available if `<what>` is an issue number.')
+  .argument('<comment>', 'rationale for ignoring the spec. If `<what>` is an issue number, the rationale may also be a ID of the comment that instructs `@browser-specs-bot` to monitor the spec with rationale.')
   .option('-c, --commit', 'commit potential updates to a dedicated branch and switch to that branch. The `git` CLI command must be available.')
   .option('-p, --pr', 'create a pull request with updates made to the list. This option implies the `--commit` option. The `git` and `gh` CLI commands must be available.')
+  .option('-q, --quiet', 'do not report progress to the console. Note the command may still report a couple of warnings, because because!')
   .addHelpText('after', `
 Examples:
   Ignore a spec:
@@ -508,54 +575,6 @@ Examples:
   Ignore a spec and commit the updates (this will fail because the spec is in the main list):
   $ browser-specs ignore https://www.w3.org/TR/webgpu/ "The future is now" --commit
 `)
-  .action(async (url, comment, options) => {
-    // Set implicit options
-    if (options.pr) {
-      options.commit = true;
-    }
-
-    const list = dataLists.ignore;
-    const file = dataFiles.ignore;
-    const lurl = url.toLowerCase();
-    if (url.match(/^[^\/]+\/[^\/]+$/)) {
-      for (const repo of Object.keys(list.repos)) {
-        const lrepo = repo.toLowerCase();
-        if (lurl === lrepo) {
-          console.log(`The repository ${url} is already in the ignore list`);
-          return;
-        }
-      }
-      list.repos[url] = { comment };
-    }
-    else {
-      for (const spec of Object.keys(list.specs)) {
-        const lspec = spec.toLowerCase();
-        if (lurl === lspec) {
-          console.log(`The spec ${url} is already in the ignore list`);
-          return;
-        }
-      }
-      list.specs[url] = { comment };
-    }
-    await fs.writeFile(file, JSON.stringify(list, null, 2), 'utf8');
-
-    const branchName = 'ignore-' + (new Date()).toISOString().replace(/[^\d]/g, '');
-    if (options.commit) {
-      // TODO: make sure that there aren't any pending local changes that
-      // would end up in the commit
-      execSync(`git checkout -b ${branchName}`, execParams);
-      execSync(`git add src/data/ignore.json`, execParams);
-      execSync(`git commit -m "Ignore ${url}"`, execParams);
-      console.log('Changes committed in branch:');
-      console.log(branchName);
-    }
-
-    if (options.pr) {
-      execSync(`git push origin ${branchName}`);
-      execSync(`gh pr create --fill`, execParams);
-    }
-
-    console.log('Done!');
-  });
+  .action(getMonitorOrIgnoreHandler('ignore'));
 
 program.parseAsync(process.argv);

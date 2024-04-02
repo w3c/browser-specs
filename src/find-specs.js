@@ -1,9 +1,12 @@
+#!/usr/bin/env node
 'use strict';
 const fs = require("fs");
-
-const core = require('@actions/core');
-
 const puppeteer = require('puppeteer');
+const path = require("path");
+const { Command } = require("commander");
+const { execSync } = require("child_process");
+const { version } = require(path.join(__dirname, "..", "package.json"));
+const execParams = { cwd: path.join(__dirname, '..') };
 
 const computeShortname = require("./compute-shortname");
 
@@ -97,7 +100,7 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
   if (ok) return {...candidate, spec: url};
 });
 
-(async function() {
+async function findSpecs() {
   let candidates = [];
 
   const {groups, repos} = await fetch("https://w3c.github.io/validate-repos/report.json").then(r => r.json());
@@ -211,7 +214,6 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
                                  .filter(hasUntrackedURL)
                                  .filter(isInScope));
 
- 
   // Check for new CSS specs
   candidates = candidates.concat(cssSpecs.map(s => { return {repo: "w3c/csswg-drafts", spec: `https://drafts.csswg.org/${s}/`};})
                                  .filter(hasUntrackedURL)
@@ -254,26 +256,149 @@ const hasPublishedContent = (candidate) => fetch(candidate.spec).then(({ok, url}
     }
   }
   candidates = candidates.filter(candidate => !!candidate.spec);
-
-  const candidate_list = candidates.sort((c1, c2) => c1.spec.localeCompare(c2.spec))
-        .map(c => `- [ ] ${c.spec} from [${c.repo}](https://github.com/${c.repo})` + (c.impl.chrome ? ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` : '')).join("\n");
-  core.exportVariable("candidate_list", candidate_list);
-  console.log();
-  console.log(candidate_list);
-  if (monitorAdditions.length) {
-    const today = new Date().toJSON().slice(0, 10);
-    const monitored = monitorAdditions.map(({repo}) => `- [ ] [${repo}](https://github.com/${repo})`).join("\n");
-    core.exportVariable("monitor_list", monitored);
-    monitorAdditions.forEach(({repo}) => {
-      monitorList.repos[repo] = {
-        lastreviewed: today,
-        comment: "no published content yet"
-      };
-    });
-    fs.writeFileSync("./src/data/monitor.json", JSON.stringify(monitorList, null, 2));
-    console.log(monitored);
+  for (const candidate of candidates) {
+    try {
+      candidate.shortname = computeShortname(candidate.spec).shortname;
+    }
+    catch {}
   }
-})().catch(e => {
-  console.error(e);
-  process.exit(1);
-});
+  candidates.sort((c1, c2) => {
+    if (c1.shortname && c2.shortname) {
+      return c1.shortname.localeCompare(c2.shortname);
+    }
+    else if (c1.shortname) {
+      return -1;
+    }
+    else if (c2.shortname) {
+      return 1;
+    }
+    else {
+      return c1.spec.localeCompare(c2.spec);
+    }
+  });
+
+  return {
+    additions: candidates,
+    monitor: monitorAdditions
+  };
+}
+
+
+function parseMaxOption(value) {
+  const parsedValue = parseInt(value, 10);
+  if (isNaN(parsedValue)) {
+    throw new Error('The `--max` option value must be a number.');
+  }
+  return parsedValue;
+}
+
+
+/*****************************************************************************
+ * Main loop, create the CLI using Commander.
+ *****************************************************************************/
+const program = new Command();
+program
+  .name('find-specs')
+  .version(version)
+  .description('Find candidate specs that could be worth adding to the main list (`specs.json`).')
+  .option('-g, --github', 'report candidates to the `w3c/browser-specs` GitHub repository. The command will create one issue per candidate spec.')
+  .option('-m, --max <number>', 'set the maximum number of issues to create. The option is only meaningful when the `--github` option is set. Default value is 5. Set the option to 0 to report all candidate specs.', parseMaxOption, 5)
+  .option('-r, --repos', 'report candidate repositories with no published content as well.')
+  .addHelpText('after', `
+Output:
+  - The command reports a list of candidates for addition.
+  - Additionally, if the \`--github\` option is set, the command also reports these candidates as issues opened against the \`w3c/browser-specs\` repository.
+
+Notes:
+  - The command only creates an issue if there is no open issue that already suggests adding the spec.
+
+Examples:
+  $ find-specs
+  $ find-specs --github --max 3
+`)
+  .action(async (options) => {
+    const candidates = await findSpecs();
+    if (candidates.additions.length + candidates.monitor.length === 0) {
+      console.log('No candidate specs found');
+      return;
+    }
+
+    if (candidates.additions.length > 0) {
+      console.log("New candidate specs that may be worth adding:");
+      for (const c of candidates.additions) {
+        const specName = c.shortname ? `[${c.shortname}](${c.spec})` : c.spec;
+        const repoName = `[${c.repo}](https://github.com/${c.repo})`;
+        const chromeLink = c.impl?.chrome ?
+          ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` :
+          "";
+        console.log(`- ${specName} from ${repoName}${chromeLink}`);
+      }
+    }
+
+    if (options.repos && candidates.monitor.length > 0) {
+      if (candidates.additions.length > 0) {
+        console.log();
+      }
+      console.log("Non-monitored repositories without published content:");
+      for (const {repo} of candidates.monitor) {
+        console.log(`- [${repo}](https://github.com/${repo})`);
+      }
+    }
+
+    if (options.github) {
+      console.log();
+      try {
+        issuesStr = execSync(`gh issue list --label "new spec" --json body,number`);
+      }
+      catch (err) {
+        console.log(`Could not retrieve open issues from w3c/browser-specs repository.`);
+        process.exit(1);
+      }
+      const issues = JSON.parse(issuesStr);
+
+      let created = 0;
+      for (const candidate of candidates.additions) {
+        const issue = issues.find(issue => issue.body.includes(candidate.spec));
+        if (issue) {
+          // Skip as there's already an issue opened for that candidate spec
+          continue;
+        }
+
+        // Important: the issue body must match the `suggest-spec.yml` issue
+        // template. There is unfortunately no easy way to create an issue out
+        // of such a template directly.
+        const title = `Add ${candidate.shortname ?? candidate.spec}`;
+        const bodyFile = path.join(__dirname, "..", "__issue.md");
+        const comments = [
+          `- See repository: [${candidate.repo}](https://github.com/${candidate.repo})`,
+          candidate.impl.chrome ? `- [chrome status](${candidate.impl.chrome})` : null,
+          candidate.shortname ? `- Would-be shortname: \`${candidate.shortname}\`` : null
+        ].filter(comment => !!comment);
+        await fs.writeFile(
+          bodyFile,
+          `### URL
+
+${candidate.spec}
+
+### Rationale
+
+${comments.join("\n")}
+
+### Additional properties
+
+\`\`\`json
+{}
+\`\`\`
+`
+          , 'utf8');
+        execSync(`gh issue create --label "new spec" --title "${title}" --body-file "__issue.md"`, execParams);
+        await fs.rm(bodyFile, { force: true });
+        created++;
+        if (options.max > 0 && created > options.max) {
+          break;
+        }
+      }
+    }
+  });
+
+program.parseAsync(process.argv);

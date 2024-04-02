@@ -23,27 +23,6 @@ jobs:
       run: npm ci
 
     - name: Find new candidate specs
-      run: node src/find-specs.js # sets candidate_list env variable
-
-    - name: Report candidate specs in an issue
-      uses: JasonEtco/create-an-issue@v2
-      if: ${{ env.candidate_list }}
+      run: npx find-specs --github --repos
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        filename: .github/candidate-specs.md
-
-    - name: Report specs to monitor in a pull request
-      uses: peter-evans/create-pull-request@v5
-      if: ${{ env.monitor_list }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        title: Identify new monitored repos
-        commit-message: "List new repos to be monitored"
-        body: |
-          The following repos have been identified as possibly relevant:
-          ${{env.monitor_list}}
-        assignees: tidoust, dontcallmedom
-        branch: new-monitor
-        branch-suffix: timestamp
+        GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}

@@ -11,13 +11,13 @@ on:
 
 jobs:
   prepare:
-    name: Prepare update to specs.json
+    name: Create pull request if needed
     runs-on: ubuntu-latest
     # TODO: Check comment user permissions more thoroughly, for instance using
     # the REST API (see link below). This is going to be needed if we decide to
     # remove the PR step and have the bot merge directly to the `main` branch.
     # https://docs.github.com/en/rest/collaborators/collaborators?apiVersion=2022-11-28#get-repository-permissions-for-a-user
-    if: ${{ github.event.comment.author_association == 'MEMBER' && contains(github.event.comment.body, '@browser-specs-bot pr') }}
+    if: ${{ github.event.comment.author_association == 'MEMBER' && contains(github.event.comment.body, '@browser-specs-bot ') }}
     steps:
       - name: Setup node.js
         uses: actions/setup-node@v4
@@ -32,12 +32,33 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check suggested spec and create PR
+      - name: Setup git
         run: |
           git config user.name "browser-specs-bot"
           git config user.email "<>"
           git remote set-url --push origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
-          npx browser-specs build $NUMBER --pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+
+      - name: Add suggested spec to specs.json
+        if: ${{ contains(github.event.comment.body, '@browser-specs-bot pr') }}
+        run: npx browser-specs build $NUMBER --pr
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           NUMBER: ${{ github.event.issue.number }}
+
+      - name: Monitor suggested spec
+        if: ${{ contains(github.event.comment.body, '@browser-specs-bot monitor') }}
+        run: npx browser-specs monitor $NUMBER $COMMENT --pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+          COMMENT: ${{ github.event.comment.id }}
+
+      - name: Ignore suggested spec
+        if: ${{ contains(github.event.comment.body, '@browser-specs-bot ignore') }}
+        run: npx browser-specs ignore $NUMBER $COMMENT --pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+          COMMENT: ${{ github.event.comment.id }}

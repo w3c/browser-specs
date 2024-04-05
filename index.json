@@ -125,7 +125,7 @@
     "organization": "Alliance for Open Media",
     "nightly": {
       "url": "https://aomediacodec.github.io/av1-isobmff/",
-      "status": "Working Group Approved Draft",
+      "status": "Draft Deliverable",
       "alternateUrls": [],
       "repository": "https://github.com/AOMediaCodec/av1-isobmff",
       "sourcePath": "index.bs",
@@ -438,7 +438,7 @@
       "currentSpecification": "webp",
       "title": "WebP Image Format",
       "shortTitle": "WebP Image Format",
-      "nightlyUrl": "https://www.ietf.org/archive/id/draft-zern-webp-14.html"
+      "nightlyUrl": "https://www.ietf.org/archive/id/draft-zern-webp-15.html"
     },
     "organization": "IETF",
     "groups": [
@@ -448,10 +448,10 @@
       }
     ],
     "nightly": {
-      "url": "https://www.ietf.org/archive/id/draft-zern-webp-14.html",
+      "url": "https://www.ietf.org/archive/id/draft-zern-webp-15.html",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "filename": "draft-zern-webp-14.html"
+      "filename": "draft-zern-webp-15.html"
     },
     "title": "WebP Image Format",
     "source": "ietf",

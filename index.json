@@ -21031,6 +21031,10 @@
       {
         "name": "Devices and Sensors Working Group",
         "url": "https://www.w3.org/das/"
+      },
+      {
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -22526,6 +22530,10 @@
       {
         "name": "Devices and Sensors Working Group",
         "url": "https://www.w3.org/das/"
+      },
+      {
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {
@@ -25722,7 +25730,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/webnn/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {

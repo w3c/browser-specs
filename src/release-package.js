@@ -118,16 +118,16 @@ async function releasePackage(prNumber) {
 /*******************************************************************************
 Retrieve tokens from environment, prepare Octokit and kick things off
 *******************************************************************************/
-const GH_TOKEN = (_ => {
+const GITHUB_TOKEN = (_ => {
   try {
-    return require("../config.json").GH_TOKEN;
+    return require("../config.json").GITHUB_TOKEN;
   }
   catch {
     return "";
   }
-})() || process.env.GH_TOKEN;
-if (!GH_TOKEN) {
-  console.error("GH_TOKEN must be set to some personal access token as an env variable or in a config.json file");
+})() || process.env.GITHUB_TOKEN;
+if (!GITHUB_TOKEN) {
+  console.error("GITHUB_TOKEN must be set to some personal access token as an env variable or in a config.json file");
   process.exit(1);
 }
 
@@ -149,7 +149,7 @@ if (!NPM_TOKEN) {
 process.env.INPUT_TOKEN = "";
 
 const octokit = new Octokit({
-  auth: GH_TOKEN
+  auth: GITHUB_TOKEN
   //, log: console
 });
 

@@ -352,6 +352,7 @@ Examples:
       }
       catch (err) {
         console.log(`Could not retrieve open issues from w3c/browser-specs repository.`);
+        console.log(err);
         process.exit(1);
       }
       const issues = JSON.parse(issuesStr);

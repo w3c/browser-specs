@@ -27,12 +27,12 @@ jobs:
 
     - name: Build new index file
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run build
 
     - name: Test new index file
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         npm run test
 
@@ -57,12 +57,12 @@ jobs:
     - name: Create/Update pre-release PR for web-specs
       run: node src/prepare-release.js web-specs
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Create/Update pre-release PR for browser-specs
       run: node src/prepare-release.js browser-specs
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     # Following step runs even if a previous step failed to upload intermediary
     # build files

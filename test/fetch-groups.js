@@ -3,12 +3,12 @@ const fetchGroups = require("../src/fetch-groups.js");
 
 const githubToken = (function () {
   try {
-    return require("../config.json").GH_TOKEN;
+    return require("../config.json").GITHUB_TOKEN;
   }
   catch (err) {
     return null;
   }
-})() ?? process.env.GH_TOKEN;
+})() ?? process.env.GITHUB_TOKEN;
 
 describe("fetch-groups module (without API keys)", function () {
   // Tests may need to send network requests

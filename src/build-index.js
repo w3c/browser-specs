@@ -3,7 +3,7 @@
  * "specs.json" input file.
  *
  * The script will extract the github token it needs from a "config.json" file
- * in the root folder, which must exist and must contain a "GH_TOKEN" key.
+ * in the root folder or from a `GITHUB_TOKEN` environment variable.
  */
 
 const fs = require("fs").promises;
@@ -29,12 +29,12 @@ const fetchGroups = require("./fetch-groups.js");
 const throttle = require("./throttle");
 const githubToken = (_ => {
   try {
-    return require("../config.json").GH_TOKEN;
+    return require("../config.json").GITHUB_TOKEN;
   }
   catch {
     return null;
   }
-})() ?? process.env.GH_TOKEN;
+})() ?? process.env.GITHUB_TOKEN;
 
 
 async function sleep(ms) {

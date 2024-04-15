@@ -27,8 +27,8 @@ jobs:
 
       - name: Test
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ env.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ env.GITHUB_TOKEN }}
         run: |
           npm run test
 

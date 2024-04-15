@@ -24,4 +24,4 @@ jobs:
     - name: Request review of pre-release PR
       run: node src/request-pr-review.js
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

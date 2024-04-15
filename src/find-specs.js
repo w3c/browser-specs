@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-const fs = require("fs");
+const fs = require("fs").promises;
 const puppeteer = require('puppeteer');
 const path = require("path");
 const { Command } = require("commander");
@@ -347,12 +347,12 @@ Examples:
 
     if (options.github) {
       console.log();
+      let issuesStr;
       try {
         issuesStr = execSync(`gh issue list --label "new spec" --json body,number`);
       }
       catch (err) {
         console.log(`Could not retrieve open issues from w3c/browser-specs repository.`);
-        console.log(err);
         process.exit(1);
       }
       const issues = JSON.parse(issuesStr);

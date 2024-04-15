@@ -5070,6 +5070,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-dynamic-code-brand-checks/",
+    "seriesComposition": "full",
+    "shortname": "tc39-dynamic-code-brand-checks",
+    "series": {
+      "shortname": "tc39-dynamic-code-brand-checks",
+      "currentSpecification": "tc39-dynamic-code-brand-checks",
+      "title": "Dynamic Code Brand Checks",
+      "shortTitle": "Dynamic Code Brand Checks",
+      "nightlyUrl": "https://tc39.es/proposal-dynamic-code-brand-checks/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-dynamic-code-brand-checks/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-dynamic-code-brand-checks",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Dynamic Code Brand Checks",
+    "source": "spec",
+    "shortTitle": "Dynamic Code Brand Checks",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-explicit-resource-management/",
     "seriesComposition": "full",
     "shortname": "tc39-explicit-resource-management",

@@ -237,9 +237,11 @@ async function runInfo(specs) {
     // Latest ED link in TR versions of CSS specs sometimes target the spec series
     // entry point on the CSS drafts server. To make sure that the nightly URL
     // targets the same level as the TR level we're looking at, we'll add the
-    // level to the nightly URL when it's not already there (note the resulting
-    // URL should always exist given the way the CSS drafts server is setup)
-    if (res.seriesVersion &&
+    // level to the nightly URL when it's not already there, unless the nightly
+    // URL was set explicitly in specs.json (note the resulting URL should always
+    // exist given the way the CSS drafts server is setup)
+    if (!spec.nightly?.url &&
+        res.seriesVersion &&
         res.nightly &&
         res.nightly.url.match(/\/drafts\.(?:csswg|fxtf|css-houdini)\.org/) &&
         !res.nightly.url.match(/\d+\/$/)) {

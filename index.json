@@ -2496,6 +2496,40 @@
     "standing": "good"
   },
   {
+    "url": "https://privacycg.github.io/saa-non-cookie-storage/",
+    "seriesComposition": "full",
+    "shortname": "saa-non-cookie-storage",
+    "series": {
+      "shortname": "saa-non-cookie-storage",
+      "currentSpecification": "saa-non-cookie-storage",
+      "title": "Extending Storage Access API (SAA) to non-cookie storage",
+      "shortTitle": "Extending Storage Access API to non-cookie storage",
+      "nightlyUrl": "https://privacycg.github.io/saa-non-cookie-storage/"
+    },
+    "shortTitle": "Extending Storage Access API to non-cookie storage",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Privacy Community Group",
+        "url": "https://www.w3.org/community/privacycg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://privacycg.github.io/saa-non-cookie-storage/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/privacycg/saa-non-cookie-storage",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Extending Storage Access API (SAA) to non-cookie storage",
+    "source": "spec",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://privacycg.github.io/storage-access/",
     "seriesComposition": "full",
     "shortname": "storage-access",
@@ -17370,6 +17404,16 @@
       "nightlyUrl": "https://drafts.csswg.org/css-viewport/"
     },
     "seriesVersion": "1",
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-viewport/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-viewport/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-viewport/Overview.bs",
+      "filename": "index.html"
+    },
     "formerNames": [
       "css-viewport"
     ],
@@ -17383,17 +17427,6 @@
     "release": {
       "url": "https://www.w3.org/TR/css-viewport-1/",
       "status": "First Public Working Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-viewport-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-viewport-1/",
-        "https://w3c.github.io/csswg-drafts/css-viewport/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-viewport/Overview.bs",
       "filename": "Overview.html"
     },
     "title": "CSS Viewport Module Level 1",

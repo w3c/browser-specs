@@ -188,6 +188,10 @@
   "https://privacycg.github.io/nav-tracking-mitigations/",
   "https://privacycg.github.io/private-click-measurement/",
   "https://privacycg.github.io/requestStorageAccessFor/",
+  {
+    "shortTitle": "Extending Storage Access API to non-cookie storage",
+    "url": "https://privacycg.github.io/saa-non-cookie-storage/"
+  },
   "https://privacycg.github.io/storage-access/",
   "https://quirks.spec.whatwg.org/",
   {

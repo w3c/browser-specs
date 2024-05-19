@@ -33,8 +33,11 @@ module.exports = async function (url) {
 
   for (const candidate of candidates) {
     const res = await fetch(urlWithSlash + candidate, { method: "HEAD" });
-    if (res.status === 200) {
+    if (res.status >= 200 && res.status < 300) {
       return candidate;
+    }
+    else if (res.status !== 404) {
+      console.warn(`[warning] fetching "${urlWithSlash + candidate}" returned unexpected HTTP status ${res.status}`);
     }
   }
 

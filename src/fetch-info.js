@@ -92,7 +92,7 @@ async function fetchInfoFromW3CApi(specs, options) {
         `for "${spec.shortname}" (${spec.url}), update the shortname!`);
     }
     if (res.status !== 200) {
-      throw new Error(`W3C API returned an error, status code is ${res.status}`);
+      throw new Error(`W3C API returned an error, status code is ${res.status}, url was ${url}`);
     }
     try {
       const body = await res.json();
@@ -590,7 +590,9 @@ async function fetchInfoFromSpecs(specs, options) {
           if (status === "Proposal" || status === "Unofficial Draft") {
             status = "Unofficial Proposal Draft";
           }
-          else if ((status === "Working Draft") || (status === "Working Group Draft")) {
+          else if (status === "First Public Working Draft" ||
+                   status === "Working Draft" ||
+                   status === "Working Group Draft") {
             // W3C specs that have a Working Draft nightly status are really
             // Editor's Drafts in practice. Similarly "Working Group Draft" is
             // an AOM status that really means Editor's Draft.

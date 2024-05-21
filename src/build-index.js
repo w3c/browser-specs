@@ -409,7 +409,7 @@ async function generateIndexFile(specsFile, targetFile, step) {
   // be refreshed due to some external (network) issue.
   const previousIndex = await (async function () {
     try {
-      const json = await fs.readFile(path.resolve(targetFile), 'utf8');
+      const json = await fs.readFile(path.join(__dirname, "..", "index.json"), 'utf8');
       return JSON.parse(json);
     }
     catch (err) {

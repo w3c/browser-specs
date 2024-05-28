@@ -520,8 +520,7 @@
     "url": "https://wicg.github.io/custom-state-pseudo-class/",
     "standing": "discontinued",
     "obsoletedBy": [
-      "html",
-      "selectors-4"
+      "html"
     ]
   },
   "https://wicg.github.io/datacue/",

@@ -622,7 +622,13 @@
     }
   },
   "https://wicg.github.io/css-parser-api/",
-  "https://wicg.github.io/custom-state-pseudo-class/",
+  {
+    "url": "https://wicg.github.io/custom-state-pseudo-class/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "html"
+    ]
+  },
   "https://wicg.github.io/datacue/",
   "https://wicg.github.io/deprecation-reporting/",
   "https://wicg.github.io/digital-goods/",

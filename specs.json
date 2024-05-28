@@ -62,6 +62,7 @@
       "sourcePath": "compatibility.bs"
     }
   },
+  "https://compression.spec.whatwg.org/",
   "https://console.spec.whatwg.org/",
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
@@ -611,7 +612,6 @@
       "html"
     ]
   },
-  "https://wicg.github.io/compression/",
   "https://wicg.github.io/content-index/spec/",
   "https://wicg.github.io/cookie-store/",
   "https://wicg.github.io/crash-reporting/",

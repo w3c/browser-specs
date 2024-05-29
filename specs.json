@@ -1485,7 +1485,10 @@
   },
   {
     "url": "https://www.w3.org/TR/SRI/",
-    "shortTitle": "SRI"
+    "shortTitle": "SRI",
+    "release": {
+      "filename": "index.html"
+    }
   },
   "https://www.w3.org/TR/svg-aam-1.0/",
   "https://www.w3.org/TR/svg-integration/",
@@ -1515,7 +1518,12 @@
       "sourcePath": "drafts/tracking-dnt.html"
     }
   },
-  "https://www.w3.org/TR/trusted-types/",
+  {
+    "url": "https://www.w3.org/TR/trusted-types/",
+    "release": {
+      "filename": "index.html"
+    }
+  },
   {
     "url": "https://www.w3.org/TR/uievents-code/",
     "nightly": {

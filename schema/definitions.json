@@ -63,36 +63,6 @@
       "enum": ["w3c", "specref", "spec", "ietf"]
     },
 
-    "release": {
-      "type": "object",
-      "properties": {
-        "url": { "$ref": "#/$defs/url" },
-        "status": {
-          "type": "string",
-          "enum": [
-            "Candidate Recommendation Draft",
-            "Candidate Recommendation Snapshot",
-            "Discontinued Draft",
-            "Draft Note",
-            "Draft Registry",
-            "Final Deliverable",
-            "First Public Working Draft",
-            "Note",
-            "Proposed Recommendation",
-            "Recommendation",
-            "Working Draft"
-          ]
-        },
-        "filename": { "$ref": "#/$defs/filename" },
-        "pages": {
-          "type": "array",
-          "items": { "$ref": "#/$defs/url" }
-        }
-      },
-      "required": ["url", "status"],
-      "additionalProperties": false
-    },
-
     "nightly": {
       "type": "object",
       "properties": {
@@ -213,6 +183,44 @@
       "type": "array",
       "items": { "$ref": "#/$defs/shortname" },
       "minItems": 1
+    },
+
+    "specsfile": {
+      "release": {
+        "type": "object",
+        "properties": {
+          "url": { "$ref": "#/$defs/url" },
+          "status": {
+            "type": "string",
+            "enum": [
+              "Candidate Recommendation Draft",
+              "Candidate Recommendation Snapshot",
+              "Discontinued Draft",
+              "Draft Note",
+              "Draft Registry",
+              "Final Deliverable",
+              "First Public Working Draft",
+              "Note",
+              "Proposed Recommendation",
+              "Recommendation",
+              "Working Draft"
+            ]
+          },
+          "filename": { "$ref": "#/$defs/filename" },
+          "pages": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/url" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+
+    "indexfile": {
+      "release": {
+        "$ref": "#/$defs/specsfile/release",
+        "required": ["url", "status"]
+      }
     }
   }
 }

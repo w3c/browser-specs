@@ -17,7 +17,7 @@
       "seriesNext": { "$ref": "definitions.json#/$defs/shortname" },
       "nightly": { "$ref": "definitions.json#/$defs/nightly" },
       "tests": { "$ref": "definitions.json#/$defs/tests" },
-      "release": { "$ref": "definitions.json#/$defs/release" },
+      "release": { "$ref": "definitions.json#/$defs/indexfile/release" },
       "title": { "$ref": "definitions.json#/$defs/title" },
       "shortTitle": { "$ref": "definitions.json#/$defs/title" },
       "source": { "$ref": "definitions.json#/$defs/source" },

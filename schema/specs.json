@@ -30,7 +30,12 @@
           "obsoletedBy": { "$ref": "definitions.json#/$defs/obsoletedBy" },
           "formerNames": { "$ref": "definitions.json#/$defs/formerNames" },
           "forceCurrent": { "type": "boolean" },
-          "multipage": { "type": "boolean" }
+          "multipage": {
+            "type": "string",
+            "enum": [
+              "all", "release", "nightly"
+            ]
+          }
         },
         "required": ["url"],
         "additionalProperties": false

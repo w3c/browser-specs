@@ -98,7 +98,7 @@ describe("Linter", () => {
 
     it("lints an object with only a URL and a multipage flag to a string", () => {
       const specs = [
-        { "url": "https://www.w3.org/TR/spec-1/", "multipage": true }
+        { "url": "https://www.w3.org/TR/spec-1/", "multipage": "all" }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec-1/ multipage"
@@ -123,9 +123,9 @@ describe("Linter", () => {
       ]));
     });
 
-    it("lints an object with a multipage flag set to false", () => {
+    it("lints an object with a multipage flag set to null", () => {
       const specs = [
-        { "url": "https://www.w3.org/TR/spec/", "multipage": false }
+        { "url": "https://www.w3.org/TR/spec/", "multipage": null }
       ];
       assert.equal(lintStr(toStr(specs)), toStr([
         "https://www.w3.org/TR/spec/"

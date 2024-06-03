@@ -4,10 +4,12 @@
  * the table of contents, in document order, excluding the index page.
  */
 
+const loadSpec = require('./load-spec');
+
 module.exports = async function (url, browser) {
   const page = await browser.newPage();
   try {
-    await page.goto(url);
+    await loadSpec(url, page);
     const allPages = await page.evaluate(_ =>
       [...document.querySelectorAll('.toc a[href]')]
         .map(link => link.href)

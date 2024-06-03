@@ -138,7 +138,7 @@ async function runSkeleton(specs, { log }) {
           res.forceCurrent = true;
         }
         else if (parts[1] === "multipage") {
-          res.multipage = true;
+          res.multipage = "all";
         }
         return res;
       }
@@ -320,22 +320,23 @@ async function runShortTitle(index) {
 
 async function runPages(index) {
   const browser = await puppeteer.launch();
-  return Promise.all(
-    index.map(async spec => {
-      if (spec.multipage) {
-        if (spec.release) {
-          spec.release.pages = await extractPages(spec.release.url, browser);
-        }
-        if (spec.nightly) {
-          spec.nightly.pages = await extractPages(spec.nightly.url, browser);
-        }
+  try {
+    for (const spec of index) {
+      if (spec.release && (spec.multipage === "all" || spec.multipage === "release")) {
+        spec.release.pages = await extractPages(spec.release.url, browser);
+      }
+      if (spec.nightly && (spec.multipage === "all" || spec.multipage === "nightly")) {
+        spec.nightly.pages = await extractPages(spec.nightly.url, browser);
+      }
+      if (spec.hasOwnProperty("multipage")) {
         delete spec.multipage;
       }
-      return spec;
-    })
-  ).finally(async _ => {
+    }
+  }
+  finally {
     await browser.close();
-  });
+  }
+  return index;
 }
 
 

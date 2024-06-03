@@ -154,7 +154,7 @@
   "https://fullscreen.spec.whatwg.org/",
   {
     "url": "https://html.spec.whatwg.org/multipage/",
-    "multipage": true,
+    "multipage": "nightly",
     "nightly": {
       "sourcePath": "source"
     }
@@ -303,7 +303,7 @@
   "https://svgwg.org/specs/animations/",
   {
     "url": "https://tc39.es/ecma262/multipage/",
-    "multipage": true,
+    "multipage": "nightly",
     "shortname": "ecmascript",
     "shortTitle": "ECMAScript",
     "tests": {
@@ -1065,14 +1065,14 @@
     "url": "https://www.w3.org/TR/CSS21/",
     "shortname": "CSS2",
     "seriesVersion": "2.1",
-    "multipage": true,
+    "multipage": "all",
     "nightly": {
       "url": "https://www.w3.org/TR/CSS21/"
     }
   },
   {
     "url": "https://www.w3.org/TR/CSS22/",
-    "multipage": true,
+    "multipage": "release",
     "nightly": {
       "sourcePath": "css2/Overview.bs"
     }
@@ -1495,7 +1495,7 @@
   "https://www.w3.org/TR/svg-strokes/",
   {
     "url": "https://www.w3.org/TR/SVG11/",
-    "multipage": true,
+    "multipage": "all",
     "nightly": {
       "url": "https://www.w3.org/TR/SVG11/"
     }

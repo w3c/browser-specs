@@ -120,9 +120,12 @@ automatically is not the expected one.
 - `forceCurrent`: a boolean flag to tell the code that the spec should be seen
 as the current spec in the series. The property must only be set when value is
 `true`.
-- `multipage`: a boolean flag to identify the spec as a multipage spec. This
+- `multipage`: a flag to identify the spec as a multipage spec. This
 instructs the code to extract the list of pages from the index page and fill
-out the `release.pages` and `nightly.pages` properties in the list.
+out the `release.pages` and `nightly.pages` properties in the list. Possible
+values for the flag: `"nightly"` to signal that the nightly version is
+multipage, `"release"` to signal that the release version if multipage, or
+`"all"` to signal that both the nightly and release versions are multipage.
 - `categories`: an array that is treated as incremental update to adjust the
 list of [`categories`](README.md#categories) that the spec belongs to. Values
 may be one of `"reset"` to start from an empty list, `"+browser"` to add

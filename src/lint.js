@@ -33,7 +33,7 @@ function shortenDefinition(spec) {
     return `${spec.url} current`;
   }
   else if (Object.keys(short).length === 2 &&
-      spec.multipage) {
+      spec.multipage === "all") {
     return `${spec.url} multipage`;
   }
   else {
@@ -56,7 +56,7 @@ function lintStr(specsStr) {
         url: new URL(spec.split(" ")[0]).toString(),
         seriesComposition: (spec.split(' ')[1] === "delta") ? "delta" : "full",
         forceCurrent: (spec.split(' ')[1] === "current"),
-        multipage: (spec.split(' ')[1] === "multipage"),
+        multipage: (spec.split(' ')[1] === "multipage") ? "all" : undefined
       } :
       Object.assign({}, spec, { url: new URL(spec.url).toString() }))
     .filter((spec, idx, list) =>

@@ -12469,7 +12469,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/change-password-url/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -17719,7 +17719,6 @@
         "https://w3c.github.io/csswg-drafts/css2/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
-      "pages": [],
       "filename": "index.html"
     },
     "seriesPrevious": "CSS2",
@@ -24040,7 +24039,7 @@
     },
     "release": {
       "url": "https://www.w3.org/TR/trusted-types/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "index.html"
     },
     "organization": "W3C",

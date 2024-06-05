@@ -341,37 +341,29 @@ async function runPages(index) {
 
 
 async function runFilename(index, { previousIndex, log }) {
+  for (const spec of index) {
+    const previous = previousIndex.find(s => s.url === spec.url);
+    for (const type of ['nightly', 'release']) {
+      if (spec[type]) {
+        if (spec[type].filename) {
+          log(`- use explicit ${type} filename "${spec.nightly.filename}" for ${spec.shortname}`);
+        }
+        else if (previous && previous[type] && previous[type].filename) {
+          // Just re-use previous operation
+          spec[type].filename = previous[type].filename;
+        }
+        else {
+          log(`- determine ${type} filename for ${spec.shortname}`);
+          spec[type].filename = await determineFilename(spec[type].url);
 
-  // Use previous filename info when it cannot be determined (this usually means
-  // that there was a transient network error)
-  async function determineSpecFilename(spec, type) {
-    const filename = await determineFilename(spec[type].url);
-    if (filename) {
-      return filename;
+          // Sleep a bit as draft CSS WG server does not seem to like receiving too
+          // many requests in a row.
+          await sleep(1000);
+        }
+      }
     }
-
-    const previous = previousIndex.find(s => s[type] && s.url === spec.url);
-    return previous ? previous[type].filename : null;
   }
-
-  async function checkSpec(spec) {
-    log(`- find filenames for ${spec.shortname}`);
-    if (spec.nightly) {
-      spec.nightly.filename = spec.nightly.filename ?? await determineSpecFilename(spec, "nightly");
-    }
-    if (spec.release) {
-      spec.release.filename = spec.release.filename ?? await determineSpecFilename(spec, "release");
-    }
-
-    // Sleep a bit as draft CSS WG server does not seem to like receiving too
-    // many requests in a row.
-    await sleep(50);
-
-    return spec;
-  }
-
-  const throttledCheck = throttle(checkSpec, 2);
-  return Promise.all(index.map(throttledCheck));
+  return index;
 }
 
 

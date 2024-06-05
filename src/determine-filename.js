@@ -22,15 +22,6 @@ module.exports = async function (url) {
     return rfcMatch[1] + '.html';
   }
 
-  // W3C /TR specs should all have an "Overview.html" filename, let's not make
-  // additional network requests to avoid running into rate limiting issues
-  // (W3C servers can easily be made to return 429 Too Many Requests responses)
-  // Note: exceptions to the rule need to be handled in "specs.json".
-  const w3cTr = url.match(/^https?:\/\/(?:www\.)?w3\.org\/TR\/([^\/]+)\/$/);
-  if (w3cTr) {
-    return "Overview.html";
-  }
-
   // Make sure that url ends with a "/"
   const urlWithSlash = url.endsWith("/") ? url : url + "/";
 

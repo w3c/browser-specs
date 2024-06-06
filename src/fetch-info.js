@@ -40,10 +40,9 @@
 
 const puppeteer = require("puppeteer");
 const loadSpec = require("./load-spec");
-const throttle = require("./throttle");
-const throttledFetch = throttle(fetch, 2);
 const computeShortname = require("./compute-shortname");
 const Octokit = require("./octokit");
+const ThrottledQueue = require("./throttled-queue");
 
 // Map spec statuses returned by Specref to those used in specs
 // Note we typically won't get /TR statuses from Specref, since all /TR URLs
@@ -55,6 +54,8 @@ const specrefStatusMapping = {
   "Proposal for a CSS module": "Editor's Draft",
   "cg-draft": "Draft Community Group Report"
 };
+
+const fetchQueue = new ThrottledQueue(2);
 
 async function useLastInfoForDiscontinuedSpecs(specs) {
   const results = {};
@@ -80,7 +81,7 @@ async function fetchInfoFromW3CApi(specs, options) {
     }
 
     const url = `https://api.w3.org/specifications/${spec.shortname}/versions/latest`;
-    const res = await throttledFetch(url, options);
+    const res = await fetchQueue.runThrottled(fetch, url, options);
     if (res.status === 404) {
       return;
     }
@@ -135,7 +136,7 @@ async function fetchInfoFromW3CApi(specs, options) {
   // Fetch info on the series
   const seriesInfo = await Promise.all([...seriesShortnames].map(async shortname => {
     const url = `https://api.w3.org/specification-series/${shortname}`;
-    const res = await throttledFetch(url, options);
+    const res = await fetchQueue.runThrottled(fetch, url, options);
     if (res.status === 404) {
       return;
     }
@@ -206,7 +207,7 @@ async function fetchInfoFromSpecref(specs, options) {
   // API does not return the "source" field, so we need to retrieve the list
   // ourselves from Specref's GitHub repository.
   const specrefBrowserspecsUrl = "https://raw.githubusercontent.com/tobie/specref/main/refs/browser-specs.json";
-  const browserSpecsResponse = await throttledFetch(specrefBrowserspecsUrl, options);
+  const browserSpecsResponse = await fetch(specrefBrowserspecsUrl, options);
   if (browserSpecsResponse.status !== 200) {
     throw new Error(`Could not retrieve specs contributed by browser-specs to Speref, status code is ${browserSpecsResponse.status}`);
   }
@@ -218,7 +219,7 @@ async function fetchInfoFromSpecref(specs, options) {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
       chunk.map(spec => spec.shortname).join(',');
 
-    const res = await throttledFetch(specrefUrl, options);
+    const res = await fetchQueue.runThrottled(fetch, specrefUrl, options);
     if (res.status !== 200) {
       throw new Error(`Could not query Specref, status code is ${res.status}`);
     }
@@ -290,7 +291,7 @@ async function fetchInfoFromSpecref(specs, options) {
 async function fetchInfoFromIETF(specs, options) {
   async function fetchJSONDoc(draftName) {
     const url = `https://datatracker.ietf.org/doc/${draftName}/doc.json`;
-    const res = await throttledFetch(url, options);
+    const res = await fetchQueue.runThrottled(fetch, url, options);
     if (res.status !== 200) {
       throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
     }
@@ -303,7 +304,7 @@ async function fetchInfoFromIETF(specs, options) {
   }
 
   async function fetchRFCName(docUrl) {
-    const res = await fetch(docUrl, options);
+    const res = await fetchQueue.runThrottled(fetch, docUrl, options);
     if (res.status !== 200) {
       throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
     }
@@ -324,7 +325,7 @@ async function fetchInfoFromIETF(specs, options) {
       return [];
     }
     const url = `https://datatracker.ietf.org/api/v1/doc/relateddocument/?format=json&relationship__slug__in=obs&target__name__in=${draftName}`;
-    const res = await throttledFetch(url, options);
+    const res = await fetchQueue.runThrottled(fetch, url, options);
     if (res.status !== 200) {
       throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
     }
@@ -361,6 +362,7 @@ async function fetchInfoFromIETF(specs, options) {
     return paths.filter(p => p.path.match(/^specs\/rfc\d+\.html$/))
       .map(p => p.path.match(/(rfc\d+)\.html$/)[1]);
   }
+  const httpwgRFCs = await getHttpwgRFCs();
 
   const info = await Promise.all(specs.map(async spec => {
     // IETF can only provide information about IETF specs
@@ -387,7 +389,6 @@ async function fetchInfoFromIETF(specs, options) {
     // Note we prefer the httpwg.org version for HTTP WG RFCs and drafts.
     let nightly;
     if (lastRevision.name.startsWith('rfc')) {
-      const httpwgRFCs = await getHttpwgRFCs();
       if (httpwgRFCs.includes(lastRevision.name)) {
         nightly = `https://httpwg.org/specs/${lastRevision.name}.html`
       }
@@ -451,6 +452,7 @@ async function fetchInfoFromSpecs(specs, options) {
     const page = await browser.newPage();
 
     try {
+      console.warn(`- fetch spec info from ${url}`);
       await loadSpec(url, page);
 
       if (spec.url.startsWith("https://tc39.es/")) {
@@ -567,7 +569,10 @@ async function fetchInfoFromSpecs(specs, options) {
   }
 
   try {
-    const info = await Promise.all(specs.map(throttle(fetchInfoFromSpec, 2)));
+    const queue = new ThrottledQueue(4);
+    const info = await Promise.all(specs.map(spec =>
+      queue.runThrottledPerOrigin(spec.nightly?.url || spec.url, fetchInfoFromSpec, spec)
+    ));
     const results = {};
     specs.forEach((spec, idx) => results[spec.shortname] = info[idx]);
     return results;

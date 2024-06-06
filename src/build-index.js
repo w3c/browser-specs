@@ -26,7 +26,6 @@ const determineTestPath = require("./determine-testpath.js");
 const extractPages = require("./extract-pages.js");
 const fetchInfo = require("./fetch-info.js");
 const fetchGroups = require("./fetch-groups.js");
-const throttle = require("./throttle");
 const githubToken = (_ => {
   try {
     return require("../config.json").GITHUB_TOKEN;

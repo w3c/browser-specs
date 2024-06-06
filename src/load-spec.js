@@ -45,8 +45,11 @@ module.exports = async function (url, page) {
     await cdp.send('Fetch.enable');
     cdp.on('Fetch.requestPaused', interceptRequest(cdp));
 
-    await page.goto(url, { timeout: 120000, waitUntil: 'networkidle0' });
+    const response = await page.goto(url, { timeout: 120000, waitUntil: 'networkidle0' });
 
+    if (response.status() !== 200) {
+      throw new Error(`Fetching ${url} failed with HTTP code ${response.status()}`);
+    }
     // Wait until the generation of the spec is completely over
     // (same code as in Reffy, except Reffy forces the latest version of
     // Respec and thus does not need to deal with older specs that rely

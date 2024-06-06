@@ -34,7 +34,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        npm run test-data
+        npm run test-index
 
     - name: Bump minor version of packages if needed
       run: node src/bump-packages-minor.js

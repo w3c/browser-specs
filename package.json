@@ -15,7 +15,8 @@
     "lint": "node src/lint.js",
     "lint-fix": "node src/lint.js --fix",
     "test": "mocha",
-    "test-data": "mocha test/index.js"
+    "test-index": "mocha test/index.js"
+
   },
   "bin": {
     "browser-specs": "./src/cli.js",

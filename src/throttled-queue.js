@@ -51,7 +51,7 @@ module.exports = class ThrottledQueue {
 
   constructor(maxParallel) {
     if (maxParallel >= 0) {
-      this.maxPar = maxParallel;
+      this.maxParallel = maxParallel;
     }
   }
 

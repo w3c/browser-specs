@@ -57,7 +57,7 @@ const specrefStatusMapping = {
 
 const fetchQueue = new ThrottledQueue(2);
 
-async function useLastInfoForDiscontinuedSpecs(specs) {
+function useLastInfoForDiscontinuedSpecs(specs) {
   const results = {};
   for (const spec of specs) {
     if (spec.__last?.standing === 'discontinued' &&
@@ -66,6 +66,19 @@ async function useLastInfoForDiscontinuedSpecs(specs) {
     }
   }
   return results;
+}
+
+function catchAndFallbackOnExistingData(fn) {
+  return function(spec) {
+    return fn(spec).catch(err => {
+      if (spec.__last) {
+	// TODO: log crawl error?
+	return spec.__last;
+      } else {
+	throw err;
+      }
+    });
+  };
 }
 
 async function fetchInfoFromW3CApi(specs, options) {
@@ -571,7 +584,7 @@ async function fetchInfoFromSpecs(specs, options) {
   try {
     const queue = new ThrottledQueue(4);
     const info = await Promise.all(specs.map(spec =>
-      queue.runThrottledPerOrigin(spec.nightly?.url || spec.url, fetchInfoFromSpec, spec)
+      queue.runThrottledPerOrigin(spec.nightly?.url || spec.url, catchAndFallbackOnExistingData(fetchInfoFromSpec), spec)
     ));
     const results = {};
     specs.forEach((spec, idx) => results[spec.shortname] = info[idx]);

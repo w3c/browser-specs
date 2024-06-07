@@ -5,6 +5,8 @@
 const assert = require("assert");
 const fetchInfo = require("../src/fetch-info.js");
 
+const { MockAgent, setGlobalDispatcher, getGlobalDispatcher } = require('undici');
+
 describe("fetch-info module", function () {
   // Tests need to send network requests
   this.slow(5000);
@@ -227,6 +229,29 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].source, "spec");
       assert.equal(info[spec.shortname].title, "Textiles — Identification of some animal fibres by DNA analysis method — Cashmere, wool, yak and their blends");
       assert.equal(info[spec.shortname].nightly, undefined);
+    });
+
+    it("uses the last published info when hitting an error fetching the spec", async () => {
+      const defaultDispatcher = getGlobalDispatcher();
+      const mockAgent = new MockAgent();
+      setGlobalDispatcher(mockAgent);
+
+      mockAgent.get("https://example.com")
+	.intercept({ method: "GET", path: "/429" })
+	.reply(429);
+
+      const spec = {
+        url: "https://example.com/429",
+        shortname: "example",
+        __last: {
+          organization: "Acme Corporation"
+        }
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].organization, spec.__last.organization);
+
+      setGlobalDispatcher(defaultDispatcher);
     });
   });
 

@@ -72,7 +72,8 @@ function catchAndFallbackOnExistingData(fn) {
   return function(spec) {
     return fn(spec).catch(err => {
       if (spec.__last) {
-	// TODO: log crawl error?
+	// TODO: log crawl error more visibly?
+	console.error(`Failed to fetch info on ${spec.url} (${err}), reusing existing data`);
 	return spec.__last;
       } else {
 	throw err;

@@ -57,7 +57,7 @@ const specrefStatusMapping = {
 
 const fetchQueue = new ThrottledQueue(2);
 
-function useLastInfoForDiscontinuedSpecs(specs) {
+async function useLastInfoForDiscontinuedSpecs(specs) {
   const results = {};
   for (const spec of specs) {
     if (spec.__last?.standing === 'discontinued' &&

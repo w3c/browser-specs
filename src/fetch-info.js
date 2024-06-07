@@ -55,7 +55,7 @@ const specrefStatusMapping = {
   "cg-draft": "Draft Community Group Report"
 };
 
-const fetchQueue = new ThrottledQueue(2);
+const fetchQueue = new ThrottledQueue({ maxParallel: 2 });
 
 async function useLastInfoForDiscontinuedSpecs(specs) {
   const results = {};
@@ -583,7 +583,16 @@ async function fetchInfoFromSpecs(specs, options) {
   }
 
   try {
-    const queue = new ThrottledQueue(4);
+    const queue = new ThrottledQueue({
+      maxParallel: 4,
+      sleepInterval: origin => {
+        switch (origin) {
+        case 'https://csswg.org': return 2000;
+        case 'https://www.w3.org': return 1000;
+        default: return 100;
+        }
+      }
+    });
     const info = await Promise.all(specs.map(spec =>
       queue.runThrottledPerOrigin(spec.nightly?.url || spec.url, catchAndFallbackOnExistingData(fetchInfoFromSpec), spec)
     ));

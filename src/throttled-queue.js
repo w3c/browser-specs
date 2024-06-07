@@ -21,15 +21,15 @@ function getOrigin(url) {
     }
     const origin = (new URL(url)).origin;
     if (origin.endsWith('.whatwg.org')) {
-        return 'whatwg.org';
+        return 'https://whatwg.org';
     }
     else if (origin.endsWith('.github.io')) {
-        return 'github.io';
+        return 'https://github.io';
     }
     else if (origin.endsWith('.csswg.org') ||
              origin.endsWith('.css-houdini.org') ||
              origin.endsWith('.fxtf.org')) {
-        return 'csswg.org';
+        return 'https://csswg.org';
     }
     else {
         return origin;
@@ -46,12 +46,16 @@ function getOrigin(url) {
 module.exports = class ThrottledQueue {
   originQueue = {};
   maxParallel = 4;
+  sleepInterval = 2000;
   ongoing = 0;
   pending = [];
 
-  constructor(maxParallel) {
-    if (maxParallel >= 0) {
-      this.maxParallel = maxParallel;
+  constructor(options = { maxParallel: 4, sleepInterval: 2000 }) {
+    if (options.maxParallel >= 0) {
+      this.maxParallel = options.maxParallel;
+    }
+    if (options.sleepInterval) {
+      this.sleepInterval = options.sleepInterval;
     }
   }
 
@@ -99,7 +103,9 @@ module.exports = class ThrottledQueue {
    * requested maximum.
    *
    * Additionally, the function forces a 2 second sleep after processing to
-   * keep a low network profile.
+   * keep a low network profile (sleeping time can be adjusted per origin
+   * depending if the sleepInterval parameter that was passed to the
+   * constructor is a function.
    */
   async runThrottledPerOrigin(url, processFunction, ...params) {
     const origin = getOrigin(url);
@@ -110,7 +116,10 @@ module.exports = class ThrottledQueue {
       this.originQueue[origin] = this.originQueue[origin]
         .then(async _ => this.runThrottled(processFunction, ...params))
         .then(async result => {
-          await sleep(2000);
+          const interval = (typeof this.sleepInterval === 'function') ?
+            this.sleepInterval(origin) :
+            this.sleepInterval;
+          await sleep(interval);
           return result;
         })
         .then(resolve)

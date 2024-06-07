@@ -16,7 +16,6 @@
     "lint-fix": "node src/lint.js --fix",
     "test": "mocha",
     "test-index": "mocha test/index.js"
-
   },
   "bin": {
     "browser-specs": "./src/cli.js",
@@ -32,6 +31,7 @@
     "commander": "^12.1.0",
     "mocha": "^10.4.0",
     "puppeteer": "^22.10.0",
-    "rimraf": "^5.0.7"
+    "rimraf": "^5.0.7",
+    "undici": "^6.18.2"
   }
 }

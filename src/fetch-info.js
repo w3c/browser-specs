@@ -68,6 +68,20 @@ async function useLastInfoForDiscontinuedSpecs(specs) {
   return results;
 }
 
+function catchAndFallbackOnExistingData(fn) {
+  return function(spec) {
+    return fn(spec).catch(err => {
+      if (spec.__last) {
+	// TODO: log crawl error more visibly?
+	console.error(`Failed to fetch info on ${spec.url} (${err}), reusing existing data`);
+	return spec.__last;
+      } else {
+	throw err;
+      }
+    });
+  };
+}
+
 async function fetchInfoFromW3CApi(specs, options) {
   options.headers = options.headers || {};
 
@@ -571,7 +585,7 @@ async function fetchInfoFromSpecs(specs, options) {
   try {
     const queue = new ThrottledQueue(4);
     const info = await Promise.all(specs.map(spec =>
-      queue.runThrottledPerOrigin(spec.nightly?.url || spec.url, fetchInfoFromSpec, spec)
+      queue.runThrottledPerOrigin(spec.nightly?.url || spec.url, catchAndFallbackOnExistingData(fetchInfoFromSpec), spec)
     ));
     const results = {};
     specs.forEach((spec, idx) => results[spec.shortname] = info[idx]);

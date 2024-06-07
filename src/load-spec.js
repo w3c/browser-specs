@@ -13,7 +13,7 @@ module.exports = async function (url, page) {
     return async function ({ requestId, request }) {
       try {
         // Abort network requests to common image formats
-        if (/\.(gif|ico|jpg|jpeg|png|ttf|woff|svg)$/i.test(request.url)) {
+        if (/\.(gif|ico|jpg|jpeg|png|ttf|woff|svg|css)$/i.test(request.url)) {
           await cdp.send('Fetch.failRequest', { requestId, errorReason: 'Failed' });
           return;
         }

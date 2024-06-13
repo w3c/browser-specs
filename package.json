@@ -30,7 +30,7 @@
     "ajv-formats": "^3.0.1",
     "commander": "^12.1.0",
     "mocha": "^10.4.0",
-    "puppeteer": "^22.10.1",
+    "puppeteer": "^22.11.0",
     "rimraf": "^5.0.7",
     "undici": "^6.18.2"
   }

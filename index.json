@@ -18786,6 +18786,10 @@
       {
         "name": "Devices and Sensors Working Group",
         "url": "https://www.w3.org/das/"
+      },
+      {
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {

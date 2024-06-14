@@ -18815,7 +18815,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "geolocation-API"
+        "geolocation"
       ]
     }
   },

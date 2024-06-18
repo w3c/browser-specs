@@ -1257,6 +1257,51 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-overflow-5/",
+    "seriesComposition": "full",
+    "shortname": "css-overflow-5",
+    "series": {
+      "shortname": "css-overflow",
+      "currentSpecification": "css-overflow-3",
+      "title": "CSS Overflow",
+      "shortTitle": "CSS Overflow",
+      "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+      "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "css-overflow-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-overflow-5/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-overflow-5/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-overflow-5/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Overflow Module Level 5",
+    "source": "spec",
+    "shortTitle": "CSS Overflow 5",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-overflow"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-page-4/",
     "seriesComposition": "delta",
     "shortname": "css-page-4",
@@ -5664,6 +5709,40 @@
     "title": "JSON.parse source text access",
     "source": "spec",
     "shortTitle": "JSON.parse source text access",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://tc39.es/proposal-promise-try/",
+    "seriesComposition": "full",
+    "shortname": "tc39-promise-try",
+    "series": {
+      "shortname": "tc39-promise-try",
+      "currentSpecification": "tc39-promise-try",
+      "title": "Promise.try",
+      "shortTitle": "Promise.try",
+      "nightlyUrl": "https://tc39.es/proposal-promise-try/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-promise-try/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-promise-try",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Promise.try",
+    "source": "spec",
+    "shortTitle": "Promise.try",
     "categories": [
       "browser"
     ],
@@ -15439,6 +15518,7 @@
     },
     "seriesVersion": "4",
     "seriesPrevious": "css-overflow-3",
+    "seriesNext": "css-overflow-5",
     "organization": "W3C",
     "groups": [
       {
@@ -18776,10 +18856,10 @@
     "series": {
       "shortname": "geolocation",
       "currentSpecification": "geolocation",
-      "title": "Geolocation API",
-      "shortTitle": "Geolocation API",
+      "title": "Geolocation",
+      "shortTitle": "Geolocation",
       "releaseUrl": "https://www.w3.org/TR/geolocation/",
-      "nightlyUrl": "https://w3c.github.io/geolocation-api/"
+      "nightlyUrl": "https://w3c.github.io/geolocation/"
     },
     "organization": "W3C",
     "groups": [
@@ -18798,26 +18878,20 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/geolocation-api/",
+      "url": "https://w3c.github.io/geolocation/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/geolocation-api",
+      "repository": "https://github.com/w3c/geolocation",
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Geolocation API",
+    "title": "Geolocation",
     "source": "w3c",
-    "shortTitle": "Geolocation API",
+    "shortTitle": "Geolocation",
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "geolocation"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/geometry-1/",

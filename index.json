@@ -294,9 +294,9 @@
     "series": {
       "shortname": "compression",
       "currentSpecification": "compression",
-      "title": "Compression Streams",
-      "shortTitle": "Compression Streams",
-      "nightlyUrl": "https://wicg.github.io/compression/"
+      "title": "Compression Standard",
+      "shortTitle": "Compression",
+      "nightlyUrl": "https://compression.spec.whatwg.org/"
     },
     "organization": "WHATWG",
     "groups": [
@@ -306,26 +306,20 @@
       }
     ],
     "nightly": {
-      "url": "https://wicg.github.io/compression/",
-      "status": "Draft Community Group Report",
+      "url": "https://compression.spec.whatwg.org/",
+      "status": "Living Standard",
       "alternateUrls": [],
-      "repository": "https://github.com/WICG/compression",
+      "repository": "https://github.com/whatwg/compression",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Compression Streams",
+    "title": "Compression Standard",
     "source": "specref",
-    "shortTitle": "Compression Streams",
+    "shortTitle": "Compression",
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "compression"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://console.spec.whatwg.org/",
@@ -8080,7 +8074,7 @@
     "series": {
       "shortname": "document-picture-in-picture",
       "currentSpecification": "document-picture-in-picture",
-      "title": "Document Picture-in-Picture Specification",
+      "title": "Document Picture-in-Picture",
       "shortTitle": "Document Picture-in-Picture",
       "nightlyUrl": "https://wicg.github.io/document-picture-in-picture/"
     },
@@ -8099,8 +8093,8 @@
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "Document Picture-in-Picture Specification",
-    "source": "spec",
+    "title": "Document Picture-in-Picture",
+    "source": "specref",
     "shortTitle": "Document Picture-in-Picture",
     "categories": [
       "browser"

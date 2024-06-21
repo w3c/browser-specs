@@ -8410,6 +8410,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/handwriting-recognition/",
+    "seriesComposition": "full",
+    "shortname": "handwriting-recognition",
+    "series": {
+      "shortname": "handwriting-recognition",
+      "currentSpecification": "handwriting-recognition",
+      "title": "Handwriting Recognition API",
+      "shortTitle": "Handwriting Recognition API",
+      "nightlyUrl": "https://wicg.github.io/handwriting-recognition/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/handwriting-recognition/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/handwriting-recognition",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Handwriting Recognition API",
+    "source": "spec",
+    "shortTitle": "Handwriting Recognition API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/idle-detection/",
     "seriesComposition": "full",
     "shortname": "idle-detection",

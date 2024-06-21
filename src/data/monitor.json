@@ -164,10 +164,6 @@
       "lastreviewed": "2024-03-01",
       "comment": "no published content yet"
     },
-    "WICG/handwriting-recognition": {
-      "lastreviewed": "2024-03-01",
-      "comment": "Original trial in Chromium but no intent to implement announced yet"
-    },
     "immersive-web/marker-tracking": {
       "lastreviewed": "2024-03-01",
       "comment": "marked as unstable API"

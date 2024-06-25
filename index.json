@@ -11897,6 +11897,43 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc9218",
+    "seriesComposition": "full",
+    "shortname": "rfc9218",
+    "series": {
+      "shortname": "rfc9218",
+      "currentSpecification": "rfc9218",
+      "title": "Extensible Prioritization Scheme for HTTP",
+      "shortTitle": "Extensible Prioritization Scheme for HTTP",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9218.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9218.html",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9218",
+        "https://tools.ietf.org/html/rfc9218"
+      ],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9218.xml",
+      "filename": "rfc9218.html"
+    },
+    "title": "Extensible Prioritization Scheme for HTTP",
+    "source": "ietf",
+    "shortTitle": "Extensible Prioritization Scheme for HTTP",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc9530",
     "seriesComposition": "full",
     "shortname": "rfc9530",

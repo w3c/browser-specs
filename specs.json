@@ -108,6 +108,7 @@
   "https://drafts.csswg.org/css-grid-3/ delta",
   "https://drafts.csswg.org/css-images-5/ delta",
   "https://drafts.csswg.org/css-link-params-1/",
+  "https://drafts.csswg.org/css-mixins-1/",
   {
     "url": "https://drafts.csswg.org/css-multicol-2/",
     "seriesComposition": "delta",

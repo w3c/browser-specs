@@ -103,6 +103,16 @@ describe("The `index.json` list", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
+  it("does not have a delta followed by a full spec in a series", () => {
+    const wrong = specs.filter(spec =>
+      spec.seriesComposition === "delta" &&
+      spec.seriesNext &&
+      specs.find(s =>
+        s.shortname === spec.seriesNext &&
+        s.seriesComposition === "full"));
+    assert.deepStrictEqual(wrong, []);
+  });
+
   it("has consistent series info", () => {
     const wrong = specs.filter(s => {
       if (!s.seriesPrevious) {

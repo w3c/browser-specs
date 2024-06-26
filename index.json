@@ -1252,7 +1252,7 @@
   },
   {
     "url": "https://drafts.csswg.org/css-overflow-5/",
-    "seriesComposition": "full",
+    "seriesComposition": "delta",
     "shortname": "css-overflow-5",
     "series": {
       "shortname": "css-overflow",

@@ -1206,6 +1206,44 @@
     "standing": "good"
   },
   {
+    "url": "https://drafts.csswg.org/css-mixins-1/",
+    "seriesComposition": "full",
+    "shortname": "css-mixins-1",
+    "series": {
+      "shortname": "css-mixins",
+      "currentSpecification": "css-mixins-1",
+      "title": "CSS Functions and Mixins",
+      "shortTitle": "CSS Functions and Mixins",
+      "nightlyUrl": "https://drafts.csswg.org/css-mixins/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-mixins-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-mixins-1/",
+        "https://w3c.github.io/csswg-drafts/css-mixins/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-mixins-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Functions and Mixins Module",
+    "source": "spec",
+    "shortTitle": "CSS Functions and Mixins",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-multicol-2/",
     "seriesComposition": "delta",
     "shortname": "css-multicol-2",

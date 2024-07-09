@@ -1805,7 +1805,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "fedcm"
+      ]
+    }
   },
   {
     "url": "https://fetch.spec.whatwg.org/",

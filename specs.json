@@ -878,7 +878,13 @@
   },
   "https://www.w3.org/TR/compute-pressure/",
   "https://www.w3.org/TR/contact-picker/",
-  "https://www.w3.org/TR/core-aam-1.2/",
+  {
+    "url": "https://www.w3.org/TR/core-aam-1.2/",
+    "nightly": {
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "core-aam/index.html"
+    }
+  },
   "https://www.w3.org/TR/credential-management-1/",
   "https://www.w3.org/TR/csp-embedded-enforcement/",
   "https://www.w3.org/TR/CSP3/",

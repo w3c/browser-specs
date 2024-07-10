@@ -882,7 +882,7 @@
     "url": "https://www.w3.org/TR/core-aam-1.2/",
     "nightly": {
       "repository": "https://github.com/w3c/aria",
-      "sourcePath": "accname/index.html"
+      "sourcePath": "core-aam/index.html"
     }
   },
   "https://www.w3.org/TR/credential-management-1/",

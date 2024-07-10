@@ -19,7 +19,13 @@ module.exports = function (url) {
 
   const githubio = url.match(/^https:\/\/([^\.]*)\.github\.io\/([^\/]*)\/?/);
   if (githubio) {
-    return { type: "github", owner: githubio[1], name: githubio[2] };
+    let name = githubio[2];
+    if ((name.endsWith("-aam") || name.endsWith("-aria")) && name !== "html-aria") {
+      // AAM and ARIA specs moved to the ARIA mono-repo, except HTML-ARIA,
+      // which is maintained by the Web Apps WG.
+      name = "aria";
+    }
+    return { type: "github", owner: githubio[1], name };
   }
 
   const whatwg = url.match(/^https:\/\/([^\.]*).spec.whatwg.org\//);

@@ -91,4 +91,10 @@ describe("compute-repository module", async () => {
       await computeSingleRepo("https://example.net/repoless"),
       null);
   });
+
+  it("reports right ARIA mono-repository for relevant specs", async () => {
+    assert.equal(
+      await computeSingleRepo("https://w3c.github.io/core-aam"),
+      "https://github.com/w3c/aria");
+  });
 });

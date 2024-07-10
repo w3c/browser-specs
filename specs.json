@@ -849,7 +849,12 @@
     ]
   },
   "https://www.w3.org/TR/accelerometer/",
-  "https://www.w3.org/TR/accname-1.2/",
+  {
+    "url": "https://www.w3.org/TR/accname-1.2/",
+    "nightly": {
+      "repository": "https://github.com/w3c/aria"
+    }
+  },
   "https://www.w3.org/TR/ambient-light/",
   "https://www.w3.org/TR/appmanifest/",
   "https://www.w3.org/TR/audio-output/",
@@ -878,13 +883,7 @@
   },
   "https://www.w3.org/TR/compute-pressure/",
   "https://www.w3.org/TR/contact-picker/",
-  {
-    "url": "https://www.w3.org/TR/core-aam-1.2/",
-    "nightly": {
-      "repository": "https://github.com/w3c/aria",
-      "sourcePath": "core-aam/index.html"
-    }
-  },
+  "https://www.w3.org/TR/core-aam-1.2/",
   "https://www.w3.org/TR/credential-management-1/",
   "https://www.w3.org/TR/csp-embedded-enforcement/",
   "https://www.w3.org/TR/CSP3/",

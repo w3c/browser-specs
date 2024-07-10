@@ -96,6 +96,9 @@ module.exports = async function (specs, options) {
       `${spec.series.shortname}/Overview.bs`,
       `${spec.series.shortname}/Overview.src.html`,
 
+      // Used for ARIA specs
+      `${spec.series.shortname}/index.html`,
+
       // Named after the nightly filename
       `${nightlyFilename}.bs`,
       `${nightlyFilename}.html`,

@@ -6370,8 +6370,8 @@
       "url": "https://w3c.github.io/mathml-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/mathml-aam",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "mathml-aam/index.html",
       "filename": "index.html"
     },
     "title": "MathML Accessibility API Mappings 1.0",
@@ -12208,6 +12208,14 @@
       "nightlyUrl": "https://w3c.github.io/accname/"
     },
     "seriesVersion": "1.2",
+    "nightly": {
+      "url": "https://w3c.github.io/accname/",
+      "status": "Editor's Draft",
+      "repository": "https://github.com/w3c/aria",
+      "alternateUrls": [],
+      "sourcePath": "accname/index.html",
+      "filename": "index.html"
+    },
     "organization": "W3C",
     "groups": [
       {
@@ -12219,14 +12227,6 @@
       "url": "https://www.w3.org/TR/accname-1.2/",
       "status": "Working Draft",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/accname/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/accname",
-      "sourcePath": "index.html",
-      "filename": "index.html"
     },
     "title": "Accessible Name and Description Computation 1.2",
     "source": "w3c",
@@ -12929,8 +12929,8 @@
       "url": "https://w3c.github.io/core-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/core-aam",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "core-aam/index.html",
       "filename": "index.html"
     },
     "title": "Core Accessibility API Mappings 1.2",
@@ -18325,8 +18325,8 @@
       "url": "https://w3c.github.io/dpub-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/dpub-aam",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "dpub-aam/index.html",
       "filename": "index.html"
     },
     "title": "Digital Publishing Accessibility API Mappings 1.1",
@@ -18370,8 +18370,8 @@
       "url": "https://w3c.github.io/dpub-aria/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/dpub-aria",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "dpub-aria/index.html",
       "filename": "index.html"
     },
     "title": "Digital Publishing WAI-ARIA Module 1.1",
@@ -19078,8 +19078,8 @@
       "url": "https://w3c.github.io/graphics-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/graphics-aam",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "graphics-aam/index.html",
       "filename": "index.html"
     },
     "title": "Graphics Accessibility API Mappings",
@@ -19125,8 +19125,8 @@
       "url": "https://w3c.github.io/graphics-aria/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/graphics-aria",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "graphics-aria/index.html",
       "filename": "index.html"
     },
     "title": "WAI-ARIA Graphics Module",
@@ -19265,8 +19265,8 @@
       "url": "https://w3c.github.io/html-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/html-aam",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "html-aam/index.html",
       "filename": "index.html"
     },
     "title": "HTML Accessibility API Mappings 1.0",
@@ -23714,8 +23714,8 @@
       "url": "https://w3c.github.io/svg-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/svg-aam",
-      "sourcePath": "index.html",
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "svg-aam/index.html",
       "filename": "index.html"
     },
     "title": "SVG Accessibility API Mappings",

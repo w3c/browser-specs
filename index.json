@@ -18434,7 +18434,7 @@
       "currentSpecification": "encrypted-media",
       "title": "Encrypted Media Extensions",
       "shortTitle": "Encrypted Media Extensions",
-      "releaseUrl": "https://www.w3.org/TR/encrypted-media/",
+      "releaseUrl": "https://www.w3.org/TR/encrypted-media-2/",
       "nightlyUrl": "https://w3c.github.io/encrypted-media/"
     },
     "nightly": {
@@ -18448,13 +18448,13 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "HTML Media Extensions Working Group",
-        "url": "https://www.w3.org/html/wg/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/encrypted-media/",
-      "status": "Recommendation",
+      "url": "https://www.w3.org/TR/encrypted-media-2/",
+      "status": "First Public Working Draft",
       "filename": "Overview.html"
     },
     "title": "Encrypted Media Extensions",
@@ -20883,8 +20883,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "HTML Media Extensions Working Group",
-        "url": "https://www.w3.org/html/wg/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
@@ -20923,8 +20923,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "HTML Media Extensions Working Group",
-        "url": "https://www.w3.org/html/wg/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
@@ -20963,8 +20963,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "HTML Media Extensions Working Group",
-        "url": "https://www.w3.org/html/wg/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
@@ -21003,13 +21003,13 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "HTML Media Extensions Working Group",
-        "url": "https://www.w3.org/html/wg/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {
       "url": "https://www.w3.org/TR/mse-byte-stream-format-registry/",
-      "status": "Note",
+      "status": "Draft Registry",
       "filename": "Overview.html"
     },
     "title": "Media Source Extensions Byte Stream Format Registry",
@@ -21043,8 +21043,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "HTML Media Extensions Working Group",
-        "url": "https://www.w3.org/html/wg/"
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
       }
     ],
     "release": {

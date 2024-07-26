@@ -117,7 +117,6 @@
   "https://drafts.csswg.org/css-overflow-5/ delta",
   "https://drafts.csswg.org/css-page-4/ delta",
   "https://drafts.csswg.org/css-position-4/ delta",
-  "https://drafts.csswg.org/css-scroll-snap-2/ delta",
   "https://drafts.csswg.org/css-shapes-2/ delta",
   {
     "url": "https://drafts.csswg.org/css-size-adjust-1/",
@@ -1007,6 +1006,7 @@
   "https://www.w3.org/TR/css-scoping-1/",
   "https://www.w3.org/TR/css-scroll-anchoring-1/",
   "https://www.w3.org/TR/css-scroll-snap-1/",
+  "https://www.w3.org/TR/css-scroll-snap-2/ delta",
   "https://www.w3.org/TR/css-scrollbars-1/",
   "https://www.w3.org/TR/css-shadow-parts-1/",
   "https://www.w3.org/TR/css-shapes-1/",
@@ -1125,7 +1125,7 @@
   },
   "https://www.w3.org/TR/edit-context/",
   {
-    "url": "https://www.w3.org/TR/encrypted-media/",
+    "url": "https://www.w3.org/TR/encrypted-media-2/",
     "nightly": {
       "sourcePath": "encrypted-media-respec.html"
     }

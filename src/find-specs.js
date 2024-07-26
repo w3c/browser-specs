@@ -115,11 +115,13 @@ async function findSpecs() {
   // ECMA proposals are in markdown pages on GitHub. We only watch stage 3
   // proposals, which are in the first table on the page.
   // Same thing for Web Assembly proposals: let's extract phase 3+ proposals.
+  // (note GitHub wraps tables in <markdown-accessibility-table> elements and
+  // headings in a <div class="markdown-heading"> element)
   const extractEcmaStage3Proposals = _=>
     [...document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href);
   const extractWasmProposals = _ =>
     [...document.querySelectorAll("table")]
-      .filter(table => table.previousElementSibling.nodeName === "H3" && table.previousElementSibling.textContent.match(/Phase (3|4|5)/))
+      .filter(table => table.parentElement.previousElementSibling.querySelector('h3')?.textContent?.match(/Phase (3|4|5)/))
       .map(table => [...table.querySelectorAll("tr td:first-child a")].map(a => a.href))
       .flat();
   let ecmaProposals;

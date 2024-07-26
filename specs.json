@@ -1125,6 +1125,12 @@
   },
   "https://www.w3.org/TR/edit-context/",
   {
+    "nightly": {
+      "sourcePath": "hdcp-version-registry-respec.html"
+    },
+    "url": "https://www.w3.org/TR/eme-hdcp-version-registry/"
+  },
+  {
     "url": "https://www.w3.org/TR/encrypted-media/",
     "nightly": {
       "sourcePath": "encrypted-media-respec.html"

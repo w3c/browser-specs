@@ -43,7 +43,7 @@ function getOrigin(url) {
  * while guaranteeing that only one request will be sent to a given origin
  * server at a time.
  */
-module.exports = class ThrottledQueue {
+export default class ThrottledQueue {
   originQueue = {};
   maxParallel = 4;
   sleepInterval = 2000;

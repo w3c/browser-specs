@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computeShortTitle = require("../src/compute-shorttitle.js");
+import assert from "node:assert";
+import computeShortTitle from "../src/compute-shorttitle.js";
 
 describe("compute-shorttitle module", () => {
   function assertTitle(title, expected) {

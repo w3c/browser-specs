@@ -6,16 +6,22 @@
  */
 
 // Tests may run against a test version of the specs file
-const specs = require(process.env.testSpecs ?? "../specs.json");
-const assert = require("assert");
-const schema = require("../schema/specs.json");
-const dfnsSchema = require("../schema/definitions.json");
-const computeInfo = require("../src/compute-shortname.js");
-const computePrevNext = require("../src/compute-prevnext.js");
-const Ajv = require("ajv");
-const addFormats = require("ajv-formats")
+import assert from "node:assert";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import schema from "../schema/specs.json" with { type: "json" };
+import dfnsSchema from "../schema/definitions.json" with { type: "json" };
+import computeInfo from "../src/compute-shortname.js";
+import computePrevNext from "../src/compute-prevnext.js";
+import loadJSON from "../src/load-json.js";
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
 const ajv = (new Ajv()).addSchema(dfnsSchema);
 addFormats(ajv);
+
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
+const specsFile = process.env.testIndex ?? path.resolve(scriptPath, "..", "specs.json");
+const specs = await loadJSON(specsFile);
 
 // When an entry is invalid, the schema validator returns one error for each
 // "oneOf" option and one error on overall "oneOf" problem. This is confusing

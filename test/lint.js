@@ -1,5 +1,5 @@
-const assert = require("assert");
-const { lintStr } = require("../src/lint.js");
+import assert from "node:assert";
+import { lintStr } from "../src/lint.js";
 
 describe("Linter", () => {
   describe("lintStr()", () => {

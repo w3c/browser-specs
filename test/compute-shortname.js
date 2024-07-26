@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computeInfo = require("../src/compute-shortname.js");
+import assert from "node:assert";
+import computeInfo from "../src/compute-shortname.js";
 
 describe("compute-shortname module", () => {
 

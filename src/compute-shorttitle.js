@@ -15,7 +15,7 @@
  *
  * The function throws if it cannot compute a meaningful name from the URL.
  */
-module.exports = function (title) {
+export default function (title) {
   if (!title) {
     return title;
   }

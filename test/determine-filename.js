@@ -1,5 +1,5 @@
-const assert = require("assert");
-const determineFilename = require("../src/determine-filename.js");
+import assert from "node:assert";
+import determineFilename from "../src/determine-filename.js";
 
 describe("determine-filename module", function () {
   // Tests need to send network requests

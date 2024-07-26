@@ -13,7 +13,8 @@
 // specs targeted at browsers. That logic will also very likely evolve over
 // time, be it only to give the file a different name (the list of specs will
 // be expanded to contain specs in that "ignore" list)
-const { groups: nonbrowserGroups, repos: nonbrowserRepos } = require('./data/ignore.json');
+import ignore from './data/ignore.json' with { type: 'json' };
+const { groups: nonbrowserGroups, repos: nonbrowserRepos } = ignore;
 
 /**
  * Exports main function that takes a spec object and returns a list of
@@ -26,7 +27,7 @@ const { groups: nonbrowserGroups, repos: nonbrowserRepos } = require('./data/ign
  * contains `reset`, the function does not attempt to compute a list but rather
  * returns the list of categories in the spec object.
  */
-module.exports = function (spec) {
+export default function (spec) {
   if (!spec || !spec.groups) {
     throw "Invalid spec object passed as parameter";
   }

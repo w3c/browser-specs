@@ -19,7 +19,7 @@ const unofficialStatuses = [
  * Exports main function that takes a spec object and returns the standing of
  * the spec.
  */
-module.exports = function (spec) {
+export default function (spec) {
   if (!spec) {
     throw "Invalid spec object passed as parameter";
   }

@@ -13,7 +13,7 @@
  * "seriesPrevious" and/or "seriesNext" set. Function only sets the
  * properties when needed, so returned object may be empty.
  */
-module.exports = function (spec, list) {
+export default function (spec, list) {
   if (!spec || !spec.shortname || !spec.series || !spec.series.shortname) {
     throw "Invalid spec object passed as parameter";
   }

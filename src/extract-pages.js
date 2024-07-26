@@ -4,9 +4,9 @@
  * the table of contents, in document order, excluding the index page.
  */
 
-const loadSpec = require('./load-spec');
+import loadSpec from './load-spec.js';
 
-module.exports = async function (url, browser) {
+export default async function (url, browser) {
   const page = await browser.newPage();
   try {
     await loadSpec(url, page);

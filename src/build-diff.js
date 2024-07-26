@@ -19,11 +19,16 @@
  * node src/build-diff HEAD..HEAD~3
  */
 
-const assert = require("assert");
-const path = require("path");
-const { execSync } = require("child_process");
-const { generateIndex } = require("./build-index");
-const computeShortname = require("./compute-shortname.js");
+import assert from "node:assert";
+import path from "node:path";
+import process from "node:process";
+import { fileURLToPath } from "node:url";
+import { execSync } from "node:child_process";
+import { generateIndex } from "./build-index.js";
+import computeShortname from "./compute-shortname.js";
+import loadJSON from "./load-json.js";
+
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 
 /**
  * Spec sort function.
@@ -162,7 +167,7 @@ async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.
   log(`Retrieve specs.json at "${newRef}"...`);
   let newSpecs;
   if (newRef.toLowerCase() === "working") {
-    newSpecs = require(path.resolve(__dirname, "..", "specs.json"));
+    newSpecs = await loadJSON(path.resolve(scriptPath, "..", "specs.json"));
   }
   else {
     const newSpecsStr = execSync(`git show ${newRef}:specs.json`, { encoding: "utf8" });
@@ -216,11 +221,11 @@ async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.
  */
 async function buildSpec(spec, { diffType = "diff", log = console.log }) {
   log(`Retrieve specs.json...`);
-  const baseSpecs = require(path.resolve(__dirname, "..", "specs.json"));
+  const baseSpecs = await loadJSON(path.resolve(scriptPath, "..", "specs.json"));
   log(`Retrieve specs.json... done`);
 
   log(`Retrieve index.json...`);
-  const baseIndex = require(path.resolve(__dirname, "..", "index.json"));
+  const baseIndex = await loadJSON(path.resolve(scriptPath, "..", "index.json"));
   log(`Retrieve index.json... done`);
 
   log(`Prepare diff...`);
@@ -294,7 +299,7 @@ async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = 
 /*******************************************************************************
 Export main function for use as module
 *******************************************************************************/
-module.exports = {
+export {
   build,
   buildCommits,
   buildSpec
@@ -304,7 +309,7 @@ module.exports = {
 /*******************************************************************************
 Main loop
 *******************************************************************************/
-if (require.main === module) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const what = process.argv[2] ?? "working";
   const diffType = process.argv[3] ?? "diff";
 

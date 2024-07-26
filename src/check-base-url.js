@@ -10,8 +10,8 @@
  * No content is returned when everything looks good.
  */
 
-const core = require("@actions/core");
-const specs = require("../index.json");
+import core from "@actions/core";
+import specs from "../index.json";
 
 const problems = specs
   // A subset of the IETF RFCs are crawled from their httpwg.org rendering

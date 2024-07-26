@@ -232,7 +232,7 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
  * Exports main function that takes a URL (or a spec name) and returns an
  * object with a name, a shortname and a level (if needed).
  */
-module.exports = function (url, forkOf) {
+export default function (url, forkOf) {
   if (!url) {
     throw "No URL passed as parameter";
   }

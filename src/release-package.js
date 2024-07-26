@@ -3,13 +3,14 @@
  * which the pre-release PR is based as source of data.
  */
 
-const Octokit = require("./octokit");
-const fs = require("fs");
-const path = require("path");
-const os = require("os");
-const { execSync } = require("child_process");
-const { rimraf } = require("rimraf");
-const { npmPublish } = require("@jsdevtools/npm-publish");
+import Octokit from "./octokit.js";
+import fs from "node:fs";
+import path from "node:path";
+import os from "node:os";
+import { execSync } from "node:child_process";
+import { rimraf } from "rimraf";
+import { npmPublish } from "@jsdevtools/npm-publish";
+import loadJSON from "./load-json.js";
 
 const owner = "w3c";
 const repo = "browser-specs";
@@ -118,26 +119,14 @@ async function releasePackage(prNumber) {
 /*******************************************************************************
 Retrieve tokens from environment, prepare Octokit and kick things off
 *******************************************************************************/
-const GITHUB_TOKEN = (_ => {
-  try {
-    return require("../config.json").GITHUB_TOKEN;
-  }
-  catch {
-    return "";
-  }
-})() || process.env.GITHUB_TOKEN;
+const config = await loadJSON("config.json");
+const GITHUB_TOKEN = config?.GITHUB_TOKEN ?? process.env.GITHUB_TOKEN;
 if (!GITHUB_TOKEN) {
   console.error("GITHUB_TOKEN must be set to some personal access token as an env variable or in a config.json file");
   process.exit(1);
 }
 
-const NPM_TOKEN = (() => {
-  try {
-    return require("../config.json").NPM_TOKEN;
-  } catch {
-    return process.env.NPM_TOKEN;
-  }
-})();
+const NPM_TOKEN = config?.NPM_TOKEN ?? process.env.NPM_TOKEN;
 if (!NPM_TOKEN) {
   console.error("NPM_TOKEN must be set to an npm token as an env variable or in a config.json file");
   process.exit(1);

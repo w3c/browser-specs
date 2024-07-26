@@ -1,5 +1,5 @@
-const assert = require("assert");
-const fetchGroups = require("../src/fetch-groups.js");
+import assert from "node:assert";
+import fetchGroups from "../src/fetch-groups.js";
 
 const githubToken = (function () {
   try {

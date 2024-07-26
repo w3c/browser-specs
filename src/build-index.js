@@ -6,35 +6,35 @@
  * in the root folder or from a `GITHUB_TOKEN` environment variable.
  */
 
-const fs = require("fs").promises;
-const path = require("path");
-const puppeteer = require("puppeteer");
-const os = require("os");
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
-const computeShortname = require("./compute-shortname.js");
-const computePrevNext = require("./compute-prevnext.js");
-const computeCurrentLevel = require("./compute-currentlevel.js");
-const computeRepository = require("./compute-repository.js");
-const computeSeriesUrls = require("./compute-series-urls.js");
-const computeAlternateUrls = require("./compute-alternate-urls.js");
-const computeShortTitle = require("./compute-shorttitle.js");
-const computeCategories = require("./compute-categories.js");
-const computeStanding = require("./compute-standing.js");
-const determineFilename = require("./determine-filename.js");
-const determineTestPath = require("./determine-testpath.js");
-const extractPages = require("./extract-pages.js");
-const fetchInfo = require("./fetch-info.js");
-const fetchGroups = require("./fetch-groups.js");
-const githubToken = (_ => {
-  try {
-    return require("../config.json").GITHUB_TOKEN;
-  }
-  catch {
-    return null;
-  }
-})() ?? process.env.GITHUB_TOKEN;
+import fs from "node:fs/promises";
+import path from "node:path";
+import puppeteer from "puppeteer";
+import os from "node:os";
+import process from "node:process";
+import util from "node:util";
+import { exec as execCb } from "node:child_process";
+import { fileURLToPath } from "node:url";
+const exec = util.promisify(execCb);
+import computeShortname from "./compute-shortname.js";
+import computePrevNext from "./compute-prevnext.js";
+import computeCurrentLevel from "./compute-currentlevel.js";
+import computeRepository from "./compute-repository.js";
+import computeSeriesUrls from "./compute-series-urls.js";
+import computeAlternateUrls from "./compute-alternate-urls.js";
+import computeShortTitle from "./compute-shorttitle.js";
+import computeCategories from "./compute-categories.js";
+import computeStanding from "./compute-standing.js";
+import determineFilename from "./determine-filename.js";
+import determineTestPath from "./determine-testpath.js";
+import extractPages from "./extract-pages.js";
+import fetchInfo from "./fetch-info.js";
+import fetchGroups from "./fetch-groups.js";
+import loadJSON from "./load-json.js";
 
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
+
+const config = await loadJSON("config.json");
+const githubToken = config?.GITHUB_TOKEN ?? process.env.GITHUB_TOKEN;
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -123,7 +123,7 @@ const steps = [
 
 
 async function runSkeleton(specs, { log }) {
-  index = specs
+  const index = specs
     // Turn all specs into objects
     // (and handle syntactic sugar notation for delta/current flags)
     .map(spec => {
@@ -399,15 +399,8 @@ async function generateIndex(specs, { step = "all", previousIndex = null, log = 
 async function generateIndexFile(specsFile, targetFile, step) {
   // If the index already exists, reuse the info it contains when info cannot
   // be refreshed due to some external (network) issue.
-  const previousIndex = await (async function () {
-    try {
-      const json = await fs.readFile(path.join(__dirname, "..", "index.json"), 'utf8');
-      return JSON.parse(json);
-    }
-    catch (err) {
-      return [];
-    }
-  })();
+  const previousIndexFile = path.resolve(scriptPath, "..", "index.json");
+  const previousIndex = (await loadJSON(previousIndexFile)) ?? [];
 
   const specsJson = await fs.readFile(path.resolve(specsFile));
   const specs = JSON.parse(specsJson);
@@ -421,7 +414,7 @@ async function generateIndexFile(specsFile, targetFile, step) {
 /*******************************************************************************
 Export functions for use as module
 *******************************************************************************/
-module.exports = {
+export {
   generateIndex,
   generateIndexFile
 };
@@ -430,12 +423,12 @@ module.exports = {
 /*******************************************************************************
 Main loop
 *******************************************************************************/
-if (require.main === module) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const fileOrStep = process.argv[2];
   const pad = idx => (idx < 10) ? ('0' + idx) : idx;
 
   async function mainLoop() {
-    const buildstepsFolder = path.join(__dirname, "..", ".buildsteps");
+    const buildstepsFolder = path.join(scriptPath, "..", ".buildsteps");
 
     async function createBuildStepsFolderIfNeeded() {
       try {
@@ -467,14 +460,14 @@ if (require.main === module) {
       let specsFile;
       let indexFile;
       if (stepPos === 1) {
-        specsFile = path.join(__dirname, "..", "specs.json");
+        specsFile = path.join(scriptPath, "..", "specs.json");
       }
       else {
         const prevStep = steps[prevPos - 1].shortname;
         specsFile = path.join(buildstepsFolder, `${pad(prevPos)}-${prevStep}.json`);
       }
       if (step === "index") {
-        indexFile = path.join(__dirname, "..", "index.json");
+        indexFile = path.join(scriptPath, "..", "index.json");
       }
       else {
         indexFile = path.join(buildstepsFolder, `${pad(stepPos)}-${step}.json`);
@@ -493,7 +486,7 @@ if (require.main === module) {
     else if (fileOrStep.endsWith(".json")) {
       // Source/Target files and step as parameters
       const specsFile = fileOrStep;
-      const indexFile = process.argv[3] ?? path.join(__dirname, "..", "index.json");
+      const indexFile = process.argv[3] ?? path.join(scriptPath, "..", "index.json");
       const step = process.argv[4] ?? "all";
       await generateIndexFile(specsFile, indexFile, step);
     }
@@ -509,8 +502,8 @@ if (require.main === module) {
       }
       if (step === "all") {
         // Not really a step, just run the entire build
-        const specsFile = path.join(__dirname, "..", "specs.json");
-        const indexFile = path.join(__dirname, "..", "index.json");
+        const specsFile = path.join(scriptPath, "..", "specs.json");
+        const indexFile = path.join(scriptPath, "..", "index.json");
         await generateIndexFile(specsFile, indexFile, step);
       }
       else {

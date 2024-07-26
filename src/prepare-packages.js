@@ -10,13 +10,17 @@
  * node src/prepare-packages.js
  */
 
-const fs = require('fs').promises;
-const path = require('path');
-const util = require('util');
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import util from 'node:util';
+import { fileURLToPath } from 'node:url';
+import loadJSON from './load-json.js';
+
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 
 async function preparePackages() {
   console.log('Load index file');
-  const index = require(path.join('..', 'index.json'));
+  const index = await loadJSON(path.join(scriptPath, '..', 'index.json'));
   console.log(`- ${index.length} specs in index file`);
 
   const packages = [
@@ -42,14 +46,14 @@ async function preparePackages() {
 
     // Write packages/${name}/index.json
     await fs.writeFile(
-      path.resolve(__dirname, '..', 'packages', name, 'index.json'),
+      path.resolve(scriptPath, '..', 'packages', name, 'index.json'),
       JSON.stringify(specs, null, 2),
       'utf8');
     console.log(`- packages/${name}/index.json updated`);
 
     // Update README.md
-    const commonReadme = await fs.readFile(path.resolve(__dirname, '..', 'README.md'), 'utf8');
-    const packageReadmeFile = path.resolve(__dirname, '..', 'packages', name, 'README.md');
+    const commonReadme = await fs.readFile(path.resolve(scriptPath, '..', 'README.md'), 'utf8');
+    const packageReadmeFile = path.resolve(scriptPath, '..', 'packages', name, 'README.md');
     let packageReadme = await fs.readFile(packageReadmeFile, 'utf8');
     const commonBlocks = [
       { start: '<!-- COMMON-TOC: start -->', end: '<!-- COMMON-TOC: end -->' },

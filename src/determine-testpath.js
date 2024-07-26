@@ -7,12 +7,14 @@
  * ".cache" folder.
  */
 
-const fs = require("fs");
-const path = require("path");
-const execSync = require("child_process").execSync;
+import fs from "node:fs";
+import path from "node:path";
+import { execSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
 
 // Cache folder under which the WPT repository will be cloned
-const cacheFolder = path.resolve(__dirname, "..", ".cache");
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
+const cacheFolder = path.resolve(scriptPath, "..", ".cache");
 const wptFolder = path.resolve(cacheFolder, "wpt");
 
 /**
@@ -124,7 +126,7 @@ function getFirstFoundInArray(paths, ...items) {
  *
  * The options parameter is used to specify the GitHub API authentication token.
  */
-module.exports = async function (specs, options) {
+export default async function (specs, options) {
   if (!specs || specs.find(spec => !spec.shortname || !spec.series || !spec.series.shortname)) {
     throw "Invalid list of specifications passed as parameter";
   }

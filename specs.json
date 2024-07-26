@@ -533,6 +533,11 @@
     "title": "WebAssembly JavaScript Interface: Content Security Policy"
   },
   {
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: ESM Integration",
+    "url": "https://webassembly.github.io/esm-integration/js-api/"
+  },
+  {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "forkOf": "wasm-js-api-2"
   },

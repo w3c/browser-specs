@@ -1136,6 +1136,51 @@
     "url": "https://www.w3.org/TR/eme-hdcp-version-registry/"
   },
   {
+    "url": "https://www.w3.org/TR/eme-initdata-cenc/",
+    "nightly": {
+      "sourcePath": "format-registry/initdata/cenc-respec.html"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-initdata-keyids/",
+    "nightly": {
+      "sourcePath": "format-registry/initdata/keyids-respec.html"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-initdata-registry/",
+    "nightly": {
+      "sourcePath": "format-registry/initdata/index-respec.html"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-initdata-webm/",
+    "nightly": {
+      "sourcePath": "format-registry/initdata/webm-respec.html"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-stream-mp4/",
+    "series": {
+      "shortname": "eme-stream-mp4"
+    },
+    "nightly": {
+      "sourcePath": "format-registry/stream/mp4-respec.html"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-stream-registry/",
+    "nightly": {
+      "sourcePath": "format-registry/stream/index-respec.html"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-stream-webm/",
+    "nightly": {
+      "sourcePath": "format-registry/stream/webm-respec.html"
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/encrypted-media-2/",
     "nightly": {
       "sourcePath": "encrypted-media-respec.html"
@@ -1332,13 +1377,7 @@
   "https://www.w3.org/TR/navigation-timing-2/",
   "https://www.w3.org/TR/network-error-logging/",
   "https://www.w3.org/TR/openscreenprotocol/",
-  {
-    "url": "https://www.w3.org/TR/orientation-event/",
-    "series": {
-      "shortname": "orientation-event",
-      "title": "Device Orientation and Motion"
-    }
-  },
+  "https://www.w3.org/TR/orientation-event/",
   "https://www.w3.org/TR/orientation-sensor/",
   "https://www.w3.org/TR/paint-timing/",
   "https://www.w3.org/TR/payment-handler/",
@@ -1424,21 +1463,9 @@
   "https://www.w3.org/TR/resize-observer-1/",
   "https://www.w3.org/TR/resource-timing/",
   "https://www.w3.org/TR/screen-capture/",
-  {
-    "url": "https://www.w3.org/TR/screen-orientation/",
-    "series": {
-      "shortname": "screen-orientation",
-      "title": "Screen Orientation"
-    }
-  },
+  "https://www.w3.org/TR/screen-orientation/",
   "https://www.w3.org/TR/screen-wake-lock/",
-  {
-    "url": "https://www.w3.org/TR/scroll-animations-1/",
-    "series": {
-      "shortname": "scroll-animations",
-      "title": "Scroll-driven Animations"
-    }
-  },
+  "https://www.w3.org/TR/scroll-animations-1/",
   "https://www.w3.org/TR/secure-contexts/",
   "https://www.w3.org/TR/secure-payment-confirmation/",
   "https://www.w3.org/TR/selection-api/",
@@ -1619,6 +1646,13 @@
   "https://www.w3.org/TR/webcodecs-opus-codec-registration/",
   "https://www.w3.org/TR/webcodecs-pcm-codec-registration/",
   "https://www.w3.org/TR/webcodecs-ulaw-codec-registration/",
+  {
+    "url": "https://www.w3.org/TR/webcodecs-video-frame-metadata-registry/",
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/video_frame_metadata_registry.html",
+      "sourcePath": "video_frame_metadata_registry.src.html"
+    }
+  },
   "https://www.w3.org/TR/webcodecs-vorbis-codec-registration/",
   "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
   "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",

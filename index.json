@@ -6837,6 +6837,43 @@
     "standing": "good"
   },
   {
+    "url": "https://webassembly.github.io/esm-integration/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-2-fork-esm-integration",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-2",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: ESM Integration",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/esm-integration/js-api/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/esm-integration",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: ESM Integration",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "seriesComposition": "fork",
     "shortname": "wasm-js-api-2-fork-exception-handling",
@@ -18491,6 +18528,9 @@
       "repository": "https://github.com/w3c/encrypted-media",
       "filename": "index.html"
     },
+    "formerNames": [
+      "encrypted-media"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -24853,6 +24893,7 @@
     "seriesVersion": "2",
     "forks": [
       "wasm-js-api-2-fork-content-security-policy",
+      "wasm-js-api-2-fork-esm-integration",
       "wasm-js-api-2-fork-exception-handling",
       "wasm-js-api-2-fork-js-promise-integration",
       "wasm-js-api-2-fork-js-types",

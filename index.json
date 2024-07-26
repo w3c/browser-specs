@@ -18508,6 +18508,287 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/eme-initdata-cenc/",
+    "seriesComposition": "full",
+    "shortname": "eme-initdata-cenc",
+    "series": {
+      "shortname": "eme-initdata-cenc",
+      "currentSpecification": "eme-initdata-cenc",
+      "title": "\"cenc\" Initialization Data Format",
+      "shortTitle": "\"cenc\" Initialization Data Format",
+      "releaseUrl": "https://www.w3.org/TR/eme-initdata-cenc/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/format-registry/initdata/cenc.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/format-registry/initdata/cenc.html",
+      "status": "Editor's Draft",
+      "sourcePath": "format-registry/initdata/cenc-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "cenc.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-initdata-cenc/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "\"cenc\" Initialization Data Format",
+    "source": "w3c",
+    "shortTitle": "\"cenc\" Initialization Data Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-initdata-keyids/",
+    "seriesComposition": "full",
+    "shortname": "eme-initdata-keyids",
+    "series": {
+      "shortname": "eme-initdata-keyids",
+      "currentSpecification": "eme-initdata-keyids",
+      "title": "\"keyids\" Initialization Data Format",
+      "shortTitle": "\"keyids\" Initialization Data Format",
+      "releaseUrl": "https://www.w3.org/TR/eme-initdata-keyids/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/format-registry/initdata/keyids.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/format-registry/initdata/keyids.html",
+      "status": "Editor's Draft",
+      "sourcePath": "format-registry/initdata/keyids-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "keyids.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-initdata-keyids/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "\"keyids\" Initialization Data Format",
+    "source": "w3c",
+    "shortTitle": "\"keyids\" Initialization Data Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-initdata-registry/",
+    "seriesComposition": "full",
+    "shortname": "eme-initdata-registry",
+    "series": {
+      "shortname": "eme-initdata-registry",
+      "currentSpecification": "eme-initdata-registry",
+      "title": "Encrypted Media Extensions Initialization Data Format Registry",
+      "shortTitle": "Encrypted Media Extensions Initialization Data Format Registry",
+      "releaseUrl": "https://www.w3.org/TR/eme-initdata-registry/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/format-registry/initdata/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/format-registry/initdata/",
+      "status": "Editor's Draft",
+      "sourcePath": "format-registry/initdata/index-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-initdata-registry/",
+      "status": "Draft Registry",
+      "filename": "Overview.html"
+    },
+    "title": "Encrypted Media Extensions Initialization Data Format Registry",
+    "source": "w3c",
+    "shortTitle": "Encrypted Media Extensions Initialization Data Format Registry",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-initdata-webm/",
+    "seriesComposition": "full",
+    "shortname": "eme-initdata-webm",
+    "series": {
+      "shortname": "eme-initdata-webm",
+      "currentSpecification": "eme-initdata-webm",
+      "title": "\"webm\" Initialization Data Format",
+      "shortTitle": "\"webm\" Initialization Data Format",
+      "releaseUrl": "https://www.w3.org/TR/eme-initdata-webm/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/format-registry/initdata/webm.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/format-registry/initdata/webm.html",
+      "status": "Editor's Draft",
+      "sourcePath": "format-registry/initdata/webm-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "webm.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-initdata-webm/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "\"webm\" Initialization Data Format",
+    "source": "w3c",
+    "shortTitle": "\"webm\" Initialization Data Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-stream-mp4/",
+    "seriesComposition": "full",
+    "shortname": "eme-stream-mp4",
+    "series": {
+      "shortname": "eme-stream-mp4",
+      "currentSpecification": "eme-stream-mp4",
+      "title": "ISO Common Encryption Protection Scheme for ISO Base Media File Format Stream Format",
+      "shortTitle": "ISO Common Encryption Protection Scheme for ISO Base Media File Format Stream Format",
+      "releaseUrl": "https://www.w3.org/TR/eme-stream-mp4/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html"
+    },
+    "seriesVersion": "4",
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/format-registry/stream/mp4.html",
+      "status": "Editor's Draft",
+      "sourcePath": "format-registry/stream/mp4-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "mp4.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-stream-mp4/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "ISO Common Encryption Protection Scheme for ISO Base Media File Format Stream Format",
+    "source": "w3c",
+    "shortTitle": "ISO Common Encryption Protection Scheme for ISO Base Media File Format Stream Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-stream-registry/",
+    "seriesComposition": "full",
+    "shortname": "eme-stream-registry",
+    "series": {
+      "shortname": "eme-stream-registry",
+      "currentSpecification": "eme-stream-registry",
+      "title": "Encrypted Media Extensions Stream Format Registry",
+      "shortTitle": "Encrypted Media Extensions Stream Format Registry",
+      "releaseUrl": "https://www.w3.org/TR/eme-stream-registry/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/format-registry/stream/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/format-registry/stream/",
+      "status": "Editor's Draft",
+      "sourcePath": "format-registry/stream/index-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-stream-registry/",
+      "status": "Draft Registry",
+      "filename": "Overview.html"
+    },
+    "title": "Encrypted Media Extensions Stream Format Registry",
+    "source": "w3c",
+    "shortTitle": "Encrypted Media Extensions Stream Format Registry",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/eme-stream-webm/",
+    "seriesComposition": "full",
+    "shortname": "eme-stream-webm",
+    "series": {
+      "shortname": "eme-stream-webm",
+      "currentSpecification": "eme-stream-webm",
+      "title": "WebM Stream Format",
+      "shortTitle": "WebM Stream Format",
+      "releaseUrl": "https://www.w3.org/TR/eme-stream-webm/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/format-registry/stream/webm.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/format-registry/stream/webm.html",
+      "status": "Editor's Draft",
+      "sourcePath": "format-registry/stream/webm-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "webm.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-stream-webm/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "WebM Stream Format",
+    "source": "w3c",
+    "shortTitle": "WebM Stream Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/encrypted-media-2/",
     "seriesComposition": "full",
     "shortname": "encrypted-media-2",
@@ -21367,8 +21648,8 @@
     "shortname": "orientation-event",
     "series": {
       "shortname": "orientation-event",
-      "title": "Device Orientation and Motion",
       "currentSpecification": "orientation-event",
+      "title": "Device Orientation and Motion",
       "shortTitle": "Device Orientation and Motion",
       "releaseUrl": "https://www.w3.org/TR/orientation-event/",
       "nightlyUrl": "https://w3c.github.io/deviceorientation/"
@@ -22820,8 +23101,8 @@
     "shortname": "screen-orientation",
     "series": {
       "shortname": "screen-orientation",
-      "title": "Screen Orientation",
       "currentSpecification": "screen-orientation",
+      "title": "Screen Orientation",
       "shortTitle": "Screen Orientation",
       "releaseUrl": "https://www.w3.org/TR/screen-orientation/",
       "nightlyUrl": "https://w3c.github.io/screen-orientation/"
@@ -22916,8 +23197,8 @@
     "shortname": "scroll-animations-1",
     "series": {
       "shortname": "scroll-animations",
-      "title": "Scroll-driven Animations",
       "currentSpecification": "scroll-animations-1",
+      "title": "Scroll-driven Animations",
       "shortTitle": "Scroll-driven Animations",
       "releaseUrl": "https://www.w3.org/TR/scroll-animations/",
       "nightlyUrl": "https://drafts.csswg.org/scroll-animations/"
@@ -25701,6 +25982,46 @@
     "title": "u-law PCM WebCodecs Registration",
     "source": "w3c",
     "shortTitle": "u-law PCM WebCodecs Registration",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/webcodecs-video-frame-metadata-registry/",
+    "seriesComposition": "full",
+    "shortname": "webcodecs-video-frame-metadata-registry",
+    "series": {
+      "shortname": "webcodecs-video-frame-metadata-registry",
+      "currentSpecification": "webcodecs-video-frame-metadata-registry",
+      "title": "WebCodecs VideoFrame Metadata Registry",
+      "shortTitle": "WebCodecs VideoFrame Metadata Registry",
+      "releaseUrl": "https://www.w3.org/TR/webcodecs-video-frame-metadata-registry/",
+      "nightlyUrl": "https://w3c.github.io/webcodecs/video_frame_metadata_registry.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webcodecs/video_frame_metadata_registry.html",
+      "status": "Editor's Draft",
+      "sourcePath": "video_frame_metadata_registry.src.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webcodecs",
+      "filename": "video_frame_metadata_registry.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webcodecs-video-frame-metadata-registry/",
+      "status": "Draft Registry",
+      "filename": "Overview.html"
+    },
+    "title": "WebCodecs VideoFrame Metadata Registry",
+    "source": "w3c",
+    "shortTitle": "WebCodecs VideoFrame Metadata Registry",
     "categories": [
       "browser"
     ],

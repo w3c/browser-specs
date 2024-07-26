@@ -1424,51 +1424,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-scroll-snap-2/",
-    "seriesComposition": "delta",
-    "shortname": "css-scroll-snap-2",
-    "series": {
-      "shortname": "css-scroll-snap",
-      "currentSpecification": "css-scroll-snap-1",
-      "title": "CSS Scroll Snap",
-      "shortTitle": "CSS Scroll Snap",
-      "releaseUrl": "https://www.w3.org/TR/css-scroll-snap/",
-      "nightlyUrl": "https://drafts.csswg.org/css-scroll-snap/"
-    },
-    "seriesVersion": "2",
-    "seriesPrevious": "css-scroll-snap-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-scroll-snap-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-scroll-snap-2/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-scroll-snap-2/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Scroll Snap Module Level 2",
-    "source": "spec",
-    "shortTitle": "CSS Scroll Snap 2",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-scroll-snap"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-shapes-2/",
     "seriesComposition": "delta",
     "shortname": "css-shapes-2",
@@ -16344,6 +16299,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-scroll-snap-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-scroll-snap-2",
+    "series": {
+      "shortname": "css-scroll-snap",
+      "currentSpecification": "css-scroll-snap-1",
+      "title": "CSS Scroll Snap",
+      "shortTitle": "CSS Scroll Snap",
+      "releaseUrl": "https://www.w3.org/TR/css-scroll-snap/",
+      "nightlyUrl": "https://drafts.csswg.org/css-scroll-snap/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-scroll-snap-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-scroll-snap-2/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-scroll-snap-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-scroll-snap-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-scroll-snap-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Scroll Snap Module Level 2",
+    "source": "w3c",
+    "shortTitle": "CSS Scroll Snap 2",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-scroll-snap"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-scrollbars-1/",
     "seriesComposition": "full",
     "shortname": "css-scrollbars-1",
@@ -18426,17 +18431,58 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/encrypted-media/",
+    "url": "https://www.w3.org/TR/eme-hdcp-version-registry/",
     "seriesComposition": "full",
-    "shortname": "encrypted-media",
+    "shortname": "eme-hdcp-version-registry",
+    "series": {
+      "shortname": "eme-hdcp-version-registry",
+      "currentSpecification": "eme-hdcp-version-registry",
+      "title": "Encrypted Media Extensions HDCP Version Registry",
+      "shortTitle": "Encrypted Media Extensions HDCP Version Registry",
+      "releaseUrl": "https://www.w3.org/TR/eme-hdcp-version-registry/",
+      "nightlyUrl": "https://w3c.github.io/encrypted-media/hdcp-version-registry.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/encrypted-media/hdcp-version-registry.html",
+      "status": "Editor's Draft",
+      "sourcePath": "hdcp-version-registry-respec.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/encrypted-media",
+      "filename": "hdcp-version-registry.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/eme-hdcp-version-registry/",
+      "status": "Draft Registry",
+      "filename": "Overview.html"
+    },
+    "title": "Encrypted Media Extensions HDCP Version Registry",
+    "source": "w3c",
+    "shortTitle": "Encrypted Media Extensions HDCP Version Registry",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/encrypted-media-2/",
+    "seriesComposition": "full",
+    "shortname": "encrypted-media-2",
     "series": {
       "shortname": "encrypted-media",
-      "currentSpecification": "encrypted-media",
+      "currentSpecification": "encrypted-media-2",
       "title": "Encrypted Media Extensions",
       "shortTitle": "Encrypted Media Extensions",
-      "releaseUrl": "https://www.w3.org/TR/encrypted-media-2/",
+      "releaseUrl": "https://www.w3.org/TR/encrypted-media/",
       "nightlyUrl": "https://w3c.github.io/encrypted-media/"
     },
+    "seriesVersion": "2",
     "nightly": {
       "url": "https://w3c.github.io/encrypted-media/",
       "status": "Editor's Draft",

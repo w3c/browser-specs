@@ -1134,7 +1134,10 @@
     "url": "https://www.w3.org/TR/encrypted-media-2/",
     "nightly": {
       "sourcePath": "encrypted-media-respec.html"
-    }
+    },
+    "formerNames": [
+      "encrypted-media"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/epub-33/",

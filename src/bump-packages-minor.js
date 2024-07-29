@@ -84,7 +84,7 @@ async function checkPackage(type) {
     console.log('- new/deleted spec(s) found');
     const newVersion = `${major}.${minor+1}.0`;
     package.version = newVersion;
-    fs.writeFile(path.resolve(scriptPath, packageFile), JSON.stringify(package, null, 2), 'utf8');
+    await fs.writeFile(path.resolve(scriptPath, packageFile), JSON.stringify(package, null, 2), 'utf8');
     console.log(`- Version bumped to ${newVersion}`);
   }
   else {

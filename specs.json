@@ -464,7 +464,7 @@
   },
   "https://tc39.es/proposal-temporal/",
   {
-    "url": "https://tc39.es/source-map-spec/",
+    "url": "https://tc39.es/source-map/",
     "shortname": "sourcemap",
     "nightly": {
       "status": "Editor's Draft",

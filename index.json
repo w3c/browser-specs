@@ -6020,7 +6020,7 @@
     "standing": "good"
   },
   {
-    "url": "https://tc39.es/source-map-spec/",
+    "url": "https://tc39.es/source-map/",
     "seriesComposition": "full",
     "shortname": "sourcemap",
     "series": {
@@ -6028,14 +6028,14 @@
       "currentSpecification": "sourcemap",
       "title": "Source Map",
       "shortTitle": "Source Map",
-      "nightlyUrl": "https://tc39.es/source-map-spec/"
+      "nightlyUrl": "https://tc39.es/source-map/"
     },
     "nightly": {
-      "url": "https://tc39.es/source-map-spec/",
+      "url": "https://tc39.es/source-map/",
       "status": "Editor's Draft",
       "sourcePath": "source-map.bs",
       "alternateUrls": [],
-      "repository": "https://github.com/tc39/source-map-spec",
+      "repository": "https://github.com/tc39/source-map",
       "filename": "index.html"
     },
     "organization": "Ecma International",

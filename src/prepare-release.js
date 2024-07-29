@@ -65,7 +65,7 @@ async function computeDiff(name, folder) {
   });
 
   // Extract released version (will be used in the body of the pre-release PR)
-  latestReleasedPackage = await loadJSON(path.join(tmpFolder, "node_modules", name, "package.json"));
+  const latestReleasedPackage = await loadJSON(path.join(tmpFolder, "node_modules", name, "package.json"));
   latestReleasedVersion = latestReleasedPackage.version;
 
   // Diff does not take the package.json file into account because "npm install"

@@ -62,7 +62,7 @@ async function checkPackage(type) {
   console.log(`Check ${type} package`);
   const packageFile = path.join(scriptPath, '..', 'packages', type, 'package.json');
   const packageContents = await loadJSON(packageFile);
-  const version = package.version;
+  const version = packageContents.version;
   console.log(`- Current version: ${version}`);
 
   // Loosely adapted from semver:
@@ -83,8 +83,8 @@ async function checkPackage(type) {
   if (bumpNeeded) {
     console.log('- new/deleted spec(s) found');
     const newVersion = `${major}.${minor+1}.0`;
-    package.version = newVersion;
-    await fs.writeFile(path.resolve(scriptPath, packageFile), JSON.stringify(package, null, 2), 'utf8');
+    packageContents.version = newVersion;
+    await fs.writeFile(path.resolve(scriptPath, packageFile), JSON.stringify(packageContents, null, 2), 'utf8');
     console.log(`- Version bumped to ${newVersion}`);
   }
   else {

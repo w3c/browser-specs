@@ -76,7 +76,7 @@ function areDistinctSpecsInSameSeries(s1, s2) {
     const computed2 = computeShortname(spec2.shortname ?? spec2.url, spec2.forkOf);
     const series1 = spec1?.series?.shortname ?? computed1.series.shortname;
     const series2 = spec2?.series?.shortname ?? computed2.series.shortname;
-    return series1 === series2;
+    return (computed1.shortname !== computed2.shortname) && (series1 === series2);
   }
   catch {
     return false;

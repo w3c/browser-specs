@@ -12,7 +12,7 @@
  * means a minor bump is already pending release.
  */
 
-import fs from 'node:fs'.promises;
+import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execSync } from 'node:child_process';
 import { fileURLToPath } from "node:url";
@@ -84,7 +84,7 @@ async function checkPackage(type) {
     console.log('- new/deleted spec(s) found');
     const newVersion = `${major}.${minor+1}.0`;
     package.version = newVersion;
-    fs.writeFile(path.resolve(scriptPath, packageFile), JSON.stringify(package, null, 2), 'utf8');
+    await fs.writeFile(path.resolve(scriptPath, packageFile), JSON.stringify(package, null, 2), 'utf8');
     console.log(`- Version bumped to ${newVersion}`);
   }
   else {

@@ -57,7 +57,7 @@ function btoa(str) {
  * @return {String} The results of running the diff. An empty string if contents
  *   match.
  */
-function computeDiff(name, folder) {
+async function computeDiff(name, folder) {
   // Install npm package in tmp folder
   const tmpFolder = fs.mkdtempSync(path.join(os.tmpdir(), "package-"));
   execSync(`npm install ${name}`, {
@@ -187,7 +187,7 @@ async function prepareRelease(name, folder, dryRun = false) {
 
   console.log();
   console.log("Compute diff between package and repo contents");
-  let diff = computeDiff(name, folder);
+  let diff = await computeDiff(name, folder);
   console.log(`- Diff length: ${diff?.length}`);
   if (!diff) {
     if (pendingPR) {

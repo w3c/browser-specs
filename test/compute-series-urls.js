@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computeSeriesUrls = require("../src/compute-series-urls.js");
+import assert from "node:assert";
+import computeSeriesUrls from "../src/compute-series-urls.js";
 
 describe("compute-series-urls module", () => {
   it("returns spec URLs when spec has no level", () => {

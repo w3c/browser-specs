@@ -1,6 +1,8 @@
 "use strict";
 
-const specs = require("./index.json");
+import specs from "./index.json" with { type: "json" };
+import { fileURLToPath } from 'node:url';
+import process from 'node:process';
 
 
 /**
@@ -31,13 +33,10 @@ function getSpecs(filter) {
   }
 }
 
+export { getSpecs };
 
-if (require.main === module) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   // Code used as command-line interface (CLI), output info about known specs.
   const res = getSpecs(process.argv[2]);
   console.log(JSON.stringify(res.length === 1 ? res[0] : res, null, 2));
-}
-else {
-  // Code referenced from another JS module, export
-  module.exports = { getSpecs };
 }

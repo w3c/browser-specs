@@ -6,8 +6,8 @@
  * The function needs an authentication token for the GitHub API.
  */
 
-const Octokit = require("./octokit");
-const parseSpecUrl = require("./parse-spec-url.js");
+import Octokit from "./octokit.js";
+import parseSpecUrl from "./parse-spec-url.js";
 
 
 /**
@@ -79,7 +79,7 @@ async function setISOGroupFromPage(spec, options) {
  * The options parameter is used to specify the GitHub API
  * authentication token.
  */
-module.exports = async function (specs, options) {
+export default async function (specs, options) {
   // Maintain a cache of fetched resources in memory to avoid sending the
   // same fetch request again and again
   const cache = {};

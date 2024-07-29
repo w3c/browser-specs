@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computeCurrentLevel = require("../src/compute-currentlevel.js");
+import assert from "node:assert";
+import computeCurrentLevel from "../src/compute-currentlevel.js";
 
 describe("compute-currentlevel module", () => {
   function getCurrentName(spec, list) {

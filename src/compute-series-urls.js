@@ -55,7 +55,7 @@ function computeSeriesUrls(spec) {
  * the list to look for previous versions of a spec to find a suitable release
  * URL when the latest version does not have one.
  */
-module.exports = function (spec, list) {
+export default function (spec, list) {
   list = list || [];
 
   // Compute series info for current version of the spec if it is in the list

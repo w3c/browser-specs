@@ -17,6 +17,7 @@
     "test": "mocha",
     "test-index": "mocha test/index.js"
   },
+  "type": "module",
   "bin": {
     "browser-specs": "./src/cli.js",
     "find-specs": "./src/find-specs.js"

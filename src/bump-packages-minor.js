@@ -12,15 +12,19 @@
  * means a minor bump is already pending release.
  */
 
-const fs = require('fs').promises;
-const path = require('path');
-const { execSync } = require('child_process');
+import fs from 'node:fs'.promises;
+import path from 'node:path';
+import { execSync } from 'node:child_process';
+import { fileURLToPath } from "node:url";
+import loadJSON from './load-json.js';
+
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 
 function specsMatch(s1, s2) {
   return s1.url === s2.url && s1.shortname === s2.shortname;
 }
 
-function isMinorBumpNeeded(type) {
+async function isMinorBumpNeeded(type) {
   // Retrieve the fullname of the remote ref "${type}@latest"
   const refs = execSync(`git show-ref ${type}@latest`, { encoding: 'utf8' })
     .trim().split('\n').map(ref => ref.split(' ')[1])
@@ -39,7 +43,7 @@ function isMinorBumpNeeded(type) {
   let lastIndexFile = JSON.parse(res);
 
   // Load new file
-  let newIndexFile = require('../index.json');
+  let newIndexFile = await loadJSON(path.resolve(scriptPath, '..', 'index.json'));
 
   // Filter specs if needed
   if (type === "browser-specs") {
@@ -56,8 +60,8 @@ function isMinorBumpNeeded(type) {
 
 async function checkPackage(type) {
   console.log(`Check ${type} package`);
-  const packageFile = path.join('..', 'packages', type, 'package.json');
-  const package = require(packageFile);
+  const packageFile = path.join(scriptPath, '..', 'packages', type, 'package.json');
+  const packageContents = await loadJSON(packageFile);
   const version = package.version;
   console.log(`- Current version: ${version}`);
 
@@ -75,11 +79,12 @@ async function checkPackage(type) {
     return;
   }
 
-  if (isMinorBumpNeeded(type)) {
+  const bumpNeeded = await isMinorBumpNeeded(type);
+  if (bumpNeeded) {
     console.log('- new/deleted spec(s) found');
     const newVersion = `${major}.${minor+1}.0`;
     package.version = newVersion;
-    fs.writeFile(path.resolve(__dirname, packageFile), JSON.stringify(package, null, 2), 'utf8');
+    fs.writeFile(path.resolve(scriptPath, packageFile), JSON.stringify(package, null, 2), 'utf8');
     console.log(`- Version bumped to ${newVersion}`);
   }
   else {
@@ -89,7 +94,7 @@ async function checkPackage(type) {
 
 
 async function checkPackages() {
-  const packagesFolder = path.resolve(__dirname, '..', 'packages');
+  const packagesFolder = path.resolve(scriptPath, '..', 'packages');
   const types = await fs.readdir(packagesFolder);
   for (const type of types) {
     const stat = await fs.lstat(path.join(packagesFolder, type));

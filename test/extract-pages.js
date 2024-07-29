@@ -1,6 +1,6 @@
-const assert = require("assert");
-const puppeteer = require("puppeteer");
-const extractPages = require("../src/extract-pages.js");
+import assert from "node:assert";
+import puppeteer from "puppeteer";
+import extractPages from "../src/extract-pages.js";
 
 describe("extract-pages module", function () {
   // Tests need to send network requests

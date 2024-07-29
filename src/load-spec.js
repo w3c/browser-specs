@@ -4,7 +4,7 @@
  * cause timeout issues on CSS servers.
  */
 
-module.exports = async function (url, page) {
+export default async function (url, page) {
   // Inner function that returns a network interception method for Puppeteer,
   // to avoid downloading images and getting stuck on streams.
   // NB: this is a simplified version of the code used in Reffy:

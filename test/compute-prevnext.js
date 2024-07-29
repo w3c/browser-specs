@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computePrevNext = require("../src/compute-prevnext.js");
+import assert from "node:assert";
+import computePrevNext from "../src/compute-prevnext.js";
 
 describe("compute-prevnext module", () => {
   function getSpec(seriesVersion) {

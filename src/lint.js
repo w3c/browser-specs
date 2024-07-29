@@ -1,9 +1,10 @@
 "use strict";
 
-const fs = require("fs").promises;
-const computeShortname = require("./compute-shortname.js");
-const computePrevNext = require("./compute-prevnext.js");
-
+import fs from "node:fs/promises";
+import process from "node:process";
+import { fileURLToPath } from "node:url";
+import computeShortname from "./compute-shortname.js";
+import computePrevNext from "./compute-prevnext.js";
 
 function compareSpecs(a, b) {
   return a.url.localeCompare(b.url);
@@ -97,8 +98,12 @@ async function lint(fix = false) {
   return true;
 }
 
+export {
+  lintStr,
+  lint
+};
 
-if (require.main === module) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   // Code used as command-line interface (CLI), run linting process
   lint(process.argv.includes("--fix")).then(
     ok => {
@@ -109,9 +114,4 @@ if (require.main === module) {
       process.exit(1);
     }
   );
-}
-else {
-  // Code imported to another JS module, export lint functions
-  module.exports.lintStr = lintStr;
-  module.exports.lint = lint;
 }

@@ -1,18 +1,22 @@
 #!/usr/bin/env node
 'use strict';
-const fs = require("fs").promises;
-const puppeteer = require('puppeteer');
-const path = require("path");
-const { Command } = require("commander");
-const { execSync } = require("child_process");
-const { version } = require(path.join(__dirname, "..", "package.json"));
-const execParams = { cwd: path.join(__dirname, '..') };
+import fs from "node:fs/promises";
+import puppeteer from 'puppeteer';
+import path from "node:path";
+import { Command } from "commander";
+import { execSync } from "node:child_process";
+import packageContents from "../package.json" with { type: "json" };
+const { version } = packageContents;
+import { fileURLToPath } from "node:url";
 
-const computeShortname = require("./compute-shortname");
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
+const execParams = { cwd: path.join(scriptPath, '..') };
 
-const specs = require("../index.json");
-const ignorable = require("./data/ignore.json");
-const monitorList = require("./data/monitor.json");
+import computeShortname from "./compute-shortname.js";
+
+import specs from "../index.json" with { type: "json" };
+import ignorable from "./data/ignore.json" with { type: "json" };
+import monitorList from "./data/monitor.json" with { type: "json" };
 
 const {repos: temporarilyIgnorableRepos, specs: temporarilyIgnorableSpecs} = monitorList;
 
@@ -371,7 +375,7 @@ Examples:
         // template. There is unfortunately no easy way to create an issue out
         // of such a template directly.
         const title = `Add ${candidate.shortname ?? candidate.spec}`;
-        const bodyFile = path.join(__dirname, "..", "__issue.md");
+        const bodyFile = path.join(scriptPath, "..", "__issue.md");
         const comments = [
           `- See repository: [${candidate.repo}](https://github.com/${candidate.repo})`,
           candidate.impl.chrome ? `- [chrome status](${candidate.impl.chrome})` : null,

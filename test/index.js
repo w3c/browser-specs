@@ -4,15 +4,21 @@
  */
 
 // Tests may run against a test version of the index file
-const specs = require(process.env.testIndex ?? "../index.json");
-const assert = require("assert");
-const schema = require("../schema/index.json");
-const dfnsSchema = require("../schema/definitions.json");
-const computeShortname = require("../src/compute-shortname");
-const Ajv = require("ajv");
-const addFormats = require("ajv-formats")
+import assert from "node:assert";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import schema from "../schema/index.json" with { type: "json" };
+import dfnsSchema from "../schema/definitions.json" with { type: "json" };
+import computeShortname from "../src/compute-shortname.js";
+import loadJSON from "../src/load-json.js";
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
 const ajv = new Ajv();
 addFormats(ajv);
+
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
+const specsFile = process.env.testIndex ?? path.resolve(scriptPath, "..", "index.json");
+const specs = await loadJSON(specsFile);
 
 describe("The `index.json` list", () => {
   it("has a valid JSON schema", () => {

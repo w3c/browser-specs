@@ -1,26 +1,30 @@
 #!/usr/bin/env node
-const { Command } = require('commander');
-const path = require('path');
-const fs = require('fs').promises;
-const Mocha = require('mocha');
-const { build } = require('./build-diff.js');
-const { lintStr } = require('./lint.js');
-const { execSync } = require("child_process");
+import { Command } from 'commander';
+import path from 'node:path';
+import { fileURLToPath } from "node:url";
+import fs from 'node:fs/promises';
+import Mocha from 'mocha';
+import { build } from './build-diff.js';
+import { lintStr } from './lint.js';
+import { execSync } from "node:child_process";
+import loadJSON from './load-json.js';
+
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 
 const dataFiles = {
-  monitor: path.join(__dirname, 'data', 'monitor.json'),
-  ignore: path.join(__dirname, 'data', 'ignore.json')
+  monitor: path.join(scriptPath, 'data', 'monitor.json'),
+  ignore: path.join(scriptPath, 'data', 'ignore.json')
 };
 const dataLists = {
-  monitor: require(dataFiles.monitor),
-  ignore: require(dataFiles.ignore)
+  monitor: await loadJSON(dataFiles.monitor),
+  ignore: await loadJSON(dataFiles.ignore)
 };
 
 
 /**
  * Command-line execution parameters for calls to `execSync`
  */
-const execParams = { cwd: path.join(__dirname, '..') };
+const execParams = { cwd: path.join(scriptPath, '..') };
 
 
 /**
@@ -33,7 +37,8 @@ const execParams = { cwd: path.join(__dirname, '..') };
  * *will be* released. Ideally, the version should rather be the version of
  * the latest released package.
  */
-const { version } = require(path.join(__dirname, '..', 'package.json'));
+const packageContents = await loadJSON(path.join(scriptPath, '..', 'package.json'));
+const version = packageContents.version;
 
 
 /**
@@ -326,10 +331,8 @@ Examples:
         }
       }
       else {
-        try {
-          custom = require(path.join(process.cwd(), options.json));
-        }
-        catch {
+        custom = await loadJSON(path.join(process.cwd(), options.json));
+        if (!custom) {
           console.error('The JSON option points to an invalid JSON file');
           process.exit(1);
         }
@@ -397,7 +400,7 @@ Examples:
     mocha.reporter(ObjectReporter, { results: testResults });
 
     // Build the diff and create a new temporary index
-    const testIndex = path.join(__dirname, '..', '__testIndex.json');
+    const testIndex = path.join(scriptPath, '..', '__testIndex.json');
     let buildResults;
     try {
       buildResults = await build(what, { log: logProgress, diffType: 'all', custom });
@@ -413,9 +416,9 @@ Examples:
     const isNewSpec =
       buildResults.what.type === 'spec' &&
       buildResults.diff.add.length === 1;
-    const testSpecs = path.join(__dirname, '..', '__testSpecs.json');
+    const testSpecs = path.join(scriptPath, '..', '__testSpecs.json');
     if (isNewSpec) {
-      const specs = require('../specs.json');
+      const specs = await loadJSON(path.join(scriptPath, '..', 'specs.json'));
       specs.push(buildResults.what.spec);
       const specsStr = JSON.stringify(specs, null, 2);
       const linted = lintStr(specsStr) ?? specsStr;
@@ -428,10 +431,14 @@ Examples:
     logProgress(`Run tests...`);
     if (isNewSpec) {
       process.env.testSpecs = testSpecs;
-      mocha.addFile(path.join(__dirname, '..', 'test', 'specs.js'));
+      mocha.addFile(path.join(scriptPath, '..', 'test', 'specs.js'));
     }
     process.env.testIndex = testIndex;
-    mocha.addFile(path.join(__dirname, '..', 'test', 'index.js'));
+    mocha.addFile(path.join(scriptPath, '..', 'test', 'index.js'));
+    // Mocha's `run()` function loads files as CommonJS modules by default.
+    // To load them as ESM modules, we need to do it ourselves using
+    // `loadFilesAsync()`, see https://mochajs.org/api/mocha#loadFilesAsync
+    await mocha.loadFilesAsync();
     const failures = await new Promise(resolve => {
       mocha.run(failures => resolve(failures));
     });
@@ -450,7 +457,7 @@ Examples:
     // update `specs.json`, let's do that.
     if (options.update && isNewSpec && !failures) {
       logProgress(`Update specs.json...`);
-      await fs.copyFile(testSpecs, path.join(__dirname, '..', 'specs.json'));
+      await fs.copyFile(testSpecs, path.join(scriptPath, '..', 'specs.json'));
       logProgress(`Update specs.json... done`);
 
       logProgress(`Update monitor/ignore lists...`);
@@ -498,7 +505,7 @@ Examples:
       const branchName = `add-` + spec.shortname;
       if (options.commit) {
         logProgress(`Commit changes...`);
-        const commitFile = path.join(__dirname, '..', '__commit.md');
+        const commitFile = path.join(scriptPath, '..', '__commit.md');
         const linkToIssue = issueNumber ? `Close #${issueNumber}, adding the suggested spec to the list.\n` : '';
         await fs.writeFile(
           commitFile,

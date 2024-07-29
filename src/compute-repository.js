@@ -7,8 +7,8 @@
  * The function needs an authentication token for the GitHub API.
  */
 
-const Octokit = require("./octokit");
-const parseSpecUrl = require("./parse-spec-url.js");
+import Octokit from "./octokit.js";
+import parseSpecUrl from "./parse-spec-url.js";
 
 
 /**
@@ -38,7 +38,7 @@ function getFirstFoundInTree(paths, ...items) {
  * by the function will remain the lowercased version, and that the returned
  * info won't include the source file).
  */
-module.exports = async function (specs, options) {
+export default async function (specs, options) {
   if (!specs) {
     throw "Invalid list of specifications passed as parameter";
   }

@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computeCategories = require("../src/compute-categories.js");
+import assert from "node:assert";
+import computeCategories from "../src/compute-categories.js";
 
 describe("compute-categories module", () => {
   it("sets `browser` category when group targets browsers", function () {

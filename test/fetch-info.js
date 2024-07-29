@@ -2,10 +2,10 @@
  * Tests for the fetch-info module
  */
 
-const assert = require("assert");
-const fetchInfo = require("../src/fetch-info.js");
+import assert from "node:assert";
+import fetchInfo from "../src/fetch-info.js";
 
-const { MockAgent, setGlobalDispatcher, getGlobalDispatcher } = require('undici');
+import { MockAgent, setGlobalDispatcher, getGlobalDispatcher } from 'undici';
 
 describe("fetch-info module", function () {
   // Tests need to send network requests

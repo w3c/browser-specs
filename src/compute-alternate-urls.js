@@ -3,9 +3,9 @@
  * has most of its info filled out and returns an object with "alternativeUrls"
  * based on well-known patterns for certain publishers.
  */
-const computeShortname = require("./compute-shortname.js");
+import computeShortname from "./compute-shortname.js";
 
-module.exports = function computeAlternateUrls(spec) {
+export default function (spec) {
   if (!spec?.url) {
     throw "Invalid spec object passed as parameter";
   }

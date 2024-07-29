@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computeRepo = require("../src/compute-repository.js");
+import assert from "node:assert";
+import computeRepo from "../src/compute-repository.js";
 
 describe("compute-repository module", async () => {
   async function computeSingleRepo(url) {

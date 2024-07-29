@@ -7,7 +7,7 @@
  * shortnames do not always match the name of the actual repo).
  */
 
-module.exports = function (url) {
+export default function (url) {
   if (!url) {
     throw "No URL passed as parameter";
   }

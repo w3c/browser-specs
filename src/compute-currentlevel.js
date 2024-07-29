@@ -19,7 +19,7 @@
  * "currentSpecification" property. Function always sets the property (value is
  * the name of the spec itself when it is the current level)
  */
-module.exports = function (spec, list) {
+export default function (spec, list) {
   list = list || [];
   if (!spec) {
     throw "Invalid spec object passed as parameter";

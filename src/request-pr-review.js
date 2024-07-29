@@ -2,7 +2,8 @@
  * Request a review on a pending pre-release PR
  */
 
-const Octokit = require("./octokit");
+import Octokit from "./octokit.js";
+import loadJSON from "./load-json.js";
 
 // Repository to process and PR reviewers
 const owner = "w3c";
@@ -58,14 +59,8 @@ async function requestReview(type) {
 /*******************************************************************************
 Retrieve GITHUB_TOKEN from environment, prepare Octokit and kick things off
 *******************************************************************************/
-const GITHUB_TOKEN = (_ => {
-  try {
-    return require("../config.json").GITHUB_TOKEN;
-  }
-  catch {
-    return "";
-  }
-})() || process.env.GITHUB_TOKEN;
+const config = await loadJSON("config.json");
+const GITHUB_TOKEN = config?.GITHUB_TOKEN ?? process.env.GITHUB_TOKEN;
 if (!GITHUB_TOKEN) {
   console.error("GITHUB_TOKEN must be set to some personal access token as an env variable or in a config.json file");
   process.exit(1);

@@ -38,11 +38,11 @@
  * bundle requests to Specref.
  */
 
-const puppeteer = require("puppeteer");
-const loadSpec = require("./load-spec");
-const computeShortname = require("./compute-shortname");
-const Octokit = require("./octokit");
-const ThrottledQueue = require("./throttled-queue");
+import puppeteer from "puppeteer";
+import loadSpec from "./load-spec.js";
+import computeShortname from "./compute-shortname.js";
+import Octokit from "./octokit.js";
+import ThrottledQueue from "./throttled-queue.js";
 
 // Map spec statuses returned by Specref to those used in specs
 // Note we typically won't get /TR statuses from Specref, since all /TR URLs
@@ -657,4 +657,4 @@ async function fetchInfo(specs, options) {
 }
 
 
-module.exports = fetchInfo;
+export default fetchInfo;

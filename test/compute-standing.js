@@ -1,5 +1,5 @@
-const assert = require("assert");
-const computeStanding = require("../src/compute-standing.js");
+import assert from "node:assert";
+import computeStanding from "../src/compute-standing.js";
 
 describe("compute-standing module", () => {
   it("returns `good` for an Editor's Draft", function () {

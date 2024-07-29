@@ -23,12 +23,16 @@
  * - Invalidate or re-request review when PR is updated?
  */
 
-const Octokit = require("./octokit");
-const fs = require("fs");
-const path = require("path");
-const os = require("os");
-const { execSync } = require("child_process");
-const { rimraf } = require("rimraf");
+import Octokit from "./octokit.js";
+import fs from "node:fs";
+import path from "node:path";
+import os from "node:os";
+import { execSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
+import { rimraf } from "rimraf";
+import loadJSON from "./load-json.js";
+
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 
 // Repository to process
 const owner = "w3c";
@@ -61,7 +65,8 @@ function computeDiff(name, folder) {
   });
 
   // Extract released version (will be used in the body of the pre-release PR)
-  latestReleasedVersion = require(path.join(tmpFolder, "node_modules", name, "package.json")).version;
+  latestReleasedPackage = await loadJSON(path.join(tmpFolder, "node_modules", name, "package.json"));
+  latestReleasedVersion = latestReleasedPackage.version;
 
   // Diff does not take the package.json file into account because "npm install"
   // adds properties that start with "_" to that file which do not exist in the
@@ -215,14 +220,15 @@ ${diff.substring(0, 60000)}`;
 
   console.log();
   console.log("Extract and bump version number");
-  const packageFile = require(`../packages/${folder}/package.json`);
-  const version = packageFile.version;
+  const packageFile = path.resolve(scriptPath, "..", "packages", folder, "package.json");
+  const packageContents = await loadJSON(packageFile);
+  const { version } = packageContents;
   const bumpedVersion = version
     .split(".")
     .map((nb, idx) => parseInt(nb, 10) + ((idx === 2) ? 1 : 0))
     .join(".");
-  packageFile.version = bumpedVersion;
-  const bumpedPackageFileContents = btoa(JSON.stringify(packageFile, null, 2));
+  packageContents.version = bumpedVersion;
+  const bumpedPackageFileContents = btoa(JSON.stringify(packageContents, null, 2));
   console.log(`- Version to release: ${version}`);
   console.log(`- Bumped version: ${bumpedVersion}`);
 
@@ -348,14 +354,8 @@ ${diff}
 /*******************************************************************************
 Retrieve GITHUB_TOKEN from environment, prepare Octokit and kick things off
 *******************************************************************************/
-const GITHUB_TOKEN = (_ => {
-  try {
-    return require("../config.json").GITHUB_TOKEN;
-  }
-  catch {
-    return "";
-  }
-})() || process.env.GITHUB_TOKEN;
+const config = await loadJSON("config.json");
+const GITHUB_TOKEN = config?.GITHUB_TOKEN ?? process.env.GITHUB_TOKEN;
 if (!GITHUB_TOKEN) {
   console.error("GITHUB_TOKEN must be set to some personal access token as an env variable or in a config.json file");
   process.exit(1);

@@ -12,7 +12,7 @@
  * means a minor bump is already pending release.
  */
 
-import fs from 'node:fs'.promises;
+import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execSync } from 'node:child_process';
 import { fileURLToPath } from "node:url";

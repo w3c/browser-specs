@@ -6480,40 +6480,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/PNG-spec/",
-    "seriesComposition": "full",
-    "shortname": "PNG-spec",
-    "series": {
-      "shortname": "PNG-spec",
-      "currentSpecification": "PNG-spec",
-      "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
-      "shortTitle": "PNG",
-      "nightlyUrl": "https://w3c.github.io/PNG-spec/"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/PNG-spec/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/PNG-spec",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Portable Network Graphics (PNG) Working Group",
-        "url": "https://www.w3.org/groups/wg/png/"
-      }
-    ],
-    "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
-    "source": "spec",
-    "shortTitle": "PNG",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/reporting/network-reporting.html",
     "seriesComposition": "full",
     "shortname": "network-reporting",
@@ -22147,6 +22113,50 @@
         "picture-in-picture"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/png-3/",
+    "seriesComposition": "full",
+    "shortname": "png-3",
+    "series": {
+      "shortname": "png",
+      "currentSpecification": "png-3",
+      "title": "Portable Network Graphics (PNG)",
+      "shortTitle": "PNG",
+      "releaseUrl": "https://www.w3.org/TR/png/",
+      "nightlyUrl": "https://w3c.github.io/png/"
+    },
+    "seriesVersion": "3",
+    "formerNames": [
+      "PNG-spec"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Portable Network Graphics (PNG) Working Group",
+        "url": "https://www.w3.org/groups/wg/png/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/png-3/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/png/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/png",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
+    "source": "w3c",
+    "shortTitle": "PNG",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/pointerevents3/",

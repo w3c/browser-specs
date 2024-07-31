@@ -490,12 +490,6 @@
   },
   "https://w3c.github.io/permissions-registry/",
   {
-    "url": "https://w3c.github.io/PNG-spec/",
-    "nightly": {
-      "status": "Editor's Draft"
-    }
-  },
-  {
     "url": "https://w3c.github.io/reporting/network-reporting.html",
     "shortname": "network-reporting",
     "nightly": {
@@ -1388,6 +1382,12 @@
   "https://www.w3.org/TR/permissions-policy-1/",
   "https://www.w3.org/TR/permissions/",
   "https://www.w3.org/TR/picture-in-picture/",
+  {
+    "url": "https://www.w3.org/TR/png-3/",
+    "formerNames": [
+      "PNG-spec"
+    ]
+  },
   "https://www.w3.org/TR/pointerevents3/",
   "https://www.w3.org/TR/pointerlock-2/",
   "https://www.w3.org/TR/presentation-api/",

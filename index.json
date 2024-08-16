@@ -1742,8 +1742,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Federated Identity Working Group",
+        "url": "https://www.w3.org/groups/wg/fedid/"
       }
     ],
     "nightly": {

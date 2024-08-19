@@ -1377,7 +1377,12 @@
   "https://www.w3.org/TR/payment-handler/",
   "https://www.w3.org/TR/payment-method-id/",
   "https://www.w3.org/TR/payment-method-manifest/",
-  "https://www.w3.org/TR/payment-request/",
+  {
+    "url": "https://www.w3.org/TR/payment-request/",
+    "formerNames": [
+      "payment-request-1.1"
+    ]
+  },
   "https://www.w3.org/TR/performance-timeline/",
   "https://www.w3.org/TR/permissions-policy-1/",
   "https://www.w3.org/TR/permissions/",

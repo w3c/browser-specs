@@ -21883,18 +21883,20 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/payment-request-1.1/",
+    "url": "https://www.w3.org/TR/payment-request/",
     "seriesComposition": "full",
-    "shortname": "payment-request-1.1",
+    "shortname": "payment-request",
     "series": {
       "shortname": "payment-request",
-      "currentSpecification": "payment-request-1.1",
+      "currentSpecification": "payment-request",
       "title": "Payment Request API",
       "shortTitle": "Payment Request API",
       "releaseUrl": "https://www.w3.org/TR/payment-request/",
       "nightlyUrl": "https://w3c.github.io/payment-request/"
     },
-    "seriesVersion": "1.1",
+    "formerNames": [
+      "payment-request-1.1"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -21903,8 +21905,8 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/payment-request-1.1/",
-      "status": "Discontinued Draft",
+      "url": "https://www.w3.org/TR/payment-request/",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -21915,13 +21917,13 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Payment Request API 1.1",
+    "title": "Payment Request API",
     "source": "w3c",
-    "shortTitle": "Payment Request API 1.1",
+    "shortTitle": "Payment Request API",
     "categories": [
       "browser"
     ],
-    "standing": "discontinued",
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

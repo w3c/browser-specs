@@ -20,7 +20,7 @@ const ajv = (new Ajv()).addSchema(dfnsSchema);
 addFormats(ajv);
 
 const scriptPath = path.dirname(fileURLToPath(import.meta.url));
-const specsFile = process.env.testIndex ?? path.resolve(scriptPath, "..", "specs.json");
+const specsFile = process.env.testSpecs ?? path.resolve(scriptPath, "..", "specs.json");
 const specs = await loadJSON(specsFile);
 
 // When an entry is invalid, the schema validator returns one error for each

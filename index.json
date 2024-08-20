@@ -1603,6 +1603,51 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/selectors-5/",
+    "seriesComposition": "delta",
+    "shortname": "selectors-5",
+    "series": {
+      "shortname": "selectors",
+      "currentSpecification": "selectors-4",
+      "title": "Selectors",
+      "shortTitle": "Selectors",
+      "releaseUrl": "https://www.w3.org/TR/selectors/",
+      "nightlyUrl": "https://drafts.csswg.org/selectors/"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "selectors-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/selectors-5/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/selectors-5/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "selectors-5/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "Selectors Level 5",
+    "source": "spec",
+    "shortTitle": "Selectors 5",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/selectors"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.fxtf.org/compositing-2/",
     "seriesComposition": "full",
     "shortname": "compositing-2",
@@ -5770,6 +5815,40 @@
     "title": "ES Promise.withResolvers (2023)",
     "source": "spec",
     "shortTitle": "2023",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://tc39.es/proposal-regex-escaping/",
+    "seriesComposition": "full",
+    "shortname": "tc39-regex-escaping",
+    "series": {
+      "shortname": "tc39-regex-escaping",
+      "currentSpecification": "tc39-regex-escaping",
+      "title": "RegExp.escape",
+      "shortTitle": "RegExp.escape",
+      "nightlyUrl": "https://tc39.es/proposal-regex-escaping/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-regex-escaping/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-regex-escaping",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "RegExp.escape",
+    "source": "spec",
+    "shortTitle": "RegExp.escape",
     "categories": [
       "browser"
     ],
@@ -23455,6 +23534,7 @@
     },
     "seriesVersion": "4",
     "seriesPrevious": "selectors-3",
+    "seriesNext": "selectors-5",
     "organization": "W3C",
     "groups": [
       {

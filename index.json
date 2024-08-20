@@ -2410,6 +2410,40 @@
     }
   },
   {
+    "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
+    "seriesComposition": "full",
+    "shortname": "private-aggregation-api",
+    "series": {
+      "shortname": "private-aggregation-api",
+      "currentSpecification": "private-aggregation-api",
+      "title": "Private Aggregation API",
+      "shortTitle": "Private Aggregation API",
+      "nightlyUrl": "https://patcg-individual-drafts.github.io/private-aggregation-api/"
+    },
+    "groups": [
+      {
+        "name": "Private Advertising Technology Community Group",
+        "url": "https://www.w3.org/community/patcg/"
+      }
+    ],
+    "standing": "pending",
+    "organization": "W3C",
+    "nightly": {
+      "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/patcg-individual-drafts/private-aggregation-api",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Private Aggregation API",
+    "source": "spec",
+    "shortTitle": "Private Aggregation API",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://patcg-individual-drafts.github.io/topics/",
     "seriesComposition": "full",
     "shortname": "topics",
@@ -7101,6 +7135,43 @@
     },
     "source": "spec",
     "shortTitle": "WebAssembly JavaScript Interface: Promise Integration",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/js-string-builtins/js-api/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-js-api-2-fork-js-string-builtins",
+    "series": {
+      "shortname": "wasm-js-api",
+      "currentSpecification": "wasm-js-api-2",
+      "title": "WebAssembly JavaScript Interface",
+      "shortTitle": "WebAssembly JavaScript Interface",
+      "releaseUrl": "https://www.w3.org/TR/wasm-js-api/",
+      "nightlyUrl": "https://webassembly.github.io/spec/js-api/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: JS String Builtins",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/js-string-builtins/js-api/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/js-string-builtins",
+      "sourcePath": "document/js-api/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly JavaScript Interface: JS String Builtins",
     "categories": [
       "browser"
     ],
@@ -25269,6 +25340,7 @@
       "wasm-js-api-2-fork-esm-integration",
       "wasm-js-api-2-fork-exception-handling",
       "wasm-js-api-2-fork-js-promise-integration",
+      "wasm-js-api-2-fork-js-string-builtins",
       "wasm-js-api-2-fork-js-types",
       "wasm-js-api-2-fork-threads"
     ],

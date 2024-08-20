@@ -366,6 +366,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-canonical-tz/",
   {
     "url": "https://tc39.es/proposal-change-array-by-copy/",
     "standing": "discontinued",

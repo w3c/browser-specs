@@ -443,6 +443,7 @@
   "https://tc39.es/proposal-json-parse-with-source/",
   "https://tc39.es/proposal-promise-try/",
   "https://tc39.es/proposal-promise-with-resolvers/",
+  "https://tc39.es/proposal-regex-escaping/",
   "https://tc39.es/proposal-regexp-modifiers/",
   {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",

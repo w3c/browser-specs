@@ -176,6 +176,16 @@
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",
   {
+    "groups": [
+      {
+        "name": "Private Advertising Technology Community Group",
+        "url": "https://www.w3.org/community/patcg/"
+      }
+    ],
+    "standing": "pending",
+    "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/"
+  },
+  {
     "url": "https://patcg-individual-drafts.github.io/topics/",
     "groups": [
       {

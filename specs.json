@@ -571,6 +571,11 @@
     "title": "WebAssembly JavaScript Interface: Promise Integration"
   },
   {
+    "forkOf": "wasm-js-api-2",
+    "title": "WebAssembly JavaScript Interface: JS String Builtins",
+    "url": "https://webassembly.github.io/js-string-builtins/js-api/"
+  },
+  {
     "url": "https://webassembly.github.io/js-types/js-api/",
     "forkOf": "wasm-js-api-2",
     "title": "WebAssembly JavaScript Interface: Type Reflection"

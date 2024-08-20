@@ -122,11 +122,11 @@ async function findSpecs() {
   // (note GitHub wraps tables in <markdown-accessibility-table> elements and
   // headings in a <div class="markdown-heading"> element)
   const extractEcmaStage3Proposals = _=>
-    [...document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href);
+    [...document.querySelector("table").querySelectorAll("tr td:first-child a")].map(a => a.href.split('#')[0]);
   const extractWasmProposals = _ =>
     [...document.querySelectorAll("table")]
       .filter(table => table.parentElement.previousElementSibling.querySelector('h3')?.textContent?.match(/Phase (3|4|5)/))
-      .map(table => [...table.querySelectorAll("tr td:first-child a")].map(a => a.href))
+      .map(table => [...table.querySelectorAll("tr td:first-child a")].map(a => a.href.split('#')[0]))
       .flat();
   let ecmaProposals;
   let ecmaIntlProposals;

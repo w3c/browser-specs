@@ -5152,6 +5152,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-canonical-tz/",
+    "seriesComposition": "full",
+    "shortname": "tc39-canonical-tz",
+    "series": {
+      "shortname": "tc39-canonical-tz",
+      "currentSpecification": "tc39-canonical-tz",
+      "title": "Time Zone Canonicalization proposal",
+      "shortTitle": "Time Zone Canonicalization",
+      "nightlyUrl": "https://tc39.es/proposal-canonical-tz/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-canonical-tz/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-canonical-tz",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Time Zone Canonicalization proposal",
+    "source": "spec",
+    "shortTitle": "Time Zone Canonicalization",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-change-array-by-copy/",
     "seriesComposition": "full",
     "shortname": "tc39-change-array-by-copy",
@@ -26472,7 +26506,7 @@
     "groups": [
       {
         "name": "GPU for the Web Working Group",
-        "url": "https://www.w3.org/2020/gpu/"
+        "url": "https://www.w3.org/groups/wg/gpu/"
       }
     ],
     "release": {
@@ -27394,7 +27428,7 @@
     "groups": [
       {
         "name": "GPU for the Web Working Group",
-        "url": "https://www.w3.org/2020/gpu/"
+        "url": "https://www.w3.org/groups/wg/gpu/"
       }
     ],
     "release": {

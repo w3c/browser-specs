@@ -667,6 +667,10 @@
   "https://wicg.github.io/input-device-capabilities/",
   "https://wicg.github.io/intervention-reporting/",
   "https://wicg.github.io/is-input-pending/",
+  {
+    "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html",
+    "shortname": "isolated-contexts"
+  },
   "https://wicg.github.io/js-self-profiling/",
   "https://wicg.github.io/keyboard-lock/",
   "https://wicg.github.io/keyboard-map/",

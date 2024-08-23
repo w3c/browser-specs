@@ -489,6 +489,14 @@
   "https://urlpattern.spec.whatwg.org/",
   "https://w3c.github.io/audio-session/",
   "https://w3c.github.io/contentEditable/",
+  {
+    "shortname": "execCommand",
+    "standing": "pending",
+    "nightly": {
+      "sourcePath": "docs/execCommand/index.html"
+    },
+    "url": "https://w3c.github.io/editing/docs/execCommand/"
+  },
   "https://w3c.github.io/gamepad/extensions.html",
   "https://w3c.github.io/long-animation-frames/",
   "https://w3c.github.io/mathml-aam/",

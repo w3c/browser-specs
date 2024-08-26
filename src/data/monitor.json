@@ -418,10 +418,6 @@
       "comment": "being split-off from main spec https://github.com/w3c/PFE/pull/9/files; stub",
       "lastreviewed": "2024-03-01"
     },
-    "https://w3c.github.io/editing/docs/execCommand/": {
-      "lastreviewed": "2024-03-01",
-      "comment": "no longer worked on and not implemented consistently or fully by user agents"
-    },
     "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {
       "lastreviewed": "2024-03-01",
       "comment": "no longer worked on and implementation status is unclear"

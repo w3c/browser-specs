@@ -6383,6 +6383,40 @@
     }
   },
   {
+    "url": "https://w3c.github.io/editing/docs/execCommand/",
+    "seriesComposition": "full",
+    "shortname": "execCommand",
+    "series": {
+      "shortname": "execCommand",
+      "currentSpecification": "execCommand",
+      "title": "execCommand",
+      "shortTitle": "execCommand",
+      "nightlyUrl": "https://w3c.github.io/editing/docs/execCommand/"
+    },
+    "standing": "pending",
+    "nightly": {
+      "url": "https://w3c.github.io/editing/docs/execCommand/",
+      "status": "Unofficial Proposal Draft",
+      "sourcePath": "docs/execCommand/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/editing",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Editing Working Group",
+        "url": "https://www.w3.org/groups/wg/webediting/"
+      }
+    ],
+    "title": "execCommand",
+    "source": "spec",
+    "shortTitle": "execCommand",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "seriesComposition": "full",
     "shortname": "gamepad-extensions",

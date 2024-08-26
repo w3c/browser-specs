@@ -674,8 +674,7 @@
     ],
     "shortname": "isolated-contexts",
     "nightly": {
-      "sourcePath": "isolated-contexts.bs",
-      "filename": "isolated-contexts.html"
+      "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html"
     },
     "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html"
   },

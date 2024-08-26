@@ -11,7 +11,7 @@
  */
 
 import core from "@actions/core";
-import specs from "../index.json";
+import specs from "../index.json" with { type: "json" };
 
 const problems = specs
   // A subset of the IETF RFCs are crawled from their httpwg.org rendering

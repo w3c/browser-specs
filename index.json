@@ -4989,6 +4989,10 @@
       "shortTitle": "Array Grouping",
       "nightlyUrl": "https://tc39.es/proposal-array-grouping/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5009,8 +5013,7 @@
     "shortTitle": "Array Grouping",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-arraybuffer-base64/spec/",
@@ -5057,6 +5060,10 @@
       "shortTitle": "ArrayBuffer transfer",
       "nightlyUrl": "https://tc39.es/proposal-arraybuffer-transfer/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5077,8 +5084,7 @@
     "shortTitle": "ArrayBuffer transfer",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-async-explicit-resource-management/",
@@ -5865,6 +5871,10 @@
       "shortTitle": "2023",
       "nightlyUrl": "https://tc39.es/proposal-promise-with-resolvers/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5885,8 +5895,7 @@
     "shortTitle": "2023",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-regex-escaping/",

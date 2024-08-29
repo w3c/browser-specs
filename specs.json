@@ -673,9 +673,6 @@
       "-browser"
     ],
     "shortname": "isolated-contexts",
-    "nightly": {
-      "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html"
-    },
     "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html"
   },
   "https://wicg.github.io/js-self-profiling/",

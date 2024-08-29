@@ -346,7 +346,13 @@
     ]
   },
   "https://tc39.es/proposal-array-from-async/",
-  "https://tc39.es/proposal-array-grouping/",
+  {
+    "url": "https://tc39.es/proposal-array-grouping/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-arraybuffer-base64/spec/",
     "series": {
@@ -357,7 +363,13 @@
       "sourcePath": "spec.html"
     }
   },
-  "https://tc39.es/proposal-arraybuffer-transfer/",
+  {
+    "url": "https://tc39.es/proposal-arraybuffer-transfer/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-async-explicit-resource-management/",
   {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
@@ -454,7 +466,13 @@
   "https://tc39.es/proposal-json-modules/",
   "https://tc39.es/proposal-json-parse-with-source/",
   "https://tc39.es/proposal-promise-try/",
-  "https://tc39.es/proposal-promise-with-resolvers/",
+  {
+    "url": "https://tc39.es/proposal-promise-with-resolvers/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-regex-escaping/",
   "https://tc39.es/proposal-regexp-modifiers/",
   {

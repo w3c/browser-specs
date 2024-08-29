@@ -8859,6 +8859,38 @@
     }
   },
   {
+    "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html",
+    "seriesComposition": "full",
+    "shortname": "isolated-contexts",
+    "series": {
+      "shortname": "isolated-contexts",
+      "currentSpecification": "isolated-contexts",
+      "title": "Isolated Contexts",
+      "shortTitle": "Isolated Contexts",
+      "nightlyUrl": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/isolated-web-apps",
+      "sourcePath": "isolated-contexts.bs",
+      "filename": "isolated-contexts.html"
+    },
+    "title": "Isolated Contexts",
+    "source": "specref",
+    "shortTitle": "Isolated Contexts",
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/js-self-profiling/",
     "seriesComposition": "full",
     "shortname": "js-self-profiling",

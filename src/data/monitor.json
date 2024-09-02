@@ -278,7 +278,7 @@
     },
     "WICG/capture-all-screens": {
       "lastreviewed": "2024-09-01",
-      "comment": "no published content yet"
+      "comment": "Not for general browsers, only exposed in Chromium  behind the MultiScreenCaptureAllowedForUrls enterprise policy with an allowlist of origins."
     },
     "w3c/audio-focus": {
       "lastreviewed": "2024-09-01",
@@ -304,17 +304,13 @@
       "lastreviewed": "2024-09-01",
       "comment": "no published content yet"
     },
-    "WICG/observable": {
-      "lastreviewed": "2024-09-01",
-      "comment": "In development in Chromium, see https://chromestatus.com/feature/5154593776599040 "
-    },
     "immersive-web/webxr-accessibility": {
       "lastreviewed": "2024-09-01",
       "comment": "no published content yet"
     },
     "WICG/dbsc": {
       "lastreviewed": "2024-09-01",
-      "comment": "no published content yet"
+      "comment": "In development in Chromium but no entry in Chromestatus"
     },
     "WICG/PEPC": {
       "lastreviewed": "2024-09-01",
@@ -348,17 +344,9 @@
       "lastreviewed": "2024-09-01",
       "comment": "no published content yet"
     },
-    "WICG/digital-credentials": {
-      "lastreviewed": "2024-09-01",
-      "comment": "no published content yet"
-    },
     "immersive-web/body-tracking": {
       "lastreviewed": "2024-09-01",
       "comment": "no published content yet"
-    },
-    "w3c/html-ruby": {
-      "lastreviewed": "2024-09-01",
-      "comment": "unofficial draft for now, to be adopted by HTML WG"
     }
   },
   "specs": {

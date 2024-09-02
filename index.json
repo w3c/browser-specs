@@ -868,51 +868,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-easing-2/",
-    "seriesComposition": "full",
-    "shortname": "css-easing-2",
-    "series": {
-      "shortname": "css-easing",
-      "currentSpecification": "css-easing-1",
-      "title": "CSS Easing Functions",
-      "shortTitle": "CSS Easing Functions",
-      "releaseUrl": "https://www.w3.org/TR/css-easing/",
-      "nightlyUrl": "https://drafts.csswg.org/css-easing/"
-    },
-    "seriesVersion": "2",
-    "seriesPrevious": "css-easing-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-easing-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-easing-2/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-easing-2/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Easing Functions Level 2",
-    "source": "spec",
-    "shortTitle": "CSS Easing Functions 2",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-easing"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-env-1/",
     "seriesComposition": "full",
     "shortname": "css-env-1",
@@ -14792,6 +14747,56 @@
     "title": "CSS Easing Functions Level 1",
     "source": "w3c",
     "shortTitle": "CSS Easing Functions 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-easing"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-easing-2/",
+    "seriesComposition": "full",
+    "shortname": "css-easing-2",
+    "series": {
+      "shortname": "css-easing",
+      "currentSpecification": "css-easing-1",
+      "title": "CSS Easing Functions",
+      "shortTitle": "CSS Easing Functions",
+      "releaseUrl": "https://www.w3.org/TR/css-easing/",
+      "nightlyUrl": "https://drafts.csswg.org/css-easing/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-easing-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-easing-2/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-easing-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-easing-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-easing-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Easing Functions Level 2",
+    "source": "w3c",
+    "shortTitle": "CSS Easing Functions 2",
     "categories": [
       "browser"
     ],

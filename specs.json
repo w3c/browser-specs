@@ -122,11 +122,6 @@
     "shortTitle": "CSS Size Adjustment 1"
   },
   {
-    "url": "https://drafts.csswg.org/css-values-5/",
-    "shortTitle": "CSS Values 5",
-    "seriesComposition": "delta"
-  },
-  {
     "url": "https://drafts.csswg.org/css-variables-2/",
     "shortTitle": "CSS Variables 2"
   },
@@ -1104,6 +1099,11 @@
   {
     "url": "https://www.w3.org/TR/css-values-4/",
     "shortTitle": "CSS Values 4"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-values-5/",
+    "shortTitle": "CSS Values 5",
+    "seriesComposition": "delta"
   },
   {
     "url": "https://www.w3.org/TR/css-variables-1/",

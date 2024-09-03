@@ -674,6 +674,7 @@
   },
   "https://wicg.github.io/datacue/",
   "https://wicg.github.io/deprecation-reporting/",
+  "https://wicg.github.io/digital-credentials/",
   "https://wicg.github.io/digital-goods/",
   "https://wicg.github.io/digital-identities/",
   "https://wicg.github.io/direct-sockets/",
@@ -723,6 +724,7 @@
     "shortname": "speculation-rules"
   },
   "https://wicg.github.io/netinfo/",
+  "https://wicg.github.io/observable/",
   "https://wicg.github.io/overscroll-scrollend-events/",
   "https://wicg.github.io/page-lifecycle/",
   "https://wicg.github.io/performance-measure-memory/",
@@ -1281,6 +1283,12 @@
   "https://www.w3.org/TR/html-aam-1.0/",
   "https://www.w3.org/TR/html-aria/",
   "https://www.w3.org/TR/html-media-capture/",
+  {
+    "url": "https://www.w3.org/TR/html-ruby-extensions/",
+    "nightly": {
+      "sourcePath": "Overview.bs"
+    }
+  },
   {
     "url": "https://www.w3.org/TR/i18n-glossary/",
     "categories": [

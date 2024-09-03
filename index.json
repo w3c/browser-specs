@@ -1729,46 +1729,6 @@
     }
   },
   {
-    "url": "https://fedidcg.github.io/FedCM/",
-    "seriesComposition": "full",
-    "shortname": "FedCM",
-    "series": {
-      "shortname": "FedCM",
-      "currentSpecification": "FedCM",
-      "title": "Federated Credential Management API",
-      "shortTitle": "Federated Credential Management API",
-      "nightlyUrl": "https://fedidcg.github.io/FedCM/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Federated Identity Working Group",
-        "url": "https://www.w3.org/groups/wg/fedid/"
-      }
-    ],
-    "nightly": {
-      "url": "https://fedidcg.github.io/FedCM/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/fedidcg/FedCM",
-      "sourcePath": "spec/index.bs",
-      "filename": "index.html"
-    },
-    "title": "Federated Credential Management API",
-    "source": "spec",
-    "shortTitle": "Federated Credential Management API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "fedcm"
-      ]
-    }
-  },
-  {
     "url": "https://fetch.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "fetch",
@@ -8151,6 +8111,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/digital-credentials/",
+    "seriesComposition": "full",
+    "shortname": "digital-credentials",
+    "series": {
+      "shortname": "digital-credentials",
+      "currentSpecification": "digital-credentials",
+      "title": "Digital Credentials",
+      "shortTitle": "Digital Credentials",
+      "nightlyUrl": "https://wicg.github.io/digital-credentials/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/digital-credentials/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/digital-credentials",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Digital Credentials",
+    "source": "spec",
+    "shortTitle": "Digital Credentials",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/digital-goods/",
     "seriesComposition": "full",
     "shortname": "digital-goods",
@@ -9291,6 +9285,40 @@
         "netinfo"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/observable/",
+    "seriesComposition": "full",
+    "shortname": "observable",
+    "series": {
+      "shortname": "observable",
+      "currentSpecification": "observable",
+      "title": "Observable",
+      "shortTitle": "Observable",
+      "nightlyUrl": "https://wicg.github.io/observable/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/observable/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/observable",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Observable",
+    "source": "spec",
+    "shortTitle": "Observable",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/overscroll-scrollend-events/",
@@ -19188,6 +19216,50 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/fedcm-1/",
+    "seriesComposition": "full",
+    "shortname": "fedcm-1",
+    "series": {
+      "shortname": "fedcm",
+      "currentSpecification": "fedcm-1",
+      "title": "Federated Credential Management API",
+      "shortTitle": "Federated Credential Management API",
+      "releaseUrl": "https://www.w3.org/TR/fedcm/",
+      "nightlyUrl": "https://w3c-fedid.github.io/FedCM/"
+    },
+    "seriesVersion": "1",
+    "formerNames": [
+      "fedCM"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Federated Identity Working Group",
+        "url": "https://www.w3.org/groups/wg/fedid/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/fedcm-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c-fedid.github.io/FedCM/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c-fedid/FedCM",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "Federated Credential Management API",
+    "source": "w3c",
+    "shortTitle": "Federated Credential Management API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/fetch-metadata/",
     "seriesComposition": "full",
     "shortname": "fetch-metadata",
@@ -19966,6 +20038,46 @@
         "html-media-capture"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/html-ruby-extensions/",
+    "seriesComposition": "full",
+    "shortname": "html-ruby-extensions",
+    "series": {
+      "shortname": "html-ruby-extensions",
+      "currentSpecification": "html-ruby-extensions",
+      "title": "HTML Ruby Markup Extensions",
+      "shortTitle": "HTML Ruby Markup Extensions",
+      "releaseUrl": "https://www.w3.org/TR/html-ruby-extensions/",
+      "nightlyUrl": "https://w3c.github.io/html-ruby/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/html-ruby/",
+      "status": "Editor's Draft",
+      "sourcePath": "Overview.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/html-ruby",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "HTML Working Group",
+        "url": "https://www.w3.org/groups/wg/htmlwg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/html-ruby-extensions/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "HTML Ruby Markup Extensions",
+    "source": "w3c",
+    "shortTitle": "HTML Ruby Markup Extensions",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/i18n-glossary/",

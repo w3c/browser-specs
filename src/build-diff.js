@@ -255,7 +255,8 @@ async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = 
     .concat(diff.update)
     .map(spec => [spec].concat(baseSpecs.filter(s => areDistinctSpecsInSameSeries(s, spec))))
     .concat(diff.delete.map(spec => baseSpecs.filter(s => areDistinctSpecsInSameSeries(s, spec))))
-    .flat();
+    .flat()
+    .filter((spec, idx, arr) => arr.findIndex(s => s.url === spec.url) === idx);
   const built = (needBuild.length === 0) ? [] :
     await generateIndex(needBuild, {
       previousIndex: newIndex,

@@ -1468,51 +1468,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-values-5/",
-    "seriesComposition": "delta",
-    "shortname": "css-values-5",
-    "series": {
-      "shortname": "css-values",
-      "currentSpecification": "css-values-4",
-      "title": "CSS Values and Units",
-      "shortTitle": "CSS Values",
-      "releaseUrl": "https://www.w3.org/TR/css-values/",
-      "nightlyUrl": "https://drafts.csswg.org/css-values/"
-    },
-    "seriesVersion": "5",
-    "shortTitle": "CSS Values 5",
-    "seriesPrevious": "css-values-4",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-values-5/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-values-5/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-values-5/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Values and Units Module Level 5",
-    "source": "spec",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-values"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-variables-2/",
     "seriesComposition": "full",
     "shortname": "css-variables-2",
@@ -17737,6 +17692,56 @@
       "filename": "index.html"
     },
     "title": "CSS Values and Units Module Level 4",
+    "source": "w3c",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-values"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-values-5/",
+    "seriesComposition": "delta",
+    "shortname": "css-values-5",
+    "series": {
+      "shortname": "css-values",
+      "currentSpecification": "css-values-4",
+      "title": "CSS Values and Units",
+      "shortTitle": "CSS Values",
+      "releaseUrl": "https://www.w3.org/TR/css-values/",
+      "nightlyUrl": "https://drafts.csswg.org/css-values/"
+    },
+    "seriesVersion": "5",
+    "shortTitle": "CSS Values 5",
+    "seriesPrevious": "css-values-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-values-5/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-values-5/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-values-5/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-values-5/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Values and Units Module Level 5",
     "source": "w3c",
     "categories": [
       "browser"

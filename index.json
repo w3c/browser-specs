@@ -2296,7 +2296,6 @@
         "url": "https://www.w3.org/community/patcg/"
       }
     ],
-    "standing": "pending",
     "organization": "W3C",
     "nightly": {
       "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
@@ -2311,7 +2310,8 @@
     "shortTitle": "Private Aggregation API",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "pending"
   },
   {
     "url": "https://patcg-individual-drafts.github.io/topics/",

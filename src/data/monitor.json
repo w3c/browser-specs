@@ -347,6 +347,10 @@
     "immersive-web/body-tracking": {
       "lastreviewed": "2024-09-01",
       "comment": "no published content yet"
+    },
+    "privacycg/storage-access-headers": {
+      "comment": "spec is empty",
+      "lastreviewed": "2024-09-09"
     }
   },
   "specs": {
@@ -405,10 +409,6 @@
     "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {
       "lastreviewed": "2024-09-01",
       "comment": "no longer worked on and implementation status is unclear"
-    },
-    "https://cfredric.github.io/storage-access-headers/": {
-      "comment": "2337411533",
-      "lastreviewed": "2024-09-09"
     }
   }
 }

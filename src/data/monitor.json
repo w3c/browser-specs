@@ -347,6 +347,10 @@
     "immersive-web/body-tracking": {
       "lastreviewed": "2024-09-01",
       "comment": "no published content yet"
+    },
+    "privacycg/storage-access-headers": {
+      "comment": "spec is empty",
+      "lastreviewed": "2024-09-09"
     }
   },
   "specs": {

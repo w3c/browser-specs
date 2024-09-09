@@ -176,7 +176,8 @@
         "url": "https://www.w3.org/community/patcg/"
       }
     ],
-    "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/"
+    "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
+    "standing": "good"
   },
   {
     "url": "https://patcg-individual-drafts.github.io/topics/",

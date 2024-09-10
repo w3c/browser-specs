@@ -8076,6 +8076,9 @@
       "shortTitle": "Digital Credentials",
       "nightlyUrl": "https://wicg.github.io/digital-credentials/"
     },
+    "formerNames": [
+      "digital-identities"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -8128,40 +8131,6 @@
     "title": "Digital Goods API",
     "source": "spec",
     "shortTitle": "Digital Goods API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://wicg.github.io/digital-identities/",
-    "seriesComposition": "full",
-    "shortname": "digital-identities",
-    "series": {
-      "shortname": "digital-identities",
-      "currentSpecification": "digital-identities",
-      "title": "Digital Credentials",
-      "shortTitle": "Digital Credentials",
-      "nightlyUrl": "https://wicg.github.io/digital-identities/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/digital-identities/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/digital-identities",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Digital Credentials",
-    "source": "spec",
-    "shortTitle": "Digital Credentials",
     "categories": [
       "browser"
     ],

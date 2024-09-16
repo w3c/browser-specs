@@ -8593,8 +8593,8 @@
     "series": {
       "shortname": "ink-enhancement",
       "currentSpecification": "ink-enhancement",
-      "title": "ink-enhancement",
-      "shortTitle": "ink-enhancement",
+      "title": "Ink API",
+      "shortTitle": "Ink API",
       "nightlyUrl": "https://wicg.github.io/ink-enhancement/"
     },
     "organization": "W3C",
@@ -8606,15 +8606,15 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/ink-enhancement/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/ink-enhancement",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "ink-enhancement",
+    "title": "Ink API",
     "source": "spec",
-    "shortTitle": "ink-enhancement",
+    "shortTitle": "Ink API",
     "categories": [
       "browser"
     ],

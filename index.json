@@ -6052,7 +6052,7 @@
     "series": {
       "shortname": "sourcemap",
       "currentSpecification": "sourcemap",
-      "title": "Source Map",
+      "title": "Source Map specification",
       "shortTitle": "Source Map",
       "nightlyUrl": "https://tc39.es/source-map/"
     },
@@ -6071,7 +6071,7 @@
         "url": "https://tc39.es/"
       }
     ],
-    "title": "Source Map",
+    "title": "Source Map specification",
     "source": "spec",
     "shortTitle": "Source Map",
     "categories": [

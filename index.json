@@ -2413,7 +2413,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "nav-tracking-mitigations"
+      ]
+    }
   },
   {
     "url": "https://privacycg.github.io/private-click-measurement/",

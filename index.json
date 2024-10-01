@@ -1033,51 +1033,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-grid-3/",
-    "seriesComposition": "delta",
-    "shortname": "css-grid-3",
-    "series": {
-      "shortname": "css-grid",
-      "currentSpecification": "css-grid-2",
-      "title": "CSS Grid Layout",
-      "shortTitle": "CSS Grid Layout",
-      "releaseUrl": "https://www.w3.org/TR/css-grid/",
-      "nightlyUrl": "https://drafts.csswg.org/css-grid/"
-    },
-    "seriesVersion": "3",
-    "seriesPrevious": "css-grid-2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-grid-3/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-grid-3/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-grid-3/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Grid Layout Module Level 3",
-    "source": "spec",
-    "shortTitle": "CSS Grid Layout 3",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-grid"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-images-5/",
     "seriesComposition": "delta",
     "shortname": "css-images-5",
@@ -15109,6 +15064,56 @@
     "title": "CSS Grid Layout Module Level 2",
     "source": "w3c",
     "shortTitle": "CSS Grid Layout 2",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-grid"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-grid-3/",
+    "seriesComposition": "delta",
+    "shortname": "css-grid-3",
+    "series": {
+      "shortname": "css-grid",
+      "currentSpecification": "css-grid-2",
+      "title": "CSS Grid Layout",
+      "shortTitle": "CSS Grid Layout",
+      "releaseUrl": "https://www.w3.org/TR/css-grid/",
+      "nightlyUrl": "https://drafts.csswg.org/css-grid/"
+    },
+    "seriesVersion": "3",
+    "seriesPrevious": "css-grid-2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-grid-3/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-grid-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-grid-3/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-grid-3/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Grid Layout Module Level 3",
+    "source": "w3c",
+    "shortTitle": "CSS Grid Layout 3",
     "categories": [
       "browser"
     ],

@@ -6690,7 +6690,7 @@
     "groups": [
       {
         "name": "Browser Testing and Tools Working Group",
-        "url": "https://www.w3.org/testing/browser/"
+        "url": "https://www.w3.org/groups/wg/browser-tools-testing/"
       }
     ],
     "nightly": {
@@ -26632,7 +26632,7 @@
     "groups": [
       {
         "name": "Browser Testing and Tools Working Group",
-        "url": "https://www.w3.org/testing/browser/"
+        "url": "https://www.w3.org/groups/wg/browser-tools-testing/"
       }
     ],
     "release": {

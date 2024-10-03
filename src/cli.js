@@ -171,7 +171,7 @@ function getMonitorOrIgnoreHandler(action) {
       issueNumber = what;
       let issueStr = null;
       try {
-        issueStr = execSync(`gh issue view ${what} --json body,state,title,comments`, execParams);
+        issueStr = execSync(`gh issue view ${what} --json body,state,title,comments,url`, execParams);
       }
       catch (err) {
         console.log(`Could not retrieve issue ${issueNumber}.`);
@@ -186,14 +186,17 @@ function getMonitorOrIgnoreHandler(action) {
       }
       what = urlSection.value;
 
-      if (comment.match(/^IC_[a-zA-Z0-9]+$/)) {
-        const issueComment = issue.comments.find(c => c.id === comment);
+      const commentUrl = comment.match(/^\d+$/) ?
+        `${issue.url}#issuecomment-${comment}` :
+        null;
+      if (commentUrl) {
+        const issueComment = issue.comments.find(c => c.url === commentUrl);
         if (!issueComment) {
           console.log(`Comment ${comment} not found in issue #${issueNumber}.`);
           process.exit(1);
         }
         const match = issueComment.body.match(
-          /@browser-specs-bot (?:monitor|ignore)(?:\s+as|because|for|since)?\s+(.*)/is);
+          /@browser-specs-bot (?:monitor|ignore)(?:\s+(?:as|because|for|since))?\s+(.*)/is);
         if (!match) {
           console.log(`Comment ${comment} in issue #${issueNumber} does not contain the expected command.`);
           process.exit(1);

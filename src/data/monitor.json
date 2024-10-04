@@ -410,6 +410,10 @@
       "lastreviewed": "2024-09-01",
       "comment": "no longer worked on and implementation status is unclear"
     },
+    "https://wicg.github.io/document-isolation-policy/": {
+      "comment": "Chrome status entry https://chromestatus.com/feature/5141940204208128 says no active development and no known standard positions yet",
+      "lastreviewed": "2024-10-04"
+    },
     "https://w3c-fedid.github.io/login-status/": {
       "comment": "FedCM still contains the Login Status API as sub-section for now (and TR link actually targets it, which will likely confuse tooling)",
       "lastreviewed": "2024-10-04"

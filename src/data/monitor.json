@@ -409,6 +409,10 @@
     "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {
       "lastreviewed": "2024-09-01",
       "comment": "no longer worked on and implementation status is unclear"
+    },
+    "https://wicg.github.io/document-isolation-policy/": {
+      "comment": "Chrome status entry https://chromestatus.com/feature/5141940204208128 says no active development and no known standard positions yet",
+      "lastreviewed": "2024-10-04"
     }
   }
 }

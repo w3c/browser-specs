@@ -23,7 +23,7 @@
     "find-specs": "./src/find-specs.js"
   },
   "devDependencies": {
-    "@actions/core": "^1.11.0",
+    "@actions/core": "^1.11.1",
     "@jsdevtools/npm-publish": "^3.1.1",
     "@octokit/plugin-throttling": "^9.3.2",
     "@octokit/rest": "^21.0.2",

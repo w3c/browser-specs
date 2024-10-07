@@ -6149,6 +6149,40 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/at-driver/",
+    "seriesComposition": "full",
+    "shortname": "at-driver",
+    "series": {
+      "shortname": "at-driver",
+      "currentSpecification": "at-driver",
+      "title": "AT Driver",
+      "shortTitle": "AT Driver",
+      "nightlyUrl": "https://w3c.github.io/at-driver/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Browser Testing and Tools Working Group",
+        "url": "https://www.w3.org/groups/wg/browser-tools-testing/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/at-driver/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/at-driver",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "AT Driver",
+    "source": "spec",
+    "shortTitle": "AT Driver",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/audio-session/",
     "seriesComposition": "full",
     "shortname": "audio-session",

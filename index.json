@@ -6621,7 +6621,7 @@
     ],
     "nightly": {
       "url": "https://w3c.github.io/web-nfc/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/web-nfc",
       "sourcePath": "index.html",

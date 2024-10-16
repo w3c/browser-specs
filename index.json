@@ -22348,7 +22348,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/performance-timeline/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -25227,7 +25227,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/user-timing/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -25238,9 +25238,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "User Timing",
+    "title": "User Timing Level 3",
     "source": "w3c",
-    "shortTitle": "User Timing",
+    "shortTitle": "User Timing 3",
     "categories": [
       "browser"
     ],

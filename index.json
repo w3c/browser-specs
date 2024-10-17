@@ -19141,8 +19141,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "EPUB 3 Working Group",
-        "url": "https://www.w3.org/publishing/groups/epub-wg/"
+        "name": "Publishing Maintenance Working Group",
+        "url": "https://www.w3.org/groups/wg/pm/"
       }
     ],
     "release": {
@@ -19180,8 +19180,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "EPUB 3 Working Group",
-        "url": "https://www.w3.org/publishing/groups/epub-wg/"
+        "name": "Publishing Maintenance Working Group",
+        "url": "https://www.w3.org/groups/wg/pm/"
       }
     ],
     "release": {
@@ -20120,7 +20120,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/i18n-glossary/",
-      "status": "Draft Note",
+      "status": "Note",
       "filename": "Overview.html"
     },
     "nightly": {

@@ -9036,8 +9036,8 @@
     "series": {
       "shortname": "no-vary-search",
       "currentSpecification": "no-vary-search",
-      "title": "No-Vary-Search",
-      "shortTitle": "No-Vary-Search",
+      "title": "Moved to IETF",
+      "shortTitle": "Moved to IETF",
       "nightlyUrl": "https://wicg.github.io/nav-speculation/no-vary-search.html"
     },
     "organization": "W3C",
@@ -9049,15 +9049,15 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
-      "status": "Draft Community Group Report",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/nav-speculation",
-      "sourcePath": "no-vary-search.bs",
+      "sourcePath": "no-vary-search.html",
       "filename": "no-vary-search.html"
     },
-    "title": "No-Vary-Search",
+    "title": "Moved to IETF",
     "source": "spec",
-    "shortTitle": "No-Vary-Search",
+    "shortTitle": "Moved to IETF",
     "categories": [
       "browser"
     ],

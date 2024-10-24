@@ -8151,7 +8151,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/direct-sockets/",
-      "status": "Unofficial Proposal Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/direct-sockets",
       "sourcePath": "index.html",
@@ -8163,7 +8163,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "pending"
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/document-picture-in-picture/",

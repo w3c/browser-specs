@@ -749,16 +749,20 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-color-hdr/",
+    "url": "https://drafts.csswg.org/css-color-hdr-1/",
     "seriesComposition": "full",
-    "shortname": "css-color-hdr",
+    "shortname": "css-color-hdr-1",
     "series": {
       "shortname": "css-color-hdr",
-      "currentSpecification": "css-color-hdr",
+      "currentSpecification": "css-color-hdr-1",
       "title": "CSS Color HDR",
       "shortTitle": "CSS Color HDR",
       "nightlyUrl": "https://drafts.csswg.org/css-color-hdr/"
     },
+    "seriesVersion": "1",
+    "formerNames": [
+      "css-color-hdr"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -767,13 +771,14 @@
       }
     ],
     "nightly": {
-      "url": "https://drafts.csswg.org/css-color-hdr/",
+      "url": "https://drafts.csswg.org/css-color-hdr-1/",
       "status": "Editor's Draft",
       "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-color-hdr-1/",
         "https://w3c.github.io/csswg-drafts/css-color-hdr/"
       ],
       "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-color-hdr/Overview.bs",
+      "sourcePath": "css-color-hdr-1/Overview.bs",
       "filename": "index.html"
     },
     "title": "CSS Color HDR Module Level 1",

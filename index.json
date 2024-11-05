@@ -430,6 +430,40 @@
     "standing": "good"
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
+    "seriesComposition": "full",
+    "shortname": "no-vary-search",
+    "series": {
+      "shortname": "no-vary-search",
+      "currentSpecification": "no-vary-search",
+      "title": "No-Vary-Search",
+      "shortTitle": "No-Vary-Search",
+      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-no-vary-search.md",
+      "filename": "draft-ietf-httpbis-no-vary-search.html"
+    },
+    "title": "No-Vary-Search",
+    "source": "ietf",
+    "shortTitle": "No-Vary-Search",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
     "seriesComposition": "full",
     "shortname": "rfc6265bis",
@@ -4957,6 +4991,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-atomics-microwait/",
+    "seriesComposition": "full",
+    "shortname": "tc39-atomics-microwait",
+    "series": {
+      "shortname": "tc39-atomics-microwait",
+      "currentSpecification": "tc39-atomics-microwait",
+      "title": "Atomics.pause",
+      "shortTitle": "Atomics.pause",
+      "nightlyUrl": "https://tc39.es/proposal-atomics-microwait/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-atomics-microwait/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-atomics-microwait",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "Atomics.pause",
+    "source": "spec",
+    "shortTitle": "Atomics.pause",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
     "seriesComposition": "full",
     "shortname": "tc39-atomics-wait-async",
@@ -9029,40 +9097,6 @@
     "title": "Media Feeds",
     "source": "spec",
     "shortTitle": "Media Feeds",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
-    "seriesComposition": "full",
-    "shortname": "no-vary-search",
-    "series": {
-      "shortname": "no-vary-search",
-      "currentSpecification": "no-vary-search",
-      "title": "Moved to IETF",
-      "shortTitle": "Moved to IETF",
-      "nightlyUrl": "https://wicg.github.io/nav-speculation/no-vary-search.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/nav-speculation",
-      "sourcePath": "no-vary-search.html",
-      "filename": "no-vary-search.html"
-    },
-    "title": "Moved to IETF",
-    "source": "spec",
-    "shortTitle": "Moved to IETF",
     "categories": [
       "browser"
     ],

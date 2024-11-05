@@ -368,6 +368,7 @@
     ]
   },
   "https://tc39.es/proposal-async-explicit-resource-management/",
+  "https://tc39.es/proposal-atomics-microwait/",
   {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
     "standing": "discontinued",

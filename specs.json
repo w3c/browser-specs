@@ -78,6 +78,7 @@
       "sourcePath": "draft-davidben-http-client-hint-reliability.md"
     }
   },
+  "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
   "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
   "https://dom.spec.whatwg.org/",
@@ -712,10 +713,6 @@
   "https://wicg.github.io/local-font-access/",
   "https://wicg.github.io/manifest-incubations/",
   "https://wicg.github.io/media-feeds/",
-  {
-    "url": "https://wicg.github.io/nav-speculation/no-vary-search.html",
-    "shortname": "no-vary-search"
-  },
   {
     "url": "https://wicg.github.io/nav-speculation/prefetch.html",
     "shortname": "prefetch"

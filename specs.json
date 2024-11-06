@@ -790,6 +790,10 @@
   "https://wicg.github.io/webusb/",
   "https://wicg.github.io/window-controls-overlay/",
   {
+    "standing": "pending",
+    "url": "https://wicg.github.io/writing-assistance-apis/"
+  },
+  {
     "url": "https://www.iso.org/standard/54989.html",
     "shortname": "iso10918-5",
     "shortTitle": "JPEG"

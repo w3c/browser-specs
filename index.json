@@ -8215,6 +8215,7 @@
       "shortTitle": "Direct Sockets API",
       "nightlyUrl": "https://wicg.github.io/direct-sockets/"
     },
+    "standing": "pending",
     "organization": "W3C",
     "groups": [
       {
@@ -8235,8 +8236,7 @@
     "shortTitle": "Direct Sockets API",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://wicg.github.io/document-picture-in-picture/",

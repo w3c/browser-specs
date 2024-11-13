@@ -6256,40 +6256,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/audio-session/",
-    "seriesComposition": "full",
-    "shortname": "audio-session",
-    "series": {
-      "shortname": "audio-session",
-      "currentSpecification": "audio-session",
-      "title": "Audio Session",
-      "shortTitle": "Audio Session",
-      "nightlyUrl": "https://w3c.github.io/audio-session/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Media Working Group",
-        "url": "https://www.w3.org/media-wg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/audio-session/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/audio-session",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Audio Session",
-    "source": "spec",
-    "shortTitle": "Audio Session",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/contentEditable/",
     "seriesComposition": "full",
     "shortname": "contentEditable",
@@ -12574,6 +12540,46 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/audio-session/",
+    "seriesComposition": "full",
+    "shortname": "audio-session",
+    "series": {
+      "shortname": "audio-session",
+      "currentSpecification": "audio-session",
+      "title": "Audio Session",
+      "shortTitle": "Audio Session",
+      "releaseUrl": "https://www.w3.org/TR/audio-session/",
+      "nightlyUrl": "https://w3c.github.io/audio-session/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Media Working Group",
+        "url": "https://www.w3.org/media-wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/audio-session/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/audio-session/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/audio-session",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Audio Session",
+    "source": "w3c",
+    "shortTitle": "Audio Session",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/audiobooks/",
     "seriesComposition": "full",
     "shortname": "audiobooks",
@@ -18187,7 +18193,7 @@
   {
     "url": "https://www.w3.org/TR/CSS21/",
     "seriesComposition": "full",
-    "shortname": "CSS2",
+    "shortname": "CSS21",
     "series": {
       "shortname": "CSS",
       "currentSpecification": "CSS22",
@@ -18197,6 +18203,9 @@
       "nightlyUrl": "https://drafts.csswg.org/css2/"
     },
     "seriesVersion": "2.1",
+    "formerNames": [
+      "CSS2"
+    ],
     "nightly": {
       "url": "https://www.w3.org/TR/CSS21/",
       "status": "Editor's Draft",
@@ -18303,7 +18312,7 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "index.html"
     },
-    "seriesPrevious": "CSS2",
+    "seriesPrevious": "CSS21",
     "organization": "W3C",
     "groups": [
       {
@@ -21911,15 +21920,19 @@
   {
     "url": "https://www.w3.org/TR/n-quads/",
     "seriesComposition": "full",
-    "shortname": "n-quads",
+    "shortname": "rdf11-n-quads",
     "series": {
-      "shortname": "n-quads",
-      "currentSpecification": "n-quads",
+      "shortname": "rdf-n-quads",
+      "currentSpecification": "rdf11-n-quads",
       "title": "RDF N-Quads",
       "shortTitle": "RDF N-Quads",
       "releaseUrl": "https://www.w3.org/TR/n-quads/",
       "nightlyUrl": "https://www.w3.org/TR/n-quads/"
     },
+    "seriesVersion": "1.1",
+    "formerNames": [
+      "n-quads"
+    ],
     "nightly": {
       "url": "https://www.w3.org/TR/n-quads/",
       "status": "Editor's Draft",
@@ -21927,6 +21940,7 @@
       "filename": "Overview.html"
     },
     "categories": [],
+    "seriesNext": "rdf12-n-quads",
     "organization": "W3C",
     "groups": [
       {
@@ -22982,14 +22996,15 @@
     "shortname": "rdf12-n-quads",
     "series": {
       "shortname": "rdf-n-quads",
-      "currentSpecification": "rdf12-n-quads",
+      "currentSpecification": "rdf11-n-quads",
       "title": "RDF N-Quads",
       "shortTitle": "RDF N-Quads",
-      "releaseUrl": "https://www.w3.org/TR/rdf-n-quads/",
-      "nightlyUrl": "https://w3c.github.io/rdf-n-quads/spec/"
+      "releaseUrl": "https://www.w3.org/TR/n-quads/",
+      "nightlyUrl": "https://www.w3.org/TR/n-quads/"
     },
     "seriesVersion": "1.2",
     "categories": [],
+    "seriesPrevious": "rdf11-n-quads",
     "organization": "W3C",
     "groups": [
       {
@@ -25938,17 +25953,21 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/webaudio/",
+    "url": "https://www.w3.org/TR/webaudio-1.0/",
     "seriesComposition": "full",
-    "shortname": "webaudio",
+    "shortname": "webaudio-1.0",
     "series": {
       "shortname": "webaudio",
-      "currentSpecification": "webaudio",
+      "currentSpecification": "webaudio-1.0",
       "title": "Web Audio API",
       "shortTitle": "Web Audio API",
       "releaseUrl": "https://www.w3.org/TR/webaudio/",
       "nightlyUrl": "https://webaudio.github.io/web-audio-api/"
     },
+    "seriesVersion": "1.0",
+    "formerNames": [
+      "webaudio"
+    ],
     "organization": "W3C",
     "groups": [
       {

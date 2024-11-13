@@ -1141,6 +1141,9 @@
   {
     "url": "https://www.w3.org/TR/CSS21/",
     "shortname": "CSS21",
+    "formerNames": [
+      "CSS2"
+    ],
     "seriesVersion": "2.1",
     "multipage": "all",
     "nightly": {

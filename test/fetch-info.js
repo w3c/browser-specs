@@ -255,7 +255,7 @@ describe("fetch-info module", function () {
     });
   });
 
-    describe("fetch from W3C API", () => {
+  describe("fetch from W3C API", () => {
     it("works on a TR spec", async () => {
       const spec = getW3CSpec("hr-time-2", "hr-time");
       const info = await fetchInfo([spec]);
@@ -312,6 +312,16 @@ describe("fetch-info module", function () {
       assert.ok(info.__series["css"]);
       assert.equal(info.__series["CSS"].title, "Cascading Style Sheets");
       assert.equal(info.__series["css"].title, "CSS Snapshot");
+    });
+
+    it("detects redirects", async () => {
+      const spec = {
+        url: "https://www.w3.org/TR/webaudio/",
+        shortname: "webaudio"
+      };
+      await assert.rejects(
+        fetchInfo([spec]),
+        /^Error: W3C API redirects "webaudio" to "webaudio-.*"/);
     });
   });
 

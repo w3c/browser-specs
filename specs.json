@@ -1728,6 +1728,7 @@
       "webaudio"
     ]
   },
+  "https://www.w3.org/TR/webaudio-1.1/",
   {
     "url": "https://www.w3.org/TR/webauthn-3/",
     "shortTitle": "Web Authentication"

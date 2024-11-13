@@ -99,17 +99,20 @@ async function fetchInfoFromW3CApi(specs, options) {
     if (res.status === 404) {
       return;
     }
-    if (res.status === 301) {
-      const rawLocation = res.headers.get('location');
-      const location = rawLocation.startsWith('/specifications/') ?
-        rawLocation.substring('/specifications/'.length) :
-        rawLocation.location;
-      throw new Error(`W3C API redirected to "${location}" ` +
-        `for "${spec.shortname}" (${spec.url}), update the shortname!`);
-    }
     if (res.status !== 200) {
       throw new Error(`W3C API returned an error, status code is ${res.status}, url was ${url}`);
     }
+
+    // Has the shortname changed from a W3C perspective?
+    if (res.redirected) {
+      const match = res.url.match(/\/specifications\/([^\/]+)\//);
+      const w3cShortname = match ? match[1] : '';
+      if (w3cShortname !== spec.shortname) {
+        throw new Error(`W3C API redirects "${spec.shortname}" to ` +
+          `"${w3cShortname}", update the shortname!`);
+      }
+    }
+
     try {
       const body = await res.json();
       return body;

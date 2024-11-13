@@ -1140,7 +1140,10 @@
   "https://www.w3.org/TR/css-writing-modes-4/",
   {
     "url": "https://www.w3.org/TR/CSS21/",
-    "shortname": "CSS2",
+    "shortname": "CSS21",
+    "formerNames": [
+      "CSS2"
+    ],
     "seriesVersion": "2.1",
     "multipage": "all",
     "nightly": {
@@ -1441,6 +1444,10 @@
   "https://www.w3.org/TR/mst-content-hint/",
   {
     "url": "https://www.w3.org/TR/n-quads/",
+    "shortname": "rdf11-n-quads",
+    "formerNames": [
+      "n-quads"
+    ],
     "nightly": {
       "url": "https://www.w3.org/TR/n-quads/"
     },

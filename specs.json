@@ -1715,7 +1715,12 @@
   "https://www.w3.org/TR/web-animations-2/ delta",
   "https://www.w3.org/TR/web-locks/",
   "https://www.w3.org/TR/web-share/",
-  "https://www.w3.org/TR/webaudio/",
+  {
+    "url": "https://www.w3.org/TR/webaudio-1.0/",
+    "formerNames": [
+      "webaudio"
+    ]
+  },
   {
     "url": "https://www.w3.org/TR/webauthn-3/",
     "shortTitle": "Web Authentication"

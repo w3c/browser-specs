@@ -505,7 +505,6 @@
   "https://url.spec.whatwg.org/",
   "https://urlpattern.spec.whatwg.org/",
   "https://w3c.github.io/at-driver/",
-  "https://w3c.github.io/audio-session/",
   "https://w3c.github.io/contentEditable/",
   {
     "shortname": "execCommand",
@@ -917,6 +916,7 @@
   "https://www.w3.org/TR/ambient-light/",
   "https://www.w3.org/TR/appmanifest/",
   "https://www.w3.org/TR/audio-output/",
+  "https://www.w3.org/TR/audio-session/",
   {
     "url": "https://www.w3.org/TR/audiobooks/",
     "categories": [

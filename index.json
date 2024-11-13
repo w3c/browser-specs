@@ -25958,7 +25958,7 @@
     "shortname": "webaudio-1.0",
     "series": {
       "shortname": "webaudio",
-      "currentSpecification": "webaudio-1.0",
+      "currentSpecification": "webaudio-1.1",
       "title": "Web Audio API",
       "shortTitle": "Web Audio API",
       "releaseUrl": "https://www.w3.org/TR/webaudio/",
@@ -25968,6 +25968,7 @@
     "formerNames": [
       "webaudio"
     ],
+    "seriesNext": "webaudio-1.1",
     "organization": "W3C",
     "groups": [
       {
@@ -25991,6 +25992,54 @@
     "title": "Web Audio API",
     "source": "w3c",
     "shortTitle": "Web Audio API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webaudio"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/webaudio-1.1/",
+    "seriesComposition": "full",
+    "shortname": "webaudio-1.1",
+    "series": {
+      "shortname": "webaudio",
+      "currentSpecification": "webaudio-1.1",
+      "title": "Web Audio API",
+      "shortTitle": "Web Audio API",
+      "releaseUrl": "https://www.w3.org/TR/webaudio/",
+      "nightlyUrl": "https://webaudio.github.io/web-audio-api/"
+    },
+    "seriesVersion": "1.1",
+    "seriesPrevious": "webaudio-1.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Audio Working Group",
+        "url": "https://www.w3.org/groups/wg/audio/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webaudio-1.1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://webaudio.github.io/web-audio-api/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAudio/web-audio-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web Audio API 1.1",
+    "source": "w3c",
+    "shortTitle": "Web Audio API 1.1",
     "categories": [
       "browser"
     ],

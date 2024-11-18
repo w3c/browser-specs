@@ -2355,13 +2355,13 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Privacy Community Group",
-        "url": "https://www.w3.org/community/privacycg/"
+        "name": "Privacy Working Group",
+        "url": "https://www.w3.org/groups/wg/privacy/"
       }
     ],
     "nightly": {
       "url": "https://privacycg.github.io/gpc-spec/",
-      "status": "Unofficial Proposal Draft",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/privacycg/gpc-spec",
       "sourcePath": "index.html",
@@ -2373,7 +2373,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "pending"
+    "standing": "good"
   },
   {
     "url": "https://privacycg.github.io/nav-tracking-mitigations/",

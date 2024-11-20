@@ -80,7 +80,6 @@
   },
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",
-  "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
   "https://dom.spec.whatwg.org/",
   "https://drafts.css-houdini.org/css-typed-om-2/ delta",
   {
@@ -863,6 +862,12 @@
     "url": "https://www.rfc-editor.org/rfc/rfc9530",
     "formerNames": [
       "digest-headers"
+    ]
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9649",
+    "formerNames": [
+      "webp"
     ]
   },
   "https://www.w3.org/2001/tag/doc/promises-guide",

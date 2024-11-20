@@ -820,6 +820,10 @@
     "url": "https://www.rfc-editor.org/rfc/rfc6266",
     "shortTitle": "Content-Disposition in HTTP"
   },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc6455",
+    "shortTitle": "The WebSocket Protocol"
+  },
   "https://www.rfc-editor.org/rfc/rfc6386",
   "https://www.rfc-editor.org/rfc/rfc6454",
   "https://www.rfc-editor.org/rfc/rfc6797",

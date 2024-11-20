@@ -498,38 +498,6 @@
     "standing": "good"
   },
   {
-    "url": "https://datatracker.ietf.org/doc/html/draft-zern-webp/",
-    "seriesComposition": "full",
-    "shortname": "webp",
-    "series": {
-      "shortname": "webp",
-      "currentSpecification": "webp",
-      "title": "WebP Image Format",
-      "shortTitle": "WebP Image Format",
-      "nightlyUrl": "https://www.ietf.org/archive/id/draft-zern-webp-15.html"
-    },
-    "organization": "IETF",
-    "groups": [
-      {
-        "name": "Applications and Real-Time Area",
-        "url": "https://datatracker.ietf.org/wg/art/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.ietf.org/archive/id/draft-zern-webp-15.html",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "filename": "draft-zern-webp-15.html"
-    },
-    "title": "WebP Image Format",
-    "source": "ietf",
-    "shortTitle": "WebP Image Format",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://dom.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "dom",
@@ -6540,6 +6508,40 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/mediacapture-surface-control/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-surface-control",
+    "series": {
+      "shortname": "mediacapture-surface-control",
+      "currentSpecification": "mediacapture-surface-control",
+      "title": "Captured Surface Control",
+      "shortTitle": "Captured Surface Control",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-surface-control/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-surface-control/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/mediacapture-surface-control",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Captured Surface Control",
+    "source": "spec",
+    "shortTitle": "Captured Surface Control",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/permissions-registry/",
     "seriesComposition": "full",
     "shortname": "permissions-registry",
@@ -10981,6 +10983,41 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc6455",
+    "seriesComposition": "full",
+    "shortname": "rfc6455",
+    "series": {
+      "shortname": "rfc6455",
+      "currentSpecification": "rfc6455",
+      "title": "The WebSocket Protocol",
+      "shortTitle": "The WebSocket Protocol",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6455"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "BiDirectional or Server-Initiated HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/hybi/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc6455",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc6455",
+        "https://tools.ietf.org/html/rfc6455"
+      ],
+      "filename": "rfc6455.html"
+    },
+    "title": "The WebSocket Protocol",
+    "source": "ietf",
+    "shortTitle": "The WebSocket Protocol",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc6797",
     "seriesComposition": "full",
     "shortname": "rfc6797",
@@ -12171,6 +12208,44 @@
     "title": "Digest Fields",
     "source": "ietf",
     "shortTitle": "Digest Fields",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9649",
+    "seriesComposition": "full",
+    "shortname": "rfc9649",
+    "series": {
+      "shortname": "rfc9649",
+      "currentSpecification": "rfc9649",
+      "title": "WebP Image Format",
+      "shortTitle": "WebP Image Format",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9649"
+    },
+    "formerNames": [
+      "webp"
+    ],
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Applications and Real-Time Area",
+        "url": "https://datatracker.ietf.org/wg/art/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc9649",
+      "status": "Informational",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9649",
+        "https://tools.ietf.org/html/rfc9649"
+      ],
+      "filename": "rfc9649.html"
+    },
+    "title": "WebP Image Format",
+    "source": "ietf",
+    "shortTitle": "WebP Image Format",
     "categories": [
       "browser"
     ],
@@ -18808,7 +18883,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/edit-context/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -25977,7 +26052,7 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/webaudio/",
+      "url": "https://www.w3.org/TR/webaudio-1.0/",
       "status": "Recommendation",
       "filename": "Overview.html"
     },

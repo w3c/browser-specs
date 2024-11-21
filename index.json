@@ -13196,7 +13196,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/core-aam-1.2/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -22191,7 +22191,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/orientation-event/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {

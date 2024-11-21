@@ -6751,40 +6751,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/webdriver-bidi/",
-    "seriesComposition": "full",
-    "shortname": "webdriver-bidi",
-    "series": {
-      "shortname": "webdriver-bidi",
-      "currentSpecification": "webdriver-bidi",
-      "title": "WebDriver BiDi",
-      "shortTitle": "WebDriver BiDi",
-      "nightlyUrl": "https://w3c.github.io/webdriver-bidi/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Browser Testing and Tools Working Group",
-        "url": "https://www.w3.org/groups/wg/browser-tools-testing/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/webdriver-bidi/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/webdriver-bidi",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebDriver BiDi",
-    "source": "specref",
-    "shortTitle": "WebDriver BiDi",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/webrtc-ice/",
     "seriesComposition": "full",
     "shortname": "webrtc-ice",
@@ -26864,6 +26830,46 @@
         "WebCryptoAPI"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/webdriver-bidi/",
+    "seriesComposition": "full",
+    "shortname": "webdriver-bidi",
+    "series": {
+      "shortname": "webdriver-bidi",
+      "currentSpecification": "webdriver-bidi",
+      "title": "WebDriver BiDi",
+      "shortTitle": "WebDriver BiDi",
+      "releaseUrl": "https://www.w3.org/TR/webdriver-bidi/",
+      "nightlyUrl": "https://w3c.github.io/webdriver-bidi/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Browser Testing and Tools Working Group",
+        "url": "https://www.w3.org/groups/wg/browser-tools-testing/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webdriver-bidi/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webdriver-bidi/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webdriver-bidi",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebDriver BiDi",
+    "source": "w3c",
+    "shortTitle": "WebDriver BiDi",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/webdriver2/",

@@ -552,7 +552,6 @@
     },
     "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html"
   },
-  "https://w3c.github.io/webdriver-bidi/",
   "https://w3c.github.io/webrtc-ice/",
   {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
@@ -1763,6 +1762,7 @@
   "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
   "https://www.w3.org/TR/webcodecs/",
   "https://www.w3.org/TR/WebCryptoAPI/",
+  "https://www.w3.org/TR/webdriver-bidi/",
   "https://www.w3.org/TR/webdriver2/",
   {
     "url": "https://www.w3.org/TR/webgpu/",

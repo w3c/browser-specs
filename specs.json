@@ -193,7 +193,6 @@
     ],
     "standing": "pending"
   },
-  "https://privacycg.github.io/gpc-spec/",
   "https://privacycg.github.io/nav-tracking-mitigations/",
   "https://privacycg.github.io/private-click-measurement/",
   "https://privacycg.github.io/requestStorageAccessFor/",
@@ -1300,6 +1299,12 @@
   "https://www.w3.org/TR/geolocation-sensor/",
   "https://www.w3.org/TR/geolocation/",
   "https://www.w3.org/TR/geometry-1/",
+  {
+    "url": "https://www.w3.org/TR/gpc/",
+    "formerNames": [
+      "gpc-spec"
+    ]
+  },
   "https://www.w3.org/TR/graphics-aam-1.0/",
   "https://www.w3.org/TR/graphics-aria-1.0/",
   "https://www.w3.org/TR/gyroscope/",

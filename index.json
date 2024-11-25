@@ -2310,40 +2310,6 @@
     ]
   },
   {
-    "url": "https://privacycg.github.io/gpc-spec/",
-    "seriesComposition": "full",
-    "shortname": "gpc-spec",
-    "series": {
-      "shortname": "gpc-spec",
-      "currentSpecification": "gpc-spec",
-      "title": "Global Privacy Control (GPC)",
-      "shortTitle": "GPC",
-      "nightlyUrl": "https://privacycg.github.io/gpc-spec/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Privacy Working Group",
-        "url": "https://www.w3.org/groups/wg/privacy/"
-      }
-    ],
-    "nightly": {
-      "url": "https://privacycg.github.io/gpc-spec/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/privacycg/gpc-spec",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Global Privacy Control (GPC)",
-    "source": "spec",
-    "shortTitle": "GPC",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://privacycg.github.io/nav-tracking-mitigations/",
     "seriesComposition": "full",
     "shortname": "nav-tracking-mitigations",
@@ -19860,6 +19826,49 @@
         "css/geometry"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/gpc/",
+    "seriesComposition": "full",
+    "shortname": "gpc",
+    "series": {
+      "shortname": "gpc",
+      "currentSpecification": "gpc",
+      "title": "Global Privacy Control (GPC)",
+      "shortTitle": "GPC",
+      "releaseUrl": "https://www.w3.org/TR/gpc/",
+      "nightlyUrl": "https://w3c.github.io/gpc/"
+    },
+    "formerNames": [
+      "gpc-spec"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Privacy Working Group",
+        "url": "https://www.w3.org/groups/wg/privacy/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/gpc/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/gpc/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/gpc",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Global Privacy Control (GPC)",
+    "source": "w3c",
+    "shortTitle": "GPC",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/graphics-aam-1.0/",

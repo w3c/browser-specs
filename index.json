@@ -18592,7 +18592,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/device-posture/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -25201,7 +25201,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/uievents-code/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Proposed Recommendation",
       "filename": "Overview.html"
     },
     "title": "UI Events KeyboardEvent code Values",
@@ -25241,7 +25241,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/uievents-key/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Proposed Recommendation",
       "filename": "Overview.html"
     },
     "title": "UI Events KeyboardEvent key Values",

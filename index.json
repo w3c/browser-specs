@@ -25488,7 +25488,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vibration/",
-      "status": "Recommendation",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -25499,7 +25499,7 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Vibration API (Second Edition)",
+    "title": "Vibration API",
     "source": "w3c",
     "shortTitle": "Vibration API",
     "categories": [

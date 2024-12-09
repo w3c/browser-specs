@@ -452,6 +452,7 @@
       "ecma-402"
     ]
   },
+  "https://tc39.es/proposal-is-error/",
   {
     "url": "https://tc39.es/proposal-is-usv-string/",
     "standing": "discontinued",

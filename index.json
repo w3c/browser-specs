@@ -10640,8 +10640,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Web Machine Learning Community Group",
+        "url": "https://www.w3.org/community/webmachinelearning/"
       }
     ],
     "nightly": {
@@ -22156,7 +22156,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/openscreenprotocol/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -22173,7 +22173,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "discontinued"
   },
   {
     "url": "https://www.w3.org/TR/orientation-event/",

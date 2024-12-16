@@ -874,7 +874,7 @@
   },
   "https://www.w3.org/2001/tag/doc/promises-guide",
   {
-    "url": "https://www.w3.org/Consortium/Patent-Policy/",
+    "url": "https://www.w3.org/policies/patent-policy/",
     "shortname": "w3c-patent-policy",
     "organization": "W3C",
     "groups": [
@@ -885,7 +885,7 @@
     ]
   },
   {
-    "url": "https://www.w3.org/Consortium/Process/",
+    "url": "https://www.w3.org/policies/process/",
     "shortname": "w3c-process",
     "groups": [
       {

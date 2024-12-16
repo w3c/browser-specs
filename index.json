@@ -995,6 +995,44 @@
     "standing": "pending"
   },
   {
+    "url": "https://drafts.csswg.org/css-gaps-1/",
+    "seriesComposition": "full",
+    "shortname": "css-gaps-1",
+    "series": {
+      "shortname": "css-gaps",
+      "currentSpecification": "css-gaps-1",
+      "title": "CSS Gap Decorations",
+      "shortTitle": "CSS Gap Decorations",
+      "nightlyUrl": "https://drafts.csswg.org/css-gaps/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-gaps-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-gaps-1/",
+        "https://w3c.github.io/csswg-drafts/css-gaps/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-gaps-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Gap Decorations Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS Gap Decorations 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
     "shortname": "css-gcpm-4",
@@ -12250,74 +12288,6 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/Consortium/Patent-Policy/",
-    "seriesComposition": "full",
-    "shortname": "w3c-patent-policy",
-    "series": {
-      "shortname": "w3c-patent-policy",
-      "currentSpecification": "w3c-patent-policy",
-      "title": "W3C Patent Policy",
-      "shortTitle": "W3C Patent Policy",
-      "nightlyUrl": "https://www.w3.org/Consortium/Patent-Policy/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Patents and Standards Interest Group",
-        "url": "https://www.w3.org/2004/pp/psig/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.w3.org/Consortium/Patent-Policy/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "filename": "Overview.html"
-    },
-    "title": "W3C Patent Policy",
-    "source": "specref",
-    "shortTitle": "W3C Patent Policy",
-    "categories": [],
-    "standing": "good"
-  },
-  {
-    "url": "https://www.w3.org/Consortium/Process/",
-    "seriesComposition": "full",
-    "shortname": "w3c-process",
-    "series": {
-      "shortname": "w3c-process",
-      "currentSpecification": "w3c-process",
-      "title": "W3C Process Document",
-      "shortTitle": "W3C Process Document",
-      "nightlyUrl": "https://www.w3.org/Consortium/Process/"
-    },
-    "groups": [
-      {
-        "name": "Advisory Board",
-        "url": "https://www.w3.org/Member/Board/"
-      },
-      {
-        "name": "W3C Process Community Group ",
-        "url": "https://www.w3.org/community/w3process/"
-      }
-    ],
-    "nightly": {
-      "url": "https://www.w3.org/Consortium/Process/",
-      "status": "Editor's Draft",
-      "repository": "https://github.com/w3c/w3process",
-      "alternateUrls": [],
-      "sourcePath": "index.bs",
-      "filename": "Overview.html"
-    },
-    "organization": "W3C",
-    "title": "W3C Process Document",
-    "source": "specref",
-    "shortTitle": "W3C Process Document",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt",
     "seriesComposition": "full",
     "shortname": "GIF",
@@ -12344,6 +12314,74 @@
     },
     "title": "Graphics Interchange Format",
     "source": "specref",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/policies/patent-policy/",
+    "seriesComposition": "full",
+    "shortname": "w3c-patent-policy",
+    "series": {
+      "shortname": "w3c-patent-policy",
+      "currentSpecification": "w3c-patent-policy",
+      "title": "W3C Patent Policy",
+      "shortTitle": "W3C Patent Policy",
+      "nightlyUrl": "https://www.w3.org/policies/patent-policy/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Patents and Standards Interest Group",
+        "url": "https://www.w3.org/2004/pp/psig/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.w3.org/policies/patent-policy/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "Overview.html"
+    },
+    "title": "W3C Patent Policy",
+    "source": "specref",
+    "shortTitle": "W3C Patent Policy",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/policies/process/",
+    "seriesComposition": "full",
+    "shortname": "w3c-process",
+    "series": {
+      "shortname": "w3c-process",
+      "currentSpecification": "w3c-process",
+      "title": "W3C Process Document",
+      "shortTitle": "W3C Process Document",
+      "nightlyUrl": "https://www.w3.org/policies/process/"
+    },
+    "groups": [
+      {
+        "name": "Advisory Board",
+        "url": "https://www.w3.org/Member/Board/"
+      },
+      {
+        "name": "W3C Process Community Group ",
+        "url": "https://www.w3.org/community/w3process/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.w3.org/policies/process/",
+      "status": "Editor's Draft",
+      "repository": "https://github.com/w3c/w3process",
+      "alternateUrls": [],
+      "sourcePath": "index.bs",
+      "filename": "Overview.html"
+    },
+    "organization": "W3C",
+    "title": "W3C Process Document",
+    "source": "specref",
+    "shortTitle": "W3C Process Document",
     "categories": [
       "browser"
     ],
@@ -22136,6 +22174,86 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/openscreen-application/",
+    "seriesComposition": "full",
+    "shortname": "openscreen-application",
+    "series": {
+      "shortname": "openscreen-application",
+      "currentSpecification": "openscreen-application",
+      "title": "Open Screen Application Protocol",
+      "shortTitle": "Open Screen Application Protocol",
+      "releaseUrl": "https://www.w3.org/TR/openscreen-application/",
+      "nightlyUrl": "https://w3c.github.io/openscreenprotocol/application.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Second Screen Working Group",
+        "url": "https://www.w3.org/2014/secondscreen/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/openscreen-application/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/openscreenprotocol/application.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/openscreenprotocol",
+      "sourcePath": "application.bs",
+      "filename": "application.html"
+    },
+    "title": "Open Screen Application Protocol",
+    "source": "w3c",
+    "shortTitle": "Open Screen Application Protocol",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/openscreen-network/",
+    "seriesComposition": "full",
+    "shortname": "openscreen-network",
+    "series": {
+      "shortname": "openscreen-network",
+      "currentSpecification": "openscreen-network",
+      "title": "Open Screen Network Protocol",
+      "shortTitle": "Open Screen Network Protocol",
+      "releaseUrl": "https://www.w3.org/TR/openscreen-network/",
+      "nightlyUrl": "https://w3c.github.io/openscreenprotocol/network.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Second Screen Working Group",
+        "url": "https://www.w3.org/2014/secondscreen/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/openscreen-network/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/openscreenprotocol/network.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/openscreenprotocol",
+      "sourcePath": "network.bs",
+      "filename": "network.html"
+    },
+    "title": "Open Screen Network Protocol",
+    "source": "w3c",
+    "shortTitle": "Open Screen Network Protocol",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/openscreenprotocol/",
     "seriesComposition": "full",
     "shortname": "openscreenprotocol",
@@ -22147,6 +22265,10 @@
       "releaseUrl": "https://www.w3.org/TR/openscreenprotocol/",
       "nightlyUrl": "https://w3c.github.io/openscreenprotocol/"
     },
+    "obsoletedBy": [
+      "openscreen-application",
+      "openscreen-network"
+    ],
     "organization": "W3C",
     "groups": [
       {

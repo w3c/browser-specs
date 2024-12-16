@@ -1472,7 +1472,13 @@
   "https://www.w3.org/TR/network-error-logging/",
   "https://www.w3.org/TR/openscreen-application/",
   "https://www.w3.org/TR/openscreen-network/",
-  "https://www.w3.org/TR/openscreenprotocol/",
+  {
+    "url": "https://www.w3.org/TR/openscreenprotocol/",
+    "obsoletedBy": [
+      "openscreen-application",
+      "openscreen-network"
+    ]
+  },
   "https://www.w3.org/TR/orientation-event/",
   "https://www.w3.org/TR/orientation-sensor/",
   "https://www.w3.org/TR/paint-timing/",

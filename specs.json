@@ -874,6 +874,18 @@
   },
   "https://www.w3.org/2001/tag/doc/promises-guide",
   {
+    "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt",
+    "shortname": "GIF",
+    "shortTitle": "GIF",
+    "organization": "CompuServe Incorporated",
+    "groups": [
+      {
+        "name": "CompuServe Incorporated",
+        "url": "https://www.compuserve.com/"
+      }
+    ]
+  },
+  {
     "url": "https://www.w3.org/policies/patent-policy/",
     "shortname": "w3c-patent-policy",
     "organization": "W3C",
@@ -900,18 +912,6 @@
     "nightly": {
       "repository": "https://github.com/w3c/w3process/"
     }
-  },
-  {
-    "url": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt",
-    "shortname": "GIF",
-    "shortTitle": "GIF",
-    "organization": "CompuServe Incorporated",
-    "groups": [
-      {
-        "name": "CompuServe Incorporated",
-        "url": "https://www.compuserve.com/"
-      }
-    ]
   },
   "https://www.w3.org/TR/accelerometer/",
   {

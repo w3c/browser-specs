@@ -6228,6 +6228,40 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c-fedid.github.io/login-status/",
+    "seriesComposition": "full",
+    "shortname": "login-status",
+    "series": {
+      "shortname": "login-status",
+      "currentSpecification": "login-status",
+      "title": "Login Status API",
+      "shortTitle": "Login Status API",
+      "nightlyUrl": "https://w3c-fedid.github.io/login-status/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Federated Identity Working Group",
+        "url": "https://www.w3.org/groups/wg/fedid/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c-fedid.github.io/login-status/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c-fedid/login-status",
+      "sourcePath": "spec/index.bs",
+      "filename": "index.html"
+    },
+    "title": "Login Status API",
+    "source": "spec",
+    "shortTitle": "Login Status API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/at-driver/",
     "seriesComposition": "full",
     "shortname": "at-driver",

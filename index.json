@@ -25934,7 +25934,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-core-2/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "title": "WebAssembly Core Specification",
@@ -25976,7 +25976,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-js-api-2/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -26023,7 +26023,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-web-api-2/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {

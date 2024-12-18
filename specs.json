@@ -93,12 +93,6 @@
   },
   "https://drafts.csswg.org/css-borders-4/",
   "https://drafts.csswg.org/css-color-6/ delta",
-  {
-    "url": "https://drafts.csswg.org/css-color-hdr-1/",
-    "formerNames": [
-      "css-color-hdr"
-    ]
-  },
   "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-display-4/",
   "https://drafts.csswg.org/css-env-1/",
@@ -118,7 +112,6 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Multicol 2"
   },
-  "https://drafts.csswg.org/css-overflow-5/ delta",
   "https://drafts.csswg.org/css-page-4/ delta",
   "https://drafts.csswg.org/css-position-4/ delta",
   "https://drafts.csswg.org/css-shapes-2/ delta",
@@ -996,6 +989,12 @@
   "https://www.w3.org/TR/css-color-5/ delta",
   "https://www.w3.org/TR/css-color-adjust-1/",
   {
+    "url": "https://www.w3.org/TR/css-color-hdr-1/",
+    "formerNames": [
+      "css-color-hdr"
+    ]
+  },
+  {
     "url": "https://www.w3.org/TR/css-conditional-3/",
     "shortTitle": "CSS Conditional 3"
   },
@@ -1062,6 +1061,7 @@
   "https://www.w3.org/TR/css-nesting-1/",
   "https://www.w3.org/TR/css-overflow-3/",
   "https://www.w3.org/TR/css-overflow-4/ delta",
+  "https://www.w3.org/TR/css-overflow-5/ delta",
   "https://www.w3.org/TR/css-overscroll-1/",
   "https://www.w3.org/TR/css-page-3/",
   "https://www.w3.org/TR/css-page-floats-3/",

@@ -751,47 +751,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-color-hdr-1/",
-    "seriesComposition": "full",
-    "shortname": "css-color-hdr-1",
-    "series": {
-      "shortname": "css-color-hdr",
-      "currentSpecification": "css-color-hdr-1",
-      "title": "CSS Color HDR",
-      "shortTitle": "CSS Color HDR",
-      "nightlyUrl": "https://drafts.csswg.org/css-color-hdr/"
-    },
-    "seriesVersion": "1",
-    "formerNames": [
-      "css-color-hdr"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-color-hdr-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-color-hdr-1/",
-        "https://w3c.github.io/csswg-drafts/css-color-hdr/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-color-hdr-1/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Color HDR Module Level 1",
-    "source": "spec",
-    "shortTitle": "CSS Color HDR 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://drafts.csswg.org/css-conditional-values-1/",
     "seriesComposition": "full",
     "shortname": "css-conditional-values-1",
@@ -1240,51 +1199,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "css/css-multicol"
-      ]
-    }
-  },
-  {
-    "url": "https://drafts.csswg.org/css-overflow-5/",
-    "seriesComposition": "delta",
-    "shortname": "css-overflow-5",
-    "series": {
-      "shortname": "css-overflow",
-      "currentSpecification": "css-overflow-3",
-      "title": "CSS Overflow",
-      "shortTitle": "CSS Overflow",
-      "releaseUrl": "https://www.w3.org/TR/css-overflow/",
-      "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
-    },
-    "seriesVersion": "5",
-    "seriesPrevious": "css-overflow-4",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-overflow-5/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-overflow-5/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-overflow-5/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Overflow Module Level 5",
-    "source": "spec",
-    "shortTitle": "CSS Overflow 5",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-overflow"
       ]
     }
   },
@@ -14392,6 +14306,53 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-color-hdr-1/",
+    "seriesComposition": "full",
+    "shortname": "css-color-hdr-1",
+    "series": {
+      "shortname": "css-color-hdr",
+      "currentSpecification": "css-color-hdr-1",
+      "title": "CSS Color HDR Module",
+      "shortTitle": "CSS Color HDR",
+      "releaseUrl": "https://www.w3.org/TR/css-color-hdr/",
+      "nightlyUrl": "https://drafts.csswg.org/css-color-hdr/"
+    },
+    "seriesVersion": "1",
+    "formerNames": [
+      "css-color-hdr"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-color-hdr-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-color-hdr-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-color-hdr-1/",
+        "https://w3c.github.io/csswg-drafts/css-color-hdr/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-color-hdr-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Color HDR Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Color HDR 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/css-conditional-3/",
     "seriesComposition": "full",
     "shortname": "css-conditional-3",
@@ -16065,6 +16026,56 @@
     "title": "CSS Overflow Module Level 4",
     "source": "w3c",
     "shortTitle": "CSS Overflow 4",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-overflow"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-overflow-5/",
+    "seriesComposition": "delta",
+    "shortname": "css-overflow-5",
+    "series": {
+      "shortname": "css-overflow",
+      "currentSpecification": "css-overflow-3",
+      "title": "CSS Overflow",
+      "shortTitle": "CSS Overflow",
+      "releaseUrl": "https://www.w3.org/TR/css-overflow/",
+      "nightlyUrl": "https://drafts.csswg.org/css-overflow/"
+    },
+    "seriesVersion": "5",
+    "seriesPrevious": "css-overflow-4",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-overflow-5/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-overflow-5/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-overflow-5/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-overflow-5/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Overflow Module Level 5",
+    "source": "w3c",
+    "shortTitle": "CSS Overflow 5",
     "categories": [
       "browser"
     ],
@@ -23699,8 +23710,8 @@
     "series": {
       "shortname": "requestidlecallback",
       "currentSpecification": "requestidlecallback",
-      "title": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
-      "shortTitle": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
+      "title": "requestIdleCallback()",
+      "shortTitle": "requestIdleCallback()",
       "releaseUrl": "https://www.w3.org/TR/requestidlecallback/",
       "nightlyUrl": "https://w3c.github.io/requestidlecallback/"
     },
@@ -23724,9 +23735,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
+    "title": "requestIdleCallback()",
     "source": "w3c",
-    "shortTitle": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
+    "shortTitle": "requestIdleCallback()",
     "categories": [
       "browser"
     ],
@@ -25934,7 +25945,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-core-2/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "title": "WebAssembly Core Specification",
@@ -25976,7 +25987,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-js-api-2/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -26023,7 +26034,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/wasm-web-api-2/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {

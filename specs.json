@@ -94,7 +94,6 @@
   "https://drafts.csswg.org/css-borders-4/",
   "https://drafts.csswg.org/css-color-6/ delta",
   "https://drafts.csswg.org/css-conditional-values-1/",
-  "https://drafts.csswg.org/css-display-4/",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
   "https://drafts.csswg.org/css-forms-1/",
@@ -107,11 +106,6 @@
   "https://drafts.csswg.org/css-images-5/ delta",
   "https://drafts.csswg.org/css-link-params-1/",
   "https://drafts.csswg.org/css-mixins-1/",
-  {
-    "url": "https://drafts.csswg.org/css-multicol-2/",
-    "seriesComposition": "delta",
-    "shortTitle": "CSS Multicol 2"
-  },
   "https://drafts.csswg.org/css-page-4/ delta",
   "https://drafts.csswg.org/css-position-4/ delta",
   "https://drafts.csswg.org/css-shapes-2/ delta",
@@ -1014,6 +1008,7 @@
   "https://www.w3.org/TR/css-content-3/",
   "https://www.w3.org/TR/css-counter-styles-3/",
   "https://www.w3.org/TR/css-display-3/",
+  "https://www.w3.org/TR/css-display-4/",
   "https://www.w3.org/TR/css-easing-1/",
   "https://www.w3.org/TR/css-easing-2/",
   {
@@ -1055,6 +1050,10 @@
   {
     "url": "https://www.w3.org/TR/css-multicol-1/",
     "shortTitle": "CSS Multicol 1"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-multicol-2/",
+    "shortTitle": "CSS Multicol 2"
   },
   "https://www.w3.org/TR/css-namespaces-3/",
   "https://www.w3.org/TR/css-nav-1/",

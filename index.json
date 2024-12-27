@@ -789,51 +789,6 @@
     "standing": "pending"
   },
   {
-    "url": "https://drafts.csswg.org/css-display-4/",
-    "seriesComposition": "full",
-    "shortname": "css-display-4",
-    "series": {
-      "shortname": "css-display",
-      "currentSpecification": "css-display-3",
-      "title": "CSS Display",
-      "shortTitle": "CSS Display",
-      "releaseUrl": "https://www.w3.org/TR/css-display/",
-      "nightlyUrl": "https://drafts.csswg.org/css-display/"
-    },
-    "seriesVersion": "4",
-    "seriesPrevious": "css-display-3",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-display-4/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-display-4/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-display-4/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Display Module Level 4",
-    "source": "spec",
-    "shortTitle": "CSS Display 4",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-display"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-env-1/",
     "seriesComposition": "full",
     "shortname": "css-env-1",
@@ -1156,51 +1111,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://drafts.csswg.org/css-multicol-2/",
-    "seriesComposition": "delta",
-    "shortname": "css-multicol-2",
-    "series": {
-      "shortname": "css-multicol",
-      "currentSpecification": "css-multicol-1",
-      "title": "CSS Multi-column Layout",
-      "shortTitle": "CSS Multicol",
-      "releaseUrl": "https://www.w3.org/TR/css-multicol/",
-      "nightlyUrl": "https://drafts.csswg.org/css-multicol/"
-    },
-    "seriesVersion": "2",
-    "shortTitle": "CSS Multicol 2",
-    "seriesPrevious": "css-multicol-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-multicol-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-multicol-2/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-multicol-2/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Multi-column Layout Module Level 2",
-    "source": "spec",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-multicol"
-      ]
-    }
   },
   {
     "url": "https://drafts.csswg.org/css-page-4/",
@@ -14808,6 +14718,56 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/css-display-4/",
+    "seriesComposition": "full",
+    "shortname": "css-display-4",
+    "series": {
+      "shortname": "css-display",
+      "currentSpecification": "css-display-3",
+      "title": "CSS Display",
+      "shortTitle": "CSS Display",
+      "releaseUrl": "https://www.w3.org/TR/css-display/",
+      "nightlyUrl": "https://drafts.csswg.org/css-display/"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-display-3",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-display-4/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-display-4/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-display-4/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-display-4/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Display Module Level 4",
+    "source": "w3c",
+    "shortTitle": "CSS Display 4",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-display"
+      ]
+    }
+  },
+  {
     "url": "https://www.w3.org/TR/css-easing-1/",
     "seriesComposition": "full",
     "shortname": "css-easing-1",
@@ -15785,6 +15745,56 @@
       "filename": "index.html"
     },
     "title": "CSS Multi-column Layout Module Level 1",
+    "source": "w3c",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-multicol"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-multicol-2/",
+    "seriesComposition": "full",
+    "shortname": "css-multicol-2",
+    "series": {
+      "shortname": "css-multicol",
+      "currentSpecification": "css-multicol-1",
+      "title": "CSS Multi-column Layout",
+      "shortTitle": "CSS Multicol",
+      "releaseUrl": "https://www.w3.org/TR/css-multicol/",
+      "nightlyUrl": "https://drafts.csswg.org/css-multicol/"
+    },
+    "seriesVersion": "2",
+    "shortTitle": "CSS Multicol 2",
+    "seriesPrevious": "css-multicol-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-multicol-2/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-multicol-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-multicol-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-multicol-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Multi-column Layout Module Level 2",
     "source": "w3c",
     "categories": [
       "browser"

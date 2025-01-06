@@ -8162,8 +8162,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/groups/wg/webperf/"
       }
     ],
     "nightly": {
@@ -25672,7 +25672,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-data-integrity/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {

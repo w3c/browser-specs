@@ -6194,6 +6194,46 @@
     ]
   },
   {
+    "url": "https://w3c.github.io/element-timing/",
+    "seriesComposition": "full",
+    "shortname": "element-timing",
+    "series": {
+      "shortname": "element-timing",
+      "currentSpecification": "element-timing",
+      "title": "Element Timing API",
+      "shortTitle": "Element Timing API",
+      "nightlyUrl": "https://wicg.github.io/element-timing/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/groups/wg/webperf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/element-timing/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/element-timing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Element Timing API",
+    "source": "specref",
+    "shortTitle": "Element Timing API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "element-timing"
+      ]
+    }
+  },
+  {
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "seriesComposition": "full",
     "shortname": "gamepad-extensions",
@@ -8145,46 +8185,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "document-policy"
-      ]
-    }
-  },
-  {
-    "url": "https://wicg.github.io/element-timing/",
-    "seriesComposition": "full",
-    "shortname": "element-timing",
-    "series": {
-      "shortname": "element-timing",
-      "currentSpecification": "element-timing",
-      "title": "Element Timing API",
-      "shortTitle": "Element Timing API",
-      "nightlyUrl": "https://wicg.github.io/element-timing/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/groups/wg/webperf/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/element-timing/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/element-timing",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Element Timing API",
-    "source": "specref",
-    "shortTitle": "Element Timing API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "element-timing"
       ]
     }
   },

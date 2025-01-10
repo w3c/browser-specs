@@ -231,7 +231,14 @@ async function fetchInfoFromSpecref(specs, options) {
   const browserSpecs = await browserSpecsResponse.json();
   specs = specs.filter(spec => !browserSpecs[spec.shortname.toUpperCase()]);
 
-  const chunks = chunkArray(specs, 50);
+  // Browser-specs now acts as source for Specref for the WICG specs and W3C
+  // Editor's Drafts that have not yet been published to /TR. Let's filter out
+  // these specs to avoid a catch-22 where the info in browser-specs gets stuck
+  // to the that in Specref.
+  const specsWithoutWICG = specs.filter(spec =>
+    !spec.url.match(/\/\/(wicg|w3c)\.github\.io\//));
+
+  const chunks = chunkArray(specsWithoutWICG, 50);
   const chunksRes = await Promise.all(chunks.map(async chunk => {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
       chunk.map(spec => spec.shortname).join(',');

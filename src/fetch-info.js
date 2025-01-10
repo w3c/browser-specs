@@ -235,10 +235,10 @@ async function fetchInfoFromSpecref(specs, options) {
   // Editor's Drafts that have not yet been published to /TR. Let's filter out
   // these specs to avoid a catch-22 where the info in browser-specs gets stuck
   // to the that in Specref.
-  const specsWithoutWICG = specs.filter(spec =>
+  const filteredSpecs = specs.filter(spec =>
     !spec.url.match(/\/\/(wicg|w3c)\.github\.io\//));
 
-  const chunks = chunkArray(specsWithoutWICG, 50);
+  const chunks = chunkArray(filteredSpecs, 50);
   const chunksRes = await Promise.all(chunks.map(async chunk => {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
       chunk.map(spec => spec.shortname).join(',');

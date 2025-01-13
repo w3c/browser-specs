@@ -6202,7 +6202,7 @@
       "currentSpecification": "element-timing",
       "title": "Element Timing API",
       "shortTitle": "Element Timing API",
-      "nightlyUrl": "https://wicg.github.io/element-timing/"
+      "nightlyUrl": "https://w3c.github.io/element-timing/"
     },
     "organization": "W3C",
     "groups": [
@@ -6212,26 +6212,20 @@
       }
     ],
     "nightly": {
-      "url": "https://wicg.github.io/element-timing/",
-      "status": "Draft Community Group Report",
+      "url": "https://w3c.github.io/element-timing/",
+      "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/WICG/element-timing",
+      "repository": "https://github.com/w3c/element-timing",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Element Timing API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Element Timing API",
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "element-timing"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/gamepad/extensions.html",
@@ -6362,7 +6356,7 @@
       "filename": "index.html"
     },
     "title": "Media Playback Quality",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Media Playback Quality",
     "categories": [
       "browser"
@@ -6585,8 +6579,8 @@
     "series": {
       "shortname": "web-nfc",
       "currentSpecification": "web-nfc",
-      "title": "Web NFC API",
-      "shortTitle": "Web NFC API",
+      "title": "Web NFC",
+      "shortTitle": "Web NFC",
       "nightlyUrl": "https://w3c.github.io/web-nfc/"
     },
     "organization": "W3C",
@@ -6604,9 +6598,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Web NFC API",
-    "source": "specref",
-    "shortTitle": "Web NFC API",
+    "title": "Web NFC",
+    "source": "spec",
+    "shortTitle": "Web NFC",
     "categories": [
       "browser"
     ],
@@ -6638,19 +6632,19 @@
     ],
     "nightly": {
       "url": "https://w3c.github.io/web-share-target/",
-      "status": "Editor's Draft",
+      "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/web-share-target",
       "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Web Share Target API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Web Share Target API",
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "pending"
   },
   {
     "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
@@ -7533,7 +7527,7 @@
       "filename": "index.html"
     },
     "title": "Background Fetch",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Background Fetch",
     "categories": [
       "browser"
@@ -7647,7 +7641,7 @@
       "filename": "index.html"
     },
     "title": "Client Hints Infrastructure",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Client Hints Infrastructure",
     "categories": [
       "browser"
@@ -7770,7 +7764,7 @@
       "filename": "index.html"
     },
     "title": "Cookie Store API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Cookie Store API",
     "categories": [
       "browser"
@@ -7871,19 +7865,19 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/css-parser-api/",
-      "status": "Draft Community Group Report",
+      "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/css-parser-api",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "CSS Parser API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "CSS Parser API",
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "pending",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -8115,7 +8109,7 @@
     "series": {
       "shortname": "document-picture-in-picture",
       "currentSpecification": "document-picture-in-picture",
-      "title": "Document Picture-in-Picture",
+      "title": "Document Picture-in-Picture Specification",
       "shortTitle": "Document Picture-in-Picture",
       "nightlyUrl": "https://wicg.github.io/document-picture-in-picture/"
     },
@@ -8134,8 +8128,8 @@
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "Document Picture-in-Picture",
-    "source": "specref",
+    "title": "Document Picture-in-Picture Specification",
+    "source": "spec",
     "shortTitle": "Document Picture-in-Picture",
     "categories": [
       "browser"
@@ -8175,7 +8169,7 @@
       "filename": "index.html"
     },
     "title": "Document Policy",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Document Policy",
     "categories": [
       "browser"
@@ -8215,7 +8209,7 @@
       "filename": "index.html"
     },
     "title": "File and Directory Entries API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "File and Directory Entries API",
     "categories": [
       "browser"
@@ -8323,7 +8317,7 @@
       "filename": "index.html"
     },
     "title": "File System Access",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "File System Access",
     "categories": [
       "browser"
@@ -8471,7 +8465,7 @@
       "filename": "index.html"
     },
     "title": "Idle Detection API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Idle Detection API",
     "categories": [
       "browser"
@@ -8538,14 +8532,14 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/input-device-capabilities/",
-      "status": "Draft Community Group Report",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/input-device-capabilities",
       "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Input Device Capabilities",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Input Device Capabilities",
     "categories": [
       "browser"
@@ -8666,7 +8660,7 @@
       "filename": "isolated-contexts.html"
     },
     "title": "Isolated Contexts",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Isolated Contexts",
     "standing": "good"
   },
@@ -8697,7 +8691,7 @@
       "filename": "index.html"
     },
     "title": "JS Self-Profiling API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "JS Self-Profiling API",
     "categories": [
       "browser"
@@ -8737,7 +8731,7 @@
       "filename": "index.html"
     },
     "title": "Keyboard Lock",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Keyboard Lock",
     "categories": [
       "browser"
@@ -8777,7 +8771,7 @@
       "filename": "index.html"
     },
     "title": "Keyboard Map",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Keyboard Map",
     "categories": [
       "browser"
@@ -8797,8 +8791,8 @@
     "series": {
       "shortname": "layout-instability",
       "currentSpecification": "layout-instability",
-      "title": "Layout Instability",
-      "shortTitle": "Layout Instability",
+      "title": "Layout Instability API",
+      "shortTitle": "Layout Instability API",
       "nightlyUrl": "https://wicg.github.io/layout-instability/"
     },
     "organization": "W3C",
@@ -8816,9 +8810,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Layout Instability",
-    "source": "specref",
-    "shortTitle": "Layout Instability",
+    "title": "Layout Instability API",
+    "source": "spec",
+    "shortTitle": "Layout Instability API",
     "categories": [
       "browser"
     ],
@@ -8837,8 +8831,8 @@
     "series": {
       "shortname": "local-font-access",
       "currentSpecification": "local-font-access",
-      "title": "Local Font Access",
-      "shortTitle": "Local Font Access",
+      "title": "Local Font Access API",
+      "shortTitle": "Local Font Access API",
       "nightlyUrl": "https://wicg.github.io/local-font-access/"
     },
     "organization": "W3C",
@@ -8856,9 +8850,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Local Font Access",
-    "source": "specref",
-    "shortTitle": "Local Font Access",
+    "title": "Local Font Access API",
+    "source": "spec",
+    "shortTitle": "Local Font Access API",
     "categories": [
       "browser"
     ],
@@ -8891,7 +8885,7 @@
       "filename": "index.html"
     },
     "title": "Manifest Incubations",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Manifest Incubations",
     "categories": [
       "browser"
@@ -9061,7 +9055,7 @@
       "filename": "index.html"
     },
     "title": "Network Information API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Network Information API",
     "categories": [
       "browser"
@@ -9169,7 +9163,7 @@
       "filename": "index.html"
     },
     "title": "Page Lifecycle",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Page Lifecycle",
     "categories": [
       "browser"
@@ -9250,7 +9244,7 @@
       "filename": "index.html"
     },
     "title": "Web Periodic Background Synchronization",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Web Periodic Background Synchronization",
     "categories": [
       "browser"
@@ -9290,7 +9284,7 @@
       "filename": "index.html"
     },
     "title": "Requesting Permissions",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Requesting Permissions",
     "categories": [
       "browser"
@@ -9330,7 +9324,7 @@
       "filename": "index.html"
     },
     "title": "Relinquishing Permissions",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Relinquishing Permissions",
     "categories": [
       "browser"
@@ -9397,19 +9391,19 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/prefer-current-tab/",
-      "status": "Draft Community Group Report",
+      "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/prefer-current-tab",
       "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "preferCurrentTab",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "preferCurrentTab",
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "pending"
   },
   {
     "url": "https://wicg.github.io/private-network-access/",
@@ -9592,7 +9586,7 @@
       "filename": "index.html"
     },
     "title": "Prioritized Task Scheduling",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Prioritized Task Scheduling",
     "categories": [
       "browser"
@@ -9712,7 +9706,7 @@
       "filename": "index.html"
     },
     "title": "Accelerated Shape Detection in Images",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Accelerated Shape Detection in Images",
     "categories": [
       "browser"
@@ -9752,7 +9746,7 @@
       "filename": "text.html"
     },
     "title": "Accelerated Text Detection in Images",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Accelerated Text Detection in Images",
     "categories": [
       "browser"
@@ -9821,7 +9815,7 @@
       "filename": "index.html"
     },
     "title": "Origin-bound one-time codes delivered via SMS",
-    "source": "specref",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -9888,7 +9882,7 @@
       "filename": "index.html"
     },
     "title": "Web Speech API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Web Speech API",
     "categories": [
       "browser"
@@ -10150,7 +10144,7 @@
       "filename": "index.html"
     },
     "title": "Web App Launch Handler API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Web App Launch Handler API",
     "categories": [
       "browser"
@@ -10474,7 +10468,7 @@
       "filename": "index.html"
     },
     "title": "WebUSB API",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "WebUSB API",
     "categories": [
       "browser"
@@ -10514,7 +10508,7 @@
       "filename": "index.html"
     },
     "title": "Window Controls Overlay",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Window Controls Overlay",
     "categories": [
       "browser"

@@ -9869,8 +9869,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
+        "name": "Audio Community Group",
+        "url": "https://www.w3.org/community/audio-comgp/"
       }
     ],
     "nightly": {

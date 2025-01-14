@@ -6623,6 +6623,7 @@
       "shortTitle": "Web Share Target API",
       "nightlyUrl": "https://w3c.github.io/web-share-target/"
     },
+    "standing": "good",
     "organization": "W3C",
     "groups": [
       {
@@ -6643,8 +6644,7 @@
     "shortTitle": "Web Share Target API",
     "categories": [
       "browser"
-    ],
-    "standing": "pending"
+    ]
   },
   {
     "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",

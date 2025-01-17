@@ -11701,6 +11701,41 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc8610",
+    "seriesComposition": "full",
+    "shortname": "rfc8610",
+    "series": {
+      "shortname": "rfc8610",
+      "currentSpecification": "rfc8610",
+      "title": "Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures",
+      "shortTitle": "CDDL",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8610"
+    },
+    "shortTitle": "CDDL",
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Concise Binary Object Representation Maintenance and Extensions Working Group",
+        "url": "https://datatracker.ietf.org/wg/cbor/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc8610",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc8610",
+        "https://tools.ietf.org/html/rfc8610"
+      ],
+      "filename": "rfc8610.html"
+    },
+    "title": "Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures",
+    "source": "ietf",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc8878",
     "seriesComposition": "full",
     "shortname": "rfc8878",

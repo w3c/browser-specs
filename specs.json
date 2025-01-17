@@ -842,6 +842,10 @@
   "https://www.rfc-editor.org/rfc/rfc8288",
   "https://www.rfc-editor.org/rfc/rfc8297",
   "https://www.rfc-editor.org/rfc/rfc8470",
+  {
+    "shortTitle": "CDDL",
+    "url": "https://www.rfc-editor.org/rfc/rfc8610"
+  },
   "https://www.rfc-editor.org/rfc/rfc8878",
   "https://www.rfc-editor.org/rfc/rfc8942",
   "https://www.rfc-editor.org/rfc/rfc9110",

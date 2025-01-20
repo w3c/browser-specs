@@ -7467,6 +7467,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/aom/spec/",
+    "seriesComposition": "full",
+    "shortname": "aom",
+    "series": {
+      "shortname": "aom",
+      "currentSpecification": "aom",
+      "title": "Accessibility Object Model",
+      "shortTitle": "Accessibility Object Model",
+      "nightlyUrl": "https://wicg.github.io/aom/spec/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/aom/spec/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/aom",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "Accessibility Object Model",
+    "source": "spec",
+    "shortTitle": "Accessibility Object Model",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
     "url": "https://wicg.github.io/attribution-reporting-api/",
     "seriesComposition": "full",
     "shortname": "attribution-reporting-api",

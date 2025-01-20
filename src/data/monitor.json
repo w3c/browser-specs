@@ -40,10 +40,6 @@
       "comment": "Early exploration phase; spec at https://webmonetization.org/specification/",
       "lastreviewed": "2025-01-01"
     },
-    "WICG/aom": {
-      "comment": "Specs at https://wicg.github.io/aom/spec/computed-accessibility-tree.html https://wicg.github.io/aom/spec/virtual-accessibility-nodes.html https://wicg.github.io/aom/spec/input-events.html in their very early stage of definition",
-      "lastreviewed": "2025-01-01"
-    },
     "WICG/container-queries": {
       "comment": "Likely candidate for ignoring - see archival discussion at https://github.com/WICG/container-queries/issues/14",
       "lastreviewed": "2025-01-01"

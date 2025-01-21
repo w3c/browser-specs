@@ -236,7 +236,9 @@ async function fetchInfoFromSpecref(specs, options) {
   // these specs to avoid a catch-22 where the info in browser-specs gets stuck
   // to the that in Specref.
   const filteredSpecs = specs.filter(spec =>
-    !spec.url.match(/\/\/(wicg|w3c)\.github\.io\//));
+    !spec.url.match(/\/\/(wicg|w3c)\.github\.io\//) &&
+    !spec.url.match(/\/\/www\.w3\.org\//) &&
+    !spec.url.match(/\/\/drafts\.csswg\.org\//));
 
   const chunks = chunkArray(filteredSpecs, 50);
   const chunksRes = await Promise.all(chunks.map(async chunk => {
@@ -503,6 +505,15 @@ async function fetchInfoFromSpecs(specs, options) {
           return {
             title: isoTitle
           };
+        }
+      }
+      else if (spec.url.endsWith(".txt")) {
+        // Spec from another time (typically the GIF spec), published as plain
+        // text. Nothing we can usefully extract from the spec. Let's proceed
+        // and hope `specs.json` contains the appropriate info for the spec
+        // (no official status for the spec either, using "Editor's Draft")
+        return {
+          nightly: { url, status: "Editor's Draft" }
         }
       }
 

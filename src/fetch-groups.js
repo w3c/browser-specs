@@ -8,6 +8,7 @@
 
 import Octokit from "./octokit.js";
 import parseSpecUrl from "./parse-spec-url.js";
+import fetchJSON from "./fetch-json.js";
 
 
 /**
@@ -84,19 +85,6 @@ export default async function (specs, options) {
   // same fetch request again and again
   const cache = {};
 
-  // Helper function to retrieve a JSON resource or return null if resource
-  // cannot be retrieved
-  async function fetchJSON(url, options) {
-    const body = cache[url] ?? await fetch(url, options).then(res => {
-      if (res.status !== 200) {
-        throw new Error(`W3C API returned an error for ${url}, status code is ${res.status}`);
-      }
-      return res.json();
-    });
-    cache[url] = body;
-    return body;
-  }
-
   for (const spec of specs) {
     if (spec.__last?.standing === 'discontinued' &&
         (!spec.standing || spec.standing === 'discontinued')) {
@@ -113,7 +101,7 @@ export default async function (specs, options) {
       if (ietfName) {
         spec.organization = spec.organization ?? "IETF";
         if (spec.groups) continue;
-        const ietfJson = await fetchJSON(`https://datatracker.ietf.org/doc/${ietfName[1]}/doc.json`);
+        const ietfJson = await fetchJSON(`https://datatracker.ietf.org/doc/${ietfName[1]}/doc.json`, options);
         if (ietfJson.group?.type === "WG") {
           spec.groups = [{
             name: `${ietfJson.group.name} Working Group`,
@@ -152,7 +140,7 @@ export default async function (specs, options) {
     }
 
     if (info && info.owner === "whatwg") {
-      const workstreams = await fetchJSON("https://raw.githubusercontent.com/whatwg/sg/main/db.json");
+      const workstreams = await fetchJSON("https://raw.githubusercontent.com/whatwg/sg/main/db.json", options);
       const workstream = workstreams.workstreams.find(ws => ws.standards.find(s => s.href === spec.url));
       if (!workstream) {
         throw new Error(`No WHATWG workstream found for ${spec.url}`);
@@ -214,11 +202,11 @@ export default async function (specs, options) {
       else if (info.type === "tr") {
         // Use the W3C API to find info about /TR specs
         const url = `https://api.w3.org/specifications/${info.name}/versions/latest`;
-        let resp = await fetchJSON(url);
+        let resp = await fetchJSON(url, options);
         if (!resp?._links?.deliverers) {
           throw new Error(`W3C API did not return deliverers for the spec`);
         }
-        resp = await fetchJSON(resp._links.deliverers.href);
+        resp = await fetchJSON(resp._links.deliverers.href, options);
 
         if (!resp?._links?.deliverers) {
           throw new Error(`W3C API did not return deliverers for the spec`);
@@ -250,7 +238,7 @@ export default async function (specs, options) {
           url = new URL(spec.url);
           url.pathname = "/w3c.json";
         }
-        const body = await fetchJSON(url.toString());
+        const body = await fetchJSON(url.toString(), options);
 
         // Note the "group" property is either an ID or an array of IDs
         groups = [body?.group].flat().filter(g => !!g);
@@ -261,7 +249,7 @@ export default async function (specs, options) {
       spec.groups = [];
       for (const id of groups) {
         const url = ('' + id).startsWith("https://") ? id : `https://api.w3.org/groups/${id}`;
-        const info = await fetchJSON(url);
+        const info = await fetchJSON(url, options);
         spec.groups.push({
           name: info.name,
           url: info._links.homepage.href

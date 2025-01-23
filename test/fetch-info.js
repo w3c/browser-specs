@@ -20,7 +20,7 @@ describe("fetch-info module", function () {
     return spec;
   }
 
-  describe("fetch from Specref", () => {
+  describe("fetch from WHATWG", () => {
     it("works on a WHATWG spec", async () => {
       const spec = {
         url: "https://dom.spec.whatwg.org/",
@@ -28,10 +28,24 @@ describe("fetch-info module", function () {
       };
       const info = await fetchInfo([spec]);
       assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].source, "specref");
+      assert.equal(info[spec.shortname].source, "whatwg");
       assert.equal(info[spec.shortname].nightly.url, "https://dom.spec.whatwg.org/");
       assert.equal(info[spec.shortname].nightly.status, "Living Standard");
-      assert.equal(info[spec.shortname].title, "DOM Standard");
+      assert.equal(info[spec.shortname].title, "DOM");
+    });
+  });
+
+  describe("fetch from Specref", () => {
+    it("works on an ISO spec", async () => {
+      const spec = {
+        url: "https://www.iso.org/standard/85253.html",
+        shortname: "iso18181-2"
+      };
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "specref");
+      assert.equal(info[spec.shortname].title, "Information technology — JPEG XL image coding system — Part 2: File format");
+      assert.equal(info[spec.shortname].nightly, undefined);
     });
 
     it("can operate on multiple specs at once", async () => {
@@ -325,34 +339,6 @@ describe("fetch-info module", function () {
     });
   });
 
-  describe("fetch from Specref", () => {
-    it("works on a WHATWG spec", async () => {
-      const spec = {
-        url: "https://dom.spec.whatwg.org/",
-        shortname: "dom"
-      };
-      const info = await fetchInfo([spec]);
-      assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].source, "specref");
-      assert.equal(info[spec.shortname].nightly.url, "https://dom.spec.whatwg.org/");
-      assert.equal(info[spec.shortname].nightly.status, "Living Standard");
-      assert.equal(info[spec.shortname].title, "DOM Standard");
-    });
-
-    it("works on an ISO spec", async () => {
-      const spec = {
-        url: "https://www.iso.org/standard/85253.html",
-        shortname: "iso18181-2"
-      };
-      const info = await fetchInfo([spec]);
-      assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].source, "specref");
-      assert.equal(info[spec.shortname].title, "Information technology — JPEG XL image coding system — Part 2: File format");
-      assert.equal(info[spec.shortname].nightly, undefined);
-    })
-  });
-
-
   describe("fetch from all sources", () => {
     it("uses the last published info for discontinued specs", async () => {
       const spec = {
@@ -387,10 +373,10 @@ describe("fetch-info module", function () {
       assert.equal(info[w3c.shortname].title, "Presentation API");
 
       assert.ok(info[whatwg.shortname]);
-      assert.equal(info[whatwg.shortname].source, "specref");
+      assert.equal(info[whatwg.shortname].source, "whatwg");
       assert.equal(info[whatwg.shortname].nightly.url, whatwg.url);
       assert.equal(info[whatwg.shortname].nightly.status, "Living Standard");
-      assert.equal(info[whatwg.shortname].title, "HTML Standard");
+      assert.equal(info[whatwg.shortname].title, "HTML");
 
       assert.ok(info[other.shortname]);
       assert.equal(info[other.shortname].source, "spec");

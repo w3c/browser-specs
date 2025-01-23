@@ -623,6 +623,10 @@
     "forkOf": "wasm-js-api-2",
     "title": "WebAssembly JavaScript Interface: Threading"
   },
+  {
+    "url": "https://webaudio.github.io/web-speech-api/",
+    "shortname": "speech-api"
+  },
   "https://webbluetoothcg.github.io/web-bluetooth/",
   {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
@@ -756,7 +760,6 @@
     "url": "https://wicg.github.io/soft-navigations/",
     "standing": "pending"
   },
-  "https://wicg.github.io/speech-api/",
   "https://wicg.github.io/storage-buckets/",
   "https://wicg.github.io/trust-token-api/",
   {

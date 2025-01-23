@@ -135,15 +135,14 @@ describe("The `index.json` list", () => {
   });
 
   it("has series titles that look consistent with spec titles", () => {
-    // Note the WebRTC, RDF, JSON-LD specs follow a slightly different pattern
-    // TEMP (2022-01-05): temp exception to the rule: published version of CSS
-    // Images Level 4 has an obscure title à la "CSS Image Values..."
-    // (should get fixed next time the spec gets published to /TR)
+    // The test is useful in that it allows to trap cases where the information
+    // returned by the W3C API about a series is not up-to-date, but there are
+    // a few exceptions to the rule.
     const wrong = specs.filter(s => !s.title.includes(s.series.title))
       .filter(s => !s.title.startsWith("RDF ") && !s.title.startsWith("SPARQL "))
       .filter(s => ![
           "webrtc", "json-ld11-api", "json-ld11-framing",
-          "css-images-4", "n-quads", "DOM-Level-2-Style"
+          "css-backgrounds-4", "n-quads", "DOM-Level-2-Style"
         ].includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });

@@ -648,8 +648,8 @@
       "sourcePath": "css-backgrounds-4/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Backgrounds and Borders Module Level 4",
-    "source": "specref",
+    "title": "CSS Backgrounds Module Level 4",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -12196,14 +12196,14 @@
     "organization": "W3C",
     "nightly": {
       "url": "https://www.w3.org/2001/tag/doc/promises-guide",
-      "status": "TAG Finding",
+      "status": "Draft Finding",
       "alternateUrls": [],
       "repository": "https://github.com/w3ctag/promises-guide",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Writing Promise-Using Specifications",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Writing Promise-Using Specifications",
     "categories": [],
     "standing": "good"
@@ -12220,6 +12220,7 @@
       "nightlyUrl": "https://www.w3.org/Graphics/GIF/spec-gif89a.txt"
     },
     "shortTitle": "GIF",
+    "title": "Graphics Interchange Format",
     "organization": "CompuServe Incorporated",
     "groups": [
       {
@@ -12233,8 +12234,7 @@
       "alternateUrls": [],
       "filename": "spec-gif89a.txt"
     },
-    "title": "Graphics Interchange Format",
-    "source": "specref",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -12265,7 +12265,7 @@
       "filename": "Overview.html"
     },
     "title": "W3C Patent Policy",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "W3C Patent Policy",
     "categories": [],
     "standing": "good"
@@ -12301,7 +12301,7 @@
     },
     "organization": "W3C",
     "title": "W3C Process Document",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "W3C Process Document",
     "categories": [
       "browser"

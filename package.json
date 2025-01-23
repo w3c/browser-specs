@@ -29,7 +29,7 @@
     "@octokit/rest": "^21.1.0",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
-    "commander": "^13.0.0",
+    "commander": "^13.1.0",
     "mocha": "^11.1.0",
     "puppeteer": "^24.1.0",
     "rimraf": "^6.0.1",

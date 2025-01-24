@@ -12,7 +12,7 @@ const cache = {};
  */
 export default async function (url, options) {
   if (cache[url]) {
-    return JSON.parse(JSON.stringify(cache[url]));
+    return structuredClone(cache[url]);
   }
   const res = await fetchQueue.runThrottled(fetch, url, options);
   if (res.status === 404) {

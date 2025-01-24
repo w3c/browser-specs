@@ -25,7 +25,7 @@ export default async function (url, options) {
   try {
     const body = await res.json();
     cache[url] = body;
-    return JSON.parse(JSON.stringify(body));
+    return structuredClone(body);
   }
   catch (err) {
     throw new Error(`Server returned invalid JSON for ${url}`);

@@ -7279,6 +7279,40 @@
     "standing": "good"
   },
   {
+    "url": "https://webaudio.github.io/web-speech-api/",
+    "seriesComposition": "full",
+    "shortname": "speech-api",
+    "series": {
+      "shortname": "speech-api",
+      "currentSpecification": "speech-api",
+      "title": "Web Speech API",
+      "shortTitle": "Web Speech API",
+      "nightlyUrl": "https://webaudio.github.io/web-speech-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Audio Community Group",
+        "url": "https://www.w3.org/community/audio-comgp/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webaudio.github.io/web-speech-api/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAudio/web-speech-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web Speech API",
+    "source": "spec",
+    "shortTitle": "Web Speech API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "seriesComposition": "full",
     "shortname": "web-bluetooth",
@@ -9888,46 +9922,6 @@
     "categories": [
       "browser"
     ]
-  },
-  {
-    "url": "https://wicg.github.io/speech-api/",
-    "seriesComposition": "full",
-    "shortname": "speech-api",
-    "series": {
-      "shortname": "speech-api",
-      "currentSpecification": "speech-api",
-      "title": "Web Speech API",
-      "shortTitle": "Web Speech API",
-      "nightlyUrl": "https://wicg.github.io/speech-api/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Audio Community Group",
-        "url": "https://www.w3.org/community/audio-comgp/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/speech-api/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/speech-api",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Web Speech API",
-    "source": "spec",
-    "shortTitle": "Web Speech API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "speech-api"
-      ]
-    }
   },
   {
     "url": "https://wicg.github.io/storage-buckets/",

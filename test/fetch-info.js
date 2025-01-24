@@ -35,45 +35,6 @@ describe("fetch-info module", function () {
     });
   });
 
-  describe("fetch from Specref", () => {
-    it("works on an ISO spec", async () => {
-      const spec = {
-        url: "https://www.iso.org/standard/85253.html",
-        shortname: "iso18181-2"
-      };
-      const info = await fetchInfo([spec]);
-      assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].source, "specref");
-      assert.equal(info[spec.shortname].title, "Information technology — JPEG XL image coding system — Part 2: File format");
-      assert.equal(info[spec.shortname].nightly, undefined);
-    });
-
-    it("can operate on multiple specs at once", async () => {
-      const spec = getW3CSpec("presentation-api");
-      const other = getW3CSpec("hr-time-2");
-      const info = await fetchInfo([spec, other]);
-      assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].source, "w3c");
-      assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
-      assert.equal(info[spec.shortname].title, "Presentation API");
-
-      assert.ok(info[other.shortname]);
-      assert.equal(info[other.shortname].source, "w3c");
-      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/hr-time/");
-      assert.equal(info[other.shortname].title, "High Resolution Time Level 2");
-    });
-
-    it("does not retrieve info from a spec that got contributed to Specref", async () => {
-      const spec = {
-        url: "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
-        shortname: "ANGLE_instanced_arrays"
-      };
-      const info = await fetchInfo([spec]);
-      assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].source, "spec");
-    });
-  });
-
   describe("fetch from IETF datatracker", () => {
     it("fetches info about RFCs from datatracker", async () => {
       const spec = {
@@ -336,6 +297,21 @@ describe("fetch-info module", function () {
       await assert.rejects(
         fetchInfo([spec]),
         /^Error: W3C API redirects "webaudio" to "webaudio-.*"/);
+    });
+
+    it("can operate on multiple specs at once", async () => {
+      const spec = getW3CSpec("presentation-api");
+      const other = getW3CSpec("hr-time-2");
+      const info = await fetchInfo([spec, other]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "w3c");
+      assert.equal(info[spec.shortname].nightly.url, "https://w3c.github.io/presentation-api/");
+      assert.equal(info[spec.shortname].title, "Presentation API");
+
+      assert.ok(info[other.shortname]);
+      assert.equal(info[other.shortname].source, "w3c");
+      assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/hr-time/");
+      assert.equal(info[other.shortname].title, "High Resolution Time Level 2");
     });
   });
 

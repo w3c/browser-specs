@@ -60,7 +60,7 @@
 
     "source": {
       "type": "string",
-      "enum": ["w3c", "specref", "spec", "ietf", "whatwg"]
+      "enum": ["w3c", "spec", "ietf", "whatwg"]
     },
 
     "nightly": {

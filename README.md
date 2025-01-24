@@ -8,6 +8,11 @@ The list is used in a variety of ways, which include:
   by tools such as [ReSpec](https://respec.org/docs/) and
   [Bikeshed](https://speced.github.io/bikeshed/) to create terminology
   and reference links between Web specifications.
+* [BCD](https://github.com/mdn/browser-compat-data) and
+  [web-features](https://github.com/web-platform-dx/web-features) to validate
+  specification URLs
+* [Specref](https://www.specref.org/) to complete the list of specifications
+  that can be referenced.
 * Analyzers of browser technologies to create reports on test coverage,
   WebIDL, and specification quality.
 
@@ -186,10 +191,11 @@ The `shortname` property is always set.
 
 ### `title`
 
-The title of the spec. The title is either retrieved from the
-[W3C API](https://w3c.github.io/w3c-api/) for W3C specs,
-[Specref](https://www.specref.org/) or from the spec itself. The
-[`source`](#source) property details the actual provenance.
+The title of the spec. The title is either retrieved from an official source
+(the [W3C API](https://w3c.github.io/w3c-api/) for W3C specs, the
+[workstreams database](https://github.com/whatwg/sg/blob/main/db.json) for
+WHATWG specs, etc.), or from the spec itself. The [`source`](#source) property
+details the actual provenance.
 
 The `title` property is always set.
 
@@ -485,11 +491,12 @@ available.
 
 The URL of the latest Editor's Draft or of the living standard.
 
-The URL is either retrieved from the [W3C API](https://w3c.github.io/w3c-api/)
-for W3C specs, or [Specref](https://www.specref.org/). The document at the
-versioned URL is considered to be the latest Editor's Draft if the spec does
-neither exist in the W3C API nor in Specref. The [`source`](#source) property
-details the actual provenance.
+The URL is either retrieved from an official source (the
+[W3C API](https://w3c.github.io/w3c-api/) for W3C specs, the
+[workstreams database](https://github.com/whatwg/sg/blob/main/db.json) for
+WHATWG specs, etc.) when possible. The document at the versioned URL is
+considered to be the latest Editor's Draft otherwise. The [`source`](#source)
+property details the actual provenance.
 
 The URL should be relatively stable but may still change over time. See
 [Spec identifiers](#spec-identifiers) for details.
@@ -552,8 +559,7 @@ The `pages` property is only set for specs identified as multipage specs.
 The URL of the repository that contains the source of the Editor's Draft or of
 the living standard.
 
-The URL is either retrieved from the [Specref](https://www.specref.org/) or
-computed from `nightly.url`.
+The URL is computed from `nightly.url`.
 
 The `repository` property is always set except for IETF specs where such a repo does not always exist.
 
@@ -621,7 +627,7 @@ The `excludePaths` property is seldom set.
 
 The provenance for the `title` and `nightly` property values. Can be one of:
 - `w3c`: information retrieved from the [W3C API](https://w3c.github.io/w3c-api/)
-- `specref`: information retrieved from [Specref](https://www.specref.org/)
+- `whatwg`: information retrieved from [WHATWG](https://spec.whatwg.org/)
 - `ietf`: information retrieved from the [IETF datatracker](https://datatracker.ietf.org)
 - `spec`: information retrieved from the spec itself
 

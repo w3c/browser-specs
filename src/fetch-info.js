@@ -2,8 +2,8 @@
  * Module that exports a function that takes an array of specifications objects
  * that each have at least a "url" and a "short" property. The function returns
  * an object indexed by specification "shortname" with additional information
- * about the specification fetched from the W3C API, Specref, or from the spec
- * itself. Object returned for each specification contains the following
+ * about the specification fetched from the W3C API, WHATWG, IETF or from the
+ * spec itself. Object returned for each specification contains the following
  * properties:
  *
  * - "nightly": an object that describes the nightly version. The object will
@@ -15,8 +15,8 @@
  * feature the URL of the TR document for W3C specs when it exists, and is not
  * present for specs that don't have release versions (WHATWG specs, CG drafts).
  * - "title": the title of the specification. Always set.
- * - "source": one of "w3c", "specref", "spec", depending on how the information
- * was determined.
+ * - "source": one of "w3c", "ietf", "whatwg", "spec", depending on how the
+ * information was determined.
  *
  * The function throws when something goes wrong, e.g. if the given spec object
  * describes a /TR/ specification but the specification has actually not been
@@ -25,17 +25,14 @@
  *
  * The function will start by querying the W3C API, using the given "shortname"
  * properties. For specifications where this fails, the function will query
- * SpecRef, using the given "shortname" as well. If that too fails, the function
- * assumes that the given "url" is the URL of the Editor's Draft, and will fetch
- * it to determine the title.
+ * IETF, then WHATWG, using the given "shortname" as well. If that too fails,
+ * the function assumes that the given "url" is the URL of the Editor's Draft,
+ * and will fetch it to determine the title.
  *
  * If the function needs to retrieve the spec itself, note that it will parse
  * the HTTP response body as a string, applying regular expressions to extract
  * the title. It will not parse it as HTML in particular. This means that the
  * function will fail if the title cannot easily be extracted for some reason.
- *
- * Note: the function operates on a list of specs and not only on one spec to
- * bundle requests to Specref.
  */
 
 import puppeteer from "puppeteer";
@@ -44,17 +41,6 @@ import computeShortname from "./compute-shortname.js";
 import Octokit from "./octokit.js";
 import ThrottledQueue from "./throttled-queue.js";
 import fetchJSON from "./fetch-json.js";
-
-// Map spec statuses returned by Specref to those used in specs
-// Note we typically won't get /TR statuses from Specref, since all /TR URLs
-// are handled through the W3C API. Also, "Proposal for a CSS module" entries
-// were probably manually hardcoded in Specref, they are really just Editor's
-// Drafts in practice.
-const specrefStatusMapping = {
-  "ED": "Editor's Draft",
-  "Proposal for a CSS module": "Editor's Draft",
-  "cg-draft": "Draft Community Group Report"
-};
 
 async function useLastInfoForDiscontinuedSpecs(specs) {
   const results = {};
@@ -214,97 +200,6 @@ async function fetchInfoFromWHATWG(specs, options) {
   }
   return specInfo;
 }
-
-async function fetchInfoFromSpecref(specs, options) {
-  function chunkArray(arr, len) {
-    let chunks = [];
-    let i = 0;
-    let n = arr.length;
-    while (i < n) {
-      chunks.push(arr.slice(i, i += len));
-    }
-    return chunks;
-  }
-
-  // Browser-specs contributes specs to Specref. By definition, we cannot rely
-  // on information from Specref about these specs. Unfortunately, the Specref
-  // API does not return the "source" field, so we need to retrieve the list
-  // ourselves from Specref's GitHub repository.
-  const specrefBrowserspecsUrl = "https://raw.githubusercontent.com/tobie/specref/main/refs/browser-specs.json";
-  const browserSpecs = await fetchJSON(specrefBrowserspecsUrl, options);
-  specs = specs.filter(spec => !browserSpecs[spec.shortname.toUpperCase()]);
-
-  // Browser-specs now acts as source for Specref for the WICG specs and W3C
-  // Editor's Drafts that have not yet been published to /TR. Let's filter out
-  // these specs to avoid a catch-22 where the info in browser-specs gets stuck
-  // to the that in Specref.
-  const filteredSpecs = specs.filter(spec =>
-    !spec.url.match(/\/\/(wicg|w3c)\.github\.io\//) &&
-    !spec.url.match(/\/\/www\.w3\.org\//) &&
-    !spec.url.match(/\/\/drafts\.csswg\.org\//));
-
-  const chunks = chunkArray(filteredSpecs, 50);
-  const chunksRes = await Promise.all(chunks.map(async chunk => {
-    let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
-      chunk.map(spec => spec.shortname).join(',');
-    return fetchJSON(specrefUrl, options);
-  }));
-
-  const results = {};
-  chunksRes.forEach(chunkRes => {
-
-    // Specref manages aliases, let's follow the chain to the final spec
-    function resolveAlias(name, counter) {
-      counter = counter || 0;
-      if (counter > 100) {
-        throw "Too many aliases returned by Respec";
-      }
-      if (chunkRes[name].aliasOf) {
-        return resolveAlias(chunkRes[name].aliasOf, counter + 1);
-      }
-      else {
-        return name;
-      }
-    }
-    Object.keys(chunkRes).forEach(name => {
-      if (specs.find(spec => spec.shortname === name)) {
-        const info = chunkRes[resolveAlias(name)];
-        if (info.edDraft?.startsWith('http:')) {
-          console.warn(`[warning] force HTTPS for nightly of ` +
-            `"${spec.shortname}", Specref returned "${info.edDraft}"`);
-        }
-        if (info.href?.startsWith('http:')) {
-          console.warn(`[warning] force HTTPS for nightly of ` +
-            `"${spec.shortname}", Specref returned "${info.href}"`);
-        }
-        const nightly =
-          info.edDraft?.replace(/^http:/, 'https:') ??
-          info.href?.replace(/^http:/, 'https:') ??
-          null;
-        const status =
-          specrefStatusMapping[info.status] ??
-          info.status ??
-          "Editor's Draft";
-        if (nightly?.startsWith("https://www.iso.org/")) {
-          // The URL is to a page that describes the spec, not to the spec
-          // itself (ISO specs are not public).
-          results[name] = {
-            title: info.title
-          }
-        }
-        else {
-          results[name] = {
-            nightly: { url: nightly, status },
-            title: info.title
-          };
-        }
-      }
-    });
-  });
-
-  return results;
-}
-
 
 async function fetchInfoFromIETF(specs, options) {
   async function fetchRFCName(docUrl) {
@@ -611,7 +506,6 @@ async function fetchInfo(specs, options) {
     { name: 'w3c', fn: fetchInfoFromW3CApi },
     { name: 'ietf', fn: fetchInfoFromIETF },
     { name: 'whatwg', fn: fetchInfoFromWHATWG },
-    { name: 'specref', fn: fetchInfoFromSpecref },
     { name: 'spec', fn: fetchInfoFromSpecs }
   ];
   let remainingSpecs = specs;

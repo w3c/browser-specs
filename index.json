@@ -4457,7 +4457,7 @@
     "series": {
       "shortname": "ecmascript",
       "currentSpecification": "ecmascript",
-      "title": "ECMAScript Language Specification",
+      "title": "ECMAScript® 2025 Language Specification",
       "shortTitle": "ECMAScript",
       "nightlyUrl": "https://tc39.es/ecma262/multipage/"
     },
@@ -4526,8 +4526,8 @@
       ],
       "filename": "index.html"
     },
-    "title": "ECMAScript Language Specification",
-    "source": "specref",
+    "title": "ECMAScript® 2025 Language Specification",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -4540,8 +4540,8 @@
     "series": {
       "shortname": "ecma-402",
       "currentSpecification": "ecma-402",
-      "title": "ECMAScript Internationalization API Specification",
-      "shortTitle": "ECMAScript Internationalization API",
+      "title": "ECMAScript® 2025 Internationalization API Specification",
+      "shortTitle": "ECMAScript® 2025 Internationalization API",
       "nightlyUrl": "https://tc39.es/ecma402/"
     },
     "tests": {
@@ -4565,9 +4565,9 @@
       "sourcePath": "spec/index.html",
       "filename": "index.html"
     },
-    "title": "ECMAScript Internationalization API Specification",
-    "source": "specref",
-    "shortTitle": "ECMAScript Internationalization API",
+    "title": "ECMAScript® 2025 Internationalization API Specification",
+    "source": "spec",
+    "shortTitle": "ECMAScript® 2025 Internationalization API",
     "categories": [
       "browser"
     ],
@@ -7339,7 +7339,7 @@
       "filename": "index.html"
     },
     "title": "Web Bluetooth",
-    "source": "specref",
+    "source": "spec",
     "shortTitle": "Web Bluetooth",
     "categories": [
       "browser"
@@ -10596,7 +10596,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "specref",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -10621,7 +10621,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "specref",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -10634,7 +10634,7 @@
     "series": {
       "shortname": "iso14496-22",
       "currentSpecification": "iso14496-22",
-      "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format",
+      "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
       "shortTitle": "Open Font Format"
     },
     "shortTitle": "Open Font Format",
@@ -10645,8 +10645,8 @@
         "url": "https://www.iso.org/committee/45316.html"
       }
     ],
-    "title": "Information technology — Coding of audio-visual objects — Part 22: Open Font Format",
-    "source": "specref",
+    "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
+    "source": "spec",
     "categories": [
       "browser"
     ],

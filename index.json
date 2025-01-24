@@ -254,7 +254,7 @@
     "series": {
       "shortname": "compat",
       "currentSpecification": "compat",
-      "title": "Compatibility Standard",
+      "title": "Compatibility",
       "shortTitle": "Compatibility",
       "nightlyUrl": "https://compat.spec.whatwg.org/"
     },
@@ -273,8 +273,8 @@
         "url": "https://compat.spec.whatwg.org/"
       }
     ],
-    "title": "Compatibility Standard",
-    "source": "specref",
+    "title": "Compatibility",
+    "source": "whatwg",
     "shortTitle": "Compatibility",
     "categories": [
       "browser"
@@ -294,7 +294,7 @@
     "series": {
       "shortname": "compression",
       "currentSpecification": "compression",
-      "title": "Compression Standard",
+      "title": "Compression",
       "shortTitle": "Compression",
       "nightlyUrl": "https://compression.spec.whatwg.org/"
     },
@@ -313,8 +313,8 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Compression Standard",
-    "source": "specref",
+    "title": "Compression",
+    "source": "whatwg",
     "shortTitle": "Compression",
     "categories": [
       "browser"
@@ -328,7 +328,7 @@
     "series": {
       "shortname": "console",
       "currentSpecification": "console",
-      "title": "Console Standard",
+      "title": "Console",
       "shortTitle": "Console",
       "nightlyUrl": "https://console.spec.whatwg.org/"
     },
@@ -347,8 +347,8 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Console Standard",
-    "source": "specref",
+    "title": "Console",
+    "source": "whatwg",
     "shortTitle": "Console",
     "categories": [
       "browser"
@@ -504,7 +504,7 @@
     "series": {
       "shortname": "dom",
       "currentSpecification": "dom",
-      "title": "DOM Standard",
+      "title": "DOM",
       "shortTitle": "DOM",
       "nightlyUrl": "https://dom.spec.whatwg.org/"
     },
@@ -523,8 +523,8 @@
       "sourcePath": "dom.bs",
       "filename": "index.html"
     },
-    "title": "DOM Standard",
-    "source": "specref",
+    "title": "DOM",
+    "source": "whatwg",
     "shortTitle": "DOM",
     "categories": [
       "browser"
@@ -1474,7 +1474,7 @@
     "series": {
       "shortname": "encoding",
       "currentSpecification": "encoding",
-      "title": "Encoding Standard",
+      "title": "Encoding",
       "shortTitle": "Encoding",
       "nightlyUrl": "https://encoding.spec.whatwg.org/"
     },
@@ -1493,8 +1493,8 @@
       "sourcePath": "encoding.bs",
       "filename": "index.html"
     },
-    "title": "Encoding Standard",
-    "source": "specref",
+    "title": "Encoding",
+    "source": "whatwg",
     "shortTitle": "Encoding",
     "categories": [
       "browser"
@@ -1514,7 +1514,7 @@
     "series": {
       "shortname": "fetch",
       "currentSpecification": "fetch",
-      "title": "Fetch Standard",
+      "title": "Fetch",
       "shortTitle": "Fetch",
       "nightlyUrl": "https://fetch.spec.whatwg.org/"
     },
@@ -1533,8 +1533,8 @@
       "sourcePath": "fetch.bs",
       "filename": "index.html"
     },
-    "title": "Fetch Standard",
-    "source": "specref",
+    "title": "Fetch",
+    "source": "whatwg",
     "shortTitle": "Fetch",
     "categories": [
       "browser"
@@ -1593,7 +1593,7 @@
     "series": {
       "shortname": "fs",
       "currentSpecification": "fs",
-      "title": "File System Standard",
+      "title": "File System",
       "shortTitle": "File System",
       "nightlyUrl": "https://fs.spec.whatwg.org/"
     },
@@ -1612,8 +1612,8 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "File System Standard",
-    "source": "specref",
+    "title": "File System",
+    "source": "whatwg",
     "shortTitle": "File System",
     "categories": [
       "browser"
@@ -1633,7 +1633,7 @@
     "series": {
       "shortname": "fullscreen",
       "currentSpecification": "fullscreen",
-      "title": "Fullscreen API Standard",
+      "title": "Fullscreen API",
       "shortTitle": "Fullscreen API",
       "nightlyUrl": "https://fullscreen.spec.whatwg.org/"
     },
@@ -1652,8 +1652,8 @@
       "sourcePath": "fullscreen.bs",
       "filename": "index.html"
     },
-    "title": "Fullscreen API Standard",
-    "source": "specref",
+    "title": "Fullscreen API",
+    "source": "whatwg",
     "shortTitle": "Fullscreen API",
     "categories": [
       "browser"
@@ -1673,7 +1673,7 @@
     "series": {
       "shortname": "html",
       "currentSpecification": "html",
-      "title": "HTML Standard",
+      "title": "HTML",
       "shortTitle": "HTML",
       "nightlyUrl": "https://html.spec.whatwg.org/multipage/"
     },
@@ -1753,8 +1753,8 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       }
     ],
-    "title": "HTML Standard",
-    "source": "specref",
+    "title": "HTML",
+    "source": "whatwg",
     "shortTitle": "HTML",
     "categories": [
       "browser"
@@ -1996,7 +1996,7 @@
     "series": {
       "shortname": "infra",
       "currentSpecification": "infra",
-      "title": "Infra Standard",
+      "title": "Infra",
       "shortTitle": "Infra",
       "nightlyUrl": "https://infra.spec.whatwg.org/"
     },
@@ -2015,8 +2015,8 @@
       "sourcePath": "infra.bs",
       "filename": "index.html"
     },
-    "title": "Infra Standard",
-    "source": "specref",
+    "title": "Infra",
+    "source": "whatwg",
     "shortTitle": "Infra",
     "categories": [
       "browser"
@@ -2030,7 +2030,7 @@
     "series": {
       "shortname": "mimesniff",
       "currentSpecification": "mimesniff",
-      "title": "MIME Sniffing Standard",
+      "title": "MIME Sniffing",
       "shortTitle": "MIME Sniffing",
       "nightlyUrl": "https://mimesniff.spec.whatwg.org/"
     },
@@ -2049,8 +2049,8 @@
       "sourcePath": "mimesniff.bs",
       "filename": "index.html"
     },
-    "title": "MIME Sniffing Standard",
-    "source": "specref",
+    "title": "MIME Sniffing",
+    "source": "whatwg",
     "shortTitle": "MIME Sniffing",
     "categories": [
       "browser"
@@ -2070,7 +2070,7 @@
     "series": {
       "shortname": "notifications",
       "currentSpecification": "notifications",
-      "title": "Notifications API Standard",
+      "title": "Notifications API",
       "shortTitle": "Notifications API",
       "nightlyUrl": "https://notifications.spec.whatwg.org/"
     },
@@ -2089,8 +2089,8 @@
       "sourcePath": "notifications.bs",
       "filename": "index.html"
     },
-    "title": "Notifications API Standard",
-    "source": "specref",
+    "title": "Notifications API",
+    "source": "whatwg",
     "shortTitle": "Notifications API",
     "categories": [
       "browser"
@@ -2360,7 +2360,7 @@
     "series": {
       "shortname": "quirks",
       "currentSpecification": "quirks",
-      "title": "Quirks Mode Standard",
+      "title": "Quirks Mode",
       "shortTitle": "Quirks Mode",
       "nightlyUrl": "https://quirks.spec.whatwg.org/"
     },
@@ -2379,8 +2379,8 @@
       "sourcePath": "quirks.bs",
       "filename": "index.html"
     },
-    "title": "Quirks Mode Standard",
-    "source": "specref",
+    "title": "Quirks Mode",
+    "source": "whatwg",
     "shortTitle": "Quirks Mode",
     "categories": [
       "browser"
@@ -4340,7 +4340,7 @@
     "series": {
       "shortname": "storage",
       "currentSpecification": "storage",
-      "title": "Storage Standard",
+      "title": "Storage",
       "shortTitle": "Storage",
       "nightlyUrl": "https://storage.spec.whatwg.org/"
     },
@@ -4359,8 +4359,8 @@
       "sourcePath": "storage.bs",
       "filename": "index.html"
     },
-    "title": "Storage Standard",
-    "source": "specref",
+    "title": "Storage",
+    "source": "whatwg",
     "shortTitle": "Storage",
     "categories": [
       "browser"
@@ -4383,7 +4383,7 @@
     "series": {
       "shortname": "streams",
       "currentSpecification": "streams",
-      "title": "Streams Standard",
+      "title": "Streams",
       "shortTitle": "Streams",
       "nightlyUrl": "https://streams.spec.whatwg.org/"
     },
@@ -4402,8 +4402,8 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Streams Standard",
-    "source": "specref",
+    "title": "Streams",
+    "source": "whatwg",
     "shortTitle": "Streams",
     "categories": [
       "browser"
@@ -5950,7 +5950,7 @@
     "series": {
       "shortname": "testutils",
       "currentSpecification": "testutils",
-      "title": "Test Utils Standard",
+      "title": "Test Utils",
       "shortTitle": "Test Utils",
       "nightlyUrl": "https://testutils.spec.whatwg.org/"
     },
@@ -5969,8 +5969,8 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Test Utils Standard",
-    "source": "specref",
+    "title": "Test Utils",
+    "source": "whatwg",
     "shortTitle": "Test Utils",
     "categories": [
       "browser"
@@ -5984,7 +5984,7 @@
     "series": {
       "shortname": "url",
       "currentSpecification": "url",
-      "title": "URL Standard",
+      "title": "URL",
       "shortTitle": "URL",
       "nightlyUrl": "https://url.spec.whatwg.org/"
     },
@@ -6003,8 +6003,8 @@
       "sourcePath": "url.bs",
       "filename": "index.html"
     },
-    "title": "URL Standard",
-    "source": "specref",
+    "title": "URL",
+    "source": "whatwg",
     "shortTitle": "URL",
     "categories": [
       "browser"
@@ -6024,7 +6024,7 @@
     "series": {
       "shortname": "urlpattern",
       "currentSpecification": "urlpattern",
-      "title": "URL Pattern Standard",
+      "title": "URL Pattern",
       "shortTitle": "URL Pattern",
       "nightlyUrl": "https://urlpattern.spec.whatwg.org/"
     },
@@ -6043,8 +6043,8 @@
       "sourcePath": "spec.bs",
       "filename": "index.html"
     },
-    "title": "URL Pattern Standard",
-    "source": "specref",
+    "title": "URL Pattern",
+    "source": "whatwg",
     "shortTitle": "URL Pattern",
     "categories": [
       "browser"
@@ -7393,7 +7393,7 @@
     "series": {
       "shortname": "webidl",
       "currentSpecification": "webidl",
-      "title": "Web IDL Standard",
+      "title": "Web IDL",
       "shortTitle": "Web IDL",
       "nightlyUrl": "https://webidl.spec.whatwg.org/"
     },
@@ -7412,8 +7412,8 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Web IDL Standard",
-    "source": "specref",
+    "title": "Web IDL",
+    "source": "whatwg",
     "shortTitle": "Web IDL",
     "categories": [
       "browser"
@@ -7433,7 +7433,7 @@
     "series": {
       "shortname": "websockets",
       "currentSpecification": "websockets",
-      "title": "WebSockets Standard",
+      "title": "WebSockets",
       "shortTitle": "WebSockets",
       "nightlyUrl": "https://websockets.spec.whatwg.org/"
     },
@@ -7452,8 +7452,8 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "WebSockets Standard",
-    "source": "specref",
+    "title": "WebSockets",
+    "source": "whatwg",
     "shortTitle": "WebSockets",
     "categories": [
       "browser"
@@ -8752,7 +8752,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/js-self-profiling/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/js-self-profiling",
       "sourcePath": "index.html",
@@ -28428,7 +28428,7 @@
     "series": {
       "shortname": "xhr",
       "currentSpecification": "xhr",
-      "title": "XMLHttpRequest Standard",
+      "title": "XMLHttpRequest",
       "shortTitle": "XMLHttpRequest",
       "nightlyUrl": "https://xhr.spec.whatwg.org/"
     },
@@ -28447,8 +28447,8 @@
       "sourcePath": "xhr.bs",
       "filename": "index.html"
     },
-    "title": "XMLHttpRequest Standard",
-    "source": "specref",
+    "title": "XMLHttpRequest",
+    "source": "whatwg",
     "shortTitle": "XMLHttpRequest",
     "categories": [
       "browser"

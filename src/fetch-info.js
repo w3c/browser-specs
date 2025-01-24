@@ -43,6 +43,7 @@ import loadSpec from "./load-spec.js";
 import computeShortname from "./compute-shortname.js";
 import Octokit from "./octokit.js";
 import ThrottledQueue from "./throttled-queue.js";
+import fetchJSON from "./fetch-json.js";
 
 // Map spec statuses returned by Specref to those used in specs
 // Note we typically won't get /TR statuses from Specref, since all /TR URLs
@@ -54,8 +55,6 @@ const specrefStatusMapping = {
   "Proposal for a CSS module": "Editor's Draft",
   "cg-draft": "Draft Community Group Report"
 };
-
-const fetchQueue = new ThrottledQueue({ maxParallel: 2 });
 
 async function useLastInfoForDiscontinuedSpecs(specs) {
   const results = {};
@@ -95,31 +94,22 @@ async function fetchInfoFromW3CApi(specs, options) {
     }
 
     const url = `https://api.w3.org/specifications/${spec.shortname}/versions/latest`;
-    const res = await fetchQueue.runThrottled(fetch, url, options);
-    if (res.status === 404) {
-      return;
-    }
-    if (res.status !== 200) {
-      throw new Error(`W3C API returned an error, status code is ${res.status}, url was ${url}`);
+    const body = await fetchJSON(url, options);
+
+    // The shortname of the specification may have changed. In such cases, the
+    // W3C API silently redirects to the info for the new shortname, whereas we
+    // want to make sure we use the latest shortname in browser-specs. The
+    // actual shortname used by the W3C API does not appear explicitly in the
+    // response to a "/versions/latest" request, but it appears implicitly in
+    // the "_links/specification/href" URL.
+    const match = body._links.specification.href.match(/\/specifications\/([^\/]+)$/);
+    const shortname = match[1];
+    if (shortname !== spec.shortname) {
+      throw new Error(`W3C API redirects "${spec.shortname}" to ` +
+        `"${shortname}", update the shortname!`);
     }
 
-    // Has the shortname changed from a W3C perspective?
-    if (res.redirected) {
-      const match = res.url.match(/\/specifications\/([^\/]+)\//);
-      const w3cShortname = match ? match[1] : '';
-      if (w3cShortname !== spec.shortname) {
-        throw new Error(`W3C API redirects "${spec.shortname}" to ` +
-          `"${w3cShortname}", update the shortname!`);
-      }
-    }
-
-    try {
-      const body = await res.json();
-      return body;
-    }
-    catch (err) {
-      throw new Error("W3C API returned invalid JSON");
-    }
+    return body;
   }));
 
   const seriesShortnames = new Set();
@@ -153,28 +143,15 @@ async function fetchInfoFromW3CApi(specs, options) {
   // Fetch info on the series
   const seriesInfo = await Promise.all([...seriesShortnames].map(async shortname => {
     const url = `https://api.w3.org/specification-series/${shortname}`;
-    const res = await fetchQueue.runThrottled(fetch, url, options);
-    if (res.status === 404) {
-      return;
-    }
-    if (res.status !== 200) {
-      throw new Error(`W3C API returned an error, status code is ${res.status}`);
-    }
-    try {
-      const body = await res.json();
+    const body = await fetchJSON(url, options);
 
-      // The CSS specs and the CSS snapshots have different series shortnames for
-      // us ("CSS" vs. "css"), but the W3C API is case-insentive, mixes the two
-      // series,  and claims that the series shortname is "CSS" or "css"
-      // depending on which spec got published last. Let's get back to the
-      // shortname we requested.
-      body.shortname = shortname;
-
-      return body;
-    }
-    catch (err) {
-      throw new Error("W3C API returned invalid JSON");
-    }
+    // The CSS specs and the CSS snapshots have different series shortnames for
+    // us ("CSS" vs. "css"), but the W3C API is case-insentive, mixes the two
+    // series,  and claims that the series shortname is "CSS" or "css"
+    // depending on which spec got published last. Let's get back to the
+    // shortname we requested.
+    body.shortname = shortname;
+    return body;
   }));
 
   results.__series = {};
@@ -207,6 +184,36 @@ async function fetchInfoFromW3CApi(specs, options) {
   return results;
 }
 
+async function fetchInfoFromWHATWG(specs, options) {
+  const whatwgRe = /\.whatwg\.org/;
+  if (!specs.find(spec => spec.url.match(whatwgRe))) {
+    return {};
+  }
+
+  // Note: The WHATWG biblio.json file could also be used, but we're going to
+  // need the workstreams database in any case in fetch-groups, so let's fetch
+  // the database directly (this will put it in cache for fetch-groups)
+  const url = 'https://raw.githubusercontent.com/whatwg/sg/main/db.json';
+  const db = await fetchJSON(url, options);
+  const standards = db.workstreams.map(ws => ws.standards).flat();
+
+  const specInfo = {};
+  for (const spec of specs) {
+    if (!spec.url.match(/\.whatwg\.org/)) {
+      continue;
+    }
+    const entry = standards.find(std => std.href === spec.url);
+    if (!entry) {
+      console.warn(`[warning] WHATWG spec at ${spec.url} not found in WHATWG database`);
+      continue;
+    }
+    specInfo[spec.shortname] = {
+      nightly: { url: spec.url, status: 'Living Standard' },
+      title: entry.name
+    };
+  }
+  return specInfo;
+}
 
 async function fetchInfoFromSpecref(specs, options) {
   function chunkArray(arr, len) {
@@ -224,11 +231,7 @@ async function fetchInfoFromSpecref(specs, options) {
   // API does not return the "source" field, so we need to retrieve the list
   // ourselves from Specref's GitHub repository.
   const specrefBrowserspecsUrl = "https://raw.githubusercontent.com/tobie/specref/main/refs/browser-specs.json";
-  const browserSpecsResponse = await fetch(specrefBrowserspecsUrl, options);
-  if (browserSpecsResponse.status !== 200) {
-    throw new Error(`Could not retrieve specs contributed by browser-specs to Speref, status code is ${browserSpecsResponse.status}`);
-  }
-  const browserSpecs = await browserSpecsResponse.json();
+  const browserSpecs = await fetchJSON(specrefBrowserspecsUrl, options);
   specs = specs.filter(spec => !browserSpecs[spec.shortname.toUpperCase()]);
 
   // Browser-specs now acts as source for Specref for the WICG specs and W3C
@@ -244,18 +247,7 @@ async function fetchInfoFromSpecref(specs, options) {
   const chunksRes = await Promise.all(chunks.map(async chunk => {
     let specrefUrl = "https://api.specref.org/bibrefs?refs=" +
       chunk.map(spec => spec.shortname).join(',');
-
-    const res = await fetchQueue.runThrottled(fetch, specrefUrl, options);
-    if (res.status !== 200) {
-      throw new Error(`Could not query Specref, status code is ${res.status}`);
-    }
-    try {
-      const body = await res.json();
-      return body;
-    }
-    catch (err) {
-      throw new Error("Specref returned invalid JSON");
-    }
+    return fetchJSON(specrefUrl, options);
   }));
 
   const results = {};
@@ -315,35 +307,9 @@ async function fetchInfoFromSpecref(specs, options) {
 
 
 async function fetchInfoFromIETF(specs, options) {
-  async function fetchJSONDoc(draftName) {
-    const url = `https://datatracker.ietf.org/doc/${draftName}/doc.json`;
-    const res = await fetchQueue.runThrottled(fetch, url, options);
-    if (res.status !== 200) {
-      throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
-    }
-    try {
-      return await res.json();
-    }
-    catch (err) {
-      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
-    }
-  }
-
   async function fetchRFCName(docUrl) {
-    const res = await fetchQueue.runThrottled(fetch, docUrl, options);
-    if (res.status !== 200) {
-      throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
-    }
-    try {
-      const body = await res.json();
-      if (!body.rfc) {
-        throw new Error(`Could not find an RFC name in ${docUrl}`);
-      }
-      return `rfc${body.rfc}`;
-    }
-    catch (err) {
-      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
-    }
+    const body = await fetchJSON(docUrl, options);
+    return `rfc${body.rfc}`;
   }
 
   async function fetchObsoletedBy(draftName) {
@@ -351,18 +317,7 @@ async function fetchInfoFromIETF(specs, options) {
       return [];
     }
     const url = `https://datatracker.ietf.org/api/v1/doc/relateddocument/?format=json&relationship__slug__in=obs&target__name__in=${draftName}`;
-    const res = await fetchQueue.runThrottled(fetch, url, options);
-    if (res.status !== 200) {
-      throw new Error(`IETF datatracker returned an error for ${url}, status code is ${res.status}`);
-    }
-    let body;
-    try {
-      body = await res.json();
-    }
-    catch (err) {
-      throw new Error(`IETF datatracker returned invalid JSON for ${url}`);
-    }
-
+    const body = await fetchJSON(url, options);
     return Promise.all(body.objects
       .map(obj => `https://datatracker.ietf.org${obj.source}`)
       .map(fetchRFCName));
@@ -388,6 +343,15 @@ async function fetchInfoFromIETF(specs, options) {
     return paths.filter(p => p.path.match(/^specs\/rfc\d+\.html$/))
       .map(p => p.path.match(/(rfc\d+)\.html$/)[1]);
   }
+
+  // IETF can only provide information about IETF specs, no need to fetch the
+  // list of RFCs of the HTTP WG if there's no IETF spec in the list.
+  if (!specs.find(spec =>
+      spec.url.match(/\.rfc-editor\.org/) ||
+      spec.url.match(/datatracker\.ietf\.org/))) {
+    return {};
+  }
+
   const httpwgRFCs = await getHttpwgRFCs();
 
   const info = await Promise.all(specs.map(async spec => {
@@ -404,7 +368,8 @@ async function fetchInfoFromIETF(specs, options) {
     if (!draftName) {
       throw new Error(`IETF document follows an unexpected URL pattern: ${spec.url}`);
     }
-    const jsonDoc = await fetchJSONDoc(draftName[1]);
+    const draftUrl = `https://datatracker.ietf.org/doc/${draftName[1]}/doc.json`;
+    const jsonDoc = await fetchJSON(draftUrl, options);
     const lastRevision = jsonDoc.rev_history.pop();
     if (lastRevision.name !== draftName[1])  {
       throw new Error(`IETF spec ${spec.url} published under a new name "${lastRevision.name}". Canonical URL must be updated accordingly.`);
@@ -645,13 +610,16 @@ async function fetchInfo(specs, options) {
     { name: 'discontinued', fn: useLastInfoForDiscontinuedSpecs },
     { name: 'w3c', fn: fetchInfoFromW3CApi },
     { name: 'ietf', fn: fetchInfoFromIETF },
+    { name: 'whatwg', fn: fetchInfoFromWHATWG },
     { name: 'specref', fn: fetchInfoFromSpecref },
     { name: 'spec', fn: fetchInfoFromSpecs }
   ];
   let remainingSpecs = specs;
   for (let i = 0; i < steps.length ; i++) {
     const step = steps[i];
-    info[step.name] = await step.fn(remainingSpecs, options);
+    info[step.name] = remainingSpecs.length > 0 ?
+      await step.fn(remainingSpecs, options) :
+      {};
     remainingSpecs = remainingSpecs.filter(spec => !info[step.name][spec.shortname]);
   }
 

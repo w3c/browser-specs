@@ -8171,6 +8171,40 @@
     ]
   },
   {
+    "url": "https://wicg.github.io/document-isolation-policy/",
+    "seriesComposition": "full",
+    "shortname": "document-isolation-policy",
+    "series": {
+      "shortname": "document-isolation-policy",
+      "currentSpecification": "document-isolation-policy",
+      "title": "Document-Isolation-Policy",
+      "shortTitle": "Document-Isolation-Policy",
+      "nightlyUrl": "https://wicg.github.io/document-isolation-policy/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/document-isolation-policy/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/document-isolation-policy",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Document-Isolation-Policy",
+    "source": "spec",
+    "shortTitle": "Document-Isolation-Policy",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/document-picture-in-picture/",
     "seriesComposition": "full",
     "shortname": "document-picture-in-picture",

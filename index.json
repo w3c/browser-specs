@@ -6506,6 +6506,40 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/ppa/",
+    "seriesComposition": "full",
+    "shortname": "ppa",
+    "series": {
+      "shortname": "ppa",
+      "currentSpecification": "ppa",
+      "title": "Privacy-Preserving Attribution",
+      "shortTitle": "Privacy-Preserving Attribution",
+      "nightlyUrl": "https://w3c.github.io/ppa/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/ppa/",
+      "status": "Editor's Draft",
+      "sourcePath": "api.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/ppa",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Private Advertising Technology Working Group",
+        "url": "https://www.w3.org/groups/wg/pat/"
+      }
+    ],
+    "title": "Privacy-Preserving Attribution: Level 1",
+    "source": "spec",
+    "shortTitle": "Privacy-Preserving Attribution 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/reporting/network-reporting.html",
     "seriesComposition": "full",
     "shortname": "network-reporting",
@@ -9278,6 +9312,40 @@
         "page-lifecycle"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/paymentlink/",
+    "seriesComposition": "full",
+    "shortname": "paymentlink",
+    "series": {
+      "shortname": "paymentlink",
+      "currentSpecification": "paymentlink",
+      "title": "Facilitated Payment Link Type in HTML",
+      "shortTitle": "Facilitated Payment Link Type in HTML",
+      "nightlyUrl": "https://wicg.github.io/paymentlink/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/paymentlink/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/paymentlink",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Facilitated Payment Link Type in HTML",
+    "source": "spec",
+    "shortTitle": "Facilitated Payment Link Type in HTML",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/performance-measure-memory/",

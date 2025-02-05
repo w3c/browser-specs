@@ -518,6 +518,12 @@
   "https://w3c.github.io/mediacapture-surface-control/",
   "https://w3c.github.io/permissions-registry/",
   {
+    "nightly": {
+      "sourcePath": "api.bs"
+    },
+    "url": "https://w3c.github.io/ppa/"
+  },
+  {
     "url": "https://w3c.github.io/reporting/network-reporting.html",
     "shortname": "network-reporting",
     "nightly": {

@@ -31,7 +31,7 @@ export default function (title) {
     .trim()
     .replace(/\s/g, ' ')                  // Replace non-breaking spaces
     .replace(/ \d+(\.\d+)?$/, '')         // Drop level number for now
-    .replace(/( -)? Level$/i, '')         // Drop "Level"
+    .replace(/(:| -)? Level$/i, '')       // Drop "Level"
     .replace(/ \(\v\d+(\.\d+)?\)/i, '')   // Drop "(vx.y)"
     .replace(/\(Draft\)/i, '')            // Drop "(Draft)" indication
     .replace(/ Module$/i, '')             // Drop "Module" (now followed by level)

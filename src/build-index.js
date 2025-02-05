@@ -256,7 +256,7 @@ async function runInfo(specs) {
     else if (!res.series.title) {
       res.series.title = res.title
         .replace(/ \d+(\.\d+)?$/, '')           // Drop level number
-        .replace(/( -)? Level$/, '')            // Drop "Level"
+        .replace(/(:| -)? Level$/, '')          // Drop "Level"
         .replace(/ Module$/, '')                // Drop "Module"
         .replace(/^(RDF|SPARQL) \d\.\d/, '$1'); // Handle RDF/SPARQL titles
     }

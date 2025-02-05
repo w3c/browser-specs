@@ -49,6 +49,12 @@ describe("compute-shorttitle module", () => {
       "Foo 2");
   });
 
+  it("drops ': Level' from title", () => {
+    assertTitle(
+      "Foo: Level 7",
+      "Foo 7");
+  });
+
   it("drops 'Module - Level' from title", () => {
     assertTitle(
       "Foo Module - Level 3",

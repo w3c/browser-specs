@@ -11776,7 +11776,7 @@
     ],
     "nightly": {
       "url": "https://httpwg.org/specs/rfc8297.html",
-      "status": "Experimental",
+      "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc8297",
         "https://tools.ietf.org/html/rfc8297"

@@ -23855,7 +23855,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/reporting",
-      "sourcePath": "index.src.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Reporting API",

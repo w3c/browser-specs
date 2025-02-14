@@ -7461,6 +7461,40 @@
     }
   },
   {
+    "url": "https://webmachinelearning.github.io/writing-assistance-apis/",
+    "seriesComposition": "full",
+    "shortname": "writing-assistance-apis",
+    "series": {
+      "shortname": "writing-assistance-apis",
+      "currentSpecification": "writing-assistance-apis",
+      "title": "Writing Assistance APIs",
+      "shortTitle": "Writing Assistance APIs",
+      "nightlyUrl": "https://webmachinelearning.github.io/writing-assistance-apis/"
+    },
+    "standing": "pending",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Machine Learning Community Group",
+        "url": "https://www.w3.org/community/webmachinelearning/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webmachinelearning.github.io/writing-assistance-apis/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/webmachinelearning/writing-assistance-apis",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Writing Assistance APIs",
+    "source": "spec",
+    "shortTitle": "Writing Assistance APIs",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
     "url": "https://websockets.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "websockets",
@@ -10644,40 +10678,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://wicg.github.io/writing-assistance-apis/",
-    "seriesComposition": "full",
-    "shortname": "writing-assistance-apis",
-    "series": {
-      "shortname": "writing-assistance-apis",
-      "currentSpecification": "writing-assistance-apis",
-      "title": "Writing Assistance APIs",
-      "shortTitle": "Writing Assistance APIs",
-      "nightlyUrl": "https://wicg.github.io/writing-assistance-apis/"
-    },
-    "standing": "pending",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Machine Learning Community Group",
-        "url": "https://www.w3.org/community/webmachinelearning/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/writing-assistance-apis/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/writing-assistance-apis",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Writing Assistance APIs",
-    "source": "spec",
-    "shortTitle": "Writing Assistance APIs",
-    "categories": [
-      "browser"
-    ]
   },
   {
     "url": "https://www.iso.org/standard/54989.html",

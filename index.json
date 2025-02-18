@@ -18234,7 +18234,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-view-transitions"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-view-transitions-2/",
@@ -18278,7 +18284,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-view-transitions"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-viewport-1/",

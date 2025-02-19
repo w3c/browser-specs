@@ -1185,7 +1185,8 @@
     ],
     "multipage": "release",
     "nightly": {
-      "url": "https://drafts.csswg.org/css2/"
+      "url": "https://drafts.csswg.org/css2/",
+      "sourcePath": "css2/Overview.bs"
     },
     "title": "Cascading Style Sheets Level 2",
     "shortTitle": "CSS 2"

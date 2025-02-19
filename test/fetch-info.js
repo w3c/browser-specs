@@ -276,7 +276,7 @@ describe("fetch-info module", function () {
     });
 
     it("does not get confused by CSS snapshots", async () => {
-      const css = getW3CSpec("CSS21", "CSS");
+      const css = getW3CSpec("CSS2", "CSS");
       const snapshot = getW3CSpec("css-2023", "css");
       const info = await fetchInfo([css, snapshot]);
       assert.equal(info[css.shortname].source, "w3c");

@@ -630,6 +630,11 @@
     "title": "WebAssembly JavaScript Interface: Threading"
   },
   {
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Wide Arithmetic",
+    "url": "https://webassembly.github.io/wide-arithmetic/core/bikeshed/"
+  },
+  {
     "url": "https://webaudio.github.io/web-speech-api/",
     "shortname": "speech-api"
   },

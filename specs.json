@@ -1178,23 +1178,17 @@
   "https://www.w3.org/TR/css-writing-modes-3/",
   "https://www.w3.org/TR/css-writing-modes-4/",
   {
-    "url": "https://www.w3.org/TR/CSS21/",
-    "shortname": "CSS21",
+    "url": "https://www.w3.org/TR/CSS2/",
     "formerNames": [
-      "CSS2"
+      "CSS21",
+      "CSS22"
     ],
-    "seriesVersion": "2.1",
-    "multipage": "all",
-    "nightly": {
-      "url": "https://www.w3.org/TR/CSS21/"
-    }
-  },
-  {
-    "url": "https://www.w3.org/TR/CSS22/",
     "multipage": "release",
     "nightly": {
-      "sourcePath": "css2/Overview.bs"
-    }
+      "url": "https://drafts.csswg.org/css2/"
+    },
+    "title": "Cascading Style Sheets Level 2",
+    "shortTitle": "CSS 2"
   },
   {
     "url": "https://www.w3.org/TR/css3-exclusions/",

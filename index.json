@@ -6681,6 +6681,40 @@
     ]
   },
   {
+    "url": "https://w3c.github.io/webappsec-dbsc/",
+    "seriesComposition": "full",
+    "shortname": "dbsc",
+    "series": {
+      "shortname": "dbsc",
+      "currentSpecification": "dbsc",
+      "title": "Device Bound Session Credentials",
+      "shortTitle": "Device Bound Session Credentials",
+      "nightlyUrl": "https://w3c.github.io/webappsec-dbsc/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-dbsc/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webappsec-dbsc",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Device Bound Session Credentials",
+    "source": "spec",
+    "shortTitle": "Device Bound Session Credentials",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
     "seriesComposition": "full",
     "shortname": "passkey-endpoints",
@@ -7307,6 +7341,43 @@
     },
     "source": "spec",
     "shortTitle": "WebAssembly JavaScript Interface: Threading",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/wide-arithmetic/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-wide-arithmetic",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Wide Arithmetic",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/wide-arithmetic/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/wide-arithmetic",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Wide Arithmetic",
     "categories": [
       "browser"
     ],
@@ -26115,7 +26186,8 @@
       "wasm-core-2-fork-memory64",
       "wasm-core-2-fork-multi-memory",
       "wasm-core-2-fork-tail-call",
-      "wasm-core-2-fork-threads"
+      "wasm-core-2-fork-threads",
+      "wasm-core-2-fork-wide-arithmetic"
     ],
     "organization": "W3C",
     "groups": [

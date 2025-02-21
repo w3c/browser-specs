@@ -420,6 +420,9 @@
     },
     "https://w3c.github.io/math-aam/": {
       "comment": "no longer worked on and community group closed"
+    },
+    "https://www.w3.org/TR/CSS22/": {
+      "comment": "Published as a separate revision but to be folded into CSS2 down the line"
     }
   }
 }

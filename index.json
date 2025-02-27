@@ -17330,7 +17330,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-speech-1/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -17350,7 +17350,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20165,7 +20165,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/graphics-aam-1.0/",
-      "status": "Recommendation",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20182,7 +20182,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -20305,7 +20305,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/hr-time-3/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -20322,7 +20322,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -22349,7 +22349,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/network-error-logging/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -22366,7 +22366,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -22523,7 +22523,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/orientation-event/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -22540,7 +22540,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -23834,7 +23834,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/reporting-1/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -23851,7 +23851,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -24498,7 +24498,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/server-timing/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -24515,7 +24515,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

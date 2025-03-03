@@ -17,11 +17,14 @@ const problems = specs
   // A subset of the IETF RFCs are crawled from their httpwg.org rendering
   // see https://github.com/tobie/specref/issues/672 and
   // https://github.com/w3c/browser-specs/issues/280
+  // Also, the revision for CSS2 is ignored on purpose to squash CSS 2.1 and
+  // CSS 2.2 into a single entry
   .filter(s => s.nightly &&
                !s.nightly.url.startsWith('https://httpwg.org') &&
                !s.nightly.url.startsWith('https://www.ietf.org/') &&
                !s.nightly.url.startsWith('https://explainers-by-googlers.github.io/CHIPS-spec/'))
   .filter(s => (s.release && s.url !== s.release.url) || (!s.release && s.url !== s.nightly.url))
+  .filter(s => s.shortname !== 'CSS2')
   .map(s => {
     const expected = s.release ? "release" : "nightly";
     const expectedUrl = s.release ? s.release.url : s.nightly.url;

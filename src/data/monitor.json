@@ -354,10 +354,6 @@
       "comment": "Still lots of todo",
       "lastreviewed": "2025-01-01"
     },
-    "https://drafts.csswg.org/css-2024/": {
-      "comment": "Not yet published and spec would take over as current spec in the series if it was added right away",
-      "lastreviewed": "2025-01-01"
-    },
     "https://drafts.csswg.org/css-block-3/": {
       "comment": "Placholder for an eventual CSS Block Layout Level 3 Module",
       "lastreviewed": "2025-01-01"

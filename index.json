@@ -4962,6 +4962,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-defer-import-eval/",
+    "seriesComposition": "full",
+    "shortname": "tc39-defer-import-eval",
+    "series": {
+      "shortname": "tc39-defer-import-eval",
+      "currentSpecification": "tc39-defer-import-eval",
+      "title": "Deferred Imports Evaluation",
+      "shortTitle": "Deferred Imports Evaluation",
+      "nightlyUrl": "https://tc39.es/proposal-defer-import-eval/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-defer-import-eval/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-defer-import-eval",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Deferred Imports Evaluation",
+    "source": "spec",
+    "shortTitle": "Deferred Imports Evaluation",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-dynamic-code-brand-checks/",
     "seriesComposition": "full",
     "shortname": "tc39-dynamic-code-brand-checks",
@@ -5555,6 +5589,40 @@
     "title": "JSON.parse source text access",
     "source": "spec",
     "shortTitle": "JSON.parse source text access",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://tc39.es/proposal-math-sum/",
+    "seriesComposition": "full",
+    "shortname": "tc39-math-sum",
+    "series": {
+      "shortname": "tc39-math-sum",
+      "currentSpecification": "tc39-math-sum",
+      "title": "Math.sumPrecise",
+      "shortTitle": "Math.sumPrecise",
+      "nightlyUrl": "https://tc39.es/proposal-math-sum/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-math-sum/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-math-sum",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Math.sumPrecise",
+    "source": "spec",
+    "shortTitle": "Math.sumPrecise",
     "categories": [
       "browser"
     ],

@@ -13530,7 +13530,7 @@
     "shortname": "css-2022",
     "series": {
       "shortname": "css",
-      "currentSpecification": "css-2023",
+      "currentSpecification": "css-2024",
       "title": "CSS Snapshot",
       "shortTitle": "CSS Snapshot",
       "releaseUrl": "https://www.w3.org/TR/css/",
@@ -13574,7 +13574,7 @@
     "shortname": "css-2023",
     "series": {
       "shortname": "css",
-      "currentSpecification": "css-2023",
+      "currentSpecification": "css-2024",
       "title": "CSS Snapshot",
       "shortTitle": "CSS Snapshot",
       "releaseUrl": "https://www.w3.org/TR/css/",
@@ -13582,6 +13582,7 @@
     },
     "seriesVersion": "2023",
     "seriesPrevious": "css-2022",
+    "seriesNext": "css-2024",
     "organization": "W3C",
     "groups": [
       {
@@ -13607,6 +13608,50 @@
     "title": "CSS Snapshot 2023",
     "source": "w3c",
     "shortTitle": "CSS Snapshot 2023",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-2024/",
+    "seriesComposition": "full",
+    "shortname": "css-2024",
+    "series": {
+      "shortname": "css",
+      "currentSpecification": "css-2024",
+      "title": "CSS Snapshot",
+      "shortTitle": "CSS Snapshot",
+      "releaseUrl": "https://www.w3.org/TR/css/",
+      "nightlyUrl": "https://drafts.csswg.org/css/"
+    },
+    "seriesVersion": "2024",
+    "seriesPrevious": "css-2023",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-2024/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-2024/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-2024/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-2024/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Snapshot 2024",
+    "source": "w3c",
+    "shortTitle": "CSS Snapshot 2024",
     "categories": [
       "browser"
     ],

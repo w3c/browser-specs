@@ -877,8 +877,8 @@
     "series": {
       "shortname": "css-forms",
       "currentSpecification": "css-forms-1",
-      "title": "CSS Form Styling",
-      "shortTitle": "CSS Form Styling",
+      "title": "CSS Form Control Styling",
+      "shortTitle": "CSS Form Control Styling",
       "nightlyUrl": "https://drafts.csswg.org/css-forms/"
     },
     "seriesVersion": "1",
@@ -900,9 +900,9 @@
       "sourcePath": "css-forms-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Form Styling Module Level 1",
+    "title": "CSS Form Control Styling Level 1",
     "source": "spec",
-    "shortTitle": "CSS Form Styling 1",
+    "shortTitle": "CSS Form Control Styling 1",
     "categories": [
       "browser"
     ],

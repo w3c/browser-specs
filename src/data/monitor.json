@@ -386,14 +386,6 @@
       "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
       "lastreviewed": "2025-01-01"
     },
-    "https://svgwg.org/specs/paths/": {
-      "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
-      "lastreviewed": "2025-01-01"
-    },
-    "https://www.w3.org/TR/svg-paths/": {
-      "comment": "incomplete draft not being maintained, should be classified only as rough proposal per https://github.com/w3c/svgwg/issues/824#issuecomment-790946863",
-      "lastreviewed": "2025-01-01"
-    },
     "https://w3c.github.io/PFE/RangeRequest.html": {
       "comment": "being split-off from main spec https://github.com/w3c/PFE/pull/9/files; stub",
       "lastreviewed": "2025-01-01"

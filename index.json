@@ -4520,8 +4520,8 @@
         "https://tc39.es/ecma262/multipage/host-layering-points.html",
         "https://tc39.es/ecma262/multipage/corrections-and-clarifications-in-ecmascript-2015-with-possible-compatibility-impact.html",
         "https://tc39.es/ecma262/multipage/additions-and-changes-that-introduce-incompatibilities-with-prior-editions.html",
-        "https://tc39.es/ecma262/multipage/colophon.html",
         "https://tc39.es/ecma262/multipage/bibliography.html",
+        "https://tc39.es/ecma262/multipage/colophon.html",
         "https://tc39.es/ecma262/multipage/copyright-and-software-license.html"
       ],
       "filename": "index.html"

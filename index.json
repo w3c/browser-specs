@@ -5984,8 +5984,8 @@
     "series": {
       "shortname": "sourcemap",
       "currentSpecification": "sourcemap",
-      "title": "Source Map specification",
-      "shortTitle": "Source Map",
+      "title": "Source map format specification",
+      "shortTitle": "Source map format",
       "nightlyUrl": "https://tc39.es/source-map/"
     },
     "nightly": {
@@ -6003,9 +6003,9 @@
         "url": "https://tc39.es/"
       }
     ],
-    "title": "Source Map specification",
+    "title": "Source map format specification",
     "source": "spec",
-    "shortTitle": "Source Map",
+    "shortTitle": "Source map format",
     "categories": [
       "browser"
     ],
@@ -24651,8 +24651,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Service Workers Working Group",
-        "url": "https://www.w3.org/groups/wg/service-workers/"
+        "name": "Web Applications Working Group",
+        "url": "https://www.w3.org/groups/wg/webapps/"
       }
     ],
     "release": {

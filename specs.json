@@ -96,7 +96,10 @@
   "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
-  "https://drafts.csswg.org/css-forms-1/",
+  {
+    "url": "https://drafts.csswg.org/css-forms-1/",
+    "standing": "good"
+  },
   "https://drafts.csswg.org/css-gaps-1/",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",

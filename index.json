@@ -882,6 +882,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-forms/"
     },
     "seriesVersion": "1",
+    "standing": "good",
     "organization": "W3C",
     "groups": [
       {
@@ -905,8 +906,7 @@
     "shortTitle": "CSS Form Control Styling 1",
     "categories": [
       "browser"
-    ],
-    "standing": "pending"
+    ]
   },
   {
     "url": "https://drafts.csswg.org/css-gaps-1/",

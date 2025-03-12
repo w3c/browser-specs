@@ -18691,7 +18691,7 @@
       "currentSpecification": "CSS2",
       "title": "Cascading Style Sheets",
       "shortTitle": "CSS",
-      "releaseUrl": "https://www.w3.org/TR/CSS/",
+      "releaseUrl": "https://www.w3.org/TR/CSS2/",
       "nightlyUrl": "https://drafts.csswg.org/css2/"
     },
     "seriesVersion": "2",

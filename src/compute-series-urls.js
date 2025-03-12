@@ -17,9 +17,19 @@ function computeSeriesUrls(spec) {
 
   const res = {};
 
+  // We create a "CSS" series in browser-specs for CSS2 different from the
+  // "css" series for CSS snapshots but the W3C API mixes both, and the URL
+  // https://www.w3.org/TR/CSS/ that would logically be computed as series URL
+  // actually returns a CSS Snapshot. Let's use the spec URL instead
+  // (https://www.w3.org/TR/CSS2/).
+  if (spec.shortname === "CSS2") {
+    res.releaseUrl = spec.url;
+    res.nightlyUrl = spec.nightly.url;
+  }
+
   // If spec shortname and series shortname match, then series URLs match the
   // spec URLs.
-  if (spec.shortname === spec.series.shortname) {
+  else if (spec.shortname === spec.series.shortname) {
     if (spec.release?.url) {
       res.releaseUrl = spec.release.url;
     }

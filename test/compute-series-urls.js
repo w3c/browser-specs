@@ -66,6 +66,20 @@ describe("compute-series-urls module", () => {
   });
 
 
+  it("handles CSS2 correctly", () => {
+    const spec = {
+      url: "https://www.w3.org/TR/CSS2/",
+      shortname: "CSS2",
+      series: { shortname: "CSS" },
+      release: { url: "https://www.w3.org/TR/CSS2/" },
+      nightly: { url: "https://drafts.csswg.org/css2/" }
+    };
+    assert.deepStrictEqual(computeSeriesUrls(spec),
+      { releaseUrl: "https://www.w3.org/TR/CSS2/",
+        nightlyUrl: "https://drafts.csswg.org/css2/" });
+  });
+
+
   it("returns right nightly URL for series when spec's nightly has no level", () => {
     const spec = {
       url: "https://www.w3.org/TR/pointerlock-2/",

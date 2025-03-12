@@ -4574,6 +4574,43 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/ecma426/",
+    "seriesComposition": "full",
+    "shortname": "ecma-426",
+    "series": {
+      "shortname": "ecma-426",
+      "currentSpecification": "ecma-426",
+      "title": "Source map format specification",
+      "shortTitle": "Source map format",
+      "nightlyUrl": "https://tc39.es/ecma426/"
+    },
+    "nightly": {
+      "url": "https://tc39.es/ecma426/",
+      "status": "Editor's Draft",
+      "sourcePath": "source-map.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/ecma426",
+      "filename": "index.html"
+    },
+    "formerNames": [
+      "sourcemap"
+    ],
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "title": "Source map format specification",
+    "source": "spec",
+    "shortTitle": "Source map format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-array-find-from-last/",
     "seriesComposition": "full",
     "shortname": "tc39-array-find-from-last",
@@ -5972,40 +6009,6 @@
     "title": "Temporal proposal",
     "source": "spec",
     "shortTitle": "Temporal",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://tc39.es/source-map/",
-    "seriesComposition": "full",
-    "shortname": "sourcemap",
-    "series": {
-      "shortname": "sourcemap",
-      "currentSpecification": "sourcemap",
-      "title": "Source map format specification",
-      "shortTitle": "Source map format",
-      "nightlyUrl": "https://tc39.es/source-map/"
-    },
-    "nightly": {
-      "url": "https://tc39.es/source-map/",
-      "status": "Editor's Draft",
-      "sourcePath": "source-map.bs",
-      "alternateUrls": [],
-      "repository": "https://github.com/tc39/source-map",
-      "filename": "index.html"
-    },
-    "organization": "Ecma International",
-    "groups": [
-      {
-        "name": "TC39",
-        "url": "https://tc39.es/"
-      }
-    ],
-    "title": "Source map format specification",
-    "source": "spec",
-    "shortTitle": "Source map format",
     "categories": [
       "browser"
     ],
@@ -18688,7 +18691,7 @@
       "currentSpecification": "CSS2",
       "title": "Cascading Style Sheets",
       "shortTitle": "CSS",
-      "releaseUrl": "https://www.w3.org/TR/CSS21/",
+      "releaseUrl": "https://www.w3.org/TR/CSS/",
       "nightlyUrl": "https://drafts.csswg.org/css2/"
     },
     "seriesVersion": "2",
@@ -18706,17 +18709,8 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "index.html"
     },
-    "title": "Cascading Style Sheets Level 2",
-    "shortTitle": "CSS 2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
     "release": {
-      "url": "https://www.w3.org/TR/CSS21/",
+      "url": "https://www.w3.org/TR/CSS2/",
       "status": "Recommendation",
       "pages": [
         "https://www.w3.org/TR/CSS2/about.html",
@@ -18748,6 +18742,15 @@
       ],
       "filename": "Overview.html"
     },
+    "title": "Cascading Style Sheets Level 2",
+    "shortTitle": "CSS 2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
     "source": "w3c",
     "categories": [
       "browser"

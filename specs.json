@@ -1196,9 +1196,6 @@
       "url": "https://drafts.csswg.org/css2/",
       "sourcePath": "css2/Overview.bs"
     },
-    "release": {
-      "url": "https://www.w3.org/TR/CSS2/"
-    },
     "title": "Cascading Style Sheets Level 2",
     "shortTitle": "CSS 2"
   },

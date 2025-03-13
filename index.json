@@ -18709,6 +18709,15 @@
       "repository": "https://github.com/w3c/csswg-drafts",
       "filename": "index.html"
     },
+    "title": "Cascading Style Sheets Level 2",
+    "shortTitle": "CSS 2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
     "release": {
       "url": "https://www.w3.org/TR/CSS2/",
       "status": "Recommendation",
@@ -18742,15 +18751,6 @@
       ],
       "filename": "Overview.html"
     },
-    "title": "Cascading Style Sheets Level 2",
-    "shortTitle": "CSS 2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
     "source": "w3c",
     "categories": [
       "browser"
@@ -23147,7 +23147,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/png-3/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {

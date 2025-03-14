@@ -6120,7 +6120,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "urlpattern"
+      ]
+    }
   },
   {
     "url": "https://w3c-fedid.github.io/login-status/",

@@ -430,6 +430,40 @@
     "standing": "good"
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-compression-dictionary",
+    "seriesComposition": "full",
+    "shortname": "compression-dictionary",
+    "series": {
+      "shortname": "compression-dictionary",
+      "currentSpecification": "compression-dictionary",
+      "title": "Compression Dictionary Transport",
+      "shortTitle": "Compression Dictionary Transport",
+      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-compression-dictionary.md",
+      "filename": "draft-ietf-httpbis-compression-dictionary.html"
+    },
+    "title": "Compression Dictionary Transport",
+    "source": "ietf",
+    "shortTitle": "Compression Dictionary Transport",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
     "seriesComposition": "full",
     "shortname": "no-vary-search",

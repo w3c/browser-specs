@@ -926,7 +926,7 @@
     ],
     "nightly": {
       "url": "https://drafts.csswg.org/css-forms-1/",
-      "status": "Unofficial Proposal Draft",
+      "status": "Editor's Draft",
       "alternateUrls": [
         "https://w3c.github.io/csswg-drafts/css-forms-1/",
         "https://w3c.github.io/csswg-drafts/css-forms/"

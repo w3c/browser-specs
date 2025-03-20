@@ -20002,8 +20002,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Privacy Interest Group",
-        "url": "https://www.w3.org/Privacy/IG/"
+        "name": "Privacy Working Group",
+        "url": "https://www.w3.org/groups/wg/privacy/"
       }
     ],
     "release": {
@@ -26014,7 +26014,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-data-integrity/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Proposed Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -26053,7 +26053,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-data-model-2.0/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Proposed Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {

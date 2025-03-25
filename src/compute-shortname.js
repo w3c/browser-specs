@@ -210,8 +210,10 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
   }
 
   // Extract X and X.Y levels with form "rdfXY-something" or "sparqlXY-something"
-  // (e.g. 1.2 for "rdf12-concepts")
-  match = seriesBasename.match(/^(rdf|sparql)(\d)(\d)-(.+)$/);
+  // or "shaclXY-something" (e.g. 1.2 for "rdf12-concepts").
+  // Note matching would catch `tc39-*` in theory but that case has already
+  // been handled.
+  match = seriesBasename.match(/^([^\d]+)(\d)(\d)-(.+)$/);
   if (match) {
     return {
       shortname: specShortname,

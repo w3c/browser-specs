@@ -20975,6 +20975,7 @@
       "releaseUrl": "https://www.w3.org/TR/json-ld-api/",
       "nightlyUrl": "https://w3c.github.io/json-ld-api/"
     },
+    "seriesVersion": "1.1",
     "categories": [],
     "organization": "W3C",
     "groups": [
@@ -21013,6 +21014,7 @@
       "releaseUrl": "https://www.w3.org/TR/json-ld-framing/",
       "nightlyUrl": "https://w3c.github.io/json-ld-framing/"
     },
+    "seriesVersion": "1.1",
     "categories": [],
     "organization": "W3C",
     "groups": [
@@ -24724,6 +24726,84 @@
         "service-workers"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/shacl12-core/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-core",
+    "series": {
+      "shortname": "shacl-core",
+      "currentSpecification": "shacl12-core",
+      "title": "SHACL Core",
+      "shortTitle": "SHACL Core",
+      "releaseUrl": "https://www.w3.org/TR/shacl-core/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-core/"
+    },
+    "seriesVersion": "1.2",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/shacl12-core/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-core/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-core/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Core",
+    "source": "w3c",
+    "shortTitle": "SHACL 1.2 Core",
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/shacl12-sparql/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-sparql",
+    "series": {
+      "shortname": "shacl-sparql",
+      "currentSpecification": "shacl12-sparql",
+      "title": "SHACL SPARQL Extensions",
+      "shortTitle": "SHACL SPARQL Extensions",
+      "releaseUrl": "https://www.w3.org/TR/shacl-sparql/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-sparql/"
+    },
+    "seriesVersion": "1.2",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/shacl12-sparql/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-sparql/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-sparql/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 SPARQL Extensions",
+    "source": "w3c",
+    "shortTitle": "SHACL 1.2 SPARQL Extensions",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/sparql12-entailment/",

@@ -162,6 +162,10 @@ describe("compute-shortname module", () => {
       assertSeries("sparql12-something", "sparql-something");
     });
 
+    it("parses form 'shaclXY-something'", () => {
+      assertSeries("shacl12-something", "shacl-something");
+    });
+
     it("includes final digits when they do not seem to be a level", () => {
       assertSeries("cors-rfc1918", "cors-rfc1918");
     });

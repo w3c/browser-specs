@@ -1619,6 +1619,12 @@
   "https://www.w3.org/TR/server-timing/",
   "https://www.w3.org/TR/service-workers/",
   {
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/shacl12-core/"
+  },
+  {
     "url": "https://www.w3.org/TR/sparql12-entailment/",
     "categories": [
       "-browser"

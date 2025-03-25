@@ -96,6 +96,9 @@ export default async function (specs, options) {
       `${spec.series.shortname}/Overview.bs`,
       `${spec.series.shortname}/Overview.src.html`,
 
+      // Used for SHACL specs
+      `${spec.shortname}/index.html`,
+
       // Used for ARIA specs
       `${spec.series.shortname}/index.html`,
 

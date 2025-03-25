@@ -137,12 +137,13 @@ describe("The `index.json` list", () => {
   it("has series titles that look consistent with spec titles", () => {
     // The test is useful in that it allows to trap cases where the information
     // returned by the W3C API about a series is not up-to-date, but there are
-    // a few exceptions to the rule.
-    const wrong = specs.filter(s => !s.title.includes(s.series.title))
-      .filter(s => !s.title.startsWith("RDF ") && !s.title.startsWith("SPARQL "))
+    // a few exceptions to the rule, notably specs whose shortname follow the
+    // "fooXY-bar" pattern
+    const wrong = specs
+      .filter(s => !s.shortname.match(/^[^\d]+\d\d-.+$/))
+      .filter(s => !s.title.includes(s.series.title))
       .filter(s => ![
-          "webrtc", "json-ld11-api", "json-ld11-framing",
-          "css-backgrounds-4", "n-quads", "DOM-Level-2-Style"
+          "webrtc", "css-backgrounds-4", "n-quads", "DOM-Level-2-Style"
         ].includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });

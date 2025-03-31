@@ -31,18 +31,37 @@ project.
 
 ## How to add a spec
 
-Before suggesting a new spec, check the [Spec selection
-criteria](README.md#spec-selection-criteria).
+Before suggesting a new spec, check the
+[Spec selection criteria](README.md#spec-selection-criteria).
 
-The project uses a semi-automated process to manage spec additions to the list.
-Please **do not create a pull request**! Instead, use the ["New spec" issue
+If an [open issue](https://github.com/w3c/browser-specs/labels/new%20spec)
+already exists for the same spec, feel free to comment on the issue, for
+example to provide rationale for inclusion.
+
+If a [closed issue](https://github.com/w3c/browser-specs/issues?q=label%3Aignore+is%3Aclosed)
+already exists for the same spec, check the rationale that was used to dismiss
+the spec. Feel free to create a new issue if you believe that the spec should
+be re-considered.
+
+Otherwise, please us the ["New spec" issue
 template](https://github.com/w3c/browser-specs/issues/new/choose) to suggest a
 new spec.
 
-On top of the spec URL, you may need to set additional properties, see
-[Spec entries in `specs.json`](#spec-entries-in-specsjson) for details on
-possible properties.
+In any case, please note that the project uses a semi-automated process to
+manage spec additions to the list. Please **do not create a pull request**!
 
+When you create a "New spec" issue, a bot automatically runs to gather
+information about the proposed spec, test the result, and report in an issue
+comment. If the bot is happy, you're all set! Browser-specs maintainers will
+review the issue and decide on next steps. Note they may need to update the
+issue description to set additional properties.
+
+It the bot is unhappy, don't worry! It likely means that the bot needs more
+than just a spec URL to compute the information it needs. You may look into
+updating the issue description yourself to provide additional properties (see
+[Spec entries in `specs.json`](#spec-entries-in-specsjson) for details). You
+may just as well leave the issue as-is. Browser-specs maintainers will review
+the issue and make necessary adjustments themselves to make the bot happy.
 
 ## How to modify/remove a spec
 

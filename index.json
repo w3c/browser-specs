@@ -905,44 +905,6 @@
     "standing": "good"
   },
   {
-    "url": "https://drafts.csswg.org/css-forms-1/",
-    "seriesComposition": "full",
-    "shortname": "css-forms-1",
-    "series": {
-      "shortname": "css-forms",
-      "currentSpecification": "css-forms-1",
-      "title": "CSS Form Control Styling",
-      "shortTitle": "CSS Form Control Styling",
-      "nightlyUrl": "https://drafts.csswg.org/css-forms/"
-    },
-    "seriesVersion": "1",
-    "standing": "good",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-forms-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-forms-1/",
-        "https://w3c.github.io/csswg-drafts/css-forms/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-forms-1/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Form Control Styling Level 1",
-    "source": "spec",
-    "shortTitle": "CSS Form Control Styling 1",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://drafts.csswg.org/css-gaps-1/",
     "seriesComposition": "full",
     "shortname": "css-gaps-1",
@@ -6229,46 +6191,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/contentEditable/",
-    "seriesComposition": "full",
-    "shortname": "contentEditable",
-    "series": {
-      "shortname": "contentEditable",
-      "currentSpecification": "contentEditable",
-      "title": "ContentEditable",
-      "shortTitle": "ContentEditable",
-      "nightlyUrl": "https://w3c.github.io/contentEditable/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Editing Working Group",
-        "url": "https://www.w3.org/groups/wg/webediting/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/contentEditable/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/contentEditable",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "ContentEditable",
-    "source": "spec",
-    "shortTitle": "ContentEditable",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "contenteditable"
-      ]
-    }
   },
   {
     "url": "https://w3c.github.io/editing/docs/execCommand/",
@@ -13154,6 +13076,45 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/cid-1.0/",
+    "seriesComposition": "full",
+    "shortname": "cid-1.0",
+    "series": {
+      "shortname": "cid",
+      "currentSpecification": "cid-1.0",
+      "title": "Controlled Identifiers",
+      "shortTitle": "Controlled Identifiers",
+      "releaseUrl": "https://www.w3.org/TR/cid/",
+      "nightlyUrl": "https://w3c.github.io/cid/"
+    },
+    "seriesVersion": "1.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/2017/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/cid-1.0/",
+      "status": "Proposed Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/cid/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/cid",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Controlled Identifiers v1.0",
+    "source": "w3c",
+    "shortTitle": "Controlled Identifiers v1.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/clear-site-data/",
     "seriesComposition": "full",
     "shortname": "clear-site-data",
@@ -13376,6 +13337,52 @@
       "browser"
     ],
     "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/content-editable/",
+    "seriesComposition": "full",
+    "shortname": "content-editable",
+    "series": {
+      "shortname": "content-editable",
+      "currentSpecification": "content-editable",
+      "title": "ContentEditable",
+      "shortTitle": "ContentEditable",
+      "releaseUrl": "https://www.w3.org/TR/content-editable/",
+      "nightlyUrl": "https://w3c.github.io/contentEditable/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Editing Working Group",
+        "url": "https://www.w3.org/groups/wg/webediting/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/content-editable/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/contentEditable/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/contentEditable",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "ContentEditable",
+    "source": "w3c",
+    "shortTitle": "ContentEditable",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "contenteditable"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/core-aam-1.2/",
@@ -15454,6 +15461,50 @@
         "css/css-fonts"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-forms-1/",
+    "seriesComposition": "full",
+    "shortname": "css-forms-1",
+    "series": {
+      "shortname": "css-forms",
+      "currentSpecification": "css-forms-1",
+      "title": "CSS Form Control Styling",
+      "shortTitle": "CSS Form Control Styling",
+      "releaseUrl": "https://www.w3.org/TR/css-forms/",
+      "nightlyUrl": "https://drafts.csswg.org/css-forms/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-forms-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-forms-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-forms-1/",
+        "https://w3c.github.io/csswg-drafts/css-forms/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-forms-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Form Control Styling Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Form Control Styling 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-gcpm-3/",
@@ -19045,6 +19096,45 @@
         "device-posture"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/did-1.1/",
+    "seriesComposition": "full",
+    "shortname": "did-1.1",
+    "series": {
+      "shortname": "did",
+      "currentSpecification": "did-1.1",
+      "title": "Decentralized Identifiers (DIDs)",
+      "shortTitle": "DIDs",
+      "releaseUrl": "https://www.w3.org/TR/did/",
+      "nightlyUrl": "https://w3c.github.io/did/"
+    },
+    "seriesVersion": "1.1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Decentralized Identifier Working Group",
+        "url": "https://www.w3.org/groups/wg/did/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/did-1.1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/did/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/did",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Decentralized Identifiers (DIDs) v1.1",
+    "source": "w3c",
+    "shortTitle": "DIDs",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/DOM-Level-2-Style/",

@@ -97,10 +97,6 @@
   "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
-  {
-    "url": "https://drafts.csswg.org/css-forms-1/",
-    "standing": "good"
-  },
   "https://drafts.csswg.org/css-gaps-1/",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -1060,6 +1056,7 @@
   "https://www.w3.org/TR/css-font-loading-3/",
   "https://www.w3.org/TR/css-fonts-4/",
   "https://www.w3.org/TR/css-fonts-5/ delta",
+  "https://www.w3.org/TR/css-forms-1/",
   {
     "url": "https://www.w3.org/TR/css-gcpm-3/",
     "shortTitle": "CSS GCPM 3"

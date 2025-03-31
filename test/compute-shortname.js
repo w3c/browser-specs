@@ -92,6 +92,10 @@ describe("compute-shortname module", () => {
       assertName("https://www.w3.org/TR/level-4.2/", "level-4.2");
     });
 
+    it("handles multi-specs repositories", () => {
+      assertName("https://w3c.github.io/sdw/bp/", "sdw-bp");
+    });
+
     it("throws when URL is a dated TR one", () => {
       assert.throws(
         () => computeInfo("https://www.w3.org/TR/2017/CR-presentation-api-20170601/"),

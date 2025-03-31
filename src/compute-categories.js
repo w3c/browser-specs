@@ -9,12 +9,30 @@
  * over time.
  */
 
-// Retrieve the list of groups and repositories that we know don't contain
-// specs targeted at browsers. That logic will also very likely evolve over
-// time, be it only to give the file a different name (the list of specs will
-// be expanded to contain specs in that "ignore" list)
-import ignore from './data/ignore.json' with { type: 'json' };
-const { groups: nonbrowserGroups, repos: nonbrowserRepos } = ignore;
+/**
+ * Some Working Groups do not develop specifications directly targeted at
+ * browsers. Specs from these Working Groups should not be flagged with a
+ * "browsers" category. Ideally, we'd gather that information from some
+ * authoritative source, but that information is not available, so let's
+ * maintain a short list of working groups to catch main cases.
+ */
+const nonBrowserGroups = [
+  "Accessibility Guidelines Working Group",
+  "Accessible Platform Architectures Working Group",
+  "Advisory Board",
+  "Automotive Working Group",
+  "Dataset Exchange Working Group",
+  "Decentralized Identifier Working Group",
+  "Distributed Tracing Working Group",
+  "Education and Outreach Working Group",
+  "MiniApps Working Group",
+  "Patents and Standards Interest Group",
+  "Spatial Data on the Web Working Group",
+  "Technical Architecture Group",
+  "Verifiable Credentials Working Group",
+  "Web of Things Working Group"
+];
+
 
 /**
  * Exports main function that takes a spec object and returns a list of
@@ -39,10 +57,8 @@ export default function (spec) {
 
   // All specs target browsers by default unless the spec object says otherwise
   if (!requestedCategories.includes("reset")) {
-    const browserGroup = spec.groups.find(group => !nonbrowserGroups[group.name]);
-    const browserRepo = !spec.nightly?.repository ||
-        !nonbrowserRepos[spec.nightly.repository.replace(/^https:\/\/github\.com\//, "")];
-    if (browserGroup && browserRepo) {
+    const browserGroup = spec.groups.find(group => !nonBrowserGroups.includes(group.name));
+    if (browserGroup) {
       list.push("browser");
     }
   }

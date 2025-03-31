@@ -53,19 +53,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           NUMBER: ${{ github.event.issue.number }}
-
-      - name: Monitor suggested spec
-        if: ${{ contains(github.event.comment.body, '@browser-specs-bot monitor') }}
-        run: npx browser-specs monitor $NUMBER $COMMENT --pr
-        env:
-          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-          NUMBER: ${{ github.event.issue.number }}
-          COMMENT: ${{ github.event.comment.id }}
-
-      - name: Ignore suggested spec
-        if: ${{ contains(github.event.comment.body, '@browser-specs-bot ignore') }}
-        run: npx browser-specs ignore $NUMBER $COMMENT --pr
-        env:
-          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-          NUMBER: ${{ github.event.issue.number }}
-          COMMENT: ${{ github.event.comment.id }}

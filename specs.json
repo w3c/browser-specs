@@ -1307,6 +1307,16 @@
     ]
   },
   {
+    "seriesVersion": "3.4",
+    "nightly": {
+      "sourcePath": "epub34/authoring/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/epub-34/"
+  },
+  {
     "url": "https://www.w3.org/TR/epub-rs-33/",
     "seriesVersion": "3.3",
     "nightly": {

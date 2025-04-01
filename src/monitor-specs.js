@@ -15,8 +15,8 @@
  * issues), run:
  * node src/monitor-specs.js
  *
- * To report the list of issues that need a review and updated the issues to
- * add a comment/label to the issues, run:
+ * To report the list of issues that need a review **and** also update the
+ * issues to add a comment/label, run:
  * node src/monitor-specs.js --update
  */
 

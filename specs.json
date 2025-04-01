@@ -536,9 +536,6 @@
   {
     "url": "https://w3c.github.io/sparql-concepts/spec/",
     "shortname": "sparql12-concepts",
-    "categories": [
-      "-browser"
-    ],
     "nightly": {
       "status": "Editor's Draft"
     }
@@ -947,12 +944,7 @@
   "https://www.w3.org/TR/appmanifest/",
   "https://www.w3.org/TR/audio-output/",
   "https://www.w3.org/TR/audio-session/",
-  {
-    "url": "https://www.w3.org/TR/audiobooks/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/audiobooks/",
   "https://www.w3.org/TR/autoplay-detection/",
   "https://www.w3.org/TR/badging/",
   "https://www.w3.org/TR/battery-status/",
@@ -1301,19 +1293,13 @@
     "seriesVersion": "3.3",
     "nightly": {
       "sourcePath": "epub33/core/index.html"
-    },
-    "categories": [
-      "-browser"
-    ]
+    }
   },
   {
     "seriesVersion": "3.4",
     "nightly": {
       "sourcePath": "epub34/authoring/index.html"
     },
-    "categories": [
-      "-browser"
-    ],
     "url": "https://www.w3.org/TR/epub-34/"
   },
   {
@@ -1321,9 +1307,6 @@
     "nightly": {
       "sourcePath": "epub34/a11y/index.html"
     },
-    "categories": [
-      "-browser"
-    ],
     "url": "https://www.w3.org/TR/epub-a11y-111/"
   },
   {
@@ -1331,19 +1314,13 @@
     "seriesVersion": "3.3",
     "nightly": {
       "sourcePath": "epub33/rs/index.html"
-    },
-    "categories": [
-      "-browser"
-    ]
+    }
   },
   {
     "seriesVersion": "3.4",
     "nightly": {
       "sourcePath": "epub34/rs/index.html"
     },
-    "categories": [
-      "-browser"
-    ],
     "url": "https://www.w3.org/TR/epub-rs-34/"
   },
   "https://www.w3.org/TR/event-timing/",
@@ -1400,26 +1377,13 @@
   },
   "https://www.w3.org/TR/input-events-2/",
   "https://www.w3.org/TR/intersection-observer/",
-  {
-    "url": "https://www.w3.org/TR/json-ld11-api/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/json-ld11-framing/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/json-ld11-api/",
+  "https://www.w3.org/TR/json-ld11-framing/",
   {
     "url": "https://www.w3.org/TR/json-ld11/",
     "series": {
       "shortname": "json-ld"
-    },
-    "categories": [
-      "-browser"
-    ]
+    }
   },
   "https://www.w3.org/TR/largest-contentful-paint/",
   "https://www.w3.org/TR/longtasks-1/",
@@ -1458,24 +1422,9 @@
     "url": "https://www.w3.org/TR/merchant-validation/",
     "standing": "discontinued"
   },
-  {
-    "url": "https://www.w3.org/TR/miniapp-lifecycle/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/miniapp-manifest/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/miniapp-packaging/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/miniapp-lifecycle/",
+  "https://www.w3.org/TR/miniapp-manifest/",
+  "https://www.w3.org/TR/miniapp-packaging/",
   "https://www.w3.org/TR/mixed-content/",
   "https://www.w3.org/TR/motion-1/",
   {
@@ -1565,70 +1514,22 @@
   "https://www.w3.org/TR/pointerlock-2/",
   "https://www.w3.org/TR/presentation-api/",
   "https://www.w3.org/TR/proximity/",
-  {
-    "url": "https://www.w3.org/TR/pub-manifest/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/pub-manifest/",
   "https://www.w3.org/TR/push-api/",
   {
     "url": "https://www.w3.org/TR/rdf-canon/",
     "nightly": {
       "url": "https://w3c.github.io/rdf-canon/spec/"
-    },
-    "categories": [
-      "-browser"
-    ]
+    }
   },
-  {
-    "url": "https://www.w3.org/TR/rdf12-concepts/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/rdf12-n-quads/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/rdf12-n-triples/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/rdf12-schema/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/rdf12-semantics/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/rdf12-trig/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/rdf12-turtle/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/rdf12-xml/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/rdf12-concepts/",
+  "https://www.w3.org/TR/rdf12-n-quads/",
+  "https://www.w3.org/TR/rdf12-n-triples/",
+  "https://www.w3.org/TR/rdf12-schema/",
+  "https://www.w3.org/TR/rdf12-semantics/",
+  "https://www.w3.org/TR/rdf12-trig/",
+  "https://www.w3.org/TR/rdf12-turtle/",
+  "https://www.w3.org/TR/rdf12-xml/",
   "https://www.w3.org/TR/referrer-policy/",
   "https://www.w3.org/TR/remote-playback/",
   "https://www.w3.org/TR/reporting-1/",
@@ -1647,78 +1548,18 @@
   "https://www.w3.org/TR/selectors-nonelement-1/",
   "https://www.w3.org/TR/server-timing/",
   "https://www.w3.org/TR/service-workers/",
-  {
-    "categories": [
-      "-browser"
-    ],
-    "url": "https://www.w3.org/TR/shacl12-core/"
-  },
-  {
-    "categories": [
-      "-browser"
-    ],
-    "url": "https://www.w3.org/TR/shacl12-sparql/"
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-entailment/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-federated-query/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-graph-store-protocol/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-protocol/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-query/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-results-csv-tsv/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-results-json/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-results-xml/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-service-description/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/sparql12-update/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/shacl12-core/",
+  "https://www.w3.org/TR/shacl12-sparql/",
+  "https://www.w3.org/TR/sparql12-entailment/",
+  "https://www.w3.org/TR/sparql12-federated-query/",
+  "https://www.w3.org/TR/sparql12-graph-store-protocol/",
+  "https://www.w3.org/TR/sparql12-protocol/",
+  "https://www.w3.org/TR/sparql12-query/",
+  "https://www.w3.org/TR/sparql12-results-csv-tsv/",
+  "https://www.w3.org/TR/sparql12-results-json/",
+  "https://www.w3.org/TR/sparql12-results-xml/",
+  "https://www.w3.org/TR/sparql12-service-description/",
+  "https://www.w3.org/TR/sparql12-update/",
   {
     "url": "https://www.w3.org/TR/SRI/",
     "shortTitle": "SRI",
@@ -1776,18 +1617,8 @@
   "https://www.w3.org/TR/uievents/",
   "https://www.w3.org/TR/upgrade-insecure-requests/",
   "https://www.w3.org/TR/user-timing/",
-  {
-    "url": "https://www.w3.org/TR/vc-data-integrity/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/vc-data-model-2.0/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/vc-data-integrity/",
+  "https://www.w3.org/TR/vc-data-model-2.0/",
   "https://www.w3.org/TR/vibration/",
   "https://www.w3.org/TR/virtual-keyboard/",
   {
@@ -1914,17 +1745,7 @@
       "sourcePath": "woff2/index.html"
     }
   },
-  {
-    "url": "https://www.w3.org/TR/wpub-ann/",
-    "categories": [
-      "-browser"
-    ]
-  },
-  {
-    "url": "https://www.w3.org/TR/wpub/",
-    "categories": [
-      "-browser"
-    ]
-  },
+  "https://www.w3.org/TR/wpub-ann/",
+  "https://www.w3.org/TR/wpub/",
   "https://xhr.spec.whatwg.org/"
 ]

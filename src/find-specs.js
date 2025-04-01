@@ -584,7 +584,13 @@ async function findSpecs() {
   const fetchQueue = new ThrottledQueue({ maxParallel: 2 });
   for (const candidate of candidates) {
     const exists = await fetchQueue.runThrottled(fetch, candidate.spec)
-      .then(response => response.status === 200);
+      .then(async response => {
+        // Need to consume the body otherwise Node.s fails to terminate the
+        // fetch (until a timeout occurs). Not really sure why, we don't return
+        // response, Node.js should be able to garbage collect the fetch.
+        await response.bytes();
+        return response.status === 200;
+      });
     if (!exists) {
       candidate.spec = null;
     }

@@ -1317,6 +1317,16 @@
     "url": "https://www.w3.org/TR/epub-34/"
   },
   {
+    "seriesVersion": "1.1.1",
+    "nightly": {
+      "sourcePath": "epub34/a11y/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/epub-a11y-111/"
+  },
+  {
     "url": "https://www.w3.org/TR/epub-rs-33/",
     "seriesVersion": "3.3",
     "nightly": {

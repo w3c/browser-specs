@@ -1,0 +1,87 @@
+{
+  "w3c/css-houdini-drafts": {
+    "url": "https://drafts.css-houdini.org/$path/",
+    "shortname": {
+      "pattern": "drafts\\.css-houdini\\.org/([^/]+)/"
+    },
+    "exclude": [
+      "images"
+    ]
+  },
+  "w3c/csswg-drafts": {
+    "url": "https://drafts.csswg.org/$path/",
+    "shortname": {
+      "pattern": "drafts\\.csswg\\.org/([^/]+)/"
+    },
+    "exclude": [
+      "shared",
+      "indexes",
+      "bin",
+      "css-module",
+      "css-module-bikeshed"
+    ]
+  },
+  "w3c/data-shapes": {
+    "url": "https://w3c.github.io/data-shapes/$path/",
+    "shortname": {
+      "pattern": "w3c\\.github\\.io/data-shapes/([^/]+)/"
+    },
+    "exclude": [
+      "admin",
+      "unmaintained"
+    ]
+  },
+  "w3c/fxtf-drafts": {
+    "url": "https://drafts.fxtf.org/$path/",
+    "shortname": {
+      "pattern": "drafts\\.fxtf\\.org/([^/]+)/"
+    },
+    "exclude": [
+      "shared",
+      "web-anim"
+    ]
+  },
+  "w3c/pronunciation": {
+    "url": "https://w3c.github.io/pronunciation/$path/",
+    "shortname": {
+      "pattern": "w3c\\.github\\.io/pronunciation/([^/]+)/",
+      "prefix": "pronunciation-"
+    },
+    "exclude": [
+      "common",
+      "docs",
+      "presentations",
+      "samples",
+      "scripts"
+    ]
+  },
+  "w3c/sdw": {
+    "url": "https://w3c.github.io/sdw/$path/",
+    "shortname": {
+      "pattern": "w3c\\.github\\.io/sdw/([^/]+)/",
+      "prefix": "sdw-"
+    },
+    "exclude": [
+      "UseCases",
+      "jwoc",
+      "meetings",
+      "proposals",
+      "publishing-snapshots",
+      "resources",
+      "roadmap",
+      "sdw-sosa-ssn",
+      "subsetting"
+    ]
+  },
+  "w3c/svgwg": {
+    "url": "https://svgwg.org/$path/",
+    "shortname": {
+      "pattern": "svgwg\\.org/specs/([^/]+)/",
+      "prefix": "svg-"
+    },
+    "path": "specs",
+    "exclude": [
+      "specs/template"
+    ]
+  }
+}

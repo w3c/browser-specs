@@ -23,18 +23,6 @@ jobs:
       run: npm ci
 
     - name: Check specs that changed since last review
-      run: node src/monitor-specs.js # sets review_list env variable
-
-    - name: Report specs to check in pull request
-      uses: peter-evans/create-pull-request@v5
+      run: node src/monitor-specs.js --update
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        title: Update review of monitored specs
-        commit-message: "Update review of monitored specs"
-        body: |
-          The following specs have been updated since the last review:
-          ${{env.review_list}}
-        assignees: tidoust, dontcallmedom
-        branch: monitor-update
-        branch-suffix: timestamp

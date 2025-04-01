@@ -34,6 +34,8 @@
  * create a "mediaqueries" series' shortname.
  */
 
+import multiRepos from "./data/multispecs-repos.json" with { type: "json" };
+
 
 /**
  * Internal function that takes a URL as input and returns a name for it
@@ -77,23 +79,23 @@ function computeShortname(url) {
       return ext[1] + '-' + ext[2];
     }
 
+    // Handle specs in multi-specs repositories
+    for (const repo of Object.values(multiRepos)) {
+      const multiMatch = url.match(repo.shortname.pattern);
+      if (multiMatch) {
+        if (repo.shortname.prefix &&
+            !multiMatch[1].startsWith(repo.shortname.prefix)) {
+          return repo.shortname.prefix + multiMatch[1];
+        }
+        return multiMatch[1];
+      }
+    }
+
     // Handle draft specs on GitHub, excluding the "webappsec-" prefix for
     // specifications developed by the Web Application Security Working Group
     const github = url.match(/\/.*\.github\.io\/(?:webappsec-)?([^\/]+)\//);
     if (github) {
         return github[1];
-    }
-
-    // Handle CSS WG specs
-    const css = url.match(/\/drafts\.(?:csswg|fxtf|css-houdini)\.org\/([^\/]+)\//);
-    if (css) {
-      return css[1];
-    }
-
-    // Handle SVG drafts
-    const svg = url.match(/\/svgwg\.org\/specs\/(?:svg-)?([^\/]+)\//);
-    if (svg) {
-      return "svg-" + svg[1];
     }
 
     // Handle IETF RFCs

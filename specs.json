@@ -97,10 +97,6 @@
   "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
-  {
-    "url": "https://drafts.csswg.org/css-forms-1/",
-    "standing": "good"
-  },
   "https://drafts.csswg.org/css-gaps-1/",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -501,7 +497,6 @@
   "https://urlpattern.spec.whatwg.org/",
   "https://w3c-fedid.github.io/login-status/",
   "https://w3c.github.io/at-driver/",
-  "https://w3c.github.io/contentEditable/",
   {
     "shortname": "execCommand",
     "standing": "pending",
@@ -969,6 +964,7 @@
     }
   },
   "https://www.w3.org/TR/change-password-url/",
+  "https://www.w3.org/TR/cid-1.0/",
   "https://www.w3.org/TR/clear-site-data/",
   "https://www.w3.org/TR/clipboard-apis/",
   {
@@ -977,6 +973,7 @@
   },
   "https://www.w3.org/TR/compute-pressure/",
   "https://www.w3.org/TR/contact-picker/",
+  "https://www.w3.org/TR/content-editable/",
   "https://www.w3.org/TR/core-aam-1.2/",
   "https://www.w3.org/TR/credential-management-1/",
   "https://www.w3.org/TR/csp-embedded-enforcement/",
@@ -1059,6 +1056,7 @@
   "https://www.w3.org/TR/css-font-loading-3/",
   "https://www.w3.org/TR/css-fonts-4/",
   "https://www.w3.org/TR/css-fonts-5/ delta",
+  "https://www.w3.org/TR/css-forms-1/",
   {
     "url": "https://www.w3.org/TR/css-gcpm-3/",
     "shortTitle": "CSS GCPM 3"
@@ -1211,6 +1209,7 @@
   "https://www.w3.org/TR/cssom-view-1/",
   "https://www.w3.org/TR/device-memory-1/",
   "https://www.w3.org/TR/device-posture/",
+  "https://www.w3.org/TR/did-1.1/",
   {
     "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
     "series": {
@@ -1308,6 +1307,26 @@
     ]
   },
   {
+    "seriesVersion": "3.4",
+    "nightly": {
+      "sourcePath": "epub34/authoring/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/epub-34/"
+  },
+  {
+    "seriesVersion": "1.1.1",
+    "nightly": {
+      "sourcePath": "epub34/a11y/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/epub-a11y-111/"
+  },
+  {
     "url": "https://www.w3.org/TR/epub-rs-33/",
     "seriesVersion": "3.3",
     "nightly": {
@@ -1316,6 +1335,16 @@
     "categories": [
       "-browser"
     ]
+  },
+  {
+    "seriesVersion": "3.4",
+    "nightly": {
+      "sourcePath": "epub34/rs/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/epub-rs-34/"
   },
   "https://www.w3.org/TR/event-timing/",
   {

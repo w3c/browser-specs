@@ -15,11 +15,15 @@
  * "browsers" category. Ideally, we'd gather that information from some
  * authoritative source, but that information is not available, so let's
  * maintain a short list of working groups to catch main cases.
+ *
+ * Note: Closed groups may still need to appear in that list when specs they
+ * developed are in browser-specs (for example, the Audiobooks Working Group)
  */
 const nonBrowserGroups = [
   "Accessibility Guidelines Working Group",
   "Accessible Platform Architectures Working Group",
   "Advisory Board",
+  "Audiobooks Working Group",
   "Data Shapes Working Group",
   "Dataset Exchange Working Group",
   "Decentralized Identifier Working Group",

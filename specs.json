@@ -1326,6 +1326,16 @@
       "-browser"
     ]
   },
+  {
+    "seriesVersion": "3.4",
+    "nightly": {
+      "sourcePath": "epub34/rs/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/epub-rs-34/"
+  },
   "https://www.w3.org/TR/event-timing/",
   {
     "url": "https://www.w3.org/TR/fedcm-1/",

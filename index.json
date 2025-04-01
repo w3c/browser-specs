@@ -4453,7 +4453,7 @@
     "series": {
       "shortname": "ecmascript",
       "currentSpecification": "ecmascript",
-      "title": "ECMAScript® 2025 Language Specification",
+      "title": "ECMAScript® 2026 Language Specification",
       "shortTitle": "ECMAScript",
       "nightlyUrl": "https://tc39.es/ecma262/multipage/"
     },
@@ -4522,7 +4522,7 @@
       ],
       "filename": "index.html"
     },
-    "title": "ECMAScript® 2025 Language Specification",
+    "title": "ECMAScript® 2026 Language Specification",
     "source": "spec",
     "categories": [
       "browser"
@@ -19746,6 +19746,7 @@
       "filename": "index.html"
     },
     "categories": [],
+    "seriesNext": "epub-34",
     "organization": "W3C",
     "groups": [
       {
@@ -19761,6 +19762,85 @@
     "title": "EPUB 3.3",
     "source": "w3c",
     "shortTitle": "EPUB 3.3",
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/epub-34/",
+    "seriesComposition": "full",
+    "shortname": "epub-34",
+    "series": {
+      "shortname": "epub",
+      "currentSpecification": "epub-33",
+      "title": "EPUB",
+      "shortTitle": "EPUB",
+      "releaseUrl": "https://www.w3.org/TR/epub/",
+      "nightlyUrl": "https://w3c.github.io/epub-specs/epub33/core/"
+    },
+    "seriesVersion": "3.4",
+    "nightly": {
+      "url": "https://w3c.github.io/epub-specs/epub34/authoring/",
+      "status": "Editor's Draft",
+      "sourcePath": "epub34/authoring/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/epub-specs",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "seriesPrevious": "epub-33",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Publishing Maintenance Working Group",
+        "url": "https://www.w3.org/groups/wg/pm/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/epub-34/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "EPUB 3.4",
+    "source": "w3c",
+    "shortTitle": "EPUB 3.4",
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/epub-a11y-111/",
+    "seriesComposition": "full",
+    "shortname": "epub-a11y-111",
+    "series": {
+      "shortname": "epub-a11y",
+      "currentSpecification": "epub-a11y-111",
+      "title": "EPUB Accessibility",
+      "shortTitle": "EPUB Accessibility",
+      "releaseUrl": "https://www.w3.org/TR/epub-a11y/",
+      "nightlyUrl": "https://w3c.github.io/epub-specs/epub34/a11y/"
+    },
+    "seriesVersion": "1.1.1",
+    "nightly": {
+      "url": "https://w3c.github.io/epub-specs/epub34/a11y/",
+      "status": "Editor's Draft",
+      "sourcePath": "epub34/a11y/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/epub-specs",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Publishing Maintenance Working Group",
+        "url": "https://www.w3.org/groups/wg/pm/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/epub-a11y-111/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "EPUB Accessibility 1.1.1",
+    "source": "w3c",
+    "shortTitle": "EPUB Accessibility 1.1.1",
     "standing": "good"
   },
   {
@@ -19785,6 +19865,7 @@
       "filename": "index.html"
     },
     "categories": [],
+    "seriesNext": "epub-rs-34",
     "organization": "W3C",
     "groups": [
       {
@@ -19800,6 +19881,46 @@
     "title": "EPUB Reading Systems 3.3",
     "source": "w3c",
     "shortTitle": "EPUB Reading Systems 3.3",
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/epub-rs-34/",
+    "seriesComposition": "full",
+    "shortname": "epub-rs-34",
+    "series": {
+      "shortname": "epub-rs",
+      "currentSpecification": "epub-rs-33",
+      "title": "EPUB Reading Systems",
+      "shortTitle": "EPUB Reading Systems",
+      "releaseUrl": "https://www.w3.org/TR/epub-rs/",
+      "nightlyUrl": "https://w3c.github.io/epub-specs/epub33/rs/"
+    },
+    "seriesVersion": "3.4",
+    "nightly": {
+      "url": "https://w3c.github.io/epub-specs/epub34/rs/",
+      "status": "Editor's Draft",
+      "sourcePath": "epub34/rs/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/epub-specs",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "seriesPrevious": "epub-rs-33",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Publishing Maintenance Working Group",
+        "url": "https://www.w3.org/groups/wg/pm/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/epub-rs-34/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "EPUB Reading Systems 3.4",
+    "source": "w3c",
+    "shortTitle": "EPUB Reading Systems 3.4",
     "standing": "good"
   },
   {

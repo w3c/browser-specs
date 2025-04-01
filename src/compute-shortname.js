@@ -34,7 +34,7 @@
  * create a "mediaqueries" series' shortname.
  */
 
-import multiRepos from "./multispecs-repos.json" with { type: "json" };
+import multiRepos from "./data/multispecs-repos.json" with { type: "json" };
 
 
 /**

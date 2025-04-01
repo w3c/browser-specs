@@ -3,63 +3,42 @@
   "$id": "https://w3c.github.io/browser-specs/schema/data.json",
 
   "type": "object",
-  "properties": {
-    "groups": {
-      "type": "object",
-      "propertyNames": {
-        "type": "string"
-      },
-      "additionalProperties": {
-        "type": "object",
-        "properties": {
-          "comment": {
-            "type": "string"
-          }
-        },
-        "required": ["comment"],
-        "additionalProperties": false
-      }
-    },
-    "repos": {
-      "type": "object",
-      "propertyNames": {
-        "pattern": "^[\\w\\-\\.]+\\/[\\w\\-\\.]+$"
-      },
-      "additionalProperties": {
-        "type": "object",
-        "properties": {
-          "comment": {
-            "type": "string"
-          },
-          "lastreviewed": {
-            "type": "string",
-            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
-          }
-        },
-        "required": ["comment"],
-        "additionalProperties": false
-      }
-    },
-    "specs": {
-      "type": "object",
-      "propertyNames": {
+  "propertyNames": {
+    "type": "string",
+    "pattern": "^[\\w\\-\\.]+\\/[\\w\\-\\.]+$"
+  },
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "url": {
         "$ref": "definitions.json#/$defs/url"
       },
-      "additionalProperties": {
+      "shortname": {
         "type": "object",
         "properties": {
-          "comment": {
+          "pattern": {
             "type": "string"
           },
-          "lastreviewed": {
-            "type": "string",
-            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          "prefix": {
+            "type": "string"
           }
         },
-        "required": ["comment"],
+        "required": ["pattern"],
         "additionalProperties": false
+      },
+      "path": {
+        "type": "string",
+        "pattern": "[\\w\\-]+"
+      },
+      "exclude": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "[\\w\\-]+"
+        }
       }
-    }
-  },
-  "additionalProperties": false
+    },
+    "required": ["url", "shortname", "exclude"],
+    "additionalProperties": false
+  }
 }

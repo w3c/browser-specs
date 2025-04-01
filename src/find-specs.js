@@ -47,7 +47,7 @@ import ThrottledQueue from "./throttled-queue.js";
 
 import specs from "../index.json" with { type: "json" };
 import packageContents from "../package.json" with { type: "json" };
-import multiRepos from "./multispecs-repos.json" with { type: "json" };
+import multiRepos from "./data/multispecs-repos.json" with { type: "json" };
 const { version } = packageContents;
 
 const config = await loadJSON("config.json");

@@ -212,6 +212,7 @@ Examples:
     if (what.match(/^\d+$/)) {
       issueNumber = what;
       what = null;
+      custom = {};
       let issueStr = null;
       try {
         issueStr = execSync(`gh issue view ${issueNumber} --json body,state,title`, execParams);
@@ -229,13 +230,24 @@ Examples:
         if (section.title === 'URL') {
           what = section.value;
         }
+        else if (section.title === 'Rationale') {
+          // When a spec that was already in the list gets published as FPWD,
+          // the issue URL should target the /TR URL and mention the ED URL in
+          // the Rationale section. We'll use that to tell the build to also
+          // delete the associated entry from the list.
+          const reED = /\[Editor's Draft\]\((.+?)\) already in the list/i;
+          const match = section.value.match(reED);
+          if (match) {
+            custom.knownUrl = match[1];
+          }
+        }
         else if (section.title === 'Additional properties') {
           try {
             const json = section.value
               .replace(/^```json\s+{/, '{')
               .replace(/}\s+```$/, '}')
               .trim();
-            custom = JSON.parse(json);
+            custom = Object.assign(custom, JSON.parse(json));
           }
           catch {
             console.log('The "Additional properties" section does not contain a valid JSON object.');

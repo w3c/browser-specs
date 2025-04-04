@@ -231,10 +231,15 @@ async function buildSpec(spec, { diffType = "diff", log = console.log }) {
   log(`Prepare diff...`);
   const isNew = !baseSpecs.find(s => haveSameUrl(s, spec));
   log(isNew ? `- spec is new` : `- spec is already in specs.json`);
+  const knownUrl = spec.knownUrl;
+  if (knownUrl) {
+    log('- but ED was already in specs.json');
+    delete spec.knownUrl;
+  }
   const diff = {
     add: isNew ? [spec] : [],
     update: isNew ? [] : [spec],
-    delete: []
+    delete: baseSpecs.filter(s => haveSameUrl(s, knownUrl))
   };
   log(`Prepare diff... done`);
 

@@ -54,7 +54,7 @@ const config = await loadJSON("config.json");
 const githubToken = config?.GITHUB_TOKEN ?? process.env.GITHUB_TOKEN;
 
 const scriptPath = path.dirname(fileURLToPath(import.meta.url));
-const execParams = { cwd: path.join(scriptPath, '..') };
+const execParams = { cwd: path.join(scriptPath, '..'), encoding: 'utf8' };
 
 
 /**
@@ -186,16 +186,16 @@ function hasMoreRecentLevel(s, url, loose) {
  * Return true if the given spec entry object does not match any existing entry
  * in browser-specs.
  */
-function hasUntrackedURL({spec: url}) {
+function findURLInBrowserSpecs(url) {
   // Compare URLs case-insentively as we sometimes end up with different
   // casing (and difference is usually not significant)
   const lurl = trimSlash(url.toLowerCase());
-  return !specs.find(s =>
+  return specs.find(s =>
       s.nightly?.url?.toLowerCase()?.startsWith(lurl) ||
       (s.release && trimSlash(s.release.url.toLowerCase()) === lurl) ||
       (s.nightly?.pages?.find(u => trimSlash(u.toLowerCase()) === lurl))
-    ) &&
-    !specs.find(s => hasMoreRecentLevel(s, url,
+    ) ||
+    specs.find(s => hasMoreRecentLevel(s, url,
       // CSS specs have editors draft with and without levels,
       // we look loosely for more recent levels when checking with ED URLs
       url.match(/\/drafts\./) && !url.match(/\/w3\.org/)
@@ -208,26 +208,57 @@ function hasUntrackedURL({spec: url}) {
  * project and the list of groups from the w3c/validate-repos project as input,
  * and return a function that takes a spec entry object, updates the spec's URL
  * in place if needed and returns that object.
+ *
+ * The previous entry URL is preserved in a nightly property so that it becomes
+ * possible to track publication of known or pending entries as FPWD.
  */
 function toReleaseUrl(repo2Release, groups) {
-  return function (entry) {
+  return function (entry, { exact = false }) {
     // Note "single spec" repositories may still contain more than one
     // published specs, either because the repository also contains a Note
     // (such as a use cases and requirements document) that we're less
     // interested in, or because the spec got published by more than one
-    // group over time.
-    const mapping = (repo2Release[entry.repo] ?? [])
-      .filter(spec =>
+    // group over time. To get the best possible mapping, we'll match on the
+    // shortname first. If that does not work, we'll consider that the first
+    // spec on the Recommendation track associated with the repository is the
+    // right one.
+    if (!repo2Release[entry.repo]) {
+      return entry;
+    }
+    try {
+      const wouldbeShortname = computeShortname(entry.spec);
+      const exactMapping = repo2Release[entry.repo].find(spec =>
+        computeShortname(spec.url).shortname === wouldbeShortname.shortname &&
+        groups[spec.group]?.repos.find(r => r.fullName === entry.repo)
+      );
+      if (exactMapping) {
+        entry.nightly = entry.spec;
+        entry.spec = exactMapping.url;
+        entry.recTrack = exactMapping.recTrack;
+        return entry;
+      }
+    }
+    catch {
+      // At this stage, the entry URL may not even be correct and that's OK
+    }
+
+    // No exact mapping on the shortname, get the first Rec track entry for
+    // the repository and group
+    if (!exact) {
+      const mapping = repo2Release[entry.repo].filter(spec =>
         spec.recTrack &&
         groups[spec.group]?.repos.find(r => r.fullName === entry.repo)
       );
-    if (mapping.length > 0) {
-      // Save the ED URL so that we can detect the case when a spec that was
-      // already in browser-specs gets published as FPWD (in such cases, the
-      // canonical URL for that spec in browser-specs needs to change)
-      entry.nightly = entry.spec;
-      entry.spec = mapping[0].url;
+      if (mapping.length > 0) {
+        // Save the ED URL so that we can detect the case when a spec that was
+        // already in browser-specs gets published as FPWD (in such cases, the
+        // canonical URL for that spec in browser-specs needs to change)
+        entry.nightly = entry.spec;
+        entry.spec = mapping[0].url;
+        entry.recTrack = true;
+      }
     }
+
     return entry;
   }
 }
@@ -308,6 +339,15 @@ async function fetchStage3Proposals() {
  * Note: some of the specs will probably not exist per se, the function merely
  * looks at the folder names (excluding those that are known not to contain
  * anything) and assumes that there's a spec under each of them.
+ *
+ * Note: For single-spec repos, we trust the w3c.json file when it says that
+ * the repo contains specs on the Recommendation track. For multi-spec repos,
+ * that information is not enough. To avoid reporting notes, we'll take a
+ * conservative approach and only consider specs that spec-dashboard knows
+ * about as being on the Recommendation track, or specs that we don't know
+ * anything about. Note that registries published on /TR get ignored as a
+ * result, simply because spec-dashboard considers they're not equivalent to
+ * rec-track specs.
  */
 async function fetchMultiReposSpecs() {
   const { groups } = await fetchJSON(
@@ -339,27 +379,8 @@ async function fetchMultiReposSpecs() {
       .map(entry => entry.path)
       .map(name => desc.url.replace("$path", name))
       .map(spec => Object.assign({ spec, repo: reponame }))
-      .map(entry => {
-        // Similar code as in toReleaseUrl, but this time we'll rather match
-        // on the would-be shortname of the spec, and filter out those that
-        // turned out not to be on the Recommendation track
-        const shortname = computeShortname(entry.spec).shortname;
-        const mapping = (repo2Release[entry.repo] ?? [])
-          .filter(spec =>
-            groups[spec.group]?.repos.find(r => r.fullName === entry.repo) &&
-            computeShortname(spec.url).shortname === shortname
-          );
-        if (mapping.length > 0) {
-          if (!mapping[0].recTrack) {
-            // Turns out the spec is not on the Recommendation track
-            return null;
-          }
-          entry.nightly = entry.spec;
-          entry.spec = mapping[0].url;
-        }
-        return entry;
-      })
-      .filter(entry => entry);
+      .map(entry => toReleaseUrl(repo2Release, groups)(entry, { exact: true }))
+      .filter(entry => entry && (entry.recTrack || !entry.hasOwnProperty('recTrack')));
     allSpecs.push(...specs);
   }
   return allSpecs;
@@ -510,6 +531,7 @@ async function fetchKnownCandidates() {
             nodes {
               number
               body
+              state
             }
           }
         }
@@ -532,7 +554,9 @@ async function fetchKnownCandidates() {
         return null;
       }
       const entry = {
-        spec: urlSection.value
+        spec: urlSection.value,
+        number: issue.number,
+        closed: issue.state === 'CLOSED',
       };
 
       const rationaleSection = sections.find(section => section.title === "Rationale");
@@ -565,15 +589,70 @@ async function findSpecs() {
   // Collect the list of candidate specs that we're already aware of.
   const knownCandidates = await fetchKnownCandidates();
 
+  // Gather all possible candidate specs, only keep those that are not yet in
+  // browser-specs and for which we don't have an issue already for the exact
+  // same URL or the same repo (unless we're dealing with a multi-specs repo
+  // or unless the issue is for the ED and we now have a release URL).
   let candidates = []
     .concat(await fetchW3CSpecs())
     .concat(await fetchWHATWGSpecs())
     .concat(await fetchStage3Proposals())
     .concat(await fetchMultiReposSpecs())
-    .filter(hasUntrackedURL)
-    .filter(entry => !knownCandidates.find(known =>
-      known.spec === entry.spec ||
-      known.repo === entry.repo));
+    .map(entry => {
+      // Let's look for a matching entry in browser-specs
+      // Compare URLs case-insentively as we sometimes end up with different
+      // casing (and difference is usually not significant)
+      let known = findURLInBrowserSpecs(entry.spec);
+      if (known) {
+        return null;
+      }
+
+      // If the candidate entry is for a release URL, check whether we have a
+      // matching entry in browser-specs for the nightly URL
+      if (entry.nightly) {
+        known = findURLInBrowserSpecs(entry.nightly);
+        if (known) {
+          entry.known = known;
+          return entry;
+        }
+      }
+
+      // Entry is not in browser-specs but it may already have been reported in
+      // an issue.
+      known = knownCandidates.find(k => k.spec === entry.spec);
+      if (known) {
+        // We already know about that spec, let's ignore
+        return null;
+      }
+
+      known = knownCandidates.find(k => k.spec === entry.nightly);
+      if (known) {
+        // We knew about the nightly URL, but the spec seems to have now been
+        // published as a /TR URL. Report the entry unless we discarded the
+        // spec already.
+        if (k.closed) {
+          return null;
+        }
+        entry.pendingIssue = known;
+      }
+
+      if (multiRepos[entry.repo]) {
+        // Repo is known to contain multiple specs, this looks like a new spec
+        return entry;
+      }
+
+      known = knownCandidates.find(k => k.repo === entry.repo);
+      if (known) {
+        // Repo supposedly only contains one spec and we still have an issue to
+        // process for that repo, even though it targets a different spec URL.
+        // Or we already dismissed the repo.
+        return null;
+      }
+
+      // This seems like a good candidate
+      return entry;
+    })
+    .filter(entry => entry);
 
   // Add information from Chrome Feature status
   const chromeFeatures = await fetchJSON("https://www.chromestatus.com/features.json");
@@ -592,6 +671,8 @@ async function findSpecs() {
         return response.status === 200;
       });
     if (!exists) {
+      // This will go to the "monitor repo" list that the script may return
+      // if so requested
       candidate.spec = null;
     }
   }
@@ -666,15 +747,38 @@ Examples:
       return;
     }
 
-    if (candidates.additions.length > 0) {
+    // The list of candidates contains both specs we're unaware of, and specs
+    // for which there existed an issue (open or closed) that targeted the
+    // Editor's Draft, whereas we now have a /TR URL.
+    const add = candidates.additions.filter(entry => !entry.pendingIssue);
+    const update = candidates.additions.filter(entry => entry.pendingIssue);
+    if (add.length > 0) {
       console.log("New candidate specs that may be worth adding:");
-      for (const c of candidates.additions) {
+      for (const c of add) {
         const specName = c.shortname ? `[${c.shortname}](${c.spec})` : c.spec;
         const repoName = `[${c.repo}](https://github.com/${c.repo})`;
         const chromeLink = c.impl?.chrome ?
           ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` :
           "";
-        console.log(`- ${specName} from ${repoName}${chromeLink}`);
+        const nightlyKnown = c.known ?
+          ` (ED already in browser-specs)` :
+          "";
+        console.log(`- ${specName} from ${repoName}${chromeLink}${nightlyKnown}`);
+      }
+    }
+
+    if (update.length > 0) {
+      if (add.length > 0) {
+        console.log();
+      }
+      console.log("Known candidate specs that now have a release URL:");
+      for (const c of update) {
+        const specName = c.shortname ? `[${c.shortname}](${c.spec})` : c.spec;
+        const repoName = `[${c.repo}](https://github.com/${c.repo})`;
+        const chromeLink = c.impl?.chrome ?
+          ` [chrome status](https://www.chromestatus.com/features/${c.impl.chrome})` :
+          "";
+        console.log(`- ${specName} from ${repoName}${chromeLink} (tracked in #${c.pendingIssue.number})`);
       }
     }
 
@@ -688,33 +792,19 @@ Examples:
       }
     }
 
-    if (options.github) {
+    if (options.github && candidates.additions.length > 0) {
       console.log();
-      let issuesStr;
-      try {
-        issuesStr = execSync(`gh issue list --label "new spec" --json body,number`);
-      }
-      catch (err) {
-        console.log(`Could not retrieve open issues from w3c/browser-specs repository.`);
-        process.exit(1);
-      }
-      const issues = JSON.parse(issuesStr);
-
-      let created = 0;
+      console.log('Report updates to GitHub:');
+      let reported = 0;
       for (const candidate of candidates.additions) {
-        const issue = issues.find(issue => issue.body.includes(candidate.spec));
-        if (issue) {
-          // Skip as there's already an issue opened for that candidate spec
-          continue;
-        }
-
-        // Important: the issue body must match the `suggest-spec.yml` issue
-        // template. There is unfortunately no easy way to create an issue out
-        // of such a template directly.
         const title = `Add ${candidate.shortname ?? candidate.spec}`;
         const bodyFile = path.join(scriptPath, "..", "__issue.md");
         const comments = [
           `- See repository: [${candidate.repo}](https://github.com/${candidate.repo})`,
+          candidate.nightly ?
+            `- [Editor's Draft](${candidate.nightly})${candidate.known ? ' already in the list' : ''}` :
+            null,
+          candidate.pendingIssue ? `- supersedes #${candidate.pendingIssue.number}` : null,
           candidate.impl.chrome ? `- [chrome status](${candidate.impl.chrome})` : null,
           candidate.shortname ? `- Would-be shortname: \`${candidate.shortname}\`` : null
         ].filter(comment => !!comment);
@@ -735,10 +825,15 @@ ${comments.join("\n")}
 \`\`\`
 `
           , 'utf8');
-        execSync(`gh issue create --label "new spec" --title "${title}" --body-file "__issue.md"`, execParams);
+        const res = execSync(`gh issue create --label "new spec,review" --title "${title}" --body-file "__issue.md"`, execParams);
+        const createdIssue = res.trim().replace(/^http:\/\/github\.com\/.*?\/(\d+)$/, '$1');
+        console.log(`- created issue #${createdIssue.trim()} for ${candidate.shortname ?? candidate.spec}`);
+        if (candidate.pendingIssue) {
+          execSync(`gh issue close ${candidate.pendingIssue.number} --comment "Superseded by #${createdIssue.trim()}"`, execParams);
+        }
         await fs.rm(bodyFile, { force: true });
-        created++;
-        if (options.max > 0 && created > options.max) {
+        reported++;
+        if (options.max > 0 && reported > options.max) {
           break;
         }
       }

@@ -24,6 +24,7 @@ import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
+import { crawlSpecs } from "reffy";
 import { generateIndex } from "./build-index.js";
 import computeShortname from "./compute-shortname.js";
 import loadJSON from "./load-json.js";
@@ -45,7 +46,7 @@ function compareSpecs(a, b) {
  * The argument may be a string or a spec object.
  */
 function getUrl(spec) {
-  return (typeof spec === "string") ? spec.split(' ')[0] : spec.url;
+  return (typeof spec === "string") ? spec.split(' ')[0] : spec?.url;
 }
 
 /**
@@ -163,7 +164,7 @@ async function build(what, options) {
  *
  * The function throws in case of errors.
  */
-async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.log }) {
+async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.log, analyze = false }) {
   log(`Retrieve specs.json at "${newRef}"...`);
   let newSpecs;
   if (newRef.toLowerCase() === "working") {
@@ -205,7 +206,7 @@ async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.
   }
   log(`Compute specs.json diff... done`);
 
-  return buildDiff(diff, baseSpecs, baseIndex, { diffType, log });
+  return buildDiff(diff, baseSpecs, baseIndex, { diffType, log, analyze });
 }
 
 
@@ -219,7 +220,7 @@ async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.
  *
  * The function throws in case of errors.
  */
-async function buildSpec(spec, { diffType = "diff", log = console.log }) {
+async function buildSpec(spec, { diffType = "diff", log = console.log, analyze = false }) {
   log(`Retrieve specs.json...`);
   const baseSpecs = await loadJSON(path.resolve(scriptPath, "..", "specs.json"));
   log(`Retrieve specs.json... done`);
@@ -243,11 +244,11 @@ async function buildSpec(spec, { diffType = "diff", log = console.log }) {
   };
   log(`Prepare diff... done`);
 
-  return buildDiff(diff, baseSpecs, baseIndex, { diffType, log });
+  return buildDiff(diff, baseSpecs, baseIndex, { diffType, log, analyze });
 }
 
 
-async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = console.log }) {
+async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = console.log, analyze = false }) {
   diff = Object.assign({}, diff);
   log(`Delete specs that were dropped...`);
   diff.delete = baseIndex.filter(spec => diff.delete.find(s => haveSameUrl(s, spec)));
@@ -282,6 +283,22 @@ async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = 
     diff.seriesUpdate.length;
   log(`Build new/updated entries... done`);
 
+  let analysis = {};
+  if (analyze && (diff.add.length > 0 || diff.update.length > 0)) {
+    // We're usually not interested in updates, because the spec already is in
+    // the list. Unless the request only updates entries in specs.json, in
+    // which case we'll oblige.
+    const specs = diff.add.length > 0 ? diff.add : diff.update;
+    analysis.crawl = await crawlSpecs(specs.map(spec => Object.assign({
+      url: spec.url,
+      nightly: { url: spec.url },
+      shortname: spec.url.replace(/[:\/\\\.]/g, ''),
+      series: {
+        shortname: spec.url.replace(/[:\/\\\.]/g, '')
+      }
+    })), { post: ['idlparsed'], summary: true });
+  }
+
   if ((diffType === "full") || (diffType === "all")) {
     log(`Create full new index...`);
     newIndex = newIndex
@@ -293,7 +310,7 @@ async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = 
       return newIndex;
     }
     else {
-      return { diff, index: newIndex };
+      return { diff, analysis, index: newIndex };
     }
   }
   else {

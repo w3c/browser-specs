@@ -180,8 +180,8 @@
     "series": {
       "shortname": "av1-rtp-spec",
       "currentSpecification": "av1-rtp-spec",
-      "title": "RTP Payload Format For AV1 (v1.0)",
-      "shortTitle": "v1.0",
+      "title": "RTP Payload Format For AV1",
+      "shortTitle": "RTP Payload Format For AV1",
       "nightlyUrl": "https://aomediacodec.github.io/av1-rtp-spec/"
     },
     "groups": [
@@ -193,15 +193,15 @@
     "organization": "Alliance for Open Media",
     "nightly": {
       "url": "https://aomediacodec.github.io/av1-rtp-spec/",
-      "status": "Draft Deliverable",
+      "status": "Working Group Approved Draft",
       "alternateUrls": [],
       "repository": "https://github.com/AOMediaCodec/av1-rtp-spec",
-      "sourcePath": "index.md",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "RTP Payload Format For AV1 (v1.0)",
+    "title": "RTP Payload Format For AV1",
     "source": "spec",
-    "shortTitle": "v1.0",
+    "shortTitle": "RTP Payload Format For AV1",
     "categories": [
       "browser"
     ],

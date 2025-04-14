@@ -64,58 +64,73 @@ class ObjectReporter {
  * Prepare a report from the build and test results
  */
 function buildReport(buildResults, testResults) {
-  const diffLabels = {
-    add: 'Add spec',
-    update: 'Update spec',
-    delete: 'Remove spec',
-    seriesUpdate: 'Update spec in the same series'
-  };
-  let report = '### Changes to `index.json`\n';
-  if (!buildResults.diff.changes) {
-    report += 'This update would not trigger any change in `index.json`.\n';
-  }
-  else {
-    report += 'This update would trigger the following changes in `index.json`:\n\n';
-    for (const type of ['add', 'update', 'seriesUpdate', 'delete']) {
-      const diff = buildResults.diff[type];
-      if (!diff?.length) {
-        continue;
-      }
-      report += `<details><summary>${diffLabels[type]} (${diff.length})</summary>\n\n`;
-      for (const spec of diff) {
-        if (type === 'delete') {
-          report += `- [${spec.shortname}](${spec.url}): ${spec.title}\n`;
-        }
-        else {
-          report += '```json\n' +
-            JSON.stringify(spec, null, 2) +
-            '\n```\n';
-        }
-      }
-      report += '</details>\n';
+  try {
+    const diffLabels = {
+      add: 'Add spec',
+      update: 'Update spec',
+      delete: 'Remove spec',
+      seriesUpdate: 'Update spec in the same series'
+    };
+    let report = '### Changes to `index.json`\n';
+    if (!buildResults.diff.changes) {
+      report += 'This update would not trigger any change in `index.json`.\n';
     }
-  }
-  report += '\n### Tests\n';
-  if (testResults?.fail?.length) {
-    report += 'With these changes, the following tests would fail:\n';
-    for (const test of testResults.fail) {
-      report += `<details><summary>${test.title}</summary>\n\n` +
-        'Expected:\n' +
-        '```json\n' +
-        JSON.stringify(test.expected, null, 2) +
-        '\n```\n' +
-        'Actual:\n' +
-        '```json\n' +
-        JSON.stringify(test.actual, null, 2) +
-        '\n```\n' +
-        '</details>\n';
+    else {
+      report += 'This update would trigger the following changes in `index.json`:\n\n';
+      for (const type of ['add', 'update', 'seriesUpdate', 'delete']) {
+        const diff = buildResults.diff[type];
+        if (!diff?.length) {
+          continue;
+        }
+        report += `<details><summary>${diffLabels[type]} (${diff.length})</summary>\n\n`;
+        for (const spec of diff) {
+          if (type === 'delete') {
+            report += `- [${spec.shortname}](${spec.url}): ${spec.title}\n`;
+          }
+          else {
+            report += '```json\n' +
+              JSON.stringify(spec, null, 2) +
+              '\n```\n';
+          }
+        }
+        report += '</details>\n';
+      }
     }
-  }
-  else {
-    report += 'These changes look good! 😎\n';
-  }
+    report += '\n### Tests\n';
+    if (testResults?.fail?.length) {
+      report += 'With these changes, the following tests would fail:\n';
+      for (const test of testResults.fail) {
+        report += `<details><summary>${test.title}</summary>\n\n` +
+          'Expected:\n' +
+          '```json\n' +
+          JSON.stringify(test.expected, null, 2) +
+          '\n```\n' +
+          'Actual:\n' +
+          '```json\n' +
+          JSON.stringify(test.actual, null, 2) +
+          '\n```\n' +
+          '</details>\n';
+      }
+    }
+    else {
+      report += 'These changes look good! 😎\n';
+    }
 
-  return report;
+    for (const spec of (buildResults.analysis?.crawl ?? [])) {
+      report += `
+### Crawl results for ${spec.title}
+${spec.crawlSummary}
+
+`;
+    }
+
+    return report;
+  }
+  catch (err) {
+    return `Could not build a report due to an internal error:
+
+      ${err}`;
+  }
 }
 
 
@@ -135,7 +150,8 @@ program
   .argument('<what>', 'what to build. The argument may either be a `<url>` that represents the canonical URL of the spec to build, a named commit `<commit>` to point at the git commit that contains the changes to build in `specs.json`, two arbitrary named commits `<commit>..<commit>` to compile the list of changes made to `specs.json` between the two commits, or an issue number of the w3c/browser-specs repo that represents a spec suggestion and follows the expected structure. The `gh` CLI command must be available if `<what>` is an issue number.')
   .option('-c, --commit', 'commit potential updates to a dedicated branch and switch to that branch. This option implies the `--update` option. The `git` CLI command must be available.')
   .option('-j, --json <json>', 'link to a JSON file with additional spec properties, or a serialized JSON object directly. The option can only be set if `<what>` is a URL. The option value can also be the JSON object directly enclosed in single quotes or double quotes depending on your platform, e.g. `\'{ "nightly": { "sourcePath": "compatibility.bs" } }\'` on Unix systems or `"{ ""nightly"": { ""sourcePath"": ""compatibility.bs"" } }"` on Windows. A `url` property at the root level will be ignored.')
-  .option('-p, --pr', 'create a pull request with updates made to the lists. This option implies the `--commit` and `--update` options. The `git` and `gh` CLI commands must be available.')
+  .option('-p, --pr', 'create a pull request with updates made to the list. This option implies the `--commit` and `--update` options. The `git` and `gh` CLI commands must be available.')
+  .option('-r, --reffy', 'crawl the spec with Reffy and report.')
   .option('-q, --quiet', 'do not report progress to the console. Note the command may still report a couple of warnings, because because!')
   .option('-u, --update', 'add the given spec to `specs.json` if needed. The `<what>` argument must be a `<url>` and the command only makes changes to `specs.json` if all tests pass. This option is implied if the `--commit` or `--pr` option is set.')
   .addHelpText('after', `
@@ -270,7 +286,12 @@ Examples:
     const testIndex = path.join(scriptPath, '..', '__testIndex.json');
     let buildResults;
     try {
-      buildResults = await build(what, { log: logProgress, diffType: 'all', custom });
+      buildResults = await build(what, {
+        log: logProgress,
+        diffType: 'all',
+        custom,
+        analyze: !!options.reffy
+      });
     }
     catch (err) {
       console.log('The update could not be built:');

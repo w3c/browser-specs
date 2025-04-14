@@ -117,7 +117,8 @@ function buildReport(buildResults, testResults) {
     }
 
     for (const spec of (buildResults.analysis?.crawl ?? [])) {
-      report += `### Crawl results for ${spec.title}
+      report += `
+### Crawl results for ${spec.title}
 ${spec.crawlSummary}
 
 `;

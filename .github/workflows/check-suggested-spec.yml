@@ -11,13 +11,19 @@ on:
 
       # or gets "edited" (title or body updated)
       - edited
+  workflow_dispatch:
+    inputs:
+      issueNumber:
+        description: 'Issue number'
+        required: true
+        type: string
 
 jobs:
   check-spec:
     name: Check suggested spec
     runs-on: ubuntu-latest
     # We're only interested in "new spec" issues
-    if: ${{ contains(github.event.issue.labels.*.name, 'new spec') }}
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'new spec') }}
     steps:
       # Starting with Ubuntu 23+, a security feature prevents running Puppeteer
       # by default. It needs to be disabled. Using the "easiest" option, see:
@@ -40,10 +46,10 @@ jobs:
         run: npm ci
 
       - name: Check suggested spec
-        run: npx browser-specs build $NUMBER > res.md
+        run: npx browser-specs build $NUMBER --reffy > res.md
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-          NUMBER: ${{ github.event.issue.number }}
+          NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.issueNumber || github.event.issue.number }}
 
       # Report the result within a comment, using the `gh` command.
       # Unfortunately, the `--edit-last` option does not create a comment if
@@ -58,11 +64,11 @@ jobs:
         run: gh issue comment "$NUMBER" --body-file res.md --edit-last
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-          NUMBER: ${{ github.event.issue.number }}
+          NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.issueNumber || github.event.issue.number }}
 
       - name: Add new comment with result (if none existed)
         if: ${{ steps.update.outcome == 'failure' }}
         run: gh issue comment "$NUMBER" --body-file res.md
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-          NUMBER: ${{ github.event.issue.number }}
+          NUMBER: ${{ github.event_name == 'workflow_dispatch' && inputs.issueNumber || github.event.issue.number }}

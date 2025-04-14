@@ -289,14 +289,10 @@ async function buildDiff(diff, baseSpecs, baseIndex, { diffType = "diff", log = 
     // the list. Unless the request only updates entries in specs.json, in
     // which case we'll oblige.
     const specs = diff.add.length > 0 ? diff.add : diff.update;
-    analysis.crawl = await crawlSpecs(specs.map(spec => Object.assign({
-      url: spec.url,
-      nightly: { url: spec.url },
-      shortname: spec.url.replace(/[:\/\\\.]/g, ''),
-      series: {
-        shortname: spec.url.replace(/[:\/\\\.]/g, '')
-      }
-    })), { post: ['idlparsed'], summary: true });
+    analysis.crawl = await crawlSpecs(
+      specs.map(spec => spec.url),
+      { summary: true }
+    );
   }
 
   if ((diffType === "full") || (diffType === "all")) {

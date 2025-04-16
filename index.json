@@ -193,7 +193,7 @@
     "organization": "Alliance for Open Media",
     "nightly": {
       "url": "https://aomediacodec.github.io/av1-rtp-spec/",
-      "status": "Working Group Approved Draft",
+      "status": "Draft Deliverable",
       "alternateUrls": [],
       "repository": "https://github.com/AOMediaCodec/av1-rtp-spec",
       "sourcePath": "index.bs",

@@ -348,6 +348,7 @@ Examples:
       await fs.copyFile(testSpecs, path.join(scriptPath, '..', 'specs.json'));
       logProgress(`Update specs.json... done`);
 
+      const spec = buildResults.diff.add[0];
       const branchName = `add-` + spec.shortname;
       if (options.commit) {
         logProgress(`Commit changes...`);

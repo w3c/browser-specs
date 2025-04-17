@@ -346,7 +346,7 @@ Examples:
     if (options.update && isNewSpec && !failures) {
       logProgress(`Update specs.json...`);
       await fs.copyFile(testSpecs, path.join(scriptPath, '..', 'specs.json'));
-      logPrFogress(`Update specs.json... done`);Z
+      logProgress(`Update specs.json... done`);
 
       const branchName = `add-` + spec.shortname;
       if (options.commit) {

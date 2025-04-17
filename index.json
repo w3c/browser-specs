@@ -19798,7 +19798,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-34/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "title": "EPUB 3.4",
@@ -19837,7 +19837,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-a11y-111/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "title": "EPUB Accessibility 1.1.1",
@@ -19917,7 +19917,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-rs-34/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "title": "EPUB Reading Systems 3.4",

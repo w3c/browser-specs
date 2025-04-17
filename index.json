@@ -13350,6 +13350,9 @@
       "releaseUrl": "https://www.w3.org/TR/content-editable/",
       "nightlyUrl": "https://w3c.github.io/contentEditable/"
     },
+    "formerNames": [
+      "contentEditable"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -23607,6 +23610,44 @@
         "presentation-api"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/privacy-principles/",
+    "seriesComposition": "full",
+    "shortname": "privacy-principles",
+    "series": {
+      "shortname": "privacy-principles",
+      "currentSpecification": "privacy-principles",
+      "title": "Privacy Principles",
+      "shortTitle": "Privacy Principles",
+      "releaseUrl": "https://www.w3.org/TR/privacy-principles/",
+      "nightlyUrl": "https://w3ctag.github.io/privacy-principles/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Technical Architecture Group",
+        "url": "https://www.w3.org/2001/tag/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/privacy-principles/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3ctag.github.io/privacy-principles/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3ctag/privacy-principles",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Privacy Principles",
+    "source": "w3c",
+    "shortTitle": "Privacy Principles",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/proximity/",

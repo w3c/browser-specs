@@ -941,6 +941,12 @@
       "repository": "https://github.com/w3c/aria"
     }
   },
+  {
+    "nightly": {
+      "sourcePath": "act-rules-format/act-rules-format.bs"
+    },
+    "url": "https://www.w3.org/TR/act-rules-format-1.1/"
+  },
   "https://www.w3.org/TR/ambient-light/",
   "https://www.w3.org/TR/appmanifest/",
   "https://www.w3.org/TR/audio-output/",

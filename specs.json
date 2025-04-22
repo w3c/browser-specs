@@ -933,6 +933,7 @@
       "repository": "https://github.com/w3c/w3process/"
     }
   },
+  "https://www.w3.org/TR/aac-registry/",
   "https://www.w3.org/TR/accelerometer/",
   {
     "url": "https://www.w3.org/TR/accname-1.2/",

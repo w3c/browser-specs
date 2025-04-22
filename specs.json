@@ -1575,11 +1575,14 @@
   "https://www.w3.org/TR/sparql12-service-description/",
   "https://www.w3.org/TR/sparql12-update/",
   {
-    "url": "https://www.w3.org/TR/SRI/",
+    "url": "https://www.w3.org/TR/sri-2/",
     "shortTitle": "SRI",
     "release": {
       "filename": "index.html"
-    }
+    },
+    "formerNames": [
+      "SRI"
+    ]
   },
   "https://www.w3.org/TR/svg-aam-1.0/",
   "https://www.w3.org/TR/svg-integration/",

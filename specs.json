@@ -67,8 +67,8 @@
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
     "nightly": {
-      "url": "https://explainers-by-googlers.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html",
-      "repository": "https://github.com/explainers-by-googlers/CHIPS-spec"
+      "repository": "https://github.com/privacycg/CHIPS",
+      "sourcePath": "spec/draft-cutler-httpbis-partitioned-cookies.md"
     }
   },
   {

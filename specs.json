@@ -1697,7 +1697,12 @@
   "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
   "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
   "https://www.w3.org/TR/webcodecs/",
-  "https://www.w3.org/TR/WebCryptoAPI/",
+  {
+    "url": "https://www.w3.org/TR/webcrypto-2/",
+    "formerNames": [
+      "WebCryptoAPI"
+    ]
+  },
   "https://www.w3.org/TR/webdriver-bidi/",
   "https://www.w3.org/TR/webdriver2/",
   {

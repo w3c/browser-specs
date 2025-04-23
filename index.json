@@ -370,14 +370,14 @@
       "currentSpecification": "partitioned-cookies",
       "title": "Cookies Having Independent Partitioned State specification",
       "shortTitle": "Cookies Having Independent Partitioned State",
-      "nightlyUrl": "https://explainers-by-googlers.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html"
+      "nightlyUrl": "https://www.ietf.org/archive/id/draft-cutler-httpbis-partitioned-cookies-01.html"
     },
     "nightly": {
-      "url": "https://explainers-by-googlers.github.io/CHIPS-spec/draft-cutler-httpbis-partitioned-cookies.html",
+      "url": "https://www.ietf.org/archive/id/draft-cutler-httpbis-partitioned-cookies-01.html",
       "status": "Editor's Draft",
-      "repository": "https://github.com/explainers-by-googlers/CHIPS-spec",
+      "repository": "https://github.com/privacycg/CHIPS",
+      "sourcePath": "spec/draft-cutler-httpbis-partitioned-cookies.md",
       "alternateUrls": [],
-      "sourcePath": "draft-cutler-httpbis-partitioned-cookies.md",
       "filename": "draft-cutler-httpbis-partitioned-cookies.html"
     },
     "organization": "IETF",
@@ -4583,7 +4583,7 @@
     "nightly": {
       "url": "https://tc39.es/ecma426/",
       "status": "Editor's Draft",
-      "sourcePath": "source-map.bs",
+      "sourcePath": "source-map-rev3.md",
       "alternateUrls": [],
       "repository": "https://github.com/tc39/ecma426",
       "filename": "index.html"
@@ -6748,23 +6748,15 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
+    "url": "https://w3c.github.io/webappsec-passkey-endpoints/",
     "seriesComposition": "full",
     "shortname": "passkey-endpoints",
     "series": {
       "shortname": "passkey-endpoints",
       "currentSpecification": "passkey-endpoints",
-      "title": "A Well-Known URL for Passkey Endpoints",
-      "shortTitle": "A Well-Known URL for Passkey Endpoints",
-      "nightlyUrl": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
-      "status": "Editor's Draft",
-      "sourcePath": "passkey-endpoints.bs",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/webappsec-passkey-endpoints",
-      "filename": "passkey-endpoints.html"
+      "title": "A Well-Known URL for Relying Party Passkey Endpoints",
+      "shortTitle": "A Well-Known URL for Relying Party Passkey Endpoints",
+      "nightlyUrl": "https://w3c.github.io/webappsec-passkey-endpoints/"
     },
     "organization": "W3C",
     "groups": [
@@ -6773,9 +6765,17 @@
         "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
-    "title": "A Well-Known URL for Passkey Endpoints",
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-passkey-endpoints/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webappsec-passkey-endpoints",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "A Well-Known URL for Relying Party Passkey Endpoints",
     "source": "spec",
-    "shortTitle": "A Well-Known URL for Passkey Endpoints",
+    "shortTitle": "A Well-Known URL for Relying Party Passkey Endpoints",
     "categories": [
       "browser"
     ],
@@ -12509,6 +12509,44 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/aac-registry/",
+    "seriesComposition": "full",
+    "shortname": "aac-registry",
+    "series": {
+      "shortname": "aac-registry",
+      "currentSpecification": "aac-registry",
+      "title": "W3C Alternative and Augmented Communication (AAC) Symbol Registry",
+      "shortTitle": "AAC",
+      "releaseUrl": "https://www.w3.org/TR/aac-registry/",
+      "nightlyUrl": "https://w3c.github.io/aac-registry/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Platform Architectures Working Group",
+        "url": "https://www.w3.org/WAI/APA/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/aac-registry/",
+      "status": "Draft Registry",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/aac-registry/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/aac-registry",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "W3C Alternative and Augmented Communication (AAC) Symbol Registry",
+    "source": "w3c",
+    "shortTitle": "AAC",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/accelerometer/",
     "seriesComposition": "full",
     "shortname": "accelerometer",
@@ -12600,6 +12638,45 @@
         "accname"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/act-rules-format-1.1/",
+    "seriesComposition": "full",
+    "shortname": "act-rules-format-1.1",
+    "series": {
+      "shortname": "act-rules-format",
+      "currentSpecification": "act-rules-format-1.1",
+      "title": "Accessibility Conformance Testing (ACT) Rules Format",
+      "shortTitle": "ACT",
+      "releaseUrl": "https://www.w3.org/TR/act-rules-format/",
+      "nightlyUrl": "https://w3c.github.io/wcag-act/act-rules-format.html"
+    },
+    "seriesVersion": "1.1",
+    "nightly": {
+      "url": "https://w3c.github.io/wcag-act/act-rules-format.html",
+      "status": "Editor's Draft",
+      "sourcePath": "act-rules-format/act-rules-format.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wcag-act",
+      "filename": "act-rules-format.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessibility Guidelines Working Group",
+        "url": "https://www.w3.org/WAI/GL/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/act-rules-format-1.1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "Accessibility Conformance Testing (ACT) Rules Format 1.1",
+    "source": "w3c",
+    "shortTitle": "ACT 1.1",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/ambient-light/",
@@ -12902,6 +12979,44 @@
         "badging"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/baggage/",
+    "seriesComposition": "full",
+    "shortname": "baggage",
+    "series": {
+      "shortname": "baggage",
+      "currentSpecification": "baggage",
+      "title": "Propagation format for distributed context: Baggage",
+      "shortTitle": "Propagation format for distributed context: Baggage",
+      "releaseUrl": "https://www.w3.org/TR/baggage/",
+      "nightlyUrl": "https://w3c.github.io/baggage/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/groups/wg/distributed-tracing/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/baggage/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/baggage/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/baggage",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Propagation format for distributed context: Baggage",
+    "source": "w3c",
+    "shortTitle": "Propagation format for distributed context: Baggage",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/battery-status/",
@@ -13362,7 +13477,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/content-editable/",
-      "status": "First Public Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -13379,7 +13494,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -25448,23 +25563,27 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/SRI/",
+    "url": "https://www.w3.org/TR/sri-2/",
     "seriesComposition": "full",
-    "shortname": "SRI",
+    "shortname": "sri-2",
     "series": {
-      "shortname": "SRI",
-      "currentSpecification": "SRI",
+      "shortname": "sri",
+      "currentSpecification": "sri-2",
       "title": "Subresource Integrity",
       "shortTitle": "SRI",
-      "releaseUrl": "https://www.w3.org/TR/SRI/",
+      "releaseUrl": "https://www.w3.org/TR/sri/",
       "nightlyUrl": "https://w3c.github.io/webappsec-subresource-integrity/"
     },
+    "seriesVersion": "2",
     "shortTitle": "SRI",
     "release": {
-      "url": "https://www.w3.org/TR/SRI/",
-      "status": "Recommendation",
+      "url": "https://www.w3.org/TR/sri-2/",
+      "status": "First Public Working Draft",
       "filename": "index.html"
     },
+    "formerNames": [
+      "SRI"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -26135,7 +26254,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/uievents-code/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "title": "UI Events KeyboardEvent code Values",
@@ -26175,7 +26294,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/uievents-key/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "title": "UI Events KeyboardEvent key Values",
@@ -27730,27 +27849,31 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/WebCryptoAPI/",
+    "url": "https://www.w3.org/TR/webcrypto-2/",
     "seriesComposition": "full",
-    "shortname": "WebCryptoAPI",
+    "shortname": "webcrypto-2",
     "series": {
-      "shortname": "WebCryptoAPI",
-      "currentSpecification": "WebCryptoAPI",
-      "title": "Web Cryptography API",
-      "shortTitle": "Web Cryptography API",
-      "releaseUrl": "https://www.w3.org/TR/WebCryptoAPI/",
+      "shortname": "webcrypto",
+      "currentSpecification": "webcrypto-2",
+      "title": "Web Cryptography",
+      "shortTitle": "Web Cryptography",
+      "releaseUrl": "https://www.w3.org/TR/webcrypto/",
       "nightlyUrl": "https://w3c.github.io/webcrypto/"
     },
+    "seriesVersion": "2",
+    "formerNames": [
+      "WebCryptoAPI"
+    ],
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Cryptography Working Group",
-        "url": "https://www.w3.org/2012/webcrypto/"
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec/"
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/WebCryptoAPI/",
-      "status": "Recommendation",
+      "url": "https://www.w3.org/TR/webcrypto-2/",
+      "status": "First Public Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -27761,9 +27884,9 @@
       "sourcePath": "spec/Overview.html",
       "filename": "index.html"
     },
-    "title": "Web Cryptography API",
+    "title": "Web Cryptography Level 2",
     "source": "w3c",
-    "shortTitle": "Web Cryptography API",
+    "shortTitle": "Web Cryptography 2",
     "categories": [
       "browser"
     ],

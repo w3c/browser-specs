@@ -546,9 +546,7 @@
     "standing": "good"
   },
   "https://w3c.github.io/webappsec-passkey-endpoints/",
-  {
-    "url": "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html"
-  },
+  "https://w3c.github.io/webappsec-passkey-endpoints/passkey-endpoints.html",
   "https://w3c.github.io/webrtc-ice/",
   {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",

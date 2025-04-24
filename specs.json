@@ -640,10 +640,7 @@
     "shortname": "web-bluetooth-scanning"
   },
   "https://webidl.spec.whatwg.org/",
-  {
-    "standing": "pending",
-    "url": "https://webmachinelearning.github.io/writing-assistance-apis/"
-  },
+  "https://webmachinelearning.github.io/writing-assistance-apis/",
   "https://websockets.spec.whatwg.org/",
   "https://wicg.github.io/anonymous-iframe/",
   "https://wicg.github.io/aom/spec/",

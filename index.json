@@ -7575,7 +7575,6 @@
       "shortTitle": "Writing Assistance APIs",
       "nightlyUrl": "https://webmachinelearning.github.io/writing-assistance-apis/"
     },
-    "standing": "pending",
     "organization": "W3C",
     "groups": [
       {
@@ -7596,7 +7595,8 @@
     "shortTitle": "Writing Assistance APIs",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://websockets.spec.whatwg.org/",

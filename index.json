@@ -162,7 +162,7 @@
       "status": "Draft Deliverable",
       "alternateUrls": [],
       "repository": "https://github.com/AOMediaCodec/av1-mpeg2-ts",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Carriage of AV1 in MPEG-2 TS",

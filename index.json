@@ -905,44 +905,6 @@
     "standing": "good"
   },
   {
-    "url": "https://drafts.csswg.org/css-gaps-1/",
-    "seriesComposition": "full",
-    "shortname": "css-gaps-1",
-    "series": {
-      "shortname": "css-gaps",
-      "currentSpecification": "css-gaps-1",
-      "title": "CSS Gap Decorations",
-      "shortTitle": "CSS Gap Decorations",
-      "nightlyUrl": "https://drafts.csswg.org/css-gaps/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-gaps-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-gaps-1/",
-        "https://w3c.github.io/csswg-drafts/css-gaps/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-gaps-1/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Gap Decorations Module Level 1",
-    "source": "spec",
-    "shortTitle": "CSS Gap Decorations 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "seriesComposition": "delta",
     "shortname": "css-gcpm-4",
@@ -15619,6 +15581,50 @@
     "title": "CSS Form Control Styling Level 1",
     "source": "w3c",
     "shortTitle": "CSS Form Control Styling 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-gaps-1/",
+    "seriesComposition": "full",
+    "shortname": "css-gaps-1",
+    "series": {
+      "shortname": "css-gaps",
+      "currentSpecification": "css-gaps-1",
+      "title": "CSS Gap Decorations Module",
+      "shortTitle": "CSS Gap Decorations",
+      "releaseUrl": "https://www.w3.org/TR/css-gaps/",
+      "nightlyUrl": "https://drafts.csswg.org/css-gaps/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-gaps-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-gaps-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-gaps-1/",
+        "https://w3c.github.io/csswg-drafts/css-gaps/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-gaps-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Gap Decorations Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Gap Decorations 1",
     "categories": [
       "browser"
     ],

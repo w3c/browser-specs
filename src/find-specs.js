@@ -599,29 +599,9 @@ async function findSpecs() {
     .concat(await fetchStage3Proposals())
     .concat(await fetchMultiReposSpecs())
     .map(entry => {
-      // Let's look for a matching entry in browser-specs
-      // Compare URLs case-insentively as we sometimes end up with different
-      // casing (and difference is usually not significant)
-      let known = findURLInBrowserSpecs(entry.spec);
+      // Entry may already have been reported in an issue
+      let known = knownCandidates.find(k => k.spec === entry.spec);
       if (known) {
-        return null;
-      }
-
-      // If the candidate entry is for a release URL, check whether we have a
-      // matching entry in browser-specs for the nightly URL
-      if (entry.nightly) {
-        known = findURLInBrowserSpecs(entry.nightly);
-        if (known) {
-          entry.known = known;
-          return entry;
-        }
-      }
-
-      // Entry is not in browser-specs but it may already have been reported in
-      // an issue.
-      known = knownCandidates.find(k => k.spec === entry.spec);
-      if (known) {
-        // We already know about that spec, let's ignore
         return null;
       }
 
@@ -636,17 +616,31 @@ async function findSpecs() {
         entry.pendingIssue = known;
       }
 
-      if (multiRepos[entry.repo]) {
-        // Repo is known to contain multiple specs, this looks like a new spec
-        return entry;
+      if (!multiRepos[entry.repo]) {
+        // Repo supposedly only contains one spec. If we already have an issue
+        // to process for that repo, or if we already dismissed it, let's
+        // ignore
+        known = knownCandidates.find(k => k.repo === entry.repo);
+        if (known) {
+          return null;
+        }
       }
 
-      known = knownCandidates.find(k => k.repo === entry.repo);
+      // No known issue for now, but the spec may already be in browser-specs.
+      // Compare URLs case-insentively as we sometimes end up with different
+      // casing (and difference is usually not significant)
+      known = findURLInBrowserSpecs(entry.spec);
       if (known) {
-        // Repo supposedly only contains one spec and we still have an issue to
-        // process for that repo, even though it targets a different spec URL.
-        // Or we already dismissed the repo.
         return null;
+      }
+
+      // If the candidate entry is for a release URL, check whether we have a
+      // matching entry in browser-specs for the nightly URL
+      if (entry.nightly) {
+        known = findURLInBrowserSpecs(entry.nightly);
+        if (known) {
+          entry.known = known;
+        }
       }
 
       // This seems like a good candidate

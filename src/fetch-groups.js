@@ -12,6 +12,13 @@ import fetchJSON from "./fetch-json.js";
 
 
 /**
+ * We will very likely need to use group information from the validate-repos
+ * project which compiles w3c.json files across repositories.
+ */
+let w3cGroups = null;
+
+
+/**
  * Retrieve the information about the exact organization and the group that
  * develops an ISO specification from the description page on the ISO web site.
  *
@@ -195,9 +202,29 @@ export default async function (specs, options) {
     spec.organization = spec.organization ?? "W3C";
 
     if (!spec.groups) {
-      let groups = null;
+      // Get group info from validate-repos if possible to avoid having to
+      // send individual network requests for each spec
+      // Note: this will not yield anything for many /TR specs because we
+      // guess the name of the repo from the shortname.
+      if (!w3cGroups) {
+        const report = await fetchJSON(
+          "https://w3c.github.io/validate-repos/report.json"
+        );
+        w3cGroups = report.groups;
+      }
+      spec.groups = Object.values(w3cGroups)
+        .filter(group => group.repos?.find(repo =>
+          repo.fullName?.toLowerCase() === `${info.owner}/${info.name}`.toLowerCase()
+        ))
+        .map(group => Object.assign({
+          name: group.name,
+          url: group._links.homepage.href
+        }));
+    }
+    if (spec.groups.length === 0) {
+      let groups = [];
       if (info.name === "svgwg") {
-        groups = [19480];
+        groups.push(19480);
       }
       else if (info.type === "tr") {
         // Use the W3C API to find info about /TR specs
@@ -211,7 +238,6 @@ export default async function (specs, options) {
         if (!resp?._links?.deliverers) {
           throw new Error(`W3C API did not return deliverers for the spec`);
         }
-        groups = [];
         for (const deliverer of resp._links.deliverers) {
           groups.push(deliverer.href);
         }
@@ -219,8 +245,6 @@ export default async function (specs, options) {
       else {
         // Use info in w3c.json file, which we'll either retrieve from the
         // repository when one is defined or directly from the spec origin
-        // (we may need to go through the repository in all cases in the future,
-        // but that approach works for now)
         let url = null;
         if (info.type === "github") {
           const octokit = new Octokit({ auth: options?.githubToken });
@@ -246,7 +270,6 @@ export default async function (specs, options) {
 
       // Retrieve info about W3C groups from W3C API
       // (Note the "groups" array may contain numbers, strings or API URLs)
-      spec.groups = [];
       for (const id of groups) {
         const url = ('' + id).startsWith("https://") ? id : `https://api.w3.org/groups/${id}`;
         const info = await fetchJSON(url, options);

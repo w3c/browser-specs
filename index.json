@@ -162,7 +162,7 @@
       "status": "Draft Deliverable",
       "alternateUrls": [],
       "repository": "https://github.com/AOMediaCodec/av1-mpeg2-ts",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Carriage of AV1 in MPEG-2 TS",
@@ -2261,7 +2261,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/privacycg/saa-non-cookie-storage",
-      "sourcePath": "spec.html",
+      "sourcePath": "spec.bs",
       "filename": "index.html"
     },
     "title": "Extending Storage Access API (SAA) to non-cookie storage",

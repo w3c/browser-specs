@@ -8459,6 +8459,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/explicit-javascript-compile-hints-file-based/",
+    "seriesComposition": "full",
+    "shortname": "explicit-javascript-compile-hints-file-based",
+    "series": {
+      "shortname": "explicit-javascript-compile-hints-file-based",
+      "currentSpecification": "explicit-javascript-compile-hints-file-based",
+      "title": "Explicit JavaScript Compile Hints (File-based)",
+      "shortTitle": "File-based",
+      "nightlyUrl": "https://wicg.github.io/explicit-javascript-compile-hints-file-based/"
+    },
+    "nightly": {
+      "url": "https://wicg.github.io/explicit-javascript-compile-hints-file-based/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/explicit-javascript-compile-hints-file-based",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "shortTitle": "Explicit JavaScript Compile Hints (File-based)",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "title": "Explicit JavaScript Compile Hints (File-based)",
+    "source": "spec",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/eyedropper-api/",
     "seriesComposition": "full",
     "shortname": "eyedropper-api",

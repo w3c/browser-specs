@@ -254,7 +254,7 @@ fetchIssuesToReview().then(async issues => {
   }
 
   console.log('Mark GitHub issues as needing a review...');
-  for (const issue of issues) {
+  for (const issue of issuesToReview) {
     const comment = `The specification was updated on **${issue.lastRevised}** (last reviewed on ${issue.lastReviewed}).`;
     await flagIssueForReview(issue, comment);
   }

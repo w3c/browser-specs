@@ -23596,7 +23596,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/pointerevents3/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -23984,7 +23984,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24004,7 +24004,9 @@
     "title": "RDF 1.2 Concepts and Abstract Syntax",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Concepts and Abstract Syntax",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -24024,7 +24026,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24044,7 +24046,9 @@
     "title": "RDF 1.2 N-Quads",
     "source": "w3c",
     "shortTitle": "RDF 1.2 N-Quads",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -24063,7 +24067,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24083,7 +24087,9 @@
     "title": "RDF 1.2 N-Triples",
     "source": "w3c",
     "shortTitle": "RDF 1.2 N-Triples",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -24102,7 +24108,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24122,7 +24128,9 @@
     "title": "RDF 1.2 Schema",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Schema",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -24141,7 +24149,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24161,7 +24169,9 @@
     "title": "RDF 1.2 Semantics",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Semantics",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -24180,7 +24190,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24200,7 +24210,9 @@
     "title": "RDF 1.2 TriG",
     "source": "w3c",
     "shortTitle": "RDF 1.2 TriG",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -24219,7 +24231,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24239,7 +24251,9 @@
     "title": "RDF 1.2 Turtle",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Turtle",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -24258,7 +24272,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -24278,7 +24292,9 @@
     "title": "RDF 1.2 XML Syntax",
     "source": "w3c",
     "shortTitle": "RDF 1.2 XML Syntax",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25220,7 +25236,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25240,7 +25256,9 @@
     "title": "SPARQL 1.2 Entailment Regimes",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Entailment Regimes",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25259,7 +25277,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25279,7 +25297,9 @@
     "title": "SPARQL 1.2 Federated Query",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Federated Query",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25298,7 +25318,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25318,7 +25338,9 @@
     "title": "SPARQL 1.2 Graph Store Protocol",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Graph Store Protocol",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25337,7 +25359,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25357,7 +25379,9 @@
     "title": "SPARQL 1.2 Protocol",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Protocol",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25376,7 +25400,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25396,7 +25420,9 @@
     "title": "SPARQL 1.2 Query Language",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Language",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25415,7 +25441,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25435,7 +25461,9 @@
     "title": "SPARQL 1.2 Query Results CSV and TSV Formats",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Results CSV and TSV Formats",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25454,7 +25482,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25474,7 +25502,9 @@
     "title": "SPARQL 1.2 Query Results JSON Format",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Results JSON Format",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25493,7 +25523,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25513,7 +25543,9 @@
     "title": "SPARQL 1.2 Query Results XML Format",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Results XML Format",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25532,7 +25564,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25552,7 +25584,9 @@
     "title": "SPARQL 1.2 Service Description",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Service Description",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25571,7 +25605,7 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "RDF-star Working Group",
+        "name": "RDF & SPARQL Working Group",
         "url": "https://www.w3.org/groups/wg/rdf-star/"
       }
     ],
@@ -25591,7 +25625,9 @@
     "title": "SPARQL 1.2 Update",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Update",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {

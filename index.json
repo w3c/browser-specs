@@ -10481,7 +10481,7 @@
       "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/web-preferences-api",
-      "sourcePath": "index.bs",
+      "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Web Preferences API",

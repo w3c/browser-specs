@@ -645,6 +645,7 @@
     "shortname": "web-bluetooth-scanning"
   },
   "https://webidl.spec.whatwg.org/",
+  "https://webmachinelearning.github.io/translation-api/",
   "https://webmachinelearning.github.io/writing-assistance-apis/",
   "https://websockets.spec.whatwg.org/",
   "https://wicg.github.io/anonymous-iframe/",

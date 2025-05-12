@@ -1,6 +1,6 @@
 name: New spec
 description: Use this issue template to suggest that a new spec be added to the list.
-labels: ["new spec"]
+labels: ["new spec", "review"]
 title: "Add new spec: <title>"
 body:
   - type: markdown

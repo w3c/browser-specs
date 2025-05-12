@@ -10501,6 +10501,10 @@
       "shortTitle": "Web Preferences API",
       "nightlyUrl": "https://wicg.github.io/web-preferences-api/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "mediaqueries-5"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -10521,10 +10525,6 @@
     "shortTitle": "Web Preferences API",
     "categories": [
       "browser"
-    ],
-    "standing": "discontinued",
-    "obsoletedBy": [
-      "mediaqueries-5"
     ]
   },
   {

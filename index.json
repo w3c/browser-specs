@@ -10497,8 +10497,8 @@
     "series": {
       "shortname": "web-preferences-api",
       "currentSpecification": "web-preferences-api",
-      "title": "Media Queries",
-      "shortTitle": "Media Queries",
+      "title": "Web Preferences API",
+      "shortTitle": "Web Preferences API",
       "nightlyUrl": "https://wicg.github.io/web-preferences-api/"
     },
     "organization": "W3C",
@@ -10510,19 +10510,22 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/web-preferences-api/",
-      "status": "Editor's Draft",
+      "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/web-preferences-api",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Media Queries Level 5",
+    "title": "Web Preferences API",
     "source": "spec",
-    "shortTitle": "Media Queries 5",
+    "shortTitle": "Web Preferences API",
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "mediaqueries-5"
+    ]
   },
   {
     "url": "https://wicg.github.io/web-smart-card/",

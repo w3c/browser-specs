@@ -6088,6 +6088,43 @@
     }
   },
   {
+    "url": "https://w3c-fedid.github.io/digital-credentials/",
+    "seriesComposition": "full",
+    "shortname": "digital-credentials",
+    "series": {
+      "shortname": "digital-credentials",
+      "currentSpecification": "digital-credentials",
+      "title": "Digital Credentials",
+      "shortTitle": "Digital Credentials",
+      "nightlyUrl": "https://w3c-fedid.github.io/digital-credentials/"
+    },
+    "formerNames": [
+      "digital-identities"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Federated Identity Working Group",
+        "url": "https://www.w3.org/groups/wg/fedid/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c-fedid.github.io/digital-credentials/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c-fedid/digital-credentials",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Digital Credentials",
+    "source": "spec",
+    "shortTitle": "Digital Credentials",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c-fedid.github.io/login-status/",
     "seriesComposition": "full",
     "shortname": "login-status",
@@ -6599,9 +6636,7 @@
     "title": "SPARQL 1.2 Overview",
     "source": "spec",
     "shortTitle": "SPARQL 1.2 Overview",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -7530,6 +7565,40 @@
     }
   },
   {
+    "url": "https://webmachinelearning.github.io/translation-api/",
+    "seriesComposition": "full",
+    "shortname": "translation-api",
+    "series": {
+      "shortname": "translation-api",
+      "currentSpecification": "translation-api",
+      "title": "Translator and Language Detector APIs",
+      "shortTitle": "Translator and Language Detector APIs",
+      "nightlyUrl": "https://webmachinelearning.github.io/translation-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Machine Learning Community Group",
+        "url": "https://www.w3.org/community/webmachinelearning/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webmachinelearning.github.io/translation-api/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/webmachinelearning/translation-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Translator and Language Detector APIs",
+    "source": "spec",
+    "shortTitle": "Translator and Language Detector APIs",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webmachinelearning.github.io/writing-assistance-apis/",
     "seriesComposition": "full",
     "shortname": "writing-assistance-apis",
@@ -8201,43 +8270,6 @@
         "deprecation-reporting"
       ]
     }
-  },
-  {
-    "url": "https://wicg.github.io/digital-credentials/",
-    "seriesComposition": "full",
-    "shortname": "digital-credentials",
-    "series": {
-      "shortname": "digital-credentials",
-      "currentSpecification": "digital-credentials",
-      "title": "Digital Credentials",
-      "shortTitle": "Digital Credentials",
-      "nightlyUrl": "https://wicg.github.io/digital-credentials/"
-    },
-    "formerNames": [
-      "digital-identities"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Federated Identity Working Group",
-        "url": "https://www.w3.org/groups/wg/fedid/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/digital-credentials/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/digital-credentials",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Digital Credentials",
-    "source": "spec",
-    "shortTitle": "Digital Credentials",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/digital-goods/",
@@ -19475,6 +19507,44 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/dx-prof-conneg/",
+    "seriesComposition": "full",
+    "shortname": "dx-prof-conneg",
+    "series": {
+      "shortname": "dx-prof-conneg",
+      "currentSpecification": "dx-prof-conneg",
+      "title": "Content Negotiation by Profile",
+      "shortTitle": "Content Negotiation by Profile",
+      "releaseUrl": "https://www.w3.org/TR/dx-prof-conneg/",
+      "nightlyUrl": "https://w3c.github.io/dx-connegp/connegp/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/dx-connegp/connegp/",
+      "status": "Editor's Draft",
+      "sourcePath": "connegp/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/dx-connegp",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Dataset Exchange Working Group",
+        "url": "https://www.w3.org/2017/dxwg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/dx-prof-conneg/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "Content Negotiation by Profile",
+    "source": "w3c",
+    "shortTitle": "Content Negotiation by Profile",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/edit-context/",
     "seriesComposition": "full",
     "shortname": "edit-context",
@@ -24007,9 +24077,7 @@
     "title": "RDF 1.2 Concepts and Abstract Syntax",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Concepts and Abstract Syntax",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -24049,9 +24117,7 @@
     "title": "RDF 1.2 N-Quads",
     "source": "w3c",
     "shortTitle": "RDF 1.2 N-Quads",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -24090,9 +24156,7 @@
     "title": "RDF 1.2 N-Triples",
     "source": "w3c",
     "shortTitle": "RDF 1.2 N-Triples",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -24131,9 +24195,7 @@
     "title": "RDF 1.2 Schema",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Schema",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -24172,9 +24234,7 @@
     "title": "RDF 1.2 Semantics",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Semantics",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -24213,9 +24273,7 @@
     "title": "RDF 1.2 TriG",
     "source": "w3c",
     "shortTitle": "RDF 1.2 TriG",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -24254,9 +24312,7 @@
     "title": "RDF 1.2 Turtle",
     "source": "w3c",
     "shortTitle": "RDF 1.2 Turtle",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -24295,9 +24351,7 @@
     "title": "RDF 1.2 XML Syntax",
     "source": "w3c",
     "shortTitle": "RDF 1.2 XML Syntax",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25259,9 +25313,7 @@
     "title": "SPARQL 1.2 Entailment Regimes",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Entailment Regimes",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25300,9 +25352,7 @@
     "title": "SPARQL 1.2 Federated Query",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Federated Query",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25341,9 +25391,7 @@
     "title": "SPARQL 1.2 Graph Store Protocol",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Graph Store Protocol",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25382,9 +25430,7 @@
     "title": "SPARQL 1.2 Protocol",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Protocol",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25423,9 +25469,7 @@
     "title": "SPARQL 1.2 Query Language",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Language",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25464,9 +25508,7 @@
     "title": "SPARQL 1.2 Query Results CSV and TSV Formats",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Results CSV and TSV Formats",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25505,9 +25547,7 @@
     "title": "SPARQL 1.2 Query Results JSON Format",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Results JSON Format",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25546,9 +25586,7 @@
     "title": "SPARQL 1.2 Query Results XML Format",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Results XML Format",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25587,9 +25625,7 @@
     "title": "SPARQL 1.2 Service Description",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Service Description",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -25628,9 +25664,7 @@
     "title": "SPARQL 1.2 Update",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Update",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -26675,6 +26709,45 @@
     "categories": [
       "browser"
     ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vocab-dcat-3/",
+    "seriesComposition": "full",
+    "shortname": "vocab-dcat-3",
+    "series": {
+      "shortname": "vocab-dcat",
+      "currentSpecification": "vocab-dcat-3",
+      "title": "Data Catalog Vocabulary (DCAT)",
+      "shortTitle": "DCAT",
+      "releaseUrl": "https://www.w3.org/TR/vocab-dcat/",
+      "nightlyUrl": "https://w3c.github.io/dxwg/dcat/"
+    },
+    "seriesVersion": "3",
+    "nightly": {
+      "url": "https://w3c.github.io/dxwg/dcat/",
+      "status": "Editor's Draft",
+      "sourcePath": "dcat/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/dxwg",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Dataset Exchange Working Group",
+        "url": "https://www.w3.org/2017/dxwg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vocab-dcat-3/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "title": "Data Catalog Vocabulary (DCAT) - Version 3",
+    "source": "w3c",
+    "shortTitle": "DCAT 3",
+    "categories": [],
     "standing": "good"
   },
   {

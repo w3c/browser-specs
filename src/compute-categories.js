@@ -33,6 +33,7 @@ const nonBrowserGroups = [
   "MiniApps Working Group",
   "Patents and Standards Interest Group",
   "Publishing Maintenance Working Group",
+  "RDF & SPARQL Working Group",
   "RDF Dataset Canonicalization and Hash Working Group",
   "RDF-star Working Group",
   "Spatio-temporal Data on the Web Working Group",

@@ -1240,6 +1240,12 @@
       "-browser"
     ]
   },
+  {
+    "nightly": {
+      "sourcePath": "connegp/index.html"
+    },
+    "url": "https://www.w3.org/TR/dx-prof-conneg/"
+  },
   "https://www.w3.org/TR/edit-context/",
   {
     "nightly": {

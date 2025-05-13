@@ -43,7 +43,7 @@ already exists for the same spec, check the rationale that was used to dismiss
 the spec. Feel free to create a new issue if you believe that the spec should
 be re-considered.
 
-Otherwise, please us the ["New spec" issue
+Otherwise, please use the ["New spec" issue
 template](https://github.com/w3c/browser-specs/issues/new/choose) to suggest a
 new spec.
 
@@ -65,7 +65,7 @@ the issue and make necessary adjustments themselves to make the bot happy.
 
 ## How to modify/remove a spec
 
-If you believe that a spec should modified, or removed from the list, consider
+If you believe that a spec should be modified or removed from the list, consider
 submitting a pull request, taking the considerations below into account.
 Alternatively, feel free to [raise an
 issue](https://github.com/w3c/browser-specs/issues/new).
@@ -201,7 +201,7 @@ spec as a multipage spec, use the following compact definitions:
 ```
 
 This compact form is preferred to keep the list (somewhat) human-readable. The
-[linter](#lint-before-push) automatically convert objects to the more compact
+[linter](#lint-before-push) automatically converts objects to the more compact
 string format whenever possible.
 
 

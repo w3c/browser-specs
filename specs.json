@@ -1633,6 +1633,12 @@
     }
   },
   {
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/ttml2/"
+  },
+  {
     "url": "https://www.w3.org/TR/uievents-code/",
     "nightly": {
       "sourcePath": "index-source.txt"

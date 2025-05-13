@@ -19201,6 +19201,44 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/dapt/",
+    "seriesComposition": "full",
+    "shortname": "dapt",
+    "series": {
+      "shortname": "dapt",
+      "currentSpecification": "dapt",
+      "title": "Dubbing and Audio description Profiles of TTML2",
+      "shortTitle": "Dubbing and Audio description Profiles of TTML2",
+      "releaseUrl": "https://www.w3.org/TR/dapt/",
+      "nightlyUrl": "https://w3c.github.io/dapt/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Timed Text Working Group",
+        "url": "https://www.w3.org/AudioVideo/TT/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/dapt/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/dapt/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/dapt",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Dubbing and Audio description Profiles of TTML2",
+    "source": "w3c",
+    "shortTitle": "Dubbing and Audio description Profiles of TTML2",
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/device-memory-1/",
     "seriesComposition": "full",
     "shortname": "device-memory-1",
@@ -19329,6 +19367,44 @@
     "title": "Decentralized Identifiers (DIDs) v1.1",
     "source": "w3c",
     "shortTitle": "DIDs",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/did-resolution/",
+    "seriesComposition": "full",
+    "shortname": "did-resolution",
+    "series": {
+      "shortname": "did-resolution",
+      "currentSpecification": "did-resolution",
+      "title": "Decentralized Identifier Resolution (DID Resolution)",
+      "shortTitle": "DID Resolution",
+      "releaseUrl": "https://www.w3.org/TR/did-resolution/",
+      "nightlyUrl": "https://w3c.github.io/did-resolution/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Decentralized Identifier Working Group",
+        "url": "https://www.w3.org/groups/wg/did/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/did-resolution/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/did-resolution/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/did-resolution",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Decentralized Identifier Resolution (DID Resolution) v0.3",
+    "source": "w3c",
+    "shortTitle": "DID Resolution",
     "categories": [],
     "standing": "good"
   },
@@ -26332,6 +26408,45 @@
         "trusted-types"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/ttml2/",
+    "seriesComposition": "full",
+    "shortname": "ttml2",
+    "series": {
+      "shortname": "ttml",
+      "currentSpecification": "ttml2",
+      "title": "Timed Text Markup Language (TTML)",
+      "shortTitle": "TTML",
+      "releaseUrl": "https://www.w3.org/TR/ttml/",
+      "nightlyUrl": "https://w3c.github.io/ttml/index.html"
+    },
+    "seriesVersion": "2",
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Timed Text Working Group",
+        "url": "https://www.w3.org/AudioVideo/TT/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/ttml2/",
+      "status": "Candidate Recommendation Snapshot",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/ttml2/index.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/ttml2",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Timed Text Markup Language 2 (TTML2) (2nd Edition)",
+    "source": "w3c",
+    "shortTitle": "TTML2",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/uievents-code/",

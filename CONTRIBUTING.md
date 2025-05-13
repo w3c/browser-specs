@@ -65,7 +65,7 @@ the issue and make necessary adjustments themselves to make the bot happy.
 
 ## How to modify/remove a spec
 
-If you believe that a spec should be modified, or removed from the list, consider
+If you believe that a spec should be modified or removed from the list, consider
 submitting a pull request, taking the considerations below into account.
 Alternatively, feel free to [raise an
 issue](https://github.com/w3c/browser-specs/issues/new).

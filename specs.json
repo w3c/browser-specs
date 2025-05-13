@@ -1221,6 +1221,7 @@
   "https://www.w3.org/TR/device-memory-1/",
   "https://www.w3.org/TR/device-posture/",
   "https://www.w3.org/TR/did-1.1/",
+  "https://www.w3.org/TR/did-resolution/",
   {
     "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
     "series": {

@@ -9477,7 +9477,6 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "lifecycle",
         "page-lifecycle"
       ]
     }

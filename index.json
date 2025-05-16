@@ -4613,8 +4613,8 @@
     "series": {
       "shortname": "tc39-array-from-async",
       "currentSpecification": "tc39-array-from-async",
-      "title": "ES Array.fromAsync (2022)",
-      "shortTitle": "2022",
+      "title": "ES Array.fromAsync",
+      "shortTitle": "ES Array.fromAsync",
       "nightlyUrl": "https://tc39.es/proposal-array-from-async/"
     },
     "organization": "Ecma International",
@@ -4632,9 +4632,9 @@
       "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "ES Array.fromAsync (2022)",
+    "title": "ES Array.fromAsync",
     "source": "spec",
-    "shortTitle": "2022",
+    "shortTitle": "ES Array.fromAsync",
     "categories": [
       "browser"
     ],
@@ -13245,7 +13245,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/cid-1.0/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -23705,7 +23705,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/png-3/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Proposed Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -23934,7 +23934,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/privacy-principles/",
-      "status": "Note",
+      "status": "Statement",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -26686,7 +26686,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-data-integrity/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -26725,7 +26725,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-data-model-2.0/",
-      "status": "Proposed Recommendation",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {

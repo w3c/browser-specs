@@ -2,15 +2,14 @@
  * Tests for the fetch-info module
  */
 
+import { describe, it } from "node:test";
 import assert from "node:assert";
 import fetchInfo from "../src/fetch-info.js";
 
 import { MockAgent, setGlobalDispatcher, getGlobalDispatcher } from 'undici';
 
-describe("fetch-info module", function () {
-  // Tests need to send network requests
-  this.slow(5000);
-  this.timeout(30000);
+describe("fetch-info module", {timeout: 60000}, function () {
+  // Long time out since tests need to send network requests
 
   function getW3CSpec(shortname, series) {
     const spec = { shortname, url: `https://www.w3.org/TR/${shortname}/` };
@@ -358,7 +357,7 @@ describe("fetch-info module", function () {
       assert.equal(info[other.shortname].source, "spec");
       assert.equal(info[other.shortname].nightly.url, other.url);
       assert.equal(info[other.shortname].nightly.status, "Living Standard");
-      assert.equal(info[other.shortname].title, "Bikeshed Documentation");      
+      assert.equal(info[other.shortname].title, "Bikeshed Documentation");
     });
   });
 

@@ -1,10 +1,9 @@
+import { describe, it } from "node:test";
 import assert from "node:assert";
 import determineFilename from "../src/determine-filename.js";
 
-describe("determine-filename module", function () {
-  // Tests need to send network requests
-  this.slow(5000);
-  this.timeout(30000);
+describe("determine-filename module", {timeout: 30000}, function () {
+  // Long timeout since tests need to send network requests
 
   it("extracts filename from URL (.html)", async () => {
     const url = "https://example.org/spec/filename.html";

@@ -1,3 +1,4 @@
+import { describe, it } from "node:test";
 import assert from "node:assert";
 import fetchGroups from "../src/fetch-groups.js";
 
@@ -10,10 +11,8 @@ const githubToken = (function () {
   }
 })() ?? process.env.GITHUB_TOKEN;
 
-describe("fetch-groups module (without API keys)", function () {
-  // Tests may need to send network requests
-  this.slow(5000);
-  this.timeout(30000);
+describe("fetch-groups module (without API keys)", {timeout: 30000}, function () {
+  // Long timeout since tests may need to send network requests
 
   async function fetchGroupsFor(url, options) {
     const spec = { url };

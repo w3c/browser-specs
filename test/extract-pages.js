@@ -1,12 +1,10 @@
+import { describe, it, before, after } from "node:test";
 import assert from "node:assert";
 import puppeteer from "puppeteer";
 import extractPages from "../src/extract-pages.js";
 
-describe("extract-pages module", function () {
-  // Tests need to send network requests
-  this.slow(5000);
-  this.timeout(30000);
-
+describe("extract-pages module", {timeout: 30000}, function () {
+  // Long timeout since tests need to send network requests
   let browser;
 
   before(async () => {
@@ -18,7 +16,7 @@ describe("extract-pages module", function () {
   });
 
   it("extracts pages from the SVG2 spec", async () => {
-    const url = "https://svgwg.org/svg2-draft/"
+    const url = "https://svgwg.org/svg2-draft/";
     const pages = await extractPages(url, browser);
     assert.ok(pages.length > 20);
   });

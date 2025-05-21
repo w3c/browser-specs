@@ -2,6 +2,7 @@
  * Make sure that the src/data/*.json files respect the right JSON schema
  */
 
+import { describe, it } from "node:test";
 import assert from "node:assert";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

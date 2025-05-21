@@ -30,7 +30,7 @@
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "commander": "^13.1.0",
-    "puppeteer": "^24.8.2",
+    "puppeteer": "^24.9.0",
     "reffy": "^18.6.1",
     "rimraf": "^6.0.1",
     "undici": "^7.9.0"

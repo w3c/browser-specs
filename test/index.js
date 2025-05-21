@@ -4,6 +4,7 @@
  */
 
 // Tests may run against a test version of the index file
+import { describe, it } from "node:test";
 import assert from "node:assert";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -25,7 +26,7 @@ describe("The `index.json` list", () => {
     const isSchemaValid = ajv.validateSchema(schema);
     assert.ok(isSchemaValid);
   });
-  
+
   it("respects the JSON schema", () => {
     const validate = ajv.addSchema(dfnsSchema).compile(schema);
     const isValid = validate(specs, { format: "full" });

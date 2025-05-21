@@ -1,3 +1,4 @@
+import { describe, it } from "node:test";
 import assert from "node:assert";
 import computeRepo from "../src/compute-repository.js";
 

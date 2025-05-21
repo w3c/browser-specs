@@ -1,4 +1,5 @@
 // Tests may run against a test version of the index file
+import { describe, it, before } from "node:test";
 import assert from "node:assert";
 import os from "node:os";
 import fs from "node:fs";
@@ -13,10 +14,7 @@ const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 const specsFile = process.env.testIndex ?? path.resolve(scriptPath, "..", "index.json");
 const specs = await loadJSON(specsFile);
 
-describe("The build", function () {
-  this.slow(30000);
-  this.timeout(60000);
-
+describe("The build", {timeout: 60000}, function () {
   let tmpdir;
 
   before(async () => {

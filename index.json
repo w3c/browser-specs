@@ -5908,7 +5908,7 @@
     "series": {
       "shortname": "tc39-temporal",
       "currentSpecification": "tc39-temporal",
-      "title": "Temporal proposal",
+      "title": "Temporal",
       "shortTitle": "Temporal",
       "nightlyUrl": "https://tc39.es/proposal-temporal/"
     },
@@ -5927,7 +5927,7 @@
       "sourcePath": "spec.html",
       "filename": "index.html"
     },
-    "title": "Temporal proposal",
+    "title": "Temporal",
     "source": "spec",
     "shortTitle": "Temporal",
     "categories": [

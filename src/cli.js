@@ -3,12 +3,13 @@ import { Command } from 'commander';
 import path from 'node:path';
 import { fileURLToPath } from "node:url";
 import fs from 'node:fs/promises';
-import Mocha from 'mocha';
 import { build } from './build-diff.js';
 import { lintStr } from './lint.js';
 import { execSync } from "node:child_process";
 import loadJSON from './load-json.js';
 import splitIssueBodyIntoSections from './split-issue-body.js';
+import { run as runTests } from 'node:test';
+import { Transform } from "node:stream";
 
 const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 
@@ -31,33 +32,6 @@ const execParams = { cwd: path.join(scriptPath, '..') };
  */
 const packageContents = await loadJSON(path.join(scriptPath, '..', 'package.json'));
 const version = packageContents.version;
-
-
-/**
- * Custom Mocha test reporter that fills a result object passed as an option
- */
-class ObjectReporter {
-  constructor(runner, options) {
-    this._results = options?.reporterOption?.results ?? {};
-    this._results.pass = [];
-    this._results.fail = [];
-    runner
-      .on(Mocha.Runner.constants.EVENT_TEST_PASS, test => {
-        this._results.pass.push({
-          title: test.fullTitle(),
-          result: 'pass'
-        });
-      })
-      .on(Mocha.Runner.constants.EVENT_TEST_FAIL, (test, err) => {
-        this._results.fail.push({
-          title: test.fullTitle(),
-          result: 'fail',
-          actual: err.actual,
-          expected: err.expected
-        });
-      });
-  }
-}
 
 
 /**
@@ -277,11 +251,6 @@ Examples:
       }
     }
 
-    // Prepare test runner
-    const mocha = new Mocha({ color: false });
-    const testResults = {};
-    mocha.reporter(ObjectReporter, { results: testResults });
-
     // Build the diff and create a new temporary index
     const testIndex = path.join(scriptPath, '..', '__testIndex.json');
     let buildResults;
@@ -317,18 +286,58 @@ Examples:
     // Note: we use "process.env" to pass the temporary file names to the
     // test file. Not super clean, but that works ;)
     logProgress(`Run tests...`);
+    const testResults = { fail: [] };
+    const testFiles = [];
     if (isNewSpec) {
       process.env.testSpecs = testSpecs;
-      mocha.addFile(path.join(scriptPath, '..', 'test', 'specs.js'));
+      testFiles.push(path.resolve(scriptPath, '..', 'test', 'specs.js'));
     }
     process.env.testIndex = testIndex;
-    mocha.addFile(path.join(scriptPath, '..', 'test', 'index.js'));
-    // Mocha's `run()` function loads files as CommonJS modules by default.
-    // To load them as ESM modules, we need to do it ourselves using
-    // `loadFilesAsync()`, see https://mochajs.org/api/mocha#loadFilesAsync
-    await mocha.loadFilesAsync();
+    testFiles.push(path.resolve(scriptPath, '..', 'test', 'index.js'));
     const failures = await new Promise(resolve => {
-      mocha.run(failures => resolve(failures));
+      let failed = 0;
+      const testFullname = [];
+      const customReporter = new Transform({
+        writableObjectMode: true,
+        transform(event, encoding, callback) {
+          if (event.type === "test:start") {
+            // Typical test failures occur at nested level, but the data only
+            // reports the nested name. Nested tests are run in order, so we
+            // can easily keep track of the test's full name.
+            testFullname.push(event.data.name);
+          }
+          else if (event.type === "test:fail") {
+            // Note: failures get reported at the subtest level AND for each
+            // parent test. We'll only report the subtest that fails (with
+            // the appropriate fullname)
+            if (event.data.details.error.failureType !== "subtestsFailed") {
+              failed += 1;
+              testResults.fail.push({
+                title: testFullname.join(' '),
+                actual: event.data.details.error.cause.actual,
+                expected: event.data.details.error.cause.expected,
+              });
+            }
+            testFullname.pop();
+          }
+          else if (event.type === "test:pass") {
+            testFullname.pop();
+          }
+          callback(null);
+        }
+      }).on("finish", () => {
+        resolve(failed);
+      });
+
+      // Note the "isolation" param to force execution in the same process
+      // (and thus share the "process.env" variables that were set to run
+      // the tests against generated files)
+      runTests({
+        files: testFiles,
+        isolation: "none"
+      })
+      .compose(customReporter)
+      .pipe(process.stdout);
     });
     if (failures) {
       logProgress(`- some tests failed (${failures})`);

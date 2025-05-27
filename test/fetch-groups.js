@@ -11,8 +11,9 @@ const githubToken = (function () {
   }
 })() ?? process.env.GITHUB_TOKEN;
 
-describe("fetch-groups module (without API keys)", {timeout: 30000}, function () {
+describe("fetch-groups module (without API keys)", function () {
   // Long timeout since tests may need to send network requests
+  const timeout = { timeout: 30000 };
 
   async function fetchGroupsFor(url, options) {
     const spec = { url };
@@ -20,7 +21,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     return result[0];
   };
 
-  it("handles WHATWG URLs", async () => {
+  it("handles WHATWG URLs", timeout, async () => {
     const res = await fetchGroupsFor("https://url.spec.whatwg.org/");
     assert.equal(res.organization, "WHATWG");
     assert.deepStrictEqual(res.groups, [{
@@ -29,7 +30,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles TC39 URLs", async () => {
+  it("handles TC39 URLs", timeout, async () => {
     const res = await fetchGroupsFor("https://tc39.es/proposal-relative-indexing-method/");
     assert.equal(res.organization, "Ecma International");
     assert.deepStrictEqual(res.groups, [{
@@ -38,7 +39,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles W3C TAG URLs", async () => {
+  it("handles W3C TAG URLs", timeout, async () => {
     const res = await fetchGroupsFor("https://www.w3.org/2001/tag/doc/promises-guide");
     assert.equal(res.organization, "W3C");
     assert.deepStrictEqual(res.groups, [{
@@ -47,7 +48,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles WebGL URLs", async () => {
+  it("handles WebGL URLs", timeout, async () => {
     const res = await fetchGroupsFor("https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/");
     assert.equal(res.organization, "Khronos Group");
     assert.deepStrictEqual(res.groups, [{
@@ -56,7 +57,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles IETF RFCs", async () => {
+  it("handles IETF RFCs", timeout, async () => {
     const res = await fetchGroupsFor("https://www.rfc-editor.org/rfc/rfc9110");
     assert.equal(res.organization, "IETF");
     assert.deepStrictEqual(res.groups, [{
@@ -65,7 +66,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles IETF group drafts", async () => {
+  it("handles IETF group drafts", timeout, async () => {
     const res = await fetchGroupsFor("https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers");
     assert.equal(res.organization, "IETF");
     assert.deepStrictEqual(res.groups, [{
@@ -74,7 +75,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles IETF individual drafts", async () => {
+  it("handles IETF individual drafts", timeout, async () => {
     const res = await fetchGroupsFor("https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies");
     assert.equal(res.organization, "IETF");
     assert.deepStrictEqual(res.groups, [{
@@ -83,7 +84,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles IETF area drafts", async () => {
+  it("handles IETF area drafts", timeout, async () => {
     const res = await fetchGroupsFor("https://datatracker.ietf.org/doc/html/draft-zern-webp");
     assert.equal(res.organization, "IETF");
     assert.deepStrictEqual(res.groups, [{
@@ -92,7 +93,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles AOM specs", async () => {
+  it("handles AOM specs", timeout, async () => {
     const res = await fetchGroupsFor("https://aomediacodec.github.io/afgs1-spec/");
     assert.equal(res.organization, "Alliance for Open Media");
     assert.deepStrictEqual(res.groups, [{
@@ -101,7 +102,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles simple ISO specs", async () => {
+  it("handles simple ISO specs", timeout, async () => {
     const res = await fetchGroupsFor("https://www.iso.org/standard/72482.html");
     assert.equal(res.organization, "ISO");
     assert.deepStrictEqual(res.groups, [{
@@ -110,7 +111,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("handles ISO/IEC specs", async () => {
+  it("handles ISO/IEC specs", timeout, async () => {
     const res = await fetchGroupsFor("https://www.iso.org/standard/85253.html");
     assert.equal(res.organization, "ISO/IEC");
     assert.deepStrictEqual(res.groups, [{
@@ -119,7 +120,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     }]);
   });
 
-  it("preserves provided info", async () => {
+  it("preserves provided info", timeout, async () => {
     const spec = {
       url: "https://url.spec.whatwg.org/",
       organization: "Acme Corporation",
@@ -133,7 +134,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
     assert.deepStrictEqual(res[0].groups, spec.groups);
   });
 
-  it("preserves provided info for Patent Policy", async () => {
+  it("preserves provided info for Patent Policy", timeout, async () => {
     const spec = {
       "url": "https://www.w3.org/Consortium/Patent-Policy/",
       "shortname": "w3c-patent-policy",
@@ -150,7 +151,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
   });
 
   describe("fetch from W3C API", () => {
-    it("handles /TR URLs", async () => {
+    it("handles /TR URLs", timeout, async () => {
       const res = await fetchGroupsFor("https://www.w3.org/TR/gamepad/");
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
@@ -159,7 +160,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
       }]);
     });
 
-    it("handles multiple /TR URLs", async () => {
+    it("handles multiple /TR URLs", timeout, async () => {
       const specs = [
         { url: "https://www.w3.org/TR/gamepad/" },
         { url: "https://www.w3.org/TR/accname-1.2/" }
@@ -177,7 +178,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
       }]);
     });
 
-    it("handles w3c.github.io URLs", async () => {
+    it("handles w3c.github.io URLs", timeout, async () => {
       const res = await fetchGroupsFor("https://w3c.github.io/web-nfc/", { githubToken });
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
@@ -186,7 +187,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
       }]);
     });
 
-    it("handles SVG URLs", async () => {
+    it("handles SVG URLs", timeout, async () => {
       const res = await fetchGroupsFor("https://svgwg.org/specs/animations/");
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
@@ -195,7 +196,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
       }]);
     });
 
-    it("handles CSS WG URLs", async () => {
+    it("handles CSS WG URLs", timeout, async () => {
       const res = await fetchGroupsFor("https://drafts.csswg.org/css-animations-2/");
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
@@ -204,7 +205,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
       }]);
     });
 
-    it("handles CSS Houdini TF URLs", async () => {
+    it("handles CSS Houdini TF URLs", timeout, async () => {
       const res = await fetchGroupsFor("https://drafts.css-houdini.org/css-typed-om-2/");
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
@@ -213,7 +214,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
       }]);
     });
 
-    it("handles CSS FXTF URLs", async () => {
+    it("handles CSS FXTF URLs", timeout, async () => {
       const res = await fetchGroupsFor("https://drafts.fxtf.org/filter-effects-2/");
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
@@ -222,7 +223,7 @@ describe("fetch-groups module (without API keys)", {timeout: 30000}, function ()
       }]);
     });
 
-    it("uses last published info for discontinued specs", async () => {
+    it("uses last published info for discontinued specs", timeout, async () => {
       const spec = {
         url: "https://wicg.github.io/close-watcher/",
         shortname: "close-watcher",

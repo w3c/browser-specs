@@ -1400,6 +1400,15 @@
   "https://www.w3.org/TR/image-capture/",
   "https://www.w3.org/TR/image-resource/",
   {
+    "nightly": {
+      "sourcePath": "spec/imsc-hrm.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/imsc-hrm/"
+  },
+  {
     "url": "https://www.w3.org/TR/IndexedDB-3/",
     "shortTitle": "Indexed DB 3.0"
   },

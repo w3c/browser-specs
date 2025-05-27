@@ -121,10 +121,8 @@ describe("compute-shortname module", () => {
         /^Specification name contains unexpected characters/);
     });
 
-    it("throws when name contains a non separated fractional level", () => {
-      assert.throws(
-        () => computeInfo("https://w3c.github.io/spec4.2/"),
-        /^Specification name contains unexpected characters/);
+    it("handles non separated fractional level", () => {
+      assertName("https://www.w3.org/TR/level4.2/", "level4.2");
     });
 
     it("handles forks", () => {
@@ -157,6 +155,10 @@ describe("compute-shortname module", () => {
 
     it("parses form 'shortnameXY'", () => {
       assertSeries("answer42", "answer");
+    });
+
+    it("parses form 'shortnameX.Y'", () => {
+      assertSeries("answer4.2", "answer");
     });
 
     it("parses form 'rdfXY-something'", () => {

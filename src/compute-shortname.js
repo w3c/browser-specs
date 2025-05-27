@@ -146,7 +146,7 @@ function computeShortname(url) {
   // Latin characters (a-z letters, digits, underscore and "-"), and that it
   // only contains a dot for fractional levels at the end of the name
   // (e.g. "blah-1.2" is good but "blah.blah" and "blah-3.1-blah" are not)
-  if (!name.match(/^[\w\-]+((?<=\-v?\d+)\.\d+)?$/)) {
+  if (!name.match(/^[\w\-]+((?<=v?\d+)\.\d+)?$/)) {
     throw `Specification name contains unexpected characters: ${name} (extracted from ${url})`;
   }
 
@@ -200,9 +200,10 @@ function completeWithSeriesAndLevel(shortname, url, forkOf) {
     };
   }
 
-  // Extract X and X.Y levels with form "nameX" or "nameXY" (but not "nameXXY")
+  // Extract X and X.Y levels with form "nameX", "nameXY" or "nameX.Y"
+  // (but not "nameXXY")
   // (e.g. 2.1 for "CSS21", 1.1 for "SVG11", 4 for "selectors4")
-  match = seriesBasename.match(/^(.*?)(?<!\d)(\d)(\d?)$/);
+  match = seriesBasename.match(/^(.*?)(?<!\d)(\d)\.?(\d?)$/);
   if (match) {
     return {
       shortname: specShortname,

@@ -8,8 +8,11 @@ import fetchInfo from "../src/fetch-info.js";
 
 import { MockAgent, setGlobalDispatcher, getGlobalDispatcher } from 'undici';
 
-describe("fetch-info module", {timeout: 60000}, function () {
+describe("fetch-info module", function () {
   // Long time out since tests need to send network requests
+  const timeout = {
+    timeout: 60000
+  };
 
   function getW3CSpec(shortname, series) {
     const spec = { shortname, url: `https://www.w3.org/TR/${shortname}/` };
@@ -20,7 +23,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
   }
 
   describe("fetch from WHATWG", () => {
-    it("works on a WHATWG spec", async () => {
+    it("works on a WHATWG spec", timeout, async () => {
       const spec = {
         url: "https://dom.spec.whatwg.org/",
         shortname: "dom"
@@ -35,7 +38,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
   });
 
   describe("fetch from IETF datatracker", () => {
-    it("fetches info about RFCs from datatracker", async () => {
+    it("fetches info about RFCs from datatracker", timeout, async () => {
       const spec = {
         url: "https://www.rfc-editor.org/rfc/rfc7578",
         shortname: "rfc7578"
@@ -47,7 +50,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].nightly.url, "https://www.rfc-editor.org/rfc/rfc7578");
     });
 
-    it("fetches info about HTTP WG RFCs from datatracker", async () => {
+    it("fetches info about HTTP WG RFCs from datatracker", timeout, async () => {
       const spec = {
         url: "https://www.rfc-editor.org/rfc/rfc9110",
         shortname: "rfc9110"
@@ -59,7 +62,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/specs/rfc9110.html");
     });
 
-    it("extracts a suitable nightly URL from an IETF draft", async () => {
+    it("extracts a suitable nightly URL from an IETF draft", timeout, async () => {
       const spec = {
         url: "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability",
         shortname: "client-hint-reliability"
@@ -70,7 +73,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.match(info[spec.shortname].nightly.url, /^https:\/\/www\.ietf\.org\/archive\/id\/draft-davidben-http-client-hint-reliability-\d+\.html/);
     });
 
-    it("extracts a suitable nightly URL from an IETF HTTP WG draft", async () => {
+    it("extracts a suitable nightly URL from an IETF HTTP WG draft", timeout, async () => {
       const spec = {
         url: "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
         shortname: "partitioned-cookies"
@@ -81,7 +84,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.match(info[spec.shortname].nightly.url, /^https:\/\/www\.ietf\.org\/archive\/id\/draft-cutler-httpbis-partitioned-cookies-\d+\.html/);
     });
 
-    it("extracts a suitable nightly URL from an IETF HTTP State Management Mechanism WG RFC", async () => {
+    it("extracts a suitable nightly URL from an IETF HTTP State Management Mechanism WG RFC", timeout, async () => {
       const spec = {
         url: "https://www.rfc-editor.org/rfc/rfc6265",
         shortname: "rfc6265"
@@ -92,7 +95,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].nightly.url, "https://httpwg.org/specs/rfc6265.html");
     });
 
-    it("uses the rfc-editor URL as nightly for an IETF HTTP WG RFC not published under httpwg.org", async () => {
+    it("uses the rfc-editor URL as nightly for an IETF HTTP WG RFC not published under httpwg.org", timeout, async () => {
       const spec = {
         url: "https://www.rfc-editor.org/rfc/rfc9163",
         shortname: "rfc9163"
@@ -103,7 +106,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].nightly.url, spec.url);
     });
 
-    it("identifies discontinued IETF specs", async () => {
+    it("identifies discontinued IETF specs", timeout, async () => {
       const info = await fetchInfo([
         { url: "https://www.rfc-editor.org/rfc/rfc7230", shortname: "rfc7230" },
         { url: "https://www.rfc-editor.org/rfc/rfc9110", shortname: "rfc9110" },
@@ -114,7 +117,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.deepStrictEqual(info["rfc7230"].obsoletedBy, ["rfc9110", "rfc9112"]);
     });
 
-    it("throws when a discontinued IETF spec is obsoleted by an unknown spec", async () => {
+    it("throws when a discontinued IETF spec is obsoleted by an unknown spec", timeout, async () => {
       const spec = {
         url: "https://www.rfc-editor.org/rfc/rfc7230",
         shortname: "rfc7230"
@@ -124,7 +127,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
         /^Error: IETF spec at (.*)rfc7230 is obsoleted by rfc9110 which is not in the list.$/);
     });
 
-    it("throws when an IETF URL needs to be updated", async () => {
+    it("throws when an IETF URL needs to be updated", timeout, async () => {
       const spec = {
         url: "https://datatracker.ietf.org/doc/html/draft-ietf-websec-strict-transport-sec",
         shortname: "strict-transport-sec"
@@ -136,7 +139,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
   });
 
   describe("fetch from spec", () => {
-    it("extracts spec info from a Bikeshed spec when needed", async () => {
+    it("extracts spec info from a Bikeshed spec when needed", timeout, async () => {
       const spec = {
         url: "https://speced.github.io/bikeshed/",
         shortname: "bikeshed"
@@ -149,7 +152,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].title, "Bikeshed Documentation");
     });
 
-    it("extracts spec info from a Respec spec when needed", async () => {
+    it("extracts spec info from a Respec spec when needed", timeout, async () => {
       const spec = {
         url: "https://screen-share.github.io/element-capture/",
         shortname: "respec"
@@ -162,7 +165,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].title, "Element Capture");
     });
 
-    it("extracts right title from an ECMAScript proposal spec", async () => {
+    it("extracts right title from an ECMAScript proposal spec", timeout, async () => {
       const spec = {
         url: "https://tc39.es/proposal-intl-segmenter/",
         shortname: "tc39-intl-segmenter"
@@ -175,7 +178,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].title, "Intl.Segmenter Proposal");
     });
 
-    it("creates a release for final AOM deliverables published as PDF", async () => {
+    it("creates a release for final AOM deliverables published as PDF", timeout, async () => {
       const spec = {
         organization: "Alliance for Open Media",
         url: "https://aomediacodec.github.io/av1-spec/av1-spec.pdf",
@@ -193,7 +196,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].release.status, "Final Deliverable");
     });
 
-    it("extracts spec info from an ISO spec page", async () => {
+    it("extracts spec info from an ISO spec page", timeout, async () => {
       const spec = {
         url: "https://www.iso.org/standard/61292.html",
         shortname: "iso18074-2015"
@@ -205,7 +208,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].nightly, undefined);
     });
 
-    it("uses the last published info when hitting an error fetching the spec", async () => {
+    it("uses the last published info when hitting an error fetching the spec", timeout, async () => {
       const defaultDispatcher = getGlobalDispatcher();
       const mockAgent = new MockAgent();
       setGlobalDispatcher(mockAgent);
@@ -230,7 +233,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
   });
 
   describe("fetch from W3C API", () => {
-    it("works on a TR spec", async () => {
+    it("works on a TR spec", timeout, async () => {
       const spec = getW3CSpec("hr-time-2", "hr-time");
       const info = await fetchInfo([spec]);
       assert.ok(info[spec.shortname]);
@@ -247,7 +250,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info.__series["hr-time"].title, "High Resolution Time");
     });
 
-    it("can operate on multiple specs at once", async () => {
+    it("can operate on multiple specs at once", timeout, async () => {
       const spec = getW3CSpec("hr-time-2", "hr-time");
       const other = getW3CSpec("tracking-dnt", "tracking-dnt");
       const info = await fetchInfo([spec, other]);
@@ -274,7 +277,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info.__series["tracking-dnt"].currentSpecification, "tracking-dnt");
     });
 
-    it("does not get confused by CSS snapshots", async () => {
+    it("does not get confused by CSS snapshots", timeout, async () => {
       const css = getW3CSpec("CSS2", "CSS");
       const snapshot = getW3CSpec("css-2023", "css");
       const info = await fetchInfo([css, snapshot]);
@@ -288,7 +291,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info.__series["css"].title, "CSS Snapshot");
     });
 
-    it("detects redirects", async () => {
+    it("detects redirects", timeout, async () => {
       const spec = {
         url: "https://www.w3.org/TR/webaudio/",
         shortname: "webaudio"
@@ -298,7 +301,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
         /^Error: W3C API redirects "webaudio" to "webaudio-.*"/);
     });
 
-    it("can operate on multiple specs at once", async () => {
+    it("can operate on multiple specs at once", timeout, async () => {
       const spec = getW3CSpec("presentation-api");
       const other = getW3CSpec("hr-time-2");
       const info = await fetchInfo([spec, other]);
@@ -315,7 +318,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
   });
 
   describe("fetch from all sources", () => {
-    it("uses the last published info for discontinued specs", async () => {
+    it("uses the last published info for discontinued specs", timeout, async () => {
       const spec = {
         url: "https://wicg.github.io/close-watcher/",
         shortname: "close-watcher",
@@ -329,7 +332,7 @@ describe("fetch-info module", {timeout: 60000}, function () {
       assert.equal(info[spec.shortname].organization, spec.__last.organization);
     });
 
-    it("merges info from sources", async () => {
+    it("merges info from sources", timeout, async () => {
       const w3c = getW3CSpec("presentation-api");
       const whatwg = {
         url: "https://html.spec.whatwg.org/multipage/",

@@ -21388,6 +21388,44 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/imsc-hrm/",
+    "seriesComposition": "full",
+    "shortname": "imsc-hrm",
+    "series": {
+      "shortname": "imsc-hrm",
+      "currentSpecification": "imsc-hrm",
+      "title": "IMSC Hypothetical Render Model",
+      "shortTitle": "IMSC Hypothetical Render Model",
+      "releaseUrl": "https://www.w3.org/TR/imsc-hrm/",
+      "nightlyUrl": "https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/imsc-hrm/spec/imsc-hrm.html",
+      "status": "Editor's Draft",
+      "sourcePath": "spec/imsc-hrm.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/imsc-hrm",
+      "filename": "imsc-hrm.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Timed Text Working Group",
+        "url": "https://www.w3.org/AudioVideo/TT/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/imsc-hrm/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "title": "IMSC Hypothetical Render Model",
+    "source": "w3c",
+    "shortTitle": "IMSC Hypothetical Render Model",
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/IndexedDB-3/",
     "seriesComposition": "full",
     "shortname": "IndexedDB-3",
@@ -26498,6 +26536,45 @@
         "trusted-types"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/ttml-imsc1.2/",
+    "seriesComposition": "full",
+    "shortname": "ttml-imsc1.2",
+    "series": {
+      "shortname": "ttml-imsc",
+      "currentSpecification": "ttml-imsc1.2",
+      "title": "TTML Profiles for Internet Media Subtitles and Captions",
+      "shortTitle": "TTML Profiles for Internet Media Subtitles and Captions",
+      "releaseUrl": "https://www.w3.org/TR/ttml-imsc/",
+      "nightlyUrl": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html"
+    },
+    "seriesVersion": "1.2",
+    "nightly": {
+      "url": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html",
+      "status": "Editor's Draft",
+      "sourcePath": "imsc1/spec/ttml-ww-profiles.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/imsc",
+      "filename": "ttml-ww-profiles.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Timed Text Working Group",
+        "url": "https://www.w3.org/AudioVideo/TT/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/ttml-imsc1.2/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "title": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
+    "source": "w3c",
+    "shortTitle": "TTML Profiles for Internet Media Subtitles and Captions 1.2",
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/ttml2/",

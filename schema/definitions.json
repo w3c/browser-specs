@@ -20,7 +20,7 @@
 
     "shortname": {
       "type": "string",
-      "pattern": "^[\\w\\-]+((?<=-v?\\d+)\\.\\d+)?$"
+      "pattern": "^[\\w\\-]+((?<=v?\\d+)\\.\\d+)?$"
     },
 
     "series": {

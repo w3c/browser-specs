@@ -19210,6 +19210,44 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/design-principles/",
+    "seriesComposition": "full",
+    "shortname": "design-principles",
+    "series": {
+      "shortname": "design-principles",
+      "currentSpecification": "design-principles",
+      "title": "Web Platform Design Principles",
+      "shortTitle": "Web Platform Design Principles",
+      "releaseUrl": "https://www.w3.org/TR/design-principles/",
+      "nightlyUrl": "https://w3ctag.github.io/design-principles/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Technical Architecture Group",
+        "url": "https://www.w3.org/2001/tag/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/design-principles/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3ctag.github.io/design-principles/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3ctag/design-principles",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Web Platform Design Principles",
+    "source": "w3c",
+    "shortTitle": "Web Platform Design Principles",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/device-memory-1/",
     "seriesComposition": "full",
     "shortname": "device-memory-1",
@@ -20201,6 +20239,44 @@
     "title": "EPUB Reading Systems 3.4",
     "source": "w3c",
     "shortTitle": "EPUB Reading Systems 3.4",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/ethical-web-principles/",
+    "seriesComposition": "full",
+    "shortname": "ethical-web-principles",
+    "series": {
+      "shortname": "ethical-web-principles",
+      "currentSpecification": "ethical-web-principles",
+      "title": "Ethical Web Principles",
+      "shortTitle": "Ethical Web Principles",
+      "releaseUrl": "https://www.w3.org/TR/ethical-web-principles/",
+      "nightlyUrl": "https://w3ctag.github.io/ethical-web-principles/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Technical Architecture Group",
+        "url": "https://www.w3.org/2001/tag/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/ethical-web-principles/",
+      "status": "Statement",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3ctag.github.io/ethical-web-principles/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3ctag/ethical-web-principles",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Ethical Web Principles",
+    "source": "w3c",
+    "shortTitle": "Ethical Web Principles",
     "categories": [],
     "standing": "good"
   },

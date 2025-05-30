@@ -10890,6 +10890,43 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc5861",
+    "seriesComposition": "full",
+    "shortname": "rfc5861",
+    "series": {
+      "shortname": "rfc5861",
+      "currentSpecification": "rfc5861",
+      "title": "HTTP Cache-Control Extensions for Stale Content",
+      "shortTitle": "HTTP Cache-Control Extensions for Stale Content",
+      "nightlyUrl": "https://httpwg.org/specs/rfc5861.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Applications Area",
+        "url": "https://datatracker.ietf.org/wg/app/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc5861.html",
+      "status": "Informational",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc5861",
+        "https://tools.ietf.org/html/rfc5861"
+      ],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc5861.xml",
+      "filename": "rfc5861.html"
+    },
+    "title": "HTTP Cache-Control Extensions for Stale Content",
+    "source": "ietf",
+    "shortTitle": "HTTP Cache-Control Extensions for Stale Content",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc6265",
     "seriesComposition": "full",
     "shortname": "rfc6265",

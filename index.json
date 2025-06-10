@@ -23230,7 +23230,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/openscreen-application/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -23270,7 +23270,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/openscreen-network/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

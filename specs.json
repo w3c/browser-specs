@@ -1573,6 +1573,13 @@
   "https://www.w3.org/TR/pub-manifest/",
   "https://www.w3.org/TR/push-api/",
   {
+    "organization": "W3C/OGC",
+    "nightly": {
+      "sourcePath": "qb4st/index.html"
+    },
+    "url": "https://www.w3.org/TR/qb4st/"
+  },
+  {
     "url": "https://www.w3.org/TR/rdf-canon/",
     "nightly": {
       "url": "https://w3c.github.io/rdf-canon/spec/"

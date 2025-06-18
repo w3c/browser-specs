@@ -1528,6 +1528,13 @@
   },
   "https://www.w3.org/TR/orientation-event/",
   "https://www.w3.org/TR/orientation-sensor/",
+  {
+    "organization": "W3C/OGC",
+    "nightly": {
+      "sourcePath": "time/index.html"
+    },
+    "url": "https://www.w3.org/TR/owl-time/"
+  },
   "https://www.w3.org/TR/paint-timing/",
   "https://www.w3.org/TR/payment-handler/",
   "https://www.w3.org/TR/payment-method-id/",

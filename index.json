@@ -23436,6 +23436,44 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/owl-time/",
+    "seriesComposition": "full",
+    "shortname": "owl-time",
+    "series": {
+      "shortname": "owl-time",
+      "currentSpecification": "owl-time",
+      "title": "Time Ontology in OWL",
+      "shortTitle": "Time Ontology in OWL",
+      "releaseUrl": "https://www.w3.org/TR/owl-time/",
+      "nightlyUrl": "https://w3c.github.io/sdw/time/"
+    },
+    "organization": "W3C/OGC",
+    "nightly": {
+      "url": "https://w3c.github.io/sdw/time/",
+      "status": "Editor's Draft",
+      "sourcePath": "time/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/sdw",
+      "filename": "index.html"
+    },
+    "groups": [
+      {
+        "name": "Spatio-temporal Data on the Web Working Group",
+        "url": "https://www.w3.org/2021/sdw"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/owl-time/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "title": "Time Ontology in OWL",
+    "source": "w3c",
+    "shortTitle": "Time Ontology in OWL",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/paint-timing/",
     "seriesComposition": "full",
     "shortname": "paint-timing",
@@ -24290,6 +24328,44 @@
         "push-api"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/qb4st/",
+    "seriesComposition": "full",
+    "shortname": "qb4st",
+    "series": {
+      "shortname": "qb4st",
+      "currentSpecification": "qb4st",
+      "title": "QB4ST: RDF Data Cube extensions for spatio-temporal components",
+      "shortTitle": "QB4ST: RDF Data Cube extensions for spatio-temporal components",
+      "releaseUrl": "https://www.w3.org/TR/qb4st/",
+      "nightlyUrl": "https://w3c.github.io/sdw/qb4st/"
+    },
+    "organization": "W3C/OGC",
+    "nightly": {
+      "url": "https://w3c.github.io/sdw/qb4st/",
+      "status": "Editor's Draft",
+      "sourcePath": "qb4st/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/sdw",
+      "filename": "index.html"
+    },
+    "groups": [
+      {
+        "name": "Spatio-temporal Data on the Web Working Group",
+        "url": "https://www.w3.org/2021/sdw"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/qb4st/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "QB4ST: RDF Data Cube extensions for spatio-temporal components",
+    "source": "w3c",
+    "shortTitle": "QB4ST: RDF Data Cube extensions for spatio-temporal components",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/rdf-canon/",

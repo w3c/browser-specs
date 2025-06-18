@@ -73,6 +73,16 @@
       "subsetting"
     ]
   },
+  "w3c/sdw-sosa-ssn": {
+    "url": "https://w3c.github.io/sdw-sosa-ssn/$path/",
+    "shortname": {
+      "pattern": "w3c\\.github\\.io/sdw-sosa-ssn/([^/]+)/",
+      "prefix": "sdw-"
+    },
+    "exclude": [
+      "ogcapi-sosa"
+    ]
+  },
   "w3c/svgwg": {
     "url": "https://svgwg.org/$path/",
     "shortname": {

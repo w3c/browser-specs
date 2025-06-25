@@ -1709,6 +1709,13 @@
     "url": "https://www.w3.org/TR/vocab-dcat-3/"
   },
   {
+    "organization": "W3C/OGC",
+    "nightly": {
+      "sourcePath": "ssn/index.html"
+    },
+    "url": "https://www.w3.org/TR/vocab-ssn/"
+  },
+  {
     "url": "https://www.w3.org/TR/wai-aria-1.2/",
     "title": "Accessible Rich Internet Applications (WAI-ARIA)"
   },

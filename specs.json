@@ -1711,6 +1711,13 @@
   {
     "organization": "W3C/OGC",
     "nightly": {
+      "sourcePath": "ssn-extensions/index.html"
+    },
+    "url": "https://www.w3.org/TR/vocab-ssn-ext/"
+  },
+  {
+    "organization": "W3C/OGC",
+    "nightly": {
       "sourcePath": "ssn/index.html"
     },
     "url": "https://www.w3.org/TR/vocab-ssn/"

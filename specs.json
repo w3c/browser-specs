@@ -1711,6 +1711,16 @@
   {
     "organization": "W3C/OGC",
     "nightly": {
+      "sourcePath": "time-aggregates/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/vocab-owl-time-agg/"
+  },
+  {
+    "organization": "W3C/OGC",
+    "nightly": {
       "sourcePath": "ssn-extensions/index.html"
     },
     "url": "https://www.w3.org/TR/vocab-ssn-ext/"

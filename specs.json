@@ -1721,6 +1721,16 @@
   {
     "organization": "W3C/OGC",
     "nightly": {
+      "sourcePath": "time-entity-relations/index.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/vocab-owl-time-rel/"
+  },
+  {
+    "organization": "W3C/OGC",
+    "nightly": {
       "sourcePath": "ssn-extensions/index.html"
     },
     "url": "https://www.w3.org/TR/vocab-ssn-ext/"

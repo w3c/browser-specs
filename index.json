@@ -27193,6 +27193,82 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/vocab-owl-time-agg/",
+    "seriesComposition": "full",
+    "shortname": "vocab-owl-time-agg",
+    "series": {
+      "shortname": "vocab-owl-time-agg",
+      "currentSpecification": "vocab-owl-time-agg",
+      "title": "Extensions to the OWL-Time Ontology - temporal aggregates",
+      "shortTitle": "Extensions to the OWL-Time Ontology - temporal aggregates",
+      "releaseUrl": "https://www.w3.org/TR/vocab-owl-time-agg/",
+      "nightlyUrl": "https://w3c.github.io/sdw/time-aggregates/"
+    },
+    "organization": "W3C/OGC",
+    "nightly": {
+      "url": "https://w3c.github.io/sdw/time-aggregates/",
+      "status": "Editor's Draft",
+      "sourcePath": "time-aggregates/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/sdw",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "groups": [
+      {
+        "name": "Spatial Data on the Web Interest Group",
+        "url": "https://www.w3.org/2017/sdwig/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vocab-owl-time-agg/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "Extensions to the OWL-Time Ontology - temporal aggregates",
+    "source": "w3c",
+    "shortTitle": "Extensions to the OWL-Time Ontology - temporal aggregates",
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vocab-owl-time-rel/",
+    "seriesComposition": "full",
+    "shortname": "vocab-owl-time-rel",
+    "series": {
+      "shortname": "vocab-owl-time-rel",
+      "currentSpecification": "vocab-owl-time-rel",
+      "title": "Extensions to the OWL-Time Ontology - entity relations",
+      "shortTitle": "Extensions to the OWL-Time Ontology - entity relations",
+      "releaseUrl": "https://www.w3.org/TR/vocab-owl-time-rel/",
+      "nightlyUrl": "https://w3c.github.io/sdw/time-entity-relations/"
+    },
+    "organization": "W3C/OGC",
+    "nightly": {
+      "url": "https://w3c.github.io/sdw/time-entity-relations/",
+      "status": "Editor's Draft",
+      "sourcePath": "time-entity-relations/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/sdw",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "groups": [
+      {
+        "name": "Spatial Data on the Web Interest Group",
+        "url": "https://www.w3.org/2017/sdwig/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vocab-owl-time-rel/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "title": "Extensions to the OWL-Time Ontology - entity relations",
+    "source": "w3c",
+    "shortTitle": "Extensions to the OWL-Time Ontology - entity relations",
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vocab-ssn-ext/",
     "seriesComposition": "full",
     "shortname": "vocab-ssn-ext",

@@ -763,6 +763,7 @@
     "shortname": "text-detection-api"
   },
   "https://wicg.github.io/shared-storage/",
+  "https://wicg.github.io/signature-based-sri/",
   {
     "url": "https://wicg.github.io/sms-one-time-codes/",
     "shortTitle": "SMS One-Time Codes"

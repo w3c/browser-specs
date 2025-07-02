@@ -10092,6 +10092,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/signature-based-sri/",
+    "seriesComposition": "full",
+    "shortname": "signature-based-sri",
+    "series": {
+      "shortname": "signature-based-sri",
+      "currentSpecification": "signature-based-sri",
+      "title": "Signature-based Integrity",
+      "shortTitle": "Signature-based Integrity",
+      "nightlyUrl": "https://wicg.github.io/signature-based-sri/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/signature-based-sri/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/signature-based-sri",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Signature-based Integrity",
+    "source": "spec",
+    "shortTitle": "Signature-based Integrity",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/sms-one-time-codes/",
     "seriesComposition": "full",
     "shortname": "sms-one-time-codes",

@@ -384,8 +384,20 @@
   "https://tc39.es/proposal-defer-import-eval/",
   "https://tc39.es/proposal-dynamic-code-brand-checks/",
   "https://tc39.es/proposal-explicit-resource-management/",
-  "https://tc39.es/proposal-float16array/",
-  "https://tc39.es/proposal-import-attributes/",
+  {
+    "url": "https://tc39.es/proposal-float16array/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-import-attributes/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-intl-duration-format/",
   {
     "url": "https://tc39.es/proposal-intl-enumeration/",
@@ -450,7 +462,13 @@
       "ecma-402"
     ]
   },
-  "https://tc39.es/proposal-is-error/",
+  {
+    "url": "https://tc39.es/proposal-is-error/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-is-usv-string/",
     "standing": "discontinued",
@@ -458,11 +476,29 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-iterator-helpers/",
-  "https://tc39.es/proposal-json-modules/",
+  {
+    "url": "https://tc39.es/proposal-iterator-helpers/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-json-modules/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-json-parse-with-source/",
   "https://tc39.es/proposal-math-sum/",
-  "https://tc39.es/proposal-promise-try/",
+  {
+    "url": "https://tc39.es/proposal-promise-try/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-promise-with-resolvers/",
     "standing": "discontinued",
@@ -470,8 +506,20 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-regex-escaping/",
-  "https://tc39.es/proposal-regexp-modifiers/",
+  {
+    "url": "https://tc39.es/proposal-regex-escaping/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-regexp-modifiers/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",
     "title": "Resizable ArrayBuffer and growable SharedArrayBuffer",
@@ -480,7 +528,13 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-set-methods/",
+  {
+    "url": "https://tc39.es/proposal-set-methods/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-shadowrealm/",
   "https://tc39.es/proposal-source-phase-imports/",
   {

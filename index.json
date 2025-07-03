@@ -5070,6 +5070,10 @@
       "shortTitle": "Float16Array",
       "nightlyUrl": "https://tc39.es/proposal-float16array/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5090,8 +5094,7 @@
     "shortTitle": "Float16Array",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-import-attributes/",
@@ -5104,6 +5107,10 @@
       "shortTitle": "Import Attributes",
       "nightlyUrl": "https://tc39.es/proposal-import-attributes/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5124,8 +5131,7 @@
     "shortTitle": "Import Attributes",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-intl-duration-format/",
@@ -5428,6 +5434,10 @@
       "shortTitle": "Error.isError",
       "nightlyUrl": "https://tc39.es/proposal-is-error/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5448,8 +5458,7 @@
     "shortTitle": "Error.isError",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-is-usv-string/",
@@ -5499,6 +5508,10 @@
       "shortTitle": "Iterator Helpers",
       "nightlyUrl": "https://tc39.es/proposal-iterator-helpers/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5519,8 +5532,7 @@
     "shortTitle": "Iterator Helpers",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-json-modules/",
@@ -5533,6 +5545,10 @@
       "shortTitle": "JSON modules",
       "nightlyUrl": "https://tc39.es/proposal-json-modules/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5553,8 +5569,7 @@
     "shortTitle": "JSON modules",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-json-parse-with-source/",
@@ -5635,6 +5650,10 @@
       "shortTitle": "Promise.try",
       "nightlyUrl": "https://tc39.es/proposal-promise-try/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5655,8 +5674,7 @@
     "shortTitle": "Promise.try",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-promise-with-resolvers/",
@@ -5706,6 +5724,10 @@
       "shortTitle": "RegExp.escape",
       "nightlyUrl": "https://tc39.es/proposal-regex-escaping/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5726,8 +5748,7 @@
     "shortTitle": "RegExp.escape",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-regexp-modifiers/",
@@ -5740,6 +5761,10 @@
       "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
       "nightlyUrl": "https://tc39.es/proposal-regexp-modifiers/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5760,8 +5785,7 @@
     "shortTitle": "Regular Expression Pattern Modifiers for ECMAScript",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-resizablearraybuffer/",
@@ -5811,6 +5835,10 @@
       "shortTitle": "Set methods",
       "nightlyUrl": "https://tc39.es/proposal-set-methods/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5831,8 +5859,7 @@
     "shortTitle": "Set methods",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-shadowrealm/",

@@ -25787,7 +25787,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/shacl12-sparql/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

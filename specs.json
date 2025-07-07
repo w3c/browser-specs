@@ -1711,6 +1711,7 @@
   },
   "https://www.w3.org/TR/timing-entrytypes-registry/",
   "https://www.w3.org/TR/touch-events/",
+  "https://www.w3.org/TR/trace-context-2/",
   {
     "url": "https://www.w3.org/TR/tracking-dnt/",
     "nightly": {

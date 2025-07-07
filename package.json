@@ -14,8 +14,8 @@
     "build": "node src/build-index.js",
     "lint": "node src/lint.js",
     "lint-fix": "node src/lint.js --fix",
-    "test": "node --test",
-    "test-index": "node --test test/index.js"
+    "test": "node --test --test-reporter=spec",
+    "test-index": "node --test --test-reporter=spec test/index.js"
   },
   "type": "module",
   "bin": {

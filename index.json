@@ -6115,43 +6115,6 @@
     }
   },
   {
-    "url": "https://w3c-fedid.github.io/digital-credentials/",
-    "seriesComposition": "full",
-    "shortname": "digital-credentials",
-    "series": {
-      "shortname": "digital-credentials",
-      "currentSpecification": "digital-credentials",
-      "title": "Digital Credentials",
-      "shortTitle": "Digital Credentials",
-      "nightlyUrl": "https://w3c-fedid.github.io/digital-credentials/"
-    },
-    "formerNames": [
-      "digital-identities"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Federated Identity Working Group",
-        "url": "https://www.w3.org/groups/wg/fedid/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c-fedid.github.io/digital-credentials/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c-fedid/digital-credentials",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Digital Credentials",
-    "source": "spec",
-    "shortTitle": "Digital Credentials",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c-fedid.github.io/login-status/",
     "seriesComposition": "full",
     "shortname": "login-status",
@@ -6629,6 +6592,102 @@
     "title": "SPARQL 1.2 Overview",
     "source": "spec",
     "shortTitle": "SPARQL 1.2 Overview",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/trace-context-amqp/",
+    "seriesComposition": "full",
+    "shortname": "trace-context-amqp",
+    "series": {
+      "shortname": "trace-context-amqp",
+      "currentSpecification": "trace-context-amqp",
+      "title": "Trace Context: AMQP protocol",
+      "shortTitle": "Trace Context: AMQP protocol",
+      "nightlyUrl": "https://w3c.github.io/trace-context-amqp/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/groups/wg/distributed-tracing/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/trace-context-amqp/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/trace-context-amqp",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Trace Context: AMQP protocol",
+    "source": "spec",
+    "shortTitle": "Trace Context: AMQP protocol",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/trace-context-binary/",
+    "seriesComposition": "full",
+    "shortname": "trace-context-binary",
+    "series": {
+      "shortname": "trace-context-binary",
+      "currentSpecification": "trace-context-binary",
+      "title": "Trace Context: binary protocol",
+      "shortTitle": "Trace Context: binary protocol",
+      "nightlyUrl": "https://w3c.github.io/trace-context-binary/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/groups/wg/distributed-tracing/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/trace-context-binary/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/trace-context-binary",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Trace Context: binary protocol",
+    "source": "spec",
+    "shortTitle": "Trace Context: binary protocol",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/trace-context-mqtt/",
+    "seriesComposition": "full",
+    "shortname": "trace-context-mqtt",
+    "series": {
+      "shortname": "trace-context-mqtt",
+      "currentSpecification": "trace-context-mqtt",
+      "title": "Trace Context: MQTT protocol",
+      "shortTitle": "Trace Context: MQTT protocol",
+      "nightlyUrl": "https://w3c.github.io/trace-context-mqtt/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/groups/wg/distributed-tracing/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/trace-context-mqtt/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/trace-context-mqtt",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Trace Context: MQTT protocol",
+    "source": "spec",
+    "shortTitle": "Trace Context: MQTT protocol",
     "categories": [],
     "standing": "good"
   },
@@ -19560,6 +19619,49 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/digital-credentials/",
+    "seriesComposition": "full",
+    "shortname": "digital-credentials",
+    "series": {
+      "shortname": "digital-credentials",
+      "currentSpecification": "digital-credentials",
+      "title": "Digital Credentials",
+      "shortTitle": "Digital Credentials",
+      "releaseUrl": "https://www.w3.org/TR/digital-credentials/",
+      "nightlyUrl": "https://w3c-fedid.github.io/digital-credentials/"
+    },
+    "formerNames": [
+      "digital-identities"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Federated Identity Working Group",
+        "url": "https://www.w3.org/groups/wg/fedid/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/digital-credentials/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c-fedid.github.io/digital-credentials/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c-fedid/digital-credentials",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Digital Credentials",
+    "source": "w3c",
+    "shortTitle": "Digital Credentials",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
     "seriesComposition": "full",
     "shortname": "DOM-Level-2-Style",
@@ -26668,6 +26770,83 @@
         "touch-events"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/trace-context-2/",
+    "seriesComposition": "full",
+    "shortname": "trace-context-2",
+    "series": {
+      "shortname": "trace-context",
+      "currentSpecification": "trace-context-2",
+      "title": "Trace Context",
+      "shortTitle": "Trace Context",
+      "releaseUrl": "https://www.w3.org/TR/trace-context/",
+      "nightlyUrl": "https://w3c.github.io/trace-context/"
+    },
+    "seriesVersion": "2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/groups/wg/distributed-tracing/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/trace-context-2/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/trace-context/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/trace-context",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Trace Context Level 2",
+    "source": "w3c",
+    "shortTitle": "Trace Context 2",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/trace-context-protocols-registry/",
+    "seriesComposition": "full",
+    "shortname": "trace-context-protocols-registry",
+    "series": {
+      "shortname": "trace-context-protocols-registry",
+      "currentSpecification": "trace-context-protocols-registry",
+      "title": "Trace Context Protocols Registry",
+      "shortTitle": "Trace Context Protocols Registry",
+      "releaseUrl": "https://www.w3.org/TR/trace-context-protocols-registry/",
+      "nightlyUrl": "https://w3c.github.io/trace-context-protocols-registry/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/groups/wg/distributed-tracing/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/trace-context-protocols-registry/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/trace-context-protocols-registry/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/trace-context-protocols-registry",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Trace Context Protocols Registry",
+    "source": "w3c",
+    "shortTitle": "Trace Context Protocols Registry",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/tracking-dnt/",

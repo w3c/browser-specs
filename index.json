@@ -1078,51 +1078,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-position-4/",
-    "seriesComposition": "delta",
-    "shortname": "css-position-4",
-    "series": {
-      "shortname": "css-position",
-      "currentSpecification": "css-position-3",
-      "title": "CSS Positioned Layout",
-      "shortTitle": "CSS Positioned Layout",
-      "releaseUrl": "https://www.w3.org/TR/css-position/",
-      "nightlyUrl": "https://drafts.csswg.org/css-position/"
-    },
-    "seriesVersion": "4",
-    "seriesPrevious": "css-position-3",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/Style/CSS/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-position-4/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-position-4/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-position-4/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Positioned Layout Module Level 4",
-    "source": "spec",
-    "shortTitle": "CSS Positioned Layout 4",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-position"
-      ]
-    }
-  },
-  {
     "url": "https://drafts.csswg.org/css-shapes-2/",
     "seriesComposition": "delta",
     "shortname": "css-shapes-2",
@@ -6688,6 +6643,38 @@
     "title": "Trace Context: MQTT protocol",
     "source": "spec",
     "shortTitle": "Trace Context: MQTT protocol",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/tracestate-ids-registry/",
+    "seriesComposition": "full",
+    "shortname": "tracestate-ids-registry",
+    "series": {
+      "shortname": "tracestate-ids-registry",
+      "currentSpecification": "tracestate-ids-registry",
+      "title": "Tracestate Ids Registry",
+      "shortTitle": "Tracestate Ids Registry",
+      "nightlyUrl": "https://w3c.github.io/tracestate-ids-registry/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Distributed Tracing Working Group",
+        "url": "https://www.w3.org/groups/wg/distributed-tracing/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/tracestate-ids-registry/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/tracestate-ids-registry",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Tracestate Ids Registry",
+    "source": "spec",
+    "shortTitle": "Tracestate Ids Registry",
     "categories": [],
     "standing": "good"
   },
@@ -17134,6 +17121,56 @@
     "title": "CSS Positioned Layout Module Level 3",
     "source": "w3c",
     "shortTitle": "CSS Positioned Layout 3",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-position"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-position-4/",
+    "seriesComposition": "delta",
+    "shortname": "css-position-4",
+    "series": {
+      "shortname": "css-position",
+      "currentSpecification": "css-position-3",
+      "title": "CSS Positioned Layout",
+      "shortTitle": "CSS Positioned Layout",
+      "releaseUrl": "https://www.w3.org/TR/css-position/",
+      "nightlyUrl": "https://drafts.csswg.org/css-position/"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "css-position-3",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/Style/CSS/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-position-4/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-position-4/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-position-4/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-position-4/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Positioned Layout Module Level 4",
+    "source": "w3c",
+    "shortTitle": "CSS Positioned Layout 4",
     "categories": [
       "browser"
     ],

@@ -589,6 +589,7 @@
   "https://w3c.github.io/trace-context-amqp/",
   "https://w3c.github.io/trace-context-binary/",
   "https://w3c.github.io/trace-context-mqtt/",
+  "https://w3c.github.io/tracestate-ids-registry/",
   "https://w3c.github.io/web-nfc/",
   {
     "url": "https://w3c.github.io/web-share-target/",

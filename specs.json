@@ -105,7 +105,6 @@
   "https://drafts.csswg.org/css-images-5/ delta",
   "https://drafts.csswg.org/css-link-params-1/",
   "https://drafts.csswg.org/css-page-4/ delta",
-  "https://drafts.csswg.org/css-position-4/ delta",
   "https://drafts.csswg.org/css-shapes-2/ delta",
   {
     "url": "https://drafts.csswg.org/css-size-adjust-1/",
@@ -1164,6 +1163,7 @@
   "https://www.w3.org/TR/css-page-floats-3/",
   "https://www.w3.org/TR/css-paint-api-1/",
   "https://www.w3.org/TR/css-position-3/",
+  "https://www.w3.org/TR/css-position-4/ delta",
   "https://www.w3.org/TR/css-properties-values-api-1/",
   "https://www.w3.org/TR/css-pseudo-4/",
   "https://www.w3.org/TR/css-regions-1/",

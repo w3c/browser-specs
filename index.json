@@ -1689,6 +1689,7 @@
       ],
       "excludePaths": [
         "html/cross-origin-embedder-policy/credentialless",
+        "html/dom/partial-updates/tentative",
         "html/cross-origin-embedder-policy/credentialless"
       ]
     }
@@ -7812,6 +7813,40 @@
       "browser"
     ],
     "standing": "good"
+  },
+  {
+    "url": "https://wicg.github.io/audio-context-playout-stats/",
+    "seriesComposition": "full",
+    "shortname": "audio-context-playout-stats",
+    "series": {
+      "shortname": "audio-context-playout-stats",
+      "currentSpecification": "audio-context-playout-stats",
+      "title": "Playout Statistics API for WebAudio",
+      "shortTitle": "Playout Statistics API for WebAudio",
+      "nightlyUrl": "https://wicg.github.io/audio-context-playout-stats/"
+    },
+    "standing": "pending",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/audio-context-playout-stats/",
+      "status": "Unofficial Proposal Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/audio-context-playout-stats",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Playout Statistics API for WebAudio",
+    "source": "spec",
+    "shortTitle": "Playout Statistics API for WebAudio",
+    "categories": [
+      "browser"
+    ]
   },
   {
     "url": "https://wicg.github.io/background-fetch/",

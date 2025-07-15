@@ -696,6 +696,10 @@
   "https://wicg.github.io/anonymous-iframe/",
   "https://wicg.github.io/aom/spec/",
   "https://wicg.github.io/attribution-reporting-api/",
+  {
+    "standing": "pending",
+    "url": "https://wicg.github.io/audio-context-playout-stats/"
+  },
   "https://wicg.github.io/background-fetch/",
   {
     "url": "https://wicg.github.io/background-sync/spec/",

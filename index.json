@@ -27303,6 +27303,44 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/vc-bitstring-status-list/",
+    "seriesComposition": "full",
+    "shortname": "vc-bitstring-status-list",
+    "series": {
+      "shortname": "vc-bitstring-status-list",
+      "currentSpecification": "vc-bitstring-status-list",
+      "title": "Bitstring Status List",
+      "shortTitle": "Bitstring Status List",
+      "releaseUrl": "https://www.w3.org/TR/vc-bitstring-status-list/",
+      "nightlyUrl": "https://w3c.github.io/vc-bitstring-status-list/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-bitstring-status-list/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-bitstring-status-list/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-bitstring-status-list",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Bitstring Status List v1.0",
+    "source": "w3c",
+    "shortTitle": "Bitstring Status List v1.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vc-data-integrity/",
     "seriesComposition": "full",
     "shortname": "vc-data-integrity",
@@ -27376,6 +27414,82 @@
     "title": "Verifiable Credentials Data Model v2.0",
     "source": "w3c",
     "shortTitle": "Verifiable Credentials Data Model v2.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-di-bbs/",
+    "seriesComposition": "full",
+    "shortname": "vc-di-bbs",
+    "series": {
+      "shortname": "vc-di-bbs",
+      "currentSpecification": "vc-di-bbs",
+      "title": "BBS Cryptosuite",
+      "shortTitle": "BBS Cryptosuite",
+      "releaseUrl": "https://www.w3.org/TR/vc-di-bbs/",
+      "nightlyUrl": "https://w3c.github.io/vc-di-bbs/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-di-bbs/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-di-bbs/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-di-bbs",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Data Integrity BBS Cryptosuites v1.0",
+    "source": "w3c",
+    "shortTitle": "Data Integrity BBS Cryptosuites v1.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-di-ecdsa/",
+    "seriesComposition": "full",
+    "shortname": "vc-di-ecdsa",
+    "series": {
+      "shortname": "vc-di-ecdsa",
+      "currentSpecification": "vc-di-ecdsa",
+      "title": "ECDSA Cryptosuite",
+      "shortTitle": "ECDSA Cryptosuite",
+      "releaseUrl": "https://www.w3.org/TR/vc-di-ecdsa/",
+      "nightlyUrl": "https://w3c.github.io/vc-di-ecdsa/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-di-ecdsa/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-di-ecdsa/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-di-ecdsa",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Data Integrity ECDSA Cryptosuites v1.0",
+    "source": "w3c",
+    "shortTitle": "Data Integrity ECDSA Cryptosuites v1.0",
     "categories": [],
     "standing": "good"
   },

@@ -19,62 +19,6 @@ let w3cGroups = null;
 
 
 /**
- * Retrieve the information about the exact organization and the group that
- * develops an ISO specification from the description page on the ISO web site.
- *
- * The group's name and URL appear in the page under the General Information
- * heading.
- *
- * Note: It would be better to use Puppeteer to parse the HTML, but that seems
- * a bit overkill (and would not be future proof either since the HTML page
- * does not contain good non-text anchors to extract the info we need.
- */
-async function setISOGroupFromPage(spec, options) {
-  const res = await fetch(spec.url, options);
-  if (res.status !== 200) {
-    throw new Error(`Could not retrieve ISO page ${spec.url}, status code is ${res.status}`);
-  }
-  const html = await res.text();
-  let startPos = html.indexOf('<h3>General information</h3>');
-  if (startPos === -1) {
-    throw new Error(`Cannot find General information heading in ISO page ${spec.url}`);
-  }
-  startPos = html.indexOf('Technical Committee&nbsp;:', startPos);
-  if (startPos === -1) {
-    throw new Error(`Cannot find technical committee information in ISO page ${spec.url}`);
-  }
-  startPos = html.indexOf('<a ', startPos);
-  if (startPos === -1) {
-    throw new Error(`Cannot find technical committee anchor in ISO page ${spec.url}`);
-  }
-  startPos = html.indexOf('href="', startPos);
-  let endPos = html.indexOf('"', startPos + 'href="'.length);
-  if (startPos === -1 || endPos === -1) {
-    throw new Error(`Cannot find technical committee href in ISO page ${spec.url}`);
-  }
-  const groupUrl = html.substring(startPos + 'href="'.length, endPos);
-  startPos = html.indexOf('>', endPos);
-  endPos = html.indexOf('<', startPos);
-  if (startPos === -1 || endPos === -1) {
-    throw new Error(`Cannot find technical committee name in ISO page ${spec.url}`);
-  }
-  const groupName = html.substring(startPos + 1, endPos).trim();
-
-  if (groupName.startsWith('ISO/IEC')) {
-    spec.organization = 'ISO/IEC';
-  }
-  else {
-    spec.organization = 'ISO';
-  }
-
-  spec.groups = [{
-    name: groupName,
-    url: (new URL(groupUrl, 'https://www.iso.org')).href
-  }];
-}
-
-
-/**
  * Exports main function that takes a list of specs (with a url property)
  * as input, completes entries with an "organization" property that contains the
  * name of the organization such as W3C, WHATWG, IETF, Khronos Group,
@@ -132,13 +76,6 @@ export default async function (specs, options) {
           throw new Error(`Could not derive IETF group for ${spec.url}.
             Unknown group type found in https://datatracker.ietf.org/doc/${ietfName[1]}/doc.json`);
         }
-      }
-
-      // For ISO documents, retrieve the group info from the HTML page
-      // (NB: it would be cleaner to use Puppeteer here)
-      const isoName = spec.url.match(/https:\/\/www\.iso\.org\//);
-      if (isoName) {
-        await setISOGroupFromPage(spec, options);
       }
 
       if (!spec.groups) {

@@ -196,26 +196,14 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].release.status, "Final Deliverable");
     });
 
-    it("extracts spec info from an ISO spec page", timeout, async () => {
-      const spec = {
-        url: "https://www.iso.org/standard/61292.html",
-        shortname: "iso18074-2015"
-      };
-      const info = await fetchInfo([spec]);
-      assert.ok(info[spec.shortname]);
-      assert.equal(info[spec.shortname].source, "spec");
-      assert.equal(info[spec.shortname].title, "Textiles — Identification of some animal fibres by DNA analysis method — Cashmere, wool, yak and their blends");
-      assert.equal(info[spec.shortname].nightly, undefined);
-    });
-
     it("uses the last published info when hitting an error fetching the spec", timeout, async () => {
       const defaultDispatcher = getGlobalDispatcher();
       const mockAgent = new MockAgent();
       setGlobalDispatcher(mockAgent);
 
       mockAgent.get("https://example.com")
-	.intercept({ method: "GET", path: "/429" })
-	.reply(429);
+        .intercept({ method: "GET", path: "/429" })
+        .reply(429);
 
       const spec = {
         url: "https://example.com/429",

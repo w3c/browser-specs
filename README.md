@@ -629,6 +629,7 @@ The provenance for the `title` and `nightly` property values. Can be one of:
 - `w3c`: information retrieved from the [W3C API](https://w3c.github.io/w3c-api/)
 - `whatwg`: information retrieved from [WHATWG](https://spec.whatwg.org/)
 - `ietf`: information retrieved from the [IETF datatracker](https://datatracker.ietf.org)
+- `iso`: information retrieved from the [ISO Open Data](https://www.iso.org/open-data.html) datasets [iso_deliverables_metadata](https://www.iso.org/open-data.html#iso_deliverables_metadata) and [iso_technical_committees](https://www.iso.org/open-data.html#iso_technical_committees), licensed under the [ODC Attribution License](https://opendatacommons.org/licenses/by/1-0/)
 - `spec`: information retrieved from the spec itself
 
 The `source` property is always set.

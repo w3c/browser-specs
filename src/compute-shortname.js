@@ -131,6 +131,15 @@ function computeShortname(url) {
       return tag[1];
     }
 
+    // Handle ISO specs
+    // (Note: the computed shortname uses the internal ID. This will be updated
+    // by fetch-iso-info to return a better shortname based on the spec's
+    // official ISO codification)
+    const iso = url.match(/\/www\.iso\.org\/standard\/(\d+)\.html$/);
+    if (iso) {
+      return `iso-id-${iso[1]}`;
+    }
+
     // Return name when one was given
     if (!url.match(/\//)) {
       return url;

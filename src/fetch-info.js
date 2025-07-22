@@ -37,17 +37,20 @@
 
 import puppeteer from "puppeteer";
 import loadSpec from "./load-spec.js";
-import computeShortname from "./compute-shortname.js";
 import Octokit from "./octokit.js";
 import ThrottledQueue from "./throttled-queue.js";
 import fetchJSON from "./fetch-json.js";
 
-async function useLastInfoForDiscontinuedSpecs(specs) {
+async function useKnownInfoWhereAppropriate(specs) {
   const results = {};
   for (const spec of specs) {
     if (spec.__last?.standing === 'discontinued' &&
         (!spec.standing || spec.standing === 'discontinued')) {
       results[spec.shortname] = spec.__last;
+    }
+    else if (spec.url.match(/\.iso\.org/)) {
+      // ISO specs were handled already in fetch-iso-info
+      results[spec.shortname] = spec;
     }
   }
   return results;
@@ -57,11 +60,11 @@ function catchAndFallbackOnExistingData(fn) {
   return function(spec) {
     return fn(spec).catch(err => {
       if (spec.__last) {
-	// TODO: log crawl error more visibly?
-	console.error(`Failed to fetch info on ${spec.url} (${err}), reusing existing data`);
-	return spec.__last;
+        // TODO: log crawl error more visibly?
+        console.error(`Failed to fetch info on ${spec.url} (${err}), reusing existing data`);
+        return spec.__last;
       } else {
-	throw err;
+        throw err;
       }
     });
   };
@@ -356,17 +359,6 @@ async function fetchInfoFromSpecs(specs, options) {
           };
         }
       }
-      else if (spec.url.startsWith("https://www.iso.org/")) {
-        const isoTitle = await page.evaluate(_ => {
-          const meta = document.querySelector('head meta[property="og:description"]');
-          return meta ? meta.getAttribute('content').trim() : null;
-        });
-        if (isoTitle) {
-          return {
-            title: isoTitle
-          };
-        }
-      }
       else if (spec.url.endsWith(".txt")) {
         // Spec from another time (typically the GIF spec), published as plain
         // text. Nothing we can usefully extract from the spec. Let's proceed
@@ -502,7 +494,7 @@ async function fetchInfo(specs, options) {
 
   const info = {};
   const steps = [
-    { name: 'discontinued', fn: useLastInfoForDiscontinuedSpecs },
+    { name: 'known', fn: useKnownInfoWhereAppropriate },
     { name: 'w3c', fn: fetchInfoFromW3CApi },
     { name: 'ietf', fn: fetchInfoFromIETF },
     { name: 'whatwg', fn: fetchInfoFromWHATWG },

@@ -92,7 +92,6 @@
     "seriesComposition": "delta",
     "shortTitle": "CSS Backgrounds 4"
   },
-  "https://drafts.csswg.org/css-borders-4/",
   "https://drafts.csswg.org/css-color-6/ delta",
   "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-env-1/",
@@ -1048,6 +1047,7 @@
     "url": "https://www.w3.org/TR/css-backgrounds-3/",
     "shortTitle": "CSS Backgrounds 3"
   },
+  "https://www.w3.org/TR/css-borders-4/",
   "https://www.w3.org/TR/css-box-3/",
   "https://www.w3.org/TR/css-box-4/",
   "https://www.w3.org/TR/css-break-3/",

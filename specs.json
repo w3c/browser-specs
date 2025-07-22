@@ -867,17 +867,14 @@
   "https://wicg.github.io/window-controls-overlay/",
   {
     "url": "https://www.iso.org/standard/54989.html",
-    "shortname": "iso10918-5",
     "shortTitle": "JPEG"
   },
   {
     "url": "https://www.iso.org/standard/85253.html",
-    "shortname": "iso18181-2",
     "shortTitle": "JPEG XL: File Format"
   },
   {
     "url": "https://www.iso.org/standard/87621.html",
-    "shortname": "iso14496-22",
     "shortTitle": "Open Font Format"
   },
   "https://www.rfc-editor.org/rfc/rfc2397",

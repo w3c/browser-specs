@@ -27,6 +27,7 @@ import computeStanding from "./compute-standing.js";
 import determineFilename from "./determine-filename.js";
 import determineTestPath from "./determine-testpath.js";
 import extractPages from "./extract-pages.js";
+import fetchISOSpecs from "./fetch-iso-info.js";
 import fetchInfo from "./fetch-info.js";
 import fetchGroups from "./fetch-groups.js";
 import loadJSON from "./load-json.js";
@@ -54,6 +55,11 @@ const steps = [
     shortname: "previous",
     title: "Retrieve last published info",
     run: runFetchLastPublished
+  },
+  {
+    shortname: "iso",
+    title: "Process ISO specs",
+    run: (index, options) => fetchISOSpecs(index, options)
   },
   {
     shortname: "groups",
@@ -249,7 +255,7 @@ async function runInfo(specs) {
 
     // Set the series title based on the info returned by the W3C API if
     // we have it, or compute the series title ourselves
-    const seriesInfo = specInfo.__series[spec.series.shortname];
+    const seriesInfo = specInfo.__series?.[spec.series.shortname];
     if (seriesInfo?.title && !res.series.title) {
       res.series.title = seriesInfo.title;
     }
@@ -375,15 +381,20 @@ async function runFilename(index, { previousIndex, log }) {
  * The function also takes a log function to report progress (progress is
  * reported on the console by default).
  *
+ * The `skipFetch` option can be used to make build skip specific network
+ * fetches. Only supported value so far is "iso" to skip fetching the ISO
+ * catalog ("all" may be used as well but does not skip additional fetches
+ * for now).
+ *
  * The function throws in case of errors.
  */
-async function generateIndex(specs, { step = "all", previousIndex = null, log = console.log } = {}) {
+async function generateIndex(specs, { step = "all", previousIndex = null, log = console.log, skipFetch = null } = {}) {
   let index = specs;
 
   const actualSteps = steps.filter(s => step === "all" || s.shortname === step);
   for (const step of actualSteps) {
     log(`${step.title}...`);
-    index = await step.run(index, { previousIndex, log });
+    index = await step.run(index, { previousIndex, log, skipFetch });
     log(`${step.title}... done`);
   }
 
@@ -396,7 +407,7 @@ async function generateIndex(specs, { step = "all", previousIndex = null, log = 
  *
  * The function throws in case of errors.
  */
-async function generateIndexFile(specsFile, targetFile, step) {
+async function generateIndexFile(specsFile, targetFile, step, options) {
   // If the index already exists, reuse the info it contains when info cannot
   // be refreshed due to some external (network) issue.
   const previousIndexFile = path.resolve(scriptPath, "..", "index.json");
@@ -404,7 +415,7 @@ async function generateIndexFile(specsFile, targetFile, step) {
 
   const specsJson = await fs.readFile(path.resolve(specsFile));
   const specs = JSON.parse(specsJson);
-  const index = await generateIndex(specs, { previousIndex, step });
+  const index = await generateIndex(specs, Object.assign({ previousIndex, step }, options));
   console.log(`Write ${targetFile}...`);
   await fs.writeFile(targetFile, JSON.stringify(index, null, 2));
   console.log(`Write ${targetFile}... done`);
@@ -412,19 +423,27 @@ async function generateIndexFile(specsFile, targetFile, step) {
 
 
 /*******************************************************************************
-Export functions for use as module
+Export main function for use as module
 *******************************************************************************/
-export {
-  generateIndex,
-  generateIndexFile
-};
+export { generateIndex };
 
 
 /*******************************************************************************
 Main loop
 *******************************************************************************/
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
-  const fileOrStep = process.argv[2];
+  const cliTokens = [...process.argv].slice(2);
+  const cliOptions = cliTokens.filter(p => p.startsWith('--'));
+  const cliParameters = cliTokens.filter(p => !p.startsWith('--'));
+
+  const options = {};
+  for (const cliOption of cliOptions) {
+    if (cliOption.startsWith('--skip-fetch=')) {
+      options.skipFetch = cliOption.substring('--skip-fetch='.length);
+    }
+  }
+
+  const fileOrStep = cliParameters[0];
   const pad = idx => (idx < 10) ? ('0' + idx) : idx;
 
   async function mainLoop() {
@@ -480,15 +499,15 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
       for (const buildstep of steps) {
         const { specsFile, indexFile } = getStepFiles(buildstep.shortname);
         await createBuildStepsFolderIfNeeded();
-        await generateIndexFile(specsFile, indexFile, buildstep.shortname);
+        await generateIndexFile(specsFile, indexFile, buildstep.shortname, options);
       }
     }
     else if (fileOrStep.endsWith(".json")) {
       // Source/Target files and step as parameters
       const specsFile = fileOrStep;
-      const indexFile = process.argv[3] ?? path.join(scriptPath, "..", "index.json");
-      const step = process.argv[4] ?? "all";
-      await generateIndexFile(specsFile, indexFile, step);
+      const indexFile = cliParameters[1] ?? path.join(scriptPath, "..", "index.json");
+      const step = cliParameters[2] ?? "all";
+      await generateIndexFile(specsFile, indexFile, step, options);
     }
     else {
       // Step as unique parameter, either step index or step name
@@ -504,13 +523,13 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
         // Not really a step, just run the entire build
         const specsFile = path.join(scriptPath, "..", "specs.json");
         const indexFile = path.join(scriptPath, "..", "index.json");
-        await generateIndexFile(specsFile, indexFile, step);
+        await generateIndexFile(specsFile, indexFile, step, options);
       }
       else {
         // Create intermediary files (except for last step)
         const { specsFile, indexFile } = getStepFiles(step);
         await createBuildStepsFolderIfNeeded();
-        await generateIndexFile(specsFile, indexFile, step);
+        await generateIndexFile(specsFile, indexFile, step, options);
       }
     }
   }

@@ -12,6 +12,7 @@
   "main": "index.json",
   "scripts": {
     "build": "node src/build-index.js",
+    "build-skip-iso": "node src/build-index.js --skip-fetch=iso",
     "lint": "node src/lint.js",
     "lint-fix": "node src/lint.js --fix",
     "test": "node --test --test-reporter=spec",

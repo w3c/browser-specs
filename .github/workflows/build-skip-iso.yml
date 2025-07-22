@@ -1,10 +1,10 @@
-name: Update spec info (full build)
+name: Update spec info (skip ISO specs)
 
 on:
   schedule:
-    # At 6:10PM on Saturday and Sunday
-    # (see build-skip-iso.yml workflow for rest of the week)
-    - cron: '10 18 * * SAT,SUN'
+    # Every 6 hours from Monday to Friday
+    # (see build.yml workflow for Saturday and Sunday)
+    - cron: '10 */6 * * MON-FRI'
   workflow_dispatch:
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
     - name: Build new index file
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: npm run build
+      run: npm run build-skip-iso
 
     - name: Test new index file
       env:

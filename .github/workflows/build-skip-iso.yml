@@ -4,7 +4,7 @@ on:
   schedule:
     # Every 6 hours from Monday to Friday
     # (see build.yml workflow for Saturday and Sunday)
-    - cron: '10 */6 * * MON-SAT'
+    - cron: '10 */6 * * MON-FRI'
   workflow_dispatch:
 
 jobs:

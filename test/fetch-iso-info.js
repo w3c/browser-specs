@@ -54,6 +54,7 @@ describe("The ISO catalog module", async function () {
     assert.ok(specs[0]);
     assert.equal(specs[0].shortname, "iso18074");
     assert.equal(specs[0].series?.shortname, "iso18074");
+    assert.equal(specs[0].series?.currentSpecification, "iso18074");
     assert.equal(specs[0].source, "iso");
     assert.equal(specs[0].title, "Textiles — Identification of some animal fibres by DNA analysis method — Cashmere, wool, yak and their blends");
     assert.equal(specs[0].organization, "ISO");
@@ -69,6 +70,7 @@ describe("The ISO catalog module", async function () {
     assert.ok(specs[0]);
     assert.equal(specs[0].shortname, "iso10918-5");
     assert.equal(specs[0].series?.shortname, "iso10918-5");
+    assert.equal(specs[0].series?.currentSpecification, "iso10918-5");
     assert.equal(specs[0].source, "iso");
     assert.equal(specs[0].title, "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:");
     assert.equal(specs[0].organization, "ISO/IEC");

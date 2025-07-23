@@ -64,7 +64,6 @@ async function fetchInfoFromISO(specs, options) {
 
       spec.__iso = {
         shortname,
-        series: { shortname },
         organization: json.ownerCommittee.startsWith('ISO/IEC') ? 'ISO/IEC' : 'ISO',
         groups: [{
           name: group.reference,
@@ -90,7 +89,8 @@ async function fetchInfoFromISO(specs, options) {
       if (!copy.series) {
         copy.series = {};
       }
-      copy.series.shortname = isoInfo?.series.shortname ?? spec.__last?.series.shortname;
+      copy.series.shortname = isoInfo?.shortname ?? spec.__last?.series.shortname;
+      copy.series.currentSpecification = isoInfo?.shortname ?? spec.__last?.series.currentSpecification;
       return copy;
     }
     else {

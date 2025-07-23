@@ -156,7 +156,7 @@ describe("fetch-groups module (without API keys)", function () {
       assert.equal(res[1].organization, "W3C");
       assert.deepStrictEqual(res[1].groups, [{
         name: "Accessible Rich Internet Applications Working Group",
-        url: "https://www.w3.org/WAI/ARIA/"
+        url: "https://www.w3.org/WAI/about/groups/ariawg/"
       }]);
     });
 

@@ -208,7 +208,11 @@ async function runFetchLastPublished(index) {
   const lastIndexStr = await fs.readFile(lastIndexFile, 'utf8');
   const lastIndex = JSON.parse(lastIndexStr);
   const decoratedIndex = index.map(spec => {
-    const last = lastIndex.find(s => s.shortname === spec.shortname);
+    // Match on shortname first (transition from ED to FPWD changes the URL)
+    // and then on the URL (computed shortname of ISO specs is an internal ID
+    // at this step)
+    const last = lastIndex.find(s => s.shortname === spec.shortname) ??
+      lastIndex.find(s => s.url === spec.url);
     if (last) {
       spec.__last = last;
     }

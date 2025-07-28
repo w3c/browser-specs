@@ -1732,12 +1732,22 @@
   },
   {
     "nightly": {
+      "url": "https://www.w3.org/TR/ttml-imsc1.2/",
       "sourcePath": "imsc1/spec/ttml-ww-profiles.html"
     },
     "categories": [
       "-browser"
     ],
     "url": "https://www.w3.org/TR/ttml-imsc1.2/"
+  },
+  {
+    "nightly": {
+      "sourcePath": "imsc1/spec/ttml-ww-profiles.html"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/ttml-imsc1.3/"
   },
   {
     "categories": [

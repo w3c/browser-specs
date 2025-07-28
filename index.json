@@ -27500,6 +27500,120 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/vc-di-eddsa/",
+    "seriesComposition": "full",
+    "shortname": "vc-di-eddsa",
+    "series": {
+      "shortname": "vc-di-eddsa",
+      "currentSpecification": "vc-di-eddsa",
+      "title": "EdDSA Cryptosuite",
+      "shortTitle": "EdDSA Cryptosuite",
+      "releaseUrl": "https://www.w3.org/TR/vc-di-eddsa/",
+      "nightlyUrl": "https://w3c.github.io/vc-di-eddsa/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-di-eddsa/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-di-eddsa/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-di-eddsa",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Data Integrity EdDSA Cryptosuites v1.0",
+    "source": "w3c",
+    "shortTitle": "Data Integrity EdDSA Cryptosuites v1.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-jose-cose/",
+    "seriesComposition": "full",
+    "shortname": "vc-jose-cose",
+    "series": {
+      "shortname": "vc-jose-cose",
+      "currentSpecification": "vc-jose-cose",
+      "title": "Securing Verifiable Credentials using JOSE and COSE",
+      "shortTitle": "Securing Verifiable Credentials using JOSE and COSE",
+      "releaseUrl": "https://www.w3.org/TR/vc-jose-cose/",
+      "nightlyUrl": "https://w3c.github.io/vc-jose-cose/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-jose-cose/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-jose-cose/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-jose-cose",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Securing Verifiable Credentials using JOSE and COSE",
+    "source": "w3c",
+    "shortTitle": "Securing Verifiable Credentials using JOSE and COSE",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-json-schema/",
+    "seriesComposition": "full",
+    "shortname": "vc-json-schema",
+    "series": {
+      "shortname": "vc-json-schema",
+      "currentSpecification": "vc-json-schema",
+      "title": "Verifiable Credentials JSON Schema Specification",
+      "shortTitle": "Verifiable Credentials JSON Schema",
+      "releaseUrl": "https://www.w3.org/TR/vc-json-schema/",
+      "nightlyUrl": "https://w3c.github.io/vc-json-schema/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-json-schema/",
+      "status": "Candidate Recommendation Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-json-schema/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-json-schema",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Verifiable Credentials JSON Schema Specification",
+    "source": "w3c",
+    "shortTitle": "Verifiable Credentials JSON Schema",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vibration/",
     "seriesComposition": "full",
     "shortname": "vibration",

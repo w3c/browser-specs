@@ -396,7 +396,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "cookiestore"
+      ]
+    }
   },
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",

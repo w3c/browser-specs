@@ -6289,6 +6289,10 @@
       {
         "name": "Accessible Rich Internet Applications Working Group",
         "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+      },
+      {
+        "name": "SVG Accessibility Task Force",
+        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
       }
     ],
     "nightly": {

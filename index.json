@@ -2191,7 +2191,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "top-level-storage-access-api"
+      ]
+    }
   },
   {
     "url": "https://privacycg.github.io/saa-non-cookie-storage/",
@@ -8636,7 +8642,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "fenced-frame"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/file-system-access/",
@@ -9204,7 +9216,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "font-access"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/manifest-incubations/",
@@ -9374,7 +9392,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "speculation-rules"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/netinfo/",
@@ -10342,7 +10366,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "trust-tokens"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/turtledove/",
@@ -10912,7 +10942,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -10937,7 +10967,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -10962,7 +10992,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -13085,7 +13115,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "autoplay-policy-detection"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/badging/",
@@ -13560,7 +13596,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "compute-pressure"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/contact-picker/",
@@ -14070,7 +14112,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-anchor-position"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-animation-worklet-1/",
@@ -14974,7 +15022,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-color-hdr"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-conditional-3/",
@@ -15869,7 +15923,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-gaps"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-gcpm-3/",
@@ -16116,7 +16176,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-highlight-api"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-images-3/",
@@ -16550,7 +16616,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-mixins"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-multicol-1/",
@@ -16789,7 +16861,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-nesting"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-overflow-3/",
@@ -17419,7 +17497,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-rhythm"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/css-round-display-1/",

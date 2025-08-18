@@ -183,7 +183,7 @@ describe("fetch-groups module (without API keys)", function () {
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
         name: "Cascading Style Sheets (CSS) Working Group",
-        url: "https://www.w3.org/Style/CSS/"
+        url: "https://www.w3.org/groups/wg/css/"
       }]);
     });
 
@@ -192,7 +192,7 @@ describe("fetch-groups module (without API keys)", function () {
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
         name: "Cascading Style Sheets (CSS) Working Group",
-        url: "https://www.w3.org/Style/CSS/"
+        url: "https://www.w3.org/groups/wg/css/"
       }]);
     });
 
@@ -201,7 +201,7 @@ describe("fetch-groups module (without API keys)", function () {
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
         name: "Cascading Style Sheets (CSS) Working Group",
-        url: "https://www.w3.org/Style/CSS/"
+        url: "https://www.w3.org/groups/wg/css/"
       }]);
     });
 

@@ -487,6 +487,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-iterator-sequencing/",
   {
     "url": "https://tc39.es/proposal-json-modules/",
     "standing": "discontinued",

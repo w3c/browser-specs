@@ -5496,6 +5496,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-iterator-sequencing/",
+    "seriesComposition": "full",
+    "shortname": "tc39-iterator-sequencing",
+    "series": {
+      "shortname": "tc39-iterator-sequencing",
+      "currentSpecification": "tc39-iterator-sequencing",
+      "title": "Iterator Sequencing",
+      "shortTitle": "Iterator Sequencing",
+      "nightlyUrl": "https://tc39.es/proposal-iterator-sequencing/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-iterator-sequencing/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-iterator-sequencing",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Iterator Sequencing",
+    "source": "spec",
+    "shortTitle": "Iterator Sequencing",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-json-modules/",
     "seriesComposition": "full",
     "shortname": "tc39-json-modules",
@@ -5962,6 +5996,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-upsert/",
+    "seriesComposition": "full",
+    "shortname": "tc39-upsert",
+    "series": {
+      "shortname": "tc39-upsert",
+      "currentSpecification": "tc39-upsert",
+      "title": "Upsert",
+      "shortTitle": "Upsert",
+      "nightlyUrl": "https://tc39.es/proposal-upsert/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-upsert/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-upsert",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Upsert",
+    "source": "spec",
+    "shortTitle": "Upsert",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://testutils.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "testutils",
@@ -6141,6 +6209,39 @@
     "categories": [
       "browser"
     ],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-compact-syntax",
+    "series": {
+      "shortname": "shacl-compact-syntax",
+      "currentSpecification": "shacl12-compact-syntax",
+      "title": "SHACL Compact Syntax",
+      "shortTitle": "SHACL Compact Syntax",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-compact-syntax/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-compact-syntax/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL Compact Syntax",
+    "source": "spec",
+    "shortTitle": "SHACL Compact Syntax",
+    "categories": [],
     "standing": "good"
   },
   {

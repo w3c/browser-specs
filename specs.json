@@ -556,6 +556,7 @@
   "https://urlpattern.spec.whatwg.org/",
   "https://w3c-fedid.github.io/login-status/",
   "https://w3c.github.io/at-driver/",
+  "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
   {
     "shortname": "execCommand",
     "standing": "pending",

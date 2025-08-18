@@ -550,6 +550,7 @@
     ]
   },
   "https://tc39.es/proposal-temporal/",
+  "https://tc39.es/proposal-upsert/",
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",
   "https://urlpattern.spec.whatwg.org/",

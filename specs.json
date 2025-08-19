@@ -1957,6 +1957,10 @@
       "sourcePath": "woff2/index.html"
     }
   },
+  {
+    "shortTitle": "WoT Architecture 1.1",
+    "url": "https://www.w3.org/TR/wot-architecture11/"
+  },
   "https://www.w3.org/TR/wpub-ann/",
   "https://www.w3.org/TR/wpub/",
   "https://xhr.spec.whatwg.org/"

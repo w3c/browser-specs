@@ -6978,6 +6978,38 @@
     }
   },
   {
+    "url": "https://w3c.github.io/wot-bindings-registry/",
+    "seriesComposition": "full",
+    "shortname": "wot-bindings-registry",
+    "series": {
+      "shortname": "wot-bindings-registry",
+      "currentSpecification": "wot-bindings-registry",
+      "title": "Web of Things (WoT) Bindings Registry",
+      "shortTitle": "WoT Bindings Registry",
+      "nightlyUrl": "https://w3c.github.io/wot-bindings-registry/"
+    },
+    "shortTitle": "WoT Bindings Registry",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/wot-bindings-registry/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-bindings-registry",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Bindings Registry",
+    "source": "spec",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
     "seriesComposition": "fork",
     "shortname": "wasm-core-2-fork-branch-hinting",
@@ -30609,6 +30641,83 @@
         "css/WOFF2"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/wot-architecture11/",
+    "seriesComposition": "full",
+    "shortname": "wot-architecture11",
+    "series": {
+      "shortname": "wot-architecture",
+      "currentSpecification": "wot-architecture11",
+      "title": "Web of Things (WoT) Architecture",
+      "shortTitle": "WoT Architecture",
+      "releaseUrl": "https://www.w3.org/TR/wot-architecture/",
+      "nightlyUrl": "https://w3c.github.io/wot-architecture/"
+    },
+    "seriesVersion": "1.1",
+    "shortTitle": "WoT Architecture 1.1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wot-architecture11/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wot-architecture/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-architecture",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Architecture 1.1",
+    "source": "w3c",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/wot-discovery/",
+    "seriesComposition": "full",
+    "shortname": "wot-discovery",
+    "series": {
+      "shortname": "wot-discovery",
+      "currentSpecification": "wot-discovery",
+      "title": "Web of Things (WoT) Discovery",
+      "shortTitle": "WoT Discovery",
+      "releaseUrl": "https://www.w3.org/TR/wot-discovery/",
+      "nightlyUrl": "https://w3c.github.io/wot-discovery/"
+    },
+    "shortTitle": "WoT Discovery",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wot-discovery/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wot-discovery/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-discovery",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Discovery",
+    "source": "w3c",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/wpub-ann/",

@@ -1961,6 +1961,10 @@
     "shortTitle": "WoT Architecture 1.1",
     "url": "https://www.w3.org/TR/wot-architecture11/"
   },
+  {
+    "shortTitle": "WoT Discovery",
+    "url": "https://www.w3.org/TR/wot-discovery/"
+  },
   "https://www.w3.org/TR/wpub-ann/",
   "https://www.w3.org/TR/wpub/",
   "https://xhr.spec.whatwg.org/"

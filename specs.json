@@ -607,6 +607,10 @@
   "https://w3c.github.io/webappsec-passkey-endpoints/",
   "https://w3c.github.io/webrtc-ice/",
   {
+    "shortTitle": "WoT Bindings Registry",
+    "url": "https://w3c.github.io/wot-bindings-registry/"
+  },
+  {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
     "forkOf": "wasm-core-2",
     "title": "WebAssembly Core: Branch Hinting"

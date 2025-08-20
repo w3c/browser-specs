@@ -10875,6 +10875,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/webcrypto-modern-algos/",
+    "seriesComposition": "full",
+    "shortname": "webcrypto-modern-algos",
+    "series": {
+      "shortname": "webcrypto-modern-algos",
+      "currentSpecification": "webcrypto-modern-algos",
+      "title": "Modern Algorithms in the Web Cryptography API",
+      "shortTitle": "Modern Algorithms in the Web Cryptography API",
+      "nightlyUrl": "https://wicg.github.io/webcrypto-modern-algos/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/webcrypto-modern-algos/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/webcrypto-modern-algos",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Modern Algorithms in the Web Cryptography API",
+    "source": "spec",
+    "shortTitle": "Modern Algorithms in the Web Cryptography API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/webcrypto-secure-curves/",
     "seriesComposition": "full",
     "shortname": "webcrypto-secure-curves",
@@ -28418,6 +28452,86 @@
         "wasm/webapi"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/wcag-3.0/",
+    "seriesComposition": "full",
+    "shortname": "wcag-3.0",
+    "series": {
+      "shortname": "wcag",
+      "currentSpecification": "WCAG22",
+      "title": "Web Content Accessibility Guidelines (WCAG)",
+      "shortTitle": "WCAG",
+      "releaseUrl": "https://www.w3.org/TR/wcag/",
+      "nightlyUrl": "https://w3c.github.io/wcag/guidelines/22/"
+    },
+    "seriesVersion": "3.0",
+    "nightly": {
+      "url": "https://w3c.github.io/wcag3/guidelines/",
+      "status": "Editor's Draft",
+      "sourcePath": "src/pages/guidelines/index.astro",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wcag3",
+      "filename": "index.html"
+    },
+    "seriesPrevious": "WCAG22",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessibility Guidelines Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/agwg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wcag-3.0/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "W3C Accessibility Guidelines (WCAG) 3.0",
+    "source": "w3c",
+    "shortTitle": "WCAG 3.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "seriesComposition": "full",
+    "shortname": "WCAG22",
+    "series": {
+      "shortname": "wcag",
+      "currentSpecification": "WCAG22",
+      "title": "Web Content Accessibility Guidelines (WCAG)",
+      "shortTitle": "WCAG",
+      "releaseUrl": "https://www.w3.org/TR/wcag/",
+      "nightlyUrl": "https://w3c.github.io/wcag/guidelines/22/"
+    },
+    "seriesVersion": "2.2",
+    "seriesNext": "wcag-3.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessibility Guidelines Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/agwg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wcag/guidelines/22/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wcag",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+    "source": "w3c",
+    "shortTitle": "WCAG 2.2",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/web-animations-1/",

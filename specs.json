@@ -871,6 +871,7 @@
       "sourcePath": "managed_config/index.bs"
     }
   },
+  "https://wicg.github.io/webcrypto-modern-algos/",
   "https://wicg.github.io/webcrypto-secure-curves/",
   "https://wicg.github.io/webhid/",
   "https://wicg.github.io/webpackage/loading.html",

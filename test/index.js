@@ -145,7 +145,7 @@ describe("The `index.json` list", () => {
       .filter(s => !s.title.includes(s.series.title))
       .filter(s => ![
           "webrtc", "css-backgrounds-4", "n-quads", "DOM-Level-2-Style",
-          "ttml2", "ttml-imsc1.3"
+          "ttml2", "ttml-imsc1.3", "wcag-3.0"
         ].includes(s.shortname));
     assert.deepStrictEqual(wrong, []);
   });

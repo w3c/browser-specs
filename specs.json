@@ -817,7 +817,13 @@
     "url": "https://wicg.github.io/prefer-current-tab/",
     "standing": "good"
   },
-  "https://wicg.github.io/private-network-access/",
+  {
+    "url": "https://wicg.github.io/private-network-access/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "local-network-access"
+    ]
+  },
   "https://wicg.github.io/responsive-image-client-hints/",
   "https://wicg.github.io/sanitizer-api/",
   "https://wicg.github.io/savedata/",

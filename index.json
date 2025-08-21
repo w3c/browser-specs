@@ -9994,6 +9994,10 @@
       "shortTitle": "Private Network Access",
       "nightlyUrl": "https://wicg.github.io/private-network-access/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "local-network-access"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -10015,7 +10019,6 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

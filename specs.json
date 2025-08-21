@@ -603,8 +603,6 @@
     "url": "https://w3c.github.io/web-share-target/",
     "standing": "good"
   },
-  "https://w3c.github.io/webappsec-dbsc/",
-  "https://w3c.github.io/webappsec-passkey-endpoints/",
   "https://w3c.github.io/webrtc-ice/",
   {
     "shortTitle": "WoT Bindings Registry",
@@ -1294,6 +1292,12 @@
     ],
     "url": "https://www.w3.org/TR/dapt/"
   },
+  {
+    "url": "https://www.w3.org/TR/dbsc-1/",
+    "formerNames": [
+      "dbsc"
+    ]
+  },
   "https://www.w3.org/TR/design-principles/",
   "https://www.w3.org/TR/device-memory-1/",
   "https://www.w3.org/TR/device-posture/",
@@ -1616,6 +1620,12 @@
     "url": "https://www.w3.org/TR/owl-time/"
   },
   "https://www.w3.org/TR/paint-timing/",
+  {
+    "url": "https://www.w3.org/TR/passkey-endpoints-1/",
+    "formerNames": [
+      "passkey-endpoints"
+    ]
+  },
   "https://www.w3.org/TR/payment-handler/",
   "https://www.w3.org/TR/payment-method-id/",
   "https://www.w3.org/TR/payment-method-manifest/",

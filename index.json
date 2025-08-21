@@ -6870,74 +6870,6 @@
     ]
   },
   {
-    "url": "https://w3c.github.io/webappsec-dbsc/",
-    "seriesComposition": "full",
-    "shortname": "dbsc",
-    "series": {
-      "shortname": "dbsc",
-      "currentSpecification": "dbsc",
-      "title": "Device Bound Session Credentials",
-      "shortTitle": "Device Bound Session Credentials",
-      "nightlyUrl": "https://w3c.github.io/webappsec-dbsc/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/webappsec-dbsc/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/webappsec-dbsc",
-      "sourcePath": "spec.bs",
-      "filename": "index.html"
-    },
-    "title": "Device Bound Session Credentials",
-    "source": "spec",
-    "shortTitle": "Device Bound Session Credentials",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/webappsec-passkey-endpoints/",
-    "seriesComposition": "full",
-    "shortname": "passkey-endpoints",
-    "series": {
-      "shortname": "passkey-endpoints",
-      "currentSpecification": "passkey-endpoints",
-      "title": "A Well-Known URL for Relying Party Passkey Endpoints",
-      "shortTitle": "A Well-Known URL for Relying Party Passkey Endpoints",
-      "nightlyUrl": "https://w3c.github.io/webappsec-passkey-endpoints/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Application Security Working Group",
-        "url": "https://www.w3.org/groups/wg/webappsec/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/webappsec-passkey-endpoints/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/webappsec-passkey-endpoints",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "A Well-Known URL for Relying Party Passkey Endpoints",
-    "source": "spec",
-    "shortTitle": "A Well-Known URL for Relying Party Passkey Endpoints",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/webrtc-ice/",
     "seriesComposition": "full",
     "shortname": "webrtc-ice",
@@ -19796,6 +19728,50 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/dbsc-1/",
+    "seriesComposition": "full",
+    "shortname": "dbsc-1",
+    "series": {
+      "shortname": "dbsc",
+      "currentSpecification": "dbsc-1",
+      "title": "Device Bound Session Credentials",
+      "shortTitle": "Device Bound Session Credentials",
+      "releaseUrl": "https://www.w3.org/TR/dbsc/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-dbsc/"
+    },
+    "seriesVersion": "1",
+    "formerNames": [
+      "dbsc"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/dbsc-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-dbsc/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webappsec-dbsc",
+      "sourcePath": "spec.bs",
+      "filename": "index.html"
+    },
+    "title": "Device Bound Session Credentials",
+    "source": "w3c",
+    "shortTitle": "Device Bound Session Credentials",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/design-principles/",
     "seriesComposition": "full",
     "shortname": "design-principles",
@@ -24066,6 +24042,50 @@
         "paint-timing"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/passkey-endpoints-1/",
+    "seriesComposition": "full",
+    "shortname": "passkey-endpoints-1",
+    "series": {
+      "shortname": "passkey-endpoints",
+      "currentSpecification": "passkey-endpoints-1",
+      "title": "A Well-Known URL for Relying Party Passkey Endpoints",
+      "shortTitle": "A Well-Known URL for Relying Party Passkey Endpoints",
+      "releaseUrl": "https://www.w3.org/TR/passkey-endpoints/",
+      "nightlyUrl": "https://w3c.github.io/webappsec-passkey-endpoints/"
+    },
+    "seriesVersion": "1",
+    "formerNames": [
+      "passkey-endpoints"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Application Security Working Group",
+        "url": "https://www.w3.org/groups/wg/webappsec/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/passkey-endpoints-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webappsec-passkey-endpoints/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webappsec-passkey-endpoints",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "A Well-Known URL for Relying Party Passkey Endpoints",
+    "source": "w3c",
+    "shortTitle": "A Well-Known URL for Relying Party Passkey Endpoints",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/payment-handler/",

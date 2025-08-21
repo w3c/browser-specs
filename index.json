@@ -9358,6 +9358,46 @@
     }
   },
   {
+    "url": "https://wicg.github.io/local-network-access/",
+    "seriesComposition": "full",
+    "shortname": "local-network-access",
+    "series": {
+      "shortname": "local-network-access",
+      "currentSpecification": "local-network-access",
+      "title": "Local Network Access",
+      "shortTitle": "Local Network Access",
+      "nightlyUrl": "https://wicg.github.io/local-network-access/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/local-network-access/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/local-network-access",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Local Network Access",
+    "source": "spec",
+    "shortTitle": "Local Network Access",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "fetch/local-network-access"
+      ]
+    }
+  },
+  {
     "url": "https://wicg.github.io/manifest-incubations/",
     "seriesComposition": "full",
     "shortname": "manifest-incubations",

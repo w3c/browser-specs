@@ -30897,6 +30897,83 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/wot-profile/",
+    "seriesComposition": "full",
+    "shortname": "wot-profile",
+    "series": {
+      "shortname": "wot-profile",
+      "currentSpecification": "wot-profile",
+      "title": "Web of Things (WoT) Profile",
+      "shortTitle": "WoT",
+      "releaseUrl": "https://www.w3.org/TR/wot-profile/",
+      "nightlyUrl": "https://w3c.github.io/wot-profile/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wot-profile/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wot-profile/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-profile",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Profile",
+    "source": "w3c",
+    "shortTitle": "WoT",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/wot-thing-description11/",
+    "seriesComposition": "full",
+    "shortname": "wot-thing-description11",
+    "series": {
+      "shortname": "wot-thing-description",
+      "currentSpecification": "wot-thing-description11",
+      "title": "Web of Things (WoT) Thing Description",
+      "shortTitle": "WoT",
+      "releaseUrl": "https://www.w3.org/TR/wot-thing-description/",
+      "nightlyUrl": "https://w3c.github.io/wot-thing-description/"
+    },
+    "seriesVersion": "1.1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wot-thing-description11/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wot-thing-description/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-thing-description",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Thing Description 1.1",
+    "source": "w3c",
+    "shortTitle": "WoT 1.1",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/wpub-ann/",
     "seriesComposition": "full",
     "shortname": "wpub-ann",

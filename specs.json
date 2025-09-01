@@ -557,6 +557,7 @@
   "https://w3c-fedid.github.io/login-status/",
   "https://w3c.github.io/at-driver/",
   "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
+  "https://w3c.github.io/data-shapes/shacl12-inf-rules/",
   {
     "shortname": "execCommand",
     "standing": "pending",

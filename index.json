@@ -6245,6 +6245,72 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/data-shapes/shacl12-inf-rules/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-inf-rules",
+    "series": {
+      "shortname": "shacl-inf-rules",
+      "currentSpecification": "shacl12-inf-rules",
+      "title": "SHACL 1.2 Inference Rules",
+      "shortTitle": "SHACL 1.2 Inference Rules",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-inf-rules/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-inf-rules/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-inf-rules/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Inference Rules",
+    "source": "spec",
+    "shortTitle": "SHACL 1.2 Inference Rules",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-node-expr",
+    "series": {
+      "shortname": "shacl-node-expr",
+      "currentSpecification": "shacl12-node-expr",
+      "title": "SHACL 1.2 Node Expressions",
+      "shortTitle": "SHACL 1.2 Node Expressions",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-node-expr/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-node-expr/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Node Expressions",
+    "source": "spec",
+    "shortTitle": "SHACL 1.2 Node Expressions",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/editing/docs/execCommand/",
     "seriesComposition": "full",
     "shortname": "execCommand",
@@ -6908,6 +6974,38 @@
         "webrtc-ice"
       ]
     }
+  },
+  {
+    "url": "https://w3c.github.io/wot-binding-registry/",
+    "seriesComposition": "full",
+    "shortname": "wot-binding-registry",
+    "series": {
+      "shortname": "wot-binding-registry",
+      "currentSpecification": "wot-binding-registry",
+      "title": "Web of Things (WoT) Binding Registry",
+      "shortTitle": "WoT",
+      "nightlyUrl": "https://w3c.github.io/wot-binding-registry/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/wot-binding-registry/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-binding-registry",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Binding Registry",
+    "source": "spec",
+    "shortTitle": "WoT",
+    "categories": [],
+    "standing": "good"
   },
   {
     "url": "https://w3c.github.io/wot-bindings-registry/",
@@ -19207,7 +19305,7 @@
   },
   {
     "url": "https://www.w3.org/TR/css-view-transitions-2/",
-    "seriesComposition": "delta",
+    "seriesComposition": "full",
     "shortname": "css-view-transitions-2",
     "series": {
       "shortname": "css-view-transitions",

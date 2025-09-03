@@ -2020,5 +2020,14 @@
   "https://www.w3.org/TR/wot-thing-description11/",
   "https://www.w3.org/TR/wpub-ann/",
   "https://www.w3.org/TR/wpub/",
+  {
+    "nightly": {
+      "sourcePath": "character-set.xml"
+    },
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://www.w3.org/TR/xml-entity-names/"
+  },
   "https://xhr.spec.whatwg.org/"
 ]

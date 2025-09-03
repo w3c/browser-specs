@@ -816,7 +816,13 @@
   },
   {
     "url": "https://wicg.github.io/nav-speculation/speculation-rules.html",
-    "shortname": "speculation-rules"
+    "title": "Speculation Rules",
+    "shortname": "speculation-rules",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "html",
+      "prerendering-revamped"
+    ]
   },
   "https://wicg.github.io/netinfo/",
   "https://wicg.github.io/observable/",

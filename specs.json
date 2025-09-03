@@ -131,7 +131,21 @@
   "https://fetch.spec.whatwg.org/",
   {
     "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html",
-    "shortname": "fido-v2.1",
+    "shortname": "fido-client-to-authenticator-protocol-v2.1",
+    "organization": "FIDO Alliance",
+    "groups": [
+      {
+        "name": "FIDO2 Technical Working Group",
+        "url": "https://fidoalliance.org/members/working-groups/#fido2-technical-working-group"
+      }
+    ],
+    "formerNames": [
+      "fido-v2.1"
+    ]
+  },
+  {
+    "url": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html",
+    "shortname": "fido-client-to-authenticator-protocol-v2.2",
     "organization": "FIDO Alliance",
     "groups": [
       {

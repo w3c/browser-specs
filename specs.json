@@ -144,7 +144,7 @@
     ]
   },
   {
-    "url": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html#idl-index",
+    "url": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html",
     "shortname": "fido-ctap-v2.2",
     "organization": "FIDO Alliance",
     "groups": [

@@ -1468,13 +1468,13 @@
   {
     "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html",
     "seriesComposition": "full",
-    "shortname": "fido-v2.1",
+    "shortname": "fido-client-to-authenticator-protocol-v2.1",
     "series": {
-      "shortname": "fido",
-      "currentSpecification": "fido-v2.1",
+      "shortname": "fido-client-to-authenticator-protocol",
+      "currentSpecification": "fido-client-to-authenticator-protocol-v2.2",
       "title": "Client to Authenticator Protocol (CTAP)",
       "shortTitle": "CTAP",
-      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
+      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html"
     },
     "seriesVersion": "2.1",
     "organization": "FIDO Alliance",
@@ -1484,11 +1484,49 @@
         "url": "https://fidoalliance.org/members/working-groups/#fido2-technical-working-group"
       }
     ],
+    "formerNames": [
+      "fido-v2.1"
+    ],
+    "seriesNext": "fido-client-to-authenticator-protocol-v2.2",
     "nightly": {
       "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "filename": "fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
+    },
+    "title": "Client to Authenticator Protocol (CTAP)",
+    "source": "spec",
+    "shortTitle": "CTAP",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html",
+    "seriesComposition": "full",
+    "shortname": "fido-client-to-authenticator-protocol-v2.2",
+    "series": {
+      "shortname": "fido-client-to-authenticator-protocol",
+      "currentSpecification": "fido-client-to-authenticator-protocol-v2.2",
+      "title": "Client to Authenticator Protocol (CTAP)",
+      "shortTitle": "CTAP",
+      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html"
+    },
+    "seriesVersion": "2.2",
+    "organization": "FIDO Alliance",
+    "groups": [
+      {
+        "name": "FIDO2 Technical Working Group",
+        "url": "https://fidoalliance.org/members/working-groups/#fido2-technical-working-group"
+      }
+    ],
+    "seriesPrevious": "fido-client-to-authenticator-protocol-v2.1",
+    "nightly": {
+      "url": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "fido-client-to-authenticator-protocol-v2.2-ps-20250714.html"
     },
     "title": "Client to Authenticator Protocol (CTAP)",
     "source": "spec",
@@ -9569,10 +9607,16 @@
     "series": {
       "shortname": "speculation-rules",
       "currentSpecification": "speculation-rules",
-      "title": "Moved to the HTML Standard",
-      "shortTitle": "Moved to the HTML",
+      "title": "Speculation Rules",
+      "shortTitle": "Speculation Rules",
       "nightlyUrl": "https://wicg.github.io/nav-speculation/speculation-rules.html"
     },
+    "title": "Speculation Rules",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "html",
+      "prerendering-revamped"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -9588,13 +9632,11 @@
       "sourcePath": "speculation-rules.html",
       "filename": "speculation-rules.html"
     },
-    "title": "Moved to the HTML Standard",
     "source": "spec",
-    "shortTitle": "Moved to the HTML",
+    "shortTitle": "Speculation Rules",
     "categories": [
       "browser"
     ],
-    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -31145,6 +31187,44 @@
     "source": "w3c",
     "shortTitle": "Web Publications",
     "standing": "discontinued"
+  },
+  {
+    "url": "https://www.w3.org/TR/xml-entity-names/",
+    "seriesComposition": "full",
+    "shortname": "xml-entity-names",
+    "series": {
+      "shortname": "xml-entity-names",
+      "currentSpecification": "xml-entity-names",
+      "title": "XML Entity Definitions for Characters",
+      "shortTitle": "XML Entity Definitions for Characters",
+      "releaseUrl": "https://www.w3.org/TR/xml-entity-names/",
+      "nightlyUrl": "https://w3c.github.io/xml-entities/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/xml-entities/",
+      "status": "Editor's Draft",
+      "sourcePath": "character-set.xml",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/xml-entities",
+      "filename": "index.html"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Math Working Group",
+        "url": "https://www.w3.org/Math/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/xml-entity-names/",
+      "status": "Recommendation",
+      "filename": "index.html"
+    },
+    "title": "XML Entity Definitions for Characters (3rd Edition)",
+    "source": "w3c",
+    "shortTitle": "XML Entity Definitions for Characters",
+    "standing": "good"
   },
   {
     "url": "https://xhr.spec.whatwg.org/",

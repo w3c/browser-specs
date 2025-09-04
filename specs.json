@@ -622,10 +622,6 @@
   "https://w3c.github.io/webrtc-ice/",
   "https://w3c.github.io/wot-binding-registry/",
   {
-    "shortTitle": "WoT Binding Registry",
-    "url": "https://w3c.github.io/wot-binding-registry/"
-  },
-  {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
     "forkOf": "wasm-core-2",
     "title": "WebAssembly Core: Branch Hinting"

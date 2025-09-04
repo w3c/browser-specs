@@ -620,7 +620,13 @@
     "standing": "good"
   },
   "https://w3c.github.io/webrtc-ice/",
-  "https://w3c.github.io/wot-binding-registry/",
+  {
+    "url": "https://w3c.github.io/wot-binding-registry/",
+    "shortTitle": "WoT Bindings Registry",
+    "formerNames": [
+      "wot-bindings-registry"
+    ]
+  },
   {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
     "forkOf": "wasm-core-2",

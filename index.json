@@ -694,6 +694,51 @@
     ]
   },
   {
+    "url": "https://drafts.csswg.org/css-anchor-position-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-anchor-position-2",
+    "series": {
+      "shortname": "css-anchor-position",
+      "currentSpecification": "css-anchor-position-1",
+      "title": "CSS Anchor Positioning",
+      "shortTitle": "CSS Anchor Positioning",
+      "releaseUrl": "https://www.w3.org/TR/css-anchor-position/",
+      "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-anchor-position-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-anchor-position-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-anchor-position-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-anchor-position-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Anchor Positioning Level 2",
+    "source": "spec",
+    "shortTitle": "CSS Anchor Positioning 2",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-anchor-position"
+      ]
+    }
+  },
+  {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
     "seriesComposition": "delta",
     "shortname": "css-backgrounds-4",
@@ -1672,6 +1717,7 @@
         "https://html.spec.whatwg.org/multipage/document-sequences.html",
         "https://html.spec.whatwg.org/multipage/browsing-the-web.html",
         "https://html.spec.whatwg.org/multipage/document-lifecycle.html",
+        "https://html.spec.whatwg.org/multipage/speculative-loading.html",
         "https://html.spec.whatwg.org/multipage/webappapis.html",
         "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html",
         "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html",
@@ -1769,6 +1815,40 @@
         "webxr/anchors"
       ]
     }
+  },
+  {
+    "url": "https://immersive-web.github.io/body-tracking/",
+    "seriesComposition": "full",
+    "shortname": "body-tracking",
+    "series": {
+      "shortname": "body-tracking",
+      "currentSpecification": "body-tracking",
+      "title": "WebXR Body Tracking",
+      "shortTitle": "WebXR Body Tracking",
+      "nightlyUrl": "https://immersive-web.github.io/body-tracking/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/body-tracking/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/immersive-web/body-tracking",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR Body Tracking Module - Level 1",
+    "source": "spec",
+    "shortTitle": "WebXR Body Tracking 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://immersive-web.github.io/model-element/",
@@ -14335,6 +14415,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
     },
     "seriesVersion": "1",
+    "seriesNext": "css-anchor-position-2",
     "organization": "W3C",
     "groups": [
       {

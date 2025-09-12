@@ -4,9 +4,13 @@
 
 import { describe, it } from "node:test";
 import assert from "node:assert";
+import process from "node:process";
 import fetchInfo from "../src/fetch-info.js";
 
+process.env.BROWSER_SPECS_MOCK_HTTP = true;
+
 import { MockAgent, setGlobalDispatcher, getGlobalDispatcher } from 'undici';
+
 
 describe("fetch-info module", function () {
   // Long time out since tests need to send network requests
@@ -196,7 +200,7 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].release.status, "Final Deliverable");
     });
 
-    /*it("uses the last published info when hitting an error fetching the spec", timeout, async () => {
+    it("uses the last published info when hitting an error fetching the spec", timeout, async () => {
       const defaultDispatcher = getGlobalDispatcher();
       const mockAgent = new MockAgent();
       setGlobalDispatcher(mockAgent);
@@ -217,9 +221,17 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].organization, spec.__last.organization);
 
       setGlobalDispatcher(defaultDispatcher);
-    });*/
+    });
 
     it("throws when it receives a 404 for the spec", timeout, async () => {
+      const defaultDispatcher = getGlobalDispatcher();
+      const mockAgent = new MockAgent();
+      setGlobalDispatcher(mockAgent);
+
+      mockAgent.get("https://example.com")
+        .intercept({ method: "GET", path: "/404" })
+        .reply(404);
+
       const spec = {
         url: "https://example.com/404",
         shortname: "example",
@@ -235,6 +247,8 @@ describe("fetch-info module", function () {
           return true;
         }
       );
+
+      setGlobalDispatcher(defaultDispatcher);
     });
   });
 

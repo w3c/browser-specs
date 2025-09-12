@@ -230,8 +230,8 @@ describe("fetch-info module", function () {
       await assert.rejects(
         async () => fetchInfo([spec]),
         (err) => {
-          assert.strictEqual(err.name, 'Error');
-          assert.match(err.message, / failed with HTTP code 404/);
+          assert.strictEqual(err.name, 'HttpStatusError');
+          assert.match(err.message, / HTTP status 404/);
           return true;
         }
       );

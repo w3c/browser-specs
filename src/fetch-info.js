@@ -59,7 +59,7 @@ async function useKnownInfoWhereAppropriate(specs) {
 function catchAndFallbackOnExistingData(fn) {
   return function(spec) {
     return fn(spec).catch(err => {
-      if (err.message.match(/ failed with HTTP code 404/)) {
+      if (err.name === 'HttpStatusError' && err.status === 404) {
         // If server returns a 404 status, the spec is no longer available at
         // the expected URL. Data needs to change. Throwing in the absence of
         // a better reporting mechanism so that the error does not end up

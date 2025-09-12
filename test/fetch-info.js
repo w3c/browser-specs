@@ -196,7 +196,7 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].release.status, "Final Deliverable");
     });
 
-    it("uses the last published info when hitting an error fetching the spec", timeout, async () => {
+    /*it("uses the last published info when hitting an error fetching the spec", timeout, async () => {
       const defaultDispatcher = getGlobalDispatcher();
       const mockAgent = new MockAgent();
       setGlobalDispatcher(mockAgent);
@@ -217,6 +217,24 @@ describe("fetch-info module", function () {
       assert.equal(info[spec.shortname].organization, spec.__last.organization);
 
       setGlobalDispatcher(defaultDispatcher);
+    });*/
+
+    it("throws when it receives a 404 for the spec", timeout, async () => {
+      const spec = {
+        url: "https://example.com/404",
+        shortname: "example",
+        __last: {
+          organization: "Acme Corporation"
+        }
+      };
+      await assert.rejects(
+        async () => fetchInfo([spec]),
+        (err) => {
+          assert.strictEqual(err.name, 'HttpStatusError');
+          assert.match(err.message, / HTTP status 404/);
+          return true;
+        }
+      );
     });
   });
 

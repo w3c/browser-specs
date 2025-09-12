@@ -4,6 +4,16 @@
  * cause timeout issues on CSS servers.
  */
 
+class HttpStatusError extends Error {
+  constructor(url, status, statusText) {
+    super(`Could not fetch ${url}, got HTTP status ${status} ${statusText}`);
+    this.name = 'HttpStatusError';
+    this.url = url;
+    this.status = status;
+    this.statusText = statusText;
+  }
+}
+
 export default async function (url, page) {
   // Inner function that returns a network interception method for Puppeteer,
   // to avoid downloading images and getting stuck on streams.
@@ -48,7 +58,7 @@ export default async function (url, page) {
     const response = await page.goto(url, { timeout: 120000, waitUntil: 'networkidle0' });
 
     if (response.status() !== 200) {
-      throw new Error(`Fetching ${url} failed with HTTP code ${response.status()}`);
+      throw new HttpStatusError(url, response.status(), response.statusText());
     }
     // Wait until the generation of the spec is completely over
     // (same code as in Reffy, except Reffy forces the latest version of

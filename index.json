@@ -1504,7 +1504,6 @@
         "fetch"
       ],
       "excludePaths": [
-        "fetch/fetch-later",
         "fetch/local-network-access",
         "fetch/metadata"
       ]

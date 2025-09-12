@@ -6362,39 +6362,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/data-shapes/shacl12-inf-rules/",
-    "seriesComposition": "full",
-    "shortname": "shacl12-inf-rules",
-    "series": {
-      "shortname": "shacl-inf-rules",
-      "currentSpecification": "shacl12-inf-rules",
-      "title": "SHACL 1.2 Inference Rules",
-      "shortTitle": "SHACL 1.2 Inference Rules",
-      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-inf-rules/"
-    },
-    "seriesVersion": "1.2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Data Shapes Working Group",
-        "url": "https://www.w3.org/groups/wg/data-shapes/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/data-shapes/shacl12-inf-rules/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/data-shapes",
-      "sourcePath": "shacl12-inf-rules/index.html",
-      "filename": "index.html"
-    },
-    "title": "SHACL 1.2 Inference Rules",
-    "source": "spec",
-    "shortTitle": "SHACL 1.2 Inference Rules",
-    "categories": [],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
     "seriesComposition": "full",
     "shortname": "shacl12-node-expr",
@@ -6424,6 +6391,42 @@
     "title": "SHACL 1.2 Node Expressions",
     "source": "spec",
     "shortTitle": "SHACL 1.2 Node Expressions",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-rules",
+    "series": {
+      "shortname": "shacl-rules",
+      "currentSpecification": "shacl12-rules",
+      "title": "SHACL 1.2 Rules",
+      "shortTitle": "SHACL 1.2 Rules",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-rules/"
+    },
+    "seriesVersion": "1.2",
+    "formerNames": [
+      "shacl12-inf-rules"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-rules/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Rules",
+    "source": "spec",
+    "shortTitle": "SHACL 1.2 Rules",
     "categories": [],
     "standing": "good"
   },
@@ -14225,7 +14228,7 @@
     "shortname": "css-2022",
     "series": {
       "shortname": "css",
-      "currentSpecification": "css-2024",
+      "currentSpecification": "css-2025",
       "title": "CSS Snapshot",
       "shortTitle": "CSS Snapshot",
       "releaseUrl": "https://www.w3.org/TR/css/",
@@ -14269,7 +14272,7 @@
     "shortname": "css-2023",
     "series": {
       "shortname": "css",
-      "currentSpecification": "css-2024",
+      "currentSpecification": "css-2025",
       "title": "CSS Snapshot",
       "shortTitle": "CSS Snapshot",
       "releaseUrl": "https://www.w3.org/TR/css/",
@@ -14314,7 +14317,7 @@
     "shortname": "css-2024",
     "series": {
       "shortname": "css",
-      "currentSpecification": "css-2024",
+      "currentSpecification": "css-2025",
       "title": "CSS Snapshot",
       "shortTitle": "CSS Snapshot",
       "releaseUrl": "https://www.w3.org/TR/css/",
@@ -14322,6 +14325,7 @@
     },
     "seriesVersion": "2024",
     "seriesPrevious": "css-2023",
+    "seriesNext": "css-2025",
     "organization": "W3C",
     "groups": [
       {
@@ -14347,6 +14351,50 @@
     "title": "CSS Snapshot 2024",
     "source": "w3c",
     "shortTitle": "CSS Snapshot 2024",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-2025/",
+    "seriesComposition": "full",
+    "shortname": "css-2025",
+    "series": {
+      "shortname": "css",
+      "currentSpecification": "css-2025",
+      "title": "CSS Snapshot",
+      "shortTitle": "CSS Snapshot",
+      "releaseUrl": "https://www.w3.org/TR/css/",
+      "nightlyUrl": "https://drafts.csswg.org/css/"
+    },
+    "seriesVersion": "2025",
+    "seriesPrevious": "css-2024",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-2025/",
+      "status": "Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-2025/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-2025/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-2025/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Snapshot 2025",
+    "source": "w3c",
+    "shortTitle": "CSS Snapshot 2025",
     "categories": [
       "browser"
     ],

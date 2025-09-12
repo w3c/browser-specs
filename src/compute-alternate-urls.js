@@ -6,15 +6,16 @@
 import computeShortname from "./compute-shortname.js";
 
 export default function (spec) {
-  if (!spec?.url) {
+  if (!spec?.url || !spec?.nightly) {
     throw "Invalid spec object passed as parameter";
   }
-  const alternate = [];
+  const alternate = new Set(spec.nightly.alternateUrls);
+
   // Document well-known patterns also used in other specs
   // datatracker and (now deprecated) tools.ietf.org
   if (spec.organization === "IETF" && spec.url.startsWith("https://www.rfc-editor.org/rfc/")) {
-    alternate.push(spec.url.replace("https://www.rfc-editor.org/rfc/", "https://datatracker.ietf.org/doc/html/"));
-    alternate.push(spec.url.replace("https://www.rfc-editor.org/rfc/", "https://tools.ietf.org/html/"));
+    alternate.add(spec.url.replace("https://www.rfc-editor.org/rfc/", "https://datatracker.ietf.org/doc/html/"));
+    alternate.add(spec.url.replace("https://www.rfc-editor.org/rfc/", "https://tools.ietf.org/html/"));
   }
 
   // Add alternate w3c.github.io URLs for CSS specs
@@ -24,12 +25,12 @@ export default function (spec) {
   // and not for the CSS 2.x series)
   if (spec?.nightly?.url.match(/\/drafts\.csswg\.org/)) {
     const draft = computeShortname(spec.nightly.url);
-    alternate.push(`https://w3c.github.io/csswg-drafts/${draft.shortname}/`);
+    alternate.add(`https://w3c.github.io/csswg-drafts/${draft.shortname}/`);
     if ((spec.series.currentSpecification === spec.shortname) &&
         (draft.shortname !== draft.series.shortname) &&
         (draft.series.shortname !== 'css')) {
-      alternate.push(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
+      alternate.add(`https://w3c.github.io/csswg-drafts/${draft.series.shortname}/`);
     }
   }
-  return alternate;
+  spec.nightly.alternateUrls = Array.from(alternate);
 };

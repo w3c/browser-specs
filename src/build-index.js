@@ -290,6 +290,8 @@ async function runInfo(specs) {
 
     // If we're reusing last published discontinued info,
     // forget alternate URLs and rebuild them from scratch.
+    // Also note code may be reusing last published info when some
+    // network timeout occurred while fetching the spec.
     if (res.nightly) {
       if (res.__last?.standing === 'discontinued' &&
           (!res.standing || res.standing === 'discontinued')) {
@@ -298,7 +300,7 @@ async function runInfo(specs) {
       else if (!res.nightly.alternateUrls) {
         res.nightly.alternateUrls = [];
       }
-      res.nightly.alternateUrls = res.nightly.alternateUrls.concat(computeAlternateUrls(res));
+      computeAlternateUrls(res);
     }
 
     return res;

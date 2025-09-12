@@ -4,6 +4,9 @@
  * cause timeout issues on CSS servers.
  */
 
+import process from "node:process";
+import { Buffer } from "node:buffer";
+
 class HttpStatusError extends Error {
   constructor(url, status, statusText) {
     super(`Could not fetch ${url}, got HTTP status ${status} ${statusText}`);
@@ -36,6 +39,27 @@ export default async function (url, page) {
             request.url.startsWith('https://api.csswg.org/shepherd/') ||
             request.url.startsWith('https://test.csswg.org/harness/')) {
           await cdp.send('Fetch.failRequest', { requestId, errorReason: 'Failed' });
+          return;
+        }
+
+        // Test mode, process the request within the Node.js process so that we
+        // can mock the HTTP agent
+        if (process.env.BROWSER_SPECS_MOCK_HTTP) {
+          const response = await fetch(request.url, {
+            headers: request.headers
+          });
+          const body = Buffer.from(await response.arrayBuffer());
+          const headers = [];
+          response.headers.forEach((value, name) => {
+            headers.push({ name, value });
+          });
+
+          await cdp.send('Fetch.fulfillRequest', {
+            requestId,
+            responseCode: response.status,
+            responseHeaders: headers,
+            body: body.toString('base64')
+          });
           return;
         }
 

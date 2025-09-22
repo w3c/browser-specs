@@ -28420,6 +28420,89 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/vocab-ssn-2017/",
+    "seriesComposition": "full",
+    "shortname": "vocab-ssn-2017",
+    "series": {
+      "shortname": "vocab-ssn",
+      "currentSpecification": "vocab-ssn-2017",
+      "title": "Semantic Sensor Network Ontology",
+      "shortTitle": "Semantic Sensor Network Ontology",
+      "releaseUrl": "https://www.w3.org/TR/vocab-ssn/",
+      "nightlyUrl": "https://w3c.github.io/sdw/ssn/"
+    },
+    "seriesVersion": "2017",
+    "organization": "W3C/OGC",
+    "nightly": {
+      "url": "https://w3c.github.io/sdw/ssn/",
+      "status": "Editor's Draft",
+      "sourcePath": "ssn/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/sdw",
+      "filename": "index.html"
+    },
+    "formerNames": [
+      "vocab-ssn"
+    ],
+    "seriesNext": "vocab-ssn-2023",
+    "groups": [
+      {
+        "name": "Spatio-temporal Data on the Web Working Group",
+        "url": "https://www.w3.org/2021/sdw"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vocab-ssn-2017/",
+      "status": "Recommendation",
+      "filename": "Overview.html"
+    },
+    "title": "Semantic Sensor Network Ontology",
+    "source": "w3c",
+    "shortTitle": "Semantic Sensor Network Ontology",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vocab-ssn-2023/",
+    "seriesComposition": "full",
+    "shortname": "vocab-ssn-2023",
+    "series": {
+      "shortname": "vocab-ssn",
+      "currentSpecification": "vocab-ssn-2017",
+      "title": "Semantic Sensor Network Ontology",
+      "shortTitle": "Semantic Sensor Network Ontology",
+      "releaseUrl": "https://www.w3.org/TR/vocab-ssn/",
+      "nightlyUrl": "https://w3c.github.io/sdw/ssn/"
+    },
+    "seriesVersion": "2023",
+    "organization": "W3C/OGC",
+    "nightly": {
+      "url": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
+      "status": "Editor's Draft",
+      "sourcePath": "ssn/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/sdw-sosa-ssn",
+      "filename": "index.html"
+    },
+    "seriesPrevious": "vocab-ssn-2017",
+    "groups": [
+      {
+        "name": "Spatio-temporal Data on the Web Working Group",
+        "url": "https://www.w3.org/2021/sdw"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vocab-ssn-2023/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "Semantic Sensor Network Ontology - 2023 Edition",
+    "source": "w3c",
+    "shortTitle": "Semantic Sensor Network Ontology - 2023 Edition",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vocab-ssn-ext/",
     "seriesComposition": "full",
     "shortname": "vocab-ssn-ext",
@@ -28429,15 +28512,15 @@
       "title": "Extensions to the Semantic Sensor Network Ontology",
       "shortTitle": "Extensions to the Semantic Sensor Network Ontology",
       "releaseUrl": "https://www.w3.org/TR/vocab-ssn-ext/",
-      "nightlyUrl": "https://w3c.github.io/sdw-sosa-ssn/ssn-extensions/"
+      "nightlyUrl": "https://w3c.github.io/sdw/ssn-extensions/"
     },
     "organization": "W3C/OGC",
     "nightly": {
-      "url": "https://w3c.github.io/sdw-sosa-ssn/ssn-extensions/",
+      "url": "https://w3c.github.io/sdw/ssn-extensions/",
       "status": "Editor's Draft",
       "sourcePath": "ssn-extensions/index.html",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/sdw-sosa-ssn",
+      "repository": "https://github.com/w3c/sdw",
       "filename": "index.html"
     },
     "groups": [
@@ -28457,44 +28540,6 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
-  },
-  {
-    "url": "https://www.w3.org/TR/vocab-ssn/",
-    "seriesComposition": "full",
-    "shortname": "vocab-ssn",
-    "series": {
-      "shortname": "vocab-ssn",
-      "currentSpecification": "vocab-ssn",
-      "title": "Semantic Sensor Network Ontology",
-      "shortTitle": "Semantic Sensor Network Ontology",
-      "releaseUrl": "https://www.w3.org/TR/vocab-ssn/",
-      "nightlyUrl": "https://w3c.github.io/sdw-sosa-ssn/ssn/"
-    },
-    "organization": "W3C/OGC",
-    "nightly": {
-      "url": "https://w3c.github.io/sdw-sosa-ssn/ssn/",
-      "status": "Editor's Draft",
-      "sourcePath": "ssn/index.html",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/sdw-sosa-ssn",
-      "filename": "index.html"
-    },
-    "groups": [
-      {
-        "name": "Spatio-temporal Data on the Web Working Group",
-        "url": "https://www.w3.org/2021/sdw"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/vocab-ssn/",
-      "status": "Recommendation",
-      "filename": "Overview.html"
-    },
-    "title": "Semantic Sensor Network Ontology",
-    "source": "w3c",
-    "shortTitle": "Semantic Sensor Network Ontology",
-    "categories": [],
     "standing": "good"
   },
   {

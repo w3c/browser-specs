@@ -1872,16 +1872,26 @@
   {
     "organization": "W3C/OGC",
     "nightly": {
-      "sourcePath": "ssn-extensions/index.html"
+      "sourcePath": "ssn/index.html"
     },
-    "url": "https://www.w3.org/TR/vocab-ssn-ext/"
+    "url": "https://www.w3.org/TR/vocab-ssn-2017/",
+    "formerNames": [
+      "vocab-ssn"
+    ]
   },
   {
     "organization": "W3C/OGC",
     "nightly": {
       "sourcePath": "ssn/index.html"
     },
-    "url": "https://www.w3.org/TR/vocab-ssn/"
+    "url": "https://www.w3.org/TR/vocab-ssn-2023/"
+  },
+  {
+    "organization": "W3C/OGC",
+    "nightly": {
+      "sourcePath": "ssn-extensions/index.html"
+    },
+    "url": "https://www.w3.org/TR/vocab-ssn-ext/"
   },
   {
     "url": "https://www.w3.org/TR/wai-aria-1.2/",

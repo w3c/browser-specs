@@ -36,6 +36,7 @@ const nonBrowserGroups = [
   "RDF & SPARQL Working Group",
   "RDF Dataset Canonicalization and Hash Working Group",
   "RDF-star Working Group",
+  "Spatial Data on the Web Interest Group",
   "Spatio-temporal Data on the Web Working Group",
   "Technical Architecture Group",
   "Verifiable Credentials Working Group",

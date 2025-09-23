@@ -101,7 +101,6 @@
   },
   "https://drafts.csswg.org/css-color-6/ delta",
   "https://drafts.csswg.org/css-conditional-values-1/",
-  "https://drafts.csswg.org/css-env-1/",
   "https://drafts.csswg.org/css-extensions-1/",
   {
     "url": "https://drafts.csswg.org/css-gcpm-4/",
@@ -1158,6 +1157,7 @@
   "https://www.w3.org/TR/css-display-4/",
   "https://www.w3.org/TR/css-easing-1/",
   "https://www.w3.org/TR/css-easing-2/",
+  "https://www.w3.org/TR/css-env-1/",
   {
     "url": "https://www.w3.org/TR/css-flexbox-1/",
     "shortTitle": "CSS Flexbox 1"

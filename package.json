@@ -31,7 +31,7 @@
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "commander": "^14.0.0",
-    "puppeteer": "^24.22.0",
+    "puppeteer": "^24.22.2",
     "reffy": "^19.2.0",
     "rimraf": "^6.0.1",
     "undici": "^7.16.0"

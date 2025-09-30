@@ -21355,7 +21355,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "css/css-fill-stroke"
+        "css/fill-stroke"
       ]
     }
   },

@@ -473,15 +473,15 @@
     "standing": "good"
   },
   {
-    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-compression-dictionary",
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-layered-cookies/",
     "seriesComposition": "full",
-    "shortname": "compression-dictionary",
+    "shortname": "layered-cookies",
     "series": {
-      "shortname": "compression-dictionary",
-      "currentSpecification": "compression-dictionary",
-      "title": "Compression Dictionary Transport",
-      "shortTitle": "Compression Dictionary Transport",
-      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html"
+      "shortname": "layered-cookies",
+      "currentSpecification": "layered-cookies",
+      "title": "Cookies: HTTP State Management Mechanism",
+      "shortTitle": "Cookies: HTTP State Management Mechanism",
+      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html"
     },
     "organization": "IETF",
     "groups": [
@@ -491,16 +491,16 @@
       }
     ],
     "nightly": {
-      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-compression-dictionary.html",
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/httpwg/http-extensions",
-      "sourcePath": "draft-ietf-httpbis-compression-dictionary.md",
-      "filename": "draft-ietf-httpbis-compression-dictionary.html"
+      "sourcePath": "draft-ietf-httpbis-layered-cookies.md",
+      "filename": "draft-ietf-httpbis-layered-cookies.html"
     },
-    "title": "Compression Dictionary Transport",
+    "title": "Cookies: HTTP State Management Mechanism",
     "source": "ietf",
-    "shortTitle": "Compression Dictionary Transport",
+    "shortTitle": "Cookies: HTTP State Management Mechanism",
     "categories": [
       "browser"
     ],
@@ -4274,7 +4274,7 @@
     ],
     "nightly": {
       "url": "https://screen-share.github.io/captured-mouse-events/",
-      "status": "Draft Community Group Report",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/screen-share/captured-mouse-events",
       "sourcePath": "index.html",
@@ -4314,7 +4314,7 @@
     ],
     "nightly": {
       "url": "https://screen-share.github.io/element-capture/",
-      "status": "Draft Community Group Report",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/screen-share/element-capture",
       "sourcePath": "index.html",
@@ -12841,6 +12841,44 @@
     "title": "WebP Image Format",
     "source": "ietf",
     "shortTitle": "WebP Image Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9842",
+    "seriesComposition": "full",
+    "shortname": "rfc9842",
+    "series": {
+      "shortname": "rfc9842",
+      "currentSpecification": "rfc9842",
+      "title": "Compression Dictionary Transport",
+      "shortTitle": "Compression Dictionary Transport",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9842"
+    },
+    "formerNames": [
+      "compression-dictionary"
+    ],
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc9842",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9842",
+        "https://tools.ietf.org/html/rfc9842"
+      ],
+      "filename": "rfc9842.html"
+    },
+    "title": "Compression Dictionary Transport",
+    "source": "ietf",
+    "shortTitle": "Compression Dictionary Transport",
     "categories": [
       "browser"
     ],

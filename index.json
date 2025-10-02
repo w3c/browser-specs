@@ -4274,7 +4274,7 @@
     ],
     "nightly": {
       "url": "https://screen-share.github.io/captured-mouse-events/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/screen-share/captured-mouse-events",
       "sourcePath": "index.html",
@@ -4314,7 +4314,7 @@
     ],
     "nightly": {
       "url": "https://screen-share.github.io/element-capture/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/screen-share/element-capture",
       "sourcePath": "index.html",

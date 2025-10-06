@@ -512,6 +512,7 @@
   },
   "https://tc39.es/proposal-json-parse-with-source/",
   "https://tc39.es/proposal-math-sum/",
+  "https://tc39.es/proposal-nonextensible-applies-to-private/",
   {
     "url": "https://tc39.es/proposal-promise-try/",
     "standing": "discontinued",

@@ -5710,6 +5710,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-nonextensible-applies-to-private/",
+    "seriesComposition": "full",
+    "shortname": "tc39-nonextensible-applies-to-private",
+    "series": {
+      "shortname": "tc39-nonextensible-applies-to-private",
+      "currentSpecification": "tc39-nonextensible-applies-to-private",
+      "title": "Disallow Adding New Private Fields to Non-extensible Objects",
+      "shortTitle": "Disallow Adding New Private Fields to Non-extensible Objects",
+      "nightlyUrl": "https://tc39.es/proposal-nonextensible-applies-to-private/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-nonextensible-applies-to-private/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-nonextensible-applies-to-private",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Disallow Adding New Private Fields to Non-extensible Objects",
+    "source": "spec",
+    "shortTitle": "Disallow Adding New Private Fields to Non-extensible Objects",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-promise-try/",
     "seriesComposition": "full",
     "shortname": "tc39-promise-try",
@@ -17714,7 +17748,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-position-4/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -21014,12 +21048,12 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/epub-a11y-111/",
+    "url": "https://www.w3.org/TR/epub-a11y-12/",
     "seriesComposition": "full",
-    "shortname": "epub-a11y-111",
+    "shortname": "epub-a11y-12",
     "series": {
       "shortname": "epub-a11y",
-      "currentSpecification": "epub-a11y-111",
+      "currentSpecification": "epub-a11y-12",
       "title": "EPUB Accessibility",
       "shortTitle": "EPUB Accessibility",
       "releaseUrl": "https://www.w3.org/TR/epub-a11y/",
@@ -21034,6 +21068,9 @@
       "repository": "https://github.com/w3c/epub-specs",
       "filename": "index.html"
     },
+    "formerNames": [
+      "epub-a11y-111"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -21042,13 +21079,13 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/epub-a11y-111/",
+      "url": "https://www.w3.org/TR/epub-a11y-12/",
       "status": "Working Draft",
       "filename": "Overview.html"
     },
-    "title": "EPUB Accessibility 1.1.1",
+    "title": "EPUB Accessibility 1.2",
     "source": "w3c",
-    "shortTitle": "EPUB Accessibility 1.1.1",
+    "shortTitle": "EPUB Accessibility 1.2",
     "categories": [],
     "standing": "good"
   },

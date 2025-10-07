@@ -1460,7 +1460,10 @@
     "nightly": {
       "sourcePath": "epub34/a11y/index.html"
     },
-    "url": "https://www.w3.org/TR/epub-a11y-111/"
+    "url": "https://www.w3.org/TR/epub-a11y-12/",
+    "formerNames": [
+      "epub-a11y-111"
+    ]
   },
   {
     "url": "https://www.w3.org/TR/epub-rs-33/",

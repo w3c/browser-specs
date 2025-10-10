@@ -26436,7 +26436,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/ServiceWorker",
-      "sourcePath": "docs/index.bs",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Service Workers",

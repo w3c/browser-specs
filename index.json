@@ -11269,7 +11269,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -11294,7 +11294,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -11319,7 +11319,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -21400,7 +21400,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       },
       {
         "name": "Cascading Style Sheets (CSS) Working Group",
@@ -26988,7 +26988,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       }
     ],
     "release": {
@@ -27034,7 +27034,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       }
     ],
     "release": {
@@ -27074,7 +27074,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       }
     ],
     "release": {
@@ -27114,7 +27114,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       }
     ],
     "release": {
@@ -27205,7 +27205,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       }
     ],
     "release": {
@@ -27282,7 +27282,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       }
     ],
     "release": {

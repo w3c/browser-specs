@@ -724,7 +724,7 @@
       "sourcePath": "css-anchor-position-2/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Anchor Positioning Level 2",
+    "title": "CSS Anchor Positioning Module Level 2",
     "source": "spec",
     "shortTitle": "CSS Anchor Positioning 2",
     "categories": [
@@ -896,9 +896,9 @@
       "sourcePath": "css-extensions-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Extensions",
+    "title": "CSS Extensions Module Level 1",
     "source": "spec",
-    "shortTitle": "CSS Extensions",
+    "shortTitle": "CSS Extensions 1",
     "categories": [
       "browser"
     ],
@@ -1024,9 +1024,9 @@
       "sourcePath": "css-link-params-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Linked Parameters",
+    "title": "CSS Linked Parameters Module Level 1",
     "source": "spec",
-    "shortTitle": "CSS Linked Parameters",
+    "shortTitle": "CSS Linked Parameters 1",
     "categories": [
       "browser"
     ],
@@ -4426,7 +4426,7 @@
     "groups": [
       {
         "name": "SVG Working Group",
-        "url": "https://www.w3.org/Graphics/SVG/WG/"
+        "url": "https://www.w3.org/groups/wg/svg/"
       }
     ],
     "nightly": {

@@ -174,7 +174,7 @@ describe("fetch-groups module (without API keys)", function () {
       assert.equal(res.organization, "W3C");
       assert.deepStrictEqual(res.groups, [{
         name: "SVG Working Group",
-        url: "https://www.w3.org/Graphics/SVG/WG/"
+        url: "https://www.w3.org/groups/wg/svg/"
       }]);
     });
 

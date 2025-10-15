@@ -572,7 +572,12 @@
   "https://urlpattern.spec.whatwg.org/",
   "https://w3c-fedid.github.io/login-status/",
   "https://w3c.github.io/at-driver/",
-  "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
+  {
+    "url": "https://w3c.github.io/data-shapes/shacl12-cs/",
+    "formerNames": [
+      "shacl12-compact-syntax"
+    ]
+  },
   "https://w3c.github.io/data-shapes/shacl12-node-expr/",
   {
     "url": "https://w3c.github.io/data-shapes/shacl12-rules/",

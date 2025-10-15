@@ -6321,17 +6321,20 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
+    "url": "https://w3c.github.io/data-shapes/shacl12-cs/",
     "seriesComposition": "full",
-    "shortname": "shacl12-compact-syntax",
+    "shortname": "shacl12-cs",
     "series": {
-      "shortname": "shacl-compact-syntax",
-      "currentSpecification": "shacl12-compact-syntax",
+      "shortname": "shacl-cs",
+      "currentSpecification": "shacl12-cs",
       "title": "SHACL Compact Syntax",
       "shortTitle": "SHACL Compact Syntax",
-      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-compact-syntax/"
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-cs/"
     },
     "seriesVersion": "1.2",
+    "formerNames": [
+      "shacl12-compact-syntax"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -6340,11 +6343,11 @@
       }
     ],
     "nightly": {
-      "url": "https://w3c.github.io/data-shapes/shacl12-compact-syntax/",
+      "url": "https://w3c.github.io/data-shapes/shacl12-cs/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/data-shapes",
-      "sourcePath": "shacl12-compact-syntax/index.html",
+      "sourcePath": "shacl12-cs/index.html",
       "filename": "index.html"
     },
     "title": "SHACL Compact Syntax",
@@ -16120,7 +16123,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-flexbox-1/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {

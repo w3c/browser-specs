@@ -1024,9 +1024,9 @@
       "sourcePath": "css-link-params-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Linked Parameters Module Level 1",
+    "title": "CSS Linked Parameters",
     "source": "spec",
-    "shortTitle": "CSS Linked Parameters 1",
+    "shortTitle": "CSS Linked Parameters",
     "categories": [
       "browser"
     ],
@@ -12892,7 +12892,7 @@
       "currentSpecification": "rfc9842",
       "title": "Compression Dictionary Transport",
       "shortTitle": "Compression Dictionary Transport",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9842"
+      "nightlyUrl": "https://httpwg.org/specs/rfc9842.html"
     },
     "formerNames": [
       "compression-dictionary"
@@ -12905,12 +12905,14 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9842",
+      "url": "https://httpwg.org/specs/rfc9842.html",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc9842",
         "https://tools.ietf.org/html/rfc9842"
       ],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9842.xml",
       "filename": "rfc9842.html"
     },
     "title": "Compression Dictionary Transport",

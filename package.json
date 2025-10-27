@@ -30,7 +30,7 @@
     "@octokit/rest": "^22.0.0",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
-    "commander": "^14.0.1",
+    "commander": "^14.0.2",
     "puppeteer": "^24.24.1",
     "reffy": "^19.2.3",
     "rimraf": "^6.0.1",

@@ -84,6 +84,13 @@
       "sourcePath": "draft-davidben-http-client-hint-reliability.md"
     }
   },
+  {
+    "nightly": {
+      "repository": "https://github.com/ietf-wg-httpapi/idempotency",
+      "sourcePath": "draft-ietf-httpapi-idempotency-key-header.md"
+    },
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/"
+  },
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-layered-cookies/",
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis",

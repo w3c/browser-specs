@@ -473,6 +473,40 @@
     "standing": "good"
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/",
+    "seriesComposition": "full",
+    "shortname": "idempotency-key-header",
+    "series": {
+      "shortname": "idempotency-key-header",
+      "currentSpecification": "idempotency-key-header",
+      "title": "The Idempotency-Key HTTP Header Field",
+      "shortTitle": "The Idempotency-Key HTTP Header Field",
+      "nightlyUrl": "https://www.ietf.org/archive/id/draft-ietf-httpapi-idempotency-key-header-07.html"
+    },
+    "nightly": {
+      "url": "https://www.ietf.org/archive/id/draft-ietf-httpapi-idempotency-key-header-07.html",
+      "status": "Editor's Draft",
+      "repository": "https://github.com/ietf-wg-httpapi/idempotency",
+      "sourcePath": "draft-ietf-httpapi-idempotency-key-header.md",
+      "alternateUrls": [],
+      "filename": "draft-ietf-httpapi-idempotency-key-header-07.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Building Blocks for HTTP APIs Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpapi/"
+      }
+    ],
+    "title": "The Idempotency-Key HTTP Header Field",
+    "source": "ietf",
+    "shortTitle": "The Idempotency-Key HTTP Header Field",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-layered-cookies/",
     "seriesComposition": "full",
     "shortname": "layered-cookies",
@@ -692,51 +726,6 @@
     "categories": [
       "browser"
     ]
-  },
-  {
-    "url": "https://drafts.csswg.org/css-anchor-position-2/",
-    "seriesComposition": "delta",
-    "shortname": "css-anchor-position-2",
-    "series": {
-      "shortname": "css-anchor-position",
-      "currentSpecification": "css-anchor-position-1",
-      "title": "CSS Anchor Positioning",
-      "shortTitle": "CSS Anchor Positioning",
-      "releaseUrl": "https://www.w3.org/TR/css-anchor-position/",
-      "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
-    },
-    "seriesVersion": "2",
-    "seriesPrevious": "css-anchor-position-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/groups/wg/css/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-anchor-position-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-anchor-position-2/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-anchor-position-2/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Anchor Positioning Module Level 2",
-    "source": "spec",
-    "shortTitle": "CSS Anchor Positioning 2",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-anchor-position"
-      ]
-    }
   },
   {
     "url": "https://drafts.csswg.org/css-backgrounds-4/",
@@ -14525,6 +14514,56 @@
     "title": "CSS Anchor Positioning",
     "source": "w3c",
     "shortTitle": "CSS Anchor Positioning",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-anchor-position"
+      ]
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-anchor-position-2/",
+    "seriesComposition": "delta",
+    "shortname": "css-anchor-position-2",
+    "series": {
+      "shortname": "css-anchor-position",
+      "currentSpecification": "css-anchor-position-1",
+      "title": "CSS Anchor Positioning",
+      "shortTitle": "CSS Anchor Positioning",
+      "releaseUrl": "https://www.w3.org/TR/css-anchor-position/",
+      "nightlyUrl": "https://drafts.csswg.org/css-anchor-position/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-anchor-position-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-anchor-position-2/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-anchor-position-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-anchor-position-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-anchor-position-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Anchor Positioning Module Level 2",
+    "source": "w3c",
+    "shortTitle": "CSS Anchor Positioning 2",
     "categories": [
       "browser"
     ],

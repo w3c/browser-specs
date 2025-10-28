@@ -2298,6 +2298,40 @@
     "standing": "good"
   },
   {
+    "url": "https://privacycg.github.io/storage-access-headers/",
+    "seriesComposition": "full",
+    "shortname": "storage-access-headers",
+    "series": {
+      "shortname": "storage-access-headers",
+      "currentSpecification": "storage-access-headers",
+      "title": "Storage Access Headers",
+      "shortTitle": "Storage Access Headers",
+      "nightlyUrl": "https://privacycg.github.io/storage-access-headers/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Privacy Community Group",
+        "url": "https://www.w3.org/community/privacycg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://privacycg.github.io/storage-access-headers/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/privacycg/storage-access-headers",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Storage Access Headers",
+    "source": "spec",
+    "shortTitle": "Storage Access Headers",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://privacycg.github.io/storage-access/",
     "seriesComposition": "full",
     "shortname": "storage-access",

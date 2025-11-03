@@ -6413,6 +6413,39 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/data-shapes/shacl12-profiling/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-profiling",
+    "series": {
+      "shortname": "shacl-profiling",
+      "currentSpecification": "shacl12-profiling",
+      "title": "SHACL 1.2 Profiling",
+      "shortTitle": "SHACL 1.2 Profiling",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-profiling/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-profiling/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-profiling/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Profiling",
+    "source": "spec",
+    "shortTitle": "SHACL 1.2 Profiling",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
     "seriesComposition": "full",
     "shortname": "shacl12-rules",
@@ -6445,6 +6478,39 @@
     "title": "SHACL 1.2 Rules",
     "source": "spec",
     "shortTitle": "SHACL 1.2 Rules",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/data-shapes/shacl12-ui/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-ui",
+    "series": {
+      "shortname": "shacl-ui",
+      "currentSpecification": "shacl12-ui",
+      "title": "SHACL 1.2 User Interfaces",
+      "shortTitle": "SHACL 1.2 User Interfaces",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-ui/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-ui/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-ui/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 User Interfaces",
+    "source": "spec",
+    "shortTitle": "SHACL 1.2 User Interfaces",
     "categories": [],
     "standing": "good"
   },
@@ -28114,6 +28180,44 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/vc-confidence-method/",
+    "seriesComposition": "full",
+    "shortname": "vc-confidence-method",
+    "series": {
+      "shortname": "vc-confidence-method",
+      "currentSpecification": "vc-confidence-method",
+      "title": "Confidence Method v1.0",
+      "shortTitle": "Confidence Method v1.0",
+      "releaseUrl": "https://www.w3.org/TR/vc-confidence-method/",
+      "nightlyUrl": "https://w3c.github.io/vc-confidence-method/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-confidence-method/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-confidence-method/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-confidence-method",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Confidence Method v1.0",
+    "source": "w3c",
+    "shortTitle": "Confidence Method v1.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vc-data-integrity/",
     "seriesComposition": "full",
     "shortname": "vc-data-integrity",
@@ -28377,6 +28481,44 @@
     "title": "Verifiable Credentials JSON Schema Specification",
     "source": "w3c",
     "shortTitle": "Verifiable Credentials JSON Schema",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-render-method/",
+    "seriesComposition": "full",
+    "shortname": "vc-render-method",
+    "series": {
+      "shortname": "vc-render-method",
+      "currentSpecification": "vc-render-method",
+      "title": "Verifiable Credential Rendering Methods v1.0",
+      "shortTitle": "Verifiable Credential Rendering Methods v1.0",
+      "releaseUrl": "https://www.w3.org/TR/vc-render-method/",
+      "nightlyUrl": "https://w3c.github.io/vc-render-method/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-render-method/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-render-method/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-render-method",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Verifiable Credential Rendering Methods v1.0",
+    "source": "w3c",
+    "shortTitle": "Verifiable Credential Rendering Methods v1.0",
     "categories": [],
     "standing": "good"
   },

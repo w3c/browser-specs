@@ -610,7 +610,7 @@ async function findSpecs() {
         // We knew about the nightly URL, but the spec seems to have now been
         // published as a /TR URL. Report the entry unless we discarded the
         // spec already.
-        if (k.closed) {
+        if (known.closed) {
           return null;
         }
         entry.pendingIssue = known;

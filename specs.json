@@ -593,6 +593,7 @@
       "shacl12-inf-rules"
     ]
   },
+  "https://w3c.github.io/data-shapes/shacl12-ui/",
   {
     "shortname": "execCommand",
     "standing": "pending",

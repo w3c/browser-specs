@@ -27,7 +27,7 @@
     "@actions/core": "^1.11.1",
     "@jsdevtools/npm-publish": "^4.1.1",
     "@octokit/plugin-throttling": "^11.0.3",
-    "@octokit/rest": "^22.0.0",
+    "@octokit/rest": "^22.0.1",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "commander": "^14.0.2",

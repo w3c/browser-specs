@@ -616,6 +616,12 @@
     }
   },
   "https://w3c.github.io/mediacapture-surface-control/",
+  {
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://w3c.github.io/pdf-aam/"
+  },
   "https://w3c.github.io/permissions-registry/",
   {
     "url": "https://w3c.github.io/reporting/network-reporting.html",

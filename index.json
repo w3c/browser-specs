@@ -6837,6 +6837,42 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/pdf-aam/",
+    "seriesComposition": "full",
+    "shortname": "pdf-aam",
+    "series": {
+      "shortname": "pdf-aam",
+      "currentSpecification": "pdf-aam",
+      "title": "PDF Accessibility API Mappings",
+      "shortTitle": "PDF Accessibility API Mappings",
+      "nightlyUrl": "https://w3c.github.io/pdf-aam/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+      },
+      {
+        "name": "SVG Accessibility Task Force",
+        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/pdf-aam/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "pdf-aam/index.html",
+      "filename": "index.html"
+    },
+    "title": "PDF Accessibility API Mappings 1.0",
+    "source": "spec",
+    "shortTitle": "PDF Accessibility API Mappings 1.0",
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/permissions-registry/",
     "seriesComposition": "full",
     "shortname": "permissions-registry",

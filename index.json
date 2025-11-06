@@ -16099,7 +16099,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-display-4/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -25022,7 +25022,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/pointerevents3/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {

@@ -11397,7 +11397,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -11422,7 +11422,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -11447,7 +11447,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -29291,7 +29291,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/web-animations-2/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -29304,7 +29304,7 @@
       "sourcePath": "web-animations-2/Overview.bs",
       "filename": "index.html"
     },
-    "title": "Web Animations Level 2",
+    "title": "Web Animations Module Level 2",
     "source": "w3c",
     "shortTitle": "Web Animations 2",
     "categories": [

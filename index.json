@@ -1817,7 +1817,7 @@
     ],
     "nightly": {
       "url": "https://immersive-web.github.io/model-element/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/immersive-web/model-element",
       "sourcePath": "index.html",
@@ -4297,7 +4297,7 @@
     ],
     "nightly": {
       "url": "https://screen-share.github.io/captured-mouse-events/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/screen-share/captured-mouse-events",
       "sourcePath": "index.html",
@@ -4337,7 +4337,7 @@
     ],
     "nightly": {
       "url": "https://screen-share.github.io/element-capture/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/screen-share/element-capture",
       "sourcePath": "index.html",
@@ -8783,7 +8783,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/direct-sockets/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/direct-sockets",
       "sourcePath": "index.html",
@@ -9004,7 +9004,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/eyedropper-api/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/eyedropper-api",
       "sourcePath": "index.html",
@@ -9452,7 +9452,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/js-self-profiling/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/js-self-profiling",
       "sourcePath": "index.html",
@@ -9692,7 +9692,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/manifest-incubations/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/manifest-incubations",
       "sourcePath": "index.html",
@@ -10997,7 +10997,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/web-app-launch/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/web-app-launch",
       "sourcePath": "index.html",
@@ -11398,7 +11398,7 @@
     ],
     "nightly": {
       "url": "https://wicg.github.io/window-controls-overlay/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/window-controls-overlay",
       "sourcePath": "index.html",

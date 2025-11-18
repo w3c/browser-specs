@@ -7176,6 +7176,40 @@
     ]
   },
   {
+    "url": "https://w3c.github.io/webextensions/specification/index.html",
+    "seriesComposition": "full",
+    "shortname": "webextensions",
+    "series": {
+      "shortname": "webextensions",
+      "currentSpecification": "webextensions",
+      "title": "Web Extensions",
+      "shortTitle": "Web Extensions",
+      "nightlyUrl": "https://w3c.github.io/webextensions/specification/index.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webextensions/specification/index.html",
+      "status": "Draft Community Group Report",
+      "sourcePath": "specification/index.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webextensions",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebExtensions Community Group",
+        "url": "https://www.w3.org/community/webextensions/"
+      }
+    ],
+    "title": "Web Extensions",
+    "source": "spec",
+    "shortTitle": "Web Extensions",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/webrtc-ice/",
     "seriesComposition": "full",
     "shortname": "webrtc-ice",

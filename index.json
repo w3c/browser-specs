@@ -7207,7 +7207,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "web-extensions"
+      ]
+    }
   },
   {
     "url": "https://w3c.github.io/webrtc-ice/",

@@ -650,7 +650,7 @@
     "nightly": {
       "sourcePath": "specification/index.bs"
     },
-    "url": "https://w3c.github.io/webextensions/specification/index.html"
+    "url": "https://w3c.github.io/webextensions/specification/"
   },
   "https://w3c.github.io/webrtc-ice/",
   {

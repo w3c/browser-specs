@@ -7176,7 +7176,7 @@
     ]
   },
   {
-    "url": "https://w3c.github.io/webextensions/specification/index.html",
+    "url": "https://w3c.github.io/webextensions/specification/",
     "seriesComposition": "full",
     "shortname": "webextensions",
     "series": {
@@ -7184,10 +7184,10 @@
       "currentSpecification": "webextensions",
       "title": "Web Extensions",
       "shortTitle": "Web Extensions",
-      "nightlyUrl": "https://w3c.github.io/webextensions/specification/index.html"
+      "nightlyUrl": "https://w3c.github.io/webextensions/specification/"
     },
     "nightly": {
-      "url": "https://w3c.github.io/webextensions/specification/index.html",
+      "url": "https://w3c.github.io/webextensions/specification/",
       "status": "Draft Community Group Report",
       "sourcePath": "specification/index.bs",
       "alternateUrls": [],

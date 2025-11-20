@@ -33,7 +33,7 @@
     "commander": "^14.0.2",
     "puppeteer": "^24.30.0",
     "reffy": "^20.0.1",
-    "rimraf": "^6.1.0",
+    "rimraf": "^6.1.2",
     "undici": "^7.16.0"
   }
 }

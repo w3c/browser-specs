@@ -510,6 +510,7 @@
     ]
   },
   "https://tc39.es/proposal-iterator-sequencing/",
+  "https://tc39.es/proposal-joint-iteration/",
   {
     "url": "https://tc39.es/proposal-json-modules/",
     "standing": "discontinued",

@@ -2078,6 +2078,7 @@
     "shortTitle": "WoT Architecture 1.1",
     "url": "https://www.w3.org/TR/wot-architecture11/"
   },
+  "https://www.w3.org/TR/wot-binding-registry/",
   {
     "shortTitle": "WoT Discovery",
     "url": "https://www.w3.org/TR/wot-discovery/"

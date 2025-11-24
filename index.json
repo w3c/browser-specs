@@ -1832,6 +1832,74 @@
     "standing": "good"
   },
   {
+    "url": "https://immersive-web.github.io/plane-detection/plane-detection.html",
+    "seriesComposition": "full",
+    "shortname": "webxr-plane-detection",
+    "series": {
+      "shortname": "webxr-plane-detection",
+      "currentSpecification": "webxr-plane-detection",
+      "title": "WebXR Plane Detection",
+      "shortTitle": "WebXR Plane Detection",
+      "nightlyUrl": "https://immersive-web.github.io/plane-detection/plane-detection.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/plane-detection/plane-detection.html",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/immersive-web/plane-detection",
+      "sourcePath": "plane-detection.bs",
+      "filename": "plane-detection.html"
+    },
+    "title": "WebXR Plane Detection Module",
+    "source": "spec",
+    "shortTitle": "WebXR Plane Detection",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html",
+    "seriesComposition": "full",
+    "shortname": "webxr-meshing",
+    "series": {
+      "shortname": "webxr-meshing",
+      "currentSpecification": "webxr-meshing",
+      "title": "WebXR Meshing API",
+      "shortTitle": "WebXR Meshing API",
+      "nightlyUrl": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html",
+      "status": "A Collection of Interesting Ideas",
+      "alternateUrls": [],
+      "repository": "https://github.com/immersive-web/plane-detection",
+      "sourcePath": "webxrmeshing-1.bs",
+      "filename": "webxrmeshing-1.html"
+    },
+    "title": "WebXR Meshing API Level 1",
+    "source": "spec",
+    "shortTitle": "WebXR Meshing API 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "pending"
+  },
+  {
     "url": "https://immersive-web.github.io/raw-camera-access/",
     "seriesComposition": "full",
     "shortname": "raw-camera-access",
@@ -1864,74 +1932,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
-    "seriesComposition": "full",
-    "shortname": "webxr-plane-detection",
-    "series": {
-      "shortname": "webxr-plane-detection",
-      "currentSpecification": "webxr-plane-detection",
-      "title": "WebXR Plane Detection",
-      "shortTitle": "WebXR Plane Detection",
-      "nightlyUrl": "https://immersive-web.github.io/real-world-geometry/plane-detection.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Immersive Web Community Group",
-        "url": "https://www.w3.org/community/immersive-web/"
-      }
-    ],
-    "nightly": {
-      "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/immersive-web/real-world-geometry",
-      "sourcePath": "plane-detection.bs",
-      "filename": "plane-detection.html"
-    },
-    "title": "WebXR Plane Detection Module",
-    "source": "spec",
-    "shortTitle": "WebXR Plane Detection",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
-    "seriesComposition": "full",
-    "shortname": "webxr-meshing",
-    "series": {
-      "shortname": "webxr-meshing",
-      "currentSpecification": "webxr-meshing",
-      "title": "WebXR Meshing API",
-      "shortTitle": "WebXR Meshing API",
-      "nightlyUrl": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Immersive Web Community Group",
-        "url": "https://www.w3.org/community/immersive-web/"
-      }
-    ],
-    "nightly": {
-      "url": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
-      "status": "A Collection of Interesting Ideas",
-      "alternateUrls": [],
-      "repository": "https://github.com/immersive-web/real-world-geometry",
-      "sourcePath": "webxrmeshing-1.bs",
-      "filename": "webxrmeshing-1.html"
-    },
-    "title": "WebXR Meshing API Level 1",
-    "source": "spec",
-    "shortTitle": "WebXR Meshing API 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "pending"
   },
   {
     "url": "https://immersive-web.github.io/real-world-meshing/",
@@ -5628,6 +5628,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-joint-iteration/",
+    "seriesComposition": "full",
+    "shortname": "tc39-joint-iteration",
+    "series": {
+      "shortname": "tc39-joint-iteration",
+      "currentSpecification": "tc39-joint-iteration",
+      "title": "Joint Iteration",
+      "shortTitle": "Joint Iteration",
+      "nightlyUrl": "https://tc39.es/proposal-joint-iteration/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-joint-iteration/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-joint-iteration",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Joint Iteration",
+    "source": "spec",
+    "shortTitle": "Joint Iteration",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-json-modules/",
     "seriesComposition": "full",
     "shortname": "tc39-json-modules",
@@ -7254,41 +7288,6 @@
         "webrtc-ice"
       ]
     }
-  },
-  {
-    "url": "https://w3c.github.io/wot-binding-registry/",
-    "seriesComposition": "full",
-    "shortname": "wot-binding-registry",
-    "series": {
-      "shortname": "wot-binding-registry",
-      "currentSpecification": "wot-binding-registry",
-      "title": "Web of Things (WoT) Binding Registry",
-      "shortTitle": "WoT Bindings Registry",
-      "nightlyUrl": "https://w3c.github.io/wot-binding-registry/"
-    },
-    "shortTitle": "WoT Bindings Registry",
-    "formerNames": [
-      "wot-bindings-registry"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web of Things Working Group",
-        "url": "https://www.w3.org/WoT/wg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/wot-binding-registry/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/wot-binding-registry",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Web of Things (WoT) Binding Registry",
-    "source": "spec",
-    "categories": [],
-    "standing": "good"
   },
   {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",
@@ -31520,6 +31519,47 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/wot-binding-registry/",
+    "seriesComposition": "full",
+    "shortname": "wot-binding-registry",
+    "series": {
+      "shortname": "wot-binding-registry",
+      "currentSpecification": "wot-binding-registry",
+      "title": "Web of Things (WoT) Binding Registry",
+      "shortTitle": "WoT Bindings Registry",
+      "releaseUrl": "https://www.w3.org/TR/wot-binding-registry/",
+      "nightlyUrl": "https://w3c.github.io/wot-binding-registry/"
+    },
+    "shortTitle": "WoT Bindings Registry",
+    "formerNames": [
+      "wot-bindings-registry"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wot-binding-registry/",
+      "status": "Draft Registry",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wot-binding-registry/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-binding-registry",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Binding Registry",
+    "source": "w3c",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/wot-discovery/",
     "seriesComposition": "full",
     "shortname": "wot-discovery",
@@ -31596,6 +31636,46 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/wot-thing-description-2.0/",
+    "seriesComposition": "full",
+    "shortname": "wot-thing-description-2.0",
+    "series": {
+      "shortname": "wot-thing-description",
+      "currentSpecification": "wot-thing-description11",
+      "title": "Web of Things (WoT) Thing Description",
+      "shortTitle": "WoT",
+      "releaseUrl": "https://www.w3.org/TR/wot-thing-description/",
+      "nightlyUrl": "https://w3c.github.io/wot-thing-description/"
+    },
+    "seriesVersion": "2.0",
+    "seriesPrevious": "wot-thing-description11",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web of Things Working Group",
+        "url": "https://www.w3.org/WoT/wg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/wot-thing-description-2.0/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/wot-thing-description/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/wot-thing-description",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web of Things (WoT) Thing Description 2.0",
+    "source": "w3c",
+    "shortTitle": "WoT 2.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/wot-thing-description11/",
     "seriesComposition": "full",
     "shortname": "wot-thing-description11",
@@ -31608,6 +31688,7 @@
       "nightlyUrl": "https://w3c.github.io/wot-thing-description/"
     },
     "seriesVersion": "1.1",
+    "seriesNext": "wot-thing-description-2.0",
     "organization": "W3C",
     "groups": [
       {

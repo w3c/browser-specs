@@ -174,11 +174,11 @@
   "https://immersive-web.github.io/model-element/",
   "https://immersive-web.github.io/raw-camera-access/",
   {
-    "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
+    "url": "https://immersive-web.github.io/plane-detection/plane-detection.html",
     "shortname": "webxr-plane-detection"
   },
   {
-    "url": "https://immersive-web.github.io/real-world-geometry/webxrmeshing-1.html",
+    "url": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html",
     "shortname": "webxr-meshing"
   },
   "https://immersive-web.github.io/real-world-meshing/",

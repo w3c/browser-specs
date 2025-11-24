@@ -172,7 +172,6 @@
   "https://immersive-web.github.io/anchors/",
   "https://immersive-web.github.io/body-tracking/",
   "https://immersive-web.github.io/model-element/",
-  "https://immersive-web.github.io/raw-camera-access/",
   {
     "url": "https://immersive-web.github.io/plane-detection/plane-detection.html",
     "shortname": "webxr-plane-detection"
@@ -181,6 +180,7 @@
     "url": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html",
     "shortname": "webxr-meshing"
   },
+  "https://immersive-web.github.io/raw-camera-access/",
   "https://immersive-web.github.io/real-world-meshing/",
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",

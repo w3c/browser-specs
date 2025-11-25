@@ -1832,7 +1832,7 @@
     "standing": "good"
   },
   {
-    "url": "https://immersive-web.github.io/plane-detection/plane-detection.html",
+    "url": "https://immersive-web.github.io/plane-detection/",
     "seriesComposition": "full",
     "shortname": "webxr-plane-detection",
     "series": {
@@ -1840,7 +1840,7 @@
       "currentSpecification": "webxr-plane-detection",
       "title": "WebXR Plane Detection",
       "shortTitle": "WebXR Plane Detection",
-      "nightlyUrl": "https://immersive-web.github.io/plane-detection/plane-detection.html"
+      "nightlyUrl": "https://immersive-web.github.io/plane-detection/"
     },
     "organization": "W3C",
     "groups": [
@@ -1850,12 +1850,12 @@
       }
     ],
     "nightly": {
-      "url": "https://immersive-web.github.io/plane-detection/plane-detection.html",
+      "url": "https://immersive-web.github.io/plane-detection/",
       "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/immersive-web/plane-detection",
-      "sourcePath": "plane-detection.bs",
-      "filename": "plane-detection.html"
+      "sourcePath": "index.bs",
+      "filename": "index.html"
     },
     "title": "WebXR Plane Detection Module",
     "source": "spec",
@@ -1864,40 +1864,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html",
-    "seriesComposition": "full",
-    "shortname": "webxr-meshing",
-    "series": {
-      "shortname": "webxr-meshing",
-      "currentSpecification": "webxr-meshing",
-      "title": "WebXR Meshing API",
-      "shortTitle": "WebXR Meshing API",
-      "nightlyUrl": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Immersive Web Community Group",
-        "url": "https://www.w3.org/community/immersive-web/"
-      }
-    ],
-    "nightly": {
-      "url": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html",
-      "status": "A Collection of Interesting Ideas",
-      "alternateUrls": [],
-      "repository": "https://github.com/immersive-web/plane-detection",
-      "sourcePath": "webxrmeshing-1.bs",
-      "filename": "webxrmeshing-1.html"
-    },
-    "title": "WebXR Meshing API Level 1",
-    "source": "spec",
-    "shortTitle": "WebXR Meshing API 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "pending"
   },
   {
     "url": "https://immersive-web.github.io/raw-camera-access/",
@@ -1944,6 +1910,9 @@
       "shortTitle": "WebXR Mesh Detection",
       "nightlyUrl": "https://immersive-web.github.io/real-world-meshing/"
     },
+    "formerNames": [
+      "webxr-meshing"
+    ],
     "organization": "W3C",
     "groups": [
       {

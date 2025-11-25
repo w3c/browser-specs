@@ -173,15 +173,16 @@
   "https://immersive-web.github.io/body-tracking/",
   "https://immersive-web.github.io/model-element/",
   {
-    "url": "https://immersive-web.github.io/plane-detection/plane-detection.html",
+    "url": "https://immersive-web.github.io/plane-detection/",
     "shortname": "webxr-plane-detection"
   },
-  {
-    "url": "https://immersive-web.github.io/plane-detection/webxrmeshing-1.html",
-    "shortname": "webxr-meshing"
-  },
   "https://immersive-web.github.io/raw-camera-access/",
-  "https://immersive-web.github.io/real-world-meshing/",
+  {
+    "url": "https://immersive-web.github.io/real-world-meshing/",
+    "formerNames": [
+      "webxr-meshing"
+    ]
+  },
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",

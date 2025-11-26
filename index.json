@@ -1022,6 +1022,44 @@
     "standing": "good"
   },
   {
+    "url": "https://drafts.csswg.org/css-navigation-1/",
+    "seriesComposition": "full",
+    "shortname": "css-navigation-1",
+    "series": {
+      "shortname": "css-navigation",
+      "currentSpecification": "css-navigation-1",
+      "title": "CSS Route Matching",
+      "shortTitle": "CSS Route Matching",
+      "nightlyUrl": "https://drafts.csswg.org/css-navigation/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-navigation-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-navigation-1/",
+        "https://w3c.github.io/csswg-drafts/css-navigation/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-navigation-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Route Matching",
+    "source": "spec",
+    "shortTitle": "CSS Route Matching",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-page-4/",
     "seriesComposition": "delta",
     "shortname": "css-page-4",

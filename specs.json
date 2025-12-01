@@ -100,11 +100,6 @@
     "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
     "standing": "good"
   },
-  {
-    "url": "https://drafts.csswg.org/css-backgrounds-4/",
-    "seriesComposition": "delta",
-    "shortTitle": "CSS Backgrounds 4"
-  },
   "https://drafts.csswg.org/css-color-6/ delta",
   "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-extensions-1/",
@@ -1126,6 +1121,11 @@
   {
     "url": "https://www.w3.org/TR/css-backgrounds-3/",
     "shortTitle": "CSS Backgrounds 3"
+  },
+  {
+    "url": "https://www.w3.org/TR/css-backgrounds-4/",
+    "seriesComposition": "delta",
+    "shortTitle": "CSS Backgrounds 4"
   },
   "https://www.w3.org/TR/css-borders-4/",
   "https://www.w3.org/TR/css-box-3/",

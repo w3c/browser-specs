@@ -100,6 +100,11 @@
     "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
     "standing": "good"
   },
+  {
+    "url": "https://drafts.csswg.org/compositing-2/",
+    "shortTitle": "Compositing 2",
+    "forceCurrent": true
+  },
   "https://drafts.csswg.org/css-color-6/ delta",
   "https://drafts.csswg.org/css-conditional-values-1/",
   "https://drafts.csswg.org/css-extensions-1/",
@@ -123,11 +128,6 @@
   },
   "https://drafts.csswg.org/pointer-animations-1/",
   "https://drafts.csswg.org/selectors-5/ delta",
-  {
-    "url": "https://drafts.fxtf.org/compositing-2/",
-    "shortTitle": "Compositing 2",
-    "forceCurrent": true
-  },
   "https://drafts.fxtf.org/filter-effects-2/ delta",
   "https://encoding.spec.whatwg.org/",
   "https://fetch.spec.whatwg.org/",

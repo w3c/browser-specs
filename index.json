@@ -728,6 +728,46 @@
     ]
   },
   {
+    "url": "https://drafts.csswg.org/compositing-2/",
+    "seriesComposition": "full",
+    "shortname": "compositing-2",
+    "series": {
+      "shortname": "compositing",
+      "currentSpecification": "compositing-2",
+      "title": "Compositing and Blending",
+      "shortTitle": "Compositing",
+      "nightlyUrl": "https://drafts.csswg.org/compositing/",
+      "releaseUrl": "https://www.w3.org/TR/compositing/"
+    },
+    "seriesVersion": "2",
+    "shortTitle": "Compositing 2",
+    "seriesPrevious": "compositing-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/compositing-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/compositing-2/",
+        "https://w3c.github.io/csswg-drafts/compositing/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "compositing-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "Compositing and Blending Module Level 2",
+    "source": "spec",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-color-6/",
     "seriesComposition": "delta",
     "shortname": "css-color-6",
@@ -1194,6 +1234,45 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/filter-effects-2/",
+    "seriesComposition": "delta",
+    "shortname": "filter-effects-2",
+    "series": {
+      "shortname": "filter-effects",
+      "currentSpecification": "filter-effects-1",
+      "title": "Filter Effects",
+      "shortTitle": "Filter Effects",
+      "releaseUrl": "https://www.w3.org/TR/filter-effects/",
+      "nightlyUrl": "https://drafts.csswg.org/filter-effects/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "filter-effects-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/filter-effects-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/filter-effects-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "filter-effects-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "Filter Effects Module Level 2",
+    "source": "spec",
+    "shortTitle": "Filter Effects 2",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/pointer-animations-1/",
     "seriesComposition": "full",
     "shortname": "pointer-animations-1",
@@ -1223,9 +1302,9 @@
       "sourcePath": "pointer-animations-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "Pointer-driven Animations",
+    "title": "Pointer-driven Animations Module Level 1",
     "source": "spec",
-    "shortTitle": "Pointer-driven Animations",
+    "shortTitle": "Pointer-driven Animations 1",
     "categories": [
       "browser"
     ],
@@ -1273,92 +1352,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "css/selectors"
-      ]
-    }
-  },
-  {
-    "url": "https://drafts.fxtf.org/compositing-2/",
-    "seriesComposition": "full",
-    "shortname": "compositing-2",
-    "series": {
-      "shortname": "compositing",
-      "currentSpecification": "compositing-2",
-      "title": "Compositing and Blending",
-      "shortTitle": "Compositing",
-      "nightlyUrl": "https://drafts.fxtf.org/compositing/",
-      "releaseUrl": "https://www.w3.org/TR/compositing/"
-    },
-    "seriesVersion": "2",
-    "shortTitle": "Compositing 2",
-    "seriesPrevious": "compositing-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/groups/wg/css/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.fxtf.org/compositing-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
-      "sourcePath": "compositing-2/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Compositing and Blending Level 2",
-    "source": "spec",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/compositing"
-      ]
-    }
-  },
-  {
-    "url": "https://drafts.fxtf.org/filter-effects-2/",
-    "seriesComposition": "delta",
-    "shortname": "filter-effects-2",
-    "series": {
-      "shortname": "filter-effects",
-      "currentSpecification": "filter-effects-1",
-      "title": "Filter Effects",
-      "shortTitle": "Filter Effects",
-      "releaseUrl": "https://www.w3.org/TR/filter-effects/",
-      "nightlyUrl": "https://drafts.fxtf.org/filter-effects/"
-    },
-    "seriesVersion": "2",
-    "seriesPrevious": "filter-effects-1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/groups/wg/css/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.fxtf.org/filter-effects-2/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
-      "sourcePath": "filter-effects-2/Overview.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Filter Effects Module Level 2",
-    "source": "spec",
-    "shortTitle": "Filter Effects 2",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/filter-effects"
       ]
     }
   },
@@ -14015,7 +14008,7 @@
       "currentSpecification": "compositing-2",
       "title": "Compositing and Blending",
       "shortTitle": "Compositing",
-      "nightlyUrl": "https://drafts.fxtf.org/compositing/",
+      "nightlyUrl": "https://drafts.csswg.org/compositing/",
       "releaseUrl": "https://www.w3.org/TR/compositing/"
     },
     "seriesVersion": "1",
@@ -14034,10 +14027,12 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/compositing-1/",
+      "url": "https://drafts.csswg.org/compositing-1/",
       "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/compositing-1/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "compositing-1/Overview.bs",
       "filename": "Overview.html"
     },
@@ -14046,13 +14041,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/compositing"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/compute-pressure/",
@@ -17206,7 +17195,7 @@
       "sourcePath": "css-logical-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Logical Properties and Values Level 1",
+    "title": "CSS Logical Properties and Values Module Level 1",
     "source": "w3c",
     "categories": [
       "browser"
@@ -17229,7 +17218,7 @@
       "title": "CSS Masking",
       "shortTitle": "CSS Masking",
       "releaseUrl": "https://www.w3.org/TR/css-masking/",
-      "nightlyUrl": "https://drafts.fxtf.org/css-masking/"
+      "nightlyUrl": "https://drafts.csswg.org/css-masking/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -17245,10 +17234,13 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/css-masking-1/",
+      "url": "https://drafts.csswg.org/css-masking-1/",
       "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-masking-1/",
+        "https://w3c.github.io/csswg-drafts/css-masking/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "css-masking-1/Overview.bs",
       "filename": "Overview.html"
     },
@@ -17258,13 +17250,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-masking"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-mixins-1/",
@@ -21624,7 +21610,7 @@
       "title": "CSS Fill and Stroke",
       "shortTitle": "CSS Fill and Stroke",
       "releaseUrl": "https://www.w3.org/TR/fill-stroke/",
-      "nightlyUrl": "https://drafts.fxtf.org/fill-stroke/"
+      "nightlyUrl": "https://drafts.csswg.org/fill-stroke/"
     },
     "seriesVersion": "3",
     "organization": "W3C",
@@ -21644,10 +21630,13 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/fill-stroke-3/",
+      "url": "https://drafts.csswg.org/fill-stroke-3/",
       "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/fill-stroke-3/",
+        "https://w3c.github.io/csswg-drafts/fill-stroke/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "fill-stroke/Overview.bs",
       "filename": "Overview.html"
     },
@@ -21657,13 +21646,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/fill-stroke"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/filter-effects-1/",
@@ -21675,7 +21658,7 @@
       "title": "Filter Effects",
       "shortTitle": "Filter Effects",
       "releaseUrl": "https://www.w3.org/TR/filter-effects/",
-      "nightlyUrl": "https://drafts.fxtf.org/filter-effects/"
+      "nightlyUrl": "https://drafts.csswg.org/filter-effects/"
     },
     "seriesVersion": "1",
     "seriesNext": "filter-effects-2",
@@ -21692,10 +21675,13 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/filter-effects-1/",
+      "url": "https://drafts.csswg.org/filter-effects-1/",
       "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/filter-effects-1/",
+        "https://w3c.github.io/csswg-drafts/filter-effects/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "filter-effects-1/Overview.bs",
       "filename": "Overview.html"
     },
@@ -21705,13 +21691,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/filter-effects"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/fingerprinting-guidance/",
@@ -21941,7 +21921,7 @@
       "title": "Geometry Interfaces",
       "shortTitle": "Geometry Interfaces",
       "releaseUrl": "https://www.w3.org/TR/geometry/",
-      "nightlyUrl": "https://drafts.fxtf.org/geometry/"
+      "nightlyUrl": "https://drafts.csswg.org/geometry/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -21953,15 +21933,18 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/geometry-1/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/geometry-1/",
+      "url": "https://drafts.csswg.org/geometry-1/",
       "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
-      "sourcePath": "geometry/Overview.bs",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/geometry-1/",
+        "https://w3c.github.io/csswg-drafts/geometry/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "geometry-1/Overview.bs",
       "filename": "Overview.html"
     },
     "title": "Geometry Interfaces Module Level 1",
@@ -21970,13 +21953,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/geometry"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/gpc/",
@@ -23875,7 +23852,7 @@
       "title": "Motion Path",
       "shortTitle": "Motion Path",
       "releaseUrl": "https://www.w3.org/TR/motion/",
-      "nightlyUrl": "https://drafts.fxtf.org/motion/"
+      "nightlyUrl": "https://drafts.csswg.org/motion/"
     },
     "seriesVersion": "1",
     "organization": "W3C",
@@ -23891,10 +23868,13 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://drafts.fxtf.org/motion-1/",
+      "url": "https://drafts.csswg.org/motion-1/",
       "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/motion-1/",
+        "https://w3c.github.io/csswg-drafts/motion/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "motion-1/Overview.bs",
       "filename": "Overview.html"
     },
@@ -23904,13 +23884,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/motion"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/mse-byte-stream-format-isobmff/",

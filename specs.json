@@ -585,12 +585,6 @@
   },
   "https://w3c.github.io/data-shapes/shacl12-node-expr/",
   "https://w3c.github.io/data-shapes/shacl12-profiling/",
-  {
-    "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
-    "formerNames": [
-      "shacl12-inf-rules"
-    ]
-  },
   "https://w3c.github.io/data-shapes/shacl12-ui/",
   {
     "shortname": "execCommand",
@@ -1768,6 +1762,12 @@
   "https://www.w3.org/TR/server-timing/",
   "https://www.w3.org/TR/service-workers/",
   "https://www.w3.org/TR/shacl12-core/",
+  {
+    "url": "https://www.w3.org/TR/shacl12-rules/",
+    "formerNames": [
+      "shacl12-inf-rules"
+    ]
+  },
   "https://www.w3.org/TR/shacl12-sparql/",
   "https://www.w3.org/TR/sparql12-entailment/",
   "https://www.w3.org/TR/sparql12-federated-query/",

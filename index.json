@@ -1849,7 +1849,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webxr/plane-detection"
+      ]
+    }
   },
   {
     "url": "https://immersive-web.github.io/raw-camera-access/",
@@ -6431,42 +6437,6 @@
     "title": "SHACL 1.2 Profiling",
     "source": "spec",
     "shortTitle": "SHACL 1.2 Profiling",
-    "categories": [],
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
-    "seriesComposition": "full",
-    "shortname": "shacl12-rules",
-    "series": {
-      "shortname": "shacl-rules",
-      "currentSpecification": "shacl12-rules",
-      "title": "SHACL 1.2 Rules",
-      "shortTitle": "SHACL 1.2 Rules",
-      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-rules/"
-    },
-    "seriesVersion": "1.2",
-    "formerNames": [
-      "shacl12-inf-rules"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Data Shapes Working Group",
-        "url": "https://www.w3.org/groups/wg/data-shapes/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/data-shapes",
-      "sourcePath": "shacl12-rules/index.html",
-      "filename": "index.html"
-    },
-    "title": "SHACL 1.2 Rules",
-    "source": "spec",
-    "shortTitle": "SHACL 1.2 Rules",
     "categories": [],
     "standing": "good"
   },
@@ -13443,6 +13413,50 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/attribution/",
+    "seriesComposition": "full",
+    "shortname": "attribution",
+    "series": {
+      "shortname": "attribution",
+      "currentSpecification": "attribution",
+      "title": "Attribution",
+      "shortTitle": "Attribution",
+      "releaseUrl": "https://www.w3.org/TR/attribution/",
+      "nightlyUrl": "https://w3c.github.io/attribution/"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/attribution/",
+      "status": "Editor's Draft",
+      "sourcePath": "api.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/attribution",
+      "filename": "index.html"
+    },
+    "formerNames": [
+      "ppa",
+      "privacy-preserving-attribution"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Private Advertising Technology Working Group",
+        "url": "https://www.w3.org/groups/wg/pat/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/attribution/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "Attribution Level 1",
+    "source": "w3c",
+    "shortTitle": "Attribution 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/audio-output/",
     "seriesComposition": "full",
     "shortname": "audio-output",
@@ -20378,9 +20392,9 @@
       "sourcePath": "index.bs",
       "filename": "Overview.html"
     },
-    "title": "Device Memory",
+    "title": "Device Memory API",
     "source": "w3c",
-    "shortTitle": "Device Memory",
+    "shortTitle": "Device Memory API",
     "categories": [
       "browser"
     ],
@@ -25214,49 +25228,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/privacy-preserving-attribution/",
-    "seriesComposition": "full",
-    "shortname": "privacy-preserving-attribution",
-    "series": {
-      "shortname": "privacy-preserving-attribution",
-      "currentSpecification": "privacy-preserving-attribution",
-      "title": "Privacy-Preserving Attribution",
-      "shortTitle": "Privacy-Preserving Attribution",
-      "releaseUrl": "https://www.w3.org/TR/privacy-preserving-attribution/",
-      "nightlyUrl": "https://w3c.github.io/ppa/"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/ppa/",
-      "status": "Editor's Draft",
-      "sourcePath": "api.bs",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/ppa",
-      "filename": "index.html"
-    },
-    "formerNames": [
-      "ppa"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Private Advertising Technology Working Group",
-        "url": "https://www.w3.org/groups/wg/pat/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/privacy-preserving-attribution/",
-      "status": "Working Draft",
-      "filename": "Overview.html"
-    },
-    "title": "Privacy-Preserving Attribution: Level 1",
-    "source": "w3c",
-    "shortTitle": "Privacy-Preserving Attribution 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://www.w3.org/TR/privacy-principles/",
     "seriesComposition": "full",
     "shortname": "privacy-principles",
@@ -26694,6 +26665,48 @@
     "title": "SHACL 1.2 Core",
     "source": "w3c",
     "shortTitle": "SHACL 1.2 Core",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/shacl12-rules/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-rules",
+    "series": {
+      "shortname": "shacl-rules",
+      "currentSpecification": "shacl12-rules",
+      "title": "SHACL Rules",
+      "shortTitle": "SHACL Rules",
+      "releaseUrl": "https://www.w3.org/TR/shacl-rules/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-rules/"
+    },
+    "seriesVersion": "1.2",
+    "formerNames": [
+      "shacl12-inf-rules"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/shacl12-rules/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-rules/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Rules",
+    "source": "w3c",
+    "shortTitle": "SHACL 1.2 Rules",
     "categories": [],
     "standing": "good"
   },
@@ -31233,7 +31246,8 @@
         "webxr/gamepads-module",
         "webxr/hand-input",
         "webxr/hit-test",
-        "webxr/layers"
+        "webxr/layers",
+        "webxr/plane-detection"
       ]
     }
   },

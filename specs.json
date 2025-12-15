@@ -1068,6 +1068,16 @@
   },
   "https://www.w3.org/TR/ambient-light/",
   "https://www.w3.org/TR/appmanifest/",
+  {
+    "nightly": {
+      "sourcePath": "api.bs"
+    },
+    "url": "https://www.w3.org/TR/attribution/",
+    "formerNames": [
+      "ppa",
+      "privacy-preserving-attribution"
+    ]
+  },
   "https://www.w3.org/TR/audio-output/",
   "https://www.w3.org/TR/audio-session/",
   "https://www.w3.org/TR/audiobooks/",
@@ -1709,15 +1719,6 @@
   "https://www.w3.org/TR/pointerevents4/",
   "https://www.w3.org/TR/pointerlock-2/",
   "https://www.w3.org/TR/presentation-api/",
-  {
-    "nightly": {
-      "sourcePath": "api.bs"
-    },
-    "url": "https://www.w3.org/TR/privacy-preserving-attribution/",
-    "formerNames": [
-      "ppa"
-    ]
-  },
   "https://www.w3.org/TR/privacy-principles/",
   "https://www.w3.org/TR/proximity/",
   "https://www.w3.org/TR/pub-manifest/",

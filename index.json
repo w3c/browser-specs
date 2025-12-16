@@ -14986,7 +14986,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-borders-4/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -15594,7 +15594,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-color-adjust-1/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -18570,7 +18570,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-shadow-parts-1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -18584,9 +18584,9 @@
       "sourcePath": "css-shadow-parts-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Shadow Parts",
+    "title": "CSS Shadow Parts Module Level 1",
     "source": "w3c",
-    "shortTitle": "CSS Shadow Parts",
+    "shortTitle": "CSS Shadow Parts 1",
     "categories": [
       "browser"
     ],

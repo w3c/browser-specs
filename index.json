@@ -14651,9 +14651,9 @@
       "sourcePath": "css-anchor-position-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Anchor Positioning",
+    "title": "CSS Anchor Positioning Module Level 1",
     "source": "w3c",
-    "shortTitle": "CSS Anchor Positioning",
+    "shortTitle": "CSS Anchor Positioning 1",
     "categories": [
       "browser"
     ],
@@ -20261,7 +20261,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/dapt/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -27886,8 +27886,8 @@
     "series": {
       "shortname": "ttml-imsc",
       "currentSpecification": "ttml-imsc1.2",
-      "title": "TTML Profiles for Internet Media Subtitles and Captions",
-      "shortTitle": "TTML Profiles for Internet Media Subtitles and Captions",
+      "title": "IMSC Text Profile",
+      "shortTitle": "IMSC Text Profile",
       "releaseUrl": "https://www.w3.org/TR/ttml-imsc/",
       "nightlyUrl": "https://www.w3.org/TR/ttml-imsc/"
     },
@@ -27925,8 +27925,8 @@
     "series": {
       "shortname": "ttml-imsc",
       "currentSpecification": "ttml-imsc1.2",
-      "title": "TTML Profiles for Internet Media Subtitles and Captions",
-      "shortTitle": "TTML Profiles for Internet Media Subtitles and Captions",
+      "title": "IMSC Text Profile",
+      "shortTitle": "IMSC Text Profile",
       "releaseUrl": "https://www.w3.org/TR/ttml-imsc/",
       "nightlyUrl": "https://www.w3.org/TR/ttml-imsc/"
     },
@@ -27950,7 +27950,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/ttml-imsc1.3/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "title": "IMSC Text Profile 1.3",

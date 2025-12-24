@@ -1255,12 +1255,10 @@
       }
     ],
     "nightly": {
-      "url": "https://drafts.csswg.org/filter-effects-2/",
+      "url": "https://drafts.fxtf.org/filter-effects-2/",
       "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/filter-effects-2/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/fxtf-drafts",
       "sourcePath": "filter-effects-2/Overview.bs",
       "filename": "Overview.html"
     },
@@ -1270,7 +1268,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/filter-effects"
+      ]
+    }
   },
   {
     "url": "https://drafts.csswg.org/pointer-animations-1/",
@@ -1302,9 +1306,9 @@
       "sourcePath": "pointer-animations-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "Pointer-driven Animations Module Level 1",
+    "title": "Pointer-driven Animations",
     "source": "spec",
-    "shortTitle": "Pointer-driven Animations 1",
+    "shortTitle": "Pointer-driven Animations",
     "categories": [
       "browser"
     ],

@@ -1255,10 +1255,12 @@
       }
     ],
     "nightly": {
-      "url": "https://drafts.fxtf.org/filter-effects-2/",
+      "url": "https://drafts.csswg.org/filter-effects-2/",
       "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/fxtf-drafts",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/filter-effects-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
       "sourcePath": "filter-effects-2/Overview.bs",
       "filename": "Overview.html"
     },
@@ -1268,13 +1270,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/filter-effects"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://drafts.csswg.org/pointer-animations-1/",

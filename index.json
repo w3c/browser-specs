@@ -12050,6 +12050,43 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc7240",
+    "seriesComposition": "full",
+    "shortname": "rfc7240",
+    "series": {
+      "shortname": "rfc7240",
+      "currentSpecification": "rfc7240",
+      "title": "Prefer Header for HTTP",
+      "shortTitle": "Prefer Header for HTTP",
+      "nightlyUrl": "https://httpwg.org/specs/rfc7240.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Applications Area",
+        "url": "https://datatracker.ietf.org/wg/app/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc7240.html",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7240",
+        "https://tools.ietf.org/html/rfc7240"
+      ],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc7240.xml",
+      "filename": "rfc7240.html"
+    },
+    "title": "Prefer Header for HTTP",
+    "source": "ietf",
+    "shortTitle": "Prefer Header for HTTP",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc7469",
     "seriesComposition": "full",
     "shortname": "rfc7469",

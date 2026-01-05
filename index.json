@@ -11361,7 +11361,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -11386,7 +11386,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -11411,7 +11411,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -12609,7 +12609,7 @@
       "currentSpecification": "rfc8942",
       "title": "HTTP Client Hints",
       "shortTitle": "HTTP Client Hints",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8942"
+      "nightlyUrl": "https://httpwg.org/specs/rfc8942.html"
     },
     "organization": "IETF",
     "groups": [
@@ -12619,12 +12619,14 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc8942",
+      "url": "https://httpwg.org/specs/rfc8942.html",
       "status": "Experimental",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc8942",
         "https://tools.ietf.org/html/rfc8942"
       ],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc8942.xml",
       "filename": "rfc8942.html"
     },
     "title": "HTTP Client Hints",

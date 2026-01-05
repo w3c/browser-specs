@@ -1302,9 +1302,9 @@
       "sourcePath": "pointer-animations-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "Pointer-driven Animations Module Level 1",
+    "title": "Pointer-driven Animations",
     "source": "spec",
-    "shortTitle": "Pointer-driven Animations 1",
+    "shortTitle": "Pointer-driven Animations",
     "categories": [
       "browser"
     ],

@@ -1100,6 +1100,48 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-shadow-1/",
+    "seriesComposition": "full",
+    "shortname": "css-shadow-1",
+    "series": {
+      "shortname": "css-shadow",
+      "currentSpecification": "css-shadow-1",
+      "title": "CSS Shadow",
+      "shortTitle": "CSS Shadow",
+      "nightlyUrl": "https://drafts.csswg.org/css-shadow/"
+    },
+    "seriesVersion": "1",
+    "formerNames": [
+      "css-scoping-1",
+      "css-shadow-parts-1"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-shadow-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-shadow-1/",
+        "https://w3c.github.io/csswg-drafts/css-shadow/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-shadow-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Shadow Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS Shadow 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-shapes-2/",
     "seriesComposition": "delta",
     "shortname": "css-shapes-2",
@@ -9965,6 +10007,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/PEPC/permission-elements.html",
+    "seriesComposition": "full",
+    "shortname": "permission-elements",
+    "series": {
+      "shortname": "permission-elements",
+      "currentSpecification": "permission-elements",
+      "title": "The HTML Permission Elements",
+      "shortTitle": "The HTML Permission Elements",
+      "nightlyUrl": "https://wicg.github.io/PEPC/permission-elements.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/PEPC/permission-elements.html",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/PEPC",
+      "sourcePath": "permission-elements.bs",
+      "filename": "permission-elements.html"
+    },
+    "title": "The HTML Permission Elements",
+    "source": "spec",
+    "shortTitle": "The HTML Permission Elements",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/performance-measure-memory/",
     "seriesComposition": "full",
     "shortname": "performance-measure-memory",
@@ -11361,7 +11437,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -11386,7 +11462,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -11411,7 +11487,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -18337,56 +18413,6 @@
     }
   },
   {
-    "url": "https://www.w3.org/TR/css-scoping-1/",
-    "seriesComposition": "full",
-    "shortname": "css-scoping-1",
-    "series": {
-      "shortname": "css-scoping",
-      "currentSpecification": "css-scoping-1",
-      "title": "CSS Scoping",
-      "shortTitle": "CSS Scoping",
-      "releaseUrl": "https://www.w3.org/TR/css-scoping/",
-      "nightlyUrl": "https://drafts.csswg.org/css-scoping/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/groups/wg/css/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/css-scoping-1/",
-      "status": "First Public Working Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-scoping-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-scoping-1/",
-        "https://w3c.github.io/csswg-drafts/css-scoping/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-scoping-1/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Scoping Module Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Scoping 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-scoping"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/css-scroll-anchoring-1/",
     "seriesComposition": "full",
     "shortname": "css-scroll-anchoring-1",
@@ -18584,56 +18610,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "css/css-scrollbars"
-      ]
-    }
-  },
-  {
-    "url": "https://www.w3.org/TR/css-shadow-parts-1/",
-    "seriesComposition": "full",
-    "shortname": "css-shadow-parts-1",
-    "series": {
-      "shortname": "css-shadow-parts",
-      "currentSpecification": "css-shadow-parts-1",
-      "title": "CSS Shadow Parts",
-      "shortTitle": "CSS Shadow Parts",
-      "releaseUrl": "https://www.w3.org/TR/css-shadow-parts/",
-      "nightlyUrl": "https://drafts.csswg.org/css-shadow-parts/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/groups/wg/css/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/css-shadow-parts-1/",
-      "status": "Working Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-shadow-parts-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-shadow-parts-1/",
-        "https://w3c.github.io/csswg-drafts/css-shadow-parts/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-shadow-parts-1/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Shadow Parts Module Level 1",
-    "source": "w3c",
-    "shortTitle": "CSS Shadow Parts 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "css/css-shadow-parts"
       ]
     }
   },
@@ -29609,7 +29585,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/webauthn-3/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {

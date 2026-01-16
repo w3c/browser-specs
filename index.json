@@ -1139,7 +1139,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-shadow-parts"
+      ]
+    }
   },
   {
     "url": "https://drafts.csswg.org/css-shapes-2/",

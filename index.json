@@ -1143,7 +1143,7 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "css/css-shadow-parts"
+        "css/css-shadow"
       ]
     }
   },

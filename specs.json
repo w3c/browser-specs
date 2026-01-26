@@ -692,6 +692,11 @@
     "title": "WebAssembly Core: Branch Hinting"
   },
   {
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Compact Import Section",
+    "url": "https://webassembly.github.io/compact-import-section/"
+  },
+  {
     "url": "https://webassembly.github.io/content-security-policy/js-api/",
     "forkOf": "wasm-js-api-2",
     "title": "WebAssembly JavaScript Interface: Content Security Policy"

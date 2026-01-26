@@ -4685,6 +4685,10 @@
       "shortTitle": "ES Array.fromAsync",
       "nightlyUrl": "https://tc39.es/proposal-array-from-async/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -4705,8 +4709,7 @@
     "shortTitle": "ES Array.fromAsync",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-array-grouping/",
@@ -4764,6 +4767,10 @@
       "repository": "https://github.com/tc39/proposal-arraybuffer-base64",
       "filename": "index.html"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -4776,8 +4783,7 @@
     "shortTitle": "Uint8Array to/from base64",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-arraybuffer-transfer/",
@@ -5273,6 +5279,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-intl-era-monthcode/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-era-monthcode",
+    "series": {
+      "shortname": "tc39-intl-era-monthcode",
+      "currentSpecification": "tc39-intl-era-monthcode",
+      "title": "Intl era and monthCode Proposal",
+      "shortTitle": "Intl era and monthCode",
+      "nightlyUrl": "https://tc39.es/proposal-intl-era-monthcode/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-era-monthcode/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-intl-era-monthcode",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Intl era and monthCode Proposal",
+    "source": "spec",
+    "shortTitle": "Intl era and monthCode",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-intl-extend-timezonename/",
     "seriesComposition": "full",
     "shortname": "tc39-intl-extend-timezonename",
@@ -5613,6 +5653,10 @@
       "shortTitle": "Iterator Sequencing",
       "nightlyUrl": "https://tc39.es/proposal-iterator-sequencing/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5633,8 +5677,7 @@
     "shortTitle": "Iterator Sequencing",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-joint-iteration/",
@@ -5718,6 +5761,10 @@
       "shortTitle": "JSON.parse source text access",
       "nightlyUrl": "https://tc39.es/proposal-json-parse-with-source/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5738,8 +5785,7 @@
     "shortTitle": "JSON.parse source text access",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-math-sum/",
@@ -5752,6 +5798,10 @@
       "shortTitle": "Math.sumPrecise",
       "nightlyUrl": "https://tc39.es/proposal-math-sum/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5772,8 +5822,7 @@
     "shortTitle": "Math.sumPrecise",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-nonextensible-applies-to-private/",
@@ -6181,6 +6230,10 @@
       "shortTitle": "Upsert",
       "nightlyUrl": "https://tc39.es/proposal-upsert/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -6201,8 +6254,7 @@
     "shortTitle": "Upsert",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://testutils.spec.whatwg.org/",
@@ -6419,39 +6471,6 @@
     "title": "SHACL Compact Syntax",
     "source": "spec",
     "shortTitle": "SHACL Compact Syntax",
-    "categories": [],
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
-    "seriesComposition": "full",
-    "shortname": "shacl12-node-expr",
-    "series": {
-      "shortname": "shacl-node-expr",
-      "currentSpecification": "shacl12-node-expr",
-      "title": "SHACL 1.2 Node Expressions",
-      "shortTitle": "SHACL 1.2 Node Expressions",
-      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-node-expr/"
-    },
-    "seriesVersion": "1.2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Data Shapes Working Group",
-        "url": "https://www.w3.org/groups/wg/data-shapes/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/data-shapes",
-      "sourcePath": "shacl12-node-expr/index.html",
-      "filename": "index.html"
-    },
-    "title": "SHACL 1.2 Node Expressions",
-    "source": "spec",
-    "shortTitle": "SHACL 1.2 Node Expressions",
     "categories": [],
     "standing": "good"
   },
@@ -8248,6 +8267,40 @@
     "categories": [
       "browser"
     ]
+  },
+  {
+    "url": "https://wicg.github.io/autofill-event/",
+    "seriesComposition": "full",
+    "shortname": "autofill-event",
+    "series": {
+      "shortname": "autofill-event",
+      "currentSpecification": "autofill-event",
+      "title": "Autofill Event",
+      "shortTitle": "Autofill Event",
+      "nightlyUrl": "https://wicg.github.io/autofill-event/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/autofill-event/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/autofill-event",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Autofill Event",
+    "source": "spec",
+    "shortTitle": "Autofill Event",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/background-fetch/",
@@ -26686,6 +26739,45 @@
     "title": "SHACL 1.2 Core",
     "source": "w3c",
     "shortTitle": "SHACL 1.2 Core",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/shacl12-node-expr/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-node-expr",
+    "series": {
+      "shortname": "shacl-node-expr",
+      "currentSpecification": "shacl12-node-expr",
+      "title": "SHACL Node Expressions",
+      "shortTitle": "SHACL Node Expressions",
+      "releaseUrl": "https://www.w3.org/TR/shacl-node-expr/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-node-expr/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/shacl12-node-expr/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-node-expr/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-node-expr/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Node Expressions",
+    "source": "w3c",
+    "shortTitle": "SHACL 1.2 Node Expressions",
     "categories": [],
     "standing": "good"
   },

@@ -754,6 +754,7 @@
     "standing": "pending",
     "url": "https://wicg.github.io/audio-context-playout-stats/"
   },
+  "https://wicg.github.io/autofill-event/",
   "https://wicg.github.io/background-fetch/",
   {
     "url": "https://wicg.github.io/background-sync/spec/",

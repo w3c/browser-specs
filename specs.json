@@ -368,7 +368,13 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-array-from-async/",
+  {
+    "url": "https://tc39.es/proposal-array-from-async/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-array-grouping/",
     "standing": "discontinued",
@@ -384,7 +390,11 @@
     "shortname": "tc39-arraybuffer-base64",
     "nightly": {
       "sourcePath": "spec.html"
-    }
+    },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-arraybuffer-transfer/",
@@ -514,7 +524,13 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-iterator-sequencing/",
+  {
+    "url": "https://tc39.es/proposal-iterator-sequencing/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-joint-iteration/",
   {
     "url": "https://tc39.es/proposal-json-modules/",
@@ -523,8 +539,20 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-json-parse-with-source/",
-  "https://tc39.es/proposal-math-sum/",
+  {
+    "url": "https://tc39.es/proposal-json-parse-with-source/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
+  {
+    "url": "https://tc39.es/proposal-math-sum/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://tc39.es/proposal-nonextensible-applies-to-private/",
   {
     "url": "https://tc39.es/proposal-promise-try/",
@@ -579,7 +607,13 @@
     ]
   },
   "https://tc39.es/proposal-temporal/",
-  "https://tc39.es/proposal-upsert/",
+  {
+    "url": "https://tc39.es/proposal-upsert/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",
   "https://urlpattern.spec.whatwg.org/",

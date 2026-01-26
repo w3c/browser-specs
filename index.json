@@ -7319,6 +7319,43 @@
     "standing": "good"
   },
   {
+    "url": "https://webassembly.github.io/compact-import-section/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-compact-import-section",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Compact Import Section",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/compact-import-section/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/compact-import-section",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Compact Import Section",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webassembly.github.io/content-security-policy/js-api/",
     "seriesComposition": "fork",
     "shortname": "wasm-js-api-2-fork-content-security-policy",
@@ -29156,6 +29193,7 @@
     },
     "forks": [
       "wasm-core-2-fork-branch-hinting",
+      "wasm-core-2-fork-compact-import-section",
       "wasm-core-2-fork-extended-const",
       "wasm-core-2-fork-function-references",
       "wasm-core-2-fork-gc",

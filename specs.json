@@ -591,7 +591,6 @@
       "shacl12-compact-syntax"
     ]
   },
-  "https://w3c.github.io/data-shapes/shacl12-node-expr/",
   "https://w3c.github.io/data-shapes/shacl12-profiling/",
   "https://w3c.github.io/data-shapes/shacl12-ui/",
   {
@@ -1775,6 +1774,7 @@
   "https://www.w3.org/TR/server-timing/",
   "https://www.w3.org/TR/service-workers/",
   "https://www.w3.org/TR/shacl12-core/",
+  "https://www.w3.org/TR/shacl12-node-expr/",
   {
     "url": "https://www.w3.org/TR/shacl12-rules/",
     "formerNames": [

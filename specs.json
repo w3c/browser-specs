@@ -539,13 +539,7 @@
       "ecmascript"
     ]
   },
-  {
-    "url": "https://tc39.es/proposal-json-parse-with-source/",
-    "standing": "discontinued",
-    "obsoletedBy": [
-      "ecmascript"
-    ]
-  },
+  "https://tc39.es/proposal-json-parse-with-source/",
   {
     "url": "https://tc39.es/proposal-math-sum/",
     "standing": "discontinued",

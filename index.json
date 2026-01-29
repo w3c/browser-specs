@@ -1851,7 +1851,7 @@
     ],
     "nightly": {
       "url": "https://immersive-web.github.io/model-element/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/immersive-web/model-element",
       "sourcePath": "index.html",
@@ -1872,8 +1872,8 @@
     "series": {
       "shortname": "webxr-plane-detection",
       "currentSpecification": "webxr-plane-detection",
-      "title": "WebXR Plane Detection",
-      "shortTitle": "WebXR Plane Detection",
+      "title": "504 Gateway Time-out",
+      "shortTitle": "504 Gateway Time-out",
       "nightlyUrl": "https://immersive-web.github.io/plane-detection/"
     },
     "organization": "W3C",
@@ -1885,15 +1885,15 @@
     ],
     "nightly": {
       "url": "https://immersive-web.github.io/plane-detection/",
-      "status": "Draft Community Group Report",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/immersive-web/plane-detection",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "WebXR Plane Detection Module",
+    "title": "504 Gateway Time-out",
     "source": "spec",
-    "shortTitle": "WebXR Plane Detection",
+    "shortTitle": "504 Gateway Time-out",
     "categories": [
       "browser"
     ],

@@ -5761,16 +5761,13 @@
       "shortTitle": "JSON.parse source text access",
       "nightlyUrl": "https://tc39.es/proposal-json-parse-with-source/"
     },
+    "standing": "good",
     "organization": "Ecma International",
     "groups": [
       {
         "name": "TC39",
         "url": "https://tc39.es/"
       }
-    ],
-    "standing": "discontinued",
-    "obsoletedBy": [
-      "ecmascript"
     ],
     "nightly": {
       "url": "https://tc39.es/proposal-json-parse-with-source/",

@@ -539,7 +539,10 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-json-parse-with-source/",
+  {
+    "url": "https://tc39.es/proposal-json-parse-with-source/",
+    "standing": "good"
+  },
   {
     "url": "https://tc39.es/proposal-math-sum/",
     "standing": "discontinued",

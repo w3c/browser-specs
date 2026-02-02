@@ -699,6 +699,11 @@
     "title": "WebAssembly JavaScript Interface: Content Security Policy"
   },
   {
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Custom Descriptors and JS Interop",
+    "url": "https://webassembly.github.io/custom-descriptors/"
+  },
+  {
     "forkOf": "wasm-js-api-2",
     "title": "WebAssembly JavaScript Interface: ESM Integration",
     "url": "https://webassembly.github.io/esm-integration/js-api/"

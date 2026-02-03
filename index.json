@@ -21968,7 +21968,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/geolocation-sensor/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -21985,7 +21985,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
+    "standing": "discontinued",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

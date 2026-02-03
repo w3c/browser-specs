@@ -4306,7 +4306,7 @@
     ],
     "nightly": {
       "url": "https://screen-share.github.io/captured-mouse-events/",
-      "status": "Draft Community Group Report",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/screen-share/captured-mouse-events",
       "sourcePath": "index.html",
@@ -7384,6 +7384,43 @@
     },
     "source": "spec",
     "shortTitle": "WebAssembly JavaScript Interface: Content Security Policy",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/custom-descriptors/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-custom-descriptors",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Custom Descriptors and JS Interop",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/custom-descriptors/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/custom-descriptors",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Custom Descriptors and JS Interop",
     "categories": [
       "browser"
     ],
@@ -29191,6 +29228,7 @@
     "forks": [
       "wasm-core-2-fork-branch-hinting",
       "wasm-core-2-fork-compact-import-section",
+      "wasm-core-2-fork-custom-descriptors",
       "wasm-core-2-fork-extended-const",
       "wasm-core-2-fork-function-references",
       "wasm-core-2-fork-gc",

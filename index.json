@@ -13556,7 +13556,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/act-rules-format-1.1/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "title": "Accessibility Conformance Testing (ACT) Rules Format 1.1",

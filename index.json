@@ -11567,7 +11567,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -11592,7 +11592,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -11617,7 +11617,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -13212,6 +13212,41 @@
     "title": "WebP Image Format",
     "source": "ietf",
     "shortTitle": "WebP Image Format",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9659",
+    "seriesComposition": "full",
+    "shortname": "rfc9659",
+    "series": {
+      "shortname": "rfc9659",
+      "currentSpecification": "rfc9659",
+      "title": "Window Sizing for Zstandard Content Encoding",
+      "shortTitle": "Window Sizing for Zstandard Content Encoding",
+      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9659"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/rfc/rfc9659",
+      "status": "Informational",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9659",
+        "https://tools.ietf.org/html/rfc9659"
+      ],
+      "filename": "rfc9659.html"
+    },
+    "title": "Window Sizing for Zstandard Content Encoding",
+    "source": "ietf",
+    "shortTitle": "Window Sizing for Zstandard Content Encoding",
     "categories": [
       "browser"
     ],

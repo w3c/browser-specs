@@ -335,6 +335,14 @@ describe("fetch-info module", function () {
       assert.equal(info[other.shortname].nightly.url, "https://w3c.github.io/hr-time/");
       assert.equal(info[other.shortname].title, "High Resolution Time Level 2");
     });
+
+    it("sets the nightly URL to the release URL as a fallback", timeout, async () => {
+      const spec = getW3CSpec("pointerevents3");
+      const info = await fetchInfo([spec]);
+      assert.ok(info[spec.shortname]);
+      assert.equal(info[spec.shortname].source, "w3c");
+      assert.equal(info[spec.shortname].nightly.url, "https://www.w3.org/TR/pointerevents3/");
+    });
   });
 
   describe("fetch from all sources", () => {

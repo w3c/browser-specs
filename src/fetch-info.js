@@ -122,7 +122,7 @@ async function fetchInfoFromW3CApi(specs, options) {
           `"${spec.shortname}", W3C API returned "${info[idx]["editor-draft"]}"`);
       }
       const release = info[idx].shortlink?.replace(/^http:/, 'https:') ?? null;
-      const nightly = info[idx]["editor-draft"]?.replace(/^http:/, 'https:') ?? null;
+      const nightly = info[idx]["editor-draft"]?.replace(/^http:/, 'https:') ?? release;
       const status = info[idx].status === "Retired" ? "Discontinued Draft" : info[idx].status;
 
       results[spec.shortname] = {

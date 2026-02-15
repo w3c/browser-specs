@@ -1434,9 +1434,6 @@
     "series": {
       "shortname": "DOM-Style"
     },
-    "nightly": {
-      "url": "https://www.w3.org/TR/DOM-Level-2-Style/"
-    },
     "obsoletedBy": [
       "cssom-1"
     ]
@@ -1850,17 +1847,11 @@
   "https://www.w3.org/TR/svg-strokes/",
   {
     "url": "https://www.w3.org/TR/SVG11/",
-    "multipage": "all",
-    "nightly": {
-      "url": "https://www.w3.org/TR/SVG11/"
-    }
+    "multipage": "all"
   },
   "https://www.w3.org/TR/SVG2/ multipage",
   {
     "url": "https://www.w3.org/TR/test-methodology/",
-    "nightly": {
-      "url": "https://www.w3.org/TR/test-methodology/"
-    },
     "categories": [
       "-browser"
     ]

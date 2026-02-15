@@ -172,6 +172,10 @@
       "sourcePath": "source"
     }
   },
+  {
+    "url": "https://github.com/tc39/proposal-regexp-legacy-features",
+    "shortTitle": "Legacy RegExp features in JavaScript"
+  },
   "https://immersive-web.github.io/anchors/",
   "https://immersive-web.github.io/body-tracking/",
   "https://immersive-web.github.io/model-element/",

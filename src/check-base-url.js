@@ -10,7 +10,7 @@
  * No content is returned when everything looks good.
  */
 
-import core from "@actions/core";
+import * as core from "@actions/core";
 import specs from "../index.json" with { type: "json" };
 
 const problems = specs

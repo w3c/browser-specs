@@ -20727,8 +20727,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Federated Identity Working Group",
-        "url": "https://www.w3.org/groups/wg/fedid/"
+        "name": "Federated Identities for the Open Web Community Group",
+        "url": "https://www.w3.org/community/fedid/"
       }
     ],
     "release": {
@@ -20764,12 +20764,6 @@
       "releaseUrl": "https://www.w3.org/TR/DOM-Style/",
       "nightlyUrl": "https://www.w3.org/TR/DOM-Style/"
     },
-    "nightly": {
-      "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "filename": "Overview.html"
-    },
     "obsoletedBy": [
       "cssom-1"
     ],
@@ -20780,6 +20774,12 @@
         "url": "https://www.w3.org/DOM/Group/"
       }
     ],
+    "nightly": {
+      "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "Overview.html"
+    },
     "release": {
       "url": "https://www.w3.org/TR/DOM-Level-2-Style/",
       "status": "Discontinued Draft",
@@ -21677,8 +21677,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Federated Identity Working Group",
-        "url": "https://www.w3.org/groups/wg/fedid/"
+        "name": "Federated Identities for the Open Web Community Group",
+        "url": "https://www.w3.org/community/fedid/"
       }
     ],
     "release": {
@@ -22910,8 +22910,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "JSON-LD Working Group",
-        "url": "https://www.w3.org/groups/wg/json-ld/"
+        "name": "JSON for Linked Data Community Group",
+        "url": "https://www.w3.org/community/json-ld/"
       }
     ],
     "release": {
@@ -22930,7 +22930,9 @@
     "title": "JSON-LD 1.1 Processing Algorithms and API",
     "source": "w3c",
     "shortTitle": "JSON-LD 1.1 Processing Algorithms and API",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -22949,8 +22951,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "JSON-LD Working Group",
-        "url": "https://www.w3.org/groups/wg/json-ld/"
+        "name": "JSON for Linked Data Community Group",
+        "url": "https://www.w3.org/community/json-ld/"
       }
     ],
     "release": {
@@ -22969,7 +22971,9 @@
     "title": "JSON-LD 1.1 Framing",
     "source": "w3c",
     "shortTitle": "JSON-LD 1.1 Framing",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -22988,8 +22992,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "JSON-LD Working Group",
-        "url": "https://www.w3.org/groups/wg/json-ld/"
+        "name": "JSON for Linked Data Community Group",
+        "url": "https://www.w3.org/community/json-ld/"
       }
     ],
     "release": {
@@ -23008,7 +23012,9 @@
     "title": "JSON-LD 1.1",
     "source": "w3c",
     "shortTitle": "JSON-LD 1.1",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -25245,11 +25251,9 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/pointerevents/",
+      "url": "https://www.w3.org/TR/pointerevents3/",
       "status": "Editor's Draft",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/pointerevents",
-      "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Pointer Events",
@@ -25258,13 +25262,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "pointerevents"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/pointerevents4/",
@@ -27588,10 +27586,17 @@
       "nightlyUrl": "https://svgwg.org/svg2-draft/"
     },
     "seriesVersion": "1.1",
-    "nightly": {
+    "seriesNext": "SVG2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "SVG Working Group",
+        "url": "https://www.w3.org/groups/wg/svg/"
+      }
+    ],
+    "release": {
       "url": "https://www.w3.org/TR/SVG11/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
+      "status": "Recommendation",
       "pages": [
         "https://www.w3.org/TR/SVG11/expanded-toc.html",
         "https://www.w3.org/TR/SVG11/intro.html",
@@ -27637,17 +27642,10 @@
       ],
       "filename": "Overview.html"
     },
-    "seriesNext": "SVG2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "SVG Working Group",
-        "url": "https://www.w3.org/groups/wg/svg/"
-      }
-    ],
-    "release": {
+    "nightly": {
       "url": "https://www.w3.org/TR/SVG11/",
-      "status": "Recommendation",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
       "pages": [
         "https://www.w3.org/TR/SVG11/expanded-toc.html",
         "https://www.w3.org/TR/SVG11/intro.html",
@@ -27819,12 +27817,6 @@
       "releaseUrl": "https://www.w3.org/TR/test-methodology/",
       "nightlyUrl": "https://www.w3.org/TR/test-methodology/"
     },
-    "nightly": {
-      "url": "https://www.w3.org/TR/test-methodology/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "filename": "Overview.html"
-    },
     "categories": [],
     "organization": "W3C",
     "groups": [
@@ -27836,6 +27828,12 @@
     "release": {
       "url": "https://www.w3.org/TR/test-methodology/",
       "status": "Note",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://www.w3.org/TR/test-methodology/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
       "filename": "Overview.html"
     },
     "title": "A Method for Writing Testable Conformance Requirements",
@@ -28964,8 +28962,8 @@
     "categories": [],
     "groups": [
       {
-        "name": "Spatial Data on the Web Interest Group",
-        "url": "https://www.w3.org/2017/sdwig/"
+        "name": "Spatio-temporal Data on the Web Working Group",
+        "url": "https://www.w3.org/2021/sdw"
       }
     ],
     "release": {
@@ -29002,8 +29000,8 @@
     "categories": [],
     "groups": [
       {
-        "name": "Spatial Data on the Web Interest Group",
-        "url": "https://www.w3.org/2017/sdwig/"
+        "name": "Spatio-temporal Data on the Web Working Group",
+        "url": "https://www.w3.org/2021/sdw"
       }
     ],
     "release": {
@@ -29122,8 +29120,8 @@
     },
     "groups": [
       {
-        "name": "Spatial Data on the Web Interest Group",
-        "url": "https://www.w3.org/2017/sdwig/"
+        "name": "Spatio-temporal Data on the Web Working Group",
+        "url": "https://www.w3.org/2021/sdw"
       }
     ],
     "release": {
@@ -29689,8 +29687,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Audio Working Group",
-        "url": "https://www.w3.org/groups/wg/audio/"
+        "name": "Audio Incubator Group",
+        "url": "https://www.w3.org/2005/Incubator/audio/"
       }
     ],
     "release": {
@@ -29737,8 +29735,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Audio Working Group",
-        "url": "https://www.w3.org/groups/wg/audio/"
+        "name": "Audio Incubator Group",
+        "url": "https://www.w3.org/2005/Incubator/audio/"
       }
     ],
     "release": {
@@ -30619,8 +30617,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "GPU for the Web Working Group",
-        "url": "https://www.w3.org/groups/wg/gpu/"
+        "name": "GPU for the Web Community Group",
+        "url": "https://www.w3.org/community/gpu/"
       }
     ],
     "release": {
@@ -30659,8 +30657,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Audio Working Group",
-        "url": "https://www.w3.org/groups/wg/audio/"
+        "name": "Audio Incubator Group",
+        "url": "https://www.w3.org/2005/Incubator/audio/"
       }
     ],
     "release": {
@@ -30705,8 +30703,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web Machine Learning Working Group",
-        "url": "https://www.w3.org/groups/wg/webmachinelearning/"
+        "name": "Web Machine Learning Community Group",
+        "url": "https://www.w3.org/community/webmachinelearning/"
       }
     ],
     "release": {
@@ -31115,8 +31113,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31162,8 +31160,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31203,8 +31201,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31250,8 +31248,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31297,8 +31295,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31344,8 +31342,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31391,8 +31389,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31431,8 +31429,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31488,8 +31486,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Immersive Web Working Group",
-        "url": "https://www.w3.org/immersive-web/"
+        "name": "Immersive Web Community Group",
+        "url": "https://www.w3.org/community/immersive-web/"
       }
     ],
     "release": {
@@ -31542,8 +31540,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "GPU for the Web Working Group",
-        "url": "https://www.w3.org/groups/wg/gpu/"
+        "name": "GPU for the Web Community Group",
+        "url": "https://www.w3.org/community/gpu/"
       }
     ],
     "release": {
@@ -31717,8 +31715,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web of Things Working Group",
-        "url": "https://www.w3.org/WoT/wg/"
+        "name": "Web of Things Community Group",
+        "url": "https://www.w3.org/community/wot/"
       }
     ],
     "release": {
@@ -31736,7 +31734,9 @@
     },
     "title": "Web of Things (WoT) Architecture 1.1",
     "source": "w3c",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -31873,8 +31873,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web of Things Working Group",
-        "url": "https://www.w3.org/WoT/wg/"
+        "name": "Web of Things Community Group",
+        "url": "https://www.w3.org/community/wot/"
       }
     ],
     "release": {
@@ -31893,7 +31893,9 @@
     "title": "Web of Things (WoT) Thing Description 2.0",
     "source": "w3c",
     "shortTitle": "WoT 2.0",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {
@@ -31913,8 +31915,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "Web of Things Working Group",
-        "url": "https://www.w3.org/WoT/wg/"
+        "name": "Web of Things Community Group",
+        "url": "https://www.w3.org/community/wot/"
       }
     ],
     "release": {
@@ -31933,7 +31935,9 @@
     "title": "Web of Things (WoT) Thing Description 1.1",
     "source": "w3c",
     "shortTitle": "WoT 1.1",
-    "categories": [],
+    "categories": [
+      "browser"
+    ],
     "standing": "good"
   },
   {

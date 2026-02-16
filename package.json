@@ -28,7 +28,7 @@
     "@jsdevtools/npm-publish": "^4.1.5",
     "@octokit/plugin-throttling": "^11.0.3",
     "@octokit/rest": "^22.0.1",
-    "ajv": "^8.17.1",
+    "ajv": "^8.18.0",
     "ajv-formats": "^3.0.1",
     "commander": "^14.0.3",
     "puppeteer": "^24.36.1",

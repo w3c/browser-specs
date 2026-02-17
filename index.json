@@ -22910,8 +22910,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "JSON for Linked Data Community Group",
-        "url": "https://www.w3.org/community/json-ld/"
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/groups/wg/json-ld/"
       }
     ],
     "release": {
@@ -22930,9 +22930,7 @@
     "title": "JSON-LD 1.1 Processing Algorithms and API",
     "source": "w3c",
     "shortTitle": "JSON-LD 1.1 Processing Algorithms and API",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -22951,8 +22949,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "JSON for Linked Data Community Group",
-        "url": "https://www.w3.org/community/json-ld/"
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/groups/wg/json-ld/"
       }
     ],
     "release": {
@@ -22971,9 +22969,7 @@
     "title": "JSON-LD 1.1 Framing",
     "source": "w3c",
     "shortTitle": "JSON-LD 1.1 Framing",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -22992,8 +22988,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "JSON for Linked Data Community Group",
-        "url": "https://www.w3.org/community/json-ld/"
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/groups/wg/json-ld/"
       }
     ],
     "release": {
@@ -23012,9 +23008,7 @@
     "title": "JSON-LD 1.1",
     "source": "w3c",
     "shortTitle": "JSON-LD 1.1",
-    "categories": [
-      "browser"
-    ],
+    "categories": [],
     "standing": "good"
   },
   {
@@ -28962,8 +28956,8 @@
     "categories": [],
     "groups": [
       {
-        "name": "Spatio-temporal Data on the Web Working Group",
-        "url": "https://www.w3.org/2021/sdw"
+        "name": "Spatial Data on the Web Interest Group",
+        "url": "https://www.w3.org/2017/sdwig/"
       }
     ],
     "release": {
@@ -29000,8 +28994,8 @@
     "categories": [],
     "groups": [
       {
-        "name": "Spatio-temporal Data on the Web Working Group",
-        "url": "https://www.w3.org/2021/sdw"
+        "name": "Spatial Data on the Web Interest Group",
+        "url": "https://www.w3.org/2017/sdwig/"
       }
     ],
     "release": {
@@ -29120,8 +29114,8 @@
     },
     "groups": [
       {
-        "name": "Spatio-temporal Data on the Web Working Group",
-        "url": "https://www.w3.org/2021/sdw"
+        "name": "Spatial Data on the Web Interest Group",
+        "url": "https://www.w3.org/2017/sdwig/"
       }
     ],
     "release": {

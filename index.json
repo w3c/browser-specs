@@ -29598,7 +29598,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "web-based-payment-handler"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/web-locks/",

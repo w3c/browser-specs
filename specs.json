@@ -1746,7 +1746,6 @@
       "passkey-endpoints"
     ]
   },
-  "https://www.w3.org/TR/payment-handler/",
   "https://www.w3.org/TR/payment-method-id/",
   "https://www.w3.org/TR/payment-method-manifest/",
   {
@@ -2007,6 +2006,12 @@
   },
   "https://www.w3.org/TR/web-animations-1/",
   "https://www.w3.org/TR/web-animations-2/ delta",
+  {
+    "url": "https://www.w3.org/TR/web-based-payment-handler/",
+    "formerNames": [
+      "payment-handler"
+    ]
+  },
   "https://www.w3.org/TR/web-locks/",
   "https://www.w3.org/TR/web-share/",
   {

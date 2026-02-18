@@ -8130,6 +8130,40 @@
     "standing": "good"
   },
   {
+    "url": "https://webmachinelearning.github.io/webmcp/",
+    "seriesComposition": "full",
+    "shortname": "webmcp",
+    "series": {
+      "shortname": "webmcp",
+      "currentSpecification": "webmcp",
+      "title": "WebMCP",
+      "shortTitle": "WebMCP",
+      "nightlyUrl": "https://webmachinelearning.github.io/webmcp/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Machine Learning Community Group",
+        "url": "https://www.w3.org/community/webmachinelearning/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webmachinelearning.github.io/webmcp/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/webmachinelearning/webmcp",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebMCP",
+    "source": "spec",
+    "shortTitle": "WebMCP",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webmachinelearning.github.io/writing-assistance-apis/",
     "seriesComposition": "full",
     "shortname": "writing-assistance-apis",
@@ -18449,7 +18483,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/css-rhythm-1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -18463,9 +18497,9 @@
       "sourcePath": "css-rhythm-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Rhythmic Sizing",
+    "title": "CSS Rhythmic Sizing Module Level 1",
     "source": "w3c",
-    "shortTitle": "CSS Rhythmic Sizing",
+    "shortTitle": "CSS Rhythmic Sizing 1",
     "categories": [
       "browser"
     ],
@@ -24809,52 +24843,6 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/payment-handler/",
-    "seriesComposition": "full",
-    "shortname": "payment-handler",
-    "series": {
-      "shortname": "payment-handler",
-      "currentSpecification": "payment-handler",
-      "title": "Payment Handler API",
-      "shortTitle": "Payment Handler API",
-      "releaseUrl": "https://www.w3.org/TR/payment-handler/",
-      "nightlyUrl": "https://w3c.github.io/payment-handler/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Payments Working Group",
-        "url": "https://www.w3.org/groups/wg/payments/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/payment-handler/",
-      "status": "Working Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/payment-handler/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/payment-handler",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Payment Handler API",
-    "source": "w3c",
-    "shortTitle": "Payment Handler API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "payment-handler"
-      ]
-    }
-  },
-  {
     "url": "https://www.w3.org/TR/payment-method-id/",
     "seriesComposition": "full",
     "shortname": "payment-method-id",
@@ -26220,7 +26208,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/resource-timing",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Resource Timing",
@@ -27416,8 +27404,8 @@
     "organization": "W3C",
     "groups": [
       {
-        "name": "SVG Working Group",
-        "url": "https://www.w3.org/groups/wg/svg/"
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
       }
     ],
     "release": {
@@ -29568,6 +29556,49 @@
         "web-animations"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/web-based-payment-handler/",
+    "seriesComposition": "full",
+    "shortname": "web-based-payment-handler",
+    "series": {
+      "shortname": "web-based-payment-handler",
+      "currentSpecification": "web-based-payment-handler",
+      "title": "Web-based Payment Handler API",
+      "shortTitle": "Web-based Payment Handler API",
+      "releaseUrl": "https://www.w3.org/TR/web-based-payment-handler/",
+      "nightlyUrl": "https://w3c.github.io/web-based-payment-handler/"
+    },
+    "formerNames": [
+      "payment-handler"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Payments Working Group",
+        "url": "https://www.w3.org/groups/wg/payments/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/web-based-payment-handler/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/web-based-payment-handler/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/web-based-payment-handler",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web-based Payment Handler API",
+    "source": "w3c",
+    "shortTitle": "Web-based Payment Handler API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/web-locks/",

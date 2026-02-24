@@ -934,6 +934,44 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-image-animation-1/",
+    "seriesComposition": "full",
+    "shortname": "css-image-animation-1",
+    "series": {
+      "shortname": "css-image-animation",
+      "currentSpecification": "css-image-animation-1",
+      "title": "CSS Image Animation",
+      "shortTitle": "CSS Image Animation",
+      "nightlyUrl": "https://drafts.csswg.org/css-image-animation/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-image-animation-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-image-animation-1/",
+        "https://w3c.github.io/csswg-drafts/css-image-animation/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-image-animation-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Image Animation",
+    "source": "spec",
+    "shortTitle": "CSS Image Animation",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-images-5/",
     "seriesComposition": "delta",
     "shortname": "css-images-5",

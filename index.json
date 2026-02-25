@@ -609,6 +609,40 @@
     "standing": "good"
   },
   {
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-unencoded-digest",
+    "seriesComposition": "full",
+    "shortname": "unencoded-digest",
+    "series": {
+      "shortname": "unencoded-digest",
+      "currentSpecification": "unencoded-digest",
+      "title": "HTTP Unencoded Digest",
+      "shortTitle": "HTTP Unencoded Digest",
+      "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-unencoded-digest.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-unencoded-digest.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-unencoded-digest.md",
+      "filename": "draft-ietf-httpbis-unencoded-digest.html"
+    },
+    "title": "HTTP Unencoded Digest",
+    "source": "ietf",
+    "shortTitle": "HTTP Unencoded Digest",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://dom.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "dom",
@@ -13167,6 +13201,43 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/rfc/rfc9421",
+    "seriesComposition": "full",
+    "shortname": "rfc9421",
+    "series": {
+      "shortname": "rfc9421",
+      "currentSpecification": "rfc9421",
+      "title": "HTTP Message Signatures",
+      "shortTitle": "HTTP Message Signatures",
+      "nightlyUrl": "https://httpwg.org/specs/rfc9421.html"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "HTTP Working Group",
+        "url": "https://datatracker.ietf.org/wg/httpbis/"
+      }
+    ],
+    "nightly": {
+      "url": "https://httpwg.org/specs/rfc9421.html",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc9421",
+        "https://tools.ietf.org/html/rfc9421"
+      ],
+      "repository": "https://github.com/httpwg/httpwg.github.io",
+      "sourcePath": "specs/rfc9421.xml",
+      "filename": "rfc9421.html"
+    },
+    "title": "HTTP Message Signatures",
+    "source": "ietf",
+    "shortTitle": "HTTP Message Signatures",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/rfc/rfc9530",
     "seriesComposition": "full",
     "shortname": "rfc9530",
@@ -22389,7 +22460,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/hr-time",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "High Resolution Time",
@@ -24424,7 +24495,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/navigation-timing",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Navigation Timing Level 2",

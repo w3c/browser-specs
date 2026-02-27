@@ -10198,16 +10198,19 @@
     "standing": "good"
   },
   {
-    "url": "https://wicg.github.io/PEPC/permission-elements.html",
+    "url": "https://wicg.github.io/PEPC/geolocation-element.html",
     "seriesComposition": "full",
-    "shortname": "permission-elements",
+    "shortname": "geolocation-element",
     "series": {
-      "shortname": "permission-elements",
-      "currentSpecification": "permission-elements",
-      "title": "The HTML Permission Elements",
-      "shortTitle": "The HTML Permission Elements",
-      "nightlyUrl": "https://wicg.github.io/PEPC/permission-elements.html"
+      "shortname": "geolocation-element",
+      "currentSpecification": "geolocation-element",
+      "title": "The HTML Geolocation Element",
+      "shortTitle": "The HTML Geolocation Element",
+      "nightlyUrl": "https://wicg.github.io/PEPC/geolocation-element.html"
     },
+    "formerNames": [
+      "permission-elements"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -10216,16 +10219,16 @@
       }
     ],
     "nightly": {
-      "url": "https://wicg.github.io/PEPC/permission-elements.html",
+      "url": "https://wicg.github.io/PEPC/geolocation-element.html",
       "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/PEPC",
-      "sourcePath": "permission-elements.bs",
-      "filename": "permission-elements.html"
+      "sourcePath": "geolocation-element.bs",
+      "filename": "geolocation-element.html"
     },
-    "title": "The HTML Permission Elements",
+    "title": "The HTML Geolocation Element",
     "source": "spec",
-    "shortTitle": "The HTML Permission Elements",
+    "shortTitle": "The HTML Geolocation Element",
     "categories": [
       "browser"
     ],

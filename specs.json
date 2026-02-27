@@ -901,8 +901,11 @@
   "https://wicg.github.io/page-lifecycle/",
   "https://wicg.github.io/paymentlink/",
   {
-    "shortname": "permission-elements",
-    "url": "https://wicg.github.io/PEPC/permission-elements.html"
+    "shortname": "geolocation-element",
+    "url": "https://wicg.github.io/PEPC/geolocation-element.html",
+    "formerNames": [
+      "permission-elements"
+    ]
   },
   "https://wicg.github.io/performance-measure-memory/",
   "https://wicg.github.io/periodic-background-sync/",

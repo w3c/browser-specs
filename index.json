@@ -547,8 +547,8 @@
     "series": {
       "shortname": "no-vary-search",
       "currentSpecification": "no-vary-search",
-      "title": "The No-Vary-Search HTTP Response Header Field",
-      "shortTitle": "The No-Vary-Search HTTP Response Header Field",
+      "title": "The No-Vary-Search HTTP Caching Extension",
+      "shortTitle": "The No-Vary-Search HTTP Caching Extension",
       "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html"
     },
     "organization": "IETF",
@@ -566,9 +566,9 @@
       "sourcePath": "draft-ietf-httpbis-no-vary-search.md",
       "filename": "draft-ietf-httpbis-no-vary-search.html"
     },
-    "title": "The No-Vary-Search HTTP Response Header Field",
+    "title": "The No-Vary-Search HTTP Caching Extension",
     "source": "ietf",
-    "shortTitle": "The No-Vary-Search HTTP Response Header Field",
+    "shortTitle": "The No-Vary-Search HTTP Caching Extension",
     "categories": [
       "browser"
     ],

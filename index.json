@@ -706,7 +706,7 @@
     ],
     "nightly": {
       "url": "https://drafts.css-houdini.org/css-typed-om-2/",
-      "status": "A Collection of Interesting Ideas",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/css-houdini-drafts",
       "sourcePath": "css-typed-om-2/Overview.bs",
@@ -718,7 +718,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "pending",
+    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
@@ -748,7 +748,7 @@
     ],
     "nightly": {
       "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
-      "status": "A Collection of Interesting Ideas",
+      "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/css-houdini-drafts",
       "sourcePath": "font-metrics-api/Overview.bs",
@@ -760,6 +760,44 @@
     "categories": [
       "browser"
     ]
+  },
+  {
+    "url": "https://drafts.csswg.org/animation-triggers-1/",
+    "seriesComposition": "full",
+    "shortname": "animation-triggers-1",
+    "series": {
+      "shortname": "animation-triggers",
+      "currentSpecification": "animation-triggers-1",
+      "title": "Animation Triggers",
+      "shortTitle": "Animation Triggers",
+      "nightlyUrl": "https://drafts.csswg.org/animation-triggers/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/animation-triggers-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/animation-triggers-1/",
+        "https://w3c.github.io/csswg-drafts/animation-triggers/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "animation-triggers-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "Animation Triggers",
+    "source": "spec",
+    "shortTitle": "Animation Triggers",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://drafts.csswg.org/compositing-2/",
@@ -11631,7 +11669,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -11656,7 +11694,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],
@@ -11681,7 +11719,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "iso",
+    "source": "spec",
     "categories": [
       "browser"
     ],

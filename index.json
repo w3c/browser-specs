@@ -8670,6 +8670,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/container-timing/",
+    "seriesComposition": "full",
+    "shortname": "container-timing",
+    "series": {
+      "shortname": "container-timing",
+      "currentSpecification": "container-timing",
+      "title": "Container Timing API",
+      "shortTitle": "Container Timing API",
+      "nightlyUrl": "https://wicg.github.io/container-timing/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/container-timing/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/container-timing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Container Timing API",
+    "source": "spec",
+    "shortTitle": "Container Timing API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/content-index/spec/",
     "seriesComposition": "full",
     "shortname": "content-index",

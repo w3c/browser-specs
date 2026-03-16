@@ -440,6 +440,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-import-text/",
   "https://tc39.es/proposal-intl-duration-format/",
   {
     "url": "https://tc39.es/proposal-intl-enumeration/",

@@ -5273,6 +5273,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-import-text/",
+    "seriesComposition": "full",
+    "shortname": "tc39-import-text",
+    "series": {
+      "shortname": "tc39-import-text",
+      "currentSpecification": "tc39-import-text",
+      "title": "Import Text",
+      "shortTitle": "Import Text",
+      "nightlyUrl": "https://tc39.es/proposal-import-text/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-import-text/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-import-text",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Import Text",
+    "source": "spec",
+    "shortTitle": "Import Text",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-intl-duration-format/",
     "seriesComposition": "full",
     "shortname": "tc39-intl-duration-format",

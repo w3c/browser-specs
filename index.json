@@ -27788,7 +27788,7 @@
       "title": "Scalable Vector Graphics (SVG)",
       "shortTitle": "SVG",
       "releaseUrl": "https://www.w3.org/TR/SVG/",
-      "nightlyUrl": "https://svgwg.org/svg2-draft/"
+      "nightlyUrl": "https://w3c.github.io/svgwg/svg2-draft/"
     },
     "seriesVersion": "1.1",
     "seriesNext": "SVG2",
@@ -27914,7 +27914,7 @@
       "title": "Scalable Vector Graphics (SVG)",
       "shortTitle": "SVG",
       "releaseUrl": "https://www.w3.org/TR/SVG/",
-      "nightlyUrl": "https://svgwg.org/svg2-draft/"
+      "nightlyUrl": "https://w3c.github.io/svgwg/svg2-draft/"
     },
     "seriesVersion": "2",
     "seriesPrevious": "SVG11",
@@ -27960,39 +27960,39 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://svgwg.org/svg2-draft/",
+      "url": "https://w3c.github.io/svgwg/svg2-draft/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/svgwg",
       "sourcePath": "master/Overview.html",
       "pages": [
-        "https://svgwg.org/svg2-draft/intro.html",
-        "https://svgwg.org/svg2-draft/conform.html",
-        "https://svgwg.org/svg2-draft/render.html",
-        "https://svgwg.org/svg2-draft/types.html",
-        "https://svgwg.org/svg2-draft/struct.html",
-        "https://svgwg.org/svg2-draft/styling.html",
-        "https://svgwg.org/svg2-draft/geometry.html",
-        "https://svgwg.org/svg2-draft/coords.html",
-        "https://svgwg.org/svg2-draft/paths.html",
-        "https://svgwg.org/svg2-draft/shapes.html",
-        "https://svgwg.org/svg2-draft/text.html",
-        "https://svgwg.org/svg2-draft/embedded.html",
-        "https://svgwg.org/svg2-draft/painting.html",
-        "https://svgwg.org/svg2-draft/pservers.html",
-        "https://svgwg.org/svg2-draft/interact.html",
-        "https://svgwg.org/svg2-draft/linking.html",
-        "https://svgwg.org/svg2-draft/idl.html",
-        "https://svgwg.org/svg2-draft/implnote.html",
-        "https://svgwg.org/svg2-draft/access.html",
-        "https://svgwg.org/svg2-draft/animate.html",
-        "https://svgwg.org/svg2-draft/refs.html",
-        "https://svgwg.org/svg2-draft/eltindex.html",
-        "https://svgwg.org/svg2-draft/attindex.html",
-        "https://svgwg.org/svg2-draft/propidx.html",
-        "https://svgwg.org/svg2-draft/idlindex.html",
-        "https://svgwg.org/svg2-draft/mimereg.html",
-        "https://svgwg.org/svg2-draft/changes.html"
+        "https://w3c.github.io/svgwg/svg2-draft/intro.html",
+        "https://w3c.github.io/svgwg/svg2-draft/conform.html",
+        "https://w3c.github.io/svgwg/svg2-draft/render.html",
+        "https://w3c.github.io/svgwg/svg2-draft/types.html",
+        "https://w3c.github.io/svgwg/svg2-draft/struct.html",
+        "https://w3c.github.io/svgwg/svg2-draft/styling.html",
+        "https://w3c.github.io/svgwg/svg2-draft/geometry.html",
+        "https://w3c.github.io/svgwg/svg2-draft/coords.html",
+        "https://w3c.github.io/svgwg/svg2-draft/paths.html",
+        "https://w3c.github.io/svgwg/svg2-draft/shapes.html",
+        "https://w3c.github.io/svgwg/svg2-draft/text.html",
+        "https://w3c.github.io/svgwg/svg2-draft/embedded.html",
+        "https://w3c.github.io/svgwg/svg2-draft/painting.html",
+        "https://w3c.github.io/svgwg/svg2-draft/pservers.html",
+        "https://w3c.github.io/svgwg/svg2-draft/interact.html",
+        "https://w3c.github.io/svgwg/svg2-draft/linking.html",
+        "https://w3c.github.io/svgwg/svg2-draft/idl.html",
+        "https://w3c.github.io/svgwg/svg2-draft/implnote.html",
+        "https://w3c.github.io/svgwg/svg2-draft/access.html",
+        "https://w3c.github.io/svgwg/svg2-draft/animate.html",
+        "https://w3c.github.io/svgwg/svg2-draft/refs.html",
+        "https://w3c.github.io/svgwg/svg2-draft/eltindex.html",
+        "https://w3c.github.io/svgwg/svg2-draft/attindex.html",
+        "https://w3c.github.io/svgwg/svg2-draft/propidx.html",
+        "https://w3c.github.io/svgwg/svg2-draft/idlindex.html",
+        "https://w3c.github.io/svgwg/svg2-draft/mimereg.html",
+        "https://w3c.github.io/svgwg/svg2-draft/changes.html"
       ],
       "filename": "Overview.html"
     },
@@ -28002,13 +28002,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "svg"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/test-methodology/",

@@ -163,10 +163,16 @@ export default async function (specs, options) {
     // Note the use of startsWith below, needed to cover cases where a META.yml
     // file targets a specific page in a multipage spec (for HTML, typically),
     // or a fragment within a spec.
+    function matchSpecUrl(metaUrl, specUrl) {
+      return metaUrl.startsWith(specUrl) ||
+        metaUrl.startsWith(specUrl.replace(/-\d+\/$/, "/"));
+    }
+    function matchSpec(metaFile, spec) {
+      return matchSpecUrl(metaFile.spec, spec.nightly.url) ||
+        spec.nightly.alternateUrls.find(url => matchSpecUrl(metaFile.spec, url));
+    }
     const folders = wptFolders
-      .filter(item =>
-        item.spec.startsWith(spec.nightly.url) ||
-        item.spec.startsWith(spec.nightly.url.replace(/-\d+\/$/, "/")))
+      .filter(item => matchSpec(item, spec))
       .map(item => item.folder);
     if (folders.length > 0) {
       // Don't list subfolders when parent folder is already in the list

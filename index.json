@@ -7224,6 +7224,70 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/vc-barcodes/",
+    "seriesComposition": "full",
+    "shortname": "vc-barcodes",
+    "series": {
+      "shortname": "vc-barcodes",
+      "currentSpecification": "vc-barcodes",
+      "title": "Verifiable Credential Barcodes v0.8",
+      "shortTitle": "Verifiable Credential Barcodes v0.8",
+      "nightlyUrl": "https://w3c.github.io/vc-barcodes/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/vc-barcodes/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-barcodes",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Verifiable Credential Barcodes v0.8",
+    "source": "spec",
+    "shortTitle": "Verifiable Credential Barcodes v0.8",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/vc-recognition/",
+    "seriesComposition": "full",
+    "shortname": "vc-recognition",
+    "series": {
+      "shortname": "vc-recognition",
+      "currentSpecification": "vc-recognition",
+      "title": "VCs for Entity Recognition v0.9",
+      "shortTitle": "VCs for Entity Recognition v0.9",
+      "nightlyUrl": "https://w3c.github.io/vc-recognition/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/vc-recognition/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-recognition",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "VCs for Entity Recognition v0.9",
+    "source": "spec",
+    "shortTitle": "VCs for Entity Recognition v0.9",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/web-nfc/",
     "seriesComposition": "full",
     "shortname": "web-nfc",

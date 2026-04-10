@@ -7230,8 +7230,8 @@
     "series": {
       "shortname": "vc-barcodes",
       "currentSpecification": "vc-barcodes",
-      "title": "Verifiable Credential Barcodes v0.8",
-      "shortTitle": "Verifiable Credential Barcodes v0.8",
+      "title": "Verifiable Credential Barcodes v1.0",
+      "shortTitle": "Verifiable Credential Barcodes v1.0",
       "nightlyUrl": "https://w3c.github.io/vc-barcodes/"
     },
     "organization": "W3C",
@@ -7249,9 +7249,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Verifiable Credential Barcodes v0.8",
+    "title": "Verifiable Credential Barcodes v1.0",
     "source": "spec",
-    "shortTitle": "Verifiable Credential Barcodes v0.8",
+    "shortTitle": "Verifiable Credential Barcodes v1.0",
     "categories": [],
     "standing": "good"
   },

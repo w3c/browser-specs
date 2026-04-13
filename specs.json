@@ -1932,7 +1932,13 @@
   "https://www.w3.org/TR/vc-bitstring-status-list/",
   "https://www.w3.org/TR/vc-confidence-method/",
   "https://www.w3.org/TR/vc-data-integrity/",
-  "https://www.w3.org/TR/vc-data-model-2.0/",
+  {
+    "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/vc-data-model-2.0/"
+    }
+  },
+  "https://www.w3.org/TR/vc-data-model-2.1/",
   "https://www.w3.org/TR/vc-di-bbs/",
   "https://www.w3.org/TR/vc-di-ecdsa/",
   "https://www.w3.org/TR/vc-di-eddsa/",

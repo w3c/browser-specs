@@ -1006,44 +1006,6 @@
     }
   },
   {
-    "url": "https://drafts.csswg.org/css-image-animation-1/",
-    "seriesComposition": "full",
-    "shortname": "css-image-animation-1",
-    "series": {
-      "shortname": "css-image-animation",
-      "currentSpecification": "css-image-animation-1",
-      "title": "CSS Image Animation",
-      "shortTitle": "CSS Image Animation",
-      "nightlyUrl": "https://drafts.csswg.org/css-image-animation/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Cascading Style Sheets (CSS) Working Group",
-        "url": "https://www.w3.org/groups/wg/css/"
-      }
-    ],
-    "nightly": {
-      "url": "https://drafts.csswg.org/css-image-animation-1/",
-      "status": "Editor's Draft",
-      "alternateUrls": [
-        "https://w3c.github.io/csswg-drafts/css-image-animation-1/",
-        "https://w3c.github.io/csswg-drafts/css-image-animation/"
-      ],
-      "repository": "https://github.com/w3c/csswg-drafts",
-      "sourcePath": "css-image-animation-1/Overview.bs",
-      "filename": "index.html"
-    },
-    "title": "CSS Image Animation Module Level 1",
-    "source": "spec",
-    "shortTitle": "CSS Image Animation 1",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
     "url": "https://drafts.csswg.org/css-images-5/",
     "seriesComposition": "delta",
     "shortname": "css-images-5",
@@ -6467,6 +6429,40 @@
     }
   },
   {
+    "url": "https://w3c-cg.github.io/web-nfc/",
+    "seriesComposition": "full",
+    "shortname": "web-nfc",
+    "series": {
+      "shortname": "web-nfc",
+      "currentSpecification": "web-nfc",
+      "title": "Web NFC",
+      "shortTitle": "Web NFC",
+      "nightlyUrl": "https://w3c-cg.github.io/web-nfc/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web NFC Community Group",
+        "url": "https://www.w3.org/community/web-nfc/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c-cg.github.io/web-nfc/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c-cg/web-nfc",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web NFC",
+    "source": "spec",
+    "shortTitle": "Web NFC",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c-fedid.github.io/login-status/",
     "seriesComposition": "full",
     "shortname": "login-status",
@@ -7286,46 +7282,6 @@
     "shortTitle": "VCs for Entity Recognition v0.9",
     "categories": [],
     "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/web-nfc/",
-    "seriesComposition": "full",
-    "shortname": "web-nfc",
-    "series": {
-      "shortname": "web-nfc",
-      "currentSpecification": "web-nfc",
-      "title": "Web NFC",
-      "shortTitle": "Web NFC",
-      "nightlyUrl": "https://w3c.github.io/web-nfc/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web NFC Community Group",
-        "url": "https://www.w3.org/community/web-nfc/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/web-nfc/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/web-nfc",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Web NFC",
-    "source": "spec",
-    "shortTitle": "Web NFC",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "web-nfc"
-      ]
-    }
   },
   {
     "url": "https://w3c.github.io/web-share-target/",
@@ -17463,6 +17419,50 @@
         "css/css-highlight-api"
       ]
     }
+  },
+  {
+    "url": "https://www.w3.org/TR/css-image-animation-1/",
+    "seriesComposition": "full",
+    "shortname": "css-image-animation-1",
+    "series": {
+      "shortname": "css-image-animation",
+      "currentSpecification": "css-image-animation-1",
+      "title": "CSS Image Animation Module",
+      "shortTitle": "CSS Image Animation",
+      "releaseUrl": "https://www.w3.org/TR/css-image-animation/",
+      "nightlyUrl": "https://drafts.csswg.org/css-image-animation/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/css-image-animation-1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-image-animation-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-image-animation-1/",
+        "https://w3c.github.io/csswg-drafts/css-image-animation/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-image-animation-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Image Animation Module Level 1",
+    "source": "w3c",
+    "shortTitle": "CSS Image Animation 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/css-images-3/",
@@ -28861,9 +28861,16 @@
       "title": "Verifiable Credentials Data Model",
       "shortTitle": "Verifiable Credentials Data Model",
       "releaseUrl": "https://www.w3.org/TR/vc-data-model/",
-      "nightlyUrl": "https://w3c.github.io/vc-data-model/"
+      "nightlyUrl": "https://www.w3.org/TR/vc-data-model/"
     },
     "seriesVersion": "2.0",
+    "nightly": {
+      "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "index.html"
+    },
+    "seriesNext": "vc-data-model-2.1",
     "organization": "W3C",
     "groups": [
       {
@@ -28876,6 +28883,38 @@
       "status": "Recommendation",
       "filename": "Overview.html"
     },
+    "title": "Verifiable Credentials Data Model v2.0",
+    "source": "w3c",
+    "shortTitle": "Verifiable Credentials Data Model v2.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-data-model-2.1/",
+    "seriesComposition": "full",
+    "shortname": "vc-data-model-2.1",
+    "series": {
+      "shortname": "vc-data-model",
+      "currentSpecification": "vc-data-model-2.0",
+      "title": "Verifiable Credentials Data Model",
+      "shortTitle": "Verifiable Credentials Data Model",
+      "releaseUrl": "https://www.w3.org/TR/vc-data-model/",
+      "nightlyUrl": "https://www.w3.org/TR/vc-data-model/"
+    },
+    "seriesVersion": "2.1",
+    "seriesPrevious": "vc-data-model-2.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-data-model-2.1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
     "nightly": {
       "url": "https://w3c.github.io/vc-data-model/",
       "status": "Editor's Draft",
@@ -28884,9 +28923,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Verifiable Credentials Data Model v2.0",
+    "title": "Verifiable Credentials Data Model v2.1",
     "source": "w3c",
-    "shortTitle": "Verifiable Credentials Data Model v2.0",
+    "shortTitle": "Verifiable Credentials Data Model v2.1",
     "categories": [],
     "standing": "good"
   },

@@ -11099,7 +11099,7 @@
       "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/soft-navigations",
-      "sourcePath": "soft-navigations.bs",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Soft Navigations",

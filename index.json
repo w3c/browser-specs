@@ -11082,8 +11082,8 @@
     "series": {
       "shortname": "soft-navigations",
       "currentSpecification": "soft-navigations",
-      "title": "Soft Navigations",
-      "shortTitle": "Soft Navigations",
+      "title": "Soft Navigations and Interaction Contentful Paint",
+      "shortTitle": "Soft Navigations and Interaction Contentful Paint",
       "nightlyUrl": "https://wicg.github.io/soft-navigations/"
     },
     "standing": "pending",
@@ -11102,9 +11102,9 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Soft Navigations",
+    "title": "Soft Navigations and Interaction Contentful Paint",
     "source": "spec",
-    "shortTitle": "Soft Navigations",
+    "shortTitle": "Soft Navigations and Interaction Contentful Paint",
     "categories": [
       "browser"
     ]

@@ -674,7 +674,6 @@
   "https://w3c.github.io/trace-context-binary/",
   "https://w3c.github.io/trace-context-mqtt/",
   "https://w3c.github.io/tracestate-ids-registry/",
-  "https://w3c.github.io/vc-barcodes/",
   "https://w3c.github.io/vc-recognition/",
   {
     "url": "https://w3c.github.io/web-share-target/",
@@ -1929,6 +1928,12 @@
   "https://www.w3.org/TR/uievents/",
   "https://www.w3.org/TR/upgrade-insecure-requests/",
   "https://www.w3.org/TR/user-timing/",
+  {
+    "url": "https://www.w3.org/TR/vc-barcodes-1.0/",
+    "formerNames": [
+      "vc-barcodes"
+    ]
+  },
   "https://www.w3.org/TR/vc-bitstring-status-list/",
   "https://www.w3.org/TR/vc-confidence-method/",
   "https://www.w3.org/TR/vc-data-integrity/",

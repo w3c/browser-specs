@@ -1936,7 +1936,13 @@
   },
   "https://www.w3.org/TR/vc-bitstring-status-list/",
   "https://www.w3.org/TR/vc-confidence-method/",
-  "https://www.w3.org/TR/vc-data-integrity/",
+  "https://www.w3.org/TR/vc-data-integrity-1.1/",
+  {
+    "url": "https://www.w3.org/TR/vc-data-integrity/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/vc-data-integrity/"
+    }
+  },
   {
     "url": "https://www.w3.org/TR/vc-data-model-2.0/",
     "nightly": {
@@ -1945,8 +1951,20 @@
   },
   "https://www.w3.org/TR/vc-data-model-2.1/",
   "https://www.w3.org/TR/vc-di-bbs/",
-  "https://www.w3.org/TR/vc-di-ecdsa/",
-  "https://www.w3.org/TR/vc-di-eddsa/",
+  "https://www.w3.org/TR/vc-di-ecdsa-1.1/",
+  {
+    "url": "https://www.w3.org/TR/vc-di-ecdsa/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/vc-di-ecdsa/"
+    }
+  },
+  "https://www.w3.org/TR/vc-di-eddsa-1.1/",
+  {
+    "url": "https://www.w3.org/TR/vc-di-eddsa/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/vc-di-eddsa/"
+    }
+  },
   "https://www.w3.org/TR/vc-jose-cose/",
   "https://www.w3.org/TR/vc-json-schema/",
   "https://www.w3.org/TR/vc-render-method/",

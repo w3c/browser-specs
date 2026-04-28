@@ -637,7 +637,6 @@
   },
   "https://w3c.github.io/element-timing/",
   "https://w3c.github.io/gamepad/extensions.html",
-  "https://w3c.github.io/long-animation-frames/",
   "https://w3c.github.io/mathml-aam/",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
@@ -1640,6 +1639,7 @@
     }
   },
   "https://www.w3.org/TR/largest-contentful-paint/",
+  "https://www.w3.org/TR/long-animation-frames/",
   "https://www.w3.org/TR/longtasks-1/",
   "https://www.w3.org/TR/magnetometer/",
   "https://www.w3.org/TR/manifest-app-info/",

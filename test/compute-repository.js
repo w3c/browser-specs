@@ -87,6 +87,17 @@ describe("compute-repository module", async () => {
     assert.equal(result[0].nightly, undefined);
   });
 
+  it("returns null when nightly URL is the release URL", async () => {
+    const spec = {
+      url: "https://www.w3.org/TR/vc-data-integrity/",
+      nightly: {
+        url: "https://www.w3.org/TR/vc-data-integrity/"
+      }
+    };
+    const result = await computeRepo([spec]);
+    assert.equal(result[0].nightly.repository, undefined);
+  });
+
   it("returns null when repository cannot be derived from URL", async () => {
     assert.equal(
       await computeSingleRepo("https://example.net/repoless"),

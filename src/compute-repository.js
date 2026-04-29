@@ -199,7 +199,7 @@ export default async function (specs, options) {
   // Compute final repo URL and add source file if possible
   for (const spec of specs) {
     const repo = repos.shift();
-    if (repo && await isRealRepo(repo)) {
+    if (repo && repo.type !== 'tr' && await isRealRepo(repo)) {
       spec.nightly.repository = `https://github.com/${repo.owner}/${repo.name}`;
 
       if (options.githubToken && !spec.nightly.sourcePath) {

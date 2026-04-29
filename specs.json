@@ -198,7 +198,7 @@
       }
     ],
     "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/",
-    "standing": "good"
+    "standing": "discontinued"
   },
   {
     "url": "https://patcg-individual-drafts.github.io/topics/",
@@ -208,11 +208,14 @@
         "url": "https://www.w3.org/community/patcg/"
       }
     ],
-    "standing": "pending"
+    "standing": "discontinued"
   },
   "https://privacycg.github.io/nav-tracking-mitigations/",
   "https://privacycg.github.io/private-click-measurement/",
-  "https://privacycg.github.io/requestStorageAccessFor/",
+  {
+    "url": "https://privacycg.github.io/requestStorageAccessFor/",
+    "standing": "discontinued"
+  },
   {
     "shortTitle": "Extending Storage Access API to non-cookie storage",
     "url": "https://privacycg.github.io/saa-non-cookie-storage/"
@@ -799,7 +802,10 @@
   "https://websockets.spec.whatwg.org/",
   "https://wicg.github.io/anonymous-iframe/",
   "https://wicg.github.io/aom/spec/",
-  "https://wicg.github.io/attribution-reporting-api/",
+  {
+    "url": "https://wicg.github.io/attribution-reporting-api/",
+    "standing": "discontinued"
+  },
   {
     "standing": "pending",
     "url": "https://wicg.github.io/audio-context-playout-stats/"
@@ -942,7 +948,10 @@
     "url": "https://wicg.github.io/shape-detection-api/text.html",
     "shortname": "text-detection-api"
   },
-  "https://wicg.github.io/shared-storage/",
+  {
+    "url": "https://wicg.github.io/shared-storage/",
+    "standing": "discontinued"
+  },
   "https://wicg.github.io/signature-based-sri/",
   {
     "url": "https://wicg.github.io/sms-one-time-codes/",
@@ -956,7 +965,8 @@
   "https://wicg.github.io/trust-token-api/",
   {
     "url": "https://wicg.github.io/turtledove/",
-    "shortTitle": "Protected Audience"
+    "shortTitle": "Protected Audience",
+    "standing": "discontinued"
   },
   "https://wicg.github.io/ua-client-hints/",
   "https://wicg.github.io/user-preference-media-features-headers/",

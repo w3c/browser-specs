@@ -1955,7 +1955,8 @@
   {
     "url": "https://www.w3.org/TR/vc-data-integrity/",
     "nightly": {
-      "url": "https://www.w3.org/TR/vc-data-integrity/"
+      "url": "https://www.w3.org/TR/vc-data-integrity/",
+      "repository": null
     }
   },
   {
@@ -1970,14 +1971,16 @@
   {
     "url": "https://www.w3.org/TR/vc-di-ecdsa/",
     "nightly": {
-      "url": "https://www.w3.org/TR/vc-di-ecdsa/"
+      "url": "https://www.w3.org/TR/vc-di-ecdsa/",
+      "repository": null
     }
   },
   "https://www.w3.org/TR/vc-di-eddsa-1.1/",
   {
     "url": "https://www.w3.org/TR/vc-di-eddsa/",
     "nightly": {
-      "url": "https://www.w3.org/TR/vc-di-eddsa/"
+      "url": "https://www.w3.org/TR/vc-di-eddsa/",
+      "repository": null
     }
   },
   "https://www.w3.org/TR/vc-jose-cose/",

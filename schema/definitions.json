@@ -63,43 +63,36 @@
       "enum": ["w3c", "spec", "ietf", "whatwg", "iso"]
     },
 
-    "nightly": {
-      "type": "object",
-      "properties": {
-        "url": { "$ref": "#/$defs/url" },
-        "status": {
-          "type": "string",
-          "enum": [
-            "A Collection of Interesting Ideas",
-            "Draft Community Group Report",
-            "Draft Deliverable",
-            "Draft Finding",
-            "Draft Registry",
-            "Editor's Draft",
-            "Experimental",
-            "Final Deliverable",
-            "Informational",
-            "Internet Standard",
-            "Living Standard",
-            "Proposed Standard",
-            "TAG Finding",
-            "Unofficial Proposal Draft",
-            "Working Group Approved Draft"
-          ]
-        },
-        "alternateUrls": {
-          "type": "array",
-          "items": { "$ref": "#/$defs/url" }
-        },
-        "filename": { "$ref": "#/$defs/filename" },
-        "sourcePath": { "$ref": "#/$defs/relativePath" },
-        "pages": {
-          "type": "array",
-          "items": { "$ref": "#/$defs/url" }
-        },
-        "repository": { "$ref": "#/$defs/url" }
-      },
-      "additionalProperties": false
+    "nightlyStatus": {
+      "type": "string",
+      "enum": [
+        "A Collection of Interesting Ideas",
+        "Draft Community Group Report",
+        "Draft Deliverable",
+        "Draft Finding",
+        "Draft Registry",
+        "Editor's Draft",
+        "Experimental",
+        "Final Deliverable",
+        "Informational",
+        "Internet Standard",
+        "Living Standard",
+        "Proposed Standard",
+        "TAG Finding",
+        "Unofficial Proposal Draft",
+        "Working Group Approved Draft"
+      ]
+    },
+
+    "shortnames": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/shortname" },
+      "minItems": 1
+    },
+
+    "urls": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/url" }
     },
 
     "tests": {
@@ -163,26 +156,9 @@
       ]
     },
 
-    "forks": {
-      "type": "array",
-      "items": { "$ref": "#/$defs/shortname" }
-    },
-
     "standing": {
       "type": "string",
       "enum": ["good", "pending", "discontinued"]
-    },
-
-    "obsoletedBy": {
-      "type": "array",
-      "items": { "$ref": "#/$defs/shortname" },
-      "minItems": 1
-    },
-
-    "formerNames": {
-      "type": "array",
-      "items": { "$ref": "#/$defs/shortname" },
-      "minItems": 1
     },
 
     "specsfile": {
@@ -208,10 +184,7 @@
             ]
           },
           "filename": { "$ref": "#/$defs/filename" },
-          "pages": {
-            "type": "array",
-            "items": { "$ref": "#/$defs/url" }
-          }
+          "pages": { "$ref": "#/$defs/urls" }
         },
         "additionalProperties": false
       }

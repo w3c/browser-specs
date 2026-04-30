@@ -18,7 +18,26 @@
           "series": { "$ref": "definitions.json#/$defs/series" },
           "seriesVersion": { "$ref": "definitions.json#/$defs/seriesVersion" },
           "seriesComposition": { "$ref": "definitions.json#/$defs/seriesComposition" },
-          "nightly": { "$ref": "definitions.json#/$defs/nightly" },
+          "nightly": {
+            "type": "object",
+            "properties": {
+              "url": { "$ref": "definitions.json#/$defs/url" },
+              "status": { "$ref": "definitions.json#/$defs/nightlyStatus" },
+              "alternateUrls": {
+                "type": "array",
+                "items": { "$ref": "definitions.json#/$defs/url" }
+              },
+              "filename": { "$ref": "definitions.json#/$defs/filename" },
+              "sourcePath": { "$ref": "definitions.json#/$defs/relativePath" },
+              "repository": {
+                "oneOf": [
+                  { "$ref": "definitions.json#/$defs/url" },
+                  { "type": "null" }
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
           "release": { "$ref": "definitions.json#/$defs/specsfile/release" },
           "tests": { "$ref": "definitions.json#/$defs/tests" },
           "title": { "$ref": "definitions.json#/$defs/title" },
@@ -27,8 +46,8 @@
           "groups": { "$ref": "definitions.json#/$defs/groups" },
           "categories": { "$ref": "definitions.json#/$defs/categories-specs" },
           "standing": { "$ref": "definitions.json#/$defs/standing" },
-          "obsoletedBy": { "$ref": "definitions.json#/$defs/obsoletedBy" },
-          "formerNames": { "$ref": "definitions.json#/$defs/formerNames" },
+          "obsoletedBy": { "$ref": "definitions.json#/$defs/shortnames" },
+          "formerNames": { "$ref": "definitions.json#/$defs/shortnames" },
           "forceCurrent": { "type": "boolean" },
           "multipage": {
             "type": "string",

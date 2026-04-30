@@ -9,13 +9,25 @@
       "url": { "$ref": "definitions.json#/$defs/url" },
       "shortname": { "$ref": "definitions.json#/$defs/shortname" },
       "forkOf": { "$ref": "definitions.json#/$defs/shortname" },
-      "forks": { "$ref": "definitions.json#/$defs/forks" },
+      "forks": { "$ref": "definitions.json#/$defs/shortnames" },
       "series": { "$ref": "definitions.json#/$defs/series" },
       "seriesVersion": { "$ref": "definitions.json#/$defs/seriesVersion" },
       "seriesComposition": { "$ref": "definitions.json#/$defs/seriesComposition" },
       "seriesPrevious": { "$ref": "definitions.json#/$defs/shortname" },
       "seriesNext": { "$ref": "definitions.json#/$defs/shortname" },
-      "nightly": { "$ref": "definitions.json#/$defs/nightly" },
+      "nightly": {
+        "type": "object",
+        "properties": {
+          "url": { "$ref": "definitions.json#/$defs/url" },
+          "status": { "$ref": "definitions.json#/$defs/nightlyStatus" },
+          "alternateUrls": { "$ref": "definitions.json#/$defs/urls" },
+          "filename": { "$ref": "definitions.json#/$defs/filename" },
+          "sourcePath": { "$ref": "definitions.json#/$defs/relativePath" },
+          "pages": { "$ref": "definitions.json#/$defs/urls" },
+          "repository": { "$ref": "definitions.json#/$defs/url" }
+        },
+        "additionalProperties": false
+      },
       "tests": { "$ref": "definitions.json#/$defs/tests" },
       "release": { "$ref": "definitions.json#/$defs/indexfile/release" },
       "title": { "$ref": "definitions.json#/$defs/title" },
@@ -25,8 +37,8 @@
       "groups": { "$ref": "definitions.json#/$defs/groups" },
       "categories": { "$ref": "definitions.json#/$defs/categories" },
       "standing": { "$ref": "definitions.json#/$defs/standing" },
-      "obsoletedBy": { "$ref": "definitions.json#/$defs/obsoletedBy" },
-      "formerNames": { "$ref": "definitions.json#/$defs/formerNames" }
+      "obsoletedBy": { "$ref": "definitions.json#/$defs/shortnames" },
+      "formerNames": { "$ref": "definitions.json#/$defs/shortnames" }
     },
     "required": [
       "url", "shortname", "series", "seriesComposition",

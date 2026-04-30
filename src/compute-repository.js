@@ -183,7 +183,7 @@ export default async function (specs, options) {
   }
 
   // Compute GitHub repositories with lowercase owner names
-  const repos = specs.map(spec => spec.nightly ?
+  const repos = specs.map(spec => spec.nightly && (spec.nightly.repository !== null) ?
     parseSpecUrl(spec.nightly.repository ?? spec.nightly.url) :
     null);
 
@@ -199,7 +199,7 @@ export default async function (specs, options) {
   // Compute final repo URL and add source file if possible
   for (const spec of specs) {
     const repo = repos.shift();
-    if (repo && repo.type !== 'tr' && await isRealRepo(repo)) {
+    if (repo && await isRealRepo(repo)) {
       spec.nightly.repository = `https://github.com/${repo.owner}/${repo.name}`;
 
       if (options.githubToken && !spec.nightly.sourcePath) {
@@ -213,6 +213,14 @@ export default async function (specs, options) {
       const draftName = spec.nightly.url.match(/\/(draft-ietf-(.+))\.html$/);
       spec.nightly.repository = 'https://github.com/httpwg/http-extensions';
       spec.nightly.sourcePath = `${draftName[1]}.md`;
+    }
+
+    // The `null` value is used in `specs.json` to drop a repository that
+    // happens to have the same name as the spec's shortname but that does not
+    // contain the nightly version of that spec. Let's get rid of the
+    // instruction now that we've computed the repository
+    if (spec.nightly?.repository === null) {
+      delete spec.nightly.repository;
     }
   }
 

@@ -87,11 +87,12 @@ describe("compute-repository module", async () => {
     assert.equal(result[0].nightly, undefined);
   });
 
-  it("returns null when nightly URL is the release URL", async () => {
+  it("returns no repository when instructed to do so", async () => {
     const spec = {
       url: "https://www.w3.org/TR/vc-data-integrity/",
       nightly: {
-        url: "https://www.w3.org/TR/vc-data-integrity/"
+        url: "https://www.w3.org/TR/vc-data-integrity/",
+        repository: null
       }
     };
     const result = await computeRepo([spec]);

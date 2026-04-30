@@ -6437,7 +6437,7 @@
       "currentSpecification": "web-nfc",
       "title": "Web NFC",
       "shortTitle": "Web NFC",
-      "nightlyUrl": "https://w3c.github.io/web-nfc/"
+      "nightlyUrl": "https://w3c-cg.github.io/web-nfc/"
     },
     "organization": "W3C",
     "groups": [
@@ -6447,10 +6447,10 @@
       }
     ],
     "nightly": {
-      "url": "https://w3c.github.io/web-nfc/",
+      "url": "https://w3c-cg.github.io/web-nfc/",
       "status": "Draft Community Group Report",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/web-nfc",
+      "repository": "https://github.com/w3c-cg/web-nfc",
       "sourcePath": "index.html",
       "filename": "index.html"
     },

@@ -9507,6 +9507,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/iframe-media-pausing/",
+    "seriesComposition": "full",
+    "shortname": "iframe-media-pausing",
+    "series": {
+      "shortname": "iframe-media-pausing",
+      "currentSpecification": "iframe-media-pausing",
+      "title": "Iframe Media Pausing",
+      "shortTitle": "Iframe Media Pausing",
+      "nightlyUrl": "https://wicg.github.io/iframe-media-pausing/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/iframe-media-pausing/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/iframe-media-pausing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Iframe Media Pausing",
+    "source": "spec",
+    "shortTitle": "Iframe Media Pausing",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/ink-enhancement/",
     "seriesComposition": "full",
     "shortname": "ink-enhancement",
@@ -14318,6 +14352,45 @@
     "categories": [
       "browser"
     ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/cbor-ld-10/",
+    "seriesComposition": "full",
+    "shortname": "cbor-ld-10",
+    "series": {
+      "shortname": "cbor-ld",
+      "currentSpecification": "cbor-ld-10",
+      "title": "CBOR-LD",
+      "shortTitle": "CBOR-LD",
+      "releaseUrl": "https://www.w3.org/TR/cbor-ld/",
+      "nightlyUrl": "https://w3c.github.io/cbor-ld/"
+    },
+    "seriesVersion": "1.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/groups/wg/json-ld/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/cbor-ld-10/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/cbor-ld/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/cbor-ld",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "CBOR-LD 1.0",
+    "source": "w3c",
+    "shortTitle": "CBOR-LD 1.0",
+    "categories": [],
     "standing": "good"
   },
   {
@@ -32581,6 +32654,45 @@
     "title": "XML Entity Definitions for Characters (3rd Edition)",
     "source": "w3c",
     "shortTitle": "XML Entity Definitions for Characters",
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/yaml-ld-10/",
+    "seriesComposition": "full",
+    "shortname": "yaml-ld-10",
+    "series": {
+      "shortname": "yaml-ld",
+      "currentSpecification": "yaml-ld-10",
+      "title": "YAML-LD",
+      "shortTitle": "YAML-LD",
+      "releaseUrl": "https://www.w3.org/TR/yaml-ld/",
+      "nightlyUrl": "https://w3c.github.io/yaml-ld/"
+    },
+    "seriesVersion": "1.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "JSON-LD Working Group",
+        "url": "https://www.w3.org/groups/wg/json-ld/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/yaml-ld-10/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/yaml-ld/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/yaml-ld",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "YAML-LD 1.0",
+    "source": "w3c",
+    "shortTitle": "YAML-LD 1.0",
+    "categories": [],
     "standing": "good"
   },
   {

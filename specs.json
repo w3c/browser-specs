@@ -2218,5 +2218,9 @@
     ],
     "url": "https://www.w3.org/TR/xml-entity-names/"
   },
+  {
+    "seriesVersion": "1.0",
+    "url": "https://www.w3.org/TR/yaml-ld-10/"
+  },
   "https://xhr.spec.whatwg.org/"
 ]

@@ -90,7 +90,7 @@ async function fetchIssuesToReview() {
                   name
                 }
               }
-              timelineItems(last: 5, itemTypes: UNLABELED_EVENT) {
+              timelineItems(last: 1, itemTypes: UNLABELED_EVENT) {
                 nodes {
                   ... on UnlabeledEvent {
                     label {

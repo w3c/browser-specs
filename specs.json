@@ -1171,6 +1171,10 @@
       "sourcePath": "identity/index.html"
     }
   },
+  {
+    "seriesVersion": "1.0",
+    "url": "https://www.w3.org/TR/cbor-ld-10/"
+  },
   "https://www.w3.org/TR/change-password-url/",
   "https://www.w3.org/TR/cid-1.0/",
   "https://www.w3.org/TR/clear-site-data/",

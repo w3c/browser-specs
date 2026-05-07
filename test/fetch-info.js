@@ -9,7 +9,7 @@ import fetchInfo from "../src/fetch-info.js";
 
 process.env.BROWSER_SPECS_MOCK_HTTP = true;
 
-import { MockAgent, setGlobalDispatcher, getGlobalDispatcher } from 'undici';
+import { MockAgent, setGlobalDispatcher, getGlobalDispatcher, install } from 'undici';
 
 
 describe("fetch-info module", function () {
@@ -17,6 +17,8 @@ describe("fetch-info module", function () {
   const timeout = {
     timeout: 60000
   };
+
+  install();
 
   function getW3CSpec(shortname, series) {
     const spec = { shortname, url: `https://www.w3.org/TR/${shortname}/` };

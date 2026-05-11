@@ -14421,7 +14421,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/cbor-ld-10/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

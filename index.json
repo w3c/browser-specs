@@ -8740,6 +8740,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/connection-allowlists/",
+    "seriesComposition": "full",
+    "shortname": "connection-allowlists",
+    "series": {
+      "shortname": "connection-allowlists",
+      "currentSpecification": "connection-allowlists",
+      "title": "Connection Allowlists",
+      "shortTitle": "Connection Allowlists",
+      "nightlyUrl": "https://wicg.github.io/connection-allowlists/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/connection-allowlists/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/connection-allowlists",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Connection Allowlists",
+    "source": "spec",
+    "shortTitle": "Connection Allowlists",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/container-timing/",
     "seriesComposition": "full",
     "shortname": "container-timing",

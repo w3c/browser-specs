@@ -28588,11 +28588,11 @@
     "shortname": "ttml-imsc1.2",
     "series": {
       "shortname": "ttml-imsc",
-      "currentSpecification": "ttml-imsc1.2",
+      "currentSpecification": "ttml-imsc1.3",
       "title": "IMSC Text Profile",
       "shortTitle": "IMSC Text Profile",
       "releaseUrl": "https://www.w3.org/TR/ttml-imsc/",
-      "nightlyUrl": "https://www.w3.org/TR/ttml-imsc/"
+      "nightlyUrl": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html"
     },
     "seriesVersion": "1.2",
     "nightly": {
@@ -28627,11 +28627,11 @@
     "shortname": "ttml-imsc1.3",
     "series": {
       "shortname": "ttml-imsc",
-      "currentSpecification": "ttml-imsc1.2",
+      "currentSpecification": "ttml-imsc1.3",
       "title": "IMSC Text Profile",
       "shortTitle": "IMSC Text Profile",
       "releaseUrl": "https://www.w3.org/TR/ttml-imsc/",
-      "nightlyUrl": "https://www.w3.org/TR/ttml-imsc/"
+      "nightlyUrl": "https://w3c.github.io/imsc/imsc1/spec/ttml-ww-profiles.html"
     },
     "seriesVersion": "1.3",
     "nightly": {
@@ -28653,7 +28653,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/ttml-imsc1.3/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "title": "IMSC Text Profile 1.3",

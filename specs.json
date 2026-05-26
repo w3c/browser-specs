@@ -633,7 +633,6 @@
     ]
   },
   "https://w3c.github.io/data-shapes/shacl12-profiling/",
-  "https://w3c.github.io/data-shapes/shacl12-ui/",
   {
     "shortname": "execCommand",
     "standing": "pending",
@@ -680,12 +679,6 @@
   "https://w3c.github.io/trace-context-binary/",
   "https://w3c.github.io/trace-context-mqtt/",
   "https://w3c.github.io/tracestate-ids-registry/",
-  {
-    "url": "https://w3c.github.io/vc-recognized-entities/",
-    "formerNames": [
-      "vc-recognition"
-    ]
-  },
   {
     "url": "https://w3c.github.io/web-share-target/",
     "standing": "good"
@@ -1858,6 +1851,7 @@
     ]
   },
   "https://www.w3.org/TR/shacl12-sparql/",
+  "https://www.w3.org/TR/shacl12-ui/",
   "https://www.w3.org/TR/sparql12-entailment/",
   "https://www.w3.org/TR/sparql12-federated-query/",
   "https://www.w3.org/TR/sparql12-graph-store-protocol/",
@@ -1996,6 +1990,13 @@
   },
   "https://www.w3.org/TR/vc-jose-cose/",
   "https://www.w3.org/TR/vc-json-schema/",
+  {
+    "url": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
+    "formerNames": [
+      "vc-recognized-entities",
+      "vc-recognition"
+    ]
+  },
   "https://www.w3.org/TR/vc-render-method/",
   "https://www.w3.org/TR/vibration/",
   "https://www.w3.org/TR/virtual-keyboard/",

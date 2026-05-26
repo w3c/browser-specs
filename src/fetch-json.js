@@ -13,6 +13,11 @@ const fetchQueue = new ThrottledQueue({
 // same fetch request again and again
 const cache = {};
 
+// Chrome status prefixes JSON responses with an XSSI prefix for extra
+// security.
+const reXSSIPrefix = /^\)\]\}'\n/;
+
+
 /**
  * Fetch a JSON URL
  */
@@ -29,9 +34,10 @@ export default async function (url, options) {
   }
 
   try {
-    const body = await res.json();
-    cache[url] = body;
-    return structuredClone(body);
+    const body = await res.text();
+    const json = JSON.parse(body.replace(reXSSIPrefix, ''));
+    cache[url] = json;
+    return structuredClone(json);
   }
   catch (err) {
     throw new Error(`Server returned invalid JSON for ${url}`);

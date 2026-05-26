@@ -6651,39 +6651,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/data-shapes/shacl12-ui/",
-    "seriesComposition": "full",
-    "shortname": "shacl12-ui",
-    "series": {
-      "shortname": "shacl-ui",
-      "currentSpecification": "shacl12-ui",
-      "title": "SHACL 1.2 User Interfaces",
-      "shortTitle": "SHACL 1.2 User Interfaces",
-      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-ui/"
-    },
-    "seriesVersion": "1.2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Data Shapes Working Group",
-        "url": "https://www.w3.org/groups/wg/data-shapes/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/data-shapes/shacl12-ui/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/data-shapes",
-      "sourcePath": "shacl12-ui/index.html",
-      "filename": "index.html"
-    },
-    "title": "SHACL 1.2 User Interfaces",
-    "source": "spec",
-    "shortTitle": "SHACL 1.2 User Interfaces",
-    "categories": [],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/editing/docs/execCommand/",
     "seriesComposition": "full",
     "shortname": "execCommand",
@@ -7227,41 +7194,6 @@
     "title": "Tracestate Ids Registry",
     "source": "spec",
     "shortTitle": "Tracestate Ids Registry",
-    "categories": [],
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/vc-recognized-entities/",
-    "seriesComposition": "full",
-    "shortname": "vc-recognized-entities",
-    "series": {
-      "shortname": "vc-recognized-entities",
-      "currentSpecification": "vc-recognized-entities",
-      "title": "Recognized Entities v1.0",
-      "shortTitle": "Recognized Entities v1.0",
-      "nightlyUrl": "https://w3c.github.io/vc-recognized-entities/"
-    },
-    "formerNames": [
-      "vc-recognition"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Verifiable Credentials Working Group",
-        "url": "https://www.w3.org/groups/wg/vc/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/vc-recognized-entities/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/vc-recognized-entities",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Recognized Entities v1.0",
-    "source": "spec",
-    "shortTitle": "Recognized Entities v1.0",
     "categories": [],
     "standing": "good"
   },
@@ -11521,7 +11453,7 @@
       "status": "Unofficial Proposal Draft",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/web-smart-card",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Web Smart Card API",
@@ -27451,6 +27383,45 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/shacl12-ui/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-ui",
+    "series": {
+      "shortname": "shacl-ui",
+      "currentSpecification": "shacl12-ui",
+      "title": "SHACL User Interfaces",
+      "shortTitle": "SHACL User Interfaces",
+      "releaseUrl": "https://www.w3.org/TR/shacl-ui/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-ui/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/shacl12-ui/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-ui/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-ui/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 User Interfaces",
+    "source": "w3c",
+    "shortTitle": "SHACL 1.2 User Interfaces",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/sparql12-entailment/",
     "seriesComposition": "full",
     "shortname": "sparql12-entailment",
@@ -29456,6 +29427,49 @@
     "title": "Verifiable Credentials JSON Schema Specification",
     "source": "w3c",
     "shortTitle": "Verifiable Credentials JSON Schema",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
+    "seriesComposition": "full",
+    "shortname": "vc-recognized-entities-1.0",
+    "series": {
+      "shortname": "vc-recognized-entities",
+      "currentSpecification": "vc-recognized-entities-1.0",
+      "title": "Recognized Entities",
+      "shortTitle": "Recognized Entities",
+      "releaseUrl": "https://www.w3.org/TR/vc-recognized-entities/",
+      "nightlyUrl": "https://w3c.github.io/vc-recognized-entities/"
+    },
+    "seriesVersion": "1.0",
+    "formerNames": [
+      "vc-recognized-entities",
+      "vc-recognition"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-recognized-entities-1.0/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-recognized-entities/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-recognized-entities",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Recognized Entities v1.0",
+    "source": "w3c",
+    "shortTitle": "Recognized Entities v1.0",
     "categories": [],
     "standing": "good"
   },

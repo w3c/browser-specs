@@ -5172,6 +5172,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-error-stack-accessor/",
+    "seriesComposition": "full",
+    "shortname": "tc39-error-stack-accessor",
+    "series": {
+      "shortname": "tc39-error-stack-accessor",
+      "currentSpecification": "tc39-error-stack-accessor",
+      "title": "Error Stack Accessor",
+      "shortTitle": "Error Stack Accessor",
+      "nightlyUrl": "https://tc39.es/proposal-error-stack-accessor/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-error-stack-accessor/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-error-stack-accessor",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Error Stack Accessor",
+    "source": "spec",
+    "shortTitle": "Error Stack Accessor",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-explicit-resource-management/",
     "seriesComposition": "full",
     "shortname": "tc39-explicit-resource-management",
@@ -5456,6 +5490,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-intl-keep-trailing-zeros/",
+    "seriesComposition": "full",
+    "shortname": "tc39-intl-keep-trailing-zeros",
+    "series": {
+      "shortname": "tc39-intl-keep-trailing-zeros",
+      "currentSpecification": "tc39-intl-keep-trailing-zeros",
+      "title": "Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules",
+      "shortTitle": "Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules",
+      "nightlyUrl": "https://tc39.es/proposal-intl-keep-trailing-zeros/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-intl-keep-trailing-zeros/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-intl-keep-trailing-zeros",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules",
+    "source": "spec",
+    "shortTitle": "Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-intl-locale-info/",
     "seriesComposition": "full",
     "shortname": "tc39-intl-locale-info",
@@ -5712,6 +5780,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-iterator-chunking/",
+    "seriesComposition": "full",
+    "shortname": "tc39-iterator-chunking",
+    "series": {
+      "shortname": "tc39-iterator-chunking",
+      "currentSpecification": "tc39-iterator-chunking",
+      "title": "Iterator Chunking",
+      "shortTitle": "Iterator Chunking",
+      "nightlyUrl": "https://tc39.es/proposal-iterator-chunking/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-iterator-chunking/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-iterator-chunking",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Iterator Chunking",
+    "source": "spec",
+    "shortTitle": "Iterator Chunking",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-iterator-helpers/",
     "seriesComposition": "full",
     "shortname": "tc39-iterator-helpers",
@@ -5747,6 +5849,40 @@
     "categories": [
       "browser"
     ]
+  },
+  {
+    "url": "https://tc39.es/proposal-iterator-join/",
+    "seriesComposition": "full",
+    "shortname": "tc39-iterator-join",
+    "series": {
+      "shortname": "tc39-iterator-join",
+      "currentSpecification": "tc39-iterator-join",
+      "title": "Proposal Iterator Join",
+      "shortTitle": "Proposal Iterator Join",
+      "nightlyUrl": "https://tc39.es/proposal-iterator-join/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-iterator-join/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-iterator-join",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "Proposal Iterator Join",
+    "source": "spec",
+    "shortTitle": "Proposal Iterator Join",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-iterator-sequencing/",
@@ -6071,6 +6207,40 @@
     "categories": [
       "browser"
     ]
+  },
+  {
+    "url": "https://tc39.es/proposal-regexp-buffer-boundaries/",
+    "seriesComposition": "full",
+    "shortname": "tc39-regexp-buffer-boundaries",
+    "series": {
+      "shortname": "tc39-regexp-buffer-boundaries",
+      "currentSpecification": "tc39-regexp-buffer-boundaries",
+      "title": "Regular Expression Buffer Boundaries for ECMAScript",
+      "shortTitle": "Regular Expression Buffer Boundaries for ECMAScript",
+      "nightlyUrl": "https://tc39.es/proposal-regexp-buffer-boundaries/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-regexp-buffer-boundaries/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-regexp-buffer-boundaries",
+      "sourcePath": "spec/index.html",
+      "filename": "index.html"
+    },
+    "title": "Regular Expression Buffer Boundaries for ECMAScript",
+    "source": "spec",
+    "shortTitle": "Regular Expression Buffer Boundaries for ECMAScript",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://tc39.es/proposal-regexp-modifiers/",
@@ -6576,6 +6746,44 @@
     "title": "AT Driver",
     "source": "spec",
     "shortTitle": "AT Driver",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/css-aam/",
+    "seriesComposition": "full",
+    "shortname": "css-aam",
+    "series": {
+      "shortname": "css-aam",
+      "currentSpecification": "css-aam",
+      "title": "CSS Accessibility API Mappings",
+      "shortTitle": "CSS Accessibility API Mappings",
+      "nightlyUrl": "https://w3c.github.io/css-aam/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+      },
+      {
+        "name": "SVG Accessibility Task Force",
+        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/css-aam/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "css-aam/index.html",
+      "filename": "index.html"
+    },
+    "title": "CSS Accessibility API Mappings 1.0",
+    "source": "spec",
+    "shortTitle": "CSS Accessibility API Mappings 1.0",
     "categories": [
       "browser"
     ],

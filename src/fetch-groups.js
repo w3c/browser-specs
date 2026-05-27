@@ -47,7 +47,7 @@ export default async function (specs, options) {
     if (!info) {
       // For IETF documents, retrieve the group info from datatracker
       const ietfName =
-        spec.url.match(/rfc-editor\.org\/rfc\/([^\/]+)/) ??
+        spec.url.match(/rfc-editor\.org\/info\/([^\/]+)/) ??
         spec.url.match(/datatracker\.ietf\.org\/doc\/html\/([^\/]+)/);
       if (ietfName) {
         spec.organization = spec.organization ?? "IETF";

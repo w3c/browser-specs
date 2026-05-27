@@ -528,6 +528,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-iterator-chunking/",
   {
     "url": "https://tc39.es/proposal-iterator-helpers/",
     "standing": "discontinued",

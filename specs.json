@@ -464,6 +464,7 @@
       "ecma-402"
     ]
   },
+  "https://tc39.es/proposal-intl-keep-trailing-zeros/",
   "https://tc39.es/proposal-intl-locale-info/",
   {
     "url": "https://tc39.es/proposal-intl-numberformat-v3/out/annexes/proposed.html",

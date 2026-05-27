@@ -584,6 +584,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-regexp-buffer-boundaries/",
   {
     "url": "https://tc39.es/proposal-regexp-modifiers/",
     "standing": "discontinued",

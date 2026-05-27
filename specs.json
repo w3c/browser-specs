@@ -535,6 +535,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-iterator-join/",
   {
     "url": "https://tc39.es/proposal-iterator-sequencing/",
     "standing": "discontinued",

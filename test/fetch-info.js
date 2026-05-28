@@ -46,19 +46,19 @@ describe("fetch-info module", function () {
   describe("fetch from IETF datatracker", () => {
     it("fetches info about RFCs from datatracker", timeout, async () => {
       const spec = {
-        url: "https://www.rfc-editor.org/rfc/rfc7578",
+        url: "https://www.rfc-editor.org/info/rfc7578",
         shortname: "rfc7578"
       };
       const info = await fetchInfo([spec]);
       assert.ok(info[spec.shortname]);
       assert.equal(info[spec.shortname].title, "Returning Values from Forms: multipart/form-data");
       assert.equal(info[spec.shortname].source, "ietf");
-      assert.equal(info[spec.shortname].nightly.url, "https://www.rfc-editor.org/rfc/rfc7578");
+      assert.equal(info[spec.shortname].nightly.url, "https://www.rfc-editor.org/info/rfc7578");
     });
 
     it("fetches info about HTTP WG RFCs from datatracker", timeout, async () => {
       const spec = {
-        url: "https://www.rfc-editor.org/rfc/rfc9110",
+        url: "https://www.rfc-editor.org/info/rfc9110",
         shortname: "rfc9110"
       };
       const info = await fetchInfo([spec]);
@@ -92,7 +92,7 @@ describe("fetch-info module", function () {
 
     it("extracts a suitable nightly URL from an IETF HTTP State Management Mechanism WG RFC", timeout, async () => {
       const spec = {
-        url: "https://www.rfc-editor.org/rfc/rfc6265",
+        url: "https://www.rfc-editor.org/info/rfc6265",
         shortname: "rfc6265"
       };
       const info = await fetchInfo([spec]);
@@ -103,7 +103,7 @@ describe("fetch-info module", function () {
 
     it("uses the rfc-editor URL as nightly for an IETF HTTP WG RFC not published under httpwg.org", timeout, async () => {
       const spec = {
-        url: "https://www.rfc-editor.org/rfc/rfc9163",
+        url: "https://www.rfc-editor.org/info/rfc9163",
         shortname: "rfc9163"
       };
       const info = await fetchInfo([spec]);
@@ -114,9 +114,9 @@ describe("fetch-info module", function () {
 
     it("identifies discontinued IETF specs", timeout, async () => {
       const info = await fetchInfo([
-        { url: "https://www.rfc-editor.org/rfc/rfc7230", shortname: "rfc7230" },
-        { url: "https://www.rfc-editor.org/rfc/rfc9110", shortname: "rfc9110" },
-        { url: "https://www.rfc-editor.org/rfc/rfc9112", shortname: "rfc9112" }
+        { url: "https://www.rfc-editor.org/info/rfc7230", shortname: "rfc7230" },
+        { url: "https://www.rfc-editor.org/info/rfc9110", shortname: "rfc9110" },
+        { url: "https://www.rfc-editor.org/info/rfc9112", shortname: "rfc9112" }
       ]);
       assert.ok(info["rfc7230"]);
       assert.equal(info["rfc7230"].standing, "discontinued");
@@ -125,7 +125,7 @@ describe("fetch-info module", function () {
 
     it("throws when a discontinued IETF spec is obsoleted by an unknown spec", timeout, async () => {
       const spec = {
-        url: "https://www.rfc-editor.org/rfc/rfc7230",
+        url: "https://www.rfc-editor.org/info/rfc7230",
         shortname: "rfc7230"
       };
       await assert.rejects(

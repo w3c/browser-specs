@@ -230,7 +230,7 @@ describe("The `index.json` list", () => {
 
   it("has a datatracker alternate URL for IETF RFCS", () => {
     const wrong = specs
-      .filter(s => s.url.match(/\/www.rfc-editor\.org\/rfc/))
+      .filter(s => s.url.match(/\/www.rfc-editor\.org\/info/))
       .filter(s => {
         const draft = computeShortname(s.url);
         return !s.nightly.alternateUrls.includes(

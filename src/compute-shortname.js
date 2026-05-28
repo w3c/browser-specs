@@ -99,7 +99,7 @@ function computeShortname(url) {
     }
 
     // Handle IETF RFCs
-    const rfcs = url.match(/\/www.rfc-editor\.org\/rfc\/(rfc[0-9]+)/);
+    const rfcs = url.match(/\/www\.rfc-editor\.org\/info\/(rfc[0-9]+)/);
     if (rfcs) {
       return rfcs[1];
     }

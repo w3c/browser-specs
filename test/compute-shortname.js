@@ -54,7 +54,7 @@ describe("compute-shortname module", () => {
     });
 
     it("handles IETF RFCs", () => {
-      assertName("https://www.rfc-editor.org/rfc/rfc2397", "rfc2397");
+      assertName("https://www.rfc-editor.org/info/rfc2397", "rfc2397");
     });
 
     it("handles IETF group drafts", () => {

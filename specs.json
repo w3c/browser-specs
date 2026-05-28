@@ -1018,78 +1018,78 @@
     "url": "https://www.iso.org/standard/87621.html",
     "shortTitle": "Open Font Format"
   },
-  "https://www.rfc-editor.org/rfc/rfc2397",
+  "https://www.rfc-editor.org/info/rfc2397/",
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc4120",
+    "url": "https://www.rfc-editor.org/info/rfc4120/",
     "shortTitle": "Kerberos"
   },
-  "https://www.rfc-editor.org/rfc/rfc5861",
-  "https://www.rfc-editor.org/rfc/rfc6265",
+  "https://www.rfc-editor.org/info/rfc5861/",
+  "https://www.rfc-editor.org/info/rfc6265/",
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc6266",
+    "url": "https://www.rfc-editor.org/info/rfc6266/",
     "shortTitle": "Content-Disposition in HTTP"
   },
-  "https://www.rfc-editor.org/rfc/rfc6386",
-  "https://www.rfc-editor.org/rfc/rfc6454",
-  "https://www.rfc-editor.org/rfc/rfc6455",
-  "https://www.rfc-editor.org/rfc/rfc6797",
-  "https://www.rfc-editor.org/rfc/rfc7034",
-  "https://www.rfc-editor.org/rfc/rfc7230",
-  "https://www.rfc-editor.org/rfc/rfc7231",
-  "https://www.rfc-editor.org/rfc/rfc7232",
-  "https://www.rfc-editor.org/rfc/rfc7233",
-  "https://www.rfc-editor.org/rfc/rfc7234",
-  "https://www.rfc-editor.org/rfc/rfc7235",
-  "https://www.rfc-editor.org/rfc/rfc7239",
-  "https://www.rfc-editor.org/rfc/rfc7240",
-  "https://www.rfc-editor.org/rfc/rfc7469",
-  "https://www.rfc-editor.org/rfc/rfc7538",
-  "https://www.rfc-editor.org/rfc/rfc7540",
-  "https://www.rfc-editor.org/rfc/rfc7578",
-  "https://www.rfc-editor.org/rfc/rfc7616",
-  "https://www.rfc-editor.org/rfc/rfc7617",
-  "https://www.rfc-editor.org/rfc/rfc7725",
-  "https://www.rfc-editor.org/rfc/rfc7838",
-  "https://www.rfc-editor.org/rfc/rfc7932",
-  "https://www.rfc-editor.org/rfc/rfc8246",
-  "https://www.rfc-editor.org/rfc/rfc8288",
-  "https://www.rfc-editor.org/rfc/rfc8297",
-  "https://www.rfc-editor.org/rfc/rfc8470",
+  "https://www.rfc-editor.org/info/rfc6386/",
+  "https://www.rfc-editor.org/info/rfc6454/",
+  "https://www.rfc-editor.org/info/rfc6455/",
+  "https://www.rfc-editor.org/info/rfc6797/",
+  "https://www.rfc-editor.org/info/rfc7034/",
+  "https://www.rfc-editor.org/info/rfc7230/",
+  "https://www.rfc-editor.org/info/rfc7231/",
+  "https://www.rfc-editor.org/info/rfc7232/",
+  "https://www.rfc-editor.org/info/rfc7233/",
+  "https://www.rfc-editor.org/info/rfc7234/",
+  "https://www.rfc-editor.org/info/rfc7235/",
+  "https://www.rfc-editor.org/info/rfc7239/",
+  "https://www.rfc-editor.org/info/rfc7240/",
+  "https://www.rfc-editor.org/info/rfc7469/",
+  "https://www.rfc-editor.org/info/rfc7538/",
+  "https://www.rfc-editor.org/info/rfc7540/",
+  "https://www.rfc-editor.org/info/rfc7578/",
+  "https://www.rfc-editor.org/info/rfc7616/",
+  "https://www.rfc-editor.org/info/rfc7617/",
+  "https://www.rfc-editor.org/info/rfc7725/",
+  "https://www.rfc-editor.org/info/rfc7838/",
+  "https://www.rfc-editor.org/info/rfc7932/",
+  "https://www.rfc-editor.org/info/rfc8246/",
+  "https://www.rfc-editor.org/info/rfc8288/",
+  "https://www.rfc-editor.org/info/rfc8297/",
+  "https://www.rfc-editor.org/info/rfc8470/",
   {
     "shortTitle": "CDDL",
-    "url": "https://www.rfc-editor.org/rfc/rfc8610"
+    "url": "https://www.rfc-editor.org/info/rfc8610/"
   },
-  "https://www.rfc-editor.org/rfc/rfc8878",
-  "https://www.rfc-editor.org/rfc/rfc8942",
-  "https://www.rfc-editor.org/rfc/rfc9110",
-  "https://www.rfc-editor.org/rfc/rfc9111",
-  "https://www.rfc-editor.org/rfc/rfc9112",
-  "https://www.rfc-editor.org/rfc/rfc9113",
-  "https://www.rfc-editor.org/rfc/rfc9114",
+  "https://www.rfc-editor.org/info/rfc8878/",
+  "https://www.rfc-editor.org/info/rfc8942/",
+  "https://www.rfc-editor.org/info/rfc9110/",
+  "https://www.rfc-editor.org/info/rfc9111/",
+  "https://www.rfc-editor.org/info/rfc9112/",
+  "https://www.rfc-editor.org/info/rfc9113/",
+  "https://www.rfc-editor.org/info/rfc9114/",
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9163",
+    "url": "https://www.rfc-editor.org/info/rfc9163/",
     "nightly": {
       "repository": "https://github.com/httpwg/http-extensions",
       "sourcePath": "archive/draft-ietf-httpbis-expect-ct.md"
     }
   },
-  "https://www.rfc-editor.org/rfc/rfc9218",
-  "https://www.rfc-editor.org/rfc/rfc9421",
+  "https://www.rfc-editor.org/info/rfc9218/",
+  "https://www.rfc-editor.org/info/rfc9421/",
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9530",
+    "url": "https://www.rfc-editor.org/info/rfc9530/",
     "formerNames": [
       "digest-headers"
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9649",
+    "url": "https://www.rfc-editor.org/info/rfc9649/",
     "formerNames": [
       "webp"
     ]
   },
-  "https://www.rfc-editor.org/rfc/rfc9659",
+  "https://www.rfc-editor.org/info/rfc9659/",
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9842",
+    "url": "https://www.rfc-editor.org/info/rfc9842/",
     "formerNames": [
       "compression-dictionary"
     ]

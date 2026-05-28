@@ -269,7 +269,7 @@ async function fetchInfoFromIETF(specs, options) {
 
     // Retrieve information about the spec
     const draftName =
-      spec.url.match(/rfc-editor\.org\/rfc\/([^\/]+)/) ??
+      spec.url.match(/rfc-editor\.org\/info\/([^\/]+)/) ??
       spec.url.match(/datatracker\.ietf\.org\/doc\/html\/([^\/]+)/);
     if (!draftName) {
       throw new Error(`IETF document follows an unexpected URL pattern: ${spec.url}`);
@@ -290,7 +290,7 @@ async function fetchInfoFromIETF(specs, options) {
         nightly = `https://httpwg.org/specs/${lastRevision.name}.html`
       }
       else {
-        nightly = `https://www.rfc-editor.org/rfc/${lastRevision.name}`;
+        nightly = `https://www.rfc-editor.org/info/${lastRevision.name}`;
       }
     }
     else if (jsonDoc.group?.acronym === 'httpbis' || jsonDoc.group?.acronym === 'httpstate') {

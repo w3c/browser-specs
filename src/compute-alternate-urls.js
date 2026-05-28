@@ -13,9 +13,9 @@ export default function (spec) {
 
   // Document well-known patterns also used in other specs
   // datatracker and (now deprecated) tools.ietf.org
-  if (spec.organization === "IETF" && spec.url.startsWith("https://www.rfc-editor.org/rfc/")) {
-    alternate.add(spec.url.replace("https://www.rfc-editor.org/rfc/", "https://datatracker.ietf.org/doc/html/"));
-    alternate.add(spec.url.replace("https://www.rfc-editor.org/rfc/", "https://tools.ietf.org/html/"));
+  if (spec.organization === "IETF" && spec.url.startsWith("https://www.rfc-editor.org/info/")) {
+    alternate.add(spec.url.replace("https://www.rfc-editor.org/info/", "https://datatracker.ietf.org/doc/html/"));
+    alternate.add(spec.url.replace("https://www.rfc-editor.org/info/", "https://tools.ietf.org/html/"));
   }
 
   // Add alternate w3c.github.io URLs for CSS specs

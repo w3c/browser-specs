@@ -467,7 +467,8 @@ For instance, the filename for `https://www.w3.org/TR/presentation-api/` is
 `https://www.w3.org/TR/presentation-api/Overview.html`. The filename may be
 useful to distinguish links to self in a spec.
 
-The `filename` property is always set.
+The `filename` property is always set, except for IETF specifications
+([`organization`](#organization) is set to `"IETF"` for them).
 
 
 #### `release.pages`
@@ -544,7 +545,8 @@ For instance, the filename for `https://w3c.github.io/presentation-api/` is
 `https://w3c.github.io/presentation-api/index.html`. The filename may be
 useful to distinguish links to self in a spec.
 
-The `filename` property is always set.
+The `filename` property is always set, except for IETF specifications
+([`organization`](#organization) is set to `"IETF"` for them).
 
 
 #### `nightly.pages`

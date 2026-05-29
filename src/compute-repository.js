@@ -49,6 +49,9 @@ export default async function (specs, options) {
   const repoPathCache = new Map();
   const userCache = new Map();
 
+  const filteredSpecs = specs.filter(spec =>
+    !options?.skipSpecs?.includes(spec.url));
+
   /**
    * Take a GitHub repo owner name (lowercase version) and retrieve the real
    * owner name (with possible uppercase characters) from the GitHub API.
@@ -183,7 +186,7 @@ export default async function (specs, options) {
   }
 
   // Compute GitHub repositories with lowercase owner names
-  const repos = specs.map(spec => spec.nightly && (spec.nightly.repository !== null) ?
+  const repos = filteredSpecs.map(spec => spec.nightly && (spec.nightly.repository !== null) ?
     parseSpecUrl(spec.nightly.repository ?? spec.nightly.url) :
     null);
 
@@ -197,7 +200,7 @@ export default async function (specs, options) {
   }
 
   // Compute final repo URL and add source file if possible
-  for (const spec of specs) {
+  for (const spec of filteredSpecs) {
     const repo = repos.shift();
     if (repo && await isRealRepo(repo)) {
       spec.nightly.repository = `https://github.com/${repo.owner}/${repo.name}`;

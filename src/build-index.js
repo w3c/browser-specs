@@ -64,7 +64,7 @@ const steps = [
   {
     shortname: "groups",
     title: "Fetch organization/groups info",
-    run: index => fetchGroups(index, { githubToken })
+    run: (index, options) => fetchGroups(index, Object.assign({ githubToken }, options))
   },
   {
     shortname: "info",
@@ -79,7 +79,7 @@ const steps = [
   {
     shortname: "repository",
     title: "Determine repositories",
-    run: index => computeRepository(index, { githubToken })
+    run: (index, options) => computeRepository(index, Object.assign({ githubToken }, options))
   },
   {
     shortname: "standing",
@@ -201,7 +201,7 @@ async function runSkeleton(specs, { log }) {
   return index;
 }
 
-async function runFetchLastPublished(index) {
+async function runFetchLastPublished(index, options) {
   const tmpdir = await fs.mkdtemp(path.join(os.tmpdir(), 'web-specs-'));
   await exec('npm install web-specs', { cwd: tmpdir });
   const lastIndexFile = path.join(tmpdir, 'node_modules', 'web-specs', 'index.json');
@@ -214,7 +214,12 @@ async function runFetchLastPublished(index) {
     const last = lastIndex.find(s => s.shortname === spec.shortname) ??
       lastIndex.find(s => s.url === spec.url);
     if (last) {
+      if (options?.skipSpecs?.includes(spec.url)) {
+        // Goal is to reuse last info in any case
+        spec = structuredClone(last);
+      }
       spec.__last = last;
+
     }
     return spec;
   });
@@ -224,8 +229,8 @@ async function runFetchLastPublished(index) {
   return decoratedIndex;
 }
 
-async function runInfo(specs) {
-  const specInfo = await fetchInfo(specs);
+async function runInfo(specs, options) {
+  const specInfo = await fetchInfo(specs, options);
   const index = specs.map(spec => {
     // Make a copy of the spec object and extend it with the info we retrieved
     // from the source
@@ -329,10 +334,13 @@ async function runShortTitle(index) {
 }
 
 
-async function runPages(index) {
+async function runPages(index, options) {
   const browser = await puppeteer.launch();
   try {
     for (const spec of index) {
+      if (options?.skipSpecs?.includes(spec.url)) {
+        continue;
+      }
       if (spec.release && (spec.multipage === "all" || spec.multipage === "release")) {
         spec.release.pages = await extractPages(spec.release.url, browser);
       }
@@ -392,15 +400,20 @@ async function runFilename(index, { previousIndex, log }) {
  * catalog ("all" may be used as well but does not skip additional fetches
  * for now).
  *
+ * The `skipSpecs` option can be used to make build skip a list of specs,
+ * reusing last published info for them instead. Option takes a comma-separated
+ * list of spec URLs. The option is useful to temporarily skip a spec that's
+ * not available for external reasons to propagate other changes.
+ *
  * The function throws in case of errors.
  */
-async function generateIndex(specs, { step = "all", previousIndex = null, log = console.log, skipFetch = null } = {}) {
+async function generateIndex(specs, { step = "all", previousIndex = null, log = console.log, skipFetch = null, skipSpecs = null } = {}) {
   let index = specs;
 
   const actualSteps = steps.filter(s => step === "all" || s.shortname === step);
   for (const step of actualSteps) {
     log(`${step.title}...`);
-    index = await step.run(index, { previousIndex, log, skipFetch });
+    index = await step.run(index, { previousIndex, log, skipFetch, skipSpecs });
     log(`${step.title}... done`);
   }
 
@@ -446,6 +459,9 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   for (const cliOption of cliOptions) {
     if (cliOption.startsWith('--skip-fetch=')) {
       options.skipFetch = cliOption.substring('--skip-fetch='.length);
+    }
+    else if (cliOption.startsWith('--skip-specs=')) {
+      options.skipSpecs = cliOption.substring('--skip-specs='.length).split(',');
     }
   }
 

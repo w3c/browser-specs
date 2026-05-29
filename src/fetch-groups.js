@@ -37,8 +37,9 @@ export default async function (specs, options) {
   const cache = {};
 
   for (const spec of specs) {
-    if (spec.__last?.standing === 'discontinued' &&
-        (!spec.standing || spec.standing === 'discontinued')) {
+    if (options?.skipSpecs?.includes(spec.url) ||
+        (spec.__last?.standing === 'discontinued' &&
+          (!spec.standing || spec.standing === 'discontinued'))) {
       spec.organization = spec.__last.organization;
       spec.groups = spec.__last.groups;
       continue;

@@ -365,7 +365,10 @@ async function runFilename(index, { previousIndex, log }) {
         }
         else {
           log(`- determine ${type} filename for ${spec.shortname}`);
-          spec[type].filename = await determineFilename(spec[type].url);
+          const filename = await determineFilename(spec[type].url);
+          if (filename) {
+            spec[type].filename = filename;
+          }
 
           // Sleep a bit as draft CSS WG server does not seem to like receiving too
           // many requests in a row.

@@ -183,13 +183,13 @@ describe("The `index.json` list", () => {
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains filenames for all nightly URLs", () => {
-    const wrong = specs.filter(s => s.nightly && !s.nightly.filename);
+  it("contains filenames for all nightly URLs (except RFCs)", () => {
+    const wrong = specs.filter(s => s.nightly && !s.nightly.filename && s.organization !== 'IETF');
     assert.deepStrictEqual(wrong, []);
   });
 
-  it("contains filenames for all release URLs", () => {
-    const wrong = specs.filter(s => s.release && !s.release.filename);
+  it("contains filenames for all release URLs (except RFCs)", () => {
+    const wrong = specs.filter(s => s.release && !s.release.filename && s.organization !== 'IETF');
     assert.deepStrictEqual(wrong, []);
   });
 

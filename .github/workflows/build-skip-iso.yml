@@ -42,9 +42,8 @@ jobs:
     - name: Build new index file
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: node src/build-index.js --skip-fetch=iso --skip-specs=$SKIP_SPECS
-      env:
         SKIP_SPECS: ${{ github.event_name == 'workflow_dispatch' && inputs.skipSpecs || 'none' }}
+      run: node src/build-index.js --skip-fetch=iso --skip-specs=$SKIP_SPECS
 
     - name: Test new index file
       env:

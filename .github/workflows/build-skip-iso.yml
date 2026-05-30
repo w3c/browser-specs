@@ -6,6 +6,11 @@ on:
     # (see build.yml workflow for Saturday and Sunday)
     - cron: '10 */6 * * MON-FRI'
   workflow_dispatch:
+    inputs:
+      skipSpecs:
+        description: "Spec URLs to skip (CSV string)"
+        required: false
+        type: string
 
 jobs:
   fetch:
@@ -37,7 +42,9 @@ jobs:
     - name: Build new index file
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: npm run build-skip-iso
+      run: node src/build-index.js --skip-fetch=iso --skip-specs=$SKIP_SPECS
+      env:
+        SKIP_SPECS: ${{ github.event_name == 'workflow_dispatch' && inputs.skipSpecs || 'none' }}
 
     - name: Test new index file
       env:

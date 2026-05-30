@@ -462,6 +462,9 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     }
     else if (cliOption.startsWith('--skip-specs=')) {
       options.skipSpecs = cliOption.substring('--skip-specs='.length).split(',');
+      if (options.skipSpecs[0] === 'none') {
+        delete options.skipSpecs;
+      }
     }
   }
 

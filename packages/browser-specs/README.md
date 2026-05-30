@@ -38,6 +38,19 @@ their `categories` property.
 
 ## Upgrading
 
+### From version 4 to version 5
+
+The only breaking change in version `5.x` is that, following the release of the
+new RFC Editor site at the IETF, IETF spec entries no longer have a `filename`
+property under `nightly`. Tests and documentation used to assume that the
+`filename` property was always set. That is no longer the case. To upgrade from
+version `4.x` to version `5.x`, make sure that your code can handle specs
+without a `filename` property.
+
+*Note:* the `organization` property of IETF spec entries is set to `"IETF"`.
+
+### From version 3 to version 4
+
 The only breaking change in version `4.x` is that some spec entries may not
 have a `nightly` property. This happens for specs that are not public. An
 example of a non public spec is an ISO standard. In such cases, the `url`

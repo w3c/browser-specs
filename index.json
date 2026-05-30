@@ -12038,7 +12038,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc2397",
+    "url": "https://www.rfc-editor.org/info/rfc2397/",
     "seriesComposition": "full",
     "shortname": "rfc2397",
     "series": {
@@ -12046,7 +12046,7 @@
       "currentSpecification": "rfc2397",
       "title": "The \"data\" URL scheme",
       "shortTitle": "The \"data\" URL scheme",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc2397"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc2397/"
     },
     "organization": "IETF",
     "groups": [
@@ -12056,13 +12056,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc2397",
+      "url": "https://www.rfc-editor.org/info/rfc2397/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc2397",
         "https://tools.ietf.org/html/rfc2397"
-      ],
-      "filename": "rfc2397.html"
+      ]
     },
     "title": "The \"data\" URL scheme",
     "source": "ietf",
@@ -12073,7 +12072,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc4120",
+    "url": "https://www.rfc-editor.org/info/rfc4120/",
     "seriesComposition": "full",
     "shortname": "rfc4120",
     "series": {
@@ -12081,7 +12080,7 @@
       "currentSpecification": "rfc4120",
       "title": "The Kerberos Network Authentication Service (V5)",
       "shortTitle": "Kerberos",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc4120"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc4120/"
     },
     "shortTitle": "Kerberos",
     "organization": "IETF",
@@ -12092,13 +12091,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc4120",
+      "url": "https://www.rfc-editor.org/info/rfc4120/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc4120",
         "https://tools.ietf.org/html/rfc4120"
-      ],
-      "filename": "rfc4120.html"
+      ]
     },
     "title": "The Kerberos Network Authentication Service (V5)",
     "source": "ietf",
@@ -12108,7 +12106,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc5861",
+    "url": "https://www.rfc-editor.org/info/rfc5861/",
     "seriesComposition": "full",
     "shortname": "rfc5861",
     "series": {
@@ -12145,7 +12143,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc6265",
+    "url": "https://www.rfc-editor.org/info/rfc6265/",
     "seriesComposition": "full",
     "shortname": "rfc6265",
     "series": {
@@ -12182,7 +12180,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc6266",
+    "url": "https://www.rfc-editor.org/info/rfc6266/",
     "seriesComposition": "full",
     "shortname": "rfc6266",
     "series": {
@@ -12219,7 +12217,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc6386",
+    "url": "https://www.rfc-editor.org/info/rfc6386/",
     "seriesComposition": "full",
     "shortname": "rfc6386",
     "series": {
@@ -12227,7 +12225,7 @@
       "currentSpecification": "rfc6386",
       "title": "VP8 Data Format and Decoding Guide",
       "shortTitle": "VP8 Data Format and Decoding Guide",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6386"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc6386/"
     },
     "organization": "IETF",
     "groups": [
@@ -12237,13 +12235,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc6386",
+      "url": "https://www.rfc-editor.org/info/rfc6386/",
       "status": "Informational",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc6386",
         "https://tools.ietf.org/html/rfc6386"
-      ],
-      "filename": "rfc6386.html"
+      ]
     },
     "title": "VP8 Data Format and Decoding Guide",
     "source": "ietf",
@@ -12254,7 +12251,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc6454",
+    "url": "https://www.rfc-editor.org/info/rfc6454/",
     "seriesComposition": "full",
     "shortname": "rfc6454",
     "series": {
@@ -12262,7 +12259,7 @@
       "currentSpecification": "rfc6454",
       "title": "The Web Origin Concept",
       "shortTitle": "The Web Origin Concept",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6454"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc6454/"
     },
     "organization": "IETF",
     "groups": [
@@ -12272,13 +12269,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc6454",
+      "url": "https://www.rfc-editor.org/info/rfc6454/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc6454",
         "https://tools.ietf.org/html/rfc6454"
-      ],
-      "filename": "rfc6454.html"
+      ]
     },
     "title": "The Web Origin Concept",
     "source": "ietf",
@@ -12289,7 +12285,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc6455",
+    "url": "https://www.rfc-editor.org/info/rfc6455/",
     "seriesComposition": "full",
     "shortname": "rfc6455",
     "series": {
@@ -12297,7 +12293,7 @@
       "currentSpecification": "rfc6455",
       "title": "The WebSocket Protocol",
       "shortTitle": "The WebSocket Protocol",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6455"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc6455/"
     },
     "organization": "IETF",
     "groups": [
@@ -12307,13 +12303,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc6455",
+      "url": "https://www.rfc-editor.org/info/rfc6455/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc6455",
         "https://tools.ietf.org/html/rfc6455"
-      ],
-      "filename": "rfc6455.html"
+      ]
     },
     "title": "The WebSocket Protocol",
     "source": "ietf",
@@ -12324,7 +12319,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc6797",
+    "url": "https://www.rfc-editor.org/info/rfc6797/",
     "seriesComposition": "full",
     "shortname": "rfc6797",
     "series": {
@@ -12332,7 +12327,7 @@
       "currentSpecification": "rfc6797",
       "title": "HTTP Strict Transport Security (HSTS)",
       "shortTitle": "HSTS",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc6797"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc6797/"
     },
     "organization": "IETF",
     "groups": [
@@ -12342,13 +12337,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc6797",
+      "url": "https://www.rfc-editor.org/info/rfc6797/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc6797",
         "https://tools.ietf.org/html/rfc6797"
-      ],
-      "filename": "rfc6797.html"
+      ]
     },
     "title": "HTTP Strict Transport Security (HSTS)",
     "source": "ietf",
@@ -12359,7 +12353,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7034",
+    "url": "https://www.rfc-editor.org/info/rfc7034/",
     "seriesComposition": "full",
     "shortname": "rfc7034",
     "series": {
@@ -12367,7 +12361,7 @@
       "currentSpecification": "rfc7034",
       "title": "HTTP Header Field X-Frame-Options",
       "shortTitle": "HTTP Header Field X-Frame-Options",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7034"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc7034/"
     },
     "organization": "IETF",
     "groups": [
@@ -12377,13 +12371,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7034",
+      "url": "https://www.rfc-editor.org/info/rfc7034/",
       "status": "Informational",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc7034",
         "https://tools.ietf.org/html/rfc7034"
-      ],
-      "filename": "rfc7034.html"
+      ]
     },
     "title": "HTTP Header Field X-Frame-Options",
     "source": "ietf",
@@ -12394,7 +12387,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7230",
+    "url": "https://www.rfc-editor.org/info/rfc7230/",
     "seriesComposition": "full",
     "shortname": "rfc7230",
     "series": {
@@ -12435,7 +12428,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7231",
+    "url": "https://www.rfc-editor.org/info/rfc7231/",
     "seriesComposition": "full",
     "shortname": "rfc7231",
     "series": {
@@ -12475,7 +12468,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7232",
+    "url": "https://www.rfc-editor.org/info/rfc7232/",
     "seriesComposition": "full",
     "shortname": "rfc7232",
     "series": {
@@ -12515,7 +12508,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7233",
+    "url": "https://www.rfc-editor.org/info/rfc7233/",
     "seriesComposition": "full",
     "shortname": "rfc7233",
     "series": {
@@ -12555,7 +12548,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7234",
+    "url": "https://www.rfc-editor.org/info/rfc7234/",
     "seriesComposition": "full",
     "shortname": "rfc7234",
     "series": {
@@ -12595,7 +12588,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7235",
+    "url": "https://www.rfc-editor.org/info/rfc7235/",
     "seriesComposition": "full",
     "shortname": "rfc7235",
     "series": {
@@ -12635,7 +12628,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7239",
+    "url": "https://www.rfc-editor.org/info/rfc7239/",
     "seriesComposition": "full",
     "shortname": "rfc7239",
     "series": {
@@ -12643,7 +12636,7 @@
       "currentSpecification": "rfc7239",
       "title": "Forwarded HTTP Extension",
       "shortTitle": "Forwarded HTTP Extension",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7239"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc7239/"
     },
     "organization": "IETF",
     "groups": [
@@ -12653,13 +12646,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7239",
+      "url": "https://www.rfc-editor.org/info/rfc7239/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc7239",
         "https://tools.ietf.org/html/rfc7239"
-      ],
-      "filename": "rfc7239.html"
+      ]
     },
     "title": "Forwarded HTTP Extension",
     "source": "ietf",
@@ -12670,7 +12662,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7240",
+    "url": "https://www.rfc-editor.org/info/rfc7240/",
     "seriesComposition": "full",
     "shortname": "rfc7240",
     "series": {
@@ -12707,7 +12699,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7469",
+    "url": "https://www.rfc-editor.org/info/rfc7469/",
     "seriesComposition": "full",
     "shortname": "rfc7469",
     "series": {
@@ -12715,7 +12707,7 @@
       "currentSpecification": "rfc7469",
       "title": "Public Key Pinning Extension for HTTP",
       "shortTitle": "Public Key Pinning Extension for HTTP",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7469"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc7469/"
     },
     "organization": "IETF",
     "groups": [
@@ -12725,13 +12717,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7469",
+      "url": "https://www.rfc-editor.org/info/rfc7469/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc7469",
         "https://tools.ietf.org/html/rfc7469"
-      ],
-      "filename": "rfc7469.html"
+      ]
     },
     "title": "Public Key Pinning Extension for HTTP",
     "source": "ietf",
@@ -12742,7 +12733,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7538",
+    "url": "https://www.rfc-editor.org/info/rfc7538/",
     "seriesComposition": "full",
     "shortname": "rfc7538",
     "series": {
@@ -12782,7 +12773,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7540",
+    "url": "https://www.rfc-editor.org/info/rfc7540/",
     "seriesComposition": "full",
     "shortname": "rfc7540",
     "series": {
@@ -12822,7 +12813,7 @@
     ]
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7578",
+    "url": "https://www.rfc-editor.org/info/rfc7578/",
     "seriesComposition": "full",
     "shortname": "rfc7578",
     "series": {
@@ -12830,7 +12821,7 @@
       "currentSpecification": "rfc7578",
       "title": "Returning Values from Forms: multipart/form-data",
       "shortTitle": "Returning Values from Forms: multipart/form-data",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7578"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc7578/"
     },
     "organization": "IETF",
     "groups": [
@@ -12840,13 +12831,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7578",
+      "url": "https://www.rfc-editor.org/info/rfc7578/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc7578",
         "https://tools.ietf.org/html/rfc7578"
-      ],
-      "filename": "rfc7578.html"
+      ]
     },
     "title": "Returning Values from Forms: multipart/form-data",
     "source": "ietf",
@@ -12857,7 +12847,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7616",
+    "url": "https://www.rfc-editor.org/info/rfc7616/",
     "seriesComposition": "full",
     "shortname": "rfc7616",
     "series": {
@@ -12894,7 +12884,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7617",
+    "url": "https://www.rfc-editor.org/info/rfc7617/",
     "seriesComposition": "full",
     "shortname": "rfc7617",
     "series": {
@@ -12931,7 +12921,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7725",
+    "url": "https://www.rfc-editor.org/info/rfc7725/",
     "seriesComposition": "full",
     "shortname": "rfc7725",
     "series": {
@@ -12968,7 +12958,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7838",
+    "url": "https://www.rfc-editor.org/info/rfc7838/",
     "seriesComposition": "full",
     "shortname": "rfc7838",
     "series": {
@@ -13005,7 +12995,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc7932",
+    "url": "https://www.rfc-editor.org/info/rfc7932/",
     "seriesComposition": "full",
     "shortname": "rfc7932",
     "series": {
@@ -13013,7 +13003,7 @@
       "currentSpecification": "rfc7932",
       "title": "Brotli Compressed Data Format",
       "shortTitle": "Brotli Compressed Data Format",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc7932"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc7932/"
     },
     "organization": "IETF",
     "groups": [
@@ -13023,13 +13013,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc7932",
+      "url": "https://www.rfc-editor.org/info/rfc7932/",
       "status": "Informational",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc7932",
         "https://tools.ietf.org/html/rfc7932"
-      ],
-      "filename": "rfc7932.html"
+      ]
     },
     "title": "Brotli Compressed Data Format",
     "source": "ietf",
@@ -13040,7 +13029,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc8246",
+    "url": "https://www.rfc-editor.org/info/rfc8246/",
     "seriesComposition": "full",
     "shortname": "rfc8246",
     "series": {
@@ -13077,7 +13066,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc8288",
+    "url": "https://www.rfc-editor.org/info/rfc8288/",
     "seriesComposition": "full",
     "shortname": "rfc8288",
     "series": {
@@ -13114,7 +13103,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc8297",
+    "url": "https://www.rfc-editor.org/info/rfc8297/",
     "seriesComposition": "full",
     "shortname": "rfc8297",
     "series": {
@@ -13151,7 +13140,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc8470",
+    "url": "https://www.rfc-editor.org/info/rfc8470/",
     "seriesComposition": "full",
     "shortname": "rfc8470",
     "series": {
@@ -13188,7 +13177,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc8610",
+    "url": "https://www.rfc-editor.org/info/rfc8610/",
     "seriesComposition": "full",
     "shortname": "rfc8610",
     "series": {
@@ -13196,7 +13185,7 @@
       "currentSpecification": "rfc8610",
       "title": "Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures",
       "shortTitle": "CDDL",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8610"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc8610/"
     },
     "shortTitle": "CDDL",
     "organization": "IETF",
@@ -13207,13 +13196,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc8610",
+      "url": "https://www.rfc-editor.org/info/rfc8610/",
       "status": "Proposed Standard",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc8610",
         "https://tools.ietf.org/html/rfc8610"
-      ],
-      "filename": "rfc8610.html"
+      ]
     },
     "title": "Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures",
     "source": "ietf",
@@ -13223,7 +13211,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc8878",
+    "url": "https://www.rfc-editor.org/info/rfc8878/",
     "seriesComposition": "full",
     "shortname": "rfc8878",
     "series": {
@@ -13231,7 +13219,7 @@
       "currentSpecification": "rfc8878",
       "title": "Zstandard Compression and the 'application/zstd' Media Type",
       "shortTitle": "Zstandard Compression and the 'application/zstd' Media Type",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc8878"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc8878/"
     },
     "organization": "IETF",
     "groups": [
@@ -13241,13 +13229,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc8878",
+      "url": "https://www.rfc-editor.org/info/rfc8878/",
       "status": "Informational",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc8878",
         "https://tools.ietf.org/html/rfc8878"
-      ],
-      "filename": "rfc8878.html"
+      ]
     },
     "title": "Zstandard Compression and the 'application/zstd' Media Type",
     "source": "ietf",
@@ -13258,7 +13245,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc8942",
+    "url": "https://www.rfc-editor.org/info/rfc8942/",
     "seriesComposition": "full",
     "shortname": "rfc8942",
     "series": {
@@ -13295,7 +13282,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9110",
+    "url": "https://www.rfc-editor.org/info/rfc9110/",
     "seriesComposition": "full",
     "shortname": "rfc9110",
     "series": {
@@ -13332,7 +13319,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9111",
+    "url": "https://www.rfc-editor.org/info/rfc9111/",
     "seriesComposition": "full",
     "shortname": "rfc9111",
     "series": {
@@ -13369,7 +13356,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9112",
+    "url": "https://www.rfc-editor.org/info/rfc9112/",
     "seriesComposition": "full",
     "shortname": "rfc9112",
     "series": {
@@ -13406,7 +13393,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9113",
+    "url": "https://www.rfc-editor.org/info/rfc9113/",
     "seriesComposition": "full",
     "shortname": "rfc9113",
     "series": {
@@ -13443,7 +13430,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9114",
+    "url": "https://www.rfc-editor.org/info/rfc9114/",
     "seriesComposition": "full",
     "shortname": "rfc9114",
     "series": {
@@ -13480,7 +13467,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9163",
+    "url": "https://www.rfc-editor.org/info/rfc9163/",
     "seriesComposition": "full",
     "shortname": "rfc9163",
     "series": {
@@ -13488,18 +13475,17 @@
       "currentSpecification": "rfc9163",
       "title": "Expect-CT Extension for HTTP",
       "shortTitle": "Expect-CT Extension for HTTP",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9163"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc9163/"
     },
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9163",
+      "url": "https://www.rfc-editor.org/info/rfc9163/",
       "status": "Experimental",
       "repository": "https://github.com/httpwg/http-extensions",
       "sourcePath": "archive/draft-ietf-httpbis-expect-ct.md",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc9163",
         "https://tools.ietf.org/html/rfc9163"
-      ],
-      "filename": "rfc9163.html"
+      ]
     },
     "organization": "IETF",
     "groups": [
@@ -13517,7 +13503,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9218",
+    "url": "https://www.rfc-editor.org/info/rfc9218/",
     "seriesComposition": "full",
     "shortname": "rfc9218",
     "series": {
@@ -13554,7 +13540,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9421",
+    "url": "https://www.rfc-editor.org/info/rfc9421/",
     "seriesComposition": "full",
     "shortname": "rfc9421",
     "series": {
@@ -13591,7 +13577,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9530",
+    "url": "https://www.rfc-editor.org/info/rfc9530/",
     "seriesComposition": "full",
     "shortname": "rfc9530",
     "series": {
@@ -13631,7 +13617,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9649",
+    "url": "https://www.rfc-editor.org/info/rfc9649/",
     "seriesComposition": "full",
     "shortname": "rfc9649",
     "series": {
@@ -13639,7 +13625,7 @@
       "currentSpecification": "rfc9649",
       "title": "WebP Image Format",
       "shortTitle": "WebP Image Format",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9649"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc9649/"
     },
     "formerNames": [
       "webp"
@@ -13652,13 +13638,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9649",
+      "url": "https://www.rfc-editor.org/info/rfc9649/",
       "status": "Informational",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc9649",
         "https://tools.ietf.org/html/rfc9649"
-      ],
-      "filename": "rfc9649.html"
+      ]
     },
     "title": "WebP Image Format",
     "source": "ietf",
@@ -13669,7 +13654,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9659",
+    "url": "https://www.rfc-editor.org/info/rfc9659/",
     "seriesComposition": "full",
     "shortname": "rfc9659",
     "series": {
@@ -13677,7 +13662,7 @@
       "currentSpecification": "rfc9659",
       "title": "Window Sizing for Zstandard Content Encoding",
       "shortTitle": "Window Sizing for Zstandard Content Encoding",
-      "nightlyUrl": "https://www.rfc-editor.org/rfc/rfc9659"
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc9659/"
     },
     "organization": "IETF",
     "groups": [
@@ -13687,13 +13672,12 @@
       }
     ],
     "nightly": {
-      "url": "https://www.rfc-editor.org/rfc/rfc9659",
+      "url": "https://www.rfc-editor.org/info/rfc9659/",
       "status": "Informational",
       "alternateUrls": [
         "https://datatracker.ietf.org/doc/html/rfc9659",
         "https://tools.ietf.org/html/rfc9659"
-      ],
-      "filename": "rfc9659.html"
+      ]
     },
     "title": "Window Sizing for Zstandard Content Encoding",
     "source": "ietf",
@@ -13704,7 +13688,7 @@
     "standing": "good"
   },
   {
-    "url": "https://www.rfc-editor.org/rfc/rfc9842",
+    "url": "https://www.rfc-editor.org/info/rfc9842/",
     "seriesComposition": "full",
     "shortname": "rfc9842",
     "series": {

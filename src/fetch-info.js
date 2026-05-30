@@ -291,7 +291,7 @@ async function fetchInfoFromIETF(specs, options) {
         nightly = `https://httpwg.org/specs/${lastRevision.name}.html`
       }
       else {
-        nightly = `https://www.rfc-editor.org/info/${lastRevision.name}`;
+        nightly = `https://www.rfc-editor.org/info/${lastRevision.name}/`;
       }
     }
     else if (jsonDoc.group?.acronym === 'httpbis' || jsonDoc.group?.acronym === 'httpstate') {

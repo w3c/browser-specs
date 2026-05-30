@@ -58,7 +58,7 @@ describe("fetch-groups module (without API keys)", function () {
   });
 
   it("handles IETF RFCs", timeout, async () => {
-    const res = await fetchGroupsFor("https://www.rfc-editor.org/info/rfc9110");
+    const res = await fetchGroupsFor("https://www.rfc-editor.org/info/rfc9110/");
     assert.equal(res.organization, "IETF");
     assert.deepStrictEqual(res.groups, [{
       name: "HTTP Working Group",

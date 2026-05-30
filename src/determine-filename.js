@@ -17,9 +17,9 @@ export default async function (url) {
   }
 
   // RFC-editor HTML rendering
-  const rfcMatch = url.match(/\/rfc\/(rfc[0-9]+)$/);
+  const rfcMatch = url.match(/\/info\/(rfc[0-9]+)$/);
   if (rfcMatch) {
-    return rfcMatch[1] + '.html';
+    return null;
   }
 
   // Make sure that url ends with a "/"

@@ -41,11 +41,12 @@ import Octokit from "./octokit.js";
 import ThrottledQueue from "./throttled-queue.js";
 import fetchJSON from "./fetch-json.js";
 
-async function useKnownInfoWhereAppropriate(specs) {
+async function useKnownInfoWhereAppropriate(specs, options) {
   const results = {};
   for (const spec of specs) {
-    if (spec.__last?.standing === 'discontinued' &&
-        (!spec.standing || spec.standing === 'discontinued')) {
+    if (options?.skipSpecs?.includes(spec.url) ||
+        (spec.__last?.standing === 'discontinued' &&
+          (!spec.standing || spec.standing === 'discontinued'))) {
       results[spec.shortname] = spec.__last;
     }
     else if (spec.url.match(/\.iso\.org/)) {

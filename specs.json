@@ -536,6 +536,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-iterator-includes/",
   "https://tc39.es/proposal-iterator-join/",
   {
     "url": "https://tc39.es/proposal-iterator-sequencing/",

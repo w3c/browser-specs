@@ -5851,6 +5851,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-iterator-includes/",
+    "seriesComposition": "full",
+    "shortname": "tc39-iterator-includes",
+    "series": {
+      "shortname": "tc39-iterator-includes",
+      "currentSpecification": "tc39-iterator-includes",
+      "title": "Iterator Includes",
+      "shortTitle": "Iterator Includes",
+      "nightlyUrl": "https://tc39.es/proposal-iterator-includes/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-iterator-includes/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-iterator-includes",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Iterator Includes",
+    "source": "spec",
+    "shortTitle": "Iterator Includes",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-iterator-join/",
     "seriesComposition": "full",
     "shortname": "tc39-iterator-join",
@@ -10900,6 +10934,10 @@
       "shortTitle": "HTML Sanitizer API",
       "nightlyUrl": "https://wicg.github.io/sanitizer-api/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "html"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -10921,7 +10959,6 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [

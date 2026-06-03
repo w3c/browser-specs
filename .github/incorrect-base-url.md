@@ -1,6 +1,5 @@
 ---
 title: Base URL mismatch
-assignees: tidoust, dontcallmedom
 labels: bug
 ---
 [check-base-url](../blob/main/src/check-base-url.js) has detected that the base URL (i.e. the one that appears in the root `url` property in `index.json`) of the following specifications does not match the `release` URL or the `nightly` URL:

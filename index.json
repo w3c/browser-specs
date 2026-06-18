@@ -8450,6 +8450,40 @@
     "standing": "good"
   },
   {
+    "url": "https://webmachinelearning.github.io/proofreader-api/",
+    "seriesComposition": "full",
+    "shortname": "proofreader-api",
+    "series": {
+      "shortname": "proofreader-api",
+      "currentSpecification": "proofreader-api",
+      "title": "Proofreader API",
+      "shortTitle": "Proofreader API",
+      "nightlyUrl": "https://webmachinelearning.github.io/proofreader-api/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Machine Learning Community Group",
+        "url": "https://www.w3.org/community/webmachinelearning/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webmachinelearning.github.io/proofreader-api/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/webmachinelearning/proofreader-api",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Proofreader API",
+    "source": "spec",
+    "shortTitle": "Proofreader API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://webmachinelearning.github.io/translation-api/",
     "seriesComposition": "full",
     "shortname": "translation-api",

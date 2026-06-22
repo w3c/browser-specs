@@ -43,7 +43,7 @@ async function releasePackage(prNumber) {
   }
   const type = match[1];
 
-  if (!["web-specs", "browser-specs"].includes(type)) {
+  if (!["web-specs"].includes(type)) {
     console.log(`- Unknown package type "${type}", nothing to release`);
     return;
   }

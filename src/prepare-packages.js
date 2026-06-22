@@ -1,7 +1,5 @@
 /**
  * Prepare the contents of the NPM packages
- *
- * NPM packages include browser-specs.
  * 
  * These packages contain a filtered view of the list of specs.
  * 
@@ -27,12 +25,6 @@ async function preparePackages() {
     {
       name: 'web-specs',
       filter: spec => true
-    },
-    {
-      name: 'browser-specs',
-      filter: spec =>
-        spec.categories?.includes('browser') &&
-        spec.standing === 'good'
     }
   ];
 

@@ -27,7 +27,7 @@ npm install web-specs
 You can then retrieve the list from your Node.js program:
 
 ```js
-const specs = require("web-specs");
+import specs from "web-specs" with { type: "json" };
 console.log(JSON.stringify(specs, null, 2));
 ```
 
@@ -55,6 +55,21 @@ example of a non public spec is an ISO standard. In such cases, the `url`
 property targets the public page that describes the spec on the standardization
 organization's web site. To upgrade from version `2.x` to version `3.x`, make
 sure that your code can handle specs without a `nightly` property.
+
+### From the `browser-specs` package
+
+The `browser-specs` package, which contained the subset of specs that are in
+good [standing](#standing) and that [target web browsers](#categories), is no
+longer being published. You may obtain the same list from the `web-specs`
+package by applying the following filtering logic:
+
+```js
+import webSpecs from "web-specs" with { type: "json" };
+const browserSpecs = webSpecs.filter(spec =>
+  spec.categories?.includes('browser') &&
+  spec.standing === 'good'
+);
+```
 
 <!-- COMMON-BODY: start -->
 <!-- COMMON-BODY: end -->

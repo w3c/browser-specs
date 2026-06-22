@@ -92,7 +92,7 @@ npm install web-specs
 You can then retrieve the list from your Node.js program:
 
 ```js
-const specs = require("web-specs");
+import specs from "web-specs" with { type: "json" };
 console.log(JSON.stringify(specs, null, 2));
 ```
 

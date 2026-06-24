@@ -92,14 +92,12 @@ npm install web-specs
 You can then retrieve the list from your Node.js program:
 
 ```js
-const specs = require("web-specs");
+import specs from "web-specs" with { type: "json" };
 console.log(JSON.stringify(specs, null, 2));
 ```
 
 Alternatively, you can fetch [`index.json`](https://w3c.github.io/browser-specs/index.json)
 or retrieve the list from the [`web-specs@latest` branch](https://github.com/w3c/browser-specs/tree/web-specs%40latest).
-
-The subset of specs that target web browsers is published in a separate [`browser-specs`](https://www.npmjs.com/package/browser-specs) package. You may retrieve that filtered list from the [`browser-specs@latest` branch](https://github.com/w3c/browser-specs/tree/browser-specs%40latest)
 
 <!-- COMMON-BODY: start -->
 ## Spec object
@@ -217,8 +215,7 @@ possible value so far is `"browser"`, which means that the spec targets web
 browsers.
 
 The `categories` property is always set. Value may be an empty array for some of
-the specs in the `web-specs` package. Value always contains `"browser"` for
-specs in the `browser-specs` package.
+the specs in the `web-specs` package.
 
 
 ### `standing`
@@ -238,8 +235,7 @@ Specs whose status is "Discontinued Draft" typically have a standing set to
 `"discontinued"`.
 
 The `standing` property is always set. Value may either be `"good"`, `"pending"`
-or `"discontinued"`. Value is always `"good"` for specs in the `browser-specs`
-package.
+or `"discontinued"`.
 
 
 ### `obsoletedBy`

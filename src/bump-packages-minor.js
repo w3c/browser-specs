@@ -45,12 +45,6 @@ async function isMinorBumpNeeded(type) {
   // Load new file
   let newIndexFile = await loadJSON(path.resolve(scriptPath, '..', 'index.json'));
 
-  // Filter specs if needed
-  if (type === "browser-specs") {
-    lastIndexFile = lastIndexFile.filter(s => !s.categories || s.categories.includes('browser'));
-    newIndexFile = newIndexFile.filter(s => s.categories.includes('browser'));
-  }
-
   return !!(
     lastIndexFile.find(spec => !newIndexFile.find(s => specsMatch(spec, s))) ||
     newIndexFile.find(spec => !lastIndexFile.find(s => specsMatch(spec, s)))

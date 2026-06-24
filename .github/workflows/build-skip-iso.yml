@@ -74,11 +74,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Create/Update pre-release PR for browser-specs
-      run: node src/prepare-release.js browser-specs
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     # Following step runs even if a previous step failed to upload intermediary
     # build files
     - name: Store intermediary steps as artifacts

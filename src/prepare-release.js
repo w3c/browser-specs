@@ -51,9 +51,9 @@ function btoa(str) {
  * Compute diff between the released npm package and the contents of the repo
  *
  * @function
- * @param {String} name Package name. (e.g. "web-specs" or "browser-specs")
+ * @param {String} name Package name. (e.g. "web-specs")
  * @param {String} folder Package folder name. Must match one of the existing
- *  folder names under "packages" (e.g. "web-specs", "browser-specs")
+ *  folder names under "packages" (e.g. "web-specs")
  * @return {String} The results of running the diff. An empty string if contents
  *   match.
  */
@@ -155,9 +155,9 @@ async function computeDiff(name, folder) {
  * Create or update pre-release pull request
  *
  * @function
- * @param {String} name Package name. (e.g. "web-specs" or "browser-specs")
+ * @param {String} name Package name. (e.g. "web-specs")
  * @param {String} folder Package folder name. Must match one of the existing
- *  folder names under "packages" (e.g. "web-specs", "browser-specs")
+ *  folder names under "packages" (e.g. "web-specs")
  */
 async function prepareRelease(name, folder, dryRun = false) {
   // Compute a reasonably unique ID
@@ -366,7 +366,7 @@ const octokit = new Octokit({
   //log: console
 });
 
-const packageName = process.argv[2] ?? "browser-specs";
+const packageName = process.argv[2] ?? "web-specs";
 const packageFolder = process.argv[3] ?? packageName;
 const dryRun = !!process.argv[4]
 

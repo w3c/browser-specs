@@ -114,6 +114,14 @@ describe("fetch-info module", function () {
 
     it("identifies discontinued IETF specs", timeout, async () => {
       const info = await fetchInfo([
+        { url: "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/", shortname: "idempotency-key-header" }
+      ]);
+      assert.ok(info["idempotency-key-header"]);
+      assert.equal(info["idempotency-key-header"].nightly?.status, "Discontinued Draft");
+    });
+
+    it("identifies discontinued IETF specs (with new specs)", timeout, async () => {
+      const info = await fetchInfo([
         { url: "https://www.rfc-editor.org/info/rfc7230/", shortname: "rfc7230" },
         { url: "https://www.rfc-editor.org/info/rfc9110/", shortname: "rfc9110" },
         { url: "https://www.rfc-editor.org/info/rfc9112/", shortname: "rfc9112" }

@@ -304,7 +304,8 @@ async function fetchInfoFromIETF(specs, options) {
     // For the status, use the std_level property, which contains one of the
     // statuses in https://datatracker.ietf.org/api/v1/name/stdlevelname/
     // The property is null for an unpublished Editor's Draft.
-    const status = jsonDoc.std_level ?? "Editor's Draft";
+    const status = jsonDoc.std_level ??
+      (jsonDoc.state === "Expired" ? "Discontinued Draft" : "Editor's Draft");
 
     const specInfo = { title: jsonDoc.title, nightly, status };
 

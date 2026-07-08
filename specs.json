@@ -192,6 +192,7 @@
       "webxr-meshing"
     ]
   },
+  "https://immersive-web.github.io/webxr-webgpu-binding/",
   "https://infra.spec.whatwg.org/",
   "https://mimesniff.spec.whatwg.org/",
   "https://notifications.spec.whatwg.org/",

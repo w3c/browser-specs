@@ -2106,6 +2106,40 @@
     "standing": "good"
   },
   {
+    "url": "https://immersive-web.github.io/webxr-webgpu-binding/",
+    "seriesComposition": "full",
+    "shortname": "webxr-webgpu-binding",
+    "series": {
+      "shortname": "webxr-webgpu-binding",
+      "currentSpecification": "webxr-webgpu-binding",
+      "title": "WebXR/WebGPU Binding",
+      "shortTitle": "WebXR/WebGPU Binding",
+      "nightlyUrl": "https://immersive-web.github.io/webxr-webgpu-binding/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Immersive Web Working Group",
+        "url": "https://www.w3.org/immersive-web/"
+      }
+    ],
+    "nightly": {
+      "url": "https://immersive-web.github.io/webxr-webgpu-binding/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/immersive-web/webxr-webgpu-binding",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebXR/WebGPU Binding Module - Level 1",
+    "source": "spec",
+    "shortTitle": "WebXR/WebGPU Binding 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://infra.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "infra",
@@ -9141,6 +9175,40 @@
     "title": "Crash Reporting",
     "source": "spec",
     "shortTitle": "Crash Reporting",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://wicg.github.io/cross-origin-storage/",
+    "seriesComposition": "full",
+    "shortname": "cross-origin-storage",
+    "series": {
+      "shortname": "cross-origin-storage",
+      "currentSpecification": "cross-origin-storage",
+      "title": "Cross-Origin Storage",
+      "shortTitle": "Cross-Origin Storage",
+      "nightlyUrl": "https://wicg.github.io/cross-origin-storage/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/cross-origin-storage/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/cross-origin-storage",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Cross-Origin Storage",
+    "source": "spec",
+    "shortTitle": "Cross-Origin Storage",
     "categories": [
       "browser"
     ],
@@ -25970,13 +26038,15 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/pointerevents3/",
-      "status": "Candidate Recommendation Draft",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://www.w3.org/TR/pointerevents3/",
+      "url": "https://w3c.github.io/pointerevents/",
       "status": "Editor's Draft",
       "alternateUrls": [],
+      "repository": "https://github.com/w3c/pointerevents",
+      "sourcePath": "index.html",
       "filename": "index.html"
     },
     "title": "Pointer Events",
@@ -25985,7 +26055,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "pointerevents"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/pointerevents4/",
@@ -27641,7 +27717,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/shacl12-node-expr/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -29747,6 +29823,45 @@
     "title": "Quantum-Resistant Cryptosuites v1.0",
     "source": "w3c",
     "shortTitle": "Quantum-Resistant Cryptosuites v1.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vc-forgery-defense-1.0/",
+    "seriesComposition": "full",
+    "shortname": "vc-forgery-defense-1.0",
+    "series": {
+      "shortname": "vc-forgery-defense",
+      "currentSpecification": "vc-forgery-defense-1.0",
+      "title": "Verifiable Credential Forgery Defense",
+      "shortTitle": "Verifiable Credential Forgery Defense",
+      "releaseUrl": "https://www.w3.org/TR/vc-forgery-defense/",
+      "nightlyUrl": "https://w3c.github.io/vc-forgery-defense/"
+    },
+    "seriesVersion": "1.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-forgery-defense-1.0/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-forgery-defense/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-forgery-defense",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Verifiable Credential Forgery Defense v1.0",
+    "source": "w3c",
+    "shortTitle": "Verifiable Credential Forgery Defense v1.0",
     "categories": [],
     "standing": "good"
   },

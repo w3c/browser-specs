@@ -641,7 +641,6 @@
       "shacl12-compact-syntax"
     ]
   },
-  "https://w3c.github.io/data-shapes/shacl12-profiling/",
   {
     "shortname": "execCommand",
     "standing": "pending",
@@ -1866,6 +1865,7 @@
   "https://www.w3.org/TR/service-workers/",
   "https://www.w3.org/TR/shacl12-core/",
   "https://www.w3.org/TR/shacl12-node-expr/",
+  "https://www.w3.org/TR/shacl12-profiling/",
   {
     "url": "https://www.w3.org/TR/shacl12-rules/",
     "formerNames": [

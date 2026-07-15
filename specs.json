@@ -169,6 +169,17 @@
       }
     ]
   },
+  {
+    "shortname": "fido-client-to-authenticator-protocol-v2.3",
+    "organization": "FIDO Alliance",
+    "groups": [
+      {
+        "name": "FIDO2 Technical Working Group",
+        "url": "https://fidoalliance.org/members/working-groups/#fido2-technical-working-group"
+      }
+    ],
+    "url": "https://fidoalliance.org/specs/fido-v2.3-ps-20260226/fido-client-to-authenticator-protocol-v2.3-ps-20260226.html"
+  },
   "https://fs.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
   {

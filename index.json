@@ -1623,10 +1623,10 @@
     "shortname": "fido-client-to-authenticator-protocol-v2.1",
     "series": {
       "shortname": "fido-client-to-authenticator-protocol",
-      "currentSpecification": "fido-client-to-authenticator-protocol-v2.2",
+      "currentSpecification": "fido-client-to-authenticator-protocol-v2.3",
       "title": "Client to Authenticator Protocol (CTAP)",
       "shortTitle": "CTAP",
-      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html"
+      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.3-ps-20260226/fido-client-to-authenticator-protocol-v2.3-ps-20260226.html"
     },
     "seriesVersion": "2.1",
     "organization": "FIDO Alliance",
@@ -1660,10 +1660,10 @@
     "shortname": "fido-client-to-authenticator-protocol-v2.2",
     "series": {
       "shortname": "fido-client-to-authenticator-protocol",
-      "currentSpecification": "fido-client-to-authenticator-protocol-v2.2",
+      "currentSpecification": "fido-client-to-authenticator-protocol-v2.3",
       "title": "Client to Authenticator Protocol (CTAP)",
       "shortTitle": "CTAP",
-      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html"
+      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.3-ps-20260226/fido-client-to-authenticator-protocol-v2.3-ps-20260226.html"
     },
     "seriesVersion": "2.2",
     "organization": "FIDO Alliance",
@@ -1674,11 +1674,46 @@
       }
     ],
     "seriesPrevious": "fido-client-to-authenticator-protocol-v2.1",
+    "seriesNext": "fido-client-to-authenticator-protocol-v2.3",
     "nightly": {
       "url": "https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "filename": "fido-client-to-authenticator-protocol-v2.2-ps-20250714.html"
+    },
+    "title": "Client to Authenticator Protocol (CTAP)",
+    "source": "spec",
+    "shortTitle": "CTAP",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://fidoalliance.org/specs/fido-v2.3-ps-20260226/fido-client-to-authenticator-protocol-v2.3-ps-20260226.html",
+    "seriesComposition": "full",
+    "shortname": "fido-client-to-authenticator-protocol-v2.3",
+    "series": {
+      "shortname": "fido-client-to-authenticator-protocol",
+      "currentSpecification": "fido-client-to-authenticator-protocol-v2.3",
+      "title": "Client to Authenticator Protocol (CTAP)",
+      "shortTitle": "CTAP",
+      "nightlyUrl": "https://fidoalliance.org/specs/fido-v2.3-ps-20260226/fido-client-to-authenticator-protocol-v2.3-ps-20260226.html"
+    },
+    "seriesVersion": "2.3",
+    "organization": "FIDO Alliance",
+    "groups": [
+      {
+        "name": "FIDO2 Technical Working Group",
+        "url": "https://fidoalliance.org/members/working-groups/#fido2-technical-working-group"
+      }
+    ],
+    "seriesPrevious": "fido-client-to-authenticator-protocol-v2.2",
+    "nightly": {
+      "url": "https://fidoalliance.org/specs/fido-v2.3-ps-20260226/fido-client-to-authenticator-protocol-v2.3-ps-20260226.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "fido-client-to-authenticator-protocol-v2.3-ps-20260226.html"
     },
     "title": "Client to Authenticator Protocol (CTAP)",
     "source": "spec",
@@ -6951,39 +6986,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/data-shapes/shacl12-profiling/",
-    "seriesComposition": "full",
-    "shortname": "shacl12-profiling",
-    "series": {
-      "shortname": "shacl-profiling",
-      "currentSpecification": "shacl12-profiling",
-      "title": "SHACL 1.2 Profiling",
-      "shortTitle": "SHACL 1.2 Profiling",
-      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-profiling/"
-    },
-    "seriesVersion": "1.2",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Data Shapes Working Group",
-        "url": "https://www.w3.org/groups/wg/data-shapes/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/data-shapes/shacl12-profiling/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/data-shapes",
-      "sourcePath": "shacl12-profiling/index.html",
-      "filename": "index.html"
-    },
-    "title": "SHACL 1.2 Profiling",
-    "source": "spec",
-    "shortTitle": "SHACL 1.2 Profiling",
-    "categories": [],
-    "standing": "good"
-  },
-  {
     "url": "https://w3c.github.io/editing/docs/execCommand/",
     "seriesComposition": "full",
     "shortname": "execCommand",
@@ -9145,6 +9147,40 @@
         "content-index"
       ]
     }
+  },
+  {
+    "url": "https://wicg.github.io/cpu-performance/",
+    "seriesComposition": "full",
+    "shortname": "cpu-performance",
+    "series": {
+      "shortname": "cpu-performance",
+      "currentSpecification": "cpu-performance",
+      "title": "CPU Performance API",
+      "shortTitle": "CPU Performance API",
+      "nightlyUrl": "https://wicg.github.io/cpu-performance/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/cpu-performance/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/cpu-performance",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "CPU Performance API",
+    "source": "spec",
+    "shortTitle": "CPU Performance API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/crash-reporting/",
@@ -27735,6 +27771,45 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/shacl12-profiling/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-profiling",
+    "series": {
+      "shortname": "shacl-profiling",
+      "currentSpecification": "shacl12-profiling",
+      "title": "SHACL Profiling",
+      "shortTitle": "SHACL Profiling",
+      "releaseUrl": "https://www.w3.org/TR/shacl-profiling/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-profiling/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/shacl12-profiling/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-profiling/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-profiling/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Profiling",
+    "source": "w3c",
+    "shortTitle": "SHACL 1.2 Profiling",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/shacl12-rules/",
     "seriesComposition": "full",
     "shortname": "shacl12-rules",
@@ -29848,7 +29923,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-forgery-defense-1.0/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -30019,6 +30094,45 @@
     "title": "Verifiable Credential Rendering Methods v1.0",
     "source": "w3c",
     "shortTitle": "Verifiable Credential Rendering Methods v1.0",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/vcalm-1.0/",
+    "seriesComposition": "full",
+    "shortname": "vcalm-1.0",
+    "series": {
+      "shortname": "vcalm",
+      "currentSpecification": "vcalm-1.0",
+      "title": "VCALM",
+      "shortTitle": "VCALM",
+      "releaseUrl": "https://www.w3.org/TR/vcalm/",
+      "nightlyUrl": "https://w3c.github.io/vcalm/"
+    },
+    "seriesVersion": "1.0",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vcalm-1.0/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vcalm/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vcalm",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "VCALM v1.0",
+    "source": "w3c",
+    "shortTitle": "VCALM v1.0",
     "categories": [],
     "standing": "good"
   },

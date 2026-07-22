@@ -120,7 +120,6 @@
     "shortTitle": "CSS GCPM 4"
   },
   "https://drafts.csswg.org/css-images-5/ delta",
-  "https://drafts.csswg.org/css-link-params-1/",
   "https://drafts.csswg.org/css-navigation-1/",
   "https://drafts.csswg.org/css-page-4/ delta",
   {
@@ -1333,6 +1332,7 @@
   "https://www.w3.org/TR/css-inline-3/",
   "https://www.w3.org/TR/css-layout-api-1/",
   "https://www.w3.org/TR/css-line-grid-1/",
+  "https://www.w3.org/TR/css-link-params-1/",
   {
     "url": "https://www.w3.org/TR/css-lists-3/",
     "shortTitle": "CSS Lists 3"

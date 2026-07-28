@@ -1137,7 +1137,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-navigation"
+      ]
+    }
   },
   {
     "url": "https://drafts.csswg.org/css-page-4/",

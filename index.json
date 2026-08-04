@@ -31193,7 +31193,8 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
-        "webauthn"
+        "webauthn",
+        "webdriver/tests/classic/external/webauthn"
       ]
     }
   },
@@ -31977,6 +31978,9 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "webdriver"
+      ],
+      "excludePaths": [
+        "webdriver/tests/classic/external/webauthn"
       ]
     }
   },

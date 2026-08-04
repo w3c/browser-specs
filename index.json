@@ -1108,8 +1108,8 @@
     "series": {
       "shortname": "css-navigation",
       "currentSpecification": "css-navigation-1",
-      "title": "CSS Route and Navigation Matching",
-      "shortTitle": "CSS Route and Navigation Matching",
+      "title": "CSS Navigation Matching",
+      "shortTitle": "CSS Navigation Matching",
       "nightlyUrl": "https://drafts.csswg.org/css-navigation/"
     },
     "seriesVersion": "1",
@@ -1131,9 +1131,9 @@
       "sourcePath": "css-navigation-1/Overview.bs",
       "filename": "index.html"
     },
-    "title": "CSS Route and Navigation Matching",
+    "title": "CSS Navigation Matching",
     "source": "spec",
-    "shortTitle": "CSS Route and Navigation Matching",
+    "shortTitle": "CSS Navigation Matching",
     "categories": [
       "browser"
     ],

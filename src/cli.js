@@ -226,7 +226,7 @@ Examples:
           // the Rationale section. We'll use that to tell the build to also
           // delete the associated entry from the list.
           const reED = /\[Editor's Draft\]\((.+?)\) already in the list/i;
-          const match = section.value.match(reED);
+          const match = section.value?.match(reED);
           if (match) {
             custom.knownUrl = match[1];
           }

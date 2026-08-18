@@ -876,6 +876,7 @@
   "https://wicg.github.io/document-isolation-policy/",
   "https://wicg.github.io/document-picture-in-picture/",
   "https://wicg.github.io/document-policy/",
+  "https://wicg.github.io/email-verification/",
   "https://wicg.github.io/entries-api/",
   {
     "nightly": {

@@ -22418,7 +22418,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-a11y-12/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "title": "EPUB Accessibility 1.2",
@@ -25889,7 +25889,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "payment-method-manifest"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/payment-request/",

@@ -9587,6 +9587,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/email-verification/",
+    "seriesComposition": "full",
+    "shortname": "email-verification",
+    "series": {
+      "shortname": "email-verification",
+      "currentSpecification": "email-verification",
+      "title": "Email Verification API",
+      "shortTitle": "Email Verification API",
+      "nightlyUrl": "https://wicg.github.io/email-verification/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/email-verification/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/email-verification",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Email Verification API",
+    "source": "spec",
+    "shortTitle": "Email Verification API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/entries-api/",
     "seriesComposition": "full",
     "shortname": "entries-api",
@@ -11476,7 +11510,6 @@
       "shortTitle": "Soft Navigations and Interaction Contentful Paint",
       "nightlyUrl": "https://wicg.github.io/soft-navigations/"
     },
-    "standing": "pending",
     "organization": "W3C",
     "groups": [
       {
@@ -11497,7 +11530,8 @@
     "shortTitle": "Soft Navigations and Interaction Contentful Paint",
     "categories": [
       "browser"
-    ]
+    ],
+    "standing": "good"
   },
   {
     "url": "https://wicg.github.io/storage-buckets/",
@@ -12266,6 +12300,40 @@
     "title": "The \"data\" URL scheme",
     "source": "ietf",
     "shortTitle": "The \"data\" URL scheme",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.rfc-editor.org/info/rfc3229/",
+    "seriesComposition": "full",
+    "shortname": "rfc3229",
+    "series": {
+      "shortname": "rfc3229",
+      "currentSpecification": "rfc3229",
+      "title": "Delta encoding in HTTP",
+      "shortTitle": "Delta encoding in HTTP",
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc3229/"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Applications Area",
+        "url": "https://datatracker.ietf.org/wg/app/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/info/rfc3229/",
+      "status": "Proposed Standard",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc3229",
+        "https://tools.ietf.org/html/rfc3229"
+      ]
+    },
+    "title": "Delta encoding in HTTP",
+    "source": "ietf",
+    "shortTitle": "Delta encoding in HTTP",
     "categories": [
       "browser"
     ],
@@ -21493,17 +21561,21 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/did-resolution/",
+    "url": "https://www.w3.org/TR/did-resolution-1.0/",
     "seriesComposition": "full",
-    "shortname": "did-resolution",
+    "shortname": "did-resolution-1.0",
     "series": {
       "shortname": "did-resolution",
-      "currentSpecification": "did-resolution",
+      "currentSpecification": "did-resolution-1.0",
       "title": "Decentralized Identifier Resolution (DID Resolution)",
       "shortTitle": "DID Resolution",
       "releaseUrl": "https://www.w3.org/TR/did-resolution/",
       "nightlyUrl": "https://w3c.github.io/did-resolution/"
     },
+    "seriesVersion": "1.0",
+    "formerNames": [
+      "did-resolution"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -21512,8 +21584,8 @@
       }
     ],
     "release": {
-      "url": "https://www.w3.org/TR/did-resolution/",
-      "status": "Working Draft",
+      "url": "https://www.w3.org/TR/did-resolution-1.0/",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -24782,7 +24854,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/miniapp-lifecycle/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -24797,7 +24869,7 @@
     "source": "w3c",
     "shortTitle": "MiniApp Lifecycle",
     "categories": [],
-    "standing": "good"
+    "standing": "discontinued"
   },
   {
     "url": "https://www.w3.org/TR/miniapp-manifest/",
@@ -24820,7 +24892,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/miniapp-manifest/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -24835,7 +24907,7 @@
     "source": "w3c",
     "shortTitle": "MiniApp Manifest",
     "categories": [],
-    "standing": "good"
+    "standing": "discontinued"
   },
   {
     "url": "https://www.w3.org/TR/miniapp-packaging/",
@@ -24858,7 +24930,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/miniapp-packaging/",
-      "status": "Working Draft",
+      "status": "Discontinued Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -24873,7 +24945,7 @@
     "source": "w3c",
     "shortTitle": "MiniApp Packaging",
     "categories": [],
-    "standing": "good"
+    "standing": "discontinued"
   },
   {
     "url": "https://www.w3.org/TR/mixed-content/",
@@ -29496,8 +29568,8 @@
     "series": {
       "shortname": "vc-confidence-method",
       "currentSpecification": "vc-confidence-method",
-      "title": "Confidence Method v1.0",
-      "shortTitle": "Confidence Method v1.0",
+      "title": "Verifiable Credential Confidence Methods",
+      "shortTitle": "Verifiable Credential Confidence Methods",
       "releaseUrl": "https://www.w3.org/TR/vc-confidence-method/",
       "nightlyUrl": "https://w3c.github.io/vc-confidence-method/"
     },
@@ -29521,9 +29593,9 @@
       "sourcePath": "index.html",
       "filename": "index.html"
     },
-    "title": "Confidence Method v1.0",
+    "title": "Verifiable Credential Confidence Methods v1.0",
     "source": "w3c",
-    "shortTitle": "Confidence Method v1.0",
+    "shortTitle": "Verifiable Credential Confidence Methods v1.0",
     "categories": [],
     "standing": "good"
   },

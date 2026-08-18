@@ -562,7 +562,7 @@ async function fetchKnownCandidates() {
       const rationaleSection = sections.find(section => section.title === "Rationale");
       const reRepository = /repository: \[.*?\]\((.+?)\)/i;
       if (rationaleSection) {
-        const match = rationaleSection.value.match(reRepository);
+        const match = rationaleSection.value?.match(reRepository);
         if (match) {
           entry.repo = match[1].replace(/https:\/\/github\.com\//, "");
           if (multiRepos[entry.repo]) {

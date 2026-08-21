@@ -665,6 +665,7 @@
   "https://w3c.github.io/mathml-aam/",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
+  "https://w3c.github.io/mediacapture-extensions/",
   {
     "url": "https://w3c.github.io/mediacapture-handle/actions/",
     "shortname": "mediacapture-handle-actions",

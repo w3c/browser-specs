@@ -24,14 +24,14 @@ jobs:
       run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
 
     - name: Checkout repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         # Need to checkout all history as job also needs to access the
         # xxx-specs@latest branches
         fetch-depth: 0
 
     - name: Setup node.js
-      uses: actions/setup-node@v6
+      uses: actions/setup-node@v7
       with:
         node-version-file: .node-version
         cache: 'npm'
@@ -61,7 +61,7 @@ jobs:
         git commit -m "[data] Update spec info" -a || true
 
     - name: Push changes
-      uses: ad-m/github-push-action@v0.8.0
+      uses: ad-m/github-push-action@v1.3.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
@@ -78,7 +78,7 @@ jobs:
     # build files
     - name: Store intermediary steps as artifacts
       if: ${{ !cancelled() }}
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: buildsteps
         path: |

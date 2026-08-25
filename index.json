@@ -7202,6 +7202,46 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/mediacapture-extensions/",
+    "seriesComposition": "full",
+    "shortname": "mediacapture-extensions",
+    "series": {
+      "shortname": "mediacapture-extensions",
+      "currentSpecification": "mediacapture-extensions",
+      "title": "Media Capture and Streams Extensions",
+      "shortTitle": "Media Capture and Streams Extensions",
+      "nightlyUrl": "https://w3c.github.io/mediacapture-extensions/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/mediacapture-extensions/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/mediacapture-extensions",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Media Capture and Streams Extensions",
+    "source": "spec",
+    "shortTitle": "Media Capture and Streams Extensions",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "mediacapture-extensions"
+      ]
+    }
+  },
+  {
     "url": "https://w3c.github.io/mediacapture-handle/actions/",
     "seriesComposition": "full",
     "shortname": "mediacapture-handle-actions",
@@ -27934,48 +27974,6 @@
     "standing": "good"
   },
   {
-    "url": "https://www.w3.org/TR/shacl12-rules/",
-    "seriesComposition": "full",
-    "shortname": "shacl12-rules",
-    "series": {
-      "shortname": "shacl-rules",
-      "currentSpecification": "shacl12-rules",
-      "title": "SHACL Rules",
-      "shortTitle": "SHACL Rules",
-      "releaseUrl": "https://www.w3.org/TR/shacl-rules/",
-      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-rules/"
-    },
-    "seriesVersion": "1.2",
-    "formerNames": [
-      "shacl12-inf-rules"
-    ],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Data Shapes Working Group",
-        "url": "https://www.w3.org/groups/wg/data-shapes/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/shacl12-rules/",
-      "status": "Working Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/data-shapes/shacl12-rules/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/data-shapes",
-      "sourcePath": "shacl12-rules/index.html",
-      "filename": "index.html"
-    },
-    "title": "SHACL 1.2 Rules",
-    "source": "w3c",
-    "shortTitle": "SHACL 1.2 Rules",
-    "categories": [],
-    "standing": "good"
-  },
-  {
     "url": "https://www.w3.org/TR/shacl12-sparql/",
     "seriesComposition": "full",
     "shortname": "shacl12-sparql",
@@ -28362,6 +28360,49 @@
     "title": "SPARQL 1.2 Query Results XML Format",
     "source": "w3c",
     "shortTitle": "SPARQL 1.2 Query Results XML Format",
+    "categories": [],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/sparql12-rl/",
+    "seriesComposition": "full",
+    "shortname": "sparql12-rl",
+    "series": {
+      "shortname": "sparql-rl",
+      "currentSpecification": "sparql12-rl",
+      "title": "SPARQL RL",
+      "shortTitle": "SPARQL RL",
+      "releaseUrl": "https://www.w3.org/TR/sparql-rl/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/sparql-rl/"
+    },
+    "seriesVersion": "1.2",
+    "formerNames": [
+      "shacl12-inf-rules",
+      "shacl12-rules"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/sparql12-rl/",
+      "status": "Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/sparql12-rl/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "sparql12-rl/index.html",
+      "filename": "index.html"
+    },
+    "title": "SPARQL 1.2 RL",
+    "source": "w3c",
+    "shortTitle": "SPARQL 1.2 RL",
     "categories": [],
     "standing": "good"
   },
@@ -31285,7 +31326,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/webauthn-3/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Recommendation",
       "filename": "Overview.html"
     },
     "nightly": {

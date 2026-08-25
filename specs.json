@@ -1884,12 +1884,6 @@
   "https://www.w3.org/TR/shacl12-core/",
   "https://www.w3.org/TR/shacl12-node-expr/",
   "https://www.w3.org/TR/shacl12-profiling/",
-  {
-    "url": "https://www.w3.org/TR/shacl12-rules/",
-    "formerNames": [
-      "shacl12-inf-rules"
-    ]
-  },
   "https://www.w3.org/TR/shacl12-sparql/",
   "https://www.w3.org/TR/shacl12-ui/",
   "https://www.w3.org/TR/sparql12-entailment/",
@@ -1900,6 +1894,13 @@
   "https://www.w3.org/TR/sparql12-results-csv-tsv/",
   "https://www.w3.org/TR/sparql12-results-json/",
   "https://www.w3.org/TR/sparql12-results-xml/",
+  {
+    "url": "https://www.w3.org/TR/sparql12-rl/",
+    "formerNames": [
+      "shacl12-inf-rules",
+      "shacl12-rules"
+    ]
+  },
   "https://www.w3.org/TR/sparql12-service-description/",
   "https://www.w3.org/TR/sparql12-update/",
   {

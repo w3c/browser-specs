@@ -1521,6 +1521,12 @@
   },
   {
     "nightly": {
+      "sourcePath": "prof/index.html"
+    },
+    "url": "https://www.w3.org/TR/dx-prof-1.0/"
+  },
+  {
+    "nightly": {
       "sourcePath": "connegp/index.html"
     },
     "url": "https://www.w3.org/TR/dx-prof-conneg/"

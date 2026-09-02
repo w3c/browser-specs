@@ -21897,6 +21897,45 @@
     }
   },
   {
+    "url": "https://www.w3.org/TR/dx-prof-1.0/",
+    "seriesComposition": "full",
+    "shortname": "dx-prof-1.0",
+    "series": {
+      "shortname": "dx-prof",
+      "currentSpecification": "dx-prof-1.0",
+      "title": "The Profiles Vocabulary",
+      "shortTitle": "The Profiles Vocabulary",
+      "releaseUrl": "https://www.w3.org/TR/dx-prof/",
+      "nightlyUrl": "https://w3c.github.io/dx-prof/prof/"
+    },
+    "seriesVersion": "1.0",
+    "nightly": {
+      "url": "https://w3c.github.io/dx-prof/prof/",
+      "status": "Editor's Draft",
+      "sourcePath": "prof/index.html",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/dx-prof",
+      "filename": "index.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Dataset Exchange Working Group",
+        "url": "https://www.w3.org/2017/dxwg/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/dx-prof-1.0/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "title": "The Profiles Vocabulary",
+    "source": "w3c",
+    "shortTitle": "The Profiles Vocabulary",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/dx-prof-conneg/",
     "seriesComposition": "full",
     "shortname": "dx-prof-conneg",
@@ -29703,7 +29742,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-data-integrity-1.1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

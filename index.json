@@ -10139,6 +10139,40 @@
     }
   },
   {
+    "url": "https://wicg.github.io/install-element/",
+    "seriesComposition": "full",
+    "shortname": "install-element",
+    "series": {
+      "shortname": "install-element",
+      "currentSpecification": "install-element",
+      "title": "Web Install",
+      "shortTitle": "Web Install",
+      "nightlyUrl": "https://wicg.github.io/install-element/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/install-element/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/install-element",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web Install",
+    "source": "spec",
+    "shortTitle": "Web Install",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/intervention-reporting/",
     "seriesComposition": "full",
     "shortname": "intervention-reporting",
@@ -21926,12 +21960,12 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/dx-prof-1.0/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
-    "title": "The Profiles Vocabulary",
+    "title": "The Profiles Vocabulary 1.0",
     "source": "w3c",
-    "shortTitle": "The Profiles Vocabulary",
+    "shortTitle": "The Profiles Vocabulary 1.0",
     "categories": [],
     "standing": "good"
   },

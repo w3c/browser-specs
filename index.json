@@ -12231,6 +12231,40 @@
     "standing": "good"
   },
   {
+    "url": "https://wicg.github.io/webrtc-diagnostic-logging/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-diagnostic-logging",
+    "series": {
+      "shortname": "webrtc-diagnostic-logging",
+      "currentSpecification": "webrtc-diagnostic-logging",
+      "title": "WebRTC Diagnostic Logging API",
+      "shortTitle": "WebRTC Diagnostic Logging API",
+      "nightlyUrl": "https://wicg.github.io/webrtc-diagnostic-logging/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/webrtc-diagnostic-logging/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/webrtc-diagnostic-logging",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebRTC Diagnostic Logging API",
+    "source": "spec",
+    "shortTitle": "WebRTC Diagnostic Logging API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/webusb/",
     "seriesComposition": "full",
     "shortname": "webusb",

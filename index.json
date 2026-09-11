@@ -13405,6 +13405,40 @@
     "standing": "good"
   },
   {
+    "url": "https://www.rfc-editor.org/info/rfc7903/",
+    "seriesComposition": "full",
+    "shortname": "rfc7903",
+    "series": {
+      "shortname": "rfc7903",
+      "currentSpecification": "rfc7903",
+      "title": "Windows Image Media Types",
+      "shortTitle": "Windows Image Media Types",
+      "nightlyUrl": "https://www.rfc-editor.org/info/rfc7903/"
+    },
+    "organization": "IETF",
+    "groups": [
+      {
+        "name": "Individual Submissions",
+        "url": "https://datatracker.ietf.org/wg/none/"
+      }
+    ],
+    "nightly": {
+      "url": "https://www.rfc-editor.org/info/rfc7903/",
+      "status": "Informational",
+      "alternateUrls": [
+        "https://datatracker.ietf.org/doc/html/rfc7903",
+        "https://tools.ietf.org/html/rfc7903"
+      ]
+    },
+    "title": "Windows Image Media Types",
+    "source": "ietf",
+    "shortTitle": "Windows Image Media Types",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://www.rfc-editor.org/info/rfc7932/",
     "seriesComposition": "full",
     "shortname": "rfc7932",

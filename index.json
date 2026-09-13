@@ -29141,7 +29141,7 @@
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/timing-entrytypes-registry",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "Timing Entry Names Registry",

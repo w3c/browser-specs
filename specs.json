@@ -645,7 +645,7 @@
   "https://w3c-cg.github.io/web-nfc/",
   "https://w3c-fedid.github.io/login-status/",
   "https://w3c.github.io/at-driver/",
-  "https://w3c.github.io/css-aam/",
+  "https://w3c.github.io/aria/css-aam/",
   {
     "url": "https://w3c.github.io/data-shapes/shacl12-cs/",
     "formerNames": [
@@ -662,7 +662,7 @@
   },
   "https://w3c.github.io/element-timing/",
   "https://w3c.github.io/gamepad/extensions.html",
-  "https://w3c.github.io/mathml-aam/",
+  "https://w3c.github.io/aria/mathml-aam/",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
   "https://w3c.github.io/mediacapture-extensions/",
@@ -678,7 +678,7 @@
     "categories": [
       "-browser"
     ],
-    "url": "https://w3c.github.io/pdf-aam/"
+    "url": "https://w3c.github.io/aria/pdf-aam/"
   },
   "https://w3c.github.io/permissions-registry/",
   {
@@ -806,9 +806,9 @@
     "url": "https://webaudio.github.io/web-speech-api/",
     "shortname": "speech-api"
   },
-  "https://webbluetoothcg.github.io/web-bluetooth/",
+  "https://bluetooth.spec.whatwg.org/",
   {
-    "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
+    "url": "https://bluetooth.spec.whatwg.org/scanning.html",
     "shortname": "web-bluetooth-scanning"
   },
   "https://webidl.spec.whatwg.org/",
@@ -972,7 +972,7 @@
   "https://wicg.github.io/savedata/",
   "https://wicg.github.io/scheduling-apis/",
   "https://wicg.github.io/scroll-to-text-fragment/",
-  "https://wicg.github.io/serial/",
+  "https://serial.spec.whatwg.org/",
   "https://wicg.github.io/shape-detection-api/",
   {
     "url": "https://wicg.github.io/shape-detection-api/text.html",
@@ -1024,10 +1024,10 @@
   },
   "https://wicg.github.io/webcrypto-modern-algos/",
   "https://wicg.github.io/webcrypto-secure-curves/",
-  "https://wicg.github.io/webhid/",
+  "https://hid.spec.whatwg.org/",
   "https://wicg.github.io/webpackage/loading.html",
   "https://wicg.github.io/webrtc-diagnostic-logging/",
-  "https://wicg.github.io/webusb/",
+  "https://usb.spec.whatwg.org",
   "https://wicg.github.io/window-controls-overlay/",
   {
     "url": "https://www.iso.org/standard/54989.html",

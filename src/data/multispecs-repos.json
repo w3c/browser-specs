@@ -1,4 +1,17 @@
 {
+  "w3c/aria": {
+    "url": "https://w3c.github.io/aria/$path/",
+    "shortname": {
+      "pattern": "w3c\\.github\\.io/aria/([^/]+)/"
+    },
+    "exclude": [
+      "admin",
+      "common",
+      "documentation",
+      "img",
+      "validator-tests"
+    ]
+  },
   "w3c/css-houdini-drafts": {
     "url": "https://drafts.css-houdini.org/$path/",
     "shortname": {

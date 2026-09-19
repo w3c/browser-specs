@@ -57,6 +57,19 @@
     }
   },
   {
+    "url": "https://bluetooth.spec.whatwg.org/",
+    "shortname": "bluetooth-scanning",
+    "formerNames": [
+      "web-bluetooth"
+    ]
+  },
+  {
+    "url": "https://bluetooth.spec.whatwg.org/scanning.html",
+    "formerNames": [
+      "web-bluetooth-scanning"
+    ]
+  },
+  {
     "url": "https://compat.spec.whatwg.org/",
     "nightly": {
       "sourcePath": "compatibility.bs"
@@ -181,6 +194,12 @@
   },
   "https://fs.spec.whatwg.org/",
   "https://fullscreen.spec.whatwg.org/",
+  {
+    "url": "https://hid.spec.whatwg.org/",
+    "formerNames": [
+      "webhid"
+    ]
+  },
   {
     "url": "https://html.spec.whatwg.org/multipage/",
     "multipage": "nightly",
@@ -343,6 +362,7 @@
   },
   "https://screen-share.github.io/captured-mouse-events/",
   "https://screen-share.github.io/element-capture/",
+  "https://serial.spec.whatwg.org/",
   "https://storage.spec.whatwg.org/",
   "https://streams.spec.whatwg.org/",
   "https://svgwg.org/specs/animations/",
@@ -642,6 +662,12 @@
   "https://testutils.spec.whatwg.org/",
   "https://url.spec.whatwg.org/",
   "https://urlpattern.spec.whatwg.org/",
+  {
+    "url": "https://usb.spec.whatwg.org/",
+    "formerNames": [
+      "webusb"
+    ]
+  },
   "https://w3c-cg.github.io/web-nfc/",
   "https://w3c-fedid.github.io/login-status/",
   "https://w3c.github.io/at-driver/",
@@ -806,11 +832,6 @@
     "url": "https://webaudio.github.io/web-speech-api/",
     "shortname": "speech-api"
   },
-  "https://webbluetoothcg.github.io/web-bluetooth/",
-  {
-    "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
-    "shortname": "web-bluetooth-scanning"
-  },
   "https://webidl.spec.whatwg.org/",
   "https://webmachinelearning.github.io/prompt-api/",
   "https://webmachinelearning.github.io/proofreader-api/",
@@ -972,7 +993,6 @@
   "https://wicg.github.io/savedata/",
   "https://wicg.github.io/scheduling-apis/",
   "https://wicg.github.io/scroll-to-text-fragment/",
-  "https://wicg.github.io/serial/",
   "https://wicg.github.io/shape-detection-api/",
   {
     "url": "https://wicg.github.io/shape-detection-api/text.html",
@@ -1024,10 +1044,8 @@
   },
   "https://wicg.github.io/webcrypto-modern-algos/",
   "https://wicg.github.io/webcrypto-secure-curves/",
-  "https://wicg.github.io/webhid/",
   "https://wicg.github.io/webpackage/loading.html",
   "https://wicg.github.io/webrtc-diagnostic-logging/",
-  "https://wicg.github.io/webusb/",
   "https://wicg.github.io/window-controls-overlay/",
   {
     "url": "https://www.iso.org/standard/54989.html",

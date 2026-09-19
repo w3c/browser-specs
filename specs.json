@@ -644,8 +644,15 @@
   "https://urlpattern.spec.whatwg.org/",
   "https://w3c-cg.github.io/web-nfc/",
   "https://w3c-fedid.github.io/login-status/",
+  "https://w3c.github.io/aria/css-aam/",
+  "https://w3c.github.io/aria/mathml-aam/",
+  {
+    "categories": [
+      "-browser"
+    ],
+    "url": "https://w3c.github.io/aria/pdf-aam/"
+  },
   "https://w3c.github.io/at-driver/",
-  "https://w3c.github.io/css-aam/",
   {
     "url": "https://w3c.github.io/data-shapes/shacl12-cs/",
     "formerNames": [
@@ -662,7 +669,6 @@
   },
   "https://w3c.github.io/element-timing/",
   "https://w3c.github.io/gamepad/extensions.html",
-  "https://w3c.github.io/mathml-aam/",
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
   "https://w3c.github.io/mediacapture-extensions/",
@@ -674,12 +680,6 @@
     }
   },
   "https://w3c.github.io/mediacapture-surface-control/",
-  {
-    "categories": [
-      "-browser"
-    ],
-    "url": "https://w3c.github.io/pdf-aam/"
-  },
   "https://w3c.github.io/permissions-registry/",
   {
     "url": "https://w3c.github.io/reporting/network-reporting.html",

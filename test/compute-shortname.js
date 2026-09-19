@@ -53,6 +53,10 @@ describe("compute-shortname module", () => {
       assertName("https://drafts.css-houdini.org/magic/", "magic");
     });
 
+    it("handles ARIA URLs", () => {
+      assertName("https://w3c.github.io/aria/css-aam/", "css-aam");
+    });
+
     it("handles IETF RFCs", () => {
       assertName("https://www.rfc-editor.org/info/rfc2397/", "rfc2397");
     });

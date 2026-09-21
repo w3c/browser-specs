@@ -248,6 +248,80 @@
     "standing": "good"
   },
   {
+    "url": "https://bluetooth.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "bluetooth-scanning",
+    "series": {
+      "shortname": "bluetooth-scanning",
+      "currentSpecification": "bluetooth-scanning",
+      "title": "WebBluetooth",
+      "shortTitle": "WebBluetooth",
+      "nightlyUrl": "https://bluetooth.spec.whatwg.org/"
+    },
+    "formerNames": [
+      "web-bluetooth"
+    ],
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Peripheral APIs Workstream",
+        "url": "https://bluetooth.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://bluetooth.spec.whatwg.org/",
+      "status": "Living Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/whatwg/bluetooth",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebBluetooth",
+    "source": "whatwg",
+    "shortTitle": "WebBluetooth",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://bluetooth.spec.whatwg.org/scanning.html",
+    "seriesComposition": "full",
+    "shortname": "bluetooth",
+    "series": {
+      "shortname": "bluetooth",
+      "currentSpecification": "bluetooth",
+      "title": "Web Bluetooth Scanning",
+      "shortTitle": "Web Bluetooth Scanning",
+      "nightlyUrl": "https://bluetooth.spec.whatwg.org/scanning.html"
+    },
+    "formerNames": [
+      "web-bluetooth-scanning"
+    ],
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Peripheral APIs Workstream",
+        "url": "https://bluetooth.spec.whatwg.org/scanning.html"
+      }
+    ],
+    "nightly": {
+      "url": "https://bluetooth.spec.whatwg.org/scanning.html",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/whatwg/bluetooth",
+      "sourcePath": "scanning.bs",
+      "filename": "scanning.html"
+    },
+    "title": "Web Bluetooth Scanning",
+    "source": "spec",
+    "shortTitle": "Web Bluetooth Scanning",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://compat.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "compat",
@@ -1770,6 +1844,43 @@
         "fullscreen"
       ]
     }
+  },
+  {
+    "url": "https://hid.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "hid",
+    "series": {
+      "shortname": "hid",
+      "currentSpecification": "hid",
+      "title": "WebHID",
+      "shortTitle": "WebHID",
+      "nightlyUrl": "https://hid.spec.whatwg.org/"
+    },
+    "formerNames": [
+      "webhid"
+    ],
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Peripheral APIs Workstream",
+        "url": "https://hid.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://hid.spec.whatwg.org/",
+      "status": "Living Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/whatwg/hid",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "WebHID",
+    "source": "whatwg",
+    "shortTitle": "WebHID",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
   },
   {
     "url": "https://html.spec.whatwg.org/multipage/",
@@ -4527,6 +4638,40 @@
     "standing": "good"
   },
   {
+    "url": "https://serial.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "serial",
+    "series": {
+      "shortname": "serial",
+      "currentSpecification": "serial",
+      "title": "WebSerial",
+      "shortTitle": "WebSerial",
+      "nightlyUrl": "https://serial.spec.whatwg.org/"
+    },
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Peripheral APIs Workstream",
+        "url": "https://serial.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://serial.spec.whatwg.org/",
+      "status": "Living Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/whatwg/serial",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "WebSerial",
+    "source": "whatwg",
+    "shortTitle": "WebSerial",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://storage.spec.whatwg.org/",
     "seriesComposition": "full",
     "shortname": "storage",
@@ -6806,6 +6951,43 @@
     }
   },
   {
+    "url": "https://usb.spec.whatwg.org/",
+    "seriesComposition": "full",
+    "shortname": "usb",
+    "series": {
+      "shortname": "usb",
+      "currentSpecification": "usb",
+      "title": "WebUSB",
+      "shortTitle": "WebUSB",
+      "nightlyUrl": "https://usb.spec.whatwg.org/"
+    },
+    "formerNames": [
+      "webusb"
+    ],
+    "organization": "WHATWG",
+    "groups": [
+      {
+        "name": "Peripheral APIs Workstream",
+        "url": "https://usb.spec.whatwg.org/"
+      }
+    ],
+    "nightly": {
+      "url": "https://usb.spec.whatwg.org/",
+      "status": "Living Standard",
+      "alternateUrls": [],
+      "repository": "https://github.com/whatwg/usb",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "WebUSB",
+    "source": "whatwg",
+    "shortTitle": "WebUSB",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c-cg.github.io/web-nfc/",
     "seriesComposition": "full",
     "shortname": "web-nfc",
@@ -6880,6 +7062,118 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/aria/css-aam/",
+    "seriesComposition": "full",
+    "shortname": "css-aam",
+    "series": {
+      "shortname": "css-aam",
+      "currentSpecification": "css-aam",
+      "title": "CSS Accessibility API Mappings",
+      "shortTitle": "CSS Accessibility API Mappings",
+      "nightlyUrl": "https://w3c.github.io/aria/css-aam/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+      },
+      {
+        "name": "SVG Accessibility Task Force",
+        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/aria/css-aam/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "css-aam/index.html",
+      "filename": "index.html"
+    },
+    "title": "CSS Accessibility API Mappings 1.0",
+    "source": "spec",
+    "shortTitle": "CSS Accessibility API Mappings 1.0",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/aria/mathml-aam/",
+    "seriesComposition": "full",
+    "shortname": "mathml-aam",
+    "series": {
+      "shortname": "mathml-aam",
+      "currentSpecification": "mathml-aam",
+      "title": "MathML Accessibility API Mappings",
+      "shortTitle": "MathML Accessibility API Mappings",
+      "nightlyUrl": "https://w3c.github.io/aria/mathml-aam/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+      },
+      {
+        "name": "SVG Accessibility Task Force",
+        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/aria/mathml-aam/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "mathml-aam/index.html",
+      "filename": "index.html"
+    },
+    "title": "MathML Accessibility API Mappings 1.0",
+    "source": "spec",
+    "shortTitle": "MathML Accessibility API Mappings 1.0",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/aria/pdf-aam/",
+    "seriesComposition": "full",
+    "shortname": "pdf-aam",
+    "series": {
+      "shortname": "pdf-aam",
+      "currentSpecification": "pdf-aam",
+      "title": "PDF Accessibility API Mappings",
+      "shortTitle": "PDF Accessibility API Mappings",
+      "nightlyUrl": "https://w3c.github.io/aria/pdf-aam/"
+    },
+    "categories": [],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Accessible Rich Internet Applications Working Group",
+        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+      },
+      {
+        "name": "SVG Accessibility Task Force",
+        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/aria/pdf-aam/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/aria",
+      "sourcePath": "pdf-aam/index.html",
+      "filename": "index.html"
+    },
+    "title": "PDF Accessibility API Mappings 1.0",
+    "source": "spec",
+    "shortTitle": "PDF Accessibility API Mappings 1.0",
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/at-driver/",
     "seriesComposition": "full",
     "shortname": "at-driver",
@@ -6908,44 +7202,6 @@
     "title": "AT Driver",
     "source": "spec",
     "shortTitle": "AT Driver",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/css-aam/",
-    "seriesComposition": "full",
-    "shortname": "css-aam",
-    "series": {
-      "shortname": "css-aam",
-      "currentSpecification": "css-aam",
-      "title": "CSS Accessibility API Mappings",
-      "shortTitle": "CSS Accessibility API Mappings",
-      "nightlyUrl": "https://w3c.github.io/css-aam/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Accessible Rich Internet Applications Working Group",
-        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
-      },
-      {
-        "name": "SVG Accessibility Task Force",
-        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/css-aam/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/aria",
-      "sourcePath": "css-aam/index.html",
-      "filename": "index.html"
-    },
-    "title": "CSS Accessibility API Mappings 1.0",
-    "source": "spec",
-    "shortTitle": "CSS Accessibility API Mappings 1.0",
     "categories": [
       "browser"
     ],
@@ -7084,44 +7340,6 @@
     "title": "Gamepad Extensions",
     "source": "spec",
     "shortTitle": "Gamepad Extensions",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/mathml-aam/",
-    "seriesComposition": "full",
-    "shortname": "mathml-aam",
-    "series": {
-      "shortname": "mathml-aam",
-      "currentSpecification": "mathml-aam",
-      "title": "MathML Accessibility API Mappings",
-      "shortTitle": "MathML Accessibility API Mappings",
-      "nightlyUrl": "https://w3c.github.io/mathml-aam/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Accessible Rich Internet Applications Working Group",
-        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
-      },
-      {
-        "name": "SVG Accessibility Task Force",
-        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/mathml-aam/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/aria",
-      "sourcePath": "mathml-aam/index.html",
-      "filename": "index.html"
-    },
-    "title": "MathML Accessibility API Mappings 1.0",
-    "source": "spec",
-    "shortTitle": "MathML Accessibility API Mappings 1.0",
     "categories": [
       "browser"
     ],
@@ -7307,42 +7525,6 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
-  },
-  {
-    "url": "https://w3c.github.io/pdf-aam/",
-    "seriesComposition": "full",
-    "shortname": "pdf-aam",
-    "series": {
-      "shortname": "pdf-aam",
-      "currentSpecification": "pdf-aam",
-      "title": "PDF Accessibility API Mappings",
-      "shortTitle": "PDF Accessibility API Mappings",
-      "nightlyUrl": "https://w3c.github.io/pdf-aam/"
-    },
-    "categories": [],
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Accessible Rich Internet Applications Working Group",
-        "url": "https://www.w3.org/WAI/about/groups/ariawg/"
-      },
-      {
-        "name": "SVG Accessibility Task Force",
-        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/pdf-aam/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/aria",
-      "sourcePath": "pdf-aam/index.html",
-      "filename": "index.html"
-    },
-    "title": "PDF Accessibility API Mappings 1.0",
-    "source": "spec",
-    "shortTitle": "PDF Accessibility API Mappings 1.0",
     "standing": "good"
   },
   {
@@ -8386,80 +8568,6 @@
     "title": "Web Speech API",
     "source": "spec",
     "shortTitle": "Web Speech API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://webbluetoothcg.github.io/web-bluetooth/",
-    "seriesComposition": "full",
-    "shortname": "web-bluetooth",
-    "series": {
-      "shortname": "web-bluetooth",
-      "currentSpecification": "web-bluetooth",
-      "title": "Web Bluetooth",
-      "shortTitle": "Web Bluetooth",
-      "nightlyUrl": "https://webbluetoothcg.github.io/web-bluetooth/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Bluetooth Community Group",
-        "url": "https://www.w3.org/community/web-bluetooth/"
-      }
-    ],
-    "nightly": {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WebBluetoothCG/web-bluetooth",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Web Bluetooth",
-    "source": "spec",
-    "shortTitle": "Web Bluetooth",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "bluetooth"
-      ]
-    }
-  },
-  {
-    "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
-    "seriesComposition": "full",
-    "shortname": "web-bluetooth-scanning",
-    "series": {
-      "shortname": "web-bluetooth-scanning",
-      "currentSpecification": "web-bluetooth-scanning",
-      "title": "Web Bluetooth Scanning",
-      "shortTitle": "Web Bluetooth Scanning",
-      "nightlyUrl": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Bluetooth Community Group",
-        "url": "https://www.w3.org/community/web-bluetooth/"
-      }
-    ],
-    "nightly": {
-      "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WebBluetoothCG/web-bluetooth",
-      "sourcePath": "scanning.bs",
-      "filename": "scanning.html"
-    },
-    "title": "Web Bluetooth Scanning",
-    "source": "spec",
-    "shortTitle": "Web Bluetooth Scanning",
     "categories": [
       "browser"
     ],
@@ -11392,46 +11500,6 @@
     }
   },
   {
-    "url": "https://wicg.github.io/serial/",
-    "seriesComposition": "full",
-    "shortname": "serial",
-    "series": {
-      "shortname": "serial",
-      "currentSpecification": "serial",
-      "title": "Web Serial API",
-      "shortTitle": "Web Serial API",
-      "nightlyUrl": "https://wicg.github.io/serial/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/serial/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/serial",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Web Serial API",
-    "source": "spec",
-    "shortTitle": "Web Serial API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "serial"
-      ]
-    }
-  },
-  {
     "url": "https://wicg.github.io/shape-detection-api/",
     "seriesComposition": "full",
     "shortname": "shape-detection-api",
@@ -12157,46 +12225,6 @@
     "standing": "good"
   },
   {
-    "url": "https://wicg.github.io/webhid/",
-    "seriesComposition": "full",
-    "shortname": "webhid",
-    "series": {
-      "shortname": "webhid",
-      "currentSpecification": "webhid",
-      "title": "WebHID API",
-      "shortTitle": "WebHID API",
-      "nightlyUrl": "https://wicg.github.io/webhid/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/webhid/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/webhid",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "WebHID API",
-    "source": "spec",
-    "shortTitle": "WebHID API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webhid"
-      ]
-    }
-  },
-  {
     "url": "https://wicg.github.io/webpackage/loading.html",
     "seriesComposition": "full",
     "shortname": "webpackage",
@@ -12263,46 +12291,6 @@
       "browser"
     ],
     "standing": "good"
-  },
-  {
-    "url": "https://wicg.github.io/webusb/",
-    "seriesComposition": "full",
-    "shortname": "webusb",
-    "series": {
-      "shortname": "webusb",
-      "currentSpecification": "webusb",
-      "title": "WebUSB API",
-      "shortTitle": "WebUSB API",
-      "nightlyUrl": "https://wicg.github.io/webusb/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/webusb/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/webusb",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "WebUSB API",
-    "source": "spec",
-    "shortTitle": "WebUSB API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "webusb"
-      ]
-    }
   },
   {
     "url": "https://wicg.github.io/window-controls-overlay/",
@@ -28147,9 +28135,9 @@
       "sourcePath": "shacl12-sparql/index.html",
       "filename": "index.html"
     },
-    "title": "SHACL 1.2 SPARQL Extensions",
+    "title": "SHACL 1.2 SPARQL-Related Features",
     "source": "w3c",
-    "shortTitle": "SHACL 1.2 SPARQL Extensions",
+    "shortTitle": "SHACL 1.2 SPARQL-Related Features",
     "categories": [],
     "standing": "good"
   },
@@ -30037,7 +30025,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/vc-di-ecdsa-1.1/",
-      "status": "First Public Working Draft",
+      "status": "Working Draft",
       "filename": "Overview.html"
     },
     "nightly": {

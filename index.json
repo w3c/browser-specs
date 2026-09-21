@@ -7562,6 +7562,43 @@
     "standing": "good"
   },
   {
+    "url": "https://w3c.github.io/png/",
+    "seriesComposition": "full",
+    "shortname": "png-4",
+    "series": {
+      "shortname": "png",
+      "currentSpecification": "png-3",
+      "title": "Portable Network Graphics (PNG)",
+      "shortTitle": "PNG",
+      "releaseUrl": "https://www.w3.org/TR/png/",
+      "nightlyUrl": "https://www.w3.org/TR/png/"
+    },
+    "seriesVersion": "4",
+    "seriesPrevious": "png-3",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Portable Network Graphics (PNG) Working Group",
+        "url": "https://www.w3.org/groups/wg/png/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/png/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/png",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Portable Network Graphics (PNG) Specification (Fourth Edition)",
+    "source": "spec",
+    "shortTitle": "PNG",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://w3c.github.io/reporting/network-reporting.html",
     "seriesComposition": "full",
     "shortname": "network-reporting",
@@ -14391,11 +14428,11 @@
       "title": "Accessible Name and Description Computation",
       "shortTitle": "Accessible Name and Description Computation",
       "releaseUrl": "https://www.w3.org/TR/accname/",
-      "nightlyUrl": "https://w3c.github.io/accname/"
+      "nightlyUrl": "https://w3c.github.io/aria/accname/"
     },
     "seriesVersion": "1.2",
     "nightly": {
-      "url": "https://w3c.github.io/accname/",
+      "url": "https://w3c.github.io/aria/accname/",
       "status": "Editor's Draft",
       "repository": "https://github.com/w3c/aria",
       "alternateUrls": [],
@@ -14420,13 +14457,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "accname"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/act-rules-format-1.1/",
@@ -15398,7 +15429,7 @@
       "title": "Core Accessibility API Mappings",
       "shortTitle": "Core Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/core-aam/",
-      "nightlyUrl": "https://w3c.github.io/core-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/core-aam/"
     },
     "seriesVersion": "1.2",
     "organization": "W3C",
@@ -15414,7 +15445,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/core-aam/",
+      "url": "https://w3c.github.io/aria/core-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -15427,13 +15458,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "core-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/credential-management-1/",
@@ -21906,7 +21931,7 @@
       "title": "Digital Publishing Accessibility API Mappings",
       "shortTitle": "Digital Publishing Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/dpub-aam/",
-      "nightlyUrl": "https://w3c.github.io/dpub-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/dpub-aam/"
     },
     "seriesVersion": "1.1",
     "categories": [],
@@ -21923,7 +21948,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/dpub-aam/",
+      "url": "https://w3c.github.io/aria/dpub-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -21933,13 +21958,7 @@
     "title": "Digital Publishing Accessibility API Mappings 1.1",
     "source": "w3c",
     "shortTitle": "Digital Publishing Accessibility API Mappings 1.1",
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "dpub-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/dpub-aria-1.1/",
@@ -21951,7 +21970,7 @@
       "title": "Digital Publishing WAI-ARIA",
       "shortTitle": "Digital Publishing WAI-ARIA",
       "releaseUrl": "https://www.w3.org/TR/dpub-aria/",
-      "nightlyUrl": "https://w3c.github.io/dpub-aria/"
+      "nightlyUrl": "https://w3c.github.io/aria/dpub-aria/"
     },
     "seriesVersion": "1.1",
     "categories": [],
@@ -21968,7 +21987,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/dpub-aria/",
+      "url": "https://w3c.github.io/aria/dpub-aria/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -21978,13 +21997,7 @@
     "title": "Digital Publishing WAI-ARIA Module 1.1",
     "source": "w3c",
     "shortTitle": "Digital Publishing WAI-ARIA 1.1",
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "dpub-aria"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/dx-prof-1.0/",
@@ -23316,7 +23329,7 @@
       "title": "Graphics Accessibility API Mappings",
       "shortTitle": "Graphics Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/graphics-aam/",
-      "nightlyUrl": "https://w3c.github.io/graphics-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/graphics-aam/"
     },
     "seriesVersion": "1.0",
     "organization": "W3C",
@@ -23332,7 +23345,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/graphics-aam/",
+      "url": "https://w3c.github.io/aria/graphics-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -23345,13 +23358,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "graphics-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/graphics-aria-1.0/",
@@ -23363,7 +23370,7 @@
       "title": "WAI-ARIA Graphics",
       "shortTitle": "WAI-ARIA Graphics",
       "releaseUrl": "https://www.w3.org/TR/graphics-aria/",
-      "nightlyUrl": "https://w3c.github.io/graphics-aria/"
+      "nightlyUrl": "https://w3c.github.io/aria/graphics-aria/"
     },
     "seriesVersion": "1.0",
     "organization": "W3C",
@@ -23379,7 +23386,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/graphics-aria/",
+      "url": "https://w3c.github.io/aria/graphics-aria/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -23392,13 +23399,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "graphics-aria"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/gyroscope/",
@@ -23503,7 +23504,7 @@
       "title": "HTML Accessibility API Mappings",
       "shortTitle": "HTML Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/html-aam/",
-      "nightlyUrl": "https://w3c.github.io/html-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/html-aam/"
     },
     "seriesVersion": "1.0",
     "organization": "W3C",
@@ -23519,7 +23520,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/html-aam/",
+      "url": "https://w3c.github.io/aria/html-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -23532,13 +23533,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "html-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/html-aria/",
@@ -26310,12 +26305,19 @@
       "title": "Portable Network Graphics (PNG)",
       "shortTitle": "PNG",
       "releaseUrl": "https://www.w3.org/TR/png/",
-      "nightlyUrl": "https://w3c.github.io/png/"
+      "nightlyUrl": "https://www.w3.org/TR/png/"
     },
     "seriesVersion": "3",
+    "nightly": {
+      "url": "https://www.w3.org/TR/png-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "index.html"
+    },
     "formerNames": [
       "PNG-spec"
     ],
+    "seriesNext": "png-4",
     "organization": "W3C",
     "groups": [
       {
@@ -26328,21 +26330,19 @@
       "status": "Recommendation",
       "filename": "Overview.html"
     },
-    "nightly": {
-      "url": "https://w3c.github.io/png/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/png",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
     "title": "Portable Network Graphics (PNG) Specification (Third Edition)",
     "source": "w3c",
     "shortTitle": "PNG",
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "png"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/pointerevents3/",
@@ -28673,7 +28673,7 @@
       "title": "SVG Accessibility API Mappings",
       "shortTitle": "SVG Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/svg-aam/",
-      "nightlyUrl": "https://w3c.github.io/svg-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/svg-aam/"
     },
     "seriesVersion": "1.0",
     "organization": "W3C",
@@ -28689,7 +28689,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/svg-aam/",
+      "url": "https://w3c.github.io/aria/svg-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -28702,13 +28702,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "svg-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/svg-integration/",

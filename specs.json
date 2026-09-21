@@ -708,6 +708,10 @@
   "https://w3c.github.io/mediacapture-surface-control/",
   "https://w3c.github.io/permissions-registry/",
   {
+    "url": "https://w3c.github.io/png/",
+    "shortname": "png-4"
+  },
+  {
     "url": "https://w3c.github.io/reporting/network-reporting.html",
     "shortname": "network-reporting",
     "nightly": {
@@ -1856,6 +1860,9 @@
   "https://www.w3.org/TR/picture-in-picture/",
   {
     "url": "https://www.w3.org/TR/png-3/",
+    "nightly": {
+      "url": "https://www.w3.org/TR/png-3/"
+    },
     "formerNames": [
       "PNG-spec"
     ]

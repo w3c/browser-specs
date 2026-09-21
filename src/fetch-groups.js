@@ -85,8 +85,11 @@ export default async function (specs, options) {
     }
 
     if (info && info.owner === "whatwg") {
+      // Note: the WHATWG database does not appear to list side specs that are
+      // under a main one, such as bluetooth-scanning under bluetooth. The use
+      // of `startsWith` below makes the code look at the main one.
       const workstreams = await fetchJSON("https://raw.githubusercontent.com/whatwg/sg/main/db.json", options);
-      const workstream = workstreams.workstreams.find(ws => ws.standards.find(s => s.href === spec.url));
+      const workstream = workstreams.workstreams.find(ws => ws.standards.find(s => spec.url.startsWith(s.href)));
       if (!workstream) {
         throw new Error(`No WHATWG workstream found for ${spec.url}`);
       }

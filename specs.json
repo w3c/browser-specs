@@ -58,13 +58,13 @@
   },
   {
     "url": "https://bluetooth.spec.whatwg.org/",
-    "shortname": "bluetooth-scanning",
     "formerNames": [
       "web-bluetooth"
     ]
   },
   {
     "url": "https://bluetooth.spec.whatwg.org/scanning.html",
+    "shortname": "bluetooth-scanning",
     "formerNames": [
       "web-bluetooth-scanning"
     ]

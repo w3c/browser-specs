@@ -10,6 +10,14 @@
  */
 
 export default async function (url) {
+  // Only allow HTTP(S) URLs to be fetched, to avoid SSRF issues where a
+  // malicious or unexpected scheme (e.g. "file:", "gopher:") could be used
+  // to reach internal resources.
+  const { protocol } = new URL(url);
+  if (protocol !== "http:" && protocol !== "https:") {
+    throw new Error(`Unsupported URL protocol "${protocol}" for "${url}"`);
+  }
+
   // Extract filename directly from the URL when possible
   const match = url.match(/\/([^/]+\.(html|pdf|txt))$/);
   if (match) {

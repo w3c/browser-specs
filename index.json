@@ -250,10 +250,10 @@
   {
     "url": "https://bluetooth.spec.whatwg.org/",
     "seriesComposition": "full",
-    "shortname": "bluetooth-scanning",
+    "shortname": "bluetooth",
     "series": {
-      "shortname": "bluetooth-scanning",
-      "currentSpecification": "bluetooth-scanning",
+      "shortname": "bluetooth",
+      "currentSpecification": "bluetooth",
       "title": "WebBluetooth",
       "shortTitle": "WebBluetooth",
       "nightlyUrl": "https://bluetooth.spec.whatwg.org/"
@@ -287,10 +287,10 @@
   {
     "url": "https://bluetooth.spec.whatwg.org/scanning.html",
     "seriesComposition": "full",
-    "shortname": "bluetooth",
+    "shortname": "bluetooth-scanning",
     "series": {
-      "shortname": "bluetooth",
-      "currentSpecification": "bluetooth",
+      "shortname": "bluetooth-scanning",
+      "currentSpecification": "bluetooth-scanning",
       "title": "Web Bluetooth Scanning",
       "shortTitle": "Web Bluetooth Scanning",
       "nightlyUrl": "https://bluetooth.spec.whatwg.org/scanning.html"

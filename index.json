@@ -14428,11 +14428,11 @@
       "title": "Accessible Name and Description Computation",
       "shortTitle": "Accessible Name and Description Computation",
       "releaseUrl": "https://www.w3.org/TR/accname/",
-      "nightlyUrl": "https://w3c.github.io/accname/"
+      "nightlyUrl": "https://w3c.github.io/aria/accname/"
     },
     "seriesVersion": "1.2",
     "nightly": {
-      "url": "https://w3c.github.io/accname/",
+      "url": "https://w3c.github.io/aria/accname/",
       "status": "Editor's Draft",
       "repository": "https://github.com/w3c/aria",
       "alternateUrls": [],
@@ -14457,13 +14457,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "accname"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/act-rules-format-1.1/",
@@ -15435,7 +15429,7 @@
       "title": "Core Accessibility API Mappings",
       "shortTitle": "Core Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/core-aam/",
-      "nightlyUrl": "https://w3c.github.io/core-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/core-aam/"
     },
     "seriesVersion": "1.2",
     "organization": "W3C",
@@ -15451,7 +15445,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/core-aam/",
+      "url": "https://w3c.github.io/aria/core-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -15464,13 +15458,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "core-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/credential-management-1/",
@@ -23516,7 +23504,7 @@
       "title": "HTML Accessibility API Mappings",
       "shortTitle": "HTML Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/html-aam/",
-      "nightlyUrl": "https://w3c.github.io/html-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/html-aam/"
     },
     "seriesVersion": "1.0",
     "organization": "W3C",
@@ -23532,7 +23520,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/html-aam/",
+      "url": "https://w3c.github.io/aria/html-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -23545,13 +23533,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "html-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/html-aria/",

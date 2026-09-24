@@ -26956,7 +26956,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/rdf12-semantics/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "nightly": {
@@ -28673,7 +28673,7 @@
       "title": "SVG Accessibility API Mappings",
       "shortTitle": "SVG Accessibility API Mappings",
       "releaseUrl": "https://www.w3.org/TR/svg-aam/",
-      "nightlyUrl": "https://w3c.github.io/svg-aam/"
+      "nightlyUrl": "https://w3c.github.io/aria/svg-aam/"
     },
     "seriesVersion": "1.0",
     "organization": "W3C",
@@ -28689,7 +28689,7 @@
       "filename": "Overview.html"
     },
     "nightly": {
-      "url": "https://w3c.github.io/svg-aam/",
+      "url": "https://w3c.github.io/aria/svg-aam/",
       "status": "Editor's Draft",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/aria",
@@ -28702,13 +28702,7 @@
     "categories": [
       "browser"
     ],
-    "standing": "good",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "svg-aam"
-      ]
-    }
+    "standing": "good"
   },
   {
     "url": "https://www.w3.org/TR/svg-integration/",

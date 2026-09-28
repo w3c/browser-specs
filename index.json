@@ -14457,7 +14457,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "accname"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/act-rules-format-1.1/",
@@ -15458,7 +15464,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "core-aam"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/credential-management-1/",
@@ -21958,7 +21970,16 @@
     "title": "Digital Publishing Accessibility API Mappings 1.1",
     "source": "w3c",
     "shortTitle": "Digital Publishing Accessibility API Mappings 1.1",
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "dpub-aam"
+      ],
+      "excludePaths": [
+        "dpub-aam/manual"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/dpub-aria-1.1/",
@@ -21997,7 +22018,13 @@
     "title": "Digital Publishing WAI-ARIA Module 1.1",
     "source": "w3c",
     "shortTitle": "Digital Publishing WAI-ARIA 1.1",
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "dpub-aria"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/dx-prof-1.0/",
@@ -23358,7 +23385,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "graphics-aam"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/graphics-aria-1.0/",
@@ -23399,7 +23432,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "graphics-aria"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/gyroscope/",
@@ -23533,7 +23572,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "html-aam"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/html-aria/",
@@ -28025,6 +28070,45 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/shacl12-inference-rules/",
+    "seriesComposition": "full",
+    "shortname": "shacl12-inference-rules",
+    "series": {
+      "shortname": "shacl-inference-rules",
+      "currentSpecification": "shacl12-inference-rules",
+      "title": "SHACL Inference Rules",
+      "shortTitle": "SHACL Inference Rules",
+      "releaseUrl": "https://www.w3.org/TR/shacl-inference-rules/",
+      "nightlyUrl": "https://w3c.github.io/data-shapes/shacl-inference-rules/"
+    },
+    "seriesVersion": "1.2",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Data Shapes Working Group",
+        "url": "https://www.w3.org/groups/wg/data-shapes/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/shacl12-inference-rules/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/data-shapes/shacl12-inference-rules/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/data-shapes",
+      "sourcePath": "shacl12-inference-rules/index.html",
+      "filename": "index.html"
+    },
+    "title": "SHACL 1.2 Inference Rules",
+    "source": "w3c",
+    "shortTitle": "SHACL 1.2 Inference Rules",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/shacl12-node-expr/",
     "seriesComposition": "full",
     "shortname": "shacl12-node-expr",
@@ -28702,7 +28786,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "svg-aam"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/svg-integration/",
@@ -30520,15 +30610,15 @@
       "title": "Data Catalog Vocabulary (DCAT)",
       "shortTitle": "DCAT",
       "releaseUrl": "https://www.w3.org/TR/vocab-dcat/",
-      "nightlyUrl": "https://w3c.github.io/dxwg/dcat/"
+      "nightlyUrl": "https://w3c.github.io/dx-dcat/TR/"
     },
     "seriesVersion": "3",
     "nightly": {
-      "url": "https://w3c.github.io/dxwg/dcat/",
+      "url": "https://w3c.github.io/dx-dcat/TR/",
       "status": "Editor's Draft",
       "sourcePath": "dcat/index.html",
       "alternateUrls": [],
-      "repository": "https://github.com/w3c/dxwg",
+      "repository": "https://github.com/w3c/dx-dcat",
       "filename": "index.html"
     },
     "organization": "W3C",
@@ -30790,7 +30880,18 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
+        "accname",
+        "core-aam",
+        "dpub-aam",
+        "dpub-aria",
+        "graphics-aam",
+        "graphics-aria",
+        "html-aam",
+        "svg-aam",
         "wai-aria"
+      ],
+      "excludePaths": [
+        "dpub-aam/manual"
       ]
     }
   },
@@ -30838,7 +30939,18 @@
     "tests": {
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
+        "accname",
+        "core-aam",
+        "dpub-aam",
+        "dpub-aria",
+        "graphics-aam",
+        "graphics-aria",
+        "html-aam",
+        "svg-aam",
         "wai-aria"
+      ],
+      "excludePaths": [
+        "dpub-aam/manual"
       ]
     }
   },

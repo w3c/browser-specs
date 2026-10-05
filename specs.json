@@ -2190,6 +2190,13 @@
   "https://www.w3.org/TR/webaudio-1.1/",
   {
     "url": "https://www.w3.org/TR/webauthn-3/",
+    "shortTitle": "Web Authentication",
+    "nightly": {
+      "url": "https://www.w3.org/TR/webauthn-3/"
+    }
+  },
+  {
+    "url": "https://www.w3.org/TR/webauthn-4/",
     "shortTitle": "Web Authentication"
   },
   "https://www.w3.org/TR/webcodecs-aac-codec-registration/",

@@ -652,6 +652,7 @@
     ]
   },
   "https://tc39.es/proposal-temporal/",
+  "https://tc39.es/proposal-thenable-curtailment/",
   {
     "url": "https://tc39.es/proposal-upsert/",
     "standing": "discontinued",

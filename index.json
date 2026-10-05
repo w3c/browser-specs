@@ -6800,6 +6800,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-thenable-curtailment/",
+    "seriesComposition": "full",
+    "shortname": "tc39-thenable-curtailment",
+    "series": {
+      "shortname": "tc39-thenable-curtailment",
+      "currentSpecification": "tc39-thenable-curtailment",
+      "title": "SafePromiseResolve",
+      "shortTitle": "SafePromiseResolve",
+      "nightlyUrl": "https://tc39.es/proposal-thenable-curtailment/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-thenable-curtailment/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-thenable-curtailment",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "SafePromiseResolve",
+    "source": "spec",
+    "shortTitle": "SafePromiseResolve",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-upsert/",
     "seriesComposition": "full",
     "shortname": "tc39-upsert",
@@ -29818,6 +29852,46 @@
     "standing": "good"
   },
   {
+    "url": "https://www.w3.org/TR/vc-bitstring-status-list-1.1/",
+    "seriesComposition": "full",
+    "shortname": "vc-bitstring-status-list-1.1",
+    "series": {
+      "shortname": "vc-bitstring-status-list",
+      "currentSpecification": "vc-bitstring-status-list",
+      "title": "Bitstring Status List",
+      "shortTitle": "Bitstring Status List",
+      "releaseUrl": "https://www.w3.org/TR/vc-bitstring-status-list/",
+      "nightlyUrl": "https://www.w3.org/TR/vc-bitstring-status-list/"
+    },
+    "seriesVersion": "1.1",
+    "seriesPrevious": "vc-bitstring-status-list",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Verifiable Credentials Working Group",
+        "url": "https://www.w3.org/groups/wg/vc/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/vc-bitstring-status-list-1.1/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/vc-bitstring-status-list/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/vc-bitstring-status-list",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Bitstring Status List v1.1",
+    "source": "w3c",
+    "shortTitle": "Bitstring Status List v1.1",
+    "categories": [],
+    "standing": "good"
+  },
+  {
     "url": "https://www.w3.org/TR/vc-bitstring-status-list/",
     "seriesComposition": "full",
     "shortname": "vc-bitstring-status-list",
@@ -29827,8 +29901,15 @@
       "title": "Bitstring Status List",
       "shortTitle": "Bitstring Status List",
       "releaseUrl": "https://www.w3.org/TR/vc-bitstring-status-list/",
-      "nightlyUrl": "https://w3c.github.io/vc-bitstring-status-list/"
+      "nightlyUrl": "https://www.w3.org/TR/vc-bitstring-status-list/"
     },
+    "nightly": {
+      "url": "https://www.w3.org/TR/vc-bitstring-status-list/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "index.html"
+    },
+    "seriesNext": "vc-bitstring-status-list-1.1",
     "organization": "W3C",
     "groups": [
       {
@@ -29840,14 +29921,6 @@
       "url": "https://www.w3.org/TR/vc-bitstring-status-list/",
       "status": "Recommendation",
       "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/vc-bitstring-status-list/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/vc-bitstring-status-list",
-      "sourcePath": "index.html",
-      "filename": "index.html"
     },
     "title": "Bitstring Status List v1.0",
     "source": "w3c",
@@ -31544,7 +31617,7 @@
     "shortname": "webauthn-3",
     "series": {
       "shortname": "webauthn",
-      "currentSpecification": "webauthn-3",
+      "currentSpecification": "webauthn-4",
       "title": "Web Authentication",
       "shortTitle": "Web Authentication",
       "releaseUrl": "https://www.w3.org/TR/webauthn/",
@@ -31552,6 +31625,13 @@
     },
     "seriesVersion": "3",
     "shortTitle": "Web Authentication",
+    "nightly": {
+      "url": "https://www.w3.org/TR/webauthn-3/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "filename": "index.html"
+    },
+    "seriesNext": "webauthn-4",
     "organization": "W3C",
     "groups": [
       {
@@ -31564,6 +31644,40 @@
       "status": "Recommendation",
       "filename": "Overview.html"
     },
+    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
+    "source": "w3c",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://www.w3.org/TR/webauthn-4/",
+    "seriesComposition": "full",
+    "shortname": "webauthn-4",
+    "series": {
+      "shortname": "webauthn",
+      "currentSpecification": "webauthn-4",
+      "title": "Web Authentication",
+      "shortTitle": "Web Authentication",
+      "releaseUrl": "https://www.w3.org/TR/webauthn/",
+      "nightlyUrl": "https://w3c.github.io/webauthn/"
+    },
+    "seriesVersion": "4",
+    "shortTitle": "Web Authentication",
+    "seriesPrevious": "webauthn-3",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Authentication Working Group",
+        "url": "https://www.w3.org/groups/wg/webauthn/"
+      }
+    ],
+    "release": {
+      "url": "https://www.w3.org/TR/webauthn-4/",
+      "status": "First Public Working Draft",
+      "filename": "Overview.html"
+    },
     "nightly": {
       "url": "https://w3c.github.io/webauthn/",
       "status": "Editor's Draft",
@@ -31572,7 +31686,7 @@
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
-    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
+    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 4",
     "source": "w3c",
     "categories": [
       "browser"

@@ -4660,7 +4660,7 @@
       "status": "Living Standard",
       "alternateUrls": [],
       "repository": "https://github.com/whatwg/serial",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "WebSerial",

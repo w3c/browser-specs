@@ -5178,6 +5178,10 @@
       "shortTitle": "Atomics.pause",
       "nightlyUrl": "https://tc39.es/proposal-atomics-microwait/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5198,8 +5202,7 @@
     "shortTitle": "Atomics.pause",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
@@ -5489,6 +5492,10 @@
       "shortTitle": "ECMAScript Explicit Resource Management",
       "nightlyUrl": "https://tc39.es/proposal-explicit-resource-management/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -5509,8 +5516,7 @@
     "shortTitle": "ECMAScript Explicit Resource Management",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-float16array/",
@@ -6168,6 +6174,10 @@
       "shortTitle": "Proposal Iterator Join",
       "nightlyUrl": "https://tc39.es/proposal-iterator-join/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -6188,8 +6198,7 @@
     "shortTitle": "Proposal Iterator Join",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-iterator-sequencing/",
@@ -6239,6 +6248,10 @@
       "shortTitle": "Joint Iteration",
       "nightlyUrl": "https://tc39.es/proposal-joint-iteration/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -6259,8 +6272,7 @@
     "shortTitle": "Joint Iteration",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-json-modules/",
@@ -6310,7 +6322,10 @@
       "shortTitle": "JSON.parse source text access",
       "nightlyUrl": "https://tc39.es/proposal-json-parse-with-source/"
     },
-    "standing": "good",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ],
     "organization": "Ecma International",
     "groups": [
       {
@@ -7236,6 +7251,40 @@
     "title": "AT Driver",
     "source": "spec",
     "shortTitle": "AT Driver",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/container-timing/",
+    "seriesComposition": "full",
+    "shortname": "container-timing",
+    "series": {
+      "shortname": "container-timing",
+      "currentSpecification": "container-timing",
+      "title": "Container Timing API",
+      "shortTitle": "Container Timing API",
+      "nightlyUrl": "https://w3c.github.io/container-timing/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/container-timing/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/container-timing",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Container Timing API",
+    "source": "spec",
+    "shortTitle": "Container Timing API",
     "categories": [
       "browser"
     ],
@@ -9290,40 +9339,6 @@
     "title": "Connection Allowlists",
     "source": "spec",
     "shortTitle": "Connection Allowlists",
-    "categories": [
-      "browser"
-    ],
-    "standing": "good"
-  },
-  {
-    "url": "https://wicg.github.io/container-timing/",
-    "seriesComposition": "full",
-    "shortname": "container-timing",
-    "series": {
-      "shortname": "container-timing",
-      "currentSpecification": "container-timing",
-      "title": "Container Timing API",
-      "shortTitle": "Container Timing API",
-      "nightlyUrl": "https://wicg.github.io/container-timing/"
-    },
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://wicg.github.io/container-timing/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/WICG/container-timing",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Container Timing API",
-    "source": "spec",
-    "shortTitle": "Container Timing API",
     "categories": [
       "browser"
     ],

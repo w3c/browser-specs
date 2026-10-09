@@ -612,7 +612,10 @@
   },
   {
     "url": "https://tc39.es/proposal-json-parse-with-source/",
-    "standing": "good"
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-math-sum/",

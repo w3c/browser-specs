@@ -465,7 +465,13 @@
   "https://tc39.es/proposal-defer-import-eval/",
   "https://tc39.es/proposal-dynamic-code-brand-checks/",
   "https://tc39.es/proposal-error-stack-accessor/",
-  "https://tc39.es/proposal-explicit-resource-management/",
+  {
+    "url": "https://tc39.es/proposal-explicit-resource-management/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-float16array/",
     "standing": "discontinued",

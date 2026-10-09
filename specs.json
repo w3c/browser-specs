@@ -680,6 +680,7 @@
     "url": "https://w3c.github.io/aria/pdf-aam/"
   },
   "https://w3c.github.io/at-driver/",
+  "https://w3c.github.io/container-timing/",
   {
     "url": "https://w3c.github.io/data-shapes/shacl12-cs/",
     "formerNames": [
@@ -871,7 +872,6 @@
     ]
   },
   "https://wicg.github.io/connection-allowlists/",
-  "https://wicg.github.io/container-timing/",
   "https://wicg.github.io/content-index/spec/",
   "https://wicg.github.io/cpu-performance/",
   "https://wicg.github.io/crash-reporting/",

@@ -444,7 +444,13 @@
     ]
   },
   "https://tc39.es/proposal-async-explicit-resource-management/",
-  "https://tc39.es/proposal-atomics-microwait/",
+  {
+    "url": "https://tc39.es/proposal-atomics-microwait/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-atomics-wait-async/",
     "standing": "discontinued",
@@ -465,7 +471,13 @@
   "https://tc39.es/proposal-defer-import-eval/",
   "https://tc39.es/proposal-dynamic-code-brand-checks/",
   "https://tc39.es/proposal-error-stack-accessor/",
-  "https://tc39.es/proposal-explicit-resource-management/",
+  {
+    "url": "https://tc39.es/proposal-explicit-resource-management/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-float16array/",
     "standing": "discontinued",
@@ -570,7 +582,13 @@
     ]
   },
   "https://tc39.es/proposal-iterator-includes/",
-  "https://tc39.es/proposal-iterator-join/",
+  {
+    "url": "https://tc39.es/proposal-iterator-join/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-iterator-sequencing/",
     "standing": "discontinued",
@@ -578,7 +596,13 @@
       "ecmascript"
     ]
   },
-  "https://tc39.es/proposal-joint-iteration/",
+  {
+    "url": "https://tc39.es/proposal-joint-iteration/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
+  },
   {
     "url": "https://tc39.es/proposal-json-modules/",
     "standing": "discontinued",
@@ -588,7 +612,10 @@
   },
   {
     "url": "https://tc39.es/proposal-json-parse-with-source/",
-    "standing": "good"
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "ecmascript"
+    ]
   },
   {
     "url": "https://tc39.es/proposal-math-sum/",

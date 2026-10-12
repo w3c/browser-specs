@@ -3082,6 +3082,46 @@
     }
   },
   {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/",
+    "seriesComposition": "full",
+    "shortname": "EXT_polygon_offset_clamp",
+    "series": {
+      "shortname": "EXT_polygon_offset_clamp",
+      "currentSpecification": "EXT_polygon_offset_clamp",
+      "title": "WebGL EXT_polygon_offset_clamp Extension Specification",
+      "shortTitle": "WebGL EXT_polygon_offset_clamp Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/EXT_polygon_offset_clamp/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL EXT_polygon_offset_clamp Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL EXT_polygon_offset_clamp Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
     "url": "https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/",
     "seriesComposition": "full",
     "shortname": "EXT_shader_texture_lod",

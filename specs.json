@@ -293,6 +293,7 @@
   "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
   "https://registry.khronos.org/webgl/extensions/EXT_float_blend/",
   "https://registry.khronos.org/webgl/extensions/EXT_frag_depth/",
+  "https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/",
   "https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/",
   "https://registry.khronos.org/webgl/extensions/EXT_sRGB/",
   "https://registry.khronos.org/webgl/extensions/EXT_texture_compression_bptc/",

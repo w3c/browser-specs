@@ -2842,6 +2842,46 @@
     }
   },
   {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_control/",
+    "seriesComposition": "full",
+    "shortname": "EXT_clip_control",
+    "series": {
+      "shortname": "EXT_clip_control",
+      "currentSpecification": "EXT_clip_control",
+      "title": "WebGL EXT_clip_control Extension Specification",
+      "shortTitle": "WebGL EXT_clip_control Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_clip_control/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_control/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/EXT_clip_control/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL EXT_clip_control Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL EXT_clip_control Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
     "url": "https://registry.khronos.org/webgl/extensions/EXT_color_buffer_float/",
     "seriesComposition": "full",
     "shortname": "EXT_color_buffer_float",
@@ -2910,6 +2950,86 @@
     "title": "WebGL EXT_color_buffer_half_float Extension Specification",
     "source": "spec",
     "shortTitle": "WebGL EXT_color_buffer_half_float Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_conservative_depth/",
+    "seriesComposition": "full",
+    "shortname": "EXT_conservative_depth",
+    "series": {
+      "shortname": "EXT_conservative_depth",
+      "currentSpecification": "EXT_conservative_depth",
+      "title": "WebGL EXT_conservative_depth Extension Specification",
+      "shortTitle": "WebGL EXT_conservative_depth Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_conservative_depth/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/EXT_conservative_depth/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/EXT_conservative_depth/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL EXT_conservative_depth Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL EXT_conservative_depth Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_depth_clamp/",
+    "seriesComposition": "full",
+    "shortname": "EXT_depth_clamp",
+    "series": {
+      "shortname": "EXT_depth_clamp",
+      "currentSpecification": "EXT_depth_clamp",
+      "title": "WebGL EXT_depth_clamp Extension Specification",
+      "shortTitle": "WebGL EXT_depth_clamp Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_depth_clamp/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/EXT_depth_clamp/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/EXT_depth_clamp/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL EXT_depth_clamp Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL EXT_depth_clamp Extension",
     "categories": [
       "browser"
     ],
@@ -3122,6 +3242,46 @@
     }
   },
   {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_render_snorm/",
+    "seriesComposition": "full",
+    "shortname": "EXT_render_snorm",
+    "series": {
+      "shortname": "EXT_render_snorm",
+      "currentSpecification": "EXT_render_snorm",
+      "title": "WebGL EXT_render_snorm Extension Specification",
+      "shortTitle": "WebGL EXT_render_snorm Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_render_snorm/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/EXT_render_snorm/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/EXT_render_snorm/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL EXT_render_snorm Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL EXT_render_snorm Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
     "url": "https://registry.khronos.org/webgl/extensions/EXT_shader_texture_lod/",
     "seriesComposition": "full",
     "shortname": "EXT_shader_texture_lod",
@@ -3322,6 +3482,46 @@
     }
   },
   {
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_mirror_clamp_to_edge/",
+    "seriesComposition": "full",
+    "shortname": "EXT_texture_mirror_clamp_to_edge",
+    "series": {
+      "shortname": "EXT_texture_mirror_clamp_to_edge",
+      "currentSpecification": "EXT_texture_mirror_clamp_to_edge",
+      "title": "WebGL EXT_texture_mirror_clamp_to_edge Extension Specification",
+      "shortTitle": "WebGL EXT_texture_mirror_clamp_to_edge Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/EXT_texture_mirror_clamp_to_edge/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_mirror_clamp_to_edge/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/EXT_texture_mirror_clamp_to_edge/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL EXT_texture_mirror_clamp_to_edge Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL EXT_texture_mirror_clamp_to_edge Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
     "url": "https://registry.khronos.org/webgl/extensions/EXT_texture_norm16/",
     "seriesComposition": "full",
     "shortname": "EXT_texture_norm16",
@@ -3390,6 +3590,46 @@
     "title": "WebGL KHR_parallel_shader_compile Extension Specification",
     "source": "spec",
     "shortTitle": "WebGL KHR_parallel_shader_compile Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/NV_shader_noperspective_interpolation/",
+    "seriesComposition": "full",
+    "shortname": "NV_shader_noperspective_interpolation",
+    "series": {
+      "shortname": "NV_shader_noperspective_interpolation",
+      "currentSpecification": "NV_shader_noperspective_interpolation",
+      "title": "WebGL NV_shader_noperspective_interpolation Extension Specification",
+      "shortTitle": "WebGL NV_shader_noperspective_interpolation Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/NV_shader_noperspective_interpolation/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/NV_shader_noperspective_interpolation/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/NV_shader_noperspective_interpolation/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL NV_shader_noperspective_interpolation Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL NV_shader_noperspective_interpolation Extension",
     "categories": [
       "browser"
     ],
@@ -3510,6 +3750,86 @@
     "title": "WebGL OES_fbo_render_mipmap Extension Specification",
     "source": "spec",
     "shortTitle": "WebGL OES_fbo_render_mipmap Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/OES_sample_variables/",
+    "seriesComposition": "full",
+    "shortname": "OES_sample_variables",
+    "series": {
+      "shortname": "OES_sample_variables",
+      "currentSpecification": "OES_sample_variables",
+      "title": "WebGL OES_sample_variables Extension Specification",
+      "shortTitle": "WebGL OES_sample_variables Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/OES_sample_variables/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/OES_sample_variables/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/OES_sample_variables/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL OES_sample_variables Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL OES_sample_variables Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/OES_shader_multisample_interpolation/",
+    "seriesComposition": "full",
+    "shortname": "OES_shader_multisample_interpolation",
+    "series": {
+      "shortname": "OES_shader_multisample_interpolation",
+      "currentSpecification": "OES_shader_multisample_interpolation",
+      "title": "WebGL OES_shader_multisample_interpolation Extension Specification",
+      "shortTitle": "WebGL OES_shader_multisample_interpolation Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/OES_shader_multisample_interpolation/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/OES_shader_multisample_interpolation/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/OES_shader_multisample_interpolation/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL OES_shader_multisample_interpolation Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL OES_shader_multisample_interpolation Extension",
     "categories": [
       "browser"
     ],
@@ -3830,6 +4150,46 @@
     "title": "WebGL WEBGL_blend_equation_advanced_coherent Extension Draft Specification",
     "source": "spec",
     "shortTitle": "WebGL WEBGL_blend_equation_advanced_coherent Extension Draft",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_blend_func_extended/",
+    "seriesComposition": "full",
+    "shortname": "WEBGL_blend_func_extended",
+    "series": {
+      "shortname": "WEBGL_blend_func_extended",
+      "currentSpecification": "WEBGL_blend_func_extended",
+      "title": "WebGL WEBGL_blend_func_extended Extension Specification",
+      "shortTitle": "WebGL WEBGL_blend_func_extended Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_blend_func_extended/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/WEBGL_blend_func_extended/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/WEBGL_blend_func_extended/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL WEBGL_blend_func_extended Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL WEBGL_blend_func_extended Extension",
     "categories": [
       "browser"
     ],
@@ -4482,6 +4842,46 @@
     }
   },
   {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_polygon_mode/",
+    "seriesComposition": "full",
+    "shortname": "WEBGL_polygon_mode",
+    "series": {
+      "shortname": "WEBGL_polygon_mode",
+      "currentSpecification": "WEBGL_polygon_mode",
+      "title": "WebGL WEBGL_polygon_mode Extension Specification",
+      "shortTitle": "WebGL WEBGL_polygon_mode Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_polygon_mode/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/WEBGL_polygon_mode/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/WEBGL_polygon_mode/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL WEBGL_polygon_mode Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL WEBGL_polygon_mode Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
     "seriesComposition": "full",
     "shortname": "WEBGL_provoking_vertex",
@@ -4510,6 +4910,126 @@
     "title": "WebGL WEBGL_provoking_vertex Extension Specification",
     "source": "spec",
     "shortTitle": "WebGL WEBGL_provoking_vertex Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_render_shared_exponent/",
+    "seriesComposition": "full",
+    "shortname": "WEBGL_render_shared_exponent",
+    "series": {
+      "shortname": "WEBGL_render_shared_exponent",
+      "currentSpecification": "WEBGL_render_shared_exponent",
+      "title": "WebGL WEBGL_render_shared_exponent Extension Specification",
+      "shortTitle": "WebGL WEBGL_render_shared_exponent Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_render_shared_exponent/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/WEBGL_render_shared_exponent/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/WEBGL_render_shared_exponent/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL WEBGL_render_shared_exponent Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL WEBGL_render_shared_exponent Extension",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_shader_pixel_local_storage/",
+    "seriesComposition": "full",
+    "shortname": "WEBGL_shader_pixel_local_storage",
+    "series": {
+      "shortname": "WEBGL_shader_pixel_local_storage",
+      "currentSpecification": "WEBGL_shader_pixel_local_storage",
+      "title": "WebGL WEBGL_shader_pixel_local_storage Extension Draft Specification",
+      "shortTitle": "WebGL WEBGL_shader_pixel_local_storage Extension Draft",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_shader_pixel_local_storage/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/WEBGL_shader_pixel_local_storage/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/WEBGL_shader_pixel_local_storage/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL WEBGL_shader_pixel_local_storage Extension Draft Specification",
+    "source": "spec",
+    "shortTitle": "WebGL WEBGL_shader_pixel_local_storage Extension Draft",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "testPaths": [
+        "conformance-suites"
+      ]
+    }
+  },
+  {
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_stencil_texturing/",
+    "seriesComposition": "full",
+    "shortname": "WEBGL_stencil_texturing",
+    "series": {
+      "shortname": "WEBGL_stencil_texturing",
+      "currentSpecification": "WEBGL_stencil_texturing",
+      "title": "WebGL WEBGL_stencil_texturing Extension Specification",
+      "shortTitle": "WebGL WEBGL_stencil_texturing Extension",
+      "nightlyUrl": "https://registry.khronos.org/webgl/extensions/WEBGL_stencil_texturing/"
+    },
+    "organization": "Khronos Group",
+    "groups": [
+      {
+        "name": "WebGL Working Group",
+        "url": "https://www.khronos.org/webgl/"
+      }
+    ],
+    "nightly": {
+      "url": "https://registry.khronos.org/webgl/extensions/WEBGL_stencil_texturing/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/KhronosGroup/WebGL",
+      "sourcePath": "extensions/WEBGL_stencil_texturing/extension.xml",
+      "filename": "index.html"
+    },
+    "title": "WebGL WEBGL_stencil_texturing Extension Specification",
+    "source": "spec",
+    "shortTitle": "WebGL WEBGL_stencil_texturing Extension",
     "categories": [
       "browser"
     ],

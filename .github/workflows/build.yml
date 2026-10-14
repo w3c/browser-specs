@@ -7,6 +7,10 @@ on:
     - cron: '10 18 * * SAT,SUN'
   workflow_dispatch:
     inputs:
+      skipBuild:
+        description: "Skip build, just reuse index.json directly"
+        required: false
+        type: boolean
       skipSpecs:
         description: "Spec URLs to skip (CSV string)"
         required: false
@@ -40,6 +44,7 @@ jobs:
       run: npm ci
 
     - name: Build new index file
+      if: ${{ !inputs.skipBuild }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_SPECS: ${{ github.event_name == 'workflow_dispatch' && inputs.skipSpecs || 'none' }}

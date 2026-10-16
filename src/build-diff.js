@@ -182,7 +182,7 @@ async function buildCommits(newRef, baseRef, { diffType = "diff", log = console.
   log(`Retrieve specs.json at "${baseRef}"... done`);  
 
   log(`Retrieve index.json at "${baseRef}"...`);
-  const baseIndexStr = execSync(`git show ${baseRef}:index.json`, { encoding: "utf8" });
+  const baseIndexStr = execSync(`git show ${baseRef}:index.json`, { encoding: "utf8", maxBuffer: 10*1024*1024 });
   const baseIndex = JSON.parse(baseIndexStr);
   log(`Retrieve index.json at "${baseRef}"... done`);
 

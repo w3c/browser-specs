@@ -77,7 +77,7 @@ async function computeDiff(name, folder) {
   const installedFiles = path.join(tmpFolder, "node_modules", name);
   let diff = execSync(
     `diff ${installedFiles} packages/${folder} --ignore-trailing-space --exclude=package.json --exclude=README.md --exclude=LICENSE.md --unified=3 || echo -n`,
-    { encoding: "utf8" });
+    { encoding: "utf8", maxBuffer: 10*1024*1024 });
 
   const diffReadme = execSync(
     `diff ${installedFiles}/README.md packages/${folder}/README.md --ignore-trailing-space --unified=3 || echo -n`,

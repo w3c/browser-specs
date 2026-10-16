@@ -1987,6 +1987,7 @@
         "imagebitmap-renderingcontext",
         "import-maps",
         "navigation-api",
+        "speculation-rules",
         "webmessaging",
         "webstorage",
         "workers",
@@ -1996,7 +1997,9 @@
       "excludePaths": [
         "html/cross-origin-embedder-policy/credentialless",
         "html/dom/partial-updates/tentative",
-        "html/cross-origin-embedder-policy/credentialless"
+        "html/cross-origin-embedder-policy/credentialless",
+        "speculation-rules/prefetch",
+        "speculation-rules/prerender"
       ]
     }
   },
@@ -2097,7 +2100,7 @@
       "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/immersive-web/model-element",
-      "sourcePath": "index.html",
+      "sourcePath": "index.bs",
       "filename": "index.html"
     },
     "title": "The <model> element",
@@ -11378,7 +11381,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "speculation-rules/prefetch"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/nav-speculation/prerendering.html",
@@ -11412,7 +11421,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "speculation-rules/prerender"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/nav-speculation/speculation-rules.html",
@@ -12834,7 +12849,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "WebCryptoAPI/modern-algos"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/webcrypto-secure-curves/",
@@ -12868,7 +12889,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "WebCryptoAPI/secure-curves"
+      ]
+    }
   },
   {
     "url": "https://wicg.github.io/webpackage/loading.html",
@@ -29669,7 +29696,7 @@
         "https://svgwg.org/svg2-draft/"
       ],
       "repository": "https://github.com/w3c/svgwg",
-      "sourcePath": "master/Overview.html",
+      "sourcePath": "index.html",
       "pages": [
         "https://w3c.github.io/svgwg/svg2-draft/intro.html",
         "https://w3c.github.io/svgwg/svg2-draft/conform.html",
@@ -32968,6 +32995,10 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "WebCryptoAPI"
+      ],
+      "excludePaths": [
+        "WebCryptoAPI/modern-algos",
+        "WebCryptoAPI/secure-curves"
       ]
     }
   },

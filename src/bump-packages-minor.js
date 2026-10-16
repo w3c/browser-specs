@@ -39,7 +39,7 @@ async function isMinorBumpNeeded(type) {
   // Retrieve contents of last released index file
   const res = execSync(
     `git show ${refs[0]}:index.json`,
-    { encoding: 'utf8' }).trim();
+    { encoding: 'utf8', maxBuffer: 10*1024*1024 }).trim();
   let lastIndexFile = JSON.parse(res);
 
   // Load new file

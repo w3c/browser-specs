@@ -11244,6 +11244,43 @@
     }
   },
   {
+    "url": "https://wicg.github.io/longtasks/",
+    "seriesComposition": "full",
+    "shortname": "longtasks",
+    "series": {
+      "shortname": "longtasks",
+      "currentSpecification": "longtasks",
+      "title": "Long Tasks API",
+      "shortTitle": "Long Tasks API",
+      "nightlyUrl": "https://wicg.github.io/longtasks/"
+    },
+    "formerNames": [
+      "longtasks-1"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Performance Working Group",
+        "url": "https://www.w3.org/groups/wg/webperf/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/longtasks/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/longtasks",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Long Tasks API",
+    "source": "spec",
+    "shortTitle": "Long Tasks API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/manifest-incubations/",
     "seriesComposition": "full",
     "shortname": "manifest-incubations",
@@ -24896,53 +24933,6 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "long-animation-frame"
-      ]
-    }
-  },
-  {
-    "url": "https://www.w3.org/TR/longtasks-1/",
-    "seriesComposition": "full",
-    "shortname": "longtasks-1",
-    "series": {
-      "shortname": "longtasks",
-      "currentSpecification": "longtasks-1",
-      "title": "Long Tasks API",
-      "shortTitle": "Long Tasks API",
-      "releaseUrl": "https://www.w3.org/TR/longtasks/",
-      "nightlyUrl": "https://w3c.github.io/longtasks/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/groups/wg/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/longtasks-1/",
-      "status": "Discontinued Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://w3c.github.io/longtasks/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/longtasks",
-      "sourcePath": "index.bs",
-      "filename": "index.html"
-    },
-    "title": "Long Tasks API",
-    "source": "w3c",
-    "shortTitle": "Long Tasks API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "discontinued",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "longtask-timing"
       ]
     }
   },

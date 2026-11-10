@@ -30,11 +30,11 @@
     "@octokit/rest": "^22.0.1",
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
-    "commander": "^15.0.0",
-    "puppeteer": "^25.13.0",
-    "reffy": "^21.2.0",
-    "rimraf": "^6.1.3",
-    "undici": "^8.12.3"
+    "commander": "^15.1.0",
+    "puppeteer": "^25.16.0",
+    "reffy": "^21.2.3",
+    "rimraf": "^6.1.4",
+    "undici": "^8.12.4"
   },
   "allowScripts": {
     "puppeteer": true

@@ -980,6 +980,12 @@
   "https://wicg.github.io/layout-instability/",
   "https://wicg.github.io/local-font-access/",
   "https://wicg.github.io/local-network-access/",
+  {
+    "url": "https://wicg.github.io/longtasks/",
+    "formerNames": [
+      "longtasks-1"
+    ]
+  },
   "https://wicg.github.io/manifest-incubations/",
   "https://wicg.github.io/media-feeds/",
   {
@@ -1772,7 +1778,6 @@
   },
   "https://www.w3.org/TR/largest-contentful-paint/",
   "https://www.w3.org/TR/long-animation-frames/",
-  "https://www.w3.org/TR/longtasks-1/",
   "https://www.w3.org/TR/magnetometer/",
   "https://www.w3.org/TR/manifest-app-info/",
   "https://www.w3.org/TR/mathml-core/",

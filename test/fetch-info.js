@@ -114,10 +114,10 @@ describe("fetch-info module", function () {
 
     it("identifies discontinued IETF specs", timeout, async () => {
       const info = await fetchInfo([
-        { url: "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/", shortname: "idempotency-key-header" }
+        { url: "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability", shortname: "client-hint-reliability" }
       ]);
-      assert.ok(info["idempotency-key-header"]);
-      assert.equal(info["idempotency-key-header"].nightly?.status, "Discontinued Draft");
+      assert.ok(info["client-hint-reliability"]);
+      assert.equal(info["client-hint-reliability"].nightly?.status, "Discontinued Draft");
     });
 
     it("identifies discontinued IETF specs (with new specs)", timeout, async () => {

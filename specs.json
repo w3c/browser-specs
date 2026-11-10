@@ -102,7 +102,8 @@
       "repository": "https://github.com/ietf-wg-httpapi/idempotency",
       "sourcePath": "draft-ietf-httpapi-idempotency-key-header.md"
     },
-    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/"
+    "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header/",
+    "standing": "good"
   },
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-layered-cookies/",
   "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",

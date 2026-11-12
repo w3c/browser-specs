@@ -944,6 +944,12 @@
   },
   "https://wicg.github.io/datacue/",
   "https://wicg.github.io/deprecation-reporting/",
+  {
+    "url": "https://wicg.github.io/device-memory/",
+    "formerNames": [
+      "device-memory-1"
+    ]
+  },
   "https://wicg.github.io/digital-goods/",
   {
     "url": "https://wicg.github.io/direct-sockets/",
@@ -1563,7 +1569,6 @@
     ]
   },
   "https://www.w3.org/TR/design-principles/",
-  "https://www.w3.org/TR/device-memory-1/",
   "https://www.w3.org/TR/device-posture/",
   "https://www.w3.org/TR/did-1.1/",
   {

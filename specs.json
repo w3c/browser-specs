@@ -790,6 +790,7 @@
     },
     "url": "https://w3c.github.io/webextensions/specification/window.browser.html"
   },
+  "https://w3c.github.io/webrtc-extensions/",
   "https://w3c.github.io/webrtc-ice/",
   {
     "url": "https://webassembly.github.io/branch-hinting/core/bikeshed/",

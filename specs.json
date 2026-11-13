@@ -1001,7 +1001,16 @@
     "url": "https://wicg.github.io/longtasks/",
     "formerNames": [
       "longtasks-1"
-    ]
+    ],
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "status": "Draft Community Group Report"
+    }
   },
   "https://wicg.github.io/manifest-incubations/",
   "https://wicg.github.io/media-feeds/",

@@ -738,7 +738,10 @@
     "url": "https://w3c.github.io/editing/docs/execCommand/"
   },
   "https://w3c.github.io/element-timing/",
-  "https://w3c.github.io/gamepad/extensions.html",
+  {
+    "url": "https://w3c.github.io/gamepad/extensions.html",
+    "standing": "discontinued"
+  },
   "https://w3c.github.io/media-playback-quality/",
   "https://w3c.github.io/mediacapture-automation/",
   "https://w3c.github.io/mediacapture-extensions/",

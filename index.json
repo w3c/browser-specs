@@ -7964,6 +7964,7 @@
       "shortTitle": "Gamepad Extensions",
       "nightlyUrl": "https://w3c.github.io/gamepad/extensions.html"
     },
+    "standing": "discontinued",
     "organization": "W3C",
     "groups": [
       {
@@ -7984,8 +7985,7 @@
     "shortTitle": "Gamepad Extensions",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://w3c.github.io/media-playback-quality/",
@@ -8506,6 +8506,80 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "web-extensions"
+      ]
+    }
+  },
+  {
+    "url": "https://w3c.github.io/webextensions/specification/window.browser.html",
+    "seriesComposition": "full",
+    "shortname": "webextensions-browser-global",
+    "series": {
+      "shortname": "webextensions-browser-global",
+      "currentSpecification": "webextensions-browser-global",
+      "title": "window.browser",
+      "shortTitle": "window.browser",
+      "nightlyUrl": "https://w3c.github.io/webextensions/specification/window.browser.html"
+    },
+    "nightly": {
+      "url": "https://w3c.github.io/webextensions/specification/window.browser.html",
+      "status": "Draft Community Group Report",
+      "sourcePath": "specification/window.browser.bs",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webextensions",
+      "filename": "window.browser.html"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebExtensions Community Group",
+        "url": "https://www.w3.org/community/webextensions/"
+      }
+    ],
+    "title": "window.browser",
+    "source": "spec",
+    "shortTitle": "window.browser",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://w3c.github.io/webrtc-extensions/",
+    "seriesComposition": "full",
+    "shortname": "webrtc-extensions",
+    "series": {
+      "shortname": "webrtc-extensions",
+      "currentSpecification": "webrtc-extensions",
+      "title": "WebRTC Extensions",
+      "shortTitle": "WebRTC Extensions",
+      "nightlyUrl": "https://w3c.github.io/webrtc-extensions/"
+    },
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Real-Time Communications Working Group",
+        "url": "https://www.w3.org/groups/wg/webrtc/"
+      }
+    ],
+    "nightly": {
+      "url": "https://w3c.github.io/webrtc-extensions/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/w3c/webrtc-extensions",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "WebRTC Extensions",
+    "source": "spec",
+    "shortTitle": "WebRTC Extensions",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "webrtc-extensions"
       ]
     }
   },
@@ -10198,6 +10272,43 @@
     }
   },
   {
+    "url": "https://wicg.github.io/device-memory/",
+    "seriesComposition": "full",
+    "shortname": "device-memory",
+    "series": {
+      "shortname": "device-memory",
+      "currentSpecification": "device-memory",
+      "title": "Device Memory API",
+      "shortTitle": "Device Memory API",
+      "nightlyUrl": "https://wicg.github.io/device-memory/"
+    },
+    "formerNames": [
+      "device-memory-1"
+    ],
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/device-memory/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/device-memory",
+      "sourcePath": "index.bs",
+      "filename": "index.html"
+    },
+    "title": "Device Memory API",
+    "source": "spec",
+    "shortTitle": "Device Memory API",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://wicg.github.io/digital-goods/",
     "seriesComposition": "full",
     "shortname": "digital-goods",
@@ -11257,21 +11368,21 @@
     "formerNames": [
       "longtasks-1"
     ],
-    "organization": "W3C",
     "groups": [
       {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/groups/wg/webperf/"
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
       }
     ],
     "nightly": {
       "url": "https://wicg.github.io/longtasks/",
-      "status": "Editor's Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/WICG/longtasks",
       "sourcePath": "index.bs",
       "filename": "index.html"
     },
+    "organization": "W3C",
     "title": "Long Tasks API",
     "source": "spec",
     "shortTitle": "Long Tasks API",
@@ -22307,53 +22418,6 @@
     "shortTitle": "Web Platform Design Principles",
     "categories": [],
     "standing": "good"
-  },
-  {
-    "url": "https://www.w3.org/TR/device-memory-1/",
-    "seriesComposition": "full",
-    "shortname": "device-memory-1",
-    "series": {
-      "shortname": "device-memory",
-      "currentSpecification": "device-memory-1",
-      "title": "Device Memory",
-      "shortTitle": "Device Memory",
-      "releaseUrl": "https://www.w3.org/TR/device-memory/",
-      "nightlyUrl": "https://www.w3.org/TR/device-memory/"
-    },
-    "seriesVersion": "1",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Performance Working Group",
-        "url": "https://www.w3.org/groups/wg/webperf/"
-      }
-    ],
-    "release": {
-      "url": "https://www.w3.org/TR/device-memory-1/",
-      "status": "Discontinued Draft",
-      "filename": "Overview.html"
-    },
-    "nightly": {
-      "url": "https://www.w3.org/TR/device-memory/",
-      "status": "Editor's Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/device-memory",
-      "sourcePath": "index.bs",
-      "filename": "Overview.html"
-    },
-    "title": "Device Memory API",
-    "source": "w3c",
-    "shortTitle": "Device Memory API",
-    "categories": [
-      "browser"
-    ],
-    "standing": "discontinued",
-    "tests": {
-      "repository": "https://github.com/web-platform-tests/wpt",
-      "testPaths": [
-        "device-memory"
-      ]
-    }
   },
   {
     "url": "https://www.w3.org/TR/device-posture/",

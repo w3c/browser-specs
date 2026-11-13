@@ -62,11 +62,21 @@ function catchAndFallbackOnExistingData(fn) {
     return fn(spec).catch(err => {
       if (err.name === 'HttpStatusError' && err.status === 404) {
         // If server returns a 404 status, the spec is no longer available at
-        // the expected URL. Data needs to change. Throwing in the absence of
-        // a better reporting mechanism so that the error does not end up
-        // getting lost in action logs.
-        // (Note: code that generates the error is in `load-spec.js`)
-        throw err;
+        // the expected URL. If we explicitly flagged the spec as having been
+        // discontinued, that's probably because the spec disappeared overnight
+        // and we don't yet have it as discontinued in browser-specs. Let's
+        // reuse the last published information, and update the standing to
+        // force the transition to "discontinued".
+        if ((spec.standing === 'discontinued') && spec.__last) {
+          spec.__last.standing = 'discontinued';
+        }
+        else {
+          // Otherwise, data needs to change. Throwing in the absence of
+          // a better reporting mechanism so that the error does not end up
+          // getting lost in action logs.
+          // (Note: code that generates the error is in `load-spec.js`)
+          throw err;
+        }
       }
       if (spec.__last) {
         // TODO: log crawl error more visibly?

@@ -1123,7 +1123,13 @@
   "https://wicg.github.io/webcrypto-modern-algos/",
   "https://wicg.github.io/webcrypto-secure-curves/",
   "https://wicg.github.io/webpackage/loading.html",
-  "https://wicg.github.io/webrtc-diagnostic-logging/",
+  {
+    "url": "https://wicg.github.io/webrtc-diagnostic-logging/",
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "webrtc-extensions"
+    ]
+  },
   "https://wicg.github.io/window-controls-overlay/",
   {
     "url": "https://www.iso.org/standard/54989.html",

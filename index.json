@@ -13052,6 +13052,10 @@
       "shortTitle": "WebRTC Diagnostic Logging API",
       "nightlyUrl": "https://wicg.github.io/webrtc-diagnostic-logging/"
     },
+    "standing": "discontinued",
+    "obsoletedBy": [
+      "webrtc-extensions"
+    ],
     "organization": "W3C",
     "groups": [
       {
@@ -13072,8 +13076,7 @@
     "shortTitle": "WebRTC Diagnostic Logging API",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://wicg.github.io/window-controls-overlay/",

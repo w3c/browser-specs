@@ -5801,6 +5801,40 @@
     "standing": "good"
   },
   {
+    "url": "https://tc39.es/proposal-bigint-math/",
+    "seriesComposition": "full",
+    "shortname": "tc39-bigint-math",
+    "series": {
+      "shortname": "tc39-bigint-math",
+      "currentSpecification": "tc39-bigint-math",
+      "title": "ES BigInt Math (2025)",
+      "shortTitle": "ES BigInt Math",
+      "nightlyUrl": "https://tc39.es/proposal-bigint-math/"
+    },
+    "shortTitle": "ES BigInt Math",
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-bigint-math/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-bigint-math",
+      "sourcePath": "spec.html",
+      "filename": "index.html"
+    },
+    "title": "ES BigInt Math (2025)",
+    "source": "spec",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-canonical-tz/",
     "seriesComposition": "full",
     "shortname": "tc39-canonical-tz",

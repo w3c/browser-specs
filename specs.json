@@ -781,10 +781,6 @@
   "https://w3c.github.io/trace-context-mqtt/",
   "https://w3c.github.io/tracestate-ids-registry/",
   {
-    "url": "https://w3c.github.io/web-share-target/",
-    "standing": "good"
-  },
-  {
     "nightly": {
       "sourcePath": "specification/index.bs"
     },
@@ -1108,6 +1104,10 @@
     "obsoletedBy": [
       "mediaqueries-5"
     ]
+  },
+  {
+    "url": "https://wicg.github.io/web-share-target/",
+    "standing": "good"
   },
   "https://wicg.github.io/web-smart-card/",
   {

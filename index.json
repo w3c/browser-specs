@@ -8490,7 +8490,7 @@
     ],
     "nightly": {
       "url": "https://w3c.github.io/web-share-target/",
-      "status": "Unofficial Proposal Draft",
+      "status": "Draft Community Group Report",
       "alternateUrls": [],
       "repository": "https://github.com/w3c/web-share-target",
       "sourcePath": "index.html",

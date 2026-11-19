@@ -8470,40 +8470,6 @@
     "standing": "good"
   },
   {
-    "url": "https://w3c.github.io/web-share-target/",
-    "seriesComposition": "full",
-    "shortname": "web-share-target",
-    "series": {
-      "shortname": "web-share-target",
-      "currentSpecification": "web-share-target",
-      "title": "Web Share Target API",
-      "shortTitle": "Web Share Target API",
-      "nightlyUrl": "https://w3c.github.io/web-share-target/"
-    },
-    "standing": "good",
-    "organization": "W3C",
-    "groups": [
-      {
-        "name": "Web Platform Incubator Community Group",
-        "url": "https://www.w3.org/community/wicg/"
-      }
-    ],
-    "nightly": {
-      "url": "https://w3c.github.io/web-share-target/",
-      "status": "Draft Community Group Report",
-      "alternateUrls": [],
-      "repository": "https://github.com/w3c/web-share-target",
-      "sourcePath": "index.html",
-      "filename": "index.html"
-    },
-    "title": "Web Share Target API",
-    "source": "spec",
-    "shortTitle": "Web Share Target API",
-    "categories": [
-      "browser"
-    ]
-  },
-  {
     "url": "https://w3c.github.io/webextensions/specification/",
     "seriesComposition": "full",
     "shortname": "webextensions",
@@ -12849,6 +12815,40 @@
     "title": "Web Preferences API",
     "source": "spec",
     "shortTitle": "Web Preferences API",
+    "categories": [
+      "browser"
+    ]
+  },
+  {
+    "url": "https://wicg.github.io/web-share-target/",
+    "seriesComposition": "full",
+    "shortname": "web-share-target",
+    "series": {
+      "shortname": "web-share-target",
+      "currentSpecification": "web-share-target",
+      "title": "Web Share Target API",
+      "shortTitle": "Web Share Target API",
+      "nightlyUrl": "https://wicg.github.io/web-share-target/"
+    },
+    "standing": "good",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Web Platform Incubator Community Group",
+        "url": "https://www.w3.org/community/wicg/"
+      }
+    ],
+    "nightly": {
+      "url": "https://wicg.github.io/web-share-target/",
+      "status": "Draft Community Group Report",
+      "alternateUrls": [],
+      "repository": "https://github.com/WICG/web-share-target",
+      "sourcePath": "index.html",
+      "filename": "index.html"
+    },
+    "title": "Web Share Target API",
+    "source": "spec",
+    "shortTitle": "Web Share Target API",
     "categories": [
       "browser"
     ]

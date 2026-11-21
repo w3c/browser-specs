@@ -555,10 +555,10 @@
       "currentSpecification": "idempotency-key-header",
       "title": "The Idempotency-Key HTTP Header Field",
       "shortTitle": "The Idempotency-Key HTTP Header Field",
-      "nightlyUrl": "https://www.ietf.org/archive/id/draft-ietf-httpapi-idempotency-key-header-08.html"
+      "nightlyUrl": "https://www.ietf.org/archive/id/draft-ietf-httpapi-idempotency-key-header-09.html"
     },
     "nightly": {
-      "url": "https://www.ietf.org/archive/id/draft-ietf-httpapi-idempotency-key-header-08.html",
+      "url": "https://www.ietf.org/archive/id/draft-ietf-httpapi-idempotency-key-header-09.html",
       "status": "Editor's Draft",
       "repository": "https://github.com/ietf-wg-httpapi/idempotency",
       "sourcePath": "draft-ietf-httpapi-idempotency-key-header.md",
@@ -13165,7 +13165,7 @@
       }
     ],
     "title": "Information technology — Digital compression and coding of continuous-tone still images: JPEG File Interchange Format (JFIF) — Part 5:",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -13190,7 +13190,7 @@
       }
     ],
     "title": "Information technology — JPEG XL image coding system — Part 2: File format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],
@@ -13215,7 +13215,7 @@
       }
     ],
     "title": "Information technology — Coding of audio-visual objects — Part 22: Open font format",
-    "source": "spec",
+    "source": "iso",
     "categories": [
       "browser"
     ],

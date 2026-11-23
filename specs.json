@@ -831,6 +831,11 @@
     "title": "WebAssembly Core: Extended Const Expressions"
   },
   {
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Extended Name Section",
+    "url": "https://webassembly.github.io/extended-name-section/core/bikeshed/"
+  },
+  {
     "url": "https://webassembly.github.io/function-references/core/bikeshed/",
     "forkOf": "wasm-core-2",
     "title": "WebAssembly Core: Function Reference Types"

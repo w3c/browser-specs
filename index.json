@@ -1364,6 +1364,44 @@
     }
   },
   {
+    "url": "https://drafts.csswg.org/css-spatial-1/",
+    "seriesComposition": "full",
+    "shortname": "css-spatial-1",
+    "series": {
+      "shortname": "css-spatial",
+      "currentSpecification": "css-spatial-1",
+      "title": "CSS Spatial Layout",
+      "shortTitle": "CSS Spatial Layout",
+      "nightlyUrl": "https://drafts.csswg.org/css-spatial/"
+    },
+    "seriesVersion": "1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-spatial-1/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-spatial-1/",
+        "https://w3c.github.io/csswg-drafts/css-spatial/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-spatial-1/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Spatial Layout Module Level 1",
+    "source": "spec",
+    "shortTitle": "CSS Spatial Layout 1",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://drafts.csswg.org/css-text-5/",
     "seriesComposition": "delta",
     "shortname": "css-text-5",
@@ -8877,6 +8915,43 @@
     },
     "source": "spec",
     "shortTitle": "WebAssembly Core: Extended Const Expressions",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
+    "url": "https://webassembly.github.io/extended-name-section/core/bikeshed/",
+    "seriesComposition": "fork",
+    "shortname": "wasm-core-2-fork-extended-name-section",
+    "series": {
+      "shortname": "wasm-core",
+      "currentSpecification": "wasm-core-2",
+      "title": "WebAssembly Core",
+      "shortTitle": "WebAssembly Core",
+      "releaseUrl": "https://www.w3.org/TR/wasm-core/",
+      "nightlyUrl": "https://webassembly.github.io/spec/core/bikeshed/"
+    },
+    "seriesVersion": "2",
+    "forkOf": "wasm-core-2",
+    "title": "WebAssembly Core: Extended Name Section",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "WebAssembly Community Group",
+        "url": "https://www.w3.org/community/webassembly/"
+      }
+    ],
+    "nightly": {
+      "url": "https://webassembly.github.io/extended-name-section/core/bikeshed/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/WebAssembly/extended-name-section",
+      "sourcePath": "document/core/index.bs",
+      "filename": "index.html"
+    },
+    "source": "spec",
+    "shortTitle": "WebAssembly Core: Extended Name Section",
     "categories": [
       "browser"
     ],
@@ -31758,6 +31833,7 @@
       "wasm-core-2-fork-compact-import-section",
       "wasm-core-2-fork-custom-descriptors",
       "wasm-core-2-fork-extended-const",
+      "wasm-core-2-fork-extended-name-section",
       "wasm-core-2-fork-function-references",
       "wasm-core-2-fork-gc",
       "wasm-core-2-fork-memory64",

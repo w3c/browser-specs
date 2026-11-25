@@ -591,6 +591,14 @@
       "shortTitle": "Cookies: HTTP State Management Mechanism",
       "nightlyUrl": "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html"
     },
+    "nightly": {
+      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/httpwg/http-extensions",
+      "sourcePath": "draft-ietf-httpbis-layered-cookies.md",
+      "filename": "draft-ietf-httpbis-layered-cookies.html"
+    },
     "organization": "IETF",
     "groups": [
       {
@@ -598,21 +606,13 @@
         "url": "https://datatracker.ietf.org/wg/httpbis/"
       }
     ],
-    "nightly": {
-      "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html",
-      "status": "Discontinued Draft",
-      "alternateUrls": [],
-      "repository": "https://github.com/httpwg/http-extensions",
-      "sourcePath": "draft-ietf-httpbis-layered-cookies.md",
-      "filename": "draft-ietf-httpbis-layered-cookies.html"
-    },
     "title": "Cookies: HTTP State Management Mechanism",
     "source": "ietf",
     "shortTitle": "Cookies: HTTP State Management Mechanism",
     "categories": [
       "browser"
     ],
-    "standing": "discontinued"
+    "standing": "good"
   },
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search",
@@ -1178,6 +1178,51 @@
       "repository": "https://github.com/web-platform-tests/wpt",
       "testPaths": [
         "css/css-navigation"
+      ]
+    }
+  },
+  {
+    "url": "https://drafts.csswg.org/css-overscroll-2/",
+    "seriesComposition": "full",
+    "shortname": "css-overscroll-2",
+    "series": {
+      "shortname": "css-overscroll",
+      "currentSpecification": "css-overscroll-1",
+      "title": "CSS Overscroll Behavior",
+      "shortTitle": "CSS Overscroll Behavior",
+      "releaseUrl": "https://www.w3.org/TR/css-overscroll/",
+      "nightlyUrl": "https://drafts.csswg.org/css-overscroll/"
+    },
+    "seriesVersion": "2",
+    "seriesPrevious": "css-overscroll-1",
+    "organization": "W3C",
+    "groups": [
+      {
+        "name": "Cascading Style Sheets (CSS) Working Group",
+        "url": "https://www.w3.org/groups/wg/css/"
+      }
+    ],
+    "nightly": {
+      "url": "https://drafts.csswg.org/css-overscroll-2/",
+      "status": "Editor's Draft",
+      "alternateUrls": [
+        "https://w3c.github.io/csswg-drafts/css-overscroll-2/"
+      ],
+      "repository": "https://github.com/w3c/csswg-drafts",
+      "sourcePath": "css-overscroll-2/Overview.bs",
+      "filename": "index.html"
+    },
+    "title": "CSS Overscroll Behavior Module Level 2",
+    "source": "spec",
+    "shortTitle": "CSS Overscroll Behavior 2",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "css/css-overscroll-behavior"
       ]
     }
   },
@@ -11743,6 +11788,7 @@
       "shortTitle": "overscroll and scrollend events",
       "nightlyUrl": "https://wicg.github.io/overscroll-scrollend-events/"
     },
+    "standing": "discontinued",
     "organization": "W3C",
     "groups": [
       {
@@ -11763,8 +11809,7 @@
     "shortTitle": "overscroll and scrollend events",
     "categories": [
       "browser"
-    ],
-    "standing": "good"
+    ]
   },
   {
     "url": "https://wicg.github.io/page-lifecycle/",
@@ -19997,6 +20042,7 @@
       "nightlyUrl": "https://drafts.csswg.org/css-overscroll/"
     },
     "seriesVersion": "1",
+    "seriesNext": "css-overscroll-2",
     "organization": "W3C",
     "groups": [
       {

@@ -2,6 +2,8 @@
  * Send a GraphQL request to the GitHub GraphQL endpoint, authenticating using
  * the provided token.
  */
+import { fetch } from "./fetch.js";
+
 export default async function (query, variables, graphqlToken) {
   if (typeof variables === 'string') {
     graphqlToken = variables;

@@ -649,6 +649,7 @@
       "ecmascript"
     ]
   },
+  "https://tc39.es/proposal-native-promise-predicate/",
   "https://tc39.es/proposal-nonextensible-applies-to-private/",
   {
     "url": "https://tc39.es/proposal-promise-try/",

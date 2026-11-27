@@ -15,6 +15,7 @@
  * previous data instead. The expectation is that this option will be set for
  * most automated builds.
  */
+import { fetch } from "./fetch.js";
 
 async function fetchInfoFromISO(specs, options) {
   if (!specs || specs.find(spec => !spec.url)) {

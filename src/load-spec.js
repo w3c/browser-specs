@@ -6,6 +6,7 @@
 
 import process from "node:process";
 import { Buffer } from "node:buffer";
+import { userAgent } from "./fetch.js";
 
 class HttpStatusError extends Error {
   constructor(url, status, statusText) {
@@ -71,6 +72,9 @@ export default async function (url, page) {
       }
     }
   }
+
+  // Set custom user-agent string
+  await page.setUserAgent(userAgent);
 
   // Intercept network requests to avoid downloading images and streams
   const cdp = await page.target().createCDPSession();

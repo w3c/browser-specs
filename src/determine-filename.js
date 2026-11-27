@@ -8,6 +8,7 @@
  * - given "https://compat.spec.whatwg.org/", the function would determine that
  * the filename is "index.html".
  */
+import { fetch } from "./fetch.js";
 
 export default async function (url) {
   // Extract filename directly from the URL when possible

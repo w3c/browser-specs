@@ -23,6 +23,7 @@
 import sendGraphQLQuery from "./graphql.js";
 import splitIssueBodyIntoSections from "./split-issue-body.js";
 import loadJSON from "./load-json.js";
+import { fetch } from "./fetch.js";
 
 const config = await loadJSON("config.json");
 const githubToken = config?.GITHUB_TOKEN ?? process.env.GITHUB_TOKEN;

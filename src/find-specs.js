@@ -88,6 +88,8 @@ const watchedCGs = [
  * A few helper functions
  */
 const trimSlash = url => url.endsWith('/') ? url.slice(0, -1) : url;
+const isMultiSpecRepo = repo =>
+  !!multiRepos[repo] || repo === "KhronosGroup/WebGL";
 const matchRepoName = fullName => r => fullName === r.owner.login + '/' + r.name;
 const eitherFilter = (...filters) => value => filters.some(filter => filter(value));
 const hasRepoType = type => r =>
@@ -470,7 +472,49 @@ async function fetchWHATWGSpecs() {
     .flat();
   return whatwgSpecs;
 }
+/**
+ * Retrieve WebGL extensions from the official Khronos registry.
+ * Only ratified, community-approved, and draft extensions are considered.
+ */
+async function fetchWebGLExtensions() {
+  const browser = await puppeteer.launch();
+  try {
+    const page = await browser.newPage();
 
+    await page.goto("https://registry.khronos.org/webgl/extensions/", {
+      waitUntil: "domcontentloaded"
+    });
+
+    await page.waitForSelector("h2");
+
+    const extensions = await page.evaluate(() => {
+      const categories = [
+        "Khronos ratified WebGL Extensions",
+        "Community approved WebGL Extensions",
+        "Draft WebGL Extensions"
+      ];
+
+      return categories.flatMap(category => {
+        const heading = [...document.querySelectorAll("h2")]
+          .find(element => element.textContent.trim() === category);
+
+        const table = heading?.nextElementSibling;
+
+        return table
+          ? [...table.querySelectorAll("a")].map(link => link.href)
+          : [];
+      });
+    });
+
+    return [...new Set(extensions)].map(spec => ({
+      repo: "KhronosGroup/WebGL",
+      spec
+    }));
+  }
+  finally {
+    await browser.close();
+  }
+}
 
 /**
  * Retrieve the list of specs and repositories that should not be reported
@@ -565,7 +609,7 @@ async function fetchKnownCandidates() {
         const match = rationaleSection.value?.match(reRepository);
         if (match) {
           entry.repo = match[1].replace(/https:\/\/github\.com\//, "");
-          if (multiRepos[entry.repo]) {
+          if (isMultiSpecRepo(entry.repo)) {
             // The repository contains multiple specs and thus cannot be used
             // as evidence that the spec is already a known one.
             entry.repo = null;
@@ -598,6 +642,7 @@ async function findSpecs() {
     .concat(await fetchWHATWGSpecs())
     .concat(await fetchStage3Proposals())
     .concat(await fetchMultiReposSpecs())
+    .concat(await fetchWebGLExtensions())
     .map(entry => {
       // Entry may already have been reported in an issue
       let known = knownCandidates.find(k => k.spec === entry.spec);
@@ -616,7 +661,7 @@ async function findSpecs() {
         entry.pendingIssue = known;
       }
 
-      if (!multiRepos[entry.repo]) {
+      if (!isMultiSpecRepo(entry.repo)) {
         // Repo supposedly only contains one spec. If we already have an issue
         // to process for that repo, or if we already dismissed it, let's
         // ignore
